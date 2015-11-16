@@ -1,0 +1,24 @@
+{
+  "name": "emoji-db",
+  "version": "1.0.0",
+  "description": "This is a quick and dirty script that takes the contents of the Unicode emoji reference page found at [unicode.org][unicode-emoji] (caution: 25MB page) and turns it into a more useful JSON file.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meyer/emoji-db.git"
+  },
+  "keywords": [
+    "emoji",
+    "database"
+  ],
+  "author": "meyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meyer/emoji-db/issues"
+  },
+  "homepage": "https://github.com/meyer/emoji-db",
+  "dependencies": {
+    "emojilib": "^1.1.0"
+  }
+}
