@@ -1,6 +1,8 @@
+require 'nokogiri'
 require 'base64'
 require 'json'
 require './utils.rb'
+require 'shellwords'
 
 EmojiURL = 'http://unicode.org/emoji/charts/full-emoji-list.html'
 EmojiFile = './unicode.org-dump.html'
@@ -30,108 +32,98 @@ def generateEmojiDB(*categories)
 
   emojiDB = {}
 
-  emojiCategories = [
-    'bw',
-    'apple',
-    'android',
-    'twitter',
-    'windows',
-    'gmail',
-    'docomo',
-    'kddi',
-    'softbank',
-  ]
+  emojiCategories = {
+    'Code' =>        'codepoints',
+    'Browser' =>     'emoji',
+    'B&W*' =>        'bw',
+    'Apple' =>       'apple',
+    'Goog' =>        'android',
+    'Twit' =>        'twitter',
+    'Wind' =>        'windows',
+    'GMail' =>       'gmail',
+    'DCM' =>         'docomo',
+    'KDDI' =>        'kddi',
+    'SB' =>          'softbank',
+    'Name' =>        'name',
+    'Annotations' => 'keywords',
+    'Year' =>        'year',
+  }
 
-  key = nil
-  idx = 0
+  print 'Loading emoji HTML file... '
+  doc = File.open(EmojiFile) {|d| Nokogiri::HTML(d)}
+  rows = doc.xpath('//table/tr')
+  puts 'Done!'
 
-  # Parse HTML with regular expressions? why not.
-  IO.foreach(EmojiFile) do |f|
-    case f.strip
-    when /<table/
-      #
-    when /th(?:.+)>(.+)<\/th/
-      #
-    when /<a(?:.+)name='(.+)'/
-      print '.'
-      key = $1
-      # puts key
-      code = key_to_emoji(key)
+  # Make this a hash instead of an array so it can be inverted
+  headings = rows.shift.css('th').map {|r| emojiCategories[r.text]}
 
-      emojiDB[key] = {
-        'emojilib_name' => emojilib_data[key] && emojilib_data[key]['emojilib_name'] || nil,
-        'code' => code,
-        'name' => nil,
-        'category' => emojilib_data[key] && emojilib_data[key]['category'] || nil,
-        # 'default' => nil,
-        'keywords' => emojilib_data[key] && emojilib_data[key]['keywords'] || [],
-        'images' => {},
-        'year' => nil,
-      }
+  rows.each_with_index do |row, r_idx|
+    cells = row.css('td')
+    rowKey = emoji_to_key(cells[headings.index('emoji')].text)
 
-      if extra_metadata[key] && extra_metadata[key].class.to_s.downcase === 'hash'
-        emojiDB[key].merge!(extra_metadata[key]) do |k, ov, nv|
-          case k
-          # overwrite string
-          when 'name', 'emojilib_name' then nv
-          # merge array
-          when 'category', 'keywords' then (nv || []) | (ov || [])
-          # prevent other keys from being overwritten
-          else ov
+    puts "Emoji #{r_idx+1} of #{rows.length}: #{cells[headings.index('name')].text}"
+
+    rowHash = {
+      'emojilib_name' => nil,
+      'codepoints' => [],
+      'name' => nil,
+      'category' => nil,
+      'keywords' => [],
+      'images' => {},
+    }
+
+    cells.each_with_index do |cell, c_idx|
+      heading = headings[c_idx]
+      case heading
+      when 'bw', 'apple', 'android', 'twitter', 'windows', 'gmail', 'docomo', 'kddi', 'softbank'
+        next unless categories && categories.include?(heading) || categories.include?('all')
+
+        img = cell.at_css('img')
+        if img
+          data = Base64.decode64(img['src'][/base64,(.+)$/, 1])
+          ext = case data[0..9].strip.downcase
+            when /png/ then 'png'
+            when /gif89a/ then 'gif'
+            else 'idk'
           end
+
+          filename = File.join EmojiImgDir, "#{rowKey}-#{heading}.#{ext}"
+          File.open(filename, 'wb') {|f| f.write(data)}
+
+          rowHash['images'][heading] = filename
+        else
+          rowHash['images'][heading] = nil
+        end
+      when 'keywords' then rowHash['keywords'] = cell.text.split(/\,\s+/)
+      when 'name' then rowHash['name'] = cell.text
+      when 'year' then rowHash['year'] = cell.text.gsub(/\D+/, '')
+      # when 'emoji' then rowHash['code'] = cell.text
+      when 'codepoints' then rowHash['codepoints'] = cell.text.downcase.scan(/[0-9a-f]+/)
+      end
+    end
+
+    # Merge in interesting emojilib data
+    if emojilib_data[rowKey]
+      rowHash['emojilib_name'] = emojilib_data[rowKey]['emojilib_name'] || rowHash['emojilib_name']
+      rowHash['category'] = emojilib_data[rowKey]['category'] || rowHash['category']
+      rowHash['keywords'] = (emojilib_data[rowKey]['keywords'] || []) | rowHash['keywords']
+    end
+
+    # Conditionally merge in user-specified data
+    if extra_metadata[rowKey] && extra_metadata[rowKey].class.to_s.downcase === 'hash'
+      rowHash.merge!(extra_metadata[rowKey]) do |k, ov, nv|
+        case k
+        # overwrite string
+        when 'name', 'emojilib_name' then nv
+        # merge array
+        when 'category', 'keywords' then (nv || []) | (ov || [])
+        # prevent other keys from being overwritten
+        else ov
         end
       end
-
-    when /src='data:image\/png;base64,(.+)'/
-      cat = emojiCategories[idx]
-
-      if categories && !categories.include?(cat)
-        idx += 1
-        next
-      end
-
-      data = Base64.decode64($1)
-
-      ext = case data[0..9].strip.downcase
-        when /png/ then 'png'
-        when /gif89a/ then 'gif'
-        else 'idk'
-      end
-
-      filename = File.join EmojiImgDir, "#{key}-#{cat}.#{ext}"
-      File.open(filename, 'wb') {|f| f.write(data)}
-
-      emojiDB[key]['images'][cat] = filename
-      idx += 1
-
-    when /missing/
-      cat = emojiCategories[idx]
-      if categories && !categories.include?(cat)
-        idx += 1
-        next
-      end
-
-      emojiDB[key]['images'][cat] = nil
-      idx += 1
-
-    # when /<td class='default'>(.+)</
-    #   emojiDB[key]['default'] = $1
-
-    when /<td class='name'>(.+)</
-      if $1.include? '<a'
-        keywords = $1.gsub(/<\/?a(?:[^>]*)>/, '')
-        emojiDB[key]['keywords'] = (emojiDB[key]['keywords'] || []) | keywords.split(', ')
-      else
-        emojiDB[key]['name'] = $1
-      end
-
-    when /<td class='age'>(?:\D*)(\d+)(?:\D*)</
-      emojiDB[key]['year'] = $1 * 1
-
-    when '</tr>'
-      key = nil
-      idx = 0
     end
+
+    emojiDB[rowKey] = rowHash #.sort.to_h
   end
 
   File.open('emoji-db.json', 'w') do |f|
