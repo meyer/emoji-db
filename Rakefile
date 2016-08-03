@@ -34,19 +34,21 @@ def generateEmojiDB(*categories)
 
   emojiCategories = {
     'Code' =>        'codepoints',
-    'Browser' =>     'emoji',
+    'Brow.' =>       'emoji',
     'B&W*' =>        'bw',
     'Apple' =>       'apple',
-    'Goog' =>        'android',
-    'Twit' =>        'twitter',
+    'Googᵈ' =>       'android',
+    'Twtr.' =>       'twitter',
     'Wind' =>        'windows',
+    'FBM' =>         'fbm',
+    'Sams.' =>       'samsung',
     'GMail' =>       'gmail',
     'DCM' =>         'docomo',
     'KDDI' =>        'kddi',
     'SB' =>          'softbank',
     'Name' =>        'name',
-    'Annotations' => 'keywords',
-    'Year' =>        'year',
+    'Keywords' =>    'keywords',
+    'Date' =>        'year',
   }
 
   print 'Loading emoji HTML file... '
@@ -59,7 +61,13 @@ def generateEmojiDB(*categories)
 
   rows.each_with_index do |row, r_idx|
     cells = row.css('td')
-    rowKey = emoji_to_key(cells[headings.index('emoji')].text)
+    if cells.length === 0
+      puts "Invalid row: #{r_idx + 1}"
+      next
+    end
+
+    cell = cells[headings.index('emoji')]
+    rowKey = emoji_to_key(cell.text)
 
     puts "Emoji #{r_idx+1} of #{rows.length}: #{cells[headings.index('name')].text}"
 
@@ -95,7 +103,7 @@ def generateEmojiDB(*categories)
           rowHash['images'][heading] = nil
         end
       when 'keywords' then rowHash['keywords'] = cell.text.split(/\,\s+/)
-      when 'name' then rowHash['name'] = cell.text
+      when 'name' then rowHash['name'] = cell.text.downcase.split('≊')[0]
       when 'year' then rowHash['year'] = cell.text.gsub(/\D+/, '')
       # when 'emoji' then rowHash['code'] = cell.text
       when 'codepoints' then rowHash['codepoints'] = cell.text.downcase.scan(/[0-9a-f]+/)
