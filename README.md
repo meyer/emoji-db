@@ -1,6 +1,6 @@
 # EMOJI DB
 
-This is a quick and dirty script that takes the contents of the Unicode emoji reference page found at [unicode.org][unicode-emoji] (caution: 25MB page) and turns it into a more useful JSON file.
+This is a quick and dirty script that takes the contents of the Unicode emoji reference page found at [unicode.org][unicode-emoji] (caution: 32MB page) and turns it into a more useful JSON file.
 
 ## Resources
 
