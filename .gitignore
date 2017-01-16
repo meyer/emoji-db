@@ -1,3 +1,2 @@
-unicode.org-dump.html
-*.ttf
-*.ttc
+fonts/*.ttf
+fonts/*.ttc

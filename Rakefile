@@ -4,6 +4,7 @@ require 'pathname'
 require 'shellwords'
 require 'ttfunk'
 require 'set'
+require 'tmpdir'
 
 require './utils.rb'
 
@@ -15,64 +16,33 @@ end
 
 class Array
   def to_emoji_key
-    self.map {|e| e.is_a?(Numeric) ? e.to_s(16) : e.to_s}.join('_')
+    self.map {|e| e.is_a?(Numeric) ? e.to_s(16).ljust(4, '0') : e.to_s}.join('_')
   end
   def to_fam_string
     self.map {|p| FamCodepoints[p]}.compact.join('').fam_sort
   end
 end
 
-EmojiTTF = File.expand_path('./fonts/emoji-latest.ttf')
+PWD = Pathname.new Dir.pwd
+
+# symlink to the latest emoji font file
+EmojiFontLatest = PWD.join('fonts/emoji-latest.ttf')
+
+# system character palette plist
 EmojiPlist = '/System/Library/Input Methods/CharacterPalette.app/Contents/Resources/Category-Emoji.plist'
 
-# WEIRD CASES
-# guy kissing girl: U+1F48F
-# guy kissing girl alt: U+1F469 U+200D U+2764 U+FE0F U+200D U+1F48B U+200D U+1F468
-# family, MWBG: U+1F468 U+200D U+1F469 U+200D U+1F467 U+200D U+1F466
-# guy playing basketball: U+26F9 U+FE0F
+# JSON version of the character palette plist
+EmojiCharList = PWD.join('fonts/emoji-palette-data.json')
 
-# variant selector FE0F seems to be option for these two
-# girl playing basketball:        U+26F9 U+FE0F U+200D U+2640 U+FE0F
-# girl playing basketball, Fitz4: U+26F9 U+1F3FD U+200D U+2640 U+FE0F
+# a mapping of emoji font versions to macOS versions
+EmojiVersionDB = PWD.join('fonts/versions.json')
 
-# EMOJI, VARIANT SELECTOR or FITZPATRICK
-
-# Family: 1f46a
-# Couple: 1f491
-# Kissing: 1f48f
-
-FamCP = 0x1f46a
-CoupleCP = 0x1f491
-KissingCP = 0x1f48f
-
-def is_fam(cp)
-end
-
-def is_couple(cp)
-end
-
-def is_smoochin(cp)
-end
-
-FamilyCombinations = Set[
-   'MB',  'MBB',  'MG',  'MGB',  'MGG',
-   'WB',  'WBB',  'WG',  'WGB',  'WGG',
-  'MMB', 'MMBB', 'MMG', 'MMGB', 'MMGG',
-  'WWB', 'WWBB', 'WWG', 'WWGB', 'WWGG',
-  'MWB', 'MWBB', 'MWG', 'MWGB', 'MWGG',
-]
-
-EmojiURL = 'http://unicode.org/emoji/charts/full-emoji-list.html'
-EmojiCategoryFile = Pathname.new('./emoji-by-category.json')
-EmojiImgDir = Pathname.new('./emoji-img')
-
-# Kiss emoji: 1f48f
-KissEmojiCombos = ['MM', 'WM', 'WW']
-
-# Heart emoji: 1f491
+EmojiCategoryFile = PWD.join('./emoji-by-category.json')
+EmojiDBFile = PWD.join('emoji-db.json')
+EmojiImgDir = PWD.join('emoji-img')
 
 FitzpatrickModifiers = [
-  nil,
+  nil, # modifiers go from 1-5
   0x1f3fb,
   0x1f3fc,
   0x1f3fd,
@@ -80,8 +50,6 @@ FitzpatrickModifiers = [
   0x1f3ff,
 ]
 
-# 1f469 1f469 1f466
-# 1f468 1f469 1f466 1f466
 FamCodepoints = {
   0x1f466 => 'B', # boy emoji
   0x1f467 => 'G', # girl emoji
@@ -94,32 +62,81 @@ GenderCodepoints = {
   0x02642 => 'M',
 }
 
-KissCodepoints = [
-  0x1f48f, # default couple kiss emoji
-  0x02764, # heart
-  0x1f48b, # kiss
-  0x1f468, # man
-  0x1f469, # woman
-]
+# http://sourceforge.net/projects/ttf2ttc/
+TTCSplitBin = PWD.join('scripts/split_ttcf.pl').to_s
+TTFMergeBin = PWD.join('scripts/merge2ttcf.pl').to_s
 
-HeartCodepoints = [
-  0x1f491, # default couple heart emoji
-  0x02764, # heart
-  0x1f468, # man
-  0x1f469, # woman
-]
+desc "Extract the emoji TTF from the system TTC file"
+task :extract_ttf do
+  Dir.mktmpdir('_emoji_font_') do |tmp_dir|
+    Dir.chdir tmp_dir
 
-# Array intersperse: [].product(["thing"]).flatten(1)[0...-1]
+    puts "Copy the latest version of Apple Color Emoji to temp..."
+    cp '/System/Library/Fonts/Apple Color Emoji.ttc', 'emoji_font.ttc'
 
+    puts "Split the emoji file TTC into tables..."
+    `#{TTCSplitBin.shellescape} --input-ttf=emoji_font.ttc --output-prefix=emoji_tmp &>/dev/null`
+
+    puts "Merge emoji tables into a TTF (this will take about 20 seconds)..."
+    `#{TTFMergeBin.shellescape} --output-ttf=emoji_font.ttf emoji_tmp_0.*.sdat &>/dev/null`
+
+    # get macOS version information as a hash
+    system_info = `sw_vers`.split("\n").reject(&:empty?).map {|l| l.split(':').map(&:strip)}.to_h
+
+    puts "Add font to version database..."
+    ttf = TTFunk::File.open('emoji_font.ttf')
+    font_version = ttf.name.version[0]
+    font_date = ttf.name.unique_subfamily[0][/(\d{4}\-\d\d\-\d\d)/]
+
+    File.open(EmojiVersionDB, File::CREAT|File::RDWR) do |f|
+      version_db = begin JSON.parse(f.read) rescue {} end
+      version_db[font_version] ||= {"build_date" => font_date}
+      (version_db[font_version]["macos_versions"] ||= []).push("#{system_info['ProductVersion']} (#{system_info['BuildVersion']})").uniq!
+
+      f.rewind
+      f.puts JSON.pretty_generate(version_db)
+      f.flush
+      f.truncate(f.pos)
+    end
+
+    ttf_name = "Apple Color Emoji #{font_version}.ttf"
+    ttf_dest = PWD.join("fonts/#{ttf_name}")
+
+    puts "Update symlink to latest font file..."
+    cp 'emoji_font.ttf', ttf_dest
+    rm_f EmojiFontLatest
+    ln_s ttf_name, EmojiFontLatest
+    Dir.chdir PWD
+  end
+
+  puts "Copy latest emoji chooser plist..."
+  plist_contents = `plutil -convert json -r -o - -- "#{EmojiPlist}"`
+  File.open(EmojiCharList, 'w') {|f| f.write plist_contents}
+end
+
+desc "Extract emoji images from the latest TTF file"
 task :extract_images do
   rm_rf EmojiImgDir
   mkdir_p EmojiImgDir
   # available sizes: 32, 40, 48, 64, 96, 160
   size = 160
 
-  ttf = TTFunk::File.open(Pathname.new(EmojiTTF))
+  latest_emoji_font = File.expand_path(EmojiFontLatest)
 
-  puts ttf.name.unique_subfamily
+  abort 'Emoji font file does not exist!' unless File.exist?(latest_emoji_font)
+
+  ttf = TTFunk::File.open(latest_emoji_font)
+
+  # Available methods on ttf.name: https://github.com/prawnpdf/ttfunk/blob/master/lib/ttfunk/table/name.rb
+
+  font_data = {
+    :metadata => {
+      :font_name => ttf.name.font_name,
+      :font_version => ttf.name.version,
+      :build_date => ttf.name.unique_subfamily,
+    },
+    :glyphs => {}
+  }
 
   ttf.maximum_profile.num_glyphs.times do |glyph_id|
     bitmaps = ttf.sbix.all_bitmap_data_for(glyph_id)
@@ -149,26 +166,30 @@ task :extract_images do
 
     next unless codepoints
 
-    emoji_filename = (codepoints + [fitz]).compact.map {|e| e.to_s(16).rjust(4, '0')}.join('_')
-    emoji_filename += "_#{fam.fam_sort}" if fam
-    emoji_filename += "-apple"
-    emoji_filename += ".#{bitmap.type}"
+    emoji_key = codepoints.map {|e| e.to_s(16).rjust(4, '0')}.join('_')
+    emoji_key += "_#{fam.fam_sort}" if fam
 
-    puts "ttf_name: #{ttf_name}, codepoints: #{codepoints}, fitz: #{fitz}, fam: #{fam}"
+    emoji_filename = emoji_key
+    emoji_filename += '_' + fitz.to_s(16).rjust(4, '0') if fitz
+    emoji_filename += "-apple.#{bitmap.type}"
+
+    font_data[:glyphs][emoji_key] ||= {
+      :codepoints => codepoints,
+      :images => []
+    }
+
+    font_data[:glyphs][emoji_key][:fitz] ||= !!fitz
+    font_data[:glyphs][emoji_key][:images].push(emoji_filename)
 
     File.write(EmojiImgDir.join(emoji_filename), bitmap.data.read)
   end
 
+  File.write(EmojiImgDir.join('data.json'), JSON.pretty_generate(font_data))
 end
 
-task :get_latest_emojis do
-  # if File.exist?(EmojiCategoryFile)
-  #   puts "Emoji file already exists at '#{EmojiCategoryFile}', delete to re-extract"
-  #   return
-  # end
-
-  file_data = `plutil -convert json -r -o - -- '#{EmojiPlist}'`
-  emoji_file_data = JSON.parse(file_data)
+desc "Generate a JSON object of emoji with paths to images"
+task :generate_emoji_db do
+  emoji_file_data = JSON.parse(File.read EmojiCharList)
 
   emojis_by_category = {}
 
@@ -179,23 +200,23 @@ task :get_latest_emojis do
   end
 
   File.write(EmojiCategoryFile, JSON.pretty_generate(emojis_by_category))
-end
-
-emoji_by_codepoints = {}
-gendered_emoji = {}
-
-def codepoints_to_filename(cp_array)
-  cp_array.join('_')
-end
-
-task :test => [:get_latest_emojis] do
-  emoji_file = File.read(EmojiCategoryFile)
-  emoji_file_data = JSON.parse(emoji_file)
 
   emoji_data = {}
   seen_keys = {}
+  emojilib_data = {}
 
-  emoji_file_data.each do |category, emoji_list|
+  JSON.parse(File.read('./node_modules/emojilib/emojis.json')).each do |k,v|
+    # skip the weirdo keys
+    next unless v.class.to_s.downcase === 'hash' && v['char']
+
+    key = v['char']
+    v['keywords'] ||= []
+    v['keywords'].concat "#{k}".split('_')
+    v['emojilib_name'] = k
+    emojilib_data[key] = v
+  end
+
+  emojis_by_category.each do |category, emoji_list|
     emoji_list.map do |e|
       emoji_codepoints = emoji_to_codepoints(e)
       key_codepoints = emoji_codepoints.reject {|c| [0x200d, 0xfe0f].include?(c)}
@@ -229,8 +250,17 @@ task :test => [:get_latest_emojis] do
       (seen_keys[common_key] ||= []).push(emoji_key)
 
       emoji_filepath = EmojiImgDir.join("#{emoji_key}.png")
-      data = {}
+      data = {:category => category}
 
+      if emojilib_data[e]
+        # puts e, emojilib_data[e]
+        data[:emojilib_name] = emojilib_data[e]['emojilib_name'] || nil
+        data[:keywords] = (emojilib_data[e]['keywords'] || []) #| data['keywords']
+      else
+        puts e, '[no emojilib data]'
+      end
+
+      # if gender is specified, it's not the default emoji gender
       if gender
         default_gender = 'WM'.gsub(gender, '')
 
@@ -261,17 +291,13 @@ task :test => [:get_latest_emojis] do
       fitz = nil
       data[:fitz] = true if fitz
 
-      # next if File.exist?(data[:filepath])
-
       emoji_data[emoji_key] = Hash[data.sort]
-
-      # emoji_filename = codepoints_to_filename(emoji_codepoints)
-
-      # next unless File.exist?(emoji_filepath)
-
-      # puts "#{emoji_key} || #{e} -- #{emoji_filepath} (exists: #{File.exist?(emoji_filepath)})"
     end
   end
 
-  puts JSON.pretty_generate(emoji_data)
+  emoji_data = Hash[emoji_data.sort]
+
+  puts "Success!"
+
+  File.write(EmojiDBFile, JSON.pretty_generate(emoji_data))
 end
