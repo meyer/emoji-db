@@ -8,63 +8,28 @@ require 'tmpdir'
 
 require './utils.rb'
 
-class String
-  def fam_sort
-    self.split('').sort_by {|e| 'MWGB'.index(e) || -1}.join('')
-  end
-end
-
-class Array
-  def to_emoji_key
-    self.map {|e| e.is_a?(Numeric) ? e.to_s(16).ljust(4, '0') : e.to_s}.join('_')
-  end
-  def to_fam_string
-    self.map {|p| FamCodepoints[p]}.compact.join('').fam_sort
-  end
-end
-
 PWD = Pathname.new Dir.pwd
+RootDir = Pathname.new Rake.application.original_dir
 
 # symlink to the latest emoji font file
-EmojiFontLatest = PWD.join('fonts/emoji-latest.ttf')
+EmojiFontLatest = RootDir.join('fonts/emoji-latest.ttf')
 
 # system character palette plist
 EmojiPlist = '/System/Library/Input Methods/CharacterPalette.app/Contents/Resources/Category-Emoji.plist'
 
 # JSON version of the character palette plist
-EmojiCharList = PWD.join('fonts/emoji-palette-data.json')
+EmojiCharList = RootDir.join('fonts/emoji-palette-data.json')
 
 # a mapping of emoji font versions to macOS versions
-EmojiVersionDB = PWD.join('fonts/versions.json')
+EmojiVersionDB = RootDir.join('fonts/versions.json')
 
-EmojiCategoryFile = PWD.join('./emoji-by-category.json')
-EmojiDBFile = PWD.join('emoji-db.json')
-EmojiImgDir = PWD.join('emoji-img')
-
-FitzpatrickModifiers = [
-  nil, # modifiers go from 1-5
-  0x1f3fb,
-  0x1f3fc,
-  0x1f3fd,
-  0x1f3fe,
-  0x1f3ff,
-]
-
-FamCodepoints = {
-  0x1f466 => 'B', # boy emoji
-  0x1f467 => 'G', # girl emoji
-  0x1f468 => 'M', # man emoji
-  0x1f469 => 'W', # woman emoji
-}
-
-GenderCodepoints = {
-  0x02640 => 'W',
-  0x02642 => 'M',
-}
+EmojiCategoryFile = RootDir.join('./emoji-by-category.json')
+EmojiDBFile = RootDir.join('emoji-db.json')
+EmojiImgDir = RootDir.join('emoji-img')
 
 # http://sourceforge.net/projects/ttf2ttc/
-TTCSplitBin = PWD.join('scripts/split_ttcf.pl').to_s
-TTFMergeBin = PWD.join('scripts/merge2ttcf.pl').to_s
+TTCSplitBin = RootDir.join('scripts/split_ttcf.pl').to_s
+TTFMergeBin = RootDir.join('scripts/merge2ttcf.pl').to_s
 
 desc "Extract the emoji TTF from the system TTC file"
 task :extract_ttf do
@@ -77,7 +42,7 @@ task :extract_ttf do
     puts "Split the emoji file TTC into tables..."
     `#{TTCSplitBin.shellescape} --input-ttf=emoji_font.ttc --output-prefix=emoji_tmp &>/dev/null`
 
-    puts "Merge emoji tables into a TTF (this will take about 20 seconds)..."
+    puts "Merge emoji tables into a TTF (this will take a while)..."
     `#{TTFMergeBin.shellescape} --output-ttf=emoji_font.ttf emoji_tmp_0.*.sdat &>/dev/null`
 
     # get macOS version information as a hash
@@ -100,7 +65,7 @@ task :extract_ttf do
     end
 
     ttf_name = "Apple Color Emoji #{font_version}.ttf"
-    ttf_dest = PWD.join("fonts/#{ttf_name}")
+    ttf_dest = RootDir.join("fonts/#{ttf_name}")
 
     puts "Update symlink to latest font file..."
     cp 'emoji_font.ttf', ttf_dest
@@ -166,7 +131,7 @@ task :extract_images do
 
     next unless codepoints
 
-    emoji_key = codepoints.map {|e| e.to_s(16).rjust(4, '0')}.join('_')
+    emoji_key = codepoints.int_to_unicode.join('_')
     emoji_key += "_#{fam.fam_sort}" if fam
 
     emoji_filename = emoji_key
@@ -184,80 +149,68 @@ task :extract_images do
     File.write(EmojiImgDir.join(emoji_filename), bitmap.data.read)
   end
 
-  File.write(EmojiImgDir.join('data.json'), JSON.pretty_generate(font_data))
+  # File.write(RootDir.join('data.json'), JSON.pretty_generate(font_data))
 end
 
 desc "Generate a JSON object of emoji with paths to images"
 task :generate_emoji_db do
   emoji_file_data = JSON.parse(File.read EmojiCharList)
 
-  emojis_by_category = {}
+  emoji_by_category = {}
 
   emoji_file_data['EmojiDataArray'].each do |group|
     next unless group['CVCategoryData']['Data']
     category = group['CVDataTitle'].gsub('EmojiCategory-', '').downcase
-    emojis_by_category[category] = group['CVCategoryData']['Data'].split(',')
+    emoji_by_category[category] = group['CVCategoryData']['Data'].split(',')
   end
 
-  File.write(EmojiCategoryFile, JSON.pretty_generate(emojis_by_category))
+  File.write(EmojiCategoryFile, JSON.pretty_generate(emoji_by_category))
 
   emoji_data = {}
-  seen_keys = {}
   emojilib_data = {}
 
   JSON.parse(File.read('./node_modules/emojilib/emojis.json')).each do |k,v|
     # skip the weirdo keys
     next unless v.class.to_s.downcase === 'hash' && v['char']
 
-    key = v['char']
+    codepoints = v['char'].to_codepoints.reject_joiners
     v['keywords'] ||= []
     v['keywords'].concat "#{k}".split('_')
     v['emojilib_name'] = k
-    emojilib_data[key] = v
+    emojilib_data[codepoints.to_emoji_key] = v
   end
 
-  emojis_by_category.each do |category, emoji_list|
+  emoji_by_category.each do |category, emoji_list|
     emoji_list.map do |e|
-      emoji_codepoints = emoji_to_codepoints(e)
-      key_codepoints = emoji_codepoints.reject {|c| [0x200d, 0xfe0f].include?(c)}
+      emoji_codepoints = e.to_codepoints
+      key_codepoints = emoji_codepoints.reject_joiners
 
-      gender = nil
-      common_key = nil
-
-      if GenderCodepoints.keys.include?(key_codepoints[-1])
-        gender = GenderCodepoints[key_codepoints.pop]
-      end
-
-      if (
-          # Exclude MWBG emoji
-          key_codepoints.length > 1 &&
-          # only MWBG emoji?
-          (key_codepoints - FamCodepoints.keys).empty?
-        )
-
-        # fam emoji
-        common_key = [0x1f46a].to_emoji_key
-
-        # fam emoji + MWBG string
-        emoji_key = [
-          0x1f46a,
-          key_codepoints.to_fam_string
-        ].to_emoji_key
+      gender = if GenderCodepoints.keys.include?(key_codepoints[-1])
+        GenderCodepoints[key_codepoints.pop]
       else
-        emoji_key = common_key = key_codepoints.to_emoji_key
+        nil
       end
 
-      (seen_keys[common_key] ||= []).push(emoji_key)
+      emoji_key = key_codepoints.to_emoji_key
+      data = emoji_data[emoji_key] || {
+        :emojilib_name => nil,
+        :codepoints => [],
+        :codepoints_string => [],
+        :name => nil,
+        :category => category,
+        :keywords => [],
+        :emoji => nil,
+        :image => nil,
+        :year => nil,
+        :fitz => false,
+      }
 
-      emoji_filepath = EmojiImgDir.join("#{emoji_key}.png")
-      data = {:category => category}
-
-      if emojilib_data[e]
+      if emojilib_data[emoji_key]
         # puts e, emojilib_data[e]
-        data[:emojilib_name] = emojilib_data[e]['emojilib_name'] || nil
-        data[:keywords] = (emojilib_data[e]['keywords'] || []) #| data['keywords']
+        data[:emojilib_name] = emojilib_data[emoji_key]['emojilib_name'] || nil
+        data[:keywords] = (emojilib_data[emoji_key]['keywords'] || []) | data[:keywords]
       else
-        puts e, '[no emojilib data]'
+        # puts e + ' -- [no emojilib data] ' + key_codepoints.pack('U*') + ' -- [' + key_codepoints.join(',') + ']'
       end
 
       # if gender is specified, it's not the default emoji gender
@@ -265,39 +218,71 @@ task :generate_emoji_db do
         default_gender = 'WM'.gsub(gender, '')
 
         data.merge!({
-          :filepath => EmojiImgDir.join("#{emoji_key}_#{default_gender}.png"),
-          :filepath_alt => EmojiImgDir.join("#{emoji_key}_#{gender}.png"),
+          :image => "./emoji-img/#{emoji_key}_#{default_gender}-apple.png",
+          :image_alt => "./emoji-img/#{emoji_key}_#{gender}-apple.png",
           :default_gender => default_gender,
           :codepoints_alt => emoji_codepoints,
+          :codepoints_alt_string => emoji_codepoints.int_to_unicode,
           :emoji_alt => e,
         })
-        data[:exists] = File.exist?(data[:filepath])
-        data[:exists_alt] = File.exist?(data[:filepath_alt])
+
+        data[:fitz] = File.exist?(RootDir.join "./emoji-img/#{emoji_key}_#{gender}_1f3fb-apple.png") && [
+          "./emoji-img/#{emoji_key}_1f3fb-apple.png",
+          "./emoji-img/#{emoji_key}_1f3fc-apple.png",
+          "./emoji-img/#{emoji_key}_1f3fd-apple.png",
+          "./emoji-img/#{emoji_key}_1f3fe-apple.png",
+          "./emoji-img/#{emoji_key}_1f3ff-apple.png",
+        ]
+
       elsif data[:default_gender]
         data.merge!({
           :emoji => e,
           :codepoints => emoji_codepoints,
+          :codepoints_string => emoji_codepoints.int_to_unicode,
         })
       else
         data.merge!({
           :emoji => e,
           :codepoints => emoji_codepoints,
-          :codepoints_string => emoji_codepoints.map {|c| c.to_s(16).ljust(4, '0')},
-          :filepath => emoji_filepath,
-          :exists => File.exist?(emoji_filepath),
+          :codepoints_string => emoji_codepoints.int_to_unicode,
+          :image => "./emoji-img/#{emoji_key}-apple.png",
+          :fitz => File.exist?(RootDir.join "./emoji-img/#{emoji_key}_1f3fb-apple.png"),
         })
+
+        data[:fitz] = File.exist?(RootDir.join "./emoji-img/#{emoji_key}_1f3fb-apple.png") && [
+          "./emoji-img/#{emoji_key}_1f3fb-apple.png",
+          "./emoji-img/#{emoji_key}_1f3fc-apple.png",
+          "./emoji-img/#{emoji_key}_1f3fd-apple.png",
+          "./emoji-img/#{emoji_key}_1f3fe-apple.png",
+          "./emoji-img/#{emoji_key}_1f3ff-apple.png",
+        ]
       end
 
-      fitz = nil
-      data[:fitz] = true if fitz
-
-      emoji_data[emoji_key] = Hash[data.sort]
+      emoji_data[emoji_key] = data
     end
   end
 
-  emoji_data = Hash[emoji_data.sort]
+  errors = []
+  emoji_data.each do |k,v|
+    if !File.exist?(RootDir.join v[:image])
+      errors.push "#{v[:emoji]} does not exist at #{v[:image]}"
+    end
+    if v[:image_alt] && !File.exist?(RootDir.join v[:image_alt])
+      errors.push"#{v[:emoji]} (alt) does not exist at #{v[:image_alt]}"
+    end
+  end
 
-  puts "Success!"
+  if errors.length > 0
+    puts "#{errors.length} error#{errors.length === 1 ? '' : 's'} encountered!"
+    abort errors.map {|r| "- #{r}"}.join("\n")
+  end
+
+  # emoji_data = Hash[emoji_data.sort]
+
+  puts "Emoji database updated! Size: #{emoji_data.keys.length.comma_separate} emoji, not including variants"
 
   File.write(EmojiDBFile, JSON.pretty_generate(emoji_data))
 end
+
+task :rebuild => [:extract_images, :generate_emoji_db]
+task :default => [:extract_ttf, :rebuild]

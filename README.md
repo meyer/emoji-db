@@ -2,7 +2,7 @@
 
 ## Resources
 
-* List of all emojis with variants: http://unicode.org/cldr/utility/list-unicodeset.jsp?a=%5B%3Aemoji%3A%5D&g=emoji
+* List of all emoji with variants: http://unicode.org/cldr/utility/list-unicodeset.jsp?a=%5B%3Aemoji%3A%5D&g=emoji
 * Mega inline image emoji page (warning: 30+ MB): http://unicode.org/emoji/charts-beta/full-emoji-list.html
 * Data without images: http://www.unicode.org/Public/emoji/latest/emoji-data.txt
 * TRAC page: http://www.unicode.org/utility/trac/browser/trunk?order=name#unicodetools/data/emoji/
