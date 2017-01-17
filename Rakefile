@@ -257,7 +257,15 @@ task :generate_emoji_db do
           :emoji_alt => e,
         })
 
-        data[:fitz] ||= File.exist?(RootDir.join "./emoji-img/#{emoji_key}_#{gender}_1f3fb.png") && [
+        data[:fitz] ||= File.exist?(RootDir.join "./emoji-img/#{emoji_key}_#{default_gender}_1f3fb.png") && [
+          "./emoji-img/#{emoji_key}_#{default_gender}_1f3fb.png",
+          "./emoji-img/#{emoji_key}_#{default_gender}_1f3fc.png",
+          "./emoji-img/#{emoji_key}_#{default_gender}_1f3fd.png",
+          "./emoji-img/#{emoji_key}_#{default_gender}_1f3fe.png",
+          "./emoji-img/#{emoji_key}_#{default_gender}_1f3ff.png",
+        ]
+
+        data[:fitz_alt] ||= File.exist?(RootDir.join "./emoji-img/#{emoji_key}_#{gender}_1f3fb.png") && [
           "./emoji-img/#{emoji_key}_#{gender}_1f3fb.png",
           "./emoji-img/#{emoji_key}_#{gender}_1f3fc.png",
           "./emoji-img/#{emoji_key}_#{gender}_1f3fd.png",
