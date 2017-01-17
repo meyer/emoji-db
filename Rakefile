@@ -21,6 +21,7 @@ EmojiFontLatest = RootDir.join('fonts/emoji-latest.ttf')
 EmojiPlist = '/System/Library/Input Methods/CharacterPalette.app/Contents/Resources/Category-Emoji.plist'
 
 EmojiImgDir = RootDir.join('emoji-img')
+EmojiImgDirRelative = Pathname.new('./emoji-img')
 
 ExtraMetadataFile = RootDir.join('extra-metadata.yaml').to_s
 DataDir = RootDir.join('data')
@@ -110,15 +111,26 @@ task :extract_images do
 
   ttf = TTFunk::File.open(latest_emoji_font)
 
-  # Available methods on ttf.name: https://github.com/prawnpdf/ttfunk/blob/master/lib/ttfunk/table/name.rb
+  emojilib_data = {}
+  JSON.parse(File.read('./node_modules/emojilib/emojis.json')).each do |k,v|
+    # skip the weirdo keys
+    next unless v.class.to_s.downcase === 'hash' && v['char']
 
+    codepoints = v['char'].to_codepoints.reject_joiners
+    v['keywords'] ||= []
+    v['keywords'].concat "#{k}".split('_')
+    v['emojilib_name'] = k
+    emojilib_data[codepoints.to_emoji_key] = v
+  end
+
+  # Available methods on ttf.name: https://github.com/prawnpdf/ttfunk/blob/master/lib/ttfunk/table/name.rb
   font_data = {
-    :metadata => {
-      :font_name => ttf.name.font_name[0],
-      :font_version => ttf.name.version[0],
-      :build_date => ttf.name.unique_subfamily[0][/(\d{4}\-\d\d\-\d\d)/],
+    'metadata' => {
+      'font_name' => ttf.name.font_name[0],
+      'font_version' => ttf.name.version[0],
+      'build_date' => ttf.name.unique_subfamily[0][/(\d{4}\-\d\d\-\d\d)/],
     },
-    :glyphs => {}
+    'glyphs' => {}
   }
 
   ttf.maximum_profile.num_glyphs.times do |glyph_id|
@@ -127,7 +139,7 @@ task :extract_images do
     next if bitmap.nil?
 
     ttf_name = ttf.postscript.glyph_for(glyph_id)
-    codepoints, fitz, fam = /^
+    codepoints, fitz_idx, fam = /^
       # emoji code
       ([u0-9A-F_]+)
       # optional fitzpatrick modifier
@@ -139,7 +151,7 @@ task :extract_images do
         bits = matchData.to_a[1..-1]
         [
           bits[0].split('_').map {|n| n.gsub(/^u/, '').to_i(16)},
-          FitzpatrickModifiers[bits[1].to_i],
+          bits[1].to_i,
           bits[2]
         ]
       else
@@ -147,22 +159,37 @@ task :extract_images do
       end
     end
 
+    fitz = fitz_idx && FitzpatrickModifiers[fitz_idx]
+
     next unless codepoints
 
     emoji_key = codepoints.int_to_unicode.join('_')
     emoji_key += "_#{fam.fam_sort}" if fam
 
-    emoji_filename = emoji_key
-    emoji_filename += '_' + fitz.to_s(16).rjust(4, '0') if fitz
-    emoji_filename += '.' + bitmap.type
+    emojilib_thing = emojilib_data[emoji_key] || {}
 
-    font_data[:glyphs][emoji_key] ||= {
-      :codepoints => codepoints,
-      :images => []
+    emoji_filename = if /^\w[\w\-_]+\w$/ =~ emojilib_thing['emojilib_name']
+      emojilib_thing['emojilib_name']
+    else
+      codepoints.int_to_unicode.join('_')
+    end
+
+    emoji_filename += ".#{fam.fam_sort}" if fam
+    emoji_filename += ".#{fitz_idx}" if fitz_idx > 0
+
+    emoji_filename += ".#{bitmap.type}"
+
+    font_data['glyphs'][emoji_key] ||= {
+      'codepoints' => codepoints,
+      'image' => nil,
+      'fitz' => false,
     }
 
-    font_data[:glyphs][emoji_key][:fitz] ||= !!fitz
-    font_data[:glyphs][emoji_key][:images].push(emoji_filename)
+    if fitz_idx > 0
+      (font_data['glyphs'][emoji_key]['fitz'] ||= [])[fitz_idx - 1] = EmojiImgDirRelative.join(emoji_filename)
+    else
+      font_data['glyphs'][emoji_key]['image'] = EmojiImgDirRelative.join(emoji_filename)
+    end
 
     File.write(EmojiImgDir.join(emoji_filename), bitmap.data.read)
   end
@@ -173,7 +200,7 @@ end
 desc "Generate a JSON object of emoji with paths to images"
 task :generate_emoji_db do
   emoji_file_data = JSON.parse(File.read FontPaletteDataFile)
-  extra_metadata = YAML.load(File.read ExtraMetadataFile)
+  extra_metadata = YAML.load(File.read ExtraMetadataFile) || {}
   unicode_data = JSON.parse(File.read UnicodeDataFile)
   font_data = JSON.parse(File.read FontDataFile)
   annotation_data = JSON.parse(File.read UnicodeAnnotationFile)
@@ -218,6 +245,7 @@ task :generate_emoji_db do
       keywords = annotation_data['keywords'][e] || []
 
       emoji_key = key_codepoints.to_emoji_key
+
       data = emoji_data[emoji_key] || {
         name: name,
         emojilib_name: nil,
@@ -258,56 +286,50 @@ task :generate_emoji_db do
         # puts e + ' -- [no emojilib data] ' + key_codepoints.pack('U*') + ' -- [' + key_codepoints.join(',') + ']'
       end
 
+      # TODO: name file with emojilib_name
+      file_basename = emoji_key # data[:emojilib_name]
+
       data[:keywords].sort!.uniq!
+
+      char_data = if gender
+        font_data['glyphs']["#{emoji_key}_#{gender}"]
+      else
+        font_data['glyphs'][emoji_key] || {}
+      end
+
+      if !char_data
+        puts "No char_data for #{emoji_key}"
+      end
 
       # if gender is specified, it's not the default emoji gender
       if gender
         default_gender = 'WM'.gsub(gender, '')
 
+        alt_char_data = font_data['glyphs']["#{emoji_key}_#{default_gender}"]
+
         data.merge!({
-          :image => "./emoji-img/#{emoji_key}_#{default_gender}.png",
-          :image_alt => "./emoji-img/#{emoji_key}_#{gender}.png",
-          :default_gender => default_gender,
-          :codepoints_alt => emoji_codepoints,
-          :codepoints_alt_string => emoji_codepoints.int_to_unicode,
-          :emoji_alt => e,
+          image: alt_char_data['image'],
+          image_alt: char_data['image'],
+          default_gender: default_gender,
+          codepoints_alt: emoji_codepoints,
+          emoji_alt: e,
         })
 
-        data[:fitz] ||= File.exist?(RootDir.join "./emoji-img/#{emoji_key}_#{default_gender}_1f3fb.png") && [
-          "./emoji-img/#{emoji_key}_#{default_gender}_1f3fb.png",
-          "./emoji-img/#{emoji_key}_#{default_gender}_1f3fc.png",
-          "./emoji-img/#{emoji_key}_#{default_gender}_1f3fd.png",
-          "./emoji-img/#{emoji_key}_#{default_gender}_1f3fe.png",
-          "./emoji-img/#{emoji_key}_#{default_gender}_1f3ff.png",
-        ]
-
-        data[:fitz_alt] ||= File.exist?(RootDir.join "./emoji-img/#{emoji_key}_#{gender}_1f3fb.png") && [
-          "./emoji-img/#{emoji_key}_#{gender}_1f3fb.png",
-          "./emoji-img/#{emoji_key}_#{gender}_1f3fc.png",
-          "./emoji-img/#{emoji_key}_#{gender}_1f3fd.png",
-          "./emoji-img/#{emoji_key}_#{gender}_1f3fe.png",
-          "./emoji-img/#{emoji_key}_#{gender}_1f3ff.png",
-        ]
+        data[:fitz] ||= alt_char_data['fitz']
+        data[:fitz_alt] ||= char_data['fitz']
 
       elsif data[:default_gender]
         data.merge!({
-          :emoji => e,
-          :codepoints => emoji_codepoints,
+          emoji: e,
+          codepoints: emoji_codepoints,
         })
       else
         data.merge!({
-          :emoji => e,
-          :codepoints => emoji_codepoints,
-          :image => "./emoji-img/#{emoji_key}.png",
+          emoji: e,
+          codepoints: emoji_codepoints,
+          image: char_data['image'],
+          fitz: char_data['fitz'],
         })
-
-        data[:fitz] ||= File.exist?(RootDir.join "./emoji-img/#{emoji_key}_1f3fb.png") && [
-          "./emoji-img/#{emoji_key}_1f3fb.png",
-          "./emoji-img/#{emoji_key}_1f3fc.png",
-          "./emoji-img/#{emoji_key}_1f3fd.png",
-          "./emoji-img/#{emoji_key}_1f3fe.png",
-          "./emoji-img/#{emoji_key}_1f3ff.png",
-        ]
       end
 
       emoji_data[emoji_key] = data

@@ -53,11 +53,15 @@ class Fixnum
     # thanks, stack overflow
     self.to_s.reverse.gsub(/...(?=.)/,'\&,').reverse
   end
+
+  def to_unicode
+    self.to_s(16).rjust(4, '0')
+  end
 end
 
 class Array
   def int_to_unicode
-    self.map {|e| e.is_a?(Numeric) ? e.to_s(16).rjust(4, '0') : e.to_s}
+    self.map {|e| e.is_a?(Numeric) ? e.to_unicode : e.to_s}
   end
 
   def to_fam_string
