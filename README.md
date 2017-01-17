@@ -1,11 +1,11 @@
 # EMOJI DB
 
-Rake task breakdown:
+## Rake task breakdown:
 
-**extract_ttf**: Extract a usable TTF file from `/System/Library/Fonts/Apple Color Emoji.ttc`.
-**extract_images**: Extract images from the above TTF file.
-**generate_emoji_db**: Generate the main emoji JSON file.
-**build_unicode_db**: Generate file of emoji to unicode data mappings.
+- **extract_ttf**: Extract a usable TTF file from `/System/Library/Fonts/Apple Color Emoji.ttc`.
+- **extract_images**: Extract images from the above TTF file.
+- **generate_emoji_db**: Generate the main emoji JSON file.
+- **build_unicode_db**: Generate file of emoji to unicode data mappings.
 
 
 ## Resources

@@ -174,6 +174,8 @@ task :generate_emoji_db do
   emoji_data = {}
   emojilib_data = {}
 
+  unicode_data = JSON.parse(File.read('./unicode-emoji-data.json'))
+
   JSON.parse(File.read('./node_modules/emojilib/emojis.json')).each do |k,v|
     # skip the weirdo keys
     next unless v.class.to_s.downcase === 'hash' && v['char']
@@ -196,19 +198,31 @@ task :generate_emoji_db do
         nil
       end
 
+      uni = unicode_data['emoji'][e]
+
       emoji_key = key_codepoints.to_emoji_key
       data = emoji_data[emoji_key] || {
-        :emojilib_name => nil,
-        :codepoints => [],
-        :codepoints_string => [],
-        :name => nil,
-        :category => category,
-        :keywords => [],
-        :emoji => nil,
-        :image => nil,
-        :year => nil,
-        :fitz => false,
+        emojilib_name: nil,
+        codepoints: [],
+        codepoints_string: [],
+        name: nil,
+        category: category,
+        unicode_category: nil,
+        unicode_subcategory: nil,
+        keywords: [],
+        emoji: nil,
+        image: nil,
+        year: nil,
+        fitz: false,
       }
+
+      if uni
+        data.merge!({
+          unicode_category: unicode_data['categories'][uni['category']],
+          unicode_subcategory: unicode_data['subcategories'][uni['subcategory']],
+          name: uni['description'],
+        })
+      end
 
       if emojilib_data[emoji_key]
         # puts e, emojilib_data[e]
