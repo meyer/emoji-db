@@ -23,19 +23,24 @@ EmojiPlist = '/System/Library/Input Methods/CharacterPalette.app/Contents/Resour
 EmojiImgDir = RootDir.join('emoji-img')
 
 ExtraMetadataFile = RootDir.join('extra-metadata.yaml').to_s
+DataDir = RootDir.join('data')
+FontDir = RootDir.join('fonts')
+CacheDir = RootDir.join('cache')
 
 # files to output
-EmojiCategoryFile = RootDir.join('emoji-by-category.json').to_s
 EmojiDBFile = RootDir.join('emoji-db.json').to_s
-EmojiPaletteDataFile = RootDir.join('fonts/emoji-palette-data.json')
-EmojiVersionFile = RootDir.join('fonts/versions.json')
-FontDataFile = RootDir.join('font-data.json').to_s
-UnicodeDataFile = RootDir.join('unicode-data.json').to_s
+FontPaletteDataFile = FontDir.join('palette-data.json').to_s
+FontVersionFile = FontDir.join('versions.json').to_s
+FontDataFile = FontDir.join('font-data.json').to_s
+EmojiCategoryFile = DataDir.join('emoji-by-category.json').to_s
+UnicodeDataFile = DataDir.join('unicode-data.json').to_s
+UnicodeAnnotationFile = DataDir.join('unicode-annotations.json').to_s
 
 # emoji minus ASCII numbers
 EmojiQuery = '[:emoji:] - \p{Block=Basic Latin}'
-EmojiListPage = "http://unicode.org/cldr/utility/list-unicodeset.jsp?a=#{URI.escape EmojiQuery}&g=emoji"
-EmojiListPageCache = RootDir.join('emoji-list-page.html').to_s
+EmojiListURL = "http://unicode.org/cldr/utility/list-unicodeset.jsp?a=#{URI.escape EmojiQuery}&g=emoji"
+EmojiListURLCache = CacheDir.join('emoji-list-page.html').to_s
+UnicodeAnnotationCache = CacheDir.join('unicode-annotations.xml').to_s
 
 # http://sourceforge.net/projects/ttf2ttc
 TTCSplitBin = RootDir.join('scripts/split_ttcf.pl').to_s
@@ -63,7 +68,7 @@ task :extract_ttf do
     font_version = ttf.name.version[0]
     font_date = ttf.name.unique_subfamily[0][/(\d{4}\-\d\d\-\d\d)/]
 
-    File.open(EmojiVersionFile, File::CREAT|File::RDWR) do |f|
+    File.open(FontVersionFile, File::CREAT|File::RDWR) do |f|
       version_db = begin JSON.parse(f.read) rescue {} end
       version_db[font_version] ||= {"build_date" => font_date}
       (version_db[font_version]["macos_versions"] ||= []).push("#{system_info['ProductVersion']} (#{system_info['BuildVersion']})").uniq!
@@ -88,7 +93,7 @@ task :extract_ttf do
   # -o -   output to stdout
   # -r     pretty print JSON
   plist_contents = `plutil -convert json -r -o - -- "#{EmojiPlist}"`.strip
-  File.open(EmojiPaletteDataFile, 'w') {|f| f.puts plist_contents}
+  File.open(FontPaletteDataFile, 'w') {|f| f.puts plist_contents}
 end
 
 desc "Extract emoji images from the latest TTF file"
@@ -167,10 +172,11 @@ end
 
 desc "Generate a JSON object of emoji with paths to images"
 task :generate_emoji_db do
-  emoji_file_data = JSON.parse(File.read EmojiPaletteDataFile)
+  emoji_file_data = JSON.parse(File.read FontPaletteDataFile)
   extra_metadata = YAML.load(File.read ExtraMetadataFile)
   unicode_data = JSON.parse(File.read UnicodeDataFile)
   font_data = JSON.parse(File.read FontDataFile)
+  annotation_data = JSON.parse(File.read UnicodeAnnotationFile)
 
   emoji_by_category = {}
 
@@ -208,17 +214,18 @@ task :generate_emoji_db do
       end
 
       uni = unicode_data['emoji'][e]
+      name = annotation_data['names'][e] || nil
+      keywords = annotation_data['keywords'][e] || []
 
       emoji_key = key_codepoints.to_emoji_key
       data = emoji_data[emoji_key] || {
+        name: name,
         emojilib_name: nil,
         codepoints: [],
-        codepoints_string: [],
-        name: nil,
         category: category,
         unicode_category: nil,
         unicode_subcategory: nil,
-        keywords: [],
+        keywords: keywords || [],
         emoji: nil,
         image: nil,
         year: nil,
@@ -226,8 +233,15 @@ task :generate_emoji_db do
       }
 
       if extra_metadata[emoji_key]
-        # ensure keys are symbols
-        data.merge!(extra_metadata[emoji_key].map {|k,v| [k.to_sym, v]}.to_h)
+        extra_metadata[emoji_key].each do |k,v|
+          # ensure keys are symbols
+          key = k.to_sym
+          if key === :keywords
+            data[key] += v || []
+          else
+            data[key] = v
+          end
+        end
       end
 
       if uni
@@ -239,10 +253,12 @@ task :generate_emoji_db do
       if emojilib_data[emoji_key]
         # puts e, emojilib_data[e]
         data[:emojilib_name] = emojilib_data[emoji_key]['emojilib_name'] || nil
-        data[:keywords] = (emojilib_data[emoji_key]['keywords'] || []) | data[:keywords]
+        data[:keywords] += emojilib_data[emoji_key]['keywords'] || []
       else
         # puts e + ' -- [no emojilib data] ' + key_codepoints.pack('U*') + ' -- [' + key_codepoints.join(',') + ']'
       end
+
+      data[:keywords].sort!.uniq!
 
       # if gender is specified, it's not the default emoji gender
       if gender
@@ -277,13 +293,11 @@ task :generate_emoji_db do
         data.merge!({
           :emoji => e,
           :codepoints => emoji_codepoints,
-          :codepoints_string => emoji_codepoints.int_to_unicode,
         })
       else
         data.merge!({
           :emoji => e,
           :codepoints => emoji_codepoints,
-          :codepoints_string => emoji_codepoints.int_to_unicode,
           :image => "./emoji-img/#{emoji_key}.png",
         })
 
@@ -323,12 +337,15 @@ task :generate_emoji_db do
 end
 
 task :build_unicode_db do
-  if File.exist?(EmojiListPageCache)
-    puts "EmojiListPage is already cached, delete '#{File.basename EmojiListPageCache}' to re-download."
+  emoji_list = if File.exist?(EmojiListURLCache)
+    puts "EmojiListURL is already cached, delete '#{File.basename EmojiListURLCache}' to re-download."
+    File.read(EmojiListURLCache)
   else
-    `curl #{EmojiListPage.shellescape} > #{EmojiListPageCache.shellescape}`
+    f = `curl #{EmojiListURL.shellescape}`
+    File.write(EmojiListURLCache, f)
+    f
   end
-  doc = File.open(EmojiListPageCache) {|d| Nokogiri::HTML(d)}
+  doc = Nokogiri::HTML(emoji_list)
   rows = doc.xpath('//blockquote/table/tr')
   puts "rows: #{rows.length}"
 
@@ -381,6 +398,37 @@ task :build_unicode_db do
   unicode_db[:subcategories] = subcategories
 
   File.open(UnicodeDataFile, 'w') {|f| f.puts JSON.pretty_generate(unicode_db)}
+end
+
+UnicodeAnnotationURL = 'http://www.unicode.org/repos/cldr/tags/latest/common/annotations/en.xml'
+
+task :generate_annotations do
+  file_contents = if File.exist?(UnicodeAnnotationCache)
+    puts "UnicodeAnnotationURL is already cached, delete '#{File.basename UnicodeAnnotationCache}' to re-download."
+    File.read(UnicodeAnnotationCache)
+  else
+    contents = `curl #{UnicodeAnnotationURL.shellescape}`
+    File.write(UnicodeAnnotationCache, contents)
+    contents
+  end
+  doc = Nokogiri::HTML(file_contents)
+
+  names = {}
+  keywords = {}
+
+  doc.xpath('//ldml/annotations/annotation').each do |node|
+    emoji = node.attr('cp')
+    if node.attr('type') == 'tts'
+      names[emoji] = node.text
+    else
+      keywords[emoji] = node.text.split('|').map(&:strip)
+    end
+  end
+
+  File.open(UnicodeAnnotationFile, 'w') {|f| f.puts JSON.pretty_generate({
+    names: names,
+    keywords: keywords,
+  })}
 end
 
 task :rebuild => [:extract_images, :build_unicode_db, :generate_emoji_db]
