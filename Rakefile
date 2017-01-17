@@ -19,17 +19,22 @@ EmojiFontLatest = RootDir.join('fonts/emoji-latest.ttf')
 # system character palette plist
 EmojiPlist = '/System/Library/Input Methods/CharacterPalette.app/Contents/Resources/Category-Emoji.plist'
 
-# JSON version of the character palette plist
-EmojiCharList = RootDir.join('fonts/emoji-palette-data.json')
-
-# a mapping of emoji font versions to macOS versions
-EmojiVersionDB = RootDir.join('fonts/versions.json')
-
-EmojiCategoryFile = RootDir.join('./emoji-by-category.json')
-EmojiDBFile = RootDir.join('emoji-db.json')
 EmojiImgDir = RootDir.join('emoji-img')
 
-# http://sourceforge.net/projects/ttf2ttc/
+# files to output
+EmojiCategoryFile = RootDir.join('emoji-by-category.json').to_s
+EmojiDBFile = RootDir.join('emoji-db.json').to_s
+EmojiPaletteDataFile = RootDir.join('fonts/emoji-palette-data.json')
+EmojiVersionFile = RootDir.join('fonts/versions.json')
+FontDataFile = RootDir.join('font-data.json').to_s
+UnicodeDataFile = RootDir.join('unicode-data.json').to_s
+
+# emoji minus ASCII numbers
+EmojiQuery = '[:emoji:] - \p{Block=Basic Latin}'
+EmojiListPage = "http://unicode.org/cldr/utility/list-unicodeset.jsp?a=#{URI.escape EmojiQuery}&g=emoji"
+EmojiListPageCache = RootDir.join('emoji-list-page.html').to_s
+
+# http://sourceforge.net/projects/ttf2ttc
 TTCSplitBin = RootDir.join('scripts/split_ttcf.pl').to_s
 TTFMergeBin = RootDir.join('scripts/merge2ttcf.pl').to_s
 
@@ -55,7 +60,7 @@ task :extract_ttf do
     font_version = ttf.name.version[0]
     font_date = ttf.name.unique_subfamily[0][/(\d{4}\-\d\d\-\d\d)/]
 
-    File.open(EmojiVersionDB, File::CREAT|File::RDWR) do |f|
+    File.open(EmojiVersionFile, File::CREAT|File::RDWR) do |f|
       version_db = begin JSON.parse(f.read) rescue {} end
       version_db[font_version] ||= {"build_date" => font_date}
       (version_db[font_version]["macos_versions"] ||= []).push("#{system_info['ProductVersion']} (#{system_info['BuildVersion']})").uniq!
@@ -80,7 +85,7 @@ task :extract_ttf do
   # -o -   output to stdout
   # -r     pretty print JSON
   plist_contents = `plutil -convert json -r -o - -- "#{EmojiPlist}"`.strip
-  File.open(EmojiCharList, 'w') {|f| f.puts plist_contents}
+  File.open(EmojiPaletteDataFile, 'w') {|f| f.puts plist_contents}
 end
 
 desc "Extract emoji images from the latest TTF file"
@@ -154,12 +159,12 @@ task :extract_images do
     File.write(EmojiImgDir.join(emoji_filename), bitmap.data.read)
   end
 
-  # File.open(PWD.join('data.json'), 'w') {|f| f.puts JSON.pretty_generate(font_data)}
+  File.open(FontDataFile, 'w') {|f| f.puts JSON.pretty_generate(font_data)}
 end
 
 desc "Generate a JSON object of emoji with paths to images"
 task :generate_emoji_db do
-  emoji_file_data = JSON.parse(File.read EmojiCharList)
+  emoji_file_data = JSON.parse(File.read EmojiPaletteDataFile)
 
   emoji_by_category = {}
 
@@ -174,7 +179,8 @@ task :generate_emoji_db do
   emoji_data = {}
   emojilib_data = {}
 
-  unicode_data = JSON.parse(File.read('./unicode-emoji-data.json'))
+  unicode_data = JSON.parse(File.read UnicodeDataFile)
+  font_data = JSON.parse(File.read FontDataFile)
 
   JSON.parse(File.read('./node_modules/emojilib/emojis.json')).each do |k,v|
     # skip the weirdo keys
@@ -245,7 +251,7 @@ task :generate_emoji_db do
           :emoji_alt => e,
         })
 
-        data[:fitz] = File.exist?(RootDir.join "./emoji-img/#{emoji_key}_#{gender}_1f3fb.png") && [
+        data[:fitz] ||= File.exist?(RootDir.join "./emoji-img/#{emoji_key}_#{gender}_1f3fb.png") && [
           "./emoji-img/#{emoji_key}_1f3fb.png",
           "./emoji-img/#{emoji_key}_1f3fc.png",
           "./emoji-img/#{emoji_key}_1f3fd.png",
@@ -265,10 +271,9 @@ task :generate_emoji_db do
           :codepoints => emoji_codepoints,
           :codepoints_string => emoji_codepoints.int_to_unicode,
           :image => "./emoji-img/#{emoji_key}.png",
-          :fitz => File.exist?(RootDir.join "./emoji-img/#{emoji_key}_1f3fb.png"),
         })
 
-        data[:fitz] = File.exist?(RootDir.join "./emoji-img/#{emoji_key}_1f3fb.png") && [
+        data[:fitz] ||= File.exist?(RootDir.join "./emoji-img/#{emoji_key}_1f3fb.png") && [
           "./emoji-img/#{emoji_key}_1f3fb.png",
           "./emoji-img/#{emoji_key}_1f3fc.png",
           "./emoji-img/#{emoji_key}_1f3fd.png",
@@ -302,12 +307,6 @@ task :generate_emoji_db do
 
   File.write(EmojiDBFile, JSON.pretty_generate(emoji_data))
 end
-
-# emoji minus ASCII numbers
-EmojiQuery = '[:emoji:] - \p{Block=Basic Latin}'
-EmojiListPage = "http://unicode.org/cldr/utility/list-unicodeset.jsp?a=#{URI.escape EmojiQuery}&g=emoji"
-EmojiListPageCache = RootDir.join('emoji-list-page.html').to_s
-EmojiListJson = RootDir.join('unicode-emoji-data.json')
 
 task :build_unicode_db do
   if File.exist?(EmojiListPageCache)
@@ -367,8 +366,8 @@ task :build_unicode_db do
   unicode_db[:categories] = categories
   unicode_db[:subcategories] = subcategories
 
-  File.open(EmojiListJson, 'w') {|f| f.puts JSON.pretty_generate(unicode_db)}
+  File.open(UnicodeDataFile, 'w') {|f| f.puts JSON.pretty_generate(unicode_db)}
 end
 
-task :rebuild => [:extract_images, :generate_emoji_db]
+task :rebuild => [:extract_images, :build_unicode_db, :generate_emoji_db]
 task :default => [:extract_ttf, :rebuild]
