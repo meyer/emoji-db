@@ -252,11 +252,11 @@ task :generate_emoji_db do
         })
 
         data[:fitz] ||= File.exist?(RootDir.join "./emoji-img/#{emoji_key}_#{gender}_1f3fb.png") && [
-          "./emoji-img/#{emoji_key}_1f3fb.png",
-          "./emoji-img/#{emoji_key}_1f3fc.png",
-          "./emoji-img/#{emoji_key}_1f3fd.png",
-          "./emoji-img/#{emoji_key}_1f3fe.png",
-          "./emoji-img/#{emoji_key}_1f3ff.png",
+          "./emoji-img/#{emoji_key}_#{gender}_1f3fb.png",
+          "./emoji-img/#{emoji_key}_#{gender}_1f3fc.png",
+          "./emoji-img/#{emoji_key}_#{gender}_1f3fd.png",
+          "./emoji-img/#{emoji_key}_#{gender}_1f3fe.png",
+          "./emoji-img/#{emoji_key}_#{gender}_1f3ff.png",
         ]
 
       elsif data[:default_gender]
