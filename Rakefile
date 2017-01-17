@@ -1,12 +1,13 @@
 require 'base64'
 require 'json'
-require 'pathname'
-require 'shellwords'
-require 'ttfunk'
-require 'set'
-require 'tmpdir'
 require 'nokogiri'
+require 'pathname'
+require 'set'
+require 'shellwords'
+require 'tmpdir'
+require 'ttfunk'
 require 'uri'
+require 'yaml'
 
 require './utils.rb'
 
@@ -20,6 +21,8 @@ EmojiFontLatest = RootDir.join('fonts/emoji-latest.ttf')
 EmojiPlist = '/System/Library/Input Methods/CharacterPalette.app/Contents/Resources/Category-Emoji.plist'
 
 EmojiImgDir = RootDir.join('emoji-img')
+
+ExtraMetadataFile = RootDir.join('extra-metadata.yaml').to_s
 
 # files to output
 EmojiCategoryFile = RootDir.join('emoji-by-category.json').to_s
@@ -165,6 +168,9 @@ end
 desc "Generate a JSON object of emoji with paths to images"
 task :generate_emoji_db do
   emoji_file_data = JSON.parse(File.read EmojiPaletteDataFile)
+  extra_metadata = YAML.load(File.read ExtraMetadataFile)
+  unicode_data = JSON.parse(File.read UnicodeDataFile)
+  font_data = JSON.parse(File.read FontDataFile)
 
   emoji_by_category = {}
 
@@ -178,9 +184,6 @@ task :generate_emoji_db do
 
   emoji_data = {}
   emojilib_data = {}
-
-  unicode_data = JSON.parse(File.read UnicodeDataFile)
-  font_data = JSON.parse(File.read FontDataFile)
 
   JSON.parse(File.read('./node_modules/emojilib/emojis.json')).each do |k,v|
     # skip the weirdo keys
@@ -222,12 +225,15 @@ task :generate_emoji_db do
         fitz: false,
       }
 
+      if extra_metadata[emoji_key]
+        # ensure keys are symbols
+        data.merge!(extra_metadata[emoji_key].map {|k,v| [k.to_sym, v]}.to_h)
+      end
+
       if uni
-        data.merge!({
-          unicode_category: unicode_data['categories'][uni['category']],
-          unicode_subcategory: unicode_data['subcategories'][uni['subcategory']],
-          name: uni['description'],
-        })
+        data[:name] ||= uni['description'].downcase
+        data[:unicode_category] = unicode_data['categories'][uni['category']]
+        data[:unicode_subcategory] = unicode_data['subcategories'][uni['subcategory']]
       end
 
       if emojilib_data[emoji_key]
