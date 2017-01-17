@@ -5,6 +5,8 @@ require 'shellwords'
 require 'ttfunk'
 require 'set'
 require 'tmpdir'
+require 'nokogiri'
+require 'uri'
 
 require './utils.rb'
 
@@ -282,6 +284,36 @@ task :generate_emoji_db do
   puts "Emoji database updated! Size: #{emoji_data.keys.length.comma_separate} emoji, not including variants"
 
   File.write(EmojiDBFile, JSON.pretty_generate(emoji_data))
+end
+
+# emoji minus ASCII numbers
+EmojiQuery = '[:emoji:] - \p{Block=Basic Latin}'
+EmojiListPage = "http://unicode.org/cldr/utility/list-unicodeset.jsp?a=#{URI.escape EmojiQuery}&g=emoji"
+EmojiListPageCache = RootDir.join('emoji-list-page.html').to_s
+
+task :build_unicode_db do
+  if File.exist?(EmojiListPageCache)
+    puts "EmojiListPage is already cached, delete '#{File.basename EmojiListPageCache}' to re-download."
+  else
+    `curl #{EmojiListPage.shellescape} > #{EmojiListPageCache.shellescape}`
+  end
+  doc = File.open(EmojiListPageCache) {|d| Nokogiri::HTML(d)}
+  rows = doc.xpath('//blockquote/table/tr')
+  puts "rows: #{rows.length}"
+  rows.each_with_index do |row, idx|
+    cells = row.css('td')
+    next if cells.length === 0
+    if cells.length === 1
+      cat, subcat = cells[0].css('a').map(&:text)
+      puts '-------'
+      puts "#{cat} > #{subcat}"
+    elsif cells.length === 3
+      emoji = cells[0].text.strip
+      unicode = cells[1].css('a').text.split(' ').map {|e| e.gsub('U+', '').downcase}
+      description = cells[2].text.strip.downcase
+      puts emoji + ' -- ' + description + ' -- ' + unicode.map {|f| f.to_i(16)}.pack('U*')
+    end
+  end
 end
 
 task :rebuild => [:extract_images, :generate_emoji_db]
