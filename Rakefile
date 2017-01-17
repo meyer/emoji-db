@@ -141,7 +141,7 @@ task :extract_images do
 
     emoji_filename = emoji_key
     emoji_filename += '_' + fitz.to_s(16).rjust(4, '0') if fitz
-    emoji_filename += "-apple.#{bitmap.type}"
+    emoji_filename += '.' + bitmap.type
 
     font_data[:glyphs][emoji_key] ||= {
       :codepoints => codepoints,
@@ -237,20 +237,20 @@ task :generate_emoji_db do
         default_gender = 'WM'.gsub(gender, '')
 
         data.merge!({
-          :image => "./emoji-img/#{emoji_key}_#{default_gender}-apple.png",
-          :image_alt => "./emoji-img/#{emoji_key}_#{gender}-apple.png",
+          :image => "./emoji-img/#{emoji_key}_#{default_gender}.png",
+          :image_alt => "./emoji-img/#{emoji_key}_#{gender}.png",
           :default_gender => default_gender,
           :codepoints_alt => emoji_codepoints,
           :codepoints_alt_string => emoji_codepoints.int_to_unicode,
           :emoji_alt => e,
         })
 
-        data[:fitz] = File.exist?(RootDir.join "./emoji-img/#{emoji_key}_#{gender}_1f3fb-apple.png") && [
-          "./emoji-img/#{emoji_key}_1f3fb-apple.png",
-          "./emoji-img/#{emoji_key}_1f3fc-apple.png",
-          "./emoji-img/#{emoji_key}_1f3fd-apple.png",
-          "./emoji-img/#{emoji_key}_1f3fe-apple.png",
-          "./emoji-img/#{emoji_key}_1f3ff-apple.png",
+        data[:fitz] = File.exist?(RootDir.join "./emoji-img/#{emoji_key}_#{gender}_1f3fb.png") && [
+          "./emoji-img/#{emoji_key}_1f3fb.png",
+          "./emoji-img/#{emoji_key}_1f3fc.png",
+          "./emoji-img/#{emoji_key}_1f3fd.png",
+          "./emoji-img/#{emoji_key}_1f3fe.png",
+          "./emoji-img/#{emoji_key}_1f3ff.png",
         ]
 
       elsif data[:default_gender]
@@ -264,16 +264,16 @@ task :generate_emoji_db do
           :emoji => e,
           :codepoints => emoji_codepoints,
           :codepoints_string => emoji_codepoints.int_to_unicode,
-          :image => "./emoji-img/#{emoji_key}-apple.png",
-          :fitz => File.exist?(RootDir.join "./emoji-img/#{emoji_key}_1f3fb-apple.png"),
+          :image => "./emoji-img/#{emoji_key}.png",
+          :fitz => File.exist?(RootDir.join "./emoji-img/#{emoji_key}_1f3fb.png"),
         })
 
-        data[:fitz] = File.exist?(RootDir.join "./emoji-img/#{emoji_key}_1f3fb-apple.png") && [
-          "./emoji-img/#{emoji_key}_1f3fb-apple.png",
-          "./emoji-img/#{emoji_key}_1f3fc-apple.png",
-          "./emoji-img/#{emoji_key}_1f3fd-apple.png",
-          "./emoji-img/#{emoji_key}_1f3fe-apple.png",
-          "./emoji-img/#{emoji_key}_1f3ff-apple.png",
+        data[:fitz] = File.exist?(RootDir.join "./emoji-img/#{emoji_key}_1f3fb.png") && [
+          "./emoji-img/#{emoji_key}_1f3fb.png",
+          "./emoji-img/#{emoji_key}_1f3fc.png",
+          "./emoji-img/#{emoji_key}_1f3fd.png",
+          "./emoji-img/#{emoji_key}_1f3fe.png",
+          "./emoji-img/#{emoji_key}_1f3ff.png",
         ]
       end
 
