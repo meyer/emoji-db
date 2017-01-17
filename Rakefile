@@ -66,19 +66,21 @@ task :extract_ttf do
       f.truncate(f.pos)
     end
 
-    ttf_name = "Apple Color Emoji #{font_version}.ttf"
-    ttf_dest = RootDir.join("fonts/#{ttf_name}")
+    font_name = "Apple Color Emoji #{font_version}"
 
     puts "Update symlink to latest font file..."
-    cp 'emoji_font.ttf', ttf_dest
+    cp 'emoji_font.ttf', PWD.join("fonts/#{font_name}.ttf")
+    cp 'emoji_font.ttc', PWD.join("fonts/#{font_name}.ttc")
     rm_f EmojiFontLatest
-    ln_s ttf_name, EmojiFontLatest
+    ln_s "#{font_name}.ttf", EmojiFontLatest
     Dir.chdir PWD
   end
 
-  puts "Copy latest emoji chooser plist..."
-  plist_contents = `plutil -convert json -r -o - -- "#{EmojiPlist}"`
-  File.open(EmojiCharList, 'w') {|f| f.write plist_contents}
+  puts "Copy latest emoji character palette plist..."
+  # -o -   output to stdout
+  # -r     pretty print JSON
+  plist_contents = `plutil -convert json -r -o - -- "#{EmojiPlist}"`.strip
+  File.open(EmojiCharList, 'w') {|f| f.puts plist_contents}
 end
 
 desc "Extract emoji images from the latest TTF file"
@@ -90,6 +92,7 @@ task :extract_images do
 
   latest_emoji_font = File.expand_path(EmojiFontLatest)
 
+  abort 'Emoji font file symlink does not exist!' unless File.symlink?(EmojiFontLatest)
   abort 'Emoji font file does not exist!' unless File.exist?(latest_emoji_font)
 
   ttf = TTFunk::File.open(latest_emoji_font)
@@ -98,9 +101,9 @@ task :extract_images do
 
   font_data = {
     :metadata => {
-      :font_name => ttf.name.font_name,
-      :font_version => ttf.name.version,
-      :build_date => ttf.name.unique_subfamily,
+      :font_name => ttf.name.font_name[0],
+      :font_version => ttf.name.version[0],
+      :build_date => ttf.name.unique_subfamily[0][/(\d{4}\-\d\d\-\d\d)/],
     },
     :glyphs => {}
   }
@@ -151,7 +154,7 @@ task :extract_images do
     File.write(EmojiImgDir.join(emoji_filename), bitmap.data.read)
   end
 
-  # File.write(RootDir.join('data.json'), JSON.pretty_generate(font_data))
+  # File.open(PWD.join('data.json'), 'w') {|f| f.puts JSON.pretty_generate(font_data)}
 end
 
 desc "Generate a JSON object of emoji with paths to images"
@@ -290,6 +293,7 @@ end
 EmojiQuery = '[:emoji:] - \p{Block=Basic Latin}'
 EmojiListPage = "http://unicode.org/cldr/utility/list-unicodeset.jsp?a=#{URI.escape EmojiQuery}&g=emoji"
 EmojiListPageCache = RootDir.join('emoji-list-page.html').to_s
+EmojiListJson = RootDir.join('unicode-emoji-data.json')
 
 task :build_unicode_db do
   if File.exist?(EmojiListPageCache)
@@ -300,20 +304,56 @@ task :build_unicode_db do
   doc = File.open(EmojiListPageCache) {|d| Nokogiri::HTML(d)}
   rows = doc.xpath('//blockquote/table/tr')
   puts "rows: #{rows.length}"
+
+  categories = []
+  subcategories = []
+
+  unicode_db = {
+    categories: [],
+    subcategories: [],
+    emoji: {},
+  }
+
+  current_category = nil
+  current_subcategory = nil
+
   rows.each_with_index do |row, idx|
     cells = row.css('td')
     next if cells.length === 0
     if cells.length === 1
       cat, subcat = cells[0].css('a').map(&:text)
-      puts '-------'
-      puts "#{cat} > #{subcat}"
+
+      cat_index = categories.index(cat)
+      subcat_index = subcategories.index(subcat)
+
+      if !cat_index
+        categories.push(cat)
+        cat_index = categories.length - 1
+      end
+
+      if !subcat_index
+        subcategories.push(subcat)
+        subcat_index = subcategories.length - 1
+      end
+
+      current_category = cat_index
+      current_subcategory = subcat_index
     elsif cells.length === 3
-      emoji = cells[0].text.strip
-      unicode = cells[1].css('a').text.split(' ').map {|e| e.gsub('U+', '').downcase}
-      description = cells[2].text.strip.downcase
-      puts emoji + ' -- ' + description + ' -- ' + unicode.map {|f| f.to_i(16)}.pack('U*')
+      # :space: catches \u00a0 and friends
+      emoji = cells[0].text.strip.gsub(/[[:space:]]/, '')
+      unicode_db[:emoji][emoji] = {
+        :codepoints => emoji.to_codepoints,
+        :description => cells[2].text.strip,
+        :category => current_category,
+        :subcategory => current_subcategory,
+      }
     end
   end
+
+  unicode_db[:categories] = categories
+  unicode_db[:subcategories] = subcategories
+
+  File.open(EmojiListJson, 'w') {|f| f.puts JSON.pretty_generate(unicode_db)}
 end
 
 task :rebuild => [:extract_images, :generate_emoji_db]
