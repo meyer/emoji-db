@@ -194,6 +194,7 @@
       "face",
       "floor",
       "laugh",
+      "rofl",
       "rolling"
     ],
     "emoji": "🤣",
@@ -853,11 +854,15 @@
     "unicode_subcategory": "Faces",
     "keywords": [
       ":/",
+      ":\\",
+      "bummer",
       "confused",
       "face",
       "hmmm",
       "huh",
       "indifference",
+      "meh",
+      "sad",
       "weird"
     ],
     "emoji": "😕",
@@ -11105,6 +11110,8 @@
     "unicode_category": "Miscellaneous Symbols And Pictographs",
     "unicode_subcategory": "Fruit and vegetable symbols",
     "keywords": [
+      "ass",
+      "butts",
       "food",
       "fruit",
       "nature",
@@ -27359,7 +27366,7 @@
     "fitz": false
   },
   "1f3f3_1f308": {
-    "name": null,
+    "name": "rainbow flag",
     "emojilib_name": "rainbow_flag",
     "codepoints": [
       127987,
@@ -27371,6 +27378,7 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
+      "colors",
       "flag",
       "rainbow"
     ],

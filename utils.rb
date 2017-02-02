@@ -48,7 +48,7 @@ class String
   end
 end
 
-class Fixnum
+class Integer
   def comma_separate
     # thanks, stack overflow
     self.to_s.reverse.gsub(/...(?=.)/,'\&,').reverse
@@ -60,7 +60,7 @@ class Fixnum
 end
 
 class Array
-  def int_to_unicode
+  def int_to_hex
     self.map {|e| e.is_a?(Numeric) ? e.to_unicode : e.to_s}
   end
 
@@ -108,6 +108,6 @@ class Array
       ]
     else
       self
-    end.int_to_unicode.join('_')
+    end.int_to_hex.join('_')
   end
 end

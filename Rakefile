@@ -163,7 +163,7 @@ task :extract_images do
 
     next unless codepoints
 
-    emoji_key = codepoints.int_to_unicode.join('_')
+    emoji_key = codepoints.int_to_hex.join('_')
     emoji_key += "_#{fam.fam_sort}" if fam
 
     emojilib_thing = emojilib_data[emoji_key] || {}
@@ -171,7 +171,7 @@ task :extract_images do
     emoji_filename = if /^\w[\w\-_]+\w$/ =~ emojilib_thing['emojilib_name']
       emojilib_thing['emojilib_name']
     else
-      codepoints.int_to_unicode.join('_')
+      codepoints.int_to_hex.join('_')
     end
 
     emoji_filename += ".#{fam.fam_sort}" if fam
@@ -225,6 +225,7 @@ task :generate_emoji_db do
     codepoints = v['char'].to_codepoints.reject_joiners
     v['keywords'] ||= []
     v['keywords'].concat "#{k}".split('_')
+    v['keywords']
     v['emojilib_name'] = k
     emojilib_data[codepoints.to_emoji_key] = v
   end
@@ -253,7 +254,7 @@ task :generate_emoji_db do
         category: category,
         unicode_category: nil,
         unicode_subcategory: nil,
-        keywords: keywords || [],
+        keywords: keywords,
         emoji: nil,
         image: nil,
         year: nil,
