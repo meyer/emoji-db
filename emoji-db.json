@@ -836,7 +836,8 @@
       "concern",
       "face",
       "nervous",
-      "worried"
+      "worried",
+      "worry"
     ],
     "emoji": "😟",
     "image": "./emoji-img/worried.png",
@@ -954,7 +955,10 @@
       "face",
       "oops",
       "sick",
-      "unwell"
+      "stress",
+      "unwell",
+      "worried",
+      "worry"
     ],
     "emoji": "😖",
     "image": "./emoji-img/confounded.png",
@@ -14114,6 +14118,7 @@
     "keywords": [
       "art",
       "colors",
+      "colours",
       "design",
       "draw",
       "museum",
@@ -27379,6 +27384,7 @@
     "unicode_subcategory": null,
     "keywords": [
       "colors",
+      "colours",
       "flag",
       "rainbow"
     ],

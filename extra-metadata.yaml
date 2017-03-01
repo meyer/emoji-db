@@ -1,11 +1,24 @@
 ---
-"2620":  {name: skull and crossbones}
-"270d":  {name: writing hand}
-"2639":  {name: white frowning face}
-"1f3f3": {name: waving white flag}
-"1f615": {keywords: [sad, meh, bummer, ':\']}
-"1f923": {keywords: ['rofl']}
-"1f351": {keywords: ['butts', 'ass']}
+"2620":
+  name: skull and crossbones
+"270d":
+  name: writing hand
+"2639":
+  name: white frowning face
+"1f3f3":
+  name: waving white flag
+"1f615":
+  keywords: [sad, meh, bummer, ':\']
+"1f616":
+  keywords: [worry, worried, stress]
+"1f923":
+  keywords: [rofl]
+"1f351":
+  keywords: [butts, ass]
 "1f3f3_1f308":
   name: rainbow flag
-  keywords: [colors]
+  keywords: [colors, colours]
+"1f3a8":
+  keywords: [colours]
+"1f61f":
+  keywords: [worry]

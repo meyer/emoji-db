@@ -71,6 +71,10 @@ task :extract_ttf do
 
     File.open(FontVersionFile, File::CREAT|File::RDWR) do |f|
       version_db = begin JSON.parse(f.read) rescue {} end
+      if version_db.empty?
+        puts "Version file is invalid JSON"
+        break
+      end
       version_db[font_version] ||= {"build_date" => font_date}
       (version_db[font_version]["macos_versions"] ||= []).push("#{system_info['ProductVersion']} (#{system_info['BuildVersion']})").uniq!
 
