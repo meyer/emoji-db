@@ -18,7 +18,9 @@ RootDir = Pathname.new Rake.application.original_dir
 EmojiFontLatest = RootDir.join('fonts/emoji-latest.ttf')
 
 # system character palette plist
-EmojiPlist = '/System/Library/Input Methods/CharacterPalette.app/Contents/Resources/Category-Emoji.plist'
+EmojiPlist = Pathname.new '/System/Library/Input Methods/CharacterPalette.app/Contents/Resources/Category-Emoji.plist'
+SystemInfoPlist = Pathname.new '/System/Library/CoreServices/SystemVersion.plist'
+EmojiFont = Pathname.new '/System/Library/Fonts/Apple Color Emoji.ttc'
 
 EmojiImgDir = RootDir.join('emoji-img')
 EmojiImgDirRelative = Pathname.new('./emoji-img')
@@ -47,22 +49,35 @@ UnicodeAnnotationCache = CacheDir.join('unicode-annotations.xml').to_s
 TTCSplitBin = RootDir.join('scripts/split_ttcf.pl').to_s
 TTFMergeBin = RootDir.join('scripts/merge2ttcf.pl').to_s
 
-desc "Extract the emoji TTF from the system TTC file"
-task :extract_ttf do
+
+def extract_emoji(location)
+  location_dir = location ? Pathname.new(File.expand_path(location)) : nil
+
+  # these two are required
+  info_plist = location && location_dir.join('SystemVersion.plist') || SystemInfoPlist
+  emoji_path = location && location_dir.join('Apple Color Emoji.ttc') || EmojiFont
+
+  # if this file hasn't updated, use the sytem one
+  palette_plist = location && lambda {p = location_dir.join('Category-Emoji.plist'); p.exist? && p}.call || EmojiPlist
+
+  puts "Info:  #{info_plist}"
+  puts "Emoji: #{emoji_path}"
+
+  raise 'info plist and emoji path must both exist' unless info_plist.exist? && emoji_path.exist?
+
+  system_info = JSON.parse(`plutil -convert json -r -o - -- #{info_plist}`)
+
   Dir.mktmpdir('_emoji_font_') do |tmp_dir|
     Dir.chdir tmp_dir
 
     puts "Copy the latest version of Apple Color Emoji to temp..."
-    cp '/System/Library/Fonts/Apple Color Emoji.ttc', 'emoji_font.ttc'
+    cp emoji_path, 'emoji_font.ttc'
 
     puts "Split the emoji file TTC into tables..."
     `#{TTCSplitBin.shellescape} --input-ttf=emoji_font.ttc --output-prefix=emoji_tmp &>/dev/null`
 
     puts "Merge emoji tables into a TTF (this will take a while)..."
     `#{TTFMergeBin.shellescape} --output-ttf=emoji_font.ttf emoji_tmp_0.*.sdat &>/dev/null`
-
-    # get macOS version information as a hash
-    system_info = `sw_vers`.split("\n").reject(&:empty?).map {|l| l.split(':').map(&:strip)}.to_h
 
     puts "Add font to version database..."
     ttf = TTFunk::File.open('emoji_font.ttf')
@@ -76,7 +91,7 @@ task :extract_ttf do
         break
       end
       version_db[font_version] ||= {"build_date" => font_date}
-      (version_db[font_version]["macos_versions"] ||= []).push("#{system_info['ProductVersion']} (#{system_info['BuildVersion']})").uniq!
+      (version_db[font_version]["macos_versions"] ||= []).push("#{system_info['ProductVersion']} (#{system_info['ProductBuildVersion']})").sort!.uniq!
 
       f.rewind
       f.puts JSON.pretty_generate(version_db)
@@ -97,8 +112,13 @@ task :extract_ttf do
   puts "Copy latest emoji character palette plist..."
   # -o -   output to stdout
   # -r     pretty print JSON
-  plist_contents = `plutil -convert json -r -o - -- "#{EmojiPlist}"`.strip
+  plist_contents = `plutil -convert json -r -o - -- "#{palette_plist}"`.strip
   File.open(FontPaletteDataFile, 'w') {|f| f.puts plist_contents}
+end
+
+desc "Extract the emoji TTF from the system TTC file"
+task :extract_ttf do
+  extract_emoji ENV['EMOJI_PATH']
 end
 
 desc "Extract emoji images from the latest TTF file"
