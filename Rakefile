@@ -116,13 +116,18 @@ def extract_emoji(location)
   File.open(FontPaletteDataFile, 'w') {|f| f.puts plist_contents}
 end
 
+task :npm_update do
+  puts "Running `npm update`..."
+  system "npm update"
+end
+
 desc "Extract the emoji TTF from the system TTC file"
-task :extract_ttf do
+task :extract_ttf => [:npm_update] do
   extract_emoji ENV['EMOJI_PATH']
 end
 
 desc "Extract emoji images from the latest TTF file"
-task :extract_images do
+task :extract_images => [:npm_update] do
   rm_rf EmojiImgDir
   mkdir_p EmojiImgDir
   # available sizes: 32, 40, 48, 64, 96, 160
@@ -222,7 +227,7 @@ task :extract_images do
 end
 
 desc "Generate a JSON object of emoji with paths to images"
-task :generate_emoji_db do
+task :generate_emoji_db => [:npm_update] do
   emoji_file_data = JSON.parse(File.read FontPaletteDataFile)
   extra_metadata = YAML.load(File.read ExtraMetadataFile) || {}
   unicode_data = JSON.parse(File.read UnicodeDataFile)

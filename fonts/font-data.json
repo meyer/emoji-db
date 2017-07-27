@@ -18,7 +18,7 @@
         42,
         8419
       ],
-      "image": "./emoji-img/keycap_star.png",
+      "image": "./emoji-img/asterisk.png",
       "fitz": false
     },
     "0030_20e3": {
@@ -252,21 +252,21 @@
       "codepoints": [
         9197
       ],
-      "image": "./emoji-img/black_right_pointing_triangle_with_double_vertical_bar.png",
+      "image": "./emoji-img/next_track_button.png",
       "fitz": false
     },
     "23ee": {
       "codepoints": [
         9198
       ],
-      "image": "./emoji-img/black_left_pointing_double_triangle_with_vertical_bar.png",
+      "image": "./emoji-img/previous_track_button.png",
       "fitz": false
     },
     "23ef": {
       "codepoints": [
         9199
       ],
-      "image": "./emoji-img/black_right_pointing_double_triangle_with_vertical_bar.png",
+      "image": "./emoji-img/play_or_pause_button.png",
       "fitz": false
     },
     "23f0": {
@@ -301,21 +301,21 @@
       "codepoints": [
         9208
       ],
-      "image": "./emoji-img/double_vertical_bar.png",
+      "image": "./emoji-img/pause_button.png",
       "fitz": false
     },
     "23f9": {
       "codepoints": [
         9209
       ],
-      "image": "./emoji-img/black_square_for_stop.png",
+      "image": "./emoji-img/stop_button.png",
       "fitz": false
     },
     "23fa": {
       "codepoints": [
         9210
       ],
-      "image": "./emoji-img/black_circle_for_record.png",
+      "image": "./emoji-img/record_button.png",
       "fitz": false
     },
     "24c2": {
@@ -399,7 +399,7 @@
       "codepoints": [
         9730
       ],
-      "image": "./emoji-img/umbrella_without_rain.png",
+      "image": "./emoji-img/open_umbrella.png",
       "fitz": false
     },
     "2603": {
@@ -475,14 +475,14 @@
       "codepoints": [
         9762
       ],
-      "image": "./emoji-img/radioactive_sign.png",
+      "image": "./emoji-img/radioactive.png",
       "fitz": false
     },
     "2623": {
       "codepoints": [
         9763
       ],
-      "image": "./emoji-img/biohazard_sign.png",
+      "image": "./emoji-img/biohazard.png",
       "fitz": false
     },
     "2626": {
@@ -524,7 +524,7 @@
       "codepoints": [
         9785
       ],
-      "image": "./emoji-img/white_frowning.png",
+      "image": "./emoji-img/frowning_face.png",
       "fitz": false
     },
     "263a": {
@@ -699,7 +699,7 @@
       "codepoints": [
         9878
       ],
-      "image": "./emoji-img/scales.png",
+      "image": "./emoji-img/balance_scale.png",
       "fitz": false
     },
     "2697": {
@@ -804,7 +804,7 @@
       "codepoints": [
         9928
       ],
-      "image": "./emoji-img/thunder_cloud_and_rain.png",
+      "image": "./emoji-img/cloud_with_lightning_and_rain.png",
       "fitz": false
     },
     "26ce": {
@@ -825,7 +825,7 @@
       "codepoints": [
         9937
       ],
-      "image": "./emoji-img/helmet.png",
+      "image": "./emoji-img/rescue_worker_helmet.png",
       "fitz": false
     },
     "26d3": {
@@ -867,7 +867,7 @@
       "codepoints": [
         9969
       ],
-      "image": "./emoji-img/umbrella_on_ground.png",
+      "image": "./emoji-img/parasol_on_ground.png",
       "fitz": false
     },
     "26f2": {
@@ -895,7 +895,7 @@
       "codepoints": [
         9973
       ],
-      "image": "./emoji-img/boat.png",
+      "image": "./emoji-img/sailboat.png",
       "fitz": false
     },
     "26f7": {
@@ -977,7 +977,7 @@
       "codepoints": [
         9993
       ],
-      "image": "./emoji-img/envelope.png",
+      "image": "./emoji-img/email.png",
       "fitz": false
     },
     "270a": {
@@ -997,13 +997,13 @@
       "codepoints": [
         9995
       ],
-      "image": "./emoji-img/hand.png",
+      "image": "./emoji-img/raised_hand.png",
       "fitz": [
-        "./emoji-img/hand.1.png",
-        "./emoji-img/hand.2.png",
-        "./emoji-img/hand.3.png",
-        "./emoji-img/hand.4.png",
-        "./emoji-img/hand.5.png"
+        "./emoji-img/raised_hand.1.png",
+        "./emoji-img/raised_hand.2.png",
+        "./emoji-img/raised_hand.3.png",
+        "./emoji-img/raised_hand.4.png",
+        "./emoji-img/raised_hand.5.png"
       ]
     },
     "270c": {
@@ -1155,7 +1155,7 @@
       "codepoints": [
         10083
       ],
-      "image": "./emoji-img/heavy_heart_exclamation_mark_ornament.png",
+      "image": "./emoji-img/heavy_heart_exclamation.png",
       "fitz": false
     },
     "2764": {
@@ -1422,7 +1422,7 @@
         127462,
         127465
       ],
-      "image": "./emoji-img/1f1e6_1f1e9.png",
+      "image": "./emoji-img/andorra.png",
       "fitz": false
     },
     "1f1e6_1f1ea": {
@@ -1430,7 +1430,7 @@
         127462,
         127466
       ],
-      "image": "./emoji-img/1f1e6_1f1ea.png",
+      "image": "./emoji-img/united_arab_emirates.png",
       "fitz": false
     },
     "1f1e6_1f1eb": {
@@ -1438,7 +1438,7 @@
         127462,
         127467
       ],
-      "image": "./emoji-img/1f1e6_1f1eb.png",
+      "image": "./emoji-img/afghanistan.png",
       "fitz": false
     },
     "1f1e6_1f1ec": {
@@ -1446,7 +1446,7 @@
         127462,
         127468
       ],
-      "image": "./emoji-img/1f1e6_1f1ec.png",
+      "image": "./emoji-img/antigua_barbuda.png",
       "fitz": false
     },
     "1f1e6_1f1ee": {
@@ -1454,7 +1454,7 @@
         127462,
         127470
       ],
-      "image": "./emoji-img/1f1e6_1f1ee.png",
+      "image": "./emoji-img/anguilla.png",
       "fitz": false
     },
     "1f1e6_1f1f1": {
@@ -1462,7 +1462,7 @@
         127462,
         127473
       ],
-      "image": "./emoji-img/1f1e6_1f1f1.png",
+      "image": "./emoji-img/albania.png",
       "fitz": false
     },
     "1f1e6_1f1f2": {
@@ -1470,7 +1470,7 @@
         127462,
         127474
       ],
-      "image": "./emoji-img/1f1e6_1f1f2.png",
+      "image": "./emoji-img/armenia.png",
       "fitz": false
     },
     "1f1e6_1f1f4": {
@@ -1478,7 +1478,7 @@
         127462,
         127476
       ],
-      "image": "./emoji-img/1f1e6_1f1f4.png",
+      "image": "./emoji-img/angola.png",
       "fitz": false
     },
     "1f1e6_1f1f6": {
@@ -1486,7 +1486,7 @@
         127462,
         127478
       ],
-      "image": "./emoji-img/1f1e6_1f1f6.png",
+      "image": "./emoji-img/antarctica.png",
       "fitz": false
     },
     "1f1e6_1f1f7": {
@@ -1494,7 +1494,7 @@
         127462,
         127479
       ],
-      "image": "./emoji-img/1f1e6_1f1f7.png",
+      "image": "./emoji-img/argentina.png",
       "fitz": false
     },
     "1f1e6_1f1f8": {
@@ -1502,7 +1502,7 @@
         127462,
         127480
       ],
-      "image": "./emoji-img/1f1e6_1f1f8.png",
+      "image": "./emoji-img/american_samoa.png",
       "fitz": false
     },
     "1f1e6_1f1f9": {
@@ -1510,7 +1510,7 @@
         127462,
         127481
       ],
-      "image": "./emoji-img/1f1e6_1f1f9.png",
+      "image": "./emoji-img/austria.png",
       "fitz": false
     },
     "1f1e6_1f1fa": {
@@ -1518,7 +1518,7 @@
         127462,
         127482
       ],
-      "image": "./emoji-img/1f1e6_1f1fa.png",
+      "image": "./emoji-img/australia.png",
       "fitz": false
     },
     "1f1e6_1f1fc": {
@@ -1526,7 +1526,7 @@
         127462,
         127484
       ],
-      "image": "./emoji-img/1f1e6_1f1fc.png",
+      "image": "./emoji-img/aruba.png",
       "fitz": false
     },
     "1f1e6_1f1fd": {
@@ -1534,7 +1534,7 @@
         127462,
         127485
       ],
-      "image": "./emoji-img/1f1e6_1f1fd.png",
+      "image": "./emoji-img/aland_islands.png",
       "fitz": false
     },
     "1f1e6_1f1ff": {
@@ -1542,7 +1542,7 @@
         127462,
         127487
       ],
-      "image": "./emoji-img/1f1e6_1f1ff.png",
+      "image": "./emoji-img/azerbaijan.png",
       "fitz": false
     },
     "1f1e7_1f1e6": {
@@ -1550,7 +1550,7 @@
         127463,
         127462
       ],
-      "image": "./emoji-img/1f1e7_1f1e6.png",
+      "image": "./emoji-img/bosnia_herzegovina.png",
       "fitz": false
     },
     "1f1e7_1f1e7": {
@@ -1558,7 +1558,7 @@
         127463,
         127463
       ],
-      "image": "./emoji-img/1f1e7_1f1e7.png",
+      "image": "./emoji-img/barbados.png",
       "fitz": false
     },
     "1f1e7_1f1e9": {
@@ -1566,7 +1566,7 @@
         127463,
         127465
       ],
-      "image": "./emoji-img/1f1e7_1f1e9.png",
+      "image": "./emoji-img/bangladesh.png",
       "fitz": false
     },
     "1f1e7_1f1ea": {
@@ -1574,7 +1574,7 @@
         127463,
         127466
       ],
-      "image": "./emoji-img/1f1e7_1f1ea.png",
+      "image": "./emoji-img/belgium.png",
       "fitz": false
     },
     "1f1e7_1f1eb": {
@@ -1582,7 +1582,7 @@
         127463,
         127467
       ],
-      "image": "./emoji-img/1f1e7_1f1eb.png",
+      "image": "./emoji-img/burkina_faso.png",
       "fitz": false
     },
     "1f1e7_1f1ec": {
@@ -1590,7 +1590,7 @@
         127463,
         127468
       ],
-      "image": "./emoji-img/1f1e7_1f1ec.png",
+      "image": "./emoji-img/bulgaria.png",
       "fitz": false
     },
     "1f1e7_1f1ed": {
@@ -1598,7 +1598,7 @@
         127463,
         127469
       ],
-      "image": "./emoji-img/1f1e7_1f1ed.png",
+      "image": "./emoji-img/bahrain.png",
       "fitz": false
     },
     "1f1e7_1f1ee": {
@@ -1606,7 +1606,7 @@
         127463,
         127470
       ],
-      "image": "./emoji-img/1f1e7_1f1ee.png",
+      "image": "./emoji-img/burundi.png",
       "fitz": false
     },
     "1f1e7_1f1ef": {
@@ -1614,7 +1614,7 @@
         127463,
         127471
       ],
-      "image": "./emoji-img/1f1e7_1f1ef.png",
+      "image": "./emoji-img/benin.png",
       "fitz": false
     },
     "1f1e7_1f1f1": {
@@ -1622,7 +1622,7 @@
         127463,
         127473
       ],
-      "image": "./emoji-img/1f1e7_1f1f1.png",
+      "image": "./emoji-img/st_barthelemy.png",
       "fitz": false
     },
     "1f1e7_1f1f2": {
@@ -1630,7 +1630,7 @@
         127463,
         127474
       ],
-      "image": "./emoji-img/1f1e7_1f1f2.png",
+      "image": "./emoji-img/bermuda.png",
       "fitz": false
     },
     "1f1e7_1f1f3": {
@@ -1638,7 +1638,7 @@
         127463,
         127475
       ],
-      "image": "./emoji-img/1f1e7_1f1f3.png",
+      "image": "./emoji-img/brunei.png",
       "fitz": false
     },
     "1f1e7_1f1f4": {
@@ -1646,7 +1646,7 @@
         127463,
         127476
       ],
-      "image": "./emoji-img/1f1e7_1f1f4.png",
+      "image": "./emoji-img/bolivia.png",
       "fitz": false
     },
     "1f1e7_1f1f6": {
@@ -1654,7 +1654,7 @@
         127463,
         127478
       ],
-      "image": "./emoji-img/1f1e7_1f1f6.png",
+      "image": "./emoji-img/caribbean_netherlands.png",
       "fitz": false
     },
     "1f1e7_1f1f7": {
@@ -1662,7 +1662,7 @@
         127463,
         127479
       ],
-      "image": "./emoji-img/1f1e7_1f1f7.png",
+      "image": "./emoji-img/brazil.png",
       "fitz": false
     },
     "1f1e7_1f1f8": {
@@ -1670,7 +1670,7 @@
         127463,
         127480
       ],
-      "image": "./emoji-img/1f1e7_1f1f8.png",
+      "image": "./emoji-img/bahamas.png",
       "fitz": false
     },
     "1f1e7_1f1f9": {
@@ -1678,7 +1678,7 @@
         127463,
         127481
       ],
-      "image": "./emoji-img/1f1e7_1f1f9.png",
+      "image": "./emoji-img/bhutan.png",
       "fitz": false
     },
     "1f1e7_1f1fc": {
@@ -1686,7 +1686,7 @@
         127463,
         127484
       ],
-      "image": "./emoji-img/1f1e7_1f1fc.png",
+      "image": "./emoji-img/botswana.png",
       "fitz": false
     },
     "1f1e7_1f1fe": {
@@ -1694,7 +1694,7 @@
         127463,
         127486
       ],
-      "image": "./emoji-img/1f1e7_1f1fe.png",
+      "image": "./emoji-img/belarus.png",
       "fitz": false
     },
     "1f1e7_1f1ff": {
@@ -1702,7 +1702,7 @@
         127463,
         127487
       ],
-      "image": "./emoji-img/1f1e7_1f1ff.png",
+      "image": "./emoji-img/belize.png",
       "fitz": false
     },
     "1f1e8_1f1e6": {
@@ -1710,7 +1710,7 @@
         127464,
         127462
       ],
-      "image": "./emoji-img/1f1e8_1f1e6.png",
+      "image": "./emoji-img/canada.png",
       "fitz": false
     },
     "1f1e8_1f1e8": {
@@ -1718,7 +1718,7 @@
         127464,
         127464
       ],
-      "image": "./emoji-img/1f1e8_1f1e8.png",
+      "image": "./emoji-img/cocos_islands.png",
       "fitz": false
     },
     "1f1e8_1f1e9": {
@@ -1726,7 +1726,7 @@
         127464,
         127465
       ],
-      "image": "./emoji-img/drc.png",
+      "image": "./emoji-img/congo_kinshasa.png",
       "fitz": false
     },
     "1f1e8_1f1eb": {
@@ -1734,7 +1734,7 @@
         127464,
         127467
       ],
-      "image": "./emoji-img/1f1e8_1f1eb.png",
+      "image": "./emoji-img/central_african_republic.png",
       "fitz": false
     },
     "1f1e8_1f1ec": {
@@ -1742,7 +1742,7 @@
         127464,
         127468
       ],
-      "image": "./emoji-img/1f1e8_1f1ec.png",
+      "image": "./emoji-img/congo_brazzaville.png",
       "fitz": false
     },
     "1f1e8_1f1ed": {
@@ -1750,7 +1750,7 @@
         127464,
         127469
       ],
-      "image": "./emoji-img/1f1e8_1f1ed.png",
+      "image": "./emoji-img/switzerland.png",
       "fitz": false
     },
     "1f1e8_1f1ee": {
@@ -1758,7 +1758,7 @@
         127464,
         127470
       ],
-      "image": "./emoji-img/1f1e8_1f1ee.png",
+      "image": "./emoji-img/cote_divoire.png",
       "fitz": false
     },
     "1f1e8_1f1f0": {
@@ -1766,7 +1766,7 @@
         127464,
         127472
       ],
-      "image": "./emoji-img/1f1e8_1f1f0.png",
+      "image": "./emoji-img/cook_islands.png",
       "fitz": false
     },
     "1f1e8_1f1f1": {
@@ -1782,7 +1782,7 @@
         127464,
         127474
       ],
-      "image": "./emoji-img/1f1e8_1f1f2.png",
+      "image": "./emoji-img/cameroon.png",
       "fitz": false
     },
     "1f1e8_1f1f3": {
@@ -1798,7 +1798,7 @@
         127464,
         127476
       ],
-      "image": "./emoji-img/1f1e8_1f1f4.png",
+      "image": "./emoji-img/colombia.png",
       "fitz": false
     },
     "1f1e8_1f1f7": {
@@ -1806,7 +1806,7 @@
         127464,
         127479
       ],
-      "image": "./emoji-img/1f1e8_1f1f7.png",
+      "image": "./emoji-img/costa_rica.png",
       "fitz": false
     },
     "1f1e8_1f1fa": {
@@ -1814,7 +1814,7 @@
         127464,
         127482
       ],
-      "image": "./emoji-img/1f1e8_1f1fa.png",
+      "image": "./emoji-img/cuba.png",
       "fitz": false
     },
     "1f1e8_1f1fb": {
@@ -1822,7 +1822,7 @@
         127464,
         127483
       ],
-      "image": "./emoji-img/1f1e8_1f1fb.png",
+      "image": "./emoji-img/cape_verde.png",
       "fitz": false
     },
     "1f1e8_1f1fc": {
@@ -1830,7 +1830,7 @@
         127464,
         127484
       ],
-      "image": "./emoji-img/1f1e8_1f1fc.png",
+      "image": "./emoji-img/curacao.png",
       "fitz": false
     },
     "1f1e8_1f1fd": {
@@ -1838,7 +1838,7 @@
         127464,
         127485
       ],
-      "image": "./emoji-img/1f1e8_1f1fd.png",
+      "image": "./emoji-img/christmas_island.png",
       "fitz": false
     },
     "1f1e8_1f1fe": {
@@ -1846,7 +1846,7 @@
         127464,
         127486
       ],
-      "image": "./emoji-img/1f1e8_1f1fe.png",
+      "image": "./emoji-img/cyprus.png",
       "fitz": false
     },
     "1f1e8_1f1ff": {
@@ -1854,7 +1854,7 @@
         127464,
         127487
       ],
-      "image": "./emoji-img/1f1e8_1f1ff.png",
+      "image": "./emoji-img/czech_republic.png",
       "fitz": false
     },
     "1f1e9_1f1ea": {
@@ -1870,7 +1870,7 @@
         127465,
         127471
       ],
-      "image": "./emoji-img/1f1e9_1f1ef.png",
+      "image": "./emoji-img/djibouti.png",
       "fitz": false
     },
     "1f1e9_1f1f0": {
@@ -1878,7 +1878,7 @@
         127465,
         127472
       ],
-      "image": "./emoji-img/1f1e9_1f1f0.png",
+      "image": "./emoji-img/denmark.png",
       "fitz": false
     },
     "1f1e9_1f1f2": {
@@ -1886,7 +1886,7 @@
         127465,
         127474
       ],
-      "image": "./emoji-img/1f1e9_1f1f2.png",
+      "image": "./emoji-img/dominica.png",
       "fitz": false
     },
     "1f1e9_1f1f4": {
@@ -1894,7 +1894,7 @@
         127465,
         127476
       ],
-      "image": "./emoji-img/1f1e9_1f1f4.png",
+      "image": "./emoji-img/dominican_republic.png",
       "fitz": false
     },
     "1f1e9_1f1ff": {
@@ -1902,7 +1902,7 @@
         127465,
         127487
       ],
-      "image": "./emoji-img/1f1e9_1f1ff.png",
+      "image": "./emoji-img/algeria.png",
       "fitz": false
     },
     "1f1ea_1f1e8": {
@@ -1910,7 +1910,7 @@
         127466,
         127464
       ],
-      "image": "./emoji-img/1f1ea_1f1e8.png",
+      "image": "./emoji-img/ecuador.png",
       "fitz": false
     },
     "1f1ea_1f1ea": {
@@ -1918,7 +1918,7 @@
         127466,
         127466
       ],
-      "image": "./emoji-img/1f1ea_1f1ea.png",
+      "image": "./emoji-img/estonia.png",
       "fitz": false
     },
     "1f1ea_1f1ec": {
@@ -1926,7 +1926,7 @@
         127466,
         127468
       ],
-      "image": "./emoji-img/1f1ea_1f1ec.png",
+      "image": "./emoji-img/egypt.png",
       "fitz": false
     },
     "1f1ea_1f1ed": {
@@ -1934,7 +1934,7 @@
         127466,
         127469
       ],
-      "image": "./emoji-img/1f1ea_1f1ed.png",
+      "image": "./emoji-img/western_sahara.png",
       "fitz": false
     },
     "1f1ea_1f1f7": {
@@ -1942,7 +1942,7 @@
         127466,
         127479
       ],
-      "image": "./emoji-img/1f1ea_1f1f7.png",
+      "image": "./emoji-img/eritrea.png",
       "fitz": false
     },
     "1f1ea_1f1f8": {
@@ -1958,7 +1958,7 @@
         127466,
         127481
       ],
-      "image": "./emoji-img/1f1ea_1f1f9.png",
+      "image": "./emoji-img/ethiopia.png",
       "fitz": false
     },
     "1f1ea_1f1fa": {
@@ -1974,7 +1974,7 @@
         127467,
         127470
       ],
-      "image": "./emoji-img/1f1eb_1f1ee.png",
+      "image": "./emoji-img/finland.png",
       "fitz": false
     },
     "1f1eb_1f1ef": {
@@ -1982,7 +1982,7 @@
         127467,
         127471
       ],
-      "image": "./emoji-img/1f1eb_1f1ef.png",
+      "image": "./emoji-img/fiji.png",
       "fitz": false
     },
     "1f1eb_1f1f0": {
@@ -1990,7 +1990,7 @@
         127467,
         127472
       ],
-      "image": "./emoji-img/1f1eb_1f1f0.png",
+      "image": "./emoji-img/falkland_islands.png",
       "fitz": false
     },
     "1f1eb_1f1f2": {
@@ -1998,7 +1998,7 @@
         127467,
         127474
       ],
-      "image": "./emoji-img/1f1eb_1f1f2.png",
+      "image": "./emoji-img/micronesia.png",
       "fitz": false
     },
     "1f1eb_1f1f4": {
@@ -2006,7 +2006,7 @@
         127467,
         127476
       ],
-      "image": "./emoji-img/1f1eb_1f1f4.png",
+      "image": "./emoji-img/faroe_islands.png",
       "fitz": false
     },
     "1f1eb_1f1f7": {
@@ -2022,7 +2022,7 @@
         127468,
         127462
       ],
-      "image": "./emoji-img/1f1ec_1f1e6.png",
+      "image": "./emoji-img/gabon.png",
       "fitz": false
     },
     "1f1ec_1f1e7": {
@@ -2038,7 +2038,7 @@
         127468,
         127465
       ],
-      "image": "./emoji-img/1f1ec_1f1e9.png",
+      "image": "./emoji-img/grenada.png",
       "fitz": false
     },
     "1f1ec_1f1ea": {
@@ -2046,7 +2046,7 @@
         127468,
         127466
       ],
-      "image": "./emoji-img/1f1ec_1f1ea.png",
+      "image": "./emoji-img/georgia.png",
       "fitz": false
     },
     "1f1ec_1f1eb": {
@@ -2054,7 +2054,7 @@
         127468,
         127467
       ],
-      "image": "./emoji-img/1f1ec_1f1eb.png",
+      "image": "./emoji-img/french_guiana.png",
       "fitz": false
     },
     "1f1ec_1f1ec": {
@@ -2062,7 +2062,7 @@
         127468,
         127468
       ],
-      "image": "./emoji-img/1f1ec_1f1ec.png",
+      "image": "./emoji-img/guernsey.png",
       "fitz": false
     },
     "1f1ec_1f1ed": {
@@ -2070,7 +2070,7 @@
         127468,
         127469
       ],
-      "image": "./emoji-img/1f1ec_1f1ed.png",
+      "image": "./emoji-img/ghana.png",
       "fitz": false
     },
     "1f1ec_1f1ee": {
@@ -2078,7 +2078,7 @@
         127468,
         127470
       ],
-      "image": "./emoji-img/1f1ec_1f1ee.png",
+      "image": "./emoji-img/gibraltar.png",
       "fitz": false
     },
     "1f1ec_1f1f1": {
@@ -2086,7 +2086,7 @@
         127468,
         127473
       ],
-      "image": "./emoji-img/1f1ec_1f1f1.png",
+      "image": "./emoji-img/greenland.png",
       "fitz": false
     },
     "1f1ec_1f1f2": {
@@ -2094,7 +2094,7 @@
         127468,
         127474
       ],
-      "image": "./emoji-img/1f1ec_1f1f2.png",
+      "image": "./emoji-img/gambia.png",
       "fitz": false
     },
     "1f1ec_1f1f3": {
@@ -2102,7 +2102,7 @@
         127468,
         127475
       ],
-      "image": "./emoji-img/1f1ec_1f1f3.png",
+      "image": "./emoji-img/guinea.png",
       "fitz": false
     },
     "1f1ec_1f1f5": {
@@ -2110,7 +2110,7 @@
         127468,
         127477
       ],
-      "image": "./emoji-img/1f1ec_1f1f5.png",
+      "image": "./emoji-img/guadeloupe.png",
       "fitz": false
     },
     "1f1ec_1f1f6": {
@@ -2118,7 +2118,7 @@
         127468,
         127478
       ],
-      "image": "./emoji-img/1f1ec_1f1f6.png",
+      "image": "./emoji-img/equatorial_guinea.png",
       "fitz": false
     },
     "1f1ec_1f1f7": {
@@ -2126,7 +2126,7 @@
         127468,
         127479
       ],
-      "image": "./emoji-img/1f1ec_1f1f7.png",
+      "image": "./emoji-img/greece.png",
       "fitz": false
     },
     "1f1ec_1f1f8": {
@@ -2134,7 +2134,7 @@
         127468,
         127480
       ],
-      "image": "./emoji-img/1f1ec_1f1f8.png",
+      "image": "./emoji-img/south_georgia_south_sandwich_islands.png",
       "fitz": false
     },
     "1f1ec_1f1f9": {
@@ -2142,7 +2142,7 @@
         127468,
         127481
       ],
-      "image": "./emoji-img/1f1ec_1f1f9.png",
+      "image": "./emoji-img/guatemala.png",
       "fitz": false
     },
     "1f1ec_1f1fa": {
@@ -2150,7 +2150,7 @@
         127468,
         127482
       ],
-      "image": "./emoji-img/1f1ec_1f1fa.png",
+      "image": "./emoji-img/guam.png",
       "fitz": false
     },
     "1f1ec_1f1fc": {
@@ -2158,7 +2158,7 @@
         127468,
         127484
       ],
-      "image": "./emoji-img/1f1ec_1f1fc.png",
+      "image": "./emoji-img/guinea_bissau.png",
       "fitz": false
     },
     "1f1ec_1f1fe": {
@@ -2166,7 +2166,7 @@
         127468,
         127486
       ],
-      "image": "./emoji-img/1f1ec_1f1fe.png",
+      "image": "./emoji-img/guyana.png",
       "fitz": false
     },
     "1f1ed_1f1f0": {
@@ -2174,7 +2174,7 @@
         127469,
         127472
       ],
-      "image": "./emoji-img/1f1ed_1f1f0.png",
+      "image": "./emoji-img/hong_kong.png",
       "fitz": false
     },
     "1f1ed_1f1f3": {
@@ -2182,7 +2182,7 @@
         127469,
         127475
       ],
-      "image": "./emoji-img/1f1ed_1f1f3.png",
+      "image": "./emoji-img/honduras.png",
       "fitz": false
     },
     "1f1ed_1f1f7": {
@@ -2190,7 +2190,7 @@
         127469,
         127479
       ],
-      "image": "./emoji-img/1f1ed_1f1f7.png",
+      "image": "./emoji-img/croatia.png",
       "fitz": false
     },
     "1f1ed_1f1f9": {
@@ -2198,7 +2198,7 @@
         127469,
         127481
       ],
-      "image": "./emoji-img/1f1ed_1f1f9.png",
+      "image": "./emoji-img/haiti.png",
       "fitz": false
     },
     "1f1ed_1f1fa": {
@@ -2206,7 +2206,7 @@
         127469,
         127482
       ],
-      "image": "./emoji-img/1f1ed_1f1fa.png",
+      "image": "./emoji-img/hungary.png",
       "fitz": false
     },
     "1f1ee_1f1e8": {
@@ -2214,7 +2214,7 @@
         127470,
         127464
       ],
-      "image": "./emoji-img/1f1ee_1f1e8.png",
+      "image": "./emoji-img/canary_islands.png",
       "fitz": false
     },
     "1f1ee_1f1e9": {
@@ -2230,7 +2230,7 @@
         127470,
         127466
       ],
-      "image": "./emoji-img/1f1ee_1f1ea.png",
+      "image": "./emoji-img/ireland.png",
       "fitz": false
     },
     "1f1ee_1f1f1": {
@@ -2238,7 +2238,7 @@
         127470,
         127473
       ],
-      "image": "./emoji-img/1f1ee_1f1f1.png",
+      "image": "./emoji-img/israel.png",
       "fitz": false
     },
     "1f1ee_1f1f2": {
@@ -2246,7 +2246,7 @@
         127470,
         127474
       ],
-      "image": "./emoji-img/1f1ee_1f1f2.png",
+      "image": "./emoji-img/isle_of_man.png",
       "fitz": false
     },
     "1f1ee_1f1f3": {
@@ -2254,7 +2254,7 @@
         127470,
         127475
       ],
-      "image": "./emoji-img/1f1ee_1f1f3.png",
+      "image": "./emoji-img/india.png",
       "fitz": false
     },
     "1f1ee_1f1f4": {
@@ -2262,7 +2262,7 @@
         127470,
         127476
       ],
-      "image": "./emoji-img/1f1ee_1f1f4.png",
+      "image": "./emoji-img/british_indian_ocean_territory.png",
       "fitz": false
     },
     "1f1ee_1f1f6": {
@@ -2270,7 +2270,7 @@
         127470,
         127478
       ],
-      "image": "./emoji-img/1f1ee_1f1f6.png",
+      "image": "./emoji-img/iraq.png",
       "fitz": false
     },
     "1f1ee_1f1f7": {
@@ -2278,7 +2278,7 @@
         127470,
         127479
       ],
-      "image": "./emoji-img/1f1ee_1f1f7.png",
+      "image": "./emoji-img/iran.png",
       "fitz": false
     },
     "1f1ee_1f1f8": {
@@ -2286,7 +2286,7 @@
         127470,
         127480
       ],
-      "image": "./emoji-img/1f1ee_1f1f8.png",
+      "image": "./emoji-img/iceland.png",
       "fitz": false
     },
     "1f1ee_1f1f9": {
@@ -2302,7 +2302,7 @@
         127471,
         127466
       ],
-      "image": "./emoji-img/1f1ef_1f1ea.png",
+      "image": "./emoji-img/jersey.png",
       "fitz": false
     },
     "1f1ef_1f1f2": {
@@ -2310,7 +2310,7 @@
         127471,
         127474
       ],
-      "image": "./emoji-img/1f1ef_1f1f2.png",
+      "image": "./emoji-img/jamaica.png",
       "fitz": false
     },
     "1f1ef_1f1f4": {
@@ -2318,7 +2318,7 @@
         127471,
         127476
       ],
-      "image": "./emoji-img/1f1ef_1f1f4.png",
+      "image": "./emoji-img/jordan.png",
       "fitz": false
     },
     "1f1ef_1f1f5": {
@@ -2334,7 +2334,7 @@
         127472,
         127466
       ],
-      "image": "./emoji-img/1f1f0_1f1ea.png",
+      "image": "./emoji-img/kenya.png",
       "fitz": false
     },
     "1f1f0_1f1ec": {
@@ -2342,7 +2342,7 @@
         127472,
         127468
       ],
-      "image": "./emoji-img/1f1f0_1f1ec.png",
+      "image": "./emoji-img/kyrgyzstan.png",
       "fitz": false
     },
     "1f1f0_1f1ed": {
@@ -2350,7 +2350,7 @@
         127472,
         127469
       ],
-      "image": "./emoji-img/1f1f0_1f1ed.png",
+      "image": "./emoji-img/cambodia.png",
       "fitz": false
     },
     "1f1f0_1f1ee": {
@@ -2358,7 +2358,7 @@
         127472,
         127470
       ],
-      "image": "./emoji-img/1f1f0_1f1ee.png",
+      "image": "./emoji-img/kiribati.png",
       "fitz": false
     },
     "1f1f0_1f1f2": {
@@ -2366,7 +2366,7 @@
         127472,
         127474
       ],
-      "image": "./emoji-img/1f1f0_1f1f2.png",
+      "image": "./emoji-img/comoros.png",
       "fitz": false
     },
     "1f1f0_1f1f3": {
@@ -2374,7 +2374,7 @@
         127472,
         127475
       ],
-      "image": "./emoji-img/1f1f0_1f1f3.png",
+      "image": "./emoji-img/st_kitts_nevis.png",
       "fitz": false
     },
     "1f1f0_1f1f5": {
@@ -2382,7 +2382,7 @@
         127472,
         127477
       ],
-      "image": "./emoji-img/1f1f0_1f1f5.png",
+      "image": "./emoji-img/north_korea.png",
       "fitz": false
     },
     "1f1f0_1f1f7": {
@@ -2398,7 +2398,7 @@
         127472,
         127484
       ],
-      "image": "./emoji-img/1f1f0_1f1fc.png",
+      "image": "./emoji-img/kuwait.png",
       "fitz": false
     },
     "1f1f0_1f1fe": {
@@ -2406,7 +2406,7 @@
         127472,
         127486
       ],
-      "image": "./emoji-img/1f1f0_1f1fe.png",
+      "image": "./emoji-img/cayman_islands.png",
       "fitz": false
     },
     "1f1f0_1f1ff": {
@@ -2414,7 +2414,7 @@
         127472,
         127487
       ],
-      "image": "./emoji-img/1f1f0_1f1ff.png",
+      "image": "./emoji-img/kazakhstan.png",
       "fitz": false
     },
     "1f1f1_1f1e6": {
@@ -2422,7 +2422,7 @@
         127473,
         127462
       ],
-      "image": "./emoji-img/1f1f1_1f1e6.png",
+      "image": "./emoji-img/laos.png",
       "fitz": false
     },
     "1f1f1_1f1e7": {
@@ -2430,7 +2430,7 @@
         127473,
         127463
       ],
-      "image": "./emoji-img/1f1f1_1f1e7.png",
+      "image": "./emoji-img/lebanon.png",
       "fitz": false
     },
     "1f1f1_1f1e8": {
@@ -2438,7 +2438,7 @@
         127473,
         127464
       ],
-      "image": "./emoji-img/1f1f1_1f1e8.png",
+      "image": "./emoji-img/st_lucia.png",
       "fitz": false
     },
     "1f1f1_1f1ee": {
@@ -2446,7 +2446,7 @@
         127473,
         127470
       ],
-      "image": "./emoji-img/1f1f1_1f1ee.png",
+      "image": "./emoji-img/liechtenstein.png",
       "fitz": false
     },
     "1f1f1_1f1f0": {
@@ -2454,7 +2454,7 @@
         127473,
         127472
       ],
-      "image": "./emoji-img/1f1f1_1f1f0.png",
+      "image": "./emoji-img/sri_lanka.png",
       "fitz": false
     },
     "1f1f1_1f1f7": {
@@ -2462,7 +2462,7 @@
         127473,
         127479
       ],
-      "image": "./emoji-img/1f1f1_1f1f7.png",
+      "image": "./emoji-img/liberia.png",
       "fitz": false
     },
     "1f1f1_1f1f8": {
@@ -2470,7 +2470,7 @@
         127473,
         127480
       ],
-      "image": "./emoji-img/1f1f1_1f1f8.png",
+      "image": "./emoji-img/lesotho.png",
       "fitz": false
     },
     "1f1f1_1f1f9": {
@@ -2478,7 +2478,7 @@
         127473,
         127481
       ],
-      "image": "./emoji-img/1f1f1_1f1f9.png",
+      "image": "./emoji-img/lithuania.png",
       "fitz": false
     },
     "1f1f1_1f1fa": {
@@ -2486,7 +2486,7 @@
         127473,
         127482
       ],
-      "image": "./emoji-img/1f1f1_1f1fa.png",
+      "image": "./emoji-img/luxembourg.png",
       "fitz": false
     },
     "1f1f1_1f1fb": {
@@ -2494,7 +2494,7 @@
         127473,
         127483
       ],
-      "image": "./emoji-img/1f1f1_1f1fb.png",
+      "image": "./emoji-img/latvia.png",
       "fitz": false
     },
     "1f1f1_1f1fe": {
@@ -2502,7 +2502,7 @@
         127473,
         127486
       ],
-      "image": "./emoji-img/1f1f1_1f1fe.png",
+      "image": "./emoji-img/libya.png",
       "fitz": false
     },
     "1f1f2_1f1e6": {
@@ -2510,7 +2510,7 @@
         127474,
         127462
       ],
-      "image": "./emoji-img/1f1f2_1f1e6.png",
+      "image": "./emoji-img/morocco.png",
       "fitz": false
     },
     "1f1f2_1f1e8": {
@@ -2518,7 +2518,7 @@
         127474,
         127464
       ],
-      "image": "./emoji-img/1f1f2_1f1e8.png",
+      "image": "./emoji-img/monaco.png",
       "fitz": false
     },
     "1f1f2_1f1e9": {
@@ -2526,7 +2526,7 @@
         127474,
         127465
       ],
-      "image": "./emoji-img/1f1f2_1f1e9.png",
+      "image": "./emoji-img/moldova.png",
       "fitz": false
     },
     "1f1f2_1f1ea": {
@@ -2534,7 +2534,7 @@
         127474,
         127466
       ],
-      "image": "./emoji-img/1f1f2_1f1ea.png",
+      "image": "./emoji-img/montenegro.png",
       "fitz": false
     },
     "1f1f2_1f1ec": {
@@ -2542,7 +2542,7 @@
         127474,
         127468
       ],
-      "image": "./emoji-img/1f1f2_1f1ec.png",
+      "image": "./emoji-img/madagascar.png",
       "fitz": false
     },
     "1f1f2_1f1ed": {
@@ -2550,7 +2550,7 @@
         127474,
         127469
       ],
-      "image": "./emoji-img/1f1f2_1f1ed.png",
+      "image": "./emoji-img/marshall_islands.png",
       "fitz": false
     },
     "1f1f2_1f1f0": {
@@ -2558,7 +2558,7 @@
         127474,
         127472
       ],
-      "image": "./emoji-img/1f1f2_1f1f0.png",
+      "image": "./emoji-img/macedonia.png",
       "fitz": false
     },
     "1f1f2_1f1f1": {
@@ -2566,7 +2566,7 @@
         127474,
         127473
       ],
-      "image": "./emoji-img/1f1f2_1f1f1.png",
+      "image": "./emoji-img/mali.png",
       "fitz": false
     },
     "1f1f2_1f1f2": {
@@ -2574,7 +2574,7 @@
         127474,
         127474
       ],
-      "image": "./emoji-img/1f1f2_1f1f2.png",
+      "image": "./emoji-img/myanmar.png",
       "fitz": false
     },
     "1f1f2_1f1f3": {
@@ -2582,7 +2582,7 @@
         127474,
         127475
       ],
-      "image": "./emoji-img/1f1f2_1f1f3.png",
+      "image": "./emoji-img/mongolia.png",
       "fitz": false
     },
     "1f1f2_1f1f4": {
@@ -2590,7 +2590,7 @@
         127474,
         127476
       ],
-      "image": "./emoji-img/1f1f2_1f1f4.png",
+      "image": "./emoji-img/macau.png",
       "fitz": false
     },
     "1f1f2_1f1f5": {
@@ -2598,7 +2598,7 @@
         127474,
         127477
       ],
-      "image": "./emoji-img/1f1f2_1f1f5.png",
+      "image": "./emoji-img/northern_mariana_islands.png",
       "fitz": false
     },
     "1f1f2_1f1f6": {
@@ -2606,7 +2606,7 @@
         127474,
         127478
       ],
-      "image": "./emoji-img/1f1f2_1f1f6.png",
+      "image": "./emoji-img/martinique.png",
       "fitz": false
     },
     "1f1f2_1f1f7": {
@@ -2614,7 +2614,7 @@
         127474,
         127479
       ],
-      "image": "./emoji-img/1f1f2_1f1f7.png",
+      "image": "./emoji-img/mauritania.png",
       "fitz": false
     },
     "1f1f2_1f1f8": {
@@ -2622,7 +2622,7 @@
         127474,
         127480
       ],
-      "image": "./emoji-img/1f1f2_1f1f8.png",
+      "image": "./emoji-img/montserrat.png",
       "fitz": false
     },
     "1f1f2_1f1f9": {
@@ -2630,7 +2630,7 @@
         127474,
         127481
       ],
-      "image": "./emoji-img/1f1f2_1f1f9.png",
+      "image": "./emoji-img/malta.png",
       "fitz": false
     },
     "1f1f2_1f1fa": {
@@ -2638,7 +2638,7 @@
         127474,
         127482
       ],
-      "image": "./emoji-img/1f1f2_1f1fa.png",
+      "image": "./emoji-img/mauritius.png",
       "fitz": false
     },
     "1f1f2_1f1fb": {
@@ -2646,7 +2646,7 @@
         127474,
         127483
       ],
-      "image": "./emoji-img/1f1f2_1f1fb.png",
+      "image": "./emoji-img/maldives.png",
       "fitz": false
     },
     "1f1f2_1f1fc": {
@@ -2654,7 +2654,7 @@
         127474,
         127484
       ],
-      "image": "./emoji-img/1f1f2_1f1fc.png",
+      "image": "./emoji-img/malawi.png",
       "fitz": false
     },
     "1f1f2_1f1fd": {
@@ -2662,7 +2662,7 @@
         127474,
         127485
       ],
-      "image": "./emoji-img/1f1f2_1f1fd.png",
+      "image": "./emoji-img/mexico.png",
       "fitz": false
     },
     "1f1f2_1f1fe": {
@@ -2670,7 +2670,7 @@
         127474,
         127486
       ],
-      "image": "./emoji-img/1f1f2_1f1fe.png",
+      "image": "./emoji-img/malaysia.png",
       "fitz": false
     },
     "1f1f2_1f1ff": {
@@ -2678,7 +2678,7 @@
         127474,
         127487
       ],
-      "image": "./emoji-img/1f1f2_1f1ff.png",
+      "image": "./emoji-img/mozambique.png",
       "fitz": false
     },
     "1f1f3_1f1e6": {
@@ -2686,7 +2686,7 @@
         127475,
         127462
       ],
-      "image": "./emoji-img/1f1f3_1f1e6.png",
+      "image": "./emoji-img/namibia.png",
       "fitz": false
     },
     "1f1f3_1f1e8": {
@@ -2694,7 +2694,7 @@
         127475,
         127464
       ],
-      "image": "./emoji-img/1f1f3_1f1e8.png",
+      "image": "./emoji-img/new_caledonia.png",
       "fitz": false
     },
     "1f1f3_1f1ea": {
@@ -2702,7 +2702,7 @@
         127475,
         127466
       ],
-      "image": "./emoji-img/1f1f3_1f1ea.png",
+      "image": "./emoji-img/niger.png",
       "fitz": false
     },
     "1f1f3_1f1eb": {
@@ -2710,7 +2710,7 @@
         127475,
         127467
       ],
-      "image": "./emoji-img/1f1f3_1f1eb.png",
+      "image": "./emoji-img/norfolk_island.png",
       "fitz": false
     },
     "1f1f3_1f1ec": {
@@ -2726,7 +2726,7 @@
         127475,
         127470
       ],
-      "image": "./emoji-img/1f1f3_1f1ee.png",
+      "image": "./emoji-img/nicaragua.png",
       "fitz": false
     },
     "1f1f3_1f1f1": {
@@ -2734,7 +2734,7 @@
         127475,
         127473
       ],
-      "image": "./emoji-img/1f1f3_1f1f1.png",
+      "image": "./emoji-img/netherlands.png",
       "fitz": false
     },
     "1f1f3_1f1f4": {
@@ -2742,7 +2742,7 @@
         127475,
         127476
       ],
-      "image": "./emoji-img/1f1f3_1f1f4.png",
+      "image": "./emoji-img/norway.png",
       "fitz": false
     },
     "1f1f3_1f1f5": {
@@ -2750,7 +2750,7 @@
         127475,
         127477
       ],
-      "image": "./emoji-img/1f1f3_1f1f5.png",
+      "image": "./emoji-img/nepal.png",
       "fitz": false
     },
     "1f1f3_1f1f7": {
@@ -2758,7 +2758,7 @@
         127475,
         127479
       ],
-      "image": "./emoji-img/1f1f3_1f1f7.png",
+      "image": "./emoji-img/nauru.png",
       "fitz": false
     },
     "1f1f3_1f1fa": {
@@ -2766,7 +2766,7 @@
         127475,
         127482
       ],
-      "image": "./emoji-img/1f1f3_1f1fa.png",
+      "image": "./emoji-img/niue.png",
       "fitz": false
     },
     "1f1f3_1f1ff": {
@@ -2774,7 +2774,7 @@
         127475,
         127487
       ],
-      "image": "./emoji-img/1f1f3_1f1ff.png",
+      "image": "./emoji-img/new_zealand.png",
       "fitz": false
     },
     "1f1f4_1f1f2": {
@@ -2782,7 +2782,7 @@
         127476,
         127474
       ],
-      "image": "./emoji-img/1f1f4_1f1f2.png",
+      "image": "./emoji-img/oman.png",
       "fitz": false
     },
     "1f1f5_1f1e6": {
@@ -2790,7 +2790,7 @@
         127477,
         127462
       ],
-      "image": "./emoji-img/1f1f5_1f1e6.png",
+      "image": "./emoji-img/panama.png",
       "fitz": false
     },
     "1f1f5_1f1ea": {
@@ -2798,7 +2798,7 @@
         127477,
         127466
       ],
-      "image": "./emoji-img/1f1f5_1f1ea.png",
+      "image": "./emoji-img/peru.png",
       "fitz": false
     },
     "1f1f5_1f1eb": {
@@ -2806,7 +2806,7 @@
         127477,
         127467
       ],
-      "image": "./emoji-img/1f1f5_1f1eb.png",
+      "image": "./emoji-img/french_polynesia.png",
       "fitz": false
     },
     "1f1f5_1f1ec": {
@@ -2814,7 +2814,7 @@
         127477,
         127468
       ],
-      "image": "./emoji-img/1f1f5_1f1ec.png",
+      "image": "./emoji-img/papua_new_guinea.png",
       "fitz": false
     },
     "1f1f5_1f1ed": {
@@ -2822,7 +2822,7 @@
         127477,
         127469
       ],
-      "image": "./emoji-img/1f1f5_1f1ed.png",
+      "image": "./emoji-img/philippines.png",
       "fitz": false
     },
     "1f1f5_1f1f0": {
@@ -2830,7 +2830,7 @@
         127477,
         127472
       ],
-      "image": "./emoji-img/1f1f5_1f1f0.png",
+      "image": "./emoji-img/pakistan.png",
       "fitz": false
     },
     "1f1f5_1f1f1": {
@@ -2838,7 +2838,7 @@
         127477,
         127473
       ],
-      "image": "./emoji-img/1f1f5_1f1f1.png",
+      "image": "./emoji-img/poland.png",
       "fitz": false
     },
     "1f1f5_1f1f2": {
@@ -2846,7 +2846,7 @@
         127477,
         127474
       ],
-      "image": "./emoji-img/1f1f5_1f1f2.png",
+      "image": "./emoji-img/st_pierre_miquelon.png",
       "fitz": false
     },
     "1f1f5_1f1f3": {
@@ -2854,7 +2854,7 @@
         127477,
         127475
       ],
-      "image": "./emoji-img/1f1f5_1f1f3.png",
+      "image": "./emoji-img/pitcairn_islands.png",
       "fitz": false
     },
     "1f1f5_1f1f7": {
@@ -2862,7 +2862,7 @@
         127477,
         127479
       ],
-      "image": "./emoji-img/1f1f5_1f1f7.png",
+      "image": "./emoji-img/puerto_rico.png",
       "fitz": false
     },
     "1f1f5_1f1f8": {
@@ -2870,7 +2870,7 @@
         127477,
         127480
       ],
-      "image": "./emoji-img/1f1f5_1f1f8.png",
+      "image": "./emoji-img/palestinian_territories.png",
       "fitz": false
     },
     "1f1f5_1f1f9": {
@@ -2878,7 +2878,7 @@
         127477,
         127481
       ],
-      "image": "./emoji-img/1f1f5_1f1f9.png",
+      "image": "./emoji-img/portugal.png",
       "fitz": false
     },
     "1f1f5_1f1fc": {
@@ -2886,7 +2886,7 @@
         127477,
         127484
       ],
-      "image": "./emoji-img/1f1f5_1f1fc.png",
+      "image": "./emoji-img/palau.png",
       "fitz": false
     },
     "1f1f5_1f1fe": {
@@ -2894,7 +2894,7 @@
         127477,
         127486
       ],
-      "image": "./emoji-img/1f1f5_1f1fe.png",
+      "image": "./emoji-img/paraguay.png",
       "fitz": false
     },
     "1f1f6_1f1e6": {
@@ -2902,7 +2902,7 @@
         127478,
         127462
       ],
-      "image": "./emoji-img/1f1f6_1f1e6.png",
+      "image": "./emoji-img/qatar.png",
       "fitz": false
     },
     "1f1f7_1f1ea": {
@@ -2910,7 +2910,7 @@
         127479,
         127466
       ],
-      "image": "./emoji-img/1f1f7_1f1ea.png",
+      "image": "./emoji-img/reunion.png",
       "fitz": false
     },
     "1f1f7_1f1f4": {
@@ -2918,7 +2918,7 @@
         127479,
         127476
       ],
-      "image": "./emoji-img/1f1f7_1f1f4.png",
+      "image": "./emoji-img/romania.png",
       "fitz": false
     },
     "1f1f7_1f1f8": {
@@ -2926,7 +2926,7 @@
         127479,
         127480
       ],
-      "image": "./emoji-img/1f1f7_1f1f8.png",
+      "image": "./emoji-img/serbia.png",
       "fitz": false
     },
     "1f1f7_1f1fa": {
@@ -2942,7 +2942,7 @@
         127479,
         127484
       ],
-      "image": "./emoji-img/1f1f7_1f1fc.png",
+      "image": "./emoji-img/rwanda.png",
       "fitz": false
     },
     "1f1f8_1f1e6": {
@@ -2958,7 +2958,7 @@
         127480,
         127463
       ],
-      "image": "./emoji-img/1f1f8_1f1e7.png",
+      "image": "./emoji-img/solomon_islands.png",
       "fitz": false
     },
     "1f1f8_1f1e8": {
@@ -2966,7 +2966,7 @@
         127480,
         127464
       ],
-      "image": "./emoji-img/1f1f8_1f1e8.png",
+      "image": "./emoji-img/seychelles.png",
       "fitz": false
     },
     "1f1f8_1f1e9": {
@@ -2974,7 +2974,7 @@
         127480,
         127465
       ],
-      "image": "./emoji-img/1f1f8_1f1e9.png",
+      "image": "./emoji-img/sudan.png",
       "fitz": false
     },
     "1f1f8_1f1ea": {
@@ -2982,7 +2982,7 @@
         127480,
         127466
       ],
-      "image": "./emoji-img/1f1f8_1f1ea.png",
+      "image": "./emoji-img/sweden.png",
       "fitz": false
     },
     "1f1f8_1f1ec": {
@@ -2990,7 +2990,7 @@
         127480,
         127468
       ],
-      "image": "./emoji-img/1f1f8_1f1ec.png",
+      "image": "./emoji-img/singapore.png",
       "fitz": false
     },
     "1f1f8_1f1ed": {
@@ -2998,7 +2998,7 @@
         127480,
         127469
       ],
-      "image": "./emoji-img/1f1f8_1f1ed.png",
+      "image": "./emoji-img/st_helena.png",
       "fitz": false
     },
     "1f1f8_1f1ee": {
@@ -3006,7 +3006,7 @@
         127480,
         127470
       ],
-      "image": "./emoji-img/1f1f8_1f1ee.png",
+      "image": "./emoji-img/slovenia.png",
       "fitz": false
     },
     "1f1f8_1f1f0": {
@@ -3014,7 +3014,7 @@
         127480,
         127472
       ],
-      "image": "./emoji-img/1f1f8_1f1f0.png",
+      "image": "./emoji-img/slovakia.png",
       "fitz": false
     },
     "1f1f8_1f1f1": {
@@ -3022,7 +3022,7 @@
         127480,
         127473
       ],
-      "image": "./emoji-img/1f1f8_1f1f1.png",
+      "image": "./emoji-img/sierra_leone.png",
       "fitz": false
     },
     "1f1f8_1f1f2": {
@@ -3030,7 +3030,7 @@
         127480,
         127474
       ],
-      "image": "./emoji-img/1f1f8_1f1f2.png",
+      "image": "./emoji-img/san_marino.png",
       "fitz": false
     },
     "1f1f8_1f1f3": {
@@ -3038,7 +3038,7 @@
         127480,
         127475
       ],
-      "image": "./emoji-img/1f1f8_1f1f3.png",
+      "image": "./emoji-img/senegal.png",
       "fitz": false
     },
     "1f1f8_1f1f4": {
@@ -3046,7 +3046,7 @@
         127480,
         127476
       ],
-      "image": "./emoji-img/1f1f8_1f1f4.png",
+      "image": "./emoji-img/somalia.png",
       "fitz": false
     },
     "1f1f8_1f1f7": {
@@ -3054,7 +3054,7 @@
         127480,
         127479
       ],
-      "image": "./emoji-img/1f1f8_1f1f7.png",
+      "image": "./emoji-img/suriname.png",
       "fitz": false
     },
     "1f1f8_1f1f8": {
@@ -3062,7 +3062,7 @@
         127480,
         127480
       ],
-      "image": "./emoji-img/1f1f8_1f1f8.png",
+      "image": "./emoji-img/south_sudan.png",
       "fitz": false
     },
     "1f1f8_1f1f9": {
@@ -3070,7 +3070,7 @@
         127480,
         127481
       ],
-      "image": "./emoji-img/1f1f8_1f1f9.png",
+      "image": "./emoji-img/sao_tome_principe.png",
       "fitz": false
     },
     "1f1f8_1f1fb": {
@@ -3078,7 +3078,7 @@
         127480,
         127483
       ],
-      "image": "./emoji-img/1f1f8_1f1fb.png",
+      "image": "./emoji-img/el_salvador.png",
       "fitz": false
     },
     "1f1f8_1f1fd": {
@@ -3086,7 +3086,7 @@
         127480,
         127485
       ],
-      "image": "./emoji-img/1f1f8_1f1fd.png",
+      "image": "./emoji-img/sint_maarten.png",
       "fitz": false
     },
     "1f1f8_1f1fe": {
@@ -3094,7 +3094,7 @@
         127480,
         127486
       ],
-      "image": "./emoji-img/1f1f8_1f1fe.png",
+      "image": "./emoji-img/syria.png",
       "fitz": false
     },
     "1f1f8_1f1ff": {
@@ -3102,7 +3102,7 @@
         127480,
         127487
       ],
-      "image": "./emoji-img/1f1f8_1f1ff.png",
+      "image": "./emoji-img/swaziland.png",
       "fitz": false
     },
     "1f1f9_1f1e8": {
@@ -3110,7 +3110,7 @@
         127481,
         127464
       ],
-      "image": "./emoji-img/1f1f9_1f1e8.png",
+      "image": "./emoji-img/turks_caicos_islands.png",
       "fitz": false
     },
     "1f1f9_1f1e9": {
@@ -3118,7 +3118,7 @@
         127481,
         127465
       ],
-      "image": "./emoji-img/1f1f9_1f1e9.png",
+      "image": "./emoji-img/chad.png",
       "fitz": false
     },
     "1f1f9_1f1eb": {
@@ -3126,7 +3126,7 @@
         127481,
         127467
       ],
-      "image": "./emoji-img/1f1f9_1f1eb.png",
+      "image": "./emoji-img/french_southern_territories.png",
       "fitz": false
     },
     "1f1f9_1f1ec": {
@@ -3134,7 +3134,7 @@
         127481,
         127468
       ],
-      "image": "./emoji-img/1f1f9_1f1ec.png",
+      "image": "./emoji-img/togo.png",
       "fitz": false
     },
     "1f1f9_1f1ed": {
@@ -3142,7 +3142,7 @@
         127481,
         127469
       ],
-      "image": "./emoji-img/1f1f9_1f1ed.png",
+      "image": "./emoji-img/thailand.png",
       "fitz": false
     },
     "1f1f9_1f1ef": {
@@ -3150,7 +3150,7 @@
         127481,
         127471
       ],
-      "image": "./emoji-img/1f1f9_1f1ef.png",
+      "image": "./emoji-img/tajikistan.png",
       "fitz": false
     },
     "1f1f9_1f1f0": {
@@ -3158,7 +3158,7 @@
         127481,
         127472
       ],
-      "image": "./emoji-img/1f1f9_1f1f0.png",
+      "image": "./emoji-img/tokelau.png",
       "fitz": false
     },
     "1f1f9_1f1f1": {
@@ -3166,7 +3166,7 @@
         127481,
         127473
       ],
-      "image": "./emoji-img/1f1f9_1f1f1.png",
+      "image": "./emoji-img/timor_leste.png",
       "fitz": false
     },
     "1f1f9_1f1f2": {
@@ -3182,7 +3182,7 @@
         127481,
         127475
       ],
-      "image": "./emoji-img/1f1f9_1f1f3.png",
+      "image": "./emoji-img/tunisia.png",
       "fitz": false
     },
     "1f1f9_1f1f4": {
@@ -3190,7 +3190,7 @@
         127481,
         127476
       ],
-      "image": "./emoji-img/1f1f9_1f1f4.png",
+      "image": "./emoji-img/tonga.png",
       "fitz": false
     },
     "1f1f9_1f1f7": {
@@ -3206,7 +3206,7 @@
         127481,
         127481
       ],
-      "image": "./emoji-img/1f1f9_1f1f9.png",
+      "image": "./emoji-img/trinidad_tobago.png",
       "fitz": false
     },
     "1f1f9_1f1fb": {
@@ -3222,7 +3222,7 @@
         127481,
         127484
       ],
-      "image": "./emoji-img/1f1f9_1f1fc.png",
+      "image": "./emoji-img/taiwan.png",
       "fitz": false
     },
     "1f1f9_1f1ff": {
@@ -3230,7 +3230,7 @@
         127481,
         127487
       ],
-      "image": "./emoji-img/1f1f9_1f1ff.png",
+      "image": "./emoji-img/tanzania.png",
       "fitz": false
     },
     "1f1fa_1f1e6": {
@@ -3238,7 +3238,7 @@
         127482,
         127462
       ],
-      "image": "./emoji-img/1f1fa_1f1e6.png",
+      "image": "./emoji-img/ukraine.png",
       "fitz": false
     },
     "1f1fa_1f1ec": {
@@ -3246,7 +3246,7 @@
         127482,
         127468
       ],
-      "image": "./emoji-img/1f1fa_1f1ec.png",
+      "image": "./emoji-img/uganda.png",
       "fitz": false
     },
     "1f1fa_1f1f8": {
@@ -3262,7 +3262,7 @@
         127482,
         127486
       ],
-      "image": "./emoji-img/1f1fa_1f1fe.png",
+      "image": "./emoji-img/uruguay.png",
       "fitz": false
     },
     "1f1fa_1f1ff": {
@@ -3270,7 +3270,7 @@
         127482,
         127487
       ],
-      "image": "./emoji-img/1f1fa_1f1ff.png",
+      "image": "./emoji-img/uzbekistan.png",
       "fitz": false
     },
     "1f1fb_1f1e6": {
@@ -3278,7 +3278,7 @@
         127483,
         127462
       ],
-      "image": "./emoji-img/1f1fb_1f1e6.png",
+      "image": "./emoji-img/vatican_city.png",
       "fitz": false
     },
     "1f1fb_1f1e8": {
@@ -3286,7 +3286,7 @@
         127483,
         127464
       ],
-      "image": "./emoji-img/1f1fb_1f1e8.png",
+      "image": "./emoji-img/st_vincent_grenadines.png",
       "fitz": false
     },
     "1f1fb_1f1ea": {
@@ -3294,7 +3294,7 @@
         127483,
         127466
       ],
-      "image": "./emoji-img/1f1fb_1f1ea.png",
+      "image": "./emoji-img/venezuela.png",
       "fitz": false
     },
     "1f1fb_1f1ec": {
@@ -3302,7 +3302,7 @@
         127483,
         127468
       ],
-      "image": "./emoji-img/1f1fb_1f1ec.png",
+      "image": "./emoji-img/british_virgin_islands.png",
       "fitz": false
     },
     "1f1fb_1f1ee": {
@@ -3310,7 +3310,7 @@
         127483,
         127470
       ],
-      "image": "./emoji-img/1f1fb_1f1ee.png",
+      "image": "./emoji-img/us_virgin_islands.png",
       "fitz": false
     },
     "1f1fb_1f1f3": {
@@ -3318,7 +3318,7 @@
         127483,
         127475
       ],
-      "image": "./emoji-img/1f1fb_1f1f3.png",
+      "image": "./emoji-img/vietnam.png",
       "fitz": false
     },
     "1f1fb_1f1fa": {
@@ -3326,7 +3326,7 @@
         127483,
         127482
       ],
-      "image": "./emoji-img/1f1fb_1f1fa.png",
+      "image": "./emoji-img/vanuatu.png",
       "fitz": false
     },
     "1f1fc_1f1eb": {
@@ -3334,7 +3334,7 @@
         127484,
         127467
       ],
-      "image": "./emoji-img/1f1fc_1f1eb.png",
+      "image": "./emoji-img/wallis_futuna.png",
       "fitz": false
     },
     "1f1fc_1f1f8": {
@@ -3342,7 +3342,7 @@
         127484,
         127480
       ],
-      "image": "./emoji-img/1f1fc_1f1f8.png",
+      "image": "./emoji-img/samoa.png",
       "fitz": false
     },
     "1f1fd_1f1f0": {
@@ -3350,7 +3350,7 @@
         127485,
         127472
       ],
-      "image": "./emoji-img/1f1fd_1f1f0.png",
+      "image": "./emoji-img/kosovo.png",
       "fitz": false
     },
     "1f1fe_1f1ea": {
@@ -3358,7 +3358,7 @@
         127486,
         127466
       ],
-      "image": "./emoji-img/1f1fe_1f1ea.png",
+      "image": "./emoji-img/yemen.png",
       "fitz": false
     },
     "1f1fe_1f1f9": {
@@ -3366,7 +3366,7 @@
         127486,
         127481
       ],
-      "image": "./emoji-img/1f1fe_1f1f9.png",
+      "image": "./emoji-img/mayotte.png",
       "fitz": false
     },
     "1f1ff_1f1e6": {
@@ -3374,7 +3374,7 @@
         127487,
         127462
       ],
-      "image": "./emoji-img/1f1ff_1f1e6.png",
+      "image": "./emoji-img/south_africa.png",
       "fitz": false
     },
     "1f1ff_1f1f2": {
@@ -3382,7 +3382,7 @@
         127487,
         127474
       ],
-      "image": "./emoji-img/1f1ff_1f1f2.png",
+      "image": "./emoji-img/zambia.png",
       "fitz": false
     },
     "1f1ff_1f1fc": {
@@ -3390,7 +3390,7 @@
         127487,
         127484
       ],
-      "image": "./emoji-img/1f1ff_1f1fc.png",
+      "image": "./emoji-img/zimbabwe.png",
       "fitz": false
     },
     "1f201": {
@@ -3642,7 +3642,7 @@
       "codepoints": [
         127764
       ],
-      "image": "./emoji-img/moon.png",
+      "image": "./emoji-img/waxing_gibbous_moon.png",
       "fitz": false
     },
     "1f315": {
@@ -3740,21 +3740,21 @@
       "codepoints": [
         127780
       ],
-      "image": "./emoji-img/white_sun_with_small_cloud.png",
+      "image": "./emoji-img/sun_behind_small_cloud.png",
       "fitz": false
     },
     "1f325": {
       "codepoints": [
         127781
       ],
-      "image": "./emoji-img/white_sun_behind_cloud.png",
+      "image": "./emoji-img/sun_behind_large_cloud.png",
       "fitz": false
     },
     "1f326": {
       "codepoints": [
         127782
       ],
-      "image": "./emoji-img/white_sun_behind_cloud_with_rain.png",
+      "image": "./emoji-img/sun_behind_rain_cloud.png",
       "fitz": false
     },
     "1f327": {
@@ -3782,7 +3782,7 @@
       "codepoints": [
         127786
       ],
-      "image": "./emoji-img/cloud_with_tornado.png",
+      "image": "./emoji-img/tornado.png",
       "fitz": false
     },
     "1f32b": {
@@ -3796,14 +3796,14 @@
       "codepoints": [
         127788
       ],
-      "image": "./emoji-img/wind_blowing_face.png",
+      "image": "./emoji-img/wind_face.png",
       "fitz": false
     },
     "1f32d": {
       "codepoints": [
         127789
       ],
-      "image": "./emoji-img/hot_dog.png",
+      "image": "./emoji-img/hotdog.png",
       "fitz": false
     },
     "1f32e": {
@@ -4293,7 +4293,7 @@
       "codepoints": [
         127859
       ],
-      "image": "./emoji-img/egg.png",
+      "image": "./emoji-img/fried_egg.png",
       "fitz": false
     },
     "1f374": {
@@ -4363,14 +4363,14 @@
       "codepoints": [
         127869
       ],
-      "image": "./emoji-img/fork_and_knife_with_plate.png",
+      "image": "./emoji-img/plate_with_cutlery.png",
       "fitz": false
     },
     "1f37e": {
       "codepoints": [
         127870
       ],
-      "image": "./emoji-img/bottle.png",
+      "image": "./emoji-img/champagne.png",
       "fitz": false
     },
     "1f37f": {
@@ -4530,7 +4530,7 @@
       "codepoints": [
         127894
       ],
-      "image": "./emoji-img/military_medal.png",
+      "image": "./emoji-img/medal_military.png",
       "fitz": false
     },
     "1f397": {
@@ -4565,14 +4565,14 @@
       "codepoints": [
         127902
       ],
-      "image": "./emoji-img/film_frames.png",
+      "image": "./emoji-img/film_strip.png",
       "fitz": false
     },
     "1f39f": {
       "codepoints": [
         127903
       ],
-      "image": "./emoji-img/admission_ticket.png",
+      "image": "./emoji-img/tickets.png",
       "fitz": false
     },
     "1f3a0": {
@@ -4876,7 +4876,7 @@
       "codepoints": [
         127941
       ],
-      "image": "./emoji-img/sports_medal.png",
+      "image": "./emoji-img/medal_sports.png",
       "fitz": false
     },
     "1f3c6": {
@@ -4995,7 +4995,7 @@
       "codepoints": [
         127949
       ],
-      "image": "./emoji-img/racing_motorcycle.png",
+      "image": "./emoji-img/motorcycle.png",
       "fitz": false
     },
     "1f3ce": {
@@ -5037,14 +5037,14 @@
       "codepoints": [
         127955
       ],
-      "image": "./emoji-img/table_tennis.png",
+      "image": "./emoji-img/ping_pong.png",
       "fitz": false
     },
     "1f3d4": {
       "codepoints": [
         127956
       ],
-      "image": "./emoji-img/snow_capped_mountain.png",
+      "image": "./emoji-img/mountain_snow.png",
       "fitz": false
     },
     "1f3d5": {
@@ -5058,7 +5058,7 @@
       "codepoints": [
         127958
       ],
-      "image": "./emoji-img/beach_with_umbrella.png",
+      "image": "./emoji-img/beach_umbrella.png",
       "fitz": false
     },
     "1f3d7": {
@@ -5072,7 +5072,7 @@
       "codepoints": [
         127960
       ],
-      "image": "./emoji-img/buildings.png",
+      "image": "./emoji-img/houses.png",
       "fitz": false
     },
     "1f3d9": {
@@ -5093,7 +5093,7 @@
       "codepoints": [
         127963
       ],
-      "image": "./emoji-img/museum.png",
+      "image": "./emoji-img/classical_building.png",
       "fitz": false
     },
     "1f3dc": {
@@ -5247,7 +5247,7 @@
       "codepoints": [
         127987
       ],
-      "image": "./emoji-img/waving_white_flag.png",
+      "image": "./emoji-img/white_flag.png",
       "fitz": false
     },
     "1f3f3_1f308": {
@@ -5262,7 +5262,7 @@
       "codepoints": [
         127988
       ],
-      "image": "./emoji-img/waving_black_flag.png",
+      "image": "./emoji-img/black_flag.png",
       "fitz": false
     },
     "1f3f5": {
@@ -5542,7 +5542,7 @@
       "codepoints": [
         128029
       ],
-      "image": "./emoji-img/bee.png",
+      "image": "./emoji-img/honeybee.png",
       "fitz": false
     },
     "1f41e": {
@@ -5773,7 +5773,7 @@
       "codepoints": [
         128062
       ],
-      "image": "./emoji-img/feet.png",
+      "image": "./emoji-img/paw_prints.png",
       "fitz": false
     },
     "1f43f": {
@@ -6020,7 +6020,7 @@
       "codepoints": [
         128085
       ],
-      "image": "./emoji-img/shirt.png",
+      "image": "./emoji-img/tshirt.png",
       "fitz": false
     },
     "1f456": {
@@ -6179,13 +6179,13 @@
         128104,
         9877
       ],
-      "image": "./emoji-img/1f468_2695.png",
+      "image": "./emoji-img/man_health_worker.png",
       "fitz": [
-        "./emoji-img/1f468_2695.1.png",
-        "./emoji-img/1f468_2695.2.png",
-        "./emoji-img/1f468_2695.3.png",
-        "./emoji-img/1f468_2695.4.png",
-        "./emoji-img/1f468_2695.5.png"
+        "./emoji-img/man_health_worker.1.png",
+        "./emoji-img/man_health_worker.2.png",
+        "./emoji-img/man_health_worker.3.png",
+        "./emoji-img/man_health_worker.4.png",
+        "./emoji-img/man_health_worker.5.png"
       ]
     },
     "1f468_2696": {
@@ -6193,13 +6193,13 @@
         128104,
         9878
       ],
-      "image": "./emoji-img/1f468_2696.png",
+      "image": "./emoji-img/man_judge.png",
       "fitz": [
-        "./emoji-img/1f468_2696.1.png",
-        "./emoji-img/1f468_2696.2.png",
-        "./emoji-img/1f468_2696.3.png",
-        "./emoji-img/1f468_2696.4.png",
-        "./emoji-img/1f468_2696.5.png"
+        "./emoji-img/man_judge.1.png",
+        "./emoji-img/man_judge.2.png",
+        "./emoji-img/man_judge.3.png",
+        "./emoji-img/man_judge.4.png",
+        "./emoji-img/man_judge.5.png"
       ]
     },
     "1f468_2708": {
@@ -6207,13 +6207,13 @@
         128104,
         9992
       ],
-      "image": "./emoji-img/1f468_2708.png",
+      "image": "./emoji-img/man_pilot.png",
       "fitz": [
-        "./emoji-img/1f468_2708.1.png",
-        "./emoji-img/1f468_2708.2.png",
-        "./emoji-img/1f468_2708.3.png",
-        "./emoji-img/1f468_2708.4.png",
-        "./emoji-img/1f468_2708.5.png"
+        "./emoji-img/man_pilot.1.png",
+        "./emoji-img/man_pilot.2.png",
+        "./emoji-img/man_pilot.3.png",
+        "./emoji-img/man_pilot.4.png",
+        "./emoji-img/man_pilot.5.png"
       ]
     },
     "1f468_1f33e": {
@@ -6221,13 +6221,13 @@
         128104,
         127806
       ],
-      "image": "./emoji-img/1f468_1f33e.png",
+      "image": "./emoji-img/man_farmer.png",
       "fitz": [
-        "./emoji-img/1f468_1f33e.1.png",
-        "./emoji-img/1f468_1f33e.2.png",
-        "./emoji-img/1f468_1f33e.3.png",
-        "./emoji-img/1f468_1f33e.4.png",
-        "./emoji-img/1f468_1f33e.5.png"
+        "./emoji-img/man_farmer.1.png",
+        "./emoji-img/man_farmer.2.png",
+        "./emoji-img/man_farmer.3.png",
+        "./emoji-img/man_farmer.4.png",
+        "./emoji-img/man_farmer.5.png"
       ]
     },
     "1f468_1f373": {
@@ -6235,13 +6235,13 @@
         128104,
         127859
       ],
-      "image": "./emoji-img/1f468_1f373.png",
+      "image": "./emoji-img/man_cook.png",
       "fitz": [
-        "./emoji-img/1f468_1f373.1.png",
-        "./emoji-img/1f468_1f373.2.png",
-        "./emoji-img/1f468_1f373.3.png",
-        "./emoji-img/1f468_1f373.4.png",
-        "./emoji-img/1f468_1f373.5.png"
+        "./emoji-img/man_cook.1.png",
+        "./emoji-img/man_cook.2.png",
+        "./emoji-img/man_cook.3.png",
+        "./emoji-img/man_cook.4.png",
+        "./emoji-img/man_cook.5.png"
       ]
     },
     "1f468_1f393": {
@@ -6249,13 +6249,13 @@
         128104,
         127891
       ],
-      "image": "./emoji-img/1f468_1f393.png",
+      "image": "./emoji-img/man_student.png",
       "fitz": [
-        "./emoji-img/1f468_1f393.1.png",
-        "./emoji-img/1f468_1f393.2.png",
-        "./emoji-img/1f468_1f393.3.png",
-        "./emoji-img/1f468_1f393.4.png",
-        "./emoji-img/1f468_1f393.5.png"
+        "./emoji-img/man_student.1.png",
+        "./emoji-img/man_student.2.png",
+        "./emoji-img/man_student.3.png",
+        "./emoji-img/man_student.4.png",
+        "./emoji-img/man_student.5.png"
       ]
     },
     "1f468_1f3a4": {
@@ -6263,13 +6263,13 @@
         128104,
         127908
       ],
-      "image": "./emoji-img/1f468_1f3a4.png",
+      "image": "./emoji-img/man_singer.png",
       "fitz": [
-        "./emoji-img/1f468_1f3a4.1.png",
-        "./emoji-img/1f468_1f3a4.2.png",
-        "./emoji-img/1f468_1f3a4.3.png",
-        "./emoji-img/1f468_1f3a4.4.png",
-        "./emoji-img/1f468_1f3a4.5.png"
+        "./emoji-img/man_singer.1.png",
+        "./emoji-img/man_singer.2.png",
+        "./emoji-img/man_singer.3.png",
+        "./emoji-img/man_singer.4.png",
+        "./emoji-img/man_singer.5.png"
       ]
     },
     "1f468_1f3a8": {
@@ -6277,13 +6277,13 @@
         128104,
         127912
       ],
-      "image": "./emoji-img/1f468_1f3a8.png",
+      "image": "./emoji-img/man_artist.png",
       "fitz": [
-        "./emoji-img/1f468_1f3a8.1.png",
-        "./emoji-img/1f468_1f3a8.2.png",
-        "./emoji-img/1f468_1f3a8.3.png",
-        "./emoji-img/1f468_1f3a8.4.png",
-        "./emoji-img/1f468_1f3a8.5.png"
+        "./emoji-img/man_artist.1.png",
+        "./emoji-img/man_artist.2.png",
+        "./emoji-img/man_artist.3.png",
+        "./emoji-img/man_artist.4.png",
+        "./emoji-img/man_artist.5.png"
       ]
     },
     "1f468_1f3eb": {
@@ -6291,13 +6291,13 @@
         128104,
         127979
       ],
-      "image": "./emoji-img/1f468_1f3eb.png",
+      "image": "./emoji-img/man_teacher.png",
       "fitz": [
-        "./emoji-img/1f468_1f3eb.1.png",
-        "./emoji-img/1f468_1f3eb.2.png",
-        "./emoji-img/1f468_1f3eb.3.png",
-        "./emoji-img/1f468_1f3eb.4.png",
-        "./emoji-img/1f468_1f3eb.5.png"
+        "./emoji-img/man_teacher.1.png",
+        "./emoji-img/man_teacher.2.png",
+        "./emoji-img/man_teacher.3.png",
+        "./emoji-img/man_teacher.4.png",
+        "./emoji-img/man_teacher.5.png"
       ]
     },
     "1f468_1f3ed": {
@@ -6305,13 +6305,13 @@
         128104,
         127981
       ],
-      "image": "./emoji-img/1f468_1f3ed.png",
+      "image": "./emoji-img/man_factory_worker.png",
       "fitz": [
-        "./emoji-img/1f468_1f3ed.1.png",
-        "./emoji-img/1f468_1f3ed.2.png",
-        "./emoji-img/1f468_1f3ed.3.png",
-        "./emoji-img/1f468_1f3ed.4.png",
-        "./emoji-img/1f468_1f3ed.5.png"
+        "./emoji-img/man_factory_worker.1.png",
+        "./emoji-img/man_factory_worker.2.png",
+        "./emoji-img/man_factory_worker.3.png",
+        "./emoji-img/man_factory_worker.4.png",
+        "./emoji-img/man_factory_worker.5.png"
       ]
     },
     "1f468_1f4bb": {
@@ -6319,13 +6319,13 @@
         128104,
         128187
       ],
-      "image": "./emoji-img/1f468_1f4bb.png",
+      "image": "./emoji-img/man_technologist.png",
       "fitz": [
-        "./emoji-img/1f468_1f4bb.1.png",
-        "./emoji-img/1f468_1f4bb.2.png",
-        "./emoji-img/1f468_1f4bb.3.png",
-        "./emoji-img/1f468_1f4bb.4.png",
-        "./emoji-img/1f468_1f4bb.5.png"
+        "./emoji-img/man_technologist.1.png",
+        "./emoji-img/man_technologist.2.png",
+        "./emoji-img/man_technologist.3.png",
+        "./emoji-img/man_technologist.4.png",
+        "./emoji-img/man_technologist.5.png"
       ]
     },
     "1f468_1f4bc": {
@@ -6333,13 +6333,13 @@
         128104,
         128188
       ],
-      "image": "./emoji-img/1f468_1f4bc.png",
+      "image": "./emoji-img/man_office_worker.png",
       "fitz": [
-        "./emoji-img/1f468_1f4bc.1.png",
-        "./emoji-img/1f468_1f4bc.2.png",
-        "./emoji-img/1f468_1f4bc.3.png",
-        "./emoji-img/1f468_1f4bc.4.png",
-        "./emoji-img/1f468_1f4bc.5.png"
+        "./emoji-img/man_office_worker.1.png",
+        "./emoji-img/man_office_worker.2.png",
+        "./emoji-img/man_office_worker.3.png",
+        "./emoji-img/man_office_worker.4.png",
+        "./emoji-img/man_office_worker.5.png"
       ]
     },
     "1f468_1f527": {
@@ -6347,13 +6347,13 @@
         128104,
         128295
       ],
-      "image": "./emoji-img/1f468_1f527.png",
+      "image": "./emoji-img/man_mechanic.png",
       "fitz": [
-        "./emoji-img/1f468_1f527.1.png",
-        "./emoji-img/1f468_1f527.2.png",
-        "./emoji-img/1f468_1f527.3.png",
-        "./emoji-img/1f468_1f527.4.png",
-        "./emoji-img/1f468_1f527.5.png"
+        "./emoji-img/man_mechanic.1.png",
+        "./emoji-img/man_mechanic.2.png",
+        "./emoji-img/man_mechanic.3.png",
+        "./emoji-img/man_mechanic.4.png",
+        "./emoji-img/man_mechanic.5.png"
       ]
     },
     "1f468_1f52c": {
@@ -6361,13 +6361,13 @@
         128104,
         128300
       ],
-      "image": "./emoji-img/1f468_1f52c.png",
+      "image": "./emoji-img/man_scientist.png",
       "fitz": [
-        "./emoji-img/1f468_1f52c.1.png",
-        "./emoji-img/1f468_1f52c.2.png",
-        "./emoji-img/1f468_1f52c.3.png",
-        "./emoji-img/1f468_1f52c.4.png",
-        "./emoji-img/1f468_1f52c.5.png"
+        "./emoji-img/man_scientist.1.png",
+        "./emoji-img/man_scientist.2.png",
+        "./emoji-img/man_scientist.3.png",
+        "./emoji-img/man_scientist.4.png",
+        "./emoji-img/man_scientist.5.png"
       ]
     },
     "1f468_1f680": {
@@ -6375,13 +6375,13 @@
         128104,
         128640
       ],
-      "image": "./emoji-img/1f468_1f680.png",
+      "image": "./emoji-img/man_astronaut.png",
       "fitz": [
-        "./emoji-img/1f468_1f680.1.png",
-        "./emoji-img/1f468_1f680.2.png",
-        "./emoji-img/1f468_1f680.3.png",
-        "./emoji-img/1f468_1f680.4.png",
-        "./emoji-img/1f468_1f680.5.png"
+        "./emoji-img/man_astronaut.1.png",
+        "./emoji-img/man_astronaut.2.png",
+        "./emoji-img/man_astronaut.3.png",
+        "./emoji-img/man_astronaut.4.png",
+        "./emoji-img/man_astronaut.5.png"
       ]
     },
     "1f468_1f692": {
@@ -6389,13 +6389,13 @@
         128104,
         128658
       ],
-      "image": "./emoji-img/1f468_1f692.png",
+      "image": "./emoji-img/man_firefighter.png",
       "fitz": [
-        "./emoji-img/1f468_1f692.1.png",
-        "./emoji-img/1f468_1f692.2.png",
-        "./emoji-img/1f468_1f692.3.png",
-        "./emoji-img/1f468_1f692.4.png",
-        "./emoji-img/1f468_1f692.5.png"
+        "./emoji-img/man_firefighter.1.png",
+        "./emoji-img/man_firefighter.2.png",
+        "./emoji-img/man_firefighter.3.png",
+        "./emoji-img/man_firefighter.4.png",
+        "./emoji-img/man_firefighter.5.png"
       ]
     },
     "1f469": {
@@ -6416,13 +6416,13 @@
         128105,
         9877
       ],
-      "image": "./emoji-img/1f469_2695.png",
+      "image": "./emoji-img/woman_health_worker.png",
       "fitz": [
-        "./emoji-img/1f469_2695.1.png",
-        "./emoji-img/1f469_2695.2.png",
-        "./emoji-img/1f469_2695.3.png",
-        "./emoji-img/1f469_2695.4.png",
-        "./emoji-img/1f469_2695.5.png"
+        "./emoji-img/woman_health_worker.1.png",
+        "./emoji-img/woman_health_worker.2.png",
+        "./emoji-img/woman_health_worker.3.png",
+        "./emoji-img/woman_health_worker.4.png",
+        "./emoji-img/woman_health_worker.5.png"
       ]
     },
     "1f469_2696": {
@@ -6430,13 +6430,13 @@
         128105,
         9878
       ],
-      "image": "./emoji-img/1f469_2696.png",
+      "image": "./emoji-img/woman_judge.png",
       "fitz": [
-        "./emoji-img/1f469_2696.1.png",
-        "./emoji-img/1f469_2696.2.png",
-        "./emoji-img/1f469_2696.3.png",
-        "./emoji-img/1f469_2696.4.png",
-        "./emoji-img/1f469_2696.5.png"
+        "./emoji-img/woman_judge.1.png",
+        "./emoji-img/woman_judge.2.png",
+        "./emoji-img/woman_judge.3.png",
+        "./emoji-img/woman_judge.4.png",
+        "./emoji-img/woman_judge.5.png"
       ]
     },
     "1f469_2708": {
@@ -6444,13 +6444,13 @@
         128105,
         9992
       ],
-      "image": "./emoji-img/1f469_2708.png",
+      "image": "./emoji-img/woman_pilot.png",
       "fitz": [
-        "./emoji-img/1f469_2708.1.png",
-        "./emoji-img/1f469_2708.2.png",
-        "./emoji-img/1f469_2708.3.png",
-        "./emoji-img/1f469_2708.4.png",
-        "./emoji-img/1f469_2708.5.png"
+        "./emoji-img/woman_pilot.1.png",
+        "./emoji-img/woman_pilot.2.png",
+        "./emoji-img/woman_pilot.3.png",
+        "./emoji-img/woman_pilot.4.png",
+        "./emoji-img/woman_pilot.5.png"
       ]
     },
     "1f469_1f33e": {
@@ -6458,13 +6458,13 @@
         128105,
         127806
       ],
-      "image": "./emoji-img/1f469_1f33e.png",
+      "image": "./emoji-img/woman_farmer.png",
       "fitz": [
-        "./emoji-img/1f469_1f33e.1.png",
-        "./emoji-img/1f469_1f33e.2.png",
-        "./emoji-img/1f469_1f33e.3.png",
-        "./emoji-img/1f469_1f33e.4.png",
-        "./emoji-img/1f469_1f33e.5.png"
+        "./emoji-img/woman_farmer.1.png",
+        "./emoji-img/woman_farmer.2.png",
+        "./emoji-img/woman_farmer.3.png",
+        "./emoji-img/woman_farmer.4.png",
+        "./emoji-img/woman_farmer.5.png"
       ]
     },
     "1f469_1f373": {
@@ -6472,13 +6472,13 @@
         128105,
         127859
       ],
-      "image": "./emoji-img/1f469_1f373.png",
+      "image": "./emoji-img/woman_cook.png",
       "fitz": [
-        "./emoji-img/1f469_1f373.1.png",
-        "./emoji-img/1f469_1f373.2.png",
-        "./emoji-img/1f469_1f373.3.png",
-        "./emoji-img/1f469_1f373.4.png",
-        "./emoji-img/1f469_1f373.5.png"
+        "./emoji-img/woman_cook.1.png",
+        "./emoji-img/woman_cook.2.png",
+        "./emoji-img/woman_cook.3.png",
+        "./emoji-img/woman_cook.4.png",
+        "./emoji-img/woman_cook.5.png"
       ]
     },
     "1f469_1f393": {
@@ -6486,13 +6486,13 @@
         128105,
         127891
       ],
-      "image": "./emoji-img/1f469_1f393.png",
+      "image": "./emoji-img/woman_student.png",
       "fitz": [
-        "./emoji-img/1f469_1f393.1.png",
-        "./emoji-img/1f469_1f393.2.png",
-        "./emoji-img/1f469_1f393.3.png",
-        "./emoji-img/1f469_1f393.4.png",
-        "./emoji-img/1f469_1f393.5.png"
+        "./emoji-img/woman_student.1.png",
+        "./emoji-img/woman_student.2.png",
+        "./emoji-img/woman_student.3.png",
+        "./emoji-img/woman_student.4.png",
+        "./emoji-img/woman_student.5.png"
       ]
     },
     "1f469_1f3a4": {
@@ -6500,13 +6500,13 @@
         128105,
         127908
       ],
-      "image": "./emoji-img/1f469_1f3a4.png",
+      "image": "./emoji-img/woman_singer.png",
       "fitz": [
-        "./emoji-img/1f469_1f3a4.1.png",
-        "./emoji-img/1f469_1f3a4.2.png",
-        "./emoji-img/1f469_1f3a4.3.png",
-        "./emoji-img/1f469_1f3a4.4.png",
-        "./emoji-img/1f469_1f3a4.5.png"
+        "./emoji-img/woman_singer.1.png",
+        "./emoji-img/woman_singer.2.png",
+        "./emoji-img/woman_singer.3.png",
+        "./emoji-img/woman_singer.4.png",
+        "./emoji-img/woman_singer.5.png"
       ]
     },
     "1f469_1f3a8": {
@@ -6514,13 +6514,13 @@
         128105,
         127912
       ],
-      "image": "./emoji-img/1f469_1f3a8.png",
+      "image": "./emoji-img/woman_artist.png",
       "fitz": [
-        "./emoji-img/1f469_1f3a8.1.png",
-        "./emoji-img/1f469_1f3a8.2.png",
-        "./emoji-img/1f469_1f3a8.3.png",
-        "./emoji-img/1f469_1f3a8.4.png",
-        "./emoji-img/1f469_1f3a8.5.png"
+        "./emoji-img/woman_artist.1.png",
+        "./emoji-img/woman_artist.2.png",
+        "./emoji-img/woman_artist.3.png",
+        "./emoji-img/woman_artist.4.png",
+        "./emoji-img/woman_artist.5.png"
       ]
     },
     "1f469_1f3eb": {
@@ -6528,13 +6528,13 @@
         128105,
         127979
       ],
-      "image": "./emoji-img/1f469_1f3eb.png",
+      "image": "./emoji-img/woman_teacher.png",
       "fitz": [
-        "./emoji-img/1f469_1f3eb.1.png",
-        "./emoji-img/1f469_1f3eb.2.png",
-        "./emoji-img/1f469_1f3eb.3.png",
-        "./emoji-img/1f469_1f3eb.4.png",
-        "./emoji-img/1f469_1f3eb.5.png"
+        "./emoji-img/woman_teacher.1.png",
+        "./emoji-img/woman_teacher.2.png",
+        "./emoji-img/woman_teacher.3.png",
+        "./emoji-img/woman_teacher.4.png",
+        "./emoji-img/woman_teacher.5.png"
       ]
     },
     "1f469_1f3ed": {
@@ -6542,13 +6542,13 @@
         128105,
         127981
       ],
-      "image": "./emoji-img/1f469_1f3ed.png",
+      "image": "./emoji-img/woman_factory_worker.png",
       "fitz": [
-        "./emoji-img/1f469_1f3ed.1.png",
-        "./emoji-img/1f469_1f3ed.2.png",
-        "./emoji-img/1f469_1f3ed.3.png",
-        "./emoji-img/1f469_1f3ed.4.png",
-        "./emoji-img/1f469_1f3ed.5.png"
+        "./emoji-img/woman_factory_worker.1.png",
+        "./emoji-img/woman_factory_worker.2.png",
+        "./emoji-img/woman_factory_worker.3.png",
+        "./emoji-img/woman_factory_worker.4.png",
+        "./emoji-img/woman_factory_worker.5.png"
       ]
     },
     "1f469_1f4bb": {
@@ -6556,13 +6556,13 @@
         128105,
         128187
       ],
-      "image": "./emoji-img/1f469_1f4bb.png",
+      "image": "./emoji-img/woman_technologist.png",
       "fitz": [
-        "./emoji-img/1f469_1f4bb.1.png",
-        "./emoji-img/1f469_1f4bb.2.png",
-        "./emoji-img/1f469_1f4bb.3.png",
-        "./emoji-img/1f469_1f4bb.4.png",
-        "./emoji-img/1f469_1f4bb.5.png"
+        "./emoji-img/woman_technologist.1.png",
+        "./emoji-img/woman_technologist.2.png",
+        "./emoji-img/woman_technologist.3.png",
+        "./emoji-img/woman_technologist.4.png",
+        "./emoji-img/woman_technologist.5.png"
       ]
     },
     "1f469_1f4bc": {
@@ -6570,13 +6570,13 @@
         128105,
         128188
       ],
-      "image": "./emoji-img/1f469_1f4bc.png",
+      "image": "./emoji-img/woman_office_worker.png",
       "fitz": [
-        "./emoji-img/1f469_1f4bc.1.png",
-        "./emoji-img/1f469_1f4bc.2.png",
-        "./emoji-img/1f469_1f4bc.3.png",
-        "./emoji-img/1f469_1f4bc.4.png",
-        "./emoji-img/1f469_1f4bc.5.png"
+        "./emoji-img/woman_office_worker.1.png",
+        "./emoji-img/woman_office_worker.2.png",
+        "./emoji-img/woman_office_worker.3.png",
+        "./emoji-img/woman_office_worker.4.png",
+        "./emoji-img/woman_office_worker.5.png"
       ]
     },
     "1f469_1f527": {
@@ -6584,13 +6584,13 @@
         128105,
         128295
       ],
-      "image": "./emoji-img/1f469_1f527.png",
+      "image": "./emoji-img/woman_mechanic.png",
       "fitz": [
-        "./emoji-img/1f469_1f527.1.png",
-        "./emoji-img/1f469_1f527.2.png",
-        "./emoji-img/1f469_1f527.3.png",
-        "./emoji-img/1f469_1f527.4.png",
-        "./emoji-img/1f469_1f527.5.png"
+        "./emoji-img/woman_mechanic.1.png",
+        "./emoji-img/woman_mechanic.2.png",
+        "./emoji-img/woman_mechanic.3.png",
+        "./emoji-img/woman_mechanic.4.png",
+        "./emoji-img/woman_mechanic.5.png"
       ]
     },
     "1f469_1f52c": {
@@ -6598,13 +6598,13 @@
         128105,
         128300
       ],
-      "image": "./emoji-img/1f469_1f52c.png",
+      "image": "./emoji-img/woman_scientist.png",
       "fitz": [
-        "./emoji-img/1f469_1f52c.1.png",
-        "./emoji-img/1f469_1f52c.2.png",
-        "./emoji-img/1f469_1f52c.3.png",
-        "./emoji-img/1f469_1f52c.4.png",
-        "./emoji-img/1f469_1f52c.5.png"
+        "./emoji-img/woman_scientist.1.png",
+        "./emoji-img/woman_scientist.2.png",
+        "./emoji-img/woman_scientist.3.png",
+        "./emoji-img/woman_scientist.4.png",
+        "./emoji-img/woman_scientist.5.png"
       ]
     },
     "1f469_1f680": {
@@ -6612,13 +6612,13 @@
         128105,
         128640
       ],
-      "image": "./emoji-img/1f469_1f680.png",
+      "image": "./emoji-img/woman_astronaut.png",
       "fitz": [
-        "./emoji-img/1f469_1f680.1.png",
-        "./emoji-img/1f469_1f680.2.png",
-        "./emoji-img/1f469_1f680.3.png",
-        "./emoji-img/1f469_1f680.4.png",
-        "./emoji-img/1f469_1f680.5.png"
+        "./emoji-img/woman_astronaut.1.png",
+        "./emoji-img/woman_astronaut.2.png",
+        "./emoji-img/woman_astronaut.3.png",
+        "./emoji-img/woman_astronaut.4.png",
+        "./emoji-img/woman_astronaut.5.png"
       ]
     },
     "1f469_1f692": {
@@ -6626,13 +6626,13 @@
         128105,
         128658
       ],
-      "image": "./emoji-img/1f469_1f692.png",
+      "image": "./emoji-img/woman_firefighter.png",
       "fitz": [
-        "./emoji-img/1f469_1f692.1.png",
-        "./emoji-img/1f469_1f692.2.png",
-        "./emoji-img/1f469_1f692.3.png",
-        "./emoji-img/1f469_1f692.4.png",
-        "./emoji-img/1f469_1f692.5.png"
+        "./emoji-img/woman_firefighter.1.png",
+        "./emoji-img/woman_firefighter.2.png",
+        "./emoji-img/woman_firefighter.3.png",
+        "./emoji-img/woman_firefighter.4.png",
+        "./emoji-img/woman_firefighter.5.png"
       ]
     },
     "1f46a_MB": {
@@ -6674,49 +6674,49 @@
       "codepoints": [
         128106
       ],
-      "image": "./emoji-img/family_men_boy.MMB.png",
+      "image": "./emoji-img/family_man_man_boy.MMB.png",
       "fitz": false
     },
     "1f46a_MMBB": {
       "codepoints": [
         128106
       ],
-      "image": "./emoji-img/family_men_boys.MMBB.png",
+      "image": "./emoji-img/family_man_man_boy_boy.MMBB.png",
       "fitz": false
     },
     "1f46a_MMG": {
       "codepoints": [
         128106
       ],
-      "image": "./emoji-img/family_men_girl.MMG.png",
+      "image": "./emoji-img/family_man_man_girl.MMG.png",
       "fitz": false
     },
     "1f46a_MMGB": {
       "codepoints": [
         128106
       ],
-      "image": "./emoji-img/family_men_girl_boy.MMGB.png",
+      "image": "./emoji-img/family_man_man_girl_boy.MMGB.png",
       "fitz": false
     },
     "1f46a_MMGG": {
       "codepoints": [
         128106
       ],
-      "image": "./emoji-img/family_men_girls.MMGG.png",
+      "image": "./emoji-img/family_man_man_girl_girl.MMGG.png",
       "fitz": false
     },
     "1f46a_MWB": {
       "codepoints": [
         128106
       ],
-      "image": "./emoji-img/family.MWB.png",
+      "image": "./emoji-img/family_man_woman_boy.MWB.png",
       "fitz": false
     },
     "1f46a_MWBB": {
       "codepoints": [
         128106
       ],
-      "image": "./emoji-img/family_man_woman_boys.MWBB.png",
+      "image": "./emoji-img/family_man_woman_boy_boy.MWBB.png",
       "fitz": false
     },
     "1f46a_MWG": {
@@ -6737,7 +6737,7 @@
       "codepoints": [
         128106
       ],
-      "image": "./emoji-img/family_man_woman_girls.MWGG.png",
+      "image": "./emoji-img/family_man_woman_girl_girl.MWGG.png",
       "fitz": false
     },
     "1f46a_WB": {
@@ -6779,35 +6779,35 @@
       "codepoints": [
         128106
       ],
-      "image": "./emoji-img/family_women_boy.WWB.png",
+      "image": "./emoji-img/family_woman_woman_boy.WWB.png",
       "fitz": false
     },
     "1f46a_WWBB": {
       "codepoints": [
         128106
       ],
-      "image": "./emoji-img/family_women_boys.WWBB.png",
+      "image": "./emoji-img/family_woman_woman_boy_boy.WWBB.png",
       "fitz": false
     },
     "1f46a_WWG": {
       "codepoints": [
         128106
       ],
-      "image": "./emoji-img/family_women_girl.WWG.png",
+      "image": "./emoji-img/family_woman_woman_girl.WWG.png",
       "fitz": false
     },
     "1f46a_WWGB": {
       "codepoints": [
         128106
       ],
-      "image": "./emoji-img/family_women_girl_boy.WWGB.png",
+      "image": "./emoji-img/family_woman_woman_girl_boy.WWGB.png",
       "fitz": false
     },
     "1f46a_WWGG": {
       "codepoints": [
         128106
       ],
-      "image": "./emoji-img/family_women_girls.WWGG.png",
+      "image": "./emoji-img/family_woman_woman_girl_girl.WWGG.png",
       "fitz": false
     },
     "1f46b": {
@@ -7279,21 +7279,21 @@
       "codepoints": [
         128143
       ],
-      "image": "./emoji-img/male_couplekiss.MM.png",
+      "image": "./emoji-img/couplekiss_man_man.MM.png",
       "fitz": false
     },
     "1f48f_MW": {
       "codepoints": [
         128143
       ],
-      "image": "./emoji-img/couplekiss.MW.png",
+      "image": "./emoji-img/couplekiss_man_woman.MW.png",
       "fitz": false
     },
     "1f48f_WW": {
       "codepoints": [
         128143
       ],
-      "image": "./emoji-img/female_couplekiss.WW.png",
+      "image": "./emoji-img/couplekiss_woman_woman.WW.png",
       "fitz": false
     },
     "1f490": {
@@ -7314,7 +7314,7 @@
       "codepoints": [
         128145
       ],
-      "image": "./emoji-img/couple_with_heart.MW.png",
+      "image": "./emoji-img/couple_with_heart_woman_man.MW.png",
       "fitz": false
     },
     "1f491_WW": {
@@ -7489,7 +7489,7 @@
       "codepoints": [
         128169
       ],
-      "image": "./emoji-img/hankey.png",
+      "image": "./emoji-img/poop.png",
       "fitz": false
     },
     "1f4aa": {
@@ -7810,7 +7810,7 @@
       "codepoints": [
         128214
       ],
-      "image": "./emoji-img/book.png",
+      "image": "./emoji-img/open_book.png",
       "fitz": false
     },
     "1f4d7": {
@@ -7929,7 +7929,7 @@
       "codepoints": [
         128231
       ],
-      "image": "./emoji-img/email.png",
+      "image": "./emoji-img/e-mail.png",
       "fitz": false
     },
     "1f4e8": {
@@ -8048,7 +8048,7 @@
       "codepoints": [
         128248
       ],
-      "image": "./emoji-img/camera_with_flash.png",
+      "image": "./emoji-img/camera_flash.png",
       "fitz": false
     },
     "1f4f9": {
@@ -8531,14 +8531,14 @@
       "codepoints": [
         128329
       ],
-      "image": "./emoji-img/om_symbol.png",
+      "image": "./emoji-img/1f549.png",
       "fitz": false
     },
     "1f54a": {
       "codepoints": [
         128330
       ],
-      "image": "./emoji-img/dove_of_peace.png",
+      "image": "./emoji-img/dove.png",
       "fitz": false
     },
     "1f54b": {
@@ -8566,7 +8566,7 @@
       "codepoints": [
         128334
       ],
-      "image": "./emoji-img/menorah_with_nine_branches.png",
+      "image": "./emoji-img/menorah.png",
       "fitz": false
     },
     "1f550": {
@@ -8762,13 +8762,13 @@
       "codepoints": [
         128372
       ],
-      "image": "./emoji-img/man_levitating.png",
+      "image": "./emoji-img/business_suit_levitating.png",
       "fitz": [
-        "./emoji-img/man_levitating.1.png",
-        "./emoji-img/man_levitating.2.png",
-        "./emoji-img/man_levitating.3.png",
-        "./emoji-img/man_levitating.4.png",
-        "./emoji-img/man_levitating.5.png"
+        "./emoji-img/business_suit_levitating.1.png",
+        "./emoji-img/business_suit_levitating.2.png",
+        "./emoji-img/business_suit_levitating.3.png",
+        "./emoji-img/business_suit_levitating.4.png",
+        "./emoji-img/business_suit_levitating.5.png"
       ]
     },
     "1f575_M": {
@@ -8829,74 +8829,74 @@
       "codepoints": [
         128378
       ],
-      "image": "./emoji-img/1f57a.png",
+      "image": "./emoji-img/man_dancing.png",
       "fitz": [
-        "./emoji-img/1f57a.1.png",
-        "./emoji-img/1f57a.2.png",
-        "./emoji-img/1f57a.3.png",
-        "./emoji-img/1f57a.4.png",
-        "./emoji-img/1f57a.5.png"
+        "./emoji-img/man_dancing.1.png",
+        "./emoji-img/man_dancing.2.png",
+        "./emoji-img/man_dancing.3.png",
+        "./emoji-img/man_dancing.4.png",
+        "./emoji-img/man_dancing.5.png"
       ]
     },
     "1f587": {
       "codepoints": [
         128391
       ],
-      "image": "./emoji-img/linked_paperclips.png",
+      "image": "./emoji-img/paperclips.png",
       "fitz": false
     },
     "1f58a": {
       "codepoints": [
         128394
       ],
-      "image": "./emoji-img/lower_left_ballpoint_pen.png",
+      "image": "./emoji-img/pen.png",
       "fitz": false
     },
     "1f58b": {
       "codepoints": [
         128395
       ],
-      "image": "./emoji-img/lower_left_fountain_pen.png",
+      "image": "./emoji-img/fountain_pen.png",
       "fitz": false
     },
     "1f58c": {
       "codepoints": [
         128396
       ],
-      "image": "./emoji-img/lower_left_paintbrush.png",
+      "image": "./emoji-img/paintbrush.png",
       "fitz": false
     },
     "1f58d": {
       "codepoints": [
         128397
       ],
-      "image": "./emoji-img/lower_left_crayon.png",
+      "image": "./emoji-img/crayon.png",
       "fitz": false
     },
     "1f590": {
       "codepoints": [
         128400
       ],
-      "image": "./emoji-img/splayed_fingers.png",
+      "image": "./emoji-img/raised_hand_with_fingers_splayed.png",
       "fitz": [
-        "./emoji-img/splayed_fingers.1.png",
-        "./emoji-img/splayed_fingers.2.png",
-        "./emoji-img/splayed_fingers.3.png",
-        "./emoji-img/splayed_fingers.4.png",
-        "./emoji-img/splayed_fingers.5.png"
+        "./emoji-img/raised_hand_with_fingers_splayed.1.png",
+        "./emoji-img/raised_hand_with_fingers_splayed.2.png",
+        "./emoji-img/raised_hand_with_fingers_splayed.3.png",
+        "./emoji-img/raised_hand_with_fingers_splayed.4.png",
+        "./emoji-img/raised_hand_with_fingers_splayed.5.png"
       ]
     },
     "1f595": {
       "codepoints": [
         128405
       ],
-      "image": "./emoji-img/middle_finger.png",
+      "image": "./emoji-img/1f595.png",
       "fitz": [
-        "./emoji-img/middle_finger.1.png",
-        "./emoji-img/middle_finger.2.png",
-        "./emoji-img/middle_finger.3.png",
-        "./emoji-img/middle_finger.4.png",
-        "./emoji-img/middle_finger.5.png"
+        "./emoji-img/1f595.1.png",
+        "./emoji-img/1f595.2.png",
+        "./emoji-img/1f595.3.png",
+        "./emoji-img/1f595.4.png",
+        "./emoji-img/1f595.5.png"
       ]
     },
     "1f596": {
@@ -8916,7 +8916,7 @@
       "codepoints": [
         128420
       ],
-      "image": "./emoji-img/1f5a4.png",
+      "image": "./emoji-img/black_heart.png",
       "fitz": false
     },
     "1f5a5": {
@@ -8937,7 +8937,7 @@
       "codepoints": [
         128433
       ],
-      "image": "./emoji-img/three_button_mouse.png",
+      "image": "./emoji-img/computer_mouse.png",
       "fitz": false
     },
     "1f5b2": {
@@ -8951,7 +8951,7 @@
       "codepoints": [
         128444
       ],
-      "image": "./emoji-img/frame_with_picture.png",
+      "image": "./emoji-img/framed_picture.png",
       "fitz": false
     },
     "1f5c2": {
@@ -8986,21 +8986,21 @@
       "codepoints": [
         128466
       ],
-      "image": "./emoji-img/spiral_note_pad.png",
+      "image": "./emoji-img/spiral_notepad.png",
       "fitz": false
     },
     "1f5d3": {
       "codepoints": [
         128467
       ],
-      "image": "./emoji-img/spiral_calendar_pad.png",
+      "image": "./emoji-img/spiral_calendar.png",
       "fitz": false
     },
     "1f5dc": {
       "codepoints": [
         128476
       ],
-      "image": "./emoji-img/compression.png",
+      "image": "./emoji-img/clamp.png",
       "fitz": false
     },
     "1f5dd": {
@@ -9014,14 +9014,14 @@
       "codepoints": [
         128478
       ],
-      "image": "./emoji-img/rolled_up_newspaper.png",
+      "image": "./emoji-img/newspaper_roll.png",
       "fitz": false
     },
     "1f5e1": {
       "codepoints": [
         128481
       ],
-      "image": "./emoji-img/dagger_knife.png",
+      "image": "./emoji-img/dagger.png",
       "fitz": false
     },
     "1f5e3": {
@@ -9049,7 +9049,7 @@
       "codepoints": [
         128499
       ],
-      "image": "./emoji-img/ballot_box_with_ballot.png",
+      "image": "./emoji-img/ballot_box.png",
       "fitz": false
     },
     "1f5fa": {
@@ -9553,28 +9553,28 @@
       "codepoints": [
         128577
       ],
-      "image": "./emoji-img/slightly_sad.png",
+      "image": "./emoji-img/slightly_frowning_face.png",
       "fitz": false
     },
     "1f642": {
       "codepoints": [
         128578
       ],
-      "image": "./emoji-img/slightly_smiling.png",
+      "image": "./emoji-img/slightly_smiling_face.png",
       "fitz": false
     },
     "1f643": {
       "codepoints": [
         128579
       ],
-      "image": "./emoji-img/upside_down.png",
+      "image": "./emoji-img/upside_down_face.png",
       "fitz": false
     },
     "1f644": {
       "codepoints": [
         128580
       ],
-      "image": "./emoji-img/rolling_eyes.png",
+      "image": "./emoji-img/roll_eyes.png",
       "fitz": false
     },
     "1f645_M": {
@@ -9945,7 +9945,7 @@
       "codepoints": [
         128663
       ],
-      "image": "./emoji-img/car.png",
+      "image": "./emoji-img/red_car.png",
       "fitz": false
     },
     "1f698": {
@@ -10363,14 +10363,14 @@
       "codepoints": [
         128716
       ],
-      "image": "./emoji-img/sleeping_accommodation.png",
+      "image": "./emoji-img/sleeping_bed.png",
       "fitz": false
     },
     "1f6cd": {
       "codepoints": [
         128717
       ],
-      "image": "./emoji-img/shopping_bags.png",
+      "image": "./emoji-img/shopping.png",
       "fitz": false
     },
     "1f6ce": {
@@ -10398,14 +10398,14 @@
       "codepoints": [
         128721
       ],
-      "image": "./emoji-img/1f6d1.png",
+      "image": "./emoji-img/stop_sign.png",
       "fitz": false
     },
     "1f6d2": {
       "codepoints": [
         128722
       ],
-      "image": "./emoji-img/1f6d2.png",
+      "image": "./emoji-img/shopping_cart.png",
       "fitz": false
     },
     "1f6e0": {
@@ -10461,14 +10461,14 @@
       "codepoints": [
         128747
       ],
-      "image": "./emoji-img/airplane_departure.png",
+      "image": "./emoji-img/flight_departure.png",
       "fitz": false
     },
     "1f6ec": {
       "codepoints": [
         128748
       ],
-      "image": "./emoji-img/airplane_arrival.png",
+      "image": "./emoji-img/flight_arrival.png",
       "fitz": false
     },
     "1f6f0": {
@@ -10489,49 +10489,49 @@
       "codepoints": [
         128756
       ],
-      "image": "./emoji-img/1f6f4.png",
+      "image": "./emoji-img/kick_scooter.png",
       "fitz": false
     },
     "1f6f5": {
       "codepoints": [
         128757
       ],
-      "image": "./emoji-img/1f6f5.png",
+      "image": "./emoji-img/motor_scooter.png",
       "fitz": false
     },
     "1f6f6": {
       "codepoints": [
         128758
       ],
-      "image": "./emoji-img/1f6f6.png",
+      "image": "./emoji-img/canoe.png",
       "fitz": false
     },
     "1f910": {
       "codepoints": [
         129296
       ],
-      "image": "./emoji-img/zipper_mouth.png",
+      "image": "./emoji-img/zipper_mouth_face.png",
       "fitz": false
     },
     "1f911": {
       "codepoints": [
         129297
       ],
-      "image": "./emoji-img/money_mouth.png",
+      "image": "./emoji-img/money_mouth_face.png",
       "fitz": false
     },
     "1f912": {
       "codepoints": [
         129298
       ],
-      "image": "./emoji-img/thermometer_face.png",
+      "image": "./emoji-img/face_with_thermometer.png",
       "fitz": false
     },
     "1f913": {
       "codepoints": [
         129299
       ],
-      "image": "./emoji-img/nerd.png",
+      "image": "./emoji-img/nerd_face.png",
       "fitz": false
     },
     "1f914": {
@@ -10545,7 +10545,7 @@
       "codepoints": [
         129301
       ],
-      "image": "./emoji-img/bandage_face.png",
+      "image": "./emoji-img/face_with_head_bandage.png",
       "fitz": false
     },
     "1f916": {
@@ -10559,134 +10559,134 @@
       "codepoints": [
         129303
       ],
-      "image": "./emoji-img/hugging.png",
+      "image": "./emoji-img/hugs.png",
       "fitz": false
     },
     "1f918": {
       "codepoints": [
         129304
       ],
-      "image": "./emoji-img/sign_of_horns.png",
+      "image": "./emoji-img/metal.png",
       "fitz": [
-        "./emoji-img/sign_of_horns.1.png",
-        "./emoji-img/sign_of_horns.2.png",
-        "./emoji-img/sign_of_horns.3.png",
-        "./emoji-img/sign_of_horns.4.png",
-        "./emoji-img/sign_of_horns.5.png"
+        "./emoji-img/metal.1.png",
+        "./emoji-img/metal.2.png",
+        "./emoji-img/metal.3.png",
+        "./emoji-img/metal.4.png",
+        "./emoji-img/metal.5.png"
       ]
     },
     "1f919": {
       "codepoints": [
         129305
       ],
-      "image": "./emoji-img/1f919.png",
+      "image": "./emoji-img/call_me_hand.png",
       "fitz": [
-        "./emoji-img/1f919.1.png",
-        "./emoji-img/1f919.2.png",
-        "./emoji-img/1f919.3.png",
-        "./emoji-img/1f919.4.png",
-        "./emoji-img/1f919.5.png"
+        "./emoji-img/call_me_hand.1.png",
+        "./emoji-img/call_me_hand.2.png",
+        "./emoji-img/call_me_hand.3.png",
+        "./emoji-img/call_me_hand.4.png",
+        "./emoji-img/call_me_hand.5.png"
       ]
     },
     "1f91a": {
       "codepoints": [
         129306
       ],
-      "image": "./emoji-img/1f91a.png",
+      "image": "./emoji-img/raised_back_of_hand.png",
       "fitz": [
-        "./emoji-img/1f91a.1.png",
-        "./emoji-img/1f91a.2.png",
-        "./emoji-img/1f91a.3.png",
-        "./emoji-img/1f91a.4.png",
-        "./emoji-img/1f91a.5.png"
+        "./emoji-img/raised_back_of_hand.1.png",
+        "./emoji-img/raised_back_of_hand.2.png",
+        "./emoji-img/raised_back_of_hand.3.png",
+        "./emoji-img/raised_back_of_hand.4.png",
+        "./emoji-img/raised_back_of_hand.5.png"
       ]
     },
     "1f91b": {
       "codepoints": [
         129307
       ],
-      "image": "./emoji-img/1f91b.png",
+      "image": "./emoji-img/fist_left.png",
       "fitz": [
-        "./emoji-img/1f91b.1.png",
-        "./emoji-img/1f91b.2.png",
-        "./emoji-img/1f91b.3.png",
-        "./emoji-img/1f91b.4.png",
-        "./emoji-img/1f91b.5.png"
+        "./emoji-img/fist_left.1.png",
+        "./emoji-img/fist_left.2.png",
+        "./emoji-img/fist_left.3.png",
+        "./emoji-img/fist_left.4.png",
+        "./emoji-img/fist_left.5.png"
       ]
     },
     "1f91c": {
       "codepoints": [
         129308
       ],
-      "image": "./emoji-img/1f91c.png",
+      "image": "./emoji-img/fist_right.png",
       "fitz": [
-        "./emoji-img/1f91c.1.png",
-        "./emoji-img/1f91c.2.png",
-        "./emoji-img/1f91c.3.png",
-        "./emoji-img/1f91c.4.png",
-        "./emoji-img/1f91c.5.png"
+        "./emoji-img/fist_right.1.png",
+        "./emoji-img/fist_right.2.png",
+        "./emoji-img/fist_right.3.png",
+        "./emoji-img/fist_right.4.png",
+        "./emoji-img/fist_right.5.png"
       ]
     },
     "1f91d": {
       "codepoints": [
         129309
       ],
-      "image": "./emoji-img/1f91d.png",
+      "image": "./emoji-img/handshake.png",
       "fitz": false
     },
     "1f91e": {
       "codepoints": [
         129310
       ],
-      "image": "./emoji-img/1f91e.png",
+      "image": "./emoji-img/crossed_fingers.png",
       "fitz": [
-        "./emoji-img/1f91e.1.png",
-        "./emoji-img/1f91e.2.png",
-        "./emoji-img/1f91e.3.png",
-        "./emoji-img/1f91e.4.png",
-        "./emoji-img/1f91e.5.png"
+        "./emoji-img/crossed_fingers.1.png",
+        "./emoji-img/crossed_fingers.2.png",
+        "./emoji-img/crossed_fingers.3.png",
+        "./emoji-img/crossed_fingers.4.png",
+        "./emoji-img/crossed_fingers.5.png"
       ]
     },
     "1f920": {
       "codepoints": [
         129312
       ],
-      "image": "./emoji-img/1f920.png",
+      "image": "./emoji-img/cowboy_hat_face.png",
       "fitz": false
     },
     "1f921": {
       "codepoints": [
         129313
       ],
-      "image": "./emoji-img/1f921.png",
+      "image": "./emoji-img/clown_face.png",
       "fitz": false
     },
     "1f922": {
       "codepoints": [
         129314
       ],
-      "image": "./emoji-img/1f922.png",
+      "image": "./emoji-img/nauseated_face.png",
       "fitz": false
     },
     "1f923": {
       "codepoints": [
         129315
       ],
-      "image": "./emoji-img/1f923.png",
+      "image": "./emoji-img/rofl.png",
       "fitz": false
     },
     "1f924": {
       "codepoints": [
         129316
       ],
-      "image": "./emoji-img/1f924.png",
+      "image": "./emoji-img/drooling_face.png",
       "fitz": false
     },
     "1f925": {
       "codepoints": [
         129317
       ],
-      "image": "./emoji-img/1f925.png",
+      "image": "./emoji-img/lying_face.png",
       "fitz": false
     },
     "1f926_M": {
@@ -10719,72 +10719,72 @@
       "codepoints": [
         129319
       ],
-      "image": "./emoji-img/1f927.png",
+      "image": "./emoji-img/sneezing_face.png",
       "fitz": false
     },
     "1f930": {
       "codepoints": [
         129328
       ],
-      "image": "./emoji-img/1f930.png",
+      "image": "./emoji-img/pregnant_woman.png",
       "fitz": [
-        "./emoji-img/1f930.1.png",
-        "./emoji-img/1f930.2.png",
-        "./emoji-img/1f930.3.png",
-        "./emoji-img/1f930.4.png",
-        "./emoji-img/1f930.5.png"
+        "./emoji-img/pregnant_woman.1.png",
+        "./emoji-img/pregnant_woman.2.png",
+        "./emoji-img/pregnant_woman.3.png",
+        "./emoji-img/pregnant_woman.4.png",
+        "./emoji-img/pregnant_woman.5.png"
       ]
     },
     "1f933": {
       "codepoints": [
         129331
       ],
-      "image": "./emoji-img/1f933.png",
+      "image": "./emoji-img/selfie.png",
       "fitz": [
-        "./emoji-img/1f933.1.png",
-        "./emoji-img/1f933.2.png",
-        "./emoji-img/1f933.3.png",
-        "./emoji-img/1f933.4.png",
-        "./emoji-img/1f933.5.png"
+        "./emoji-img/selfie.1.png",
+        "./emoji-img/selfie.2.png",
+        "./emoji-img/selfie.3.png",
+        "./emoji-img/selfie.4.png",
+        "./emoji-img/selfie.5.png"
       ]
     },
     "1f934": {
       "codepoints": [
         129332
       ],
-      "image": "./emoji-img/1f934.png",
+      "image": "./emoji-img/prince.png",
       "fitz": [
-        "./emoji-img/1f934.1.png",
-        "./emoji-img/1f934.2.png",
-        "./emoji-img/1f934.3.png",
-        "./emoji-img/1f934.4.png",
-        "./emoji-img/1f934.5.png"
+        "./emoji-img/prince.1.png",
+        "./emoji-img/prince.2.png",
+        "./emoji-img/prince.3.png",
+        "./emoji-img/prince.4.png",
+        "./emoji-img/prince.5.png"
       ]
     },
     "1f935": {
       "codepoints": [
         129333
       ],
-      "image": "./emoji-img/1f935.png",
+      "image": "./emoji-img/man_in_tuxedo.png",
       "fitz": [
-        "./emoji-img/1f935.1.png",
-        "./emoji-img/1f935.2.png",
-        "./emoji-img/1f935.3.png",
-        "./emoji-img/1f935.4.png",
-        "./emoji-img/1f935.5.png"
+        "./emoji-img/man_in_tuxedo.1.png",
+        "./emoji-img/man_in_tuxedo.2.png",
+        "./emoji-img/man_in_tuxedo.3.png",
+        "./emoji-img/man_in_tuxedo.4.png",
+        "./emoji-img/man_in_tuxedo.5.png"
       ]
     },
     "1f936": {
       "codepoints": [
         129334
       ],
-      "image": "./emoji-img/1f936.png",
+      "image": "./emoji-img/mrs_claus.png",
       "fitz": [
-        "./emoji-img/1f936.1.png",
-        "./emoji-img/1f936.2.png",
-        "./emoji-img/1f936.3.png",
-        "./emoji-img/1f936.4.png",
-        "./emoji-img/1f936.5.png"
+        "./emoji-img/mrs_claus.1.png",
+        "./emoji-img/mrs_claus.2.png",
+        "./emoji-img/mrs_claus.3.png",
+        "./emoji-img/mrs_claus.4.png",
+        "./emoji-img/mrs_claus.5.png"
       ]
     },
     "1f937_M": {
@@ -10869,7 +10869,7 @@
       "codepoints": [
         129338
       ],
-      "image": "./emoji-img/1f93a.png",
+      "image": "./emoji-img/person_fencing.png",
       "fitz": false
     },
     "1f93c_M": {
@@ -10942,182 +10942,182 @@
       "codepoints": [
         129344
       ],
-      "image": "./emoji-img/1f940.png",
+      "image": "./emoji-img/wilted_flower.png",
       "fitz": false
     },
     "1f941": {
       "codepoints": [
         129345
       ],
-      "image": "./emoji-img/1f941.png",
+      "image": "./emoji-img/drum.png",
       "fitz": false
     },
     "1f942": {
       "codepoints": [
         129346
       ],
-      "image": "./emoji-img/1f942.png",
+      "image": "./emoji-img/clinking_glasses.png",
       "fitz": false
     },
     "1f943": {
       "codepoints": [
         129347
       ],
-      "image": "./emoji-img/1f943.png",
+      "image": "./emoji-img/tumbler_glass.png",
       "fitz": false
     },
     "1f944": {
       "codepoints": [
         129348
       ],
-      "image": "./emoji-img/1f944.png",
+      "image": "./emoji-img/spoon.png",
       "fitz": false
     },
     "1f945": {
       "codepoints": [
         129349
       ],
-      "image": "./emoji-img/1f945.png",
+      "image": "./emoji-img/goal_net.png",
       "fitz": false
     },
     "1f947": {
       "codepoints": [
         129351
       ],
-      "image": "./emoji-img/1f947.png",
+      "image": "./emoji-img/1st_place_medal.png",
       "fitz": false
     },
     "1f948": {
       "codepoints": [
         129352
       ],
-      "image": "./emoji-img/1f948.png",
+      "image": "./emoji-img/2nd_place_medal.png",
       "fitz": false
     },
     "1f949": {
       "codepoints": [
         129353
       ],
-      "image": "./emoji-img/1f949.png",
+      "image": "./emoji-img/3rd_place_medal.png",
       "fitz": false
     },
     "1f94a": {
       "codepoints": [
         129354
       ],
-      "image": "./emoji-img/1f94a.png",
+      "image": "./emoji-img/boxing_glove.png",
       "fitz": false
     },
     "1f94b": {
       "codepoints": [
         129355
       ],
-      "image": "./emoji-img/1f94b.png",
+      "image": "./emoji-img/martial_arts_uniform.png",
       "fitz": false
     },
     "1f950": {
       "codepoints": [
         129360
       ],
-      "image": "./emoji-img/1f950.png",
+      "image": "./emoji-img/croissant.png",
       "fitz": false
     },
     "1f951": {
       "codepoints": [
         129361
       ],
-      "image": "./emoji-img/1f951.png",
+      "image": "./emoji-img/avocado.png",
       "fitz": false
     },
     "1f952": {
       "codepoints": [
         129362
       ],
-      "image": "./emoji-img/1f952.png",
+      "image": "./emoji-img/cucumber.png",
       "fitz": false
     },
     "1f953": {
       "codepoints": [
         129363
       ],
-      "image": "./emoji-img/1f953.png",
+      "image": "./emoji-img/bacon.png",
       "fitz": false
     },
     "1f954": {
       "codepoints": [
         129364
       ],
-      "image": "./emoji-img/1f954.png",
+      "image": "./emoji-img/potato.png",
       "fitz": false
     },
     "1f955": {
       "codepoints": [
         129365
       ],
-      "image": "./emoji-img/1f955.png",
+      "image": "./emoji-img/carrot.png",
       "fitz": false
     },
     "1f956": {
       "codepoints": [
         129366
       ],
-      "image": "./emoji-img/1f956.png",
+      "image": "./emoji-img/baguette_bread.png",
       "fitz": false
     },
     "1f957": {
       "codepoints": [
         129367
       ],
-      "image": "./emoji-img/1f957.png",
+      "image": "./emoji-img/green_salad.png",
       "fitz": false
     },
     "1f958": {
       "codepoints": [
         129368
       ],
-      "image": "./emoji-img/1f958.png",
+      "image": "./emoji-img/shallow_pan_of_food.png",
       "fitz": false
     },
     "1f959": {
       "codepoints": [
         129369
       ],
-      "image": "./emoji-img/1f959.png",
+      "image": "./emoji-img/stuffed_flatbread.png",
       "fitz": false
     },
     "1f95a": {
       "codepoints": [
         129370
       ],
-      "image": "./emoji-img/1f95a.png",
+      "image": "./emoji-img/egg.png",
       "fitz": false
     },
     "1f95b": {
       "codepoints": [
         129371
       ],
-      "image": "./emoji-img/1f95b.png",
+      "image": "./emoji-img/milk_glass.png",
       "fitz": false
     },
     "1f95c": {
       "codepoints": [
         129372
       ],
-      "image": "./emoji-img/1f95c.png",
+      "image": "./emoji-img/peanuts.png",
       "fitz": false
     },
     "1f95d": {
       "codepoints": [
         129373
       ],
-      "image": "./emoji-img/1f95d.png",
+      "image": "./emoji-img/kiwi_fruit.png",
       "fitz": false
     },
     "1f95e": {
       "codepoints": [
         129374
       ],
-      "image": "./emoji-img/1f95e.png",
+      "image": "./emoji-img/pancakes.png",
       "fitz": false
     },
     "1f980": {
@@ -11131,7 +11131,7 @@
       "codepoints": [
         129409
       ],
-      "image": "./emoji-img/lion_face.png",
+      "image": "./emoji-img/lion.png",
       "fitz": false
     },
     "1f982": {
@@ -11152,63 +11152,63 @@
       "codepoints": [
         129412
       ],
-      "image": "./emoji-img/unicorn_face.png",
+      "image": "./emoji-img/unicorn.png",
       "fitz": false
     },
     "1f985": {
       "codepoints": [
         129413
       ],
-      "image": "./emoji-img/1f985.png",
+      "image": "./emoji-img/eagle.png",
       "fitz": false
     },
     "1f986": {
       "codepoints": [
         129414
       ],
-      "image": "./emoji-img/1f986.png",
+      "image": "./emoji-img/duck.png",
       "fitz": false
     },
     "1f987": {
       "codepoints": [
         129415
       ],
-      "image": "./emoji-img/1f987.png",
+      "image": "./emoji-img/bat.png",
       "fitz": false
     },
     "1f988": {
       "codepoints": [
         129416
       ],
-      "image": "./emoji-img/1f988.png",
+      "image": "./emoji-img/shark.png",
       "fitz": false
     },
     "1f989": {
       "codepoints": [
         129417
       ],
-      "image": "./emoji-img/1f989.png",
+      "image": "./emoji-img/owl.png",
       "fitz": false
     },
     "1f98a": {
       "codepoints": [
         129418
       ],
-      "image": "./emoji-img/1f98a.png",
+      "image": "./emoji-img/fox_face.png",
       "fitz": false
     },
     "1f98b": {
       "codepoints": [
         129419
       ],
-      "image": "./emoji-img/1f98b.png",
+      "image": "./emoji-img/butterfly.png",
       "fitz": false
     },
     "1f98c": {
       "codepoints": [
         129420
       ],
-      "image": "./emoji-img/1f98c.png",
+      "image": "./emoji-img/deer.png",
       "fitz": false
     },
     "1f98d": {
@@ -11222,35 +11222,35 @@
       "codepoints": [
         129422
       ],
-      "image": "./emoji-img/1f98e.png",
+      "image": "./emoji-img/lizard.png",
       "fitz": false
     },
     "1f98f": {
       "codepoints": [
         129423
       ],
-      "image": "./emoji-img/1f98f.png",
+      "image": "./emoji-img/rhinoceros.png",
       "fitz": false
     },
     "1f990": {
       "codepoints": [
         129424
       ],
-      "image": "./emoji-img/1f990.png",
+      "image": "./emoji-img/shrimp.png",
       "fitz": false
     },
     "1f991": {
       "codepoints": [
         129425
       ],
-      "image": "./emoji-img/1f991.png",
+      "image": "./emoji-img/squid.png",
       "fitz": false
     },
     "1f9c0": {
       "codepoints": [
         129472
       ],
-      "image": "./emoji-img/cheese_wedge.png",
+      "image": "./emoji-img/cheese.png",
       "fitz": false
     }
   }
