@@ -1,4 +1,5 @@
 require 'base64'
+require 'cgi'
 require 'json'
 require 'nokogiri'
 require 'pathname'
@@ -6,33 +7,22 @@ require 'set'
 require 'shellwords'
 require 'tmpdir'
 require 'ttfunk'
-require 'uri'
 require 'yaml'
 
 require './utils.rb'
 
-PWD = Pathname.new Dir.pwd
 RootDir = Pathname.new Rake.application.original_dir
 
-# symlink to the latest emoji font file
-EmojiFontLatest = RootDir.join('fonts/emoji-latest.ttf')
-
-# system character palette plist
-EmojiPlist = Pathname.new '/System/Library/Input Methods/CharacterPalette.app/Contents/Resources/Category-Emoji.plist'
-SystemInfoPlist = Pathname.new '/System/Library/CoreServices/SystemVersion.plist'
-EmojiFont = Pathname.new '/System/Library/Fonts/Apple Color Emoji.ttc'
-
+DataDir = RootDir.join('data')
+FontDir = RootDir.join('fonts')
+CacheDir = RootDir.join('cache')
 EmojiImgDir = RootDir.join('emoji-img')
 EmojiImgDirRelative = Pathname.new('./emoji-img')
 
 ExtraMetadataFile = RootDir.join('extra-metadata.yaml').to_s
-DataDir = RootDir.join('data')
-FontDir = RootDir.join('fonts')
-CacheDir = RootDir.join('cache')
 
 # files to output
 EmojiDBFile = RootDir.join('emoji-db.json').to_s
-FontPaletteDataFile = FontDir.join('palette-data.json').to_s
 FontVersionFile = FontDir.join('versions.json').to_s
 FontDataFile = FontDir.join('font-data.json').to_s
 EmojiCategoryFile = DataDir.join('emoji-by-category.json').to_s
@@ -41,104 +31,77 @@ UnicodeAnnotationFile = DataDir.join('unicode-annotations.json').to_s
 
 # emoji minus ASCII numbers
 EmojiQuery = '[:emoji:] - \p{Block=Basic Latin}'
-EmojiListURL = "http://unicode.org/cldr/utility/list-unicodeset.jsp?a=#{URI.escape EmojiQuery}&g=emoji"
+EmojiListURL = "http://unicode.org/cldr/utility/list-unicodeset.jsp?a=#{CGI.escape EmojiQuery}&g=emoji"
 EmojiListURLCache = CacheDir.join('emoji-list-page.html').to_s
 UnicodeAnnotationCache = CacheDir.join('unicode-annotations.xml').to_s
-
-# http://sourceforge.net/projects/ttf2ttc
-TTCSplitBin = RootDir.join('scripts/split_ttcf.pl').to_s
-TTFMergeBin = RootDir.join('scripts/merge2ttcf.pl').to_s
-
-
-def extract_emoji(location)
-  location_dir = location ? Pathname.new(File.expand_path(location)) : nil
-
-  # these two are required
-  info_plist = location && location_dir.join('SystemVersion.plist') || SystemInfoPlist
-  emoji_path = location && location_dir.join('Apple Color Emoji.ttc') || EmojiFont
-
-  # if this file hasn't updated, use the sytem one
-  palette_plist = location && lambda {p = location_dir.join('Category-Emoji.plist'); p.exist? && p}.call || EmojiPlist
-
-  puts "Info:  #{info_plist}"
-  puts "Emoji: #{emoji_path}"
-
-  raise 'info plist and emoji path must both exist' unless info_plist.exist? && emoji_path.exist?
-
-  system_info = JSON.parse(`plutil -convert json -r -o - -- #{info_plist}`)
-
-  Dir.mktmpdir('_emoji_font_') do |tmp_dir|
-    Dir.chdir tmp_dir
-
-    puts "Copy the latest version of Apple Color Emoji to temp..."
-    cp emoji_path, 'emoji_font.ttc'
-
-    puts "Split the emoji file TTC into tables..."
-    `#{TTCSplitBin.shellescape} --input-ttf=emoji_font.ttc --output-prefix=emoji_tmp &>/dev/null`
-
-    puts "Merge emoji tables into a TTF (this will take a while)..."
-    `#{TTFMergeBin.shellescape} --output-ttf=emoji_font.ttf emoji_tmp_0.*.sdat &>/dev/null`
-
-    puts "Add font to version database..."
-    ttf = TTFunk::File.open('emoji_font.ttf')
-    font_version = ttf.name.version[0]
-    font_date = ttf.name.unique_subfamily[0][/(\d{4}\-\d\d\-\d\d)/]
-
-    File.open(FontVersionFile, File::CREAT|File::RDWR) do |f|
-      version_db = begin JSON.parse(f.read) rescue {} end
-      if version_db.empty?
-        puts "Version file is invalid JSON"
-        break
-      end
-      version_db[font_version] ||= {"build_date" => font_date}
-      (version_db[font_version]["macos_versions"] ||= []).push("#{system_info['ProductVersion']} (#{system_info['ProductBuildVersion']})").sort!.uniq!
-
-      f.rewind
-      f.puts JSON.pretty_generate(version_db)
-      f.flush
-      f.truncate(f.pos)
-    end
-
-    font_name = "Apple Color Emoji #{font_version}"
-
-    puts "Update symlink to latest font file..."
-    cp 'emoji_font.ttf', PWD.join("fonts/#{font_name}.ttf")
-    cp 'emoji_font.ttc', PWD.join("fonts/#{font_name}.ttc")
-    rm_f EmojiFontLatest
-    ln_s "#{font_name}.ttf", EmojiFontLatest
-    Dir.chdir PWD
-  end
-
-  puts "Copy latest emoji character palette plist..."
-  # -o -   output to stdout
-  # -r     pretty print JSON
-  plist_contents = `plutil -convert json -r -o - -- "#{palette_plist}"`.strip
-  File.open(FontPaletteDataFile, 'w') {|f| f.puts plist_contents}
-end
 
 task :npm_update do
   puts "Running `npm update`..."
   system "npm update"
 end
 
-desc "Extract the emoji TTF from the system TTC file"
-task :extract_ttf => [:npm_update] do
-  extract_emoji ENV['EMOJI_PATH']
+def ensure_emoji_version
+  raise 'EMOJI_VERSION environmental variable must be set' unless ENV['EMOJI_VERSION']
+end
+
+desc "Copy `Apple Color Emoji.ttc` to font folder"
+task :copy_latest do
+  ttc_src = Pathname.new '/System/Library/Fonts/Apple Color Emoji.ttc'
+  raise 'source TTC do not exist' unless ttc_src.exist?
+
+  ttf = TTFunk::Collection.open(ttc_src) do |ttc|
+    ttc.find {|a| a.name.font_name[0] == 'Apple Color Emoji'}
+  end
+
+  font_version = ttf.name.version[0]
+  font_date = ttf.name.unique_subfamily[0][/(\d{4}\-\d\d\-\d\d)/]
+  ttc_dest = FontDir.join("Apple Color Emoji #{font_version}.ttc")
+
+  info_plist = '/System/Library/CoreServices/SystemVersion.plist'
+  system_info = JSON.parse(`plutil -convert json -r -o - -- #{info_plist.shellescape}`)
+  system_nicename = "#{system_info['ProductVersion']} (#{system_info['ProductBuildVersion']})"
+
+  puts "Add font to version database..."
+  File.open(FontVersionFile, File::CREAT|File::RDWR) do |f|
+    version_db = begin JSON.parse(f.read) rescue {} end
+    if version_db.empty?
+      puts "Version file is invalid JSON"
+      break
+    end
+    version_db[font_version] ||= {"build_date" => font_date}
+    (version_db[font_version]["macos_versions"] ||= []).push(system_nicename).sort!.uniq!
+
+    f.rewind
+    f.puts JSON.pretty_generate(version_db)
+    f.flush
+    f.truncate(f.pos)
+  end
+
+  if ttc_dest.exist?
+    puts "TTC file has already been copied over"
+  else
+    cp ttc_src, ttc_dest
+  end
 end
 
 desc "Extract emoji images from the latest TTF file"
 task :extract_images => [:npm_update] do
+  ensure_emoji_version
+  emoji_ttf = FontDir.join("Apple Color Emoji #{ENV['EMOJI_VERSION']}.ttf")
+  emoji_ttc = FontDir.join("Apple Color Emoji #{ENV['EMOJI_VERSION']}.ttc")
+
+  ttf = if emoji_ttf.exist?
+    TTFunk::File.open(emoji_ttf)
+  elsif emoji_ttc.exist?
+    TTFunk::Collection.open(emoji_ttc) do |ttc|
+      ttc.find {|a| a.name.font_name[0] == 'Apple Color Emoji'}
+    end
+  end
+
+  abort 'Emoji font file does not exist!' unless ttf
+
   rm_rf EmojiImgDir
   mkdir_p EmojiImgDir
-  # available sizes: 32, 40, 48, 64, 96, 160
-  size = 160
-
-  latest_emoji_font = File.expand_path(EmojiFontLatest)
-
-  abort 'Emoji font file symlink does not exist!' unless File.symlink?(EmojiFontLatest)
-  abort 'Emoji font file does not exist!' unless File.exist?(latest_emoji_font)
-
-  ttf = TTFunk::File.open(latest_emoji_font)
 
   emojilib_data = {}
   JSON.parse(File.read('./node_modules/emojilib/emojis.json')).each do |k,v|
@@ -164,10 +127,14 @@ task :extract_images => [:npm_update] do
 
   ttf.maximum_profile.num_glyphs.times do |glyph_id|
     bitmaps = ttf.sbix.all_bitmap_data_for(glyph_id)
-    bitmap = bitmaps.detect {|b| b.ppem == size}
-    next if bitmap.nil?
-
+    bitmap = bitmaps.max_by(&:ppem)
     ttf_name = ttf.postscript.glyph_for(glyph_id)
+
+    if bitmap.nil?
+      # puts "glyph #{glyph_id} (#{ttf_name}) has no bitmaps"
+      next
+    end
+
     codepoints, fitz_idx, fam = /^
       # emoji code
       ([u0-9A-F_]+)
@@ -188,8 +155,6 @@ task :extract_images => [:npm_update] do
       end
     end
 
-    fitz = fitz_idx && FitzpatrickModifiers[fitz_idx]
-
     next unless codepoints
 
     emoji_key = codepoints.int_to_hex.join('_')
@@ -197,6 +162,11 @@ task :extract_images => [:npm_update] do
 
     emojilib_thing = emojilib_data[emoji_key] || {}
 
+    # if emojilib_thing['emojilib_name']
+    #   emojilib_thing['emojilib_name'] = emojilib_thing['emojilib_name'].gsub(/^\+/, 'plus').gsub(/^\-/, 'minus')
+    # end
+
+    # emoji_filename = if /^[\w\-_]+$/ =~ emojilib_thing['emojilib_name']
     emoji_filename = if /^\w[\w\-_]+\w$/ =~ emojilib_thing['emojilib_name']
       emojilib_thing['emojilib_name']
     else
@@ -205,7 +175,6 @@ task :extract_images => [:npm_update] do
 
     emoji_filename += ".#{fam.fam_sort}" if fam
     emoji_filename += ".#{fitz_idx}" if fitz_idx > 0
-
     emoji_filename += ".#{bitmap.type}"
 
     font_data['glyphs'][emoji_key] ||= {
@@ -228,19 +197,12 @@ end
 
 desc "Generate a JSON object of emoji with paths to images"
 task :generate_emoji_db => [:npm_update] do
-  emoji_file_data = JSON.parse(File.read FontPaletteDataFile)
   extra_metadata = YAML.load(File.read ExtraMetadataFile) || {}
   unicode_data = JSON.parse(File.read UnicodeDataFile)
   font_data = JSON.parse(File.read FontDataFile)
   annotation_data = JSON.parse(File.read UnicodeAnnotationFile)
 
   emoji_by_category = {}
-
-  emoji_file_data['EmojiDataArray'].each do |group|
-    next unless group['CVCategoryData']['Data']
-    category = group['CVDataTitle'].gsub('EmojiCategory-', '').downcase
-    emoji_by_category[category] = group['CVCategoryData']['Data'].split(',')
-  end
 
   File.write(EmojiCategoryFile, JSON.pretty_generate(emoji_by_category))
 
@@ -254,7 +216,6 @@ task :generate_emoji_db => [:npm_update] do
     codepoints = v['char'].to_codepoints.reject_joiners
     v['keywords'] ||= []
     v['keywords'].concat "#{k}".split('_')
-    v['keywords']
     v['emojilib_name'] = k
     emojilib_data[codepoints.to_emoji_key] = v
   end
@@ -315,9 +276,6 @@ task :generate_emoji_db => [:npm_update] do
       else
         # puts e + ' -- [no emojilib data] ' + key_codepoints.pack('U*') + ' -- [' + key_codepoints.join(',') + ']'
       end
-
-      # TODO: name file with emojilib_name
-      file_basename = emoji_key # data[:emojilib_name]
 
       data[:keywords].sort!.uniq!
 
@@ -484,4 +442,4 @@ task :generate_annotations do
 end
 
 task :rebuild => [:extract_images, :build_unicode_db, :generate_emoji_db]
-task :default => [:extract_ttf, :rebuild]
+task :default => [:rebuild]

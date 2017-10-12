@@ -402,7 +402,7 @@
     "🐗": "boar",
     "🐽": "pig nose",
     "🐏": "ram",
-    "🐑": "sheep",
+    "🐑": "ewe",
     "🐐": "goat",
     "🐪": "camel",
     "🐫": "two-hump camel",
@@ -1187,7 +1187,83 @@
     "🛒": "shopping cart",
     "🛴": "kick scooter",
     "🛵": "motor scooter",
-    "🛶": "canoe"
+    "🛶": "canoe",
+    "🤨": "face with raised eyebrow",
+    "🤩": "star-struck",
+    "🤪": "crazy face",
+    "🤫": "shushing face",
+    "🤬": "face with symbols over mouth",
+    "🤭": "face with hand over mouth",
+    "🧐": "face with monocle",
+    "🤯": "exploding head",
+    "🤮": "face vomiting",
+    "🧒": "child",
+    "🧑": "adult",
+    "🧓": "older adult",
+    "🤱": "breast-feeding",
+    "🧔": "bearded person",
+    "🧕": "woman with headscarf",
+    "🧙": "mage",
+    "🧙‍♀️": "woman mage",
+    "🧙‍♂️": "man mage",
+    "🧚": "fairy",
+    "🧚‍♀️": "woman fairy",
+    "🧚‍♂️": "man fairy",
+    "🧛": "vampire",
+    "🧛‍♀️": "woman vampire",
+    "🧛‍♂️": "man vampire",
+    "🧜": "merperson",
+    "🧜‍♀️": "mermaid",
+    "🧜‍♂️": "merman",
+    "🧝": "elf",
+    "🧝‍♀️": "woman elf",
+    "🧝‍♂️": "man elf",
+    "🧞": "genie",
+    "🧞‍♀️": "woman genie",
+    "🧞‍♂️": "man genie",
+    "🧟": "zombie",
+    "🧟‍♀️": "woman zombie",
+    "🧟‍♂️": "man zombie",
+    "🧖": "person in steamy room",
+    "🧖‍♀️": "woman in steamy room",
+    "🧖‍♂️": "man in steamy room",
+    "🧗": "person climbing",
+    "🧗‍♀️": "woman climbing",
+    "🧗‍♂️": "man climbing",
+    "🧘": "person in lotus position",
+    "🧘‍♀️": "woman in lotus position",
+    "🧘‍♂️": "man in lotus position",
+    "🤟": "love-you gesture",
+    "🤲": "palms up together",
+    "🧠": "brain",
+    "🧡": "orange heart",
+    "🧣": "scarf",
+    "🧤": "gloves",
+    "🧥": "coat",
+    "🧦": "socks",
+    "🧢": "billed cap",
+    "🦓": "zebra",
+    "🦒": "giraffe",
+    "🦔": "hedgehog",
+    "🦕": "sauropod",
+    "🦖": "T-Rex",
+    "🦗": "cricket",
+    "🥥": "coconut",
+    "🥦": "broccoli",
+    "🥣": "bowl with spoon",
+    "🥨": "pretzel",
+    "🥩": "cut of meat",
+    "🥪": "sandwich",
+    "🥫": "canned food",
+    "🥟": "dumpling",
+    "🥠": "fortune cookie",
+    "🥡": "takeout box",
+    "🥧": "pie",
+    "🥤": "cup with straw",
+    "🥢": "chopsticks",
+    "🛸": "flying saucer",
+    "🛷": "sled",
+    "🥌": "curling stone"
   },
   "keywords": {
     "♀": [
@@ -1998,7 +2074,6 @@
       "face",
       "fairy tale",
       "fantasy",
-      "Japanese",
       "monster"
     ],
     "👺": [
@@ -2006,7 +2081,6 @@
       "face",
       "fairy tale",
       "fantasy",
-      "Japanese",
       "monster"
     ],
     "💀": [
@@ -3295,10 +3369,12 @@
     "🐏": [
       "Aries",
       "sheep",
-      "zodiac"
+      "zodiac",
+      "male"
     ],
     "🐑": [
-      "ewe"
+      "sheep",
+      "female"
     ],
     "🐐": [
       "Capricorn",
@@ -3361,32 +3437,39 @@
       "print"
     ],
     "🦃": [
-      "turkey"
+      "turkey",
+      "bird"
     ],
     "🐔": [
-      "chicken"
+      "chicken",
+      "bird"
     ],
     "🐓": [
-      "rooster"
+      "rooster",
+      "bird"
     ],
     "🐣": [
       "baby",
       "chick",
-      "hatching"
+      "hatching",
+      "bird"
     ],
     "🐤": [
       "baby",
-      "chick"
+      "chick",
+      "bird"
     ],
     "🐥": [
       "baby",
-      "chick"
+      "chick",
+      "bird"
     ],
     "🐦": [
       "bird"
     ],
     "🐧": [
-      "penguin"
+      "penguin",
+      "bird"
     ],
     "🕊": [
       "bird",
@@ -5547,7 +5630,6 @@
     ],
     "🏮": [
       "bar",
-      "Japanese",
       "lantern",
       "light",
       "red"
@@ -7051,6 +7133,209 @@
     "🛶": [
       "canoe",
       "boat"
+    ],
+    "🤨": [
+      "skeptic",
+      "distrust"
+    ],
+    "🤩": [
+      "grinning",
+      "face",
+      "star",
+      "eyes"
+    ],
+    "🤪": [
+      "large",
+      "small",
+      "eye"
+    ],
+    "🤭": [
+      "whoops"
+    ],
+    "🧐": [
+      "stuffy"
+    ],
+    "🤯": [
+      "shocked"
+    ],
+    "🤮": [
+      "vomit",
+      "sick"
+    ],
+    "🧒": [
+      "gender-neutral",
+      "young"
+    ],
+    "🧑": [
+      "gender-neutral"
+    ],
+    "🧓": [
+      "gender-neutral",
+      "old"
+    ],
+    "🧕": [
+      "headscarf",
+      "hijab",
+      "tichel",
+      "mantilla"
+    ],
+    "🧙": [
+      "wizard",
+      "witch",
+      "sorcerer",
+      "sorceress"
+    ],
+    "🧙‍♀️": [
+      "witch",
+      "sorceress"
+    ],
+    "🧙‍♂️": [
+      "wizard",
+      "sorcerer"
+    ],
+    "🧚": [
+      "Titania",
+      "Puck",
+      "Oberon"
+    ],
+    "🧚‍♀️": [
+      "Titania"
+    ],
+    "🧚‍♂️": [
+      "Puck",
+      "Oberon"
+    ],
+    "🧛": [
+      "Dracula",
+      "undead"
+    ],
+    "🧛‍♀️": [
+      "undead"
+    ],
+    "🧛‍♂️": [
+      "Dracula",
+      "undead"
+    ],
+    "🧜": [
+      "mermaid",
+      "merman",
+      "merwoman"
+    ],
+    "🧜‍♀️": [
+      "merwoman"
+    ],
+    "🧞": [
+      "djinn"
+    ],
+    "🧞‍♀️": [
+      "djinn"
+    ],
+    "🧞‍♂️": [
+      "djinn"
+    ],
+    "🧟": [
+      "undead",
+      "walking dead"
+    ],
+    "🧟‍♀️": [
+      "undead",
+      "walking dead"
+    ],
+    "🧟‍♂️": [
+      "undead",
+      "walking dead"
+    ],
+    "🧖": [
+      "sauna",
+      "steam room"
+    ],
+    "🧖‍♀️": [
+      "sauna",
+      "steam room"
+    ],
+    "🧖‍♂️": [
+      "sauna",
+      "steam room"
+    ],
+    "🧘": [
+      "yoga",
+      "meditation"
+    ],
+    "🧘‍♀️": [
+      "yoga",
+      "meditation"
+    ],
+    "🧘‍♂️": [
+      "yoga",
+      "meditation"
+    ],
+    "🤟": [
+      "ILY",
+      "hand"
+    ],
+    "🤲": [
+      "prayer"
+    ],
+    "🧠": [
+      "intelligent"
+    ],
+    "🧣": [
+      "neck"
+    ],
+    "🧥": [
+      "jacket"
+    ],
+    "🧢": [
+      "baseball cap"
+    ],
+    "🦕": [
+      "brontosaurus",
+      "diplodocus",
+      "brachiosaurus"
+    ],
+    "🦖": [
+      "Tyrannosaurus Rex"
+    ],
+    "🥣": [
+      "breakfast",
+      "cereal",
+      "congee"
+    ],
+    "🥨": [
+      "twisted"
+    ],
+    "🥩": [
+      "porkchop",
+      "lambchop",
+      "chop",
+      "steak"
+    ],
+    "🥫": [
+      "can"
+    ],
+    "🥟": [
+      "potsticker",
+      "gyōza",
+      "jiaozi",
+      "pierogi",
+      "empanada"
+    ],
+    "🥡": [
+      "oyster pail"
+    ],
+    "🥤": [
+      "soda",
+      "juice"
+    ],
+    "🥢": [
+      "hashi"
+    ],
+    "🛸": [
+      "UFO"
+    ],
+    "🛷": [
+      "sledge",
+      "sleigh"
     ]
   }
 }

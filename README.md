@@ -23,3 +23,23 @@ The unicode codepoint for :sunglasses: is `1f60e`.
 String.fromCodePoint(parseInt("1f60e", 16))
 ```
 
+### Mystery of the missing `Category-Emoji.plist`
+
+From `/System/Library/Input Methods/CharacterPalette.app/Contents/Info.plist`:
+
+```xml
+<key>Category-Emoji</key>
+<dict>
+  <key>CVCategoryControllerClass</key>
+  <string>CVEmojiViewController</string>
+  <key>CVCategoryControllerInfo</key>
+  <dict>
+    <key>DataSourceClass</key>
+    <string>CVDataSourcePlist</string>
+    <key>ViewName</key>
+    <string>EmojiCategoryView</string>
+  </dict>
+</dict>
+```
+
+File `/System/Library/Input Methods/CharacterPalette.app/Contents/MacOS/CharacterPalette` has interesting strings re data source.
