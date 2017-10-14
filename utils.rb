@@ -32,6 +32,12 @@ HeartCodepoints = [
   0x2764,
 ]
 
+UnicodeJoiners = [
+  0x200d,
+  0xfe0f,
+  0xfe0e,
+]
+
 class String
   def fam_sort
     self.split('').sort_by {|e| 'MWGB'.index(e) || -1}.join('')
@@ -64,50 +70,56 @@ class Array
     self.map {|e| e.is_a?(Numeric) ? e.to_unicode : e.to_s}
   end
 
+  def hex_to_int
+    self.map {|e| e.to_i(16)}
+  end
+
   def to_fam_string
     self.map {|p| FamCodepoints[p]}.compact.join('').fam_sort
   end
 
   def reject_joiners
-    self.reject {|c| [0x200d, 0xfe0f].include?(c)}
+    self.reject {|c| UnicodeJoiners.include?(c)}
   end
 
   def to_emoji_key
+    codepoints = self.reject_joiners
+
     # special case 1: people group defaults
-    if self === [0x1f48f]
+    if codepoints === [0x1f48f]
       # default kiss emoji"
       return '1f48f_MW'
-    elsif self === [0x1f491]
+    elsif codepoints === [0x1f491]
       # default heart emoji"
       return '1f491_MW'
-    elsif self === [0x1f46a]
+    elsif codepoints === [0x1f46a]
       # default family emoji"
       return '1f46a_MWB'
     end
 
     # special case 2: kiss/heart emoji
-    if self.length > 1
-      if (self - KissCodepoints).length === 0
-        return "1f48f_#{self.to_fam_string}"
-      elsif (self - HeartCodepoints).length === 0
-        return "1f491_#{self.to_fam_string}"
+    if codepoints.length > 1
+      if (codepoints - HeartCodepoints).length === 0
+        return "1f491_#{codepoints.to_fam_string}"
+      elsif (codepoints - KissCodepoints).length === 0
+        return "1f48f_#{codepoints.to_fam_string}"
       end
     end
 
     if (
         # Exclude MWBG emoji
-        self.length > 1 &&
+        codepoints.length > 1 &&
         # only MWBG emoji?
-        (self - FamCodepoints.keys).empty?
+        (codepoints - FamCodepoints.keys).empty?
       )
 
       # fam emoji + MWBG string
       [
         0x1f46a,
-        self.to_fam_string,
+        codepoints.to_fam_string,
       ]
     else
-      self
+      codepoints
     end.int_to_hex.join('_')
   end
 end

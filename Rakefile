@@ -28,21 +28,10 @@ FontDataFile = FontDir.join('font-data.json').to_s
 EmojiCategoryFile = DataDir.join('emoji-by-category.json').to_s
 UnicodeDataFile = DataDir.join('unicode-data.json').to_s
 UnicodeAnnotationFile = DataDir.join('unicode-annotations.json').to_s
+SequenceFile = DataDir.join('sequences.json').to_s
 
-# emoji minus ASCII numbers
-EmojiQuery = '[:emoji:] - \p{Block=Basic Latin}'
-EmojiListURL = "http://unicode.org/cldr/utility/list-unicodeset.jsp?a=#{CGI.escape EmojiQuery}&g=emoji"
-EmojiListURLCache = CacheDir.join('emoji-list-page.html').to_s
-UnicodeAnnotationCache = CacheDir.join('unicode-annotations.xml').to_s
-
-task :npm_update do
-  puts "Running `npm update`..."
-  system "npm update"
-end
-
-def ensure_emoji_version
-  raise 'EMOJI_VERSION environmental variable must be set' unless ENV['EMOJI_VERSION']
-end
+task :rebuild => [:build_unicode_db, :generate_emoji_db]
+task :default => [:rebuild]
 
 desc "Copy `Apple Color Emoji.ttc` to font folder"
 task :copy_latest do
@@ -85,8 +74,9 @@ task :copy_latest do
 end
 
 desc "Extract emoji images from the latest TTF file"
-task :extract_images => [:npm_update] do
-  ensure_emoji_version
+task :generate_emoji_db do
+  raise 'EMOJI_VERSION environmental variable must be set' unless ENV['EMOJI_VERSION']
+
   emoji_ttf = FontDir.join("Apple Color Emoji #{ENV['EMOJI_VERSION']}.ttf")
   emoji_ttc = FontDir.join("Apple Color Emoji #{ENV['EMOJI_VERSION']}.ttc")
 
@@ -100,30 +90,36 @@ task :extract_images => [:npm_update] do
 
   abort 'Emoji font file does not exist!' unless ttf
 
+  puts "Run `npm update`..."
+  # system "npm update"
+
   rm_rf EmojiImgDir
   mkdir_p EmojiImgDir
 
-  emojilib_data = {}
-  JSON.parse(File.read('./node_modules/emojilib/emojis.json')).each do |k,v|
-    # skip the weirdo keys
-    next unless v.class.to_s.downcase === 'hash' && v['char']
+  extra_metadata = YAML.load(File.read ExtraMetadataFile) || {}
+  unicode_data = JSON.parse(File.read UnicodeDataFile)
+  annotation_data = JSON.parse(File.read UnicodeAnnotationFile)
+  sequence_data = JSON.parse(File.read SequenceFile)
 
-    codepoints = v['char'].to_codepoints.reject_joiners
+  emojilib_data = JSON.parse(File.read('./node_modules/emojilib/emojis.json')).map do |k,v|
+    # skip the weirdo keys
+    next unless v.class == Hash && v['char']
+
+    codepoints = v['char'].to_codepoints
     v['keywords'] ||= []
     v['keywords'].concat "#{k}".split('_')
     v['emojilib_name'] = k
-    emojilib_data[codepoints.to_emoji_key] = v
-  end
+    [codepoints.to_emoji_key, v]
+  end.reject {|k| k.class != Array}.to_h
 
   # Available methods on ttf.name: https://github.com/prawnpdf/ttfunk/blob/master/lib/ttfunk/table/name.rb
-  font_data = {
-    'metadata' => {
-      'font_name' => ttf.name.font_name[0],
-      'font_version' => ttf.name.version[0],
-      'build_date' => ttf.name.unique_subfamily[0][/(\d{4}\-\d\d\-\d\d)/],
-    },
-    'glyphs' => {}
-  }
+  # font_data = {
+  #   :font_name => ttf.name.font_name[0],
+  #   :font_version => ttf.name.version[0],
+  #   :build_date => ttf.name.unique_subfamily[0][/(\d{4}\-\d\d\-\d\d)/],
+  # }
+
+  emoji_data = {}
 
   ttf.maximum_profile.num_glyphs.times do |glyph_id|
     bitmaps = ttf.sbix.all_bitmap_data_for(glyph_id)
@@ -160,211 +156,121 @@ task :extract_images => [:npm_update] do
     emoji_key = codepoints.int_to_hex.join('_')
     emoji_key += "_#{fam.fam_sort}" if fam
 
+    codepoints = sequence_data[emoji_key]['codepoints'] if sequence_data[emoji_key]
+
+    emoji_string = codepoints.pack('U*')
     emojilib_thing = emojilib_data[emoji_key] || {}
 
-    # if emojilib_thing['emojilib_name']
-    #   emojilib_thing['emojilib_name'] = emojilib_thing['emojilib_name'].gsub(/^\+/, 'plus').gsub(/^\-/, 'minus')
-    # end
+    # special case for +1 and -1
+    if emojilib_thing['emojilib_name']
+      emojilib_thing['emojilib_name'] = case emojilib_thing['emojilib_name']
+      when '+1' then 'thumbs_up'
+      when '-1' then 'thumbs_down'
+      else
+        # just in case
+        emojilib_thing['emojilib_name'].gsub(/^\+/, 'plus').gsub(/^\-/, 'minus')
+      end
+    end
 
-    # emoji_filename = if /^[\w\-_]+$/ =~ emojilib_thing['emojilib_name']
-    emoji_filename = if /^\w[\w\-_]+\w$/ =~ emojilib_thing['emojilib_name']
+    emoji_key = codepoints.to_emoji_key
+
+    emoji_filename = if /^[\w\-_]+$/ =~ emojilib_thing['emojilib_name']
       emojilib_thing['emojilib_name']
     else
-      codepoints.int_to_hex.join('_')
+      emoji_key
     end
 
     emoji_filename += ".#{fam.fam_sort}" if fam
     emoji_filename += ".#{fitz_idx}" if fitz_idx > 0
     emoji_filename += ".#{bitmap.type}"
 
-    font_data['glyphs'][emoji_key] ||= {
-      'codepoints' => codepoints,
-      'image' => nil,
-      'fitz' => false,
+    uni = unicode_data['emoji'][emoji_key]
+    name = annotation_data['names'][emoji_string] || nil
+    keywords = annotation_data['keywords'][emoji_string] || []
+
+    # puts "Missing name for #{emoji_key} (#{emoji_string})" if !name
+
+    data = emoji_data[emoji_key] || {
+      name: name || "NO NAME FOR EMOJI #{emoji_key}",
+      emojilib_name: nil,
+      codepoints: codepoints,
+      unicode_category: nil,
+      unicode_subcategory: nil,
+      keywords: keywords,
+      emoji: emoji_string,
+      image: nil,
+      year: nil, # TODO: remove
+      fitz: false,
     }
 
     if fitz_idx > 0
-      (font_data['glyphs'][emoji_key]['fitz'] ||= [])[fitz_idx - 1] = EmojiImgDirRelative.join(emoji_filename)
+      (data[:fitz] ||= [])[fitz_idx - 1] = EmojiImgDirRelative.join(emoji_filename)
     else
-      font_data['glyphs'][emoji_key]['image'] = EmojiImgDirRelative.join(emoji_filename)
+      data[:image] = EmojiImgDirRelative.join(emoji_filename)
     end
 
+    # write image to image dir
     File.write(EmojiImgDir.join(emoji_filename), bitmap.data.read)
-  end
 
-  File.open(FontDataFile, 'w') {|f| f.puts JSON.pretty_generate(font_data)}
-end
-
-desc "Generate a JSON object of emoji with paths to images"
-task :generate_emoji_db => [:npm_update] do
-  extra_metadata = YAML.load(File.read ExtraMetadataFile) || {}
-  unicode_data = JSON.parse(File.read UnicodeDataFile)
-  font_data = JSON.parse(File.read FontDataFile)
-  annotation_data = JSON.parse(File.read UnicodeAnnotationFile)
-
-  emoji_by_category = {}
-
-  File.write(EmojiCategoryFile, JSON.pretty_generate(emoji_by_category))
-
-  emoji_data = {}
-  emojilib_data = {}
-
-  JSON.parse(File.read('./node_modules/emojilib/emojis.json')).each do |k,v|
-    # skip the weirdo keys
-    next unless v.class.to_s.downcase === 'hash' && v['char']
-
-    codepoints = v['char'].to_codepoints.reject_joiners
-    v['keywords'] ||= []
-    v['keywords'].concat "#{k}".split('_')
-    v['emojilib_name'] = k
-    emojilib_data[codepoints.to_emoji_key] = v
-  end
-
-  emoji_by_category.each do |category, emoji_list|
-    emoji_list.map do |e|
-      emoji_codepoints = e.to_codepoints
-      key_codepoints = emoji_codepoints.reject_joiners
-
-      gender = if GenderCodepoints.keys.include?(key_codepoints[-1])
-        GenderCodepoints[key_codepoints.pop]
-      else
-        nil
-      end
-
-      uni = unicode_data['emoji'][e]
-      name = annotation_data['names'][e] || nil
-      keywords = annotation_data['keywords'][e] || []
-
-      emoji_key = key_codepoints.to_emoji_key
-
-      data = emoji_data[emoji_key] || {
-        name: name,
-        emojilib_name: nil,
-        codepoints: [],
-        category: category,
-        unicode_category: nil,
-        unicode_subcategory: nil,
-        keywords: keywords,
-        emoji: nil,
-        image: nil,
-        year: nil,
-        fitz: false,
-      }
-
-      if extra_metadata[emoji_key]
-        extra_metadata[emoji_key].each do |k,v|
-          # ensure keys are symbols
-          key = k.to_sym
-          if key === :keywords
-            data[key] += v || []
-          else
-            data[key] = v
-          end
+    if extra_metadata[emoji_key]
+      extra_metadata[emoji_key].each do |k,v|
+        # ensure keys are symbols
+        key = k.to_sym
+        if key === :keywords
+          data[key] += v || []
+        else
+          data[key] = v
         end
       end
+    end
 
-      if uni
-        data[:name] ||= uni['description'].downcase
+    if uni
+      data[:name] ||= uni['description'].downcase
+      if uni['category']
         data[:unicode_category] = unicode_data['categories'][uni['category']]
         data[:unicode_subcategory] = unicode_data['subcategories'][uni['subcategory']]
       end
-
-      if emojilib_data[emoji_key]
-        # puts e, emojilib_data[e]
-        data[:emojilib_name] = emojilib_data[emoji_key]['emojilib_name'] || nil
-        data[:keywords] += emojilib_data[emoji_key]['keywords'] || []
-      else
-        # puts e + ' -- [no emojilib data] ' + key_codepoints.pack('U*') + ' -- [' + key_codepoints.join(',') + ']'
-      end
-
-      data[:keywords].sort!.uniq!
-
-      char_data = if gender
-        font_data['glyphs']["#{emoji_key}_#{gender}"]
-      else
-        font_data['glyphs'][emoji_key] || {}
-      end
-
-      if !char_data
-        puts "No char_data for #{emoji_key}"
-      end
-
-      # if gender is specified, it's not the default emoji gender
-      if gender
-        default_gender = 'WM'.gsub(gender, '')
-
-        alt_char_data = font_data['glyphs']["#{emoji_key}_#{default_gender}"]
-
-        data.merge!({
-          image: alt_char_data['image'],
-          image_alt: char_data['image'],
-          default_gender: default_gender,
-          codepoints_alt: emoji_codepoints,
-          emoji_alt: e,
-        })
-
-        data[:fitz] ||= alt_char_data['fitz']
-        data[:fitz_alt] ||= char_data['fitz']
-
-      elsif data[:default_gender]
-        data.merge!({
-          emoji: e,
-          codepoints: emoji_codepoints,
-        })
-      else
-        data.merge!({
-          emoji: e,
-          codepoints: emoji_codepoints,
-          image: char_data['image'],
-          fitz: char_data['fitz'],
-        })
-      end
-
-      emoji_data[emoji_key] = data
     end
-  end
 
-  errors = []
-  emoji_data.each do |k,v|
-    if !File.exist?(RootDir.join v[:image])
-      errors.push "#{v[:emoji]} does not exist at #{v[:image]}"
+    if emojilib_data[emoji_key]
+      data[:emojilib_name] = emojilib_data[emoji_key]['emojilib_name'] || nil
+      data[:keywords] += emojilib_data[emoji_key]['keywords'] || []
     end
-    if v[:image_alt] && !File.exist?(RootDir.join v[:image_alt])
-      errors.push"#{v[:emoji]} (alt) does not exist at #{v[:image_alt]}"
-    end
-  end
 
-  if errors.length > 0
-    puts "#{errors.length} error#{errors.length === 1 ? '' : 's'} encountered!"
-    abort errors.map {|r| "- #{r}"}.join("\n")
-  end
+    data[:keywords].sort!.uniq!
 
-  # emoji_data = Hash[emoji_data.sort]
+    emoji_data[emoji_key] = data
+  end
 
   puts "Emoji database updated! Size: #{emoji_data.keys.length.comma_separate} emoji, not including variants"
 
   File.write(EmojiDBFile, JSON.pretty_generate(emoji_data))
 end
 
-task :build_unicode_db do
-  emoji_list = if File.exist?(EmojiListURLCache)
-    puts "EmojiListURL is already cached, delete '#{File.basename EmojiListURLCache}' to re-download."
-    File.read(EmojiListURLCache)
+task :build_unicode_db => [:generate_annotations, :generate_sequences] do
+  emoji_list_src = CacheDir.join('emoji-list-page.html').to_s
+
+  # emoji minus ASCII numbers
+  emoji_list_url = "http://unicode.org/cldr/utility/list-unicodeset.jsp?a=#{CGI.escape '[:emoji:]'}&g=emoji"
+
+  emoji_list = if File.exist?(emoji_list_src)
+    puts "emoji_list_url is already cached, delete '#{File.basename emoji_list_src}' to re-download."
+    File.read(emoji_list_src)
   else
-    f = `curl #{EmojiListURL.shellescape}`
-    File.write(EmojiListURLCache, f)
+    f = `curl #{emoji_list_url.shellescape}`
+    File.write(emoji_list_src, f)
     f
   end
+
   doc = Nokogiri::HTML(emoji_list)
   rows = doc.xpath('//blockquote/table/tr')
-  puts "rows: #{rows.length}"
 
-  categories = []
-  subcategories = []
+  categories = [nil]
+  subcategories = [nil]
 
   unicode_db = {
-    categories: [],
-    subcategories: [],
+    categories: [nil],
+    subcategories: [nil],
     emoji: {},
   }
 
@@ -395,11 +301,19 @@ task :build_unicode_db do
     elsif cells.length === 3
       # :space: catches \u00a0 and friends
       emoji = cells[0].text.strip.gsub(/[[:space:]]/, '')
-      unicode_db[:emoji][emoji] = {
-        :codepoints => emoji.to_codepoints,
-        :description => cells[2].text.strip,
-        :category => current_category,
-        :subcategory => current_subcategory,
+      description = cells[2].text.strip
+      emoji_key = emoji.to_codepoints.to_emoji_key
+      slug = description.downcase.gsub(/[^\w\-_]/, '_')
+
+      abort "duplicate emoji_key! #{emoji_key}" if unicode_db[:emoji][emoji_key]
+
+      unicode_db[:emoji][emoji_key] = {
+        emoji: emoji,
+        slug: slug,
+        codepoints: emoji.to_codepoints,
+        description: description,
+        category: current_category,
+        subcategory: current_subcategory,
       }
     end
   end
@@ -407,18 +321,53 @@ task :build_unicode_db do
   unicode_db[:categories] = categories
   unicode_db[:subcategories] = subcategories
 
+  sequence_data = JSON.parse(File.read SequenceFile)
+
+  sequence_data.each do |k, v|
+    if unicode_db[:emoji][k]
+      unicode_db[:emoji][k].merge!({
+        emoji: v['codepoints'].pack('U*'),
+        slug: v['desc'].downcase.gsub(/[^\w\-_]/, '_'),
+        codepoints: v['codepoints'],
+        description: v['desc'],
+      })
+    else
+      unicode_db[:emoji][k] = {
+        emoji: v['codepoints'].pack('U*'),
+        slug: v['desc'].downcase.gsub(/[^\w\-_]/, '_'),
+        codepoints: v['codepoints'],
+        description: v['desc'],
+        category: 0,
+        subcategory: 0,
+      }
+    end
+
+    # abort "Duplicate key: #{k}" if unicode_db[:emoji][k]
+    # unicode_db[:emoji][k] ||= {}
+    # unicode_db[:emoji][k].merge!({
+    #   emoji: v['codepoints'].pack('U*'),
+    #   slug: v['desc'].downcase.gsub(/[^\w\-_]/, '_'),
+    #   codepoints: v['codepoints'],
+    #   description: v['desc'],
+    #   category: 0,
+    #   subcategory: 0,
+    # })
+  end
+
   File.open(UnicodeDataFile, 'w') {|f| f.puts JSON.pretty_generate(unicode_db)}
 end
 
 UnicodeAnnotationURL = 'http://www.unicode.org/repos/cldr/tags/latest/common/annotations/en.xml'
 
 task :generate_annotations do
-  file_contents = if File.exist?(UnicodeAnnotationCache)
-    puts "UnicodeAnnotationURL is already cached, delete '#{File.basename UnicodeAnnotationCache}' to re-download."
-    File.read(UnicodeAnnotationCache)
+  $unicode_annotation_src = CacheDir.join('unicode-annotations.xml').to_s
+
+  file_contents = if File.exist?($unicode_annotation_src)
+    puts "UnicodeAnnotationURL is already cached, delete '#{File.basename $unicode_annotation_src}' to re-download."
+    File.read($unicode_annotation_src)
   else
     contents = `curl #{UnicodeAnnotationURL.shellescape}`
-    File.write(UnicodeAnnotationCache, contents)
+    File.write($unicode_annotation_src, contents)
     contents
   end
   doc = Nokogiri::HTML(file_contents)
@@ -441,5 +390,57 @@ task :generate_annotations do
   })}
 end
 
-task :rebuild => [:extract_images, :build_unicode_db, :generate_emoji_db]
-task :default => [:rebuild]
+task :generate_sequences do
+  sequence_data = {}
+  [
+    'emoji-sequences.txt',
+    'emoji-zwj-sequences.txt'
+  ].each do |f|
+    sequence_src = CacheDir.join(f)
+    File.read(sequence_src).each_line do |line|
+      next if line[0] == '#'
+      line_sans_comment = line.split('#').first
+      line_bits = line_sans_comment.split(';').map(&:strip)
+
+      next unless line_bits.length == 3
+
+      codepoint_string, category, desc = line_bits
+      codepoints = codepoint_string.split.hex_to_int
+      k = codepoints.to_emoji_key
+
+      # ensure there's no overwriting
+      if sequence_data[k]
+        abort <<-UHOH
+        Already have a thing for `#{k}`! Compare:
+        #{codepoints.join(', ')}
+        #{sequence_data[k][:codepoints].join(', ')}
+        UHOH
+      end
+
+      sequence_data[k] = {
+        codepoints: codepoints,
+        desc: desc,
+      }
+    end
+  end
+
+  File.open(SequenceFile, 'w') {|f| f.puts JSON.pretty_generate(sequence_data)}
+  puts "Done!"
+end
+
+task :compare_db do
+  unicode_data = JSON.parse(File.read UnicodeDataFile)
+  generated_data = JSON.parse(File.read EmojiDBFile)
+
+  uni_keys = unicode_data['emoji'].keys
+  gen_keys = generated_data.keys
+
+  common_keys = uni_keys & gen_keys
+  only_gen = gen_keys - uni_keys
+  only_uni = uni_keys - gen_keys
+  puts "#{common_keys.length} common keys"
+  puts "#{only_gen.length} unique generated keys"
+  puts "#{only_uni.length} unique unicode keys"
+
+  puts '', "Unhandled generated keys:", only_gen.sort.map {|k| "- #{k} -- #{generated_data[k]['emoji']}\n"}.join
+end
