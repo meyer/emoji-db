@@ -627,6 +627,22 @@
     "year": null,
     "fitz": false
   },
+  "23cf": {
+    "name": "eject button",
+    "emojilib_name": null,
+    "codepoints": [
+      9167
+    ],
+    "unicode_category": "Miscellaneous Technical",
+    "unicode_subcategory": "Keyboard and UI symbols",
+    "keywords": [
+      "eject"
+    ],
+    "emoji": "⏏",
+    "image": "./emoji-img/23cf.png",
+    "year": null,
+    "fitz": false
+  },
   "23e9": {
     "name": "fast-forward button",
     "emojilib_name": "fast_forward",
@@ -2038,24 +2054,6 @@
     ],
     "emoji": "⚔",
     "image": "./emoji-img/crossed_swords.png",
-    "year": null,
-    "fitz": false
-  },
-  "2695": {
-    "name": "medical symbol",
-    "emojilib_name": null,
-    "codepoints": [
-      9877
-    ],
-    "unicode_category": "Miscellaneous Symbols",
-    "unicode_subcategory": "Dictionary and map symbols",
-    "keywords": [
-      "aesculapius",
-      "medicine",
-      "staff"
-    ],
-    "emoji": "⚕",
-    "image": "./emoji-img/2695.png",
     "year": null,
     "fitz": false
   },
@@ -15232,6 +15230,72 @@
     ],
     "emoji": "🏴",
     "image": "./emoji-img/black_flag.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f3f4_e0067_e0062_e0065_e006e_e0067_e007f": {
+    "name": "NO NAME FOR EMOJI 1f3f4_e0067_e0062_e0065_e006e_e0067_e007f",
+    "emojilib_name": null,
+    "codepoints": [
+      127988,
+      917607,
+      917602,
+      917605,
+      917614,
+      917607,
+      917631
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "image": "./emoji-img/1f3f4_e0067_e0062_e0065_e006e_e0067_e007f.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f3f4_e0067_e0062_e0073_e0063_e0074_e007f": {
+    "name": "NO NAME FOR EMOJI 1f3f4_e0067_e0062_e0073_e0063_e0074_e007f",
+    "emojilib_name": null,
+    "codepoints": [
+      127988,
+      917607,
+      917602,
+      917619,
+      917603,
+      917620,
+      917631
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "image": "./emoji-img/1f3f4_e0067_e0062_e0073_e0063_e0074_e007f.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f3f4_e0067_e0062_e0077_e006c_e0073_e007f": {
+    "name": "NO NAME FOR EMOJI 1f3f4_e0067_e0062_e0077_e006c_e0073_e007f",
+    "emojilib_name": null,
+    "codepoints": [
+      127988,
+      917607,
+      917602,
+      917623,
+      917612,
+      917619,
+      917631
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+    "image": "./emoji-img/1f3f4_e0067_e0062_e0077_e006c_e0073_e007f.png",
     "year": null,
     "fitz": false
   },
@@ -30057,6 +30121,39 @@
     "year": null,
     "fitz": false
   },
+  "1f6f7": {
+    "name": "sled",
+    "emojilib_name": null,
+    "codepoints": [
+      128759
+    ],
+    "unicode_category": "Transport And Map Symbols",
+    "unicode_subcategory": "Vehicles",
+    "keywords": [
+      "sledge",
+      "sleigh"
+    ],
+    "emoji": "🛷",
+    "image": "./emoji-img/1f6f7.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f6f8": {
+    "name": "flying saucer",
+    "emojilib_name": null,
+    "codepoints": [
+      128760
+    ],
+    "unicode_category": "Transport And Map Symbols",
+    "unicode_subcategory": "Vehicles",
+    "keywords": [
+      "UFO"
+    ],
+    "emoji": "🛸",
+    "image": "./emoji-img/1f6f8.png",
+    "year": null,
+    "fitz": false
+  },
   "1f910": {
     "name": "zipper-mouth face",
     "emojilib_name": "zipper_mouth_face",
@@ -30408,6 +30505,29 @@
       "./emoji-img/crossed_fingers.5.png"
     ]
   },
+  "1f91f": {
+    "name": "love-you gesture",
+    "emojilib_name": null,
+    "codepoints": [
+      129311
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Hand symbols",
+    "keywords": [
+      "ILY",
+      "hand"
+    ],
+    "emoji": "🤟",
+    "image": "./emoji-img/1f91f.png",
+    "year": null,
+    "fitz": [
+      "./emoji-img/1f91f.1.png",
+      "./emoji-img/1f91f.2.png",
+      "./emoji-img/1f91f.3.png",
+      "./emoji-img/1f91f.4.png",
+      "./emoji-img/1f91f.5.png"
+    ]
+  },
   "1f920": {
     "name": "cowboy hat face",
     "emojilib_name": "cowboy_hat_face",
@@ -30576,6 +30696,141 @@
     "year": null,
     "fitz": false
   },
+  "1f928": {
+    "name": "face with raised eyebrow",
+    "emojilib_name": null,
+    "codepoints": [
+      129320
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Emoticon faces",
+    "keywords": [
+      "distrust",
+      "skeptic"
+    ],
+    "emoji": "🤨",
+    "image": "./emoji-img/1f928.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f929": {
+    "name": "star-struck",
+    "emojilib_name": null,
+    "codepoints": [
+      129321
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Emoticon faces",
+    "keywords": [
+      "eyes",
+      "face",
+      "grinning",
+      "star"
+    ],
+    "emoji": "🤩",
+    "image": "./emoji-img/1f929.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f92a": {
+    "name": "crazy face",
+    "emojilib_name": null,
+    "codepoints": [
+      129322
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Emoticon faces",
+    "keywords": [
+      "eye",
+      "large",
+      "small"
+    ],
+    "emoji": "🤪",
+    "image": "./emoji-img/1f92a.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f92b": {
+    "name": "shushing face",
+    "emojilib_name": null,
+    "codepoints": [
+      129323
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Emoticon faces",
+    "keywords": [
+
+    ],
+    "emoji": "🤫",
+    "image": "./emoji-img/1f92b.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f92c": {
+    "name": "face with symbols over mouth",
+    "emojilib_name": null,
+    "codepoints": [
+      129324
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Emoticon faces",
+    "keywords": [
+
+    ],
+    "emoji": "🤬",
+    "image": "./emoji-img/1f92c.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f92d": {
+    "name": "face with hand over mouth",
+    "emojilib_name": null,
+    "codepoints": [
+      129325
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Emoticon faces",
+    "keywords": [
+      "whoops"
+    ],
+    "emoji": "🤭",
+    "image": "./emoji-img/1f92d.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f92e": {
+    "name": "face vomiting",
+    "emojilib_name": null,
+    "codepoints": [
+      129326
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Emoticon faces",
+    "keywords": [
+      "sick",
+      "vomit"
+    ],
+    "emoji": "🤮",
+    "image": "./emoji-img/1f92e.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f92f": {
+    "name": "exploding head",
+    "emojilib_name": null,
+    "codepoints": [
+      129327
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Emoticon faces",
+    "keywords": [
+      "shocked"
+    ],
+    "emoji": "🤯",
+    "image": "./emoji-img/1f92f.png",
+    "year": null,
+    "fitz": false
+  },
   "1f930": {
     "name": "pregnant woman",
     "emojilib_name": "pregnant_woman",
@@ -30598,6 +30853,50 @@
       "./emoji-img/pregnant_woman.3.png",
       "./emoji-img/pregnant_woman.4.png",
       "./emoji-img/pregnant_woman.5.png"
+    ]
+  },
+  "1f931": {
+    "name": "breast-feeding",
+    "emojilib_name": null,
+    "codepoints": [
+      129329
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Portrait and role symbols",
+    "keywords": [
+
+    ],
+    "emoji": "🤱",
+    "image": "./emoji-img/1f931.png",
+    "year": null,
+    "fitz": [
+      "./emoji-img/1f931.1.png",
+      "./emoji-img/1f931.2.png",
+      "./emoji-img/1f931.3.png",
+      "./emoji-img/1f931.4.png",
+      "./emoji-img/1f931.5.png"
+    ]
+  },
+  "1f932": {
+    "name": "palms up together",
+    "emojilib_name": null,
+    "codepoints": [
+      129330
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Portrait and role symbols",
+    "keywords": [
+      "prayer"
+    ],
+    "emoji": "🤲",
+    "image": "./emoji-img/1f932.png",
+    "year": null,
+    "fitz": [
+      "./emoji-img/1f932.1.png",
+      "./emoji-img/1f932.2.png",
+      "./emoji-img/1f932.3.png",
+      "./emoji-img/1f932.4.png",
+      "./emoji-img/1f932.5.png"
     ]
   },
   "1f933": {
@@ -31105,6 +31404,22 @@
     "year": null,
     "fitz": false
   },
+  "1f94c": {
+    "name": "curling stone",
+    "emojilib_name": null,
+    "codepoints": [
+      129356
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Miscellaneous mark",
+    "keywords": [
+
+    ],
+    "emoji": "🥌",
+    "image": "./emoji-img/1f94c.png",
+    "year": null,
+    "fitz": false
+  },
   "1f950": {
     "name": "croissant",
     "emojilib_name": "croissant",
@@ -31403,6 +31718,224 @@
     ],
     "emoji": "🥞",
     "image": "./emoji-img/pancakes.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f95f": {
+    "name": "dumpling",
+    "emojilib_name": null,
+    "codepoints": [
+      129375
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Food symbol",
+    "keywords": [
+      "empanada",
+      "gyōza",
+      "jiaozi",
+      "pierogi",
+      "potsticker"
+    ],
+    "emoji": "🥟",
+    "image": "./emoji-img/1f95f.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f960": {
+    "name": "fortune cookie",
+    "emojilib_name": null,
+    "codepoints": [
+      129376
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Food symbol",
+    "keywords": [
+
+    ],
+    "emoji": "🥠",
+    "image": "./emoji-img/1f960.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f961": {
+    "name": "takeout box",
+    "emojilib_name": null,
+    "codepoints": [
+      129377
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Food symbol",
+    "keywords": [
+      "oyster pail"
+    ],
+    "emoji": "🥡",
+    "image": "./emoji-img/1f961.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f962": {
+    "name": "chopsticks",
+    "emojilib_name": null,
+    "codepoints": [
+      129378
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Food symbol",
+    "keywords": [
+      "hashi"
+    ],
+    "emoji": "🥢",
+    "image": "./emoji-img/1f962.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f963": {
+    "name": "bowl with spoon",
+    "emojilib_name": null,
+    "codepoints": [
+      129379
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Food symbol",
+    "keywords": [
+      "breakfast",
+      "cereal",
+      "congee"
+    ],
+    "emoji": "🥣",
+    "image": "./emoji-img/1f963.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f964": {
+    "name": "cup with straw",
+    "emojilib_name": null,
+    "codepoints": [
+      129380
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Food symbol",
+    "keywords": [
+      "juice",
+      "soda"
+    ],
+    "emoji": "🥤",
+    "image": "./emoji-img/1f964.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f965": {
+    "name": "coconut",
+    "emojilib_name": null,
+    "codepoints": [
+      129381
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Food symbol",
+    "keywords": [
+
+    ],
+    "emoji": "🥥",
+    "image": "./emoji-img/1f965.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f966": {
+    "name": "broccoli",
+    "emojilib_name": null,
+    "codepoints": [
+      129382
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Food symbol",
+    "keywords": [
+
+    ],
+    "emoji": "🥦",
+    "image": "./emoji-img/1f966.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f967": {
+    "name": "pie",
+    "emojilib_name": null,
+    "codepoints": [
+      129383
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Food symbol",
+    "keywords": [
+
+    ],
+    "emoji": "🥧",
+    "image": "./emoji-img/1f967.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f968": {
+    "name": "pretzel",
+    "emojilib_name": null,
+    "codepoints": [
+      129384
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Food symbol",
+    "keywords": [
+      "twisted"
+    ],
+    "emoji": "🥨",
+    "image": "./emoji-img/1f968.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f969": {
+    "name": "cut of meat",
+    "emojilib_name": null,
+    "codepoints": [
+      129385
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Food symbol",
+    "keywords": [
+      "chop",
+      "lambchop",
+      "porkchop",
+      "steak"
+    ],
+    "emoji": "🥩",
+    "image": "./emoji-img/1f969.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f96a": {
+    "name": "sandwich",
+    "emojilib_name": null,
+    "codepoints": [
+      129386
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Food symbol",
+    "keywords": [
+
+    ],
+    "emoji": "🥪",
+    "image": "./emoji-img/1f96a.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f96b": {
+    "name": "canned food",
+    "emojilib_name": null,
+    "codepoints": [
+      129387
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Food symbol",
+    "keywords": [
+      "can"
+    ],
+    "emoji": "🥫",
+    "image": "./emoji-img/1f96b.png",
     "year": null,
     "fitz": false
   },
@@ -31772,6 +32305,104 @@
     "year": null,
     "fitz": false
   },
+  "1f992": {
+    "name": "giraffe",
+    "emojilib_name": null,
+    "codepoints": [
+      129426
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Animal symbols",
+    "keywords": [
+
+    ],
+    "emoji": "🦒",
+    "image": "./emoji-img/1f992.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f993": {
+    "name": "zebra",
+    "emojilib_name": null,
+    "codepoints": [
+      129427
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Animal symbols",
+    "keywords": [
+
+    ],
+    "emoji": "🦓",
+    "image": "./emoji-img/1f993.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f994": {
+    "name": "hedgehog",
+    "emojilib_name": null,
+    "codepoints": [
+      129428
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Animal symbols",
+    "keywords": [
+
+    ],
+    "emoji": "🦔",
+    "image": "./emoji-img/1f994.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f995": {
+    "name": "sauropod",
+    "emojilib_name": null,
+    "codepoints": [
+      129429
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Animal symbols",
+    "keywords": [
+      "brachiosaurus",
+      "brontosaurus",
+      "diplodocus"
+    ],
+    "emoji": "🦕",
+    "image": "./emoji-img/1f995.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f996": {
+    "name": "T-Rex",
+    "emojilib_name": null,
+    "codepoints": [
+      129430
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Animal symbols",
+    "keywords": [
+      "Tyrannosaurus Rex"
+    ],
+    "emoji": "🦖",
+    "image": "./emoji-img/1f996.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f997": {
+    "name": "cricket",
+    "emojilib_name": null,
+    "codepoints": [
+      129431
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Animal symbols",
+    "keywords": [
+
+    ],
+    "emoji": "🦗",
+    "image": "./emoji-img/1f997.png",
+    "year": null,
+    "fitz": false
+  },
   "1f9c0": {
     "name": "cheese wedge",
     "emojilib_name": "cheese",
@@ -31787,6 +32418,468 @@
     ],
     "emoji": "🧀",
     "image": "./emoji-img/cheese.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f9d0": {
+    "name": "face with monocle",
+    "emojilib_name": null,
+    "codepoints": [
+      129488
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Portrait and role symbols",
+    "keywords": [
+      "stuffy"
+    ],
+    "emoji": "🧐",
+    "image": "./emoji-img/1f9d0.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f9d1": {
+    "name": "adult",
+    "emojilib_name": null,
+    "codepoints": [
+      129489
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Portrait and role symbols",
+    "keywords": [
+      "gender-neutral"
+    ],
+    "emoji": "🧑",
+    "image": "./emoji-img/1f9d1.png",
+    "year": null,
+    "fitz": [
+      "./emoji-img/1f9d1.1.png",
+      "./emoji-img/1f9d1.2.png",
+      "./emoji-img/1f9d1.3.png",
+      "./emoji-img/1f9d1.4.png",
+      "./emoji-img/1f9d1.5.png"
+    ]
+  },
+  "1f9d2": {
+    "name": "child",
+    "emojilib_name": null,
+    "codepoints": [
+      129490
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Portrait and role symbols",
+    "keywords": [
+      "gender-neutral",
+      "young"
+    ],
+    "emoji": "🧒",
+    "image": "./emoji-img/1f9d2.png",
+    "year": null,
+    "fitz": [
+      "./emoji-img/1f9d2.1.png",
+      "./emoji-img/1f9d2.2.png",
+      "./emoji-img/1f9d2.3.png",
+      "./emoji-img/1f9d2.4.png",
+      "./emoji-img/1f9d2.5.png"
+    ]
+  },
+  "1f9d3": {
+    "name": "older adult",
+    "emojilib_name": null,
+    "codepoints": [
+      129491
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Portrait and role symbols",
+    "keywords": [
+      "gender-neutral",
+      "old"
+    ],
+    "emoji": "🧓",
+    "image": "./emoji-img/1f9d3.png",
+    "year": null,
+    "fitz": [
+      "./emoji-img/1f9d3.1.png",
+      "./emoji-img/1f9d3.2.png",
+      "./emoji-img/1f9d3.3.png",
+      "./emoji-img/1f9d3.4.png",
+      "./emoji-img/1f9d3.5.png"
+    ]
+  },
+  "1f9d4": {
+    "name": "bearded person",
+    "emojilib_name": null,
+    "codepoints": [
+      129492
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Portrait and role symbols",
+    "keywords": [
+
+    ],
+    "emoji": "🧔",
+    "image": "./emoji-img/1f9d4.png",
+    "year": null,
+    "fitz": [
+      "./emoji-img/1f9d4.1.png",
+      "./emoji-img/1f9d4.2.png",
+      "./emoji-img/1f9d4.3.png",
+      "./emoji-img/1f9d4.4.png",
+      "./emoji-img/1f9d4.5.png"
+    ]
+  },
+  "1f9d5": {
+    "name": "woman with headscarf",
+    "emojilib_name": null,
+    "codepoints": [
+      129493
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Portrait and role symbols",
+    "keywords": [
+      "headscarf",
+      "hijab",
+      "mantilla",
+      "tichel"
+    ],
+    "emoji": "🧕",
+    "image": "./emoji-img/1f9d5.png",
+    "year": null,
+    "fitz": [
+      "./emoji-img/1f9d5.1.png",
+      "./emoji-img/1f9d5.2.png",
+      "./emoji-img/1f9d5.3.png",
+      "./emoji-img/1f9d5.4.png",
+      "./emoji-img/1f9d5.5.png"
+    ]
+  },
+  "1f9d6": {
+    "name": "person in steamy room",
+    "emojilib_name": null,
+    "codepoints": [
+      129494
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Portrait and role symbols",
+    "keywords": [
+      "sauna",
+      "steam room"
+    ],
+    "emoji": "🧖",
+    "image": "./emoji-img/1f9d6.W.png",
+    "year": null,
+    "fitz": [
+      "./emoji-img/1f9d6.W.1.png",
+      "./emoji-img/1f9d6.W.2.png",
+      "./emoji-img/1f9d6.W.3.png",
+      "./emoji-img/1f9d6.W.4.png",
+      "./emoji-img/1f9d6.W.5.png"
+    ]
+  },
+  "1f9d7": {
+    "name": "person climbing",
+    "emojilib_name": null,
+    "codepoints": [
+      129495
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Portrait and role symbols",
+    "keywords": [
+
+    ],
+    "emoji": "🧗",
+    "image": "./emoji-img/1f9d7.W.png",
+    "year": null,
+    "fitz": [
+      "./emoji-img/1f9d7.W.1.png",
+      "./emoji-img/1f9d7.W.2.png",
+      "./emoji-img/1f9d7.W.3.png",
+      "./emoji-img/1f9d7.W.4.png",
+      "./emoji-img/1f9d7.W.5.png"
+    ]
+  },
+  "1f9d8": {
+    "name": "person in lotus position",
+    "emojilib_name": null,
+    "codepoints": [
+      129496
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Portrait and role symbols",
+    "keywords": [
+      "meditation",
+      "yoga"
+    ],
+    "emoji": "🧘",
+    "image": "./emoji-img/1f9d8.W.png",
+    "year": null,
+    "fitz": [
+      "./emoji-img/1f9d8.W.1.png",
+      "./emoji-img/1f9d8.W.2.png",
+      "./emoji-img/1f9d8.W.3.png",
+      "./emoji-img/1f9d8.W.4.png",
+      "./emoji-img/1f9d8.W.5.png"
+    ]
+  },
+  "1f9d9": {
+    "name": "mage",
+    "emojilib_name": null,
+    "codepoints": [
+      129497
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Portrait and role symbols",
+    "keywords": [
+      "sorcerer",
+      "sorceress",
+      "witch",
+      "wizard"
+    ],
+    "emoji": "🧙",
+    "image": "./emoji-img/1f9d9.W.png",
+    "year": null,
+    "fitz": [
+      "./emoji-img/1f9d9.W.1.png",
+      "./emoji-img/1f9d9.W.2.png",
+      "./emoji-img/1f9d9.W.3.png",
+      "./emoji-img/1f9d9.W.4.png",
+      "./emoji-img/1f9d9.W.5.png"
+    ]
+  },
+  "1f9da": {
+    "name": "fairy",
+    "emojilib_name": null,
+    "codepoints": [
+      129498
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Portrait and role symbols",
+    "keywords": [
+      "Oberon",
+      "Puck",
+      "Titania"
+    ],
+    "emoji": "🧚",
+    "image": "./emoji-img/1f9da.W.png",
+    "year": null,
+    "fitz": [
+      "./emoji-img/1f9da.W.1.png",
+      "./emoji-img/1f9da.W.2.png",
+      "./emoji-img/1f9da.W.3.png",
+      "./emoji-img/1f9da.W.4.png",
+      "./emoji-img/1f9da.W.5.png"
+    ]
+  },
+  "1f9db": {
+    "name": "vampire",
+    "emojilib_name": null,
+    "codepoints": [
+      129499
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Portrait and role symbols",
+    "keywords": [
+      "Dracula",
+      "undead"
+    ],
+    "emoji": "🧛",
+    "image": "./emoji-img/1f9db.W.png",
+    "year": null,
+    "fitz": [
+      "./emoji-img/1f9db.W.1.png",
+      "./emoji-img/1f9db.W.2.png",
+      "./emoji-img/1f9db.W.3.png",
+      "./emoji-img/1f9db.W.4.png",
+      "./emoji-img/1f9db.W.5.png"
+    ]
+  },
+  "1f9dc": {
+    "name": "merperson",
+    "emojilib_name": null,
+    "codepoints": [
+      129500
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Portrait and role symbols",
+    "keywords": [
+      "mermaid",
+      "merman",
+      "merwoman"
+    ],
+    "emoji": "🧜",
+    "image": "./emoji-img/1f9dc.W.png",
+    "year": null,
+    "fitz": [
+      "./emoji-img/1f9dc.W.1.png",
+      "./emoji-img/1f9dc.W.2.png",
+      "./emoji-img/1f9dc.W.3.png",
+      "./emoji-img/1f9dc.W.4.png",
+      "./emoji-img/1f9dc.W.5.png"
+    ]
+  },
+  "1f9dd": {
+    "name": "elf",
+    "emojilib_name": null,
+    "codepoints": [
+      129501
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Portrait and role symbols",
+    "keywords": [
+
+    ],
+    "emoji": "🧝",
+    "image": "./emoji-img/1f9dd.W.png",
+    "year": null,
+    "fitz": [
+      "./emoji-img/1f9dd.W.1.png",
+      "./emoji-img/1f9dd.W.2.png",
+      "./emoji-img/1f9dd.W.3.png",
+      "./emoji-img/1f9dd.W.4.png",
+      "./emoji-img/1f9dd.W.5.png"
+    ]
+  },
+  "1f9de": {
+    "name": "genie",
+    "emojilib_name": null,
+    "codepoints": [
+      129502
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Portrait and role symbols",
+    "keywords": [
+      "djinn"
+    ],
+    "emoji": "🧞",
+    "image": "./emoji-img/1f9de.W.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f9df": {
+    "name": "zombie",
+    "emojilib_name": null,
+    "codepoints": [
+      129503
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Portrait and role symbols",
+    "keywords": [
+      "undead",
+      "walking dead"
+    ],
+    "emoji": "🧟",
+    "image": "./emoji-img/1f9df.W.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f9e0": {
+    "name": "brain",
+    "emojilib_name": null,
+    "codepoints": [
+      129504
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Miscellaneous mark",
+    "keywords": [
+      "intelligent"
+    ],
+    "emoji": "🧠",
+    "image": "./emoji-img/1f9e0.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f9e1": {
+    "name": "orange heart",
+    "emojilib_name": null,
+    "codepoints": [
+      129505
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Miscellaneous mark",
+    "keywords": [
+
+    ],
+    "emoji": "🧡",
+    "image": "./emoji-img/1f9e1.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f9e2": {
+    "name": "billed cap",
+    "emojilib_name": null,
+    "codepoints": [
+      129506
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Miscellaneous mark",
+    "keywords": [
+      "baseball cap"
+    ],
+    "emoji": "🧢",
+    "image": "./emoji-img/1f9e2.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f9e3": {
+    "name": "scarf",
+    "emojilib_name": null,
+    "codepoints": [
+      129507
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Miscellaneous mark",
+    "keywords": [
+      "neck"
+    ],
+    "emoji": "🧣",
+    "image": "./emoji-img/1f9e3.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f9e4": {
+    "name": "gloves",
+    "emojilib_name": null,
+    "codepoints": [
+      129508
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Miscellaneous mark",
+    "keywords": [
+
+    ],
+    "emoji": "🧤",
+    "image": "./emoji-img/1f9e4.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f9e5": {
+    "name": "coat",
+    "emojilib_name": null,
+    "codepoints": [
+      129509
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Miscellaneous mark",
+    "keywords": [
+      "jacket"
+    ],
+    "emoji": "🧥",
+    "image": "./emoji-img/1f9e5.png",
+    "year": null,
+    "fitz": false
+  },
+  "1f9e6": {
+    "name": "socks",
+    "emojilib_name": null,
+    "codepoints": [
+      129510
+    ],
+    "unicode_category": "Supplemental Symbols And Pictographs",
+    "unicode_subcategory": "Miscellaneous mark",
+    "keywords": [
+
+    ],
+    "emoji": "🧦",
+    "image": "./emoji-img/1f9e6.png",
     "year": null,
     "fitz": false
   }
