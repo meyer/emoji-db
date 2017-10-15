@@ -1,6 +1,6 @@
 {
   "0023_20e3": {
-    "name": "NO NAME FOR EMOJI 0023_20e3",
+    "name": "keycap: \\x{23}",
     "emojilib_name": "hash",
     "codepoints": [
       35,
@@ -21,7 +21,7 @@
     "fitz": false
   },
   "002a_20e3": {
-    "name": "NO NAME FOR EMOJI 002a_20e3",
+    "name": "keycap: *",
     "emojilib_name": "asterisk",
     "codepoints": [
       42,
@@ -41,7 +41,7 @@
     "fitz": false
   },
   "0030_20e3": {
-    "name": "NO NAME FOR EMOJI 0030_20e3",
+    "name": "keycap: 0",
     "emojilib_name": "zero",
     "codepoints": [
       48,
@@ -63,7 +63,7 @@
     "fitz": false
   },
   "0031_20e3": {
-    "name": "NO NAME FOR EMOJI 0031_20e3",
+    "name": "keycap: 1",
     "emojilib_name": "one",
     "codepoints": [
       49,
@@ -84,7 +84,7 @@
     "fitz": false
   },
   "0032_20e3": {
-    "name": "NO NAME FOR EMOJI 0032_20e3",
+    "name": "keycap: 2",
     "emojilib_name": "two",
     "codepoints": [
       50,
@@ -106,7 +106,7 @@
     "fitz": false
   },
   "0033_20e3": {
-    "name": "NO NAME FOR EMOJI 0033_20e3",
+    "name": "keycap: 3",
     "emojilib_name": "three",
     "codepoints": [
       51,
@@ -128,7 +128,7 @@
     "fitz": false
   },
   "0034_20e3": {
-    "name": "NO NAME FOR EMOJI 0034_20e3",
+    "name": "keycap: 4",
     "emojilib_name": "four",
     "codepoints": [
       52,
@@ -149,7 +149,7 @@
     "fitz": false
   },
   "0035_20e3": {
-    "name": "NO NAME FOR EMOJI 0035_20e3",
+    "name": "keycap: 5",
     "emojilib_name": "five",
     "codepoints": [
       53,
@@ -171,7 +171,7 @@
     "fitz": false
   },
   "0036_20e3": {
-    "name": "NO NAME FOR EMOJI 0036_20e3",
+    "name": "keycap: 6",
     "emojilib_name": "six",
     "codepoints": [
       54,
@@ -192,7 +192,7 @@
     "fitz": false
   },
   "0037_20e3": {
-    "name": "NO NAME FOR EMOJI 0037_20e3",
+    "name": "keycap: 7",
     "emojilib_name": "seven",
     "codepoints": [
       55,
@@ -214,7 +214,7 @@
     "fitz": false
   },
   "0038_20e3": {
-    "name": "NO NAME FOR EMOJI 0038_20e3",
+    "name": "keycap: 8",
     "emojilib_name": "eight",
     "codepoints": [
       56,
@@ -235,7 +235,7 @@
     "fitz": false
   },
   "0039_20e3": {
-    "name": "NO NAME FOR EMOJI 0039_20e3",
+    "name": "keycap: 9",
     "emojilib_name": "nine",
     "codepoints": [
       57,
@@ -4176,7 +4176,7 @@
     "fitz": false
   },
   "1f1e6_1f1e9": {
-    "name": "NO NAME FOR EMOJI 1f1e6_1f1e9",
+    "name": "Andorra",
     "emojilib_name": "andorra",
     "codepoints": [
       127462,
@@ -4198,7 +4198,7 @@
     "fitz": false
   },
   "1f1e6_1f1ea": {
-    "name": "NO NAME FOR EMOJI 1f1e6_1f1ea",
+    "name": "United Arab Emirates",
     "emojilib_name": "united_arab_emirates",
     "codepoints": [
       127462,
@@ -4221,7 +4221,7 @@
     "fitz": false
   },
   "1f1e6_1f1eb": {
-    "name": "NO NAME FOR EMOJI 1f1e6_1f1eb",
+    "name": "Afghanistan",
     "emojilib_name": "afghanistan",
     "codepoints": [
       127462,
@@ -4243,7 +4243,7 @@
     "fitz": false
   },
   "1f1e6_1f1ec": {
-    "name": "NO NAME FOR EMOJI 1f1e6_1f1ec",
+    "name": "Antigua & Barbuda",
     "emojilib_name": "antigua_barbuda",
     "codepoints": [
       127462,
@@ -4265,7 +4265,7 @@
     "fitz": false
   },
   "1f1e6_1f1ee": {
-    "name": "NO NAME FOR EMOJI 1f1e6_1f1ee",
+    "name": "Anguilla",
     "emojilib_name": "anguilla",
     "codepoints": [
       127462,
@@ -4287,7 +4287,7 @@
     "fitz": false
   },
   "1f1e6_1f1f1": {
-    "name": "NO NAME FOR EMOJI 1f1e6_1f1f1",
+    "name": "Albania",
     "emojilib_name": "albania",
     "codepoints": [
       127462,
@@ -4309,7 +4309,7 @@
     "fitz": false
   },
   "1f1e6_1f1f2": {
-    "name": "NO NAME FOR EMOJI 1f1e6_1f1f2",
+    "name": "Armenia",
     "emojilib_name": "armenia",
     "codepoints": [
       127462,
@@ -4331,7 +4331,7 @@
     "fitz": false
   },
   "1f1e6_1f1f4": {
-    "name": "NO NAME FOR EMOJI 1f1e6_1f1f4",
+    "name": "Angola",
     "emojilib_name": "angola",
     "codepoints": [
       127462,
@@ -4353,7 +4353,7 @@
     "fitz": false
   },
   "1f1e6_1f1f6": {
-    "name": "NO NAME FOR EMOJI 1f1e6_1f1f6",
+    "name": "Antarctica",
     "emojilib_name": "antarctica",
     "codepoints": [
       127462,
@@ -4375,7 +4375,7 @@
     "fitz": false
   },
   "1f1e6_1f1f7": {
-    "name": "NO NAME FOR EMOJI 1f1e6_1f1f7",
+    "name": "Argentina",
     "emojilib_name": "argentina",
     "codepoints": [
       127462,
@@ -4397,7 +4397,7 @@
     "fitz": false
   },
   "1f1e6_1f1f8": {
-    "name": "NO NAME FOR EMOJI 1f1e6_1f1f8",
+    "name": "American Samoa",
     "emojilib_name": "american_samoa",
     "codepoints": [
       127462,
@@ -4420,7 +4420,7 @@
     "fitz": false
   },
   "1f1e6_1f1f9": {
-    "name": "NO NAME FOR EMOJI 1f1e6_1f1f9",
+    "name": "Austria",
     "emojilib_name": "austria",
     "codepoints": [
       127462,
@@ -4442,7 +4442,7 @@
     "fitz": false
   },
   "1f1e6_1f1fa": {
-    "name": "NO NAME FOR EMOJI 1f1e6_1f1fa",
+    "name": "Australia",
     "emojilib_name": "australia",
     "codepoints": [
       127462,
@@ -4464,7 +4464,7 @@
     "fitz": false
   },
   "1f1e6_1f1fc": {
-    "name": "NO NAME FOR EMOJI 1f1e6_1f1fc",
+    "name": "Aruba",
     "emojilib_name": "aruba",
     "codepoints": [
       127462,
@@ -4486,7 +4486,7 @@
     "fitz": false
   },
   "1f1e6_1f1fd": {
-    "name": "NO NAME FOR EMOJI 1f1e6_1f1fd",
+    "name": "Åland Islands",
     "emojilib_name": "aland_islands",
     "codepoints": [
       127462,
@@ -4509,7 +4509,7 @@
     "fitz": false
   },
   "1f1e6_1f1ff": {
-    "name": "NO NAME FOR EMOJI 1f1e6_1f1ff",
+    "name": "Azerbaijan",
     "emojilib_name": "azerbaijan",
     "codepoints": [
       127462,
@@ -4531,7 +4531,7 @@
     "fitz": false
   },
   "1f1e7_1f1e6": {
-    "name": "NO NAME FOR EMOJI 1f1e7_1f1e6",
+    "name": "Bosnia & Herzegovina",
     "emojilib_name": "bosnia_herzegovina",
     "codepoints": [
       127463,
@@ -4553,7 +4553,7 @@
     "fitz": false
   },
   "1f1e7_1f1e7": {
-    "name": "NO NAME FOR EMOJI 1f1e7_1f1e7",
+    "name": "Barbados",
     "emojilib_name": "barbados",
     "codepoints": [
       127463,
@@ -4575,7 +4575,7 @@
     "fitz": false
   },
   "1f1e7_1f1e9": {
-    "name": "NO NAME FOR EMOJI 1f1e7_1f1e9",
+    "name": "Bangladesh",
     "emojilib_name": "bangladesh",
     "codepoints": [
       127463,
@@ -4597,7 +4597,7 @@
     "fitz": false
   },
   "1f1e7_1f1ea": {
-    "name": "NO NAME FOR EMOJI 1f1e7_1f1ea",
+    "name": "Belgium",
     "emojilib_name": "belgium",
     "codepoints": [
       127463,
@@ -4619,7 +4619,7 @@
     "fitz": false
   },
   "1f1e7_1f1eb": {
-    "name": "NO NAME FOR EMOJI 1f1e7_1f1eb",
+    "name": "Burkina Faso",
     "emojilib_name": "burkina_faso",
     "codepoints": [
       127463,
@@ -4641,7 +4641,7 @@
     "fitz": false
   },
   "1f1e7_1f1ec": {
-    "name": "NO NAME FOR EMOJI 1f1e7_1f1ec",
+    "name": "Bulgaria",
     "emojilib_name": "bulgaria",
     "codepoints": [
       127463,
@@ -4663,7 +4663,7 @@
     "fitz": false
   },
   "1f1e7_1f1ed": {
-    "name": "NO NAME FOR EMOJI 1f1e7_1f1ed",
+    "name": "Bahrain",
     "emojilib_name": "bahrain",
     "codepoints": [
       127463,
@@ -4685,7 +4685,7 @@
     "fitz": false
   },
   "1f1e7_1f1ee": {
-    "name": "NO NAME FOR EMOJI 1f1e7_1f1ee",
+    "name": "Burundi",
     "emojilib_name": "burundi",
     "codepoints": [
       127463,
@@ -4707,7 +4707,7 @@
     "fitz": false
   },
   "1f1e7_1f1ef": {
-    "name": "NO NAME FOR EMOJI 1f1e7_1f1ef",
+    "name": "Benin",
     "emojilib_name": "benin",
     "codepoints": [
       127463,
@@ -4729,7 +4729,7 @@
     "fitz": false
   },
   "1f1e7_1f1f1": {
-    "name": "NO NAME FOR EMOJI 1f1e7_1f1f1",
+    "name": "St. Barthélemy",
     "emojilib_name": "st_barthelemy",
     "codepoints": [
       127463,
@@ -4753,7 +4753,7 @@
     "fitz": false
   },
   "1f1e7_1f1f2": {
-    "name": "NO NAME FOR EMOJI 1f1e7_1f1f2",
+    "name": "Bermuda",
     "emojilib_name": "bermuda",
     "codepoints": [
       127463,
@@ -4775,7 +4775,7 @@
     "fitz": false
   },
   "1f1e7_1f1f3": {
-    "name": "NO NAME FOR EMOJI 1f1e7_1f1f3",
+    "name": "Brunei",
     "emojilib_name": "brunei",
     "codepoints": [
       127463,
@@ -4798,7 +4798,7 @@
     "fitz": false
   },
   "1f1e7_1f1f4": {
-    "name": "NO NAME FOR EMOJI 1f1e7_1f1f4",
+    "name": "Bolivia",
     "emojilib_name": "bolivia",
     "codepoints": [
       127463,
@@ -4820,7 +4820,7 @@
     "fitz": false
   },
   "1f1e7_1f1f6": {
-    "name": "NO NAME FOR EMOJI 1f1e7_1f1f6",
+    "name": "Caribbean Netherlands",
     "emojilib_name": "caribbean_netherlands",
     "codepoints": [
       127463,
@@ -4843,7 +4843,7 @@
     "fitz": false
   },
   "1f1e7_1f1f7": {
-    "name": "NO NAME FOR EMOJI 1f1e7_1f1f7",
+    "name": "Brazil",
     "emojilib_name": "brazil",
     "codepoints": [
       127463,
@@ -4865,7 +4865,7 @@
     "fitz": false
   },
   "1f1e7_1f1f8": {
-    "name": "NO NAME FOR EMOJI 1f1e7_1f1f8",
+    "name": "Bahamas",
     "emojilib_name": "bahamas",
     "codepoints": [
       127463,
@@ -4887,7 +4887,7 @@
     "fitz": false
   },
   "1f1e7_1f1f9": {
-    "name": "NO NAME FOR EMOJI 1f1e7_1f1f9",
+    "name": "Bhutan",
     "emojilib_name": "bhutan",
     "codepoints": [
       127463,
@@ -4909,7 +4909,7 @@
     "fitz": false
   },
   "1f1e7_1f1fc": {
-    "name": "NO NAME FOR EMOJI 1f1e7_1f1fc",
+    "name": "Botswana",
     "emojilib_name": "botswana",
     "codepoints": [
       127463,
@@ -4931,7 +4931,7 @@
     "fitz": false
   },
   "1f1e7_1f1fe": {
-    "name": "NO NAME FOR EMOJI 1f1e7_1f1fe",
+    "name": "Belarus",
     "emojilib_name": "belarus",
     "codepoints": [
       127463,
@@ -4953,7 +4953,7 @@
     "fitz": false
   },
   "1f1e7_1f1ff": {
-    "name": "NO NAME FOR EMOJI 1f1e7_1f1ff",
+    "name": "Belize",
     "emojilib_name": "belize",
     "codepoints": [
       127463,
@@ -4975,7 +4975,7 @@
     "fitz": false
   },
   "1f1e8_1f1e6": {
-    "name": "NO NAME FOR EMOJI 1f1e8_1f1e6",
+    "name": "Canada",
     "emojilib_name": "canada",
     "codepoints": [
       127464,
@@ -4997,7 +4997,7 @@
     "fitz": false
   },
   "1f1e8_1f1e8": {
-    "name": "NO NAME FOR EMOJI 1f1e8_1f1e8",
+    "name": "Cocos (Keeling) Islands",
     "emojilib_name": "cocos_islands",
     "codepoints": [
       127464,
@@ -5020,7 +5020,7 @@
     "fitz": false
   },
   "1f1e8_1f1e9": {
-    "name": "NO NAME FOR EMOJI 1f1e8_1f1e9",
+    "name": "Congo - Kinshasa",
     "emojilib_name": "congo_kinshasa",
     "codepoints": [
       127464,
@@ -5044,7 +5044,7 @@
     "fitz": false
   },
   "1f1e8_1f1eb": {
-    "name": "NO NAME FOR EMOJI 1f1e8_1f1eb",
+    "name": "Central African Republic",
     "emojilib_name": "central_african_republic",
     "codepoints": [
       127464,
@@ -5067,7 +5067,7 @@
     "fitz": false
   },
   "1f1e8_1f1ec": {
-    "name": "NO NAME FOR EMOJI 1f1e8_1f1ec",
+    "name": "Congo - Brazzaville",
     "emojilib_name": "congo_brazzaville",
     "codepoints": [
       127464,
@@ -5089,7 +5089,7 @@
     "fitz": false
   },
   "1f1e8_1f1ed": {
-    "name": "NO NAME FOR EMOJI 1f1e8_1f1ed",
+    "name": "Switzerland",
     "emojilib_name": "switzerland",
     "codepoints": [
       127464,
@@ -5111,7 +5111,7 @@
     "fitz": false
   },
   "1f1e8_1f1ee": {
-    "name": "NO NAME FOR EMOJI 1f1e8_1f1ee",
+    "name": "Côte d’Ivoire",
     "emojilib_name": "cote_divoire",
     "codepoints": [
       127464,
@@ -5135,7 +5135,7 @@
     "fitz": false
   },
   "1f1e8_1f1f0": {
-    "name": "NO NAME FOR EMOJI 1f1e8_1f1f0",
+    "name": "Cook Islands",
     "emojilib_name": "cook_islands",
     "codepoints": [
       127464,
@@ -5157,7 +5157,7 @@
     "fitz": false
   },
   "1f1e8_1f1f1": {
-    "name": "NO NAME FOR EMOJI 1f1e8_1f1f1",
+    "name": "Chile",
     "emojilib_name": "chile",
     "codepoints": [
       127464,
@@ -5178,7 +5178,7 @@
     "fitz": false
   },
   "1f1e8_1f1f2": {
-    "name": "NO NAME FOR EMOJI 1f1e8_1f1f2",
+    "name": "Cameroon",
     "emojilib_name": "cameroon",
     "codepoints": [
       127464,
@@ -5200,7 +5200,7 @@
     "fitz": false
   },
   "1f1e8_1f1f3": {
-    "name": "NO NAME FOR EMOJI 1f1e8_1f1f3",
+    "name": "China",
     "emojilib_name": "cn",
     "codepoints": [
       127464,
@@ -5224,7 +5224,7 @@
     "fitz": false
   },
   "1f1e8_1f1f4": {
-    "name": "NO NAME FOR EMOJI 1f1e8_1f1f4",
+    "name": "Colombia",
     "emojilib_name": "colombia",
     "codepoints": [
       127464,
@@ -5246,7 +5246,7 @@
     "fitz": false
   },
   "1f1e8_1f1f7": {
-    "name": "NO NAME FOR EMOJI 1f1e8_1f1f7",
+    "name": "Costa Rica",
     "emojilib_name": "costa_rica",
     "codepoints": [
       127464,
@@ -5268,7 +5268,7 @@
     "fitz": false
   },
   "1f1e8_1f1fa": {
-    "name": "NO NAME FOR EMOJI 1f1e8_1f1fa",
+    "name": "Cuba",
     "emojilib_name": "cuba",
     "codepoints": [
       127464,
@@ -5290,7 +5290,7 @@
     "fitz": false
   },
   "1f1e8_1f1fb": {
-    "name": "NO NAME FOR EMOJI 1f1e8_1f1fb",
+    "name": "Cape Verde",
     "emojilib_name": "cape_verde",
     "codepoints": [
       127464,
@@ -5313,7 +5313,7 @@
     "fitz": false
   },
   "1f1e8_1f1fc": {
-    "name": "NO NAME FOR EMOJI 1f1e8_1f1fc",
+    "name": "Curaçao",
     "emojilib_name": "curacao",
     "codepoints": [
       127464,
@@ -5335,7 +5335,7 @@
     "fitz": false
   },
   "1f1e8_1f1fd": {
-    "name": "NO NAME FOR EMOJI 1f1e8_1f1fd",
+    "name": "Christmas Island",
     "emojilib_name": "christmas_island",
     "codepoints": [
       127464,
@@ -5357,7 +5357,7 @@
     "fitz": false
   },
   "1f1e8_1f1fe": {
-    "name": "NO NAME FOR EMOJI 1f1e8_1f1fe",
+    "name": "Cyprus",
     "emojilib_name": "cyprus",
     "codepoints": [
       127464,
@@ -5379,7 +5379,7 @@
     "fitz": false
   },
   "1f1e8_1f1ff": {
-    "name": "NO NAME FOR EMOJI 1f1e8_1f1ff",
+    "name": "Czechia",
     "emojilib_name": "czech_republic",
     "codepoints": [
       127464,
@@ -5402,7 +5402,7 @@
     "fitz": false
   },
   "1f1e9_1f1ea": {
-    "name": "NO NAME FOR EMOJI 1f1e9_1f1ea",
+    "name": "Germany",
     "emojilib_name": "de",
     "codepoints": [
       127465,
@@ -5424,7 +5424,7 @@
     "fitz": false
   },
   "1f1e9_1f1ef": {
-    "name": "NO NAME FOR EMOJI 1f1e9_1f1ef",
+    "name": "Djibouti",
     "emojilib_name": "djibouti",
     "codepoints": [
       127465,
@@ -5446,7 +5446,7 @@
     "fitz": false
   },
   "1f1e9_1f1f0": {
-    "name": "NO NAME FOR EMOJI 1f1e9_1f1f0",
+    "name": "Denmark",
     "emojilib_name": "denmark",
     "codepoints": [
       127465,
@@ -5468,7 +5468,7 @@
     "fitz": false
   },
   "1f1e9_1f1f2": {
-    "name": "NO NAME FOR EMOJI 1f1e9_1f1f2",
+    "name": "Dominica",
     "emojilib_name": "dominica",
     "codepoints": [
       127465,
@@ -5490,7 +5490,7 @@
     "fitz": false
   },
   "1f1e9_1f1f4": {
-    "name": "NO NAME FOR EMOJI 1f1e9_1f1f4",
+    "name": "Dominican Republic",
     "emojilib_name": "dominican_republic",
     "codepoints": [
       127465,
@@ -5512,7 +5512,7 @@
     "fitz": false
   },
   "1f1e9_1f1ff": {
-    "name": "NO NAME FOR EMOJI 1f1e9_1f1ff",
+    "name": "Algeria",
     "emojilib_name": "algeria",
     "codepoints": [
       127465,
@@ -5534,7 +5534,7 @@
     "fitz": false
   },
   "1f1ea_1f1e8": {
-    "name": "NO NAME FOR EMOJI 1f1ea_1f1e8",
+    "name": "Ecuador",
     "emojilib_name": "ecuador",
     "codepoints": [
       127466,
@@ -5556,7 +5556,7 @@
     "fitz": false
   },
   "1f1ea_1f1ea": {
-    "name": "NO NAME FOR EMOJI 1f1ea_1f1ea",
+    "name": "Estonia",
     "emojilib_name": "estonia",
     "codepoints": [
       127466,
@@ -5578,7 +5578,7 @@
     "fitz": false
   },
   "1f1ea_1f1ec": {
-    "name": "NO NAME FOR EMOJI 1f1ea_1f1ec",
+    "name": "Egypt",
     "emojilib_name": "egypt",
     "codepoints": [
       127466,
@@ -5600,7 +5600,7 @@
     "fitz": false
   },
   "1f1ea_1f1ed": {
-    "name": "NO NAME FOR EMOJI 1f1ea_1f1ed",
+    "name": "Western Sahara",
     "emojilib_name": "western_sahara",
     "codepoints": [
       127466,
@@ -5622,7 +5622,7 @@
     "fitz": false
   },
   "1f1ea_1f1f7": {
-    "name": "NO NAME FOR EMOJI 1f1ea_1f1f7",
+    "name": "Eritrea",
     "emojilib_name": "eritrea",
     "codepoints": [
       127466,
@@ -5644,7 +5644,7 @@
     "fitz": false
   },
   "1f1ea_1f1f8": {
-    "name": "NO NAME FOR EMOJI 1f1ea_1f1f8",
+    "name": "Spain",
     "emojilib_name": "es",
     "codepoints": [
       127466,
@@ -5666,7 +5666,7 @@
     "fitz": false
   },
   "1f1ea_1f1f9": {
-    "name": "NO NAME FOR EMOJI 1f1ea_1f1f9",
+    "name": "Ethiopia",
     "emojilib_name": "ethiopia",
     "codepoints": [
       127466,
@@ -5688,7 +5688,7 @@
     "fitz": false
   },
   "1f1ea_1f1fa": {
-    "name": "NO NAME FOR EMOJI 1f1ea_1f1fa",
+    "name": "European Union",
     "emojilib_name": "eu",
     "codepoints": [
       127466,
@@ -5709,7 +5709,7 @@
     "fitz": false
   },
   "1f1eb_1f1ee": {
-    "name": "NO NAME FOR EMOJI 1f1eb_1f1ee",
+    "name": "Finland",
     "emojilib_name": "finland",
     "codepoints": [
       127467,
@@ -5731,7 +5731,7 @@
     "fitz": false
   },
   "1f1eb_1f1ef": {
-    "name": "NO NAME FOR EMOJI 1f1eb_1f1ef",
+    "name": "Fiji",
     "emojilib_name": "fiji",
     "codepoints": [
       127467,
@@ -5753,7 +5753,7 @@
     "fitz": false
   },
   "1f1eb_1f1f0": {
-    "name": "NO NAME FOR EMOJI 1f1eb_1f1f0",
+    "name": "Falkland Islands",
     "emojilib_name": "falkland_islands",
     "codepoints": [
       127467,
@@ -5776,7 +5776,7 @@
     "fitz": false
   },
   "1f1eb_1f1f2": {
-    "name": "NO NAME FOR EMOJI 1f1eb_1f1f2",
+    "name": "Micronesia",
     "emojilib_name": "micronesia",
     "codepoints": [
       127467,
@@ -5800,7 +5800,7 @@
     "fitz": false
   },
   "1f1eb_1f1f4": {
-    "name": "NO NAME FOR EMOJI 1f1eb_1f1f4",
+    "name": "Faroe Islands",
     "emojilib_name": "faroe_islands",
     "codepoints": [
       127467,
@@ -5822,7 +5822,7 @@
     "fitz": false
   },
   "1f1eb_1f1f7": {
-    "name": "NO NAME FOR EMOJI 1f1eb_1f1f7",
+    "name": "France",
     "emojilib_name": "fr",
     "codepoints": [
       127467,
@@ -5845,7 +5845,7 @@
     "fitz": false
   },
   "1f1ec_1f1e6": {
-    "name": "NO NAME FOR EMOJI 1f1ec_1f1e6",
+    "name": "Gabon",
     "emojilib_name": "gabon",
     "codepoints": [
       127468,
@@ -5867,7 +5867,7 @@
     "fitz": false
   },
   "1f1ec_1f1e7": {
-    "name": "NO NAME FOR EMOJI 1f1ec_1f1e7",
+    "name": "United Kingdom",
     "emojilib_name": "uk",
     "codepoints": [
       127468,
@@ -5899,7 +5899,7 @@
     "fitz": false
   },
   "1f1ec_1f1e9": {
-    "name": "NO NAME FOR EMOJI 1f1ec_1f1e9",
+    "name": "Grenada",
     "emojilib_name": "grenada",
     "codepoints": [
       127468,
@@ -5921,7 +5921,7 @@
     "fitz": false
   },
   "1f1ec_1f1ea": {
-    "name": "NO NAME FOR EMOJI 1f1ec_1f1ea",
+    "name": "Georgia",
     "emojilib_name": "georgia",
     "codepoints": [
       127468,
@@ -5943,7 +5943,7 @@
     "fitz": false
   },
   "1f1ec_1f1eb": {
-    "name": "NO NAME FOR EMOJI 1f1ec_1f1eb",
+    "name": "French Guiana",
     "emojilib_name": "french_guiana",
     "codepoints": [
       127468,
@@ -5965,7 +5965,7 @@
     "fitz": false
   },
   "1f1ec_1f1ec": {
-    "name": "NO NAME FOR EMOJI 1f1ec_1f1ec",
+    "name": "Guernsey",
     "emojilib_name": "guernsey",
     "codepoints": [
       127468,
@@ -5987,7 +5987,7 @@
     "fitz": false
   },
   "1f1ec_1f1ed": {
-    "name": "NO NAME FOR EMOJI 1f1ec_1f1ed",
+    "name": "Ghana",
     "emojilib_name": "ghana",
     "codepoints": [
       127468,
@@ -6009,7 +6009,7 @@
     "fitz": false
   },
   "1f1ec_1f1ee": {
-    "name": "NO NAME FOR EMOJI 1f1ec_1f1ee",
+    "name": "Gibraltar",
     "emojilib_name": "gibraltar",
     "codepoints": [
       127468,
@@ -6031,7 +6031,7 @@
     "fitz": false
   },
   "1f1ec_1f1f1": {
-    "name": "NO NAME FOR EMOJI 1f1ec_1f1f1",
+    "name": "Greenland",
     "emojilib_name": "greenland",
     "codepoints": [
       127468,
@@ -6053,7 +6053,7 @@
     "fitz": false
   },
   "1f1ec_1f1f2": {
-    "name": "NO NAME FOR EMOJI 1f1ec_1f1f2",
+    "name": "Gambia",
     "emojilib_name": "gambia",
     "codepoints": [
       127468,
@@ -6075,7 +6075,7 @@
     "fitz": false
   },
   "1f1ec_1f1f3": {
-    "name": "NO NAME FOR EMOJI 1f1ec_1f1f3",
+    "name": "Guinea",
     "emojilib_name": "guinea",
     "codepoints": [
       127468,
@@ -6097,7 +6097,7 @@
     "fitz": false
   },
   "1f1ec_1f1f5": {
-    "name": "NO NAME FOR EMOJI 1f1ec_1f1f5",
+    "name": "Guadeloupe",
     "emojilib_name": "guadeloupe",
     "codepoints": [
       127468,
@@ -6119,7 +6119,7 @@
     "fitz": false
   },
   "1f1ec_1f1f6": {
-    "name": "NO NAME FOR EMOJI 1f1ec_1f1f6",
+    "name": "Equatorial Guinea",
     "emojilib_name": "equatorial_guinea",
     "codepoints": [
       127468,
@@ -6142,7 +6142,7 @@
     "fitz": false
   },
   "1f1ec_1f1f7": {
-    "name": "NO NAME FOR EMOJI 1f1ec_1f1f7",
+    "name": "Greece",
     "emojilib_name": "greece",
     "codepoints": [
       127468,
@@ -6164,7 +6164,7 @@
     "fitz": false
   },
   "1f1ec_1f1f8": {
-    "name": "NO NAME FOR EMOJI 1f1ec_1f1f8",
+    "name": "South Georgia & South Sandwich Islands",
     "emojilib_name": "south_georgia_south_sandwich_islands",
     "codepoints": [
       127468,
@@ -6188,7 +6188,7 @@
     "fitz": false
   },
   "1f1ec_1f1f9": {
-    "name": "NO NAME FOR EMOJI 1f1ec_1f1f9",
+    "name": "Guatemala",
     "emojilib_name": "guatemala",
     "codepoints": [
       127468,
@@ -6210,7 +6210,7 @@
     "fitz": false
   },
   "1f1ec_1f1fa": {
-    "name": "NO NAME FOR EMOJI 1f1ec_1f1fa",
+    "name": "Guam",
     "emojilib_name": "guam",
     "codepoints": [
       127468,
@@ -6232,7 +6232,7 @@
     "fitz": false
   },
   "1f1ec_1f1fc": {
-    "name": "NO NAME FOR EMOJI 1f1ec_1f1fc",
+    "name": "Guinea-Bissau",
     "emojilib_name": "guinea_bissau",
     "codepoints": [
       127468,
@@ -6255,7 +6255,7 @@
     "fitz": false
   },
   "1f1ec_1f1fe": {
-    "name": "NO NAME FOR EMOJI 1f1ec_1f1fe",
+    "name": "Guyana",
     "emojilib_name": "guyana",
     "codepoints": [
       127468,
@@ -6277,7 +6277,7 @@
     "fitz": false
   },
   "1f1ed_1f1f0": {
-    "name": "NO NAME FOR EMOJI 1f1ed_1f1f0",
+    "name": "Hong Kong SAR China",
     "emojilib_name": "hong_kong",
     "codepoints": [
       127469,
@@ -6299,7 +6299,7 @@
     "fitz": false
   },
   "1f1ed_1f1f3": {
-    "name": "NO NAME FOR EMOJI 1f1ed_1f1f3",
+    "name": "Honduras",
     "emojilib_name": "honduras",
     "codepoints": [
       127469,
@@ -6321,7 +6321,7 @@
     "fitz": false
   },
   "1f1ed_1f1f7": {
-    "name": "NO NAME FOR EMOJI 1f1ed_1f1f7",
+    "name": "Croatia",
     "emojilib_name": "croatia",
     "codepoints": [
       127469,
@@ -6343,7 +6343,7 @@
     "fitz": false
   },
   "1f1ed_1f1f9": {
-    "name": "NO NAME FOR EMOJI 1f1ed_1f1f9",
+    "name": "Haiti",
     "emojilib_name": "haiti",
     "codepoints": [
       127469,
@@ -6365,7 +6365,7 @@
     "fitz": false
   },
   "1f1ed_1f1fa": {
-    "name": "NO NAME FOR EMOJI 1f1ed_1f1fa",
+    "name": "Hungary",
     "emojilib_name": "hungary",
     "codepoints": [
       127469,
@@ -6387,7 +6387,7 @@
     "fitz": false
   },
   "1f1ee_1f1e8": {
-    "name": "NO NAME FOR EMOJI 1f1ee_1f1e8",
+    "name": "Canary Islands",
     "emojilib_name": "canary_islands",
     "codepoints": [
       127470,
@@ -6409,7 +6409,7 @@
     "fitz": false
   },
   "1f1ee_1f1e9": {
-    "name": "NO NAME FOR EMOJI 1f1ee_1f1e9",
+    "name": "Indonesia",
     "emojilib_name": "indonesia",
     "codepoints": [
       127470,
@@ -6430,7 +6430,7 @@
     "fitz": false
   },
   "1f1ee_1f1ea": {
-    "name": "NO NAME FOR EMOJI 1f1ee_1f1ea",
+    "name": "Ireland",
     "emojilib_name": "ireland",
     "codepoints": [
       127470,
@@ -6452,7 +6452,7 @@
     "fitz": false
   },
   "1f1ee_1f1f1": {
-    "name": "NO NAME FOR EMOJI 1f1ee_1f1f1",
+    "name": "Israel",
     "emojilib_name": "israel",
     "codepoints": [
       127470,
@@ -6474,7 +6474,7 @@
     "fitz": false
   },
   "1f1ee_1f1f2": {
-    "name": "NO NAME FOR EMOJI 1f1ee_1f1f2",
+    "name": "Isle of Man",
     "emojilib_name": "isle_of_man",
     "codepoints": [
       127470,
@@ -6497,7 +6497,7 @@
     "fitz": false
   },
   "1f1ee_1f1f3": {
-    "name": "NO NAME FOR EMOJI 1f1ee_1f1f3",
+    "name": "India",
     "emojilib_name": "india",
     "codepoints": [
       127470,
@@ -6519,7 +6519,7 @@
     "fitz": false
   },
   "1f1ee_1f1f4": {
-    "name": "NO NAME FOR EMOJI 1f1ee_1f1f4",
+    "name": "British Indian Ocean Territory",
     "emojilib_name": "british_indian_ocean_territory",
     "codepoints": [
       127470,
@@ -6543,7 +6543,7 @@
     "fitz": false
   },
   "1f1ee_1f1f6": {
-    "name": "NO NAME FOR EMOJI 1f1ee_1f1f6",
+    "name": "Iraq",
     "emojilib_name": "iraq",
     "codepoints": [
       127470,
@@ -6565,7 +6565,7 @@
     "fitz": false
   },
   "1f1ee_1f1f7": {
-    "name": "NO NAME FOR EMOJI 1f1ee_1f1f7",
+    "name": "Iran",
     "emojilib_name": "iran",
     "codepoints": [
       127470,
@@ -6589,7 +6589,7 @@
     "fitz": false
   },
   "1f1ee_1f1f8": {
-    "name": "NO NAME FOR EMOJI 1f1ee_1f1f8",
+    "name": "Iceland",
     "emojilib_name": "iceland",
     "codepoints": [
       127470,
@@ -6611,7 +6611,7 @@
     "fitz": false
   },
   "1f1ee_1f1f9": {
-    "name": "NO NAME FOR EMOJI 1f1ee_1f1f9",
+    "name": "Italy",
     "emojilib_name": "it",
     "codepoints": [
       127470,
@@ -6633,7 +6633,7 @@
     "fitz": false
   },
   "1f1ef_1f1ea": {
-    "name": "NO NAME FOR EMOJI 1f1ef_1f1ea",
+    "name": "Jersey",
     "emojilib_name": "jersey",
     "codepoints": [
       127471,
@@ -6655,7 +6655,7 @@
     "fitz": false
   },
   "1f1ef_1f1f2": {
-    "name": "NO NAME FOR EMOJI 1f1ef_1f1f2",
+    "name": "Jamaica",
     "emojilib_name": "jamaica",
     "codepoints": [
       127471,
@@ -6677,7 +6677,7 @@
     "fitz": false
   },
   "1f1ef_1f1f4": {
-    "name": "NO NAME FOR EMOJI 1f1ef_1f1f4",
+    "name": "Jordan",
     "emojilib_name": "jordan",
     "codepoints": [
       127471,
@@ -6699,7 +6699,7 @@
     "fitz": false
   },
   "1f1ef_1f1f5": {
-    "name": "NO NAME FOR EMOJI 1f1ef_1f1f5",
+    "name": "Japan",
     "emojilib_name": "jp",
     "codepoints": [
       127471,
@@ -6721,7 +6721,7 @@
     "fitz": false
   },
   "1f1f0_1f1ea": {
-    "name": "NO NAME FOR EMOJI 1f1f0_1f1ea",
+    "name": "Kenya",
     "emojilib_name": "kenya",
     "codepoints": [
       127472,
@@ -6743,7 +6743,7 @@
     "fitz": false
   },
   "1f1f0_1f1ec": {
-    "name": "NO NAME FOR EMOJI 1f1f0_1f1ec",
+    "name": "Kyrgyzstan",
     "emojilib_name": "kyrgyzstan",
     "codepoints": [
       127472,
@@ -6765,7 +6765,7 @@
     "fitz": false
   },
   "1f1f0_1f1ed": {
-    "name": "NO NAME FOR EMOJI 1f1f0_1f1ed",
+    "name": "Cambodia",
     "emojilib_name": "cambodia",
     "codepoints": [
       127472,
@@ -6787,7 +6787,7 @@
     "fitz": false
   },
   "1f1f0_1f1ee": {
-    "name": "NO NAME FOR EMOJI 1f1f0_1f1ee",
+    "name": "Kiribati",
     "emojilib_name": "kiribati",
     "codepoints": [
       127472,
@@ -6809,7 +6809,7 @@
     "fitz": false
   },
   "1f1f0_1f1f2": {
-    "name": "NO NAME FOR EMOJI 1f1f0_1f1f2",
+    "name": "Comoros",
     "emojilib_name": "comoros",
     "codepoints": [
       127472,
@@ -6831,7 +6831,7 @@
     "fitz": false
   },
   "1f1f0_1f1f3": {
-    "name": "NO NAME FOR EMOJI 1f1f0_1f1f3",
+    "name": "St. Kitts & Nevis",
     "emojilib_name": "st_kitts_nevis",
     "codepoints": [
       127472,
@@ -6855,7 +6855,7 @@
     "fitz": false
   },
   "1f1f0_1f1f5": {
-    "name": "NO NAME FOR EMOJI 1f1f0_1f1f5",
+    "name": "North Korea",
     "emojilib_name": "north_korea",
     "codepoints": [
       127472,
@@ -6877,7 +6877,7 @@
     "fitz": false
   },
   "1f1f0_1f1f7": {
-    "name": "NO NAME FOR EMOJI 1f1f0_1f1f7",
+    "name": "South Korea",
     "emojilib_name": "kr",
     "codepoints": [
       127472,
@@ -6900,7 +6900,7 @@
     "fitz": false
   },
   "1f1f0_1f1fc": {
-    "name": "NO NAME FOR EMOJI 1f1f0_1f1fc",
+    "name": "Kuwait",
     "emojilib_name": "kuwait",
     "codepoints": [
       127472,
@@ -6922,7 +6922,7 @@
     "fitz": false
   },
   "1f1f0_1f1fe": {
-    "name": "NO NAME FOR EMOJI 1f1f0_1f1fe",
+    "name": "Cayman Islands",
     "emojilib_name": "cayman_islands",
     "codepoints": [
       127472,
@@ -6944,7 +6944,7 @@
     "fitz": false
   },
   "1f1f0_1f1ff": {
-    "name": "NO NAME FOR EMOJI 1f1f0_1f1ff",
+    "name": "Kazakhstan",
     "emojilib_name": "kazakhstan",
     "codepoints": [
       127472,
@@ -6966,7 +6966,7 @@
     "fitz": false
   },
   "1f1f1_1f1e6": {
-    "name": "NO NAME FOR EMOJI 1f1f1_1f1e6",
+    "name": "Laos",
     "emojilib_name": "laos",
     "codepoints": [
       127473,
@@ -6990,7 +6990,7 @@
     "fitz": false
   },
   "1f1f1_1f1e7": {
-    "name": "NO NAME FOR EMOJI 1f1f1_1f1e7",
+    "name": "Lebanon",
     "emojilib_name": "lebanon",
     "codepoints": [
       127473,
@@ -7012,7 +7012,7 @@
     "fitz": false
   },
   "1f1f1_1f1e8": {
-    "name": "NO NAME FOR EMOJI 1f1f1_1f1e8",
+    "name": "St. Lucia",
     "emojilib_name": "st_lucia",
     "codepoints": [
       127473,
@@ -7035,7 +7035,7 @@
     "fitz": false
   },
   "1f1f1_1f1ee": {
-    "name": "NO NAME FOR EMOJI 1f1f1_1f1ee",
+    "name": "Liechtenstein",
     "emojilib_name": "liechtenstein",
     "codepoints": [
       127473,
@@ -7057,7 +7057,7 @@
     "fitz": false
   },
   "1f1f1_1f1f0": {
-    "name": "NO NAME FOR EMOJI 1f1f1_1f1f0",
+    "name": "Sri Lanka",
     "emojilib_name": "sri_lanka",
     "codepoints": [
       127473,
@@ -7079,7 +7079,7 @@
     "fitz": false
   },
   "1f1f1_1f1f7": {
-    "name": "NO NAME FOR EMOJI 1f1f1_1f1f7",
+    "name": "Liberia",
     "emojilib_name": "liberia",
     "codepoints": [
       127473,
@@ -7101,7 +7101,7 @@
     "fitz": false
   },
   "1f1f1_1f1f8": {
-    "name": "NO NAME FOR EMOJI 1f1f1_1f1f8",
+    "name": "Lesotho",
     "emojilib_name": "lesotho",
     "codepoints": [
       127473,
@@ -7123,7 +7123,7 @@
     "fitz": false
   },
   "1f1f1_1f1f9": {
-    "name": "NO NAME FOR EMOJI 1f1f1_1f1f9",
+    "name": "Lithuania",
     "emojilib_name": "lithuania",
     "codepoints": [
       127473,
@@ -7145,7 +7145,7 @@
     "fitz": false
   },
   "1f1f1_1f1fa": {
-    "name": "NO NAME FOR EMOJI 1f1f1_1f1fa",
+    "name": "Luxembourg",
     "emojilib_name": "luxembourg",
     "codepoints": [
       127473,
@@ -7167,7 +7167,7 @@
     "fitz": false
   },
   "1f1f1_1f1fb": {
-    "name": "NO NAME FOR EMOJI 1f1f1_1f1fb",
+    "name": "Latvia",
     "emojilib_name": "latvia",
     "codepoints": [
       127473,
@@ -7189,7 +7189,7 @@
     "fitz": false
   },
   "1f1f1_1f1fe": {
-    "name": "NO NAME FOR EMOJI 1f1f1_1f1fe",
+    "name": "Libya",
     "emojilib_name": "libya",
     "codepoints": [
       127473,
@@ -7211,7 +7211,7 @@
     "fitz": false
   },
   "1f1f2_1f1e6": {
-    "name": "NO NAME FOR EMOJI 1f1f2_1f1e6",
+    "name": "Morocco",
     "emojilib_name": "morocco",
     "codepoints": [
       127474,
@@ -7233,7 +7233,7 @@
     "fitz": false
   },
   "1f1f2_1f1e8": {
-    "name": "NO NAME FOR EMOJI 1f1f2_1f1e8",
+    "name": "Monaco",
     "emojilib_name": "monaco",
     "codepoints": [
       127474,
@@ -7255,7 +7255,7 @@
     "fitz": false
   },
   "1f1f2_1f1e9": {
-    "name": "NO NAME FOR EMOJI 1f1f2_1f1e9",
+    "name": "Moldova",
     "emojilib_name": "moldova",
     "codepoints": [
       127474,
@@ -7278,7 +7278,7 @@
     "fitz": false
   },
   "1f1f2_1f1ea": {
-    "name": "NO NAME FOR EMOJI 1f1f2_1f1ea",
+    "name": "Montenegro",
     "emojilib_name": "montenegro",
     "codepoints": [
       127474,
@@ -7300,7 +7300,7 @@
     "fitz": false
   },
   "1f1f2_1f1ec": {
-    "name": "NO NAME FOR EMOJI 1f1f2_1f1ec",
+    "name": "Madagascar",
     "emojilib_name": "madagascar",
     "codepoints": [
       127474,
@@ -7322,7 +7322,7 @@
     "fitz": false
   },
   "1f1f2_1f1ed": {
-    "name": "NO NAME FOR EMOJI 1f1f2_1f1ed",
+    "name": "Marshall Islands",
     "emojilib_name": "marshall_islands",
     "codepoints": [
       127474,
@@ -7344,7 +7344,7 @@
     "fitz": false
   },
   "1f1f2_1f1f0": {
-    "name": "NO NAME FOR EMOJI 1f1f2_1f1f0",
+    "name": "Macedonia",
     "emojilib_name": "macedonia",
     "codepoints": [
       127474,
@@ -7366,7 +7366,7 @@
     "fitz": false
   },
   "1f1f2_1f1f1": {
-    "name": "NO NAME FOR EMOJI 1f1f2_1f1f1",
+    "name": "Mali",
     "emojilib_name": "mali",
     "codepoints": [
       127474,
@@ -7388,7 +7388,7 @@
     "fitz": false
   },
   "1f1f2_1f1f2": {
-    "name": "NO NAME FOR EMOJI 1f1f2_1f1f2",
+    "name": "Myanmar (Burma)",
     "emojilib_name": "myanmar",
     "codepoints": [
       127474,
@@ -7410,7 +7410,7 @@
     "fitz": false
   },
   "1f1f2_1f1f3": {
-    "name": "NO NAME FOR EMOJI 1f1f2_1f1f3",
+    "name": "Mongolia",
     "emojilib_name": "mongolia",
     "codepoints": [
       127474,
@@ -7432,7 +7432,7 @@
     "fitz": false
   },
   "1f1f2_1f1f4": {
-    "name": "NO NAME FOR EMOJI 1f1f2_1f1f4",
+    "name": "Macau SAR China",
     "emojilib_name": "macau",
     "codepoints": [
       127474,
@@ -7454,7 +7454,7 @@
     "fitz": false
   },
   "1f1f2_1f1f5": {
-    "name": "NO NAME FOR EMOJI 1f1f2_1f1f5",
+    "name": "Northern Mariana Islands",
     "emojilib_name": "northern_mariana_islands",
     "codepoints": [
       127474,
@@ -7477,7 +7477,7 @@
     "fitz": false
   },
   "1f1f2_1f1f6": {
-    "name": "NO NAME FOR EMOJI 1f1f2_1f1f6",
+    "name": "Martinique",
     "emojilib_name": "martinique",
     "codepoints": [
       127474,
@@ -7499,7 +7499,7 @@
     "fitz": false
   },
   "1f1f2_1f1f7": {
-    "name": "NO NAME FOR EMOJI 1f1f2_1f1f7",
+    "name": "Mauritania",
     "emojilib_name": "mauritania",
     "codepoints": [
       127474,
@@ -7521,7 +7521,7 @@
     "fitz": false
   },
   "1f1f2_1f1f8": {
-    "name": "NO NAME FOR EMOJI 1f1f2_1f1f8",
+    "name": "Montserrat",
     "emojilib_name": "montserrat",
     "codepoints": [
       127474,
@@ -7543,7 +7543,7 @@
     "fitz": false
   },
   "1f1f2_1f1f9": {
-    "name": "NO NAME FOR EMOJI 1f1f2_1f1f9",
+    "name": "Malta",
     "emojilib_name": "malta",
     "codepoints": [
       127474,
@@ -7565,7 +7565,7 @@
     "fitz": false
   },
   "1f1f2_1f1fa": {
-    "name": "NO NAME FOR EMOJI 1f1f2_1f1fa",
+    "name": "Mauritius",
     "emojilib_name": "mauritius",
     "codepoints": [
       127474,
@@ -7587,7 +7587,7 @@
     "fitz": false
   },
   "1f1f2_1f1fb": {
-    "name": "NO NAME FOR EMOJI 1f1f2_1f1fb",
+    "name": "Maldives",
     "emojilib_name": "maldives",
     "codepoints": [
       127474,
@@ -7609,7 +7609,7 @@
     "fitz": false
   },
   "1f1f2_1f1fc": {
-    "name": "NO NAME FOR EMOJI 1f1f2_1f1fc",
+    "name": "Malawi",
     "emojilib_name": "malawi",
     "codepoints": [
       127474,
@@ -7631,7 +7631,7 @@
     "fitz": false
   },
   "1f1f2_1f1fd": {
-    "name": "NO NAME FOR EMOJI 1f1f2_1f1fd",
+    "name": "Mexico",
     "emojilib_name": "mexico",
     "codepoints": [
       127474,
@@ -7653,7 +7653,7 @@
     "fitz": false
   },
   "1f1f2_1f1fe": {
-    "name": "NO NAME FOR EMOJI 1f1f2_1f1fe",
+    "name": "Malaysia",
     "emojilib_name": "malaysia",
     "codepoints": [
       127474,
@@ -7675,7 +7675,7 @@
     "fitz": false
   },
   "1f1f2_1f1ff": {
-    "name": "NO NAME FOR EMOJI 1f1f2_1f1ff",
+    "name": "Mozambique",
     "emojilib_name": "mozambique",
     "codepoints": [
       127474,
@@ -7697,7 +7697,7 @@
     "fitz": false
   },
   "1f1f3_1f1e6": {
-    "name": "NO NAME FOR EMOJI 1f1f3_1f1e6",
+    "name": "Namibia",
     "emojilib_name": "namibia",
     "codepoints": [
       127475,
@@ -7719,7 +7719,7 @@
     "fitz": false
   },
   "1f1f3_1f1e8": {
-    "name": "NO NAME FOR EMOJI 1f1f3_1f1e8",
+    "name": "New Caledonia",
     "emojilib_name": "new_caledonia",
     "codepoints": [
       127475,
@@ -7741,7 +7741,7 @@
     "fitz": false
   },
   "1f1f3_1f1ea": {
-    "name": "NO NAME FOR EMOJI 1f1f3_1f1ea",
+    "name": "Niger",
     "emojilib_name": "niger",
     "codepoints": [
       127475,
@@ -7763,7 +7763,7 @@
     "fitz": false
   },
   "1f1f3_1f1eb": {
-    "name": "NO NAME FOR EMOJI 1f1f3_1f1eb",
+    "name": "Norfolk Island",
     "emojilib_name": "norfolk_island",
     "codepoints": [
       127475,
@@ -7785,7 +7785,7 @@
     "fitz": false
   },
   "1f1f3_1f1ec": {
-    "name": "NO NAME FOR EMOJI 1f1f3_1f1ec",
+    "name": "Nigeria",
     "emojilib_name": "nigeria",
     "codepoints": [
       127475,
@@ -7806,7 +7806,7 @@
     "fitz": false
   },
   "1f1f3_1f1ee": {
-    "name": "NO NAME FOR EMOJI 1f1f3_1f1ee",
+    "name": "Nicaragua",
     "emojilib_name": "nicaragua",
     "codepoints": [
       127475,
@@ -7828,7 +7828,7 @@
     "fitz": false
   },
   "1f1f3_1f1f1": {
-    "name": "NO NAME FOR EMOJI 1f1f3_1f1f1",
+    "name": "Netherlands",
     "emojilib_name": "netherlands",
     "codepoints": [
       127475,
@@ -7850,7 +7850,7 @@
     "fitz": false
   },
   "1f1f3_1f1f4": {
-    "name": "NO NAME FOR EMOJI 1f1f3_1f1f4",
+    "name": "Norway",
     "emojilib_name": "norway",
     "codepoints": [
       127475,
@@ -7872,7 +7872,7 @@
     "fitz": false
   },
   "1f1f3_1f1f5": {
-    "name": "NO NAME FOR EMOJI 1f1f3_1f1f5",
+    "name": "Nepal",
     "emojilib_name": "nepal",
     "codepoints": [
       127475,
@@ -7894,7 +7894,7 @@
     "fitz": false
   },
   "1f1f3_1f1f7": {
-    "name": "NO NAME FOR EMOJI 1f1f3_1f1f7",
+    "name": "Nauru",
     "emojilib_name": "nauru",
     "codepoints": [
       127475,
@@ -7916,7 +7916,7 @@
     "fitz": false
   },
   "1f1f3_1f1fa": {
-    "name": "NO NAME FOR EMOJI 1f1f3_1f1fa",
+    "name": "Niue",
     "emojilib_name": "niue",
     "codepoints": [
       127475,
@@ -7938,7 +7938,7 @@
     "fitz": false
   },
   "1f1f3_1f1ff": {
-    "name": "NO NAME FOR EMOJI 1f1f3_1f1ff",
+    "name": "New Zealand",
     "emojilib_name": "new_zealand",
     "codepoints": [
       127475,
@@ -7960,7 +7960,7 @@
     "fitz": false
   },
   "1f1f4_1f1f2": {
-    "name": "NO NAME FOR EMOJI 1f1f4_1f1f2",
+    "name": "Oman",
     "emojilib_name": "oman",
     "codepoints": [
       127476,
@@ -7982,7 +7982,7 @@
     "fitz": false
   },
   "1f1f5_1f1e6": {
-    "name": "NO NAME FOR EMOJI 1f1f5_1f1e6",
+    "name": "Panama",
     "emojilib_name": "panama",
     "codepoints": [
       127477,
@@ -8004,7 +8004,7 @@
     "fitz": false
   },
   "1f1f5_1f1ea": {
-    "name": "NO NAME FOR EMOJI 1f1f5_1f1ea",
+    "name": "Peru",
     "emojilib_name": "peru",
     "codepoints": [
       127477,
@@ -8026,7 +8026,7 @@
     "fitz": false
   },
   "1f1f5_1f1eb": {
-    "name": "NO NAME FOR EMOJI 1f1f5_1f1eb",
+    "name": "French Polynesia",
     "emojilib_name": "french_polynesia",
     "codepoints": [
       127477,
@@ -8048,7 +8048,7 @@
     "fitz": false
   },
   "1f1f5_1f1ec": {
-    "name": "NO NAME FOR EMOJI 1f1f5_1f1ec",
+    "name": "Papua New Guinea",
     "emojilib_name": "papua_new_guinea",
     "codepoints": [
       127477,
@@ -8071,7 +8071,7 @@
     "fitz": false
   },
   "1f1f5_1f1ed": {
-    "name": "NO NAME FOR EMOJI 1f1f5_1f1ed",
+    "name": "Philippines",
     "emojilib_name": "philippines",
     "codepoints": [
       127477,
@@ -8093,7 +8093,7 @@
     "fitz": false
   },
   "1f1f5_1f1f0": {
-    "name": "NO NAME FOR EMOJI 1f1f5_1f1f0",
+    "name": "Pakistan",
     "emojilib_name": "pakistan",
     "codepoints": [
       127477,
@@ -8115,7 +8115,7 @@
     "fitz": false
   },
   "1f1f5_1f1f1": {
-    "name": "NO NAME FOR EMOJI 1f1f5_1f1f1",
+    "name": "Poland",
     "emojilib_name": "poland",
     "codepoints": [
       127477,
@@ -8137,7 +8137,7 @@
     "fitz": false
   },
   "1f1f5_1f1f2": {
-    "name": "NO NAME FOR EMOJI 1f1f5_1f1f2",
+    "name": "St. Pierre & Miquelon",
     "emojilib_name": "st_pierre_miquelon",
     "codepoints": [
       127477,
@@ -8161,7 +8161,7 @@
     "fitz": false
   },
   "1f1f5_1f1f3": {
-    "name": "NO NAME FOR EMOJI 1f1f5_1f1f3",
+    "name": "Pitcairn Islands",
     "emojilib_name": "pitcairn_islands",
     "codepoints": [
       127477,
@@ -8183,7 +8183,7 @@
     "fitz": false
   },
   "1f1f5_1f1f7": {
-    "name": "NO NAME FOR EMOJI 1f1f5_1f1f7",
+    "name": "Puerto Rico",
     "emojilib_name": "puerto_rico",
     "codepoints": [
       127477,
@@ -8205,7 +8205,7 @@
     "fitz": false
   },
   "1f1f5_1f1f8": {
-    "name": "NO NAME FOR EMOJI 1f1f5_1f1f8",
+    "name": "Palestinian Territories",
     "emojilib_name": "palestinian_territories",
     "codepoints": [
       127477,
@@ -8228,7 +8228,7 @@
     "fitz": false
   },
   "1f1f5_1f1f9": {
-    "name": "NO NAME FOR EMOJI 1f1f5_1f1f9",
+    "name": "Portugal",
     "emojilib_name": "portugal",
     "codepoints": [
       127477,
@@ -8250,7 +8250,7 @@
     "fitz": false
   },
   "1f1f5_1f1fc": {
-    "name": "NO NAME FOR EMOJI 1f1f5_1f1fc",
+    "name": "Palau",
     "emojilib_name": "palau",
     "codepoints": [
       127477,
@@ -8272,7 +8272,7 @@
     "fitz": false
   },
   "1f1f5_1f1fe": {
-    "name": "NO NAME FOR EMOJI 1f1f5_1f1fe",
+    "name": "Paraguay",
     "emojilib_name": "paraguay",
     "codepoints": [
       127477,
@@ -8294,7 +8294,7 @@
     "fitz": false
   },
   "1f1f6_1f1e6": {
-    "name": "NO NAME FOR EMOJI 1f1f6_1f1e6",
+    "name": "Qatar",
     "emojilib_name": "qatar",
     "codepoints": [
       127478,
@@ -8316,7 +8316,7 @@
     "fitz": false
   },
   "1f1f7_1f1ea": {
-    "name": "NO NAME FOR EMOJI 1f1f7_1f1ea",
+    "name": "Réunion",
     "emojilib_name": "reunion",
     "codepoints": [
       127479,
@@ -8338,7 +8338,7 @@
     "fitz": false
   },
   "1f1f7_1f1f4": {
-    "name": "NO NAME FOR EMOJI 1f1f7_1f1f4",
+    "name": "Romania",
     "emojilib_name": "romania",
     "codepoints": [
       127479,
@@ -8360,7 +8360,7 @@
     "fitz": false
   },
   "1f1f7_1f1f8": {
-    "name": "NO NAME FOR EMOJI 1f1f7_1f1f8",
+    "name": "Serbia",
     "emojilib_name": "serbia",
     "codepoints": [
       127479,
@@ -8382,7 +8382,7 @@
     "fitz": false
   },
   "1f1f7_1f1fa": {
-    "name": "NO NAME FOR EMOJI 1f1f7_1f1fa",
+    "name": "Russia",
     "emojilib_name": "ru",
     "codepoints": [
       127479,
@@ -8405,7 +8405,7 @@
     "fitz": false
   },
   "1f1f7_1f1fc": {
-    "name": "NO NAME FOR EMOJI 1f1f7_1f1fc",
+    "name": "Rwanda",
     "emojilib_name": "rwanda",
     "codepoints": [
       127479,
@@ -8427,7 +8427,7 @@
     "fitz": false
   },
   "1f1f8_1f1e6": {
-    "name": "NO NAME FOR EMOJI 1f1f8_1f1e6",
+    "name": "Saudi Arabia",
     "emojilib_name": "saudi_arabia",
     "codepoints": [
       127480,
@@ -8449,7 +8449,7 @@
     "fitz": false
   },
   "1f1f8_1f1e7": {
-    "name": "NO NAME FOR EMOJI 1f1f8_1f1e7",
+    "name": "Solomon Islands",
     "emojilib_name": "solomon_islands",
     "codepoints": [
       127480,
@@ -8471,7 +8471,7 @@
     "fitz": false
   },
   "1f1f8_1f1e8": {
-    "name": "NO NAME FOR EMOJI 1f1f8_1f1e8",
+    "name": "Seychelles",
     "emojilib_name": "seychelles",
     "codepoints": [
       127480,
@@ -8493,7 +8493,7 @@
     "fitz": false
   },
   "1f1f8_1f1e9": {
-    "name": "NO NAME FOR EMOJI 1f1f8_1f1e9",
+    "name": "Sudan",
     "emojilib_name": "sudan",
     "codepoints": [
       127480,
@@ -8515,7 +8515,7 @@
     "fitz": false
   },
   "1f1f8_1f1ea": {
-    "name": "NO NAME FOR EMOJI 1f1f8_1f1ea",
+    "name": "Sweden",
     "emojilib_name": "sweden",
     "codepoints": [
       127480,
@@ -8537,7 +8537,7 @@
     "fitz": false
   },
   "1f1f8_1f1ec": {
-    "name": "NO NAME FOR EMOJI 1f1f8_1f1ec",
+    "name": "Singapore",
     "emojilib_name": "singapore",
     "codepoints": [
       127480,
@@ -8559,7 +8559,7 @@
     "fitz": false
   },
   "1f1f8_1f1ed": {
-    "name": "NO NAME FOR EMOJI 1f1f8_1f1ed",
+    "name": "St. Helena",
     "emojilib_name": "st_helena",
     "codepoints": [
       127480,
@@ -8585,7 +8585,7 @@
     "fitz": false
   },
   "1f1f8_1f1ee": {
-    "name": "NO NAME FOR EMOJI 1f1f8_1f1ee",
+    "name": "Slovenia",
     "emojilib_name": "slovenia",
     "codepoints": [
       127480,
@@ -8607,7 +8607,7 @@
     "fitz": false
   },
   "1f1f8_1f1f0": {
-    "name": "NO NAME FOR EMOJI 1f1f8_1f1f0",
+    "name": "Slovakia",
     "emojilib_name": "slovakia",
     "codepoints": [
       127480,
@@ -8629,7 +8629,7 @@
     "fitz": false
   },
   "1f1f8_1f1f1": {
-    "name": "NO NAME FOR EMOJI 1f1f8_1f1f1",
+    "name": "Sierra Leone",
     "emojilib_name": "sierra_leone",
     "codepoints": [
       127480,
@@ -8651,7 +8651,7 @@
     "fitz": false
   },
   "1f1f8_1f1f2": {
-    "name": "NO NAME FOR EMOJI 1f1f8_1f1f2",
+    "name": "San Marino",
     "emojilib_name": "san_marino",
     "codepoints": [
       127480,
@@ -8673,7 +8673,7 @@
     "fitz": false
   },
   "1f1f8_1f1f3": {
-    "name": "NO NAME FOR EMOJI 1f1f8_1f1f3",
+    "name": "Senegal",
     "emojilib_name": "senegal",
     "codepoints": [
       127480,
@@ -8695,7 +8695,7 @@
     "fitz": false
   },
   "1f1f8_1f1f4": {
-    "name": "NO NAME FOR EMOJI 1f1f8_1f1f4",
+    "name": "Somalia",
     "emojilib_name": "somalia",
     "codepoints": [
       127480,
@@ -8717,7 +8717,7 @@
     "fitz": false
   },
   "1f1f8_1f1f7": {
-    "name": "NO NAME FOR EMOJI 1f1f8_1f1f7",
+    "name": "Suriname",
     "emojilib_name": "suriname",
     "codepoints": [
       127480,
@@ -8739,7 +8739,7 @@
     "fitz": false
   },
   "1f1f8_1f1f8": {
-    "name": "NO NAME FOR EMOJI 1f1f8_1f1f8",
+    "name": "South Sudan",
     "emojilib_name": "south_sudan",
     "codepoints": [
       127480,
@@ -8762,7 +8762,7 @@
     "fitz": false
   },
   "1f1f8_1f1f9": {
-    "name": "NO NAME FOR EMOJI 1f1f8_1f1f9",
+    "name": "São Tomé & Príncipe",
     "emojilib_name": "sao_tome_principe",
     "codepoints": [
       127480,
@@ -8785,7 +8785,7 @@
     "fitz": false
   },
   "1f1f8_1f1fb": {
-    "name": "NO NAME FOR EMOJI 1f1f8_1f1fb",
+    "name": "El Salvador",
     "emojilib_name": "el_salvador",
     "codepoints": [
       127480,
@@ -8807,7 +8807,7 @@
     "fitz": false
   },
   "1f1f8_1f1fd": {
-    "name": "NO NAME FOR EMOJI 1f1f8_1f1fd",
+    "name": "Sint Maarten",
     "emojilib_name": "sint_maarten",
     "codepoints": [
       127480,
@@ -8830,7 +8830,7 @@
     "fitz": false
   },
   "1f1f8_1f1fe": {
-    "name": "NO NAME FOR EMOJI 1f1f8_1f1fe",
+    "name": "Syria",
     "emojilib_name": "syria",
     "codepoints": [
       127480,
@@ -8854,7 +8854,7 @@
     "fitz": false
   },
   "1f1f8_1f1ff": {
-    "name": "NO NAME FOR EMOJI 1f1f8_1f1ff",
+    "name": "Swaziland",
     "emojilib_name": "swaziland",
     "codepoints": [
       127480,
@@ -8876,7 +8876,7 @@
     "fitz": false
   },
   "1f1f9_1f1e8": {
-    "name": "NO NAME FOR EMOJI 1f1f9_1f1e8",
+    "name": "Turks & Caicos Islands",
     "emojilib_name": "turks_caicos_islands",
     "codepoints": [
       127481,
@@ -8899,7 +8899,7 @@
     "fitz": false
   },
   "1f1f9_1f1e9": {
-    "name": "NO NAME FOR EMOJI 1f1f9_1f1e9",
+    "name": "Chad",
     "emojilib_name": "chad",
     "codepoints": [
       127481,
@@ -8921,7 +8921,7 @@
     "fitz": false
   },
   "1f1f9_1f1eb": {
-    "name": "NO NAME FOR EMOJI 1f1f9_1f1eb",
+    "name": "French Southern Territories",
     "emojilib_name": "french_southern_territories",
     "codepoints": [
       127481,
@@ -8944,7 +8944,7 @@
     "fitz": false
   },
   "1f1f9_1f1ec": {
-    "name": "NO NAME FOR EMOJI 1f1f9_1f1ec",
+    "name": "Togo",
     "emojilib_name": "togo",
     "codepoints": [
       127481,
@@ -8966,7 +8966,7 @@
     "fitz": false
   },
   "1f1f9_1f1ed": {
-    "name": "NO NAME FOR EMOJI 1f1f9_1f1ed",
+    "name": "Thailand",
     "emojilib_name": "thailand",
     "codepoints": [
       127481,
@@ -8988,7 +8988,7 @@
     "fitz": false
   },
   "1f1f9_1f1ef": {
-    "name": "NO NAME FOR EMOJI 1f1f9_1f1ef",
+    "name": "Tajikistan",
     "emojilib_name": "tajikistan",
     "codepoints": [
       127481,
@@ -9010,7 +9010,7 @@
     "fitz": false
   },
   "1f1f9_1f1f0": {
-    "name": "NO NAME FOR EMOJI 1f1f9_1f1f0",
+    "name": "Tokelau",
     "emojilib_name": "tokelau",
     "codepoints": [
       127481,
@@ -9032,7 +9032,7 @@
     "fitz": false
   },
   "1f1f9_1f1f1": {
-    "name": "NO NAME FOR EMOJI 1f1f9_1f1f1",
+    "name": "Timor-Leste",
     "emojilib_name": "timor_leste",
     "codepoints": [
       127481,
@@ -9054,7 +9054,7 @@
     "fitz": false
   },
   "1f1f9_1f1f2": {
-    "name": "NO NAME FOR EMOJI 1f1f9_1f1f2",
+    "name": "Turkmenistan",
     "emojilib_name": "turkmenistan",
     "codepoints": [
       127481,
@@ -9075,7 +9075,7 @@
     "fitz": false
   },
   "1f1f9_1f1f3": {
-    "name": "NO NAME FOR EMOJI 1f1f9_1f1f3",
+    "name": "Tunisia",
     "emojilib_name": "tunisia",
     "codepoints": [
       127481,
@@ -9097,7 +9097,7 @@
     "fitz": false
   },
   "1f1f9_1f1f4": {
-    "name": "NO NAME FOR EMOJI 1f1f9_1f1f4",
+    "name": "Tonga",
     "emojilib_name": "tonga",
     "codepoints": [
       127481,
@@ -9119,7 +9119,7 @@
     "fitz": false
   },
   "1f1f9_1f1f7": {
-    "name": "NO NAME FOR EMOJI 1f1f9_1f1f7",
+    "name": "Turkey",
     "emojilib_name": "tr",
     "codepoints": [
       127481,
@@ -9141,7 +9141,7 @@
     "fitz": false
   },
   "1f1f9_1f1f9": {
-    "name": "NO NAME FOR EMOJI 1f1f9_1f1f9",
+    "name": "Trinidad & Tobago",
     "emojilib_name": "trinidad_tobago",
     "codepoints": [
       127481,
@@ -9163,7 +9163,7 @@
     "fitz": false
   },
   "1f1f9_1f1fb": {
-    "name": "NO NAME FOR EMOJI 1f1f9_1f1fb",
+    "name": "Tuvalu",
     "emojilib_name": "tuvalu",
     "codepoints": [
       127481,
@@ -9184,7 +9184,7 @@
     "fitz": false
   },
   "1f1f9_1f1fc": {
-    "name": "NO NAME FOR EMOJI 1f1f9_1f1fc",
+    "name": "Taiwan",
     "emojilib_name": "taiwan",
     "codepoints": [
       127481,
@@ -9206,7 +9206,7 @@
     "fitz": false
   },
   "1f1f9_1f1ff": {
-    "name": "NO NAME FOR EMOJI 1f1f9_1f1ff",
+    "name": "Tanzania",
     "emojilib_name": "tanzania",
     "codepoints": [
       127481,
@@ -9230,7 +9230,7 @@
     "fitz": false
   },
   "1f1fa_1f1e6": {
-    "name": "NO NAME FOR EMOJI 1f1fa_1f1e6",
+    "name": "Ukraine",
     "emojilib_name": "ukraine",
     "codepoints": [
       127482,
@@ -9252,7 +9252,7 @@
     "fitz": false
   },
   "1f1fa_1f1ec": {
-    "name": "NO NAME FOR EMOJI 1f1fa_1f1ec",
+    "name": "Uganda",
     "emojilib_name": "uganda",
     "codepoints": [
       127482,
@@ -9274,7 +9274,7 @@
     "fitz": false
   },
   "1f1fa_1f1f8": {
-    "name": "NO NAME FOR EMOJI 1f1fa_1f1f8",
+    "name": "United States",
     "emojilib_name": "us",
     "codepoints": [
       127482,
@@ -9298,7 +9298,7 @@
     "fitz": false
   },
   "1f1fa_1f1fe": {
-    "name": "NO NAME FOR EMOJI 1f1fa_1f1fe",
+    "name": "Uruguay",
     "emojilib_name": "uruguay",
     "codepoints": [
       127482,
@@ -9320,7 +9320,7 @@
     "fitz": false
   },
   "1f1fa_1f1ff": {
-    "name": "NO NAME FOR EMOJI 1f1fa_1f1ff",
+    "name": "Uzbekistan",
     "emojilib_name": "uzbekistan",
     "codepoints": [
       127482,
@@ -9342,7 +9342,7 @@
     "fitz": false
   },
   "1f1fb_1f1e6": {
-    "name": "NO NAME FOR EMOJI 1f1fb_1f1e6",
+    "name": "Vatican City",
     "emojilib_name": "vatican_city",
     "codepoints": [
       127483,
@@ -9364,7 +9364,7 @@
     "fitz": false
   },
   "1f1fb_1f1e8": {
-    "name": "NO NAME FOR EMOJI 1f1fb_1f1e8",
+    "name": "St. Vincent & Grenadines",
     "emojilib_name": "st_vincent_grenadines",
     "codepoints": [
       127483,
@@ -9388,7 +9388,7 @@
     "fitz": false
   },
   "1f1fb_1f1ea": {
-    "name": "NO NAME FOR EMOJI 1f1fb_1f1ea",
+    "name": "Venezuela",
     "emojilib_name": "venezuela",
     "codepoints": [
       127483,
@@ -9412,7 +9412,7 @@
     "fitz": false
   },
   "1f1fb_1f1ec": {
-    "name": "NO NAME FOR EMOJI 1f1fb_1f1ec",
+    "name": "British Virgin Islands",
     "emojilib_name": "british_virgin_islands",
     "codepoints": [
       127483,
@@ -9436,7 +9436,7 @@
     "fitz": false
   },
   "1f1fb_1f1ee": {
-    "name": "NO NAME FOR EMOJI 1f1fb_1f1ee",
+    "name": "U.S. Virgin Islands",
     "emojilib_name": "us_virgin_islands",
     "codepoints": [
       127483,
@@ -9459,7 +9459,7 @@
     "fitz": false
   },
   "1f1fb_1f1f3": {
-    "name": "NO NAME FOR EMOJI 1f1fb_1f1f3",
+    "name": "Vietnam",
     "emojilib_name": "vietnam",
     "codepoints": [
       127483,
@@ -9482,7 +9482,7 @@
     "fitz": false
   },
   "1f1fb_1f1fa": {
-    "name": "NO NAME FOR EMOJI 1f1fb_1f1fa",
+    "name": "Vanuatu",
     "emojilib_name": "vanuatu",
     "codepoints": [
       127483,
@@ -9504,7 +9504,7 @@
     "fitz": false
   },
   "1f1fc_1f1eb": {
-    "name": "NO NAME FOR EMOJI 1f1fc_1f1eb",
+    "name": "Wallis & Futuna",
     "emojilib_name": "wallis_futuna",
     "codepoints": [
       127484,
@@ -9526,7 +9526,7 @@
     "fitz": false
   },
   "1f1fc_1f1f8": {
-    "name": "NO NAME FOR EMOJI 1f1fc_1f1f8",
+    "name": "Samoa",
     "emojilib_name": "samoa",
     "codepoints": [
       127484,
@@ -9548,7 +9548,7 @@
     "fitz": false
   },
   "1f1fd_1f1f0": {
-    "name": "NO NAME FOR EMOJI 1f1fd_1f1f0",
+    "name": "Kosovo",
     "emojilib_name": "kosovo",
     "codepoints": [
       127485,
@@ -9570,7 +9570,7 @@
     "fitz": false
   },
   "1f1fe_1f1ea": {
-    "name": "NO NAME FOR EMOJI 1f1fe_1f1ea",
+    "name": "Yemen",
     "emojilib_name": "yemen",
     "codepoints": [
       127486,
@@ -9592,7 +9592,7 @@
     "fitz": false
   },
   "1f1fe_1f1f9": {
-    "name": "NO NAME FOR EMOJI 1f1fe_1f1f9",
+    "name": "Mayotte",
     "emojilib_name": "mayotte",
     "codepoints": [
       127486,
@@ -9614,7 +9614,7 @@
     "fitz": false
   },
   "1f1ff_1f1e6": {
-    "name": "NO NAME FOR EMOJI 1f1ff_1f1e6",
+    "name": "South Africa",
     "emojilib_name": "south_africa",
     "codepoints": [
       127487,
@@ -9636,7 +9636,7 @@
     "fitz": false
   },
   "1f1ff_1f1f2": {
-    "name": "NO NAME FOR EMOJI 1f1ff_1f1f2",
+    "name": "Zambia",
     "emojilib_name": "zambia",
     "codepoints": [
       127487,
@@ -9658,7 +9658,7 @@
     "fitz": false
   },
   "1f1ff_1f1fc": {
-    "name": "NO NAME FOR EMOJI 1f1ff_1f1fc",
+    "name": "Zimbabwe",
     "emojilib_name": "zimbabwe",
     "codepoints": [
       127487,
@@ -15234,7 +15234,7 @@
     "fitz": false
   },
   "1f3f4_e0067_e0062_e0065_e006e_e0067_e007f": {
-    "name": "NO NAME FOR EMOJI 1f3f4_e0067_e0062_e0065_e006e_e0067_e007f",
+    "name": "England",
     "emojilib_name": null,
     "codepoints": [
       127988,
@@ -15256,7 +15256,7 @@
     "fitz": false
   },
   "1f3f4_e0067_e0062_e0073_e0063_e0074_e007f": {
-    "name": "NO NAME FOR EMOJI 1f3f4_e0067_e0062_e0073_e0063_e0074_e007f",
+    "name": "Scotland",
     "emojilib_name": null,
     "codepoints": [
       127988,
@@ -15278,7 +15278,7 @@
     "fitz": false
   },
   "1f3f4_e0067_e0062_e0077_e006c_e0073_e007f": {
-    "name": "NO NAME FOR EMOJI 1f3f4_e0067_e0062_e0077_e006c_e0073_e007f",
+    "name": "Wales",
     "emojilib_name": null,
     "codepoints": [
       127988,
@@ -16886,7 +16886,7 @@
     "fitz": false
   },
   "1f441_1f5e8": {
-    "name": "NO NAME FOR EMOJI 1f441_1f5e8",
+    "name": "eye in speech bubble",
     "emojilib_name": null,
     "codepoints": [
       128065,
@@ -17873,7 +17873,7 @@
     ]
   },
   "1f468_2695": {
-    "name": "NO NAME FOR EMOJI 1f468_2695",
+    "name": "man health worker",
     "emojilib_name": "man_health_worker",
     "codepoints": [
       128104,
@@ -17905,7 +17905,7 @@
     ]
   },
   "1f468_2696": {
-    "name": "NO NAME FOR EMOJI 1f468_2696",
+    "name": "man judge",
     "emojilib_name": "man_judge",
     "codepoints": [
       128104,
@@ -17934,7 +17934,7 @@
     ]
   },
   "1f468_2708": {
-    "name": "NO NAME FOR EMOJI 1f468_2708",
+    "name": "man pilot",
     "emojilib_name": "man_pilot",
     "codepoints": [
       128104,
@@ -18368,7 +18368,7 @@
     ]
   },
   "1f469_2695": {
-    "name": "NO NAME FOR EMOJI 1f469_2695",
+    "name": "woman health worker",
     "emojilib_name": "woman_health_worker",
     "codepoints": [
       128105,
@@ -18400,7 +18400,7 @@
     ]
   },
   "1f469_2696": {
-    "name": "NO NAME FOR EMOJI 1f469_2696",
+    "name": "woman judge",
     "emojilib_name": "woman_judge",
     "codepoints": [
       128105,
@@ -18429,7 +18429,7 @@
     ]
   },
   "1f469_2708": {
-    "name": "NO NAME FOR EMOJI 1f469_2708",
+    "name": "woman pilot",
     "emojilib_name": "woman_pilot",
     "codepoints": [
       128105,
@@ -18838,7 +18838,7 @@
     ]
   },
   "1f46a_MB": {
-    "name": "NO NAME FOR EMOJI 1f46a_MB",
+    "name": "family: man, boy",
     "emojilib_name": "family_man_boy",
     "codepoints": [
       128104,
@@ -18863,7 +18863,7 @@
     "fitz": false
   },
   "1f46a_MBB": {
-    "name": "NO NAME FOR EMOJI 1f46a_MBB",
+    "name": "family: man, boy, boy",
     "emojilib_name": "family_man_boy_boy",
     "codepoints": [
       128104,
@@ -18890,7 +18890,7 @@
     "fitz": false
   },
   "1f46a_MG": {
-    "name": "NO NAME FOR EMOJI 1f46a_MG",
+    "name": "family: man, girl",
     "emojilib_name": "family_man_girl",
     "codepoints": [
       128104,
@@ -18915,7 +18915,7 @@
     "fitz": false
   },
   "1f46a_MGB": {
-    "name": "NO NAME FOR EMOJI 1f46a_MGB",
+    "name": "family: man, girl, boy",
     "emojilib_name": "family_man_girl_boy",
     "codepoints": [
       128104,
@@ -18943,7 +18943,7 @@
     "fitz": false
   },
   "1f46a_MGG": {
-    "name": "NO NAME FOR EMOJI 1f46a_MGG",
+    "name": "family: man, girl, girl",
     "emojilib_name": "family_man_girl_girl",
     "codepoints": [
       128104,
@@ -18970,7 +18970,7 @@
     "fitz": false
   },
   "1f46a_MMB": {
-    "name": "NO NAME FOR EMOJI 1f46a_MMB",
+    "name": "family: man, man, boy",
     "emojilib_name": "family_man_man_boy",
     "codepoints": [
       128104,
@@ -18997,7 +18997,7 @@
     "fitz": false
   },
   "1f46a_MMBB": {
-    "name": "NO NAME FOR EMOJI 1f46a_MMBB",
+    "name": "family: man, man, boy, boy",
     "emojilib_name": "family_man_man_boy_boy",
     "codepoints": [
       128104,
@@ -19026,7 +19026,7 @@
     "fitz": false
   },
   "1f46a_MMG": {
-    "name": "NO NAME FOR EMOJI 1f46a_MMG",
+    "name": "family: man, man, girl",
     "emojilib_name": "family_man_man_girl",
     "codepoints": [
       128104,
@@ -19053,7 +19053,7 @@
     "fitz": false
   },
   "1f46a_MMGB": {
-    "name": "NO NAME FOR EMOJI 1f46a_MMGB",
+    "name": "family: man, man, girl, boy",
     "emojilib_name": "family_man_man_girl_boy",
     "codepoints": [
       128104,
@@ -19083,7 +19083,7 @@
     "fitz": false
   },
   "1f46a_MMGG": {
-    "name": "NO NAME FOR EMOJI 1f46a_MMGG",
+    "name": "family: man, man, girl, girl",
     "emojilib_name": "family_man_man_girl_girl",
     "codepoints": [
       128104,
@@ -19112,7 +19112,7 @@
     "fitz": false
   },
   "1f46a_MWB": {
-    "name": "NO NAME FOR EMOJI 1f46a_MWB",
+    "name": "family: man, woman, boy",
     "emojilib_name": "family_man_woman_boy",
     "codepoints": [
       128104,
@@ -19144,7 +19144,7 @@
     "fitz": false
   },
   "1f46a_MWBB": {
-    "name": "NO NAME FOR EMOJI 1f46a_MWBB",
+    "name": "family: man, woman, boy, boy",
     "emojilib_name": "family_man_woman_boy_boy",
     "codepoints": [
       128104,
@@ -19174,7 +19174,7 @@
     "fitz": false
   },
   "1f46a_MWG": {
-    "name": "NO NAME FOR EMOJI 1f46a_MWG",
+    "name": "family: man, woman, girl",
     "emojilib_name": "family_man_woman_girl",
     "codepoints": [
       128104,
@@ -19202,7 +19202,7 @@
     "fitz": false
   },
   "1f46a_MWGB": {
-    "name": "NO NAME FOR EMOJI 1f46a_MWGB",
+    "name": "family: man, woman, girl, boy",
     "emojilib_name": "family_man_woman_girl_boy",
     "codepoints": [
       128104,
@@ -19233,7 +19233,7 @@
     "fitz": false
   },
   "1f46a_MWGG": {
-    "name": "NO NAME FOR EMOJI 1f46a_MWGG",
+    "name": "family: man, woman, girl, girl",
     "emojilib_name": "family_man_woman_girl_girl",
     "codepoints": [
       128104,
@@ -19263,7 +19263,7 @@
     "fitz": false
   },
   "1f46a_WB": {
-    "name": "NO NAME FOR EMOJI 1f46a_WB",
+    "name": "family: woman, boy",
     "emojilib_name": "family_woman_boy",
     "codepoints": [
       128105,
@@ -19288,7 +19288,7 @@
     "fitz": false
   },
   "1f46a_WBB": {
-    "name": "NO NAME FOR EMOJI 1f46a_WBB",
+    "name": "family: woman, boy, boy",
     "emojilib_name": "family_woman_boy_boy",
     "codepoints": [
       128105,
@@ -19315,7 +19315,7 @@
     "fitz": false
   },
   "1f46a_WG": {
-    "name": "NO NAME FOR EMOJI 1f46a_WG",
+    "name": "family: woman, girl",
     "emojilib_name": "family_woman_girl",
     "codepoints": [
       128105,
@@ -19340,7 +19340,7 @@
     "fitz": false
   },
   "1f46a_WGB": {
-    "name": "NO NAME FOR EMOJI 1f46a_WGB",
+    "name": "family: woman, girl, boy",
     "emojilib_name": "family_woman_girl_boy",
     "codepoints": [
       128105,
@@ -19368,7 +19368,7 @@
     "fitz": false
   },
   "1f46a_WGG": {
-    "name": "NO NAME FOR EMOJI 1f46a_WGG",
+    "name": "family: woman, girl, girl",
     "emojilib_name": "family_woman_girl_girl",
     "codepoints": [
       128105,
@@ -19395,7 +19395,7 @@
     "fitz": false
   },
   "1f46a_WWB": {
-    "name": "NO NAME FOR EMOJI 1f46a_WWB",
+    "name": "family: woman, woman, boy",
     "emojilib_name": "family_woman_woman_boy",
     "codepoints": [
       128105,
@@ -19422,7 +19422,7 @@
     "fitz": false
   },
   "1f46a_WWBB": {
-    "name": "NO NAME FOR EMOJI 1f46a_WWBB",
+    "name": "family: woman, woman, boy, boy",
     "emojilib_name": "family_woman_woman_boy_boy",
     "codepoints": [
       128105,
@@ -19451,7 +19451,7 @@
     "fitz": false
   },
   "1f46a_WWG": {
-    "name": "NO NAME FOR EMOJI 1f46a_WWG",
+    "name": "family: woman, woman, girl",
     "emojilib_name": "family_woman_woman_girl",
     "codepoints": [
       128105,
@@ -19478,7 +19478,7 @@
     "fitz": false
   },
   "1f46a_WWGB": {
-    "name": "NO NAME FOR EMOJI 1f46a_WWGB",
+    "name": "family: woman, woman, girl, boy",
     "emojilib_name": "family_woman_woman_girl_boy",
     "codepoints": [
       128105,
@@ -19508,7 +19508,7 @@
     "fitz": false
   },
   "1f46a_WWGG": {
-    "name": "NO NAME FOR EMOJI 1f46a_WWGG",
+    "name": "family: woman, woman, girl, girl",
     "emojilib_name": "family_woman_woman_girl_girl",
     "codepoints": [
       128105,
@@ -20512,7 +20512,7 @@
     "fitz": false
   },
   "1f48f_MM": {
-    "name": "NO NAME FOR EMOJI 1f48f_MM",
+    "name": "kiss: man, man",
     "emojilib_name": "couplekiss_man_man",
     "codepoints": [
       128104,
@@ -20542,7 +20542,7 @@
     "fitz": false
   },
   "1f48f_MW": {
-    "name": "NO NAME FOR EMOJI 1f48f_MW",
+    "name": "kiss: woman, man",
     "emojilib_name": "couplekiss_man_woman",
     "codepoints": [
       128105,
@@ -20573,7 +20573,7 @@
     "fitz": false
   },
   "1f48f_WW": {
-    "name": "NO NAME FOR EMOJI 1f48f_WW",
+    "name": "kiss: woman, woman",
     "emojilib_name": "couplekiss_woman_woman",
     "codepoints": [
       128105,
@@ -20623,7 +20623,7 @@
     "fitz": false
   },
   "1f491_MM": {
-    "name": "NO NAME FOR EMOJI 1f491_MM",
+    "name": "couple with heart: man, man",
     "emojilib_name": "couple_with_heart_man_man",
     "codepoints": [
       128104,
@@ -20655,7 +20655,7 @@
     "fitz": false
   },
   "1f491_MW": {
-    "name": "NO NAME FOR EMOJI 1f491_MW",
+    "name": "couple with heart: woman, man",
     "emojilib_name": "couple_with_heart_woman_man",
     "codepoints": [
       128105,
@@ -20688,7 +20688,7 @@
     "fitz": false
   },
   "1f491_WW": {
-    "name": "NO NAME FOR EMOJI 1f491_WW",
+    "name": "couple with heart: woman, woman",
     "emojilib_name": "couple_with_heart_woman_woman",
     "codepoints": [
       128105,

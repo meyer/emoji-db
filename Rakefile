@@ -18,6 +18,7 @@ FontDir = RootDir.join('fonts')
 CacheDir = RootDir.join('cache')
 EmojiImgDir = RootDir.join('emoji-img')
 EmojiImgDirRelative = Pathname.new('./emoji-img')
+SystemEmojiFont = Pathname.new('/System/Library/Fonts/Apple Color Emoji.ttc')
 
 ExtraMetadataFile = RootDir.join('extra-metadata.yaml').to_s
 
@@ -35,16 +36,16 @@ task :default => [:rebuild]
 
 desc "Copy `Apple Color Emoji.ttc` to font folder"
 task :copy_latest do
-  ttc_src = Pathname.new '/System/Library/Fonts/Apple Color Emoji.ttc'
-  raise 'source TTC do not exist' unless ttc_src.exist?
+  raise 'system emoji font does not exist' unless SystemEmojiFont.exist?
 
-  ttf = TTFunk::Collection.open(ttc_src) do |ttc|
+  ttf = TTFunk::Collection.open(SystemEmojiFont) do |ttc|
     ttc.find {|a| a.name.font_name[0] == 'Apple Color Emoji'}
   end
 
   font_version = ttf.name.version[0]
   font_date = ttf.name.unique_subfamily[0][/(\d{4}\-\d\d\-\d\d)/]
-  ttc_dest = FontDir.join("Apple Color Emoji #{font_version}.ttc")
+  ttc_name = "Apple Color Emoji #{font_version}.ttc"
+  ttc_dest = FontDir.join(ttc_name)
 
   info_plist = '/System/Library/CoreServices/SystemVersion.plist'
   system_info = JSON.parse(`plutil -convert json -r -o - -- #{info_plist.shellescape}`)
@@ -67,23 +68,30 @@ task :copy_latest do
   end
 
   if ttc_dest.exist?
-    puts "TTC file has already been copied over"
+    puts "`#{ttc_name}` has already been copied over"
   else
     cp ttc_src, ttc_dest
   end
 end
 
 desc "Extract emoji images from the latest TTF file"
-task :generate_emoji_db do
-  raise 'EMOJI_VERSION environmental variable must be set' unless ENV['EMOJI_VERSION']
+task :generate_emoji_db => [:copy_latest] do
+  ttf = if ENV['EMOJI_VERSION']
+    emoji_ttf = FontDir.join("Apple Color Emoji #{ENV['EMOJI_VERSION']}.ttf")
+    emoji_ttc = FontDir.join("Apple Color Emoji #{ENV['EMOJI_VERSION']}.ttc")
 
-  emoji_ttf = FontDir.join("Apple Color Emoji #{ENV['EMOJI_VERSION']}.ttf")
-  emoji_ttc = FontDir.join("Apple Color Emoji #{ENV['EMOJI_VERSION']}.ttc")
-
-  ttf = if emoji_ttf.exist?
-    TTFunk::File.open(emoji_ttf)
-  elsif emoji_ttc.exist?
-    TTFunk::Collection.open(emoji_ttc) do |ttc|
+    if emoji_ttf.exist?
+      TTFunk::File.open(emoji_ttf)
+    elsif emoji_ttc.exist?
+      TTFunk::Collection.open(emoji_ttc) do |ttc|
+        ttc.find {|a| a.name.font_name[0] == 'Apple Color Emoji'}
+      end
+    else
+      abort "Could not find `Apple Color Emoji #{ENV['EMOJI_VERSION']}.tt[cf]`"
+    end
+  else
+    puts " - using system emoji font"
+    TTFunk::Collection.open(SystemEmojiFont) do |ttc|
       ttc.find {|a| a.name.font_name[0] == 'Apple Color Emoji'}
     end
   end
@@ -191,7 +199,7 @@ task :generate_emoji_db do
     # puts "Missing name for #{emoji_key} (#{emoji_string})" if !name
 
     data = emoji_data[emoji_key] || {
-      name: name || "NO NAME FOR EMOJI #{emoji_key}",
+      name: name,
       emojilib_name: nil,
       codepoints: codepoints,
       unicode_category: nil,
@@ -225,7 +233,7 @@ task :generate_emoji_db do
     end
 
     if uni
-      data[:name] ||= uni['description'].downcase
+      data[:name] ||= uni['description']
       if uni['category']
         data[:unicode_category] = unicode_data['categories'][uni['category']]
         data[:unicode_subcategory] = unicode_data['subcategories'][uni['subcategory']]
@@ -237,6 +245,7 @@ task :generate_emoji_db do
       data[:keywords] += emojilib_data[emoji_key]['keywords'] || []
     end
 
+    abort "Name for #{emoji_key} is missing" unless data[:name]
     data[:keywords].sort!.uniq!
 
     emoji_data[emoji_key] = data
@@ -277,7 +286,7 @@ task :build_unicode_db => [:generate_annotations, :generate_sequences] do
   current_category = nil
   current_subcategory = nil
 
-  rows.each_with_index do |row, idx|
+  rows.each do |row|
     cells = row.css('td')
     next if cells.length === 0
     if cells.length === 1
@@ -303,7 +312,7 @@ task :build_unicode_db => [:generate_annotations, :generate_sequences] do
       emoji = cells[0].text.strip.gsub(/[[:space:]]/, '')
       description = cells[2].text.strip
       emoji_key = emoji.to_codepoints.to_emoji_key
-      slug = description.downcase.gsub(/[^\w\-_]/, '_')
+      slug = description.downcase.gsub(/[^\w\-]/, '_')
 
       abort "duplicate emoji_key! #{emoji_key}" if unicode_db[:emoji][emoji_key]
 
@@ -324,22 +333,20 @@ task :build_unicode_db => [:generate_annotations, :generate_sequences] do
   sequence_data = JSON.parse(File.read SequenceFile)
 
   sequence_data.each do |k, v|
+    new = {
+      emoji: v['codepoints'].pack('U*'),
+      slug: v['desc'].downcase.gsub(/[^\w\-]/, '_'),
+      codepoints: v['codepoints'],
+      description: v['desc'],
+    }
+
     if unicode_db[:emoji][k]
-      unicode_db[:emoji][k].merge!({
-        emoji: v['codepoints'].pack('U*'),
-        slug: v['desc'].downcase.gsub(/[^\w\-_]/, '_'),
-        codepoints: v['codepoints'],
-        description: v['desc'],
-      })
+      unicode_db[:emoji][k].merge!(new)
     else
-      unicode_db[:emoji][k] = {
-        emoji: v['codepoints'].pack('U*'),
-        slug: v['desc'].downcase.gsub(/[^\w\-_]/, '_'),
-        codepoints: v['codepoints'],
-        description: v['desc'],
+      unicode_db[:emoji][k] = new.merge({
         category: 0,
         subcategory: 0,
-      }
+      })
     end
 
     # abort "Duplicate key: #{k}" if unicode_db[:emoji][k]
@@ -360,6 +367,7 @@ end
 UnicodeAnnotationURL = 'http://www.unicode.org/repos/cldr/tags/latest/common/annotations/en.xml'
 
 task :generate_annotations do
+  puts "Generating annotation file..."
   $unicode_annotation_src = CacheDir.join('unicode-annotations.xml').to_s
 
   file_contents = if File.exist?($unicode_annotation_src)
@@ -388,9 +396,11 @@ task :generate_annotations do
     names: names,
     keywords: keywords,
   })}
+  puts "Done!"
 end
 
 task :generate_sequences do
+  puts "Generating emoji sequence file..."
   sequence_data = {}
   [
     'emoji-sequences.txt',
