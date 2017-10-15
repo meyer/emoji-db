@@ -186,7 +186,9 @@ task :generate_emoji_db => [:copy_latest] do
     name = annotation_data['names'][emoji_key] || nil
     keywords = annotation_data['keywords'][emoji_key] || []
 
-    emoji_filename = if /^[\w\-]+$/ =~ emojilib_thing['emojilib_name']
+    emoji_filename = if name
+      name.downcase.gsub(/[^\w\-]+/, '_').gsub(/^_|_$/, '')
+    elsif /^[\w\-]+$/ =~ emojilib_thing['emojilib_name']
       emojilib_thing['emojilib_name']
     else
       emoji_key
