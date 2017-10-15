@@ -34,23 +34,17 @@ HeartCodepoints = [
 
 UnicodeJoiners = [
   0x200d,
-  0xfe0f,
-  0xfe0e,
+  0xfe0f, # emoji variation selector
+  0xfe0e, # text variation selector
 ]
 
 class String
   def fam_sort
-    self.split('').sort_by {|e| 'MWGB'.index(e) || -1}.join('')
+    self.split('').sort_by {|char| 'MWGB'.index(char) || -1}.join('')
   end
 
   def to_codepoints
-    self.chars.map do |c|
-      c.unpack('U')[0]
-    end.delete_if do |c|
-      # remove variation selector
-      # TODO: maybe add it to key_to_emoji
-      # c === 0xfe0f
-    end
+    self.chars.map {|char| char.unpack('U')[0]}
   end
 end
 
@@ -67,19 +61,19 @@ end
 
 class Array
   def int_to_hex
-    self.map {|e| e.is_a?(Numeric) ? e.to_unicode : e.to_s}
+    self.map {|item| item.is_a?(Numeric) ? item.to_unicode : item.to_s}
   end
 
   def hex_to_int
-    self.map {|e| e.to_i(16)}
+    self.map {|str| str.to_i(16)}
   end
 
   def to_fam_string
-    self.map {|p| FamCodepoints[p]}.compact.join('').fam_sort
+    self.map {|codepoint| FamCodepoints[codepoint]}.compact.join('').fam_sort
   end
 
   def reject_joiners
-    self.reject {|c| UnicodeJoiners.include?(c)}
+    self.reject {|num| UnicodeJoiners.include?(num)}
   end
 
   def to_emoji_key
@@ -89,10 +83,14 @@ class Array
     if codepoints === [0x1f48f]
       # default kiss emoji"
       return '1f48f_MW'
-    elsif codepoints === [0x1f491]
+    end
+
+    if codepoints === [0x1f491]
       # default heart emoji"
       return '1f491_MW'
-    elsif codepoints === [0x1f46a]
+    end
+
+    if codepoints === [0x1f46a]
       # default family emoji"
       return '1f46a_MWB'
     end

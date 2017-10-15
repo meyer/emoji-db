@@ -13,23 +13,23 @@ require './utils.rb'
 
 RootDir = Pathname.new Rake.application.original_dir
 
-DataDir = RootDir.join('data')
-FontDir = RootDir.join('fonts')
 CacheDir = RootDir.join('cache')
+DataDir = RootDir.join('data')
 EmojiImgDir = RootDir.join('emoji-img')
 EmojiImgDirRelative = Pathname.new('./emoji-img')
+FontDir = RootDir.join('fonts')
 SystemEmojiFont = Pathname.new('/System/Library/Fonts/Apple Color Emoji.ttc')
 
-ExtraMetadataFile = RootDir.join('extra-metadata.yaml').to_s
+ExtraKeywordsFile = RootDir.join('extra-keywords.yaml').to_s
 
 # files to output
-EmojiDBFile = RootDir.join('emoji-db.json').to_s
-FontVersionFile = FontDir.join('versions.json').to_s
-FontDataFile = FontDir.join('font-data.json').to_s
 EmojiCategoryFile = DataDir.join('emoji-by-category.json').to_s
-UnicodeDataFile = DataDir.join('unicode-data.json').to_s
-UnicodeAnnotationFile = DataDir.join('unicode-annotations.json').to_s
+EmojiDBFile = RootDir.join('emoji-db.json').to_s
+FontDataFile = FontDir.join('font-data.json').to_s
+FontVersionFile = FontDir.join('versions.json').to_s
 SequenceFile = DataDir.join('sequences.json').to_s
+UnicodeAnnotationFile = DataDir.join('unicode-annotations.json').to_s
+UnicodeDataFile = DataDir.join('unicode-data.json').to_s
 
 task :rebuild => [:build_unicode_db, :generate_emoji_db]
 task :default => [:rebuild]
@@ -104,7 +104,7 @@ task :generate_emoji_db => [:copy_latest] do
   rm_rf EmojiImgDir
   mkdir_p EmojiImgDir
 
-  extra_metadata = YAML.load(File.read ExtraMetadataFile) || {}
+  extra_keywords = YAML.load(File.read ExtraKeywordsFile) || {}
   unicode_data = JSON.parse(File.read UnicodeDataFile)
   annotation_data = JSON.parse(File.read UnicodeAnnotationFile)
   sequence_data = JSON.parse(File.read SequenceFile)
@@ -128,6 +128,7 @@ task :generate_emoji_db => [:copy_latest] do
   # }
 
   emoji_data = {}
+  seen_filenames = {}
 
   ttf.maximum_profile.num_glyphs.times do |glyph_id|
     bitmaps = ttf.sbix.all_bitmap_data_for(glyph_id)
@@ -181,8 +182,11 @@ task :generate_emoji_db => [:copy_latest] do
     end
 
     emoji_key = codepoints.to_emoji_key
+    uni = unicode_data['emoji'][emoji_key]
+    name = annotation_data['names'][emoji_key] || nil
+    keywords = annotation_data['keywords'][emoji_key] || []
 
-    emoji_filename = if /^[\w\-_]+$/ =~ emojilib_thing['emojilib_name']
+    emoji_filename = if /^[\w\-]+$/ =~ emojilib_thing['emojilib_name']
       emojilib_thing['emojilib_name']
     else
       emoji_key
@@ -190,13 +194,16 @@ task :generate_emoji_db => [:copy_latest] do
 
     emoji_filename += ".#{fam.fam_sort}" if fam
     emoji_filename += ".#{fitz_idx}" if fitz_idx > 0
+
+    if seen_filenames[emoji_filename]
+      emoji_filename = "#{emoji_filename}_#{emoji_key}"
+      emoji_filename += ".#{fam.fam_sort}" if fam
+      emoji_filename += ".#{fitz_idx}" if fitz_idx > 0
+      abort "duplicate slug! #{emoji_filename}" if seen_filenames[emoji_filename]
+    end
+    seen_filenames[emoji_filename] = true
+
     emoji_filename += ".#{bitmap.type}"
-
-    uni = unicode_data['emoji'][emoji_key]
-    name = annotation_data['names'][emoji_string] || nil
-    keywords = annotation_data['keywords'][emoji_string] || []
-
-    # puts "Missing name for #{emoji_key} (#{emoji_string})" if !name
 
     data = emoji_data[emoji_key] || {
       name: name,
@@ -207,7 +214,6 @@ task :generate_emoji_db => [:copy_latest] do
       keywords: keywords,
       emoji: emoji_string,
       image: nil,
-      year: nil, # TODO: remove
       fitz: false,
     }
 
@@ -220,17 +226,7 @@ task :generate_emoji_db => [:copy_latest] do
     # write image to image dir
     File.write(EmojiImgDir.join(emoji_filename), bitmap.data.read)
 
-    if extra_metadata[emoji_key]
-      extra_metadata[emoji_key].each do |k,v|
-        # ensure keys are symbols
-        key = k.to_sym
-        if key === :keywords
-          data[key] += v || []
-        else
-          data[key] = v
-        end
-      end
-    end
+    data[:keywords].concat(extra_keywords[emoji_key] || [])
 
     if uni
       data[:name] ||= uni['description']
@@ -286,6 +282,8 @@ task :build_unicode_db => [:generate_annotations, :generate_sequences] do
   current_category = nil
   current_subcategory = nil
 
+  seen_slugs = {}
+
   rows.each do |row|
     cells = row.css('td')
     next if cells.length === 0
@@ -310,11 +308,13 @@ task :build_unicode_db => [:generate_annotations, :generate_sequences] do
     elsif cells.length === 3
       # :space: catches \u00a0 and friends
       emoji = cells[0].text.strip.gsub(/[[:space:]]/, '')
-      description = cells[2].text.strip
       emoji_key = emoji.to_codepoints.to_emoji_key
-      slug = description.downcase.gsub(/[^\w\-]/, '_')
+      description = cells[2].text.strip
+      slug = description.downcase.gsub(/[^\w\-]/, '_').gsub(/^_|_$/, '')
 
       abort "duplicate emoji_key! #{emoji_key}" if unicode_db[:emoji][emoji_key]
+      abort "seen slug! #{slug}" if seen_slugs[slug]
+      seen_slugs[slug] = true
 
       unicode_db[:emoji][emoji_key] = {
         emoji: emoji,
@@ -335,9 +335,9 @@ task :build_unicode_db => [:generate_annotations, :generate_sequences] do
   sequence_data.each do |k, v|
     new = {
       emoji: v['codepoints'].pack('U*'),
-      slug: v['desc'].downcase.gsub(/[^\w\-]/, '_'),
+      slug: v['description'].downcase.gsub(/[^\w\-]/, '_'),
       codepoints: v['codepoints'],
-      description: v['desc'],
+      description: v['description'],
     }
 
     if unicode_db[:emoji][k]
@@ -348,33 +348,20 @@ task :build_unicode_db => [:generate_annotations, :generate_sequences] do
         subcategory: 0,
       })
     end
-
-    # abort "Duplicate key: #{k}" if unicode_db[:emoji][k]
-    # unicode_db[:emoji][k] ||= {}
-    # unicode_db[:emoji][k].merge!({
-    #   emoji: v['codepoints'].pack('U*'),
-    #   slug: v['desc'].downcase.gsub(/[^\w\-_]/, '_'),
-    #   codepoints: v['codepoints'],
-    #   description: v['desc'],
-    #   category: 0,
-    #   subcategory: 0,
-    # })
   end
 
   File.open(UnicodeDataFile, 'w') {|f| f.puts JSON.pretty_generate(unicode_db)}
 end
 
-UnicodeAnnotationURL = 'http://www.unicode.org/repos/cldr/tags/latest/common/annotations/en.xml'
-
 task :generate_annotations do
-  puts "Generating annotation file..."
+  $unicode_annotation_url = 'http://www.unicode.org/repos/cldr/tags/latest/common/annotations/en.xml'
   $unicode_annotation_src = CacheDir.join('unicode-annotations.xml').to_s
 
   file_contents = if File.exist?($unicode_annotation_src)
-    puts "UnicodeAnnotationURL is already cached, delete '#{File.basename $unicode_annotation_src}' to re-download."
+    puts "$unicode_annotation_url is already cached, delete '#{File.basename $unicode_annotation_src}' to re-download."
     File.read($unicode_annotation_src)
   else
-    contents = `curl #{UnicodeAnnotationURL.shellescape}`
+    contents = `curl #{$unicode_annotation_url.shellescape}`
     File.write($unicode_annotation_src, contents)
     contents
   end
@@ -385,10 +372,11 @@ task :generate_annotations do
 
   doc.xpath('//ldml/annotations/annotation').each do |node|
     emoji = node.attr('cp')
+    emoji_key = emoji.to_codepoints.to_emoji_key
     if node.attr('type') == 'tts'
-      names[emoji] = node.text
+      names[emoji_key] = node.text
     else
-      keywords[emoji] = node.text.split('|').map(&:strip)
+      keywords[emoji_key] = node.text.split('|').map(&:strip)
     end
   end
 
@@ -396,15 +384,16 @@ task :generate_annotations do
     names: names,
     keywords: keywords,
   })}
-  puts "Done!"
 end
+
 
 task :generate_sequences do
   puts "Generating emoji sequence file..."
   sequence_data = {}
   [
     'emoji-sequences.txt',
-    'emoji-zwj-sequences.txt'
+    'emoji-zwj-sequences.txt',
+    # 'emoji-variation-sequences.txt'
   ].each do |f|
     sequence_src = CacheDir.join(f)
     File.read(sequence_src).each_line do |line|
@@ -420,17 +409,20 @@ task :generate_sequences do
 
       # ensure there's no overwriting
       if sequence_data[k]
-        abort <<-UHOH
-        Already have a thing for `#{k}`! Compare:
-        #{codepoints.join(', ')}
-        #{sequence_data[k][:codepoints].join(', ')}
+        abort <<~UHOH
+        Error: Already have a thing for `#{k}`! Compare:
+        - Old: #{sequence_data[k][:codepoints].join(', ')}
+        - New: #{codepoints.join(', ')}
         UHOH
       end
 
-      sequence_data[k] = {
-        codepoints: codepoints,
-        desc: desc,
-      }
+      if f === 'emoji-variation-sequences.txt'
+        # third field is not a description
+        sequence_data[k] = { codepoints: codepoints } if category === 'emoji style'
+      else
+        sequence_data[k] = { codepoints: codepoints, description: desc }
+      end
+
     end
   end
 
