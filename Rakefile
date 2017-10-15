@@ -183,11 +183,11 @@ task :generate_emoji_db => [:copy_latest] do
 
     emoji_key = codepoints.to_emoji_key
     uni = unicode_data['emoji'][emoji_key]
-    name = annotation_data['names'][emoji_key] || nil
+    name = annotation_data['names'][emoji_key] || uni['description'] || nil
     keywords = annotation_data['keywords'][emoji_key] || []
 
-    emoji_filename = if name
-      name.downcase.gsub(/[^\w\-]+/, '_').gsub(/^_|_$/, '')
+    emoji_filename = if uni['slug']
+      uni['slug']
     elsif /^[\w\-]+$/ =~ emojilib_thing['emojilib_name']
       emojilib_thing['emojilib_name']
     else
@@ -198,6 +198,7 @@ task :generate_emoji_db => [:copy_latest] do
     emoji_filename += ".#{fitz_idx}" if fitz_idx > 0
 
     if seen_filenames[emoji_filename]
+      puts "Emoji filename for `#{emoji_key}` (#{emoji_filename}) is a dupe"
       emoji_filename = "#{emoji_filename}_#{emoji_key}"
       emoji_filename += ".#{fam.fam_sort}" if fam
       emoji_filename += ".#{fitz_idx}" if fitz_idx > 0
@@ -312,7 +313,7 @@ task :build_unicode_db => [:generate_annotations, :generate_sequences] do
       emoji = cells[0].text.strip.gsub(/[[:space:]]/, '')
       emoji_key = emoji.to_codepoints.to_emoji_key
       description = cells[2].text.strip
-      slug = description.downcase.gsub(/[^\w\-]/, '_').gsub(/^_|_$/, '')
+      slug = description.slugify
 
       abort "duplicate emoji_key! #{emoji_key}" if unicode_db[:emoji][emoji_key]
       abort "seen slug! #{slug}" if seen_slugs[slug]
@@ -337,9 +338,9 @@ task :build_unicode_db => [:generate_annotations, :generate_sequences] do
   sequence_data.each do |k, v|
     new = {
       emoji: v['codepoints'].pack('U*'),
-      slug: v['description'].downcase.gsub(/[^\w\-]/, '_'),
       codepoints: v['codepoints'],
       description: v['description'],
+      slug: v['description'].slugify,
     }
 
     if unicode_db[:emoji][k]

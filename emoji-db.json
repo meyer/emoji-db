@@ -16,7 +16,7 @@
       "twitter"
     ],
     "emoji": "#️⃣",
-    "image": "./emoji-img/hash.png",
+    "image": "./emoji-img/keycap_hash.png",
     "fitz": false
   },
   "002a_20e3": {
@@ -35,7 +35,7 @@
       "star"
     ],
     "emoji": "*️⃣",
-    "image": "./emoji-img/asterisk.png",
+    "image": "./emoji-img/keycap_asterisk.png",
     "fitz": false
   },
   "0030_20e3": {
@@ -56,7 +56,7 @@
       "zero"
     ],
     "emoji": "0️⃣",
-    "image": "./emoji-img/zero.png",
+    "image": "./emoji-img/keycap_0.png",
     "fitz": false
   },
   "0031_20e3": {
@@ -76,7 +76,7 @@
       "one"
     ],
     "emoji": "1️⃣",
-    "image": "./emoji-img/one.png",
+    "image": "./emoji-img/keycap_1.png",
     "fitz": false
   },
   "0032_20e3": {
@@ -97,7 +97,7 @@
       "two"
     ],
     "emoji": "2️⃣",
-    "image": "./emoji-img/two.png",
+    "image": "./emoji-img/keycap_2.png",
     "fitz": false
   },
   "0033_20e3": {
@@ -118,7 +118,7 @@
       "three"
     ],
     "emoji": "3️⃣",
-    "image": "./emoji-img/three.png",
+    "image": "./emoji-img/keycap_3.png",
     "fitz": false
   },
   "0034_20e3": {
@@ -138,7 +138,7 @@
       "numbers"
     ],
     "emoji": "4️⃣",
-    "image": "./emoji-img/four.png",
+    "image": "./emoji-img/keycap_4.png",
     "fitz": false
   },
   "0035_20e3": {
@@ -159,7 +159,7 @@
       "prime"
     ],
     "emoji": "5️⃣",
-    "image": "./emoji-img/five.png",
+    "image": "./emoji-img/keycap_5.png",
     "fitz": false
   },
   "0036_20e3": {
@@ -179,7 +179,7 @@
       "six"
     ],
     "emoji": "6️⃣",
-    "image": "./emoji-img/six.png",
+    "image": "./emoji-img/keycap_6.png",
     "fitz": false
   },
   "0037_20e3": {
@@ -200,7 +200,7 @@
       "seven"
     ],
     "emoji": "7️⃣",
-    "image": "./emoji-img/seven.png",
+    "image": "./emoji-img/keycap_7.png",
     "fitz": false
   },
   "0038_20e3": {
@@ -220,7 +220,7 @@
       "numbers"
     ],
     "emoji": "8️⃣",
-    "image": "./emoji-img/eight.png",
+    "image": "./emoji-img/keycap_8.png",
     "fitz": false
   },
   "0039_20e3": {
@@ -240,7 +240,7 @@
       "numbers"
     ],
     "emoji": "9️⃣",
-    "image": "./emoji-img/nine.png",
+    "image": "./emoji-img/keycap_9.png",
     "fitz": false
   },
   "00a9": {
@@ -260,7 +260,7 @@
       "license"
     ],
     "emoji": "©",
-    "image": "./emoji-img/copyright.png",
+    "image": "./emoji-img/copyright_sign.png",
     "fitz": false
   },
   "00ae": {
@@ -277,7 +277,7 @@
       "registered"
     ],
     "emoji": "®",
-    "image": "./emoji-img/registered.png",
+    "image": "./emoji-img/registered_sign.png",
     "fitz": false
   },
   "203c": {
@@ -337,7 +337,7 @@
       "trademark"
     ],
     "emoji": "™",
-    "image": "./emoji-img/trade_mark.png",
+    "image": "./emoji-img/trade_mark_sign.png",
     "fitz": false
   },
   "2139": {
@@ -357,7 +357,7 @@
       "source"
     ],
     "emoji": "ℹ",
-    "image": "./emoji-img/information.png",
+    "image": "./emoji-img/information_source.png",
     "fitz": false
   },
   "2194": {
@@ -378,7 +378,7 @@
       "sideways"
     ],
     "emoji": "↔",
-    "image": "./emoji-img/left-right_arrow.png",
+    "image": "./emoji-img/left_right_arrow.png",
     "fitz": false
   },
   "2195": {
@@ -399,7 +399,7 @@
       "way"
     ],
     "emoji": "↕",
-    "image": "./emoji-img/up-down_arrow.png",
+    "image": "./emoji-img/up_down_arrow.png",
     "fitz": false
   },
   "2196": {
@@ -422,7 +422,7 @@
       "upper"
     ],
     "emoji": "↖",
-    "image": "./emoji-img/up-left_arrow.png",
+    "image": "./emoji-img/north_west_arrow.png",
     "fitz": false
   },
   "2197": {
@@ -445,7 +445,7 @@
       "upper"
     ],
     "emoji": "↗",
-    "image": "./emoji-img/up-right_arrow.png",
+    "image": "./emoji-img/north_east_arrow.png",
     "fitz": false
   },
   "2198": {
@@ -467,7 +467,7 @@
       "southeast"
     ],
     "emoji": "↘",
-    "image": "./emoji-img/down-right_arrow.png",
+    "image": "./emoji-img/south_east_arrow.png",
     "fitz": false
   },
   "2199": {
@@ -489,7 +489,7 @@
       "southwest"
     ],
     "emoji": "↙",
-    "image": "./emoji-img/down-left_arrow.png",
+    "image": "./emoji-img/south_west_arrow.png",
     "fitz": false
   },
   "21a9": {
@@ -512,7 +512,7 @@
       "with"
     ],
     "emoji": "↩",
-    "image": "./emoji-img/right_arrow_curving_left.png",
+    "image": "./emoji-img/leftwards_arrow_with_hook.png",
     "fitz": false
   },
   "21aa": {
@@ -533,7 +533,7 @@
       "rotate"
     ],
     "emoji": "↪",
-    "image": "./emoji-img/left_arrow_curving_right.png",
+    "image": "./emoji-img/rightwards_arrow_with_hook.png",
     "fitz": false
   },
   "231a": {
@@ -610,7 +610,7 @@
       "eject"
     ],
     "emoji": "⏏",
-    "image": "./emoji-img/eject_button.png",
+    "image": "./emoji-img/eject_symbol.png",
     "fitz": false
   },
   "23e9": {
@@ -632,7 +632,7 @@
       "speed"
     ],
     "emoji": "⏩",
-    "image": "./emoji-img/fast-forward_button.png",
+    "image": "./emoji-img/black_right-pointing_double_triangle.png",
     "fitz": false
   },
   "23ea": {
@@ -651,7 +651,7 @@
       "rewind"
     ],
     "emoji": "⏪",
-    "image": "./emoji-img/fast_reverse_button.png",
+    "image": "./emoji-img/black_left-pointing_double_triangle.png",
     "fitz": false
   },
   "23eb": {
@@ -671,7 +671,7 @@
       "up"
     ],
     "emoji": "⏫",
-    "image": "./emoji-img/fast_up_button.png",
+    "image": "./emoji-img/black_up-pointing_double_triangle.png",
     "fitz": false
   },
   "23ec": {
@@ -691,7 +691,7 @@
       "down"
     ],
     "emoji": "⏬",
-    "image": "./emoji-img/fast_down_button.png",
+    "image": "./emoji-img/black_down-pointing_double_triangle.png",
     "fitz": false
   },
   "23ed": {
@@ -714,7 +714,7 @@
       "triangle"
     ],
     "emoji": "⏭",
-    "image": "./emoji-img/next_track_button.png",
+    "image": "./emoji-img/black_right-pointing_double_triangle_with_vertical_bar.png",
     "fitz": false
   },
   "23ee": {
@@ -736,7 +736,7 @@
       "triangle"
     ],
     "emoji": "⏮",
-    "image": "./emoji-img/last_track_button.png",
+    "image": "./emoji-img/black_left-pointing_double_triangle_with_vertical_bar.png",
     "fitz": false
   },
   "23ef": {
@@ -758,7 +758,7 @@
       "triangle"
     ],
     "emoji": "⏯",
-    "image": "./emoji-img/play_or_pause_button.png",
+    "image": "./emoji-img/black_right-pointing_triangle_with_double_vertical_bar.png",
     "fitz": false
   },
   "23f0": {
@@ -852,7 +852,7 @@
       "vertical"
     ],
     "emoji": "⏸",
-    "image": "./emoji-img/pause_button.png",
+    "image": "./emoji-img/double_vertical_bar.png",
     "fitz": false
   },
   "23f9": {
@@ -870,7 +870,7 @@
       "stop"
     ],
     "emoji": "⏹",
-    "image": "./emoji-img/stop_button.png",
+    "image": "./emoji-img/black_square_for_stop.png",
     "fitz": false
   },
   "23fa": {
@@ -888,7 +888,7 @@
       "record"
     ],
     "emoji": "⏺",
-    "image": "./emoji-img/record_button.png",
+    "image": "./emoji-img/black_circle_for_record.png",
     "fitz": false
   },
   "24c2": {
@@ -907,7 +907,7 @@
       "m"
     ],
     "emoji": "Ⓜ",
-    "image": "./emoji-img/circled_m.png",
+    "image": "./emoji-img/circled_latin_capital_letter_m.png",
     "fitz": false
   },
   "25aa": {
@@ -968,7 +968,7 @@
       "triangle"
     ],
     "emoji": "▶",
-    "image": "./emoji-img/play_button.png",
+    "image": "./emoji-img/black_right-pointing_triangle.png",
     "fitz": false
   },
   "25c0": {
@@ -989,7 +989,7 @@
       "triangle"
     ],
     "emoji": "◀",
-    "image": "./emoji-img/reverse_button.png",
+    "image": "./emoji-img/black_left-pointing_triangle.png",
     "fitz": false
   },
   "25fb": {
@@ -1054,7 +1054,7 @@
       "white"
     ],
     "emoji": "◽",
-    "image": "./emoji-img/white_medium-small_square.png",
+    "image": "./emoji-img/white_medium_small_square.png",
     "fitz": false
   },
   "25fe": {
@@ -1076,7 +1076,7 @@
       "square"
     ],
     "emoji": "◾",
-    "image": "./emoji-img/black_medium-small_square.png",
+    "image": "./emoji-img/black_medium_small_square.png",
     "fitz": false
   },
   "2600": {
@@ -1099,7 +1099,7 @@
       "weather"
     ],
     "emoji": "☀",
-    "image": "./emoji-img/sun.png",
+    "image": "./emoji-img/black_sun_with_rays.png",
     "fitz": false
   },
   "2601": {
@@ -1195,7 +1195,7 @@
       "telephone"
     ],
     "emoji": "☎",
-    "image": "./emoji-img/telephone.png",
+    "image": "./emoji-img/black_telephone.png",
     "fitz": false
   },
   "2611": {
@@ -1306,13 +1306,13 @@
       "up"
     ],
     "emoji": "☝",
-    "image": "./emoji-img/index_pointing_up.png",
+    "image": "./emoji-img/white_up_pointing_index.png",
     "fitz": [
-      "./emoji-img/index_pointing_up.1.png",
-      "./emoji-img/index_pointing_up.2.png",
-      "./emoji-img/index_pointing_up.3.png",
-      "./emoji-img/index_pointing_up.4.png",
-      "./emoji-img/index_pointing_up.5.png"
+      "./emoji-img/white_up_pointing_index.1.png",
+      "./emoji-img/white_up_pointing_index.2.png",
+      "./emoji-img/white_up_pointing_index.3.png",
+      "./emoji-img/white_up_pointing_index.4.png",
+      "./emoji-img/white_up_pointing_index.5.png"
     ]
   },
   "2620": {
@@ -1356,7 +1356,7 @@
       "sign"
     ],
     "emoji": "☢",
-    "image": "./emoji-img/radioactive.png",
+    "image": "./emoji-img/radioactive_sign.png",
     "fitz": false
   },
   "2623": {
@@ -1373,7 +1373,7 @@
       "sign"
     ],
     "emoji": "☣",
-    "image": "./emoji-img/biohazard.png",
+    "image": "./emoji-img/biohazard_sign.png",
     "fitz": false
   },
   "2626": {
@@ -1491,7 +1491,7 @@
       "upset"
     ],
     "emoji": "☹",
-    "image": "./emoji-img/frowning_face.png",
+    "image": "./emoji-img/white_frowning_face.png",
     "fitz": false
   },
   "263a": {
@@ -1512,7 +1512,7 @@
       "smile"
     ],
     "emoji": "☺",
-    "image": "./emoji-img/smiling_face.png",
+    "image": "./emoji-img/white_smiling_face.png",
     "fitz": false
   },
   "2648": {
@@ -1777,7 +1777,7 @@
       "suits"
     ],
     "emoji": "♠",
-    "image": "./emoji-img/spade_suit.png",
+    "image": "./emoji-img/black_spade_suit.png",
     "fitz": false
   },
   "2663": {
@@ -1798,7 +1798,7 @@
       "suits"
     ],
     "emoji": "♣",
-    "image": "./emoji-img/club_suit.png",
+    "image": "./emoji-img/black_club_suit.png",
     "fitz": false
   },
   "2665": {
@@ -1819,7 +1819,7 @@
       "suits"
     ],
     "emoji": "♥",
-    "image": "./emoji-img/heart_suit.png",
+    "image": "./emoji-img/black_heart_suit.png",
     "fitz": false
   },
   "2666": {
@@ -1840,7 +1840,7 @@
       "suits"
     ],
     "emoji": "♦",
-    "image": "./emoji-img/diamond_suit.png",
+    "image": "./emoji-img/black_diamond_suit.png",
     "fitz": false
   },
   "2668": {
@@ -1880,7 +1880,7 @@
       "trash"
     ],
     "emoji": "♻",
-    "image": "./emoji-img/recycling_symbol.png",
+    "image": "./emoji-img/black_universal_recycling_symbol.png",
     "fitz": false
   },
   "267f": {
@@ -1982,7 +1982,7 @@
       "zodiac"
     ],
     "emoji": "⚖",
-    "image": "./emoji-img/balance_scale.png",
+    "image": "./emoji-img/scales.png",
     "fitz": false
   },
   "2697": {
@@ -2080,7 +2080,7 @@
       "wip"
     ],
     "emoji": "⚠",
-    "image": "./emoji-img/warning.png",
+    "image": "./emoji-img/warning_sign.png",
     "fitz": false
   },
   "26a1": {
@@ -2104,7 +2104,7 @@
       "zap"
     ],
     "emoji": "⚡",
-    "image": "./emoji-img/high_voltage.png",
+    "image": "./emoji-img/high_voltage_sign.png",
     "fitz": false
   },
   "26aa": {
@@ -2123,7 +2123,7 @@
       "white"
     ],
     "emoji": "⚪",
-    "image": "./emoji-img/white_circle.png",
+    "image": "./emoji-img/medium_white_circle.png",
     "fitz": false
   },
   "26ab": {
@@ -2143,7 +2143,7 @@
       "shape"
     ],
     "emoji": "⚫",
-    "image": "./emoji-img/black_circle.png",
+    "image": "./emoji-img/medium_black_circle.png",
     "fitz": false
   },
   "26b0": {
@@ -2294,7 +2294,7 @@
       "with"
     ],
     "emoji": "⛈",
-    "image": "./emoji-img/cloud_with_lightning_and_rain.png",
+    "image": "./emoji-img/thunder_cloud_and_rain.png",
     "fitz": false
   },
   "26ce": {
@@ -2359,7 +2359,7 @@
       "worker"
     ],
     "emoji": "⛑",
-    "image": "./emoji-img/rescue_worker_s_helmet.png",
+    "image": "./emoji-img/helmet_with_white_cross.png",
     "fitz": false
   },
   "26d3": {
@@ -2621,13 +2621,13 @@
       "sports"
     ],
     "emoji": "⛹",
-    "image": "./emoji-img/person_bouncing_ball.W.png",
+    "image": "./emoji-img/person_with_ball.W.png",
     "fitz": [
-      "./emoji-img/person_bouncing_ball.W.1.png",
-      "./emoji-img/person_bouncing_ball.W.2.png",
-      "./emoji-img/person_bouncing_ball.W.3.png",
-      "./emoji-img/person_bouncing_ball.W.4.png",
-      "./emoji-img/person_bouncing_ball.W.5.png"
+      "./emoji-img/person_with_ball.W.1.png",
+      "./emoji-img/person_with_ball.W.2.png",
+      "./emoji-img/person_with_ball.W.3.png",
+      "./emoji-img/person_with_ball.W.4.png",
+      "./emoji-img/person_with_ball.W.5.png"
     ]
   },
   "26fa": {
@@ -2685,7 +2685,7 @@
       "tool"
     ],
     "emoji": "✂",
-    "image": "./emoji-img/scissors.png",
+    "image": "./emoji-img/black_scissors.png",
     "fitz": false
   },
   "2705": {
@@ -3024,7 +3024,7 @@
       "star"
     ],
     "emoji": "✳",
-    "image": "./emoji-img/eight-spoked_asterisk.png",
+    "image": "./emoji-img/eight_spoked_asterisk.png",
     "fitz": false
   },
   "2734": {
@@ -3045,7 +3045,7 @@
       "star"
     ],
     "emoji": "✴",
-    "image": "./emoji-img/eight-pointed_star.png",
+    "image": "./emoji-img/eight_pointed_black_star.png",
     "fitz": false
   },
   "2744": {
@@ -3132,7 +3132,7 @@
       "x"
     ],
     "emoji": "❎",
-    "image": "./emoji-img/cross_mark_button.png",
+    "image": "./emoji-img/negative_squared_cross_mark.png",
     "fitz": false
   },
   "2753": {
@@ -3151,7 +3151,7 @@
       "question"
     ],
     "emoji": "❓",
-    "image": "./emoji-img/question_mark.png",
+    "image": "./emoji-img/black_question_mark_ornament.png",
     "fitz": false
   },
   "2754": {
@@ -3174,7 +3174,7 @@
       "question"
     ],
     "emoji": "❔",
-    "image": "./emoji-img/white_question_mark.png",
+    "image": "./emoji-img/white_question_mark_ornament.png",
     "fitz": false
   },
   "2755": {
@@ -3197,7 +3197,7 @@
       "wow"
     ],
     "emoji": "❕",
-    "image": "./emoji-img/white_exclamation_mark.png",
+    "image": "./emoji-img/white_exclamation_mark_ornament.png",
     "fitz": false
   },
   "2757": {
@@ -3219,7 +3219,7 @@
       "wow"
     ],
     "emoji": "❗",
-    "image": "./emoji-img/exclamation_mark.png",
+    "image": "./emoji-img/heavy_exclamation_mark_symbol.png",
     "fitz": false
   },
   "2763": {
@@ -3240,7 +3240,7 @@
       "punctuation"
     ],
     "emoji": "❣",
-    "image": "./emoji-img/heavy_heart_exclamation.png",
+    "image": "./emoji-img/heavy_heart_exclamation_mark_ornament.png",
     "fitz": false
   },
   "2764": {
@@ -3258,7 +3258,7 @@
       "valentines"
     ],
     "emoji": "❤",
-    "image": "./emoji-img/red_heart.png",
+    "image": "./emoji-img/heavy_black_heart.png",
     "fitz": false
   },
   "2795": {
@@ -3342,7 +3342,7 @@
       "right"
     ],
     "emoji": "➡",
-    "image": "./emoji-img/right_arrow.png",
+    "image": "./emoji-img/black_rightwards_arrow.png",
     "fitz": false
   },
   "27b0": {
@@ -3402,7 +3402,7 @@
       "up"
     ],
     "emoji": "⤴",
-    "image": "./emoji-img/right_arrow_curving_up.png",
+    "image": "./emoji-img/arrow_pointing_rightwards_then_curving_upwards.png",
     "fitz": false
   },
   "2935": {
@@ -3422,7 +3422,7 @@
       "heading"
     ],
     "emoji": "⤵",
-    "image": "./emoji-img/right_arrow_curving_down.png",
+    "image": "./emoji-img/arrow_pointing_rightwards_then_curving_downwards.png",
     "fitz": false
   },
   "2b05": {
@@ -3444,7 +3444,7 @@
       "west"
     ],
     "emoji": "⬅",
-    "image": "./emoji-img/left_arrow.png",
+    "image": "./emoji-img/leftwards_black_arrow.png",
     "fitz": false
   },
   "2b06": {
@@ -3466,7 +3466,7 @@
       "up"
     ],
     "emoji": "⬆",
-    "image": "./emoji-img/up_arrow.png",
+    "image": "./emoji-img/upwards_black_arrow.png",
     "fitz": false
   },
   "2b07": {
@@ -3487,7 +3487,7 @@
       "south"
     ],
     "emoji": "⬇",
-    "image": "./emoji-img/down_arrow.png",
+    "image": "./emoji-img/downwards_black_arrow.png",
     "fitz": false
   },
   "2b1b": {
@@ -3633,7 +3633,7 @@
       "祝"
     ],
     "emoji": "㊗",
-    "image": "./emoji-img/japanese_congratulations_button.png",
+    "image": "./emoji-img/circled_ideograph_congratulation.png",
     "fitz": false
   },
   "3299": {
@@ -3657,7 +3657,7 @@
       "秘"
     ],
     "emoji": "㊙",
-    "image": "./emoji-img/japanese_secret_button.png",
+    "image": "./emoji-img/circled_ideograph_secret.png",
     "fitz": false
   },
   "1f004": {
@@ -3677,7 +3677,7 @@
       "red"
     ],
     "emoji": "🀄",
-    "image": "./emoji-img/mahjong_red_dragon.png",
+    "image": "./emoji-img/mahjong_tile_red_dragon.png",
     "fitz": false
   },
   "1f0cf": {
@@ -3700,7 +3700,7 @@
       "wildcard"
     ],
     "emoji": "🃏",
-    "image": "./emoji-img/joker.png",
+    "image": "./emoji-img/playing_card_black_joker.png",
     "fitz": false
   },
   "1f170": {
@@ -3719,7 +3719,7 @@
       "red-square"
     ],
     "emoji": "🅰",
-    "image": "./emoji-img/a_button_blood_type.png",
+    "image": "./emoji-img/negative_squared_latin_capital_letter_a.png",
     "fitz": false
   },
   "1f171": {
@@ -3738,7 +3738,7 @@
       "red-square"
     ],
     "emoji": "🅱",
-    "image": "./emoji-img/b_button_blood_type.png",
+    "image": "./emoji-img/negative_squared_latin_capital_letter_b.png",
     "fitz": false
   },
   "1f17e": {
@@ -3758,7 +3758,7 @@
       "red-square"
     ],
     "emoji": "🅾",
-    "image": "./emoji-img/o_button_blood_type.png",
+    "image": "./emoji-img/negative_squared_latin_capital_letter_o.png",
     "fitz": false
   },
   "1f17f": {
@@ -3777,7 +3777,7 @@
       "parking"
     ],
     "emoji": "🅿",
-    "image": "./emoji-img/p_button.png",
+    "image": "./emoji-img/negative_squared_latin_capital_letter_p.png",
     "fitz": false
   },
   "1f18e": {
@@ -3795,7 +3795,7 @@
       "red-square"
     ],
     "emoji": "🆎",
-    "image": "./emoji-img/ab_button_blood_type.png",
+    "image": "./emoji-img/negative_squared_ab.png",
     "fitz": false
   },
   "1f191": {
@@ -3813,7 +3813,7 @@
       "words"
     ],
     "emoji": "🆑",
-    "image": "./emoji-img/cl_button.png",
+    "image": "./emoji-img/squared_cl.png",
     "fitz": false
   },
   "1f192": {
@@ -3830,7 +3830,7 @@
       "words"
     ],
     "emoji": "🆒",
-    "image": "./emoji-img/cool_button.png",
+    "image": "./emoji-img/squared_cool.png",
     "fitz": false
   },
   "1f193": {
@@ -3847,7 +3847,7 @@
       "words"
     ],
     "emoji": "🆓",
-    "image": "./emoji-img/free_button.png",
+    "image": "./emoji-img/squared_free.png",
     "fitz": false
   },
   "1f194": {
@@ -3865,7 +3865,7 @@
       "words"
     ],
     "emoji": "🆔",
-    "image": "./emoji-img/id_button.png",
+    "image": "./emoji-img/squared_id.png",
     "fitz": false
   },
   "1f195": {
@@ -3883,7 +3883,7 @@
       "words"
     ],
     "emoji": "🆕",
-    "image": "./emoji-img/new_button.png",
+    "image": "./emoji-img/squared_new.png",
     "fitz": false
   },
   "1f196": {
@@ -3902,7 +3902,7 @@
       "words"
     ],
     "emoji": "🆖",
-    "image": "./emoji-img/ng_button.png",
+    "image": "./emoji-img/squared_ng.png",
     "fitz": false
   },
   "1f197": {
@@ -3922,7 +3922,7 @@
       "yes"
     ],
     "emoji": "🆗",
-    "image": "./emoji-img/ok_button.png",
+    "image": "./emoji-img/squared_ok.png",
     "fitz": false
   },
   "1f198": {
@@ -3942,7 +3942,7 @@
       "words"
     ],
     "emoji": "🆘",
-    "image": "./emoji-img/sos_button.png",
+    "image": "./emoji-img/squared_sos.png",
     "fitz": false
   },
   "1f199": {
@@ -3961,7 +3961,7 @@
       "up"
     ],
     "emoji": "🆙",
-    "image": "./emoji-img/up_button.png",
+    "image": "./emoji-img/squared_up_with_exclamation_mark.png",
     "fitz": false
   },
   "1f19a": {
@@ -3979,7 +3979,7 @@
       "words"
     ],
     "emoji": "🆚",
-    "image": "./emoji-img/vs_button.png",
+    "image": "./emoji-img/squared_vs.png",
     "fitz": false
   },
   "1f1e6_1f1e9": {
@@ -4064,7 +4064,7 @@
       "nation"
     ],
     "emoji": "🇦🇬",
-    "image": "./emoji-img/antigua_barbuda.png",
+    "image": "./emoji-img/antigua_and_barbuda.png",
     "fitz": false
   },
   "1f1e6_1f1ee": {
@@ -4339,7 +4339,7 @@
       "nation"
     ],
     "emoji": "🇧🇦",
-    "image": "./emoji-img/bosnia_herzegovina.png",
+    "image": "./emoji-img/bosnia_and_herzegovina.png",
     "fitz": false
   },
   "1f1e7_1f1e7": {
@@ -4785,7 +4785,7 @@
       "nation"
     ],
     "emoji": "🇨🇨",
-    "image": "./emoji-img/cocos_islands.png",
+    "image": "./emoji-img/cocos_keeling_islands.png",
     "fitz": false
   },
   "1f1e8_1f1e9": {
@@ -4808,7 +4808,7 @@
       "republic"
     ],
     "emoji": "🇨🇩",
-    "image": "./emoji-img/congo_kinshasa.png",
+    "image": "./emoji-img/congo_-_kinshasa.png",
     "fitz": false
   },
   "1f1e8_1f1eb": {
@@ -4851,7 +4851,7 @@
       "nation"
     ],
     "emoji": "🇨🇬",
-    "image": "./emoji-img/congo_brazzaville.png",
+    "image": "./emoji-img/congo_-_brazzaville.png",
     "fitz": false
   },
   "1f1e8_1f1ed": {
@@ -4980,7 +4980,7 @@
       "prc"
     ],
     "emoji": "🇨🇳",
-    "image": "./emoji-img/cn.png",
+    "image": "./emoji-img/china.png",
     "fitz": false
   },
   "1f1e8_1f1f4": {
@@ -5150,7 +5150,7 @@
       "republic"
     ],
     "emoji": "🇨🇿",
-    "image": "./emoji-img/czech_republic.png",
+    "image": "./emoji-img/czechia.png",
     "fitz": false
   },
   "1f1e9_1f1ea": {
@@ -5171,7 +5171,7 @@
       "nation"
     ],
     "emoji": "🇩🇪",
-    "image": "./emoji-img/de.png",
+    "image": "./emoji-img/germany.png",
     "fitz": false
   },
   "1f1e9_1f1ef": {
@@ -5402,7 +5402,7 @@
       "spain"
     ],
     "emoji": "🇪🇸",
-    "image": "./emoji-img/es.png",
+    "image": "./emoji-img/spain.png",
     "fitz": false
   },
   "1f1ea_1f1f9": {
@@ -5443,7 +5443,7 @@
       "union"
     ],
     "emoji": "🇪🇺",
-    "image": "./emoji-img/eu.png",
+    "image": "./emoji-img/european_union.png",
     "fitz": false
   },
   "1f1eb_1f1ee": {
@@ -5573,7 +5573,7 @@
       "nation"
     ],
     "emoji": "🇫🇷",
-    "image": "./emoji-img/fr.png",
+    "image": "./emoji-img/france.png",
     "fitz": false
   },
   "1f1ec_1f1e6": {
@@ -5625,7 +5625,7 @@
       "united"
     ],
     "emoji": "🇬🇧",
-    "image": "./emoji-img/uk.png",
+    "image": "./emoji-img/united_kingdom.png",
     "fitz": false
   },
   "1f1ec_1f1e9": {
@@ -5901,7 +5901,7 @@
       "south"
     ],
     "emoji": "🇬🇸",
-    "image": "./emoji-img/south_georgia_south_sandwich_islands.png",
+    "image": "./emoji-img/south_georgia_and_south_sandwich_islands.png",
     "fitz": false
   },
   "1f1ec_1f1f9": {
@@ -5965,7 +5965,7 @@
       "nation"
     ],
     "emoji": "🇬🇼",
-    "image": "./emoji-img/guinea_bissau.png",
+    "image": "./emoji-img/guinea-bissau.png",
     "fitz": false
   },
   "1f1ec_1f1fe": {
@@ -6007,7 +6007,7 @@
       "nation"
     ],
     "emoji": "🇭🇰",
-    "image": "./emoji-img/hong_kong.png",
+    "image": "./emoji-img/hong_kong_sar_china.png",
     "fitz": false
   },
   "1f1ed_1f1f3": {
@@ -6326,7 +6326,7 @@
       "nation"
     ],
     "emoji": "🇮🇹",
-    "image": "./emoji-img/it.png",
+    "image": "./emoji-img/italy.png",
     "fitz": false
   },
   "1f1ef_1f1ea": {
@@ -6410,7 +6410,7 @@
       "nation"
     ],
     "emoji": "🇯🇵",
-    "image": "./emoji-img/jp.png",
+    "image": "./emoji-img/japan.png",
     "fitz": false
   },
   "1f1f0_1f1ea": {
@@ -6538,7 +6538,7 @@
       "st"
     ],
     "emoji": "🇰🇳",
-    "image": "./emoji-img/st_kitts_nevis.png",
+    "image": "./emoji-img/st_kitts_and_nevis.png",
     "fitz": false
   },
   "1f1f0_1f1f5": {
@@ -6581,7 +6581,7 @@
       "south"
     ],
     "emoji": "🇰🇷",
-    "image": "./emoji-img/kr.png",
+    "image": "./emoji-img/south_korea.png",
     "fitz": false
   },
   "1f1f0_1f1fc": {
@@ -7068,7 +7068,7 @@
       "nation"
     ],
     "emoji": "🇲🇲",
-    "image": "./emoji-img/myanmar.png",
+    "image": "./emoji-img/myanmar_burma.png",
     "fitz": false
   },
   "1f1f2_1f1f3": {
@@ -7110,7 +7110,7 @@
       "nation"
     ],
     "emoji": "🇲🇴",
-    "image": "./emoji-img/macau.png",
+    "image": "./emoji-img/macau_sar_china.png",
     "fitz": false
   },
   "1f1f2_1f1f5": {
@@ -7785,7 +7785,7 @@
       "st"
     ],
     "emoji": "🇵🇲",
-    "image": "./emoji-img/st_pierre_miquelon.png",
+    "image": "./emoji-img/st_pierre_and_miquelon.png",
     "fitz": false
   },
   "1f1f5_1f1f3": {
@@ -8018,7 +8018,7 @@
       "russian"
     ],
     "emoji": "🇷🇺",
-    "image": "./emoji-img/ru.png",
+    "image": "./emoji-img/russia.png",
     "fitz": false
   },
   "1f1f7_1f1fc": {
@@ -8381,7 +8381,7 @@
       "tome"
     ],
     "emoji": "🇸🇹",
-    "image": "./emoji-img/sao_tome_principe.png",
+    "image": "./emoji-img/sao_tome_and_principe.png",
     "fitz": false
   },
   "1f1f8_1f1fb": {
@@ -8490,7 +8490,7 @@
       "turks"
     ],
     "emoji": "🇹🇨",
-    "image": "./emoji-img/turks_caicos_islands.png",
+    "image": "./emoji-img/turks_and_caicos_islands.png",
     "fitz": false
   },
   "1f1f9_1f1e9": {
@@ -8638,7 +8638,7 @@
       "timor"
     ],
     "emoji": "🇹🇱",
-    "image": "./emoji-img/timor_leste.png",
+    "image": "./emoji-img/timor-leste.png",
     "fitz": false
   },
   "1f1f9_1f1f2": {
@@ -8721,7 +8721,7 @@
       "turkey"
     ],
     "emoji": "🇹🇷",
-    "image": "./emoji-img/tr.png",
+    "image": "./emoji-img/turkey.png",
     "fitz": false
   },
   "1f1f9_1f1f9": {
@@ -8742,7 +8742,7 @@
       "trinidad"
     ],
     "emoji": "🇹🇹",
-    "image": "./emoji-img/trinidad_tobago.png",
+    "image": "./emoji-img/trinidad_and_tobago.png",
     "fitz": false
   },
   "1f1f9_1f1fb": {
@@ -8871,7 +8871,7 @@
       "us"
     ],
     "emoji": "🇺🇸",
-    "image": "./emoji-img/us.png",
+    "image": "./emoji-img/united_states.png",
     "fitz": false
   },
   "1f1fa_1f1fe": {
@@ -8957,7 +8957,7 @@
       "vincent"
     ],
     "emoji": "🇻🇨",
-    "image": "./emoji-img/st_vincent_grenadines.png",
+    "image": "./emoji-img/st_vincent_and_grenadines.png",
     "fitz": false
   },
   "1f1fb_1f1ea": {
@@ -9025,7 +9025,7 @@
       "virgin"
     ],
     "emoji": "🇻🇮",
-    "image": "./emoji-img/us_virgin_islands.png",
+    "image": "./emoji-img/u_s_virgin_islands.png",
     "fitz": false
   },
   "1f1fb_1f1f3": {
@@ -9089,7 +9089,7 @@
       "wallis"
     ],
     "emoji": "🇼🇫",
-    "image": "./emoji-img/wallis_futuna.png",
+    "image": "./emoji-img/wallis_and_futuna.png",
     "fitz": false
   },
   "1f1fc_1f1f8": {
@@ -9259,7 +9259,7 @@
       "ココ"
     ],
     "emoji": "🈁",
-    "image": "./emoji-img/japanese_here_button.png",
+    "image": "./emoji-img/squared_katakana_koko.png",
     "fitz": false
   },
   "1f202": {
@@ -9280,7 +9280,7 @@
       "サ"
     ],
     "emoji": "🈂",
-    "image": "./emoji-img/japanese_service_charge_button.png",
+    "image": "./emoji-img/squared_katakana_sa.png",
     "fitz": false
   },
   "1f21a": {
@@ -9304,7 +9304,7 @@
       "無"
     ],
     "emoji": "🈚",
-    "image": "./emoji-img/japanese_free_of_charge_button.png",
+    "image": "./emoji-img/squared_cjk_unified_ideograph-7121.png",
     "fitz": false
   },
   "1f22f": {
@@ -9327,7 +9327,7 @@
       "指"
     ],
     "emoji": "🈯",
-    "image": "./emoji-img/japanese_reserved_button.png",
+    "image": "./emoji-img/squared_cjk_unified_ideograph-6307.png",
     "fitz": false
   },
   "1f232": {
@@ -9353,7 +9353,7 @@
       "禁"
     ],
     "emoji": "🈲",
-    "image": "./emoji-img/japanese_prohibited_button.png",
+    "image": "./emoji-img/squared_cjk_unified_ideograph-7981.png",
     "fitz": false
   },
   "1f233": {
@@ -9378,7 +9378,7 @@
       "空"
     ],
     "emoji": "🈳",
-    "image": "./emoji-img/japanese_vacancy_button.png",
+    "image": "./emoji-img/squared_cjk_unified_ideograph-7a7a.png",
     "fitz": false
   },
   "1f234": {
@@ -9402,7 +9402,7 @@
       "合"
     ],
     "emoji": "🈴",
-    "image": "./emoji-img/japanese_passing_grade_button.png",
+    "image": "./emoji-img/squared_cjk_unified_ideograph-5408.png",
     "fitz": false
   },
   "1f235": {
@@ -9426,7 +9426,7 @@
       "満"
     ],
     "emoji": "🈵",
-    "image": "./emoji-img/japanese_no_vacancy_button.png",
+    "image": "./emoji-img/squared_cjk_unified_ideograph-6e80.png",
     "fitz": false
   },
   "1f236": {
@@ -9449,7 +9449,7 @@
       "有"
     ],
     "emoji": "🈶",
-    "image": "./emoji-img/japanese_not_free_of_charge_button.png",
+    "image": "./emoji-img/squared_cjk_unified_ideograph-6709.png",
     "fitz": false
   },
   "1f237": {
@@ -9474,7 +9474,7 @@
       "月"
     ],
     "emoji": "🈷",
-    "image": "./emoji-img/japanese_monthly_amount_button.png",
+    "image": "./emoji-img/squared_cjk_unified_ideograph-6708.png",
     "fitz": false
   },
   "1f238": {
@@ -9497,7 +9497,7 @@
       "申"
     ],
     "emoji": "🈸",
-    "image": "./emoji-img/japanese_application_button.png",
+    "image": "./emoji-img/squared_cjk_unified_ideograph-7533.png",
     "fitz": false
   },
   "1f239": {
@@ -9521,7 +9521,7 @@
       "割"
     ],
     "emoji": "🈹",
-    "image": "./emoji-img/japanese_discount_button.png",
+    "image": "./emoji-img/squared_cjk_unified_ideograph-5272.png",
     "fitz": false
   },
   "1f23a": {
@@ -9543,7 +9543,7 @@
       "営"
     ],
     "emoji": "🈺",
-    "image": "./emoji-img/japanese_open_for_business_button.png",
+    "image": "./emoji-img/squared_cjk_unified_ideograph-55b6.png",
     "fitz": false
   },
   "1f250": {
@@ -9567,7 +9567,7 @@
       "得"
     ],
     "emoji": "🉐",
-    "image": "./emoji-img/japanese_bargain_button.png",
+    "image": "./emoji-img/circled_ideograph_advantage.png",
     "fitz": false
   },
   "1f251": {
@@ -9593,7 +9593,7 @@
       "可"
     ],
     "emoji": "🉑",
-    "image": "./emoji-img/japanese_acceptable_button.png",
+    "image": "./emoji-img/circled_ideograph_accept.png",
     "fitz": false
   },
   "1f300": {
@@ -9767,7 +9767,7 @@
       "sunrise"
     ],
     "emoji": "🌇",
-    "image": "./emoji-img/sunset.png",
+    "image": "./emoji-img/sunset_over_buildings.png",
     "fitz": false
   },
   "1f308": {
@@ -9889,7 +9889,7 @@
       "world"
     ],
     "emoji": "🌍",
-    "image": "./emoji-img/globe_showing_europe-africa.png",
+    "image": "./emoji-img/earth_globe_europe-africa.png",
     "fitz": false
   },
   "1f30e": {
@@ -9910,7 +9910,7 @@
       "world"
     ],
     "emoji": "🌎",
-    "image": "./emoji-img/globe_showing_americas.png",
+    "image": "./emoji-img/earth_globe_americas.png",
     "fitz": false
   },
   "1f30f": {
@@ -9932,7 +9932,7 @@
       "world"
     ],
     "emoji": "🌏",
-    "image": "./emoji-img/globe_showing_asia-australia.png",
+    "image": "./emoji-img/earth_globe_asia-australia.png",
     "fitz": false
   },
   "1f310": {
@@ -9979,7 +9979,7 @@
       "twilight"
     ],
     "emoji": "🌑",
-    "image": "./emoji-img/new_moon.png",
+    "image": "./emoji-img/new_moon_symbol.png",
     "fitz": false
   },
   "1f312": {
@@ -10003,7 +10003,7 @@
       "waxing"
     ],
     "emoji": "🌒",
-    "image": "./emoji-img/waxing_crescent_moon.png",
+    "image": "./emoji-img/waxing_crescent_moon_symbol.png",
     "fitz": false
   },
   "1f313": {
@@ -10027,7 +10027,7 @@
       "twilight"
     ],
     "emoji": "🌓",
-    "image": "./emoji-img/first_quarter_moon.png",
+    "image": "./emoji-img/first_quarter_moon_symbol.png",
     "fitz": false
   },
   "1f314": {
@@ -10053,7 +10053,7 @@
       "waxing"
     ],
     "emoji": "🌔",
-    "image": "./emoji-img/waxing_gibbous_moon.png",
+    "image": "./emoji-img/waxing_gibbous_moon_symbol.png",
     "fitz": false
   },
   "1f315": {
@@ -10077,7 +10077,7 @@
       "yellow"
     ],
     "emoji": "🌕",
-    "image": "./emoji-img/full_moon.png",
+    "image": "./emoji-img/full_moon_symbol.png",
     "fitz": false
   },
   "1f316": {
@@ -10102,7 +10102,7 @@
       "waxing_gibbous_moon"
     ],
     "emoji": "🌖",
-    "image": "./emoji-img/waning_gibbous_moon.png",
+    "image": "./emoji-img/waning_gibbous_moon_symbol.png",
     "fitz": false
   },
   "1f317": {
@@ -10126,7 +10126,7 @@
       "twilight"
     ],
     "emoji": "🌗",
-    "image": "./emoji-img/last_quarter_moon.png",
+    "image": "./emoji-img/last_quarter_moon_symbol.png",
     "fitz": false
   },
   "1f318": {
@@ -10150,7 +10150,7 @@
       "waning"
     ],
     "emoji": "🌘",
-    "image": "./emoji-img/waning_crescent_moon.png",
+    "image": "./emoji-img/waning_crescent_moon_symbol.png",
     "fitz": false
   },
   "1f319": {
@@ -10196,7 +10196,7 @@
       "with"
     ],
     "emoji": "🌚",
-    "image": "./emoji-img/new_moon_face.png",
+    "image": "./emoji-img/new_moon_with_face.png",
     "fitz": false
   },
   "1f31b": {
@@ -10377,7 +10377,7 @@
       "weather"
     ],
     "emoji": "🌤",
-    "image": "./emoji-img/sun_behind_small_cloud.png",
+    "image": "./emoji-img/white_sun_with_small_cloud.png",
     "fitz": false
   },
   "1f325": {
@@ -10396,7 +10396,7 @@
       "weather"
     ],
     "emoji": "🌥",
-    "image": "./emoji-img/sun_behind_large_cloud.png",
+    "image": "./emoji-img/white_sun_behind_cloud.png",
     "fitz": false
   },
   "1f326": {
@@ -10415,7 +10415,7 @@
       "weather"
     ],
     "emoji": "🌦",
-    "image": "./emoji-img/sun_behind_rain_cloud.png",
+    "image": "./emoji-img/white_sun_behind_cloud_with_rain.png",
     "fitz": false
   },
   "1f327": {
@@ -10491,7 +10491,7 @@
       "whirlwind"
     ],
     "emoji": "🌪",
-    "image": "./emoji-img/tornado.png",
+    "image": "./emoji-img/cloud_with_tornado.png",
     "fitz": false
   },
   "1f32b": {
@@ -10528,7 +10528,7 @@
       "wind"
     ],
     "emoji": "🌬",
-    "image": "./emoji-img/wind_face.png",
+    "image": "./emoji-img/wind_blowing_face.png",
     "fitz": false
   },
   "1f32d": {
@@ -10859,7 +10859,7 @@
       "vegetable"
     ],
     "emoji": "🌽",
-    "image": "./emoji-img/ear_of_corn.png",
+    "image": "./emoji-img/ear_of_maize.png",
     "fitz": false
   },
   "1f33e": {
@@ -10879,7 +10879,7 @@
       "rice"
     ],
     "emoji": "🌾",
-    "image": "./emoji-img/sheaf_of_rice.png",
+    "image": "./emoji-img/ear_of_rice.png",
     "fitz": false
   },
   "1f33f": {
@@ -11049,7 +11049,7 @@
       "vegetable"
     ],
     "emoji": "🍆",
-    "image": "./emoji-img/eggplant.png",
+    "image": "./emoji-img/aubergine.png",
     "fitz": false
   },
   "1f347": {
@@ -11332,7 +11332,7 @@
       "slice"
     ],
     "emoji": "🍕",
-    "image": "./emoji-img/pizza.png",
+    "image": "./emoji-img/slice_of_pizza.png",
     "fitz": false
   },
   "1f356": {
@@ -11451,7 +11451,7 @@
       "spicy"
     ],
     "emoji": "🍛",
-    "image": "./emoji-img/curry_rice.png",
+    "image": "./emoji-img/curry_and_rice.png",
     "fitz": false
   },
   "1f35c": {
@@ -11662,7 +11662,7 @@
       "swirl"
     ],
     "emoji": "🍥",
-    "image": "./emoji-img/fish_cake_with_swirl.png",
+    "image": "./emoji-img/fish_cake_with_swirl_design.png",
     "fitz": false
   },
   "1f366": {
@@ -12010,7 +12010,7 @@
       "wine"
     ],
     "emoji": "🍶",
-    "image": "./emoji-img/sake.png",
+    "image": "./emoji-img/sake_bottle_and_cup.png",
     "fitz": false
   },
   "1f377": {
@@ -12262,7 +12262,7 @@
       "xmas"
     ],
     "emoji": "🎁",
-    "image": "./emoji-img/wrapped_gift.png",
+    "image": "./emoji-img/wrapped_present.png",
     "fitz": false
   },
   "1f382": {
@@ -12352,13 +12352,13 @@
       "xmas"
     ],
     "emoji": "🎅",
-    "image": "./emoji-img/santa_claus.png",
+    "image": "./emoji-img/father_christmas.png",
     "fitz": [
-      "./emoji-img/santa_claus.1.png",
-      "./emoji-img/santa_claus.2.png",
-      "./emoji-img/santa_claus.3.png",
-      "./emoji-img/santa_claus.4.png",
-      "./emoji-img/santa_claus.5.png"
+      "./emoji-img/father_christmas.1.png",
+      "./emoji-img/father_christmas.2.png",
+      "./emoji-img/father_christmas.3.png",
+      "./emoji-img/father_christmas.4.png",
+      "./emoji-img/father_christmas.5.png"
     ]
   },
   "1f386": {
@@ -12399,7 +12399,7 @@
       "stars"
     ],
     "emoji": "🎇",
-    "image": "./emoji-img/sparkler.png",
+    "image": "./emoji-img/firework_sparkler.png",
     "fitz": false
   },
   "1f388": {
@@ -12638,7 +12638,7 @@
       "student"
     ],
     "emoji": "🎒",
-    "image": "./emoji-img/school_backpack.png",
+    "image": "./emoji-img/school_satchel.png",
     "fitz": false
   },
   "1f393": {
@@ -12884,7 +12884,7 @@
       "summer"
     ],
     "emoji": "🎣",
-    "image": "./emoji-img/fishing_pole.png",
+    "image": "./emoji-img/fishing_pole_and_fish.png",
     "fitz": false
   },
   "1f3a4": {
@@ -13181,7 +13181,7 @@
       "pool"
     ],
     "emoji": "🎱",
-    "image": "./emoji-img/pool_8_ball.png",
+    "image": "./emoji-img/billiards.png",
     "fitz": false
   },
   "1f3b2": {
@@ -13282,7 +13282,7 @@
       "score"
     ],
     "emoji": "🎶",
-    "image": "./emoji-img/musical_notes.png",
+    "image": "./emoji-img/multiple_musical_notes.png",
     "fitz": false
   },
   "1f3b7": {
@@ -13417,7 +13417,7 @@
       "with"
     ],
     "emoji": "🎽",
-    "image": "./emoji-img/running_shirt.png",
+    "image": "./emoji-img/running_shirt_with_sash.png",
     "fitz": false
   },
   "1f3be": {
@@ -13437,7 +13437,7 @@
       "tennis"
     ],
     "emoji": "🎾",
-    "image": "./emoji-img/tennis.png",
+    "image": "./emoji-img/tennis_racquet_and_ball.png",
     "fitz": false
   },
   "1f3bf": {
@@ -13456,7 +13456,7 @@
       "winter"
     ],
     "emoji": "🎿",
-    "image": "./emoji-img/skis.png",
+    "image": "./emoji-img/ski_and_ski_boot.png",
     "fitz": false
   },
   "1f3c0": {
@@ -13476,7 +13476,7 @@
       "sports"
     ],
     "emoji": "🏀",
-    "image": "./emoji-img/basketball.png",
+    "image": "./emoji-img/basketball_and_hoop.png",
     "fitz": false
   },
   "1f3c1": {
@@ -13538,13 +13538,13 @@
       "walking"
     ],
     "emoji": "🏃",
-    "image": "./emoji-img/person_running.W.png",
+    "image": "./emoji-img/runner.W.png",
     "fitz": [
-      "./emoji-img/person_running.W.1.png",
-      "./emoji-img/person_running.W.2.png",
-      "./emoji-img/person_running.W.3.png",
-      "./emoji-img/person_running.W.4.png",
-      "./emoji-img/person_running.W.5.png"
+      "./emoji-img/runner.W.1.png",
+      "./emoji-img/runner.W.2.png",
+      "./emoji-img/runner.W.3.png",
+      "./emoji-img/runner.W.4.png",
+      "./emoji-img/runner.W.5.png"
     ]
   },
   "1f3c4": {
@@ -13565,13 +13565,13 @@
       "surfing"
     ],
     "emoji": "🏄",
-    "image": "./emoji-img/person_surfing.W.png",
+    "image": "./emoji-img/surfer.W.png",
     "fitz": [
-      "./emoji-img/person_surfing.W.1.png",
-      "./emoji-img/person_surfing.W.2.png",
-      "./emoji-img/person_surfing.W.3.png",
-      "./emoji-img/person_surfing.W.4.png",
-      "./emoji-img/person_surfing.W.5.png"
+      "./emoji-img/surfer.W.1.png",
+      "./emoji-img/surfer.W.2.png",
+      "./emoji-img/surfer.W.3.png",
+      "./emoji-img/surfer.W.4.png",
+      "./emoji-img/surfer.W.5.png"
     ]
   },
   "1f3c5": {
@@ -13702,13 +13702,13 @@
       "water"
     ],
     "emoji": "🏊",
-    "image": "./emoji-img/person_swimming.W.png",
+    "image": "./emoji-img/swimmer.W.png",
     "fitz": [
-      "./emoji-img/person_swimming.W.1.png",
-      "./emoji-img/person_swimming.W.2.png",
-      "./emoji-img/person_swimming.W.3.png",
-      "./emoji-img/person_swimming.W.4.png",
-      "./emoji-img/person_swimming.W.5.png"
+      "./emoji-img/swimmer.W.1.png",
+      "./emoji-img/swimmer.W.2.png",
+      "./emoji-img/swimmer.W.3.png",
+      "./emoji-img/swimmer.W.4.png",
+      "./emoji-img/swimmer.W.5.png"
     ]
   },
   "1f3cb": {
@@ -13729,13 +13729,13 @@
       "weight"
     ],
     "emoji": "🏋",
-    "image": "./emoji-img/person_lifting_weights.W.png",
+    "image": "./emoji-img/weight_lifter.W.png",
     "fitz": [
-      "./emoji-img/person_lifting_weights.W.1.png",
-      "./emoji-img/person_lifting_weights.W.2.png",
-      "./emoji-img/person_lifting_weights.W.3.png",
-      "./emoji-img/person_lifting_weights.W.4.png",
-      "./emoji-img/person_lifting_weights.W.5.png"
+      "./emoji-img/weight_lifter.W.1.png",
+      "./emoji-img/weight_lifter.W.2.png",
+      "./emoji-img/weight_lifter.W.3.png",
+      "./emoji-img/weight_lifter.W.4.png",
+      "./emoji-img/weight_lifter.W.5.png"
     ]
   },
   "1f3cc": {
@@ -13755,13 +13755,13 @@
       "sports"
     ],
     "emoji": "🏌",
-    "image": "./emoji-img/person_golfing.W.png",
+    "image": "./emoji-img/golfer.W.png",
     "fitz": [
-      "./emoji-img/person_golfing.W.1.png",
-      "./emoji-img/person_golfing.W.2.png",
-      "./emoji-img/person_golfing.W.3.png",
-      "./emoji-img/person_golfing.W.4.png",
-      "./emoji-img/person_golfing.W.5.png"
+      "./emoji-img/golfer.W.1.png",
+      "./emoji-img/golfer.W.2.png",
+      "./emoji-img/golfer.W.3.png",
+      "./emoji-img/golfer.W.4.png",
+      "./emoji-img/golfer.W.5.png"
     ]
   },
   "1f3cd": {
@@ -13780,7 +13780,7 @@
       "sports"
     ],
     "emoji": "🏍",
-    "image": "./emoji-img/motorcycle.png",
+    "image": "./emoji-img/racing_motorcycle.png",
     "fitz": false
   },
   "1f3ce": {
@@ -13820,7 +13820,7 @@
       "sports"
     ],
     "emoji": "🏏",
-    "image": "./emoji-img/cricket.png",
+    "image": "./emoji-img/cricket_bat_and_ball.png",
     "fitz": false
   },
   "1f3d0": {
@@ -13859,7 +13859,7 @@
       "stick"
     ],
     "emoji": "🏑",
-    "image": "./emoji-img/field_hockey.png",
+    "image": "./emoji-img/field_hockey_stick_and_ball.png",
     "fitz": false
   },
   "1f3d2": {
@@ -13879,7 +13879,7 @@
       "stick"
     ],
     "emoji": "🏒",
-    "image": "./emoji-img/ice_hockey.png",
+    "image": "./emoji-img/ice_hockey_stick_and_puck.png",
     "fitz": false
   },
   "1f3d3": {
@@ -13903,7 +13903,7 @@
       "table tennis"
     ],
     "emoji": "🏓",
-    "image": "./emoji-img/ping_pong.png",
+    "image": "./emoji-img/table_tennis_paddle_and_ball.png",
     "fitz": false
   },
   "1f3d4": {
@@ -13924,7 +13924,7 @@
       "winter"
     ],
     "emoji": "🏔",
-    "image": "./emoji-img/snow-capped_mountain.png",
+    "image": "./emoji-img/snow_capped_mountain.png",
     "fitz": false
   },
   "1f3d5": {
@@ -14000,7 +14000,7 @@
       "photo"
     ],
     "emoji": "🏘",
-    "image": "./emoji-img/house.png",
+    "image": "./emoji-img/house_buildings.png",
     "fitz": false
   },
   "1f3d9": {
@@ -14039,7 +14039,7 @@
       "house"
     ],
     "emoji": "🏚",
-    "image": "./emoji-img/derelict_house.png",
+    "image": "./emoji-img/derelict_house_building.png",
     "fitz": false
   },
   "1f3db": {
@@ -14151,7 +14151,7 @@
       "house"
     ],
     "emoji": "🏠",
-    "image": "./emoji-img/house_1f3e0.png",
+    "image": "./emoji-img/house_building.png",
     "fitz": false
   },
   "1f3e1": {
@@ -14229,7 +14229,7 @@
       "post"
     ],
     "emoji": "🏤",
-    "image": "./emoji-img/post_office.png",
+    "image": "./emoji-img/european_post_office.png",
     "fitz": false
   },
   "1f3e5": {
@@ -14293,7 +14293,7 @@
       "teller"
     ],
     "emoji": "🏧",
-    "image": "./emoji-img/atm_sign.png",
+    "image": "./emoji-img/automated_teller_machine.png",
     "fitz": false
   },
   "1f3e8": {
@@ -14429,7 +14429,7 @@
       "spooky"
     ],
     "emoji": "🏮",
-    "image": "./emoji-img/red_paper_lantern.png",
+    "image": "./emoji-img/izakaya_lantern.png",
     "fitz": false
   },
   "1f3ef": {
@@ -14468,7 +14468,7 @@
       "royalty"
     ],
     "emoji": "🏰",
-    "image": "./emoji-img/castle.png",
+    "image": "./emoji-img/european_castle.png",
     "fitz": false
   },
   "1f3f3": {
@@ -14491,7 +14491,7 @@
       "white"
     ],
     "emoji": "🏳",
-    "image": "./emoji-img/white_flag.png",
+    "image": "./emoji-img/waving_white_flag.png",
     "fitz": false
   },
   "1f3f3_1f308": {
@@ -14539,7 +14539,7 @@
       "waving"
     ],
     "emoji": "🏴",
-    "image": "./emoji-img/black_flag.png",
+    "image": "./emoji-img/waving_black_flag.png",
     "fitz": false
   },
   "1f3f4_e0067_e0062_e0065_e006e_e0067_e007f": {
@@ -14560,7 +14560,7 @@
 
     ],
     "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    "image": "./emoji-img/1f3f4_e0067_e0062_e0065_e006e_e0067_e007f.png",
+    "image": "./emoji-img/england.png",
     "fitz": false
   },
   "1f3f4_e0067_e0062_e0073_e0063_e0074_e007f": {
@@ -14581,7 +14581,7 @@
 
     ],
     "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-    "image": "./emoji-img/1f3f4_e0067_e0062_e0073_e0063_e0074_e007f.png",
+    "image": "./emoji-img/scotland.png",
     "fitz": false
   },
   "1f3f4_e0067_e0062_e0077_e006c_e0073_e007f": {
@@ -14602,7 +14602,7 @@
 
     ],
     "emoji": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
-    "image": "./emoji-img/1f3f4_e0067_e0062_e0077_e006c_e0073_e007f.png",
+    "image": "./emoji-img/wales.png",
     "fitz": false
   },
   "1f3f5": {
@@ -14658,7 +14658,7 @@
       "sports"
     ],
     "emoji": "🏸",
-    "image": "./emoji-img/badminton.png",
+    "image": "./emoji-img/badminton_racquet_and_shuttlecock.png",
     "fitz": false
   },
   "1f3f9": {
@@ -14722,7 +14722,7 @@
       "type 1–2"
     ],
     "emoji": "🏻",
-    "image": "./emoji-img/light_skin_tone.png",
+    "image": "./emoji-img/emoji_modifier_fitzpatrick_type-1-2.png",
     "fitz": false
   },
   "1f3fc": {
@@ -14738,7 +14738,7 @@
       "type 3"
     ],
     "emoji": "🏼",
-    "image": "./emoji-img/medium-light_skin_tone.png",
+    "image": "./emoji-img/emoji_modifier_fitzpatrick_type-3.png",
     "fitz": false
   },
   "1f3fd": {
@@ -14754,7 +14754,7 @@
       "type 4"
     ],
     "emoji": "🏽",
-    "image": "./emoji-img/medium_skin_tone.png",
+    "image": "./emoji-img/emoji_modifier_fitzpatrick_type-4.png",
     "fitz": false
   },
   "1f3fe": {
@@ -14770,7 +14770,7 @@
       "type 5"
     ],
     "emoji": "🏾",
-    "image": "./emoji-img/medium-dark_skin_tone.png",
+    "image": "./emoji-img/emoji_modifier_fitzpatrick_type-5.png",
     "fitz": false
   },
   "1f3ff": {
@@ -14786,7 +14786,7 @@
       "type 6"
     ],
     "emoji": "🏿",
-    "image": "./emoji-img/dark_skin_tone.png",
+    "image": "./emoji-img/emoji_modifier_fitzpatrick_type-6.png",
     "fitz": false
   },
   "1f400": {
@@ -15145,7 +15145,7 @@
       "wool"
     ],
     "emoji": "🐑",
-    "image": "./emoji-img/ewe.png",
+    "image": "./emoji-img/sheep.png",
     "fitz": false
   },
   "1f412": {
@@ -15638,7 +15638,7 @@
       "hump"
     ],
     "emoji": "🐪",
-    "image": "./emoji-img/camel.png",
+    "image": "./emoji-img/dromedary_camel.png",
     "fitz": false
   },
   "1f42b": {
@@ -15659,7 +15659,7 @@
       "nature"
     ],
     "emoji": "🐫",
-    "image": "./emoji-img/two-hump_camel.png",
+    "image": "./emoji-img/bactrian_camel.png",
     "fitz": false
   },
   "1f42c": {
@@ -16241,13 +16241,13 @@
       "up"
     ],
     "emoji": "👆",
-    "image": "./emoji-img/backhand_index_pointing_up.png",
+    "image": "./emoji-img/white_up_pointing_backhand_index.png",
     "fitz": [
-      "./emoji-img/backhand_index_pointing_up.1.png",
-      "./emoji-img/backhand_index_pointing_up.2.png",
-      "./emoji-img/backhand_index_pointing_up.3.png",
-      "./emoji-img/backhand_index_pointing_up.4.png",
-      "./emoji-img/backhand_index_pointing_up.5.png"
+      "./emoji-img/white_up_pointing_backhand_index.1.png",
+      "./emoji-img/white_up_pointing_backhand_index.2.png",
+      "./emoji-img/white_up_pointing_backhand_index.3.png",
+      "./emoji-img/white_up_pointing_backhand_index.4.png",
+      "./emoji-img/white_up_pointing_backhand_index.5.png"
     ]
   },
   "1f447": {
@@ -16269,13 +16269,13 @@
       "point"
     ],
     "emoji": "👇",
-    "image": "./emoji-img/backhand_index_pointing_down.png",
+    "image": "./emoji-img/white_down_pointing_backhand_index.png",
     "fitz": [
-      "./emoji-img/backhand_index_pointing_down.1.png",
-      "./emoji-img/backhand_index_pointing_down.2.png",
-      "./emoji-img/backhand_index_pointing_down.3.png",
-      "./emoji-img/backhand_index_pointing_down.4.png",
-      "./emoji-img/backhand_index_pointing_down.5.png"
+      "./emoji-img/white_down_pointing_backhand_index.1.png",
+      "./emoji-img/white_down_pointing_backhand_index.2.png",
+      "./emoji-img/white_down_pointing_backhand_index.3.png",
+      "./emoji-img/white_down_pointing_backhand_index.4.png",
+      "./emoji-img/white_down_pointing_backhand_index.5.png"
     ]
   },
   "1f448": {
@@ -16297,13 +16297,13 @@
       "point"
     ],
     "emoji": "👈",
-    "image": "./emoji-img/backhand_index_pointing_left.png",
+    "image": "./emoji-img/white_left_pointing_backhand_index.png",
     "fitz": [
-      "./emoji-img/backhand_index_pointing_left.1.png",
-      "./emoji-img/backhand_index_pointing_left.2.png",
-      "./emoji-img/backhand_index_pointing_left.3.png",
-      "./emoji-img/backhand_index_pointing_left.4.png",
-      "./emoji-img/backhand_index_pointing_left.5.png"
+      "./emoji-img/white_left_pointing_backhand_index.1.png",
+      "./emoji-img/white_left_pointing_backhand_index.2.png",
+      "./emoji-img/white_left_pointing_backhand_index.3.png",
+      "./emoji-img/white_left_pointing_backhand_index.4.png",
+      "./emoji-img/white_left_pointing_backhand_index.5.png"
     ]
   },
   "1f449": {
@@ -16325,13 +16325,13 @@
       "right"
     ],
     "emoji": "👉",
-    "image": "./emoji-img/backhand_index_pointing_right.png",
+    "image": "./emoji-img/white_right_pointing_backhand_index.png",
     "fitz": [
-      "./emoji-img/backhand_index_pointing_right.1.png",
-      "./emoji-img/backhand_index_pointing_right.2.png",
-      "./emoji-img/backhand_index_pointing_right.3.png",
-      "./emoji-img/backhand_index_pointing_right.4.png",
-      "./emoji-img/backhand_index_pointing_right.5.png"
+      "./emoji-img/white_right_pointing_backhand_index.1.png",
+      "./emoji-img/white_right_pointing_backhand_index.2.png",
+      "./emoji-img/white_right_pointing_backhand_index.3.png",
+      "./emoji-img/white_right_pointing_backhand_index.4.png",
+      "./emoji-img/white_right_pointing_backhand_index.5.png"
     ]
   },
   "1f44a": {
@@ -16354,13 +16354,13 @@
       "violence"
     ],
     "emoji": "👊",
-    "image": "./emoji-img/oncoming_fist.png",
+    "image": "./emoji-img/fisted_hand_sign.png",
     "fitz": [
-      "./emoji-img/oncoming_fist.1.png",
-      "./emoji-img/oncoming_fist.2.png",
-      "./emoji-img/oncoming_fist.3.png",
-      "./emoji-img/oncoming_fist.4.png",
-      "./emoji-img/oncoming_fist.5.png"
+      "./emoji-img/fisted_hand_sign.1.png",
+      "./emoji-img/fisted_hand_sign.2.png",
+      "./emoji-img/fisted_hand_sign.3.png",
+      "./emoji-img/fisted_hand_sign.4.png",
+      "./emoji-img/fisted_hand_sign.5.png"
     ]
   },
   "1f44b": {
@@ -16385,13 +16385,13 @@
       "waving"
     ],
     "emoji": "👋",
-    "image": "./emoji-img/waving_hand.png",
+    "image": "./emoji-img/waving_hand_sign.png",
     "fitz": [
-      "./emoji-img/waving_hand.1.png",
-      "./emoji-img/waving_hand.2.png",
-      "./emoji-img/waving_hand.3.png",
-      "./emoji-img/waving_hand.4.png",
-      "./emoji-img/waving_hand.5.png"
+      "./emoji-img/waving_hand_sign.1.png",
+      "./emoji-img/waving_hand_sign.2.png",
+      "./emoji-img/waving_hand_sign.3.png",
+      "./emoji-img/waving_hand_sign.4.png",
+      "./emoji-img/waving_hand_sign.5.png"
     ]
   },
   "1f44c": {
@@ -16412,13 +16412,13 @@
       "perfect"
     ],
     "emoji": "👌",
-    "image": "./emoji-img/ok_hand.png",
+    "image": "./emoji-img/ok_hand_sign.png",
     "fitz": [
-      "./emoji-img/ok_hand.1.png",
-      "./emoji-img/ok_hand.2.png",
-      "./emoji-img/ok_hand.3.png",
-      "./emoji-img/ok_hand.4.png",
-      "./emoji-img/ok_hand.5.png"
+      "./emoji-img/ok_hand_sign.1.png",
+      "./emoji-img/ok_hand_sign.2.png",
+      "./emoji-img/ok_hand_sign.3.png",
+      "./emoji-img/ok_hand_sign.4.png",
+      "./emoji-img/ok_hand_sign.5.png"
     ]
   },
   "1f44d": {
@@ -16444,13 +16444,13 @@
       "yes"
     ],
     "emoji": "👍",
-    "image": "./emoji-img/thumbs_up.png",
+    "image": "./emoji-img/thumbs_up_sign.png",
     "fitz": [
-      "./emoji-img/thumbs_up.1.png",
-      "./emoji-img/thumbs_up.2.png",
-      "./emoji-img/thumbs_up.3.png",
-      "./emoji-img/thumbs_up.4.png",
-      "./emoji-img/thumbs_up.5.png"
+      "./emoji-img/thumbs_up_sign.1.png",
+      "./emoji-img/thumbs_up_sign.2.png",
+      "./emoji-img/thumbs_up_sign.3.png",
+      "./emoji-img/thumbs_up_sign.4.png",
+      "./emoji-img/thumbs_up_sign.5.png"
     ]
   },
   "1f44e": {
@@ -16471,13 +16471,13 @@
       "thumbsdown"
     ],
     "emoji": "👎",
-    "image": "./emoji-img/thumbs_down.png",
+    "image": "./emoji-img/thumbs_down_sign.png",
     "fitz": [
-      "./emoji-img/thumbs_down.1.png",
-      "./emoji-img/thumbs_down.2.png",
-      "./emoji-img/thumbs_down.3.png",
-      "./emoji-img/thumbs_down.4.png",
-      "./emoji-img/thumbs_down.5.png"
+      "./emoji-img/thumbs_down_sign.1.png",
+      "./emoji-img/thumbs_down_sign.2.png",
+      "./emoji-img/thumbs_down_sign.3.png",
+      "./emoji-img/thumbs_down_sign.4.png",
+      "./emoji-img/thumbs_down_sign.5.png"
     ]
   },
   "1f44f": {
@@ -16498,13 +16498,13 @@
       "yay"
     ],
     "emoji": "👏",
-    "image": "./emoji-img/clapping_hands.png",
+    "image": "./emoji-img/clapping_hands_sign.png",
     "fitz": [
-      "./emoji-img/clapping_hands.1.png",
-      "./emoji-img/clapping_hands.2.png",
-      "./emoji-img/clapping_hands.3.png",
-      "./emoji-img/clapping_hands.4.png",
-      "./emoji-img/clapping_hands.5.png"
+      "./emoji-img/clapping_hands_sign.1.png",
+      "./emoji-img/clapping_hands_sign.2.png",
+      "./emoji-img/clapping_hands_sign.3.png",
+      "./emoji-img/clapping_hands_sign.4.png",
+      "./emoji-img/clapping_hands_sign.5.png"
     ]
   },
   "1f450": {
@@ -16523,13 +16523,13 @@
       "open"
     ],
     "emoji": "👐",
-    "image": "./emoji-img/open_hands.png",
+    "image": "./emoji-img/open_hands_sign.png",
     "fitz": [
-      "./emoji-img/open_hands.1.png",
-      "./emoji-img/open_hands.2.png",
-      "./emoji-img/open_hands.3.png",
-      "./emoji-img/open_hands.4.png",
-      "./emoji-img/open_hands.5.png"
+      "./emoji-img/open_hands_sign.1.png",
+      "./emoji-img/open_hands_sign.2.png",
+      "./emoji-img/open_hands_sign.3.png",
+      "./emoji-img/open_hands_sign.4.png",
+      "./emoji-img/open_hands_sign.5.png"
     ]
   },
   "1f451": {
@@ -16574,7 +16574,7 @@
       "womans"
     ],
     "emoji": "👒",
-    "image": "./emoji-img/woman_s_hat.png",
+    "image": "./emoji-img/womans_hat.png",
     "fitz": false
   },
   "1f453": {
@@ -16598,7 +16598,7 @@
       "nerdy"
     ],
     "emoji": "👓",
-    "image": "./emoji-img/glasses.png",
+    "image": "./emoji-img/eyeglasses.png",
     "fitz": false
   },
   "1f454": {
@@ -16746,7 +16746,7 @@
       "womans"
     ],
     "emoji": "👚",
-    "image": "./emoji-img/woman_s_clothes.png",
+    "image": "./emoji-img/womans_clothes.png",
     "fitz": false
   },
   "1f45b": {
@@ -16809,7 +16809,7 @@
       "shopping"
     ],
     "emoji": "👝",
-    "image": "./emoji-img/clutch_bag.png",
+    "image": "./emoji-img/pouch.png",
     "fitz": false
   },
   "1f45e": {
@@ -16829,7 +16829,7 @@
       "shoe"
     ],
     "emoji": "👞",
-    "image": "./emoji-img/man_s_shoe.png",
+    "image": "./emoji-img/mans_shoe.png",
     "fitz": false
   },
   "1f45f": {
@@ -16850,7 +16850,7 @@
       "sports"
     ],
     "emoji": "👟",
-    "image": "./emoji-img/running_shoe.png",
+    "image": "./emoji-img/athletic_shoe.png",
     "fitz": false
   },
   "1f460": {
@@ -16895,7 +16895,7 @@
       "woman"
     ],
     "emoji": "👡",
-    "image": "./emoji-img/woman_s_sandal.png",
+    "image": "./emoji-img/womans_sandal.png",
     "fitz": false
   },
   "1f462": {
@@ -16915,7 +16915,7 @@
       "woman"
     ],
     "emoji": "👢",
-    "image": "./emoji-img/woman_s_boot.png",
+    "image": "./emoji-img/womans_boots.png",
     "fitz": false
   },
   "1f463": {
@@ -18290,7 +18290,7 @@
       "woman"
     ],
     "emoji": "👨‍👩‍👦",
-    "image": "./emoji-img/family.MWB.png",
+    "image": "./emoji-img/family_man_woman_boy.MWB.png",
     "fitz": false
   },
   "1f46a_MWBB": {
@@ -18811,7 +18811,7 @@
       "women"
     ],
     "emoji": "👯",
-    "image": "./emoji-img/people_with_bunny_ears_partying.W.png",
+    "image": "./emoji-img/woman_with_bunny_ears.W.png",
     "fitz": false
   },
   "1f470": {
@@ -18859,13 +18859,13 @@
       "person"
     ],
     "emoji": "👱",
-    "image": "./emoji-img/blond-haired_person.W.png",
+    "image": "./emoji-img/person_with_blond_hair.W.png",
     "fitz": [
-      "./emoji-img/blond-haired_person.W.1.png",
-      "./emoji-img/blond-haired_person.W.2.png",
-      "./emoji-img/blond-haired_person.W.3.png",
-      "./emoji-img/blond-haired_person.W.4.png",
-      "./emoji-img/blond-haired_person.W.5.png"
+      "./emoji-img/person_with_blond_hair.W.1.png",
+      "./emoji-img/person_with_blond_hair.W.2.png",
+      "./emoji-img/person_with_blond_hair.W.3.png",
+      "./emoji-img/person_with_blond_hair.W.4.png",
+      "./emoji-img/person_with_blond_hair.W.5.png"
     ]
   },
   "1f472": {
@@ -18889,13 +18889,13 @@
       "with"
     ],
     "emoji": "👲",
-    "image": "./emoji-img/man_with_chinese_cap.png",
+    "image": "./emoji-img/man_with_gua_pi_mao.png",
     "fitz": [
-      "./emoji-img/man_with_chinese_cap.1.png",
-      "./emoji-img/man_with_chinese_cap.2.png",
-      "./emoji-img/man_with_chinese_cap.3.png",
-      "./emoji-img/man_with_chinese_cap.4.png",
-      "./emoji-img/man_with_chinese_cap.5.png"
+      "./emoji-img/man_with_gua_pi_mao.1.png",
+      "./emoji-img/man_with_gua_pi_mao.2.png",
+      "./emoji-img/man_with_gua_pi_mao.3.png",
+      "./emoji-img/man_with_gua_pi_mao.4.png",
+      "./emoji-img/man_with_gua_pi_mao.5.png"
     ]
   },
   "1f473": {
@@ -18916,13 +18916,13 @@
       "with"
     ],
     "emoji": "👳",
-    "image": "./emoji-img/person_wearing_turban.W.png",
+    "image": "./emoji-img/man_with_turban.W.png",
     "fitz": [
-      "./emoji-img/person_wearing_turban.W.1.png",
-      "./emoji-img/person_wearing_turban.W.2.png",
-      "./emoji-img/person_wearing_turban.W.3.png",
-      "./emoji-img/person_wearing_turban.W.4.png",
-      "./emoji-img/person_wearing_turban.W.5.png"
+      "./emoji-img/man_with_turban.W.1.png",
+      "./emoji-img/man_with_turban.W.2.png",
+      "./emoji-img/man_with_turban.W.3.png",
+      "./emoji-img/man_with_turban.W.4.png",
+      "./emoji-img/man_with_turban.W.5.png"
     ]
   },
   "1f474": {
@@ -18944,13 +18944,13 @@
       "senior"
     ],
     "emoji": "👴",
-    "image": "./emoji-img/old_man.png",
+    "image": "./emoji-img/older_man.png",
     "fitz": [
-      "./emoji-img/old_man.1.png",
-      "./emoji-img/old_man.2.png",
-      "./emoji-img/old_man.3.png",
-      "./emoji-img/old_man.4.png",
-      "./emoji-img/old_man.5.png"
+      "./emoji-img/older_man.1.png",
+      "./emoji-img/older_man.2.png",
+      "./emoji-img/older_man.3.png",
+      "./emoji-img/older_man.4.png",
+      "./emoji-img/older_man.5.png"
     ]
   },
   "1f475": {
@@ -18973,13 +18973,13 @@
       "women"
     ],
     "emoji": "👵",
-    "image": "./emoji-img/old_woman.png",
+    "image": "./emoji-img/older_woman.png",
     "fitz": [
-      "./emoji-img/old_woman.1.png",
-      "./emoji-img/old_woman.2.png",
-      "./emoji-img/old_woman.3.png",
-      "./emoji-img/old_woman.4.png",
-      "./emoji-img/old_woman.5.png"
+      "./emoji-img/older_woman.1.png",
+      "./emoji-img/older_woman.2.png",
+      "./emoji-img/older_woman.3.png",
+      "./emoji-img/older_woman.4.png",
+      "./emoji-img/older_woman.5.png"
     ]
   },
   "1f476": {
@@ -19093,7 +19093,7 @@
       "scary"
     ],
     "emoji": "👹",
-    "image": "./emoji-img/ogre.png",
+    "image": "./emoji-img/japanese_ogre.png",
     "fitz": false
   },
   "1f47a": {
@@ -19119,7 +19119,7 @@
       "scary"
     ],
     "emoji": "👺",
-    "image": "./emoji-img/goblin.png",
+    "image": "./emoji-img/japanese_goblin.png",
     "fitz": false
   },
   "1f47b": {
@@ -19196,7 +19196,7 @@
       "weird"
     ],
     "emoji": "👽",
-    "image": "./emoji-img/alien.png",
+    "image": "./emoji-img/extraterrestrial_alien.png",
     "fitz": false
   },
   "1f47e": {
@@ -19245,7 +19245,7 @@
       "imp"
     ],
     "emoji": "👿",
-    "image": "./emoji-img/angry_face_with_horns.png",
+    "image": "./emoji-img/imp.png",
     "fitz": false
   },
   "1f480": {
@@ -19290,13 +19290,13 @@
       "woman"
     ],
     "emoji": "💁",
-    "image": "./emoji-img/person_tipping_hand.W.png",
+    "image": "./emoji-img/information_desk_person.W.png",
     "fitz": [
-      "./emoji-img/person_tipping_hand.W.1.png",
-      "./emoji-img/person_tipping_hand.W.2.png",
-      "./emoji-img/person_tipping_hand.W.3.png",
-      "./emoji-img/person_tipping_hand.W.4.png",
-      "./emoji-img/person_tipping_hand.W.5.png"
+      "./emoji-img/information_desk_person.W.1.png",
+      "./emoji-img/information_desk_person.W.2.png",
+      "./emoji-img/information_desk_person.W.3.png",
+      "./emoji-img/information_desk_person.W.4.png",
+      "./emoji-img/information_desk_person.W.5.png"
     ]
   },
   "1f482": {
@@ -19318,13 +19318,13 @@
       "uk"
     ],
     "emoji": "💂",
-    "image": "./emoji-img/guard.W.png",
+    "image": "./emoji-img/guardsman.W.png",
     "fitz": [
-      "./emoji-img/guard.W.1.png",
-      "./emoji-img/guard.W.2.png",
-      "./emoji-img/guard.W.3.png",
-      "./emoji-img/guard.W.4.png",
-      "./emoji-img/guard.W.5.png"
+      "./emoji-img/guardsman.W.1.png",
+      "./emoji-img/guardsman.W.2.png",
+      "./emoji-img/guardsman.W.3.png",
+      "./emoji-img/guardsman.W.4.png",
+      "./emoji-img/guardsman.W.5.png"
     ]
   },
   "1f483": {
@@ -19344,13 +19344,13 @@
       "woman"
     ],
     "emoji": "💃",
-    "image": "./emoji-img/woman_dancing.png",
+    "image": "./emoji-img/dancer.png",
     "fitz": [
-      "./emoji-img/woman_dancing.1.png",
-      "./emoji-img/woman_dancing.2.png",
-      "./emoji-img/woman_dancing.3.png",
-      "./emoji-img/woman_dancing.4.png",
-      "./emoji-img/woman_dancing.5.png"
+      "./emoji-img/dancer.1.png",
+      "./emoji-img/dancer.2.png",
+      "./emoji-img/dancer.3.png",
+      "./emoji-img/dancer.4.png",
+      "./emoji-img/dancer.5.png"
     ]
   },
   "1f484": {
@@ -19420,13 +19420,13 @@
       "woman"
     ],
     "emoji": "💆",
-    "image": "./emoji-img/person_getting_massage.W.png",
+    "image": "./emoji-img/face_massage.W.png",
     "fitz": [
-      "./emoji-img/person_getting_massage.W.1.png",
-      "./emoji-img/person_getting_massage.W.2.png",
-      "./emoji-img/person_getting_massage.W.3.png",
-      "./emoji-img/person_getting_massage.W.4.png",
-      "./emoji-img/person_getting_massage.W.5.png"
+      "./emoji-img/face_massage.W.1.png",
+      "./emoji-img/face_massage.W.2.png",
+      "./emoji-img/face_massage.W.3.png",
+      "./emoji-img/face_massage.W.4.png",
+      "./emoji-img/face_massage.W.5.png"
     ]
   },
   "1f487": {
@@ -19447,13 +19447,13 @@
       "woman"
     ],
     "emoji": "💇",
-    "image": "./emoji-img/person_getting_haircut.W.png",
+    "image": "./emoji-img/haircut.W.png",
     "fitz": [
-      "./emoji-img/person_getting_haircut.W.1.png",
-      "./emoji-img/person_getting_haircut.W.2.png",
-      "./emoji-img/person_getting_haircut.W.3.png",
-      "./emoji-img/person_getting_haircut.W.4.png",
-      "./emoji-img/person_getting_haircut.W.5.png"
+      "./emoji-img/haircut.W.1.png",
+      "./emoji-img/haircut.W.2.png",
+      "./emoji-img/haircut.W.3.png",
+      "./emoji-img/haircut.W.4.png",
+      "./emoji-img/haircut.W.5.png"
     ]
   },
   "1f488": {
@@ -19637,7 +19637,7 @@
       "valentines"
     ],
     "emoji": "👨‍❤️‍💋‍👨",
-    "image": "./emoji-img/couplekiss_man_man.MM.png",
+    "image": "./emoji-img/kiss_man_man.MM.png",
     "fitz": false
   },
   "1f48f_MW": {
@@ -19668,7 +19668,7 @@
       "woman"
     ],
     "emoji": "👩‍❤️‍💋‍👨",
-    "image": "./emoji-img/kiss.MW.png",
+    "image": "./emoji-img/kiss_woman_man.MW.png",
     "fitz": false
   },
   "1f48f_WW": {
@@ -19697,7 +19697,7 @@
       "woman"
     ],
     "emoji": "👩‍❤️‍💋‍👩",
-    "image": "./emoji-img/couplekiss_woman_woman.WW.png",
+    "image": "./emoji-img/kiss_woman_woman.WW.png",
     "fitz": false
   },
   "1f490": {
@@ -19779,7 +19779,7 @@
       "woman"
     ],
     "emoji": "👩‍❤️‍👨",
-    "image": "./emoji-img/couple_with_heart.MW.png",
+    "image": "./emoji-img/couple_with_heart_woman_man.MW.png",
     "fitz": false
   },
   "1f491_WW": {
@@ -20131,7 +20131,7 @@
       "with"
     ],
     "emoji": "💠",
-    "image": "./emoji-img/diamond_with_a_dot.png",
+    "image": "./emoji-img/diamond_shape_with_a_dot_inside.png",
     "fitz": false
   },
   "1f4a1": {
@@ -20151,7 +20151,7 @@
       "light"
     ],
     "emoji": "💡",
-    "image": "./emoji-img/light_bulb.png",
+    "image": "./emoji-img/electric_light_bulb.png",
     "fitz": false
   },
   "1f4a2": {
@@ -20209,7 +20209,7 @@
       "zzz"
     ],
     "emoji": "💤",
-    "image": "./emoji-img/zzz.png",
+    "image": "./emoji-img/sleeping_symbol.png",
     "fitz": false
   },
   "1f4a5": {
@@ -20230,7 +20230,7 @@
       "explosion"
     ],
     "emoji": "💥",
-    "image": "./emoji-img/collision.png",
+    "image": "./emoji-img/collision_symbol.png",
     "fitz": false
   },
   "1f4a6": {
@@ -20251,7 +20251,7 @@
       "water"
     ],
     "emoji": "💦",
-    "image": "./emoji-img/sweat_droplets.png",
+    "image": "./emoji-img/splashing_sweat_symbol.png",
     "fitz": false
   },
   "1f4a7": {
@@ -20298,7 +20298,7 @@
       "wind"
     ],
     "emoji": "💨",
-    "image": "./emoji-img/dashing_away.png",
+    "image": "./emoji-img/dash_symbol.png",
     "fitz": false
   },
   "1f4a9": {
@@ -20371,7 +20371,7 @@
       "star"
     ],
     "emoji": "💫",
-    "image": "./emoji-img/dizzy.png",
+    "image": "./emoji-img/dizzy_symbol.png",
     "fitz": false
   },
   "1f4ac": {
@@ -20459,7 +20459,7 @@
       "test"
     ],
     "emoji": "💯",
-    "image": "./emoji-img/hundred_points.png",
+    "image": "./emoji-img/hundred_points_symbol.png",
     "fitz": false
   },
   "1f4b0": {
@@ -20570,7 +20570,7 @@
       "yen"
     ],
     "emoji": "💴",
-    "image": "./emoji-img/yen_banknote.png",
+    "image": "./emoji-img/banknote_with_yen_sign.png",
     "fitz": false
   },
   "1f4b5": {
@@ -20592,7 +20592,7 @@
       "sales"
     ],
     "emoji": "💵",
-    "image": "./emoji-img/dollar_banknote.png",
+    "image": "./emoji-img/banknote_with_dollar_sign.png",
     "fitz": false
   },
   "1f4b6": {
@@ -20615,7 +20615,7 @@
       "sales"
     ],
     "emoji": "💶",
-    "image": "./emoji-img/euro_banknote.png",
+    "image": "./emoji-img/banknote_with_euro_sign.png",
     "fitz": false
   },
   "1f4b7": {
@@ -20642,7 +20642,7 @@
       "uk"
     ],
     "emoji": "💷",
-    "image": "./emoji-img/pound_banknote.png",
+    "image": "./emoji-img/banknote_with_pound_sign.png",
     "fitz": false
   },
   "1f4b8": {
@@ -20696,7 +20696,7 @@
       "yen"
     ],
     "emoji": "💹",
-    "image": "./emoji-img/chart_increasing_with_yen.png",
+    "image": "./emoji-img/chart_with_upwards_trend_and_yen_sign.png",
     "fitz": false
   },
   "1f4ba": {
@@ -20740,7 +20740,7 @@
       "technology"
     ],
     "emoji": "💻",
-    "image": "./emoji-img/laptop_computer.png",
+    "image": "./emoji-img/personal_computer.png",
     "fitz": false
   },
   "1f4bc": {
@@ -20785,7 +20785,7 @@
       "technology"
     ],
     "emoji": "💽",
-    "image": "./emoji-img/computer_disk.png",
+    "image": "./emoji-img/minidisc.png",
     "fitz": false
   },
   "1f4be": {
@@ -20829,7 +20829,7 @@
       "technology"
     ],
     "emoji": "💿",
-    "image": "./emoji-img/optical_disk.png",
+    "image": "./emoji-img/optical_disc.png",
     "fitz": false
   },
   "1f4c0": {
@@ -21015,7 +21015,7 @@
       "with"
     ],
     "emoji": "📈",
-    "image": "./emoji-img/chart_increasing.png",
+    "image": "./emoji-img/chart_with_upwards_trend.png",
     "fitz": false
   },
   "1f4c9": {
@@ -21044,7 +21044,7 @@
       "with"
     ],
     "emoji": "📉",
-    "image": "./emoji-img/chart_decreasing.png",
+    "image": "./emoji-img/chart_with_downwards_trend.png",
     "fitz": false
   },
   "1f4ca": {
@@ -21552,7 +21552,7 @@
       "volume"
     ],
     "emoji": "📢",
-    "image": "./emoji-img/loudspeaker.png",
+    "image": "./emoji-img/public_address_loudspeaker.png",
     "fitz": false
   },
   "1f4e3": {
@@ -21571,7 +21571,7 @@
       "volume"
     ],
     "emoji": "📣",
-    "image": "./emoji-img/megaphone.png",
+    "image": "./emoji-img/cheering_megaphone.png",
     "fitz": false
   },
   "1f4e4": {
@@ -21656,7 +21656,7 @@
       "mail"
     ],
     "emoji": "📧",
-    "image": "./emoji-img/e-mail.png",
+    "image": "./emoji-img/e-mail_symbol.png",
     "fitz": false
   },
   "1f4e8": {
@@ -21703,7 +21703,7 @@
       "with"
     ],
     "emoji": "📩",
-    "image": "./emoji-img/envelope_with_arrow.png",
+    "image": "./emoji-img/envelope_with_downwards_arrow_above.png",
     "fitz": false
   },
   "1f4ea": {
@@ -21896,7 +21896,7 @@
       "telephone"
     ],
     "emoji": "📲",
-    "image": "./emoji-img/mobile_phone_with_arrow.png",
+    "image": "./emoji-img/mobile_phone_with_rightwards_arrow_at_left.png",
     "fitz": false
   },
   "1f4f3": {
@@ -21995,7 +21995,7 @@
       "wifi"
     ],
     "emoji": "📶",
-    "image": "./emoji-img/antenna_bars.png",
+    "image": "./emoji-img/antenna_with_bars.png",
     "fitz": false
   },
   "1f4f7": {
@@ -22177,7 +22177,7 @@
       "twisted"
     ],
     "emoji": "🔀",
-    "image": "./emoji-img/shuffle_tracks_button.png",
+    "image": "./emoji-img/twisted_rightwards_arrows.png",
     "fitz": false
   },
   "1f501": {
@@ -22196,7 +22196,7 @@
       "repeat"
     ],
     "emoji": "🔁",
-    "image": "./emoji-img/repeat_button.png",
+    "image": "./emoji-img/clockwise_rightwards_and_leftwards_open_circle_arrows.png",
     "fitz": false
   },
   "1f502": {
@@ -22217,7 +22217,7 @@
       "repeat"
     ],
     "emoji": "🔂",
-    "image": "./emoji-img/repeat_single_button.png",
+    "image": "./emoji-img/clockwise_rightwards_and_leftwards_open_circle_arrows_with_circled_one_overlay.png",
     "fitz": false
   },
   "1f503": {
@@ -22239,7 +22239,7 @@
       "sync"
     ],
     "emoji": "🔃",
-    "image": "./emoji-img/clockwise_vertical_arrows.png",
+    "image": "./emoji-img/clockwise_downwards_and_upwards_open_circle_arrows.png",
     "fitz": false
   },
   "1f504": {
@@ -22261,7 +22261,7 @@
       "withershins"
     ],
     "emoji": "🔄",
-    "image": "./emoji-img/anticlockwise_arrows_button.png",
+    "image": "./emoji-img/anticlockwise_downwards_and_upwards_open_circle_arrows.png",
     "fitz": false
   },
   "1f505": {
@@ -22282,7 +22282,7 @@
       "warm"
     ],
     "emoji": "🔅",
-    "image": "./emoji-img/dim_button.png",
+    "image": "./emoji-img/low_brightness_symbol.png",
     "fitz": false
   },
   "1f506": {
@@ -22301,7 +22301,7 @@
       "sun"
     ],
     "emoji": "🔆",
-    "image": "./emoji-img/bright_button.png",
+    "image": "./emoji-img/high_brightness_symbol.png",
     "fitz": false
   },
   "1f507": {
@@ -22322,7 +22322,7 @@
       "volume"
     ],
     "emoji": "🔇",
-    "image": "./emoji-img/muted_speaker.png",
+    "image": "./emoji-img/speaker_with_cancellation_stroke.png",
     "fitz": false
   },
   "1f508": {
@@ -22342,7 +22342,7 @@
       "volume"
     ],
     "emoji": "🔈",
-    "image": "./emoji-img/speaker_low_volume.png",
+    "image": "./emoji-img/speaker.png",
     "fitz": false
   },
   "1f509": {
@@ -22361,7 +22361,7 @@
       "volume"
     ],
     "emoji": "🔉",
-    "image": "./emoji-img/speaker_medium_volume.png",
+    "image": "./emoji-img/speaker_with_one_sound_wave.png",
     "fitz": false
   },
   "1f50a": {
@@ -22382,7 +22382,7 @@
       "volume"
     ],
     "emoji": "🔊",
-    "image": "./emoji-img/speaker_high_volume.png",
+    "image": "./emoji-img/speaker_with_three_sound_waves.png",
     "fitz": false
   },
   "1f50b": {
@@ -22486,7 +22486,7 @@
       "with"
     ],
     "emoji": "🔏",
-    "image": "./emoji-img/locked_with_pen.png",
+    "image": "./emoji-img/lock_with_ink_pen.png",
     "fitz": false
   },
   "1f510": {
@@ -22507,7 +22507,7 @@
       "with"
     ],
     "emoji": "🔐",
-    "image": "./emoji-img/locked_with_key.png",
+    "image": "./emoji-img/closed_lock_with_key.png",
     "fitz": false
   },
   "1f511": {
@@ -22544,7 +22544,7 @@
       "security"
     ],
     "emoji": "🔒",
-    "image": "./emoji-img/locked.png",
+    "image": "./emoji-img/lock.png",
     "fitz": false
   },
   "1f513": {
@@ -22563,7 +22563,7 @@
       "unlock"
     ],
     "emoji": "🔓",
-    "image": "./emoji-img/unlocked.png",
+    "image": "./emoji-img/open_lock.png",
     "fitz": false
   },
   "1f514": {
@@ -22607,7 +22607,7 @@
       "volume"
     ],
     "emoji": "🔕",
-    "image": "./emoji-img/bell_with_slash.png",
+    "image": "./emoji-img/bell_with_cancellation_stroke.png",
     "fitz": false
   },
   "1f516": {
@@ -22643,7 +22643,7 @@
       "url"
     ],
     "emoji": "🔗",
-    "image": "./emoji-img/link.png",
+    "image": "./emoji-img/link_symbol.png",
     "fitz": false
   },
   "1f518": {
@@ -22682,7 +22682,7 @@
       "words"
     ],
     "emoji": "🔙",
-    "image": "./emoji-img/back_arrow.png",
+    "image": "./emoji-img/back_with_leftwards_arrow_above.png",
     "fitz": false
   },
   "1f51a": {
@@ -22699,7 +22699,7 @@
       "words"
     ],
     "emoji": "🔚",
-    "image": "./emoji-img/end_arrow.png",
+    "image": "./emoji-img/end_with_leftwards_arrow_above.png",
     "fitz": false
   },
   "1f51b": {
@@ -22717,7 +22717,7 @@
       "words"
     ],
     "emoji": "🔛",
-    "image": "./emoji-img/on_arrow.png",
+    "image": "./emoji-img/on_with_exclamation_mark_with_left_right_arrow_above.png",
     "fitz": false
   },
   "1f51c": {
@@ -22734,7 +22734,7 @@
       "words"
     ],
     "emoji": "🔜",
-    "image": "./emoji-img/soon_arrow.png",
+    "image": "./emoji-img/soon_with_rightwards_arrow_above.png",
     "fitz": false
   },
   "1f51d": {
@@ -22753,7 +22753,7 @@
       "words"
     ],
     "emoji": "🔝",
-    "image": "./emoji-img/top_arrow.png",
+    "image": "./emoji-img/top_with_upwards_arrow_above.png",
     "fitz": false
   },
   "1f51e": {
@@ -22780,7 +22780,7 @@
       "underage"
     ],
     "emoji": "🔞",
-    "image": "./emoji-img/no_one_under_eighteen.png",
+    "image": "./emoji-img/no_one_under_eighteen_symbol.png",
     "fitz": false
   },
   "1f51f": {
@@ -22800,7 +22800,7 @@
       "ten"
     ],
     "emoji": "🔟",
-    "image": "./emoji-img/keycap_10.png",
+    "image": "./emoji-img/keycap_ten.png",
     "fitz": false
   },
   "1f520": {
@@ -22824,7 +22824,7 @@
       "words"
     ],
     "emoji": "🔠",
-    "image": "./emoji-img/input_latin_uppercase.png",
+    "image": "./emoji-img/input_symbol_for_latin_capital_letters.png",
     "fitz": false
   },
   "1f521": {
@@ -22845,7 +22845,7 @@
       "lowercase"
     ],
     "emoji": "🔡",
-    "image": "./emoji-img/input_latin_lowercase.png",
+    "image": "./emoji-img/input_symbol_for_latin_small_letters.png",
     "fitz": false
   },
   "1f522": {
@@ -22863,7 +22863,7 @@
       "numbers"
     ],
     "emoji": "🔢",
-    "image": "./emoji-img/input_numbers.png",
+    "image": "./emoji-img/input_symbol_for_numbers.png",
     "fitz": false
   },
   "1f523": {
@@ -22887,7 +22887,7 @@
       "〒♪&%"
     ],
     "emoji": "🔣",
-    "image": "./emoji-img/input_symbols.png",
+    "image": "./emoji-img/input_symbol_for_symbols.png",
     "fitz": false
   },
   "1f524": {
@@ -22907,7 +22907,7 @@
       "letters"
     ],
     "emoji": "🔤",
-    "image": "./emoji-img/input_latin_letters.png",
+    "image": "./emoji-img/input_symbol_for_latin_letters.png",
     "fitz": false
   },
   "1f525": {
@@ -22949,7 +22949,7 @@
       "torch"
     ],
     "emoji": "🔦",
-    "image": "./emoji-img/flashlight.png",
+    "image": "./emoji-img/electric_torch.png",
     "fitz": false
   },
   "1f527": {
@@ -23033,7 +23033,7 @@
       "weapon"
     ],
     "emoji": "🔪",
-    "image": "./emoji-img/kitchen_knife.png",
+    "image": "./emoji-img/hocho.png",
     "fitz": false
   },
   "1f52b": {
@@ -23143,7 +23143,7 @@
       "star"
     ],
     "emoji": "🔯",
-    "image": "./emoji-img/dotted_six-pointed_star.png",
+    "image": "./emoji-img/six_pointed_star_with_middle_dot.png",
     "fitz": false
   },
   "1f530": {
@@ -23249,7 +23249,7 @@
       "shape"
     ],
     "emoji": "🔴",
-    "image": "./emoji-img/red_circle.png",
+    "image": "./emoji-img/large_red_circle.png",
     "fitz": false
   },
   "1f535": {
@@ -23270,7 +23270,7 @@
       "shape"
     ],
     "emoji": "🔵",
-    "image": "./emoji-img/blue_circle.png",
+    "image": "./emoji-img/large_blue_circle.png",
     "fitz": false
   },
   "1f536": {
@@ -23376,7 +23376,7 @@
       "up"
     ],
     "emoji": "🔺",
-    "image": "./emoji-img/red_triangle_pointed_up.png",
+    "image": "./emoji-img/up-pointing_red_triangle.png",
     "fitz": false
   },
   "1f53b": {
@@ -23398,7 +23398,7 @@
       "triangle"
     ],
     "emoji": "🔻",
-    "image": "./emoji-img/red_triangle_pointed_down.png",
+    "image": "./emoji-img/down-pointing_red_triangle.png",
     "fitz": false
   },
   "1f53c": {
@@ -23423,7 +23423,7 @@
       "up"
     ],
     "emoji": "🔼",
-    "image": "./emoji-img/up_button_1f53c.png",
+    "image": "./emoji-img/up-pointing_small_red_triangle.png",
     "fitz": false
   },
   "1f53d": {
@@ -23445,7 +23445,7 @@
       "small"
     ],
     "emoji": "🔽",
-    "image": "./emoji-img/down_button.png",
+    "image": "./emoji-img/down-pointing_small_red_triangle.png",
     "fitz": false
   },
   "1f549": {
@@ -23466,7 +23466,7 @@
       "sikhism"
     ],
     "emoji": "🕉",
-    "image": "./emoji-img/om.png",
+    "image": "./emoji-img/om_symbol.png",
     "fitz": false
   },
   "1f54a": {
@@ -23485,7 +23485,7 @@
       "peace"
     ],
     "emoji": "🕊",
-    "image": "./emoji-img/dove.png",
+    "image": "./emoji-img/dove_of_peace.png",
     "fitz": false
   },
   "1f54b": {
@@ -23568,7 +23568,7 @@
       "religion"
     ],
     "emoji": "🕎",
-    "image": "./emoji-img/menorah.png",
+    "image": "./emoji-img/menorah_with_nine_branches.png",
     "fitz": false
   },
   "1f550": {
@@ -23593,7 +23593,7 @@
       "time"
     ],
     "emoji": "🕐",
-    "image": "./emoji-img/one_o_clock.png",
+    "image": "./emoji-img/clock_face_one_oclock.png",
     "fitz": false
   },
   "1f551": {
@@ -23618,7 +23618,7 @@
       "two"
     ],
     "emoji": "🕑",
-    "image": "./emoji-img/two_o_clock.png",
+    "image": "./emoji-img/clock_face_two_oclock.png",
     "fitz": false
   },
   "1f552": {
@@ -23643,7 +23643,7 @@
       "time"
     ],
     "emoji": "🕒",
-    "image": "./emoji-img/three_o_clock.png",
+    "image": "./emoji-img/clock_face_three_oclock.png",
     "fitz": false
   },
   "1f553": {
@@ -23668,7 +23668,7 @@
       "time"
     ],
     "emoji": "🕓",
-    "image": "./emoji-img/four_o_clock.png",
+    "image": "./emoji-img/clock_face_four_oclock.png",
     "fitz": false
   },
   "1f554": {
@@ -23693,7 +23693,7 @@
       "time"
     ],
     "emoji": "🕔",
-    "image": "./emoji-img/five_o_clock.png",
+    "image": "./emoji-img/clock_face_five_oclock.png",
     "fitz": false
   },
   "1f555": {
@@ -23720,7 +23720,7 @@
       "time"
     ],
     "emoji": "🕕",
-    "image": "./emoji-img/six_o_clock.png",
+    "image": "./emoji-img/clock_face_six_oclock.png",
     "fitz": false
   },
   "1f556": {
@@ -23745,7 +23745,7 @@
       "time"
     ],
     "emoji": "🕖",
-    "image": "./emoji-img/seven_o_clock.png",
+    "image": "./emoji-img/clock_face_seven_oclock.png",
     "fitz": false
   },
   "1f557": {
@@ -23770,7 +23770,7 @@
       "time"
     ],
     "emoji": "🕗",
-    "image": "./emoji-img/eight_o_clock.png",
+    "image": "./emoji-img/clock_face_eight_oclock.png",
     "fitz": false
   },
   "1f558": {
@@ -23795,7 +23795,7 @@
       "time"
     ],
     "emoji": "🕘",
-    "image": "./emoji-img/nine_o_clock.png",
+    "image": "./emoji-img/clock_face_nine_oclock.png",
     "fitz": false
   },
   "1f559": {
@@ -23820,7 +23820,7 @@
       "time"
     ],
     "emoji": "🕙",
-    "image": "./emoji-img/ten_o_clock.png",
+    "image": "./emoji-img/clock_face_ten_oclock.png",
     "fitz": false
   },
   "1f55a": {
@@ -23845,7 +23845,7 @@
       "time"
     ],
     "emoji": "🕚",
-    "image": "./emoji-img/eleven_o_clock.png",
+    "image": "./emoji-img/clock_face_eleven_oclock.png",
     "fitz": false
   },
   "1f55b": {
@@ -23873,7 +23873,7 @@
       "twelve"
     ],
     "emoji": "🕛",
-    "image": "./emoji-img/twelve_o_clock.png",
+    "image": "./emoji-img/clock_face_twelve_oclock.png",
     "fitz": false
   },
   "1f55c": {
@@ -23898,7 +23898,7 @@
       "time"
     ],
     "emoji": "🕜",
-    "image": "./emoji-img/one-thirty.png",
+    "image": "./emoji-img/clock_face_one-thirty.png",
     "fitz": false
   },
   "1f55d": {
@@ -23923,7 +23923,7 @@
       "two"
     ],
     "emoji": "🕝",
-    "image": "./emoji-img/two-thirty.png",
+    "image": "./emoji-img/clock_face_two-thirty.png",
     "fitz": false
   },
   "1f55e": {
@@ -23948,7 +23948,7 @@
       "time"
     ],
     "emoji": "🕞",
-    "image": "./emoji-img/three-thirty.png",
+    "image": "./emoji-img/clock_face_three-thirty.png",
     "fitz": false
   },
   "1f55f": {
@@ -23973,7 +23973,7 @@
       "time"
     ],
     "emoji": "🕟",
-    "image": "./emoji-img/four-thirty.png",
+    "image": "./emoji-img/clock_face_four-thirty.png",
     "fitz": false
   },
   "1f560": {
@@ -23998,7 +23998,7 @@
       "time"
     ],
     "emoji": "🕠",
-    "image": "./emoji-img/five-thirty.png",
+    "image": "./emoji-img/clock_face_five-thirty.png",
     "fitz": false
   },
   "1f561": {
@@ -24023,7 +24023,7 @@
       "time"
     ],
     "emoji": "🕡",
-    "image": "./emoji-img/six-thirty.png",
+    "image": "./emoji-img/clock_face_six-thirty.png",
     "fitz": false
   },
   "1f562": {
@@ -24048,7 +24048,7 @@
       "time"
     ],
     "emoji": "🕢",
-    "image": "./emoji-img/seven-thirty.png",
+    "image": "./emoji-img/clock_face_seven-thirty.png",
     "fitz": false
   },
   "1f563": {
@@ -24073,7 +24073,7 @@
       "time"
     ],
     "emoji": "🕣",
-    "image": "./emoji-img/eight-thirty.png",
+    "image": "./emoji-img/clock_face_eight-thirty.png",
     "fitz": false
   },
   "1f564": {
@@ -24098,7 +24098,7 @@
       "time"
     ],
     "emoji": "🕤",
-    "image": "./emoji-img/nine-thirty.png",
+    "image": "./emoji-img/clock_face_nine-thirty.png",
     "fitz": false
   },
   "1f565": {
@@ -24123,7 +24123,7 @@
       "time"
     ],
     "emoji": "🕥",
-    "image": "./emoji-img/ten-thirty.png",
+    "image": "./emoji-img/clock_face_ten-thirty.png",
     "fitz": false
   },
   "1f566": {
@@ -24148,7 +24148,7 @@
       "time"
     ],
     "emoji": "🕦",
-    "image": "./emoji-img/eleven-thirty.png",
+    "image": "./emoji-img/clock_face_eleven-thirty.png",
     "fitz": false
   },
   "1f567": {
@@ -24173,7 +24173,7 @@
       "twelve"
     ],
     "emoji": "🕧",
-    "image": "./emoji-img/twelve-thirty.png",
+    "image": "./emoji-img/clock_face_twelve-thirty.png",
     "fitz": false
   },
   "1f56f": {
@@ -24270,13 +24270,13 @@
       "spy"
     ],
     "emoji": "🕵",
-    "image": "./emoji-img/detective.W.png",
+    "image": "./emoji-img/sleuth_or_spy.W.png",
     "fitz": [
-      "./emoji-img/detective.W.1.png",
-      "./emoji-img/detective.W.2.png",
-      "./emoji-img/detective.W.3.png",
-      "./emoji-img/detective.W.4.png",
-      "./emoji-img/detective.W.5.png"
+      "./emoji-img/sleuth_or_spy.W.1.png",
+      "./emoji-img/sleuth_or_spy.W.2.png",
+      "./emoji-img/sleuth_or_spy.W.3.png",
+      "./emoji-img/sleuth_or_spy.W.4.png",
+      "./emoji-img/sleuth_or_spy.W.5.png"
     ]
   },
   "1f576": {
@@ -24298,7 +24298,7 @@
       "sunglasses"
     ],
     "emoji": "🕶",
-    "image": "./emoji-img/sunglasses.png",
+    "image": "./emoji-img/dark_sunglasses.png",
     "fitz": false
   },
   "1f577": {
@@ -24419,7 +24419,7 @@
       "writing"
     ],
     "emoji": "🖊",
-    "image": "./emoji-img/pen.png",
+    "image": "./emoji-img/lower_left_ballpoint_pen.png",
     "fitz": false
   },
   "1f58b": {
@@ -24438,7 +24438,7 @@
       "writing"
     ],
     "emoji": "🖋",
-    "image": "./emoji-img/fountain_pen.png",
+    "image": "./emoji-img/lower_left_fountain_pen.png",
     "fitz": false
   },
   "1f58c": {
@@ -24457,7 +24457,7 @@
       "painting"
     ],
     "emoji": "🖌",
-    "image": "./emoji-img/paintbrush.png",
+    "image": "./emoji-img/lower_left_paintbrush.png",
     "fitz": false
   },
   "1f58d": {
@@ -24474,7 +24474,7 @@
       "drawing"
     ],
     "emoji": "🖍",
-    "image": "./emoji-img/crayon.png",
+    "image": "./emoji-img/lower_left_crayon.png",
     "fitz": false
   },
   "1f590": {
@@ -24522,13 +24522,13 @@
       "rude"
     ],
     "emoji": "🖕",
-    "image": "./emoji-img/middle_finger.png",
+    "image": "./emoji-img/reversed_hand_with_middle_finger_extended.png",
     "fitz": [
-      "./emoji-img/middle_finger.1.png",
-      "./emoji-img/middle_finger.2.png",
-      "./emoji-img/middle_finger.3.png",
-      "./emoji-img/middle_finger.4.png",
-      "./emoji-img/middle_finger.5.png"
+      "./emoji-img/reversed_hand_with_middle_finger_extended.1.png",
+      "./emoji-img/reversed_hand_with_middle_finger_extended.2.png",
+      "./emoji-img/reversed_hand_with_middle_finger_extended.3.png",
+      "./emoji-img/reversed_hand_with_middle_finger_extended.4.png",
+      "./emoji-img/reversed_hand_with_middle_finger_extended.5.png"
     ]
   },
   "1f596": {
@@ -24549,13 +24549,13 @@
       "vulcan"
     ],
     "emoji": "🖖",
-    "image": "./emoji-img/vulcan_salute.png",
+    "image": "./emoji-img/raised_hand_with_part_between_middle_and_ring_fingers.png",
     "fitz": [
-      "./emoji-img/vulcan_salute.1.png",
-      "./emoji-img/vulcan_salute.2.png",
-      "./emoji-img/vulcan_salute.3.png",
-      "./emoji-img/vulcan_salute.4.png",
-      "./emoji-img/vulcan_salute.5.png"
+      "./emoji-img/raised_hand_with_part_between_middle_and_ring_fingers.1.png",
+      "./emoji-img/raised_hand_with_part_between_middle_and_ring_fingers.2.png",
+      "./emoji-img/raised_hand_with_part_between_middle_and_ring_fingers.3.png",
+      "./emoji-img/raised_hand_with_part_between_middle_and_ring_fingers.4.png",
+      "./emoji-img/raised_hand_with_part_between_middle_and_ring_fingers.5.png"
     ]
   },
   "1f5a4": {
@@ -24627,7 +24627,7 @@
       "mouse"
     ],
     "emoji": "🖱",
-    "image": "./emoji-img/computer_mouse.png",
+    "image": "./emoji-img/three_button_mouse.png",
     "fitz": false
   },
   "1f5b2": {
@@ -24666,7 +24666,7 @@
       "picture"
     ],
     "emoji": "🖼",
-    "image": "./emoji-img/framed_picture.png",
+    "image": "./emoji-img/frame_with_picture.png",
     "fitz": false
   },
   "1f5c2": {
@@ -24763,7 +24763,7 @@
       "stationery"
     ],
     "emoji": "🗒",
-    "image": "./emoji-img/spiral_notepad.png",
+    "image": "./emoji-img/spiral_note_pad.png",
     "fitz": false
   },
   "1f5d3": {
@@ -24783,7 +24783,7 @@
       "spiral"
     ],
     "emoji": "🗓",
-    "image": "./emoji-img/spiral_calendar.png",
+    "image": "./emoji-img/spiral_calendar_pad.png",
     "fitz": false
   },
   "1f5dc": {
@@ -24801,7 +24801,7 @@
       "vice"
     ],
     "emoji": "🗜",
-    "image": "./emoji-img/clamp.png",
+    "image": "./emoji-img/compression.png",
     "fitz": false
   },
   "1f5dd": {
@@ -24859,7 +24859,7 @@
       "weapon"
     ],
     "emoji": "🗡",
-    "image": "./emoji-img/dagger.png",
+    "image": "./emoji-img/dagger_knife.png",
     "fitz": false
   },
   "1f5e3": {
@@ -24884,7 +24884,7 @@
       "user"
     ],
     "emoji": "🗣",
-    "image": "./emoji-img/speaking_head.png",
+    "image": "./emoji-img/speaking_head_in_silhouette.png",
     "fitz": false
   },
   "1f5e8": {
@@ -25044,7 +25044,7 @@
       "nation"
     ],
     "emoji": "🗾",
-    "image": "./emoji-img/map_of_japan.png",
+    "image": "./emoji-img/silhouette_of_japan.png",
     "fitz": false
   },
   "1f5ff": {
@@ -25064,7 +25064,7 @@
       "statue"
     ],
     "emoji": "🗿",
-    "image": "./emoji-img/moai.png",
+    "image": "./emoji-img/moyai.png",
     "fitz": false
   },
   "1f600": {
@@ -25182,7 +25182,7 @@
       "smile"
     ],
     "emoji": "😄",
-    "image": "./emoji-img/smiling_face_with_open_mouth_smiling_eyes.png",
+    "image": "./emoji-img/smiling_face_with_open_mouth_and_smiling_eyes.png",
     "fitz": false
   },
   "1f605": {
@@ -25205,7 +25205,7 @@
       "sweat"
     ],
     "emoji": "😅",
-    "image": "./emoji-img/smiling_face_with_open_mouth_cold_sweat.png",
+    "image": "./emoji-img/smiling_face_with_open_mouth_and_cold_sweat.png",
     "fitz": false
   },
   "1f606": {
@@ -25232,7 +25232,7 @@
       "smile"
     ],
     "emoji": "😆",
-    "image": "./emoji-img/smiling_face_with_open_mouth_closed_eyes.png",
+    "image": "./emoji-img/smiling_face_with_open_mouth_and_tightly-closed_eyes.png",
     "fitz": false
   },
   "1f607": {
@@ -25393,7 +25393,7 @@
       "valentines"
     ],
     "emoji": "😍",
-    "image": "./emoji-img/smiling_face_with_heart-eyes.png",
+    "image": "./emoji-img/smiling_face_with_heart-shaped_eyes.png",
     "fitz": false
   },
   "1f60e": {
@@ -25639,7 +25639,7 @@
       "valentines"
     ],
     "emoji": "😘",
-    "image": "./emoji-img/face_blowing_a_kiss.png",
+    "image": "./emoji-img/face_throwing_a_kiss.png",
     "fitz": false
   },
   "1f619": {
@@ -25738,7 +25738,7 @@
       "winking"
     ],
     "emoji": "😜",
-    "image": "./emoji-img/face_with_stuck-out_tongue_winking_eye.png",
+    "image": "./emoji-img/face_with_stuck-out_tongue_and_winking_eye.png",
     "fitz": false
   },
   "1f61d": {
@@ -25765,7 +25765,7 @@
       "tongue"
     ],
     "emoji": "😝",
-    "image": "./emoji-img/face_with_stuck-out_tongue_closed_eyes.png",
+    "image": "./emoji-img/face_with_stuck-out_tongue_and_tightly-closed_eyes.png",
     "fitz": false
   },
   "1f61e": {
@@ -25909,7 +25909,7 @@
       "won"
     ],
     "emoji": "😤",
-    "image": "./emoji-img/face_with_steam_from_nose.png",
+    "image": "./emoji-img/face_with_look_of_triumph.png",
     "fitz": false
   },
   "1f625": {
@@ -26157,7 +26157,7 @@
       "sweat"
     ],
     "emoji": "😰",
-    "image": "./emoji-img/face_with_open_mouth_cold_sweat.png",
+    "image": "./emoji-img/face_with_open_mouth_and_cold_sweat.png",
     "fitz": false
   },
   "1f631": {
@@ -26394,7 +26394,7 @@
       "valentines"
     ],
     "emoji": "😻",
-    "image": "./emoji-img/smiling_cat_face_with_heart-eyes.png",
+    "image": "./emoji-img/smiling_cat_face_with_heart-shaped_eyes.png",
     "fitz": false
   },
   "1f63c": {
@@ -26610,13 +26610,13 @@
       "woman"
     ],
     "emoji": "🙅",
-    "image": "./emoji-img/person_gesturing_no.W.png",
+    "image": "./emoji-img/face_with_no_good_gesture.W.png",
     "fitz": [
-      "./emoji-img/person_gesturing_no.W.1.png",
-      "./emoji-img/person_gesturing_no.W.2.png",
-      "./emoji-img/person_gesturing_no.W.3.png",
-      "./emoji-img/person_gesturing_no.W.4.png",
-      "./emoji-img/person_gesturing_no.W.5.png"
+      "./emoji-img/face_with_no_good_gesture.W.1.png",
+      "./emoji-img/face_with_no_good_gesture.W.2.png",
+      "./emoji-img/face_with_no_good_gesture.W.3.png",
+      "./emoji-img/face_with_no_good_gesture.W.4.png",
+      "./emoji-img/face_with_no_good_gesture.W.5.png"
     ]
   },
   "1f646": {
@@ -26640,13 +26640,13 @@
       "women"
     ],
     "emoji": "🙆",
-    "image": "./emoji-img/person_gesturing_ok.W.png",
+    "image": "./emoji-img/face_with_ok_gesture.W.png",
     "fitz": [
-      "./emoji-img/person_gesturing_ok.W.1.png",
-      "./emoji-img/person_gesturing_ok.W.2.png",
-      "./emoji-img/person_gesturing_ok.W.3.png",
-      "./emoji-img/person_gesturing_ok.W.4.png",
-      "./emoji-img/person_gesturing_ok.W.5.png"
+      "./emoji-img/face_with_ok_gesture.W.1.png",
+      "./emoji-img/face_with_ok_gesture.W.2.png",
+      "./emoji-img/face_with_ok_gesture.W.3.png",
+      "./emoji-img/face_with_ok_gesture.W.4.png",
+      "./emoji-img/face_with_ok_gesture.W.5.png"
     ]
   },
   "1f647": {
@@ -26668,13 +26668,13 @@
       "sorry"
     ],
     "emoji": "🙇",
-    "image": "./emoji-img/person_bowing.W.png",
+    "image": "./emoji-img/person_bowing_deeply.W.png",
     "fitz": [
-      "./emoji-img/person_bowing.W.1.png",
-      "./emoji-img/person_bowing.W.2.png",
-      "./emoji-img/person_bowing.W.3.png",
-      "./emoji-img/person_bowing.W.4.png",
-      "./emoji-img/person_bowing.W.5.png"
+      "./emoji-img/person_bowing_deeply.W.1.png",
+      "./emoji-img/person_bowing_deeply.W.2.png",
+      "./emoji-img/person_bowing_deeply.W.3.png",
+      "./emoji-img/person_bowing_deeply.W.4.png",
+      "./emoji-img/person_bowing_deeply.W.5.png"
     ]
   },
   "1f648": {
@@ -26773,13 +26773,13 @@
       "woman"
     ],
     "emoji": "🙋",
-    "image": "./emoji-img/person_raising_hand.W.png",
+    "image": "./emoji-img/happy_person_raising_one_hand.W.png",
     "fitz": [
-      "./emoji-img/person_raising_hand.W.1.png",
-      "./emoji-img/person_raising_hand.W.2.png",
-      "./emoji-img/person_raising_hand.W.3.png",
-      "./emoji-img/person_raising_hand.W.4.png",
-      "./emoji-img/person_raising_hand.W.5.png"
+      "./emoji-img/happy_person_raising_one_hand.W.1.png",
+      "./emoji-img/happy_person_raising_one_hand.W.2.png",
+      "./emoji-img/happy_person_raising_one_hand.W.3.png",
+      "./emoji-img/happy_person_raising_one_hand.W.4.png",
+      "./emoji-img/happy_person_raising_one_hand.W.5.png"
     ]
   },
   "1f64c": {
@@ -26800,13 +26800,13 @@
       "yea"
     ],
     "emoji": "🙌",
-    "image": "./emoji-img/raising_hands.png",
+    "image": "./emoji-img/person_raising_both_hands_in_celebration.png",
     "fitz": [
-      "./emoji-img/raising_hands.1.png",
-      "./emoji-img/raising_hands.2.png",
-      "./emoji-img/raising_hands.3.png",
-      "./emoji-img/raising_hands.4.png",
-      "./emoji-img/raising_hands.5.png"
+      "./emoji-img/person_raising_both_hands_in_celebration.1.png",
+      "./emoji-img/person_raising_both_hands_in_celebration.2.png",
+      "./emoji-img/person_raising_both_hands_in_celebration.3.png",
+      "./emoji-img/person_raising_both_hands_in_celebration.4.png",
+      "./emoji-img/person_raising_both_hands_in_celebration.5.png"
     ]
   },
   "1f64d": {
@@ -26855,13 +26855,13 @@
       "woman"
     ],
     "emoji": "🙎",
-    "image": "./emoji-img/person_pouting.W.png",
+    "image": "./emoji-img/person_with_pouting_face.W.png",
     "fitz": [
-      "./emoji-img/person_pouting.W.1.png",
-      "./emoji-img/person_pouting.W.2.png",
-      "./emoji-img/person_pouting.W.3.png",
-      "./emoji-img/person_pouting.W.4.png",
-      "./emoji-img/person_pouting.W.5.png"
+      "./emoji-img/person_with_pouting_face.W.1.png",
+      "./emoji-img/person_with_pouting_face.W.2.png",
+      "./emoji-img/person_with_pouting_face.W.3.png",
+      "./emoji-img/person_with_pouting_face.W.4.png",
+      "./emoji-img/person_with_pouting_face.W.5.png"
     ]
   },
   "1f64f": {
@@ -26887,13 +26887,13 @@
       "wish"
     ],
     "emoji": "🙏",
-    "image": "./emoji-img/folded_hands.png",
+    "image": "./emoji-img/person_with_folded_hands.png",
     "fitz": [
-      "./emoji-img/folded_hands.1.png",
-      "./emoji-img/folded_hands.2.png",
-      "./emoji-img/folded_hands.3.png",
-      "./emoji-img/folded_hands.4.png",
-      "./emoji-img/folded_hands.5.png"
+      "./emoji-img/person_with_folded_hands.1.png",
+      "./emoji-img/person_with_folded_hands.2.png",
+      "./emoji-img/person_with_folded_hands.3.png",
+      "./emoji-img/person_with_folded_hands.4.png",
+      "./emoji-img/person_with_folded_hands.5.png"
     ]
   },
   "1f680": {
@@ -26955,7 +26955,7 @@
       "vehicle"
     ],
     "emoji": "🚂",
-    "image": "./emoji-img/locomotive.png",
+    "image": "./emoji-img/steam_locomotive.png",
     "fitz": false
   },
   "1f683": {
@@ -27418,7 +27418,7 @@
       "vehicle"
     ],
     "emoji": "🚙",
-    "image": "./emoji-img/sport_utility_vehicle.png",
+    "image": "./emoji-img/recreational_vehicle.png",
     "fitz": false
   },
   "1f69a": {
@@ -27616,13 +27616,13 @@
       "water"
     ],
     "emoji": "🚣",
-    "image": "./emoji-img/person_rowing_boat.W.png",
+    "image": "./emoji-img/rowboat.W.png",
     "fitz": [
-      "./emoji-img/person_rowing_boat.W.1.png",
-      "./emoji-img/person_rowing_boat.W.2.png",
-      "./emoji-img/person_rowing_boat.W.3.png",
-      "./emoji-img/person_rowing_boat.W.4.png",
-      "./emoji-img/person_rowing_boat.W.5.png"
+      "./emoji-img/rowboat.W.1.png",
+      "./emoji-img/rowboat.W.2.png",
+      "./emoji-img/rowboat.W.3.png",
+      "./emoji-img/rowboat.W.4.png",
+      "./emoji-img/rowboat.W.5.png"
     ]
   },
   "1f6a4": {
@@ -27700,7 +27700,7 @@
       "wip"
     ],
     "emoji": "🚧",
-    "image": "./emoji-img/construction.png",
+    "image": "./emoji-img/construction_sign.png",
     "fitz": false
   },
   "1f6a8": {
@@ -27728,7 +27728,7 @@
       "rotating"
     ],
     "emoji": "🚨",
-    "image": "./emoji-img/police_car_light.png",
+    "image": "./emoji-img/police_cars_revolving_light.png",
     "fitz": false
   },
   "1f6a9": {
@@ -27749,7 +27749,7 @@
       "triangular"
     ],
     "emoji": "🚩",
-    "image": "./emoji-img/triangular_flag.png",
+    "image": "./emoji-img/triangular_flag_on_post.png",
     "fitz": false
   },
   "1f6aa": {
@@ -27792,7 +27792,7 @@
       "stop"
     ],
     "emoji": "🚫",
-    "image": "./emoji-img/prohibited.png",
+    "image": "./emoji-img/no_entry_sign.png",
     "fitz": false
   },
   "1f6ac": {
@@ -27812,7 +27812,7 @@
       "tobacco"
     ],
     "emoji": "🚬",
-    "image": "./emoji-img/cigarette.png",
+    "image": "./emoji-img/smoking_symbol.png",
     "fitz": false
   },
   "1f6ad": {
@@ -27835,7 +27835,7 @@
       "smoking"
     ],
     "emoji": "🚭",
-    "image": "./emoji-img/no_smoking.png",
+    "image": "./emoji-img/no_smoking_symbol.png",
     "fitz": false
   },
   "1f6ae": {
@@ -27859,7 +27859,7 @@
       "sign"
     ],
     "emoji": "🚮",
-    "image": "./emoji-img/litter_in_bin_sign.png",
+    "image": "./emoji-img/put_litter_in_its_place_symbol.png",
     "fitz": false
   },
   "1f6af": {
@@ -27883,7 +27883,7 @@
       "trash"
     ],
     "emoji": "🚯",
-    "image": "./emoji-img/no_littering.png",
+    "image": "./emoji-img/do_not_litter_symbol.png",
     "fitz": false
   },
   "1f6b0": {
@@ -27905,7 +27905,7 @@
       "water"
     ],
     "emoji": "🚰",
-    "image": "./emoji-img/potable_water.png",
+    "image": "./emoji-img/potable_water_symbol.png",
     "fitz": false
   },
   "1f6b1": {
@@ -27926,7 +27926,7 @@
       "water"
     ],
     "emoji": "🚱",
-    "image": "./emoji-img/non-potable_water.png",
+    "image": "./emoji-img/non-potable_water_symbol.png",
     "fitz": false
   },
   "1f6b2": {
@@ -27990,13 +27990,13 @@
       "sports"
     ],
     "emoji": "🚴",
-    "image": "./emoji-img/person_biking.W.png",
+    "image": "./emoji-img/bicyclist.W.png",
     "fitz": [
-      "./emoji-img/person_biking.W.1.png",
-      "./emoji-img/person_biking.W.2.png",
-      "./emoji-img/person_biking.W.3.png",
-      "./emoji-img/person_biking.W.4.png",
-      "./emoji-img/person_biking.W.5.png"
+      "./emoji-img/bicyclist.W.1.png",
+      "./emoji-img/bicyclist.W.2.png",
+      "./emoji-img/bicyclist.W.3.png",
+      "./emoji-img/bicyclist.W.4.png",
+      "./emoji-img/bicyclist.W.5.png"
     ]
   },
   "1f6b5": {
@@ -28021,13 +28021,13 @@
       "transportation"
     ],
     "emoji": "🚵",
-    "image": "./emoji-img/person_mountain_biking.W.png",
+    "image": "./emoji-img/mountain_bicyclist.W.png",
     "fitz": [
-      "./emoji-img/person_mountain_biking.W.1.png",
-      "./emoji-img/person_mountain_biking.W.2.png",
-      "./emoji-img/person_mountain_biking.W.3.png",
-      "./emoji-img/person_mountain_biking.W.4.png",
-      "./emoji-img/person_mountain_biking.W.5.png"
+      "./emoji-img/mountain_bicyclist.W.1.png",
+      "./emoji-img/mountain_bicyclist.W.2.png",
+      "./emoji-img/mountain_bicyclist.W.3.png",
+      "./emoji-img/mountain_bicyclist.W.4.png",
+      "./emoji-img/mountain_bicyclist.W.5.png"
     ]
   },
   "1f6b6": {
@@ -28048,13 +28048,13 @@
       "walking"
     ],
     "emoji": "🚶",
-    "image": "./emoji-img/person_walking.W.png",
+    "image": "./emoji-img/pedestrian.W.png",
     "fitz": [
-      "./emoji-img/person_walking.W.1.png",
-      "./emoji-img/person_walking.W.2.png",
-      "./emoji-img/person_walking.W.3.png",
-      "./emoji-img/person_walking.W.4.png",
-      "./emoji-img/person_walking.W.5.png"
+      "./emoji-img/pedestrian.W.1.png",
+      "./emoji-img/pedestrian.W.2.png",
+      "./emoji-img/pedestrian.W.3.png",
+      "./emoji-img/pedestrian.W.4.png",
+      "./emoji-img/pedestrian.W.5.png"
     ]
   },
   "1f6b7": {
@@ -28126,7 +28126,7 @@
       "wc"
     ],
     "emoji": "🚹",
-    "image": "./emoji-img/men_s_room.png",
+    "image": "./emoji-img/mens_symbol.png",
     "fitz": false
   },
   "1f6ba": {
@@ -28150,7 +28150,7 @@
       "womens"
     ],
     "emoji": "🚺",
-    "image": "./emoji-img/women_s_room.png",
+    "image": "./emoji-img/womens_symbol.png",
     "fitz": false
   },
   "1f6bb": {
@@ -28269,13 +28269,13 @@
       "shower"
     ],
     "emoji": "🛀",
-    "image": "./emoji-img/person_taking_bath.png",
+    "image": "./emoji-img/bath.png",
     "fitz": [
-      "./emoji-img/person_taking_bath.1.png",
-      "./emoji-img/person_taking_bath.2.png",
-      "./emoji-img/person_taking_bath.3.png",
-      "./emoji-img/person_taking_bath.4.png",
-      "./emoji-img/person_taking_bath.5.png"
+      "./emoji-img/bath.1.png",
+      "./emoji-img/bath.2.png",
+      "./emoji-img/bath.3.png",
+      "./emoji-img/bath.4.png",
+      "./emoji-img/bath.5.png"
     ]
   },
   "1f6c1": {
@@ -28408,7 +28408,7 @@
       "sleeping"
     ],
     "emoji": "🛌",
-    "image": "./emoji-img/person_in_bed.png",
+    "image": "./emoji-img/sleeping_accommodation.png",
     "fitz": false
   },
   "1f6cd": {
@@ -28502,7 +28502,7 @@
       "stop"
     ],
     "emoji": "🛑",
-    "image": "./emoji-img/stop_sign.png",
+    "image": "./emoji-img/octagonal_sign.png",
     "fitz": false
   },
   "1f6d2": {
@@ -28519,7 +28519,7 @@
       "trolley"
     ],
     "emoji": "🛒",
-    "image": "./emoji-img/shopping_cart.png",
+    "image": "./emoji-img/shopping_trolley.png",
     "fitz": false
   },
   "1f6e0": {
@@ -28697,7 +28697,7 @@
       "landing"
     ],
     "emoji": "🛬",
-    "image": "./emoji-img/airplane_arrival.png",
+    "image": "./emoji-img/airplane_arriving.png",
     "fitz": false
   },
   "1f6f0": {
@@ -28757,7 +28757,7 @@
       "vehicle"
     ],
     "emoji": "🛴",
-    "image": "./emoji-img/kick_scooter.png",
+    "image": "./emoji-img/scooter.png",
     "fitz": false
   },
   "1f6f5": {
@@ -29156,13 +29156,13 @@
       "lucky"
     ],
     "emoji": "🤞",
-    "image": "./emoji-img/crossed_fingers.png",
+    "image": "./emoji-img/hand_with_index_and_middle_fingers_crossed.png",
     "fitz": [
-      "./emoji-img/crossed_fingers.1.png",
-      "./emoji-img/crossed_fingers.2.png",
-      "./emoji-img/crossed_fingers.3.png",
-      "./emoji-img/crossed_fingers.4.png",
-      "./emoji-img/crossed_fingers.5.png"
+      "./emoji-img/hand_with_index_and_middle_fingers_crossed.1.png",
+      "./emoji-img/hand_with_index_and_middle_fingers_crossed.2.png",
+      "./emoji-img/hand_with_index_and_middle_fingers_crossed.3.png",
+      "./emoji-img/hand_with_index_and_middle_fingers_crossed.4.png",
+      "./emoji-img/hand_with_index_and_middle_fingers_crossed.5.png"
     ]
   },
   "1f91f": {
@@ -29178,13 +29178,13 @@
       "hand"
     ],
     "emoji": "🤟",
-    "image": "./emoji-img/love-you_gesture.png",
+    "image": "./emoji-img/i_love_you_hand_sign.png",
     "fitz": [
-      "./emoji-img/love-you_gesture.1.png",
-      "./emoji-img/love-you_gesture.2.png",
-      "./emoji-img/love-you_gesture.3.png",
-      "./emoji-img/love-you_gesture.4.png",
-      "./emoji-img/love-you_gesture.5.png"
+      "./emoji-img/i_love_you_hand_sign.1.png",
+      "./emoji-img/i_love_you_hand_sign.2.png",
+      "./emoji-img/i_love_you_hand_sign.3.png",
+      "./emoji-img/i_love_you_hand_sign.4.png",
+      "./emoji-img/i_love_you_hand_sign.5.png"
     ]
   },
   "1f920": {
@@ -29202,7 +29202,7 @@
       "hat"
     ],
     "emoji": "🤠",
-    "image": "./emoji-img/cowboy_hat_face.png",
+    "image": "./emoji-img/face_with_cowboy_hat.png",
     "fitz": false
   },
   "1f921": {
@@ -29318,13 +29318,13 @@
       "palm"
     ],
     "emoji": "🤦",
-    "image": "./emoji-img/person_facepalming.W.png",
+    "image": "./emoji-img/face_palm.W.png",
     "fitz": [
-      "./emoji-img/person_facepalming.W.1.png",
-      "./emoji-img/person_facepalming.W.2.png",
-      "./emoji-img/person_facepalming.W.3.png",
-      "./emoji-img/person_facepalming.W.4.png",
-      "./emoji-img/person_facepalming.W.5.png"
+      "./emoji-img/face_palm.W.1.png",
+      "./emoji-img/face_palm.W.2.png",
+      "./emoji-img/face_palm.W.3.png",
+      "./emoji-img/face_palm.W.4.png",
+      "./emoji-img/face_palm.W.5.png"
     ]
   },
   "1f927": {
@@ -29360,7 +29360,7 @@
       "skeptic"
     ],
     "emoji": "🤨",
-    "image": "./emoji-img/face_with_raised_eyebrow.png",
+    "image": "./emoji-img/face_with_one_eyebrow_raised.png",
     "fitz": false
   },
   "1f929": {
@@ -29378,7 +29378,7 @@
       "star"
     ],
     "emoji": "🤩",
-    "image": "./emoji-img/star-struck.png",
+    "image": "./emoji-img/grinning_face_with_star_eyes.png",
     "fitz": false
   },
   "1f92a": {
@@ -29395,7 +29395,7 @@
       "small"
     ],
     "emoji": "🤪",
-    "image": "./emoji-img/crazy_face.png",
+    "image": "./emoji-img/grinning_face_with_one_large_and_one_small_eye.png",
     "fitz": false
   },
   "1f92b": {
@@ -29410,7 +29410,7 @@
 
     ],
     "emoji": "🤫",
-    "image": "./emoji-img/shushing_face.png",
+    "image": "./emoji-img/face_with_finger_covering_closed_lips.png",
     "fitz": false
   },
   "1f92c": {
@@ -29425,7 +29425,7 @@
 
     ],
     "emoji": "🤬",
-    "image": "./emoji-img/face_with_symbols_over_mouth.png",
+    "image": "./emoji-img/serious_face_with_symbols_covering_mouth.png",
     "fitz": false
   },
   "1f92d": {
@@ -29440,7 +29440,7 @@
       "whoops"
     ],
     "emoji": "🤭",
-    "image": "./emoji-img/face_with_hand_over_mouth.png",
+    "image": "./emoji-img/smiling_face_with_smiling_eyes_and_hand_covering_mouth.png",
     "fitz": false
   },
   "1f92e": {
@@ -29456,7 +29456,7 @@
       "vomit"
     ],
     "emoji": "🤮",
-    "image": "./emoji-img/face_vomiting.png",
+    "image": "./emoji-img/face_with_open_mouth_vomiting.png",
     "fitz": false
   },
   "1f92f": {
@@ -29471,7 +29471,7 @@
       "shocked"
     ],
     "emoji": "🤯",
-    "image": "./emoji-img/exploding_head.png",
+    "image": "./emoji-img/shocked_face_with_exploding_head.png",
     "fitz": false
   },
   "1f930": {
@@ -29637,13 +29637,13 @@
       "xmas"
     ],
     "emoji": "🤶",
-    "image": "./emoji-img/mrs_claus.png",
+    "image": "./emoji-img/mother_christmas.png",
     "fitz": [
-      "./emoji-img/mrs_claus.1.png",
-      "./emoji-img/mrs_claus.2.png",
-      "./emoji-img/mrs_claus.3.png",
-      "./emoji-img/mrs_claus.4.png",
-      "./emoji-img/mrs_claus.5.png"
+      "./emoji-img/mother_christmas.1.png",
+      "./emoji-img/mother_christmas.2.png",
+      "./emoji-img/mother_christmas.3.png",
+      "./emoji-img/mother_christmas.4.png",
+      "./emoji-img/mother_christmas.5.png"
     ]
   },
   "1f937": {
@@ -29667,13 +29667,13 @@
       "woman"
     ],
     "emoji": "🤷",
-    "image": "./emoji-img/person_shrugging.W.png",
+    "image": "./emoji-img/shrug.W.png",
     "fitz": [
-      "./emoji-img/person_shrugging.W.1.png",
-      "./emoji-img/person_shrugging.W.2.png",
-      "./emoji-img/person_shrugging.W.3.png",
-      "./emoji-img/person_shrugging.W.4.png",
-      "./emoji-img/person_shrugging.W.5.png"
+      "./emoji-img/shrug.W.1.png",
+      "./emoji-img/shrug.W.2.png",
+      "./emoji-img/shrug.W.3.png",
+      "./emoji-img/shrug.W.4.png",
+      "./emoji-img/shrug.W.5.png"
     ]
   },
   "1f938": {
@@ -29689,13 +29689,13 @@
       "gymnastics"
     ],
     "emoji": "🤸",
-    "image": "./emoji-img/person_cartwheeling.W.png",
+    "image": "./emoji-img/person_doing_cartwheel.W.png",
     "fitz": [
-      "./emoji-img/person_cartwheeling.W.1.png",
-      "./emoji-img/person_cartwheeling.W.2.png",
-      "./emoji-img/person_cartwheeling.W.3.png",
-      "./emoji-img/person_cartwheeling.W.4.png",
-      "./emoji-img/person_cartwheeling.W.5.png"
+      "./emoji-img/person_doing_cartwheel.W.1.png",
+      "./emoji-img/person_doing_cartwheel.W.2.png",
+      "./emoji-img/person_doing_cartwheel.W.3.png",
+      "./emoji-img/person_doing_cartwheel.W.4.png",
+      "./emoji-img/person_doing_cartwheel.W.5.png"
     ]
   },
   "1f939": {
@@ -29713,13 +29713,13 @@
       "skill"
     ],
     "emoji": "🤹",
-    "image": "./emoji-img/person_juggling.W.png",
+    "image": "./emoji-img/juggling.W.png",
     "fitz": [
-      "./emoji-img/person_juggling.W.1.png",
-      "./emoji-img/person_juggling.W.2.png",
-      "./emoji-img/person_juggling.W.3.png",
-      "./emoji-img/person_juggling.W.4.png",
-      "./emoji-img/person_juggling.W.5.png"
+      "./emoji-img/juggling.W.1.png",
+      "./emoji-img/juggling.W.2.png",
+      "./emoji-img/juggling.W.3.png",
+      "./emoji-img/juggling.W.4.png",
+      "./emoji-img/juggling.W.5.png"
     ]
   },
   "1f93a": {
@@ -29738,7 +29738,7 @@
       "sword"
     ],
     "emoji": "🤺",
-    "image": "./emoji-img/person_fencing.png",
+    "image": "./emoji-img/fencer.png",
     "fitz": false
   },
   "1f93c": {
@@ -29754,7 +29754,7 @@
       "wrestler"
     ],
     "emoji": "🤼",
-    "image": "./emoji-img/people_wrestling.W.png",
+    "image": "./emoji-img/wrestlers.W.png",
     "fitz": false
   },
   "1f93d": {
@@ -29770,13 +29770,13 @@
       "water"
     ],
     "emoji": "🤽",
-    "image": "./emoji-img/person_playing_water_polo.W.png",
+    "image": "./emoji-img/water_polo.W.png",
     "fitz": [
-      "./emoji-img/person_playing_water_polo.W.1.png",
-      "./emoji-img/person_playing_water_polo.W.2.png",
-      "./emoji-img/person_playing_water_polo.W.3.png",
-      "./emoji-img/person_playing_water_polo.W.4.png",
-      "./emoji-img/person_playing_water_polo.W.5.png"
+      "./emoji-img/water_polo.W.1.png",
+      "./emoji-img/water_polo.W.2.png",
+      "./emoji-img/water_polo.W.3.png",
+      "./emoji-img/water_polo.W.4.png",
+      "./emoji-img/water_polo.W.5.png"
     ]
   },
   "1f93e": {
@@ -29792,13 +29792,13 @@
       "handball"
     ],
     "emoji": "🤾",
-    "image": "./emoji-img/person_playing_handball.W.png",
+    "image": "./emoji-img/handball.W.png",
     "fitz": [
-      "./emoji-img/person_playing_handball.W.1.png",
-      "./emoji-img/person_playing_handball.W.2.png",
-      "./emoji-img/person_playing_handball.W.3.png",
-      "./emoji-img/person_playing_handball.W.4.png",
-      "./emoji-img/person_playing_handball.W.5.png"
+      "./emoji-img/handball.W.1.png",
+      "./emoji-img/handball.W.2.png",
+      "./emoji-img/handball.W.3.png",
+      "./emoji-img/handball.W.4.png",
+      "./emoji-img/handball.W.5.png"
     ]
   },
   "1f940": {
@@ -29834,7 +29834,7 @@
       "music"
     ],
     "emoji": "🥁",
-    "image": "./emoji-img/drum.png",
+    "image": "./emoji-img/drum_with_drumsticks.png",
     "fitz": false
   },
   "1f942": {
@@ -29940,7 +29940,7 @@
       "winning"
     ],
     "emoji": "🥇",
-    "image": "./emoji-img/1st_place_medal.png",
+    "image": "./emoji-img/first_place_medal.png",
     "fitz": false
   },
   "1f948": {
@@ -29960,7 +29960,7 @@
       "silver"
     ],
     "emoji": "🥈",
-    "image": "./emoji-img/2nd_place_medal.png",
+    "image": "./emoji-img/second_place_medal.png",
     "fitz": false
   },
   "1f949": {
@@ -29980,7 +29980,7 @@
       "third"
     ],
     "emoji": "🥉",
-    "image": "./emoji-img/3rd_place_medal.png",
+    "image": "./emoji-img/third_place_medal.png",
     "fitz": false
   },
   "1f94a": {
@@ -30298,7 +30298,7 @@
       "kiwi"
     ],
     "emoji": "🥝",
-    "image": "./emoji-img/kiwi_fruit.png",
+    "image": "./emoji-img/kiwifruit.png",
     "fitz": false
   },
   "1f95e": {
@@ -30601,7 +30601,7 @@
       "turkey"
     ],
     "emoji": "🦃",
-    "image": "./emoji-img/turkey.png",
+    "image": "./emoji-img/turkey_1f983.png",
     "fitz": false
   },
   "1f984": {
@@ -30888,7 +30888,7 @@
 
     ],
     "emoji": "🦒",
-    "image": "./emoji-img/giraffe.png",
+    "image": "./emoji-img/giraffe_face.png",
     "fitz": false
   },
   "1f993": {
@@ -30903,7 +30903,7 @@
 
     ],
     "emoji": "🦓",
-    "image": "./emoji-img/zebra.png",
+    "image": "./emoji-img/zebra_face.png",
     "fitz": false
   },
   "1f994": {
@@ -30965,7 +30965,7 @@
 
     ],
     "emoji": "🦗",
-    "image": "./emoji-img/cricket_1f997.png",
+    "image": "./emoji-img/cricket.png",
     "fitz": false
   },
   "1f9c0": {
@@ -31101,13 +31101,13 @@
       "tichel"
     ],
     "emoji": "🧕",
-    "image": "./emoji-img/woman_with_headscarf.png",
+    "image": "./emoji-img/person_with_headscarf.png",
     "fitz": [
-      "./emoji-img/woman_with_headscarf.1.png",
-      "./emoji-img/woman_with_headscarf.2.png",
-      "./emoji-img/woman_with_headscarf.3.png",
-      "./emoji-img/woman_with_headscarf.4.png",
-      "./emoji-img/woman_with_headscarf.5.png"
+      "./emoji-img/person_with_headscarf.1.png",
+      "./emoji-img/person_with_headscarf.2.png",
+      "./emoji-img/person_with_headscarf.3.png",
+      "./emoji-img/person_with_headscarf.4.png",
+      "./emoji-img/person_with_headscarf.5.png"
     ]
   },
   "1f9d6": {

@@ -1,3 +1,8 @@
+require 'i18n'
+
+I18n.available_locales = [:en]
+
+
 FitzpatrickModifiers = [
   nil, # modifiers go from 1-5
   0x1f3fb,
@@ -45,6 +50,17 @@ class String
 
   def to_codepoints
     self.chars.map {|char| char.unpack('U')[0]}
+  end
+
+  def slugify
+    self.downcase
+      .gsub(/['\u{2019}]/, '')
+      .gsub(/.+/) {|s| I18n.transliterate s} # this is gross
+      .gsub('*', 'asterisk')
+      .gsub('\x{23}', 'hash')
+      .gsub(' & ', ' and ')
+      .gsub(/[^\w\-]+/, '_')
+      .gsub(/^_+|_+$/, '')
   end
 end
 
