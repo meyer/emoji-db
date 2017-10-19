@@ -70,7 +70,7 @@ task :copy_latest do
   if ttc_dest.exist?
     puts "`#{ttc_name}` has already been copied over"
   else
-    cp ttc_src, ttc_dest
+    cp SystemEmojiFont, ttc_dest
   end
 end
 

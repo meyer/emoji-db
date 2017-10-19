@@ -68,5 +68,11 @@
     "macos_versions": [
       "10.13.1 (17B35a)"
     ]
+  },
+  "13.1d3e1": {
+    "build_date": "2017-10-12",
+    "macos_versions": [
+      "10.13.1 (17B42a)"
+    ]
   }
 }
