@@ -31,6 +31,8 @@ SequenceFile = DataDir.join('sequences.json').to_s
 UnicodeAnnotationFile = DataDir.join('unicode-annotations.json').to_s
 UnicodeDataFile = DataDir.join('unicode-data.json').to_s
 
+unicode_compare = ->(a, b) { a[0].split('_')[0].to_i(16) <=> b[0].split('_')[0].to_i(16) }
+
 task :rebuild => [:build_unicode_db, :generate_emoji_db]
 task :default => [:rebuild]
 
@@ -72,6 +74,13 @@ task :copy_latest do
   else
     cp SystemEmojiFont, ttc_dest
   end
+end
+
+task :sort_annotations do
+  annotation_data = JSON.parse(File.read UnicodeAnnotationFile)
+  annotation_data['names'] = annotation_data['names'].sort(&unicode_compare).to_h
+  annotation_data['keywords'] = annotation_data['keywords'].sort(&unicode_compare).to_h
+  File.open(UnicodeAnnotationFile, 'w') {|f| f.puts JSON.pretty_generate(annotation_data)}
 end
 
 desc "Extract emoji images from the latest TTF file"
@@ -384,8 +393,8 @@ task :generate_annotations do
   end
 
   File.open(UnicodeAnnotationFile, 'w') {|f| f.puts JSON.pretty_generate({
-    names: names,
-    keywords: keywords,
+    names: names.sort(&unicode_compare).to_h,
+    keywords: keywords.sort(&unicode_compare).to_h,
   })}
 end
 

@@ -2,7 +2,6 @@ require 'i18n'
 
 I18n.available_locales = [:en]
 
-
 FitzpatrickModifiers = [
   nil, # modifiers go from 1-5
   0x1f3fb,
