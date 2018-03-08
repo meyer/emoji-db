@@ -290,6 +290,7 @@
     "unicode_subcategory": "Double punctuation for vertical text",
     "keywords": [
       "bangbang",
+      "double exclamation mark",
       "exclamation",
       "mark",
       "punctuation",
@@ -309,6 +310,7 @@
     "unicode_subcategory": "Double punctuation for vertical text",
     "keywords": [
       "exclamation",
+      "exclamation question mark",
       "interrobang",
       "mark",
       "punctuation",
@@ -334,6 +336,7 @@
       "legal",
       "mark",
       "tm",
+      "trade mark",
       "trademark"
     ],
     "emoji": "™",
@@ -373,6 +376,7 @@
       "direction",
       "horizontal",
       "left",
+      "left-right arrow",
       "right",
       "shape",
       "sideways"
@@ -395,6 +399,7 @@
       "direction",
       "down",
       "up",
+      "up-down arrow",
       "vertical",
       "way"
     ],
@@ -419,6 +424,7 @@
       "left",
       "northwest",
       "point",
+      "up-left arrow",
       "upper"
     ],
     "emoji": "↖",
@@ -442,6 +448,7 @@
       "northeast",
       "point",
       "right",
+      "up-right arrow",
       "upper"
     ],
     "emoji": "↗",
@@ -461,6 +468,7 @@
       "blue-square",
       "diagonal",
       "direction",
+      "down-right arrow",
       "intercardinal",
       "lower",
       "right",
@@ -483,6 +491,7 @@
       "blue-square",
       "diagonal",
       "direction",
+      "down-left arrow",
       "intercardinal",
       "left",
       "lower",
@@ -508,6 +517,7 @@
       "hook",
       "leftwards",
       "return",
+      "right arrow curving left",
       "undo",
       "with"
     ],
@@ -528,6 +538,7 @@
       "blue-square",
       "direction",
       "hook",
+      "left arrow curving right",
       "return",
       "right",
       "rotate"
@@ -555,7 +566,7 @@
     "fitz": false
   },
   "231b": {
-    "name": "hourglass",
+    "name": "hourglass done",
     "emojilib_name": "hourglass",
     "codepoints": [
       8987
@@ -566,6 +577,7 @@
       "clock",
       "exam",
       "hourglass",
+      "hourglass done",
       "limit",
       "oldschool",
       "quiz",
@@ -607,7 +619,8 @@
     "unicode_category": "Miscellaneous Technical",
     "unicode_subcategory": "Keyboard and UI symbols",
     "keywords": [
-      "eject"
+      "eject",
+      "eject button"
     ],
     "emoji": "⏏",
     "image": "./emoji-img/eject_symbol.png",
@@ -627,6 +640,7 @@
       "continue",
       "double",
       "fast",
+      "fast-forward button",
       "forward",
       "play",
       "speed"
@@ -647,6 +661,7 @@
       "arrow",
       "blue-square",
       "double",
+      "fast reverse button",
       "play",
       "rewind"
     ],
@@ -667,6 +682,7 @@
       "blue-square",
       "direction",
       "double",
+      "fast up button",
       "top",
       "up"
     ],
@@ -688,7 +704,8 @@
       "bottom",
       "direction",
       "double",
-      "down"
+      "down",
+      "fast down button"
     ],
     "emoji": "⏬",
     "image": "./emoji-img/black_down-pointing_double_triangle.png",
@@ -710,6 +727,7 @@
       "next",
       "next scene",
       "next track",
+      "next track button",
       "track",
       "triangle"
     ],
@@ -729,6 +747,7 @@
       "arrow",
       "backward",
       "button",
+      "last track button",
       "previous",
       "previous scene",
       "previous track",
@@ -754,6 +773,7 @@
       "or",
       "pause",
       "play",
+      "play or pause button",
       "right",
       "triangle"
     ],
@@ -771,6 +791,7 @@
     "unicode_subcategory": "User interface symbols",
     "keywords": [
       "alarm",
+      "alarm clock",
       "clock",
       "time",
       "wake"
@@ -808,14 +829,15 @@
     "keywords": [
       "alarm",
       "clock",
-      "timer"
+      "timer",
+      "timer clock"
     ],
     "emoji": "⏲",
     "image": "./emoji-img/timer_clock.png",
     "fitz": false
   },
   "23f3": {
-    "name": "hourglass with flowing sand",
+    "name": "hourglass not done",
     "emojilib_name": "hourglass_flowing_sand",
     "codepoints": [
       9203
@@ -826,6 +848,7 @@
       "countdown",
       "flowing",
       "hourglass",
+      "hourglass not done",
       "oldschool",
       "sand",
       "time",
@@ -849,6 +872,7 @@
       "button",
       "double",
       "pause",
+      "pause button",
       "vertical"
     ],
     "emoji": "⏸",
@@ -867,7 +891,8 @@
       "blue-square",
       "button",
       "square",
-      "stop"
+      "stop",
+      "stop button"
     ],
     "emoji": "⏹",
     "image": "./emoji-img/black_square_for_stop.png",
@@ -885,7 +910,8 @@
       "blue-square",
       "button",
       "circle",
-      "record"
+      "record",
+      "record button"
     ],
     "emoji": "⏺",
     "image": "./emoji-img/black_circle_for_record.png",
@@ -903,6 +929,7 @@
       "alphabet",
       "blue-circle",
       "circle",
+      "circled M",
       "letter",
       "m"
     ],
@@ -920,6 +947,7 @@
     "unicode_subcategory": "Geometric shapes",
     "keywords": [
       "black",
+      "black small square",
       "geometric",
       "icon",
       "shape",
@@ -944,7 +972,8 @@
       "shape",
       "small",
       "square",
-      "white"
+      "white",
+      "white small square"
     ],
     "emoji": "▫",
     "image": "./emoji-img/white_small_square.png",
@@ -964,6 +993,7 @@
       "direction",
       "forward",
       "play",
+      "play button",
       "right",
       "triangle"
     ],
@@ -986,6 +1016,7 @@
       "direction",
       "left",
       "reverse",
+      "reverse button",
       "triangle"
     ],
     "emoji": "◀",
@@ -1007,7 +1038,8 @@
       "shape",
       "square",
       "stone",
-      "white"
+      "white",
+      "white medium square"
     ],
     "emoji": "◻",
     "image": "./emoji-img/white_medium_square.png",
@@ -1023,6 +1055,7 @@
     "unicode_subcategory": "Geometric shapes",
     "keywords": [
       "black",
+      "black medium square",
       "button",
       "geometric",
       "icon",
@@ -1051,7 +1084,8 @@
       "small",
       "square",
       "stone",
-      "white"
+      "white",
+      "white medium-small square"
     ],
     "emoji": "◽",
     "image": "./emoji-img/white_medium_small_square.png",
@@ -1067,6 +1101,7 @@
     "unicode_subcategory": "Geometric shapes",
     "keywords": [
       "black",
+      "black medium-small square",
       "button",
       "geometric",
       "icon",
@@ -1095,6 +1130,7 @@
       "rays",
       "spring",
       "summer",
+      "sun",
       "sunny",
       "weather"
     ],
@@ -1209,6 +1245,7 @@
     "keywords": [
       "agree",
       "ballot",
+      "ballot box with check",
       "black-square",
       "box",
       "check",
@@ -1239,6 +1276,7 @@
       "rainy",
       "spring",
       "umbrella",
+      "umbrella with rain drops",
       "weather"
     ],
     "emoji": "☔",
@@ -1260,6 +1298,7 @@
       "drink",
       "espresso",
       "hot",
+      "hot beverage",
       "latte",
       "steaming",
       "tea"
@@ -1302,6 +1341,7 @@
       "fingers",
       "hand",
       "index",
+      "index pointing up",
       "point",
       "up"
     ],
@@ -1335,7 +1375,8 @@
       "pirate",
       "poison",
       "scary",
-      "skull"
+      "skull",
+      "skull and crossbones"
     ],
     "emoji": "☠",
     "image": "./emoji-img/skull_and_crossbones.png",
@@ -1388,6 +1429,7 @@
       "Christian",
       "cross",
       "orthodox",
+      "orthodox cross",
       "religion",
       "suppedaneum"
     ],
@@ -1409,7 +1451,8 @@
       "crescent",
       "islam",
       "religion",
-      "star"
+      "star",
+      "star and crescent"
     ],
     "emoji": "☪",
     "image": "./emoji-img/star_and_crescent.png",
@@ -1426,6 +1469,7 @@
     "keywords": [
       "hippie",
       "peace",
+      "peace symbol",
       "symbol"
     ],
     "emoji": "☮",
@@ -1446,7 +1490,8 @@
       "tao",
       "taoist",
       "yang",
-      "yin"
+      "yin",
+      "yin yang"
     ],
     "emoji": "☯",
     "image": "./emoji-img/yin_yang.png",
@@ -1469,7 +1514,8 @@
       "of",
       "religion",
       "sikhism",
-      "wheel"
+      "wheel",
+      "wheel of dharma"
     ],
     "emoji": "☸",
     "image": "./emoji-img/wheel_of_dharma.png",
@@ -1487,6 +1533,7 @@
       "face",
       "frown",
       "frowning",
+      "frowning face",
       "sad",
       "upset"
     ],
@@ -1509,7 +1556,8 @@
       "massage",
       "outlined",
       "relaxed",
-      "smile"
+      "smile",
+      "smiling face"
     ],
     "emoji": "☺",
     "image": "./emoji-img/white_smiling_face.png",
@@ -1524,6 +1572,7 @@
     "unicode_category": "Miscellaneous Symbols",
     "unicode_subcategory": "Zodiacal symbol",
     "keywords": [
+      "Aries",
       "aries",
       "astrology",
       "purple-square",
@@ -1544,6 +1593,7 @@
     "unicode_category": "Miscellaneous Symbols",
     "unicode_subcategory": "Zodiacal symbol",
     "keywords": [
+      "Taurus",
       "astrology",
       "bull",
       "ox",
@@ -1565,6 +1615,7 @@
     "unicode_category": "Miscellaneous Symbols",
     "unicode_subcategory": "Zodiacal symbol",
     "keywords": [
+      "Gemini",
       "astrology",
       "gemini",
       "purple-square",
@@ -1585,6 +1636,7 @@
     "unicode_category": "Miscellaneous Symbols",
     "unicode_subcategory": "Zodiacal symbol",
     "keywords": [
+      "Cancer",
       "astrology",
       "cancer",
       "crab",
@@ -1605,6 +1657,7 @@
     "unicode_category": "Miscellaneous Symbols",
     "unicode_subcategory": "Zodiacal symbol",
     "keywords": [
+      "Leo",
       "astrology",
       "leo",
       "lion",
@@ -1625,6 +1678,7 @@
     "unicode_category": "Miscellaneous Symbols",
     "unicode_subcategory": "Zodiacal symbol",
     "keywords": [
+      "Virgo",
       "astrology",
       "purple-square",
       "sign",
@@ -1644,6 +1698,7 @@
     "unicode_category": "Miscellaneous Symbols",
     "unicode_subcategory": "Zodiacal symbol",
     "keywords": [
+      "Libra",
       "astrology",
       "balance",
       "justice",
@@ -1658,7 +1713,7 @@
     "fitz": false
   },
   "264f": {
-    "name": "Scorpius",
+    "name": "Scorpio",
     "emojilib_name": "scorpius",
     "codepoints": [
       9807
@@ -1666,6 +1721,7 @@
     "unicode_category": "Miscellaneous Symbols",
     "unicode_subcategory": "Zodiacal symbol",
     "keywords": [
+      "Scorpio",
       "astrology",
       "purple-square",
       "scorpio",
@@ -1687,6 +1743,7 @@
     "unicode_category": "Miscellaneous Symbols",
     "unicode_subcategory": "Zodiacal symbol",
     "keywords": [
+      "Sagittarius",
       "archer",
       "astrology",
       "purple-square",
@@ -1707,6 +1764,7 @@
     "unicode_category": "Miscellaneous Symbols",
     "unicode_subcategory": "Zodiacal symbol",
     "keywords": [
+      "Capricorn",
       "astrology",
       "capricorn",
       "goat",
@@ -1727,6 +1785,7 @@
     "unicode_category": "Miscellaneous Symbols",
     "unicode_subcategory": "Zodiacal symbol",
     "keywords": [
+      "Aquarius",
       "aquarius",
       "astrology",
       "bearer",
@@ -1748,6 +1807,7 @@
     "unicode_category": "Miscellaneous Symbols",
     "unicode_subcategory": "Zodiacal symbol",
     "keywords": [
+      "Pisces",
       "astrology",
       "fish",
       "pisces",
@@ -1773,6 +1833,7 @@
       "game",
       "magic",
       "poker",
+      "spade suit",
       "spades",
       "suits"
     ],
@@ -1791,6 +1852,7 @@
     "keywords": [
       "card",
       "cards",
+      "club suit",
       "clubs",
       "game",
       "magic",
@@ -1813,6 +1875,7 @@
       "card",
       "cards",
       "game",
+      "heart suit",
       "hearts",
       "magic",
       "poker",
@@ -1833,6 +1896,7 @@
     "keywords": [
       "card",
       "cards",
+      "diamond suit",
       "diamonds",
       "game",
       "magic",
@@ -1854,6 +1918,7 @@
     "keywords": [
       "bath",
       "hot",
+      "hot springs",
       "hotsprings",
       "relax",
       "springs",
@@ -1877,6 +1942,7 @@
       "environment",
       "garbage",
       "recycle",
+      "recycling symbol",
       "trash"
     ],
     "emoji": "♻",
@@ -1897,7 +1963,8 @@
       "accessibility",
       "blue-square",
       "disabled",
-      "wheelchair"
+      "wheelchair",
+      "wheelchair symbol"
     ],
     "emoji": "♿",
     "image": "./emoji-img/wheelchair_symbol.png",
@@ -1916,6 +1983,7 @@
       "build",
       "create",
       "hammer",
+      "hammer and pick",
       "pick",
       "tool",
       "tools"
@@ -1954,6 +2022,7 @@
     "unicode_subcategory": "Dictionary and map symbols",
     "keywords": [
       "crossed",
+      "crossed swords",
       "swords",
       "weapon"
     ],
@@ -1972,6 +2041,7 @@
     "keywords": [
       "Libra",
       "balance",
+      "balance scale",
       "fairness",
       "justice",
       "law",
@@ -2033,6 +2103,7 @@
     "keywords": [
       "atheist",
       "atom",
+      "atom symbol",
       "chemistry",
       "physics",
       "science",
@@ -2096,6 +2167,7 @@
       "electric",
       "electricity",
       "fast",
+      "high voltage",
       "lightning",
       "lightning bolt",
       "thunder",
@@ -2120,7 +2192,8 @@
       "geometric",
       "round",
       "shape",
-      "white"
+      "white",
+      "white circle"
     ],
     "emoji": "⚪",
     "image": "./emoji-img/medium_white_circle.png",
@@ -2136,6 +2209,7 @@
     "unicode_subcategory": "Circles",
     "keywords": [
       "black",
+      "black circle",
       "button",
       "circle",
       "geometric",
@@ -2185,6 +2259,7 @@
       "death",
       "die",
       "funeral",
+      "funeral urn",
       "rip",
       "urn"
     ],
@@ -2204,6 +2279,7 @@
       "ball",
       "football",
       "soccer",
+      "soccer ball",
       "sports"
     ],
     "emoji": "⚽",
@@ -2243,6 +2319,7 @@
       "season",
       "snow",
       "snowman",
+      "snowman without snow",
       "weather",
       "winter",
       "without_snow",
@@ -2269,6 +2346,7 @@
       "partly",
       "spring",
       "sun",
+      "sun behind cloud",
       "sunny",
       "weather"
     ],
@@ -2287,6 +2365,7 @@
     "keywords": [
       "and",
       "cloud",
+      "cloud with lightning and rain",
       "lightning",
       "rain",
       "thunder",
@@ -2306,6 +2385,7 @@
     "unicode_category": "Miscellaneous Symbols",
     "unicode_subcategory": "Zodiacal symbol",
     "keywords": [
+      "Ophiuchus",
       "astrology",
       "bearer",
       "constellation",
@@ -2356,6 +2436,7 @@
       "hat",
       "helmet",
       "rescue",
+      "rescue worker’s helmet",
       "worker"
     ],
     "emoji": "⛑",
@@ -2396,6 +2477,7 @@
       "forbidden",
       "limit",
       "no",
+      "no entry",
       "not",
       "privacy",
       "prohibited",
@@ -2420,6 +2502,7 @@
       "kyoto",
       "religion",
       "shinto",
+      "shinto shrine",
       "shrine",
       "temple"
     ],
@@ -2481,6 +2564,7 @@
       "summer",
       "sun",
       "umbrella",
+      "umbrella on ground",
       "weather"
     ],
     "emoji": "⛱",
@@ -2517,6 +2601,7 @@
     "keywords": [
       "business",
       "flag",
+      "flag in hole",
       "golf",
       "hole",
       "sports",
@@ -2598,6 +2683,7 @@
     "unicode_subcategory": "Map symbol from ARIB STD B24",
     "keywords": [
       "ice",
+      "ice skate",
       "skate",
       "sports"
     ],
@@ -2618,6 +2704,7 @@
       "basketball",
       "human",
       "man",
+      "person bouncing ball",
       "sports"
     ],
     "emoji": "⛹",
@@ -2658,6 +2745,7 @@
     "unicode_subcategory": "Map symbol from ARIB STD B24",
     "keywords": [
       "fuel",
+      "fuel pump",
       "fuelpump",
       "gas",
       "gas station",
@@ -2706,7 +2794,8 @@
       "ok",
       "tick",
       "vote",
-      "white"
+      "white",
+      "white heavy check mark"
     ],
     "emoji": "✅",
     "image": "./emoji-img/white_heavy_check_mark.png",
@@ -2743,6 +2832,7 @@
     "keywords": [
       "communication",
       "email",
+      "envelope",
       "inbox",
       "letter",
       "postal"
@@ -2765,7 +2855,8 @@
       "fist",
       "grasp",
       "hand",
-      "punch"
+      "punch",
+      "raised fist"
     ],
     "emoji": "✊",
     "image": "./emoji-img/raised_fist.png",
@@ -2792,6 +2883,7 @@
       "highfive",
       "palm",
       "raised",
+      "raised hand",
       "stop"
     ],
     "emoji": "✋",
@@ -2819,7 +2911,8 @@
       "peace",
       "two",
       "v",
-      "victory"
+      "victory",
+      "victory hand"
     ],
     "emoji": "✌",
     "image": "./emoji-img/victory_hand.png",
@@ -2845,7 +2938,8 @@
       "lower_left_ballpoint_pen",
       "stationery",
       "write",
-      "writing"
+      "writing",
+      "writing hand"
     ],
     "emoji": "✍",
     "image": "./emoji-img/writing_hand.png",
@@ -2889,6 +2983,7 @@
     "unicode_subcategory": "Miscellaneous",
     "keywords": [
       "black",
+      "black nib",
       "nib",
       "pen",
       "stationery",
@@ -2911,6 +3006,7 @@
       "answer",
       "check",
       "heavy",
+      "heavy check mark",
       "mark",
       "nike",
       "ok",
@@ -2933,6 +3029,7 @@
       "calculation",
       "cancel",
       "heavy",
+      "heavy multiplication x",
       "math",
       "multiplication",
       "multiply",
@@ -2955,6 +3052,7 @@
       "christianity",
       "cross",
       "latin",
+      "latin cross",
       "religion"
     ],
     "emoji": "✝",
@@ -2977,7 +3075,8 @@
       "judaism",
       "of",
       "religion",
-      "star"
+      "star",
+      "star of David"
     ],
     "emoji": "✡",
     "image": "./emoji-img/star_of_david.png",
@@ -3018,6 +3117,7 @@
     "keywords": [
       "asterisk",
       "eight",
+      "eight-spoked asterisk",
       "green-square",
       "sparkle",
       "spoked",
@@ -3038,6 +3138,7 @@
     "keywords": [
       "black",
       "eight",
+      "eight-pointed star",
       "orange-square",
       "pointed",
       "polygon",
@@ -3100,6 +3201,7 @@
     "unicode_subcategory": "Miscellaneous",
     "keywords": [
       "cancel",
+      "cross mark",
       "delete",
       "mark",
       "multiplication",
@@ -3122,6 +3224,7 @@
     "unicode_subcategory": "Miscellaneous",
     "keywords": [
       "cross",
+      "cross mark button",
       "deny",
       "green-square",
       "mark",
@@ -3148,7 +3251,8 @@
       "doubt",
       "mark",
       "punctuation",
-      "question"
+      "question",
+      "question mark"
     ],
     "emoji": "❓",
     "image": "./emoji-img/black_question_mark_ornament.png",
@@ -3171,7 +3275,8 @@
       "mark",
       "outlined",
       "punctuation",
-      "question"
+      "question",
+      "white question mark"
     ],
     "emoji": "❔",
     "image": "./emoji-img/white_question_mark_ornament.png",
@@ -3194,6 +3299,7 @@
       "punctuation",
       "surprise",
       "warning",
+      "white exclamation mark",
       "wow"
     ],
     "emoji": "❕",
@@ -3211,6 +3317,7 @@
     "keywords": [
       "danger",
       "exclamation",
+      "exclamation mark",
       "heavy_exclamation_mark",
       "mark",
       "punctuation",
@@ -3235,6 +3342,7 @@
       "exclamation",
       "heart",
       "heavy",
+      "heavy heart exclamation",
       "love",
       "mark",
       "punctuation"
@@ -3255,6 +3363,7 @@
       "heart",
       "like",
       "love",
+      "red heart",
       "valentines"
     ],
     "emoji": "❤",
@@ -3273,6 +3382,7 @@
       "addition",
       "calculation",
       "heavy",
+      "heavy plus sign",
       "increase",
       "math",
       "more",
@@ -3294,6 +3404,7 @@
     "keywords": [
       "calculation",
       "heavy",
+      "heavy minus sign",
       "less",
       "math",
       "minus",
@@ -3317,6 +3428,7 @@
       "divide",
       "division",
       "heavy",
+      "heavy division sign",
       "math",
       "sign"
     ],
@@ -3339,7 +3451,8 @@
       "direction",
       "east",
       "next",
-      "right"
+      "right",
+      "right arrow"
     ],
     "emoji": "➡",
     "image": "./emoji-img/black_rightwards_arrow.png",
@@ -3356,6 +3469,7 @@
     "keywords": [
       "curl",
       "curly",
+      "curly loop",
       "draw",
       "loop",
       "scribble",
@@ -3378,6 +3492,7 @@
       "cassette",
       "curl",
       "double",
+      "double curly loop",
       "loop",
       "tape"
     ],
@@ -3398,6 +3513,7 @@
       "blue-square",
       "direction",
       "heading",
+      "right arrow curving up",
       "top",
       "up"
     ],
@@ -3419,7 +3535,8 @@
       "bottom",
       "direction",
       "down",
-      "heading"
+      "heading",
+      "right arrow curving down"
     ],
     "emoji": "⤵",
     "image": "./emoji-img/arrow_pointing_rightwards_then_curving_downwards.png",
@@ -3440,6 +3557,7 @@
       "cardinal",
       "direction",
       "left",
+      "left arrow",
       "previous",
       "west"
     ],
@@ -3463,7 +3581,8 @@
       "direction",
       "north",
       "top",
-      "up"
+      "up",
+      "up arrow"
     ],
     "emoji": "⬆",
     "image": "./emoji-img/upwards_black_arrow.png",
@@ -3484,6 +3603,7 @@
       "cardinal",
       "direction",
       "down",
+      "down arrow",
       "south"
     ],
     "emoji": "⬇",
@@ -3500,6 +3620,7 @@
     "unicode_subcategory": "Squares",
     "keywords": [
       "black",
+      "black large square",
       "button",
       "geometric",
       "icon",
@@ -3527,7 +3648,8 @@
       "shape",
       "square",
       "stone",
-      "white"
+      "white",
+      "white large square"
     ],
     "emoji": "⬜",
     "image": "./emoji-img/white_large_square.png",
@@ -3544,6 +3666,7 @@
     "keywords": [
       "night",
       "star",
+      "white medium star",
       "yellow"
     ],
     "emoji": "⭐",
@@ -3560,6 +3683,7 @@
     "unicode_subcategory": "Traffic sign from ARIB STD B24",
     "keywords": [
       "circle",
+      "heavy large circle",
       "o",
       "round"
     ],
@@ -3584,7 +3708,8 @@
       "punctuation",
       "scribble",
       "squiggle",
-      "wavy"
+      "wavy",
+      "wavy dash"
     ],
     "emoji": "〰",
     "image": "./emoji-img/wavy_dash.png",
@@ -3606,6 +3731,7 @@
       "graph",
       "mark",
       "part",
+      "part alternation mark",
       "presentation",
       "stats"
     ],
@@ -3623,6 +3749,7 @@
     "unicode_subcategory": "Circled ideographs",
     "keywords": [
       "Japanese",
+      "Japanese “congratulations” button",
       "chinese",
       "congratulations",
       "ideograph",
@@ -3646,6 +3773,7 @@
     "unicode_subcategory": "Circled ideographs",
     "keywords": [
       "Japanese",
+      "Japanese “secret” button",
       "chinese",
       "ideograph",
       "kanji",
@@ -3673,6 +3801,7 @@
       "game",
       "kanji",
       "mahjong",
+      "mahjong red dragon",
       "play",
       "red"
     ],
@@ -3712,6 +3841,7 @@
     "unicode_category": "Enclosed Alphanumeric Supplement",
     "unicode_subcategory": "White on black squared Latin letters",
     "keywords": [
+      "A button (blood type)",
       "a",
       "alphabet",
       "blood type",
@@ -3731,6 +3861,7 @@
     "unicode_category": "Enclosed Alphanumeric Supplement",
     "unicode_subcategory": "White on black squared Latin letters",
     "keywords": [
+      "B button (blood type)",
       "alphabet",
       "b",
       "blood type",
@@ -3750,6 +3881,7 @@
     "unicode_category": "Enclosed Alphanumeric Supplement",
     "unicode_subcategory": "White on black squared Latin letters",
     "keywords": [
+      "O button (blood type)",
       "alphabet",
       "blood type",
       "letter",
@@ -3770,6 +3902,7 @@
     "unicode_category": "Enclosed Alphanumeric Supplement",
     "unicode_subcategory": "White on black squared Latin letters",
     "keywords": [
+      "P button",
       "alphabet",
       "blue-square",
       "cars",
@@ -3789,6 +3922,7 @@
     "unicode_category": "Enclosed Alphanumeric Supplement",
     "unicode_subcategory": "White on black squared Latin letters",
     "keywords": [
+      "AB button (blood type)",
       "ab",
       "alphabet",
       "blood type",
@@ -3807,6 +3941,7 @@
     "unicode_category": "Enclosed Alphanumeric Supplement",
     "unicode_subcategory": "Squared Latin letter sequences",
     "keywords": [
+      "CL button",
       "alphabet",
       "cl",
       "red-square",
@@ -3825,6 +3960,7 @@
     "unicode_category": "Enclosed Alphanumeric Supplement",
     "unicode_subcategory": "Squared Latin letter sequences",
     "keywords": [
+      "COOL button",
       "blue-square",
       "cool",
       "words"
@@ -3842,6 +3978,7 @@
     "unicode_category": "Enclosed Alphanumeric Supplement",
     "unicode_subcategory": "Squared Latin letter sequences",
     "keywords": [
+      "FREE button",
       "blue-square",
       "free",
       "words"
@@ -3859,6 +3996,7 @@
     "unicode_category": "Enclosed Alphanumeric Supplement",
     "unicode_subcategory": "Squared Latin letter sequences",
     "keywords": [
+      "ID button",
       "id",
       "identity",
       "purple-square",
@@ -3877,6 +4015,7 @@
     "unicode_category": "Enclosed Alphanumeric Supplement",
     "unicode_subcategory": "Squared Latin letter sequences",
     "keywords": [
+      "NEW button",
       "blue-square",
       "new",
       "start",
@@ -3895,6 +4034,7 @@
     "unicode_category": "Enclosed Alphanumeric Supplement",
     "unicode_subcategory": "Squared Latin letter sequences",
     "keywords": [
+      "NG button",
       "blue-square",
       "icon",
       "ng",
@@ -3915,6 +4055,7 @@
     "unicode_subcategory": "Squared Latin letter sequences",
     "keywords": [
       "OK",
+      "OK button",
       "agree",
       "blue-square",
       "good",
@@ -3935,6 +4076,7 @@
     "unicode_subcategory": "Squared Latin letter sequences",
     "keywords": [
       "911",
+      "SOS button",
       "emergency",
       "help",
       "red-square",
@@ -3954,6 +4096,7 @@
     "unicode_category": "Enclosed Alphanumeric Supplement",
     "unicode_subcategory": "Squared Latin letter sequences",
     "keywords": [
+      "UP! button",
       "above",
       "blue-square",
       "high",
@@ -3973,6 +4116,7 @@
     "unicode_category": "Enclosed Alphanumeric Supplement",
     "unicode_subcategory": "Squared Latin letter sequences",
     "keywords": [
+      "VS button",
       "orange-square",
       "versus",
       "vs",
@@ -9249,6 +9393,7 @@
     "unicode_subcategory": "Squared katakana",
     "keywords": [
       "Japanese",
+      "Japanese “here” button",
       "blue-square",
       "destination",
       "here",
@@ -9272,6 +9417,7 @@
     "unicode_subcategory": "Squared katakana",
     "keywords": [
       "Japanese",
+      "Japanese “service charge” button",
       "blue-square",
       "japanese",
       "katakana",
@@ -9293,6 +9439,7 @@
     "unicode_subcategory": "Squared ideographs and kana from ARIB STD B24",
     "keywords": [
       "Japanese",
+      "Japanese “free of charge” button",
       "chinese",
       "ideograph",
       "japanese",
@@ -9317,6 +9464,7 @@
     "unicode_subcategory": "Squared ideographs and kana from ARIB STD B24",
     "keywords": [
       "Japanese",
+      "Japanese “reserved” button",
       "chinese",
       "green-square",
       "ideograph",
@@ -9340,6 +9488,7 @@
     "unicode_subcategory": "Squared ideographs",
     "keywords": [
       "Japanese",
+      "Japanese “prohibited” button",
       "chinese",
       "forbidden",
       "ideograph",
@@ -9366,6 +9515,7 @@
     "unicode_subcategory": "Squared ideographs",
     "keywords": [
       "Japanese",
+      "Japanese “vacancy” button",
       "blue-square",
       "chinese",
       "empty",
@@ -9391,6 +9541,7 @@
     "unicode_subcategory": "Squared ideographs",
     "keywords": [
       "Japanese",
+      "Japanese “passing grade” button",
       "chinese",
       "ideograph",
       "japanese",
@@ -9415,6 +9566,7 @@
     "unicode_subcategory": "Squared ideographs",
     "keywords": [
       "Japanese",
+      "Japanese “no vacancy” button",
       "chinese",
       "full",
       "ideograph",
@@ -9439,6 +9591,7 @@
     "unicode_subcategory": "Squared ideographs",
     "keywords": [
       "Japanese",
+      "Japanese “not free of charge” button",
       "chinese",
       "have",
       "ideograph",
@@ -9462,6 +9615,7 @@
     "unicode_subcategory": "Squared ideographs",
     "keywords": [
       "Japanese",
+      "Japanese “monthly amount” button",
       "chinese",
       "ideograph",
       "japanese",
@@ -9487,6 +9641,7 @@
     "unicode_subcategory": "Squared ideographs",
     "keywords": [
       "Japanese",
+      "Japanese “application” button",
       "chinese",
       "ideograph",
       "japanese",
@@ -9510,6 +9665,7 @@
     "unicode_subcategory": "Squared ideographs",
     "keywords": [
       "Japanese",
+      "Japanese “discount” button",
       "chinese",
       "cut",
       "divide",
@@ -9534,6 +9690,7 @@
     "unicode_subcategory": "Squared ideographs",
     "keywords": [
       "Japanese",
+      "Japanese “open for business” button",
       "ideograph",
       "japanese",
       "opening hours",
@@ -9556,6 +9713,7 @@
     "unicode_subcategory": "Circled ideographs",
     "keywords": [
       "Japanese",
+      "Japanese “bargain” button",
       "advantage",
       "chinese",
       "circle",
@@ -9580,6 +9738,7 @@
     "unicode_subcategory": "Circled ideographs",
     "keywords": [
       "Japanese",
+      "Japanese “acceptable” button",
       "accept",
       "agree",
       "chinese",
@@ -9652,6 +9811,7 @@
     "unicode_subcategory": "Weather, landscape, and sky symbols",
     "keywords": [
       "closed",
+      "closed umbrella",
       "clothing",
       "drizzle",
       "rain",
@@ -9675,6 +9835,7 @@
       "downtown",
       "evening",
       "night",
+      "night with stars",
       "star",
       "stars",
       "with"
@@ -9699,6 +9860,7 @@
       "photo",
       "sun",
       "sunrise",
+      "sunrise over mountains",
       "vacation",
       "view"
     ],
@@ -9737,6 +9899,7 @@
     "keywords": [
       "buildings",
       "city",
+      "cityscape at dusk",
       "dusk",
       "evening",
       "landscape",
@@ -9764,7 +9927,8 @@
       "good morning",
       "photo",
       "sun",
-      "sunrise"
+      "sunrise",
+      "sunset"
     ],
     "emoji": "🌇",
     "image": "./emoji-img/sunset_over_buildings.png",
@@ -9803,6 +9967,7 @@
     "keywords": [
       "at",
       "bridge",
+      "bridge at night",
       "night",
       "photo",
       "sanfrancisco"
@@ -9826,6 +9991,7 @@
       "sea",
       "tsunami",
       "water",
+      "water wave",
       "wave"
     ],
     "emoji": "🌊",
@@ -9862,6 +10028,7 @@
     "unicode_subcategory": "Weather, landscape, and sky symbols",
     "keywords": [
       "milky",
+      "milky way",
       "photo",
       "space",
       "stars",
@@ -9885,6 +10052,7 @@
       "africa",
       "earth",
       "globe",
+      "globe showing Europe-Africa",
       "international",
       "world"
     ],
@@ -9906,6 +10074,7 @@
       "americas",
       "earth",
       "globe",
+      "globe showing Americas",
       "international",
       "world"
     ],
@@ -9928,6 +10097,7 @@
       "earth",
       "east",
       "globe",
+      "globe showing Asia-Australia",
       "international",
       "world"
     ],
@@ -9946,6 +10116,7 @@
     "keywords": [
       "earth",
       "globe",
+      "globe with meridians",
       "i18n",
       "international",
       "internet",
@@ -9972,6 +10143,7 @@
       "moon",
       "nature",
       "new",
+      "new moon",
       "night",
       "planet",
       "sleep",
@@ -10000,7 +10172,8 @@
       "sleep",
       "space",
       "twilight",
-      "waxing"
+      "waxing",
+      "waxing crescent moon"
     ],
     "emoji": "🌒",
     "image": "./emoji-img/waxing_crescent_moon_symbol.png",
@@ -10017,6 +10190,7 @@
     "keywords": [
       "evening",
       "first",
+      "first quarter moon",
       "moon",
       "nature",
       "night",
@@ -10050,7 +10224,8 @@
       "sleep",
       "space",
       "twilight",
-      "waxing"
+      "waxing",
+      "waxing gibbous moon"
     ],
     "emoji": "🌔",
     "image": "./emoji-img/waxing_gibbous_moon_symbol.png",
@@ -10067,6 +10242,7 @@
     "keywords": [
       "evening",
       "full",
+      "full moon",
       "moon",
       "nature",
       "night",
@@ -10099,6 +10275,7 @@
       "space",
       "twilight",
       "waning",
+      "waning gibbous moon",
       "waxing_gibbous_moon"
     ],
     "emoji": "🌖",
@@ -10116,6 +10293,7 @@
     "keywords": [
       "evening",
       "last",
+      "last quarter moon",
       "moon",
       "nature",
       "night",
@@ -10147,7 +10325,8 @@
       "sleep",
       "space",
       "twilight",
-      "waning"
+      "waning",
+      "waning crescent moon"
     ],
     "emoji": "🌘",
     "image": "./emoji-img/waning_crescent_moon_symbol.png",
@@ -10163,6 +10342,7 @@
     "unicode_subcategory": "Moon, sun, and star symbols",
     "keywords": [
       "crescent",
+      "crescent moon",
       "evening",
       "magic",
       "moon",
@@ -10188,6 +10368,7 @@
       "moon",
       "nature",
       "new",
+      "new moon face",
       "night",
       "planet",
       "sleep",
@@ -10200,7 +10381,7 @@
     "fitz": false
   },
   "1f31b": {
-    "name": "first quarter moon with face",
+    "name": "first quarter moon face",
     "emojilib_name": "first_quarter_moon_with_face",
     "codepoints": [
       127771
@@ -10211,6 +10392,7 @@
       "evening",
       "face",
       "first",
+      "first quarter moon face",
       "moon",
       "nature",
       "night",
@@ -10226,7 +10408,7 @@
     "fitz": false
   },
   "1f31c": {
-    "name": "last quarter moon with face",
+    "name": "last quarter moon face",
     "emojilib_name": "last_quarter_moon_with_face",
     "codepoints": [
       127772
@@ -10237,6 +10419,7 @@
       "evening",
       "face",
       "last",
+      "last quarter moon face",
       "moon",
       "nature",
       "night",
@@ -10252,7 +10435,7 @@
     "fitz": false
   },
   "1f31d": {
-    "name": "full moon with face",
+    "name": "full moon face",
     "emojilib_name": "full_moon_with_face",
     "codepoints": [
       127773
@@ -10264,6 +10447,7 @@
       "evening",
       "face",
       "full",
+      "full moon face",
       "moon",
       "nature",
       "night",
@@ -10292,6 +10476,7 @@
       "nature",
       "sky",
       "sun",
+      "sun with face",
       "with"
     ],
     "emoji": "🌞",
@@ -10310,6 +10495,7 @@
       "awesome",
       "glittery",
       "glow",
+      "glowing star",
       "good",
       "magic",
       "night",
@@ -10335,6 +10521,7 @@
       "night",
       "photo",
       "shooting",
+      "shooting star",
       "star",
       "stars"
     ],
@@ -10374,6 +10561,7 @@
       "cloud",
       "small",
       "sun",
+      "sun behind small cloud",
       "weather"
     ],
     "emoji": "🌤",
@@ -10393,6 +10581,7 @@
       "cloud",
       "large",
       "sun",
+      "sun behind large cloud",
       "weather"
     ],
     "emoji": "🌥",
@@ -10412,6 +10601,7 @@
       "cloud",
       "rain",
       "sun",
+      "sun behind rain cloud",
       "weather"
     ],
     "emoji": "🌦",
@@ -10428,6 +10618,7 @@
     "unicode_subcategory": "Weather symbol",
     "keywords": [
       "cloud",
+      "cloud with rain",
       "rain",
       "weather",
       "with"
@@ -10446,6 +10637,7 @@
     "unicode_subcategory": "Weather symbol",
     "keywords": [
       "cloud",
+      "cloud with snow",
       "cold",
       "snow",
       "weather",
@@ -10465,6 +10657,7 @@
     "unicode_subcategory": "Weather symbol",
     "keywords": [
       "cloud",
+      "cloud with lightning",
       "lightning",
       "thunder",
       "weather",
@@ -10525,7 +10718,8 @@
       "cloud",
       "face",
       "gust",
-      "wind"
+      "wind",
+      "wind face"
     ],
     "emoji": "🌬",
     "image": "./emoji-img/wind_blowing_face.png",
@@ -10542,6 +10736,7 @@
     "keywords": [
       "food",
       "frankfurter",
+      "hot dog",
       "hotdog",
       "sausage"
     ],
@@ -10633,6 +10828,7 @@
     "unicode_subcategory": "Plant symbols",
     "keywords": [
       "evergreen",
+      "evergreen tree",
       "nature",
       "plant",
       "tree"
@@ -10651,6 +10847,7 @@
     "unicode_subcategory": "Plant symbols",
     "keywords": [
       "deciduous",
+      "deciduous tree",
       "nature",
       "plant",
       "shedding",
@@ -10673,6 +10870,7 @@
       "mojito",
       "nature",
       "palm",
+      "palm tree",
       "plant",
       "summer",
       "tree",
@@ -10714,6 +10912,7 @@
       "chilli",
       "food",
       "hot",
+      "hot pepper",
       "pepper",
       "spicy"
     ],
@@ -10753,6 +10952,7 @@
     "keywords": [
       "blossom",
       "cherry",
+      "cherry blossom",
       "flower",
       "nature",
       "plant",
@@ -10852,6 +11052,7 @@
     "keywords": [
       "corn",
       "ear",
+      "ear of corn",
       "food",
       "maize",
       "maze",
@@ -10876,7 +11077,8 @@
       "nature",
       "of",
       "plant",
-      "rice"
+      "rice",
+      "sheaf of rice"
     ],
     "emoji": "🌾",
     "image": "./emoji-img/ear_of_rice.png",
@@ -10916,6 +11118,7 @@
       "4",
       "clover",
       "four",
+      "four leaf clover",
       "irish",
       "leaf",
       "lucky",
@@ -10941,6 +11144,7 @@
       "falling",
       "leaf",
       "maple",
+      "maple leaf",
       "nature",
       "plant",
       "vegetable"
@@ -10959,6 +11163,7 @@
     "unicode_subcategory": "Plant symbols",
     "keywords": [
       "fallen",
+      "fallen leaf",
       "falling",
       "leaf",
       "leaves",
@@ -10984,6 +11189,7 @@
       "grass",
       "lawn",
       "leaf",
+      "leaf fluttering in wind",
       "leaves",
       "nature",
       "plant",
@@ -11194,6 +11400,7 @@
       "fruit",
       "mac",
       "red",
+      "red apple",
       "school"
     ],
     "emoji": "🍎",
@@ -11212,6 +11419,7 @@
       "apple",
       "fruit",
       "green",
+      "green apple",
       "nature"
     ],
     "emoji": "🍏",
@@ -11266,10 +11474,12 @@
     "unicode_category": "Miscellaneous Symbols And Pictographs",
     "unicode_subcategory": "Fruit and vegetable symbols",
     "keywords": [
+      "berries",
       "cherries",
       "cherry",
       "food",
-      "fruit"
+      "fruit",
+      "red"
     ],
     "emoji": "🍒",
     "image": "./emoji-img/cherries.png",
@@ -11349,6 +11559,7 @@
       "food",
       "good",
       "meat",
+      "meat on bone",
       "on"
     ],
     "emoji": "🍖",
@@ -11372,6 +11583,7 @@
       "leg",
       "meat",
       "poultry",
+      "poultry leg",
       "turkey"
     ],
     "emoji": "🍗",
@@ -11390,7 +11602,8 @@
       "cracker",
       "food",
       "japanese",
-      "rice"
+      "rice",
+      "rice cracker"
     ],
     "emoji": "🍘",
     "image": "./emoji-img/rice_cracker.png",
@@ -11409,7 +11622,8 @@
       "ball",
       "food",
       "japanese",
-      "rice"
+      "rice",
+      "rice ball"
     ],
     "emoji": "🍙",
     "image": "./emoji-img/rice_ball.png",
@@ -11427,6 +11641,7 @@
       "asian",
       "china",
       "cooked",
+      "cooked rice",
       "food",
       "rice"
     ],
@@ -11444,6 +11659,7 @@
     "unicode_subcategory": "Food symbol",
     "keywords": [
       "curry",
+      "curry rice",
       "food",
       "hot",
       "indian",
@@ -11469,7 +11685,8 @@
       "japanese",
       "noodle",
       "ramen",
-      "steaming"
+      "steaming",
+      "steaming bowl"
     ],
     "emoji": "🍜",
     "image": "./emoji-img/steaming_bowl.png",
@@ -11526,6 +11743,7 @@
       "chips",
       "fast food",
       "french",
+      "french fries",
       "fries",
       "snack"
     ],
@@ -11546,6 +11764,7 @@
       "nature",
       "potato",
       "roasted",
+      "roasted sweet potato",
       "sweet"
     ],
     "emoji": "🍠",
@@ -11629,6 +11848,7 @@
       "appetizer",
       "food",
       "fried",
+      "fried shrimp",
       "prawn",
       "shrimp",
       "summer",
@@ -11650,6 +11870,7 @@
       "beach",
       "cake",
       "fish",
+      "fish cake with swirl",
       "food",
       "japan",
       "kamaboko",
@@ -11681,6 +11902,7 @@
       "ice",
       "icecream",
       "soft",
+      "soft ice cream",
       "summer",
       "sweet"
     ],
@@ -11701,6 +11923,7 @@
       "hot",
       "ice",
       "shaved",
+      "shaved ice",
       "summer",
       "sweet"
     ],
@@ -11722,6 +11945,7 @@
       "food",
       "hot",
       "ice",
+      "ice cream",
       "sweet"
     ],
     "emoji": "🍨",
@@ -11780,6 +12004,7 @@
     "keywords": [
       "bar",
       "chocolate",
+      "chocolate bar",
       "dessert",
       "food",
       "snack",
@@ -11858,6 +12083,7 @@
     "keywords": [
       "bees",
       "honey",
+      "honey pot",
       "honeypot",
       "kitchen",
       "pot",
@@ -11880,6 +12106,7 @@
       "dessert",
       "food",
       "pastry",
+      "shortcake",
       "slice",
       "sweet"
     ],
@@ -11897,6 +12124,7 @@
     "unicode_subcategory": "Food symbol",
     "keywords": [
       "bento",
+      "bento box",
       "box",
       "food",
       "japanese"
@@ -11917,6 +12145,7 @@
       "food",
       "meat",
       "pot",
+      "pot of food",
       "soup",
       "stew"
     ],
@@ -11934,6 +12163,7 @@
     "unicode_subcategory": "Food symbol",
     "keywords": [
       "breakfast",
+      "cooking",
       "egg",
       "food",
       "fried",
@@ -11958,6 +12188,7 @@
       "cooking",
       "cutlery",
       "fork",
+      "fork and knife",
       "kitchen",
       "knife"
     ],
@@ -11982,7 +12213,8 @@
       "drink",
       "green",
       "tea",
-      "teacup"
+      "teacup",
+      "teacup without handle"
     ],
     "emoji": "🍵",
     "image": "./emoji-img/teacup_without_handle.png",
@@ -12029,7 +12261,8 @@
       "drink",
       "drunk",
       "glass",
-      "wine"
+      "wine",
+      "wine glass"
     ],
     "emoji": "🍷",
     "image": "./emoji-img/wine_glass.png",
@@ -12049,6 +12282,7 @@
       "beverage",
       "booze",
       "cocktail",
+      "cocktail glass",
       "drink",
       "drunk",
       "glass",
@@ -12076,7 +12310,8 @@
       "drink",
       "mojito",
       "summer",
-      "tropical"
+      "tropical",
+      "tropical drink"
     ],
     "emoji": "🍹",
     "image": "./emoji-img/tropical_drink.png",
@@ -12094,6 +12329,7 @@
       "alcohol",
       "bar",
       "beer",
+      "beer mug",
       "beverage",
       "booze",
       "drink",
@@ -12124,6 +12360,7 @@
       "beverage",
       "booze",
       "clink",
+      "clinking beer mugs",
       "drink",
       "drunk",
       "mug",
@@ -12146,6 +12383,7 @@
     "unicode_subcategory": "Beverage symbols",
     "keywords": [
       "baby",
+      "baby bottle",
       "bottle",
       "container",
       "drink",
@@ -12171,6 +12409,7 @@
       "eat",
       "food",
       "fork",
+      "fork and knife with plate",
       "knife",
       "lunch",
       "meal",
@@ -12193,6 +12432,7 @@
     "keywords": [
       "bar",
       "bottle",
+      "bottle with popping cork",
       "celebration",
       "champagne",
       "cork",
@@ -12259,6 +12499,7 @@
       "gift",
       "present",
       "wrapped",
+      "wrapped gift",
       "xmas"
     ],
     "emoji": "🎁",
@@ -12275,6 +12516,7 @@
     "unicode_subcategory": "Celebration symbols",
     "keywords": [
       "birthday",
+      "birthday cake",
       "cake",
       "celebration",
       "dessert",
@@ -12300,6 +12542,7 @@
       "fall",
       "halloween",
       "jack",
+      "jack-o-lantern",
       "lantern",
       "light",
       "o",
@@ -12319,6 +12562,7 @@
     "unicode_subcategory": "Celebration symbols",
     "keywords": [
       "Christmas",
+      "Christmas tree",
       "celebration",
       "christmas",
       "december",
@@ -12341,6 +12585,7 @@
     "unicode_subcategory": "Celebration symbols",
     "keywords": [
       "Christmas",
+      "Santa Claus",
       "celebration",
       "claus",
       "father",
@@ -12436,6 +12681,7 @@
       "congratulations",
       "magic",
       "party",
+      "party popper",
       "popper",
       "tada"
     ],
@@ -12457,6 +12703,7 @@
       "celebration",
       "circus",
       "confetti",
+      "confetti ball",
       "festival",
       "party"
     ],
@@ -12481,6 +12728,7 @@
       "plant",
       "summer",
       "tanabata",
+      "tanabata tree",
       "tree"
     ],
     "emoji": "🎋",
@@ -12502,6 +12750,7 @@
       "country",
       "cross",
       "crossed",
+      "crossed flags",
       "flags",
       "japanese",
       "nation"
@@ -12525,6 +12774,7 @@
       "nature",
       "panda",
       "pine",
+      "pine decoration",
       "pine_decoration",
       "plant",
       "vegetable"
@@ -12543,6 +12793,7 @@
     "unicode_subcategory": "Celebration symbols",
     "keywords": [
       "Japanese",
+      "Japanese dolls",
       "celebration",
       "doll",
       "dolls",
@@ -12566,6 +12817,7 @@
     "keywords": [
       "banner",
       "carp",
+      "carp streamer",
       "celebration",
       "fish",
       "flags",
@@ -12592,7 +12844,8 @@
       "ding",
       "nature",
       "spring",
-      "wind"
+      "wind",
+      "wind chime"
     ],
     "emoji": "🎐",
     "image": "./emoji-img/wind_chime.png",
@@ -12612,6 +12865,7 @@
       "ceremony",
       "japan",
       "moon",
+      "moon viewing ceremony",
       "photo",
       "rice",
       "scene",
@@ -12635,6 +12889,7 @@
       "education",
       "satchel",
       "school",
+      "school backpack",
       "student"
     ],
     "emoji": "🎒",
@@ -12658,6 +12913,7 @@
       "degree",
       "education",
       "graduation",
+      "graduation cap",
       "hat",
       "learn",
       "legal",
@@ -12683,6 +12939,7 @@
       "celebration",
       "medal",
       "military",
+      "military medal",
       "winning"
     ],
     "emoji": "🎖",
@@ -12702,6 +12959,7 @@
       "cause",
       "celebration",
       "reminder",
+      "reminder ribbon",
       "ribbon",
       "sports",
       "support"
@@ -12726,6 +12984,7 @@
       "recording",
       "sing",
       "studio",
+      "studio microphone",
       "talkshow"
     ],
     "emoji": "🎙",
@@ -12742,6 +13001,7 @@
     "unicode_subcategory": "Musical symbols",
     "keywords": [
       "level",
+      "level slider",
       "music",
       "scale",
       "slider"
@@ -12760,6 +13020,7 @@
     "unicode_subcategory": "Musical symbols",
     "keywords": [
       "control",
+      "control knobs",
       "dial",
       "knobs",
       "music"
@@ -12779,6 +13040,7 @@
     "keywords": [
       "cinema",
       "film",
+      "film frames",
       "frames",
       "movie",
       "strip"
@@ -12797,6 +13059,7 @@
     "unicode_subcategory": "Entertainment symbols",
     "keywords": [
       "admission",
+      "admission tickets",
       "concert",
       "entrance",
       "sports",
@@ -12818,6 +13081,7 @@
     "keywords": [
       "carnival",
       "carousel",
+      "carousel horse",
       "horse",
       "photo"
     ],
@@ -12837,6 +13101,7 @@
       "amusement park",
       "carnival",
       "ferris",
+      "ferris wheel",
       "londoneye",
       "photo",
       "wheel"
@@ -12860,7 +13125,8 @@
       "fun",
       "photo",
       "playground",
-      "roller"
+      "roller",
+      "roller coaster"
     ],
     "emoji": "🎢",
     "image": "./emoji-img/roller_coaster.png",
@@ -12878,6 +13144,7 @@
       "and",
       "fish",
       "fishing",
+      "fishing pole",
       "food",
       "hobby",
       "pole",
@@ -12922,6 +13189,7 @@
       "cinema",
       "film",
       "movie",
+      "movie camera",
       "record"
     ],
     "emoji": "🎥",
@@ -12962,6 +13230,7 @@
     "keywords": [
       "earbud",
       "gadgets",
+      "headphone",
       "headphones",
       "music",
       "score"
@@ -12980,6 +13249,7 @@
     "unicode_subcategory": "Entertainment symbols",
     "keywords": [
       "art",
+      "artist palette",
       "colors",
       "colours",
       "design",
@@ -13009,6 +13279,7 @@
       "hat",
       "magic",
       "top",
+      "top hat",
       "tophat"
     ],
     "emoji": "🎩",
@@ -13026,6 +13297,7 @@
     "keywords": [
       "carnival",
       "circus",
+      "circus tent",
       "festival",
       "party",
       "tent"
@@ -13063,6 +13335,7 @@
     "unicode_subcategory": "Entertainment symbols",
     "keywords": [
       "clapper",
+      "clapper board",
       "film",
       "movie",
       "record"
@@ -13086,6 +13359,7 @@
       "drama",
       "mask",
       "performing",
+      "performing arts",
       "theater",
       "theatre"
     ],
@@ -13107,7 +13381,8 @@
       "controller",
       "game",
       "play",
-      "video"
+      "video",
+      "video game"
     ],
     "emoji": "🎮",
     "image": "./emoji-img/video_game.png",
@@ -13126,6 +13401,7 @@
       "bull",
       "bullseye",
       "dart",
+      "direct hit",
       "eye",
       "game",
       "hit",
@@ -13153,6 +13429,7 @@
       "luck",
       "machine",
       "slot",
+      "slot machine",
       "vegas"
     ],
     "emoji": "🎰",
@@ -13178,7 +13455,8 @@
       "hobby",
       "luck",
       "magic",
-      "pool"
+      "pool",
+      "pool 8 ball"
     ],
     "emoji": "🎱",
     "image": "./emoji-img/billiards.png",
@@ -13196,6 +13474,7 @@
       "dice",
       "die",
       "game",
+      "game die",
       "luck",
       "play",
       "random",
@@ -13238,6 +13517,7 @@
       "card",
       "cards",
       "flower",
+      "flower playing cards",
       "game",
       "playing",
       "red",
@@ -13258,6 +13538,7 @@
     "keywords": [
       "music",
       "musical",
+      "musical note",
       "note",
       "score",
       "sound",
@@ -13277,6 +13558,7 @@
     "unicode_subcategory": "Musical symbols",
     "keywords": [
       "music",
+      "musical notes",
       "note",
       "notes",
       "score"
@@ -13336,6 +13618,7 @@
       "keyboard",
       "music",
       "musical",
+      "musical keyboard",
       "piano"
     ],
     "emoji": "🎹",
@@ -13392,6 +13675,7 @@
       "compose",
       "music",
       "musical",
+      "musical score",
       "score",
       "treble"
     ],
@@ -13412,6 +13696,7 @@
       "pageant",
       "play",
       "running",
+      "running shirt",
       "sash",
       "shirt",
       "with"
@@ -13451,6 +13736,7 @@
     "keywords": [
       "cold",
       "ski",
+      "skis",
       "snow",
       "sports",
       "winter"
@@ -13490,6 +13776,7 @@
     "keywords": [
       "checkered",
       "chequered",
+      "chequered flag",
       "contest",
       "finishline",
       "flag",
@@ -13533,6 +13820,7 @@
       "exercise",
       "man",
       "marathon",
+      "person running",
       "race",
       "running",
       "walking"
@@ -13559,6 +13847,7 @@
       "beach",
       "man",
       "ocean",
+      "person surfing",
       "sea",
       "sports",
       "summer",
@@ -13586,6 +13875,7 @@
       "award",
       "medal",
       "sports",
+      "sports medal",
       "winning"
     ],
     "emoji": "🏅",
@@ -13628,6 +13918,7 @@
       "competition",
       "gambling",
       "horse",
+      "horse racing",
       "jockey",
       "luck",
       "racehorse",
@@ -13654,6 +13945,7 @@
     "keywords": [
       "NFL",
       "american",
+      "american football",
       "ball",
       "balls",
       "football",
@@ -13675,6 +13967,7 @@
       "ball",
       "football",
       "rugby",
+      "rugby football",
       "sports",
       "team"
     ],
@@ -13695,6 +13988,7 @@
       "exercise",
       "human",
       "man",
+      "person swimming",
       "sports",
       "summer",
       "swim",
@@ -13724,6 +14018,7 @@
       "lifter",
       "lifting",
       "man",
+      "person lifting weights",
       "sports",
       "training",
       "weight"
@@ -13752,6 +14047,7 @@
       "golf",
       "golfing",
       "man",
+      "person golfing",
       "sports"
     ],
     "emoji": "🏌",
@@ -13798,6 +14094,7 @@
       "formula",
       "race",
       "racing",
+      "racing car",
       "sports"
     ],
     "emoji": "🏎",
@@ -13805,7 +14102,7 @@
     "fitz": false
   },
   "1f3cf": {
-    "name": "cricket",
+    "name": "cricket game",
     "emojilib_name": "cricket",
     "codepoints": [
       127951
@@ -13816,6 +14113,7 @@
       "ball",
       "bat",
       "cricket",
+      "cricket game",
       "game",
       "sports"
     ],
@@ -13853,6 +14151,7 @@
     "keywords": [
       "ball",
       "field",
+      "field hockey",
       "game",
       "hockey",
       "sports",
@@ -13874,6 +14173,7 @@
       "game",
       "hockey",
       "ice",
+      "ice hockey",
       "puck",
       "sports",
       "stick"
@@ -13921,6 +14221,7 @@
       "nature",
       "photo",
       "snow",
+      "snow-capped mountain",
       "winter"
     ],
     "emoji": "🏔",
@@ -13955,6 +14256,7 @@
     "unicode_subcategory": "Building and map symbols",
     "keywords": [
       "beach",
+      "beach with umbrella",
       "mojito",
       "sand",
       "summer",
@@ -13976,6 +14278,7 @@
     "unicode_subcategory": "Building and map symbols",
     "keywords": [
       "building",
+      "building construction",
       "construction",
       "progress",
       "wip",
@@ -13986,7 +14289,7 @@
     "fitz": false
   },
   "1f3d8": {
-    "name": "house",
+    "name": "houses",
     "emojilib_name": "houses",
     "codepoints": [
       127960
@@ -13995,7 +14298,6 @@
     "unicode_subcategory": "Building and map symbols",
     "keywords": [
       "buildings",
-      "house",
       "houses",
       "photo"
     ],
@@ -14035,6 +14337,7 @@
       "broken",
       "building",
       "derelict",
+      "derelict house",
       "evict",
       "house"
     ],
@@ -14054,6 +14357,7 @@
       "art",
       "building",
       "classical",
+      "classical building",
       "culture",
       "history"
     ],
@@ -14089,6 +14393,7 @@
     "unicode_subcategory": "Building and map symbols",
     "keywords": [
       "desert",
+      "desert island",
       "island",
       "mojito",
       "photo",
@@ -14109,6 +14414,7 @@
     "keywords": [
       "environment",
       "national",
+      "national park",
       "nature",
       "park",
       "photo"
@@ -14166,6 +14472,7 @@
       "garden",
       "home",
       "house",
+      "house with garden",
       "nature",
       "plant",
       "with"
@@ -14186,6 +14493,7 @@
       "building",
       "bureau",
       "office",
+      "office building",
       "work"
     ],
     "emoji": "🏢",
@@ -14202,6 +14510,7 @@
     "unicode_subcategory": "Building and map symbols",
     "keywords": [
       "Japanese",
+      "Japanese post office",
       "building",
       "communication",
       "envelope",
@@ -14226,7 +14535,8 @@
       "email",
       "european",
       "office",
-      "post"
+      "post",
+      "post office"
     ],
     "emoji": "🏤",
     "image": "./emoji-img/european_post_office.png",
@@ -14282,6 +14592,7 @@
     "unicode_category": "Miscellaneous Symbols And Pictographs",
     "unicode_subcategory": "Building and map symbols",
     "keywords": [
+      "ATM sign",
       "atm",
       "automated",
       "bank",
@@ -14327,7 +14638,8 @@
       "dating",
       "hotel",
       "like",
-      "love"
+      "love",
+      "love hotel"
     ],
     "emoji": "🏩",
     "image": "./emoji-img/love_hotel.png",
@@ -14344,6 +14656,7 @@
     "keywords": [
       "building",
       "convenience",
+      "convenience store",
       "groceries",
       "shopping",
       "store"
@@ -14383,6 +14696,7 @@
     "keywords": [
       "building",
       "department",
+      "department store",
       "mall",
       "shopping",
       "store"
@@ -14426,6 +14740,7 @@
       "light",
       "paper",
       "red",
+      "red paper lantern",
       "spooky"
     ],
     "emoji": "🏮",
@@ -14442,6 +14757,7 @@
     "unicode_subcategory": "Building and map symbols",
     "keywords": [
       "Japanese",
+      "Japanese castle",
       "building",
       "castle",
       "japanese",
@@ -14488,7 +14804,8 @@
       "lost",
       "surrender",
       "waving",
-      "white"
+      "white",
+      "white flag"
     ],
     "emoji": "🏳",
     "image": "./emoji-img/waving_white_flag.png",
@@ -14518,6 +14835,7 @@
       "pride",
       "queer",
       "rainbow",
+      "rainbow flag",
       "transgender"
     ],
     "emoji": "🏳️‍🌈",
@@ -14534,6 +14852,7 @@
     "unicode_subcategory": "Flag symbols",
     "keywords": [
       "black",
+      "black flag",
       "flag",
       "pirate",
       "waving"
@@ -14676,6 +14995,7 @@
       "archery",
       "arrow",
       "bow",
+      "bow and arrow",
       "sports",
       "tool",
       "weapon",
@@ -14718,6 +15038,7 @@
     "unicode_category": "Miscellaneous Symbols And Pictographs",
     "unicode_subcategory": "Emoji modifiers",
     "keywords": [
+      "light skin tone",
       "skin tone",
       "type 1–2"
     ],
@@ -14734,6 +15055,7 @@
     "unicode_category": "Miscellaneous Symbols And Pictographs",
     "unicode_subcategory": "Emoji modifiers",
     "keywords": [
+      "medium-light skin tone",
       "skin tone",
       "type 3"
     ],
@@ -14750,6 +15072,7 @@
     "unicode_category": "Miscellaneous Symbols And Pictographs",
     "unicode_subcategory": "Emoji modifiers",
     "keywords": [
+      "medium skin tone",
       "skin tone",
       "type 4"
     ],
@@ -14766,6 +15089,7 @@
     "unicode_category": "Miscellaneous Symbols And Pictographs",
     "unicode_subcategory": "Emoji modifiers",
     "keywords": [
+      "medium-dark skin tone",
       "skin tone",
       "type 5"
     ],
@@ -14782,6 +15106,7 @@
     "unicode_category": "Miscellaneous Symbols And Pictographs",
     "unicode_subcategory": "Emoji modifiers",
     "keywords": [
+      "dark skin tone",
       "skin tone",
       "type 6"
     ],
@@ -14861,7 +15186,8 @@
       "cow",
       "nature",
       "ox",
-      "water"
+      "water",
+      "water buffalo"
     ],
     "emoji": "🐃",
     "image": "./emoji-img/water_buffalo.png",
@@ -14939,6 +15265,7 @@
       "magic",
       "nature",
       "pet",
+      "rabbit",
       "rabbit2",
       "spring"
     ],
@@ -14956,6 +15283,7 @@
     "unicode_subcategory": "Animal symbols",
     "keywords": [
       "animal",
+      "cat",
       "cat2",
       "cats",
       "meow",
@@ -15080,6 +15408,7 @@
       "animal",
       "equestrian",
       "gamble",
+      "horse",
       "luck",
       "racehorse",
       "racing"
@@ -15138,6 +15467,7 @@
     "unicode_subcategory": "Animal symbols",
     "keywords": [
       "animal",
+      "ewe",
       "female",
       "nature",
       "sheep",
@@ -15215,6 +15545,7 @@
     "unicode_subcategory": "Animal symbols",
     "keywords": [
       "animal",
+      "dog",
       "dog2",
       "doge",
       "faithful",
@@ -15237,6 +15568,7 @@
     "keywords": [
       "animal",
       "nature",
+      "pig",
       "pig2",
       "sow"
     ],
@@ -15316,7 +15648,8 @@
       "nature",
       "sea",
       "shell",
-      "spiral"
+      "spiral",
+      "spiral shell"
     ],
     "emoji": "🐚",
     "image": "./emoji-img/spiral_shell.png",
@@ -15394,6 +15727,7 @@
       "animal",
       "beetle",
       "insect",
+      "lady beetle",
       "ladybird",
       "ladybug",
       "nature"
@@ -15437,7 +15771,8 @@
       "nemo",
       "ocean",
       "swim",
-      "tropical"
+      "tropical",
+      "tropical fish"
     ],
     "emoji": "🐠",
     "image": "./emoji-img/tropical_fish.png",
@@ -15500,7 +15835,8 @@
       "chick",
       "chicken",
       "egg",
-      "hatching"
+      "hatching",
+      "hatching chick"
     ],
     "emoji": "🐣",
     "image": "./emoji-img/hatching_chick.png",
@@ -15517,6 +15853,7 @@
     "keywords": [
       "animal",
       "baby",
+      "baby chick",
       "bird",
       "chick",
       "chicken"
@@ -15539,6 +15876,7 @@
       "bird",
       "chick",
       "chicken",
+      "front-facing baby chick",
       "hatched"
     ],
     "emoji": "🐥",
@@ -15656,7 +15994,8 @@
       "desert",
       "hot",
       "hump",
-      "nature"
+      "nature",
+      "two-hump camel"
     ],
     "emoji": "🐫",
     "image": "./emoji-img/bactrian_camel.png",
@@ -15698,6 +16037,7 @@
       "cheese_wedge",
       "face",
       "mouse",
+      "mouse face",
       "nature",
       "rodent"
     ],
@@ -15717,6 +16057,7 @@
       "animal",
       "beef",
       "cow",
+      "cow face",
       "face",
       "milk",
       "moo",
@@ -15743,6 +16084,7 @@
       "nature",
       "roar",
       "tiger",
+      "tiger face",
       "wild"
     ],
     "emoji": "🐯",
@@ -15765,6 +16107,7 @@
       "nature",
       "pet",
       "rabbit",
+      "rabbit face",
       "spring"
     ],
     "emoji": "🐰",
@@ -15782,6 +16125,7 @@
     "keywords": [
       "animal",
       "cat",
+      "cat face",
       "face",
       "kitten",
       "meow",
@@ -15804,6 +16148,7 @@
       "animal",
       "chinese",
       "dragon",
+      "dragon face",
       "face",
       "fairy tale",
       "green",
@@ -15829,6 +16174,7 @@
       "ocean",
       "sea",
       "spouting",
+      "spouting whale",
       "whale"
     ],
     "emoji": "🐳",
@@ -15848,6 +16194,7 @@
       "brown",
       "face",
       "horse",
+      "horse face",
       "nature"
     ],
     "emoji": "🐴",
@@ -15867,6 +16214,7 @@
       "circus",
       "face",
       "monkey",
+      "monkey face",
       "nature"
     ],
     "emoji": "🐵",
@@ -15884,6 +16232,7 @@
     "keywords": [
       "animal",
       "dog",
+      "dog face",
       "face",
       "faithful",
       "friend",
@@ -15909,7 +16258,8 @@
       "face",
       "nature",
       "oink",
-      "pig"
+      "pig",
+      "pig face"
     ],
     "emoji": "🐷",
     "image": "./emoji-img/pig_face.png",
@@ -15928,6 +16278,7 @@
       "croak",
       "face",
       "frog",
+      "frog face",
       "nature",
       "toad"
     ],
@@ -15947,6 +16298,7 @@
       "animal",
       "face",
       "hamster",
+      "hamster face",
       "nature",
       "pet"
     ],
@@ -15967,7 +16319,8 @@
       "face",
       "nature",
       "wild",
-      "wolf"
+      "wolf",
+      "wolf face"
     ],
     "emoji": "🐺",
     "image": "./emoji-img/wolf_face.png",
@@ -15984,6 +16337,7 @@
     "keywords": [
       "animal",
       "bear",
+      "bear face",
       "face",
       "nature",
       "wild"
@@ -16004,7 +16358,8 @@
       "animal",
       "face",
       "nature",
-      "panda"
+      "panda",
+      "panda face"
     ],
     "emoji": "🐼",
     "image": "./emoji-img/panda_face.png",
@@ -16023,7 +16378,8 @@
       "face",
       "nose",
       "oink",
-      "pig"
+      "pig",
+      "pig nose"
     ],
     "emoji": "🐽",
     "image": "./emoji-img/pig_nose.png",
@@ -16044,6 +16400,7 @@
       "feet",
       "footprints",
       "paw",
+      "paw prints",
       "pet",
       "print",
       "prints",
@@ -16129,6 +16486,7 @@
     "unicode_subcategory": null,
     "keywords": [
       "eye",
+      "eye in speech bubble",
       "speech bubble",
       "witness"
     ],
@@ -16232,6 +16590,7 @@
     "keywords": [
       "2",
       "backhand",
+      "backhand index pointing up",
       "direction",
       "finger",
       "fingers",
@@ -16260,6 +16619,7 @@
     "unicode_subcategory": "Hand symbols",
     "keywords": [
       "backhand",
+      "backhand index pointing down",
       "direction",
       "down",
       "finger",
@@ -16288,6 +16648,7 @@
     "unicode_subcategory": "Hand symbols",
     "keywords": [
       "backhand",
+      "backhand index pointing left",
       "direction",
       "finger",
       "fingers",
@@ -16316,6 +16677,7 @@
     "unicode_subcategory": "Hand symbols",
     "keywords": [
       "backhand",
+      "backhand index pointing right",
       "direction",
       "finger",
       "fingers",
@@ -16350,6 +16712,7 @@
       "fist",
       "hand",
       "hit",
+      "oncoming fist",
       "punch",
       "violence"
     ],
@@ -16382,7 +16745,8 @@
       "palm",
       "solong",
       "wave",
-      "waving"
+      "waving",
+      "waving hand"
     ],
     "emoji": "👋",
     "image": "./emoji-img/waving_hand_sign.png",
@@ -16404,6 +16768,7 @@
     "unicode_subcategory": "Hand symbols",
     "keywords": [
       "OK",
+      "OK hand",
       "fingers",
       "hand",
       "limbs",
@@ -16439,6 +16804,7 @@
       "hand",
       "like",
       "thumb",
+      "thumbs up",
       "thumbsup",
       "up",
       "yes"
@@ -16468,6 +16834,7 @@
       "hand",
       "no",
       "thumb",
+      "thumbs down",
       "thumbsdown"
     ],
     "emoji": "👎",
@@ -16491,6 +16858,7 @@
     "keywords": [
       "applause",
       "clap",
+      "clapping hands",
       "congrats",
       "hand",
       "hands",
@@ -16520,7 +16888,8 @@
       "fingers",
       "hand",
       "hands",
-      "open"
+      "open",
+      "open hands"
     ],
     "emoji": "👐",
     "image": "./emoji-img/open_hands_sign.png",
@@ -16571,7 +16940,8 @@
       "lady",
       "spring",
       "woman",
-      "womans"
+      "womans",
+      "woman’s hat"
     ],
     "emoji": "👒",
     "image": "./emoji-img/womans_hat.png",
@@ -16595,6 +16965,7 @@
       "eyewear",
       "fashion",
       "geek",
+      "glasses",
       "nerdy"
     ],
     "emoji": "👓",
@@ -16637,6 +17008,7 @@
       "clothing",
       "fashion",
       "shirt",
+      "t-shirt",
       "tee",
       "tshirt"
     ],
@@ -16743,7 +17115,8 @@
       "female",
       "shopping_bags",
       "woman",
-      "womans"
+      "womans",
+      "woman’s clothes"
     ],
     "emoji": "👚",
     "image": "./emoji-img/womans_clothes.png",
@@ -16805,6 +17178,7 @@
       "accessories",
       "bag",
       "clothing",
+      "clutch bag",
       "pouch",
       "shopping"
     ],
@@ -16826,6 +17200,7 @@
       "male",
       "man",
       "mans",
+      "man’s shoe",
       "shoe"
     ],
     "emoji": "👞",
@@ -16843,6 +17218,7 @@
     "keywords": [
       "athletic",
       "clothing",
+      "running shoe",
       "shoe",
       "shoes",
       "sneaker",
@@ -16867,6 +17243,7 @@
       "female",
       "heel",
       "high",
+      "high-heeled shoe",
       "pumps",
       "shoe",
       "shoes",
@@ -16892,7 +17269,8 @@
       "sandal",
       "shoe",
       "shoes",
-      "woman"
+      "woman",
+      "woman’s sandal"
     ],
     "emoji": "👡",
     "image": "./emoji-img/womans_sandal.png",
@@ -16912,7 +17290,8 @@
       "fashion",
       "shoe",
       "shoes",
-      "woman"
+      "woman",
+      "woman’s boot"
     ],
     "emoji": "👢",
     "image": "./emoji-img/womans_boots.png",
@@ -16950,6 +17329,7 @@
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
       "bust",
+      "bust in silhouette",
       "human",
       "in",
       "person",
@@ -16971,6 +17351,7 @@
     "keywords": [
       "bust",
       "busts",
+      "busts in silhouette",
       "group",
       "human",
       "in",
@@ -17081,6 +17462,7 @@
       "healthcare",
       "human",
       "man",
+      "man health worker",
       "nurse",
       "therapist",
       "worker"
@@ -17112,6 +17494,7 @@
       "judge",
       "justice",
       "man",
+      "man judge",
       "scales"
     ],
     "emoji": "👨‍⚖️",
@@ -17139,6 +17522,7 @@
       "aviator",
       "human",
       "man",
+      "man pilot",
       "pilot",
       "plane"
     ],
@@ -17167,6 +17551,7 @@
       "gardener",
       "human",
       "man",
+      "man farmer",
       "rancher"
     ],
     "emoji": "👨‍🌾",
@@ -17193,7 +17578,8 @@
       "chef",
       "cook",
       "human",
-      "man"
+      "man",
+      "man cook"
     ],
     "emoji": "👨‍🍳",
     "image": "./emoji-img/man_cook.png",
@@ -17219,6 +17605,7 @@
       "graduate",
       "human",
       "man",
+      "man student",
       "student"
     ],
     "emoji": "👨‍🎓",
@@ -17246,6 +17633,7 @@
       "entertainer",
       "human",
       "man",
+      "man singer",
       "rock",
       "rockstar",
       "singer",
@@ -17275,6 +17663,7 @@
       "artist",
       "human",
       "man",
+      "man artist",
       "painter",
       "palette"
     ],
@@ -17302,6 +17691,7 @@
       "human",
       "instructor",
       "man",
+      "man teacher",
       "professor",
       "teacher"
     ],
@@ -17331,6 +17721,7 @@
       "human",
       "industrial",
       "man",
+      "man factory worker",
       "worker"
     ],
     "emoji": "👨‍🏭",
@@ -17362,6 +17753,7 @@
       "inventor",
       "laptop",
       "man",
+      "man technologist",
       "programmer",
       "software",
       "technologist"
@@ -17391,6 +17783,7 @@
       "business",
       "human",
       "man",
+      "man office worker",
       "manager",
       "office",
       "white-collar",
@@ -17420,6 +17813,7 @@
       "electrician",
       "human",
       "man",
+      "man mechanic",
       "mechanic",
       "plumber",
       "tradesperson",
@@ -17451,6 +17845,7 @@
       "engineer",
       "human",
       "man",
+      "man scientist",
       "mathematician",
       "physicist",
       "scientist"
@@ -17479,6 +17874,7 @@
       "astronaut",
       "human",
       "man",
+      "man astronaut",
       "rocket",
       "space"
     ],
@@ -17507,7 +17903,8 @@
       "fireman",
       "firetruck",
       "human",
-      "man"
+      "man",
+      "man firefighter"
     ],
     "emoji": "👨‍🚒",
     "image": "./emoji-img/man_firefighter.png",
@@ -17562,6 +17959,7 @@
       "nurse",
       "therapist",
       "woman",
+      "woman health worker",
       "worker"
     ],
     "emoji": "👩‍⚕️",
@@ -17591,7 +17989,8 @@
       "judge",
       "justice",
       "scales",
-      "woman"
+      "woman",
+      "woman judge"
     ],
     "emoji": "👩‍⚖️",
     "image": "./emoji-img/woman_judge.png",
@@ -17619,7 +18018,8 @@
       "human",
       "pilot",
       "plane",
-      "woman"
+      "woman",
+      "woman pilot"
     ],
     "emoji": "👩‍✈️",
     "image": "./emoji-img/woman_pilot.png",
@@ -17646,7 +18046,8 @@
       "gardener",
       "human",
       "rancher",
-      "woman"
+      "woman",
+      "woman farmer"
     ],
     "emoji": "👩‍🌾",
     "image": "./emoji-img/woman_farmer.png",
@@ -17672,7 +18073,8 @@
       "chef",
       "cook",
       "human",
-      "woman"
+      "woman",
+      "woman cook"
     ],
     "emoji": "👩‍🍳",
     "image": "./emoji-img/woman_cook.png",
@@ -17698,7 +18100,8 @@
       "graduate",
       "human",
       "student",
-      "woman"
+      "woman",
+      "woman student"
     ],
     "emoji": "👩‍🎓",
     "image": "./emoji-img/woman_student.png",
@@ -17728,7 +18131,8 @@
       "rockstar",
       "singer",
       "star",
-      "woman"
+      "woman",
+      "woman singer"
     ],
     "emoji": "👩‍🎤",
     "image": "./emoji-img/woman_singer.png",
@@ -17755,7 +18159,8 @@
       "human",
       "painter",
       "palette",
-      "woman"
+      "woman",
+      "woman artist"
     ],
     "emoji": "👩‍🎨",
     "image": "./emoji-img/woman_artist.png",
@@ -17782,7 +18187,8 @@
       "instructor",
       "professor",
       "teacher",
-      "woman"
+      "woman",
+      "woman teacher"
     ],
     "emoji": "👩‍🏫",
     "image": "./emoji-img/woman_teacher.png",
@@ -17810,6 +18216,7 @@
       "human",
       "industrial",
       "woman",
+      "woman factory worker",
       "worker"
     ],
     "emoji": "👩‍🏭",
@@ -17843,7 +18250,8 @@
       "programmer",
       "software",
       "technologist",
-      "woman"
+      "woman",
+      "woman technologist"
     ],
     "emoji": "👩‍💻",
     "image": "./emoji-img/woman_technologist.png",
@@ -17873,6 +18281,7 @@
       "office",
       "white-collar",
       "woman",
+      "woman office worker",
       "worker"
     ],
     "emoji": "👩‍💼",
@@ -17902,6 +18311,7 @@
       "plumber",
       "tradesperson",
       "woman",
+      "woman mechanic",
       "wrench"
     ],
     "emoji": "👩‍🔧",
@@ -17932,7 +18342,8 @@
       "mathematician",
       "physicist",
       "scientist",
-      "woman"
+      "woman",
+      "woman scientist"
     ],
     "emoji": "👩‍🔬",
     "image": "./emoji-img/woman_scientist.png",
@@ -17959,7 +18370,8 @@
       "human",
       "rocket",
       "space",
-      "woman"
+      "woman",
+      "woman astronaut"
     ],
     "emoji": "👩‍🚀",
     "image": "./emoji-img/woman_astronaut.png",
@@ -17986,7 +18398,8 @@
       "fireman",
       "firetruck",
       "human",
-      "woman"
+      "woman",
+      "woman firefighter"
     ],
     "emoji": "👩‍🚒",
     "image": "./emoji-img/woman_firefighter.png",
@@ -18691,6 +19104,7 @@
       "like",
       "love",
       "man",
+      "man and woman holding hands",
       "marriage",
       "pair",
       "people",
@@ -18727,6 +19141,7 @@
       "people",
       "twins",
       "two",
+      "two men holding hands",
       "zodiac"
     ],
     "emoji": "👬",
@@ -18755,6 +19170,7 @@
       "pair",
       "people",
       "two",
+      "two women holding hands",
       "woman",
       "women"
     ],
@@ -18780,6 +19196,7 @@
       "man",
       "officer",
       "police",
+      "police officer",
       "policeman"
     ],
     "emoji": "👮",
@@ -18793,7 +19210,7 @@
     ]
   },
   "1f46f": {
-    "name": "people with bunny ears partying",
+    "name": "people with bunny ears",
     "emojilib_name": "dancing_women",
     "codepoints": [
       128111
@@ -18808,6 +19225,7 @@
       "female",
       "girls",
       "partying",
+      "people with bunny ears",
       "women"
     ],
     "emoji": "👯",
@@ -18824,6 +19242,7 @@
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
       "bride",
+      "bride with veil",
       "couple",
       "marriage",
       "veil",
@@ -18851,6 +19270,7 @@
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
       "blond",
+      "blond-haired person",
       "blonde",
       "boy",
       "guy",
@@ -18884,6 +19304,7 @@
       "hat",
       "male",
       "man",
+      "man with Chinese cap",
       "mao",
       "pi",
       "with"
@@ -18912,6 +19333,7 @@
       "indian",
       "male",
       "man",
+      "person wearing turban",
       "turban",
       "with"
     ],
@@ -18940,6 +19362,7 @@
       "man",
       "men",
       "old",
+      "old man",
       "older",
       "senior"
     ],
@@ -18967,6 +19390,7 @@
       "human",
       "lady",
       "old",
+      "old woman",
       "older",
       "senior",
       "woman",
@@ -19019,6 +19443,7 @@
     "keywords": [
       "build",
       "construction",
+      "construction worker",
       "guy",
       "hat",
       "human",
@@ -19156,6 +19581,7 @@
     "keywords": [
       "angel",
       "baby",
+      "baby angel",
       "face",
       "fairy tale",
       "fantasy",
@@ -19209,6 +19635,7 @@
     "unicode_subcategory": "Fairy tale symbols",
     "keywords": [
       "alien",
+      "alien monster",
       "arcade",
       "creature",
       "extraterrestrial",
@@ -19236,6 +19663,7 @@
     "unicode_subcategory": "Fairy tale symbols",
     "keywords": [
       "angry",
+      "angry face with horns",
       "demon",
       "devil",
       "face",
@@ -19285,6 +19713,7 @@
       "help",
       "human",
       "information",
+      "person tipping hand",
       "sassy",
       "tipping",
       "woman"
@@ -19341,7 +19770,8 @@
       "female",
       "fun",
       "girl",
-      "woman"
+      "woman",
+      "woman dancing"
     ],
     "emoji": "💃",
     "image": "./emoji-img/dancer.png",
@@ -19390,6 +19820,7 @@
       "finger",
       "manicure",
       "nail",
+      "nail polish",
       "polish"
     ],
     "emoji": "💅",
@@ -19416,6 +19847,7 @@
       "girl",
       "head",
       "massage",
+      "person getting massage",
       "salon",
       "woman"
     ],
@@ -19444,6 +19876,7 @@
       "girl",
       "haircut",
       "parlor",
+      "person getting haircut",
       "woman"
     ],
     "emoji": "💇",
@@ -19466,6 +19899,7 @@
     "unicode_subcategory": "Personal care symbols",
     "keywords": [
       "barber",
+      "barber pole",
       "hair",
       "haircut",
       "pole",
@@ -19535,6 +19969,7 @@
       "affection",
       "face",
       "kiss",
+      "kiss mark",
       "like",
       "lips",
       "love",
@@ -19560,6 +19995,7 @@
       "letter",
       "like",
       "love",
+      "love letter",
       "mail",
       "valentines"
     ],
@@ -19603,6 +20039,7 @@
       "blue",
       "diamond",
       "gem",
+      "gem stone",
       "jewel",
       "jewelry",
       "ruby"
@@ -19659,6 +20096,7 @@
       "couple",
       "couplekiss",
       "dating",
+      "kiss",
       "like",
       "love",
       "man",
@@ -19766,6 +20204,7 @@
     "keywords": [
       "affection",
       "couple",
+      "couple with heart",
       "dating",
       "heart",
       "human",
@@ -19848,6 +20287,7 @@
     "keywords": [
       "affection",
       "beating",
+      "beating heart",
       "heart",
       "heartbeat",
       "like",
@@ -19871,6 +20311,7 @@
     "keywords": [
       "break",
       "broken",
+      "broken heart",
       "heart",
       "heartbreak",
       "sad",
@@ -19895,6 +20336,7 @@
       "like",
       "love",
       "two",
+      "two hearts",
       "valentines"
     ],
     "emoji": "💕",
@@ -19917,6 +20359,7 @@
       "love",
       "sparkle",
       "sparkling",
+      "sparkling heart",
       "valentines"
     ],
     "emoji": "💖",
@@ -19935,6 +20378,7 @@
       "affection",
       "excited",
       "growing",
+      "growing heart",
       "heartpulse",
       "like",
       "love",
@@ -19960,6 +20404,7 @@
       "arrow",
       "cupid",
       "heart",
+      "heart with arrow",
       "like",
       "love",
       "valentines"
@@ -19979,6 +20424,7 @@
     "keywords": [
       "affection",
       "blue",
+      "blue heart",
       "heart",
       "like",
       "love",
@@ -19999,6 +20445,7 @@
     "keywords": [
       "affection",
       "green",
+      "green heart",
       "heart",
       "like",
       "love",
@@ -20022,7 +20469,8 @@
       "like",
       "love",
       "valentines",
-      "yellow"
+      "yellow",
+      "yellow heart"
     ],
     "emoji": "💛",
     "image": "./emoji-img/yellow_heart.png",
@@ -20042,6 +20490,7 @@
       "like",
       "love",
       "purple",
+      "purple heart",
       "valentines"
     ],
     "emoji": "💜",
@@ -20059,6 +20508,7 @@
     "keywords": [
       "gift",
       "heart",
+      "heart with ribbon",
       "love",
       "ribbon",
       "valentine",
@@ -20082,6 +20532,7 @@
       "like",
       "love",
       "revolving",
+      "revolving hearts",
       "valentines"
     ],
     "emoji": "💞",
@@ -20099,6 +20550,7 @@
     "keywords": [
       "decoration",
       "heart",
+      "heart decoration",
       "like",
       "love",
       "purple-square"
@@ -20121,6 +20573,7 @@
       "comic",
       "crystal",
       "diamond",
+      "diamond with a dot",
       "dot",
       "fancy",
       "gem",
@@ -20148,7 +20601,8 @@
       "electric",
       "electricity",
       "idea",
-      "light"
+      "light",
+      "light bulb"
     ],
     "emoji": "💡",
     "image": "./emoji-img/electric_light_bulb.png",
@@ -20164,6 +20618,7 @@
     "unicode_subcategory": "Comic style symbols",
     "keywords": [
       "anger",
+      "anger symbol",
       "angry",
       "comic",
       "mad"
@@ -20248,6 +20703,7 @@
       "oops",
       "splashing",
       "sweat",
+      "sweat droplets",
       "water"
     ],
     "emoji": "💦",
@@ -20289,6 +20745,7 @@
       "air",
       "comic",
       "dash",
+      "dashing away",
       "fart",
       "fast",
       "puff",
@@ -20316,6 +20773,7 @@
       "fail",
       "hankey",
       "monster",
+      "pile of poo",
       "poo",
       "poop",
       "shit",
@@ -20339,6 +20797,7 @@
       "biceps",
       "comic",
       "flex",
+      "flexed biceps",
       "hand",
       "muscle",
       "strong",
@@ -20390,6 +20849,7 @@
       "dialog",
       "message",
       "speech",
+      "speech balloon",
       "talk",
       "words"
     ],
@@ -20413,7 +20873,8 @@
       "dream",
       "speech",
       "thinking",
-      "thought"
+      "thought",
+      "thought balloon"
     ],
     "emoji": "💭",
     "image": "./emoji-img/thought_balloon.png",
@@ -20431,7 +20892,8 @@
       "flower",
       "japanese",
       "spring",
-      "white"
+      "white",
+      "white flower"
     ],
     "emoji": "💮",
     "image": "./emoji-img/white_flower.png",
@@ -20451,6 +20913,7 @@
       "exam",
       "full",
       "hundred",
+      "hundred points",
       "numbers",
       "pass",
       "perfect",
@@ -20475,6 +20938,7 @@
       "coins",
       "dollar",
       "money",
+      "money bag",
       "moneybag",
       "payment",
       "sale"
@@ -20494,6 +20958,7 @@
     "keywords": [
       "bank",
       "currency",
+      "currency exchange",
       "dollar",
       "exchange",
       "money",
@@ -20517,6 +20982,7 @@
       "currency",
       "dollar",
       "heavy",
+      "heavy dollar sign",
       "money",
       "payment",
       "sales",
@@ -20539,6 +21005,7 @@
       "bill",
       "card",
       "credit",
+      "credit card",
       "dollar",
       "money",
       "payment",
@@ -20567,7 +21034,8 @@
       "money",
       "note",
       "sales",
-      "yen"
+      "yen",
+      "yen banknote"
     ],
     "emoji": "💴",
     "image": "./emoji-img/banknote_with_yen_sign.png",
@@ -20587,6 +21055,7 @@
       "bill",
       "currency",
       "dollar",
+      "dollar banknote",
       "money",
       "note",
       "sales"
@@ -20610,6 +21079,7 @@
       "currency",
       "dollar",
       "euro",
+      "euro banknote",
       "money",
       "note",
       "sales"
@@ -20637,6 +21107,7 @@
       "money",
       "note",
       "pound",
+      "pound banknote",
       "sales",
       "sterling",
       "uk"
@@ -20661,6 +21132,7 @@
       "dollar",
       "fly",
       "money",
+      "money with wings",
       "note",
       "payment",
       "sale",
@@ -20682,6 +21154,7 @@
     "keywords": [
       "bank",
       "chart",
+      "chart increasing with yen",
       "currency",
       "graph",
       "green-square",
@@ -20733,6 +21206,7 @@
       "computer",
       "display",
       "laptop",
+      "laptop computer",
       "monitor",
       "pc",
       "personal",
@@ -20776,6 +21250,7 @@
     "keywords": [
       "90s",
       "computer",
+      "computer disk",
       "data",
       "disk",
       "minidisc",
@@ -20802,6 +21277,7 @@
       "computer",
       "disk",
       "floppy",
+      "floppy disk",
       "oldschool",
       "save",
       "technology"
@@ -20826,6 +21302,7 @@
       "disk",
       "dvd",
       "optical",
+      "optical disk",
       "technology"
     ],
     "emoji": "💿",
@@ -20865,6 +21342,7 @@
       "business",
       "documents",
       "file",
+      "file folder",
       "folder",
       "office"
     ],
@@ -20885,7 +21363,8 @@
       "file",
       "folder",
       "load",
-      "open"
+      "open",
+      "open file folder"
     ],
     "emoji": "📂",
     "image": "./emoji-img/open_file_folder.png",
@@ -20905,6 +21384,7 @@
       "documents",
       "office",
       "page",
+      "page with curl",
       "paper",
       "with"
     ],
@@ -20927,6 +21407,7 @@
       "information",
       "office",
       "page",
+      "page facing up",
       "paper",
       "up"
     ],
@@ -20963,7 +21444,8 @@
       "calendar",
       "date",
       "planning",
-      "schedule"
+      "schedule",
+      "tear-off calendar"
     ],
     "emoji": "📆",
     "image": "./emoji-img/tear-off_calendar.png",
@@ -20980,6 +21462,7 @@
     "keywords": [
       "business",
       "card",
+      "card index",
       "index",
       "rolodex",
       "stationery"
@@ -20999,6 +21482,7 @@
     "keywords": [
       "business",
       "chart",
+      "chart increasing",
       "economics",
       "good",
       "graph",
@@ -21030,6 +21514,7 @@
       "bad",
       "business",
       "chart",
+      "chart decreasing",
       "down",
       "downwards",
       "economics",
@@ -21057,6 +21542,7 @@
     "unicode_subcategory": "Office symbols",
     "keywords": [
       "bar",
+      "bar chart",
       "chart",
       "graph",
       "presentation",
@@ -21117,6 +21603,7 @@
       "pin",
       "pushpin",
       "round",
+      "round pushpin",
       "stationery"
     ],
     "emoji": "📍",
@@ -21159,7 +21646,8 @@
       "sketch",
       "stationery",
       "straight",
-      "straight edge"
+      "straight edge",
+      "straight ruler"
     ],
     "emoji": "📏",
     "image": "./emoji-img/straight_ruler.png",
@@ -21181,7 +21669,8 @@
       "sketch",
       "stationery",
       "triangle",
-      "triangular"
+      "triangular",
+      "triangular ruler"
     ],
     "emoji": "📐",
     "image": "./emoji-img/triangular_ruler.png",
@@ -21197,6 +21686,7 @@
     "unicode_subcategory": "Office symbols",
     "keywords": [
       "bookmark",
+      "bookmark tabs",
       "favorite",
       "mark",
       "marker",
@@ -21262,6 +21752,7 @@
       "decorated",
       "decorative",
       "notebook",
+      "notebook with decorative cover",
       "notes",
       "paper",
       "record",
@@ -21283,6 +21774,7 @@
     "keywords": [
       "book",
       "closed",
+      "closed book",
       "knowledge",
       "learn",
       "library",
@@ -21308,6 +21800,7 @@
       "library",
       "literature",
       "open",
+      "open book",
       "read",
       "study"
     ],
@@ -21326,6 +21819,7 @@
     "keywords": [
       "book",
       "green",
+      "green book",
       "knowledge",
       "library",
       "read",
@@ -21345,6 +21839,7 @@
     "unicode_subcategory": "Office symbols",
     "keywords": [
       "blue",
+      "blue book",
       "book",
       "knowledge",
       "learn",
@@ -21369,6 +21864,7 @@
       "knowledge",
       "library",
       "orange",
+      "orange book",
       "read",
       "study",
       "textbook"
@@ -21408,7 +21904,8 @@
       "badge",
       "fire",
       "forbid",
-      "name"
+      "name",
+      "name badge"
     ],
     "emoji": "📛",
     "image": "./emoji-img/name_badge.png",
@@ -21474,7 +21971,8 @@
       "phone",
       "receiver",
       "technology",
-      "telephone"
+      "telephone",
+      "telephone receiver"
     ],
     "emoji": "📞",
     "image": "./emoji-img/telephone_receiver.png",
@@ -21509,6 +22007,7 @@
     "keywords": [
       "communication",
       "fax",
+      "fax machine",
       "technology"
     ],
     "emoji": "📠",
@@ -21530,6 +22029,7 @@
       "future",
       "radio",
       "satellite",
+      "satellite antenna",
       "space"
     ],
     "emoji": "📡",
@@ -21566,6 +22066,7 @@
     "keywords": [
       "cheering",
       "mega",
+      "megaphone",
       "sound",
       "speaker",
       "volume"
@@ -21589,6 +22090,7 @@
       "letter",
       "mail",
       "outbox",
+      "outbox tray",
       "sent",
       "tray"
     ],
@@ -21609,6 +22111,7 @@
       "documents",
       "email",
       "inbox",
+      "inbox tray",
       "letter",
       "mail",
       "receive",
@@ -21673,6 +22176,7 @@
       "envelope",
       "inbox",
       "incoming",
+      "incoming envelope",
       "letter",
       "mail",
       "receive"
@@ -21696,6 +22200,7 @@
       "e-mail",
       "email",
       "envelope",
+      "envelope with arrow",
       "letter",
       "mail",
       "outgoing",
@@ -21716,6 +22221,7 @@
     "unicode_subcategory": "Communication symbols",
     "keywords": [
       "closed",
+      "closed mailbox with lowered flag",
       "communication",
       "email",
       "inbox",
@@ -21738,6 +22244,7 @@
     "unicode_subcategory": "Communication symbols",
     "keywords": [
       "closed",
+      "closed mailbox with raised flag",
       "communication",
       "email",
       "inbox",
@@ -21764,6 +22271,7 @@
       "mail",
       "mailbox",
       "open",
+      "open mailbox with raised flag",
       "postbox",
       "with"
     ],
@@ -21787,6 +22295,7 @@
       "mailbox",
       "no",
       "open",
+      "open mailbox with lowered flag",
       "postbox",
       "with"
     ],
@@ -21827,7 +22336,8 @@
       "instrument",
       "music",
       "post",
-      "postal"
+      "postal",
+      "postal horn"
     ],
     "emoji": "📯",
     "image": "./emoji-img/postal_horn.png",
@@ -21867,6 +22377,7 @@
       "gadgets",
       "iphone",
       "mobile",
+      "mobile phone",
       "phone",
       "technology",
       "telephone"
@@ -21891,6 +22402,7 @@
       "incoming",
       "iphone",
       "mobile",
+      "mobile phone with arrow",
       "phone",
       "receive",
       "telephone"
@@ -21914,7 +22426,8 @@
       "orange-square",
       "phone",
       "telephone",
-      "vibration"
+      "vibration",
+      "vibration mode"
     ],
     "emoji": "📳",
     "image": "./emoji-img/vibration_mode.png",
@@ -21931,6 +22444,7 @@
     "keywords": [
       "cell",
       "mobile",
+      "mobile phone off",
       "mute",
       "off",
       "orange-square",
@@ -21959,6 +22473,7 @@
       "mobile",
       "mute",
       "no",
+      "no mobile phones",
       "not",
       "phone",
       "phones",
@@ -21979,6 +22494,7 @@
     "unicode_subcategory": "Communication symbols",
     "keywords": [
       "antenna",
+      "antenna bars",
       "bar",
       "bars",
       "blue-square",
@@ -22026,6 +22542,7 @@
     "unicode_subcategory": "Audio and video symbols",
     "keywords": [
       "camera",
+      "camera with flash",
       "flash",
       "gadgets",
       "photography",
@@ -22047,7 +22564,8 @@
       "camera",
       "film",
       "record",
-      "video"
+      "video",
+      "video camera"
     ],
     "emoji": "📹",
     "image": "./emoji-img/video_camera.png",
@@ -22109,7 +22627,8 @@
       "record",
       "tape",
       "vhs",
-      "video"
+      "video",
+      "videocassette"
     ],
     "emoji": "📼",
     "image": "./emoji-img/videocassette.png",
@@ -22126,6 +22645,7 @@
     "keywords": [
       "cinema",
       "film",
+      "film projector",
       "movie",
       "projector",
       "record",
@@ -22150,6 +22670,7 @@
       "dhikr",
       "necklace",
       "prayer",
+      "prayer beads",
       "religion",
       "religious"
     ],
@@ -22174,6 +22695,7 @@
       "random",
       "rightwards",
       "shuffle",
+      "shuffle tracks button",
       "twisted"
     ],
     "emoji": "🔀",
@@ -22193,7 +22715,8 @@
       "clockwise",
       "loop",
       "record",
-      "repeat"
+      "repeat",
+      "repeat button"
     ],
     "emoji": "🔁",
     "image": "./emoji-img/clockwise_rightwards_and_leftwards_open_circle_arrows.png",
@@ -22214,7 +22737,8 @@
       "loop",
       "once",
       "one",
-      "repeat"
+      "repeat",
+      "repeat single button"
     ],
     "emoji": "🔂",
     "image": "./emoji-img/clockwise_rightwards_and_leftwards_open_circle_arrows_with_circled_one_overlay.png",
@@ -22232,6 +22756,7 @@
       "arrow",
       "arrows",
       "clockwise",
+      "clockwise vertical arrows",
       "cycle",
       "reload",
       "repeat",
@@ -22243,7 +22768,7 @@
     "fitz": false
   },
   "1f504": {
-    "name": "anticlockwise arrows button",
+    "name": "counterclockwise arrows button",
     "emojilib_name": "arrows_counterclockwise",
     "codepoints": [
       128260
@@ -22256,6 +22781,7 @@
       "arrows",
       "blue-square",
       "counterclockwise",
+      "counterclockwise arrows button",
       "cycle",
       "sync",
       "withershins"
@@ -22276,6 +22802,7 @@
       "afternoon",
       "brightness",
       "dim",
+      "dim button",
       "low",
       "summer",
       "sun",
@@ -22295,6 +22822,7 @@
     "unicode_subcategory": "User interface symbols",
     "keywords": [
       "bright",
+      "bright button",
       "brightness",
       "high",
       "light",
@@ -22314,6 +22842,7 @@
     "unicode_subcategory": "User interface symbols",
     "keywords": [
       "mute",
+      "muted speaker",
       "quiet",
       "silence",
       "silent",
@@ -22339,6 +22868,7 @@
       "soft",
       "sound",
       "speaker",
+      "speaker low volume",
       "volume"
     ],
     "emoji": "🔈",
@@ -22358,6 +22888,7 @@
       "medium",
       "sound",
       "speaker",
+      "speaker medium volume",
       "volume"
     ],
     "emoji": "🔉",
@@ -22379,6 +22910,7 @@
       "noisy",
       "sound",
       "speaker",
+      "speaker high volume",
       "volume"
     ],
     "emoji": "🔊",
@@ -22414,6 +22946,7 @@
     "keywords": [
       "charger",
       "electric",
+      "electric plug",
       "electricity",
       "plug",
       "power"
@@ -22423,7 +22956,7 @@
     "fitz": false
   },
   "1f50d": {
-    "name": "left-pointing magnifying glass",
+    "name": "magnifying glass tilted left",
     "emojilib_name": "mag",
     "codepoints": [
       128269
@@ -22436,6 +22969,7 @@
       "glass",
       "mag",
       "magnifying",
+      "magnifying glass tilted left",
       "search",
       "tool",
       "zoom"
@@ -22445,7 +22979,7 @@
     "fitz": false
   },
   "1f50e": {
-    "name": "right-pointing magnifying glass",
+    "name": "magnifying glass tilted right",
     "emojilib_name": "mag_right",
     "codepoints": [
       128270
@@ -22458,6 +22992,7 @@
       "glass",
       "mag",
       "magnifying",
+      "magnifying glass tilted right",
       "right",
       "search",
       "tool",
@@ -22478,6 +23013,7 @@
     "keywords": [
       "ink",
       "lock",
+      "locked with pen",
       "nib",
       "pen",
       "privacy",
@@ -22501,6 +23037,7 @@
       "closed",
       "key",
       "lock",
+      "locked with key",
       "privacy",
       "secure",
       "security",
@@ -22539,6 +23076,7 @@
     "keywords": [
       "closed",
       "lock",
+      "locked",
       "padlock",
       "password",
       "security"
@@ -22560,7 +23098,8 @@
       "open",
       "privacy",
       "security",
-      "unlock"
+      "unlock",
+      "unlocked"
     ],
     "emoji": "🔓",
     "image": "./emoji-img/open_lock.png",
@@ -22596,6 +23135,7 @@
     "unicode_subcategory": "User interface symbols",
     "keywords": [
       "bell",
+      "bell with slash",
       "forbidden",
       "mute",
       "no",
@@ -22661,7 +23201,8 @@
       "input",
       "music",
       "old",
-      "radio"
+      "radio",
+      "radio button"
     ],
     "emoji": "🔘",
     "image": "./emoji-img/radio_button.png",
@@ -22676,6 +23217,7 @@
     "unicode_category": "Miscellaneous Symbols And Pictographs",
     "unicode_subcategory": "Words with arrows",
     "keywords": [
+      "BACK arrow",
       "arrow",
       "back",
       "return",
@@ -22694,6 +23236,7 @@
     "unicode_category": "Miscellaneous Symbols And Pictographs",
     "unicode_subcategory": "Words with arrows",
     "keywords": [
+      "END arrow",
       "arrow",
       "end",
       "words"
@@ -22711,6 +23254,7 @@
     "unicode_category": "Miscellaneous Symbols And Pictographs",
     "unicode_subcategory": "Words with arrows",
     "keywords": [
+      "ON! arrow",
       "arrow",
       "mark",
       "on",
@@ -22729,6 +23273,7 @@
     "unicode_category": "Miscellaneous Symbols And Pictographs",
     "unicode_subcategory": "Words with arrows",
     "keywords": [
+      "SOON arrow",
       "arrow",
       "soon",
       "words"
@@ -22746,6 +23291,7 @@
     "unicode_category": "Miscellaneous Symbols And Pictographs",
     "unicode_subcategory": "Words with arrows",
     "keywords": [
+      "TOP arrow",
       "arrow",
       "blue-square",
       "top",
@@ -22774,6 +23320,7 @@
       "minor",
       "night",
       "no",
+      "no one under eighteen",
       "not",
       "prohibited",
       "pub",
@@ -22784,7 +23331,7 @@
     "fitz": false
   },
   "1f51f": {
-    "name": "keycap 10",
+    "name": "KEYCAP TEN",
     "emojilib_name": "keycap_ten",
     "codepoints": [
       128287
@@ -22795,7 +23342,6 @@
       "10",
       "blue-square",
       "keycap",
-      "keycap 10",
       "numbers",
       "ten"
     ],
@@ -22818,6 +23364,7 @@
       "blue-square",
       "capital",
       "input",
+      "input latin uppercase",
       "latin",
       "letters",
       "uppercase",
@@ -22840,6 +23387,7 @@
       "alphabet",
       "blue-square",
       "input",
+      "input latin lowercase",
       "latin",
       "letters",
       "lowercase"
@@ -22860,6 +23408,7 @@
       "1234",
       "blue-square",
       "input",
+      "input numbers",
       "numbers"
     ],
     "emoji": "🔢",
@@ -22880,6 +23429,7 @@
       "characters",
       "glyphs",
       "input",
+      "input symbols",
       "music",
       "note",
       "percent",
@@ -22903,6 +23453,7 @@
       "alphabet",
       "blue-square",
       "input",
+      "input latin letters",
       "latin",
       "letters"
     ],
@@ -23007,6 +23558,7 @@
       "fix",
       "handy",
       "nut",
+      "nut and bolt",
       "tool",
       "tools"
     ],
@@ -23028,6 +23580,7 @@
       "cutlery",
       "hocho",
       "kitchen",
+      "kitchen knife",
       "knife",
       "tool",
       "weapon"
@@ -23111,6 +23664,7 @@
       "ball",
       "circus",
       "crystal",
+      "crystal ball",
       "disco",
       "fairy tale",
       "fantasy",
@@ -23133,6 +23687,7 @@
     "unicode_category": "Miscellaneous Symbols And Pictographs",
     "unicode_subcategory": "Miscellaneous mark",
     "keywords": [
+      "dotted six-pointed star",
       "fortune",
       "hexagram",
       "jewish",
@@ -23156,6 +23711,7 @@
     "unicode_subcategory": "Miscellaneous mark",
     "keywords": [
       "Japanese",
+      "Japanese symbol for beginner",
       "badge",
       "beginner",
       "chevron",
@@ -23184,6 +23740,7 @@
       "spear",
       "tool",
       "trident",
+      "trident emblem",
       "weapon"
     ],
     "emoji": "🔱",
@@ -23200,6 +23757,7 @@
     "unicode_subcategory": "Geometric shapes",
     "keywords": [
       "black",
+      "black square button",
       "button",
       "frame",
       "geometric",
@@ -23226,7 +23784,8 @@
       "outlined",
       "shape",
       "square",
-      "white"
+      "white",
+      "white square button"
     ],
     "emoji": "🔳",
     "image": "./emoji-img/white_square_button.png",
@@ -23246,6 +23805,7 @@
       "error",
       "geometric",
       "red",
+      "red circle",
       "shape"
     ],
     "emoji": "🔴",
@@ -23262,6 +23822,7 @@
     "unicode_subcategory": "Geometric shapes",
     "keywords": [
       "blue",
+      "blue circle",
       "button",
       "circle",
       "geometric",
@@ -23287,6 +23848,7 @@
       "geometric",
       "jewel",
       "large",
+      "large orange diamond",
       "orange",
       "shape"
     ],
@@ -23309,6 +23871,7 @@
       "geometric",
       "jewel",
       "large",
+      "large blue diamond",
       "shape"
     ],
     "emoji": "🔷",
@@ -23330,7 +23893,8 @@
       "jewel",
       "orange",
       "shape",
-      "small"
+      "small",
+      "small orange diamond"
     ],
     "emoji": "🔸",
     "image": "./emoji-img/small_orange_diamond.png",
@@ -23351,7 +23915,8 @@
       "geometric",
       "jewel",
       "shape",
-      "small"
+      "small",
+      "small blue diamond"
     ],
     "emoji": "🔹",
     "image": "./emoji-img/small_blue_diamond.png",
@@ -23369,6 +23934,7 @@
       "direction",
       "geometric",
       "red",
+      "red triangle pointed up",
       "shape",
       "small",
       "top",
@@ -23393,6 +23959,7 @@
       "down",
       "geometric",
       "red",
+      "red triangle pointed down",
       "shape",
       "small",
       "triangle"
@@ -23402,7 +23969,7 @@
     "fitz": false
   },
   "1f53c": {
-    "name": "up button",
+    "name": "upwards button",
     "emojilib_name": "arrow_up_small",
     "codepoints": [
       128316
@@ -23420,14 +23987,15 @@
       "small",
       "top",
       "triangle",
-      "up"
+      "up",
+      "upwards button"
     ],
     "emoji": "🔼",
     "image": "./emoji-img/up-pointing_small_red_triangle.png",
     "fitz": false
   },
   "1f53d": {
-    "name": "down button",
+    "name": "downwards button",
     "emojilib_name": "arrow_down_small",
     "codepoints": [
       128317
@@ -23441,6 +24009,7 @@
       "button",
       "direction",
       "down",
+      "downwards button",
       "red",
       "small"
     ],
@@ -23588,6 +24157,7 @@
       "early",
       "late",
       "one",
+      "one o’clock",
       "o’clock",
       "schedule",
       "time"
@@ -23615,7 +24185,8 @@
       "o’clock",
       "schedule",
       "time",
-      "two"
+      "two",
+      "two o’clock"
     ],
     "emoji": "🕑",
     "image": "./emoji-img/clock_face_two_oclock.png",
@@ -23640,6 +24211,7 @@
       "o’clock",
       "schedule",
       "three",
+      "three o’clock",
       "time"
     ],
     "emoji": "🕒",
@@ -23662,6 +24234,7 @@
       "clock4",
       "early",
       "four",
+      "four o’clock",
       "late",
       "o’clock",
       "schedule",
@@ -23687,6 +24260,7 @@
       "clock5",
       "early",
       "five",
+      "five o’clock",
       "late",
       "o’clock",
       "schedule",
@@ -23717,6 +24291,7 @@
       "o’clock",
       "schedule",
       "six",
+      "six o’clock",
       "time"
     ],
     "emoji": "🕕",
@@ -23742,6 +24317,7 @@
       "o’clock",
       "schedule",
       "seven",
+      "seven o’clock",
       "time"
     ],
     "emoji": "🕖",
@@ -23764,6 +24340,7 @@
       "clock8",
       "early",
       "eight",
+      "eight o’clock",
       "late",
       "o’clock",
       "schedule",
@@ -23790,6 +24367,7 @@
       "early",
       "late",
       "nine",
+      "nine o’clock",
       "o’clock",
       "schedule",
       "time"
@@ -23817,6 +24395,7 @@
       "o’clock",
       "schedule",
       "ten",
+      "ten o’clock",
       "time"
     ],
     "emoji": "🕙",
@@ -23839,6 +24418,7 @@
       "clock11",
       "early",
       "eleven",
+      "eleven o’clock",
       "late",
       "o’clock",
       "schedule",
@@ -23870,7 +24450,8 @@
       "o’clock",
       "schedule",
       "time",
-      "twelve"
+      "twelve",
+      "twelve o’clock"
     ],
     "emoji": "🕛",
     "image": "./emoji-img/clock_face_twelve_oclock.png",
@@ -23893,6 +24474,7 @@
       "early",
       "late",
       "one",
+      "one-thirty",
       "schedule",
       "thirty",
       "time"
@@ -23920,7 +24502,8 @@
       "schedule",
       "thirty",
       "time",
-      "two"
+      "two",
+      "two-thirty"
     ],
     "emoji": "🕝",
     "image": "./emoji-img/clock_face_two-thirty.png",
@@ -23945,6 +24528,7 @@
       "schedule",
       "thirty",
       "three",
+      "three-thirty",
       "time"
     ],
     "emoji": "🕞",
@@ -23967,6 +24551,7 @@
       "clock430",
       "early",
       "four",
+      "four-thirty",
       "late",
       "schedule",
       "thirty",
@@ -23992,6 +24577,7 @@
       "clock530",
       "early",
       "five",
+      "five-thirty",
       "late",
       "schedule",
       "thirty",
@@ -24019,6 +24605,7 @@
       "late",
       "schedule",
       "six",
+      "six-thirty",
       "thirty",
       "time"
     ],
@@ -24044,6 +24631,7 @@
       "late",
       "schedule",
       "seven",
+      "seven-thirty",
       "thirty",
       "time"
     ],
@@ -24067,6 +24655,7 @@
       "clock830",
       "early",
       "eight",
+      "eight-thirty",
       "late",
       "schedule",
       "thirty",
@@ -24093,6 +24682,7 @@
       "early",
       "late",
       "nine",
+      "nine-thirty",
       "schedule",
       "thirty",
       "time"
@@ -24119,6 +24709,7 @@
       "late",
       "schedule",
       "ten",
+      "ten-thirty",
       "thirty",
       "time"
     ],
@@ -24142,6 +24733,7 @@
       "clock1130",
       "early",
       "eleven",
+      "eleven-thirty",
       "late",
       "schedule",
       "thirty",
@@ -24170,7 +24762,8 @@
       "schedule",
       "thirty",
       "time",
-      "twelve"
+      "twelve",
+      "twelve-thirty"
     ],
     "emoji": "🕧",
     "image": "./emoji-img/clock_face_twelve-thirty.png",
@@ -24205,6 +24798,7 @@
     "keywords": [
       "clock",
       "mantelpiece",
+      "mantelpiece clock",
       "time"
     ],
     "emoji": "🕰",
@@ -24228,7 +24822,7 @@
     "fitz": false
   },
   "1f574": {
-    "name": "man in business suit levitating",
+    "name": "man in suit levitating",
     "emojilib_name": "business_suit_levitating",
     "codepoints": [
       128372
@@ -24242,6 +24836,7 @@
       "levitate",
       "levitating",
       "man",
+      "man in suit levitating",
       "suit"
     ],
     "emoji": "🕴",
@@ -24333,6 +24928,7 @@
       "insect",
       "silk",
       "spider",
+      "spider web",
       "web"
     ],
     "emoji": "🕸",
@@ -24372,7 +24968,8 @@
       "dancing",
       "fun",
       "male",
-      "man"
+      "man",
+      "man dancing"
     ],
     "emoji": "🕺",
     "image": "./emoji-img/man_dancing.png",
@@ -24395,6 +24992,7 @@
     "keywords": [
       "documents",
       "link",
+      "linked paperclips",
       "paperclip",
       "paperclips",
       "stationery"
@@ -24432,6 +25030,7 @@
     "unicode_subcategory": "Communication symbols",
     "keywords": [
       "fountain",
+      "fountain pen",
       "pen",
       "stationery",
       "write",
@@ -24478,7 +25077,7 @@
     "fitz": false
   },
   "1f590": {
-    "name": "raised hand with fingers splayed",
+    "name": "hand with fingers splayed",
     "emojilib_name": "raised_hand_with_fingers_splayed",
     "codepoints": [
       128400
@@ -24489,6 +25088,7 @@
       "finger",
       "fingers",
       "hand",
+      "hand with fingers splayed",
       "palm",
       "raised",
       "splayed",
@@ -24519,6 +25119,7 @@
       "fu",
       "hand",
       "middle",
+      "middle finger",
       "rude"
     ],
     "emoji": "🖕",
@@ -24546,7 +25147,8 @@
       "salute",
       "spock",
       "star trek",
-      "vulcan"
+      "vulcan",
+      "vulcan salute"
     ],
     "emoji": "🖖",
     "image": "./emoji-img/raised_hand_with_part_between_middle_and_ring_fingers.png",
@@ -24568,6 +25170,7 @@
     "unicode_subcategory": "Heart symbol",
     "keywords": [
       "black",
+      "black heart",
       "evil",
       "heart",
       "wicked"
@@ -24588,6 +25191,7 @@
       "computer",
       "computing",
       "desktop",
+      "desktop computer",
       "screen",
       "technology"
     ],
@@ -24624,6 +25228,7 @@
     "keywords": [
       "click",
       "computer",
+      "computer mouse",
       "mouse"
     ],
     "emoji": "🖱",
@@ -24660,6 +25265,7 @@
       "art",
       "frame",
       "framed",
+      "framed picture",
       "museum",
       "painting",
       "photography",
@@ -24680,6 +25286,7 @@
     "keywords": [
       "business",
       "card",
+      "card index dividers",
       "dividers",
       "index",
       "organizing",
@@ -24701,6 +25308,7 @@
       "box",
       "business",
       "card",
+      "card file box",
       "file",
       "stationery"
     ],
@@ -24719,6 +25327,7 @@
     "keywords": [
       "cabinet",
       "file",
+      "file cabinet",
       "filing",
       "organizing"
     ],
@@ -24760,6 +25369,7 @@
       "notepad",
       "pad",
       "spiral",
+      "spiral notepad",
       "stationery"
     ],
     "emoji": "🗒",
@@ -24780,7 +25390,8 @@
       "pad",
       "planning",
       "schedule",
-      "spiral"
+      "spiral",
+      "spiral calendar"
     ],
     "emoji": "🗓",
     "image": "./emoji-img/spiral_calendar_pad.png",
@@ -24818,6 +25429,7 @@
       "key",
       "lock",
       "old",
+      "old key",
       "password"
     ],
     "emoji": "🗝",
@@ -24839,7 +25451,8 @@
       "paper",
       "press",
       "roll",
-      "rolled"
+      "rolled",
+      "rolled-up newspaper"
     ],
     "emoji": "🗞",
     "image": "./emoji-img/rolled-up_newspaper.png",
@@ -24880,6 +25493,7 @@
       "sing",
       "speak",
       "speaking",
+      "speaking head",
       "talk",
       "user"
     ],
@@ -24900,6 +25514,7 @@
       "chatting",
       "dialog",
       "left",
+      "left speech bubble",
       "message",
       "speech",
       "talk",
@@ -24925,6 +25540,7 @@
       "caption",
       "mad",
       "right",
+      "right anger bubble",
       "speech",
       "thinking"
     ],
@@ -24942,6 +25558,7 @@
     "unicode_subcategory": "Ballot symbols",
     "keywords": [
       "ballot",
+      "ballot box with ballot",
       "box",
       "election",
       "vote"
@@ -24962,7 +25579,8 @@
       "direction",
       "location",
       "map",
-      "world"
+      "world",
+      "world map"
     ],
     "emoji": "🗺",
     "image": "./emoji-img/world_map.png",
@@ -24980,6 +25598,7 @@
       "fuji",
       "japanese",
       "mount",
+      "mount fuji",
       "mountain",
       "nature",
       "photo"
@@ -24998,6 +25617,7 @@
     "unicode_subcategory": "Cultural symbols",
     "keywords": [
       "Tokyo",
+      "Tokyo tower",
       "japanese",
       "photo",
       "tokyo",
@@ -25016,6 +25636,7 @@
     "unicode_category": "Miscellaneous Symbols And Pictographs",
     "unicode_subcategory": "Cultural symbols",
     "keywords": [
+      "Statue of Liberty",
       "american",
       "liberty",
       "newyork",
@@ -25041,6 +25662,7 @@
       "japan",
       "japanese",
       "map",
+      "map of Japan",
       "nation"
     ],
     "emoji": "🗾",
@@ -25080,6 +25702,7 @@
       "face",
       "grin",
       "grinning",
+      "grinning face",
       "happy",
       "joy",
       "smile"
@@ -25089,7 +25712,7 @@
     "fitz": false
   },
   "1f601": {
-    "name": "grinning face with smiling eyes",
+    "name": "beaming face with smiling eyes",
     "emojilib_name": "grin",
     "codepoints": [
       128513
@@ -25097,6 +25720,7 @@
     "unicode_category": "Emoticons",
     "unicode_subcategory": "Faces",
     "keywords": [
+      "beaming face with smiling eyes",
       "eye",
       "face",
       "grin",
@@ -25120,6 +25744,7 @@
     "keywords": [
       "cry",
       "face",
+      "face with tears of joy",
       "haha",
       "happy",
       "happytears",
@@ -25134,7 +25759,7 @@
     "fitz": false
   },
   "1f603": {
-    "name": "smiling face with open mouth",
+    "name": "grinning face with big eyes",
     "emojilib_name": "smiley",
     "codepoints": [
       128515
@@ -25146,6 +25771,7 @@
       ":D",
       "face",
       "funny",
+      "grinning face with big eyes",
       "haha",
       "happy",
       "joy",
@@ -25159,7 +25785,7 @@
     "fitz": false
   },
   "1f604": {
-    "name": "smiling face with open mouth & smiling eyes",
+    "name": "grinning face with smiling eyes",
     "emojilib_name": "smile",
     "codepoints": [
       128516
@@ -25172,6 +25798,7 @@
       "eye",
       "face",
       "funny",
+      "grinning face with smiling eyes",
       "haha",
       "happy",
       "joy",
@@ -25186,7 +25813,7 @@
     "fitz": false
   },
   "1f605": {
-    "name": "smiling face with open mouth & cold sweat",
+    "name": "grinning face with sweat",
     "emojilib_name": "sweat_smile",
     "codepoints": [
       128517
@@ -25196,6 +25823,7 @@
     "keywords": [
       "cold",
       "face",
+      "grinning face with sweat",
       "happy",
       "hot",
       "laugh",
@@ -25209,7 +25837,7 @@
     "fitz": false
   },
   "1f606": {
-    "name": "smiling face with open mouth & closed eyes",
+    "name": "grinning squinting face",
     "emojilib_name": "laughing",
     "codepoints": [
       128518
@@ -25220,6 +25848,7 @@
       "XD",
       "face",
       "glad",
+      "grinning squinting face",
       "haha",
       "happy",
       "joy",
@@ -25251,7 +25880,8 @@
       "halo",
       "heaven",
       "innocent",
-      "smile"
+      "smile",
+      "smiling face with halo"
     ],
     "emoji": "😇",
     "image": "./emoji-img/smiling_face_with_halo.png",
@@ -25273,7 +25903,8 @@
       "horns",
       "imp",
       "smile",
-      "smiling"
+      "smiling",
+      "smiling face with horns"
     ],
     "emoji": "😈",
     "image": "./emoji-img/smiling_face_with_horns.png",
@@ -25295,7 +25926,8 @@
       "mischievous",
       "secret",
       "smile",
-      "wink"
+      "wink",
+      "winking face"
     ],
     "emoji": "😉",
     "image": "./emoji-img/winking_face.png",
@@ -25319,14 +25951,15 @@
       "happy",
       "joy",
       "shy",
-      "smile"
+      "smile",
+      "smiling face with smiling eyes"
     ],
     "emoji": "😊",
     "image": "./emoji-img/smiling_face_with_smiling_eyes.png",
     "fitz": false
   },
   "1f60b": {
-    "name": "face savouring delicious food",
+    "name": "face savoring food",
     "emojilib_name": "yum",
     "codepoints": [
       128523
@@ -25336,6 +25969,7 @@
     "keywords": [
       "delicious",
       "face",
+      "face savoring food",
       "happy",
       "joy",
       "nom",
@@ -25365,7 +25999,8 @@
       "massage",
       "phew",
       "relaxed",
-      "relieved"
+      "relieved",
+      "relieved face"
     ],
     "emoji": "😌",
     "image": "./emoji-img/relieved_face.png",
@@ -25390,6 +26025,7 @@
       "like",
       "love",
       "smile",
+      "smiling face with heart-eyes",
       "valentines"
     ],
     "emoji": "😍",
@@ -25413,6 +26049,7 @@
       "face",
       "glasses",
       "smile",
+      "smiling face with sunglasses",
       "summer",
       "sun",
       "sunglass",
@@ -25437,6 +26074,7 @@
       "sarcasm",
       "smile",
       "smirk",
+      "smirking face",
       "smug"
     ],
     "emoji": "😏",
@@ -25457,7 +26095,8 @@
       "face",
       "indifference",
       "meh",
-      "neutral"
+      "neutral",
+      "neutral face"
     ],
     "emoji": "😐",
     "image": "./emoji-img/neutral_face.png",
@@ -25475,6 +26114,7 @@
       "-_-",
       "deadpan",
       "expressionless",
+      "expressionless face",
       "face",
       "indifferent",
       "inexpressive",
@@ -25501,6 +26141,7 @@
       "serious",
       "straight face",
       "unamused",
+      "unamused face",
       "unhappy"
     ],
     "emoji": "😒",
@@ -25508,7 +26149,7 @@
     "fitz": false
   },
   "1f613": {
-    "name": "face with cold sweat",
+    "name": "downcast face with sweat",
     "emojilib_name": "sweat",
     "codepoints": [
       128531
@@ -25517,6 +26158,7 @@
     "unicode_subcategory": "Faces",
     "keywords": [
       "cold",
+      "downcast face with sweat",
       "exercise",
       "face",
       "hot",
@@ -25541,6 +26183,7 @@
       "depressed",
       "face",
       "pensive",
+      "pensive face",
       "sad",
       "upset"
     ],
@@ -25561,6 +26204,7 @@
       ":\\",
       "bummer",
       "confused",
+      "confused face",
       "face",
       "hmmm",
       "huh",
@@ -25584,6 +26228,7 @@
     "keywords": [
       ":S",
       "confounded",
+      "confounded face",
       "confused",
       "face",
       "oops",
@@ -25611,6 +26256,7 @@
       "infatuation",
       "kiss",
       "kissing",
+      "kissing face",
       "like",
       "love",
       "valentines"
@@ -25630,6 +26276,7 @@
     "keywords": [
       "affection",
       "face",
+      "face blowing a kiss",
       "heart",
       "infatuation",
       "kiss",
@@ -25658,6 +26305,7 @@
       "infatuation",
       "kiss",
       "kissing",
+      "kissing face with smiling eyes",
       "smile",
       "smiling",
       "valentines"
@@ -25683,6 +26331,7 @@
       "infatuation",
       "kiss",
       "kissing",
+      "kissing face with closed eyes",
       "like",
       "love",
       "valentines"
@@ -25692,7 +26341,7 @@
     "fitz": false
   },
   "1f61b": {
-    "name": "face with stuck-out tongue",
+    "name": "face with tongue",
     "emojilib_name": "stuck_out_tongue",
     "codepoints": [
       128539
@@ -25702,6 +26351,7 @@
     "keywords": [
       "childish",
       "face",
+      "face with tongue",
       "mischievous",
       "out",
       "playful",
@@ -25715,7 +26365,7 @@
     "fitz": false
   },
   "1f61c": {
-    "name": "face with stuck-out tongue & winking eye",
+    "name": "winking face with tongue",
     "emojilib_name": "stuck_out_tongue_winking_eye",
     "codepoints": [
       128540
@@ -25735,14 +26385,15 @@
       "stuck",
       "tongue",
       "wink",
-      "winking"
+      "winking",
+      "winking face with tongue"
     ],
     "emoji": "😜",
     "image": "./emoji-img/face_with_stuck-out_tongue_and_winking_eye.png",
     "fitz": false
   },
   "1f61d": {
-    "name": "face with stuck-out tongue & closed eyes",
+    "name": "squinting face with tongue",
     "emojilib_name": "stuck_out_tongue_closed_eyes",
     "codepoints": [
       128541
@@ -25760,6 +26411,7 @@
       "playful",
       "prank",
       "smile",
+      "squinting face with tongue",
       "stuck",
       "taste",
       "tongue"
@@ -25780,6 +26432,7 @@
       ":(",
       "depressed",
       "disappointed",
+      "disappointed face",
       "face",
       "sad",
       "upset"
@@ -25802,6 +26455,7 @@
       "face",
       "nervous",
       "worried",
+      "worried face",
       "worry"
     ],
     "emoji": "😟",
@@ -25818,6 +26472,7 @@
     "unicode_subcategory": "Faces",
     "keywords": [
       "angry",
+      "angry face",
       "annoyed",
       "face",
       "frustrated",
@@ -25842,6 +26497,7 @@
       "hate",
       "mad",
       "pouting",
+      "pouting face",
       "rage",
       "red"
     ],
@@ -25860,6 +26516,7 @@
     "keywords": [
       ":'(",
       "cry",
+      "crying face",
       "depressed",
       "face",
       "sad",
@@ -25884,6 +26541,7 @@
       "no",
       "oops",
       "persevere",
+      "persevering face",
       "sick",
       "upset"
     ],
@@ -25901,6 +26559,7 @@
     "unicode_subcategory": "Faces",
     "keywords": [
       "face",
+      "face with steam from nose",
       "gas",
       "phew",
       "pride",
@@ -25913,7 +26572,7 @@
     "fitz": false
   },
   "1f625": {
-    "name": "disappointed but relieved face",
+    "name": "sad but relieved face",
     "emojilib_name": "disappointed_relieved",
     "codepoints": [
       128549
@@ -25926,6 +26585,7 @@
       "nervous",
       "phew",
       "relieved",
+      "sad but relieved face",
       "sweat",
       "whew"
     ],
@@ -25946,6 +26606,7 @@
       "face",
       "frown",
       "frowning",
+      "frowning face with open mouth",
       "mouth",
       "open",
       "what"
@@ -25964,6 +26625,7 @@
     "unicode_subcategory": "Faces",
     "keywords": [
       "anguished",
+      "anguished face",
       "face",
       "nervous",
       "stunned"
@@ -25984,6 +26646,7 @@
       "face",
       "fear",
       "fearful",
+      "fearful face",
       "huh",
       "nervous",
       "oops",
@@ -26009,7 +26672,8 @@
       "sleepy",
       "tired",
       "upset",
-      "weary"
+      "weary",
+      "weary face"
     ],
     "emoji": "😩",
     "image": "./emoji-img/weary_face.png",
@@ -26029,6 +26693,7 @@
       "rest",
       "sleep",
       "sleepy",
+      "sleepy face",
       "tired"
     ],
     "emoji": "😪",
@@ -26048,6 +26713,7 @@
       "frustrated",
       "sick",
       "tired",
+      "tired face",
       "upset",
       "whine"
     ],
@@ -26067,6 +26733,7 @@
       "face",
       "grimace",
       "grimacing",
+      "grimacing face",
       "teeth"
     ],
     "emoji": "😬",
@@ -26085,6 +26752,7 @@
       "cry",
       "depressed",
       "face",
+      "loudly crying face",
       "sad",
       "sob",
       "tear",
@@ -26106,6 +26774,7 @@
     "keywords": [
       ":O",
       "face",
+      "face with open mouth",
       "impressed",
       "mouth",
       "open",
@@ -26129,6 +26798,7 @@
     "keywords": [
       "face",
       "hushed",
+      "hushed face",
       "shh",
       "stunned",
       "surprised",
@@ -26139,7 +26809,7 @@
     "fitz": false
   },
   "1f630": {
-    "name": "face with open mouth & cold sweat",
+    "name": "anxious face with sweat",
     "emojilib_name": "cold_sweat",
     "codepoints": [
       128560
@@ -26147,6 +26817,7 @@
     "unicode_category": "Emoticons",
     "unicode_subcategory": "Faces",
     "keywords": [
+      "anxious face with sweat",
       "blue",
       "cold",
       "face",
@@ -26170,6 +26841,7 @@
     "unicode_subcategory": "Faces",
     "keywords": [
       "face",
+      "face screaming in fear",
       "fear",
       "fearful",
       "munch",
@@ -26191,6 +26863,7 @@
     "unicode_subcategory": "Faces",
     "keywords": [
       "astonished",
+      "astonished face",
       "face",
       "poisoned",
       "shocked",
@@ -26216,6 +26889,7 @@
       "face",
       "flattered",
       "flushed",
+      "flushed face",
       "shy"
     ],
     "emoji": "😳",
@@ -26235,6 +26909,7 @@
       "night",
       "sleep",
       "sleeping",
+      "sleeping face",
       "sleepy",
       "tired",
       "zzz"
@@ -26253,6 +26928,7 @@
     "unicode_subcategory": "Faces",
     "keywords": [
       "dizzy",
+      "dizzy face",
       "face",
       "spent",
       "unconscious",
@@ -26272,6 +26948,7 @@
     "unicode_subcategory": "Faces",
     "keywords": [
       "face",
+      "face without mouth",
       "hellokitty",
       "mouth",
       "no",
@@ -26295,6 +26972,7 @@
       "disease",
       "doctor",
       "face",
+      "face with medical mask",
       "ill",
       "mask",
       "medicine",
@@ -26319,6 +26997,7 @@
       "eye",
       "face",
       "grin",
+      "grinning cat face with smiling eyes",
       "smile"
     ],
     "emoji": "😸",
@@ -26336,6 +27015,7 @@
     "keywords": [
       "animal",
       "cat",
+      "cat face with tears of joy",
       "cats",
       "face",
       "haha",
@@ -26349,7 +27029,7 @@
     "fitz": false
   },
   "1f63a": {
-    "name": "smiling cat face with open mouth",
+    "name": "grinning cat face",
     "emojilib_name": "smiley_cat",
     "codepoints": [
       128570
@@ -26361,6 +27041,7 @@
       "cat",
       "cats",
       "face",
+      "grinning cat face",
       "happy",
       "mouth",
       "open",
@@ -26391,6 +27072,7 @@
       "like",
       "love",
       "smile",
+      "smiling cat face with heart-eyes",
       "valentines"
     ],
     "emoji": "😻",
@@ -26408,6 +27090,7 @@
     "keywords": [
       "animal",
       "cat",
+      "cat face with wry smile",
       "cats",
       "face",
       "ironic",
@@ -26420,7 +27103,7 @@
     "fitz": false
   },
   "1f63d": {
-    "name": "kissing cat face with closed eyes",
+    "name": "kissing cat face",
     "emojilib_name": "kissing_cat",
     "codepoints": [
       128573
@@ -26434,7 +27117,8 @@
       "eye",
       "face",
       "kiss",
-      "kissing"
+      "kissing",
+      "kissing cat face"
     ],
     "emoji": "😽",
     "image": "./emoji-img/kissing_cat_face_with_closed_eyes.png",
@@ -26453,7 +27137,8 @@
       "cat",
       "cats",
       "face",
-      "pouting"
+      "pouting",
+      "pouting cat face"
     ],
     "emoji": "😾",
     "image": "./emoji-img/pouting_cat_face.png",
@@ -26473,6 +27158,7 @@
       "cats",
       "cry",
       "crying",
+      "crying cat face",
       "face",
       "sad",
       "tear",
@@ -26502,7 +27188,8 @@
       "scared",
       "scream",
       "surprised",
-      "weary"
+      "weary",
+      "weary cat face"
     ],
     "emoji": "🙀",
     "image": "./emoji-img/weary_cat_face.png",
@@ -26523,6 +27210,7 @@
       "frowning",
       "sad",
       "slightly",
+      "slightly frowning face",
       "upset"
     ],
     "emoji": "🙁",
@@ -26540,6 +27228,7 @@
     "keywords": [
       "face",
       "slightly",
+      "slightly smiling face",
       "smile",
       "smiling"
     ],
@@ -26562,7 +27251,8 @@
       "silly",
       "smile",
       "upside",
-      "upside-down"
+      "upside-down",
+      "upside-down face"
     ],
     "emoji": "🙃",
     "image": "./emoji-img/upside-down_face.png",
@@ -26580,6 +27270,7 @@
       "eyeroll",
       "eyes",
       "face",
+      "face with rolling eyes",
       "frustrated",
       "roll",
       "rolling"
@@ -26606,6 +27297,7 @@
       "no",
       "nope",
       "not",
+      "person gesturing NO",
       "prohibited",
       "woman"
     ],
@@ -26635,6 +27327,7 @@
       "hand",
       "human",
       "ok",
+      "person gesturing OK",
       "pink",
       "woman",
       "women"
@@ -26665,6 +27358,7 @@
       "gesture",
       "male",
       "man",
+      "person bowing",
       "sorry"
     ],
     "emoji": "🙇",
@@ -26697,7 +27391,8 @@
       "no",
       "not",
       "prohibited",
-      "see"
+      "see",
+      "see-no-evil monkey"
     ],
     "emoji": "🙈",
     "image": "./emoji-img/see-no-evil_monkey.png",
@@ -26718,6 +27413,7 @@
       "forbidden",
       "gesture",
       "hear",
+      "hear-no-evil monkey",
       "monkey",
       "nature",
       "no",
@@ -26748,7 +27444,8 @@
       "not",
       "omg",
       "prohibited",
-      "speak"
+      "speak",
+      "speak-no-evil monkey"
     ],
     "emoji": "🙊",
     "image": "./emoji-img/speak-no-evil_monkey.png",
@@ -26768,6 +27465,7 @@
       "girl",
       "hand",
       "happy",
+      "person raising hand",
       "raised",
       "raising",
       "woman"
@@ -26797,6 +27495,7 @@
       "hands",
       "hooray",
       "raised",
+      "raising hands",
       "yea"
     ],
     "emoji": "🙌",
@@ -26825,6 +27524,7 @@
       "frowning",
       "gesture",
       "girl",
+      "person frowning",
       "sad",
       "unhappy",
       "woman"
@@ -26851,6 +27551,7 @@
       "female",
       "gesture",
       "girl",
+      "person pouting",
       "pouting",
       "woman"
     ],
@@ -26876,6 +27577,7 @@
       "ask",
       "bow",
       "folded",
+      "folded hands",
       "gesture",
       "hand",
       "highfive",
@@ -26970,6 +27672,7 @@
       "car",
       "electric",
       "railway",
+      "railway car",
       "train",
       "tram",
       "transportation",
@@ -26990,6 +27693,7 @@
     "unicode_subcategory": "Vehicles",
     "keywords": [
       "bullettrain",
+      "high-speed train",
       "railway",
       "shinkansen",
       "side",
@@ -27003,7 +27707,7 @@
     "fitz": false
   },
   "1f685": {
-    "name": "high-speed train with bullet nose",
+    "name": "bullet train",
     "emojilib_name": "bullettrain_front",
     "codepoints": [
       128645
@@ -27012,6 +27716,7 @@
     "unicode_subcategory": "Vehicles",
     "keywords": [
       "bullet",
+      "bullet train",
       "bullettrain",
       "fast",
       "front",
@@ -27038,6 +27743,7 @@
     "unicode_subcategory": "Vehicles",
     "keywords": [
       "railway",
+      "train",
       "train2",
       "transportation",
       "vehicle"
@@ -27077,6 +27783,7 @@
     "unicode_subcategory": "Vehicles",
     "keywords": [
       "light",
+      "light rail",
       "rail",
       "railway",
       "transportation",
@@ -27138,6 +27845,7 @@
       "public",
       "train",
       "tram",
+      "tram car",
       "transportation",
       "travel",
       "trolleybus",
@@ -27176,6 +27884,7 @@
     "keywords": [
       "bus",
       "oncoming",
+      "oncoming bus",
       "transportation",
       "vehicle"
     ],
@@ -27214,6 +27923,7 @@
     "unicode_subcategory": "Vehicles",
     "keywords": [
       "bus",
+      "bus stop",
       "busstop",
       "stop",
       "transportation",
@@ -27273,6 +27983,7 @@
       "cars",
       "engine",
       "fire",
+      "fire engine",
       "transportation",
       "truck",
       "vehicle"
@@ -27297,6 +28008,7 @@
       "legal",
       "patrol",
       "police",
+      "police car",
       "transportation",
       "vehicle"
     ],
@@ -27319,6 +28031,7 @@
       "law",
       "legal",
       "oncoming",
+      "oncoming police car",
       "police",
       "vehicle"
     ],
@@ -27356,6 +28069,7 @@
     "keywords": [
       "cars",
       "oncoming",
+      "oncoming taxi",
       "taxi",
       "uber",
       "vehicle"
@@ -27373,6 +28087,7 @@
     "unicode_category": "Transport And Map Symbols",
     "unicode_subcategory": "Vehicles",
     "keywords": [
+      "automobile",
       "car",
       "red",
       "transportation",
@@ -27394,6 +28109,7 @@
       "automobile",
       "car",
       "oncoming",
+      "oncoming automobile",
       "transportation",
       "vehicle"
     ],
@@ -27414,6 +28130,7 @@
       "car",
       "recreational",
       "sport utility",
+      "sport utility vehicle",
       "transportation",
       "vehicle"
     ],
@@ -27432,6 +28149,7 @@
     "keywords": [
       "cars",
       "delivery",
+      "delivery truck",
       "transportation",
       "truck"
     ],
@@ -27449,6 +28167,7 @@
     "unicode_subcategory": "Vehicles",
     "keywords": [
       "articulated",
+      "articulated lorry",
       "cars",
       "express",
       "lorry",
@@ -27508,6 +28227,7 @@
     "keywords": [
       "car",
       "mountain",
+      "mountain railway",
       "railway",
       "transportation",
       "vehicle"
@@ -27527,6 +28247,7 @@
     "keywords": [
       "railway",
       "suspension",
+      "suspension railway",
       "transportation",
       "vehicle"
     ],
@@ -27547,6 +28268,7 @@
       "cableway",
       "gondola",
       "mountain",
+      "mountain cableway",
       "ski",
       "transportation",
       "vehicle"
@@ -27565,6 +28287,7 @@
     "unicode_subcategory": "Vehicles",
     "keywords": [
       "aerial",
+      "aerial tramway",
       "cable",
       "car",
       "gondola",
@@ -27609,6 +28332,7 @@
       "boat",
       "hobby",
       "man",
+      "person rowing boat",
       "rowboat",
       "rowing",
       "ship",
@@ -27654,6 +28378,7 @@
     "unicode_category": "Transport And Map Symbols",
     "unicode_subcategory": "Traffic signs",
     "keywords": [
+      "horizontal traffic light",
       "light",
       "signal",
       "traffic",
@@ -27677,7 +28402,8 @@
       "signal",
       "traffic",
       "transportation",
-      "vertical"
+      "vertical",
+      "vertical traffic light"
     ],
     "emoji": "🚦",
     "image": "./emoji-img/vertical_traffic_light.png",
@@ -27724,6 +28450,7 @@
       "light",
       "pinged",
       "police",
+      "police car light",
       "revolving",
       "rotating"
     ],
@@ -27746,7 +28473,8 @@
       "on",
       "place",
       "post",
-      "triangular"
+      "triangular",
+      "triangular flag"
     ],
     "emoji": "🚩",
     "image": "./emoji-img/triangular_flag_on_post.png",
@@ -27788,6 +28516,7 @@
       "limit",
       "no",
       "not",
+      "prohibited",
       "sign",
       "stop"
     ],
@@ -27828,6 +28557,7 @@
       "cigarette",
       "forbidden",
       "no",
+      "no smoking",
       "not",
       "prohibited",
       "smell",
@@ -27854,6 +28584,7 @@
       "its",
       "litter",
       "litter bin",
+      "litter in bin sign",
       "place",
       "put",
       "sign"
@@ -27878,6 +28609,7 @@
       "garbage",
       "litter",
       "no",
+      "no littering",
       "not",
       "prohibited",
       "trash"
@@ -27901,6 +28633,7 @@
       "faucet",
       "liquid",
       "potable",
+      "potable water",
       "restroom",
       "water"
     ],
@@ -27922,6 +28655,7 @@
       "faucet",
       "non-drinking",
       "non-potable",
+      "non-potable water",
       "tap",
       "water"
     ],
@@ -27964,6 +28698,7 @@
       "cyclist",
       "forbidden",
       "no",
+      "no bicycles",
       "not",
       "prohibited"
     ],
@@ -27987,6 +28722,7 @@
       "exercise",
       "hipster",
       "man",
+      "person biking",
       "sports"
     ],
     "emoji": "🚴",
@@ -28016,6 +28752,7 @@
       "human",
       "man",
       "mountain",
+      "person mountain biking",
       "race",
       "sports",
       "transportation"
@@ -28043,6 +28780,7 @@
       "hike",
       "human",
       "man",
+      "person walking",
       "steps",
       "walk",
       "walking"
@@ -28070,6 +28808,7 @@
       "crossing",
       "forbidden",
       "no",
+      "no pedestrians",
       "not",
       "pedestrian",
       "pedestrians",
@@ -28092,6 +28831,7 @@
     "keywords": [
       "child",
       "children",
+      "children crossing",
       "crossing",
       "danger",
       "driving",
@@ -28121,6 +28861,7 @@
       "male",
       "man",
       "mens",
+      "men’s room",
       "restroom",
       "toilet",
       "wc"
@@ -28147,7 +28888,8 @@
       "toilet",
       "wc",
       "woman",
-      "womens"
+      "womens",
+      "women’s room"
     ],
     "emoji": "🚺",
     "image": "./emoji-img/womens_symbol.png",
@@ -28185,6 +28927,7 @@
     "unicode_subcategory": "Signage and other symbols",
     "keywords": [
       "baby",
+      "baby symbol",
       "changing",
       "child",
       "orange-square",
@@ -28229,6 +28972,7 @@
       "restroom",
       "toilet",
       "water",
+      "water closet",
       "wc"
     ],
     "emoji": "🚾",
@@ -28266,6 +29010,7 @@
       "bathroom",
       "bathtub",
       "clean",
+      "person taking bath",
       "shower"
     ],
     "emoji": "🛀",
@@ -28309,7 +29054,8 @@
       "blue-square",
       "control",
       "custom",
-      "passport"
+      "passport",
+      "passport control"
     ],
     "emoji": "🛂",
     "image": "./emoji-img/passport_control.png",
@@ -28344,6 +29090,7 @@
     "keywords": [
       "airport",
       "baggage",
+      "baggage claim",
       "blue-square",
       "claim",
       "transport"
@@ -28364,6 +29111,7 @@
       "baggage",
       "blue-square",
       "left",
+      "left luggage",
       "locker",
       "luggage",
       "travel"
@@ -28384,6 +29132,7 @@
       "and",
       "chill",
       "couch",
+      "couch and lamp",
       "hotel",
       "lamp",
       "read"
@@ -28403,6 +29152,7 @@
     "keywords": [
       "bed",
       "hotel",
+      "person in bed",
       "rest",
       "sleep",
       "sleeping"
@@ -28425,7 +29175,8 @@
       "hotel",
       "mall",
       "purchase",
-      "shopping"
+      "shopping",
+      "shopping bags"
     ],
     "emoji": "🛍",
     "image": "./emoji-img/shopping_bags.png",
@@ -28442,6 +29193,7 @@
     "keywords": [
       "bell",
       "bellhop",
+      "bellhop bell",
       "hotel",
       "service"
     ],
@@ -28479,6 +29231,7 @@
       "church",
       "of",
       "place",
+      "place of worship",
       "prayer",
       "religion",
       "temple",
@@ -28499,7 +29252,8 @@
     "keywords": [
       "octagonal",
       "sign",
-      "stop"
+      "stop",
+      "stop sign"
     ],
     "emoji": "🛑",
     "image": "./emoji-img/octagonal_sign.png",
@@ -28516,6 +29270,7 @@
     "keywords": [
       "cart",
       "shopping",
+      "shopping cart",
       "trolley"
     ],
     "emoji": "🛒",
@@ -28535,6 +29290,7 @@
       "build",
       "create",
       "hammer",
+      "hammer and wrench",
       "spanner",
       "tool",
       "tools",
@@ -28573,7 +29329,8 @@
     "keywords": [
       "barrell",
       "drum",
-      "oil"
+      "oil",
+      "oil drum"
     ],
     "emoji": "🛢",
     "image": "./emoji-img/oil_drum.png",
@@ -28608,6 +29365,7 @@
     "unicode_subcategory": "Miscellaneous mark",
     "keywords": [
       "railway",
+      "railway track",
       "track",
       "train",
       "transportation"
@@ -28627,6 +29385,7 @@
     "keywords": [
       "boat",
       "motor",
+      "motor boat",
       "motorboat",
       "ship"
     ],
@@ -28648,6 +29407,7 @@
       "flight",
       "fly",
       "small",
+      "small airplane",
       "transportation",
       "vehicle"
     ],
@@ -28666,6 +29426,7 @@
     "keywords": [
       "aeroplane",
       "airplane",
+      "airplane departure",
       "airport",
       "check-in",
       "departure",
@@ -28688,6 +29449,7 @@
     "keywords": [
       "aeroplane",
       "airplane",
+      "airplane arrival",
       "airport",
       "arrival",
       "arrivals",
@@ -28735,6 +29497,7 @@
       "cruise",
       "ferry",
       "passenger",
+      "passenger ship",
       "ship",
       "yacht"
     ],
@@ -28752,6 +29515,7 @@
     "unicode_subcategory": "Vehicles",
     "keywords": [
       "kick",
+      "kick scooter",
       "razor",
       "scooter",
       "vehicle"
@@ -28770,6 +29534,7 @@
     "unicode_subcategory": "Vehicles",
     "keywords": [
       "motor",
+      "motor scooter",
       "sasha",
       "scooter",
       "vehicle",
@@ -28807,6 +29572,7 @@
     "unicode_category": "Transport And Map Symbols",
     "unicode_subcategory": "Vehicles",
     "keywords": [
+      "sled",
       "sledge",
       "sleigh"
     ],
@@ -28823,7 +29589,8 @@
     "unicode_category": "Transport And Map Symbols",
     "unicode_subcategory": "Vehicles",
     "keywords": [
-      "UFO"
+      "UFO",
+      "flying saucer"
     ],
     "emoji": "🛸",
     "image": "./emoji-img/flying_saucer.png",
@@ -28842,7 +29609,8 @@
       "mouth",
       "sealed",
       "secret",
-      "zipper"
+      "zipper",
+      "zipper-mouth face"
     ],
     "emoji": "🤐",
     "image": "./emoji-img/zipper-mouth_face.png",
@@ -28860,6 +29628,7 @@
       "dollar",
       "face",
       "money",
+      "money-mouth face",
       "mouth",
       "rich"
     ],
@@ -28878,6 +29647,7 @@
     "keywords": [
       "cold",
       "face",
+      "face with thermometer",
       "fever",
       "ill",
       "sick",
@@ -28902,6 +29672,7 @@
       "face",
       "geek",
       "nerd",
+      "nerd face",
       "nerdy"
     ],
     "emoji": "🤓",
@@ -28921,7 +29692,8 @@
       "face",
       "hmmm",
       "think",
-      "thinking"
+      "thinking",
+      "thinking face"
     ],
     "emoji": "🤔",
     "image": "./emoji-img/thinking_face.png",
@@ -28939,6 +29711,7 @@
       "bandage",
       "clumsy",
       "face",
+      "face with head-bandage",
       "head",
       "hurt",
       "injured",
@@ -28963,7 +29736,8 @@
       "face",
       "machine",
       "monster",
-      "robot"
+      "robot",
+      "robot face"
     ],
     "emoji": "🤖",
     "image": "./emoji-img/robot_face.png",
@@ -28981,6 +29755,7 @@
       "face",
       "hug",
       "hugging",
+      "hugging face",
       "hugs",
       "smile"
     ],
@@ -29005,6 +29780,7 @@
       "metal",
       "rock-on",
       "rock_on",
+      "sign of the horns",
       "sign_of_horns"
     ],
     "emoji": "🤘",
@@ -29027,6 +29803,7 @@
     "unicode_subcategory": "Hand symbols",
     "keywords": [
       "call",
+      "call me hand",
       "gesture",
       "hand",
       "hands",
@@ -29056,7 +29833,8 @@
       "fingers",
       "hand",
       "of",
-      "raised"
+      "raised",
+      "raised back of hand"
     ],
     "emoji": "🤚",
     "image": "./emoji-img/raised_back_of_hand.png",
@@ -29081,6 +29859,7 @@
       "fistbump",
       "hand",
       "left",
+      "left-facing fist",
       "leftwards"
     ],
     "emoji": "🤛",
@@ -29106,6 +29885,7 @@
       "fistbump",
       "hand",
       "right",
+      "right-facing fist",
       "rightwards"
     ],
     "emoji": "🤜",
@@ -29148,6 +29928,7 @@
     "keywords": [
       "cross",
       "crossed",
+      "crossed fingers",
       "finger",
       "fingers",
       "good",
@@ -29175,7 +29956,8 @@
     "unicode_subcategory": "Hand symbols",
     "keywords": [
       "ILY",
-      "hand"
+      "hand",
+      "love-you gesture"
     ],
     "emoji": "🤟",
     "image": "./emoji-img/i_love_you_hand_sign.png",
@@ -29197,6 +29979,7 @@
     "unicode_subcategory": "Emoticon faces",
     "keywords": [
       "cowboy",
+      "cowboy hat face",
       "cowgirl",
       "face",
       "hat"
@@ -29215,6 +29998,7 @@
     "unicode_subcategory": "Emoticon faces",
     "keywords": [
       "clown",
+      "clown face",
       "face"
     ],
     "emoji": "🤡",
@@ -29235,6 +30019,7 @@
       "gross",
       "ill",
       "nauseated",
+      "nauseated face",
       "sick",
       "throw up",
       "vomit"
@@ -29259,7 +30044,8 @@
       "laughing",
       "lol",
       "rofl",
-      "rolling"
+      "rolling",
+      "rolling on the floor laughing"
     ],
     "emoji": "🤣",
     "image": "./emoji-img/rolling_on_the_floor_laughing.png",
@@ -29275,6 +30061,7 @@
     "unicode_subcategory": "Emoticon faces",
     "keywords": [
       "drooling",
+      "drooling face",
       "face"
     ],
     "emoji": "🤤",
@@ -29293,6 +30080,7 @@
       "face",
       "lie",
       "lying",
+      "lying face",
       "pinocchio"
     ],
     "emoji": "🤥",
@@ -29315,7 +30103,8 @@
       "facepalming",
       "male",
       "man",
-      "palm"
+      "palm",
+      "person facepalming"
     ],
     "emoji": "🤦",
     "image": "./emoji-img/face_palm.W.png",
@@ -29341,7 +30130,8 @@
       "gesundheit",
       "sick",
       "sneeze",
-      "sneezing"
+      "sneezing",
+      "sneezing face"
     ],
     "emoji": "🤧",
     "image": "./emoji-img/sneezing_face.png",
@@ -29357,6 +30147,7 @@
     "unicode_subcategory": "Emoticon faces",
     "keywords": [
       "distrust",
+      "face with raised eyebrow",
       "skeptic"
     ],
     "emoji": "🤨",
@@ -29375,14 +30166,15 @@
       "eyes",
       "face",
       "grinning",
-      "star"
+      "star",
+      "star-struck"
     ],
     "emoji": "🤩",
     "image": "./emoji-img/grinning_face_with_star_eyes.png",
     "fitz": false
   },
   "1f92a": {
-    "name": "crazy face",
+    "name": "zany face",
     "emojilib_name": null,
     "codepoints": [
       129322
@@ -29391,8 +30183,10 @@
     "unicode_subcategory": "Emoticon faces",
     "keywords": [
       "eye",
+      "goofy",
       "large",
-      "small"
+      "small",
+      "zany face"
     ],
     "emoji": "🤪",
     "image": "./emoji-img/grinning_face_with_one_large_and_one_small_eye.png",
@@ -29407,14 +30201,16 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Emoticon faces",
     "keywords": [
-
+      "quiet",
+      "shush",
+      "shushing face"
     ],
     "emoji": "🤫",
     "image": "./emoji-img/face_with_finger_covering_closed_lips.png",
     "fitz": false
   },
   "1f92c": {
-    "name": "face with symbols over mouth",
+    "name": "face with symbols on mouth",
     "emojilib_name": null,
     "codepoints": [
       129324
@@ -29422,7 +30218,8 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Emoticon faces",
     "keywords": [
-
+      "face with symbols on mouth",
+      "swearing"
     ],
     "emoji": "🤬",
     "image": "./emoji-img/serious_face_with_symbols_covering_mouth.png",
@@ -29437,6 +30234,7 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Emoticon faces",
     "keywords": [
+      "face with hand over mouth",
       "whoops"
     ],
     "emoji": "🤭",
@@ -29452,6 +30250,7 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Emoticon faces",
     "keywords": [
+      "face vomiting",
       "sick",
       "vomit"
     ],
@@ -29468,6 +30267,7 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Emoticon faces",
     "keywords": [
+      "exploding head",
       "shocked"
     ],
     "emoji": "🤯",
@@ -29485,6 +30285,7 @@
     "keywords": [
       "baby",
       "pregnant",
+      "pregnant woman",
       "woman"
     ],
     "emoji": "🤰",
@@ -29506,7 +30307,10 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
-
+      "baby",
+      "breast",
+      "breast-feeding",
+      "nursing"
     ],
     "emoji": "🤱",
     "image": "./emoji-img/breast-feeding.png",
@@ -29527,6 +30331,7 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
+      "palms up together",
       "prayer"
     ],
     "emoji": "🤲",
@@ -29602,6 +30407,7 @@
       "groom",
       "in",
       "man",
+      "man in tuxedo",
       "marriage",
       "tuxedo",
       "wedding"
@@ -29627,6 +30433,7 @@
     "keywords": [
       "Christmas",
       "Mrs.",
+      "Mrs. Claus",
       "celebration",
       "claus",
       "female",
@@ -29662,6 +30469,7 @@
       "ignorance",
       "indifference",
       "indifferent",
+      "person shrugging",
       "shrug",
       "shrugging",
       "woman"
@@ -29686,7 +30494,8 @@
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
       "cartwheel",
-      "gymnastics"
+      "gymnastics",
+      "person cartwheeling"
     ],
     "emoji": "🤸",
     "image": "./emoji-img/person_doing_cartwheel.W.png",
@@ -29710,6 +30519,7 @@
       "balance",
       "juggle",
       "multitask",
+      "person juggling",
       "skill"
     ],
     "emoji": "🤹",
@@ -29734,6 +30544,7 @@
       "fencer",
       "fencing",
       "person",
+      "person fencing",
       "sports",
       "sword"
     ],
@@ -29750,6 +30561,7 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
+      "people wrestling",
       "wrestle",
       "wrestler"
     ],
@@ -29766,6 +30578,7 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
+      "person playing water polo",
       "polo",
       "water"
     ],
@@ -29789,7 +30602,8 @@
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
       "ball",
-      "handball"
+      "handball",
+      "person playing handball"
     ],
     "emoji": "🤾",
     "image": "./emoji-img/handball.W.png",
@@ -29813,7 +30627,8 @@
       "flower",
       "nature",
       "plant",
-      "wilted"
+      "wilted",
+      "wilted flower"
     ],
     "emoji": "🥀",
     "image": "./emoji-img/wilted_flower.png",
@@ -29852,6 +30667,7 @@
       "cheers",
       "clink",
       "clinking",
+      "clinking glasses",
       "drink",
       "glass",
       "glasses",
@@ -29881,6 +30697,7 @@
       "scotch",
       "shot",
       "tumbler",
+      "tumbler glass",
       "whisky"
     ],
     "emoji": "🥃",
@@ -29915,6 +30732,7 @@
     "unicode_subcategory": "Miscellaneous mark",
     "keywords": [
       "goal",
+      "goal net",
       "net",
       "sports"
     ],
@@ -29932,6 +30750,7 @@
     "unicode_subcategory": "Miscellaneous mark",
     "keywords": [
       "1st",
+      "1st place medal",
       "award",
       "first",
       "gold",
@@ -29953,6 +30772,7 @@
     "unicode_subcategory": "Miscellaneous mark",
     "keywords": [
       "2nd",
+      "2nd place medal",
       "award",
       "medal",
       "place",
@@ -29973,6 +30793,7 @@
     "unicode_subcategory": "Miscellaneous mark",
     "keywords": [
       "3rd",
+      "3rd place medal",
       "award",
       "bronze",
       "medal",
@@ -29993,6 +30814,7 @@
     "unicode_subcategory": "Miscellaneous mark",
     "keywords": [
       "boxing",
+      "boxing glove",
       "fighting",
       "glove",
       "sports"
@@ -30015,6 +30837,7 @@
       "karate",
       "martial",
       "martial arts",
+      "martial arts uniform",
       "taekwondo",
       "uniform"
     ],
@@ -30031,7 +30854,9 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Miscellaneous mark",
     "keywords": [
-
+      "curling stone",
+      "game",
+      "rock"
     ],
     "emoji": "🥌",
     "image": "./emoji-img/curling_stone.png",
@@ -30160,6 +30985,7 @@
     "unicode_subcategory": "Food symbol",
     "keywords": [
       "baguette",
+      "baguette bread",
       "bread",
       "food",
       "french"
@@ -30179,6 +31005,7 @@
     "keywords": [
       "food",
       "green",
+      "green salad",
       "healthy",
       "lettuce",
       "salad"
@@ -30202,7 +31029,8 @@
       "of",
       "paella",
       "pan",
-      "shallow"
+      "shallow",
+      "shallow pan of food"
     ],
     "emoji": "🥘",
     "image": "./emoji-img/shallow_pan_of_food.png",
@@ -30222,7 +31050,8 @@
       "food",
       "gyro",
       "kebab",
-      "stuffed"
+      "stuffed",
+      "stuffed flatbread"
     ],
     "emoji": "🥙",
     "image": "./emoji-img/stuffed_flatbread.png",
@@ -30259,6 +31088,7 @@
       "cow",
       "drink",
       "glass",
+      "glass of milk",
       "milk"
     ],
     "emoji": "🥛",
@@ -30295,7 +31125,8 @@
     "keywords": [
       "food",
       "fruit",
-      "kiwi"
+      "kiwi",
+      "kiwi fruit"
     ],
     "emoji": "🥝",
     "image": "./emoji-img/kiwifruit.png",
@@ -30332,6 +31163,7 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Food symbol",
     "keywords": [
+      "dumpling",
       "empanada",
       "gyōza",
       "jiaozi",
@@ -30351,7 +31183,8 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Food symbol",
     "keywords": [
-
+      "fortune cookie",
+      "prophecy"
     ],
     "emoji": "🥠",
     "image": "./emoji-img/fortune_cookie.png",
@@ -30366,7 +31199,8 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Food symbol",
     "keywords": [
-      "oyster pail"
+      "oyster pail",
+      "takeout box"
     ],
     "emoji": "🥡",
     "image": "./emoji-img/takeout_box.png",
@@ -30381,6 +31215,7 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Food symbol",
     "keywords": [
+      "chopsticks",
       "hashi"
     ],
     "emoji": "🥢",
@@ -30396,6 +31231,7 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Food symbol",
     "keywords": [
+      "bowl with spoon",
       "breakfast",
       "cereal",
       "congee"
@@ -30413,6 +31249,7 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Food symbol",
     "keywords": [
+      "cup with straw",
       "juice",
       "soda"
     ],
@@ -30429,7 +31266,9 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Food symbol",
     "keywords": [
-
+      "coconut",
+      "palm",
+      "piña colada"
     ],
     "emoji": "🥥",
     "image": "./emoji-img/coconut.png",
@@ -30444,7 +31283,8 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Food symbol",
     "keywords": [
-
+      "broccoli",
+      "wild cabbage"
     ],
     "emoji": "🥦",
     "image": "./emoji-img/broccoli.png",
@@ -30459,7 +31299,9 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Food symbol",
     "keywords": [
-
+      "filling",
+      "pastry",
+      "pie"
     ],
     "emoji": "🥧",
     "image": "./emoji-img/pie.png",
@@ -30474,6 +31316,7 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Food symbol",
     "keywords": [
+      "pretzel",
       "twisted"
     ],
     "emoji": "🥨",
@@ -30490,6 +31333,7 @@
     "unicode_subcategory": "Food symbol",
     "keywords": [
       "chop",
+      "cut of meat",
       "lambchop",
       "porkchop",
       "steak"
@@ -30507,7 +31351,8 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Food symbol",
     "keywords": [
-
+      "bread",
+      "sandwich"
     ],
     "emoji": "🥪",
     "image": "./emoji-img/sandwich.png",
@@ -30522,7 +31367,8 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Food symbol",
     "keywords": [
-      "can"
+      "can",
+      "canned food"
     ],
     "emoji": "🥫",
     "image": "./emoji-img/canned_food.png",
@@ -30560,6 +31406,7 @@
       "animal",
       "face",
       "lion",
+      "lion face",
       "nature",
       "zodiac"
     ],
@@ -30576,7 +31423,7 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Animal symbols",
     "keywords": [
-      "Scorpius",
+      "Scorpio",
       "animal",
       "arachnid",
       "scorpio",
@@ -30617,7 +31464,8 @@
       "face",
       "mystical",
       "nature",
-      "unicorn"
+      "unicorn",
+      "unicorn face"
     ],
     "emoji": "🦄",
     "image": "./emoji-img/unicorn_face.png",
@@ -30734,6 +31582,7 @@
       "animal",
       "face",
       "fox",
+      "fox face",
       "nature"
     ],
     "emoji": "🦊",
@@ -30885,7 +31734,8 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Animal symbols",
     "keywords": [
-
+      "giraffe",
+      "spots"
     ],
     "emoji": "🦒",
     "image": "./emoji-img/giraffe_face.png",
@@ -30900,7 +31750,8 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Animal symbols",
     "keywords": [
-
+      "stripe",
+      "zebra"
     ],
     "emoji": "🦓",
     "image": "./emoji-img/zebra_face.png",
@@ -30915,7 +31766,8 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Animal symbols",
     "keywords": [
-
+      "hedgehog",
+      "spiny"
     ],
     "emoji": "🦔",
     "image": "./emoji-img/hedgehog.png",
@@ -30932,7 +31784,8 @@
     "keywords": [
       "brachiosaurus",
       "brontosaurus",
-      "diplodocus"
+      "diplodocus",
+      "sauropod"
     ],
     "emoji": "🦕",
     "image": "./emoji-img/sauropod.png",
@@ -30947,6 +31800,7 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Animal symbols",
     "keywords": [
+      "T-Rex",
       "Tyrannosaurus Rex"
     ],
     "emoji": "🦖",
@@ -30962,7 +31816,8 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Animal symbols",
     "keywords": [
-
+      "cricket",
+      "grasshopper"
     ],
     "emoji": "🦗",
     "image": "./emoji-img/cricket.png",
@@ -30979,6 +31834,7 @@
     "keywords": [
       "chadder",
       "cheese",
+      "cheese wedge",
       "food"
     ],
     "emoji": "🧀",
@@ -30994,6 +31850,7 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
+      "face with monocle",
       "stuffy"
     ],
     "emoji": "🧐",
@@ -31009,6 +31866,7 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
+      "adult",
       "gender-neutral"
     ],
     "emoji": "🧑",
@@ -31030,6 +31888,7 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
+      "child",
       "gender-neutral",
       "young"
     ],
@@ -31053,7 +31912,8 @@
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
       "gender-neutral",
-      "old"
+      "old",
+      "older adult"
     ],
     "emoji": "🧓",
     "image": "./emoji-img/older_adult.png",
@@ -31074,7 +31934,8 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
-
+      "beard",
+      "bearded person"
     ],
     "emoji": "🧔",
     "image": "./emoji-img/bearded_person.png",
@@ -31098,7 +31959,8 @@
       "headscarf",
       "hijab",
       "mantilla",
-      "tichel"
+      "tichel",
+      "woman with headscarf"
     ],
     "emoji": "🧕",
     "image": "./emoji-img/person_with_headscarf.png",
@@ -31119,6 +31981,7 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
+      "person in steamy room",
       "sauna",
       "steam room"
     ],
@@ -31141,7 +32004,8 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
-
+      "climber",
+      "person climbing"
     ],
     "emoji": "🧗",
     "image": "./emoji-img/person_climbing.W.png",
@@ -31163,6 +32027,7 @@
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
       "meditation",
+      "person in lotus position",
       "yoga"
     ],
     "emoji": "🧘",
@@ -31184,6 +32049,7 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
+      "mage",
       "sorcerer",
       "sorceress",
       "witch",
@@ -31210,7 +32076,8 @@
     "keywords": [
       "Oberon",
       "Puck",
-      "Titania"
+      "Titania",
+      "fairy"
     ],
     "emoji": "🧚",
     "image": "./emoji-img/fairy.W.png",
@@ -31232,7 +32099,8 @@
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
       "Dracula",
-      "undead"
+      "undead",
+      "vampire"
     ],
     "emoji": "🧛",
     "image": "./emoji-img/vampire.W.png",
@@ -31255,6 +32123,7 @@
     "keywords": [
       "mermaid",
       "merman",
+      "merperson",
       "merwoman"
     ],
     "emoji": "🧜",
@@ -31276,7 +32145,8 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
-
+      "elf",
+      "magical"
     ],
     "emoji": "🧝",
     "image": "./emoji-img/elf.W.png",
@@ -31297,7 +32167,8 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
-      "djinn"
+      "djinn",
+      "genie"
     ],
     "emoji": "🧞",
     "image": "./emoji-img/genie.W.png",
@@ -31313,7 +32184,8 @@
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
       "undead",
-      "walking dead"
+      "walking dead",
+      "zombie"
     ],
     "emoji": "🧟",
     "image": "./emoji-img/zombie.W.png",
@@ -31328,6 +32200,7 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Miscellaneous mark",
     "keywords": [
+      "brain",
       "intelligent"
     ],
     "emoji": "🧠",
@@ -31343,7 +32216,8 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Miscellaneous mark",
     "keywords": [
-
+      "orange",
+      "orange heart"
     ],
     "emoji": "🧡",
     "image": "./emoji-img/orange_heart.png",
@@ -31358,7 +32232,8 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Miscellaneous mark",
     "keywords": [
-      "baseball cap"
+      "baseball cap",
+      "billed cap"
     ],
     "emoji": "🧢",
     "image": "./emoji-img/billed_cap.png",
@@ -31373,7 +32248,8 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Miscellaneous mark",
     "keywords": [
-      "neck"
+      "neck",
+      "scarf"
     ],
     "emoji": "🧣",
     "image": "./emoji-img/scarf.png",
@@ -31388,7 +32264,8 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Miscellaneous mark",
     "keywords": [
-
+      "gloves",
+      "hand"
     ],
     "emoji": "🧤",
     "image": "./emoji-img/gloves.png",
@@ -31403,6 +32280,7 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Miscellaneous mark",
     "keywords": [
+      "coat",
       "jacket"
     ],
     "emoji": "🧥",
@@ -31418,7 +32296,8 @@
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Miscellaneous mark",
     "keywords": [
-
+      "socks",
+      "stocking"
     ],
     "emoji": "🧦",
     "image": "./emoji-img/socks.png",

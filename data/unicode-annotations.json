@@ -15,7 +15,7 @@
     "21a9": "right arrow curving left",
     "21aa": "left arrow curving right",
     "231a": "watch",
-    "231b": "hourglass",
+    "231b": "hourglass done",
     "2328": "keyboard",
     "23cf": "eject button",
     "23e9": "fast-forward button",
@@ -28,7 +28,7 @@
     "23f0": "alarm clock",
     "23f1": "stopwatch",
     "23f2": "timer clock",
-    "23f3": "hourglass with flowing sand",
+    "23f3": "hourglass not done",
     "23f8": "pause button",
     "23f9": "stop button",
     "23fa": "record button",
@@ -71,7 +71,7 @@
     "264c": "Leo",
     "264d": "Virgo",
     "264e": "Libra",
-    "264f": "Scorpius",
+    "264f": "Scorpio",
     "2650": "Sagittarius",
     "2651": "Capricorn",
     "2652": "Aquarius",
@@ -118,9 +118,9 @@
     "26f5": "sailboat",
     "26f7": "skier",
     "26f8": "ice skate",
-    "26f9_2640": "woman bouncing ball",
-    "26f9_2642": "man bouncing ball",
     "26f9": "person bouncing ball",
+    "26f9_2642": "man bouncing ball",
+    "26f9_2640": "woman bouncing ball",
     "26fa": "tent",
     "26fd": "fuel pump",
     "2702": "scissors",
@@ -228,9 +228,9 @@
     "1f318": "waning crescent moon",
     "1f319": "crescent moon",
     "1f31a": "new moon face",
-    "1f31b": "first quarter moon with face",
-    "1f31c": "last quarter moon with face",
-    "1f31d": "full moon with face",
+    "1f31b": "first quarter moon face",
+    "1f31c": "last quarter moon face",
+    "1f31d": "full moon face",
     "1f31e": "sun with face",
     "1f31f": "glowing star",
     "1f320": "shooting star",
@@ -389,29 +389,29 @@
     "1f3c0": "basketball",
     "1f3c1": "chequered flag",
     "1f3c2": "snowboarder",
-    "1f3c3_2640": "woman running",
     "1f3c3_2642": "man running",
     "1f3c3": "person running",
-    "1f3c4": "person surfing",
+    "1f3c3_2640": "woman running",
     "1f3c4_2640": "woman surfing",
     "1f3c4_2642": "man surfing",
+    "1f3c4": "person surfing",
     "1f3c5": "sports medal",
     "1f3c6": "trophy",
     "1f3c7": "horse racing",
     "1f3c8": "american football",
     "1f3c9": "rugby football",
-    "1f3ca": "person swimming",
     "1f3ca_2640": "woman swimming",
     "1f3ca_2642": "man swimming",
-    "1f3cb": "person lifting weights",
+    "1f3ca": "person swimming",
     "1f3cb_2640": "woman lifting weights",
     "1f3cb_2642": "man lifting weights",
+    "1f3cb": "person lifting weights",
     "1f3cc": "person golfing",
     "1f3cc_2640": "woman golfing",
     "1f3cc_2642": "man golfing",
     "1f3cd": "motorcycle",
     "1f3ce": "racing car",
-    "1f3cf": "cricket",
+    "1f3cf": "cricket game",
     "1f3d0": "volleyball",
     "1f3d1": "field hockey",
     "1f3d2": "ice hockey",
@@ -420,7 +420,7 @@
     "1f3d5": "camping",
     "1f3d6": "beach with umbrella",
     "1f3d7": "building construction",
-    "1f3d8": "house",
+    "1f3d8": "houses",
     "1f3d9": "cityscape",
     "1f3da": "derelict house",
     "1f3db": "classical building",
@@ -445,8 +445,8 @@
     "1f3ee": "red paper lantern",
     "1f3ef": "Japanese castle",
     "1f3f0": "castle",
-    "1f3f3": "white flag",
     "1f3f3_1f308": "rainbow flag",
+    "1f3f3": "white flag",
     "1f3f4": "black flag",
     "1f3f5": "rosette",
     "1f3f7": "label",
@@ -523,8 +523,8 @@
     "1f43e": "paw prints",
     "1f43f": "chipmunk",
     "1f440": "eyes",
-    "1f441_1f5e8": "eye in speech bubble",
     "1f441": "eye",
+    "1f441_1f5e8": "eye in speech bubble",
     "1f442": "ear",
     "1f443": "nose",
     "1f444": "mouth",
@@ -563,64 +563,64 @@
     "1f465": "busts in silhouette",
     "1f466": "boy",
     "1f467": "girl",
-    "1f468_1f4bb": "man technologist",
-    "1f468": "man",
     "1f468_1f33e": "man farmer",
     "1f468_1f373": "man cook",
-    "1f468_1f393": "man student",
-    "1f468_1f3a4": "man singer",
-    "1f468_1f3a8": "man artist",
-    "1f468_1f3eb": "man teacher",
-    "1f468_1f3ed": "man factory worker",
-    "1f468_1f4bc": "man office worker",
-    "1f468_1f527": "man mechanic",
-    "1f468_1f52c": "man scientist",
-    "1f468_1f680": "man astronaut",
     "1f468_1f692": "man firefighter",
+    "1f468_1f527": "man mechanic",
+    "1f468_1f3ed": "man factory worker",
+    "1f468_1f680": "man astronaut",
     "1f468_2695": "man health worker",
-    "1f468_2696": "man judge",
+    "1f468_1f4bc": "man office worker",
     "1f468_2708": "man pilot",
+    "1f468_1f3a8": "man artist",
+    "1f468_1f3a4": "man singer",
+    "1f468_1f4bb": "man technologist",
+    "1f468_1f52c": "man scientist",
+    "1f468": "man",
+    "1f468_1f393": "man student",
+    "1f468_1f3eb": "man teacher",
+    "1f468_2696": "man judge",
+    "1f469_1f692": "woman firefighter",
     "1f469": "woman",
+    "1f469_2695": "woman health worker",
+    "1f469_1f393": "woman student",
+    "1f469_1f3eb": "woman teacher",
+    "1f469_2696": "woman judge",
     "1f469_1f33e": "woman farmer",
     "1f469_1f373": "woman cook",
-    "1f469_1f393": "woman student",
+    "1f469_1f527": "woman mechanic",
+    "1f469_1f3ed": "woman factory worker",
+    "1f469_1f4bc": "woman office worker",
+    "1f469_1f52c": "woman scientist",
+    "1f469_1f4bb": "woman technologist",
     "1f469_1f3a4": "woman singer",
     "1f469_1f3a8": "woman artist",
-    "1f469_1f3eb": "woman teacher",
-    "1f469_1f3ed": "woman factory worker",
-    "1f469_1f4bb": "woman technologist",
-    "1f469_1f4bc": "woman office worker",
-    "1f469_1f527": "woman mechanic",
-    "1f469_1f52c": "woman scientist",
-    "1f469_1f680": "woman astronaut",
-    "1f469_1f692": "woman firefighter",
-    "1f469_2695": "woman health worker",
-    "1f469_2696": "woman judge",
     "1f469_2708": "woman pilot",
+    "1f469_1f680": "woman astronaut",
     "1f46a_MWB": "family",
     "1f46b": "man and woman holding hands",
     "1f46c": "two men holding hands",
     "1f46d": "two women holding hands",
-    "1f46e_2640": "woman police officer",
     "1f46e": "police officer",
     "1f46e_2642": "man police officer",
-    "1f46f": "people with bunny ears partying",
-    "1f46f_2640": "women with bunny ears partying",
-    "1f46f_2642": "men with bunny ears partying",
+    "1f46e_2640": "woman police officer",
+    "1f46f": "people with bunny ears",
+    "1f46f_2642": "men with bunny ears",
+    "1f46f_2640": "women with bunny ears",
     "1f470": "bride with veil",
-    "1f471_2642": "blond-haired man",
-    "1f471": "blond-haired person",
     "1f471_2640": "blond-haired woman",
+    "1f471": "blond-haired person",
+    "1f471_2642": "blond-haired man",
     "1f472": "man with Chinese cap",
     "1f473": "person wearing turban",
-    "1f473_2640": "woman wearing turban",
     "1f473_2642": "man wearing turban",
+    "1f473_2640": "woman wearing turban",
     "1f474": "old man",
     "1f475": "old woman",
     "1f476": "baby",
-    "1f477_2640": "woman construction worker",
-    "1f477": "construction worker",
     "1f477_2642": "man construction worker",
+    "1f477": "construction worker",
+    "1f477_2640": "woman construction worker",
     "1f478": "princess",
     "1f479": "ogre",
     "1f47a": "goblin",
@@ -633,18 +633,18 @@
     "1f481_2640": "woman tipping hand",
     "1f481": "person tipping hand",
     "1f481_2642": "man tipping hand",
-    "1f482": "guard",
     "1f482_2642": "man guard",
+    "1f482": "guard",
     "1f482_2640": "woman guard",
     "1f483": "woman dancing",
     "1f484": "lipstick",
     "1f485": "nail polish",
-    "1f486_2642": "man getting massage",
-    "1f486_2640": "woman getting massage",
     "1f486": "person getting massage",
+    "1f486_2640": "woman getting massage",
+    "1f486_2642": "man getting massage",
     "1f487_2642": "man getting haircut",
-    "1f487": "person getting haircut",
     "1f487_2640": "woman getting haircut",
+    "1f487": "person getting haircut",
     "1f488": "barber pole",
     "1f489": "syringe",
     "1f48a": "pill",
@@ -768,7 +768,7 @@
     "1f501": "repeat button",
     "1f502": "repeat single button",
     "1f503": "clockwise vertical arrows",
-    "1f504": "anticlockwise arrows button",
+    "1f504": "counterclockwise arrows button",
     "1f505": "dim button",
     "1f506": "bright button",
     "1f507": "muted speaker",
@@ -777,8 +777,8 @@
     "1f50a": "speaker high volume",
     "1f50b": "battery",
     "1f50c": "electric plug",
-    "1f50d": "left-pointing magnifying glass",
-    "1f50e": "right-pointing magnifying glass",
+    "1f50d": "magnifying glass tilted left",
+    "1f50e": "magnifying glass tilted right",
     "1f50f": "locked with pen",
     "1f510": "locked with key",
     "1f511": "key",
@@ -795,7 +795,6 @@
     "1f51c": "SOON arrow",
     "1f51d": "TOP arrow",
     "1f51e": "no one under eighteen",
-    "1f51f": "keycap 10",
     "1f520": "input latin uppercase",
     "1f521": "input latin lowercase",
     "1f522": "input numbers",
@@ -824,8 +823,8 @@
     "1f539": "small blue diamond",
     "1f53a": "red triangle pointed up",
     "1f53b": "red triangle pointed down",
-    "1f53c": "up button",
-    "1f53d": "down button",
+    "1f53c": "upwards button",
+    "1f53d": "downwards button",
     "1f549": "om",
     "1f54a": "dove",
     "1f54b": "kaaba",
@@ -859,9 +858,9 @@
     "1f56f": "candle",
     "1f570": "mantelpiece clock",
     "1f573": "hole",
-    "1f574": "man in business suit levitating",
-    "1f575": "detective",
+    "1f574": "man in suit levitating",
     "1f575_2642": "man detective",
+    "1f575": "detective",
     "1f575_2640": "woman detective",
     "1f576": "sunglasses",
     "1f577": "spider",
@@ -873,7 +872,7 @@
     "1f58b": "fountain pen",
     "1f58c": "paintbrush",
     "1f58d": "crayon",
-    "1f590": "raised hand with fingers splayed",
+    "1f590": "hand with fingers splayed",
     "1f595": "middle finger",
     "1f596": "vulcan salute",
     "1f5a4": "black heart",
@@ -903,17 +902,17 @@
     "1f5fe": "map of Japan",
     "1f5ff": "moai",
     "1f600": "grinning face",
-    "1f601": "grinning face with smiling eyes",
+    "1f601": "beaming face with smiling eyes",
     "1f602": "face with tears of joy",
-    "1f603": "smiling face with open mouth",
-    "1f604": "smiling face with open mouth & smiling eyes",
-    "1f605": "smiling face with open mouth & cold sweat",
-    "1f606": "smiling face with open mouth & closed eyes",
+    "1f603": "grinning face with big eyes",
+    "1f604": "grinning face with smiling eyes",
+    "1f605": "grinning face with sweat",
+    "1f606": "grinning squinting face",
     "1f607": "smiling face with halo",
     "1f608": "smiling face with horns",
     "1f609": "winking face",
     "1f60a": "smiling face with smiling eyes",
-    "1f60b": "face savouring delicious food",
+    "1f60b": "face savoring food",
     "1f60c": "relieved face",
     "1f60d": "smiling face with heart-eyes",
     "1f60e": "smiling face with sunglasses",
@@ -921,7 +920,7 @@
     "1f610": "neutral face",
     "1f611": "expressionless face",
     "1f612": "unamused face",
-    "1f613": "face with cold sweat",
+    "1f613": "downcast face with sweat",
     "1f614": "pensive face",
     "1f615": "confused face",
     "1f616": "confounded face",
@@ -929,9 +928,9 @@
     "1f618": "face blowing a kiss",
     "1f619": "kissing face with smiling eyes",
     "1f61a": "kissing face with closed eyes",
-    "1f61b": "face with stuck-out tongue",
-    "1f61c": "face with stuck-out tongue & winking eye",
-    "1f61d": "face with stuck-out tongue & closed eyes",
+    "1f61b": "face with tongue",
+    "1f61c": "winking face with tongue",
+    "1f61d": "squinting face with tongue",
     "1f61e": "disappointed face",
     "1f61f": "worried face",
     "1f620": "angry face",
@@ -939,7 +938,7 @@
     "1f622": "crying face",
     "1f623": "persevering face",
     "1f624": "face with steam from nose",
-    "1f625": "disappointed but relieved face",
+    "1f625": "sad but relieved face",
     "1f626": "frowning face with open mouth",
     "1f627": "anguished face",
     "1f628": "fearful face",
@@ -950,7 +949,7 @@
     "1f62d": "loudly crying face",
     "1f62e": "face with open mouth",
     "1f62f": "hushed face",
-    "1f630": "face with open mouth & cold sweat",
+    "1f630": "anxious face with sweat",
     "1f631": "face screaming in fear",
     "1f632": "astonished face",
     "1f633": "flushed face",
@@ -960,10 +959,10 @@
     "1f637": "face with medical mask",
     "1f638": "grinning cat face with smiling eyes",
     "1f639": "cat face with tears of joy",
-    "1f63a": "smiling cat face with open mouth",
+    "1f63a": "grinning cat face",
     "1f63b": "smiling cat face with heart-eyes",
     "1f63c": "cat face with wry smile",
-    "1f63d": "kissing cat face with closed eyes",
+    "1f63d": "kissing cat face",
     "1f63e": "pouting cat face",
     "1f63f": "crying cat face",
     "1f640": "weary cat face",
@@ -971,35 +970,35 @@
     "1f642": "slightly smiling face",
     "1f643": "upside-down face",
     "1f644": "face with rolling eyes",
-    "1f645_2642": "man gesturing NO",
-    "1f645": "person gesturing NO",
     "1f645_2640": "woman gesturing NO",
+    "1f645": "person gesturing NO",
+    "1f645_2642": "man gesturing NO",
     "1f646_2642": "man gesturing OK",
     "1f646": "person gesturing OK",
     "1f646_2640": "woman gesturing OK",
-    "1f647_2640": "woman bowing",
     "1f647": "person bowing",
+    "1f647_2640": "woman bowing",
     "1f647_2642": "man bowing",
     "1f648": "see-no-evil monkey",
     "1f649": "hear-no-evil monkey",
     "1f64a": "speak-no-evil monkey",
-    "1f64b": "person raising hand",
-    "1f64b_2640": "woman raising hand",
     "1f64b_2642": "man raising hand",
+    "1f64b_2640": "woman raising hand",
+    "1f64b": "person raising hand",
     "1f64c": "raising hands",
-    "1f64d_2642": "man frowning",
-    "1f64d_2640": "woman frowning",
     "1f64d": "person frowning",
+    "1f64d_2640": "woman frowning",
+    "1f64d_2642": "man frowning",
     "1f64e": "person pouting",
-    "1f64e_2640": "woman pouting",
     "1f64e_2642": "man pouting",
+    "1f64e_2640": "woman pouting",
     "1f64f": "folded hands",
     "1f680": "rocket",
     "1f681": "helicopter",
     "1f682": "locomotive",
     "1f683": "railway car",
     "1f684": "high-speed train",
-    "1f685": "high-speed train with bullet nose",
+    "1f685": "bullet train",
     "1f686": "train",
     "1f687": "metro",
     "1f688": "light rail",
@@ -1029,9 +1028,9 @@
     "1f6a0": "mountain cableway",
     "1f6a1": "aerial tramway",
     "1f6a2": "ship",
-    "1f6a3": "person rowing boat",
-    "1f6a3_2640": "woman rowing boat",
     "1f6a3_2642": "man rowing boat",
+    "1f6a3_2640": "woman rowing boat",
+    "1f6a3": "person rowing boat",
     "1f6a4": "speedboat",
     "1f6a5": "horizontal traffic light",
     "1f6a6": "vertical traffic light",
@@ -1048,14 +1047,14 @@
     "1f6b1": "non-potable water",
     "1f6b2": "bicycle",
     "1f6b3": "no bicycles",
-    "1f6b4": "person biking",
-    "1f6b4_2640": "woman biking",
     "1f6b4_2642": "man biking",
+    "1f6b4_2640": "woman biking",
+    "1f6b4": "person biking",
+    "1f6b5_2642": "man mountain biking",
     "1f6b5": "person mountain biking",
     "1f6b5_2640": "woman mountain biking",
-    "1f6b5_2642": "man mountain biking",
-    "1f6b6": "person walking",
     "1f6b6_2640": "woman walking",
+    "1f6b6": "person walking",
     "1f6b6_2642": "man walking",
     "1f6b7": "no pedestrians",
     "1f6b8": "children crossing",
@@ -1118,15 +1117,15 @@
     "1f923": "rolling on the floor laughing",
     "1f924": "drooling face",
     "1f925": "lying face",
-    "1f926": "person facepalming",
     "1f926_2640": "woman facepalming",
     "1f926_2642": "man facepalming",
+    "1f926": "person facepalming",
     "1f927": "sneezing face",
     "1f928": "face with raised eyebrow",
     "1f929": "star-struck",
-    "1f92a": "crazy face",
+    "1f92a": "zany face",
     "1f92b": "shushing face",
-    "1f92c": "face with symbols over mouth",
+    "1f92c": "face with symbols on mouth",
     "1f92d": "face with hand over mouth",
     "1f92e": "face vomiting",
     "1f92f": "exploding head",
@@ -1138,24 +1137,24 @@
     "1f935": "man in tuxedo",
     "1f936": "Mrs. Claus",
     "1f937": "person shrugging",
-    "1f937_2640": "woman shrugging",
     "1f937_2642": "man shrugging",
+    "1f937_2640": "woman shrugging",
     "1f938": "person cartwheeling",
-    "1f938_2640": "woman cartwheeling",
     "1f938_2642": "man cartwheeling",
+    "1f938_2640": "woman cartwheeling",
     "1f939_2642": "man juggling",
     "1f939": "person juggling",
     "1f939_2640": "woman juggling",
     "1f93a": "person fencing",
     "1f93c_2640": "women wrestling",
-    "1f93c": "people wrestling",
     "1f93c_2642": "men wrestling",
-    "1f93d": "person playing water polo",
-    "1f93d_2640": "woman playing water polo",
+    "1f93c": "people wrestling",
     "1f93d_2642": "man playing water polo",
+    "1f93d_2640": "woman playing water polo",
+    "1f93d": "person playing water polo",
     "1f93e_2640": "woman playing handball",
-    "1f93e": "person playing handball",
     "1f93e_2642": "man playing handball",
+    "1f93e": "person playing handball",
     "1f940": "wilted flower",
     "1f941": "drum",
     "1f942": "clinking glasses",
@@ -1227,36 +1226,36 @@
     "1f9d3": "older adult",
     "1f9d4": "bearded person",
     "1f9d5": "woman with headscarf",
-    "1f9d6_2640": "woman in steamy room",
     "1f9d6": "person in steamy room",
     "1f9d6_2642": "man in steamy room",
-    "1f9d7_2640": "woman climbing",
+    "1f9d6_2640": "woman in steamy room",
     "1f9d7": "person climbing",
+    "1f9d7_2640": "woman climbing",
     "1f9d7_2642": "man climbing",
-    "1f9d8_2640": "woman in lotus position",
-    "1f9d8": "person in lotus position",
     "1f9d8_2642": "man in lotus position",
-    "1f9d9_2640": "woman mage",
-    "1f9d9": "mage",
+    "1f9d8": "person in lotus position",
+    "1f9d8_2640": "woman in lotus position",
     "1f9d9_2642": "man mage",
+    "1f9d9": "mage",
+    "1f9d9_2640": "woman mage",
     "1f9da": "fairy",
-    "1f9da_2640": "woman fairy",
     "1f9da_2642": "man fairy",
-    "1f9db_2642": "man vampire",
+    "1f9da_2640": "woman fairy",
     "1f9db": "vampire",
     "1f9db_2640": "woman vampire",
+    "1f9db_2642": "man vampire",
     "1f9dc_2640": "mermaid",
-    "1f9dc": "merperson",
     "1f9dc_2642": "merman",
-    "1f9dd": "elf",
+    "1f9dc": "merperson",
     "1f9dd_2642": "man elf",
+    "1f9dd": "elf",
     "1f9dd_2640": "woman elf",
-    "1f9de": "genie",
     "1f9de_2642": "man genie",
     "1f9de_2640": "woman genie",
-    "1f9df_2642": "man zombie",
+    "1f9de": "genie",
     "1f9df_2640": "woman zombie",
     "1f9df": "zombie",
+    "1f9df_2642": "man zombie",
     "1f9e0": "brain",
     "1f9e1": "orange heart",
     "1f9e2": "billed cap",
@@ -1274,12 +1273,14 @@
     ],
     "203c": [
       "bangbang",
+      "double exclamation mark",
       "exclamation",
       "mark",
       "punctuation"
     ],
     "2049": [
       "exclamation",
+      "exclamation question mark",
       "interrobang",
       "mark",
       "punctuation",
@@ -1288,6 +1289,7 @@
     "2122": [
       "mark",
       "tm",
+      "trade mark",
       "trademark"
     ],
     "2139": [
@@ -1295,82 +1297,100 @@
       "information"
     ],
     "2194": [
-      "arrow"
+      "arrow",
+      "left-right arrow"
     ],
     "2195": [
-      "arrow"
+      "arrow",
+      "up-down arrow"
     ],
     "2196": [
       "arrow",
       "direction",
       "intercardinal",
-      "northwest"
+      "northwest",
+      "up-left arrow"
     ],
     "2197": [
       "arrow",
       "direction",
       "intercardinal",
-      "northeast"
+      "northeast",
+      "up-right arrow"
     ],
     "2198": [
       "arrow",
       "direction",
+      "down-right arrow",
       "intercardinal",
       "southeast"
     ],
     "2199": [
       "arrow",
       "direction",
+      "down-left arrow",
       "intercardinal",
       "southwest"
     ],
     "21a9": [
-      "arrow"
+      "arrow",
+      "right arrow curving left"
     ],
     "21aa": [
-      "arrow"
+      "arrow",
+      "left arrow curving right"
     ],
     "231a": [
-      "clock"
+      "clock",
+      "watch"
     ],
     "231b": [
+      "hourglass done",
       "sand",
       "timer"
     ],
     "2328": [
-      "computer"
+      "computer",
+      "keyboard"
     ],
     "23cf": [
-      "eject"
+      "eject",
+      "eject button"
     ],
     "23e9": [
       "arrow",
       "double",
       "fast",
+      "fast-forward button",
       "forward"
     ],
     "23ea": [
       "arrow",
       "double",
+      "fast reverse button",
       "rewind"
     ],
     "23eb": [
       "arrow",
-      "double"
+      "double",
+      "fast up button"
     ],
     "23ec": [
       "arrow",
       "double",
-      "down"
+      "down",
+      "fast down button"
     ],
     "23ed": [
       "arrow",
       "next scene",
       "next track",
+      "next track button",
       "triangle"
     ],
     "23ee": [
       "arrow",
+      "last track button",
       "previous scene",
       "previous track",
       "triangle"
@@ -1379,22 +1399,27 @@
       "arrow",
       "pause",
       "play",
+      "play or pause button",
       "right",
       "triangle"
     ],
     "23f0": [
       "alarm",
+      "alarm clock",
       "clock"
     ],
     "23f1": [
-      "clock"
+      "clock",
+      "stopwatch"
     ],
     "23f2": [
       "clock",
-      "timer"
+      "timer",
+      "timer clock"
     ],
     "23f3": [
       "hourglass",
+      "hourglass not done",
       "sand",
       "timer"
     ],
@@ -1402,31 +1427,38 @@
       "bar",
       "double",
       "pause",
+      "pause button",
       "vertical"
     ],
     "23f9": [
       "square",
-      "stop"
+      "stop",
+      "stop button"
     ],
     "23fa": [
       "circle",
-      "record"
+      "record",
+      "record button"
     ],
     "24c2": [
       "circle",
+      "circled M",
       "m"
     ],
     "25aa": [
+      "black small square",
       "geometric",
       "square"
     ],
     "25ab": [
       "geometric",
-      "square"
+      "square",
+      "white small square"
     ],
     "25b6": [
       "arrow",
       "play",
+      "play button",
       "right",
       "triangle"
     ],
@@ -1434,48 +1466,60 @@
       "arrow",
       "left",
       "reverse",
+      "reverse button",
       "triangle"
     ],
     "25fb": [
       "geometric",
-      "square"
+      "square",
+      "white medium square"
     ],
     "25fc": [
+      "black medium square",
       "geometric",
       "square"
     ],
     "25fd": [
       "geometric",
-      "square"
+      "square",
+      "white medium-small square"
     ],
     "25fe": [
+      "black medium-small square",
       "geometric",
       "square"
     ],
     "2600": [
       "bright",
       "rays",
+      "sun",
       "sunny"
     ],
     "2601": [
+      "cloud",
       "weather"
     ],
     "2602": [
       "clothing",
-      "rain"
+      "rain",
+      "umbrella"
     ],
     "2603": [
       "cold",
-      "snow"
+      "snow",
+      "snowman"
     ],
     "2604": [
+      "comet",
       "space"
     ],
     "260e": [
-      "phone"
+      "phone",
+      "telephone"
     ],
     "2611": [
       "ballot",
+      "ballot box with check",
       "box",
       "check"
     ],
@@ -1483,23 +1527,27 @@
       "clothing",
       "drop",
       "rain",
-      "umbrella"
+      "umbrella",
+      "umbrella with rain drops"
     ],
     "2615": [
       "beverage",
       "coffee",
       "drink",
       "hot",
+      "hot beverage",
       "steaming",
       "tea"
     ],
     "2618": [
-      "plant"
+      "plant",
+      "shamrock"
     ],
     "261d": [
       "finger",
       "hand",
       "index",
+      "index pointing up",
       "point",
       "up"
     ],
@@ -1508,7 +1556,8 @@
       "death",
       "face",
       "monster",
-      "skull"
+      "skull",
+      "skull and crossbones"
     ],
     "2622": [
       "radioactive",
@@ -1521,146 +1570,179 @@
     "2626": [
       "Christian",
       "cross",
+      "orthodox cross",
       "religion"
     ],
     "262a": [
       "islam",
       "Muslim",
-      "religion"
+      "religion",
+      "star and crescent"
     ],
     "262e": [
-      "peace"
+      "peace",
+      "peace symbol"
     ],
     "262f": [
       "religion",
       "tao",
       "taoist",
       "yang",
-      "yin"
+      "yin",
+      "yin yang"
     ],
     "2638": [
       "Buddhist",
       "dharma",
       "religion",
-      "wheel"
+      "wheel",
+      "wheel of dharma"
     ],
     "2639": [
       "face",
-      "frown"
+      "frown",
+      "frowning face"
     ],
     "263a": [
       "face",
       "outlined",
       "relaxed",
-      "smile"
+      "smile",
+      "smiling face"
     ],
     "2640": [
+      "female sign",
       "woman"
     ],
     "2642": [
+      "male sign",
       "man"
     ],
     "2648": [
+      "Aries",
       "ram",
       "zodiac"
     ],
     "2649": [
       "bull",
       "ox",
+      "Taurus",
       "zodiac"
     ],
     "264a": [
+      "Gemini",
       "twins",
       "zodiac"
     ],
     "264b": [
+      "Cancer",
       "crab",
       "zodiac"
     ],
     "264c": [
+      "Leo",
       "lion",
       "zodiac"
     ],
     "264d": [
+      "Virgo",
       "zodiac"
     ],
     "264e": [
       "balance",
       "justice",
+      "Libra",
       "scales",
       "zodiac"
     ],
     "264f": [
-      "scorpio",
+      "Scorpio",
       "scorpion",
+      "scorpius",
       "zodiac"
     ],
     "2650": [
       "archer",
+      "Sagittarius",
       "zodiac"
     ],
     "2651": [
+      "Capricorn",
       "goat",
       "zodiac"
     ],
     "2652": [
+      "Aquarius",
       "bearer",
       "water",
       "zodiac"
     ],
     "2653": [
       "fish",
+      "Pisces",
       "zodiac"
     ],
     "2660": [
       "card",
-      "game"
+      "game",
+      "spade suit"
     ],
     "2663": [
       "card",
+      "club suit",
       "game"
     ],
     "2665": [
       "card",
-      "game"
+      "game",
+      "heart suit"
     ],
     "2666": [
       "card",
+      "diamond suit",
       "game"
     ],
     "2668": [
       "hot",
+      "hot springs",
       "hotsprings",
       "springs",
       "steaming"
     ],
     "267b": [
-      "recycle"
+      "recycle",
+      "recycling symbol"
     ],
     "267f": [
-      "access"
+      "access",
+      "wheelchair symbol"
     ],
     "2692": [
       "hammer",
+      "hammer and pick",
       "pick",
       "tool"
     ],
     "2693": [
+      "anchor",
       "ship",
       "tool"
     ],
     "2694": [
       "crossed",
+      "crossed swords",
       "swords",
       "weapon"
     ],
     "2695": [
-      "staff",
+      "aesculapius",
+      "medical symbol",
       "medicine",
-      "aesculapius"
+      "staff"
     ],
     "2696": [
       "balance",
+      "balance scale",
       "justice",
       "Libra",
       "scales",
@@ -1669,15 +1751,18 @@
       "zodiac"
     ],
     "2697": [
+      "alembic",
       "chemistry",
       "tool"
     ],
     "2699": [
+      "gear",
       "tool"
     ],
     "269b": [
       "atheist",
-      "atom"
+      "atom",
+      "atom symbol"
     ],
     "269c": [
       "fleur-de-lis"
@@ -1689,57 +1774,69 @@
       "danger",
       "electric",
       "electricity",
+      "high voltage",
       "lightning",
       "voltage",
       "zap"
     ],
     "26aa": [
       "circle",
-      "geometric"
+      "geometric",
+      "white circle"
     ],
     "26ab": [
+      "black circle",
       "circle",
       "geometric"
     ],
     "26b0": [
+      "coffin",
       "death"
     ],
     "26b1": [
+      "ashes",
       "death",
       "funeral",
-      "urn",
-      "ashes"
+      "funeral urn",
+      "urn"
     ],
     "26bd": [
       "ball",
+      "football",
       "soccer",
-      "football"
+      "soccer ball"
     ],
     "26be": [
-      "ball"
+      "ball",
+      "baseball"
     ],
     "26c4": [
       "cold",
       "snow",
-      "snowman"
+      "snowman",
+      "snowman without snow"
     ],
     "26c5": [
       "cloud",
-      "sun"
+      "sun",
+      "sun behind cloud"
     ],
     "26c8": [
       "cloud",
+      "cloud with lightning and rain",
       "rain",
       "thunder"
     ],
     "26ce": [
       "bearer",
+      "Ophiuchus",
       "serpent",
       "snake",
       "zodiac"
     ],
     "26cf": [
       "mining",
+      "pick",
       "tool"
     ],
     "26d1": [
@@ -1747,15 +1844,18 @@
       "cross",
       "face",
       "hat",
-      "helmet"
+      "helmet",
+      "rescue worker’s helmet"
     ],
     "26d3": [
-      "chain"
+      "chain",
+      "chains"
     ],
     "26d4": [
       "entry",
       "forbidden",
       "no",
+      "no entry",
       "not",
       "prohibited",
       "traffic"
@@ -1763,10 +1863,12 @@
     "26e9": [
       "religion",
       "shinto",
+      "shinto shrine",
       "shrine"
     ],
     "26ea": [
       "Christian",
+      "church",
       "cross",
       "religion"
     ],
@@ -1776,101 +1878,122 @@
     "26f1": [
       "rain",
       "sun",
-      "umbrella"
+      "umbrella",
+      "umbrella on ground"
     ],
     "26f2": [
       "fountain"
     ],
     "26f3": [
+      "flag in hole",
       "golf",
       "hole"
     ],
     "26f4": [
       "boat",
+      "ferry",
       "passenger"
     ],
     "26f5": [
       "boat",
       "resort",
+      "sailboat",
       "sea",
       "yacht"
     ],
     "26f7": [
       "ski",
+      "skier",
       "snow"
     ],
     "26f8": [
       "ice",
+      "ice skate",
       "skate"
     ],
     "26f9": [
-      "ball"
-    ],
-    "26f9_2640": [
       "ball",
-      "woman"
+      "person bouncing ball"
     ],
     "26f9_2642": [
       "ball",
-      "man"
+      "man",
+      "man bouncing ball"
+    ],
+    "26f9_2640": [
+      "ball",
+      "woman",
+      "woman bouncing ball"
     ],
     "26fa": [
-      "camping"
+      "camping",
+      "tent"
     ],
     "26fd": [
       "fuel",
+      "fuel pump",
       "fuelpump",
       "gas",
       "pump",
       "station"
     ],
     "2702": [
-      "tool",
-      "cutting"
+      "cutting",
+      "scissors",
+      "tool"
     ],
     "2705": [
       "check",
-      "mark"
+      "mark",
+      "white heavy check mark"
     ],
     "2708": [
       "aeroplane",
       "airplane"
     ],
     "2709": [
-      "letter",
-      "email"
+      "email",
+      "envelope",
+      "letter"
     ],
     "270a": [
       "clenched",
       "fist",
       "hand",
-      "punch"
+      "punch",
+      "raised fist"
     ],
     "270b": [
-      "hand"
+      "hand",
+      "raised hand"
     ],
     "270c": [
       "hand",
       "v",
-      "victory"
+      "victory",
+      "victory hand"
     ],
     "270d": [
       "hand",
-      "write"
+      "write",
+      "writing hand"
     ],
     "270f": [
       "pencil"
     ],
     "2712": [
+      "black nib",
       "nib",
       "pen"
     ],
     "2714": [
       "check",
+      "heavy check mark",
       "mark"
     ],
     "2716": [
       "cancel",
+      "heavy multiplication x",
       "multiplication",
       "multiply",
       "x"
@@ -1878,6 +2001,7 @@
     "271d": [
       "Christian",
       "cross",
+      "latin cross",
       "religion"
     ],
     "2721": [
@@ -1885,337 +2009,408 @@
       "Jew",
       "Jewish",
       "religion",
-      "star"
+      "star",
+      "star of David"
     ],
     "2728": [
       "sparkle",
+      "sparkles",
       "star"
     ],
     "2733": [
-      "asterisk"
+      "asterisk",
+      "eight-spoked asterisk"
     ],
     "2734": [
+      "eight-pointed star",
       "star"
     ],
     "2744": [
       "cold",
-      "snow"
+      "snow",
+      "snowflake"
     ],
     "2747": [
       "sparkle"
     ],
     "274c": [
       "cancel",
+      "cross mark",
       "mark",
       "multiplication",
       "multiply",
       "x"
     ],
     "274e": [
+      "cross mark button",
       "mark",
       "square"
     ],
     "2753": [
       "mark",
       "punctuation",
-      "question"
+      "question",
+      "question mark"
     ],
     "2754": [
       "mark",
       "outlined",
       "punctuation",
-      "question"
+      "question",
+      "white question mark"
     ],
     "2755": [
       "exclamation",
       "mark",
       "outlined",
-      "punctuation"
+      "punctuation",
+      "white exclamation mark"
     ],
     "2757": [
       "exclamation",
+      "exclamation mark",
       "mark",
       "punctuation"
     ],
     "2763": [
       "exclamation",
+      "heavy heart exclamation",
       "mark",
       "punctuation"
     ],
     "2764": [
-      "heart"
+      "heart",
+      "red heart"
     ],
     "2795": [
+      "heavy plus sign",
       "math",
       "plus"
     ],
     "2796": [
+      "heavy minus sign",
       "math",
       "minus"
     ],
     "2797": [
       "division",
+      "heavy division sign",
       "math"
     ],
     "27a1": [
       "arrow",
       "cardinal",
       "direction",
-      "east"
+      "east",
+      "right arrow"
     ],
     "27b0": [
       "curl",
+      "curly loop",
       "loop"
     ],
     "27bf": [
       "curl",
       "double",
+      "double curly loop",
       "loop"
     ],
     "2934": [
-      "arrow"
+      "arrow",
+      "right arrow curving up"
     ],
     "2935": [
       "arrow",
-      "down"
+      "down",
+      "right arrow curving down"
     ],
     "2b05": [
       "arrow",
       "cardinal",
       "direction",
+      "left arrow",
       "west"
     ],
     "2b06": [
       "arrow",
       "cardinal",
       "direction",
-      "north"
+      "north",
+      "up arrow"
     ],
     "2b07": [
       "arrow",
       "cardinal",
       "direction",
       "down",
+      "down arrow",
       "south"
     ],
     "2b1b": [
+      "black large square",
       "geometric",
       "square"
     ],
     "2b1c": [
       "geometric",
-      "square"
+      "square",
+      "white large square"
     ],
     "2b50": [
-      "star"
+      "star",
+      "white medium star"
     ],
     "2b55": [
       "circle",
+      "heavy large circle",
       "o"
     ],
     "3030": [
       "dash",
       "punctuation",
-      "wavy"
+      "wavy",
+      "wavy dash"
     ],
     "303d": [
       "mark",
-      "part"
+      "part",
+      "part alternation mark"
     ],
     "3297": [
-      "Japanese",
+      "“congratulations”",
       "ideograph",
-      "祝",
-      "“congratulations”"
+      "Japanese",
+      "Japanese “congratulations” button",
+      "祝"
     ],
     "3299": [
-      "Japanese",
+      "“secret”",
       "ideograph",
-      "秘",
-      "“secret”"
+      "Japanese",
+      "Japanese “secret” button",
+      "秘"
     ],
     "1f004": [
       "game",
       "mahjong",
+      "mahjong red dragon",
       "red"
     ],
     "1f0cf": [
       "card",
       "game",
+      "joker",
       "wildcard"
     ],
     "1f170": [
       "a",
+      "A button (blood type)",
       "blood type"
     ],
     "1f171": [
       "b",
+      "B button (blood type)",
       "blood type"
     ],
     "1f17e": [
       "blood type",
-      "o"
+      "o",
+      "O button (blood type)"
     ],
     "1f17f": [
+      "P button",
       "parking"
     ],
     "1f18e": [
       "ab",
+      "AB button (blood type)",
       "blood type"
     ],
     "1f191": [
-      "cl"
+      "cl",
+      "CL button"
     ],
     "1f192": [
-      "cool"
+      "cool",
+      "COOL button"
     ],
     "1f193": [
-      "free"
+      "free",
+      "FREE button"
     ],
     "1f194": [
       "id",
+      "ID button",
       "identity"
     ],
     "1f195": [
-      "new"
+      "new",
+      "NEW button"
     ],
     "1f196": [
-      "ng"
+      "ng",
+      "NG button"
     ],
     "1f197": [
-      "OK"
+      "OK",
+      "OK button"
     ],
     "1f198": [
       "help",
-      "sos"
+      "sos",
+      "SOS button"
     ],
     "1f199": [
       "mark",
-      "up"
+      "up",
+      "UP! button"
     ],
     "1f19a": [
       "versus",
-      "vs"
+      "vs",
+      "VS button"
     ],
     "1f201": [
+      "“here”",
       "Japanese",
+      "Japanese “here” button",
       "katakana",
-      "ココ",
-      "“here”"
+      "ココ"
     ],
     "1f202": [
+      "“service charge”",
       "Japanese",
+      "Japanese “service charge” button",
       "katakana",
-      "サ",
-      "“service charge”"
+      "サ"
     ],
     "1f21a": [
-      "Japanese",
+      "“free of charge”",
       "ideograph",
-      "無",
-      "“free of charge”"
+      "Japanese",
+      "Japanese “free of charge” button",
+      "無"
     ],
     "1f22f": [
-      "Japanese",
+      "“reserved”",
       "ideograph",
-      "指",
-      "“reserved”"
+      "Japanese",
+      "Japanese “reserved” button",
+      "指"
     ],
     "1f232": [
-      "Japanese",
+      "“prohibited”",
       "ideograph",
-      "禁",
-      "“prohibited”"
+      "Japanese",
+      "Japanese “prohibited” button",
+      "禁"
     ],
     "1f233": [
-      "Japanese",
+      "“vacancy”",
       "ideograph",
-      "空",
-      "“vacancy”"
+      "Japanese",
+      "Japanese “vacancy” button",
+      "空"
     ],
     "1f234": [
-      "Japanese",
+      "“passing grade”",
       "ideograph",
-      "合",
-      "“passing grade”"
+      "Japanese",
+      "Japanese “passing grade” button",
+      "合"
     ],
     "1f235": [
-      "Japanese",
+      "“no vacancy”",
       "ideograph",
-      "満",
-      "“no vacancy”"
+      "Japanese",
+      "Japanese “no vacancy” button",
+      "満"
     ],
     "1f236": [
-      "Japanese",
+      "“not free of charge”",
       "ideograph",
-      "有",
-      "“not free of charge”"
+      "Japanese",
+      "Japanese “not free of charge” button",
+      "有"
     ],
     "1f237": [
-      "Japanese",
+      "“monthly amount”",
       "ideograph",
-      "月",
-      "“monthly amount”"
+      "Japanese",
+      "Japanese “monthly amount” button",
+      "月"
     ],
     "1f238": [
-      "Japanese",
+      "“application”",
       "ideograph",
-      "申",
-      "“application”"
+      "Japanese",
+      "Japanese “application” button",
+      "申"
     ],
     "1f239": [
-      "Japanese",
+      "“discount”",
       "ideograph",
-      "割",
-      "“discount”"
+      "Japanese",
+      "Japanese “discount” button",
+      "割"
     ],
     "1f23a": [
-      "Japanese",
+      "“open for business”",
       "ideograph",
-      "営",
-      "“open for business”"
+      "Japanese",
+      "Japanese “open for business” button",
+      "営"
     ],
     "1f250": [
-      "Japanese",
+      "“bargain”",
       "ideograph",
-      "得",
-      "“bargain”"
+      "Japanese",
+      "Japanese “bargain” button",
+      "得"
     ],
     "1f251": [
-      "Japanese",
+      "“acceptable”",
       "ideograph",
-      "可",
-      "“acceptable”"
+      "Japanese",
+      "Japanese “acceptable” button",
+      "可"
     ],
     "1f300": [
+      "cyclone",
       "dizzy",
       "twister",
       "typhoon"
     ],
     "1f301": [
-      "fog"
+      "fog",
+      "foggy"
     ],
     "1f302": [
+      "closed umbrella",
       "clothing",
       "rain",
       "umbrella"
     ],
     "1f303": [
       "night",
+      "night with stars",
       "star"
     ],
     "1f304": [
       "morning",
       "mountain",
       "sun",
-      "sunrise"
+      "sunrise",
+      "sunrise over mountains"
     ],
     "1f305": [
       "morning",
-      "sun"
+      "sun",
+      "sunrise"
     ],
     "1f306": [
       "city",
+      "cityscape at dusk",
       "dusk",
       "evening",
       "landscape",
@@ -2224,25 +2419,31 @@
     ],
     "1f307": [
       "dusk",
-      "sun"
+      "sun",
+      "sunset"
     ],
     "1f308": [
-      "rain"
+      "rain",
+      "rainbow"
     ],
     "1f309": [
       "bridge",
+      "bridge at night",
       "night"
     ],
     "1f30a": [
       "ocean",
       "water",
+      "water wave",
       "wave"
     ],
     "1f30b": [
       "eruption",
-      "mountain"
+      "mountain",
+      "volcano"
     ],
     "1f30c": [
+      "milky way",
       "space"
     ],
     "1f30d": [
@@ -2250,12 +2451,14 @@
       "earth",
       "Europe",
       "globe",
+      "globe showing Europe-Africa",
       "world"
     ],
     "1f30e": [
       "Americas",
       "earth",
       "globe",
+      "globe showing Americas",
       "world"
     ],
     "1f30f": [
@@ -2263,65 +2466,79 @@
       "Australia",
       "earth",
       "globe",
+      "globe showing Asia-Australia",
       "world"
     ],
     "1f310": [
       "earth",
       "globe",
+      "globe with meridians",
       "meridians",
       "world"
     ],
     "1f311": [
       "dark",
-      "moon"
+      "moon",
+      "new moon"
     ],
     "1f312": [
       "crescent",
       "moon",
-      "waxing"
+      "waxing",
+      "waxing crescent moon"
     ],
     "1f313": [
+      "first quarter moon",
       "moon",
       "quarter"
     ],
     "1f314": [
       "gibbous",
       "moon",
-      "waxing"
+      "waxing",
+      "waxing gibbous moon"
     ],
     "1f315": [
       "full",
+      "full moon",
       "moon"
     ],
     "1f316": [
       "gibbous",
       "moon",
-      "waning"
+      "waning",
+      "waning gibbous moon"
     ],
     "1f317": [
+      "last quarter moon",
       "moon",
       "quarter"
     ],
     "1f318": [
       "crescent",
       "moon",
-      "waning"
+      "waning",
+      "waning crescent moon"
     ],
     "1f319": [
       "crescent",
+      "crescent moon",
       "moon"
     ],
     "1f31a": [
       "face",
-      "moon"
+      "moon",
+      "new moon face"
     ],
     "1f31b": [
       "face",
+      "first quarter moon face",
       "moon",
       "quarter"
     ],
     "1f31c": [
       "face",
+      "last quarter moon face",
       "moon",
       "quarter"
     ],
@@ -2329,16 +2546,19 @@
       "bright",
       "face",
       "full",
+      "full moon face",
       "moon"
     ],
     "1f31e": [
       "bright",
       "face",
-      "sun"
+      "sun",
+      "sun with face"
     ],
     "1f31f": [
       "glittery",
       "glow",
+      "glowing star",
       "shining",
       "sparkle",
       "star"
@@ -2346,134 +2566,167 @@
     "1f320": [
       "falling",
       "shooting",
+      "shooting star",
       "star"
     ],
     "1f321": [
+      "thermometer",
       "weather"
     ],
     "1f324": [
       "cloud",
-      "sun"
+      "sun",
+      "sun behind small cloud"
     ],
     "1f325": [
       "cloud",
-      "sun"
+      "sun",
+      "sun behind large cloud"
     ],
     "1f326": [
       "cloud",
       "rain",
-      "sun"
+      "sun",
+      "sun behind rain cloud"
     ],
     "1f327": [
       "cloud",
+      "cloud with rain",
       "rain"
     ],
     "1f328": [
       "cloud",
+      "cloud with snow",
       "cold",
       "snow"
     ],
     "1f329": [
       "cloud",
+      "cloud with lightning",
       "lightning"
     ],
     "1f32a": [
       "cloud",
+      "tornado",
       "whirlwind"
     ],
     "1f32b": [
-      "cloud"
+      "cloud",
+      "fog"
     ],
     "1f32c": [
       "blow",
       "cloud",
       "face",
-      "wind"
+      "wind",
+      "wind face"
     ],
     "1f32d": [
       "frankfurter",
+      "hot dog",
       "hotdog",
       "sausage"
     ],
     "1f32e": [
-      "mexican"
+      "mexican",
+      "taco"
     ],
     "1f32f": [
+      "burrito",
       "mexican",
       "wrap"
     ],
     "1f330": [
+      "chestnut",
       "plant"
     ],
     "1f331": [
+      "seedling",
       "young"
     ],
     "1f332": [
+      "evergreen tree",
       "tree"
     ],
     "1f333": [
       "deciduous",
+      "deciduous tree",
       "shedding",
       "tree"
     ],
     "1f334": [
       "palm",
+      "palm tree",
       "tree"
     ],
     "1f335": [
+      "cactus",
       "plant"
     ],
     "1f336": [
       "hot",
+      "hot pepper",
       "pepper"
     ],
     "1f337": [
-      "flower"
+      "flower",
+      "tulip"
     ],
     "1f338": [
       "blossom",
       "cherry",
+      "cherry blossom",
       "flower"
     ],
     "1f339": [
-      "flower"
+      "flower",
+      "rose"
     ],
     "1f33a": [
-      "flower"
+      "flower",
+      "hibiscus"
     ],
     "1f33b": [
       "flower",
-      "sun"
+      "sun",
+      "sunflower"
     ],
     "1f33c": [
+      "blossom",
       "flower"
     ],
     "1f33d": [
       "corn",
       "ear",
+      "ear of corn",
       "maize",
       "maze"
     ],
     "1f33e": [
       "ear",
+      "grain",
       "rice",
-      "grain"
+      "sheaf of rice"
     ],
     "1f33f": [
+      "herb",
       "leaf"
     ],
     "1f340": [
       "4",
       "clover",
       "four",
+      "four leaf clover",
       "leaf"
     ],
     "1f341": [
       "falling",
       "leaf",
-      "maple"
+      "maple",
+      "maple leaf"
     ],
     "1f342": [
+      "fallen leaf",
       "falling",
       "leaf"
     ],
@@ -2481,123 +2734,156 @@
       "blow",
       "flutter",
       "leaf",
+      "leaf fluttering in wind",
       "wind"
     ],
     "1f344": [
+      "mushroom",
       "toadstool"
     ],
     "1f345": [
       "fruit",
+      "tomato",
       "vegetable"
     ],
     "1f346": [
       "aubergine",
+      "eggplant",
       "vegetable"
     ],
     "1f347": [
       "fruit",
-      "grape"
+      "grape",
+      "grapes"
     ],
     "1f348": [
-      "fruit"
+      "fruit",
+      "melon"
     ],
     "1f349": [
-      "fruit"
+      "fruit",
+      "watermelon"
     ],
     "1f34a": [
       "fruit",
-      "orange"
+      "orange",
+      "tangerine"
     ],
     "1f34b": [
       "citrus",
-      "fruit"
+      "fruit",
+      "lemon"
     ],
     "1f34c": [
+      "banana",
       "fruit"
     ],
     "1f34d": [
-      "fruit"
+      "fruit",
+      "pineapple"
     ],
     "1f34e": [
       "apple",
       "fruit",
-      "red"
+      "red",
+      "red apple"
     ],
     "1f34f": [
       "apple",
       "fruit",
-      "green"
+      "green",
+      "green apple"
     ],
     "1f350": [
-      "fruit"
+      "fruit",
+      "pear"
     ],
     "1f351": [
-      "fruit"
+      "fruit",
+      "peach"
     ],
     "1f352": [
+      "berries",
+      "cherries",
       "cherry",
-      "fruit"
+      "fruit",
+      "red"
     ],
     "1f353": [
       "berry",
-      "fruit"
+      "fruit",
+      "strawberry"
     ],
     "1f354": [
-      "burger"
+      "burger",
+      "hamburger"
     ],
     "1f355": [
       "cheese",
+      "pizza",
       "slice"
     ],
     "1f356": [
       "bone",
-      "meat"
+      "meat",
+      "meat on bone"
     ],
     "1f357": [
       "bone",
       "chicken",
       "leg",
-      "poultry"
+      "poultry",
+      "poultry leg"
     ],
     "1f358": [
       "cracker",
-      "rice"
+      "rice",
+      "rice cracker"
     ],
     "1f359": [
       "ball",
       "Japanese",
-      "rice"
+      "rice",
+      "rice ball"
     ],
     "1f35a": [
       "cooked",
+      "cooked rice",
       "rice"
     ],
     "1f35b": [
       "curry",
+      "curry rice",
       "rice"
     ],
     "1f35c": [
       "bowl",
       "noodle",
       "ramen",
-      "steaming"
+      "steaming",
+      "steaming bowl"
     ],
     "1f35d": [
-      "pasta"
+      "pasta",
+      "spaghetti"
     ],
     "1f35e": [
+      "bread",
       "loaf"
     ],
     "1f35f": [
       "french",
+      "french fries",
       "fries"
     ],
     "1f360": [
       "potato",
       "roasted",
+      "roasted sweet potato",
       "sweet"
     ],
     "1f361": [
+      "dango",
       "dessert",
       "Japanese",
       "skewer",
@@ -2606,6 +2892,7 @@
     ],
     "1f362": [
       "kebab",
+      "oden",
       "seafood",
       "skewer",
       "stick"
@@ -2615,6 +2902,7 @@
     ],
     "1f364": [
       "fried",
+      "fried shrimp",
       "prawn",
       "shrimp",
       "tempura"
@@ -2622,6 +2910,7 @@
     "1f365": [
       "cake",
       "fish",
+      "fish cake with swirl",
       "pastry",
       "swirl"
     ],
@@ -2631,51 +2920,61 @@
       "ice",
       "icecream",
       "soft",
+      "soft ice cream",
       "sweet"
     ],
     "1f367": [
       "dessert",
       "ice",
       "shaved",
+      "shaved ice",
       "sweet"
     ],
     "1f368": [
       "cream",
       "dessert",
       "ice",
+      "ice cream",
       "sweet"
     ],
     "1f369": [
       "dessert",
       "donut",
+      "doughnut",
       "sweet"
     ],
     "1f36a": [
+      "cookie",
       "dessert",
       "sweet"
     ],
     "1f36b": [
       "bar",
       "chocolate",
+      "chocolate bar",
       "dessert",
       "sweet"
     ],
     "1f36c": [
+      "candy",
       "dessert",
       "sweet"
     ],
     "1f36d": [
       "candy",
       "dessert",
+      "lollipop",
       "sweet"
     ],
     "1f36e": [
+      "custard",
       "dessert",
       "pudding",
       "sweet"
     ],
     "1f36f": [
       "honey",
+      "honey pot",
       "honeypot",
       "pot",
       "sweet"
@@ -2684,18 +2983,22 @@
       "cake",
       "dessert",
       "pastry",
+      "shortcake",
       "slice",
       "sweet"
     ],
     "1f371": [
       "bento",
+      "bento box",
       "box"
     ],
     "1f372": [
       "pot",
+      "pot of food",
       "stew"
     ],
     "1f373": [
+      "cooking",
       "egg",
       "frying",
       "pan"
@@ -2703,6 +3006,7 @@
     "1f374": [
       "cooking",
       "fork",
+      "fork and knife",
       "knife"
     ],
     "1f375": [
@@ -2710,36 +3014,42 @@
       "cup",
       "drink",
       "tea",
-      "teacup"
+      "teacup",
+      "teacup without handle"
     ],
     "1f376": [
       "bar",
       "beverage",
       "bottle",
       "cup",
-      "drink"
+      "drink",
+      "sake"
     ],
     "1f377": [
       "bar",
       "beverage",
       "drink",
       "glass",
-      "wine"
+      "wine",
+      "wine glass"
     ],
     "1f378": [
       "bar",
       "cocktail",
+      "cocktail glass",
       "drink",
       "glass"
     ],
     "1f379": [
       "bar",
       "drink",
-      "tropical"
+      "tropical",
+      "tropical drink"
     ],
     "1f37a": [
       "bar",
       "beer",
+      "beer mug",
       "drink",
       "mug"
     ],
@@ -2747,11 +3057,13 @@
       "bar",
       "beer",
       "clink",
+      "clinking beer mugs",
       "drink",
       "mug"
     ],
     "1f37c": [
       "baby",
+      "baby bottle",
       "bottle",
       "drink",
       "milk"
@@ -2759,12 +3071,14 @@
     "1f37d": [
       "cooking",
       "fork",
+      "fork and knife with plate",
       "knife",
       "plate"
     ],
     "1f37e": [
       "bar",
       "bottle",
+      "bottle with popping cork",
       "cork",
       "drink",
       "popping"
@@ -2773,17 +3087,20 @@
       "popcorn"
     ],
     "1f380": [
-      "celebration"
+      "celebration",
+      "ribbon"
     ],
     "1f381": [
       "box",
       "celebration",
       "gift",
       "present",
-      "wrapped"
+      "wrapped",
+      "wrapped gift"
     ],
     "1f382": [
       "birthday",
+      "birthday cake",
       "cake",
       "celebration",
       "dessert",
@@ -2794,68 +3111,81 @@
       "celebration",
       "halloween",
       "jack",
+      "jack-o-lantern",
       "lantern"
     ],
     "1f384": [
       "celebration",
       "Christmas",
+      "Christmas tree",
       "tree"
     ],
     "1f385": [
-      "Christmas",
       "celebration",
+      "Christmas",
+      "claus",
       "father",
       "santa",
-      "claus"
+      "Santa Claus"
     ],
     "1f386": [
-      "celebration"
+      "celebration",
+      "fireworks"
     ],
     "1f387": [
       "celebration",
       "fireworks",
-      "sparkle"
+      "sparkle",
+      "sparkler"
     ],
     "1f388": [
+      "balloon",
       "celebration"
     ],
     "1f389": [
       "celebration",
       "party",
+      "party popper",
       "popper",
       "tada"
     ],
     "1f38a": [
       "ball",
       "celebration",
-      "confetti"
+      "confetti",
+      "confetti ball"
     ],
     "1f38b": [
       "banner",
       "celebration",
       "Japanese",
+      "tanabata tree",
       "tree"
     ],
     "1f38c": [
       "celebration",
       "cross",
       "crossed",
+      "crossed flags",
       "Japanese"
     ],
     "1f38d": [
       "bamboo",
       "celebration",
       "Japanese",
-      "pine"
+      "pine",
+      "pine decoration"
     ],
     "1f38e": [
       "celebration",
       "doll",
       "festival",
-      "Japanese"
+      "Japanese",
+      "Japanese dolls"
     ],
     "1f38f": [
       "carp",
+      "carp streamer",
       "celebration",
       "streamer"
     ],
@@ -2863,98 +3193,118 @@
       "bell",
       "celebration",
       "chime",
-      "wind"
+      "wind",
+      "wind chime"
     ],
     "1f391": [
       "celebration",
       "ceremony",
-      "moon"
+      "moon",
+      "moon viewing ceremony"
     ],
     "1f392": [
       "bag",
       "satchel",
-      "school"
+      "school",
+      "school backpack"
     ],
     "1f393": [
       "cap",
       "celebration",
       "clothing",
       "graduation",
+      "graduation cap",
       "hat"
     ],
     "1f396": [
       "celebration",
       "medal",
-      "military"
+      "military",
+      "military medal"
     ],
     "1f397": [
       "celebration",
       "reminder",
+      "reminder ribbon",
       "ribbon"
     ],
     "1f399": [
       "mic",
       "microphone",
       "music",
-      "studio"
+      "studio",
+      "studio microphone"
     ],
     "1f39a": [
       "level",
+      "level slider",
       "music",
       "slider"
     ],
     "1f39b": [
       "control",
+      "control knobs",
       "knobs",
       "music"
     ],
     "1f39e": [
       "cinema",
       "film",
+      "film frames",
       "frames",
       "movie"
     ],
     "1f39f": [
       "admission",
+      "admission tickets",
       "ticket"
     ],
     "1f3a0": [
       "carousel",
+      "carousel horse",
       "horse"
     ],
     "1f3a1": [
       "amusement park",
       "ferris",
+      "ferris wheel",
       "wheel"
     ],
     "1f3a2": [
       "amusement park",
       "coaster",
-      "roller"
+      "roller",
+      "roller coaster"
     ],
     "1f3a3": [
       "fish",
+      "fishing pole",
       "pole"
     ],
     "1f3a4": [
       "karaoke",
-      "mic"
+      "mic",
+      "microphone"
     ],
     "1f3a5": [
       "camera",
       "cinema",
-      "movie"
+      "movie",
+      "movie camera"
     ],
     "1f3a6": [
       "camera",
+      "cinema",
       "film",
       "movie"
     ],
     "1f3a7": [
-      "earbud"
+      "earbud",
+      "headphone"
     ],
     "1f3a8": [
       "art",
+      "artist palette",
       "museum",
       "painting",
       "palette"
@@ -2963,34 +3313,41 @@
       "clothing",
       "hat",
       "top",
+      "top hat",
       "tophat"
     ],
     "1f3aa": [
       "circus",
+      "circus tent",
       "tent"
     ],
     "1f3ab": [
-      "admission"
+      "admission",
+      "ticket"
     ],
     "1f3ac": [
       "clapper",
+      "clapper board",
       "movie"
     ],
     "1f3ad": [
       "art",
       "mask",
       "performing",
+      "performing arts",
       "theater",
       "theatre"
     ],
     "1f3ae": [
       "controller",
-      "game"
+      "game",
+      "video game"
     ],
     "1f3af": [
       "bull",
       "bullseye",
       "dart",
+      "direct hit",
       "eye",
       "game",
       "hit",
@@ -2998,7 +3355,8 @@
     ],
     "1f3b0": [
       "game",
-      "slot"
+      "slot",
+      "slot machine"
     ],
     "1f3b1": [
       "8",
@@ -3006,39 +3364,47 @@
       "ball",
       "billiard",
       "eight",
-      "game"
+      "game",
+      "pool 8 ball"
     ],
     "1f3b2": [
       "dice",
       "die",
-      "game"
+      "game",
+      "game die"
     ],
     "1f3b3": [
       "ball",
+      "bowling",
       "game"
     ],
     "1f3b4": [
       "card",
       "flower",
+      "flower playing cards",
       "game",
       "Japanese",
       "playing"
     ],
     "1f3b5": [
       "music",
+      "musical note",
       "note"
     ],
     "1f3b6": [
       "music",
+      "musical notes",
       "note",
       "notes"
     ],
     "1f3b7": [
       "instrument",
       "music",
-      "sax"
+      "sax",
+      "saxophone"
     ],
     "1f3b8": [
+      "guitar",
       "instrument",
       "music"
     ],
@@ -3046,152 +3412,186 @@
       "instrument",
       "keyboard",
       "music",
+      "musical keyboard",
       "piano"
     ],
     "1f3ba": [
       "instrument",
-      "music"
+      "music",
+      "trumpet"
     ],
     "1f3bb": [
       "instrument",
-      "music"
+      "music",
+      "violin"
     ],
     "1f3bc": [
       "music",
+      "musical score",
       "score"
     ],
     "1f3bd": [
+      "athletics",
       "running",
+      "running shirt",
       "sash",
-      "shirt",
-      "athletics"
+      "shirt"
     ],
     "1f3be": [
       "ball",
-      "racquet"
+      "racquet",
+      "tennis"
     ],
     "1f3bf": [
       "ski",
+      "skis",
       "snow"
     ],
     "1f3c0": [
       "ball",
+      "basketball",
       "hoop"
     ],
     "1f3c1": [
       "checkered",
       "chequered",
+      "chequered flag",
       "racing"
     ],
     "1f3c2": [
       "ski",
       "snow",
-      "snowboard"
+      "snowboard",
+      "snowboarder"
+    ],
+    "1f3c3_2642": [
+      "man",
+      "man running",
+      "marathon",
+      "racing",
+      "running"
     ],
     "1f3c3": [
       "marathon",
+      "person running",
       "running"
     ],
     "1f3c3_2640": [
       "marathon",
+      "racing",
       "running",
       "woman",
-      "racing"
-    ],
-    "1f3c3_2642": [
-      "man",
-      "marathon",
-      "running",
-      "racing"
-    ],
-    "1f3c4": [
-      "surfing"
+      "woman running"
     ],
     "1f3c4_2640": [
       "surfing",
-      "woman"
+      "woman",
+      "woman surfing"
     ],
     "1f3c4_2642": [
       "man",
+      "man surfing",
+      "surfing"
+    ],
+    "1f3c4": [
+      "person surfing",
       "surfing"
     ],
     "1f3c5": [
-      "medal"
+      "medal",
+      "sports medal"
     ],
     "1f3c6": [
-      "prize"
+      "prize",
+      "trophy"
     ],
     "1f3c7": [
       "horse",
+      "horse racing",
       "jockey",
       "racehorse",
       "racing"
     ],
     "1f3c8": [
       "american",
+      "american football",
       "ball",
       "football"
     ],
     "1f3c9": [
       "ball",
       "football",
-      "rugby"
-    ],
-    "1f3ca": [
-      "swim"
+      "rugby",
+      "rugby football"
     ],
     "1f3ca_2640": [
       "swim",
-      "woman"
+      "woman",
+      "woman swimming"
     ],
     "1f3ca_2642": [
       "man",
+      "man swimming",
       "swim"
     ],
-    "1f3cb": [
-      "lifter",
-      "weight",
-      "lifter"
+    "1f3ca": [
+      "person swimming",
+      "swim"
     ],
     "1f3cb_2640": [
       "weight lifter",
-      "woman"
+      "woman",
+      "woman lifting weights"
     ],
     "1f3cb_2642": [
-      "weight lifter",
-      "man"
+      "man",
+      "man lifting weights",
+      "weight lifter"
+    ],
+    "1f3cb": [
+      "lifter",
+      "person lifting weights",
+      "weight"
     ],
     "1f3cc": [
       "ball",
-      "golf"
+      "golf",
+      "person golfing"
     ],
     "1f3cc_2640": [
       "golf",
-      "woman"
+      "woman",
+      "woman golfing"
     ],
     "1f3cc_2642": [
       "golf",
-      "man"
+      "man",
+      "man golfing"
     ],
     "1f3cd": [
+      "motorcycle",
       "racing"
     ],
     "1f3ce": [
       "car",
-      "racing"
+      "racing",
+      "racing car"
     ],
     "1f3cf": [
       "ball",
       "bat",
+      "cricket game",
       "game"
     ],
     "1f3d0": [
       "ball",
-      "game"
+      "game",
+      "volleyball"
     ],
     "1f3d1": [
       "ball",
       "field",
+      "field hockey",
       "game",
       "hockey",
       "stick"
@@ -3200,6 +3600,7 @@
       "game",
       "hockey",
       "ice",
+      "ice hockey",
       "puck",
       "stick"
     ],
@@ -3208,45 +3609,53 @@
       "bat",
       "game",
       "paddle",
-      "table tennis",
-      "ping pong"
+      "ping pong",
+      "table tennis"
     ],
     "1f3d4": [
       "cold",
       "mountain",
-      "snow"
+      "snow",
+      "snow-capped mountain"
     ],
     "1f3d5": [
       "camping"
     ],
     "1f3d6": [
       "beach",
+      "beach with umbrella",
       "umbrella"
     ],
     "1f3d7": [
+      "building construction",
       "construction"
     ],
     "1f3d8": [
-      "house"
+      "houses"
     ],
     "1f3d9": [
-      "city"
+      "city",
+      "cityscape"
     ],
     "1f3da": [
       "derelict",
+      "derelict house",
       "house"
     ],
     "1f3db": [
-      "classical"
+      "classical",
+      "classical building"
     ],
     "1f3dc": [
       "desert"
     ],
     "1f3dd": [
       "desert",
+      "desert island",
       "island"
     ],
     "1f3de": [
+      "national park",
       "park"
     ],
     "1f3df": [
@@ -3259,82 +3668,103 @@
     "1f3e1": [
       "garden",
       "home",
-      "house"
+      "house",
+      "house with garden"
     ],
     "1f3e2": [
-      "building"
+      "building",
+      "office building"
     ],
     "1f3e3": [
       "Japanese",
+      "Japanese post office",
       "post"
     ],
     "1f3e4": [
       "European",
-      "post"
+      "post",
+      "post office"
     ],
     "1f3e5": [
       "doctor",
+      "hospital",
       "medicine"
     ],
     "1f3e6": [
+      "bank",
       "building"
     ],
     "1f3e7": [
       "atm",
+      "ATM sign",
       "automated",
       "bank",
       "teller"
     ],
     "1f3e8": [
-      "building"
+      "building",
+      "hotel"
     ],
     "1f3e9": [
       "hotel",
-      "love"
+      "love",
+      "love hotel"
     ],
     "1f3ea": [
       "convenience",
+      "convenience store",
       "store"
     ],
     "1f3eb": [
-      "building"
+      "building",
+      "school"
     ],
     "1f3ec": [
       "department",
+      "department store",
       "store"
     ],
     "1f3ed": [
-      "building"
+      "building",
+      "factory"
     ],
     "1f3ee": [
       "bar",
       "lantern",
       "light",
-      "red"
+      "red",
+      "red paper lantern"
     ],
     "1f3ef": [
       "castle",
-      "Japanese"
+      "Japanese",
+      "Japanese castle"
     ],
     "1f3f0": [
+      "castle",
       "European"
     ],
-    "1f3f3": [
-      "waving"
-    ],
     "1f3f3_1f308": [
-      "rainbow"
+      "rainbow",
+      "rainbow flag"
+    ],
+    "1f3f3": [
+      "waving",
+      "white flag"
     ],
     "1f3f4": [
+      "black flag",
       "waving"
     ],
     "1f3f5": [
-      "plant"
+      "plant",
+      "rosette"
     ],
     "1f3f7": [
       "label"
     ],
     "1f3f8": [
+      "badminton",
       "birdie",
       "game",
       "racquet",
@@ -3345,12 +3775,14 @@
       "archery",
       "arrow",
       "bow",
+      "bow and arrow",
       "Sagittarius",
       "tool",
       "weapon",
       "zodiac"
     ],
     "1f3fa": [
+      "amphora",
       "Aquarius",
       "cooking",
       "drink",
@@ -3360,22 +3792,27 @@
       "zodiac"
     ],
     "1f3fb": [
+      "light skin tone",
       "skin tone",
       "type 1–2"
     ],
     "1f3fc": [
+      "medium-light skin tone",
       "skin tone",
       "type 3"
     ],
     "1f3fd": [
+      "medium skin tone",
       "skin tone",
       "type 4"
     ],
     "1f3fe": [
+      "medium-dark skin tone",
       "skin tone",
       "type 5"
     ],
     "1f3ff": [
+      "dark skin tone",
       "skin tone",
       "type 6"
     ],
@@ -3387,12 +3824,14 @@
     ],
     "1f402": [
       "bull",
+      "ox",
       "Taurus",
       "zodiac"
     ],
     "1f403": [
       "buffalo",
-      "water"
+      "water",
+      "water buffalo"
     ],
     "1f404": [
       "cow"
@@ -3405,12 +3844,15 @@
     ],
     "1f407": [
       "bunny",
-      "pet"
+      "pet",
+      "rabbit"
     ],
     "1f408": [
+      "cat",
       "pet"
     ],
     "1f409": [
+      "dragon",
       "fairy tale"
     ],
     "1f40a": [
@@ -3426,45 +3868,53 @@
       "bearer",
       "Ophiuchus",
       "serpent",
+      "snake",
       "zodiac"
     ],
     "1f40e": [
+      "equestrian",
+      "horse",
       "racehorse",
-      "racing",
-      "equestrian"
+      "racing"
     ],
     "1f40f": [
       "Aries",
+      "male",
+      "ram",
       "sheep",
-      "zodiac",
-      "male"
+      "zodiac"
     ],
     "1f410": [
       "Capricorn",
+      "goat",
       "zodiac"
     ],
     "1f411": [
-      "sheep",
-      "female"
+      "ewe",
+      "female",
+      "sheep"
     ],
     "1f412": [
       "monkey"
     ],
     "1f413": [
-      "rooster",
-      "bird"
+      "bird",
+      "rooster"
     ],
     "1f414": [
-      "chicken",
-      "bird"
+      "bird",
+      "chicken"
     ],
     "1f415": [
+      "dog",
       "pet"
     ],
     "1f416": [
+      "pig",
       "sow"
     ],
     "1f417": [
+      "boar",
       "pig"
     ],
     "1f418": [
@@ -3475,160 +3925,194 @@
     ],
     "1f41a": [
       "shell",
-      "spiral"
+      "spiral",
+      "spiral shell"
     ],
     "1f41b": [
+      "bug",
       "insect"
     ],
     "1f41c": [
+      "ant",
       "insect"
     ],
     "1f41d": [
       "bee",
+      "honeybee",
       "insect"
     ],
     "1f41e": [
       "beetle",
       "insect",
+      "lady beetle",
       "ladybird",
       "ladybug"
     ],
     "1f41f": [
+      "fish",
       "Pisces",
       "zodiac"
     ],
     "1f420": [
       "fish",
-      "tropical"
+      "tropical",
+      "tropical fish"
     ],
     "1f421": [
+      "blowfish",
       "fish"
     ],
     "1f422": [
-      "turtle",
+      "terrapin",
       "tortoise",
-      "terrapin"
+      "turtle"
     ],
     "1f423": [
       "baby",
+      "bird",
       "chick",
       "hatching",
-      "bird"
+      "hatching chick"
     ],
     "1f424": [
       "baby",
-      "chick",
-      "bird"
+      "baby chick",
+      "bird",
+      "chick"
     ],
     "1f425": [
       "baby",
+      "bird",
       "chick",
-      "bird"
+      "front-facing baby chick"
     ],
     "1f426": [
       "bird"
     ],
     "1f427": [
-      "penguin",
-      "bird"
+      "bird",
+      "penguin"
     ],
     "1f428": [
-      "bear"
+      "bear",
+      "koala"
     ],
     "1f429": [
-      "dog"
+      "dog",
+      "poodle"
     ],
     "1f42a": [
+      "camel",
       "dromedary",
       "hump"
     ],
     "1f42b": [
       "bactrian",
       "camel",
-      "hump"
+      "hump",
+      "two-hump camel"
     ],
     "1f42c": [
+      "dolphin",
       "flipper"
     ],
     "1f42d": [
       "face",
-      "mouse"
+      "mouse",
+      "mouse face"
     ],
     "1f42e": [
       "cow",
+      "cow face",
       "face"
     ],
     "1f42f": [
       "face",
-      "tiger"
+      "tiger",
+      "tiger face"
     ],
     "1f430": [
       "bunny",
       "face",
       "pet",
-      "rabbit"
+      "rabbit",
+      "rabbit face"
     ],
     "1f431": [
       "cat",
+      "cat face",
       "face",
       "pet"
     ],
     "1f432": [
       "dragon",
+      "dragon face",
       "face",
       "fairy tale"
     ],
     "1f433": [
       "face",
       "spouting",
+      "spouting whale",
       "whale"
     ],
     "1f434": [
       "face",
-      "horse"
+      "horse",
+      "horse face"
     ],
     "1f435": [
       "face",
-      "monkey"
+      "monkey",
+      "monkey face"
     ],
     "1f436": [
       "dog",
+      "dog face",
       "face",
       "pet"
     ],
     "1f437": [
       "face",
-      "pig"
+      "pig",
+      "pig face"
     ],
     "1f438": [
       "face",
-      "frog"
+      "frog",
+      "frog face"
     ],
     "1f439": [
       "face",
       "hamster",
+      "hamster face",
       "pet"
     ],
     "1f43a": [
       "face",
-      "wolf"
+      "wolf",
+      "wolf face"
     ],
     "1f43b": [
       "bear",
+      "bear face",
       "face"
     ],
     "1f43c": [
       "face",
-      "panda"
+      "panda",
+      "panda face"
     ],
     "1f43d": [
       "face",
       "nose",
-      "pig"
+      "pig",
+      "pig nose"
     ],
     "1f43e": [
       "feet",
       "paw",
+      "paw prints",
       "print"
     ],
     "1f43f": [
@@ -3636,30 +4120,38 @@
     ],
     "1f440": [
       "eye",
+      "eyes",
       "face"
     ],
     "1f441": [
-      "body"
+      "body",
+      "eye"
     ],
     "1f441_1f5e8": [
       "eye",
+      "eye in speech bubble",
       "speech bubble",
       "witness"
     ],
     "1f442": [
-      "body"
+      "body",
+      "ear"
     ],
     "1f443": [
-      "body"
+      "body",
+      "nose"
     ],
     "1f444": [
-      "lips"
+      "lips",
+      "mouth"
     ],
     "1f445": [
-      "body"
+      "body",
+      "tongue"
     ],
     "1f446": [
       "backhand",
+      "backhand index pointing up",
       "finger",
       "hand",
       "index",
@@ -3668,6 +4160,7 @@
     ],
     "1f447": [
       "backhand",
+      "backhand index pointing down",
       "down",
       "finger",
       "hand",
@@ -3676,6 +4169,7 @@
     ],
     "1f448": [
       "backhand",
+      "backhand index pointing left",
       "finger",
       "hand",
       "index",
@@ -3683,6 +4177,7 @@
     ],
     "1f449": [
       "backhand",
+      "backhand index pointing right",
       "finger",
       "hand",
       "index",
@@ -3692,108 +4187,131 @@
       "clenched",
       "fist",
       "hand",
+      "oncoming fist",
       "punch"
     ],
     "1f44b": [
       "hand",
       "wave",
-      "waving"
+      "waving",
+      "waving hand"
     ],
     "1f44c": [
       "hand",
-      "OK"
+      "OK",
+      "OK hand"
     ],
     "1f44d": [
       "+1",
       "hand",
       "thumb",
+      "thumbs up",
       "up"
     ],
     "1f44e": [
       "-1",
       "down",
       "hand",
-      "thumb"
+      "thumb",
+      "thumbs down"
     ],
     "1f44f": [
       "clap",
+      "clapping hands",
       "hand"
     ],
     "1f450": [
       "hand",
-      "open"
+      "open",
+      "open hands"
     ],
     "1f451": [
       "clothing",
+      "crown",
       "king",
       "queen"
     ],
     "1f452": [
       "clothing",
       "hat",
-      "woman"
+      "woman",
+      "woman’s hat"
     ],
     "1f453": [
       "clothing",
       "eye",
       "eyeglasses",
-      "eyewear"
+      "eyewear",
+      "glasses"
     ],
     "1f454": [
-      "clothing"
+      "clothing",
+      "necktie"
     ],
     "1f455": [
       "clothing",
       "shirt",
+      "t-shirt",
       "tshirt"
     ],
     "1f456": [
       "clothing",
+      "jeans",
       "pants",
       "trousers"
     ],
     "1f457": [
-      "clothing"
+      "clothing",
+      "dress"
     ],
     "1f458": [
-      "clothing"
+      "clothing",
+      "kimono"
     ],
     "1f459": [
+      "bikini",
       "clothing",
       "swim"
     ],
     "1f45a": [
       "clothing",
-      "woman"
+      "woman",
+      "woman’s clothes"
     ],
     "1f45b": [
       "clothing",
-      "coin"
+      "coin",
+      "purse"
     ],
     "1f45c": [
       "bag",
       "clothing",
+      "handbag",
       "purse"
     ],
     "1f45d": [
       "bag",
       "clothing",
+      "clutch bag",
       "pouch"
     ],
     "1f45e": [
       "clothing",
       "man",
+      "man’s shoe",
       "shoe"
     ],
     "1f45f": [
       "athletic",
       "clothing",
+      "running shoe",
       "shoe",
       "sneaker"
     ],
     "1f460": [
       "clothing",
       "heel",
+      "high-heeled shoe",
       "shoe",
       "woman"
     ],
@@ -3801,25 +4319,30 @@
       "clothing",
       "sandal",
       "shoe",
-      "woman"
+      "woman",
+      "woman’s sandal"
     ],
     "1f462": [
       "boot",
       "clothing",
       "shoe",
-      "woman"
+      "woman",
+      "woman’s boot"
     ],
     "1f463": [
       "clothing",
       "footprint",
+      "footprints",
       "print"
     ],
     "1f464": [
       "bust",
+      "bust in silhouette",
       "silhouette"
     ],
     "1f465": [
       "bust",
+      "busts in silhouette",
       "silhouette"
     ],
     "1f466": [
@@ -3827,217 +4350,250 @@
       "young"
     ],
     "1f467": [
+      "girl",
       "Virgo",
       "young",
       "zodiac"
     ],
-    "1f468_1f692": [
-      "firefighter",
-      "man",
-      "firetruck"
-    ],
-    "1f468": [
-      "man"
-    ],
     "1f468_1f33e": [
-      "man",
       "farmer",
-      "rancher",
-      "gardener"
+      "gardener",
+      "man",
+      "man farmer",
+      "rancher"
     ],
     "1f468_1f373": [
-      "man",
+      "chef",
       "cook",
-      "chef"
-    ],
-    "1f468_1f393": [
       "man",
-      "student",
-      "graduate"
+      "man cook"
     ],
-    "1f468_1f3a4": [
+    "1f468_1f692": [
+      "firefighter",
+      "firetruck",
       "man",
-      "singer",
-      "entertainer",
-      "rock",
-      "star",
-      "actor"
-    ],
-    "1f468_1f3a8": [
-      "artist",
-      "man",
-      "palette"
-    ],
-    "1f468_1f3eb": [
-      "man",
-      "professor",
-      "instructor",
-      "teacher"
-    ],
-    "1f468_1f3ed": [
-      "man",
-      "industrial",
-      "assembly",
-      "factory",
-      "worker"
-    ],
-    "1f468_1f4bb": [
-      "man",
-      "technologist",
-      "coder",
-      "software",
-      "developer",
-      "inventor"
-    ],
-    "1f468_1f4bc": [
-      "man",
-      "office",
-      "business",
-      "manager",
-      "architect",
-      "white-collar"
+      "man firefighter"
     ],
     "1f468_1f527": [
+      "electrician",
       "man",
-      "tradesperson",
+      "man mechanic",
       "mechanic",
       "plumber",
-      "electrician"
+      "tradesperson"
     ],
-    "1f468_1f52c": [
+    "1f468_1f3ed": [
+      "assembly",
+      "factory",
+      "industrial",
       "man",
-      "scientist",
-      "engineer",
-      "mathematician",
-      "chemist",
-      "physicist",
-      "biologist"
+      "man factory worker",
+      "worker"
     ],
     "1f468_1f680": [
       "astronaut",
       "man",
+      "man astronaut",
       "rocket"
     ],
     "1f468_2695": [
-      "man",
-      "healthcare",
       "doctor",
+      "healthcare",
+      "man",
+      "man health worker",
       "nurse",
       "therapist"
+    ],
+    "1f468_1f4bc": [
+      "architect",
+      "business",
+      "man",
+      "man office worker",
+      "manager",
+      "office",
+      "white-collar"
+    ],
+    "1f468_2708": [
+      "man",
+      "man pilot",
+      "pilot",
+      "plane"
+    ],
+    "1f468_1f3a8": [
+      "artist",
+      "man",
+      "man artist",
+      "palette"
+    ],
+    "1f468_1f3a4": [
+      "actor",
+      "entertainer",
+      "man",
+      "man singer",
+      "rock",
+      "singer",
+      "star"
+    ],
+    "1f468_1f4bb": [
+      "coder",
+      "developer",
+      "inventor",
+      "man",
+      "man technologist",
+      "software",
+      "technologist"
+    ],
+    "1f468_1f52c": [
+      "biologist",
+      "chemist",
+      "engineer",
+      "man",
+      "man scientist",
+      "mathematician",
+      "physicist",
+      "scientist"
+    ],
+    "1f468": [
+      "man"
+    ],
+    "1f468_1f393": [
+      "graduate",
+      "man",
+      "man student",
+      "student"
+    ],
+    "1f468_1f3eb": [
+      "instructor",
+      "man",
+      "man teacher",
+      "professor",
+      "teacher"
     ],
     "1f468_2696": [
       "justice",
       "man",
+      "man judge",
       "scales"
-    ],
-    "1f468_2708": [
-      "man",
-      "pilot",
-      "plane"
-    ],
-    "1f469": [
-      "woman"
-    ],
-    "1f469_1f33e": [
-      "woman",
-      "farmer",
-      "rancher",
-      "gardener"
-    ],
-    "1f469_1f373": [
-      "woman",
-      "cook",
-      "chef"
-    ],
-    "1f469_1f393": [
-      "woman",
-      "student",
-      "graduate"
-    ],
-    "1f469_1f3a4": [
-      "woman",
-      "singer",
-      "entertainer",
-      "rock",
-      "star",
-      "actor"
-    ],
-    "1f469_1f3a8": [
-      "artist",
-      "palette",
-      "woman"
-    ],
-    "1f469_1f3eb": [
-      "woman",
-      "professor",
-      "instructor",
-      "teacher"
-    ],
-    "1f469_1f3ed": [
-      "woman",
-      "industrial",
-      "assembly",
-      "factory",
-      "worker"
-    ],
-    "1f469_1f4bb": [
-      "woman",
-      "technologist",
-      "coder",
-      "software",
-      "developer",
-      "inventor"
-    ],
-    "1f469_1f4bc": [
-      "woman",
-      "office",
-      "business",
-      "manager",
-      "architect",
-      "white-collar"
-    ],
-    "1f469_1f527": [
-      "woman",
-      "tradesperson",
-      "mechanic",
-      "plumber",
-      "electrician"
-    ],
-    "1f469_1f52c": [
-      "woman",
-      "scientist",
-      "engineer",
-      "mathematician",
-      "chemist",
-      "physicist",
-      "biologist"
-    ],
-    "1f469_1f680": [
-      "astronaut",
-      "rocket",
-      "woman"
     ],
     "1f469_1f692": [
       "firefighter",
       "firetruck",
+      "woman",
+      "woman firefighter"
+    ],
+    "1f469": [
       "woman"
     ],
     "1f469_2695": [
-      "woman",
-      "healthcare",
       "doctor",
+      "healthcare",
       "nurse",
-      "therapist"
+      "therapist",
+      "woman",
+      "woman health worker"
+    ],
+    "1f469_1f393": [
+      "graduate",
+      "student",
+      "woman",
+      "woman student"
+    ],
+    "1f469_1f3eb": [
+      "instructor",
+      "professor",
+      "teacher",
+      "woman",
+      "woman teacher"
     ],
     "1f469_2696": [
       "judge",
+      "scales",
       "woman",
-      "scales"
+      "woman judge"
+    ],
+    "1f469_1f33e": [
+      "farmer",
+      "gardener",
+      "rancher",
+      "woman",
+      "woman farmer"
+    ],
+    "1f469_1f373": [
+      "chef",
+      "cook",
+      "woman",
+      "woman cook"
+    ],
+    "1f469_1f527": [
+      "electrician",
+      "mechanic",
+      "plumber",
+      "tradesperson",
+      "woman",
+      "woman mechanic"
+    ],
+    "1f469_1f3ed": [
+      "assembly",
+      "factory",
+      "industrial",
+      "woman",
+      "woman factory worker",
+      "worker"
+    ],
+    "1f469_1f4bc": [
+      "architect",
+      "business",
+      "manager",
+      "office",
+      "white-collar",
+      "woman",
+      "woman office worker"
+    ],
+    "1f469_1f52c": [
+      "biologist",
+      "chemist",
+      "engineer",
+      "mathematician",
+      "physicist",
+      "scientist",
+      "woman",
+      "woman scientist"
+    ],
+    "1f469_1f4bb": [
+      "coder",
+      "developer",
+      "inventor",
+      "software",
+      "technologist",
+      "woman",
+      "woman technologist"
+    ],
+    "1f469_1f3a4": [
+      "actor",
+      "entertainer",
+      "rock",
+      "singer",
+      "star",
+      "woman",
+      "woman singer"
+    ],
+    "1f469_1f3a8": [
+      "artist",
+      "palette",
+      "woman",
+      "woman artist"
     ],
     "1f469_2708": [
       "pilot",
       "plane",
-      "woman"
+      "woman",
+      "woman pilot"
+    ],
+    "1f469_1f680": [
+      "astronaut",
+      "rocket",
+      "woman",
+      "woman astronaut"
     ],
     "1f46a_MWB": [
       "family"
@@ -4047,6 +4603,7 @@
       "hand",
       "hold",
       "man",
+      "man and woman holding hands",
       "woman"
     ],
     "1f46c": [
@@ -4056,16 +4613,26 @@
       "hold",
       "man",
       "twins",
+      "two men holding hands",
       "zodiac"
     ],
     "1f46d": [
       "couple",
       "hand",
       "hold",
+      "two women holding hands",
       "woman"
     ],
     "1f46e": [
       "cop",
+      "officer",
+      "police",
+      "police officer"
+    ],
+    "1f46e_2642": [
+      "cop",
+      "man",
+      "man police officer",
       "officer",
       "police"
     ],
@@ -4073,106 +4640,120 @@
       "cop",
       "officer",
       "police",
-      "woman"
-    ],
-    "1f46e_2642": [
-      "cop",
-      "man",
-      "officer",
-      "police"
+      "woman",
+      "woman police officer"
     ],
     "1f46f": [
       "bunny ear",
       "dancer",
+      "partying",
+      "people with bunny ears"
+    ],
+    "1f46f_2642": [
+      "bunny ear",
+      "dancer",
+      "men",
+      "men with bunny ears",
       "partying"
     ],
     "1f46f_2640": [
       "bunny ear",
       "dancer",
       "partying",
-      "women"
-    ],
-    "1f46f_2642": [
-      "bunny ear",
-      "dancer",
-      "men",
-      "partying"
+      "women",
+      "women with bunny ears"
     ],
     "1f470": [
       "bride",
+      "bride with veil",
       "veil",
       "wedding"
     ],
-    "1f471": [
-      "blond"
-    ],
     "1f471_2640": [
+      "blond-haired woman",
       "blonde",
       "woman"
     ],
+    "1f471": [
+      "blond",
+      "blond-haired person"
+    ],
     "1f471_2642": [
       "blond",
+      "blond-haired man",
       "man"
     ],
     "1f472": [
       "gua pi mao",
       "hat",
-      "man"
+      "man",
+      "man with Chinese cap"
+    ],
+    "1f473": [
+      "person wearing turban",
+      "turban"
     ],
     "1f473_2642": [
       "man",
-      "turban"
-    ],
-    "1f473": [
+      "man wearing turban",
       "turban"
     ],
     "1f473_2640": [
       "turban",
-      "woman"
+      "woman",
+      "woman wearing turban"
     ],
     "1f474": [
       "man",
-      "old"
+      "old",
+      "old man"
     ],
     "1f475": [
       "old",
+      "old woman",
       "woman"
     ],
     "1f476": [
       "baby",
       "young"
     ],
-    "1f477_2640": [
-      "construction",
-      "woman",
-      "worker"
-    ],
     "1f477_2642": [
       "construction",
       "man",
+      "man construction worker",
       "worker"
     ],
     "1f477": [
       "construction",
+      "construction worker",
       "hat",
+      "worker"
+    ],
+    "1f477_2640": [
+      "construction",
+      "woman",
+      "woman construction worker",
       "worker"
     ],
     "1f478": [
       "fairy tale",
-      "fantasy"
+      "fantasy",
+      "princess"
     ],
     "1f479": [
       "creature",
       "face",
       "fairy tale",
       "fantasy",
-      "monster"
+      "monster",
+      "ogre"
     ],
     "1f47a": [
       "creature",
       "face",
       "fairy tale",
       "fantasy",
+      "goblin",
       "monster"
     ],
     "1f47b": [
@@ -4180,16 +4761,19 @@
       "face",
       "fairy tale",
       "fantasy",
+      "ghost",
       "monster"
     ],
     "1f47c": [
       "angel",
       "baby",
+      "baby angel",
       "face",
       "fairy tale",
       "fantasy"
     ],
     "1f47d": [
+      "alien",
       "creature",
       "extraterrestrial",
       "face",
@@ -4200,6 +4784,7 @@
     ],
     "1f47e": [
       "alien",
+      "alien monster",
       "creature",
       "extraterrestrial",
       "face",
@@ -4209,53 +4794,62 @@
       "ufo"
     ],
     "1f47f": [
+      "angry face with horns",
       "demon",
       "devil",
-      "imp",
       "face",
       "fairy tale",
-      "fantasy"
+      "fantasy",
+      "imp"
     ],
     "1f480": [
       "death",
       "face",
       "fairy tale",
-      "monster"
-    ],
-    "1f481": [
-      "hand",
-      "tipping",
-      "help",
-      "information",
-      "sassy"
-    ],
-    "1f481_2642": [
-      "man",
-      "sassy",
-      "tipping hand"
+      "monster",
+      "skull"
     ],
     "1f481_2640": [
       "sassy",
       "tipping hand",
-      "woman"
+      "woman",
+      "woman tipping hand"
+    ],
+    "1f481": [
+      "hand",
+      "help",
+      "information",
+      "person tipping hand",
+      "sassy",
+      "tipping"
+    ],
+    "1f481_2642": [
+      "man",
+      "man tipping hand",
+      "sassy",
+      "tipping hand"
     ],
     "1f482_2642": [
       "guard",
-      "man"
-    ],
-    "1f482_2640": [
-      "guard",
-      "woman"
+      "man",
+      "man guard"
     ],
     "1f482": [
       "guard"
     ],
-    "1f483": [
+    "1f482_2640": [
+      "guard",
       "woman",
-      "dancing"
+      "woman guard"
+    ],
+    "1f483": [
+      "dancing",
+      "woman",
+      "woman dancing"
     ],
     "1f484": [
       "cosmetics",
+      "lipstick",
       "makeup"
     ],
     "1f485": [
@@ -4263,39 +4857,47 @@
       "cosmetics",
       "manicure",
       "nail",
+      "nail polish",
       "polish"
     ],
-    "1f486_2642": [
-      "face",
-      "man",
-      "massage"
-    ],
     "1f486": [
+      "face",
       "massage",
-      "salon",
-      "face"
+      "person getting massage",
+      "salon"
     ],
     "1f486_2640": [
       "face",
       "massage",
-      "woman"
+      "woman",
+      "woman getting massage"
+    ],
+    "1f486_2642": [
+      "face",
+      "man",
+      "man getting massage",
+      "massage"
     ],
     "1f487_2642": [
       "haircut",
-      "man"
+      "man",
+      "man getting haircut"
+    ],
+    "1f487_2640": [
+      "haircut",
+      "woman",
+      "woman getting haircut"
     ],
     "1f487": [
       "barber",
       "beauty",
-      "parlor",
-      "haircut"
-    ],
-    "1f487_2640": [
       "haircut",
-      "woman"
+      "parlor",
+      "person getting haircut"
     ],
     "1f488": [
       "barber",
+      "barber pole",
       "haircut",
       "pole"
     ],
@@ -4305,96 +4907,120 @@
       "needle",
       "shot",
       "sick",
+      "syringe",
       "tool"
     ],
     "1f48a": [
       "doctor",
       "medicine",
+      "pill",
       "sick"
     ],
     "1f48b": [
       "kiss",
+      "kiss mark",
       "lips"
     ],
     "1f48c": [
       "heart",
       "letter",
       "love",
+      "love letter",
       "mail"
     ],
     "1f48d": [
-      "diamond"
+      "diamond",
+      "ring"
     ],
     "1f48e": [
       "diamond",
       "gem",
+      "gem stone",
       "jewel"
     ],
     "1f48f_MW": [
-      "couple"
+      "couple",
+      "kiss"
     ],
     "1f490": [
+      "bouquet",
       "flower"
     ],
     "1f491_MW": [
       "couple",
+      "couple with heart",
       "love"
     ],
     "1f492": [
       "chapel",
-      "romance"
+      "romance",
+      "wedding"
     ],
     "1f493": [
       "beating",
+      "beating heart",
       "heartbeat",
       "pulsating"
     ],
     "1f494": [
       "break",
-      "broken"
+      "broken",
+      "broken heart"
     ],
     "1f495": [
-      "love"
+      "love",
+      "two hearts"
     ],
     "1f496": [
       "excited",
-      "sparkle"
+      "sparkle",
+      "sparkling heart"
     ],
     "1f497": [
       "excited",
       "growing",
-      "pulse",
-      "nervous"
+      "growing heart",
+      "nervous",
+      "pulse"
     ],
     "1f498": [
       "arrow",
-      "cupid"
+      "cupid",
+      "heart with arrow"
     ],
     "1f499": [
-      "blue"
+      "blue",
+      "blue heart"
     ],
     "1f49a": [
-      "green"
+      "green",
+      "green heart"
     ],
     "1f49b": [
-      "yellow"
+      "yellow",
+      "yellow heart"
     ],
     "1f49c": [
-      "purple"
+      "purple",
+      "purple heart"
     ],
     "1f49d": [
+      "heart with ribbon",
       "ribbon",
       "valentine"
     ],
     "1f49e": [
-      "revolving"
+      "revolving",
+      "revolving hearts"
     ],
     "1f49f": [
-      "heart"
+      "heart",
+      "heart decoration"
     ],
     "1f4a0": [
       "comic",
       "diamond",
+      "diamond with a dot",
       "geometric",
       "inside"
     ],
@@ -4403,38 +5029,46 @@
       "comic",
       "electric",
       "idea",
-      "light"
+      "light",
+      "light bulb"
     ],
     "1f4a2": [
+      "anger symbol",
       "angry",
       "comic",
       "mad"
     ],
     "1f4a3": [
+      "bomb",
       "comic"
     ],
     "1f4a4": [
       "comic",
-      "sleep"
+      "sleep",
+      "zzz"
     ],
     "1f4a5": [
       "boom",
+      "collision",
       "comic"
     ],
     "1f4a6": [
       "comic",
       "splashing",
-      "sweat"
+      "sweat",
+      "sweat droplets"
     ],
     "1f4a7": [
       "cold",
       "comic",
       "drop",
+      "droplet",
       "sweat"
     ],
     "1f4a8": [
       "comic",
       "dash",
+      "dashing away",
       "running"
     ],
     "1f4a9": [
@@ -4442,6 +5076,7 @@
       "dung",
       "face",
       "monster",
+      "pile of poo",
       "poo",
       "poop"
     ],
@@ -4449,10 +5084,12 @@
       "biceps",
       "comic",
       "flex",
+      "flexed biceps",
       "muscle"
     ],
     "1f4ab": [
       "comic",
+      "dizzy",
       "star"
     ],
     "1f4ac": [
@@ -4460,44 +5097,52 @@
       "bubble",
       "comic",
       "dialog",
-      "speech"
+      "speech",
+      "speech balloon"
     ],
     "1f4ad": [
       "balloon",
       "bubble",
       "comic",
-      "thought"
+      "thought",
+      "thought balloon"
     ],
     "1f4ae": [
-      "flower"
+      "flower",
+      "white flower"
     ],
     "1f4af": [
       "100",
       "full",
       "hundred",
+      "hundred points",
       "score"
     ],
     "1f4b0": [
       "bag",
       "dollar",
       "money",
+      "money bag",
       "moneybag"
     ],
     "1f4b1": [
       "bank",
       "currency",
+      "currency exchange",
       "exchange",
       "money"
     ],
     "1f4b2": [
       "currency",
       "dollar",
+      "heavy dollar sign",
       "money"
     ],
     "1f4b3": [
       "bank",
       "card",
       "credit",
+      "credit card",
       "money"
     ],
     "1f4b4": [
@@ -4507,7 +5152,8 @@
       "currency",
       "money",
       "note",
-      "yen"
+      "yen",
+      "yen banknote"
     ],
     "1f4b5": [
       "bank",
@@ -4515,6 +5161,7 @@
       "bill",
       "currency",
       "dollar",
+      "dollar banknote",
       "money",
       "note"
     ],
@@ -4524,6 +5171,7 @@
       "bill",
       "currency",
       "euro",
+      "euro banknote",
       "money",
       "note"
     ],
@@ -4534,7 +5182,8 @@
       "currency",
       "money",
       "note",
-      "pound"
+      "pound",
+      "pound banknote"
     ],
     "1f4b8": [
       "bank",
@@ -4543,12 +5192,14 @@
       "dollar",
       "fly",
       "money",
+      "money with wings",
       "note",
       "wings"
     ],
     "1f4b9": [
       "bank",
       "chart",
+      "chart increasing with yen",
       "currency",
       "graph",
       "growth",
@@ -4560,10 +5211,12 @@
       "yen"
     ],
     "1f4ba": [
-      "chair"
+      "chair",
+      "seat"
     ],
     "1f4bb": [
       "computer",
+      "laptop computer",
       "pc",
       "personal"
     ],
@@ -4572,59 +5225,70 @@
     ],
     "1f4bd": [
       "computer",
+      "computer disk",
       "disk",
-      "optical",
-      "minidisk"
+      "minidisk",
+      "optical"
     ],
     "1f4be": [
       "computer",
       "disk",
-      "floppy"
+      "floppy",
+      "floppy disk"
     ],
     "1f4bf": [
       "cd",
       "computer",
       "disk",
-      "optical"
+      "optical",
+      "optical disk"
     ],
     "1f4c0": [
       "blu-ray",
-      "dvd",
       "computer",
       "disk",
+      "dvd",
       "optical"
     ],
     "1f4c1": [
       "file",
+      "file folder",
       "folder"
     ],
     "1f4c2": [
       "file",
       "folder",
-      "open"
+      "open",
+      "open file folder"
     ],
     "1f4c3": [
       "curl",
       "document",
-      "page"
+      "page",
+      "page with curl"
     ],
     "1f4c4": [
       "document",
-      "page"
+      "page",
+      "page facing up"
     ],
     "1f4c5": [
+      "calendar",
       "date"
     ],
     "1f4c6": [
-      "calendar"
+      "calendar",
+      "tear-off calendar"
     ],
     "1f4c7": [
       "card",
+      "card index",
       "index",
       "rolodex"
     ],
     "1f4c8": [
       "chart",
+      "chart increasing",
       "graph",
       "growth",
       "trend",
@@ -4632,12 +5296,14 @@
     ],
     "1f4c9": [
       "chart",
+      "chart decreasing",
       "down",
       "graph",
       "trend"
     ],
     "1f4ca": [
       "bar",
+      "bar chart",
       "chart",
       "graph"
     ],
@@ -4645,31 +5311,37 @@
       "clipboard"
     ],
     "1f4cc": [
-      "pin"
+      "pin",
+      "pushpin"
     ],
     "1f4cd": [
       "pin",
-      "pushpin"
+      "pushpin",
+      "round pushpin"
     ],
     "1f4ce": [
       "paperclip"
     ],
     "1f4cf": [
       "ruler",
-      "straight edge"
+      "straight edge",
+      "straight ruler"
     ],
     "1f4d0": [
       "ruler",
       "set",
-      "triangle"
+      "triangle",
+      "triangular ruler"
     ],
     "1f4d1": [
       "bookmark",
+      "bookmark tabs",
       "mark",
       "marker",
       "tabs"
     ],
     "1f4d2": [
+      "ledger",
       "notebook"
     ],
     "1f4d3": [
@@ -4679,75 +5351,92 @@
       "book",
       "cover",
       "decorated",
-      "notebook"
+      "notebook",
+      "notebook with decorative cover"
     ],
     "1f4d5": [
       "book",
-      "closed"
+      "closed",
+      "closed book"
     ],
     "1f4d6": [
       "book",
-      "open"
+      "open",
+      "open book"
     ],
     "1f4d7": [
       "book",
-      "green"
+      "green",
+      "green book"
     ],
     "1f4d8": [
       "blue",
+      "blue book",
       "book"
     ],
     "1f4d9": [
       "book",
-      "orange"
+      "orange",
+      "orange book"
     ],
     "1f4da": [
-      "book"
+      "book",
+      "books"
     ],
     "1f4db": [
       "badge",
-      "name"
+      "name",
+      "name badge"
     ],
     "1f4dc": [
-      "paper"
+      "paper",
+      "scroll"
     ],
     "1f4dd": [
+      "memo",
       "pencil"
     ],
     "1f4de": [
       "phone",
       "receiver",
-      "telephone"
+      "telephone",
+      "telephone receiver"
     ],
     "1f4df": [
       "pager"
     ],
     "1f4e0": [
-      "fax"
+      "fax",
+      "fax machine"
     ],
     "1f4e1": [
       "antenna",
       "dish",
-      "satellite"
+      "satellite",
+      "satellite antenna"
     ],
     "1f4e2": [
       "loud",
+      "loudspeaker",
       "public address"
     ],
     "1f4e3": [
-      "cheering"
+      "cheering",
+      "megaphone"
     ],
     "1f4e4": [
       "box",
       "letter",
       "mail",
       "outbox",
+      "outbox tray",
       "sent",
       "tray"
     ],
     "1f4e5": [
       "box",
       "inbox",
+      "inbox tray",
       "letter",
       "mail",
       "receive",
@@ -4755,9 +5444,11 @@
     ],
     "1f4e6": [
       "box",
+      "package",
       "parcel"
     ],
     "1f4e7": [
+      "e-mail",
       "email",
       "letter",
       "mail"
@@ -4767,6 +5458,7 @@
       "email",
       "envelope",
       "incoming",
+      "incoming envelope",
       "letter",
       "mail",
       "receive"
@@ -4777,6 +5469,7 @@
       "e-mail",
       "email",
       "envelope",
+      "envelope with arrow",
       "letter",
       "mail",
       "outgoing",
@@ -4784,6 +5477,7 @@
     ],
     "1f4ea": [
       "closed",
+      "closed mailbox with lowered flag",
       "lowered",
       "mail",
       "mailbox",
@@ -4791,6 +5485,7 @@
     ],
     "1f4eb": [
       "closed",
+      "closed mailbox with raised flag",
       "mail",
       "mailbox",
       "postbox"
@@ -4799,6 +5494,7 @@
       "mail",
       "mailbox",
       "open",
+      "open mailbox with raised flag",
       "postbox"
     ],
     "1f4ed": [
@@ -4806,24 +5502,29 @@
       "mail",
       "mailbox",
       "open",
+      "open mailbox with lowered flag",
       "postbox"
     ],
     "1f4ee": [
       "mail",
-      "mailbox"
+      "mailbox",
+      "postbox"
     ],
     "1f4ef": [
       "horn",
       "post",
-      "postal"
+      "postal",
+      "postal horn"
     ],
     "1f4f0": [
       "news",
+      "newspaper",
       "paper"
     ],
     "1f4f1": [
       "cell",
       "mobile",
+      "mobile phone",
       "phone",
       "telephone"
     ],
@@ -4832,6 +5533,7 @@
       "call",
       "cell",
       "mobile",
+      "mobile phone with arrow",
       "phone",
       "receive",
       "telephone"
@@ -4842,11 +5544,13 @@
       "mode",
       "phone",
       "telephone",
-      "vibration"
+      "vibration",
+      "vibration mode"
     ],
     "1f4f4": [
       "cell",
       "mobile",
+      "mobile phone off",
       "off",
       "phone",
       "telephone"
@@ -4856,6 +5560,7 @@
       "forbidden",
       "mobile",
       "no",
+      "no mobile phones",
       "not",
       "phone",
       "prohibited",
@@ -4863,6 +5568,7 @@
     ],
     "1f4f6": [
       "antenna",
+      "antenna bars",
       "bar",
       "cell",
       "mobile",
@@ -4871,32 +5577,39 @@
       "telephone"
     ],
     "1f4f7": [
+      "camera",
       "video"
     ],
     "1f4f8": [
       "camera",
+      "camera with flash",
       "flash",
       "video"
     ],
     "1f4f9": [
       "camera",
-      "video"
+      "video",
+      "video camera"
     ],
     "1f4fa": [
+      "television",
       "tv",
       "video"
     ],
     "1f4fb": [
+      "radio",
       "video"
     ],
     "1f4fc": [
       "tape",
       "vhs",
-      "video"
+      "video",
+      "videocassette"
     ],
     "1f4fd": [
       "cinema",
       "film",
+      "film projector",
       "movie",
       "projector",
       "video"
@@ -4906,80 +5619,96 @@
       "clothing",
       "necklace",
       "prayer",
+      "prayer beads",
       "religion"
     ],
     "1f500": [
       "arrow",
-      "crossed"
+      "crossed",
+      "shuffle tracks button"
     ],
     "1f501": [
       "arrow",
       "clockwise",
-      "repeat"
+      "repeat",
+      "repeat button"
     ],
     "1f502": [
       "arrow",
       "clockwise",
-      "once"
+      "once",
+      "repeat single button"
     ],
     "1f503": [
       "arrow",
       "clockwise",
+      "clockwise vertical arrows",
       "reload"
     ],
     "1f504": [
       "anticlockwise",
       "arrow",
       "counterclockwise",
+      "counterclockwise arrows button",
       "withershins"
     ],
     "1f505": [
       "brightness",
       "dim",
+      "dim button",
       "low"
     ],
     "1f506": [
       "bright",
+      "bright button",
       "brightness"
     ],
     "1f507": [
       "mute",
+      "muted speaker",
       "quiet",
       "silent",
       "speaker"
     ],
     "1f508": [
-      "soft"
+      "soft",
+      "speaker low volume"
     ],
     "1f509": [
-      "medium"
+      "medium",
+      "speaker medium volume"
     ],
     "1f50a": [
-      "loud"
+      "loud",
+      "speaker high volume"
     ],
     "1f50b": [
       "battery"
     ],
     "1f50c": [
       "electric",
+      "electric plug",
       "electricity",
       "plug"
     ],
     "1f50d": [
       "glass",
       "magnifying",
+      "magnifying glass tilted left",
       "search",
       "tool"
     ],
     "1f50e": [
       "glass",
       "magnifying",
+      "magnifying glass tilted right",
       "search",
       "tool"
     ],
     "1f50f": [
       "ink",
       "lock",
+      "locked with pen",
       "nib",
       "pen",
       "privacy"
@@ -4988,25 +5717,30 @@
       "closed",
       "key",
       "lock",
+      "locked with key",
       "secure"
     ],
     "1f511": [
+      "key",
       "lock",
       "password"
     ],
     "1f512": [
-      "closed"
+      "closed",
+      "locked"
     ],
     "1f513": [
       "lock",
       "open",
-      "unlock"
+      "unlock",
+      "unlocked"
     ],
     "1f514": [
       "bell"
     ],
     "1f515": [
       "bell",
+      "bell with slash",
       "forbidden",
       "mute",
       "no",
@@ -5016,6 +5750,7 @@
       "silent"
     ],
     "1f516": [
+      "bookmark",
       "mark"
     ],
     "1f517": [
@@ -5024,28 +5759,34 @@
     "1f518": [
       "button",
       "geometric",
-      "radio"
+      "radio",
+      "radio button"
     ],
     "1f519": [
       "arrow",
-      "back"
+      "back",
+      "BACK arrow"
     ],
     "1f51a": [
       "arrow",
-      "end"
+      "end",
+      "END arrow"
     ],
     "1f51b": [
       "arrow",
       "mark",
-      "on"
+      "on",
+      "ON! arrow"
     ],
     "1f51c": [
       "arrow",
-      "soon"
+      "soon",
+      "SOON arrow"
     ],
     "1f51d": [
       "arrow",
       "top",
+      "TOP arrow",
       "up"
     ],
     "1f51e": [
@@ -5054,16 +5795,15 @@
       "eighteen",
       "forbidden",
       "no",
+      "no one under eighteen",
       "not",
       "prohibited",
       "underage"
     ],
-    "1f51f": [
-      "keycap 10"
-    ],
     "1f520": [
       "ABCD",
       "input",
+      "input latin uppercase",
       "latin",
       "letters",
       "uppercase"
@@ -5071,6 +5811,7 @@
     "1f521": [
       "abcd",
       "input",
+      "input latin lowercase",
       "latin",
       "letters",
       "lowercase"
@@ -5078,45 +5819,53 @@
     "1f522": [
       "1234",
       "input",
+      "input numbers",
       "numbers"
     ],
     "1f523": [
       "〒♪&%",
-      "input"
+      "input",
+      "input symbols"
     ],
     "1f524": [
       "abc",
       "alphabet",
       "input",
+      "input latin letters",
       "latin",
       "letters"
     ],
     "1f525": [
+      "fire",
       "flame",
       "tool"
     ],
     "1f526": [
       "electric",
+      "flashlight",
       "light",
       "tool",
       "torch"
     ],
     "1f527": [
+      "spanner",
       "tool",
-      "wrench",
-      "spanner"
+      "wrench"
     ],
     "1f528": [
+      "hammer",
       "tool"
     ],
     "1f529": [
       "bolt",
       "nut",
+      "nut and bolt",
       "tool"
     ],
     "1f52a": [
       "cooking",
       "hocho",
+      "kitchen knife",
       "knife",
       "tool",
       "weapon"
@@ -5124,27 +5873,32 @@
     "1f52b": [
       "gun",
       "handgun",
+      "pistol",
       "revolver",
       "tool",
       "weapon"
     ],
     "1f52c": [
-      "tool",
-      "science"
+      "microscope",
+      "science",
+      "tool"
     ],
     "1f52d": [
-      "tool",
-      "science"
+      "science",
+      "telescope",
+      "tool"
     ],
     "1f52e": [
       "ball",
       "crystal",
+      "crystal ball",
       "fairy tale",
       "fantasy",
       "fortune",
       "tool"
     ],
     "1f52f": [
+      "dotted six-pointed star",
       "fortune",
       "star"
     ],
@@ -5153,6 +5907,7 @@
       "chevron",
       "green",
       "Japanese",
+      "Japanese symbol for beginner",
       "leaf",
       "tool",
       "yellow"
@@ -5162,9 +5917,11 @@
       "emblem",
       "ship",
       "tool",
-      "trident"
+      "trident",
+      "trident emblem"
     ],
     "1f532": [
+      "black square button",
       "button",
       "geometric",
       "square"
@@ -5173,74 +5930,89 @@
       "button",
       "geometric",
       "outlined",
-      "square"
+      "square",
+      "white square button"
     ],
     "1f534": [
       "circle",
       "geometric",
-      "red"
+      "red",
+      "red circle"
     ],
     "1f535": [
       "blue",
+      "blue circle",
       "circle",
       "geometric"
     ],
     "1f536": [
       "diamond",
       "geometric",
+      "large orange diamond",
       "orange"
     ],
     "1f537": [
       "blue",
       "diamond",
-      "geometric"
+      "geometric",
+      "large blue diamond"
     ],
     "1f538": [
       "diamond",
       "geometric",
-      "orange"
+      "orange",
+      "small orange diamond"
     ],
     "1f539": [
       "blue",
       "diamond",
-      "geometric"
+      "geometric",
+      "small blue diamond"
     ],
     "1f53a": [
       "geometric",
-      "red"
+      "red",
+      "red triangle pointed up"
     ],
     "1f53b": [
       "down",
       "geometric",
-      "red"
+      "red",
+      "red triangle pointed down"
     ],
     "1f53c": [
       "arrow",
       "button",
-      "red"
+      "red",
+      "upwards button"
     ],
     "1f53d": [
       "arrow",
       "button",
       "down",
+      "downwards button",
       "red"
     ],
     "1f549": [
       "Hindu",
+      "om",
       "religion"
     ],
     "1f54a": [
       "bird",
+      "dove",
       "fly",
       "peace"
     ],
     "1f54b": [
       "islam",
+      "kaaba",
       "Muslim",
       "religion"
     ],
     "1f54c": [
       "islam",
+      "mosque",
       "Muslim",
       "religion"
     ],
@@ -5248,11 +6020,13 @@
       "Jew",
       "Jewish",
       "religion",
+      "synagogue",
       "temple"
     ],
     "1f54e": [
       "candelabrum",
       "candlestick",
+      "menorah",
       "religion"
     ],
     "1f550": [
@@ -5261,7 +6035,8 @@
       "1:00",
       "clock",
       "o’clock",
-      "one"
+      "one",
+      "one o’clock"
     ],
     "1f551": [
       "00",
@@ -5269,7 +6044,8 @@
       "2:00",
       "clock",
       "o’clock",
-      "two"
+      "two",
+      "two o’clock"
     ],
     "1f552": [
       "00",
@@ -5277,7 +6053,8 @@
       "3:00",
       "clock",
       "o’clock",
-      "three"
+      "three",
+      "three o’clock"
     ],
     "1f553": [
       "00",
@@ -5285,6 +6062,7 @@
       "4:00",
       "clock",
       "four",
+      "four o’clock",
       "o’clock"
     ],
     "1f554": [
@@ -5293,6 +6071,7 @@
       "5:00",
       "clock",
       "five",
+      "five o’clock",
       "o’clock"
     ],
     "1f555": [
@@ -5301,7 +6080,8 @@
       "6:00",
       "clock",
       "o’clock",
-      "six"
+      "six",
+      "six o’clock"
     ],
     "1f556": [
       "00",
@@ -5309,7 +6089,8 @@
       "7:00",
       "clock",
       "o’clock",
-      "seven"
+      "seven",
+      "seven o’clock"
     ],
     "1f557": [
       "00",
@@ -5317,6 +6098,7 @@
       "8:00",
       "clock",
       "eight",
+      "eight o’clock",
       "o’clock"
     ],
     "1f558": [
@@ -5325,6 +6107,7 @@
       "9:00",
       "clock",
       "nine",
+      "nine o’clock",
       "o’clock"
     ],
     "1f559": [
@@ -5333,7 +6116,8 @@
       "10:00",
       "clock",
       "o’clock",
-      "ten"
+      "ten",
+      "ten o’clock"
     ],
     "1f55a": [
       "00",
@@ -5341,6 +6125,7 @@
       "11:00",
       "clock",
       "eleven",
+      "eleven o’clock",
       "o’clock"
     ],
     "1f55b": [
@@ -5349,7 +6134,8 @@
       "12:00",
       "clock",
       "o’clock",
-      "twelve"
+      "twelve",
+      "twelve o’clock"
     ],
     "1f55c": [
       "1",
@@ -5357,6 +6143,7 @@
       "30",
       "clock",
       "one",
+      "one-thirty",
       "thirty"
     ],
     "1f55d": [
@@ -5365,7 +6152,8 @@
       "30",
       "clock",
       "thirty",
-      "two"
+      "two",
+      "two-thirty"
     ],
     "1f55e": [
       "3",
@@ -5373,7 +6161,8 @@
       "30",
       "clock",
       "thirty",
-      "three"
+      "three",
+      "three-thirty"
     ],
     "1f55f": [
       "30",
@@ -5381,6 +6170,7 @@
       "4:30",
       "clock",
       "four",
+      "four-thirty",
       "thirty"
     ],
     "1f560": [
@@ -5389,6 +6179,7 @@
       "5:30",
       "clock",
       "five",
+      "five-thirty",
       "thirty"
     ],
     "1f561": [
@@ -5397,6 +6188,7 @@
       "6:30",
       "clock",
       "six",
+      "six-thirty",
       "thirty"
     ],
     "1f562": [
@@ -5405,6 +6197,7 @@
       "7:30",
       "clock",
       "seven",
+      "seven-thirty",
       "thirty"
     ],
     "1f563": [
@@ -5413,6 +6206,7 @@
       "8:30",
       "clock",
       "eight",
+      "eight-thirty",
       "thirty"
     ],
     "1f564": [
@@ -5421,6 +6215,7 @@
       "9:30",
       "clock",
       "nine",
+      "nine-thirty",
       "thirty"
     ],
     "1f565": [
@@ -5429,6 +6224,7 @@
       "30",
       "clock",
       "ten",
+      "ten-thirty",
       "thirty"
     ],
     "1f566": [
@@ -5437,6 +6233,7 @@
       "30",
       "clock",
       "eleven",
+      "eleven-thirty",
       "thirty"
     ],
     "1f567": [
@@ -5445,13 +6242,16 @@
       "30",
       "clock",
       "thirty",
-      "twelve"
+      "twelve",
+      "twelve-thirty"
     ],
     "1f56f": [
+      "candle",
       "light"
     ],
     "1f570": [
-      "clock"
+      "clock",
+      "mantelpiece clock"
     ],
     "1f573": [
       "hole"
@@ -5459,58 +6259,70 @@
     "1f574": [
       "business",
       "man",
+      "man in suit levitating",
       "suit"
     ],
-    "1f575": [
-      "sleuth",
-      "spy",
-      "detective"
-    ],
     "1f575_2642": [
+      "detective",
       "man",
+      "man detective",
       "sleuth",
-      "spy",
-      "detective"
+      "spy"
+    ],
+    "1f575": [
+      "detective",
+      "sleuth",
+      "spy"
     ],
     "1f575_2640": [
+      "detective",
       "sleuth",
       "spy",
       "woman",
-      "detective"
+      "woman detective"
     ],
     "1f576": [
       "dark",
       "eye",
       "eyewear",
-      "glasses"
+      "glasses",
+      "sunglasses"
     ],
     "1f577": [
-      "insect"
+      "insect",
+      "spider"
     ],
     "1f578": [
       "spider",
+      "spider web",
       "web"
     ],
     "1f579": [
       "game",
+      "joystick",
       "video game"
     ],
     "1f57a": [
       "dance",
-      "man"
+      "man",
+      "man dancing"
     ],
     "1f587": [
       "link",
+      "linked paperclips",
       "paperclip"
     ],
     "1f58a": [
-      "ballpoint"
+      "ballpoint",
+      "pen"
     ],
     "1f58b": [
       "fountain",
+      "fountain pen",
       "pen"
     ],
     "1f58c": [
+      "paintbrush",
       "painting"
     ],
     "1f58d": [
@@ -5519,56 +6331,68 @@
     "1f590": [
       "finger",
       "hand",
+      "hand with fingers splayed",
       "splayed"
     ],
     "1f595": [
       "finger",
-      "hand"
+      "hand",
+      "middle finger"
     ],
     "1f596": [
       "finger",
       "hand",
       "spock",
-      "vulcan"
+      "vulcan",
+      "vulcan salute"
     ],
     "1f5a4": [
       "black",
+      "black heart",
       "evil",
       "wicked"
     ],
     "1f5a5": [
       "computer",
-      "desktop"
+      "desktop",
+      "desktop computer"
     ],
     "1f5a8": [
-      "computer"
+      "computer",
+      "printer"
     ],
     "1f5b1": [
-      "computer"
+      "computer",
+      "computer mouse"
     ],
     "1f5b2": [
-      "computer"
+      "computer",
+      "trackball"
     ],
     "1f5bc": [
       "art",
       "frame",
+      "framed picture",
       "museum",
       "painting",
       "picture"
     ],
     "1f5c2": [
       "card",
+      "card index dividers",
       "dividers",
       "index"
     ],
     "1f5c3": [
       "box",
       "card",
+      "card file box",
       "file"
     ],
     "1f5c4": [
       "cabinet",
       "file",
+      "file cabinet",
       "filing"
     ],
     "1f5d1": [
@@ -5577,31 +6401,37 @@
     "1f5d2": [
       "note",
       "pad",
-      "spiral"
+      "spiral",
+      "spiral notepad"
     ],
     "1f5d3": [
       "calendar",
       "pad",
-      "spiral"
+      "spiral",
+      "spiral calendar"
     ],
     "1f5dc": [
+      "clamp",
+      "compress",
       "tool",
-      "vice",
-      "compress"
+      "vice"
     ],
     "1f5dd": [
       "clue",
       "key",
       "lock",
-      "old"
+      "old",
+      "old key"
     ],
     "1f5de": [
       "news",
       "newspaper",
       "paper",
-      "rolled"
+      "rolled",
+      "rolled-up newspaper"
     ],
     "1f5e1": [
+      "dagger",
       "knife",
       "weapon"
     ],
@@ -5610,52 +6440,64 @@
       "head",
       "silhouette",
       "speak",
-      "speaking"
+      "speaking",
+      "speaking head"
     ],
     "1f5e8": [
       "dialog",
+      "left speech bubble",
       "speech"
     ],
     "1f5ef": [
       "angry",
       "balloon",
       "bubble",
-      "mad"
+      "mad",
+      "right anger bubble"
     ],
     "1f5f3": [
       "ballot",
+      "ballot box with ballot",
       "box"
     ],
     "1f5fa": [
       "map",
-      "world"
+      "world",
+      "world map"
     ],
     "1f5fb": [
       "fuji",
+      "mount fuji",
       "mountain"
     ],
     "1f5fc": [
       "Tokyo",
+      "Tokyo tower",
       "tower"
     ],
     "1f5fd": [
       "liberty",
-      "statue"
+      "statue",
+      "Statue of Liberty"
     ],
     "1f5fe": [
       "Japan",
-      "map"
+      "map",
+      "map of Japan"
     ],
     "1f5ff": [
       "face",
+      "moai",
       "moyai",
       "statue"
     ],
     "1f600": [
       "face",
-      "grin"
+      "grin",
+      "grinning face"
     ],
     "1f601": [
+      "beaming face with smiling eyes",
       "eye",
       "face",
       "grin",
@@ -5663,12 +6505,14 @@
     ],
     "1f602": [
       "face",
+      "face with tears of joy",
       "joy",
       "laugh",
       "tear"
     ],
     "1f603": [
       "face",
+      "grinning face with big eyes",
       "mouth",
       "open",
       "smile"
@@ -5676,6 +6520,7 @@
     "1f604": [
       "eye",
       "face",
+      "grinning face with smiling eyes",
       "mouth",
       "open",
       "smile"
@@ -5683,12 +6528,14 @@
     "1f605": [
       "cold",
       "face",
+      "grinning face with sweat",
       "open",
       "smile",
       "sweat"
     ],
     "1f606": [
       "face",
+      "grinning squinting face",
       "laugh",
       "mouth",
       "open",
@@ -5702,28 +6549,33 @@
       "fantasy",
       "halo",
       "innocent",
-      "smile"
+      "smile",
+      "smiling face with halo"
     ],
     "1f608": [
       "face",
       "fairy tale",
       "fantasy",
       "horns",
-      "smile"
+      "smile",
+      "smiling face with horns"
     ],
     "1f609": [
       "face",
-      "wink"
+      "wink",
+      "winking face"
     ],
     "1f60a": [
       "blush",
       "eye",
       "face",
-      "smile"
+      "smile",
+      "smiling face with smiling eyes"
     ],
     "1f60b": [
       "delicious",
       "face",
+      "face savoring food",
       "savouring",
       "smile",
       "um",
@@ -5731,13 +6583,15 @@
     ],
     "1f60c": [
       "face",
-      "relieved"
+      "relieved",
+      "relieved face"
     ],
     "1f60d": [
       "eye",
       "face",
       "love",
-      "smile"
+      "smile",
+      "smiling face with heart-eyes"
     ],
     "1f60e": [
       "bright",
@@ -5747,20 +6601,24 @@
       "face",
       "glasses",
       "smile",
+      "smiling face with sunglasses",
       "sun",
       "sunglasses"
     ],
     "1f60f": [
       "face",
-      "smirk"
+      "smirk",
+      "smirking face"
     ],
     "1f610": [
       "deadpan",
       "face",
-      "neutral"
+      "neutral",
+      "neutral face"
     ],
     "1f611": [
       "expressionless",
+      "expressionless face",
       "face",
       "inexpressive",
       "unexpressive"
@@ -5768,48 +6626,58 @@
     "1f612": [
       "face",
       "unamused",
+      "unamused face",
       "unhappy"
     ],
     "1f613": [
       "cold",
+      "downcast face with sweat",
       "face",
       "sweat"
     ],
     "1f614": [
       "dejected",
       "face",
-      "pensive"
+      "pensive",
+      "pensive face"
     ],
     "1f615": [
       "confused",
+      "confused face",
       "face"
     ],
     "1f616": [
       "confounded",
+      "confounded face",
       "face"
     ],
     "1f617": [
       "face",
-      "kiss"
+      "kiss",
+      "kissing face"
     ],
     "1f618": [
       "face",
+      "face blowing a kiss",
       "kiss"
     ],
     "1f619": [
       "eye",
       "face",
       "kiss",
+      "kissing face with smiling eyes",
       "smile"
     ],
     "1f61a": [
       "closed",
       "eye",
       "face",
-      "kiss"
+      "kiss",
+      "kissing face with closed eyes"
     ],
     "1f61b": [
       "face",
+      "face with tongue",
       "tongue"
     ],
     "1f61c": [
@@ -5817,25 +6685,30 @@
       "face",
       "joke",
       "tongue",
-      "wink"
+      "wink",
+      "winking face with tongue"
     ],
     "1f61d": [
       "eye",
       "face",
       "horrible",
+      "squinting face with tongue",
       "taste",
       "tongue"
     ],
     "1f61e": [
       "disappointed",
+      "disappointed face",
       "face"
     ],
     "1f61f": [
       "face",
-      "worried"
+      "worried",
+      "worried face"
     ],
     "1f620": [
       "angry",
+      "angry face",
       "face",
       "mad"
     ],
@@ -5844,21 +6717,25 @@
       "face",
       "mad",
       "pouting",
+      "pouting face",
       "rage",
       "red"
     ],
     "1f622": [
       "cry",
+      "crying face",
       "face",
       "sad",
       "tear"
     ],
     "1f623": [
       "face",
-      "persevere"
+      "persevere",
+      "persevering face"
     ],
     "1f624": [
       "face",
+      "face with steam from nose",
       "triumph",
       "won"
     ],
@@ -5866,50 +6743,60 @@
       "disappointed",
       "face",
       "relieved",
+      "sad but relieved face",
       "whew"
     ],
     "1f626": [
       "face",
       "frown",
+      "frowning face with open mouth",
       "mouth",
       "open"
     ],
     "1f627": [
       "anguished",
+      "anguished face",
       "face"
     ],
     "1f628": [
       "face",
       "fear",
       "fearful",
+      "fearful face",
       "scared"
     ],
     "1f629": [
       "face",
       "tired",
-      "weary"
+      "weary",
+      "weary face"
     ],
     "1f62a": [
       "face",
-      "sleep"
+      "sleep",
+      "sleepy face"
     ],
     "1f62b": [
       "face",
-      "tired"
+      "tired",
+      "tired face"
     ],
     "1f62c": [
       "face",
-      "grimace"
+      "grimace",
+      "grimacing face"
     ],
     "1f62d": [
       "cry",
       "face",
+      "loudly crying face",
       "sad",
       "sob",
       "tear"
     ],
     "1f62e": [
       "face",
+      "face with open mouth",
       "mouth",
       "open",
       "sympathy"
@@ -5917,10 +6804,12 @@
     "1f62f": [
       "face",
       "hushed",
+      "hushed face",
       "stunned",
       "surprised"
     ],
     "1f630": [
+      "anxious face with sweat",
       "blue",
       "cold",
       "face",
@@ -5931,6 +6820,7 @@
     ],
     "1f631": [
       "face",
+      "face screaming in fear",
       "fear",
       "fearful",
       "munch",
@@ -5939,6 +6829,7 @@
     ],
     "1f632": [
       "astonished",
+      "astonished face",
       "face",
       "shocked",
       "totally"
@@ -5946,19 +6837,23 @@
     "1f633": [
       "dazed",
       "face",
-      "flushed"
+      "flushed",
+      "flushed face"
     ],
     "1f634": [
       "face",
       "sleep",
+      "sleeping face",
       "zzz"
     ],
     "1f635": [
       "dizzy",
+      "dizzy face",
       "face"
     ],
     "1f636": [
       "face",
+      "face without mouth",
       "mouth",
       "quiet",
       "silent"
@@ -5967,6 +6862,7 @@
       "cold",
       "doctor",
       "face",
+      "face with medical mask",
       "mask",
       "medicine",
       "sick"
@@ -5976,10 +6872,12 @@
       "eye",
       "face",
       "grin",
+      "grinning cat face with smiling eyes",
       "smile"
     ],
     "1f639": [
       "cat",
+      "cat face with tears of joy",
       "face",
       "joy",
       "tear"
@@ -5987,6 +6885,7 @@
     "1f63a": [
       "cat",
       "face",
+      "grinning cat face",
       "mouth",
       "open",
       "smile"
@@ -5996,10 +6895,12 @@
       "eye",
       "face",
       "love",
-      "smile"
+      "smile",
+      "smiling cat face with heart-eyes"
     ],
     "1f63c": [
       "cat",
+      "cat face with wry smile",
       "face",
       "ironic",
       "smile",
@@ -6009,16 +6910,19 @@
       "cat",
       "eye",
       "face",
-      "kiss"
+      "kiss",
+      "kissing cat face"
     ],
     "1f63e": [
       "cat",
       "face",
-      "pouting"
+      "pouting",
+      "pouting cat face"
     ],
     "1f63f": [
       "cat",
       "cry",
+      "crying cat face",
       "face",
       "sad",
       "tear"
@@ -6028,23 +6932,28 @@
       "face",
       "oh",
       "surprised",
-      "weary"
+      "weary",
+      "weary cat face"
     ],
     "1f641": [
       "face",
-      "frown"
+      "frown",
+      "slightly frowning face"
     ],
     "1f642": [
       "face",
+      "slightly smiling face",
       "smile"
     ],
     "1f643": [
       "face",
-      "upside-down"
+      "upside-down",
+      "upside-down face"
     ],
     "1f644": [
       "eyes",
       "face",
+      "face with rolling eyes",
       "rolling"
     ],
     "1f645_2640": [
@@ -6053,15 +6962,8 @@
       "hand",
       "no",
       "prohibited",
-      "woman"
-    ],
-    "1f645_2642": [
-      "forbidden",
-      "gesture",
-      "hand",
-      "man",
-      "no",
-      "prohibited"
+      "woman",
+      "woman gesturing NO"
     ],
     "1f645": [
       "forbidden",
@@ -6069,46 +6971,62 @@
       "hand",
       "no",
       "not",
+      "person gesturing NO",
+      "prohibited"
+    ],
+    "1f645_2642": [
+      "forbidden",
+      "gesture",
+      "hand",
+      "man",
+      "man gesturing NO",
+      "no",
       "prohibited"
     ],
     "1f646_2642": [
       "gesture",
       "hand",
       "man",
+      "man gesturing OK",
       "OK"
+    ],
+    "1f646": [
+      "gesture",
+      "hand",
+      "OK",
+      "person gesturing OK"
     ],
     "1f646_2640": [
       "gesture",
       "hand",
       "OK",
-      "woman"
-    ],
-    "1f646": [
-      "gesture",
-      "hand",
-      "OK"
+      "woman",
+      "woman gesturing OK"
     ],
     "1f647": [
       "apology",
       "bow",
       "gesture",
-      "sorry"
-    ],
-    "1f647_2642": [
-      "apology",
-      "favor",
-      "bowing",
-      "gesture",
-      "man",
+      "person bowing",
       "sorry"
     ],
     "1f647_2640": [
       "apology",
-      "favor",
       "bowing",
+      "favor",
       "gesture",
       "sorry",
-      "woman"
+      "woman",
+      "woman bowing"
+    ],
+    "1f647_2642": [
+      "apology",
+      "bowing",
+      "favor",
+      "gesture",
+      "man",
+      "man bowing",
+      "sorry"
     ],
     "1f648": [
       "evil",
@@ -6119,7 +7037,8 @@
       "no",
       "not",
       "prohibited",
-      "see"
+      "see",
+      "see-no-evil monkey"
     ],
     "1f649": [
       "evil",
@@ -6127,6 +7046,7 @@
       "forbidden",
       "gesture",
       "hear",
+      "hear-no-evil monkey",
       "monkey",
       "no",
       "not",
@@ -6141,22 +7061,26 @@
       "no",
       "not",
       "prohibited",
-      "speak"
+      "speak",
+      "speak-no-evil monkey"
     ],
     "1f64b_2642": [
       "gesture",
       "man",
+      "man raising hand",
       "raising hand"
     ],
     "1f64b_2640": [
       "gesture",
       "raising hand",
-      "woman"
+      "woman",
+      "woman raising hand"
     ],
     "1f64b": [
       "gesture",
       "hand",
       "happy",
+      "person raising hand",
       "raised"
     ],
     "1f64c": [
@@ -6164,40 +7088,48 @@
       "gesture",
       "hand",
       "hooray",
-      "raised"
+      "raised",
+      "raising hands"
     ],
-    "1f64d_2642": [
-      "frowning",
+    "1f64d": [
+      "frown",
       "gesture",
-      "man"
+      "person frowning"
     ],
     "1f64d_2640": [
       "frowning",
       "gesture",
-      "woman"
+      "woman",
+      "woman frowning"
     ],
-    "1f64d": [
-      "frown",
-      "gesture"
-    ],
-    "1f64e_2640": [
+    "1f64d_2642": [
+      "frowning",
       "gesture",
-      "pouting",
-      "woman"
+      "man",
+      "man frowning"
     ],
     "1f64e": [
       "gesture",
+      "person pouting",
       "pouting"
     ],
     "1f64e_2642": [
       "gesture",
       "man",
+      "man pouting",
       "pouting"
+    ],
+    "1f64e_2640": [
+      "gesture",
+      "pouting",
+      "woman",
+      "woman pouting"
     ],
     "1f64f": [
       "ask",
       "bow",
       "folded",
+      "folded hands",
       "gesture",
       "hand",
       "please",
@@ -6205,13 +7137,16 @@
       "thanks"
     ],
     "1f680": [
+      "rocket",
       "space"
     ],
     "1f681": [
+      "helicopter",
       "vehicle"
     ],
     "1f682": [
       "engine",
+      "locomotive",
       "railway",
       "steam",
       "train"
@@ -6220,11 +7155,13 @@
       "car",
       "electric",
       "railway",
+      "railway car",
       "train",
       "tram",
       "trolleybus"
     ],
     "1f684": [
+      "high-speed train",
       "railway",
       "shinkansen",
       "speed",
@@ -6232,120 +7169,149 @@
     ],
     "1f685": [
       "bullet",
+      "bullet train",
       "railway",
       "shinkansen",
       "speed",
       "train"
     ],
     "1f686": [
-      "railway"
+      "railway",
+      "train"
     ],
     "1f687": [
+      "metro",
       "subway"
     ],
     "1f688": [
+      "light rail",
       "railway"
     ],
     "1f689": [
       "railway",
+      "station",
       "train"
     ],
     "1f68a": [
+      "tram",
       "trolleybus"
     ],
     "1f68b": [
       "car",
       "tram",
+      "tram car",
       "trolleybus"
     ],
     "1f68c": [
+      "bus",
       "vehicle"
     ],
     "1f68d": [
       "bus",
-      "oncoming"
+      "oncoming",
+      "oncoming bus"
     ],
     "1f68e": [
       "bus",
       "tram",
-      "trolley"
+      "trolley",
+      "trolleybus"
     ],
     "1f68f": [
       "bus",
+      "bus stop",
       "busstop",
       "stop"
     ],
     "1f690": [
-      "bus"
+      "bus",
+      "minibus"
     ],
     "1f691": [
+      "ambulance",
       "vehicle"
     ],
     "1f692": [
       "engine",
       "fire",
+      "fire engine",
       "truck"
     ],
     "1f693": [
       "car",
       "patrol",
-      "police"
+      "police",
+      "police car"
     ],
     "1f694": [
       "car",
       "oncoming",
+      "oncoming police car",
       "police"
     ],
     "1f695": [
+      "taxi",
       "vehicle"
     ],
     "1f696": [
       "oncoming",
+      "oncoming taxi",
       "taxi"
     ],
     "1f697": [
+      "automobile",
       "car"
     ],
     "1f698": [
       "automobile",
       "car",
-      "oncoming"
+      "oncoming",
+      "oncoming automobile"
     ],
     "1f699": [
       "recreational",
-      "sport utility"
+      "sport utility",
+      "sport utility vehicle"
     ],
     "1f69a": [
       "delivery",
+      "delivery truck",
       "truck"
     ],
     "1f69b": [
+      "articulated lorry",
       "lorry",
       "semi",
       "truck"
     ],
     "1f69c": [
+      "tractor",
       "vehicle"
     ],
     "1f69d": [
+      "monorail",
       "vehicle"
     ],
     "1f69e": [
       "car",
       "mountain",
+      "mountain railway",
       "railway"
     ],
     "1f69f": [
       "railway",
-      "suspension"
+      "suspension",
+      "suspension railway"
     ],
     "1f6a0": [
       "cable",
       "gondola",
-      "mountain"
+      "mountain",
+      "mountain cableway"
     ],
     "1f6a1": [
       "aerial",
+      "aerial tramway",
       "cable",
       "car",
       "gondola",
@@ -6353,26 +7319,32 @@
     ],
     "1f6a2": [
       "boat",
-      "passenger"
+      "passenger",
+      "ship"
     ],
-    "1f6a3": [
+    "1f6a3_2642": [
       "boat",
+      "man",
+      "man rowing boat",
       "rowboat"
     ],
     "1f6a3_2640": [
       "boat",
       "rowboat",
-      "woman"
+      "woman",
+      "woman rowing boat"
     ],
-    "1f6a3_2642": [
+    "1f6a3": [
       "boat",
-      "man",
+      "person rowing boat",
       "rowboat"
     ],
     "1f6a4": [
-      "boat"
+      "boat",
+      "speedboat"
     ],
     "1f6a5": [
+      "horizontal traffic light",
       "light",
       "signal",
       "traffic"
@@ -6380,20 +7352,24 @@
     "1f6a6": [
       "light",
       "signal",
-      "traffic"
+      "traffic",
+      "vertical traffic light"
     ],
     "1f6a7": [
-      "barrier"
+      "barrier",
+      "construction"
     ],
     "1f6a8": [
       "beacon",
       "car",
       "light",
       "police",
+      "police car light",
       "revolving"
     ],
     "1f6a9": [
-      "post"
+      "post",
+      "triangular flag"
     ],
     "1f6aa": [
       "door"
@@ -6402,40 +7378,48 @@
       "entry",
       "forbidden",
       "no",
-      "not"
+      "not",
+      "prohibited"
     ],
     "1f6ac": [
+      "cigarette",
       "smoking"
     ],
     "1f6ad": [
       "forbidden",
       "no",
+      "no smoking",
       "not",
       "prohibited",
       "smoking"
     ],
     "1f6ae": [
       "litter",
-      "litter bin"
+      "litter bin",
+      "litter in bin sign"
     ],
     "1f6af": [
       "forbidden",
       "litter",
       "no",
+      "no littering",
       "not",
       "prohibited"
     ],
     "1f6b0": [
       "drinking",
       "potable",
+      "potable water",
       "water"
     ],
     "1f6b1": [
-      "non-potable",
       "non-drinking",
+      "non-potable",
+      "non-potable water",
       "water"
     ],
     "1f6b2": [
+      "bicycle",
       "bike"
     ],
     "1f6b3": [
@@ -6443,72 +7427,84 @@
       "bike",
       "forbidden",
       "no",
+      "no bicycles",
       "not",
       "prohibited"
-    ],
-    "1f6b4": [
-      "bicycle",
-      "biking",
-      "cyclist"
-    ],
-    "1f6b4_2640": [
-      "bicycle",
-      "biking",
-      "cyclist",
-      "woman"
     ],
     "1f6b4_2642": [
       "bicycle",
       "biking",
       "cyclist",
-      "man"
+      "man",
+      "man biking"
+    ],
+    "1f6b4_2640": [
+      "bicycle",
+      "biking",
+      "cyclist",
+      "woman",
+      "woman biking"
+    ],
+    "1f6b4": [
+      "bicycle",
+      "biking",
+      "cyclist",
+      "person biking"
+    ],
+    "1f6b5_2642": [
+      "bicycle",
+      "bike",
+      "cyclist",
+      "man",
+      "man mountain biking",
+      "mountain"
     ],
     "1f6b5": [
       "bicycle",
       "bicyclist",
       "bike",
       "cyclist",
-      "mountain"
+      "mountain",
+      "person mountain biking"
     ],
     "1f6b5_2640": [
       "bicycle",
-      "cyclist",
       "bike",
       "biking",
-      "mountain",
-      "woman"
-    ],
-    "1f6b5_2642": [
-      "bicycle",
       "cyclist",
-      "bike",
-      "man",
-      "mountain"
-    ],
-    "1f6b6": [
-      "hike",
-      "walk",
-      "walking"
+      "mountain",
+      "woman",
+      "woman mountain biking"
     ],
     "1f6b6_2640": [
       "hike",
       "walk",
-      "woman"
+      "woman",
+      "woman walking"
+    ],
+    "1f6b6": [
+      "hike",
+      "person walking",
+      "walk",
+      "walking"
     ],
     "1f6b6_2642": [
       "hike",
       "man",
+      "man walking",
       "walk"
     ],
     "1f6b7": [
       "forbidden",
       "no",
+      "no pedestrians",
       "not",
       "pedestrian",
       "prohibited"
     ],
     "1f6b8": [
       "child",
+      "children crossing",
       "crossing",
       "pedestrian",
       "traffic"
@@ -6516,6 +7512,7 @@
     "1f6b9": [
       "lavatory",
       "man",
+      "men’s room",
       "restroom",
       "wc"
     ],
@@ -6523,15 +7520,17 @@
       "lavatory",
       "restroom",
       "wc",
-      "woman"
+      "woman",
+      "women’s room"
     ],
     "1f6bb": [
       "lavatory",
-      "WC",
-      "restroom"
+      "restroom",
+      "WC"
     ],
     "1f6bc": [
       "baby",
+      "baby symbol",
       "changing"
     ],
     "1f6bd": [
@@ -6542,103 +7541,126 @@
       "lavatory",
       "restroom",
       "water",
+      "water closet",
       "wc"
     ],
     "1f6bf": [
+      "shower",
       "water"
     ],
     "1f6c0": [
+      "bath",
       "bathtub",
-      "bath"
+      "person taking bath"
     ],
     "1f6c1": [
-      "bath"
+      "bath",
+      "bathtub"
     ],
     "1f6c2": [
       "control",
-      "passport"
+      "passport",
+      "passport control"
     ],
     "1f6c3": [
       "customs"
     ],
     "1f6c4": [
       "baggage",
+      "baggage claim",
       "claim"
     ],
     "1f6c5": [
       "baggage",
+      "left luggage",
       "locker",
       "luggage"
     ],
     "1f6cb": [
       "couch",
+      "couch and lamp",
       "hotel",
       "lamp"
     ],
     "1f6cc": [
       "hotel",
+      "person in bed",
       "sleep"
     ],
     "1f6cd": [
       "bag",
       "hotel",
-      "shopping"
+      "shopping",
+      "shopping bags"
     ],
     "1f6ce": [
       "bell",
       "bellhop",
+      "bellhop bell",
       "hotel"
     ],
     "1f6cf": [
+      "bed",
       "hotel",
       "sleep"
     ],
     "1f6d0": [
+      "place of worship",
       "religion",
       "worship"
     ],
     "1f6d1": [
       "octagonal",
       "sign",
-      "stop"
+      "stop",
+      "stop sign"
     ],
     "1f6d2": [
-      "shopping",
       "cart",
+      "shopping",
+      "shopping cart",
       "trolley"
     ],
     "1f6e0": [
       "hammer",
+      "hammer and wrench",
+      "spanner",
       "tool",
-      "wrench",
-      "spanner"
+      "wrench"
     ],
     "1f6e1": [
+      "shield",
       "weapon"
     ],
     "1f6e2": [
       "drum",
-      "oil"
+      "oil",
+      "oil drum"
     ],
     "1f6e3": [
       "highway",
+      "motorway",
       "road"
     ],
     "1f6e4": [
       "railway",
+      "railway track",
       "train"
     ],
     "1f6e5": [
       "boat",
+      "motor boat",
       "motorboat"
     ],
     "1f6e9": [
       "aeroplane",
-      "airplane"
+      "airplane",
+      "small airplane"
     ],
     "1f6eb": [
       "aeroplane",
       "airplane",
+      "airplane departure",
       "check-in",
       "departure",
       "departures"
@@ -6646,48 +7668,58 @@
     "1f6ec": [
       "aeroplane",
       "airplane",
+      "airplane arrival",
       "arrivals",
       "arriving",
       "landing"
     ],
     "1f6f0": [
+      "satellite",
       "space"
     ],
     "1f6f3": [
       "passenger",
+      "passenger ship",
       "ship"
     ],
     "1f6f4": [
-      "scooter",
-      "kick"
+      "kick",
+      "kick scooter",
+      "scooter"
     ],
     "1f6f5": [
       "motor",
+      "motor scooter",
       "scooter"
     ],
     "1f6f6": [
-      "canoe",
-      "boat"
+      "boat",
+      "canoe"
     ],
     "1f6f7": [
+      "sled",
       "sledge",
       "sleigh"
     ],
     "1f6f8": [
+      "flying saucer",
       "UFO"
     ],
     "1f910": [
       "face",
       "mouth",
-      "zipper"
+      "zipper",
+      "zipper-mouth face"
     ],
     "1f911": [
       "face",
       "money",
+      "money-mouth face",
       "mouth"
     ],
     "1f912": [
       "face",
+      "face with thermometer",
       "ill",
       "sick",
       "thermometer"
@@ -6695,156 +7727,202 @@
     "1f913": [
       "face",
       "geek",
-      "nerd"
+      "nerd",
+      "nerd face"
     ],
     "1f914": [
       "face",
-      "thinking"
+      "thinking",
+      "thinking face"
     ],
     "1f915": [
       "bandage",
       "face",
+      "face with head-bandage",
       "hurt",
       "injury"
     ],
     "1f916": [
       "face",
       "monster",
-      "robot"
+      "robot",
+      "robot face"
     ],
     "1f917": [
       "face",
       "hug",
-      "hugging"
+      "hugging",
+      "hugging face"
     ],
     "1f918": [
       "finger",
       "hand",
       "horns",
-      "rock-on"
+      "rock-on",
+      "sign of the horns"
     ],
     "1f919": [
       "call",
+      "call me hand",
       "hand"
     ],
     "1f91a": [
       "backhand",
-      "raised"
+      "raised",
+      "raised back of hand"
     ],
     "1f91b": [
       "fist",
+      "left-facing fist",
       "leftwards"
     ],
     "1f91c": [
       "fist",
+      "right-facing fist",
       "rightwards"
     ],
     "1f91d": [
-      "handshake",
       "agreement",
+      "hand",
+      "handshake",
       "meeting",
-      "shake",
-      "hand"
+      "shake"
     ],
     "1f91e": [
       "cross",
+      "crossed fingers",
       "finger",
       "hand",
       "luck"
     ],
     "1f91f": [
+      "hand",
       "ILY",
-      "hand"
+      "love-you gesture"
     ],
     "1f920": [
       "cowboy",
+      "cowboy hat face",
+      "cowgirl",
       "face",
-      "hat",
-      "cowgirl"
+      "hat"
     ],
     "1f921": [
       "clown",
+      "clown face",
       "face"
     ],
     "1f922": [
       "face",
       "nauseated",
+      "nauseated face",
       "vomit"
     ],
     "1f923": [
+      "face",
       "floor",
       "laugh",
       "rolling",
-      "face"
+      "rolling on the floor laughing"
     ],
     "1f924": [
       "drooling",
+      "drooling face",
       "face"
     ],
     "1f925": [
       "face",
       "lie",
+      "lying face",
       "pinocchio"
-    ],
-    "1f926": [
-      "face",
-      "palm",
-      "disbelief",
-      "exasperation"
     ],
     "1f926_2640": [
       "disbelief",
       "exasperation",
       "facepalm",
-      "woman"
+      "woman",
+      "woman facepalming"
     ],
     "1f926_2642": [
       "disbelief",
       "exasperation",
       "facepalm",
-      "man"
+      "man",
+      "man facepalming"
+    ],
+    "1f926": [
+      "disbelief",
+      "exasperation",
+      "face",
+      "palm",
+      "person facepalming"
     ],
     "1f927": [
       "face",
       "gesundheit",
-      "sneeze"
+      "sneeze",
+      "sneezing face"
     ],
     "1f928": [
-      "skeptic",
-      "distrust"
+      "distrust",
+      "face with raised eyebrow",
+      "skeptic"
     ],
     "1f929": [
-      "grinning",
+      "eyes",
       "face",
+      "grinning",
       "star",
-      "eyes"
+      "star-struck"
     ],
     "1f92a": [
+      "eye",
+      "goofy",
       "large",
       "small",
-      "eye"
+      "zany face"
+    ],
+    "1f92b": [
+      "quiet",
+      "shush",
+      "shushing face"
+    ],
+    "1f92c": [
+      "face with symbols on mouth",
+      "swearing"
     ],
     "1f92d": [
+      "face with hand over mouth",
       "whoops"
     ],
     "1f92e": [
-      "vomit",
-      "sick"
+      "face vomiting",
+      "sick",
+      "vomit"
     ],
     "1f92f": [
+      "exploding head",
       "shocked"
     ],
     "1f930": [
       "pregnant",
+      "pregnant woman",
       "woman"
     ],
+    "1f931": [
+      "baby",
+      "breast",
+      "breast-feeding",
+      "nursing"
+    ],
     "1f932": [
+      "palms up together",
       "prayer"
     ],
     "1f933": [
-      "selfie",
       "camera",
-      "phone"
+      "phone",
+      "selfie"
     ],
     "1f934": [
       "prince"
@@ -6852,109 +7930,131 @@
     "1f935": [
       "groom",
       "man",
+      "man in tuxedo",
       "tuxedo"
     ],
     "1f936": [
-      "Christmas",
       "celebration",
+      "Christmas",
+      "claus",
       "mother",
       "Mrs.",
-      "claus"
+      "Mrs. Claus"
     ],
     "1f937": [
-      "shrug",
-      "doubt",
-      "ignorance",
-      "indifference"
-    ],
-    "1f937_2640": [
       "doubt",
       "ignorance",
       "indifference",
-      "shrug",
-      "woman"
+      "person shrugging",
+      "shrug"
     ],
     "1f937_2642": [
       "doubt",
       "ignorance",
       "indifference",
       "man",
+      "man shrugging",
       "shrug"
+    ],
+    "1f937_2640": [
+      "doubt",
+      "ignorance",
+      "indifference",
+      "shrug",
+      "woman",
+      "woman shrugging"
+    ],
+    "1f938": [
+      "cartwheel",
+      "gymnastics",
+      "person cartwheeling"
     ],
     "1f938_2642": [
       "cartwheel",
       "gymnastics",
-      "man"
-    ],
-    "1f938": [
-      "cartwheel",
-      "gymnastics"
+      "man",
+      "man cartwheeling"
     ],
     "1f938_2640": [
       "cartwheel",
       "gymnastics",
-      "woman"
+      "woman",
+      "woman cartwheeling"
     ],
     "1f939_2642": [
       "juggling",
       "man",
+      "man juggling",
       "multitask"
     ],
     "1f939": [
+      "balance",
       "juggle",
       "multitask",
-      "balance",
+      "person juggling",
       "skill"
     ],
     "1f939_2640": [
       "juggling",
       "multitask",
-      "woman"
+      "woman",
+      "woman juggling"
     ],
     "1f93a": [
       "fencer",
       "fencing",
+      "person fencing",
       "sword"
     ],
     "1f93c_2640": [
       "women",
-      "wrestle"
-    ],
-    "1f93c": [
-      "wrestler",
+      "women wrestling",
       "wrestle"
     ],
     "1f93c_2642": [
       "men",
+      "men wrestling",
       "wrestle"
     ],
-    "1f93d_2640": [
-      "water polo",
-      "woman"
-    ],
-    "1f93d": [
-      "polo",
-      "water"
+    "1f93c": [
+      "people wrestling",
+      "wrestle",
+      "wrestler"
     ],
     "1f93d_2642": [
       "man",
+      "man playing water polo",
       "water polo"
     ],
-    "1f93e_2642": [
-      "handball",
-      "man"
+    "1f93d_2640": [
+      "water polo",
+      "woman",
+      "woman playing water polo"
     ],
-    "1f93e": [
-      "handball",
-      "ball"
+    "1f93d": [
+      "person playing water polo",
+      "polo",
+      "water"
     ],
     "1f93e_2640": [
       "handball",
-      "woman"
+      "woman",
+      "woman playing handball"
+    ],
+    "1f93e_2642": [
+      "handball",
+      "man",
+      "man playing handball"
+    ],
+    "1f93e": [
+      "ball",
+      "handball",
+      "person playing handball"
     ],
     "1f940": [
       "flower",
-      "wilted"
+      "wilted",
+      "wilted flower"
     ],
     "1f941": [
       "drum",
@@ -6962,17 +8062,19 @@
       "music"
     ],
     "1f942": [
+      "celebrate",
       "clink",
-      "glass",
+      "clinking glasses",
       "drink",
-      "celebrate"
+      "glass"
     ],
     "1f943": [
       "glass",
-      "tumbler",
-      "whisky",
       "liquor",
-      "shot"
+      "shot",
+      "tumbler",
+      "tumbler glass",
+      "whisky"
     ],
     "1f944": [
       "spoon",
@@ -6980,200 +8082,254 @@
     ],
     "1f945": [
       "goal",
+      "goal net",
       "net"
     ],
     "1f947": [
+      "1st place medal",
       "first",
       "gold",
       "medal"
     ],
     "1f948": [
+      "2nd place medal",
       "medal",
       "second",
       "silver"
     ],
     "1f949": [
+      "3rd place medal",
       "bronze",
       "medal",
       "third"
     ],
     "1f94a": [
       "boxing",
+      "boxing glove",
       "glove"
     ],
     "1f94b": [
       "judo",
       "karate",
-      "taekwondo",
       "martial arts",
+      "martial arts uniform",
+      "taekwondo",
       "uniform"
     ],
+    "1f94c": [
+      "curling stone",
+      "game",
+      "rock"
+    ],
     "1f950": [
-      "croissant",
+      "bread",
       "crescent roll",
-      "french",
+      "croissant",
       "food",
-      "bread"
+      "french"
     ],
     "1f951": [
       "avocado",
-      "fruit",
-      "food"
+      "food",
+      "fruit"
     ],
     "1f952": [
       "cucumber",
+      "food",
       "pickle",
-      "vegetable",
-      "food"
+      "vegetable"
     ],
     "1f953": [
       "bacon",
-      "meat",
-      "food"
+      "food",
+      "meat"
     ],
     "1f954": [
+      "food",
       "potato",
-      "vegetable",
-      "food"
+      "vegetable"
     ],
     "1f955": [
       "carrot",
-      "vegetable",
-      "food"
+      "food",
+      "vegetable"
     ],
     "1f956": [
       "baguette",
+      "baguette bread",
       "bread",
-      "french",
-      "food"
+      "food",
+      "french"
     ],
     "1f957": [
+      "food",
       "green",
-      "salad",
-      "food"
+      "green salad",
+      "salad"
     ],
     "1f958": [
-      "paella",
       "casserole",
+      "food",
+      "paella",
       "pan",
       "shallow",
-      "food"
+      "shallow pan of food"
     ],
     "1f959": [
-      "kebab",
       "falafel",
-      "gyro",
       "flatbread",
+      "food",
+      "gyro",
+      "kebab",
       "stuffed",
-      "food"
+      "stuffed flatbread"
     ],
     "1f95a": [
       "egg",
       "food"
     ],
     "1f95b": [
+      "drink",
       "glass",
-      "milk",
-      "drink"
+      "glass of milk",
+      "milk"
     ],
     "1f95c": [
-      "peanut",
-      "nut",
       "food",
+      "nut",
+      "peanut",
+      "peanuts",
       "vegetable"
     ],
     "1f95d": [
-      "kiwi",
+      "food",
       "fruit",
-      "food"
+      "kiwi",
+      "kiwi fruit"
     ],
     "1f95e": [
-      "hotcake",
       "crêpe",
+      "food",
+      "hotcake",
       "pancake",
-      "food"
+      "pancakes"
     ],
     "1f95f": [
-      "potsticker",
+      "dumpling",
+      "empanada",
       "gyōza",
       "jiaozi",
       "pierogi",
-      "empanada"
+      "potsticker"
+    ],
+    "1f960": [
+      "fortune cookie",
+      "prophecy"
     ],
     "1f961": [
-      "oyster pail"
+      "oyster pail",
+      "takeout box"
     ],
     "1f962": [
+      "chopsticks",
       "hashi"
     ],
     "1f963": [
+      "bowl with spoon",
       "breakfast",
       "cereal",
       "congee"
     ],
     "1f964": [
-      "soda",
-      "juice"
+      "cup with straw",
+      "juice",
+      "soda"
+    ],
+    "1f965": [
+      "coconut",
+      "palm",
+      "piña colada"
+    ],
+    "1f966": [
+      "broccoli",
+      "wild cabbage"
+    ],
+    "1f967": [
+      "filling",
+      "pastry",
+      "pie"
     ],
     "1f968": [
+      "pretzel",
       "twisted"
     ],
     "1f969": [
-      "porkchop",
-      "lambchop",
       "chop",
+      "cut of meat",
+      "lambchop",
+      "porkchop",
       "steak"
     ],
+    "1f96a": [
+      "bread",
+      "sandwich"
+    ],
     "1f96b": [
-      "can"
+      "can",
+      "canned food"
     ],
     "1f980": [
       "Cancer",
+      "crab",
       "zodiac"
     ],
     "1f981": [
       "face",
       "Leo",
       "lion",
+      "lion face",
       "zodiac"
     ],
     "1f982": [
       "scorpio",
-      "Scorpius",
+      "Scorpio",
+      "scorpion",
       "zodiac"
     ],
     "1f983": [
-      "turkey",
-      "bird"
+      "bird",
+      "turkey"
     ],
     "1f984": [
       "face",
-      "unicorn"
+      "unicorn",
+      "unicorn face"
     ],
     "1f985": [
-      "eagle",
-      "bird"
+      "bird",
+      "eagle"
     ],
     "1f986": [
-      "duck",
-      "bird"
+      "bird",
+      "duck"
     ],
     "1f987": [
       "bat",
       "vampire"
     ],
     "1f988": [
-      "shark",
-      "fish"
+      "fish",
+      "shark"
     ],
     "1f989": [
+      "bird",
       "owl",
-      "wise",
-      "bird"
+      "wise"
     ],
     "1f98a": [
       "face",
-      "fox"
+      "fox",
+      "fox face"
     ],
     "1f98b": [
       "butterfly",
@@ -7194,148 +8350,243 @@
       "rhinoceros"
     ],
     "1f990": [
-      "shrimp",
-      "small",
+      "food",
       "shellfish",
-      "food"
+      "shrimp",
+      "small"
     ],
     "1f991": [
-      "squid",
+      "food",
       "molusc",
-      "food"
+      "squid"
+    ],
+    "1f992": [
+      "giraffe",
+      "spots"
+    ],
+    "1f993": [
+      "stripe",
+      "zebra"
+    ],
+    "1f994": [
+      "hedgehog",
+      "spiny"
     ],
     "1f995": [
+      "brachiosaurus",
       "brontosaurus",
       "diplodocus",
-      "brachiosaurus"
+      "sauropod"
     ],
     "1f996": [
+      "T-Rex",
       "Tyrannosaurus Rex"
     ],
+    "1f997": [
+      "cricket",
+      "grasshopper"
+    ],
     "1f9c0": [
-      "cheese"
+      "cheese",
+      "cheese wedge"
     ],
     "1f9d0": [
+      "face with monocle",
       "stuffy"
     ],
     "1f9d1": [
+      "adult",
       "gender-neutral"
     ],
     "1f9d2": [
+      "child",
       "gender-neutral",
       "young"
     ],
     "1f9d3": [
       "gender-neutral",
-      "old"
+      "old",
+      "older adult"
+    ],
+    "1f9d4": [
+      "beard",
+      "bearded person"
     ],
     "1f9d5": [
       "headscarf",
       "hijab",
+      "mantilla",
       "tichel",
-      "mantilla"
-    ],
-    "1f9d6_2640": [
-      "sauna",
-      "steam room"
+      "woman with headscarf"
     ],
     "1f9d6": [
+      "person in steamy room",
       "sauna",
       "steam room"
     ],
     "1f9d6_2642": [
+      "man in steamy room",
       "sauna",
       "steam room"
     ],
-    "1f9d8_2640": [
-      "yoga",
-      "meditation"
+    "1f9d6_2640": [
+      "sauna",
+      "steam room",
+      "woman in steamy room"
     ],
-    "1f9d8": [
-      "yoga",
-      "meditation"
+    "1f9d7": [
+      "climber",
+      "person climbing"
+    ],
+    "1f9d7_2640": [
+      "climber",
+      "woman climbing"
+    ],
+    "1f9d7_2642": [
+      "climber",
+      "man climbing"
     ],
     "1f9d8_2642": [
-      "yoga",
-      "meditation"
+      "man in lotus position",
+      "meditation",
+      "yoga"
     ],
-    "1f9d9_2640": [
-      "witch",
-      "sorceress"
+    "1f9d8": [
+      "meditation",
+      "person in lotus position",
+      "yoga"
     ],
-    "1f9d9": [
-      "wizard",
-      "witch",
-      "sorcerer",
-      "sorceress"
+    "1f9d8_2640": [
+      "meditation",
+      "woman in lotus position",
+      "yoga"
     ],
     "1f9d9_2642": [
-      "wizard",
-      "sorcerer"
+      "man mage",
+      "sorcerer",
+      "wizard"
+    ],
+    "1f9d9": [
+      "mage",
+      "sorcerer",
+      "sorceress",
+      "witch",
+      "wizard"
+    ],
+    "1f9d9_2640": [
+      "sorceress",
+      "witch",
+      "woman mage"
     ],
     "1f9da": [
-      "Titania",
+      "fairy",
+      "Oberon",
       "Puck",
-      "Oberon"
-    ],
-    "1f9da_2640": [
       "Titania"
     ],
     "1f9da_2642": [
-      "Puck",
-      "Oberon"
+      "man fairy",
+      "Oberon",
+      "Puck"
     ],
-    "1f9db_2642": [
-      "Dracula",
-      "undead"
+    "1f9da_2640": [
+      "Titania",
+      "woman fairy"
     ],
     "1f9db": [
       "Dracula",
-      "undead"
+      "undead",
+      "vampire"
     ],
     "1f9db_2640": [
+      "undead",
+      "woman vampire"
+    ],
+    "1f9db_2642": [
+      "Dracula",
+      "man vampire",
       "undead"
+    ],
+    "1f9dc_2640": [
+      "mermaid",
+      "merwoman"
+    ],
+    "1f9dc_2642": [
+      "merman",
+      "Triton"
     ],
     "1f9dc": [
       "mermaid",
       "merman",
+      "merperson",
       "merwoman"
     ],
-    "1f9dc_2640": [
-      "merwoman"
+    "1f9dd_2642": [
+      "magical",
+      "man elf"
+    ],
+    "1f9dd": [
+      "elf",
+      "magical"
+    ],
+    "1f9dd_2640": [
+      "magical",
+      "woman elf"
     ],
     "1f9de_2642": [
-      "djinn"
-    ],
-    "1f9de": [
-      "djinn"
+      "djinn",
+      "man genie"
     ],
     "1f9de_2640": [
-      "djinn"
+      "djinn",
+      "woman genie"
     ],
-    "1f9df_2642": [
+    "1f9de": [
+      "djinn",
+      "genie"
+    ],
+    "1f9df_2640": [
       "undead",
-      "walking dead"
+      "walking dead",
+      "woman zombie"
     ],
     "1f9df": [
       "undead",
-      "walking dead"
+      "walking dead",
+      "zombie"
     ],
-    "1f9df_2640": [
+    "1f9df_2642": [
+      "man zombie",
       "undead",
       "walking dead"
     ],
     "1f9e0": [
+      "brain",
       "intelligent"
     ],
+    "1f9e1": [
+      "orange",
+      "orange heart"
+    ],
     "1f9e2": [
-      "baseball cap"
+      "baseball cap",
+      "billed cap"
     ],
     "1f9e3": [
-      "neck"
+      "neck",
+      "scarf"
+    ],
+    "1f9e4": [
+      "gloves",
+      "hand"
     ],
     "1f9e5": [
+      "coat",
       "jacket"
+    ],
+    "1f9e6": [
+      "socks",
+      "stocking"
     ]
   }
 }
