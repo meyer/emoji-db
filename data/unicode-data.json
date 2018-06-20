@@ -19999,6 +19999,226 @@
       "category": 0,
       "subcategory": 0
     },
+    "1f9b5_1f3fb": {
+      "emoji": "🦵🏻",
+      "codepoints": [
+        129461,
+        127995
+      ],
+      "description": "leg: light skin tone",
+      "slug": "leg_light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b5_1f3fc": {
+      "emoji": "🦵🏼",
+      "codepoints": [
+        129461,
+        127996
+      ],
+      "description": "leg: medium-light skin tone",
+      "slug": "leg_medium-light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b5_1f3fd": {
+      "emoji": "🦵🏽",
+      "codepoints": [
+        129461,
+        127997
+      ],
+      "description": "leg: medium skin tone",
+      "slug": "leg_medium_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b5_1f3fe": {
+      "emoji": "🦵🏾",
+      "codepoints": [
+        129461,
+        127998
+      ],
+      "description": "leg: medium-dark skin tone",
+      "slug": "leg_medium-dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b5_1f3ff": {
+      "emoji": "🦵🏿",
+      "codepoints": [
+        129461,
+        127999
+      ],
+      "description": "leg: dark skin tone",
+      "slug": "leg_dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b6_1f3fb": {
+      "emoji": "🦶🏻",
+      "codepoints": [
+        129462,
+        127995
+      ],
+      "description": "foot: light skin tone",
+      "slug": "foot_light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b6_1f3fc": {
+      "emoji": "🦶🏼",
+      "codepoints": [
+        129462,
+        127996
+      ],
+      "description": "foot: medium-light skin tone",
+      "slug": "foot_medium-light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b6_1f3fd": {
+      "emoji": "🦶🏽",
+      "codepoints": [
+        129462,
+        127997
+      ],
+      "description": "foot: medium skin tone",
+      "slug": "foot_medium_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b6_1f3fe": {
+      "emoji": "🦶🏾",
+      "codepoints": [
+        129462,
+        127998
+      ],
+      "description": "foot: medium-dark skin tone",
+      "slug": "foot_medium-dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b6_1f3ff": {
+      "emoji": "🦶🏿",
+      "codepoints": [
+        129462,
+        127999
+      ],
+      "description": "foot: dark skin tone",
+      "slug": "foot_dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b8_1f3fb": {
+      "emoji": "🦸🏻",
+      "codepoints": [
+        129464,
+        127995
+      ],
+      "description": "superhero: light skin tone",
+      "slug": "superhero_light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b8_1f3fc": {
+      "emoji": "🦸🏼",
+      "codepoints": [
+        129464,
+        127996
+      ],
+      "description": "superhero: medium-light skin tone",
+      "slug": "superhero_medium-light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b8_1f3fd": {
+      "emoji": "🦸🏽",
+      "codepoints": [
+        129464,
+        127997
+      ],
+      "description": "superhero: medium skin tone",
+      "slug": "superhero_medium_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b8_1f3fe": {
+      "emoji": "🦸🏾",
+      "codepoints": [
+        129464,
+        127998
+      ],
+      "description": "superhero: medium-dark skin tone",
+      "slug": "superhero_medium-dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b8_1f3ff": {
+      "emoji": "🦸🏿",
+      "codepoints": [
+        129464,
+        127999
+      ],
+      "description": "superhero: dark skin tone",
+      "slug": "superhero_dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b9_1f3fb": {
+      "emoji": "🦹🏻",
+      "codepoints": [
+        129465,
+        127995
+      ],
+      "description": "supervillain: light skin tone",
+      "slug": "supervillain_light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b9_1f3fc": {
+      "emoji": "🦹🏼",
+      "codepoints": [
+        129465,
+        127996
+      ],
+      "description": "supervillain: medium-light skin tone",
+      "slug": "supervillain_medium-light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b9_1f3fd": {
+      "emoji": "🦹🏽",
+      "codepoints": [
+        129465,
+        127997
+      ],
+      "description": "supervillain: medium skin tone",
+      "slug": "supervillain_medium_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b9_1f3fe": {
+      "emoji": "🦹🏾",
+      "codepoints": [
+        129465,
+        127998
+      ],
+      "description": "supervillain: medium-dark skin tone",
+      "slug": "supervillain_medium-dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b9_1f3ff": {
+      "emoji": "🦹🏿",
+      "codepoints": [
+        129465,
+        127999
+      ],
+      "description": "supervillain: dark skin tone",
+      "slug": "supervillain_dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
     "1f9d1_1f3fb": {
       "emoji": "🧑🏻",
       "codepoints": [
@@ -21319,6 +21539,54 @@
       "category": 0,
       "subcategory": 0
     },
+    "1f468_1f9b0": {
+      "emoji": "👨‍🦰",
+      "codepoints": [
+        128104,
+        8205,
+        129456
+      ],
+      "description": "man, red haired",
+      "slug": "man_red_haired",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f468_1f9b1": {
+      "emoji": "👨‍🦱",
+      "codepoints": [
+        128104,
+        8205,
+        129457
+      ],
+      "description": "man, curly haired",
+      "slug": "man_curly_haired",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f468_1f9b2": {
+      "emoji": "👨‍🦲",
+      "codepoints": [
+        128104,
+        8205,
+        129458
+      ],
+      "description": "man, bald",
+      "slug": "man_bald",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f468_1f9b3": {
+      "emoji": "👨‍🦳",
+      "codepoints": [
+        128104,
+        8205,
+        129459
+      ],
+      "description": "man, white haired",
+      "slug": "man_white_haired",
+      "category": 0,
+      "subcategory": 0
+    },
     "1f468_1f3fb_2695": {
       "emoji": "👨🏻‍⚕️",
       "codepoints": [
@@ -21527,6 +21795,58 @@
       ],
       "description": "man firefighter: light skin tone",
       "slug": "man_firefighter_light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f468_1f3fb_1f9b0": {
+      "emoji": "👨🏻‍🦰",
+      "codepoints": [
+        128104,
+        127995,
+        8205,
+        129456
+      ],
+      "description": "man, red haired: light skin tone",
+      "slug": "man_red_haired_light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f468_1f3fb_1f9b1": {
+      "emoji": "👨🏻‍🦱",
+      "codepoints": [
+        128104,
+        127995,
+        8205,
+        129457
+      ],
+      "description": "man, curly haired: light skin tone",
+      "slug": "man_curly_haired_light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f468_1f3fb_1f9b2": {
+      "emoji": "👨🏻‍🦲",
+      "codepoints": [
+        128104,
+        127995,
+        8205,
+        129458
+      ],
+      "description": "man, bald: light skin tone",
+      "slug": "man_bald_light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f468_1f3fb_1f9b3": {
+      "emoji": "👨🏻‍🦳",
+      "codepoints": [
+        128104,
+        127995,
+        8205,
+        129459
+      ],
+      "description": "man, white haired: light skin tone",
+      "slug": "man_white_haired_light_skin_tone",
       "category": 0,
       "subcategory": 0
     },
@@ -21741,6 +22061,58 @@
       "category": 0,
       "subcategory": 0
     },
+    "1f468_1f3fc_1f9b0": {
+      "emoji": "👨🏼‍🦰",
+      "codepoints": [
+        128104,
+        127996,
+        8205,
+        129456
+      ],
+      "description": "man, red haired: medium-light skin tone",
+      "slug": "man_red_haired_medium-light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f468_1f3fc_1f9b1": {
+      "emoji": "👨🏼‍🦱",
+      "codepoints": [
+        128104,
+        127996,
+        8205,
+        129457
+      ],
+      "description": "man, curly haired: medium-light skin tone",
+      "slug": "man_curly_haired_medium-light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f468_1f3fc_1f9b2": {
+      "emoji": "👨🏼‍🦲",
+      "codepoints": [
+        128104,
+        127996,
+        8205,
+        129458
+      ],
+      "description": "man, bald: medium-light skin tone",
+      "slug": "man_bald_medium-light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f468_1f3fc_1f9b3": {
+      "emoji": "👨🏼‍🦳",
+      "codepoints": [
+        128104,
+        127996,
+        8205,
+        129459
+      ],
+      "description": "man, white haired: medium-light skin tone",
+      "slug": "man_white_haired_medium-light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
     "1f468_1f3fd_2695": {
       "emoji": "👨🏽‍⚕️",
       "codepoints": [
@@ -21949,6 +22321,58 @@
       ],
       "description": "man firefighter: medium skin tone",
       "slug": "man_firefighter_medium_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f468_1f3fd_1f9b0": {
+      "emoji": "👨🏽‍🦰",
+      "codepoints": [
+        128104,
+        127997,
+        8205,
+        129456
+      ],
+      "description": "man, red haired: medium skin tone",
+      "slug": "man_red_haired_medium_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f468_1f3fd_1f9b1": {
+      "emoji": "👨🏽‍🦱",
+      "codepoints": [
+        128104,
+        127997,
+        8205,
+        129457
+      ],
+      "description": "man, curly haired: medium skin tone",
+      "slug": "man_curly_haired_medium_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f468_1f3fd_1f9b2": {
+      "emoji": "👨🏽‍🦲",
+      "codepoints": [
+        128104,
+        127997,
+        8205,
+        129458
+      ],
+      "description": "man, bald: medium skin tone",
+      "slug": "man_bald_medium_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f468_1f3fd_1f9b3": {
+      "emoji": "👨🏽‍🦳",
+      "codepoints": [
+        128104,
+        127997,
+        8205,
+        129459
+      ],
+      "description": "man, white haired: medium skin tone",
+      "slug": "man_white_haired_medium_skin_tone",
       "category": 0,
       "subcategory": 0
     },
@@ -22163,6 +22587,58 @@
       "category": 0,
       "subcategory": 0
     },
+    "1f468_1f3fe_1f9b0": {
+      "emoji": "👨🏾‍🦰",
+      "codepoints": [
+        128104,
+        127998,
+        8205,
+        129456
+      ],
+      "description": "man, red haired: medium-dark skin tone",
+      "slug": "man_red_haired_medium-dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f468_1f3fe_1f9b1": {
+      "emoji": "👨🏾‍🦱",
+      "codepoints": [
+        128104,
+        127998,
+        8205,
+        129457
+      ],
+      "description": "man, curly haired: medium-dark skin tone",
+      "slug": "man_curly_haired_medium-dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f468_1f3fe_1f9b2": {
+      "emoji": "👨🏾‍🦲",
+      "codepoints": [
+        128104,
+        127998,
+        8205,
+        129458
+      ],
+      "description": "man, bald: medium-dark skin tone",
+      "slug": "man_bald_medium-dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f468_1f3fe_1f9b3": {
+      "emoji": "👨🏾‍🦳",
+      "codepoints": [
+        128104,
+        127998,
+        8205,
+        129459
+      ],
+      "description": "man, white haired: medium-dark skin tone",
+      "slug": "man_white_haired_medium-dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
     "1f468_1f3ff_2695": {
       "emoji": "👨🏿‍⚕️",
       "codepoints": [
@@ -22374,6 +22850,58 @@
       "category": 0,
       "subcategory": 0
     },
+    "1f468_1f3ff_1f9b0": {
+      "emoji": "👨🏿‍🦰",
+      "codepoints": [
+        128104,
+        127999,
+        8205,
+        129456
+      ],
+      "description": "man, red haired: dark skin tone",
+      "slug": "man_red_haired_dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f468_1f3ff_1f9b1": {
+      "emoji": "👨🏿‍🦱",
+      "codepoints": [
+        128104,
+        127999,
+        8205,
+        129457
+      ],
+      "description": "man, curly haired: dark skin tone",
+      "slug": "man_curly_haired_dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f468_1f3ff_1f9b2": {
+      "emoji": "👨🏿‍🦲",
+      "codepoints": [
+        128104,
+        127999,
+        8205,
+        129458
+      ],
+      "description": "man, bald: dark skin tone",
+      "slug": "man_bald_dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f468_1f3ff_1f9b3": {
+      "emoji": "👨🏿‍🦳",
+      "codepoints": [
+        128104,
+        127999,
+        8205,
+        129459
+      ],
+      "description": "man, white haired: dark skin tone",
+      "slug": "man_white_haired_dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
     "1f469_2695": {
       "emoji": "👩‍⚕️",
       "codepoints": [
@@ -22566,6 +23094,54 @@
       ],
       "description": "woman firefighter",
       "slug": "woman_firefighter",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f469_1f9b0": {
+      "emoji": "👩‍🦰",
+      "codepoints": [
+        128105,
+        8205,
+        129456
+      ],
+      "description": "woman, red haired",
+      "slug": "woman_red_haired",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f469_1f9b1": {
+      "emoji": "👩‍🦱",
+      "codepoints": [
+        128105,
+        8205,
+        129457
+      ],
+      "description": "woman, curly haired",
+      "slug": "woman_curly_haired",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f469_1f9b2": {
+      "emoji": "👩‍🦲",
+      "codepoints": [
+        128105,
+        8205,
+        129458
+      ],
+      "description": "woman, bald",
+      "slug": "woman_bald",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f469_1f9b3": {
+      "emoji": "👩‍🦳",
+      "codepoints": [
+        128105,
+        8205,
+        129459
+      ],
+      "description": "woman, white haired",
+      "slug": "woman_white_haired",
       "category": 0,
       "subcategory": 0
     },
@@ -22780,6 +23356,58 @@
       "category": 0,
       "subcategory": 0
     },
+    "1f469_1f3fb_1f9b0": {
+      "emoji": "👩🏻‍🦰",
+      "codepoints": [
+        128105,
+        127995,
+        8205,
+        129456
+      ],
+      "description": "woman, red haired: light skin tone",
+      "slug": "woman_red_haired_light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f469_1f3fb_1f9b1": {
+      "emoji": "👩🏻‍🦱",
+      "codepoints": [
+        128105,
+        127995,
+        8205,
+        129457
+      ],
+      "description": "woman, curly haired: light skin tone",
+      "slug": "woman_curly_haired_light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f469_1f3fb_1f9b2": {
+      "emoji": "👩🏻‍🦲",
+      "codepoints": [
+        128105,
+        127995,
+        8205,
+        129458
+      ],
+      "description": "woman, bald: light skin tone",
+      "slug": "woman_bald_light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f469_1f3fb_1f9b3": {
+      "emoji": "👩🏻‍🦳",
+      "codepoints": [
+        128105,
+        127995,
+        8205,
+        129459
+      ],
+      "description": "woman, white haired: light skin tone",
+      "slug": "woman_white_haired_light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
     "1f469_1f3fc_2695": {
       "emoji": "👩🏼‍⚕️",
       "codepoints": [
@@ -22988,6 +23616,58 @@
       ],
       "description": "woman firefighter: medium-light skin tone",
       "slug": "woman_firefighter_medium-light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f469_1f3fc_1f9b0": {
+      "emoji": "👩🏼‍🦰",
+      "codepoints": [
+        128105,
+        127996,
+        8205,
+        129456
+      ],
+      "description": "woman, red haired: medium-light skin tone",
+      "slug": "woman_red_haired_medium-light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f469_1f3fc_1f9b1": {
+      "emoji": "👩🏼‍🦱",
+      "codepoints": [
+        128105,
+        127996,
+        8205,
+        129457
+      ],
+      "description": "woman, curly haired: medium-light skin tone",
+      "slug": "woman_curly_haired_medium-light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f469_1f3fc_1f9b2": {
+      "emoji": "👩🏼‍🦲",
+      "codepoints": [
+        128105,
+        127996,
+        8205,
+        129458
+      ],
+      "description": "woman, bald: medium-light skin tone",
+      "slug": "woman_bald_medium-light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f469_1f3fc_1f9b3": {
+      "emoji": "👩🏼‍🦳",
+      "codepoints": [
+        128105,
+        127996,
+        8205,
+        129459
+      ],
+      "description": "woman, white haired: medium-light skin tone",
+      "slug": "woman_white_haired_medium-light_skin_tone",
       "category": 0,
       "subcategory": 0
     },
@@ -23202,6 +23882,58 @@
       "category": 0,
       "subcategory": 0
     },
+    "1f469_1f3fd_1f9b0": {
+      "emoji": "👩🏽‍🦰",
+      "codepoints": [
+        128105,
+        127997,
+        8205,
+        129456
+      ],
+      "description": "woman, red haired: medium skin tone",
+      "slug": "woman_red_haired_medium_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f469_1f3fd_1f9b1": {
+      "emoji": "👩🏽‍🦱",
+      "codepoints": [
+        128105,
+        127997,
+        8205,
+        129457
+      ],
+      "description": "woman, curly haired: medium skin tone",
+      "slug": "woman_curly_haired_medium_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f469_1f3fd_1f9b2": {
+      "emoji": "👩🏽‍🦲",
+      "codepoints": [
+        128105,
+        127997,
+        8205,
+        129458
+      ],
+      "description": "woman, bald: medium skin tone",
+      "slug": "woman_bald_medium_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f469_1f3fd_1f9b3": {
+      "emoji": "👩🏽‍🦳",
+      "codepoints": [
+        128105,
+        127997,
+        8205,
+        129459
+      ],
+      "description": "woman, white haired: medium skin tone",
+      "slug": "woman_white_haired_medium_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
     "1f469_1f3fe_2695": {
       "emoji": "👩🏾‍⚕️",
       "codepoints": [
@@ -23413,6 +24145,58 @@
       "category": 0,
       "subcategory": 0
     },
+    "1f469_1f3fe_1f9b0": {
+      "emoji": "👩🏾‍🦰",
+      "codepoints": [
+        128105,
+        127998,
+        8205,
+        129456
+      ],
+      "description": "woman, red haired: medium-dark skin tone",
+      "slug": "woman_red_haired_medium-dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f469_1f3fe_1f9b1": {
+      "emoji": "👩🏾‍🦱",
+      "codepoints": [
+        128105,
+        127998,
+        8205,
+        129457
+      ],
+      "description": "woman, curly haired: medium-dark skin tone",
+      "slug": "woman_curly_haired_medium-dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f469_1f3fe_1f9b2": {
+      "emoji": "👩🏾‍🦲",
+      "codepoints": [
+        128105,
+        127998,
+        8205,
+        129458
+      ],
+      "description": "woman, bald: medium-dark skin tone",
+      "slug": "woman_bald_medium-dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f469_1f3fe_1f9b3": {
+      "emoji": "👩🏾‍🦳",
+      "codepoints": [
+        128105,
+        127998,
+        8205,
+        129459
+      ],
+      "description": "woman, white haired: medium-dark skin tone",
+      "slug": "woman_white_haired_medium-dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
     "1f469_1f3ff_2695": {
       "emoji": "👩🏿‍⚕️",
       "codepoints": [
@@ -23621,6 +24405,58 @@
       ],
       "description": "woman firefighter: dark skin tone",
       "slug": "woman_firefighter_dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f469_1f3ff_1f9b0": {
+      "emoji": "👩🏿‍🦰",
+      "codepoints": [
+        128105,
+        127999,
+        8205,
+        129456
+      ],
+      "description": "woman, red haired: dark skin tone",
+      "slug": "woman_red_haired_dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f469_1f3ff_1f9b1": {
+      "emoji": "👩🏿‍🦱",
+      "codepoints": [
+        128105,
+        127999,
+        8205,
+        129457
+      ],
+      "description": "woman, curly haired: dark skin tone",
+      "slug": "woman_curly_haired_dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f469_1f3ff_1f9b2": {
+      "emoji": "👩🏿‍🦲",
+      "codepoints": [
+        128105,
+        127999,
+        8205,
+        129458
+      ],
+      "description": "woman, bald: dark skin tone",
+      "slug": "woman_bald_dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f469_1f3ff_1f9b3": {
+      "emoji": "👩🏿‍🦳",
+      "codepoints": [
+        128105,
+        127999,
+        8205,
+        129459
+      ],
+      "description": "woman, white haired: dark skin tone",
+      "slug": "woman_white_haired_dark_skin_tone",
       "category": 0,
       "subcategory": 0
     },
@@ -30210,6 +31046,338 @@
       "category": 0,
       "subcategory": 0
     },
+    "1f9b8_2640": {
+      "emoji": "🦸‍♀️",
+      "codepoints": [
+        129464,
+        8205,
+        9792,
+        65039
+      ],
+      "description": "woman superhero",
+      "slug": "woman_superhero",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b8_2642": {
+      "emoji": "🦸‍♂️",
+      "codepoints": [
+        129464,
+        8205,
+        9794,
+        65039
+      ],
+      "description": "man superhero",
+      "slug": "man_superhero",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b8_1f3fb_2640": {
+      "emoji": "🦸🏻‍♀️",
+      "codepoints": [
+        129464,
+        127995,
+        8205,
+        9792,
+        65039
+      ],
+      "description": "woman superhero: light skin tone",
+      "slug": "woman_superhero_light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b8_1f3fb_2642": {
+      "emoji": "🦸🏻‍♂️",
+      "codepoints": [
+        129464,
+        127995,
+        8205,
+        9794,
+        65039
+      ],
+      "description": "man superhero: light skin tone",
+      "slug": "man_superhero_light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b8_1f3fc_2640": {
+      "emoji": "🦸🏼‍♀️",
+      "codepoints": [
+        129464,
+        127996,
+        8205,
+        9792,
+        65039
+      ],
+      "description": "woman superhero: medium-light skin tone",
+      "slug": "woman_superhero_medium-light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b8_1f3fc_2642": {
+      "emoji": "🦸🏼‍♂️",
+      "codepoints": [
+        129464,
+        127996,
+        8205,
+        9794,
+        65039
+      ],
+      "description": "man superhero: medium-light skin tone",
+      "slug": "man_superhero_medium-light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b8_1f3fd_2640": {
+      "emoji": "🦸🏽‍♀️",
+      "codepoints": [
+        129464,
+        127997,
+        8205,
+        9792,
+        65039
+      ],
+      "description": "woman superhero: medium skin tone",
+      "slug": "woman_superhero_medium_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b8_1f3fd_2642": {
+      "emoji": "🦸🏽‍♂️",
+      "codepoints": [
+        129464,
+        127997,
+        8205,
+        9794,
+        65039
+      ],
+      "description": "man superhero: medium skin tone",
+      "slug": "man_superhero_medium_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b8_1f3fe_2640": {
+      "emoji": "🦸🏾‍♀️",
+      "codepoints": [
+        129464,
+        127998,
+        8205,
+        9792,
+        65039
+      ],
+      "description": "woman superhero: medium-dark skin tone",
+      "slug": "woman_superhero_medium-dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b8_1f3fe_2642": {
+      "emoji": "🦸🏾‍♂️",
+      "codepoints": [
+        129464,
+        127998,
+        8205,
+        9794,
+        65039
+      ],
+      "description": "man superhero: medium-dark skin tone",
+      "slug": "man_superhero_medium-dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b8_1f3ff_2640": {
+      "emoji": "🦸🏿‍♀️",
+      "codepoints": [
+        129464,
+        127999,
+        8205,
+        9792,
+        65039
+      ],
+      "description": "woman superhero: dark skin tone",
+      "slug": "woman_superhero_dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b8_1f3ff_2642": {
+      "emoji": "🦸🏿‍♂️",
+      "codepoints": [
+        129464,
+        127999,
+        8205,
+        9794,
+        65039
+      ],
+      "description": "man superhero: dark skin tone",
+      "slug": "man_superhero_dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b9_2640": {
+      "emoji": "🦹‍♀️",
+      "codepoints": [
+        129465,
+        8205,
+        9792,
+        65039
+      ],
+      "description": "woman supervillain",
+      "slug": "woman_supervillain",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b9_2642": {
+      "emoji": "🦹‍♂️",
+      "codepoints": [
+        129465,
+        8205,
+        9794,
+        65039
+      ],
+      "description": "man supervillain",
+      "slug": "man_supervillain",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b9_1f3fb_2640": {
+      "emoji": "🦹🏻‍♀️",
+      "codepoints": [
+        129465,
+        127995,
+        8205,
+        9792,
+        65039
+      ],
+      "description": "woman supervillain: light skin tone",
+      "slug": "woman_supervillain_light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b9_1f3fb_2642": {
+      "emoji": "🦹🏻‍♂️",
+      "codepoints": [
+        129465,
+        127995,
+        8205,
+        9794,
+        65039
+      ],
+      "description": "man supervillain: light skin tone",
+      "slug": "man_supervillain_light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b9_1f3fc_2640": {
+      "emoji": "🦹🏼‍♀️",
+      "codepoints": [
+        129465,
+        127996,
+        8205,
+        9792,
+        65039
+      ],
+      "description": "woman supervillain: medium-light skin tone",
+      "slug": "woman_supervillain_medium-light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b9_1f3fc_2642": {
+      "emoji": "🦹🏼‍♂️",
+      "codepoints": [
+        129465,
+        127996,
+        8205,
+        9794,
+        65039
+      ],
+      "description": "man supervillain: medium-light skin tone",
+      "slug": "man_supervillain_medium-light_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b9_1f3fd_2640": {
+      "emoji": "🦹🏽‍♀️",
+      "codepoints": [
+        129465,
+        127997,
+        8205,
+        9792,
+        65039
+      ],
+      "description": "woman supervillain: medium skin tone",
+      "slug": "woman_supervillain_medium_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b9_1f3fd_2642": {
+      "emoji": "🦹🏽‍♂️",
+      "codepoints": [
+        129465,
+        127997,
+        8205,
+        9794,
+        65039
+      ],
+      "description": "man supervillain: medium skin tone",
+      "slug": "man_supervillain_medium_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b9_1f3fe_2640": {
+      "emoji": "🦹🏾‍♀️",
+      "codepoints": [
+        129465,
+        127998,
+        8205,
+        9792,
+        65039
+      ],
+      "description": "woman supervillain: medium-dark skin tone",
+      "slug": "woman_supervillain_medium-dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b9_1f3fe_2642": {
+      "emoji": "🦹🏾‍♂️",
+      "codepoints": [
+        129465,
+        127998,
+        8205,
+        9794,
+        65039
+      ],
+      "description": "man supervillain: medium-dark skin tone",
+      "slug": "man_supervillain_medium-dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b9_1f3ff_2640": {
+      "emoji": "🦹🏿‍♀️",
+      "codepoints": [
+        129465,
+        127999,
+        8205,
+        9792,
+        65039
+      ],
+      "description": "woman supervillain: dark skin tone",
+      "slug": "woman_supervillain_dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f9b9_1f3ff_2642": {
+      "emoji": "🦹🏿‍♂️",
+      "codepoints": [
+        129465,
+        127999,
+        8205,
+        9794,
+        65039
+      ],
+      "description": "man supervillain: dark skin tone",
+      "slug": "man_supervillain_dark_skin_tone",
+      "category": 0,
+      "subcategory": 0
+    },
     "1f3f3_1f308": {
       "emoji": "🏳️‍🌈",
       "codepoints": [
@@ -30220,6 +31388,19 @@
       ],
       "description": "rainbow flag",
       "slug": "rainbow_flag",
+      "category": 0,
+      "subcategory": 0
+    },
+    "1f3f4_2620": {
+      "emoji": "🏴‍☠️",
+      "codepoints": [
+        127988,
+        8205,
+        9760,
+        65039
+      ],
+      "description": "pirate flag",
+      "slug": "pirate_flag",
       "category": 0,
       "subcategory": 0
     },
