@@ -611,13 +611,15 @@
   },
   "23cf": {
     "name": "eject button",
-    "emojilib_name": null,
+    "emojilib_name": "eject_button",
     "codepoints": [
       9167
     ],
     "unicode_category": "Miscellaneous Technical",
     "unicode_subcategory": "Keyboard and UI symbols",
     "keywords": [
+      "blue-square",
+      "button",
       "eject",
       "eject button"
     ],
@@ -14774,7 +14776,7 @@
   },
   "1f3f4_e0067_e0062_e0065_e006e_e0067_e007f": {
     "name": "England",
-    "emojilib_name": null,
+    "emojilib_name": "england",
     "codepoints": [
       127988,
       917607,
@@ -14787,7 +14789,9 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "england",
+      "english",
+      "flag"
     ],
     "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "image": "./emoji-img/england.png",
@@ -14795,7 +14799,7 @@
   },
   "1f3f4_e0067_e0062_e0073_e0063_e0074_e007f": {
     "name": "Scotland",
-    "emojilib_name": null,
+    "emojilib_name": "scotland",
     "codepoints": [
       127988,
       917607,
@@ -14808,7 +14812,9 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "flag",
+      "scotland",
+      "scottish"
     ],
     "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
     "image": "./emoji-img/scotland.png",
@@ -14816,7 +14822,7 @@
   },
   "1f3f4_e0067_e0062_e0077_e006c_e0073_e007f": {
     "name": "Wales",
-    "emojilib_name": null,
+    "emojilib_name": "wales",
     "codepoints": [
       127988,
       917607,
@@ -14829,7 +14835,9 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "flag",
+      "wales",
+      "welsh"
     ],
     "emoji": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
     "image": "./emoji-img/wales.png",
@@ -29296,16 +29304,18 @@
   },
   "1f6f7": {
     "name": "sled",
-    "emojilib_name": null,
+    "emojilib_name": "sled",
     "codepoints": [
       128759
     ],
     "unicode_category": "Transport And Map Symbols",
     "unicode_subcategory": "Vehicles",
     "keywords": [
+      "luge",
       "sled",
       "sledge",
-      "sleigh"
+      "sleigh",
+      "toboggan"
     ],
     "emoji": "🛷",
     "image": "./emoji-img/sled.png",
@@ -29313,7 +29323,7 @@
   },
   "1f6f8": {
     "name": "flying saucer",
-    "emojilib_name": null,
+    "emojilib_name": "flying_saucer",
     "codepoints": [
       128760
     ],
@@ -29321,7 +29331,12 @@
     "unicode_subcategory": "Vehicles",
     "keywords": [
       "UFO",
-      "flying saucer"
+      "flying",
+      "flying saucer",
+      "saucer",
+      "transportation",
+      "ufo",
+      "vehicle"
     ],
     "emoji": "🛸",
     "image": "./emoji-img/flying_saucer.png",
@@ -29675,7 +29690,7 @@
   },
   "1f91f": {
     "name": "love-you gesture",
-    "emojilib_name": null,
+    "emojilib_name": "love_you",
     "codepoints": [
       129311
     ],
@@ -29683,8 +29698,12 @@
     "unicode_subcategory": "Hand symbols",
     "keywords": [
       "ILY",
+      "fingers",
+      "gesture",
       "hand",
-      "love-you gesture"
+      "love",
+      "love-you gesture",
+      "you"
     ],
     "emoji": "🤟",
     "image": "./emoji-img/i_love_you_hand_sign.png",
@@ -29862,16 +29881,23 @@
   },
   "1f928": {
     "name": "face with raised eyebrow",
-    "emojilib_name": null,
+    "emojilib_name": "raised_eyebrow",
     "codepoints": [
       129320
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Emoticon faces",
     "keywords": [
+      "disapproval",
+      "disbelief",
       "distrust",
+      "eyebrow",
+      "face",
       "face with raised eyebrow",
-      "skeptic"
+      "raised",
+      "scepticism",
+      "skeptic",
+      "surprise"
     ],
     "emoji": "🤨",
     "image": "./emoji-img/face_with_one_eyebrow_raised.png",
@@ -29879,7 +29905,7 @@
   },
   "1f929": {
     "name": "star-struck",
-    "emojilib_name": null,
+    "emojilib_name": "star_struck",
     "codepoints": [
       129321
     ],
@@ -29889,8 +29915,11 @@
       "eyes",
       "face",
       "grinning",
+      "smile",
       "star",
-      "star-struck"
+      "star-struck",
+      "starry",
+      "struck"
     ],
     "emoji": "🤩",
     "image": "./emoji-img/grinning_face_with_star_eyes.png",
@@ -29898,17 +29927,20 @@
   },
   "1f92a": {
     "name": "zany face",
-    "emojilib_name": null,
+    "emojilib_name": "zany",
     "codepoints": [
       129322
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Emoticon faces",
     "keywords": [
+      "crazy",
       "eye",
+      "face",
       "goofy",
       "large",
       "small",
+      "zany",
       "zany face"
     ],
     "emoji": "🤪",
@@ -29917,15 +29949,18 @@
   },
   "1f92b": {
     "name": "shushing face",
-    "emojilib_name": null,
+    "emojilib_name": "shushing",
     "codepoints": [
       129323
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Emoticon faces",
     "keywords": [
+      "face",
       "quiet",
+      "shhh",
       "shush",
+      "shushing",
       "shushing face"
     ],
     "emoji": "🤫",
@@ -29934,15 +29969,23 @@
   },
   "1f92c": {
     "name": "face with symbols on mouth",
-    "emojilib_name": null,
+    "emojilib_name": "symbols_over_mouth",
     "codepoints": [
       129324
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Emoticon faces",
     "keywords": [
+      "cursing",
+      "cussing",
+      "expletive",
+      "face",
       "face with symbols on mouth",
-      "swearing"
+      "mouth",
+      "over",
+      "profanity",
+      "swearing",
+      "symbols"
     ],
     "emoji": "🤬",
     "image": "./emoji-img/serious_face_with_symbols_covering_mouth.png",
@@ -29950,14 +29993,20 @@
   },
   "1f92d": {
     "name": "face with hand over mouth",
-    "emojilib_name": null,
+    "emojilib_name": "hand_over_mouth",
     "codepoints": [
       129325
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Emoticon faces",
     "keywords": [
+      "face",
       "face with hand over mouth",
+      "hand",
+      "mouth",
+      "over",
+      "shock",
+      "surprise",
       "whoops"
     ],
     "emoji": "🤭",
@@ -29966,16 +30015,18 @@
   },
   "1f92e": {
     "name": "face vomiting",
-    "emojilib_name": null,
+    "emojilib_name": "vomiting",
     "codepoints": [
       129326
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Emoticon faces",
     "keywords": [
+      "face",
       "face vomiting",
       "sick",
-      "vomit"
+      "vomit",
+      "vomiting"
     ],
     "emoji": "🤮",
     "image": "./emoji-img/face_with_open_mouth_vomiting.png",
@@ -29983,14 +30034,19 @@
   },
   "1f92f": {
     "name": "exploding head",
-    "emojilib_name": null,
+    "emojilib_name": "exploding_head",
     "codepoints": [
       129327
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Emoticon faces",
     "keywords": [
+      "blown",
+      "exploding",
       "exploding head",
+      "face",
+      "head",
+      "mind",
       "shocked"
     ],
     "emoji": "🤯",
@@ -30022,7 +30078,7 @@
   },
   "1f931": {
     "name": "breast-feeding",
-    "emojilib_name": null,
+    "emojilib_name": "breastfeeding",
     "codepoints": [
       129329
     ],
@@ -30032,6 +30088,7 @@
       "baby",
       "breast",
       "breast-feeding",
+      "breastfeeding",
       "nursing"
     ],
     "emoji": "🤱",
@@ -30046,15 +30103,20 @@
   },
   "1f932": {
     "name": "palms up together",
-    "emojilib_name": null,
+    "emojilib_name": "palms_up",
     "codepoints": [
       129330
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
+      "cupped",
+      "gesture",
+      "hands",
+      "palms",
       "palms up together",
-      "prayer"
+      "prayer",
+      "up"
     ],
     "emoji": "🤲",
     "image": "./emoji-img/palms_up_together.png",
@@ -30367,7 +30429,8 @@
       "drum",
       "drumsticks",
       "instrument",
-      "music"
+      "music",
+      "snare"
     ],
     "emoji": "🥁",
     "image": "./emoji-img/drum_with_drumsticks.png",
@@ -30565,16 +30628,19 @@
   },
   "1f94c": {
     "name": "curling stone",
-    "emojilib_name": null,
+    "emojilib_name": "curling_stone",
     "codepoints": [
       129356
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Miscellaneous mark",
     "keywords": [
+      "curling",
       "curling stone",
       "game",
-      "rock"
+      "rock",
+      "sports",
+      "stone"
     ],
     "emoji": "🥌",
     "image": "./emoji-img/curling_stone.png",
@@ -30870,7 +30936,7 @@
   },
   "1f95f": {
     "name": "dumpling",
-    "emojilib_name": null,
+    "emojilib_name": "dumpling",
     "codepoints": [
       129375
     ],
@@ -30879,6 +30945,7 @@
     "keywords": [
       "dumpling",
       "empanada",
+      "food",
       "gyōza",
       "jiaozi",
       "pierogi",
@@ -30890,13 +30957,16 @@
   },
   "1f960": {
     "name": "fortune cookie",
-    "emojilib_name": null,
+    "emojilib_name": "fortune_cookie",
     "codepoints": [
       129376
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Food symbol",
     "keywords": [
+      "cookie",
+      "food",
+      "fortune",
       "fortune cookie",
       "prophecy"
     ],
@@ -30906,14 +30976,18 @@
   },
   "1f961": {
     "name": "takeout box",
-    "emojilib_name": null,
+    "emojilib_name": "takeout_box",
     "codepoints": [
       129377
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Food symbol",
     "keywords": [
+      "box",
+      "food",
+      "leftovers",
       "oyster pail",
+      "takeout",
       "takeout box"
     ],
     "emoji": "🥡",
@@ -30922,7 +30996,7 @@
   },
   "1f962": {
     "name": "chopsticks",
-    "emojilib_name": null,
+    "emojilib_name": "chopsticks",
     "codepoints": [
       129378
     ],
@@ -30930,6 +31004,7 @@
     "unicode_subcategory": "Food symbol",
     "keywords": [
       "chopsticks",
+      "food",
       "hashi"
     ],
     "emoji": "🥢",
@@ -30938,17 +31013,23 @@
   },
   "1f963": {
     "name": "bowl with spoon",
-    "emojilib_name": null,
+    "emojilib_name": "bowl_with_spoon",
     "codepoints": [
       129379
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Food symbol",
     "keywords": [
+      "bowl",
       "bowl with spoon",
       "breakfast",
       "cereal",
-      "congee"
+      "congee",
+      "food",
+      "oatmeal",
+      "porridge",
+      "spoon",
+      "with"
     ],
     "emoji": "🥣",
     "image": "./emoji-img/bowl_with_spoon.png",
@@ -30956,16 +31037,20 @@
   },
   "1f964": {
     "name": "cup with straw",
-    "emojilib_name": null,
+    "emojilib_name": "cup_with_straw",
     "codepoints": [
       129380
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Food symbol",
     "keywords": [
+      "cup",
       "cup with straw",
+      "drink",
       "juice",
-      "soda"
+      "soda",
+      "straw",
+      "with"
     ],
     "emoji": "🥤",
     "image": "./emoji-img/cup_with_straw.png",
@@ -30973,7 +31058,7 @@
   },
   "1f965": {
     "name": "coconut",
-    "emojilib_name": null,
+    "emojilib_name": "coconut",
     "codepoints": [
       129381
     ],
@@ -30981,6 +31066,9 @@
     "unicode_subcategory": "Food symbol",
     "keywords": [
       "coconut",
+      "food",
+      "fruit",
+      "nature",
       "palm",
       "piña colada"
     ],
@@ -30990,7 +31078,7 @@
   },
   "1f966": {
     "name": "broccoli",
-    "emojilib_name": null,
+    "emojilib_name": "broccoli",
     "codepoints": [
       129382
     ],
@@ -30998,6 +31086,9 @@
     "unicode_subcategory": "Food symbol",
     "keywords": [
       "broccoli",
+      "food",
+      "fruit",
+      "vegetable",
       "wild cabbage"
     ],
     "emoji": "🥦",
@@ -31006,14 +31097,16 @@
   },
   "1f967": {
     "name": "pie",
-    "emojilib_name": null,
+    "emojilib_name": "pie",
     "codepoints": [
       129383
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Food symbol",
     "keywords": [
+      "dessert",
       "filling",
+      "food",
       "pastry",
       "pie"
     ],
@@ -31023,13 +31116,15 @@
   },
   "1f968": {
     "name": "pretzel",
-    "emojilib_name": null,
+    "emojilib_name": "pretzel",
     "codepoints": [
       129384
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Food symbol",
     "keywords": [
+      "bread",
+      "food",
       "pretzel",
       "twisted"
     ],
@@ -31039,7 +31134,7 @@
   },
   "1f969": {
     "name": "cut of meat",
-    "emojilib_name": null,
+    "emojilib_name": "steak",
     "codepoints": [
       129385
     ],
@@ -31047,8 +31142,12 @@
     "unicode_subcategory": "Food symbol",
     "keywords": [
       "chop",
+      "cow",
+      "cut",
       "cut of meat",
+      "food",
       "lambchop",
+      "meat",
       "porkchop",
       "steak"
     ],
@@ -31058,7 +31157,7 @@
   },
   "1f96a": {
     "name": "sandwich",
-    "emojilib_name": null,
+    "emojilib_name": "sandwich",
     "codepoints": [
       129386
     ],
@@ -31066,6 +31165,8 @@
     "unicode_subcategory": "Food symbol",
     "keywords": [
       "bread",
+      "food",
+      "lunch",
       "sandwich"
     ],
     "emoji": "🥪",
@@ -31074,7 +31175,7 @@
   },
   "1f96b": {
     "name": "canned food",
-    "emojilib_name": null,
+    "emojilib_name": "canned_food",
     "codepoints": [
       129387
     ],
@@ -31082,7 +31183,10 @@
     "unicode_subcategory": "Food symbol",
     "keywords": [
       "can",
-      "canned food"
+      "canned",
+      "canned food",
+      "food",
+      "soup"
     ],
     "emoji": "🥫",
     "image": "./emoji-img/canned_food.png",
@@ -31438,14 +31542,17 @@
   },
   "1f992": {
     "name": "giraffe",
-    "emojilib_name": null,
+    "emojilib_name": "giraffe",
     "codepoints": [
       129426
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Animal symbols",
     "keywords": [
+      "animal",
       "giraffe",
+      "nature",
+      "safari",
       "spots"
     ],
     "emoji": "🦒",
@@ -31454,14 +31561,18 @@
   },
   "1f993": {
     "name": "zebra",
-    "emojilib_name": null,
+    "emojilib_name": "zebra",
     "codepoints": [
       129427
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Animal symbols",
     "keywords": [
+      "animal",
+      "nature",
+      "safari",
       "stripe",
+      "stripes",
       "zebra"
     ],
     "emoji": "🦓",
@@ -31470,14 +31581,16 @@
   },
   "1f994": {
     "name": "hedgehog",
-    "emojilib_name": null,
+    "emojilib_name": "hedgehog",
     "codepoints": [
       129428
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Animal symbols",
     "keywords": [
+      "animal",
       "hedgehog",
+      "nature",
       "spiny"
     ],
     "emoji": "🦔",
@@ -31486,16 +31599,20 @@
   },
   "1f995": {
     "name": "sauropod",
-    "emojilib_name": null,
+    "emojilib_name": "sauropod",
     "codepoints": [
       129429
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Animal symbols",
     "keywords": [
+      "animal",
       "brachiosaurus",
       "brontosaurus",
+      "dinosaur",
       "diplodocus",
+      "extinct",
+      "nature",
       "sauropod"
     ],
     "emoji": "🦕",
@@ -31504,7 +31621,7 @@
   },
   "1f996": {
     "name": "T-Rex",
-    "emojilib_name": null,
+    "emojilib_name": "t-rex",
     "codepoints": [
       129430
     ],
@@ -31512,7 +31629,13 @@
     "unicode_subcategory": "Animal symbols",
     "keywords": [
       "T-Rex",
-      "Tyrannosaurus Rex"
+      "Tyrannosaurus Rex",
+      "animal",
+      "dinosaur",
+      "extinct",
+      "nature",
+      "t-rex",
+      "tyrannosaurus"
     ],
     "emoji": "🦖",
     "image": "./emoji-img/t-rex.png",
@@ -31520,13 +31643,15 @@
   },
   "1f997": {
     "name": "cricket",
-    "emojilib_name": null,
+    "emojilib_name": "grasshopper",
     "codepoints": [
       129431
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Animal symbols",
     "keywords": [
+      "animal",
+      "chirp",
       "cricket",
       "grasshopper"
     ],
@@ -31554,15 +31679,18 @@
   },
   "1f9d0": {
     "name": "face with monocle",
-    "emojilib_name": null,
+    "emojilib_name": "monocle",
     "codepoints": [
       129488
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
+      "face",
       "face with monocle",
-      "stuffy"
+      "monocle",
+      "stuffy",
+      "wealthy"
     ],
     "emoji": "🧐",
     "image": "./emoji-img/face_with_monocle.png",
@@ -31570,7 +31698,7 @@
   },
   "1f9d1": {
     "name": "adult",
-    "emojilib_name": null,
+    "emojilib_name": "adult",
     "codepoints": [
       129489
     ],
@@ -31578,7 +31706,8 @@
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
       "adult",
-      "gender-neutral"
+      "gender-neutral",
+      "person"
     ],
     "emoji": "🧑",
     "image": "./emoji-img/adult.png",
@@ -31592,7 +31721,7 @@
   },
   "1f9d2": {
     "name": "child",
-    "emojilib_name": null,
+    "emojilib_name": "child",
     "codepoints": [
       129490
     ],
@@ -31615,16 +31744,21 @@
   },
   "1f9d3": {
     "name": "older adult",
-    "emojilib_name": null,
+    "emojilib_name": "older_adult",
     "codepoints": [
       129491
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
+      "adult",
+      "elder",
       "gender-neutral",
+      "human",
       "old",
-      "older adult"
+      "older",
+      "older adult",
+      "senior"
     ],
     "emoji": "🧓",
     "image": "./emoji-img/older_adult.png",
@@ -31638,7 +31772,7 @@
   },
   "1f9d4": {
     "name": "bearded person",
-    "emojilib_name": null,
+    "emojilib_name": "bearded_person",
     "codepoints": [
       129492
     ],
@@ -31646,7 +31780,10 @@
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
       "beard",
-      "bearded person"
+      "bearded",
+      "bearded person",
+      "bewhiskered",
+      "person"
     ],
     "emoji": "🧔",
     "image": "./emoji-img/bearded_person.png",
@@ -31660,17 +31797,20 @@
   },
   "1f9d5": {
     "name": "woman with headscarf",
-    "emojilib_name": null,
+    "emojilib_name": "woman_with_headscarf",
     "codepoints": [
       129493
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Portrait and role symbols",
     "keywords": [
+      "female",
       "headscarf",
       "hijab",
       "mantilla",
       "tichel",
+      "with",
+      "woman",
       "woman with headscarf"
     ],
     "emoji": "🧕",
@@ -31904,7 +32044,7 @@
   },
   "1f9e0": {
     "name": "brain",
-    "emojilib_name": null,
+    "emojilib_name": "brain",
     "codepoints": [
       129504
     ],
@@ -31912,7 +32052,8 @@
     "unicode_subcategory": "Miscellaneous mark",
     "keywords": [
       "brain",
-      "intelligent"
+      "intelligent",
+      "smart"
     ],
     "emoji": "🧠",
     "image": "./emoji-img/brain.png",
@@ -31920,15 +32061,20 @@
   },
   "1f9e1": {
     "name": "orange heart",
-    "emojilib_name": null,
+    "emojilib_name": "orange_heart",
     "codepoints": [
       129505
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Miscellaneous mark",
     "keywords": [
+      "affection",
+      "heart",
+      "like",
+      "love",
       "orange",
-      "orange heart"
+      "orange heart",
+      "valentines"
     ],
     "emoji": "🧡",
     "image": "./emoji-img/orange_heart.png",
@@ -31936,15 +32082,19 @@
   },
   "1f9e2": {
     "name": "billed cap",
-    "emojilib_name": null,
+    "emojilib_name": "billed_hat",
     "codepoints": [
       129506
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Miscellaneous mark",
     "keywords": [
+      "baseball",
       "baseball cap",
-      "billed cap"
+      "billed",
+      "billed cap",
+      "cap",
+      "hat"
     ],
     "emoji": "🧢",
     "image": "./emoji-img/billed_cap.png",
@@ -31952,15 +32102,17 @@
   },
   "1f9e3": {
     "name": "scarf",
-    "emojilib_name": null,
+    "emojilib_name": "scarf",
     "codepoints": [
       129507
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Miscellaneous mark",
     "keywords": [
+      "clothes",
       "neck",
-      "scarf"
+      "scarf",
+      "winter"
     ],
     "emoji": "🧣",
     "image": "./emoji-img/scarf.png",
@@ -31968,15 +32120,18 @@
   },
   "1f9e4": {
     "name": "gloves",
-    "emojilib_name": null,
+    "emojilib_name": "gloves",
     "codepoints": [
       129508
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Miscellaneous mark",
     "keywords": [
+      "clothes",
       "gloves",
-      "hand"
+      "hand",
+      "hands",
+      "winter"
     ],
     "emoji": "🧤",
     "image": "./emoji-img/gloves.png",
@@ -31984,7 +32139,7 @@
   },
   "1f9e5": {
     "name": "coat",
-    "emojilib_name": null,
+    "emojilib_name": "coat",
     "codepoints": [
       129509
     ],
@@ -32000,15 +32155,17 @@
   },
   "1f9e6": {
     "name": "socks",
-    "emojilib_name": null,
+    "emojilib_name": "socks",
     "codepoints": [
       129510
     ],
     "unicode_category": "Supplemental Symbols And Pictographs",
     "unicode_subcategory": "Miscellaneous mark",
     "keywords": [
+      "clothes",
       "socks",
-      "stocking"
+      "stocking",
+      "stockings"
     ],
     "emoji": "🧦",
     "image": "./emoji-img/socks.png",
