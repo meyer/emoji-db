@@ -25,7 +25,7 @@ ExtraKeywordsFile = RootDir.join('extra-keywords.yaml').to_s
 # files to output
 EmojiCategoryFile = DataDir.join('emoji-by-category.json').to_s
 EmojiDBFile = RootDir.join('emoji-db.json').to_s
-FontVersionFile = FontDir.join('versions.json').to_s
+FontVersionFile = FontDir.join('versions.yaml').to_s
 SequenceFile = DataDir.join('sequences.json').to_s
 UnicodeAnnotationFile = DataDir.join('unicode-annotations.json').to_s
 UnicodeDataFile = DataDir.join('unicode-data.json').to_s
@@ -54,16 +54,16 @@ task :copy_latest do
 
   puts "Add font to version database..."
   File.open(FontVersionFile, File::CREAT|File::RDWR) do |f|
-    version_db = begin JSON.parse(f.read) rescue {} end
+    version_db = begin YAML.load(f.read) rescue {} end
     if version_db.empty?
-      puts "Version file is invalid JSON"
+      puts "Version file is invalid"
       break
     end
     version_db[font_version] ||= {"build_date" => font_date}
     (version_db[font_version]["macos_versions"] ||= []).push(system_nicename).sort!.uniq!
 
     f.rewind
-    f.puts JSON.pretty_generate(version_db)
+    f.puts YAML.dump(version_db)
     f.flush
     f.truncate(f.pos)
   end
