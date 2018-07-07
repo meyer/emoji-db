@@ -173,6 +173,8 @@ task :generate_emoji_db => [:copy_latest] do
     emoji_key = codepoints.int_to_hex.join('_')
     emoji_key += "_#{fam.fam_sort}" if fam
 
+    puts emoji_key
+
     codepoints = sequence_data[emoji_key]['codepoints'] if sequence_data[emoji_key]
 
     emoji_string = codepoints.pack('U*')
@@ -193,6 +195,7 @@ task :generate_emoji_db => [:copy_latest] do
     uni = unicode_data['emoji'][emoji_key]
     name = annotation_data['names'][emoji_key] || uni['description'] || nil
     keywords = annotation_data['keywords'][emoji_key] || []
+    gender = fam === 'M' || fam === 'W' ? fam : nil
 
     emoji_filename = if uni['slug']
       uni['slug']
@@ -216,28 +219,37 @@ task :generate_emoji_db => [:copy_latest] do
 
     emoji_filename += ".#{bitmap.type}"
 
+    puts "emoji key: #{emoji_key} -- #{emoji_filename}"
+
     data = emoji_data[emoji_key] || {
       name: name,
       emojilib_name: nil,
       codepoints: codepoints,
       unicode_category: nil,
       unicode_subcategory: nil,
-      keywords: keywords,
+      keywords: [],
       emoji: emoji_string,
       image: nil,
       fitz: false,
     }
 
+    if gender
+      data[:default_gender] = data[:default_gender] || gender
+    end
+
+    fitz_key = gender && data[:default_gender] != gender ? :fitz_alt : :fitz
+    image_key = gender && data[:default_gender] != gender ? :image_alt : :image
+
     if fitz_idx > 0
-      (data[:fitz] ||= [])[fitz_idx - 1] = EmojiImgDirRelative.join(emoji_filename)
+      (data[fitz_key] ||= [])[fitz_idx - 1] = EmojiImgDirRelative.join(emoji_filename)
     else
-      data[:image] = EmojiImgDirRelative.join(emoji_filename)
+      data[image_key] = EmojiImgDirRelative.join(emoji_filename)
     end
 
     # write image to image dir
     File.write(EmojiImgDir.join(emoji_filename), bitmap.data.read)
 
-    data[:keywords].concat(extra_keywords[emoji_key] || [])
+    data[:keywords].concat(keywords, extra_keywords[emoji_key] || [])
 
     if uni
       data[:name] ||= uni['description']

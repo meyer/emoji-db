@@ -2699,8 +2699,17 @@
       "sports"
     ],
     "emoji": "⛹",
-    "image": "./emoji-img/person_with_ball.W.png",
+    "image": "./emoji-img/person_with_ball.M.png",
     "fitz": [
+      "./emoji-img/person_with_ball.M.1.png",
+      "./emoji-img/person_with_ball.M.2.png",
+      "./emoji-img/person_with_ball.M.3.png",
+      "./emoji-img/person_with_ball.M.4.png",
+      "./emoji-img/person_with_ball.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/person_with_ball.W.png",
+    "fitz_alt": [
       "./emoji-img/person_with_ball.W.1.png",
       "./emoji-img/person_with_ball.W.2.png",
       "./emoji-img/person_with_ball.W.3.png",
@@ -13751,8 +13760,17 @@
       "walking"
     ],
     "emoji": "🏃",
-    "image": "./emoji-img/runner.W.png",
+    "image": "./emoji-img/runner.M.png",
     "fitz": [
+      "./emoji-img/runner.M.1.png",
+      "./emoji-img/runner.M.2.png",
+      "./emoji-img/runner.M.3.png",
+      "./emoji-img/runner.M.4.png",
+      "./emoji-img/runner.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/runner.W.png",
+    "fitz_alt": [
       "./emoji-img/runner.W.1.png",
       "./emoji-img/runner.W.2.png",
       "./emoji-img/runner.W.3.png",
@@ -13779,8 +13797,17 @@
       "surfing"
     ],
     "emoji": "🏄",
-    "image": "./emoji-img/surfer.W.png",
+    "image": "./emoji-img/surfer.M.png",
     "fitz": [
+      "./emoji-img/surfer.M.1.png",
+      "./emoji-img/surfer.M.2.png",
+      "./emoji-img/surfer.M.3.png",
+      "./emoji-img/surfer.M.4.png",
+      "./emoji-img/surfer.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/surfer.W.png",
+    "fitz_alt": [
       "./emoji-img/surfer.W.1.png",
       "./emoji-img/surfer.W.2.png",
       "./emoji-img/surfer.W.3.png",
@@ -13918,8 +13945,17 @@
       "water"
     ],
     "emoji": "🏊",
-    "image": "./emoji-img/swimmer.W.png",
+    "image": "./emoji-img/swimmer.M.png",
     "fitz": [
+      "./emoji-img/swimmer.M.1.png",
+      "./emoji-img/swimmer.M.2.png",
+      "./emoji-img/swimmer.M.3.png",
+      "./emoji-img/swimmer.M.4.png",
+      "./emoji-img/swimmer.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/swimmer.W.png",
+    "fitz_alt": [
       "./emoji-img/swimmer.W.1.png",
       "./emoji-img/swimmer.W.2.png",
       "./emoji-img/swimmer.W.3.png",
@@ -13946,8 +13982,17 @@
       "weight"
     ],
     "emoji": "🏋",
-    "image": "./emoji-img/weight_lifter.W.png",
+    "image": "./emoji-img/weight_lifter.M.png",
     "fitz": [
+      "./emoji-img/weight_lifter.M.1.png",
+      "./emoji-img/weight_lifter.M.2.png",
+      "./emoji-img/weight_lifter.M.3.png",
+      "./emoji-img/weight_lifter.M.4.png",
+      "./emoji-img/weight_lifter.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/weight_lifter.W.png",
+    "fitz_alt": [
       "./emoji-img/weight_lifter.W.1.png",
       "./emoji-img/weight_lifter.W.2.png",
       "./emoji-img/weight_lifter.W.3.png",
@@ -13973,8 +14018,17 @@
       "sports"
     ],
     "emoji": "🏌",
-    "image": "./emoji-img/golfer.W.png",
+    "image": "./emoji-img/golfer.M.png",
     "fitz": [
+      "./emoji-img/golfer.M.1.png",
+      "./emoji-img/golfer.M.2.png",
+      "./emoji-img/golfer.M.3.png",
+      "./emoji-img/golfer.M.4.png",
+      "./emoji-img/golfer.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/golfer.W.png",
+    "fitz_alt": [
       "./emoji-img/golfer.W.1.png",
       "./emoji-img/golfer.W.2.png",
       "./emoji-img/golfer.W.3.png",
@@ -19068,8 +19122,17 @@
       "policeman"
     ],
     "emoji": "👮",
-    "image": "./emoji-img/police_officer.W.png",
+    "image": "./emoji-img/police_officer.M.png",
     "fitz": [
+      "./emoji-img/police_officer.M.1.png",
+      "./emoji-img/police_officer.M.2.png",
+      "./emoji-img/police_officer.M.3.png",
+      "./emoji-img/police_officer.M.4.png",
+      "./emoji-img/police_officer.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/police_officer.W.png",
+    "fitz_alt": [
       "./emoji-img/police_officer.W.1.png",
       "./emoji-img/police_officer.W.2.png",
       "./emoji-img/police_officer.W.3.png",
@@ -19097,8 +19160,10 @@
       "women"
     ],
     "emoji": "👯",
-    "image": "./emoji-img/woman_with_bunny_ears.W.png",
-    "fitz": false
+    "image": "./emoji-img/woman_with_bunny_ears.M.png",
+    "fitz": false,
+    "default_gender": "M",
+    "image_alt": "./emoji-img/woman_with_bunny_ears.W.png"
   },
   "1f470": {
     "name": "bride with veil",
@@ -19147,8 +19212,17 @@
       "person"
     ],
     "emoji": "👱",
-    "image": "./emoji-img/person_with_blond_hair.W.png",
+    "image": "./emoji-img/person_with_blond_hair.M.png",
     "fitz": [
+      "./emoji-img/person_with_blond_hair.M.1.png",
+      "./emoji-img/person_with_blond_hair.M.2.png",
+      "./emoji-img/person_with_blond_hair.M.3.png",
+      "./emoji-img/person_with_blond_hair.M.4.png",
+      "./emoji-img/person_with_blond_hair.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/person_with_blond_hair.W.png",
+    "fitz_alt": [
       "./emoji-img/person_with_blond_hair.W.1.png",
       "./emoji-img/person_with_blond_hair.W.2.png",
       "./emoji-img/person_with_blond_hair.W.3.png",
@@ -19206,8 +19280,17 @@
       "with"
     ],
     "emoji": "👳",
-    "image": "./emoji-img/man_with_turban.W.png",
+    "image": "./emoji-img/man_with_turban.M.png",
     "fitz": [
+      "./emoji-img/man_with_turban.M.1.png",
+      "./emoji-img/man_with_turban.M.2.png",
+      "./emoji-img/man_with_turban.M.3.png",
+      "./emoji-img/man_with_turban.M.4.png",
+      "./emoji-img/man_with_turban.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/man_with_turban.W.png",
+    "fitz_alt": [
       "./emoji-img/man_with_turban.W.1.png",
       "./emoji-img/man_with_turban.W.2.png",
       "./emoji-img/man_with_turban.W.3.png",
@@ -19319,8 +19402,17 @@
       "worker"
     ],
     "emoji": "👷",
-    "image": "./emoji-img/construction_worker.W.png",
+    "image": "./emoji-img/construction_worker.M.png",
     "fitz": [
+      "./emoji-img/construction_worker.M.1.png",
+      "./emoji-img/construction_worker.M.2.png",
+      "./emoji-img/construction_worker.M.3.png",
+      "./emoji-img/construction_worker.M.4.png",
+      "./emoji-img/construction_worker.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/construction_worker.W.png",
+    "fitz_alt": [
       "./emoji-img/construction_worker.W.1.png",
       "./emoji-img/construction_worker.W.2.png",
       "./emoji-img/construction_worker.W.3.png",
@@ -19582,8 +19674,17 @@
       "woman"
     ],
     "emoji": "💁",
-    "image": "./emoji-img/information_desk_person.W.png",
+    "image": "./emoji-img/information_desk_person.M.png",
     "fitz": [
+      "./emoji-img/information_desk_person.M.1.png",
+      "./emoji-img/information_desk_person.M.2.png",
+      "./emoji-img/information_desk_person.M.3.png",
+      "./emoji-img/information_desk_person.M.4.png",
+      "./emoji-img/information_desk_person.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/information_desk_person.W.png",
+    "fitz_alt": [
       "./emoji-img/information_desk_person.W.1.png",
       "./emoji-img/information_desk_person.W.2.png",
       "./emoji-img/information_desk_person.W.3.png",
@@ -19610,8 +19711,17 @@
       "uk"
     ],
     "emoji": "💂",
-    "image": "./emoji-img/guardsman.W.png",
+    "image": "./emoji-img/guardsman.M.png",
     "fitz": [
+      "./emoji-img/guardsman.M.1.png",
+      "./emoji-img/guardsman.M.2.png",
+      "./emoji-img/guardsman.M.3.png",
+      "./emoji-img/guardsman.M.4.png",
+      "./emoji-img/guardsman.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/guardsman.W.png",
+    "fitz_alt": [
       "./emoji-img/guardsman.W.1.png",
       "./emoji-img/guardsman.W.2.png",
       "./emoji-img/guardsman.W.3.png",
@@ -19713,8 +19823,17 @@
       "woman"
     ],
     "emoji": "💆",
-    "image": "./emoji-img/face_massage.W.png",
+    "image": "./emoji-img/face_massage.M.png",
     "fitz": [
+      "./emoji-img/face_massage.M.1.png",
+      "./emoji-img/face_massage.M.2.png",
+      "./emoji-img/face_massage.M.3.png",
+      "./emoji-img/face_massage.M.4.png",
+      "./emoji-img/face_massage.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/face_massage.W.png",
+    "fitz_alt": [
       "./emoji-img/face_massage.W.1.png",
       "./emoji-img/face_massage.W.2.png",
       "./emoji-img/face_massage.W.3.png",
@@ -19741,8 +19860,17 @@
       "woman"
     ],
     "emoji": "💇",
-    "image": "./emoji-img/haircut.W.png",
+    "image": "./emoji-img/haircut.M.png",
     "fitz": [
+      "./emoji-img/haircut.M.1.png",
+      "./emoji-img/haircut.M.2.png",
+      "./emoji-img/haircut.M.3.png",
+      "./emoji-img/haircut.M.4.png",
+      "./emoji-img/haircut.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/haircut.W.png",
+    "fitz_alt": [
       "./emoji-img/haircut.W.1.png",
       "./emoji-img/haircut.W.2.png",
       "./emoji-img/haircut.W.3.png",
@@ -24666,8 +24794,17 @@
       "spy"
     ],
     "emoji": "🕵",
-    "image": "./emoji-img/sleuth_or_spy.W.png",
+    "image": "./emoji-img/sleuth_or_spy.M.png",
     "fitz": [
+      "./emoji-img/sleuth_or_spy.M.1.png",
+      "./emoji-img/sleuth_or_spy.M.2.png",
+      "./emoji-img/sleuth_or_spy.M.3.png",
+      "./emoji-img/sleuth_or_spy.M.4.png",
+      "./emoji-img/sleuth_or_spy.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/sleuth_or_spy.W.png",
+    "fitz_alt": [
       "./emoji-img/sleuth_or_spy.W.1.png",
       "./emoji-img/sleuth_or_spy.W.2.png",
       "./emoji-img/sleuth_or_spy.W.3.png",
@@ -27070,8 +27207,17 @@
       "woman"
     ],
     "emoji": "🙅",
-    "image": "./emoji-img/face_with_no_good_gesture.W.png",
+    "image": "./emoji-img/face_with_no_good_gesture.M.png",
     "fitz": [
+      "./emoji-img/face_with_no_good_gesture.M.1.png",
+      "./emoji-img/face_with_no_good_gesture.M.2.png",
+      "./emoji-img/face_with_no_good_gesture.M.3.png",
+      "./emoji-img/face_with_no_good_gesture.M.4.png",
+      "./emoji-img/face_with_no_good_gesture.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/face_with_no_good_gesture.W.png",
+    "fitz_alt": [
       "./emoji-img/face_with_no_good_gesture.W.1.png",
       "./emoji-img/face_with_no_good_gesture.W.2.png",
       "./emoji-img/face_with_no_good_gesture.W.3.png",
@@ -27101,8 +27247,17 @@
       "women"
     ],
     "emoji": "🙆",
-    "image": "./emoji-img/face_with_ok_gesture.W.png",
+    "image": "./emoji-img/face_with_ok_gesture.M.png",
     "fitz": [
+      "./emoji-img/face_with_ok_gesture.M.1.png",
+      "./emoji-img/face_with_ok_gesture.M.2.png",
+      "./emoji-img/face_with_ok_gesture.M.3.png",
+      "./emoji-img/face_with_ok_gesture.M.4.png",
+      "./emoji-img/face_with_ok_gesture.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/face_with_ok_gesture.W.png",
+    "fitz_alt": [
       "./emoji-img/face_with_ok_gesture.W.1.png",
       "./emoji-img/face_with_ok_gesture.W.2.png",
       "./emoji-img/face_with_ok_gesture.W.3.png",
@@ -27130,8 +27285,17 @@
       "sorry"
     ],
     "emoji": "🙇",
-    "image": "./emoji-img/person_bowing_deeply.W.png",
+    "image": "./emoji-img/person_bowing_deeply.M.png",
     "fitz": [
+      "./emoji-img/person_bowing_deeply.M.1.png",
+      "./emoji-img/person_bowing_deeply.M.2.png",
+      "./emoji-img/person_bowing_deeply.M.3.png",
+      "./emoji-img/person_bowing_deeply.M.4.png",
+      "./emoji-img/person_bowing_deeply.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/person_bowing_deeply.W.png",
+    "fitz_alt": [
       "./emoji-img/person_bowing_deeply.W.1.png",
       "./emoji-img/person_bowing_deeply.W.2.png",
       "./emoji-img/person_bowing_deeply.W.3.png",
@@ -27239,8 +27403,17 @@
       "woman"
     ],
     "emoji": "🙋",
-    "image": "./emoji-img/happy_person_raising_one_hand.W.png",
+    "image": "./emoji-img/happy_person_raising_one_hand.M.png",
     "fitz": [
+      "./emoji-img/happy_person_raising_one_hand.M.1.png",
+      "./emoji-img/happy_person_raising_one_hand.M.2.png",
+      "./emoji-img/happy_person_raising_one_hand.M.3.png",
+      "./emoji-img/happy_person_raising_one_hand.M.4.png",
+      "./emoji-img/happy_person_raising_one_hand.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/happy_person_raising_one_hand.W.png",
+    "fitz_alt": [
       "./emoji-img/happy_person_raising_one_hand.W.1.png",
       "./emoji-img/happy_person_raising_one_hand.W.2.png",
       "./emoji-img/happy_person_raising_one_hand.W.3.png",
@@ -27298,8 +27471,17 @@
       "woman"
     ],
     "emoji": "🙍",
-    "image": "./emoji-img/person_frowning.W.png",
+    "image": "./emoji-img/person_frowning.M.png",
     "fitz": [
+      "./emoji-img/person_frowning.M.1.png",
+      "./emoji-img/person_frowning.M.2.png",
+      "./emoji-img/person_frowning.M.3.png",
+      "./emoji-img/person_frowning.M.4.png",
+      "./emoji-img/person_frowning.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/person_frowning.W.png",
+    "fitz_alt": [
       "./emoji-img/person_frowning.W.1.png",
       "./emoji-img/person_frowning.W.2.png",
       "./emoji-img/person_frowning.W.3.png",
@@ -27324,8 +27506,17 @@
       "woman"
     ],
     "emoji": "🙎",
-    "image": "./emoji-img/person_with_pouting_face.W.png",
+    "image": "./emoji-img/person_with_pouting_face.M.png",
     "fitz": [
+      "./emoji-img/person_with_pouting_face.M.1.png",
+      "./emoji-img/person_with_pouting_face.M.2.png",
+      "./emoji-img/person_with_pouting_face.M.3.png",
+      "./emoji-img/person_with_pouting_face.M.4.png",
+      "./emoji-img/person_with_pouting_face.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/person_with_pouting_face.W.png",
+    "fitz_alt": [
       "./emoji-img/person_with_pouting_face.W.1.png",
       "./emoji-img/person_with_pouting_face.W.2.png",
       "./emoji-img/person_with_pouting_face.W.3.png",
@@ -28094,8 +28285,17 @@
       "water"
     ],
     "emoji": "🚣",
-    "image": "./emoji-img/rowboat.W.png",
+    "image": "./emoji-img/rowboat.M.png",
     "fitz": [
+      "./emoji-img/rowboat.M.1.png",
+      "./emoji-img/rowboat.M.2.png",
+      "./emoji-img/rowboat.M.3.png",
+      "./emoji-img/rowboat.M.4.png",
+      "./emoji-img/rowboat.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/rowboat.W.png",
+    "fitz_alt": [
       "./emoji-img/rowboat.W.1.png",
       "./emoji-img/rowboat.W.2.png",
       "./emoji-img/rowboat.W.3.png",
@@ -28476,8 +28676,17 @@
       "sports"
     ],
     "emoji": "🚴",
-    "image": "./emoji-img/bicyclist.W.png",
+    "image": "./emoji-img/bicyclist.M.png",
     "fitz": [
+      "./emoji-img/bicyclist.M.1.png",
+      "./emoji-img/bicyclist.M.2.png",
+      "./emoji-img/bicyclist.M.3.png",
+      "./emoji-img/bicyclist.M.4.png",
+      "./emoji-img/bicyclist.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/bicyclist.W.png",
+    "fitz_alt": [
       "./emoji-img/bicyclist.W.1.png",
       "./emoji-img/bicyclist.W.2.png",
       "./emoji-img/bicyclist.W.3.png",
@@ -28508,8 +28717,17 @@
       "transportation"
     ],
     "emoji": "🚵",
-    "image": "./emoji-img/mountain_bicyclist.W.png",
+    "image": "./emoji-img/mountain_bicyclist.M.png",
     "fitz": [
+      "./emoji-img/mountain_bicyclist.M.1.png",
+      "./emoji-img/mountain_bicyclist.M.2.png",
+      "./emoji-img/mountain_bicyclist.M.3.png",
+      "./emoji-img/mountain_bicyclist.M.4.png",
+      "./emoji-img/mountain_bicyclist.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/mountain_bicyclist.W.png",
+    "fitz_alt": [
       "./emoji-img/mountain_bicyclist.W.1.png",
       "./emoji-img/mountain_bicyclist.W.2.png",
       "./emoji-img/mountain_bicyclist.W.3.png",
@@ -28536,8 +28754,17 @@
       "walking"
     ],
     "emoji": "🚶",
-    "image": "./emoji-img/pedestrian.W.png",
+    "image": "./emoji-img/pedestrian.M.png",
     "fitz": [
+      "./emoji-img/pedestrian.M.1.png",
+      "./emoji-img/pedestrian.M.2.png",
+      "./emoji-img/pedestrian.M.3.png",
+      "./emoji-img/pedestrian.M.4.png",
+      "./emoji-img/pedestrian.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/pedestrian.W.png",
+    "fitz_alt": [
       "./emoji-img/pedestrian.W.1.png",
       "./emoji-img/pedestrian.W.2.png",
       "./emoji-img/pedestrian.W.3.png",
@@ -29849,8 +30076,17 @@
       "person facepalming"
     ],
     "emoji": "🤦",
-    "image": "./emoji-img/face_palm.W.png",
+    "image": "./emoji-img/face_palm.M.png",
     "fitz": [
+      "./emoji-img/face_palm.M.1.png",
+      "./emoji-img/face_palm.M.2.png",
+      "./emoji-img/face_palm.M.3.png",
+      "./emoji-img/face_palm.M.4.png",
+      "./emoji-img/face_palm.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/face_palm.W.png",
+    "fitz_alt": [
       "./emoji-img/face_palm.W.1.png",
       "./emoji-img/face_palm.W.2.png",
       "./emoji-img/face_palm.W.3.png",
@@ -30259,8 +30495,17 @@
       "woman"
     ],
     "emoji": "🤷",
-    "image": "./emoji-img/shrug.W.png",
+    "image": "./emoji-img/shrug.M.png",
     "fitz": [
+      "./emoji-img/shrug.M.1.png",
+      "./emoji-img/shrug.M.2.png",
+      "./emoji-img/shrug.M.3.png",
+      "./emoji-img/shrug.M.4.png",
+      "./emoji-img/shrug.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/shrug.W.png",
+    "fitz_alt": [
       "./emoji-img/shrug.W.1.png",
       "./emoji-img/shrug.W.2.png",
       "./emoji-img/shrug.W.3.png",
@@ -30282,8 +30527,17 @@
       "person cartwheeling"
     ],
     "emoji": "🤸",
-    "image": "./emoji-img/person_doing_cartwheel.W.png",
+    "image": "./emoji-img/person_doing_cartwheel.M.png",
     "fitz": [
+      "./emoji-img/person_doing_cartwheel.M.1.png",
+      "./emoji-img/person_doing_cartwheel.M.2.png",
+      "./emoji-img/person_doing_cartwheel.M.3.png",
+      "./emoji-img/person_doing_cartwheel.M.4.png",
+      "./emoji-img/person_doing_cartwheel.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/person_doing_cartwheel.W.png",
+    "fitz_alt": [
       "./emoji-img/person_doing_cartwheel.W.1.png",
       "./emoji-img/person_doing_cartwheel.W.2.png",
       "./emoji-img/person_doing_cartwheel.W.3.png",
@@ -30307,8 +30561,17 @@
       "skill"
     ],
     "emoji": "🤹",
-    "image": "./emoji-img/juggling.W.png",
+    "image": "./emoji-img/juggling.M.png",
     "fitz": [
+      "./emoji-img/juggling.M.1.png",
+      "./emoji-img/juggling.M.2.png",
+      "./emoji-img/juggling.M.3.png",
+      "./emoji-img/juggling.M.4.png",
+      "./emoji-img/juggling.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/juggling.W.png",
+    "fitz_alt": [
       "./emoji-img/juggling.W.1.png",
       "./emoji-img/juggling.W.2.png",
       "./emoji-img/juggling.W.3.png",
@@ -30350,8 +30613,10 @@
       "wrestler"
     ],
     "emoji": "🤼",
-    "image": "./emoji-img/wrestlers.W.png",
-    "fitz": false
+    "image": "./emoji-img/wrestlers.M.png",
+    "fitz": false,
+    "default_gender": "M",
+    "image_alt": "./emoji-img/wrestlers.W.png"
   },
   "1f93d": {
     "name": "person playing water polo",
@@ -30367,8 +30632,17 @@
       "water"
     ],
     "emoji": "🤽",
-    "image": "./emoji-img/water_polo.W.png",
+    "image": "./emoji-img/water_polo.M.png",
     "fitz": [
+      "./emoji-img/water_polo.M.1.png",
+      "./emoji-img/water_polo.M.2.png",
+      "./emoji-img/water_polo.M.3.png",
+      "./emoji-img/water_polo.M.4.png",
+      "./emoji-img/water_polo.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/water_polo.W.png",
+    "fitz_alt": [
       "./emoji-img/water_polo.W.1.png",
       "./emoji-img/water_polo.W.2.png",
       "./emoji-img/water_polo.W.3.png",
@@ -30390,8 +30664,17 @@
       "person playing handball"
     ],
     "emoji": "🤾",
-    "image": "./emoji-img/handball.W.png",
+    "image": "./emoji-img/handball.M.png",
     "fitz": [
+      "./emoji-img/handball.M.1.png",
+      "./emoji-img/handball.M.2.png",
+      "./emoji-img/handball.M.3.png",
+      "./emoji-img/handball.M.4.png",
+      "./emoji-img/handball.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/handball.W.png",
+    "fitz_alt": [
       "./emoji-img/handball.W.1.png",
       "./emoji-img/handball.W.2.png",
       "./emoji-img/handball.W.3.png",
@@ -31837,8 +32120,17 @@
       "steam room"
     ],
     "emoji": "🧖",
-    "image": "./emoji-img/person_in_steamy_room.W.png",
+    "image": "./emoji-img/person_in_steamy_room.M.png",
     "fitz": [
+      "./emoji-img/person_in_steamy_room.M.1.png",
+      "./emoji-img/person_in_steamy_room.M.2.png",
+      "./emoji-img/person_in_steamy_room.M.3.png",
+      "./emoji-img/person_in_steamy_room.M.4.png",
+      "./emoji-img/person_in_steamy_room.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/person_in_steamy_room.W.png",
+    "fitz_alt": [
       "./emoji-img/person_in_steamy_room.W.1.png",
       "./emoji-img/person_in_steamy_room.W.2.png",
       "./emoji-img/person_in_steamy_room.W.3.png",
@@ -31859,8 +32151,17 @@
       "person climbing"
     ],
     "emoji": "🧗",
-    "image": "./emoji-img/person_climbing.W.png",
+    "image": "./emoji-img/person_climbing.M.png",
     "fitz": [
+      "./emoji-img/person_climbing.M.1.png",
+      "./emoji-img/person_climbing.M.2.png",
+      "./emoji-img/person_climbing.M.3.png",
+      "./emoji-img/person_climbing.M.4.png",
+      "./emoji-img/person_climbing.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/person_climbing.W.png",
+    "fitz_alt": [
       "./emoji-img/person_climbing.W.1.png",
       "./emoji-img/person_climbing.W.2.png",
       "./emoji-img/person_climbing.W.3.png",
@@ -31882,8 +32183,17 @@
       "yoga"
     ],
     "emoji": "🧘",
-    "image": "./emoji-img/person_in_lotus_position.W.png",
+    "image": "./emoji-img/person_in_lotus_position.M.png",
     "fitz": [
+      "./emoji-img/person_in_lotus_position.M.1.png",
+      "./emoji-img/person_in_lotus_position.M.2.png",
+      "./emoji-img/person_in_lotus_position.M.3.png",
+      "./emoji-img/person_in_lotus_position.M.4.png",
+      "./emoji-img/person_in_lotus_position.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/person_in_lotus_position.W.png",
+    "fitz_alt": [
       "./emoji-img/person_in_lotus_position.W.1.png",
       "./emoji-img/person_in_lotus_position.W.2.png",
       "./emoji-img/person_in_lotus_position.W.3.png",
@@ -31907,8 +32217,17 @@
       "wizard"
     ],
     "emoji": "🧙",
-    "image": "./emoji-img/mage.W.png",
+    "image": "./emoji-img/mage.M.png",
     "fitz": [
+      "./emoji-img/mage.M.1.png",
+      "./emoji-img/mage.M.2.png",
+      "./emoji-img/mage.M.3.png",
+      "./emoji-img/mage.M.4.png",
+      "./emoji-img/mage.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/mage.W.png",
+    "fitz_alt": [
       "./emoji-img/mage.W.1.png",
       "./emoji-img/mage.W.2.png",
       "./emoji-img/mage.W.3.png",
@@ -31931,8 +32250,17 @@
       "fairy"
     ],
     "emoji": "🧚",
-    "image": "./emoji-img/fairy.W.png",
+    "image": "./emoji-img/fairy.M.png",
     "fitz": [
+      "./emoji-img/fairy.M.1.png",
+      "./emoji-img/fairy.M.2.png",
+      "./emoji-img/fairy.M.3.png",
+      "./emoji-img/fairy.M.4.png",
+      "./emoji-img/fairy.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/fairy.W.png",
+    "fitz_alt": [
       "./emoji-img/fairy.W.1.png",
       "./emoji-img/fairy.W.2.png",
       "./emoji-img/fairy.W.3.png",
@@ -31954,8 +32282,17 @@
       "vampire"
     ],
     "emoji": "🧛",
-    "image": "./emoji-img/vampire.W.png",
+    "image": "./emoji-img/vampire.M.png",
     "fitz": [
+      "./emoji-img/vampire.M.1.png",
+      "./emoji-img/vampire.M.2.png",
+      "./emoji-img/vampire.M.3.png",
+      "./emoji-img/vampire.M.4.png",
+      "./emoji-img/vampire.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/vampire.W.png",
+    "fitz_alt": [
       "./emoji-img/vampire.W.1.png",
       "./emoji-img/vampire.W.2.png",
       "./emoji-img/vampire.W.3.png",
@@ -31978,8 +32315,17 @@
       "merwoman"
     ],
     "emoji": "🧜",
-    "image": "./emoji-img/merperson.W.png",
+    "image": "./emoji-img/merperson.M.png",
     "fitz": [
+      "./emoji-img/merperson.M.1.png",
+      "./emoji-img/merperson.M.2.png",
+      "./emoji-img/merperson.M.3.png",
+      "./emoji-img/merperson.M.4.png",
+      "./emoji-img/merperson.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/merperson.W.png",
+    "fitz_alt": [
       "./emoji-img/merperson.W.1.png",
       "./emoji-img/merperson.W.2.png",
       "./emoji-img/merperson.W.3.png",
@@ -32000,8 +32346,17 @@
       "magical"
     ],
     "emoji": "🧝",
-    "image": "./emoji-img/elf.W.png",
+    "image": "./emoji-img/elf.M.png",
     "fitz": [
+      "./emoji-img/elf.M.1.png",
+      "./emoji-img/elf.M.2.png",
+      "./emoji-img/elf.M.3.png",
+      "./emoji-img/elf.M.4.png",
+      "./emoji-img/elf.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/elf.W.png",
+    "fitz_alt": [
       "./emoji-img/elf.W.1.png",
       "./emoji-img/elf.W.2.png",
       "./emoji-img/elf.W.3.png",
@@ -32022,8 +32377,10 @@
       "genie"
     ],
     "emoji": "🧞",
-    "image": "./emoji-img/genie.W.png",
-    "fitz": false
+    "image": "./emoji-img/genie.M.png",
+    "fitz": false,
+    "default_gender": "M",
+    "image_alt": "./emoji-img/genie.W.png"
   },
   "1f9df": {
     "name": "zombie",
@@ -32039,8 +32396,10 @@
       "zombie"
     ],
     "emoji": "🧟",
-    "image": "./emoji-img/zombie.W.png",
-    "fitz": false
+    "image": "./emoji-img/zombie.M.png",
+    "fitz": false,
+    "default_gender": "M",
+    "image_alt": "./emoji-img/zombie.W.png"
   },
   "1f9e0": {
     "name": "brain",
