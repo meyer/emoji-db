@@ -14,7 +14,7 @@ require './utils.rb'
 RootDir = Pathname.new Rake.application.original_dir
 
 CacheDir = RootDir.join('cache')
-DataDir = RootDir.join('data')
+DataDir = RootDir.join('private')
 EmojiImgDir = RootDir.join('emoji-img')
 EmojiImgDirRelative = Pathname.new('./emoji-img')
 FontDir = RootDir.join('fonts')
