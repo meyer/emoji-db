@@ -25,7 +25,6 @@ ExtraKeywordsFile = RootDir.join('extra-keywords.yaml').to_s
 # files to output
 EmojiCategoryFile = DataDir.join('emoji-by-category.json').to_s
 EmojiDBFile = RootDir.join('emoji-db.json').to_s
-FontDataFile = FontDir.join('font-data.json').to_s
 FontVersionFile = FontDir.join('versions.json').to_s
 SequenceFile = DataDir.join('sequences.json').to_s
 UnicodeAnnotationFile = DataDir.join('unicode-annotations.json').to_s
@@ -107,8 +106,8 @@ task :generate_emoji_db => [:copy_latest] do
 
   abort 'Emoji font file does not exist!' unless ttf
 
-  puts "Run `npm update`..."
-  # system "npm update"
+  puts "Run `npm install`"
+  system "npm i"
 
   rm_rf EmojiImgDir
   mkdir_p EmojiImgDir

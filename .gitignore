@@ -1,3 +1,4 @@
 fonts/**/*.ttf
 fonts/**/*.ttc
 /cache
+/.vscode
