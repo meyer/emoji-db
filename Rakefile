@@ -32,7 +32,6 @@ SequenceFile = DataDir.join('sequences.json').to_s
 UnicodeAnnotationFile = DataDir.join('unicode-annotations.json').to_s
 UnicodeDataFile = DataDir.join('unicode-data.json').to_s
 
-
 FitzpatrickModifiers = [
   nil, # modifiers go from 1-5
   0x1f3fb,

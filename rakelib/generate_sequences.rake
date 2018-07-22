@@ -1,4 +1,4 @@
-task :generate_sequences do
+task :process_emoji_data do
   puts "Generating emoji sequence file..."
   sequence_data = {}
   [

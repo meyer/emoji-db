@@ -1,4 +1,4 @@
-task :build_unicode_db => [:generate_annotations, :generate_sequences] do
+task :build_unicode_db => [:generate_annotations, :process_emoji_data] do
   emoji_list_src = CacheDir.join('emoji-list-page.html').to_s
 
   # emoji minus ASCII numbers
@@ -16,17 +16,9 @@ task :build_unicode_db => [:generate_annotations, :generate_sequences] do
   doc = Nokogiri::HTML(emoji_list)
   rows = doc.xpath('//blockquote/table/tr')
 
-  categories = [nil]
-  subcategories = [nil]
-
   unicode_db = {
-    categories: [nil],
-    subcategories: [nil],
     emoji: {},
   }
-
-  current_category = nil
-  current_subcategory = nil
 
   seen_slugs = {}
 
@@ -34,23 +26,7 @@ task :build_unicode_db => [:generate_annotations, :generate_sequences] do
     cells = row.css('td')
     next if cells.length === 0
     if cells.length === 1
-      cat, subcat = cells[0].css('a').map(&:text)
 
-      cat_index = categories.index(cat)
-      subcat_index = subcategories.index(subcat)
-
-      if !cat_index
-        categories.push(cat)
-        cat_index = categories.length - 1
-      end
-
-      if !subcat_index
-        subcategories.push(subcat)
-        subcat_index = subcategories.length - 1
-      end
-
-      current_category = cat_index
-      current_subcategory = subcat_index
     elsif cells.length === 3
       # :space: catches \u00a0 and friends
       emoji = cells[0].text.strip.gsub(/[[:space:]]/, '')
@@ -67,19 +43,14 @@ task :build_unicode_db => [:generate_annotations, :generate_sequences] do
         slug: slug,
         codepoints: emoji.to_codepoints,
         description: description,
-        category: current_category,
-        subcategory: current_subcategory,
       }
     end
   end
 
-  unicode_db[:categories] = categories
-  unicode_db[:subcategories] = subcategories
-
   sequence_data = JSON.parse(File.read SequenceFile)
 
   sequence_data.each do |k, v|
-    new = {
+    newItem = {
       emoji: v['codepoints'].pack('U*'),
       codepoints: v['codepoints'],
       description: v['description'],
@@ -87,12 +58,9 @@ task :build_unicode_db => [:generate_annotations, :generate_sequences] do
     }
 
     if unicode_db[:emoji][k]
-      unicode_db[:emoji][k].merge!(new)
+      unicode_db[:emoji][k].merge!(newItem)
     else
-      unicode_db[:emoji][k] = new.merge({
-        category: 0,
-        subcategory: 0,
-      })
+      unicode_db[:emoji][k] = newItem
     end
   end
 
