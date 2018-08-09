@@ -6,8 +6,8 @@ task :copy_latest do
     ttc.find {|a| a.name.font_name[0] == 'Apple Color Emoji'}
   end
 
-  font_version = ttf.name.version[0]
-  font_date = ttf.name.unique_subfamily[0][/(\d{4}\-\d\d\-\d\d)/]
+  font_version = ttf.name.version[0].to_s
+  font_date = ttf.name.unique_subfamily[0][/(\d{4}\-\d\d\-\d\d)/].to_s
   ttc_name = "Apple Color Emoji #{font_version}.ttc"
   ttc_dest = FontDir.join(ttc_name)
 
