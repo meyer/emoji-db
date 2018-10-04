@@ -542,6 +542,14 @@
       ],
       "description": "HOT SPRINGS"
     },
+    "267e": {
+      "emoji": "♾",
+      "slug": "permanent_paper_sign",
+      "codepoints": [
+        9854
+      ],
+      "description": "PERMANENT PAPER SIGN"
+    },
     "267f": {
       "emoji": "♿️",
       "slug": "wheelchair_symbol",
@@ -799,6 +807,14 @@
         9934
       ],
       "description": "OPHIUCHUS"
+    },
+    "265f": {
+      "emoji": "♟",
+      "slug": "black_chess_pawn",
+      "codepoints": [
+        9823
+      ],
+      "description": "BLACK CHESS PAWN"
     },
     "2660": {
       "emoji": "♠️",
@@ -8136,6 +8152,14 @@
       ],
       "description": "FLYING SAUCER"
     },
+    "1f6f9": {
+      "emoji": "🛹",
+      "slug": "skateboard",
+      "codepoints": [
+        128761
+      ],
+      "description": "SKATEBOARD"
+    },
     "1f6a5": {
       "emoji": "🚥",
       "slug": "horizontal_traffic_light",
@@ -8824,54 +8848,6 @@
       ],
       "description": "SHRUG"
     },
-    "1f938": {
-      "emoji": "🤸",
-      "slug": "person_doing_cartwheel",
-      "codepoints": [
-        129336
-      ],
-      "description": "PERSON DOING CARTWHEEL"
-    },
-    "1f939": {
-      "emoji": "🤹",
-      "slug": "juggling",
-      "codepoints": [
-        129337
-      ],
-      "description": "JUGGLING"
-    },
-    "1f93a": {
-      "emoji": "🤺",
-      "slug": "fencer",
-      "codepoints": [
-        129338
-      ],
-      "description": "FENCER"
-    },
-    "1f93c": {
-      "emoji": "🤼",
-      "slug": "wrestlers",
-      "codepoints": [
-        129340
-      ],
-      "description": "WRESTLERS"
-    },
-    "1f93d": {
-      "emoji": "🤽",
-      "slug": "water_polo",
-      "codepoints": [
-        129341
-      ],
-      "description": "WATER POLO"
-    },
-    "1f93e": {
-      "emoji": "🤾",
-      "slug": "handball",
-      "codepoints": [
-        129342
-      ],
-      "description": "HANDBALL"
-    },
     "1f9d0": {
       "emoji": "🧐",
       "slug": "face_with_monocle",
@@ -8944,61 +8920,53 @@
       ],
       "description": "PERSON IN LOTUS POSITION"
     },
-    "1f9d9": {
-      "emoji": "🧙",
-      "slug": "mage",
+    "1f938": {
+      "emoji": "🤸",
+      "slug": "person_doing_cartwheel",
       "codepoints": [
-        129497
+        129336
       ],
-      "description": "MAGE"
+      "description": "PERSON DOING CARTWHEEL"
     },
-    "1f9da": {
-      "emoji": "🧚",
-      "slug": "fairy",
+    "1f939": {
+      "emoji": "🤹",
+      "slug": "juggling",
       "codepoints": [
-        129498
+        129337
       ],
-      "description": "FAIRY"
+      "description": "JUGGLING"
     },
-    "1f9db": {
-      "emoji": "🧛",
-      "slug": "vampire",
+    "1f93a": {
+      "emoji": "🤺",
+      "slug": "fencer",
       "codepoints": [
-        129499
+        129338
       ],
-      "description": "VAMPIRE"
+      "description": "FENCER"
     },
-    "1f9dc": {
-      "emoji": "🧜",
-      "slug": "merperson",
+    "1f93c": {
+      "emoji": "🤼",
+      "slug": "wrestlers",
       "codepoints": [
-        129500
+        129340
       ],
-      "description": "MERPERSON"
+      "description": "WRESTLERS"
     },
-    "1f9dd": {
-      "emoji": "🧝",
-      "slug": "elf",
+    "1f93d": {
+      "emoji": "🤽",
+      "slug": "water_polo",
       "codepoints": [
-        129501
+        129341
       ],
-      "description": "ELF"
+      "description": "WATER POLO"
     },
-    "1f9de": {
-      "emoji": "🧞",
-      "slug": "genie",
+    "1f93e": {
+      "emoji": "🤾",
+      "slug": "handball",
       "codepoints": [
-        129502
+        129342
       ],
-      "description": "GENIE"
-    },
-    "1f9df": {
-      "emoji": "🧟",
-      "slug": "zombie",
-      "codepoints": [
-        129503
-      ],
-      "description": "ZOMBIE"
+      "description": "HANDBALL"
     },
     "1f940": {
       "emoji": "🥀",
@@ -9095,6 +9063,30 @@
         129356
       ],
       "description": "CURLING STONE"
+    },
+    "1f94d": {
+      "emoji": "🥍",
+      "slug": "lacrosse_stick_and_ball",
+      "codepoints": [
+        129357
+      ],
+      "description": "LACROSSE STICK AND BALL"
+    },
+    "1f94e": {
+      "emoji": "🥎",
+      "slug": "softball",
+      "codepoints": [
+        129358
+      ],
+      "description": "SOFTBALL"
+    },
+    "1f94f": {
+      "emoji": "🥏",
+      "slug": "flying_disc",
+      "codepoints": [
+        129359
+      ],
+      "description": "FLYING DISC"
     },
     "1f9e0": {
       "emoji": "🧠",
@@ -9376,6 +9368,38 @@
       ],
       "description": "CANNED FOOD"
     },
+    "1f96c": {
+      "emoji": "🥬",
+      "slug": "leafy_green",
+      "codepoints": [
+        129388
+      ],
+      "description": "LEAFY GREEN"
+    },
+    "1f96d": {
+      "emoji": "🥭",
+      "slug": "mango",
+      "codepoints": [
+        129389
+      ],
+      "description": "MANGO"
+    },
+    "1f96e": {
+      "emoji": "🥮",
+      "slug": "moon_cake",
+      "codepoints": [
+        129390
+      ],
+      "description": "MOON CAKE"
+    },
+    "1f96f": {
+      "emoji": "🥯",
+      "slug": "bagel",
+      "codepoints": [
+        129391
+      ],
+      "description": "BAGEL"
+    },
     "1f9c0": {
       "emoji": "🧀",
       "slug": "cheese_wedge",
@@ -9383,6 +9407,102 @@
         129472
       ],
       "description": "CHEESE WEDGE"
+    },
+    "1f9c1": {
+      "emoji": "🧁",
+      "slug": "cupcake",
+      "codepoints": [
+        129473
+      ],
+      "description": "CUPCAKE"
+    },
+    "1f9c2": {
+      "emoji": "🧂",
+      "slug": "salt_shaker",
+      "codepoints": [
+        129474
+      ],
+      "description": "SALT SHAKER"
+    },
+    "1f970": {
+      "emoji": "🥰",
+      "slug": "smiling_face_with_smiling_eyes_and_three_hearts",
+      "codepoints": [
+        129392
+      ],
+      "description": "SMILING FACE WITH SMILING EYES AND THREE HEARTS"
+    },
+    "1f973": {
+      "emoji": "🥳",
+      "slug": "face_with_party_horn_and_party_hat",
+      "codepoints": [
+        129395
+      ],
+      "description": "FACE WITH PARTY HORN AND PARTY HAT"
+    },
+    "1f974": {
+      "emoji": "🥴",
+      "slug": "face_with_uneven_eyes_and_wavy_mouth",
+      "codepoints": [
+        129396
+      ],
+      "description": "FACE WITH UNEVEN EYES AND WAVY MOUTH"
+    },
+    "1f975": {
+      "emoji": "🥵",
+      "slug": "overheated_face",
+      "codepoints": [
+        129397
+      ],
+      "description": "OVERHEATED FACE"
+    },
+    "1f976": {
+      "emoji": "🥶",
+      "slug": "freezing_face",
+      "codepoints": [
+        129398
+      ],
+      "description": "FREEZING FACE"
+    },
+    "1f97a": {
+      "emoji": "🥺",
+      "slug": "face_with_pleading_eyes",
+      "codepoints": [
+        129402
+      ],
+      "description": "FACE WITH PLEADING EYES"
+    },
+    "1f97c": {
+      "emoji": "🥼",
+      "slug": "lab_coat",
+      "codepoints": [
+        129404
+      ],
+      "description": "LAB COAT"
+    },
+    "1f97d": {
+      "emoji": "🥽",
+      "slug": "goggles",
+      "codepoints": [
+        129405
+      ],
+      "description": "GOGGLES"
+    },
+    "1f97e": {
+      "emoji": "🥾",
+      "slug": "hiking_boot",
+      "codepoints": [
+        129406
+      ],
+      "description": "HIKING BOOT"
+    },
+    "1f97f": {
+      "emoji": "🥿",
+      "slug": "flat_shoe",
+      "codepoints": [
+        129407
+      ],
+      "description": "FLAT SHOE"
     },
     "1f980": {
       "emoji": "🦀",
@@ -9575,6 +9695,430 @@
         129431
       ],
       "description": "CRICKET"
+    },
+    "1f998": {
+      "emoji": "🦘",
+      "slug": "kangaroo",
+      "codepoints": [
+        129432
+      ],
+      "description": "KANGAROO"
+    },
+    "1f999": {
+      "emoji": "🦙",
+      "slug": "llama",
+      "codepoints": [
+        129433
+      ],
+      "description": "LLAMA"
+    },
+    "1f99a": {
+      "emoji": "🦚",
+      "slug": "peacock",
+      "codepoints": [
+        129434
+      ],
+      "description": "PEACOCK"
+    },
+    "1f99b": {
+      "emoji": "🦛",
+      "slug": "hippopotamus",
+      "codepoints": [
+        129435
+      ],
+      "description": "HIPPOPOTAMUS"
+    },
+    "1f99c": {
+      "emoji": "🦜",
+      "slug": "parrot",
+      "codepoints": [
+        129436
+      ],
+      "description": "PARROT"
+    },
+    "1f99d": {
+      "emoji": "🦝",
+      "slug": "raccoon",
+      "codepoints": [
+        129437
+      ],
+      "description": "RACCOON"
+    },
+    "1f99e": {
+      "emoji": "🦞",
+      "slug": "lobster",
+      "codepoints": [
+        129438
+      ],
+      "description": "LOBSTER"
+    },
+    "1f99f": {
+      "emoji": "🦟",
+      "slug": "mosquito",
+      "codepoints": [
+        129439
+      ],
+      "description": "MOSQUITO"
+    },
+    "1f9a0": {
+      "emoji": "🦠",
+      "slug": "microbe",
+      "codepoints": [
+        129440
+      ],
+      "description": "MICROBE"
+    },
+    "1f9a1": {
+      "emoji": "🦡",
+      "slug": "badger",
+      "codepoints": [
+        129441
+      ],
+      "description": "BADGER"
+    },
+    "1f9a2": {
+      "emoji": "🦢",
+      "slug": "swan",
+      "codepoints": [
+        129442
+      ],
+      "description": "SWAN"
+    },
+    "1f9b0": {
+      "emoji": "🦰",
+      "slug": "emoji_component_red_hair",
+      "codepoints": [
+        129456
+      ],
+      "description": "EMOJI COMPONENT RED HAIR"
+    },
+    "1f9b1": {
+      "emoji": "🦱",
+      "slug": "emoji_component_curly_hair",
+      "codepoints": [
+        129457
+      ],
+      "description": "EMOJI COMPONENT CURLY HAIR"
+    },
+    "1f9b2": {
+      "emoji": "🦲",
+      "slug": "emoji_component_bald",
+      "codepoints": [
+        129458
+      ],
+      "description": "EMOJI COMPONENT BALD"
+    },
+    "1f9b3": {
+      "emoji": "🦳",
+      "slug": "emoji_component_white_hair",
+      "codepoints": [
+        129459
+      ],
+      "description": "EMOJI COMPONENT WHITE HAIR"
+    },
+    "1f9b4": {
+      "emoji": "🦴",
+      "slug": "bone",
+      "codepoints": [
+        129460
+      ],
+      "description": "BONE"
+    },
+    "1f9b5": {
+      "emoji": "🦵",
+      "slug": "leg",
+      "codepoints": [
+        129461
+      ],
+      "description": "LEG"
+    },
+    "1f9b6": {
+      "emoji": "🦶",
+      "slug": "foot",
+      "codepoints": [
+        129462
+      ],
+      "description": "FOOT"
+    },
+    "1f9b7": {
+      "emoji": "🦷",
+      "slug": "tooth",
+      "codepoints": [
+        129463
+      ],
+      "description": "TOOTH"
+    },
+    "1f9b8": {
+      "emoji": "🦸",
+      "slug": "superhero",
+      "codepoints": [
+        129464
+      ],
+      "description": "SUPERHERO"
+    },
+    "1f9b9": {
+      "emoji": "🦹",
+      "slug": "supervillain",
+      "codepoints": [
+        129465
+      ],
+      "description": "SUPERVILLAIN"
+    },
+    "1f9d9": {
+      "emoji": "🧙",
+      "slug": "mage",
+      "codepoints": [
+        129497
+      ],
+      "description": "MAGE"
+    },
+    "1f9da": {
+      "emoji": "🧚",
+      "slug": "fairy",
+      "codepoints": [
+        129498
+      ],
+      "description": "FAIRY"
+    },
+    "1f9db": {
+      "emoji": "🧛",
+      "slug": "vampire",
+      "codepoints": [
+        129499
+      ],
+      "description": "VAMPIRE"
+    },
+    "1f9dc": {
+      "emoji": "🧜",
+      "slug": "merperson",
+      "codepoints": [
+        129500
+      ],
+      "description": "MERPERSON"
+    },
+    "1f9dd": {
+      "emoji": "🧝",
+      "slug": "elf",
+      "codepoints": [
+        129501
+      ],
+      "description": "ELF"
+    },
+    "1f9de": {
+      "emoji": "🧞",
+      "slug": "genie",
+      "codepoints": [
+        129502
+      ],
+      "description": "GENIE"
+    },
+    "1f9df": {
+      "emoji": "🧟",
+      "slug": "zombie",
+      "codepoints": [
+        129503
+      ],
+      "description": "ZOMBIE"
+    },
+    "1f9e7": {
+      "emoji": "🧧",
+      "slug": "red_gift_envelope",
+      "codepoints": [
+        129511
+      ],
+      "description": "RED GIFT ENVELOPE"
+    },
+    "1f9e8": {
+      "emoji": "🧨",
+      "slug": "firecracker",
+      "codepoints": [
+        129512
+      ],
+      "description": "FIRECRACKER"
+    },
+    "1f9e9": {
+      "emoji": "🧩",
+      "slug": "jigsaw_puzzle_piece",
+      "codepoints": [
+        129513
+      ],
+      "description": "JIGSAW PUZZLE PIECE"
+    },
+    "1f9ea": {
+      "emoji": "🧪",
+      "slug": "test_tube",
+      "codepoints": [
+        129514
+      ],
+      "description": "TEST TUBE"
+    },
+    "1f9eb": {
+      "emoji": "🧫",
+      "slug": "petri_dish",
+      "codepoints": [
+        129515
+      ],
+      "description": "PETRI DISH"
+    },
+    "1f9ec": {
+      "emoji": "🧬",
+      "slug": "dna_double_helix",
+      "codepoints": [
+        129516
+      ],
+      "description": "DNA DOUBLE HELIX"
+    },
+    "1f9ed": {
+      "emoji": "🧭",
+      "slug": "compass",
+      "codepoints": [
+        129517
+      ],
+      "description": "COMPASS"
+    },
+    "1f9ee": {
+      "emoji": "🧮",
+      "slug": "abacus",
+      "codepoints": [
+        129518
+      ],
+      "description": "ABACUS"
+    },
+    "1f9ef": {
+      "emoji": "🧯",
+      "slug": "fire_extinguisher",
+      "codepoints": [
+        129519
+      ],
+      "description": "FIRE EXTINGUISHER"
+    },
+    "1f9f0": {
+      "emoji": "🧰",
+      "slug": "toolbox",
+      "codepoints": [
+        129520
+      ],
+      "description": "TOOLBOX"
+    },
+    "1f9f1": {
+      "emoji": "🧱",
+      "slug": "brick",
+      "codepoints": [
+        129521
+      ],
+      "description": "BRICK"
+    },
+    "1f9f2": {
+      "emoji": "🧲",
+      "slug": "magnet",
+      "codepoints": [
+        129522
+      ],
+      "description": "MAGNET"
+    },
+    "1f9f3": {
+      "emoji": "🧳",
+      "slug": "luggage",
+      "codepoints": [
+        129523
+      ],
+      "description": "LUGGAGE"
+    },
+    "1f9f4": {
+      "emoji": "🧴",
+      "slug": "lotion_bottle",
+      "codepoints": [
+        129524
+      ],
+      "description": "LOTION BOTTLE"
+    },
+    "1f9f5": {
+      "emoji": "🧵",
+      "slug": "spool_of_thread",
+      "codepoints": [
+        129525
+      ],
+      "description": "SPOOL OF THREAD"
+    },
+    "1f9f6": {
+      "emoji": "🧶",
+      "slug": "ball_of_yarn",
+      "codepoints": [
+        129526
+      ],
+      "description": "BALL OF YARN"
+    },
+    "1f9f7": {
+      "emoji": "🧷",
+      "slug": "safety_pin",
+      "codepoints": [
+        129527
+      ],
+      "description": "SAFETY PIN"
+    },
+    "1f9f8": {
+      "emoji": "🧸",
+      "slug": "teddy_bear",
+      "codepoints": [
+        129528
+      ],
+      "description": "TEDDY BEAR"
+    },
+    "1f9f9": {
+      "emoji": "🧹",
+      "slug": "broom",
+      "codepoints": [
+        129529
+      ],
+      "description": "BROOM"
+    },
+    "1f9fa": {
+      "emoji": "🧺",
+      "slug": "basket",
+      "codepoints": [
+        129530
+      ],
+      "description": "BASKET"
+    },
+    "1f9fb": {
+      "emoji": "🧻",
+      "slug": "roll_of_paper",
+      "codepoints": [
+        129531
+      ],
+      "description": "ROLL OF PAPER"
+    },
+    "1f9fc": {
+      "emoji": "🧼",
+      "slug": "bar_of_soap",
+      "codepoints": [
+        129532
+      ],
+      "description": "BAR OF SOAP"
+    },
+    "1f9fd": {
+      "emoji": "🧽",
+      "slug": "sponge",
+      "codepoints": [
+        129533
+      ],
+      "description": "SPONGE"
+    },
+    "1f9fe": {
+      "emoji": "🧾",
+      "slug": "receipt",
+      "codepoints": [
+        129534
+      ],
+      "description": "RECEIPT"
+    },
+    "1f9ff": {
+      "emoji": "🧿",
+      "slug": "nazar_amulet",
+      "codepoints": [
+        129535
+      ],
+      "description": "NAZAR AMULET"
     },
     "0023_20e3": {
       "emoji": "#️⃣",

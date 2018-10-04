@@ -1816,6 +1816,21 @@
     "image": "./emoji-img/pisces.png",
     "fitz": false
   },
+  "265f": {
+    "name": "BLACK CHESS PAWN",
+    "emojilib_name": null,
+    "codepoints": [
+      9823
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "♟",
+    "image": "./emoji-img/black_chess_pawn.png",
+    "fitz": false
+  },
   "2660": {
     "name": "spade suit",
     "emojilib_name": "spades",
@@ -1943,6 +1958,21 @@
     ],
     "emoji": "♻",
     "image": "./emoji-img/black_universal_recycling_symbol.png",
+    "fitz": false
+  },
+  "267e": {
+    "name": "PERMANENT PAPER SIGN",
+    "emojilib_name": null,
+    "codepoints": [
+      9854
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "♾",
+    "image": "./emoji-img/permanent_paper_sign.png",
     "fitz": false
   },
   "267f": {
@@ -8989,6 +9019,22 @@
     "image": "./emoji-img/uganda.png",
     "fitz": false
   },
+  "1f1fa_1f1f3": {
+    "name": "United Nations",
+    "emojilib_name": null,
+    "codepoints": [
+      127482,
+      127475
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🇺🇳",
+    "image": "./emoji-img/united_nations.png",
+    "fitz": false
+  },
   "1f1fa_1f1f8": {
     "name": "United States",
     "emojilib_name": "us",
@@ -14828,6 +14874,24 @@
     "image": "./emoji-img/waving_black_flag.png",
     "fitz": false
   },
+  "1f3f4_2620": {
+    "name": "pirate flag",
+    "emojilib_name": null,
+    "codepoints": [
+      127988,
+      8205,
+      9760,
+      65039
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🏴‍☠️",
+    "image": "./emoji-img/pirate_flag.png",
+    "fitz": false
+  },
   "1f3f4_e0067_e0062_e0065_e006e_e0067_e007f": {
     "name": "England",
     "emojilib_name": "england",
@@ -17853,6 +17917,98 @@
       "./emoji-img/man_firefighter.5.png"
     ]
   },
+  "1f468_1f9b0": {
+    "name": "man, red haired",
+    "emojilib_name": null,
+    "codepoints": [
+      128104,
+      8205,
+      129456
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "👨‍🦰",
+    "image": "./emoji-img/man_red_haired.png",
+    "fitz": [
+      "./emoji-img/man_red_haired.1.png",
+      "./emoji-img/man_red_haired.2.png",
+      "./emoji-img/man_red_haired.3.png",
+      "./emoji-img/man_red_haired.4.png",
+      "./emoji-img/man_red_haired.5.png"
+    ]
+  },
+  "1f468_1f9b1": {
+    "name": "man, curly haired",
+    "emojilib_name": null,
+    "codepoints": [
+      128104,
+      8205,
+      129457
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "👨‍🦱",
+    "image": "./emoji-img/man_curly_haired.png",
+    "fitz": [
+      "./emoji-img/man_curly_haired.1.png",
+      "./emoji-img/man_curly_haired.2.png",
+      "./emoji-img/man_curly_haired.3.png",
+      "./emoji-img/man_curly_haired.4.png",
+      "./emoji-img/man_curly_haired.5.png"
+    ]
+  },
+  "1f468_1f9b2": {
+    "name": "man, bald",
+    "emojilib_name": null,
+    "codepoints": [
+      128104,
+      8205,
+      129458
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "👨‍🦲",
+    "image": "./emoji-img/man_bald.png",
+    "fitz": [
+      "./emoji-img/man_bald.1.png",
+      "./emoji-img/man_bald.2.png",
+      "./emoji-img/man_bald.3.png",
+      "./emoji-img/man_bald.4.png",
+      "./emoji-img/man_bald.5.png"
+    ]
+  },
+  "1f468_1f9b3": {
+    "name": "man, white haired",
+    "emojilib_name": null,
+    "codepoints": [
+      128104,
+      8205,
+      129459
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "👨‍🦳",
+    "image": "./emoji-img/man_white_haired.png",
+    "fitz": [
+      "./emoji-img/man_white_haired.1.png",
+      "./emoji-img/man_white_haired.2.png",
+      "./emoji-img/man_white_haired.3.png",
+      "./emoji-img/man_white_haired.4.png",
+      "./emoji-img/man_white_haired.5.png"
+    ]
+  },
   "1f469": {
     "name": "woman",
     "emojilib_name": "woman",
@@ -18332,6 +18488,98 @@
       "./emoji-img/woman_firefighter.3.png",
       "./emoji-img/woman_firefighter.4.png",
       "./emoji-img/woman_firefighter.5.png"
+    ]
+  },
+  "1f469_1f9b0": {
+    "name": "woman, red haired",
+    "emojilib_name": null,
+    "codepoints": [
+      128105,
+      8205,
+      129456
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "👩‍🦰",
+    "image": "./emoji-img/woman_red_haired.png",
+    "fitz": [
+      "./emoji-img/woman_red_haired.1.png",
+      "./emoji-img/woman_red_haired.2.png",
+      "./emoji-img/woman_red_haired.3.png",
+      "./emoji-img/woman_red_haired.4.png",
+      "./emoji-img/woman_red_haired.5.png"
+    ]
+  },
+  "1f469_1f9b1": {
+    "name": "woman, curly haired",
+    "emojilib_name": null,
+    "codepoints": [
+      128105,
+      8205,
+      129457
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "👩‍🦱",
+    "image": "./emoji-img/woman_curly_haired.png",
+    "fitz": [
+      "./emoji-img/woman_curly_haired.1.png",
+      "./emoji-img/woman_curly_haired.2.png",
+      "./emoji-img/woman_curly_haired.3.png",
+      "./emoji-img/woman_curly_haired.4.png",
+      "./emoji-img/woman_curly_haired.5.png"
+    ]
+  },
+  "1f469_1f9b2": {
+    "name": "woman, bald",
+    "emojilib_name": null,
+    "codepoints": [
+      128105,
+      8205,
+      129458
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "👩‍🦲",
+    "image": "./emoji-img/woman_bald.png",
+    "fitz": [
+      "./emoji-img/woman_bald.1.png",
+      "./emoji-img/woman_bald.2.png",
+      "./emoji-img/woman_bald.3.png",
+      "./emoji-img/woman_bald.4.png",
+      "./emoji-img/woman_bald.5.png"
+    ]
+  },
+  "1f469_1f9b3": {
+    "name": "woman, white haired",
+    "emojilib_name": null,
+    "codepoints": [
+      128105,
+      8205,
+      129459
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "👩‍🦳",
+    "image": "./emoji-img/woman_white_haired.png",
+    "fitz": [
+      "./emoji-img/woman_white_haired.1.png",
+      "./emoji-img/woman_white_haired.2.png",
+      "./emoji-img/woman_white_haired.3.png",
+      "./emoji-img/woman_white_haired.4.png",
+      "./emoji-img/woman_white_haired.5.png"
     ]
   },
   "1f46a_MB": {
@@ -29573,6 +29821,21 @@
     "image": "./emoji-img/flying_saucer.png",
     "fitz": false
   },
+  "1f6f9": {
+    "name": "SKATEBOARD",
+    "emojilib_name": null,
+    "codepoints": [
+      128761
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🛹",
+    "image": "./emoji-img/skateboard.png",
+    "fitz": false
+  },
   "1f910": {
     "name": "zipper-mouth face",
     "emojilib_name": "zipper_mouth_face",
@@ -30936,6 +31199,51 @@
     "image": "./emoji-img/curling_stone.png",
     "fitz": false
   },
+  "1f94d": {
+    "name": "LACROSSE STICK AND BALL",
+    "emojilib_name": null,
+    "codepoints": [
+      129357
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🥍",
+    "image": "./emoji-img/lacrosse_stick_and_ball.png",
+    "fitz": false
+  },
+  "1f94e": {
+    "name": "SOFTBALL",
+    "emojilib_name": null,
+    "codepoints": [
+      129358
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🥎",
+    "image": "./emoji-img/softball.png",
+    "fitz": false
+  },
+  "1f94f": {
+    "name": "FLYING DISC",
+    "emojilib_name": null,
+    "codepoints": [
+      129359
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🥏",
+    "image": "./emoji-img/flying_disc.png",
+    "fitz": false
+  },
   "1f950": {
     "name": "croissant",
     "emojilib_name": "croissant",
@@ -31482,6 +31790,216 @@
     "image": "./emoji-img/canned_food.png",
     "fitz": false
   },
+  "1f96c": {
+    "name": "LEAFY GREEN",
+    "emojilib_name": null,
+    "codepoints": [
+      129388
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🥬",
+    "image": "./emoji-img/leafy_green.png",
+    "fitz": false
+  },
+  "1f96d": {
+    "name": "MANGO",
+    "emojilib_name": null,
+    "codepoints": [
+      129389
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🥭",
+    "image": "./emoji-img/mango.png",
+    "fitz": false
+  },
+  "1f96e": {
+    "name": "MOON CAKE",
+    "emojilib_name": null,
+    "codepoints": [
+      129390
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🥮",
+    "image": "./emoji-img/moon_cake.png",
+    "fitz": false
+  },
+  "1f96f": {
+    "name": "BAGEL",
+    "emojilib_name": null,
+    "codepoints": [
+      129391
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🥯",
+    "image": "./emoji-img/bagel.png",
+    "fitz": false
+  },
+  "1f970": {
+    "name": "SMILING FACE WITH SMILING EYES AND THREE HEARTS",
+    "emojilib_name": null,
+    "codepoints": [
+      129392
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🥰",
+    "image": "./emoji-img/smiling_face_with_smiling_eyes_and_three_hearts.png",
+    "fitz": false
+  },
+  "1f973": {
+    "name": "FACE WITH PARTY HORN AND PARTY HAT",
+    "emojilib_name": null,
+    "codepoints": [
+      129395
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🥳",
+    "image": "./emoji-img/face_with_party_horn_and_party_hat.png",
+    "fitz": false
+  },
+  "1f974": {
+    "name": "FACE WITH UNEVEN EYES AND WAVY MOUTH",
+    "emojilib_name": null,
+    "codepoints": [
+      129396
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🥴",
+    "image": "./emoji-img/face_with_uneven_eyes_and_wavy_mouth.png",
+    "fitz": false
+  },
+  "1f975": {
+    "name": "OVERHEATED FACE",
+    "emojilib_name": null,
+    "codepoints": [
+      129397
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🥵",
+    "image": "./emoji-img/overheated_face.png",
+    "fitz": false
+  },
+  "1f976": {
+    "name": "FREEZING FACE",
+    "emojilib_name": null,
+    "codepoints": [
+      129398
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🥶",
+    "image": "./emoji-img/freezing_face.png",
+    "fitz": false
+  },
+  "1f97a": {
+    "name": "FACE WITH PLEADING EYES",
+    "emojilib_name": null,
+    "codepoints": [
+      129402
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🥺",
+    "image": "./emoji-img/face_with_pleading_eyes.png",
+    "fitz": false
+  },
+  "1f97c": {
+    "name": "LAB COAT",
+    "emojilib_name": null,
+    "codepoints": [
+      129404
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🥼",
+    "image": "./emoji-img/lab_coat.png",
+    "fitz": false
+  },
+  "1f97d": {
+    "name": "GOGGLES",
+    "emojilib_name": null,
+    "codepoints": [
+      129405
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🥽",
+    "image": "./emoji-img/goggles.png",
+    "fitz": false
+  },
+  "1f97e": {
+    "name": "HIKING BOOT",
+    "emojilib_name": null,
+    "codepoints": [
+      129406
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🥾",
+    "image": "./emoji-img/hiking_boot.png",
+    "fitz": false
+  },
+  "1f97f": {
+    "name": "FLAT SHOE",
+    "emojilib_name": null,
+    "codepoints": [
+      129407
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🥿",
+    "image": "./emoji-img/flat_shoe.png",
+    "fitz": false
+  },
   "1f980": {
     "name": "crab",
     "emojilib_name": "crab",
@@ -31949,6 +32467,363 @@
     "image": "./emoji-img/cricket.png",
     "fitz": false
   },
+  "1f998": {
+    "name": "KANGAROO",
+    "emojilib_name": null,
+    "codepoints": [
+      129432
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🦘",
+    "image": "./emoji-img/kangaroo.png",
+    "fitz": false
+  },
+  "1f999": {
+    "name": "LLAMA",
+    "emojilib_name": null,
+    "codepoints": [
+      129433
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🦙",
+    "image": "./emoji-img/llama.png",
+    "fitz": false
+  },
+  "1f99a": {
+    "name": "PEACOCK",
+    "emojilib_name": null,
+    "codepoints": [
+      129434
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🦚",
+    "image": "./emoji-img/peacock.png",
+    "fitz": false
+  },
+  "1f99b": {
+    "name": "HIPPOPOTAMUS",
+    "emojilib_name": null,
+    "codepoints": [
+      129435
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🦛",
+    "image": "./emoji-img/hippopotamus.png",
+    "fitz": false
+  },
+  "1f99c": {
+    "name": "PARROT",
+    "emojilib_name": null,
+    "codepoints": [
+      129436
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🦜",
+    "image": "./emoji-img/parrot.png",
+    "fitz": false
+  },
+  "1f99d": {
+    "name": "RACCOON",
+    "emojilib_name": null,
+    "codepoints": [
+      129437
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🦝",
+    "image": "./emoji-img/raccoon.png",
+    "fitz": false
+  },
+  "1f99e": {
+    "name": "LOBSTER",
+    "emojilib_name": null,
+    "codepoints": [
+      129438
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🦞",
+    "image": "./emoji-img/lobster.png",
+    "fitz": false
+  },
+  "1f99f": {
+    "name": "MOSQUITO",
+    "emojilib_name": null,
+    "codepoints": [
+      129439
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🦟",
+    "image": "./emoji-img/mosquito.png",
+    "fitz": false
+  },
+  "1f9a0": {
+    "name": "MICROBE",
+    "emojilib_name": null,
+    "codepoints": [
+      129440
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🦠",
+    "image": "./emoji-img/microbe.png",
+    "fitz": false
+  },
+  "1f9a1": {
+    "name": "BADGER",
+    "emojilib_name": null,
+    "codepoints": [
+      129441
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🦡",
+    "image": "./emoji-img/badger.png",
+    "fitz": false
+  },
+  "1f9a2": {
+    "name": "SWAN",
+    "emojilib_name": null,
+    "codepoints": [
+      129442
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🦢",
+    "image": "./emoji-img/swan.png",
+    "fitz": false
+  },
+  "1f9b0": {
+    "name": "EMOJI COMPONENT RED HAIR",
+    "emojilib_name": null,
+    "codepoints": [
+      129456
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🦰",
+    "image": "./emoji-img/emoji_component_red_hair.png",
+    "fitz": false
+  },
+  "1f9b1": {
+    "name": "EMOJI COMPONENT CURLY HAIR",
+    "emojilib_name": null,
+    "codepoints": [
+      129457
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🦱",
+    "image": "./emoji-img/emoji_component_curly_hair.png",
+    "fitz": false
+  },
+  "1f9b2": {
+    "name": "EMOJI COMPONENT BALD",
+    "emojilib_name": null,
+    "codepoints": [
+      129458
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🦲",
+    "image": "./emoji-img/emoji_component_bald.png",
+    "fitz": false
+  },
+  "1f9b3": {
+    "name": "EMOJI COMPONENT WHITE HAIR",
+    "emojilib_name": null,
+    "codepoints": [
+      129459
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🦳",
+    "image": "./emoji-img/emoji_component_white_hair.png",
+    "fitz": false
+  },
+  "1f9b4": {
+    "name": "BONE",
+    "emojilib_name": null,
+    "codepoints": [
+      129460
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🦴",
+    "image": "./emoji-img/bone.png",
+    "fitz": false
+  },
+  "1f9b5": {
+    "name": "LEG",
+    "emojilib_name": null,
+    "codepoints": [
+      129461
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🦵",
+    "image": "./emoji-img/leg.png",
+    "fitz": [
+      "./emoji-img/leg.1.png",
+      "./emoji-img/leg.2.png",
+      "./emoji-img/leg.3.png",
+      "./emoji-img/leg.4.png",
+      "./emoji-img/leg.5.png"
+    ]
+  },
+  "1f9b6": {
+    "name": "FOOT",
+    "emojilib_name": null,
+    "codepoints": [
+      129462
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🦶",
+    "image": "./emoji-img/foot.png",
+    "fitz": [
+      "./emoji-img/foot.1.png",
+      "./emoji-img/foot.2.png",
+      "./emoji-img/foot.3.png",
+      "./emoji-img/foot.4.png",
+      "./emoji-img/foot.5.png"
+    ]
+  },
+  "1f9b7": {
+    "name": "TOOTH",
+    "emojilib_name": null,
+    "codepoints": [
+      129463
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🦷",
+    "image": "./emoji-img/tooth.png",
+    "fitz": false
+  },
+  "1f9b8": {
+    "name": "SUPERHERO",
+    "emojilib_name": null,
+    "codepoints": [
+      129464
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🦸",
+    "image": "./emoji-img/superhero.M.png",
+    "fitz": [
+      "./emoji-img/superhero.M.1.png",
+      "./emoji-img/superhero.M.2.png",
+      "./emoji-img/superhero.M.3.png",
+      "./emoji-img/superhero.M.4.png",
+      "./emoji-img/superhero.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/superhero.W.png",
+    "fitz_alt": [
+      "./emoji-img/superhero.W.1.png",
+      "./emoji-img/superhero.W.2.png",
+      "./emoji-img/superhero.W.3.png",
+      "./emoji-img/superhero.W.4.png",
+      "./emoji-img/superhero.W.5.png"
+    ]
+  },
+  "1f9b9": {
+    "name": "SUPERVILLAIN",
+    "emojilib_name": null,
+    "codepoints": [
+      129465
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🦹",
+    "image": "./emoji-img/supervillain.M.png",
+    "fitz": [
+      "./emoji-img/supervillain.M.1.png",
+      "./emoji-img/supervillain.M.2.png",
+      "./emoji-img/supervillain.M.3.png",
+      "./emoji-img/supervillain.M.4.png",
+      "./emoji-img/supervillain.M.5.png"
+    ],
+    "default_gender": "M",
+    "image_alt": "./emoji-img/supervillain.W.png",
+    "fitz_alt": [
+      "./emoji-img/supervillain.W.1.png",
+      "./emoji-img/supervillain.W.2.png",
+      "./emoji-img/supervillain.W.3.png",
+      "./emoji-img/supervillain.W.4.png",
+      "./emoji-img/supervillain.W.5.png"
+    ]
+  },
   "1f9c0": {
     "name": "cheese wedge",
     "emojilib_name": "cheese",
@@ -31965,6 +32840,36 @@
     ],
     "emoji": "🧀",
     "image": "./emoji-img/cheese_wedge.png",
+    "fitz": false
+  },
+  "1f9c1": {
+    "name": "CUPCAKE",
+    "emojilib_name": null,
+    "codepoints": [
+      129473
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🧁",
+    "image": "./emoji-img/cupcake.png",
+    "fitz": false
+  },
+  "1f9c2": {
+    "name": "SALT SHAKER",
+    "emojilib_name": null,
+    "codepoints": [
+      129474
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🧂",
+    "image": "./emoji-img/salt_shaker.png",
     "fitz": false
   },
   "1f9d0": {
@@ -32535,6 +33440,381 @@
     ],
     "emoji": "🧦",
     "image": "./emoji-img/socks.png",
+    "fitz": false
+  },
+  "1f9e7": {
+    "name": "RED GIFT ENVELOPE",
+    "emojilib_name": null,
+    "codepoints": [
+      129511
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🧧",
+    "image": "./emoji-img/red_gift_envelope.png",
+    "fitz": false
+  },
+  "1f9e8": {
+    "name": "FIRECRACKER",
+    "emojilib_name": null,
+    "codepoints": [
+      129512
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🧨",
+    "image": "./emoji-img/firecracker.png",
+    "fitz": false
+  },
+  "1f9e9": {
+    "name": "JIGSAW PUZZLE PIECE",
+    "emojilib_name": null,
+    "codepoints": [
+      129513
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🧩",
+    "image": "./emoji-img/jigsaw_puzzle_piece.png",
+    "fitz": false
+  },
+  "1f9ea": {
+    "name": "TEST TUBE",
+    "emojilib_name": null,
+    "codepoints": [
+      129514
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🧪",
+    "image": "./emoji-img/test_tube.png",
+    "fitz": false
+  },
+  "1f9eb": {
+    "name": "PETRI DISH",
+    "emojilib_name": null,
+    "codepoints": [
+      129515
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🧫",
+    "image": "./emoji-img/petri_dish.png",
+    "fitz": false
+  },
+  "1f9ec": {
+    "name": "DNA DOUBLE HELIX",
+    "emojilib_name": null,
+    "codepoints": [
+      129516
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🧬",
+    "image": "./emoji-img/dna_double_helix.png",
+    "fitz": false
+  },
+  "1f9ed": {
+    "name": "COMPASS",
+    "emojilib_name": null,
+    "codepoints": [
+      129517
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🧭",
+    "image": "./emoji-img/compass.png",
+    "fitz": false
+  },
+  "1f9ee": {
+    "name": "ABACUS",
+    "emojilib_name": null,
+    "codepoints": [
+      129518
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🧮",
+    "image": "./emoji-img/abacus.png",
+    "fitz": false
+  },
+  "1f9ef": {
+    "name": "FIRE EXTINGUISHER",
+    "emojilib_name": null,
+    "codepoints": [
+      129519
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🧯",
+    "image": "./emoji-img/fire_extinguisher.png",
+    "fitz": false
+  },
+  "1f9f0": {
+    "name": "TOOLBOX",
+    "emojilib_name": null,
+    "codepoints": [
+      129520
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🧰",
+    "image": "./emoji-img/toolbox.png",
+    "fitz": false
+  },
+  "1f9f1": {
+    "name": "BRICK",
+    "emojilib_name": null,
+    "codepoints": [
+      129521
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🧱",
+    "image": "./emoji-img/brick.png",
+    "fitz": false
+  },
+  "1f9f2": {
+    "name": "MAGNET",
+    "emojilib_name": null,
+    "codepoints": [
+      129522
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🧲",
+    "image": "./emoji-img/magnet.png",
+    "fitz": false
+  },
+  "1f9f3": {
+    "name": "LUGGAGE",
+    "emojilib_name": null,
+    "codepoints": [
+      129523
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🧳",
+    "image": "./emoji-img/luggage.png",
+    "fitz": false
+  },
+  "1f9f4": {
+    "name": "LOTION BOTTLE",
+    "emojilib_name": null,
+    "codepoints": [
+      129524
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🧴",
+    "image": "./emoji-img/lotion_bottle.png",
+    "fitz": false
+  },
+  "1f9f5": {
+    "name": "SPOOL OF THREAD",
+    "emojilib_name": null,
+    "codepoints": [
+      129525
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🧵",
+    "image": "./emoji-img/spool_of_thread.png",
+    "fitz": false
+  },
+  "1f9f6": {
+    "name": "BALL OF YARN",
+    "emojilib_name": null,
+    "codepoints": [
+      129526
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🧶",
+    "image": "./emoji-img/ball_of_yarn.png",
+    "fitz": false
+  },
+  "1f9f7": {
+    "name": "SAFETY PIN",
+    "emojilib_name": null,
+    "codepoints": [
+      129527
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🧷",
+    "image": "./emoji-img/safety_pin.png",
+    "fitz": false
+  },
+  "1f9f8": {
+    "name": "TEDDY BEAR",
+    "emojilib_name": null,
+    "codepoints": [
+      129528
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🧸",
+    "image": "./emoji-img/teddy_bear.png",
+    "fitz": false
+  },
+  "1f9f9": {
+    "name": "BROOM",
+    "emojilib_name": null,
+    "codepoints": [
+      129529
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🧹",
+    "image": "./emoji-img/broom.png",
+    "fitz": false
+  },
+  "1f9fa": {
+    "name": "BASKET",
+    "emojilib_name": null,
+    "codepoints": [
+      129530
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🧺",
+    "image": "./emoji-img/basket.png",
+    "fitz": false
+  },
+  "1f9fb": {
+    "name": "ROLL OF PAPER",
+    "emojilib_name": null,
+    "codepoints": [
+      129531
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🧻",
+    "image": "./emoji-img/roll_of_paper.png",
+    "fitz": false
+  },
+  "1f9fc": {
+    "name": "BAR OF SOAP",
+    "emojilib_name": null,
+    "codepoints": [
+      129532
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🧼",
+    "image": "./emoji-img/bar_of_soap.png",
+    "fitz": false
+  },
+  "1f9fd": {
+    "name": "SPONGE",
+    "emojilib_name": null,
+    "codepoints": [
+      129533
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🧽",
+    "image": "./emoji-img/sponge.png",
+    "fitz": false
+  },
+  "1f9fe": {
+    "name": "RECEIPT",
+    "emojilib_name": null,
+    "codepoints": [
+      129534
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🧾",
+    "image": "./emoji-img/receipt.png",
+    "fitz": false
+  },
+  "1f9ff": {
+    "name": "NAZAR AMULET",
+    "emojilib_name": null,
+    "codepoints": [
+      129535
+    ],
+    "unicode_category": null,
+    "unicode_subcategory": null,
+    "keywords": [
+
+    ],
+    "emoji": "🧿",
+    "image": "./emoji-img/nazar_amulet.png",
     "fitz": false
   }
 }
