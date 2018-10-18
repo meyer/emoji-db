@@ -103,3 +103,8 @@
   build_date: '2018-09-21'
   macos_versions:
   - 10.14.1 (18B50c)
+  - 10.14.1 (18B57c)
+14.0d3e1:
+  build_date: '2018-10-10'
+  macos_versions:
+  - 10.14.1 (18B67a)
