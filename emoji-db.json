@@ -1817,7 +1817,7 @@
     "fitz": false
   },
   "265f": {
-    "name": "BLACK CHESS PAWN",
+    "name": "chess pawn",
     "emojilib_name": null,
     "codepoints": [
       9823
@@ -1825,7 +1825,10 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "chess",
+      "chess pawn",
+      "dupe",
+      "expendable"
     ],
     "emoji": "♟",
     "image": "./emoji-img/black_chess_pawn.png",
@@ -1961,7 +1964,7 @@
     "fitz": false
   },
   "267e": {
-    "name": "PERMANENT PAPER SIGN",
+    "name": "infinity",
     "emojilib_name": null,
     "codepoints": [
       9854
@@ -1969,7 +1972,10 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "forever",
+      "infinity",
+      "unbounded",
+      "universal"
     ],
     "emoji": "♾",
     "image": "./emoji-img/permanent_paper_sign.png",
@@ -2066,13 +2072,10 @@
     "keywords": [
       "Libra",
       "balance",
-      "balance scale",
       "fairness",
       "justice",
       "law",
       "scale",
-      "scales",
-      "tool",
       "weight",
       "zodiac"
     ],
@@ -2191,7 +2194,6 @@
     "keywords": [
       "danger",
       "electric",
-      "electricity",
       "fast",
       "high voltage",
       "lightning",
@@ -9945,7 +9947,6 @@
       "landscape",
       "photo",
       "sky",
-      "sun",
       "sunset"
     ],
     "emoji": "🌆",
@@ -13381,11 +13382,9 @@
     "unicode_subcategory": null,
     "keywords": [
       "bar",
-      "bull",
       "bullseye",
       "dart",
       "direct hit",
-      "eye",
       "game",
       "hit",
       "play",
@@ -14886,7 +14885,11 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "Jolly Roger",
+      "pirate",
+      "pirate flag",
+      "plunder",
+      "treasure"
     ],
     "emoji": "🏴‍☠️",
     "image": "./emoji-img/pirate_flag.png",
@@ -15029,13 +15032,10 @@
       "Sagittarius",
       "and",
       "archer",
-      "archery",
       "arrow",
       "bow",
       "bow and arrow",
       "sports",
-      "tool",
-      "weapon",
       "zodiac"
     ],
     "emoji": "🏹",
@@ -15057,9 +15057,7 @@
       "drink",
       "jar",
       "jug",
-      "tool",
       "vase",
-      "weapon",
       "zodiac"
     ],
     "emoji": "🏺",
@@ -16610,7 +16608,6 @@
       "finger",
       "fingers",
       "hand",
-      "index",
       "point",
       "up"
     ],
@@ -16640,7 +16637,6 @@
       "finger",
       "fingers",
       "hand",
-      "index",
       "point"
     ],
     "emoji": "👇",
@@ -17440,6 +17436,7 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
+      "adult",
       "classy",
       "dad",
       "father",
@@ -17849,7 +17846,6 @@
       "engineer",
       "human",
       "man",
-      "mathematician",
       "physicist",
       "scientist"
     ],
@@ -18018,6 +18014,7 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
+      "adult",
       "female",
       "girls",
       "lady",
@@ -18421,7 +18418,6 @@
       "chemist",
       "engineer",
       "human",
-      "mathematician",
       "physicist",
       "scientist",
       "woman"
@@ -19299,9 +19295,7 @@
       "bromance",
       "couple",
       "friendship",
-      "hand",
       "hands",
-      "hold",
       "holding",
       "human",
       "like",
@@ -19333,7 +19327,6 @@
       "friendship",
       "hand",
       "hands",
-      "hold",
       "holding",
       "human",
       "like",
@@ -19442,7 +19435,7 @@
     ]
   },
   "1f471": {
-    "name": "blond-haired person",
+    "name": "person: blond hair",
     "emojilib_name": "blonde_man",
     "codepoints": [
       128113
@@ -19457,7 +19450,8 @@
       "guy",
       "male",
       "man",
-      "person"
+      "person",
+      "person: blond hair"
     ],
     "emoji": "👱",
     "image": "./emoji-img/person_with_blond_hair.M.png",
@@ -19555,6 +19549,7 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
+      "adult",
       "elder",
       "human",
       "male",
@@ -19583,6 +19578,7 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
+      "adult",
       "elder",
       "female",
       "human",
@@ -19817,9 +19813,7 @@
       "creature",
       "extraterrestrial",
       "face",
-      "fairy tale",
       "fantasy",
-      "monster",
       "outer_space",
       "paul",
       "ufo",
@@ -19843,8 +19837,6 @@
       "creature",
       "extraterrestrial",
       "face",
-      "fairy tale",
-      "fantasy",
       "game",
       "invader",
       "monster",
@@ -19870,7 +19862,6 @@
       "demon",
       "devil",
       "face",
-      "fairy tale",
       "fantasy",
       "horns",
       "imp"
@@ -20165,8 +20156,7 @@
       "nurse",
       "shot",
       "sick",
-      "syringe",
-      "tool"
+      "syringe"
     ],
     "emoji": "💉",
     "image": "./emoji-img/syringe.png",
@@ -21001,7 +20991,6 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-      "comic",
       "dung",
       "face",
       "fail",
@@ -21231,7 +21220,6 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-      "bank",
       "bill",
       "card",
       "credit",
@@ -21254,7 +21242,6 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-      "bank",
       "banknote",
       "bill",
       "currency",
@@ -21278,7 +21265,6 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-      "bank",
       "banknote",
       "bill",
       "currency",
@@ -21300,7 +21286,6 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-      "bank",
       "banknote",
       "bill",
       "currency",
@@ -21323,7 +21308,6 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-      "bank",
       "banknote",
       "bill",
       "bills",
@@ -21350,7 +21334,6 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-      "bank",
       "banknote",
       "bill",
       "bills",
@@ -21358,7 +21341,6 @@
       "fly",
       "money",
       "money with wings",
-      "note",
       "payment",
       "sale",
       "wings",
@@ -21377,20 +21359,14 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-      "bank",
       "chart",
       "chart increasing with yen",
-      "currency",
       "graph",
       "green-square",
       "growth",
-      "market",
       "money",
       "presentation",
-      "rise",
       "stats",
-      "trend",
-      "upward",
       "yen"
     ],
     "emoji": "💹",
@@ -22384,7 +22360,6 @@
       "inbox",
       "incoming",
       "letter",
-      "mail",
       "receive"
     ],
     "emoji": "📨",
@@ -22402,15 +22377,11 @@
     "keywords": [
       "arrow",
       "communication",
-      "down",
       "e-mail",
       "email",
       "envelope",
       "envelope with arrow",
-      "letter",
-      "mail",
       "outgoing",
-      "sent",
       "with"
     ],
     "emoji": "📩",
@@ -22600,7 +22571,6 @@
     "unicode_subcategory": null,
     "keywords": [
       "arrow",
-      "call",
       "calling",
       "cell",
       "incoming",
@@ -22608,8 +22578,7 @@
       "mobile",
       "mobile phone with arrow",
       "phone",
-      "receive",
-      "telephone"
+      "receive"
     ],
     "emoji": "📲",
     "image": "./emoji-img/mobile_phone_with_rightwards_arrow_at_left.png",
@@ -22676,11 +22645,8 @@
       "mute",
       "no",
       "no mobile phones",
-      "not",
       "phone",
-      "phones",
-      "prohibited",
-      "telephone"
+      "phones"
     ],
     "emoji": "📵",
     "image": "./emoji-img/no_mobile_phones.png",
@@ -22709,7 +22675,6 @@
       "reception",
       "signal",
       "strength",
-      "telephone",
       "wifi"
     ],
     "emoji": "📶",
@@ -23337,8 +23302,6 @@
       "forbidden",
       "mute",
       "no",
-      "not",
-      "prohibited",
       "quiet",
       "silent",
       "sound",
@@ -23513,12 +23476,9 @@
       "circle",
       "drink",
       "eighteen",
-      "forbidden",
       "minor",
       "night",
-      "no",
       "no one under eighteen",
-      "not",
       "prohibited",
       "pub",
       "underage"
@@ -23907,11 +23867,8 @@
       "badge",
       "beginner",
       "chevron",
-      "green",
       "leaf",
-      "shield",
-      "tool",
-      "yellow"
+      "shield"
     ],
     "emoji": "🔰",
     "image": "./emoji-img/japanese_symbol_for_beginner.png",
@@ -24645,7 +24602,6 @@
     "keywords": [
       "1",
       "1:30",
-      "30",
       "clock",
       "clock130",
       "early",
@@ -24671,7 +24627,6 @@
     "keywords": [
       "2",
       "2:30",
-      "30",
       "clock",
       "clock230",
       "early",
@@ -24696,7 +24651,6 @@
     "unicode_subcategory": null,
     "keywords": [
       "3",
-      "30",
       "3:30",
       "clock",
       "clock330",
@@ -24721,7 +24675,6 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-      "30",
       "4",
       "4:30",
       "clock",
@@ -24747,7 +24700,6 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-      "30",
       "5",
       "5:30",
       "clock",
@@ -24773,7 +24725,6 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-      "30",
       "6",
       "6:30",
       "clock",
@@ -24799,7 +24750,6 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-      "30",
       "7",
       "7:30",
       "clock",
@@ -24825,7 +24775,6 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-      "30",
       "8",
       "8:30",
       "clock",
@@ -24851,7 +24800,6 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-      "30",
       "9",
       "9:30",
       "clock",
@@ -24879,7 +24827,6 @@
     "keywords": [
       "10",
       "10:30",
-      "30",
       "clock",
       "clock1030",
       "early",
@@ -24905,7 +24852,6 @@
     "keywords": [
       "11",
       "11:30",
-      "30",
       "clock",
       "clock1130",
       "early",
@@ -24931,7 +24877,6 @@
     "keywords": [
       "12",
       "12:30",
-      "30",
       "clock",
       "clock1230",
       "early",
@@ -26031,7 +25976,6 @@
       "laughing",
       "lol",
       "mouth",
-      "open",
       "satisfied",
       "smile"
     ],
@@ -26050,12 +25994,10 @@
     "keywords": [
       "angel",
       "face",
-      "fairy tale",
       "fantasy",
       "halo",
       "heaven",
       "innocent",
-      "smile",
       "smiling face with halo"
     ],
     "emoji": "😇",
@@ -26152,7 +26094,6 @@
       "silly",
       "smile",
       "tongue",
-      "um",
       "yum",
       "yummy"
     ],
@@ -26218,10 +26159,7 @@
       "beach",
       "bright",
       "cool",
-      "eye",
-      "eyewear",
       "face",
-      "glasses",
       "smile",
       "smiling face with sunglasses",
       "summer",
@@ -26984,9 +26922,7 @@
       "blue",
       "cold",
       "face",
-      "mouth",
       "nervous",
-      "open",
       "rushed",
       "sweat"
     ],
@@ -27006,7 +26942,6 @@
       "face",
       "face screaming in fear",
       "fear",
-      "fearful",
       "munch",
       "omg",
       "scared",
@@ -27135,7 +27070,6 @@
       "face with medical mask",
       "ill",
       "mask",
-      "medicine",
       "sick"
     ],
     "emoji": "😷",
@@ -27453,7 +27387,6 @@
       "hand",
       "no",
       "nope",
-      "not",
       "person gesturing NO",
       "prohibited",
       "woman"
@@ -27568,13 +27501,10 @@
       "evil",
       "face",
       "forbidden",
-      "gesture",
       "haha",
       "monkey",
       "nature",
       "no",
-      "not",
-      "prohibited",
       "see",
       "see-no-evil monkey"
     ],
@@ -27595,14 +27525,11 @@
       "evil",
       "face",
       "forbidden",
-      "gesture",
       "hear",
       "hear-no-evil monkey",
       "monkey",
       "nature",
-      "no",
-      "not",
-      "prohibited"
+      "no"
     ],
     "emoji": "🙉",
     "image": "./emoji-img/hear-no-evil_monkey.png",
@@ -27621,13 +27548,10 @@
       "evil",
       "face",
       "forbidden",
-      "gesture",
       "monkey",
       "nature",
       "no",
-      "not",
       "omg",
-      "prohibited",
       "speak",
       "speak-no-evil monkey"
     ],
@@ -27786,10 +27710,7 @@
     "unicode_subcategory": null,
     "keywords": [
       "ask",
-      "bow",
-      "folded",
       "folded hands",
-      "gesture",
       "hand",
       "highfive",
       "hope",
@@ -28901,7 +28822,6 @@
       "forbidden",
       "no",
       "no bicycles",
-      "not",
       "prohibited"
     ],
     "emoji": "🚳",
@@ -29822,7 +29742,7 @@
     "fitz": false
   },
   "1f6f9": {
-    "name": "SKATEBOARD",
+    "name": "skateboard",
     "emojilib_name": null,
     "codepoints": [
       128761
@@ -29830,7 +29750,8 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "board",
+      "skateboard"
     ],
     "emoji": "🛹",
     "image": "./emoji-img/skateboard.png",
@@ -31200,7 +31121,7 @@
     "fitz": false
   },
   "1f94d": {
-    "name": "LACROSSE STICK AND BALL",
+    "name": "lacrosse",
     "emojilib_name": null,
     "codepoints": [
       129357
@@ -31208,14 +31129,17 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "ball",
+      "goal",
+      "lacrosse",
+      "stick"
     ],
     "emoji": "🥍",
     "image": "./emoji-img/lacrosse_stick_and_ball.png",
     "fitz": false
   },
   "1f94e": {
-    "name": "SOFTBALL",
+    "name": "softball",
     "emojilib_name": null,
     "codepoints": [
       129358
@@ -31223,14 +31147,17 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "ball",
+      "glove",
+      "softball",
+      "underarm"
     ],
     "emoji": "🥎",
     "image": "./emoji-img/softball.png",
     "fitz": false
   },
   "1f94f": {
-    "name": "FLYING DISC",
+    "name": "flying disc",
     "emojilib_name": null,
     "codepoints": [
       129359
@@ -31238,7 +31165,8 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "flying disc",
+      "ultimate"
     ],
     "emoji": "🥏",
     "image": "./emoji-img/flying_disc.png",
@@ -31791,7 +31719,7 @@
     "fitz": false
   },
   "1f96c": {
-    "name": "LEAFY GREEN",
+    "name": "leafy green",
     "emojilib_name": null,
     "codepoints": [
       129388
@@ -31799,14 +31727,18 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "bok choy",
+      "cabbage",
+      "kale",
+      "leafy green",
+      "lettuce"
     ],
     "emoji": "🥬",
     "image": "./emoji-img/leafy_green.png",
     "fitz": false
   },
   "1f96d": {
-    "name": "MANGO",
+    "name": "mango",
     "emojilib_name": null,
     "codepoints": [
       129389
@@ -31814,14 +31746,16 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "fruit",
+      "mango",
+      "tropical"
     ],
     "emoji": "🥭",
     "image": "./emoji-img/mango.png",
     "fitz": false
   },
   "1f96e": {
-    "name": "MOON CAKE",
+    "name": "moon cake",
     "emojilib_name": null,
     "codepoints": [
       129390
@@ -31829,14 +31763,17 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "autumn",
+      "festival",
+      "moon cake",
+      "yuèbǐng"
     ],
     "emoji": "🥮",
     "image": "./emoji-img/moon_cake.png",
     "fitz": false
   },
   "1f96f": {
-    "name": "BAGEL",
+    "name": "bagel",
     "emojilib_name": null,
     "codepoints": [
       129391
@@ -31844,14 +31781,16 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "bagel",
+      "bakery",
+      "schmear"
     ],
     "emoji": "🥯",
     "image": "./emoji-img/bagel.png",
     "fitz": false
   },
   "1f970": {
-    "name": "SMILING FACE WITH SMILING EYES AND THREE HEARTS",
+    "name": "smiling face with 3 hearts",
     "emojilib_name": null,
     "codepoints": [
       129392
@@ -31859,14 +31798,17 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "adore",
+      "crush",
+      "in love",
+      "smiling face with 3 hearts"
     ],
     "emoji": "🥰",
     "image": "./emoji-img/smiling_face_with_smiling_eyes_and_three_hearts.png",
     "fitz": false
   },
   "1f973": {
-    "name": "FACE WITH PARTY HORN AND PARTY HAT",
+    "name": "partying face",
     "emojilib_name": null,
     "codepoints": [
       129395
@@ -31874,14 +31816,18 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "celebration",
+      "hat",
+      "horn",
+      "party",
+      "partying face"
     ],
     "emoji": "🥳",
     "image": "./emoji-img/face_with_party_horn_and_party_hat.png",
     "fitz": false
   },
   "1f974": {
-    "name": "FACE WITH UNEVEN EYES AND WAVY MOUTH",
+    "name": "woozy face",
     "emojilib_name": null,
     "codepoints": [
       129396
@@ -31889,14 +31835,19 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "dizzy",
+      "intoxicated",
+      "tipsy",
+      "uneven eyes",
+      "wavy mouth",
+      "woozy face"
     ],
     "emoji": "🥴",
     "image": "./emoji-img/face_with_uneven_eyes_and_wavy_mouth.png",
     "fitz": false
   },
   "1f975": {
-    "name": "OVERHEATED FACE",
+    "name": "hot face",
     "emojilib_name": null,
     "codepoints": [
       129397
@@ -31904,14 +31855,19 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "feverish",
+      "heat stroke",
+      "hot",
+      "hot face",
+      "red-faced",
+      "sweating"
     ],
     "emoji": "🥵",
     "image": "./emoji-img/overheated_face.png",
     "fitz": false
   },
   "1f976": {
-    "name": "FREEZING FACE",
+    "name": "cold face",
     "emojilib_name": null,
     "codepoints": [
       129398
@@ -31919,14 +31875,19 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "blue-faced",
+      "cold",
+      "cold face",
+      "freezing",
+      "frostbite",
+      "icicles"
     ],
     "emoji": "🥶",
     "image": "./emoji-img/freezing_face.png",
     "fitz": false
   },
   "1f97a": {
-    "name": "FACE WITH PLEADING EYES",
+    "name": "pleading face",
     "emojilib_name": null,
     "codepoints": [
       129402
@@ -31934,14 +31895,17 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "begging",
+      "mercy",
+      "pleading face",
+      "puppy eyes"
     ],
     "emoji": "🥺",
     "image": "./emoji-img/face_with_pleading_eyes.png",
     "fitz": false
   },
   "1f97c": {
-    "name": "LAB COAT",
+    "name": "lab coat",
     "emojilib_name": null,
     "codepoints": [
       129404
@@ -31949,14 +31913,17 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "doctor",
+      "experiment",
+      "lab coat",
+      "scientist"
     ],
     "emoji": "🥼",
     "image": "./emoji-img/lab_coat.png",
     "fitz": false
   },
   "1f97d": {
-    "name": "GOGGLES",
+    "name": "goggles",
     "emojilib_name": null,
     "codepoints": [
       129405
@@ -31964,14 +31931,17 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "eye protection",
+      "goggles",
+      "swimming",
+      "welding"
     ],
     "emoji": "🥽",
     "image": "./emoji-img/goggles.png",
     "fitz": false
   },
   "1f97e": {
-    "name": "HIKING BOOT",
+    "name": "hiking boot",
     "emojilib_name": null,
     "codepoints": [
       129406
@@ -31979,14 +31949,17 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "backpacking",
+      "boot",
+      "camping",
+      "hiking"
     ],
     "emoji": "🥾",
     "image": "./emoji-img/hiking_boot.png",
     "fitz": false
   },
   "1f97f": {
-    "name": "FLAT SHOE",
+    "name": "flat shoe",
     "emojilib_name": null,
     "codepoints": [
       129407
@@ -31994,7 +31967,10 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "ballet flat",
+      "flat shoe",
+      "slip-on",
+      "slipper"
     ],
     "emoji": "🥿",
     "image": "./emoji-img/flat_shoe.png",
@@ -32468,7 +32444,7 @@
     "fitz": false
   },
   "1f998": {
-    "name": "KANGAROO",
+    "name": "kangaroo",
     "emojilib_name": null,
     "codepoints": [
       129432
@@ -32476,14 +32452,18 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "Australia",
+      "joey",
+      "jump",
+      "kangaroo",
+      "marsupial"
     ],
     "emoji": "🦘",
     "image": "./emoji-img/kangaroo.png",
     "fitz": false
   },
   "1f999": {
-    "name": "LLAMA",
+    "name": "llama",
     "emojilib_name": null,
     "codepoints": [
       129433
@@ -32491,14 +32471,18 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "alpaca",
+      "guanaco",
+      "llama",
+      "vicuña",
+      "wool"
     ],
     "emoji": "🦙",
     "image": "./emoji-img/llama.png",
     "fitz": false
   },
   "1f99a": {
-    "name": "PEACOCK",
+    "name": "peacock",
     "emojilib_name": null,
     "codepoints": [
       129434
@@ -32506,14 +32490,18 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "bird",
+      "ostentatious",
+      "peacock",
+      "peahen",
+      "proud"
     ],
     "emoji": "🦚",
     "image": "./emoji-img/peacock.png",
     "fitz": false
   },
   "1f99b": {
-    "name": "HIPPOPOTAMUS",
+    "name": "hippopotamus",
     "emojilib_name": null,
     "codepoints": [
       129435
@@ -32521,14 +32509,15 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "hippo",
+      "hippopotamus"
     ],
     "emoji": "🦛",
     "image": "./emoji-img/hippopotamus.png",
     "fitz": false
   },
   "1f99c": {
-    "name": "PARROT",
+    "name": "parrot",
     "emojilib_name": null,
     "codepoints": [
       129436
@@ -32536,14 +32525,17 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "bird",
+      "parrot",
+      "pirate",
+      "talk"
     ],
     "emoji": "🦜",
     "image": "./emoji-img/parrot.png",
     "fitz": false
   },
   "1f99d": {
-    "name": "RACCOON",
+    "name": "raccoon",
     "emojilib_name": null,
     "codepoints": [
       129437
@@ -32551,14 +32543,16 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "curious",
+      "raccoon",
+      "sly"
     ],
     "emoji": "🦝",
     "image": "./emoji-img/raccoon.png",
     "fitz": false
   },
   "1f99e": {
-    "name": "LOBSTER",
+    "name": "lobster",
     "emojilib_name": null,
     "codepoints": [
       129438
@@ -32566,14 +32560,17 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "bisque",
+      "claws",
+      "lobster",
+      "seafood"
     ],
     "emoji": "🦞",
     "image": "./emoji-img/lobster.png",
     "fitz": false
   },
   "1f99f": {
-    "name": "MOSQUITO",
+    "name": "mosquito",
     "emojilib_name": null,
     "codepoints": [
       129439
@@ -32581,14 +32578,19 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "disease",
+      "fever",
+      "insect",
+      "malaria",
+      "mosquito",
+      "virus"
     ],
     "emoji": "🦟",
     "image": "./emoji-img/mosquito.png",
     "fitz": false
   },
   "1f9a0": {
-    "name": "MICROBE",
+    "name": "microbe",
     "emojilib_name": null,
     "codepoints": [
       129440
@@ -32596,14 +32598,17 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "amoeba",
+      "bacteria",
+      "microbe",
+      "virus"
     ],
     "emoji": "🦠",
     "image": "./emoji-img/microbe.png",
     "fitz": false
   },
   "1f9a1": {
-    "name": "BADGER",
+    "name": "badger",
     "emojilib_name": null,
     "codepoints": [
       129441
@@ -32611,14 +32616,16 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "badger",
+      "honey badger",
+      "pester"
     ],
     "emoji": "🦡",
     "image": "./emoji-img/badger.png",
     "fitz": false
   },
   "1f9a2": {
-    "name": "SWAN",
+    "name": "swan",
     "emojilib_name": null,
     "codepoints": [
       129442
@@ -32626,14 +32633,17 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "bird",
+      "cygnet",
+      "swan",
+      "ugly duckling"
     ],
     "emoji": "🦢",
     "image": "./emoji-img/swan.png",
     "fitz": false
   },
   "1f9b0": {
-    "name": "EMOJI COMPONENT RED HAIR",
+    "name": "red hair",
     "emojilib_name": null,
     "codepoints": [
       129456
@@ -32641,14 +32651,16 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "ginger",
+      "red hair",
+      "redhead"
     ],
     "emoji": "🦰",
     "image": "./emoji-img/emoji_component_red_hair.png",
     "fitz": false
   },
   "1f9b1": {
-    "name": "EMOJI COMPONENT CURLY HAIR",
+    "name": "curly hair",
     "emojilib_name": null,
     "codepoints": [
       129457
@@ -32656,14 +32668,17 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "afro",
+      "curly",
+      "curly hair",
+      "ringlets"
     ],
     "emoji": "🦱",
     "image": "./emoji-img/emoji_component_curly_hair.png",
     "fitz": false
   },
   "1f9b2": {
-    "name": "EMOJI COMPONENT BALD",
+    "name": "bald",
     "emojilib_name": null,
     "codepoints": [
       129458
@@ -32671,14 +32686,18 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "bald",
+      "chemotherapy",
+      "hairless",
+      "no hair",
+      "shaven"
     ],
     "emoji": "🦲",
     "image": "./emoji-img/emoji_component_bald.png",
     "fitz": false
   },
   "1f9b3": {
-    "name": "EMOJI COMPONENT WHITE HAIR",
+    "name": "white hair",
     "emojilib_name": null,
     "codepoints": [
       129459
@@ -32686,14 +32705,17 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "gray",
+      "hair",
+      "old",
+      "white"
     ],
     "emoji": "🦳",
     "image": "./emoji-img/emoji_component_white_hair.png",
     "fitz": false
   },
   "1f9b4": {
-    "name": "BONE",
+    "name": "bone",
     "emojilib_name": null,
     "codepoints": [
       129460
@@ -32701,14 +32723,15 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "bone",
+      "skeleton"
     ],
     "emoji": "🦴",
     "image": "./emoji-img/bone.png",
     "fitz": false
   },
   "1f9b5": {
-    "name": "LEG",
+    "name": "leg",
     "emojilib_name": null,
     "codepoints": [
       129461
@@ -32716,7 +32739,9 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "kick",
+      "leg",
+      "limb"
     ],
     "emoji": "🦵",
     "image": "./emoji-img/leg.png",
@@ -32729,7 +32754,7 @@
     ]
   },
   "1f9b6": {
-    "name": "FOOT",
+    "name": "foot",
     "emojilib_name": null,
     "codepoints": [
       129462
@@ -32737,7 +32762,9 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "foot",
+      "kick",
+      "stomp"
     ],
     "emoji": "🦶",
     "image": "./emoji-img/foot.png",
@@ -32750,7 +32777,7 @@
     ]
   },
   "1f9b7": {
-    "name": "TOOTH",
+    "name": "tooth",
     "emojilib_name": null,
     "codepoints": [
       129463
@@ -32758,14 +32785,15 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "dentist",
+      "tooth"
     ],
     "emoji": "🦷",
     "image": "./emoji-img/tooth.png",
     "fitz": false
   },
   "1f9b8": {
-    "name": "SUPERHERO",
+    "name": "superhero",
     "emojilib_name": null,
     "codepoints": [
       129464
@@ -32773,7 +32801,11 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "good",
+      "hero",
+      "heroine",
+      "superhero",
+      "superpower"
     ],
     "emoji": "🦸",
     "image": "./emoji-img/superhero.M.png",
@@ -32795,7 +32827,7 @@
     ]
   },
   "1f9b9": {
-    "name": "SUPERVILLAIN",
+    "name": "supervillain",
     "emojilib_name": null,
     "codepoints": [
       129465
@@ -32803,7 +32835,11 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "criminal",
+      "evil",
+      "superpower",
+      "supervillain",
+      "villain"
     ],
     "emoji": "🦹",
     "image": "./emoji-img/supervillain.M.png",
@@ -32843,7 +32879,7 @@
     "fitz": false
   },
   "1f9c1": {
-    "name": "CUPCAKE",
+    "name": "cupcake",
     "emojilib_name": null,
     "codepoints": [
       129473
@@ -32851,14 +32887,16 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "bakery",
+      "cupcake",
+      "sweet"
     ],
     "emoji": "🧁",
     "image": "./emoji-img/cupcake.png",
     "fitz": false
   },
   "1f9c2": {
-    "name": "SALT SHAKER",
+    "name": "salt",
     "emojilib_name": null,
     "codepoints": [
       129474
@@ -32866,7 +32904,9 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "condiment",
+      "salt",
+      "shaker"
     ],
     "emoji": "🧂",
     "image": "./emoji-img/salt_shaker.png",
@@ -32892,7 +32932,7 @@
     "fitz": false
   },
   "1f9d1": {
-    "name": "adult",
+    "name": "person",
     "emojilib_name": "adult",
     "codepoints": [
       129489
@@ -32902,7 +32942,8 @@
     "keywords": [
       "adult",
       "gender-neutral",
-      "person"
+      "person",
+      "unspecified gender"
     ],
     "emoji": "🧑",
     "image": "./emoji-img/adult.png",
@@ -32925,6 +32966,7 @@
     "keywords": [
       "child",
       "gender-neutral",
+      "unspecified gender",
       "young"
     ],
     "emoji": "🧒",
@@ -32938,7 +32980,7 @@
     ]
   },
   "1f9d3": {
-    "name": "older adult",
+    "name": "older person",
     "emojilib_name": "older_adult",
     "codepoints": [
       129491
@@ -32952,8 +32994,9 @@
       "human",
       "old",
       "older",
-      "older adult",
-      "senior"
+      "older person",
+      "senior",
+      "unspecified gender"
     ],
     "emoji": "🧓",
     "image": "./emoji-img/older_adult.png",
@@ -32966,7 +33009,7 @@
     ]
   },
   "1f9d4": {
-    "name": "bearded person",
+    "name": "man: beard",
     "emojilib_name": "bearded_person",
     "codepoints": [
       129492
@@ -32976,8 +33019,8 @@
     "keywords": [
       "beard",
       "bearded",
-      "bearded person",
       "bewhiskered",
+      "man: beard",
       "person"
     ],
     "emoji": "🧔",
@@ -33443,7 +33486,7 @@
     "fitz": false
   },
   "1f9e7": {
-    "name": "RED GIFT ENVELOPE",
+    "name": "red envelope",
     "emojilib_name": null,
     "codepoints": [
       129511
@@ -33451,14 +33494,19 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "gift",
+      "good luck",
+      "hóngbāo",
+      "lai see",
+      "money",
+      "red envelope"
     ],
     "emoji": "🧧",
     "image": "./emoji-img/red_gift_envelope.png",
     "fitz": false
   },
   "1f9e8": {
-    "name": "FIRECRACKER",
+    "name": "firecracker",
     "emojilib_name": null,
     "codepoints": [
       129512
@@ -33466,14 +33514,17 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "dynamite",
+      "explosive",
+      "firecracker",
+      "fireworks"
     ],
     "emoji": "🧨",
     "image": "./emoji-img/firecracker.png",
     "fitz": false
   },
   "1f9e9": {
-    "name": "JIGSAW PUZZLE PIECE",
+    "name": "jigsaw",
     "emojilib_name": null,
     "codepoints": [
       129513
@@ -33481,14 +33532,18 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "clue",
+      "interlocking",
+      "jigsaw",
+      "piece",
+      "puzzle"
     ],
     "emoji": "🧩",
     "image": "./emoji-img/jigsaw_puzzle_piece.png",
     "fitz": false
   },
   "1f9ea": {
-    "name": "TEST TUBE",
+    "name": "test tube",
     "emojilib_name": null,
     "codepoints": [
       129514
@@ -33496,14 +33551,19 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "chemist",
+      "chemistry",
+      "experiment",
+      "lab",
+      "science",
+      "test tube"
     ],
     "emoji": "🧪",
     "image": "./emoji-img/test_tube.png",
     "fitz": false
   },
   "1f9eb": {
-    "name": "PETRI DISH",
+    "name": "petri dish",
     "emojilib_name": null,
     "codepoints": [
       129515
@@ -33511,14 +33571,19 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "bacteria",
+      "biologist",
+      "biology",
+      "culture",
+      "lab",
+      "petri dish"
     ],
     "emoji": "🧫",
     "image": "./emoji-img/petri_dish.png",
     "fitz": false
   },
   "1f9ec": {
-    "name": "DNA DOUBLE HELIX",
+    "name": "dna",
     "emojilib_name": null,
     "codepoints": [
       129516
@@ -33526,14 +33591,19 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "biologist",
+      "dna",
+      "evolution",
+      "gene",
+      "genetics",
+      "life"
     ],
     "emoji": "🧬",
     "image": "./emoji-img/dna_double_helix.png",
     "fitz": false
   },
   "1f9ed": {
-    "name": "COMPASS",
+    "name": "compass",
     "emojilib_name": null,
     "codepoints": [
       129517
@@ -33541,14 +33611,17 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "compass",
+      "magnetic",
+      "navigation",
+      "orienteering"
     ],
     "emoji": "🧭",
     "image": "./emoji-img/compass.png",
     "fitz": false
   },
   "1f9ee": {
-    "name": "ABACUS",
+    "name": "abacus",
     "emojilib_name": null,
     "codepoints": [
       129518
@@ -33556,14 +33629,15 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "abacus",
+      "calculation"
     ],
     "emoji": "🧮",
     "image": "./emoji-img/abacus.png",
     "fitz": false
   },
   "1f9ef": {
-    "name": "FIRE EXTINGUISHER",
+    "name": "fire extinguisher",
     "emojilib_name": null,
     "codepoints": [
       129519
@@ -33571,14 +33645,17 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "extinguish",
+      "fire",
+      "fire extinguisher",
+      "quench"
     ],
     "emoji": "🧯",
     "image": "./emoji-img/fire_extinguisher.png",
     "fitz": false
   },
   "1f9f0": {
-    "name": "TOOLBOX",
+    "name": "toolbox",
     "emojilib_name": null,
     "codepoints": [
       129520
@@ -33586,14 +33663,17 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "chest",
+      "mechanic",
+      "tool",
+      "toolbox"
     ],
     "emoji": "🧰",
     "image": "./emoji-img/toolbox.png",
     "fitz": false
   },
   "1f9f1": {
-    "name": "BRICK",
+    "name": "brick",
     "emojilib_name": null,
     "codepoints": [
       129521
@@ -33601,14 +33681,18 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "brick",
+      "bricks",
+      "clay",
+      "mortar",
+      "wall"
     ],
     "emoji": "🧱",
     "image": "./emoji-img/brick.png",
     "fitz": false
   },
   "1f9f2": {
-    "name": "MAGNET",
+    "name": "magnet",
     "emojilib_name": null,
     "codepoints": [
       129522
@@ -33616,14 +33700,17 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "attraction",
+      "horseshoe",
+      "magnet",
+      "magnetic"
     ],
     "emoji": "🧲",
     "image": "./emoji-img/magnet.png",
     "fitz": false
   },
   "1f9f3": {
-    "name": "LUGGAGE",
+    "name": "luggage",
     "emojilib_name": null,
     "codepoints": [
       129523
@@ -33631,14 +33718,16 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "luggage",
+      "packing",
+      "travel"
     ],
     "emoji": "🧳",
     "image": "./emoji-img/luggage.png",
     "fitz": false
   },
   "1f9f4": {
-    "name": "LOTION BOTTLE",
+    "name": "lotion bottle",
     "emojilib_name": null,
     "codepoints": [
       129524
@@ -33646,14 +33735,18 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "lotion",
+      "lotion bottle",
+      "moisturizer",
+      "shampoo",
+      "sunscreen"
     ],
     "emoji": "🧴",
     "image": "./emoji-img/lotion_bottle.png",
     "fitz": false
   },
   "1f9f5": {
-    "name": "SPOOL OF THREAD",
+    "name": "thread",
     "emojilib_name": null,
     "codepoints": [
       129525
@@ -33661,14 +33754,18 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "needle",
+      "sewing",
+      "spool",
+      "string",
+      "thread"
     ],
     "emoji": "🧵",
     "image": "./emoji-img/spool_of_thread.png",
     "fitz": false
   },
   "1f9f6": {
-    "name": "BALL OF YARN",
+    "name": "yarn",
     "emojilib_name": null,
     "codepoints": [
       129526
@@ -33676,14 +33773,17 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "ball",
+      "crochet",
+      "knit",
+      "yarn"
     ],
     "emoji": "🧶",
     "image": "./emoji-img/ball_of_yarn.png",
     "fitz": false
   },
   "1f9f7": {
-    "name": "SAFETY PIN",
+    "name": "safety pin",
     "emojilib_name": null,
     "codepoints": [
       129527
@@ -33691,14 +33791,16 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "diaper",
+      "punk rock",
+      "safety pin"
     ],
     "emoji": "🧷",
     "image": "./emoji-img/safety_pin.png",
     "fitz": false
   },
   "1f9f8": {
-    "name": "TEDDY BEAR",
+    "name": "teddy bear",
     "emojilib_name": null,
     "codepoints": [
       129528
@@ -33706,14 +33808,18 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "plaything",
+      "plush",
+      "stuffed",
+      "teddy bear",
+      "toy"
     ],
     "emoji": "🧸",
     "image": "./emoji-img/teddy_bear.png",
     "fitz": false
   },
   "1f9f9": {
-    "name": "BROOM",
+    "name": "broom",
     "emojilib_name": null,
     "codepoints": [
       129529
@@ -33721,14 +33827,17 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "broom",
+      "cleaning",
+      "sweeping",
+      "witch"
     ],
     "emoji": "🧹",
     "image": "./emoji-img/broom.png",
     "fitz": false
   },
   "1f9fa": {
-    "name": "BASKET",
+    "name": "basket",
     "emojilib_name": null,
     "codepoints": [
       129530
@@ -33736,14 +33845,17 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "basket",
+      "farming",
+      "laundry",
+      "picnic"
     ],
     "emoji": "🧺",
     "image": "./emoji-img/basket.png",
     "fitz": false
   },
   "1f9fb": {
-    "name": "ROLL OF PAPER",
+    "name": "roll of paper",
     "emojilib_name": null,
     "codepoints": [
       129531
@@ -33751,14 +33863,16 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "paper towels",
+      "roll of paper",
+      "toilet paper"
     ],
     "emoji": "🧻",
     "image": "./emoji-img/roll_of_paper.png",
     "fitz": false
   },
   "1f9fc": {
-    "name": "BAR OF SOAP",
+    "name": "soap",
     "emojilib_name": null,
     "codepoints": [
       129532
@@ -33766,14 +33880,19 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "bar",
+      "bathing",
+      "cleaning",
+      "lather",
+      "soap",
+      "soapdish"
     ],
     "emoji": "🧼",
     "image": "./emoji-img/bar_of_soap.png",
     "fitz": false
   },
   "1f9fd": {
-    "name": "SPONGE",
+    "name": "sponge",
     "emojilib_name": null,
     "codepoints": [
       129533
@@ -33781,14 +33900,17 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "absorbing",
+      "cleaning",
+      "porous",
+      "sponge"
     ],
     "emoji": "🧽",
     "image": "./emoji-img/sponge.png",
     "fitz": false
   },
   "1f9fe": {
-    "name": "RECEIPT",
+    "name": "receipt",
     "emojilib_name": null,
     "codepoints": [
       129534
@@ -33796,14 +33918,18 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "accounting",
+      "bookkeeping",
+      "evidence",
+      "proof",
+      "receipt"
     ],
     "emoji": "🧾",
     "image": "./emoji-img/receipt.png",
     "fitz": false
   },
   "1f9ff": {
-    "name": "NAZAR AMULET",
+    "name": "nazar amulet",
     "emojilib_name": null,
     "codepoints": [
       129535
@@ -33811,7 +33937,12 @@
     "unicode_category": null,
     "unicode_subcategory": null,
     "keywords": [
-
+      "bead",
+      "charm",
+      "evil-eye",
+      "nazar",
+      "nazar amulet",
+      "talisman"
     ],
     "emoji": "🧿",
     "image": "./emoji-img/nazar_amulet.png",
