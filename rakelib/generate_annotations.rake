@@ -1,4 +1,6 @@
 task :generate_annotations do
+  mkdir_p CacheDir
+
   $unicode_annotation_url = 'http://www.unicode.org/repos/cldr/tags/latest/common/annotations/en.xml'
   $unicode_annotation_src = CacheDir.join('unicode-annotations.xml').to_s
 

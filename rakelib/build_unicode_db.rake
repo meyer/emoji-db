@@ -1,4 +1,6 @@
 task :build_unicode_db => [:generate_annotations, :process_emoji_data] do
+  mkdir_p CacheDir
+
   emoji_list_src = CacheDir.join('emoji-list-page.html').to_s
 
   # emoji minus ASCII numbers
