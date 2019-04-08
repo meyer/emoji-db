@@ -8160,6 +8160,14 @@
       ],
       "description": "SKATEBOARD"
     },
+    "1f6fa": {
+      "emoji": "🛺",
+      "slug": "auto_rickshaw",
+      "codepoints": [
+        128762
+      ],
+      "description": "AUTO RICKSHAW"
+    },
     "1f6a5": {
       "emoji": "🚥",
       "slug": "horizontal_traffic_light",
@@ -8488,6 +8496,14 @@
       ],
       "description": "BED"
     },
+    "1f6d5": {
+      "emoji": "🛕",
+      "slug": "hindu_temple",
+      "codepoints": [
+        128725
+      ],
+      "description": "HINDU TEMPLE"
+    },
     "1f6e0": {
       "emoji": "🛠",
       "slug": "hammer_and_wrench",
@@ -8527,6 +8543,190 @@
         128740
       ],
       "description": "RAILWAY TRACK"
+    },
+    "1f7e0": {
+      "emoji": "🟠",
+      "slug": "large_orange_circle",
+      "codepoints": [
+        128992
+      ],
+      "description": "LARGE ORANGE CIRCLE"
+    },
+    "1f7e1": {
+      "emoji": "🟡",
+      "slug": "large_yellow_circle",
+      "codepoints": [
+        128993
+      ],
+      "description": "LARGE YELLOW CIRCLE"
+    },
+    "1f7e2": {
+      "emoji": "🟢",
+      "slug": "large_green_circle",
+      "codepoints": [
+        128994
+      ],
+      "description": "LARGE GREEN CIRCLE"
+    },
+    "1f7e3": {
+      "emoji": "🟣",
+      "slug": "large_purple_circle",
+      "codepoints": [
+        128995
+      ],
+      "description": "LARGE PURPLE CIRCLE"
+    },
+    "1f7e4": {
+      "emoji": "🟤",
+      "slug": "large_brown_circle",
+      "codepoints": [
+        128996
+      ],
+      "description": "LARGE BROWN CIRCLE"
+    },
+    "1f7e5": {
+      "emoji": "🟥",
+      "slug": "large_red_square",
+      "codepoints": [
+        128997
+      ],
+      "description": "LARGE RED SQUARE"
+    },
+    "1f7e6": {
+      "emoji": "🟦",
+      "slug": "large_blue_square",
+      "codepoints": [
+        128998
+      ],
+      "description": "LARGE BLUE SQUARE"
+    },
+    "1f7e7": {
+      "emoji": "🟧",
+      "slug": "large_orange_square",
+      "codepoints": [
+        128999
+      ],
+      "description": "LARGE ORANGE SQUARE"
+    },
+    "1f7e8": {
+      "emoji": "🟨",
+      "slug": "large_yellow_square",
+      "codepoints": [
+        129000
+      ],
+      "description": "LARGE YELLOW SQUARE"
+    },
+    "1f7e9": {
+      "emoji": "🟩",
+      "slug": "large_green_square",
+      "codepoints": [
+        129001
+      ],
+      "description": "LARGE GREEN SQUARE"
+    },
+    "1f7ea": {
+      "emoji": "🟪",
+      "slug": "large_purple_square",
+      "codepoints": [
+        129002
+      ],
+      "description": "LARGE PURPLE SQUARE"
+    },
+    "1f7eb": {
+      "emoji": "🟫",
+      "slug": "large_brown_square",
+      "codepoints": [
+        129003
+      ],
+      "description": "LARGE BROWN SQUARE"
+    },
+    "1f90d": {
+      "emoji": "🤍",
+      "slug": "white_heart",
+      "codepoints": [
+        129293
+      ],
+      "description": "WHITE HEART"
+    },
+    "1f90e": {
+      "emoji": "🤎",
+      "slug": "brown_heart",
+      "codepoints": [
+        129294
+      ],
+      "description": "BROWN HEART"
+    },
+    "1f90f": {
+      "emoji": "🤏",
+      "slug": "pinching_hand",
+      "codepoints": [
+        129295
+      ],
+      "description": "PINCHING HAND"
+    },
+    "1f918": {
+      "emoji": "🤘",
+      "slug": "sign_of_the_horns",
+      "codepoints": [
+        129304
+      ],
+      "description": "SIGN OF THE HORNS"
+    },
+    "1f919": {
+      "emoji": "🤙",
+      "slug": "call_me_hand",
+      "codepoints": [
+        129305
+      ],
+      "description": "CALL ME HAND"
+    },
+    "1f91a": {
+      "emoji": "🤚",
+      "slug": "raised_back_of_hand",
+      "codepoints": [
+        129306
+      ],
+      "description": "RAISED BACK OF HAND"
+    },
+    "1f91b": {
+      "emoji": "🤛",
+      "slug": "left-facing_fist",
+      "codepoints": [
+        129307
+      ],
+      "description": "LEFT-FACING FIST"
+    },
+    "1f91c": {
+      "emoji": "🤜",
+      "slug": "right-facing_fist",
+      "codepoints": [
+        129308
+      ],
+      "description": "RIGHT-FACING FIST"
+    },
+    "1f91d": {
+      "emoji": "🤝",
+      "slug": "handshake",
+      "codepoints": [
+        129309
+      ],
+      "description": "HANDSHAKE"
+    },
+    "1f91e": {
+      "emoji": "🤞",
+      "slug": "hand_with_index_and_middle_fingers_crossed",
+      "codepoints": [
+        129310
+      ],
+      "description": "HAND WITH INDEX AND MIDDLE FINGERS CROSSED"
+    },
+    "1f91f": {
+      "emoji": "🤟",
+      "slug": "i_love_you_hand_sign",
+      "codepoints": [
+        129311
+      ],
+      "description": "I LOVE YOU HAND SIGN"
     },
     "1f910": {
       "emoji": "🤐",
@@ -8720,70 +8920,6 @@
       ],
       "description": "SHOCKED FACE WITH EXPLODING HEAD"
     },
-    "1f918": {
-      "emoji": "🤘",
-      "slug": "sign_of_the_horns",
-      "codepoints": [
-        129304
-      ],
-      "description": "SIGN OF THE HORNS"
-    },
-    "1f919": {
-      "emoji": "🤙",
-      "slug": "call_me_hand",
-      "codepoints": [
-        129305
-      ],
-      "description": "CALL ME HAND"
-    },
-    "1f91a": {
-      "emoji": "🤚",
-      "slug": "raised_back_of_hand",
-      "codepoints": [
-        129306
-      ],
-      "description": "RAISED BACK OF HAND"
-    },
-    "1f91b": {
-      "emoji": "🤛",
-      "slug": "left-facing_fist",
-      "codepoints": [
-        129307
-      ],
-      "description": "LEFT-FACING FIST"
-    },
-    "1f91c": {
-      "emoji": "🤜",
-      "slug": "right-facing_fist",
-      "codepoints": [
-        129308
-      ],
-      "description": "RIGHT-FACING FIST"
-    },
-    "1f91d": {
-      "emoji": "🤝",
-      "slug": "handshake",
-      "codepoints": [
-        129309
-      ],
-      "description": "HANDSHAKE"
-    },
-    "1f91e": {
-      "emoji": "🤞",
-      "slug": "hand_with_index_and_middle_fingers_crossed",
-      "codepoints": [
-        129310
-      ],
-      "description": "HAND WITH INDEX AND MIDDLE FINGERS CROSSED"
-    },
-    "1f91f": {
-      "emoji": "🤟",
-      "slug": "i_love_you_hand_sign",
-      "codepoints": [
-        129311
-      ],
-      "description": "I LOVE YOU HAND SIGN"
-    },
     "1f930": {
       "emoji": "🤰",
       "slug": "pregnant_woman",
@@ -8967,6 +9103,14 @@
         129342
       ],
       "description": "HANDBALL"
+    },
+    "1f93f": {
+      "emoji": "🤿",
+      "slug": "diving_mask",
+      "codepoints": [
+        129343
+      ],
+      "description": "DIVING MASK"
     },
     "1f940": {
       "emoji": "🥀",
@@ -9424,6 +9568,70 @@
       ],
       "description": "SALT SHAKER"
     },
+    "1f9c3": {
+      "emoji": "🧃",
+      "slug": "beverage_box",
+      "codepoints": [
+        129475
+      ],
+      "description": "BEVERAGE BOX"
+    },
+    "1f9c4": {
+      "emoji": "🧄",
+      "slug": "garlic",
+      "codepoints": [
+        129476
+      ],
+      "description": "GARLIC"
+    },
+    "1f9c5": {
+      "emoji": "🧅",
+      "slug": "onion",
+      "codepoints": [
+        129477
+      ],
+      "description": "ONION"
+    },
+    "1f9c6": {
+      "emoji": "🧆",
+      "slug": "falafel",
+      "codepoints": [
+        129478
+      ],
+      "description": "FALAFEL"
+    },
+    "1f9c7": {
+      "emoji": "🧇",
+      "slug": "waffle",
+      "codepoints": [
+        129479
+      ],
+      "description": "WAFFLE"
+    },
+    "1f9c8": {
+      "emoji": "🧈",
+      "slug": "butter",
+      "codepoints": [
+        129480
+      ],
+      "description": "BUTTER"
+    },
+    "1f9c9": {
+      "emoji": "🧉",
+      "slug": "mate_drink",
+      "codepoints": [
+        129481
+      ],
+      "description": "MATE DRINK"
+    },
+    "1f9ca": {
+      "emoji": "🧊",
+      "slug": "ice_cube",
+      "codepoints": [
+        129482
+      ],
+      "description": "ICE CUBE"
+    },
     "1f970": {
       "emoji": "🥰",
       "slug": "smiling_face_with_smiling_eyes_and_three_hearts",
@@ -9431,6 +9639,14 @@
         129392
       ],
       "description": "SMILING FACE WITH SMILING EYES AND THREE HEARTS"
+    },
+    "1f971": {
+      "emoji": "🥱",
+      "slug": "yawning_face",
+      "codepoints": [
+        129393
+      ],
+      "description": "YAWNING FACE"
     },
     "1f973": {
       "emoji": "🥳",
@@ -9471,6 +9687,14 @@
         129402
       ],
       "description": "FACE WITH PLEADING EYES"
+    },
+    "1f97b": {
+      "emoji": "🥻",
+      "slug": "sari",
+      "codepoints": [
+        129403
+      ],
+      "description": "SARI"
     },
     "1f97c": {
       "emoji": "🥼",
@@ -9784,6 +10008,118 @@
       ],
       "description": "SWAN"
     },
+    "1f9a5": {
+      "emoji": "🦥",
+      "slug": "sloth",
+      "codepoints": [
+        129445
+      ],
+      "description": "SLOTH"
+    },
+    "1f9a6": {
+      "emoji": "🦦",
+      "slug": "otter",
+      "codepoints": [
+        129446
+      ],
+      "description": "OTTER"
+    },
+    "1f9a7": {
+      "emoji": "🦧",
+      "slug": "orangutan",
+      "codepoints": [
+        129447
+      ],
+      "description": "ORANGUTAN"
+    },
+    "1f9a8": {
+      "emoji": "🦨",
+      "slug": "skunk",
+      "codepoints": [
+        129448
+      ],
+      "description": "SKUNK"
+    },
+    "1f9a9": {
+      "emoji": "🦩",
+      "slug": "flamingo",
+      "codepoints": [
+        129449
+      ],
+      "description": "FLAMINGO"
+    },
+    "1f9aa": {
+      "emoji": "🦪",
+      "slug": "oyster",
+      "codepoints": [
+        129450
+      ],
+      "description": "OYSTER"
+    },
+    "1f9ae": {
+      "emoji": "🦮",
+      "slug": "guide_dog",
+      "codepoints": [
+        129454
+      ],
+      "description": "GUIDE DOG"
+    },
+    "1f9af": {
+      "emoji": "🦯",
+      "slug": "probing_cane",
+      "codepoints": [
+        129455
+      ],
+      "description": "PROBING CANE"
+    },
+    "1f9ba": {
+      "emoji": "🦺",
+      "slug": "safety_vest",
+      "codepoints": [
+        129466
+      ],
+      "description": "SAFETY VEST"
+    },
+    "1f9bb": {
+      "emoji": "🦻",
+      "slug": "ear_with_hearing_aid",
+      "codepoints": [
+        129467
+      ],
+      "description": "EAR WITH HEARING AID"
+    },
+    "1f9bc": {
+      "emoji": "🦼",
+      "slug": "motorized_wheelchair",
+      "codepoints": [
+        129468
+      ],
+      "description": "MOTORIZED WHEELCHAIR"
+    },
+    "1f9bd": {
+      "emoji": "🦽",
+      "slug": "manual_wheelchair",
+      "codepoints": [
+        129469
+      ],
+      "description": "MANUAL WHEELCHAIR"
+    },
+    "1f9be": {
+      "emoji": "🦾",
+      "slug": "mechanical_arm",
+      "codepoints": [
+        129470
+      ],
+      "description": "MECHANICAL ARM"
+    },
+    "1f9bf": {
+      "emoji": "🦿",
+      "slug": "mechanical_leg",
+      "codepoints": [
+        129471
+      ],
+      "description": "MECHANICAL LEG"
+    },
     "1f9b0": {
       "emoji": "🦰",
       "slug": "emoji_component_red_hair",
@@ -9863,6 +10199,30 @@
         129465
       ],
       "description": "SUPERVILLAIN"
+    },
+    "1f9cd": {
+      "emoji": "🧍",
+      "slug": "standing_person",
+      "codepoints": [
+        129485
+      ],
+      "description": "STANDING PERSON"
+    },
+    "1f9ce": {
+      "emoji": "🧎",
+      "slug": "kneeling_person",
+      "codepoints": [
+        129486
+      ],
+      "description": "KNEELING PERSON"
+    },
+    "1f9cf": {
+      "emoji": "🧏",
+      "slug": "deaf_person",
+      "codepoints": [
+        129487
+      ],
+      "description": "DEAF PERSON"
     },
     "1f9d9": {
       "emoji": "🧙",
@@ -10119,6 +10479,134 @@
         129535
       ],
       "description": "NAZAR AMULET"
+    },
+    "1fa70": {
+      "emoji": "🩰",
+      "slug": "ballet_shoes",
+      "codepoints": [
+        129648
+      ],
+      "description": "BALLET SHOES"
+    },
+    "1fa71": {
+      "emoji": "🩱",
+      "slug": "one-piece_swimsuit",
+      "codepoints": [
+        129649
+      ],
+      "description": "ONE-PIECE SWIMSUIT"
+    },
+    "1fa72": {
+      "emoji": "🩲",
+      "slug": "briefs",
+      "codepoints": [
+        129650
+      ],
+      "description": "BRIEFS"
+    },
+    "1fa73": {
+      "emoji": "🩳",
+      "slug": "shorts",
+      "codepoints": [
+        129651
+      ],
+      "description": "SHORTS"
+    },
+    "1fa78": {
+      "emoji": "🩸",
+      "slug": "drop_of_blood",
+      "codepoints": [
+        129656
+      ],
+      "description": "DROP OF BLOOD"
+    },
+    "1fa79": {
+      "emoji": "🩹",
+      "slug": "adhesive_bandage",
+      "codepoints": [
+        129657
+      ],
+      "description": "ADHESIVE BANDAGE"
+    },
+    "1fa7a": {
+      "emoji": "🩺",
+      "slug": "stethoscope",
+      "codepoints": [
+        129658
+      ],
+      "description": "STETHOSCOPE"
+    },
+    "1fa80": {
+      "emoji": "🪀",
+      "slug": "yo-yo",
+      "codepoints": [
+        129664
+      ],
+      "description": "YO-YO"
+    },
+    "1fa81": {
+      "emoji": "🪁",
+      "slug": "kite",
+      "codepoints": [
+        129665
+      ],
+      "description": "KITE"
+    },
+    "1fa82": {
+      "emoji": "🪂",
+      "slug": "parachute",
+      "codepoints": [
+        129666
+      ],
+      "description": "PARACHUTE"
+    },
+    "1fa90": {
+      "emoji": "🪐",
+      "slug": "ringed_planet",
+      "codepoints": [
+        129680
+      ],
+      "description": "RINGED PLANET"
+    },
+    "1fa91": {
+      "emoji": "🪑",
+      "slug": "chair",
+      "codepoints": [
+        129681
+      ],
+      "description": "CHAIR"
+    },
+    "1fa92": {
+      "emoji": "🪒",
+      "slug": "razor",
+      "codepoints": [
+        129682
+      ],
+      "description": "RAZOR"
+    },
+    "1fa93": {
+      "emoji": "🪓",
+      "slug": "axe",
+      "codepoints": [
+        129683
+      ],
+      "description": "AXE"
+    },
+    "1fa94": {
+      "emoji": "🪔",
+      "slug": "diya_lamp",
+      "codepoints": [
+        129684
+      ],
+      "description": "DIYA LAMP"
+    },
+    "1fa95": {
+      "emoji": "🪕",
+      "slug": "banjo",
+      "codepoints": [
+        129685
+      ],
+      "description": "BANJO"
     },
     "0023_20e3": {
       "emoji": "#️⃣",
