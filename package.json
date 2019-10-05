@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/meyer/emoji-db",
   "dependencies": {
-    "emojilib": "latest"
+    "emojilib": "^2.4.0"
   }
 }

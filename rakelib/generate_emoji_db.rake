@@ -22,8 +22,8 @@ task :generate_emoji_db => [:copy_latest] do
 
   abort 'Emoji font file does not exist!' unless ttf
 
-  puts "Run `npm install`"
-  system "npm i"
+  puts "Run `yarn add emojilib@latest`"
+  system "yarn add emojilib@latest"
 
   rm_rf EmojiImgDir
   mkdir_p EmojiImgDir
