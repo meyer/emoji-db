@@ -2,7 +2,6 @@
   "name": "emoji-db",
   "version": "1.0.0",
   "main": "emoji-db.json",
-  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/meyer/emoji-db.git"
@@ -11,13 +10,24 @@
     "emoji",
     "database"
   ],
-  "author": "meyer",
-  "license": "ISC",
+  "author": "meyer <github.com@meyer.fm>",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/meyer/emoji-db/issues"
   },
   "homepage": "https://github.com/meyer/emoji-db",
-  "dependencies": {
-    "emojilib": "^2.4.0"
-  }
+  "scripts": {
+    "start": "ts-node src/cli.ts \"Apple Color Emoji 15.0d4e1.ttc\""
+  },
+  "prettier": {
+    "printWidth": 120,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "devDependencies": {
+    "@types/node": "^12.11.1",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {}
 }
