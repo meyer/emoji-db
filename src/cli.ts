@@ -39,26 +39,15 @@ const FONTS_DIR = path.join(ROOT_DIR, 'fonts');
     const dsigLength = await buf.uint32();
     const dsigOffset = await buf.uint32();
 
-    const moreShit = await Promise.all([
-      buf.ascii(),
-      buf.ascii(),
-      buf.ascii(),
-      buf.ascii(),
-      buf.ascii(),
-      buf.ascii(),
-      buf.ascii(),
-      buf.ascii(),
-      buf.ascii(),
-      buf.ascii(),
-      buf.ascii(),
-      buf.ascii(),
-      buf.ascii(),
-      buf.ascii(),
-      buf.ascii(),
-      buf.ascii(),
-    ]);
-
-    console.log({ majorVersion, minorVersion, numFonts, offsetTable, dsigTag, dsigLength, dsigOffset, moreShit });
+    console.log({
+      majorVersion,
+      minorVersion,
+      numFonts,
+      offsetTable,
+      dsigTag,
+      dsigLength,
+      dsigOffset,
+    });
   } catch (err) {
     console.error(err);
   } finally {

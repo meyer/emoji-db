@@ -2,8 +2,21 @@ import fs from 'fs';
 
 const transforms = {
   ascii: (buf: Buffer) => buf.toString('ascii'),
+  int8: (buf: Buffer) => buf.readInt8(0),
+  uint8: (buf: Buffer) => buf.readUInt8(0),
   uint16: (buf: Buffer) => buf.readUInt16BE(0),
+  int16: (buf: Buffer) => buf.readInt16BE(0),
+  // uint24
   uint32: (buf: Buffer) => buf.readUInt32BE(0),
+  int32: (buf: Buffer) => buf.readInt32BE(0),
+  // fixed
+  // fword
+  // ufword
+  // f2dot14
+  // longdatetime
+  tag: (buf: Buffer) => buf.toString('ascii'),
+  offset16: (buf: Buffer) => buf.readUInt16BE(0),
+  offset32: (buf: Buffer) => buf.readUInt32BE(0),
 };
 
 type Transforms = typeof transforms;
@@ -55,4 +68,16 @@ export class WrappedAsyncIterator {
 
     return transform(result.value);
   }
+
+  // fetch two buffers of 4 bytes and concat them
+  // private async next64Bit<T extends any>(transform: (buf: Buffer) => T): Promise<T> {
+  //   this.count += 2;
+  //   const chunk1 = await this.iterator.next();
+  //   const chunk2 = await this.iterator.next();
+  //   if (!Buffer.isBuffer(chunk1.value) || !Buffer.isBuffer(chunk2.value)) {
+  //     throw new Error('Received a non-buffer value!');
+  //   }
+  //   const long = Buffer.concat([chunk1.value, chunk2.value]);
+  //   return transform(long);
+  // }
 }
