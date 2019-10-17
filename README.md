@@ -17,3 +17,10 @@ The unicode codepoint for :sunglasses: is `1f60e`.
 ```js
 String.fromCodePoint(parseInt('1f60e', 16));
 ```
+
+## Interesting links
+
+- https://docs.microsoft.com/en-us/typography/opentype/spec/otff
+- https://developer.apple.com/fonts/TrueType-Reference-Manual/
+- https://github.com/foliojs/restructure
+- https://github.com/deepakjois/luafontkit/blob/4832aa04f501ed1b7a3d2691022deaafac3c0d27/src/TrueTypeCollection.js
