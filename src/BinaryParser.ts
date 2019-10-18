@@ -32,9 +32,19 @@ export class BinaryParser {
   private fh: fs.promises.FileHandle;
   public position = 0;
 
-  private async readBytes(bytes: number): Promise<Buffer> {
-    const result = await this.fh.read(Buffer.alloc(bytes), 0, bytes, this.position);
-    this.position += bytes;
+  /**
+   * Read a number of bytes from a position.
+   * It's generally better to use int/uint/ascii/fixed convenience methods.
+   */
+  public async readBytes(bytes: number, position?: number): Promise<Buffer> {
+    const pos = position == null ? this.position : position;
+
+    const result = await this.fh.read(Buffer.alloc(bytes), 0, bytes, pos);
+
+    // user did not provide a position, so we auto-advance
+    if (position == null) {
+      this.position += bytes;
+    }
     return result.buffer;
   }
 

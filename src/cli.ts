@@ -77,8 +77,8 @@ const numToHex = (num: number) => {
       dsigOffset,
     });
 
-    for (const offset of offsets) {
-      bp.position = offset;
+    for (const fontOffset of offsets) {
+      bp.position = fontOffset;
 
       const sfntVersion = await bp.uint32();
       const numTables = await bp.uint16();
@@ -91,13 +91,73 @@ const numToHex = (num: number) => {
       }
 
       console.log({
-        offset,
+        fontOffset,
         sfntVersion,
         numTables,
         searchRange,
         entrySelector,
         rangeShift,
       });
+
+      for (let idx = 0, len = numTables; idx < len; idx++) {
+        const tag = await bp.tag();
+        await bp.uint32(); // checksum
+        const tableOffset = await bp.uint32();
+        await bp.uint32(); // len
+
+        const oldPosition = bp.position;
+        bp.position = tableOffset;
+
+        if (tag === 'head') {
+          const version = await bp.fixed(32, 16);
+          const fontRevision = await bp.fixed(32, 16);
+          const checksumAdjustment = await bp.uint32();
+          const magicNumber = await bp.uint32();
+          const flags = await bp.uint16();
+          const unitsPerEm = await bp.uint16();
+          const created = await bp.longdatetime();
+          const modified = await bp.longdatetime();
+
+          console.log('head table:', {
+            version,
+            fontRevision,
+            checksumAdjustment,
+            magicNumber: magicNumber.toString(16),
+            flags,
+            unitsPerEm,
+            created,
+            modified,
+          });
+        } else if (tag === 'name') {
+          const format = await bp.uint16();
+          const count = await bp.uint16();
+          const stringOffset = await bp.uint16();
+          const storageAreaOffset = tableOffset + stringOffset;
+
+          if (format !== 0) {
+            throw new Error('Only format 0 is supported');
+          }
+
+          console.log('name table:', { format, count, stringOffset });
+
+          for (let idx = 0; idx < count; idx++) {
+            const platformID = await bp.uint16();
+            const encodingID = await bp.uint16();
+            const languageID = await bp.uint16();
+            const nameID = await bp.uint16();
+            const length = await bp.uint16();
+            const offset = await bp.uint16();
+            const nameBuf = await bp.readBytes(length, storageAreaOffset + offset);
+            const name = nameBuf.toString('utf8');
+
+            console.log(idx + 1, { platformID, encodingID, languageID, nameID, length, offset, name, nameBuf });
+          }
+        }
+
+        bp.position = oldPosition;
+
+        // console.log({ tag, checksum, tableOffset, len });
+      }
     }
   } catch (err) {
     console.error(err);
