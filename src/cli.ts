@@ -1,6 +1,7 @@
 // https://docs.microsoft.com/en-us/typography/opentype/spec/otff
 import path from 'path';
 import { getBinaryParser, BinaryParser } from './BinaryParser';
+import { NameId } from './constants';
 
 const ROOT_DIR = path.resolve(__dirname, '..');
 const FONTS_DIR = path.join(ROOT_DIR, 'fonts');
@@ -144,7 +145,11 @@ const numToHex = (num: number) => {
             const platformID = await bp.uint16();
             const encodingID = await bp.uint16();
             const languageID = await bp.uint16();
-            const nameID = await bp.uint16();
+            // skip non-English languages
+            if (languageID !== 0) {
+              continue;
+            }
+            const nameID: NameId = await bp.uint16();
             const length = await bp.uint16();
             const offset = await bp.uint16();
             const nameBuf = await bp.readBytes(length, storageAreaOffset + offset);
@@ -152,7 +157,15 @@ const numToHex = (num: number) => {
               .map(f => String.fromCharCode(f))
               .join('');
 
-            console.log(idx + 1, { platformID, encodingID, languageID, nameID, length, offset, name });
+            console.log(idx + 1, {
+              platformID,
+              encodingID,
+              languageID,
+              nameID: NameId[nameID],
+              length,
+              offset,
+              name,
+            });
           }
         }
 
