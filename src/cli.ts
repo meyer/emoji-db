@@ -100,78 +100,116 @@ const numToHex = (num: number) => {
         rangeShift,
       });
 
+      const tableObj: Record<string, number> = {};
+
       for (let idx = 0, len = numTables; idx < len; idx++) {
         const tag = await bp.tag();
         await bp.uint32(); // checksum
         const tableOffset = await bp.uint32();
-        await bp.uint32(); // len
+        await bp.uint32(); // length
+        tableObj[tag] = tableOffset;
+      }
 
-        const oldPosition = bp.position;
-        bp.position = tableOffset;
+      const tableOffsetsByTag = Object.entries(tableObj)
+        .sort((a, b) => b[1] - a[1])
+        .reduce<Record<string, number>>((p, [key, value]) => ({ [key]: value, ...p }), {});
 
-        if (tag === 'head') {
-          const version = await bp.fixed(32, 16);
-          const fontRevision = await bp.fixed(32, 16);
-          const checksumAdjustment = await bp.uint32();
-          const magicNumber = await bp.uint32();
-          const flags = await bp.uint16();
-          const unitsPerEm = await bp.uint16();
-          const created = await bp.longdatetime();
-          const modified = await bp.longdatetime();
+      console.log({ tableOffsetsByTag });
 
-          console.log('head table:', {
-            version,
-            fontRevision,
-            checksumAdjustment,
-            magicNumber: magicNumber.toString(16),
-            flags,
-            unitsPerEm,
-            created,
-            modified,
-          });
-        } else if (tag === 'name') {
-          const format = await bp.uint16();
-          const count = await bp.uint16();
-          const stringOffset = await bp.uint16();
-          const storageAreaOffset = tableOffset + stringOffset;
+      // https://docs.microsoft.com/en-us/typography/opentype/spec/maxp
+      bp.position = tableOffsetsByTag.maxp;
+      const maxpVersion = await bp.fixed(32, 16);
+      const numGlyphs = await bp.uint16();
+      console.log('maxp table:', { maxpVersion, numGlyphs });
 
-          if (format !== 0) {
-            throw new Error('Only format 0 is supported');
-          }
+      // https://docs.microsoft.com/en-us/typography/opentype/spec/head
+      bp.position = tableOffsetsByTag.head;
 
-          console.log('name table:', { format, count, stringOffset });
+      const headVersion = await bp.fixed(32, 16);
+      const fontRevision = await bp.fixed(32, 16);
+      const checksumAdjustment = await bp.uint32();
+      const magicNumber = await bp.uint32();
+      const flags = await bp.uint16();
+      const unitsPerEm = await bp.uint16();
+      const created = await bp.longdatetime();
+      const modified = await bp.longdatetime();
 
-          for (let idx = 0; idx < count; idx++) {
-            const platformID = await bp.uint16();
-            const encodingID = await bp.uint16();
-            const languageID = await bp.uint16();
-            // skip non-English languages
-            if (languageID !== 0) {
-              continue;
-            }
-            const nameID: NameId = await bp.uint16();
-            const length = await bp.uint16();
-            const offset = await bp.uint16();
-            const nameBuf = await bp.readBytes(length, storageAreaOffset + offset);
-            const name = Array.from(nameBuf)
-              .map(f => String.fromCharCode(f))
-              .join('');
+      console.log('head table:', {
+        headVersion,
+        fontRevision,
+        checksumAdjustment,
+        magicNumber: magicNumber.toString(16),
+        flags,
+        unitsPerEm,
+        created,
+        modified,
+      });
 
-            console.log(idx + 1, {
-              platformID,
-              encodingID,
-              languageID,
-              nameID: NameId[nameID],
-              length,
-              offset,
-              name,
-            });
-          }
+      // https://docs.microsoft.com/en-us/typography/opentype/spec/name
+      bp.position = tableOffsetsByTag.name;
+
+      const format = await bp.uint16();
+      const count = await bp.uint16();
+      const stringOffset = await bp.uint16();
+      const storageAreaOffset = tableOffsetsByTag.name + stringOffset;
+
+      if (format !== 0) {
+        throw new Error('Only format 0 is supported');
+      }
+
+      console.log('name table:', { format, count, stringOffset });
+
+      for (let idx = 0; idx < count; idx++) {
+        const platformID = await bp.uint16();
+        const encodingID = await bp.uint16();
+        const languageID = await bp.uint16();
+        // skip non-English languages
+        if (languageID !== 0) {
+          continue;
         }
+        const nameID: NameId = await bp.uint16();
+        const length = await bp.uint16();
+        const offset = await bp.uint16();
+        const nameBuf = await bp.readBytes(length, storageAreaOffset + offset);
+        const name = Array.from(nameBuf)
+          .map(f => String.fromCharCode(f))
+          .join('');
 
-        bp.position = oldPosition;
+        console.log(idx + 1, {
+          platformID,
+          encodingID,
+          languageID,
+          nameID: NameId[nameID],
+          length,
+          offset,
+          name,
+        });
+      }
 
-        // console.log({ tag, checksum, tableOffset, len });
+      // https://docs.microsoft.com/en-us/typography/opentype/spec/sbix
+      bp.position = tableOffsetsByTag.sbix;
+
+      const sbixVersion = await bp.uint16();
+      const sbixFlags = await bp.uint16();
+      const numStrikes = await bp.uint32();
+
+      const strikeOffsets: number[] = [];
+      for (let idx = 0; idx < numStrikes; idx++) {
+        const offset = await bp.offset32();
+        strikeOffsets.push(offset);
+      }
+
+      console.log('sbix table:', { sbixVersion, sbixFlags, numStrikes, strikeOffsets });
+
+      for (const offset of strikeOffsets) {
+        const ppem = await bp.uint16();
+        const ppi = await bp.uint16();
+        const glyphDataOffsets: number[] = [];
+        for (let idx = 0; idx < numGlyphs; idx++) {
+          const gdOffset = await bp.offset32();
+          glyphDataOffsets.push(gdOffset);
+        }
+        console.log('strikeOffset:', { offset, ppem, ppi });
       }
     }
   } catch (err) {
