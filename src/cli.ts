@@ -148,9 +148,11 @@ const numToHex = (num: number) => {
             const length = await bp.uint16();
             const offset = await bp.uint16();
             const nameBuf = await bp.readBytes(length, storageAreaOffset + offset);
-            const name = nameBuf.toString('utf8');
+            const name = Array.from(nameBuf)
+              .map(f => String.fromCharCode(f))
+              .join('');
 
-            console.log(idx + 1, { platformID, encodingID, languageID, nameID, length, offset, name, nameBuf });
+            console.log(idx + 1, { platformID, encodingID, languageID, nameID, length, offset, name });
           }
         }
 
