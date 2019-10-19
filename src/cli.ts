@@ -1,10 +1,12 @@
 // https://docs.microsoft.com/en-us/typography/opentype/spec/otff
 import path from 'path';
-import { getBinaryParser, BinaryParser } from './BinaryParser';
-import { NameId } from './constants';
+import fs from 'fs';
+import { getBinaryParser } from './BinaryParser';
+import { nameIds, NameIdKey } from './constants';
 
 const ROOT_DIR = path.resolve(__dirname, '..');
 const FONTS_DIR = path.join(ROOT_DIR, 'fonts');
+const EMOJI_IMG_DIR = path.join(ROOT_DIR, 'images');
 
 process.on('uncaughtException', err => {
   console.error('Uncaught exception:', err);
@@ -26,25 +28,69 @@ const numToHex = (num: number) => {
   return `0x${numStr.padStart(padLen, '0')}`;
 };
 
+interface TTFFont {
+  offset: number;
+  sfntVersion: number;
+  numTables: number;
+  searchRange: number;
+  entrySelector: number;
+  rangeShift: number;
+  tableOffsetsByTag: Record<string, number>;
+  nameTable: Partial<Record<NameIdKey, NameTable>>;
+  headTable: HeadTable;
+  maxpTable: MaxpTable;
+}
+
+interface NameTable {
+  platformId: number;
+  encodingId: number;
+  languageId: number;
+  nameId: number;
+  length: number;
+  offset: number;
+  name: string;
+}
+
+interface HeadTable {
+  version: number;
+  fontRevision: number;
+  checksumAdjustment: number;
+  magicNumber: string;
+  flags: number;
+  unitsPerEm: number;
+  created: Date;
+  modified: Date;
+}
+
+interface MaxpTable {
+  version: number;
+  numGlyphs: number;
+}
+
+interface Strike {
+  offset: number;
+  ppem: number;
+  ppi: number;
+}
+
 (async argv => {
-  let bp: BinaryParser | undefined;
+  if (argv.length !== 1) {
+    throw new Error('one arg pls');
+  }
+
+  const fontPath = path.join(FONTS_DIR, argv[0]);
+  const bp = await getBinaryParser(fontPath);
+
   try {
-    if (argv.length !== 1) {
-      throw new Error('one arg pls');
-    }
-
-    const fontPath = path.join(FONTS_DIR, argv[0]);
-    bp = await getBinaryParser(fontPath);
-
     const header = await bp.ascii(4);
 
     const isTtcf = header === 'ttcf';
 
     if (!isTtcf) {
       throw new Error('File header is not ttcf: ' + header);
-    } else {
-      console.log('we have a TTCF');
     }
+
+    console.log('we have a TTC');
 
     const majorVersion = await bp.uint16();
     const minorVersion = await bp.uint16();
@@ -52,7 +98,7 @@ const numToHex = (num: number) => {
     const version = (majorVersion << 16) + minorVersion;
 
     if (version !== 0x00020000) {
-      throw new Error('Only TTC version 2 is supported for now');
+      throw new Error('Only TTC version 2.0 is supported for now');
     }
 
     const numFonts = await bp.uint32();
@@ -63,20 +109,14 @@ const numToHex = (num: number) => {
       offsets[i] = await bp.uint32();
     }
 
-    const dsigTag = await bp.uint32();
-    const dsigLength = await bp.uint32();
-    const dsigOffset = await bp.uint32();
+    await bp.uint32(); // dsigTag
+    await bp.uint32(); // dsigLength
+    await bp.uint32(); // dsigOffset
 
-    console.log({
-      majorVersion,
-      minorVersion,
-      version: numToHex(version),
-      numFonts,
-      offsets,
-      dsigTag,
-      dsigLength,
-      dsigOffset,
-    });
+    const fonts: TTFFont[] = [];
+
+    console.log('Version:', numToHex(version));
+    console.log('Found %o font%s', numFonts, numFonts === 1 ? '' : 's');
 
     for (const fontOffset of offsets) {
       bp.position = fontOffset;
@@ -91,36 +131,29 @@ const numToHex = (num: number) => {
         throw new Error('sfntVersion !== 0x00010000 (got ' + sfntVersion + ')');
       }
 
-      console.log({
-        fontOffset,
-        sfntVersion,
-        numTables,
-        searchRange,
-        entrySelector,
-        rangeShift,
-      });
-
-      const tableObj: Record<string, number> = {};
+      const unsortedTableOffsetsByTag: Record<string, number> = {};
 
       for (let idx = 0, len = numTables; idx < len; idx++) {
         const tag = await bp.tag();
         await bp.uint32(); // checksum
         const tableOffset = await bp.uint32();
         await bp.uint32(); // length
-        tableObj[tag] = tableOffset;
+        unsortedTableOffsetsByTag[tag] = tableOffset;
       }
 
-      const tableOffsetsByTag = Object.entries(tableObj)
+      const tableOffsetsByTag = Object.entries(unsortedTableOffsetsByTag)
         .sort((a, b) => b[1] - a[1])
         .reduce<Record<string, number>>((p, [key, value]) => ({ [key]: value, ...p }), {});
-
-      console.log({ tableOffsetsByTag });
 
       // https://docs.microsoft.com/en-us/typography/opentype/spec/maxp
       bp.position = tableOffsetsByTag.maxp;
       const maxpVersion = await bp.fixed(32, 16);
       const numGlyphs = await bp.uint16();
-      console.log('maxp table:', { maxpVersion, numGlyphs });
+
+      const maxpTable: MaxpTable = {
+        version: maxpVersion,
+        numGlyphs,
+      };
 
       // https://docs.microsoft.com/en-us/typography/opentype/spec/head
       bp.position = tableOffsetsByTag.head;
@@ -134,8 +167,12 @@ const numToHex = (num: number) => {
       const created = await bp.longdatetime();
       const modified = await bp.longdatetime();
 
-      console.log('head table:', {
-        headVersion,
+      if (magicNumber !== 0x5f0f3cf5) {
+        throw new Error('Magic number is not 0x5F0F3CF5');
+      }
+
+      const headTable: HeadTable = {
+        version: headVersion,
         fontRevision,
         checksumAdjustment,
         magicNumber: magicNumber.toString(16),
@@ -143,7 +180,7 @@ const numToHex = (num: number) => {
         unitsPerEm,
         created,
         modified,
-      });
+      };
 
       // https://docs.microsoft.com/en-us/typography/opentype/spec/name
       bp.position = tableOffsetsByTag.name;
@@ -154,20 +191,20 @@ const numToHex = (num: number) => {
       const storageAreaOffset = tableOffsetsByTag.name + stringOffset;
 
       if (format !== 0) {
-        throw new Error('Only format 0 is supported');
+        throw new Error('Only name table format 0 is supported');
       }
 
-      console.log('name table:', { format, count, stringOffset });
+      const nameTable: Partial<Record<NameIdKey | string, NameTable>> = {};
 
       for (let idx = 0; idx < count; idx++) {
-        const platformID = await bp.uint16();
-        const encodingID = await bp.uint16();
-        const languageID = await bp.uint16();
+        const platformId = await bp.uint16();
+        const encodingId = await bp.uint16();
+        const languageId = await bp.uint16();
         // skip non-English languages
-        if (languageID !== 0) {
+        if (languageId !== 0) {
           continue;
         }
-        const nameID: NameId = await bp.uint16();
+        const nameId = await bp.uint16();
         const length = await bp.uint16();
         const offset = await bp.uint16();
         const nameBuf = await bp.readBytes(length, storageAreaOffset + offset);
@@ -175,42 +212,164 @@ const numToHex = (num: number) => {
           .map(f => String.fromCharCode(f))
           .join('');
 
-        console.log(idx + 1, {
-          platformID,
-          encodingID,
-          languageID,
-          nameID: NameId[nameID],
+        let key = nameIds[nameId];
+
+        if (!key) {
+          continue;
+        }
+
+        nameTable[key] = {
+          platformId,
+          encodingId,
+          languageId,
+          nameId,
           length,
           offset,
           name,
-        });
+        };
       }
 
-      // https://docs.microsoft.com/en-us/typography/opentype/spec/sbix
-      bp.position = tableOffsetsByTag.sbix;
+      fonts.push({
+        offset: fontOffset,
+        sfntVersion,
+        numTables,
+        searchRange,
+        entrySelector,
+        rangeShift,
+        tableOffsetsByTag,
+        nameTable,
+        headTable,
+        maxpTable,
+      });
+    }
 
-      const sbixVersion = await bp.uint16();
-      const sbixFlags = await bp.uint16();
-      const numStrikes = await bp.uint32();
+    const emojiFont = fonts.find(f => f.nameTable.postScriptName!.name === 'AppleColorEmoji');
 
-      const strikeOffsets: number[] = [];
-      for (let idx = 0; idx < numStrikes; idx++) {
-        const offset = await bp.offset32();
-        strikeOffsets.push(offset);
-      }
+    if (!emojiFont) {
+      throw new Error('Could not find a font named Apple Color Emoji');
+    }
 
-      console.log('sbix table:', { sbixVersion, sbixFlags, numStrikes, strikeOffsets });
+    const {
+      tableOffsetsByTag,
+      maxpTable: { numGlyphs },
+    } = emojiFont;
 
-      for (const offset of strikeOffsets) {
-        const ppem = await bp.uint16();
-        const ppi = await bp.uint16();
-        const glyphDataOffsets: number[] = [];
-        for (let idx = 0; idx < numGlyphs; idx++) {
-          const gdOffset = await bp.offset32();
-          glyphDataOffsets.push(gdOffset);
+    // https://docs.microsoft.com/en-us/typography/opentype/spec/sbix
+    bp.position = tableOffsetsByTag.sbix;
+
+    const sbixVersion = await bp.uint16();
+    await bp.uint16(); // flags
+    const numStrikes = await bp.uint32();
+
+    if (sbixVersion !== 1) {
+      throw new Error('Only sbix table version 1 is supported for now');
+    }
+
+    const strikes: Strike[] = [];
+    for (let idx = 0; idx < numStrikes; idx++) {
+      const offset = await bp.offset32();
+      const position = tableOffsetsByTag.sbix + offset;
+      const thing = await bp.int32(position);
+      const ppem = thing >> 16;
+      const ppi = (thing << 16) >> 16;
+      strikes.push({ offset, ppem, ppi });
+    }
+
+    console.log('strikes:', strikes);
+
+    // strike with the greatest PPEM value
+    const strikeOffset = strikes.sort((a, b) => a.ppem - b.ppem).pop()!;
+
+    bp.position = tableOffsetsByTag.post;
+
+    const postVersion = await bp.int32();
+
+    if (postVersion !== 0x00020000) {
+      throw new Error('post table version must be 0x00020000');
+    }
+
+    await bp.uint32(); // italicAngle
+    await bp.fword(); // underlinePosition
+    await bp.fword(); // underlineThickness
+    await bp.uint32(); // isFixedPitch
+    await bp.uint32(); // minMemType42
+    await bp.uint32(); // maxMemType42
+    await bp.uint32(); // minMemType1
+    await bp.uint32(); // maxMemType
+
+    const postNumGlyphs = await bp.uint16();
+
+    if (postNumGlyphs !== numGlyphs) {
+      console.error(postNumGlyphs, '!==', numGlyphs);
+      throw new Error('postNumGlyphs !== numGlyphs');
+    }
+
+    const glyphNameIndex: Array<number | null> = [];
+    let maxGlyph: number = 0;
+    for (let idx = 0; idx < numGlyphs; idx++) {
+      const glyph = await bp.uint16();
+      if (glyph >= 0 && glyph <= 257) {
+        // standard glyph names, not very interesting
+        glyphNameIndex.push(null);
+      } else if (glyph >= 258 && glyph <= 65535) {
+        const glyphId = glyph - 258;
+        glyphNameIndex.push(glyph - 258);
+        if (maxGlyph < glyphId) {
+          maxGlyph = glyphId;
         }
-        console.log('strikeOffset:', { offset, ppem, ppi });
+      } else {
+        throw new Error(`Glyph at index ${idx} was out of bounds`);
       }
+    }
+
+    console.log({ maxGlyph });
+
+    const names: string[] = [];
+    for (let idx = 0; idx < maxGlyph; idx++) {
+      const len = await bp.int8();
+      const text = await bp.ascii(len);
+      names.push(text);
+    }
+
+    // add 4 bytes to skip PPEM and PPI
+    bp.position = tableOffsetsByTag.sbix + strikeOffset.offset + 4;
+
+    let offsetCache = await bp.offset32();
+
+    for (let idx = 0; idx < numGlyphs; idx++) {
+      // cache the old offset
+      const currentGlyphOffset = offsetCache;
+      // fetch the next offset
+      const nextGlyphOffset = await bp.offset32();
+      offsetCache = nextGlyphOffset;
+
+      const size = nextGlyphOffset - currentGlyphOffset;
+
+      if (size === 0) {
+        // no bitmap data
+        continue;
+      }
+
+      const glyphIdx = glyphNameIndex[idx];
+
+      if (glyphIdx == null) {
+        console.log(idx, 'is missing a glyph index', size);
+        continue;
+      }
+
+      const name = names[glyphIdx];
+      console.log(name, '@', idx, '--', size);
+
+      const offset = tableOffsetsByTag.sbix + strikeOffset.offset + currentGlyphOffset;
+
+      const graphicType = await bp.tag(offset + 4);
+      const data = await bp.readBytes(size, offset + 8);
+
+      if (graphicType !== 'png ') {
+        throw new Error('Not a PNG!');
+      }
+
+      await fs.promises.writeFile(path.join(EMOJI_IMG_DIR, name + '.png'), data);
     }
   } catch (err) {
     console.error(err);

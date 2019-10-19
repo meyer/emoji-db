@@ -52,25 +52,32 @@ export class BinaryParser {
     await this.fh.close();
   }
 
-  public ascii = (bytes: number) => this.readBytes(bytes).then(buf => buf.toString('ascii'));
+  public ascii = (bytes: number, position?: number) =>
+    this.readBytes(bytes, position).then(buf => buf.toString('ascii'));
 
-  public int8 = () => this.readBytes(1).then(buf => buf.readInt8(0));
-  public uint8 = () => this.readBytes(1).then(buf => buf.readUInt8(0));
+  public int8 = (position?: number) => this.readBytes(1, position).then(buf => buf.readInt8(0));
+  public uint8 = (position?: number) => this.readBytes(1, position).then(buf => buf.readUInt8(0));
 
-  public uint16 = () => this.readBytes(2).then(buf => buf.readUInt16BE(0));
-  public int16 = () => this.readBytes(2).then(buf => buf.readInt16BE(0));
+  public uint16 = (position?: number) => this.readBytes(2, position).then(buf => buf.readUInt16BE(0));
+  public int16 = (position?: number) => this.readBytes(2, position).then(buf => buf.readInt16BE(0));
 
-  public uint24 = async () => {
-    const one = await this.uint16();
-    const two = await this.uint8();
+  public uint24 = async (position?: number) => {
+    const one = await this.uint16(position);
+    const two = await this.uint8(position == null ? undefined : position + 2);
     return (one << 8) + two;
   };
 
-  public uint32 = () => this.readBytes(4).then(buf => buf.readUInt32BE(0));
-  public int32 = () => this.readBytes(4).then(buf => buf.readInt32BE(0));
+  public uint32 = (position?: number) => this.readBytes(4, position).then(buf => buf.readUInt32BE(0));
+  public int32 = (position?: number) => this.readBytes(4, position).then(buf => buf.readInt32BE(0));
 
-  public fixed = async (bits: 8 | 16 | 32, pointOffset: number) => {
-    const numerator = await (bits === 8 ? this.int8() : bits === 16 ? this.int16() : bits === 32 ? this.int32() : null);
+  public fixed = async (bits: 8 | 16 | 32, pointOffset: number, position?: number) => {
+    const numerator = await (bits === 8
+      ? this.int8(position)
+      : bits === 16
+      ? this.int16(position)
+      : bits === 32
+      ? this.int32(position)
+      : null);
     if (numerator === null) {
       throw new Error('Unsupported bit length:' + bits);
     }
@@ -81,10 +88,10 @@ export class BinaryParser {
   public fword = this.int16;
   public ufword = this.uint16;
 
-  public f2dot14 = () => this.fixed(16, 14);
+  public f2dot14 = (position?: number) => this.fixed(16, 14, position);
 
-  public longdatetime = async () => {
-    const buf = await this.readBytes(8);
+  public longdatetime = async (position?: number) => {
+    const buf = await this.readBytes(8, position);
     // we only read the last 32 bits
     // TODO(meyer) update this before the year 2038
     const last32Bits = buf.readUInt32BE(4);
@@ -92,7 +99,7 @@ export class BinaryParser {
     return new Date(unixTimestamp);
   };
 
-  public tag = () => this.ascii(4);
+  public tag = (position?: number) => this.ascii(4, position);
 
   public offset16 = this.uint16;
   public offset32 = this.uint32;
