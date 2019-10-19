@@ -208,9 +208,7 @@ interface Strike {
         const length = await bp.uint16();
         const offset = await bp.uint16();
         const nameBuf = await bp.readBytes(length, storageAreaOffset + offset);
-        const name = Array.from(nameBuf)
-          .map(f => String.fromCharCode(f))
-          .join('');
+        const name = nameBuf.toString('latin1');
 
         let key = nameIds[nameId];
 
@@ -248,6 +246,8 @@ interface Strike {
     if (!emojiFont) {
       throw new Error('Could not find a font named Apple Color Emoji');
     }
+
+    console.log('font:', emojiFont);
 
     const {
       tableOffsetsByTag,
@@ -358,6 +358,12 @@ interface Strike {
       }
 
       const name = names[glyphIdx];
+
+      if (!name) {
+        console.log('No name for glyph %o (size: %o)', idx, size);
+        continue;
+      }
+
       console.log(name, '@', idx, '--', size);
 
       const offset = tableOffsetsByTag.sbix + strikeOffset.offset + currentGlyphOffset;
