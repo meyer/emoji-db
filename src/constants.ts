@@ -32,7 +32,7 @@ export type NameIdKey = Extract<(typeof nameIds)[number], string>;
 
 export const ttcfHeader = Buffer.from('ttcf').readUInt32BE(0);
 export const ttfHeader = 0x00010000;
-export const invalidTtfHeader = 0x4f54544f;
+export const cffTtfHeader = 0x4f54544f;
 
 /**
  * LONGDATETIME epoch is 1 Jan 1904 UTC.

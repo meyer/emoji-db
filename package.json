@@ -17,17 +17,17 @@
   },
   "homepage": "https://github.com/meyer/emoji-db",
   "scripts": {
-    "start": "ts-node src/cli.ts \"Apple Color Emoji 15.0d4e1.ttc\""
+    "start": "rimraf images && ts-node src/cli.ts latest"
   },
   "prettier": {
     "printWidth": 120,
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "devDependencies": {
+  "dependencies": {
     "@types/node": "^12.11.1",
+    "rimraf": "^3.0.0",
     "ts-node": "^8.4.1",
     "typescript": "^3.6.4"
-  },
-  "dependencies": {}
+  }
 }

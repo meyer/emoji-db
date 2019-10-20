@@ -2,8 +2,9 @@
 import path from 'path';
 import fs from 'fs';
 import { BinaryParser } from './BinaryParser';
-import { nameIds, NameIdKey, ttcfHeader, invalidTtfHeader, ttfHeader } from './constants';
+import { ttcfHeader, cffTtfHeader, ttfHeader } from './constants';
 import { numToHex, FormattedError } from './utils';
+import { getTtfFromOffset, TTFFont } from './getTtfFromOffset';
 
 const ROOT_DIR = path.resolve(__dirname, '..');
 const FONTS_DIR = path.join(ROOT_DIR, 'fonts');
@@ -18,35 +19,6 @@ process.on('unhandledRejection', err => {
   console.error('Uncaught rejection:', err);
   process.exit(1);
 });
-
-interface TTFFont {
-  offset: number;
-  sfntVersion: number;
-  numTables: number;
-  searchRange: number;
-  entrySelector: number;
-  rangeShift: number;
-  tableOffsetsByTag: Record<string, number>;
-  nameTable: Partial<Record<NameIdKey, string>>;
-  headTable: HeadTable;
-  maxpTable: MaxpTable;
-}
-
-interface HeadTable {
-  version: number;
-  fontRevision: number;
-  checksumAdjustment: number;
-  magicNumber: string;
-  flags: number;
-  unitsPerEm: number;
-  created: Date;
-  modified: Date;
-}
-
-interface MaxpTable {
-  version: number;
-  numGlyphs: number;
-}
 
 interface Strike {
   offset: number;
@@ -71,162 +43,53 @@ interface SequentialMapGroups {
   const fh = await fs.promises.open(fontPath, 'r');
   const bp = new BinaryParser(fh);
 
+  let emojiFont: TTFFont | undefined;
+
   try {
     const header = await bp.uint32();
 
-    if (header === invalidTtfHeader) {
+    // OpenType with CFF data
+    if (header === cffTtfHeader) {
       throw new FormattedError('Unsupported TTF header:', numToHex(header));
-    } else if (header === ttfHeader) {
-      throw new Error('TTF files are not yet supported');
-    } else if (header === ttcfHeader) {
+    }
+
+    // OpenType with TrueType outlines
+    else if (header === ttfHeader) {
+      emojiFont = await getTtfFromOffset(fh, 0);
+    }
+
+    // TrueType collection
+    else if (header === ttcfHeader) {
       console.log('we have a TTC');
-    } else {
+
+      const ttcVersion = await bp.uint32();
+
+      if (ttcVersion !== 0x00020000) {
+        throw new Error('Only TTC version 2.0 is supported for now');
+      }
+
+      const numFonts = await bp.uint32();
+      console.log('Found %o font%s', numFonts, numFonts === 1 ? '' : 's');
+
+      const offsets: number[] = [];
+
+      for (let i = 0; i < numFonts; i++) {
+        offsets[i] = await bp.uint32();
+      }
+
+      await bp.uint32(); // dsigTag
+      await bp.uint32(); // dsigLength
+      await bp.uint32(); // dsigOffset
+
+      const fonts = await Promise.all(offsets.map(offset => getTtfFromOffset(fh, offset)));
+
+      emojiFont = fonts.find(f => f.nameTable.postScriptName === 'AppleColorEmoji');
+    }
+
+    // Unsupported
+    else {
       throw new FormattedError('File header is not ttcf:', numToHex(header));
     }
-
-    const ttcVersion = await bp.uint32();
-
-    if (ttcVersion !== 0x00020000) {
-      throw new Error('Only TTC version 2.0 is supported for now');
-    }
-
-    const numFonts = await bp.uint32();
-
-    const offsets: number[] = [];
-
-    for (let i = 0; i < numFonts; i++) {
-      offsets[i] = await bp.uint32();
-    }
-
-    await bp.uint32(); // dsigTag
-    await bp.uint32(); // dsigLength
-    await bp.uint32(); // dsigOffset
-
-    const fonts: TTFFont[] = [];
-
-    console.log('Found %o font%s', numFonts, numFonts === 1 ? '' : 's');
-
-    for (const fontOffset of offsets) {
-      bp.position = fontOffset;
-
-      const sfntVersion = await bp.uint32();
-      const numTables = await bp.uint16();
-      const searchRange = await bp.uint16();
-      const entrySelector = await bp.uint16();
-      const rangeShift = await bp.uint16();
-
-      if (sfntVersion !== 0x00010000) {
-        throw new FormattedError('sfntVersion !== 0x00010000 (got %s)', sfntVersion);
-      }
-
-      const unsortedTableOffsetsByTag: Record<string, number> = {};
-
-      for (let idx = 0, len = numTables; idx < len; idx++) {
-        const tag = await bp.tag();
-        await bp.uint32(); // checksum
-        const tableOffset = await bp.uint32();
-        await bp.uint32(); // length
-        unsortedTableOffsetsByTag[tag] = tableOffset;
-      }
-
-      const tableOffsetsByTag: Record<string, number> = Object.entries(unsortedTableOffsetsByTag)
-        .sort((a, b) => b[1] - a[1])
-        .reduce<Record<string, number>>((p, [key, value]) => ({ [key]: value, ...p }), {});
-
-      // https://docs.microsoft.com/en-us/typography/opentype/spec/maxp
-      bp.position = tableOffsetsByTag.maxp;
-
-      const maxpVersion = await bp.uint32();
-      const numGlyphs = await bp.uint16();
-
-      if (maxpVersion !== 0x00010000) {
-        throw new Error('Only maxp table version 1 is supported');
-      }
-
-      const maxpTable: MaxpTable = {
-        version: maxpVersion,
-        numGlyphs,
-      };
-
-      // https://docs.microsoft.com/en-us/typography/opentype/spec/head
-      bp.position = tableOffsetsByTag.head;
-
-      const headVersion = await bp.fixed(32, 16);
-      const fontRevision = await bp.fixed(32, 16);
-      const checksumAdjustment = await bp.uint32();
-      const magicNumber = await bp.uint32();
-      const flags = await bp.uint16();
-      const unitsPerEm = await bp.uint16();
-      const created = await bp.longdatetime();
-      const modified = await bp.longdatetime();
-
-      if (magicNumber !== 0x5f0f3cf5) {
-        throw new Error('Magic number is not 0x5F0F3CF5');
-      }
-
-      const headTable: HeadTable = {
-        version: headVersion,
-        fontRevision,
-        checksumAdjustment,
-        magicNumber: magicNumber.toString(16),
-        flags,
-        unitsPerEm,
-        created,
-        modified,
-      };
-
-      // https://docs.microsoft.com/en-us/typography/opentype/spec/name
-      bp.position = tableOffsetsByTag.name;
-
-      const nameFormat = await bp.uint16();
-      const recordCount = await bp.uint16();
-      const stringOffset = await bp.uint16();
-      const storageAreaOffset = tableOffsetsByTag.name + stringOffset;
-
-      if (nameFormat !== 0) {
-        throw new Error('Only name table format 0 is supported');
-      }
-
-      const nameTable: Partial<Record<NameIdKey, string>> = {};
-
-      for (let idx = 0; idx < recordCount; idx++) {
-        await bp.uint16(); // platformId
-        await bp.uint16(); // encodingId
-        const languageId = await bp.uint16();
-        // skip non-English languages
-        if (languageId !== 0) {
-          continue;
-        }
-        const nameId = await bp.uint16();
-        const length = await bp.uint16();
-        const offset = await bp.uint16();
-        const nameBuf = await bp.readBytes(length, storageAreaOffset + offset);
-        const name = nameBuf.toString('latin1');
-
-        let key = nameIds[nameId];
-
-        if (!key) {
-          continue;
-        }
-
-        nameTable[key] = name;
-      }
-
-      fonts.push({
-        offset: fontOffset,
-        sfntVersion,
-        numTables,
-        searchRange,
-        entrySelector,
-        rangeShift,
-        tableOffsetsByTag,
-        nameTable,
-        headTable,
-        maxpTable,
-      });
-    }
-
-    const emojiFont = fonts.find(f => f.nameTable.postScriptName === 'AppleColorEmoji');
 
     if (!emojiFont) {
       throw new Error('Could not find a font named Apple Color Emoji');
@@ -367,6 +230,8 @@ interface SequentialMapGroups {
 
     let offsetCache = await bp.offset32();
 
+    await fs.promises.mkdir(EMOJI_IMG_DIR);
+
     for (let idx = 0; idx < numGlyphs; idx++) {
       // cache the old offset
       const currentGlyphOffset = offsetCache;
@@ -404,10 +269,11 @@ interface SequentialMapGroups {
         throw new Error('Not a PNG!');
       }
 
-      await fs.promises.writeFile(path.join(EMOJI_IMG_DIR, name + '.png'), data);
+      await fs.promises.writeFile(path.join(EMOJI_IMG_DIR, name + '.png'), data, {
+        // write should fail if the file already exists
+        flag: 'wx',
+      });
     }
-
-    console.log('manifest:', manifest);
 
     await fs.promises.writeFile(path.join(EMOJI_IMG_DIR, 'manifest.json'), JSON.stringify(manifest, null, 2));
   } catch (err) {

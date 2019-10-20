@@ -75,13 +75,12 @@ export class BinaryParser {
 
   public f2dot14 = async (position?: number) => {
     const num = await this.uint16(position);
-    const fracBits = 14;
-    let decimal = num >> fracBits;
+    let decimal = num >> 14;
     if (decimal > 1) {
       decimal -= 4;
     }
     const numerator = num & 0x3fff;
-    const denominator = 1 << fracBits;
+    const denominator = 1 << 14;
     return decimal + numerator / denominator;
   };
 
