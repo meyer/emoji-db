@@ -29,3 +29,9 @@ export const nameIds = [
 ] as const;
 
 export type NameIdKey = Extract<(typeof nameIds)[number], string>;
+
+/**
+ * LONGDATETIME epoch is 1 Jan 1904 UTC.
+ * this gives us the offset since the unix epoch.
+ */
+export const longTimestampOffset = Date.UTC(1904, 0, 1).valueOf() / -1000;

@@ -1,23 +1,5 @@
 import fs from 'fs';
-
-// LONGDATETIME epoch is 1 Jan 1904 UTC
-// this gives us the offset since the unix epoch
-const longTimestampOffset = Date.UTC(1904, 0, 1).valueOf() / -1000;
-
-// const f2dot14 = (num = 0, fracBits = 14) => {
-//   const denominator = 1 << fracBits;
-//   console.log('%o / %o', num, denominator);
-//   return num / denominator;
-// };
-
-// console.log('0x7fff: got %o, expected %o', f2dot14(0x7fff), 1.999939);
-// console.log('0x7000: got %o, expected %o', f2dot14(0x7000), 1.75);
-// console.log('0x0001: got %o, expected %o', f2dot14(0x0001), 0.000061);
-// console.log('0x0000: got %o, expected %o', f2dot14(0x0000), 0);
-// console.log('0xffff: got %o, expected %o', f2dot14(0xffff), -0.000061);
-// console.log('0x8000: got %o, expected %o', f2dot14(0x8000), -2);
-
-// process.exit(1);
+import { longTimestampOffset } from '~/constants';
 
 export class BinaryParser {
   constructor(fh: fs.promises.FileHandle, startPosition?: number) {
@@ -83,7 +65,17 @@ export class BinaryParser {
   public fword = this.int16;
   public ufword = this.uint16;
 
-  public f2dot14 = (position?: number) => this.fixed(16, 14, position);
+  public f2dot14 = async (position?: number) => {
+    const num = await this.uint16(position);
+    const fracBits = 14;
+    let decimal = num >> fracBits;
+    if (decimal > 1) {
+      decimal -= 4;
+    }
+    const numerator = num & 0x3fff;
+    const denominator = 1 << fracBits;
+    return decimal + numerator / denominator;
+  };
 
   public longdatetime = async (position?: number) => {
     const buf = await this.readBytes(8, position);
