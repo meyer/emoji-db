@@ -2,7 +2,8 @@
 import path from 'path';
 import fs from 'fs';
 import { BinaryParser } from './BinaryParser';
-import { nameIds, NameIdKey } from './constants';
+import { nameIds, NameIdKey, ttcfHeader, invalidTtfHeader, ttfHeader } from './constants';
+import { numToHex } from '~/utils';
 
 const ROOT_DIR = path.resolve(__dirname, '..');
 const FONTS_DIR = path.join(ROOT_DIR, 'fonts');
@@ -71,15 +72,17 @@ interface SequentialMapGroups {
   const bp = new BinaryParser(fh);
 
   try {
-    const header = await bp.ascii(4);
+    const header = await bp.uint32();
 
-    const isTtcf = header === 'ttcf';
-
-    if (!isTtcf) {
-      throw new Error('File header is not ttcf: ' + header);
+    if (header === invalidTtfHeader) {
+      throw new Error('Unsupported TTF header: ' + numToHex(header));
+    } else if (header === ttfHeader) {
+      throw new Error('TTF files are not yet supported');
+    } else if (header === ttcfHeader) {
+      console.log('we have a TTC');
+    } else {
+      throw new Error('File header is not ttcf: ' + numToHex(header));
     }
-
-    console.log('we have a TTC');
 
     const ttcVersion = await bp.uint32();
 
