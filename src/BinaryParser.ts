@@ -1,10 +1,5 @@
 import fs from 'fs';
 
-export const getBinaryParser = async (filePath: string) => {
-  const fh = await fs.promises.open(filePath, 'r');
-  return new BinaryParser(fh);
-};
-
 // LONGDATETIME epoch is 1 Jan 1904 UTC
 // this gives us the offset since the unix epoch
 const longTimestampOffset = Date.UTC(1904, 0, 1).valueOf() / -1000;
@@ -25,18 +20,22 @@ const longTimestampOffset = Date.UTC(1904, 0, 1).valueOf() / -1000;
 // process.exit(1);
 
 export class BinaryParser {
-  constructor(fh: fs.promises.FileHandle) {
+  constructor(fh: fs.promises.FileHandle, startPosition?: number) {
     this.fh = fh;
+    this.position = startPosition || 0;
   }
 
   private fh: fs.promises.FileHandle;
-  public position = 0;
+  public position: number;
+
+  /** Get a new BinaryParser instance starting from a new position */
+  public clone = (newPosition?: number) => new BinaryParser(this.fh, newPosition);
 
   /**
    * Read a number of bytes from a position.
    * It's generally better to use int/uint/ascii/fixed convenience methods.
    */
-  public async readBytes(bytes: number, position?: number): Promise<Buffer> {
+  public readBytes = async (bytes: number, position?: number): Promise<Buffer> => {
     const pos = position == null ? this.position : position;
 
     const result = await this.fh.read(Buffer.alloc(bytes), 0, bytes, pos);
@@ -46,11 +45,7 @@ export class BinaryParser {
       this.position += bytes;
     }
     return result.buffer;
-  }
-
-  public async teardown() {
-    await this.fh.close();
-  }
+  };
 
   public ascii = (bytes: number, position?: number) =>
     this.readBytes(bytes, position).then(buf => buf.toString('ascii'));

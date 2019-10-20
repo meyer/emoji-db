@@ -1,7 +1,7 @@
 // https://docs.microsoft.com/en-us/typography/opentype/spec/otff
 import path from 'path';
 import fs from 'fs';
-import { getBinaryParser } from './BinaryParser';
+import { BinaryParser } from './BinaryParser';
 import { nameIds, NameIdKey } from './constants';
 
 const ROOT_DIR = path.resolve(__dirname, '..');
@@ -18,16 +18,6 @@ process.on('unhandledRejection', err => {
   process.exit(1);
 });
 
-/**
- * Print a number as a zero-padded hex string with pad lengths equal to powers of 2.
- * Minimum pad length is 4.
- */
-const numToHex = (num: number) => {
-  const numStr = num.toString(16);
-  const padLen = numStr.length <= 4 ? 4 : Math.pow(2, Math.ceil(Math.log2(numStr.length)));
-  return `0x${numStr.padStart(padLen, '0')}`;
-};
-
 interface TTFFont {
   offset: number;
   sfntVersion: number;
@@ -36,19 +26,9 @@ interface TTFFont {
   entrySelector: number;
   rangeShift: number;
   tableOffsetsByTag: Record<string, number>;
-  nameTable: Partial<Record<NameIdKey, NameTable>>;
+  nameTable: Partial<Record<NameIdKey, string>>;
   headTable: HeadTable;
   maxpTable: MaxpTable;
-}
-
-interface NameTable {
-  platformId: number;
-  encodingId: number;
-  languageId: number;
-  nameId: number;
-  length: number;
-  offset: number;
-  name: string;
 }
 
 interface HeadTable {
@@ -73,13 +53,22 @@ interface Strike {
   ppi: number;
 }
 
+interface SequentialMapGroups {
+  startCharCode: number;
+  endCharCode: number;
+  startGlyphId: number;
+}
+
 (async argv => {
   if (argv.length !== 1) {
     throw new Error('one arg pls');
   }
 
+  const manifest: Record<string, any> = {};
+
   const fontPath = path.join(FONTS_DIR, argv[0]);
-  const bp = await getBinaryParser(fontPath);
+  const fh = await fs.promises.open(fontPath, 'r');
+  const bp = new BinaryParser(fh);
 
   try {
     const header = await bp.ascii(4);
@@ -92,12 +81,9 @@ interface Strike {
 
     console.log('we have a TTC');
 
-    const majorVersion = await bp.uint16();
-    const minorVersion = await bp.uint16();
+    const ttcVersion = await bp.uint32();
 
-    const version = (majorVersion << 16) + minorVersion;
-
-    if (version !== 0x00020000) {
+    if (ttcVersion !== 0x00020000) {
       throw new Error('Only TTC version 2.0 is supported for now');
     }
 
@@ -115,7 +101,6 @@ interface Strike {
 
     const fonts: TTFFont[] = [];
 
-    console.log('Version:', numToHex(version));
     console.log('Found %o font%s', numFonts, numFonts === 1 ? '' : 's');
 
     for (const fontOffset of offsets) {
@@ -141,14 +126,19 @@ interface Strike {
         unsortedTableOffsetsByTag[tag] = tableOffset;
       }
 
-      const tableOffsetsByTag = Object.entries(unsortedTableOffsetsByTag)
+      const tableOffsetsByTag: Record<string, number> = Object.entries(unsortedTableOffsetsByTag)
         .sort((a, b) => b[1] - a[1])
         .reduce<Record<string, number>>((p, [key, value]) => ({ [key]: value, ...p }), {});
 
       // https://docs.microsoft.com/en-us/typography/opentype/spec/maxp
       bp.position = tableOffsetsByTag.maxp;
-      const maxpVersion = await bp.fixed(32, 16);
+
+      const maxpVersion = await bp.uint32();
       const numGlyphs = await bp.uint16();
+
+      if (maxpVersion !== 0x00010000) {
+        throw new Error('Only maxp table version 1 is supported');
+      }
 
       const maxpTable: MaxpTable = {
         version: maxpVersion,
@@ -185,20 +175,20 @@ interface Strike {
       // https://docs.microsoft.com/en-us/typography/opentype/spec/name
       bp.position = tableOffsetsByTag.name;
 
-      const format = await bp.uint16();
-      const count = await bp.uint16();
+      const nameFormat = await bp.uint16();
+      const recordCount = await bp.uint16();
       const stringOffset = await bp.uint16();
       const storageAreaOffset = tableOffsetsByTag.name + stringOffset;
 
-      if (format !== 0) {
+      if (nameFormat !== 0) {
         throw new Error('Only name table format 0 is supported');
       }
 
-      const nameTable: Partial<Record<NameIdKey | string, NameTable>> = {};
+      const nameTable: Partial<Record<NameIdKey, string>> = {};
 
-      for (let idx = 0; idx < count; idx++) {
-        const platformId = await bp.uint16();
-        const encodingId = await bp.uint16();
+      for (let idx = 0; idx < recordCount; idx++) {
+        await bp.uint16(); // platformId
+        await bp.uint16(); // encodingId
         const languageId = await bp.uint16();
         // skip non-English languages
         if (languageId !== 0) {
@@ -216,15 +206,7 @@ interface Strike {
           continue;
         }
 
-        nameTable[key] = {
-          platformId,
-          encodingId,
-          languageId,
-          nameId,
-          length,
-          offset,
-          name,
-        };
+        nameTable[key] = name;
       }
 
       fonts.push({
@@ -241,7 +223,7 @@ interface Strike {
       });
     }
 
-    const emojiFont = fonts.find(f => f.nameTable.postScriptName!.name === 'AppleColorEmoji');
+    const emojiFont = fonts.find(f => f.nameTable.postScriptName === 'AppleColorEmoji');
 
     if (!emojiFont) {
       throw new Error('Could not find a font named Apple Color Emoji');
@@ -249,10 +231,61 @@ interface Strike {
 
     console.log('font:', emojiFont);
 
+    manifest.name = emojiFont.nameTable.fontFamilyName;
+    manifest.version = emojiFont.nameTable.versionString;
+    manifest.created = emojiFont.headTable.created;
+    manifest.modified = emojiFont.headTable.modified;
+
     const {
       tableOffsetsByTag,
       maxpTable: { numGlyphs },
     } = emojiFont;
+
+    bp.position = tableOffsetsByTag.cmap;
+
+    const cmapVersion = await bp.uint16();
+    const numTables = await bp.uint16();
+
+    if (cmapVersion !== 0) {
+      throw new Error('Only cmap table version 0 is supported');
+    }
+
+    if (numTables > 1) {
+      throw new Error('Only one cmap table is supported');
+    }
+
+    const encodingRecord = {
+      platformId: await bp.uint16(),
+      encodingId: await bp.uint16(),
+      offset: await bp.offset32(),
+    };
+
+    bp.position = tableOffsetsByTag.cmap + encodingRecord.offset;
+
+    const cmapFormat = await bp.uint16();
+
+    if (cmapFormat !== 12) {
+      throw new Error('Only cmap format 12 is supported');
+    }
+
+    await bp.uint16(); // length
+    await bp.uint32(); // numVarSelectorRecords
+    await bp.uint32(); // language
+    const numGroups = await bp.uint32();
+
+    const sequentialMapGroups: SequentialMapGroups[] = [];
+    for (let idx2 = 0; idx2 < numGroups; idx2++) {
+      const startCharCode = await bp.uint32();
+      const endCharCode = await bp.uint32();
+      const startGlyphId = await bp.uint32();
+      sequentialMapGroups.push({
+        startCharCode,
+        endCharCode,
+        startGlyphId,
+      });
+    }
+
+    manifest.sequentialMapGroups = sequentialMapGroups;
 
     // https://docs.microsoft.com/en-us/typography/opentype/spec/sbix
     bp.position = tableOffsetsByTag.sbix;
@@ -274,8 +307,6 @@ interface Strike {
       const ppi = (thing << 16) >> 16;
       strikes.push({ offset, ppem, ppi });
     }
-
-    console.log('strikes:', strikes);
 
     // strike with the greatest PPEM value
     const strikeOffset = strikes.sort((a, b) => a.ppem - b.ppem).pop()!;
@@ -322,8 +353,6 @@ interface Strike {
       }
     }
 
-    console.log({ maxGlyph });
-
     const names: string[] = [];
     for (let idx = 0; idx < maxGlyph; idx++) {
       const len = await bp.int8();
@@ -364,8 +393,6 @@ interface Strike {
         continue;
       }
 
-      console.log(name, '@', idx, '--', size);
-
       const offset = tableOffsetsByTag.sbix + strikeOffset.offset + currentGlyphOffset;
 
       const graphicType = await bp.tag(offset + 4);
@@ -377,11 +404,13 @@ interface Strike {
 
       await fs.promises.writeFile(path.join(EMOJI_IMG_DIR, name + '.png'), data);
     }
+
+    console.log('manifest:', manifest);
+
+    await fs.promises.writeFile(path.join(EMOJI_IMG_DIR, 'manifest.json'), JSON.stringify(manifest, null, 2));
   } catch (err) {
     console.error(err);
   } finally {
-    if (bp) {
-      await bp.teardown();
-    }
+    await fh.close();
   }
 })(process.argv.slice(2));
