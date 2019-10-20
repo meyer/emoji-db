@@ -1,3 +1,5 @@
+import util from 'util';
+
 /**
  * Print a number as a zero-padded hex string with pad lengths equal to powers of 2.
  * Minimum pad length is 4.
@@ -7,3 +9,9 @@ export const numToHex = (num: number) => {
   const padLen = numStr.length <= 4 ? 4 : Math.pow(2, Math.ceil(Math.log2(numStr.length)));
   return `0x${numStr.padStart(padLen, '0')}`;
 };
+
+export class FormattedError extends Error {
+  constructor(message: string, ...args: any[]) {
+    super(util.format(message, ...args));
+  }
+}

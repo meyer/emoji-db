@@ -3,7 +3,7 @@ import path from 'path';
 import fs from 'fs';
 import { BinaryParser } from './BinaryParser';
 import { nameIds, NameIdKey, ttcfHeader, invalidTtfHeader, ttfHeader } from './constants';
-import { numToHex } from '~/utils';
+import { numToHex, FormattedError } from './utils';
 
 const ROOT_DIR = path.resolve(__dirname, '..');
 const FONTS_DIR = path.join(ROOT_DIR, 'fonts');
@@ -75,13 +75,13 @@ interface SequentialMapGroups {
     const header = await bp.uint32();
 
     if (header === invalidTtfHeader) {
-      throw new Error('Unsupported TTF header: ' + numToHex(header));
+      throw new FormattedError('Unsupported TTF header:', numToHex(header));
     } else if (header === ttfHeader) {
       throw new Error('TTF files are not yet supported');
     } else if (header === ttcfHeader) {
       console.log('we have a TTC');
     } else {
-      throw new Error('File header is not ttcf: ' + numToHex(header));
+      throw new FormattedError('File header is not ttcf:', numToHex(header));
     }
 
     const ttcVersion = await bp.uint32();
@@ -116,7 +116,7 @@ interface SequentialMapGroups {
       const rangeShift = await bp.uint16();
 
       if (sfntVersion !== 0x00010000) {
-        throw new Error('sfntVersion !== 0x00010000 (got ' + sfntVersion + ')');
+        throw new FormattedError('sfntVersion !== 0x00010000 (got %s)', sfntVersion);
       }
 
       const unsortedTableOffsetsByTag: Record<string, number> = {};
@@ -334,8 +334,7 @@ interface SequentialMapGroups {
     const postNumGlyphs = await bp.uint16();
 
     if (postNumGlyphs !== numGlyphs) {
-      console.error(postNumGlyphs, '!==', numGlyphs);
-      throw new Error('postNumGlyphs !== numGlyphs');
+      throw new FormattedError('postNumGlyphs diff: %o !== %o', postNumGlyphs, numGlyphs);
     }
 
     const glyphNameIndex: Array<number | null> = [];
@@ -352,7 +351,7 @@ interface SequentialMapGroups {
           maxGlyph = glyphId;
         }
       } else {
-        throw new Error(`Glyph at index ${idx} was out of bounds`);
+        throw new FormattedError('Glyph at index %o was out of bounds', idx);
       }
     }
 

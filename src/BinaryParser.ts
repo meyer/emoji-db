@@ -1,5 +1,6 @@
 import fs from 'fs';
-import { longTimestampOffset } from '~/constants';
+import { longTimestampOffset } from './constants';
+import { FormattedError } from './utils';
 
 export class BinaryParser {
   constructor(fh: fs.promises.FileHandle, startPosition?: number) {
@@ -11,7 +12,10 @@ export class BinaryParser {
   public position: number;
 
   /** Get a new BinaryParser instance starting from a new position */
-  public clone = (newPosition?: number) => new BinaryParser(this.fh, newPosition);
+  public clone = (newPosition?: number) => {
+    const position = newPosition == null ? this.position : newPosition;
+    return new BinaryParser(this.fh, position);
+  };
 
   /**
    * Read a number of bytes from a position.
@@ -21,6 +25,10 @@ export class BinaryParser {
     const pos = position == null ? this.position : position;
 
     const result = await this.fh.read(Buffer.alloc(bytes), 0, bytes, pos);
+
+    if (result.bytesRead !== bytes) {
+      throw new FormattedError('bytesRead mismatch: %o !== %o', result.bytesRead, bytes);
+    }
 
     // user did not provide a position, so we auto-advance
     if (position == null) {
@@ -56,7 +64,7 @@ export class BinaryParser {
       ? this.int32(position)
       : null);
     if (numerator === null) {
-      throw new Error('Unsupported bit length:' + bits);
+      throw new FormattedError('Unsupported bit length: %o', bits);
     }
     const denominator = 1 << pointOffset;
     return numerator / denominator;
