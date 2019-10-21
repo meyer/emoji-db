@@ -26,7 +26,7 @@ interface HeadTable {
   unitsPerEm: number;
   created: Date;
   modified: Date;
-  indexToLocFormat: number;
+  indexToLocFormat: 'short' | 'long';
   glyphDataFormat: number;
 }
 
@@ -114,7 +114,7 @@ export const getTtfFromOffset = async (fh: fs.promises.FileHandle, position: num
     unitsPerEm,
     created,
     modified,
-    indexToLocFormat,
+    indexToLocFormat: indexToLocFormat === 0 ? 'short' : 'long',
     glyphDataFormat,
   };
 

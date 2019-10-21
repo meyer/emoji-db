@@ -3,8 +3,31 @@ import path from 'path';
 import fs from 'fs';
 import { BinaryParser } from './BinaryParser';
 import { ttcfHeader, cffTtfHeader, ttfHeader } from './constants';
-import { numToHex, FormattedError } from './utils';
+import { numToHex, FormattedError, toEmojiKey, toCodepoints } from './utils';
 import { getTtfFromOffset, TTFFont } from './getTtfFromOffset';
+import emojiData from 'emojilib/emojis.json';
+
+type EmojiData = typeof emojiData;
+type EmojiDatum = EmojiData[keyof EmojiData] & { name: string };
+
+type DataWithName = {
+  [K in keyof EmojiDatum]: EmojiDatum[K];
+};
+
+const nameMapping: Record<string, string | undefined> = {
+  '+1': 'plus_one',
+  '-1': 'minus_one',
+};
+
+const emojiDataByKey = Object.entries(emojiData).reduce<Record<string, DataWithName>>((p, [name, obj]) => {
+  const codepoints = toCodepoints(obj.char);
+  const key = toEmojiKey(codepoints);
+  if (p.hasOwnProperty(key)) {
+    throw new FormattedError('key `%s` is already present in emoji data', key);
+  }
+
+  return { ...p, [key]: { ...obj, name: nameMapping[name] || name } };
+}, {});
 
 const ROOT_DIR = path.resolve(__dirname, '..');
 const FONTS_DIR = path.join(ROOT_DIR, 'fonts');
@@ -26,11 +49,11 @@ interface Strike {
   ppi: number;
 }
 
-interface SequentialMapGroups {
-  startCharCode: number;
-  endCharCode: number;
-  startGlyphId: number;
-}
+// interface SequentialMapGroup {
+//   startCharCode: number;
+//   endCharCode: number;
+//   startGlyphId: number;
+// }
 
 (async argv => {
   if (argv.length !== 1) {
@@ -95,8 +118,6 @@ interface SequentialMapGroups {
       throw new Error('Could not find a font named Apple Color Emoji');
     }
 
-    console.log('font:', emojiFont);
-
     manifest.name = emojiFont.nameTable.fontFamilyName;
     manifest.version = emojiFont.nameTable.versionString;
     manifest.created = emojiFont.headTable.created;
@@ -134,24 +155,22 @@ interface SequentialMapGroups {
       throw new Error('Only cmap format 12 is supported');
     }
 
-    await bp.uint16(); // length
-    await bp.uint32(); // numVarSelectorRecords
+    await bp.uint16(); // reserved
+    await bp.uint32(); // length
     await bp.uint32(); // language
     const numGroups = await bp.uint32();
 
-    const sequentialMapGroups: SequentialMapGroups[] = [];
-    for (let idx2 = 0; idx2 < numGroups; idx2++) {
+    const sequentialMapGroups: any[] = [];
+    for (let idx = 0; idx < numGroups; idx++) {
       const startCharCode = await bp.uint32();
       const endCharCode = await bp.uint32();
       const startGlyphId = await bp.uint32();
       sequentialMapGroups.push({
-        startCharCode,
-        endCharCode,
+        startCharCode: startCharCode.toString(16),
+        endCharCode: endCharCode.toString(16),
         startGlyphId,
       });
     }
-
-    manifest.sequentialMapGroups = sequentialMapGroups;
 
     // https://docs.microsoft.com/en-us/typography/opentype/spec/sbix
     bp.position = tableOffsetsByTag.sbix;
@@ -232,6 +251,8 @@ interface SequentialMapGroups {
 
     await fs.promises.mkdir(EMOJI_IMG_DIR);
 
+    const emojiByKey: Record<string, any> = {};
+
     for (let idx = 0; idx < numGlyphs; idx++) {
       // cache the old offset
       const currentGlyphOffset = offsetCache;
@@ -244,13 +265,11 @@ interface SequentialMapGroups {
       const glyphIdx = glyphNameIndex[idx];
 
       if (glyphIdx == null) {
-        console.log(idx, 'is missing a glyph index');
         continue;
       }
 
       if (size === 0) {
         // no bitmap data
-        console.log(idx, 'has no data');
         continue;
       }
 
@@ -261,6 +280,16 @@ interface SequentialMapGroups {
         continue;
       }
 
+      const filenameBits = name.split('.');
+      const basename = filenameBits.shift()!;
+      const emojilibData = emojiDataByKey.hasOwnProperty(basename) ? emojiDataByKey[basename] : null;
+      const emojilibName = (emojilibData && emojilibData.name) || null;
+      if (!emojilibData) {
+        console.log('No emojilib data for', name);
+      }
+
+      const filename = [(emojilibData && emojilibData.name) || basename, ...filenameBits].join('.');
+
       const offset = tableOffsetsByTag.sbix + strikeOffset.offset + currentGlyphOffset;
 
       const graphicType = await bp.tag(offset + 4);
@@ -270,13 +299,28 @@ interface SequentialMapGroups {
         throw new Error('Not a PNG!');
       }
 
-      await fs.promises.writeFile(path.join(EMOJI_IMG_DIR, name + '.png'), data, {
+      const absPath = path.join(EMOJI_IMG_DIR, filename + '.png');
+
+      await fs.promises.writeFile(absPath, data, {
         // write should fail if the file already exists
         flag: 'wx',
       });
+
+      emojiByKey[name] = {
+        emojilibName,
+        keywords: [],
+        // TODO(meyer) figure out a reliable method for getting character value
+        char: null,
+        fitzpatrick_scale: null,
+        category: null,
+        name,
+        ...emojilibData,
+      };
     }
 
-    await fs.promises.writeFile(path.join(EMOJI_IMG_DIR, 'manifest.json'), JSON.stringify(manifest, null, 2));
+    manifest.emojiByKey = emojiByKey;
+
+    await fs.promises.writeFile(path.join(ROOT_DIR, 'manifest.json'), JSON.stringify(manifest, null, 2));
   } catch (err) {
     console.error(err);
   } finally {

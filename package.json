@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "@types/node": "^12.11.1",
+    "emojilib": "^2.4.0",
     "rimraf": "^3.0.0",
     "ts-node": "^8.4.1",
     "typescript": "^3.6.4"
