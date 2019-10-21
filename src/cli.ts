@@ -209,7 +209,7 @@ interface SequentialMapGroups {
         glyphNameIndex.push(null);
       } else if (glyph >= 258 && glyph <= 65535) {
         const glyphId = glyph - 258;
-        glyphNameIndex.push(glyph - 258);
+        glyphNameIndex.push(glyphId);
         if (maxGlyph < glyphId) {
           maxGlyph = glyphId;
         }
@@ -241,15 +241,16 @@ interface SequentialMapGroups {
 
       const size = nextGlyphOffset - currentGlyphOffset;
 
-      if (size === 0) {
-        // no bitmap data
-        continue;
-      }
-
       const glyphIdx = glyphNameIndex[idx];
 
       if (glyphIdx == null) {
-        console.log(idx, 'is missing a glyph index', size);
+        console.log(idx, 'is missing a glyph index');
+        continue;
+      }
+
+      if (size === 0) {
+        // no bitmap data
+        console.log(idx, 'has no data');
         continue;
       }
 

@@ -26,6 +26,8 @@ interface HeadTable {
   unitsPerEm: number;
   created: Date;
   modified: Date;
+  indexToLocFormat: number;
+  glyphDataFormat: number;
 }
 
 interface MaxpTable {
@@ -89,6 +91,15 @@ export const getTtfFromOffset = async (fh: fs.promises.FileHandle, position: num
   const unitsPerEm = await bp.uint16();
   const created = await bp.longdatetime();
   const modified = await bp.longdatetime();
+  await bp.int16(); // xMin
+  await bp.int16(); // yMin
+  await bp.int16(); // xMax
+  await bp.int16(); // yMax
+  await bp.uint16(); // macStyle
+  await bp.int16(); // lowestRecPPEM
+  await bp.int16(); // fontDirectionHint
+  const indexToLocFormat = await bp.int16();
+  const glyphDataFormat = await bp.int16();
 
   if (magicNumber !== 0x5f0f3cf5) {
     throw new Error('Magic number is not 0x5F0F3CF5');
@@ -103,6 +114,8 @@ export const getTtfFromOffset = async (fh: fs.promises.FileHandle, position: num
     unitsPerEm,
     created,
     modified,
+    indexToLocFormat,
+    glyphDataFormat,
   };
 
   // https://docs.microsoft.com/en-us/typography/opentype/spec/name
