@@ -1,32 +1,32 @@
 {
   "12.0d9e1": {
-    "build_date": "2016-07-21",
-    "macos_versions": [
+    "buildDate": "2016-07-21",
+    "macosVersions": [
       "10.12 (16A270f)"
     ]
   },
   "12.0d12e1": {
-    "build_date": "2016-08-02",
-    "macos_versions": [
+    "buildDate": "2016-08-02",
+    "macosVersions": [
       "10.12 (16A286a)",
       "10.12.1 (16B2657)"
     ]
   },
   "12.0d15e9": {
-    "build_date": "2016-10-18",
-    "macos_versions": [
+    "buildDate": "2016-10-18",
+    "macosVersions": [
       "10.12.2 (16C32f)"
     ]
   },
   "12.0d16e3": {
-    "build_date": "2016-10-21",
-    "macos_versions": [
+    "buildDate": "2016-10-21",
+    "macosVersions": [
       "10.12.2 (16C41b)"
     ]
   },
   "12.0d17e1": {
-    "build_date": "2016-11-04",
-    "macos_versions": [
+    "buildDate": "2016-11-04",
+    "macosVersions": [
       "10.12.2 (16C48b)",
       "10.12.2 (16C53a)",
       "10.12.2 (16C67)",
@@ -34,21 +34,21 @@
     ]
   },
   "12.0d18e2": {
-    "build_date": "2017-01-30",
-    "macos_versions": [
+    "buildDate": "2017-01-30",
+    "macosVersions": [
       "10.12.4 (16E195)"
     ]
   },
   "12.0d19e1": {
-    "build_date": "2017-03-16",
-    "macos_versions": [
+    "buildDate": "2017-03-16",
+    "macosVersions": [
       "10.12.5 (16F73)",
       "10.12.6 (16G29)"
     ]
   },
   "13.0d2e7": {
-    "build_date": "2017-06-27",
-    "macos_versions": [
+    "buildDate": "2017-06-27",
+    "macosVersions": [
       "10.13 (17A315i)",
       "10.13 (17A330h)",
       "10.13 (17A344b)",
@@ -58,20 +58,20 @@
     ]
   },
   "13.0d3e1": {
-    "build_date": "2017-07-20",
-    "macos_versions": [
+    "buildDate": "2017-07-20",
+    "macosVersions": [
       "10.13.1 (17B25c)"
     ]
   },
   "13.1d2e2": {
-    "build_date": "2017-09-18",
-    "macos_versions": [
+    "buildDate": "2017-09-18",
+    "macosVersions": [
       "10.13.1 (17B35a)"
     ]
   },
   "13.1d3e1": {
-    "build_date": "2017-10-12",
-    "macos_versions": [
+    "buildDate": "2017-10-12",
+    "macosVersions": [
       "10.13.1 (17B42a)",
       "10.13.1 (17B45a)",
       "10.13.1 (17B46a)",
@@ -80,14 +80,14 @@
     ]
   },
   "13.1d4e2": {
-    "build_date": "2017-10-19",
-    "macos_versions": [
+    "buildDate": "2017-10-19",
+    "macosVersions": [
       "10.13.2 (17C67b)"
     ]
   },
   "13.1d4e3": {
-    "build_date": "2017-11-06",
-    "macos_versions": [
+    "buildDate": "2017-11-06",
+    "macosVersions": [
       "10.13.2 (17C76a)",
       "10.13.2 (17C79a)",
       "10.13.2 (17C83a)",
@@ -100,8 +100,8 @@
     ]
   },
   "13.2d1e1": {
-    "build_date": "2017-12-15",
-    "macos_versions": [
+    "buildDate": "2017-12-15",
+    "macosVersions": [
       "10.13.4 (17E139j)",
       "10.13.4 (17E150f)",
       "10.13.4 (17E150g)",
@@ -128,15 +128,15 @@
     ]
   },
   "14.0d2e3": {
-    "build_date": "2018-09-21",
-    "macos_versions": [
+    "buildDate": "2018-09-21",
+    "macosVersions": [
       "10.14.1 (18B50c)",
       "10.14.1 (18B57c)"
     ]
   },
   "14.0d3e1": {
-    "build_date": "2018-10-10",
-    "macos_versions": [
+    "buildDate": "2018-10-10",
+    "macosVersions": [
       "10.14.1 (18B67a)",
       "10.14.2 (18C54)",
       "10.14.3 (18D109)",
@@ -144,8 +144,8 @@
     ]
   },
   "14.0d4e2": {
-    "build_date": "2019-01-28",
-    "macos_versions": [
+    "buildDate": "2019-01-28",
+    "macosVersions": [
       "10.14.4 (18E226)",
       "10.14.5 (18F132)",
       "10.14.6 (18G71a)",
@@ -155,14 +155,14 @@
     ]
   },
   "15.0d1e2": {
-    "build_date": "2019-08-05",
-    "macos_versions": [
+    "buildDate": "2019-08-05",
+    "macosVersions": [
       "10.15 (19A582a)"
     ]
   },
   "15.0d4e1": {
-    "build_date": "2019-09-27",
-    "macos_versions": [
+    "buildDate": "2019-09-27T19:31:11.000Z",
+    "macosVersions": [
       "10.15.1 (19B68f)",
       "10.15.1 (19B77a)",
       "10.15.1 (19B86a)",
@@ -170,8 +170,8 @@
     ]
   },
   "15.0d4e3": {
-    "build_date": "2019-10-30",
-    "macos_versions": [
+    "buildDate": "2019-10-31T02:03:12.000Z",
+    "macosVersions": [
       "10.15.2 (19C39d)",
       "10.15.2 (19C57)"
     ]

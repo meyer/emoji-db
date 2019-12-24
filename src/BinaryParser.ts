@@ -1,6 +1,6 @@
 import fs from 'fs';
 import { longTimestampOffset } from './constants';
-import { FormattedError } from './utils';
+import { invariant } from './utils/invariant';
 
 export class BinaryParser {
   constructor(fh: fs.promises.FileHandle, startPosition?: number) {
@@ -26,9 +26,7 @@ export class BinaryParser {
 
     const result = await this.fh.read(Buffer.alloc(bytes), 0, bytes, pos);
 
-    if (result.bytesRead !== bytes) {
-      throw new FormattedError('bytesRead mismatch: %o !== %o', result.bytesRead, bytes);
-    }
+    invariant(result.bytesRead === bytes, 'bytesRead mismatch: %o !== %o', result.bytesRead, bytes);
 
     // user did not provide a position, so we auto-advance
     if (position == null) {
@@ -63,9 +61,9 @@ export class BinaryParser {
       : bits === 32
       ? this.int32(position)
       : null);
-    if (numerator === null) {
-      throw new FormattedError('Unsupported bit length: %o', bits);
-    }
+
+    invariant(numerator !== null, 'Unsupported bit length: %o', bits);
+
     const denominator = 1 << pointOffset;
     return numerator / denominator;
   };

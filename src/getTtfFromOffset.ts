@@ -2,7 +2,7 @@
 import fs from 'fs';
 import { BinaryParser } from './BinaryParser';
 import { nameIds, NameIdKey, ttfHeader, cffTtfHeader } from './constants';
-import { FormattedError } from './utils';
+import { invariant } from './utils/invariant';
 
 export interface TTFFont {
   offset: number;
@@ -40,11 +40,8 @@ export const getTtfFromOffset = async (fh: fs.promises.FileHandle, position: num
 
   const sfntVersion = await bp.uint32();
 
-  if (sfntVersion === cffTtfHeader) {
-    throw new Error('sfntVersion is valid but not supported');
-  } else if (sfntVersion !== ttfHeader) {
-    throw new FormattedError('sfntVersion !== 0x00010000 (got %s)', sfntVersion);
-  }
+  invariant(sfntVersion !== cffTtfHeader, 'sfntVersion is valid but not supported');
+  invariant(sfntVersion === ttfHeader, 'sfntVersion !== 0x00010000 (got %s)', sfntVersion);
 
   const numTables = await bp.uint16();
   const searchRange = await bp.uint16();
@@ -71,9 +68,7 @@ export const getTtfFromOffset = async (fh: fs.promises.FileHandle, position: num
   const maxpVersion = await bp.uint32();
   const numGlyphs = await bp.uint16();
 
-  if (maxpVersion !== 0x00010000) {
-    throw new Error('Only maxp table version 1 is supported');
-  }
+  invariant(maxpVersion === 0x00010000, 'Only maxp table version 1 is supported');
 
   const maxpTable: MaxpTable = {
     version: maxpVersion,
@@ -101,9 +96,7 @@ export const getTtfFromOffset = async (fh: fs.promises.FileHandle, position: num
   const indexToLocFormat = await bp.int16();
   const glyphDataFormat = await bp.int16();
 
-  if (magicNumber !== 0x5f0f3cf5) {
-    throw new Error('Magic number is not 0x5F0F3CF5');
-  }
+  invariant(magicNumber === 0x5f0f3cf5, 'Magic number is not 0x5F0F3CF5');
 
   const headTable: HeadTable = {
     version: headVersion,
@@ -126,9 +119,7 @@ export const getTtfFromOffset = async (fh: fs.promises.FileHandle, position: num
   const stringOffset = await bp.uint16();
   const storageAreaOffset = tableOffsetsByTag.name + stringOffset;
 
-  if (nameFormat !== 0) {
-    throw new Error('Only name table format 0 is supported');
-  }
+  invariant(nameFormat === 0, 'Only name table format 0 is supported');
 
   const nameTable: Partial<Record<NameIdKey, string>> = {};
 

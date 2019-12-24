@@ -2,46 +2,37 @@
 import path from 'path';
 import fs from 'fs';
 import { BinaryParser } from './BinaryParser';
-import { ttcfHeader, cffTtfHeader, ttfHeader } from './constants';
-import { numToHex, FormattedError, toEmojiKey, toCodepoints } from './utils';
+import {
+  ttcfHeader,
+  cffTtfHeader,
+  ttfHeader,
+  FONTS_DIR,
+  // EMOJI_IMG_DIR,
+  // DATA_DIR,
+} from './constants';
+import { toCodepoints } from './utils/toCodepoints';
+import { numToHex } from './utils/numToHex';
+import { toEmojiKey } from './utils/toEmojiKey';
+import { normaliseBasename } from './utils/normaliseBasename';
+import { invariant } from './utils/invariant';
 import { getTtfFromOffset, TTFFont } from './getTtfFromOffset';
 import emojiData from 'emojilib/emojis.json';
+import annotationData from '../data/annotations.json';
 
 type EmojiData = typeof emojiData;
 type EmojiDatum = EmojiData[keyof EmojiData] & { name: string };
-
-type DataWithName = {
-  [K in keyof EmojiDatum]: EmojiDatum[K];
-};
 
 const nameMapping: Record<string, string | undefined> = {
   '+1': 'plus_one',
   '-1': 'minus_one',
 };
 
-const emojiDataByKey = Object.entries(emojiData).reduce<Record<string, DataWithName>>((p, [name, obj]) => {
+const emojiDataByKey = Object.entries(emojiData).reduce<Record<string, EmojiDatum>>((p, [name, obj]) => {
   const codepoints = toCodepoints(obj.char);
   const key = toEmojiKey(codepoints);
-  if (p.hasOwnProperty(key)) {
-    throw new FormattedError('key `%s` is already present in emoji data', key);
-  }
-
+  invariant(!p.hasOwnProperty(key), 'key `%s` is already present in emoji data', key);
   return { ...p, [key]: { ...obj, name: nameMapping[name] || name } };
 }, {});
-
-const ROOT_DIR = path.resolve(__dirname, '..');
-const FONTS_DIR = path.join(ROOT_DIR, 'fonts');
-const EMOJI_IMG_DIR = path.join(ROOT_DIR, 'images');
-
-process.on('uncaughtException', err => {
-  console.error('Uncaught exception:', err);
-  process.exit(1);
-});
-
-process.on('unhandledRejection', err => {
-  console.error('Uncaught rejection:', err);
-  process.exit(1);
-});
 
 interface Strike {
   offset: number;
@@ -49,16 +40,28 @@ interface Strike {
   ppi: number;
 }
 
-// interface SequentialMapGroup {
-//   startCharCode: number;
-//   endCharCode: number;
-//   startGlyphId: number;
-// }
+interface SequentialMapGroup {
+  startCharCode: string;
+  endCharCode: string;
+  startGlyphId: number;
+}
+
+interface EmojiDbEntry {
+  name: string;
+  emojilib_name: string | null;
+  codepoints: number[];
+  unicode_category: string | null;
+  unicode_subcategory: string | null;
+  keywords: string[];
+  emoji: string;
+  image: string;
+  fitz: Record<number, string>;
+}
+
+export type EmojiDb = Record<string, EmojiDbEntry>;
 
 (async argv => {
-  if (argv.length !== 1) {
-    throw new Error('one arg pls');
-  }
+  invariant(argv.length === 1, 'one arg pls');
 
   const manifest: Record<string, any> = {};
 
@@ -72,12 +75,11 @@ interface Strike {
     const header = await bp.uint32();
 
     // OpenType with CFF data
-    if (header === cffTtfHeader) {
-      throw new FormattedError('Unsupported TTF header:', numToHex(header));
-    }
+    invariant(header !== cffTtfHeader, 'Unsupported TTF header:', numToHex(header));
 
     // OpenType with TrueType outlines
-    else if (header === ttfHeader) {
+    if (header === ttfHeader) {
+      console.log('we have a TTF');
       emojiFont = await getTtfFromOffset(fh, 0);
     }
 
@@ -87,9 +89,7 @@ interface Strike {
 
       const ttcVersion = await bp.uint32();
 
-      if (ttcVersion !== 0x00020000) {
-        throw new Error('Only TTC version 2.0 is supported for now');
-      }
+      invariant(ttcVersion === 0x00020000, 'Only TTC version 2.0 is supported');
 
       const numFonts = await bp.uint32();
       console.log('Found %o font%s', numFonts, numFonts === 1 ? '' : 's');
@@ -111,12 +111,10 @@ interface Strike {
 
     // Unsupported
     else {
-      throw new FormattedError('File header is not ttcf:', numToHex(header));
+      invariant(false, 'File header is not ttcf:', numToHex(header));
     }
 
-    if (!emojiFont) {
-      throw new Error('Could not find a font named Apple Color Emoji');
-    }
+    invariant(emojiFont, 'Could not find a font named Apple Color Emoji');
 
     manifest.name = emojiFont.nameTable.fontFamilyName;
     manifest.version = emojiFont.nameTable.versionString;
@@ -133,13 +131,8 @@ interface Strike {
     const cmapVersion = await bp.uint16();
     const numTables = await bp.uint16();
 
-    if (cmapVersion !== 0) {
-      throw new Error('Only cmap table version 0 is supported');
-    }
-
-    if (numTables > 1) {
-      throw new Error('Only one cmap table is supported');
-    }
+    invariant(cmapVersion === 0, 'Only cmap table version 0 is supported');
+    invariant(numTables === 1, 'Only one cmap table is supported');
 
     const encodingRecord = {
       platformId: await bp.uint16(),
@@ -147,20 +140,19 @@ interface Strike {
       offset: await bp.offset32(),
     };
 
+    // https://docs.microsoft.com/en-us/typography/opentype/spec/cmap
     bp.position = tableOffsetsByTag.cmap + encodingRecord.offset;
 
     const cmapFormat = await bp.uint16();
 
-    if (cmapFormat !== 12) {
-      throw new Error('Only cmap format 12 is supported');
-    }
+    invariant(cmapFormat === 12, 'Only cmap format 12 is supported');
 
     await bp.uint16(); // reserved
     await bp.uint32(); // length
     await bp.uint32(); // language
     const numGroups = await bp.uint32();
 
-    const sequentialMapGroups: any[] = [];
+    const sequentialMapGroups: SequentialMapGroup[] = [];
     for (let idx = 0; idx < numGroups; idx++) {
       const startCharCode = await bp.uint32();
       const endCharCode = await bp.uint32();
@@ -179,9 +171,7 @@ interface Strike {
     await bp.uint16(); // flags
     const numStrikes = await bp.uint32();
 
-    if (sbixVersion !== 1) {
-      throw new Error('Only sbix table version 1 is supported for now');
-    }
+    invariant(sbixVersion === 1, 'Only sbix table version 1 is supported for now');
 
     const strikes: Strike[] = [];
     for (let idx = 0; idx < numStrikes; idx++) {
@@ -200,9 +190,7 @@ interface Strike {
 
     const postVersion = await bp.int32();
 
-    if (postVersion !== 0x00020000) {
-      throw new Error('post table version must be 0x00020000');
-    }
+    invariant(postVersion === 0x00020000, 'post table version must be 0x00020000');
 
     await bp.uint32(); // italicAngle
     await bp.fword(); // underlinePosition
@@ -215,9 +203,7 @@ interface Strike {
 
     const postNumGlyphs = await bp.uint16();
 
-    if (postNumGlyphs !== numGlyphs) {
-      throw new FormattedError('postNumGlyphs diff: %o !== %o', postNumGlyphs, numGlyphs);
-    }
+    invariant(postNumGlyphs === numGlyphs, 'postNumGlyphs diff: %o !== %o', postNumGlyphs, numGlyphs);
 
     const glyphNameIndex: Array<number | null> = [];
     let maxGlyph: number = 0;
@@ -233,7 +219,7 @@ interface Strike {
           maxGlyph = glyphId;
         }
       } else {
-        throw new FormattedError('Glyph at index %o was out of bounds', idx);
+        invariant(false, 'Glyph at index %o was out of bounds', idx);
       }
     }
 
@@ -249,7 +235,7 @@ interface Strike {
 
     let offsetCache = await bp.offset32();
 
-    await fs.promises.mkdir(EMOJI_IMG_DIR);
+    // await fs.promises.mkdir(EMOJI_IMG_DIR);
 
     const emojiByKey: Record<string, any> = {};
 
@@ -280,36 +266,38 @@ interface Strike {
         continue;
       }
 
-      const filenameBits = name.split('.');
-      const basename = filenameBits.shift()!;
+      const basename = normaliseBasename(name);
       const emojilibData = emojiDataByKey.hasOwnProperty(basename) ? emojiDataByKey[basename] : null;
-      const emojilibName = (emojilibData && emojilibData.name) || null;
+      const emojilibName = emojilibData?.name ?? null;
       if (!emojilibData) {
-        console.log('No emojilib data for', name);
+        console.log('No emojilib data for %s (%s)', basename, name);
       }
 
-      const filename = [(emojilibData && emojilibData.name) || basename, ...filenameBits].join('.');
+      const annotationData1 = annotationData.hasOwnProperty(basename)
+        ? annotationData[basename as keyof typeof annotationData]
+        : null;
+
+      if (!annotationData1) {
+        console.log('No annotation data for %s (%s)', basename, name);
+      }
 
       const offset = tableOffsetsByTag.sbix + strikeOffset.offset + currentGlyphOffset;
 
       const graphicType = await bp.tag(offset + 4);
-      const data = await bp.readBytes(size, offset + 8);
+      /*const data =*/ await bp.readBytes(size, offset + 8);
 
-      if (graphicType !== 'png ') {
-        throw new Error('Not a PNG!');
-      }
+      invariant(graphicType === 'png ', 'Not a PNG!');
 
-      const absPath = path.join(EMOJI_IMG_DIR, filename + '.png');
+      // const absPath = path.join(EMOJI_IMG_DIR, name + '.png');
 
-      await fs.promises.writeFile(absPath, data, {
-        // write should fail if the file already exists
-        flag: 'wx',
-      });
+      // await fs.promises.writeFile(absPath, data, {
+      //   // write should fail if the file already exists
+      //   flag: 'wx',
+      // });
 
       emojiByKey[name] = {
         emojilibName,
         keywords: [],
-        // TODO(meyer) figure out a reliable method for getting character value
         char: null,
         fitzpatrick_scale: null,
         category: null,
@@ -320,10 +308,13 @@ interface Strike {
 
     manifest.emojiByKey = emojiByKey;
 
-    await fs.promises.writeFile(path.join(ROOT_DIR, 'manifest.json'), JSON.stringify(manifest, null, 2));
+    // await fs.promises.writeFile(path.join(DATA_DIR, 'manifest.json'), JSON.stringify(manifest, null, 2));
   } catch (err) {
     console.error(err);
   } finally {
     await fh.close();
   }
-})(process.argv.slice(2));
+})(process.argv.slice(2)).catch(err => {
+  console.error(err);
+  process.exit(1);
+});
