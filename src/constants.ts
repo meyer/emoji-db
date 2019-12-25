@@ -10,6 +10,16 @@ export const SYSTEM_EMOJI_TTC_PATH = '/System/Library/Fonts/Apple Color Emoji.tt
 export const SYSTEM_EMOJI_TTF_PATH = '/System/Library/Fonts/Apple Color Emoji.ttf';
 export const SYSTEM_VERSION_PLIST_PATH = '/System/Library/CoreServices/SystemVersion.plist';
 
+export const TTCF_HEADER = Buffer.from('ttcf').readUInt32BE(0);
+export const TTF_HEADER = 0x00010000;
+export const CFF_TTF_HEADER = 0x4f54544f;
+
+/**
+ * LONGDATETIME epoch is 1 Jan 1904 UTC.
+ * this gives us the offset since the unix epoch.
+ */
+export const LONG_TIMESTAMP_OFFSET = Date.UTC(1904, 0, 1) / -1000;
+
 // https://docs.microsoft.com/en-us/typography/opentype/spec/name#name-ids
 export const nameIds = [
   'copyrightNotice',
@@ -42,16 +52,6 @@ export const nameIds = [
 
 export type NameIdKey = Extract<typeof nameIds[number], string>;
 
-export const ttcfHeader = Buffer.from('ttcf').readUInt32BE(0);
-export const ttfHeader = 0x00010000;
-export const cffTtfHeader = 0x4f54544f;
-
-/**
- * LONGDATETIME epoch is 1 Jan 1904 UTC.
- * this gives us the offset since the unix epoch.
- */
-export const longTimestampOffset = Date.UTC(1904, 0, 1) / -1000;
-
 export const fitzpatrickModifiers = [
   null, // modifiers go from 1-5
   0x1f3fb,
@@ -61,7 +61,7 @@ export const fitzpatrickModifiers = [
   0x1f3ff,
 ];
 
-export const famCodepoints = {
+export const famInitialsByCodepoint = {
   0x1f466: 'B', // boy emoji
   0x1f467: 'G', // girl emoji
   0x1f468: 'M', // man emoji

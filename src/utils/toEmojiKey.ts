@@ -1,4 +1,4 @@
-import { heartCodepoints, kissCodepoints, famCodepoints } from '../constants';
+import { heartCodepoints, kissCodepoints, famInitialsByCodepoint } from '../constants';
 import { rejectJoiners } from './rejectJoiners';
 
 // adding 1 to the index makes non-matches falsey, which lets us fall back to the giant number
@@ -12,7 +12,7 @@ const famSort = (str: string) =>
 const toFamString = (codepoints: number[]) =>
   famSort(
     codepoints
-      .map(codepoint => famCodepoints[codepoint as keyof typeof famCodepoints] as string)
+      .map(codepoint => famInitialsByCodepoint[codepoint as keyof typeof famInitialsByCodepoint] as string)
       .sort((a, b) => famIndex(a) - famIndex(b))
       .join('')
   );
@@ -39,7 +39,7 @@ export const toEmojiKey = (codepoints: number[]) => {
     } else if (filtered.filter(f => !kissCodepoints.includes(f)).length === 0) {
       return `1F48F.${toFamString(codepoints)}`;
     }
-    if (filtered.filter(f => !famCodepoints.hasOwnProperty(f)).length === 0) {
+    if (filtered.filter(f => !famInitialsByCodepoint.hasOwnProperty(f)).length === 0) {
       // fam emoji + MWBG string
       return `1F46A.${toFamString(codepoints)}`;
     }

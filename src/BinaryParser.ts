@@ -1,5 +1,5 @@
 import fs from 'fs';
-import { longTimestampOffset } from './constants';
+import { LONG_TIMESTAMP_OFFSET } from './constants';
 import { invariant } from './utils/invariant';
 
 export class BinaryParser {
@@ -8,7 +8,7 @@ export class BinaryParser {
     this.position = startPosition || 0;
   }
 
-  private fh: fs.promises.FileHandle;
+  private readonly fh: fs.promises.FileHandle;
   public position: number;
 
   /** Get a new BinaryParser instance starting from a new position */
@@ -87,7 +87,7 @@ export class BinaryParser {
     // we only read the last 32 bits
     // TODO(meyer) update this before the year 2038
     const last32Bits = buf.readUInt32BE(4);
-    const unixTimestamp = (last32Bits - longTimestampOffset) * 1000;
+    const unixTimestamp = (last32Bits - LONG_TIMESTAMP_OFFSET) * 1000;
     return new Date(unixTimestamp);
   };
 

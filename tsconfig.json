@@ -1,25 +1,13 @@
 {
   "compilerOptions": {
-    // "incremental": true,
     "target": "es2017",
     "module": "commonjs",
     "lib": ["esnext"],
-    // "allowJs": true,
-    // "checkJs": true,
-    // "jsx": "preserve",
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
-    // "outFile": "./",
     "outDir": "./lib",
     "rootDirs": ["./src", "./cache", "./scripts"],
-    // "composite": true,
-    // "tsBuildInfoFile": "./",
-    // "removeComments": true,
-    // "noEmit": true,
-    // "importHelpers": true,
-    // "downlevelIteration": true,
-    // "isolatedModules": true,
 
     "strict": true,
     "noImplicitAny": true,
@@ -37,22 +25,9 @@
     "noFallthroughCasesInSwitch": true,
 
     "moduleResolution": "node",
-    "baseUrl": "./",
-    // "rootDirs": [],
-    // "typeRoots": [],
-    // "types": [],
-    // "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    // "preserveSymlinks": true,
-    // "allowUmdGlobalAccess": true,
-
-    // "sourceRoot": "",
-    // "mapRoot": "",
-    // "inlineSourceMap": true,
-    // "inlineSources": true,
 
     "experimentalDecorators": true
-    // "emitDecoratorMetadata": true,
   },
   "include": ["src", "scripts"]
 }

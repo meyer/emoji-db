@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/meyer/emoji-db",
   "scripts": {
-    "start": "ts-node --transpile-only src/cli.ts latest",
+    "start": "rimraf images && ts-node --transpile-only src/cli.ts latest",
     "convert-annotations": "ts-node --transpile-only src/scripts/annotationsToJson.ts",
     "convert-sequences": "ts-node --transpile-only src/scripts/processEmojiSequences.ts",
     "convert-test-data": "ts-node --transpile-only src/scripts/testDataToJson.ts",

@@ -1,52 +1,23 @@
 // https://docs.microsoft.com/en-us/typography/opentype/spec/otff
 import fs from 'fs';
-import { BinaryParser } from './BinaryParser';
-import { nameIds, NameIdKey, ttfHeader, cffTtfHeader } from './constants';
-import { invariant } from './utils/invariant';
+import { BinaryParser } from '../BinaryParser';
+import { nameIds, NameIdKey, TTF_HEADER, CFF_TTF_HEADER } from '../constants';
+import { invariant } from './invariant';
+import { TrueTypeFont, MaxpTable, HeadTable } from '../TrueTypeFont';
+import { numToHex } from './numToHex';
 
-export interface TTFFont {
-  offset: number;
-  sfntVersion: number;
-  numTables: number;
-  searchRange: number;
-  entrySelector: number;
-  rangeShift: number;
-  tableOffsetsByTag: Record<string, number>;
-  nameTable: Partial<Record<NameIdKey, string>>;
-  headTable: HeadTable;
-  maxpTable: MaxpTable;
-}
-
-interface HeadTable {
-  version: number;
-  fontRevision: number;
-  checksumAdjustment: number;
-  magicNumber: string;
-  flags: number;
-  unitsPerEm: number;
-  created: Date;
-  modified: Date;
-  indexToLocFormat: 'short' | 'long';
-  glyphDataFormat: number;
-}
-
-interface MaxpTable {
-  version: number;
-  numGlyphs: number;
-}
-
-export const getTtfFromOffset = async (fh: fs.promises.FileHandle, position: number): Promise<TTFFont> => {
+export const getTtfFromOffset = async (fh: fs.promises.FileHandle, position: number): Promise<TrueTypeFont> => {
   const bp = new BinaryParser(fh, position);
 
   const sfntVersion = await bp.uint32();
 
-  invariant(sfntVersion !== cffTtfHeader, 'sfntVersion is valid but not supported');
-  invariant(sfntVersion === ttfHeader, 'sfntVersion !== 0x00010000 (got %s)', sfntVersion);
+  invariant(sfntVersion !== CFF_TTF_HEADER, 'sfntVersion is valid but not supported');
+  invariant(sfntVersion === TTF_HEADER, 'sfntVersion !== %s (got %s)', numToHex(TTF_HEADER), sfntVersion);
 
   const numTables = await bp.uint16();
-  const searchRange = await bp.uint16();
-  const entrySelector = await bp.uint16();
-  const rangeShift = await bp.uint16();
+  await bp.uint16(); // searchRange
+  await bp.uint16(); // entrySelector
+  await bp.uint16(); // rangeShift
 
   const unsortedTableOffsetsByTag: Record<string, number> = {};
 
@@ -102,7 +73,6 @@ export const getTtfFromOffset = async (fh: fs.promises.FileHandle, position: num
     version: headVersion,
     fontRevision,
     checksumAdjustment,
-    magicNumber: magicNumber.toString(16),
     flags,
     unitsPerEm,
     created,
@@ -146,16 +116,5 @@ export const getTtfFromOffset = async (fh: fs.promises.FileHandle, position: num
     nameTable[key] = name;
   }
 
-  return {
-    offset: position,
-    sfntVersion,
-    numTables,
-    searchRange,
-    entrySelector,
-    rangeShift,
-    tableOffsetsByTag,
-    nameTable,
-    headTable,
-    maxpTable,
-  };
+  return new TrueTypeFont(fh, maxpTable, headTable, nameTable, numTables, tableOffsetsByTag);
 };

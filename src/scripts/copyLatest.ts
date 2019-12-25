@@ -1,11 +1,9 @@
 import fs from 'fs';
 import path from 'path';
-import { FONTS_DIR, ttfHeader, ttcfHeader, cffTtfHeader, SYSTEM_EMOJI_TTC_PATH, DATA_DIR } from '../constants';
-import { BinaryParser } from '../BinaryParser';
-import { getTtfFromOffset, TTFFont } from '../getTtfFromOffset';
-import { numToHex } from '../utils/numToHex';
+import { FONTS_DIR, SYSTEM_EMOJI_TTC_PATH, DATA_DIR } from '../constants';
 import { getSystemInfo } from '../utils/getSystemInfo';
 import { invariant } from '../utils/invariant';
+import { getFontByName } from '../utils/getFontByName';
 
 const versionDataPath = path.join(DATA_DIR, 'versions.json');
 
@@ -16,58 +14,14 @@ const versionDataPath = path.join(DATA_DIR, 'versions.json');
 
     invariant(fs.existsSync(SYSTEM_EMOJI_TTC_PATH), 'No file at', SYSTEM_EMOJI_TTC_PATH);
 
-    const bp = new BinaryParser(fh);
+    const ttf = await getFontByName(SYSTEM_EMOJI_TTC_PATH, 'AppleColorEmoji');
 
-    let emojiFont: TTFFont | undefined;
+    invariant(ttf, 'Could not find a font named Apple Color Emoji');
+    invariant(ttf.name.versionString, 'ttf.name.versionString not set!');
+    invariant(ttf.name.fontSubfamilyName, 'ttf.name.fontSubfamilyName not set!');
 
-    const header = await bp.uint32();
-
-    // OpenType with CFF data
-    invariant(header !== cffTtfHeader, 'Unsupported TTF header:', numToHex(header));
-
-    // OpenType with TrueType outlines
-    if (header === ttfHeader) {
-      console.log('we have a TTF');
-      emojiFont = await getTtfFromOffset(fh, 0);
-    }
-
-    // TrueType collection
-    else if (header === ttcfHeader) {
-      console.log('we have a TTC');
-
-      const ttcVersion = await bp.uint32();
-
-      invariant(ttcVersion === 0x00020000, 'Only TTC version 2.0 is supported for now');
-
-      const numFonts = await bp.uint32();
-      console.log('Found %o font%s', numFonts, numFonts === 1 ? '' : 's');
-
-      const offsets: number[] = [];
-
-      for (let i = 0; i < numFonts; i++) {
-        offsets[i] = await bp.uint32();
-      }
-
-      await bp.uint32(); // dsigTag
-      await bp.uint32(); // dsigLength
-      await bp.uint32(); // dsigOffset
-
-      const fonts = await Promise.all(offsets.map(offset => getTtfFromOffset(fh, offset)));
-
-      emojiFont = fonts.find(f => f.nameTable.postScriptName === 'AppleColorEmoji');
-    }
-
-    // Unsupported
-    else {
-      invariant(false, 'File header is not ttcf:', numToHex(header));
-    }
-
-    invariant(emojiFont, 'Could not find a font named Apple Color Emoji');
-    invariant(emojiFont.nameTable.versionString, 'emojiFont.nameTable.versionString not set!');
-    invariant(emojiFont.nameTable.fontSubfamilyName, 'emojiFont.nameTable.fontSubfamilyName not set!');
-
-    const fontVersion = emojiFont.nameTable.versionString;
-    const fontDate = emojiFont.headTable.modified;
+    const fontVersion = ttf.name.versionString;
+    const fontDate = ttf.head.modified;
     const ttcName = `Apple Color Emoji ${fontVersion}.ttc`;
     const ttcDest = path.join(FONTS_DIR, ttcName);
 
