@@ -5,14 +5,14 @@ import {
   FONTS_DIR,
   EMOJI_IMG_DIR,
   // DATA_DIR,
-} from './constants';
-import { toCodepoints } from './utils/toCodepoints';
-import { toEmojiKey } from './utils/toEmojiKey';
-import { normaliseBasename } from './utils/normaliseBasename';
-import { invariant } from './utils/invariant';
+} from '../constants';
+import { toCodepoints } from '../utils/toCodepoints';
+import { toEmojiKey } from '../utils/toEmojiKey';
+import { normaliseBasename } from '../utils/normaliseBasename';
+import { invariant } from '../utils/invariant';
 import emojiData from 'emojilib/emojis.json';
-import annotationData from '../data/annotations.json';
-import { getFontByName } from './utils/getFontByName';
+import annotationData from '../../data/annotations.json';
+import { getFontByName } from '../utils/getFontByName';
 
 type EmojiData = typeof emojiData;
 type EmojiDatum = EmojiData[keyof EmojiData] & { name: string };
