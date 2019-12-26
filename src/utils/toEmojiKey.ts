@@ -1,55 +1,90 @@
-import { heartCodepoints, kissCodepoints, famInitialsByCodepoint } from '../constants';
-import { rejectJoiners } from './rejectJoiners';
+import {
+  heartCodepoints,
+  kissCodepoints,
+  famInitialsByCodepoint,
+  unicodeJoiners,
+  fitzpatrickModifiers,
+  genderInitialsByCodepoint,
+} from '../constants';
 
 // adding 1 to the index makes non-matches falsey, which lets us fall back to the giant number
-const famIndex = (i: string) => 'MWGB'.indexOf(i) + 1 || 999;
+const getFamIndex = (i: string) => 'MWGB'.indexOf(i) + 1 || 999 + (i.codePointAt(0) || 0);
 
-const famSort = (str: string) =>
-  Array.from(str)
-    .sort((a, b) => famIndex(a) - famIndex(b))
-    .join('');
+const famSort = (a: string, b: string) => getFamIndex(a) - getFamIndex(b);
 
 const toFamString = (codepoints: number[]) =>
-  famSort(
-    codepoints
-      .map(codepoint => famInitialsByCodepoint[codepoint as keyof typeof famInitialsByCodepoint] as string)
-      .sort((a, b) => famIndex(a) - famIndex(b))
-      .join('')
-  );
+  codepoints
+    .map(codepoint => famInitialsByCodepoint[codepoint as keyof typeof famInitialsByCodepoint] as string)
+    .sort(famSort)
+    .join('');
 
 export const toEmojiKey = (codepoints: number[]) => {
-  const filtered = codepoints.filter(rejectJoiners);
-  if (filtered.length === 1) {
+  const fitz: number[] = [];
+  const fam: string[] = [];
+  const remainingCodepoints: number[] = [];
+
+  if (codepoints.length === 1) {
     // special case 1: people group defaults
-    if (filtered[0] === 0x1f48f) {
+    if (codepoints[0] === 0x1f48f) {
       // default kiss emoji"
-      return '1F48F.MW';
+      return 'u1F48F.MW';
     }
-    if (filtered[0] === 0x1f491) {
+    if (codepoints[0] === 0x1f491) {
       // default heart emoji"
-      return '1F491.MW';
+      return 'u1F491.MW';
     }
-    if (filtered[0] === 0x1f46a) {
+    if (codepoints[0] === 0x1f46a) {
       // default family emoji"
-      return '1F46A.MWB';
+      return 'u1F46A.MWB';
     }
   } else {
-    if (filtered.filter(f => !heartCodepoints.includes(f)).length === 0) {
-      return `1F491.${toFamString(filtered)}`;
-    } else if (filtered.filter(f => !kissCodepoints.includes(f)).length === 0) {
-      return `1F48F.${toFamString(codepoints)}`;
+    if (codepoints.filter(f => !heartCodepoints.includes(f)).length === 0) {
+      return `u1F491.${toFamString(codepoints)}`;
+    } else if (codepoints.filter(f => !kissCodepoints.includes(f)).length === 0) {
+      return `u1F48F.${toFamString(codepoints)}`;
     }
-    if (filtered.filter(f => !famInitialsByCodepoint.hasOwnProperty(f)).length === 0) {
+    if (codepoints.filter(f => !famInitialsByCodepoint.hasOwnProperty(f)).length === 0) {
       // fam emoji + MWBG string
-      return `1F46A.${toFamString(codepoints)}`;
+      return `u1F46A.${toFamString(codepoints)}`;
     }
   }
-  return filtered
-    .map(c =>
-      c
-        .toString(16)
-        .toUpperCase()
-        .padStart(4, '0')
-    )
-    .join('_');
+
+  for (const codepoint of codepoints) {
+    if (unicodeJoiners.includes(codepoint)) {
+      continue;
+    }
+
+    // valid values are 1-5
+    const fitzIndex = fitzpatrickModifiers.indexOf(codepoint);
+    if (fitzIndex > 0) {
+      fitz.push(fitzIndex);
+      continue;
+    }
+
+    if (genderInitialsByCodepoint.hasOwnProperty(codepoint)) {
+      fam.push(genderInitialsByCodepoint[codepoint as 0x2640]);
+      continue;
+    }
+
+    remainingCodepoints.push(codepoint);
+  }
+
+  if (remainingCodepoints.length === 0 && fitz.length === 1) {
+    return `u${fitzpatrickModifiers[fitz[0]]?.toString(16).toUpperCase()}`;
+  }
+
+  return (
+    remainingCodepoints
+      .map(
+        codepoint =>
+          'u' +
+          codepoint
+            .toString(16)
+            .toUpperCase()
+            .padStart(4, '0')
+      )
+      .join('_') +
+    (fitz.length > 0 ? '.' + fitz.join('') : '') +
+    (fam.length > 0 ? '.' + fam.sort(famSort).join('') : '')
+  );
 };
