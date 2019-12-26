@@ -4,6 +4,8 @@ import { toEmojiKey } from '../utils/toEmojiKey';
 import { invariant } from '../utils/invariant';
 import { CACHE_DIR, DATA_DIR } from '../constants';
 import stringify from 'json-stable-stringify';
+import { toEmojiSortKey } from '../utils/toEmojiSortKey';
+import { sortKeyStringifyOptions } from '../utils/sortKeyStringifyOptions';
 
 (async () => {
   [
@@ -41,20 +43,21 @@ import stringify from 'json-stable-stringify';
       // we split the string on spaces and parse the hex strings to ints
       const codepoints = codepointString.split(/\s+/).map(f => parseInt(f, 16));
       const emojiKey = toEmojiKey(codepoints);
+      const sortKey = toEmojiSortKey(codepoints);
 
       invariant(!sequenceData.hasOwnProperty(emojiKey), 'Already have a thing for `%s`!', emojiKey);
 
       if (txtFile === 'emoji-variation-sequences.txt') {
         if (category === 'emoji style') {
-          sequenceData[emojiKey] = { codepoints };
+          sequenceData[emojiKey] = { codepoints, sortKey };
         } else {
           console.info('Skipping line `%s`', line);
         }
       } else {
-        sequenceData[emojiKey] = { codepoints, description };
+        sequenceData[emojiKey] = { codepoints, description, sortKey };
       }
     });
 
-    fs.writeFileSync(path.join(DATA_DIR, `${basename}.json`), stringify(sequenceData, { space: 2 }));
+    fs.writeFileSync(path.join(DATA_DIR, `${basename}.json`), stringify(sequenceData, sortKeyStringifyOptions));
   });
 })();

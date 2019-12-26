@@ -3,6 +3,8 @@ import fs from 'fs';
 import { toEmojiKey } from '../utils/toEmojiKey';
 import { CACHE_DIR, DATA_DIR } from '../constants';
 import stringify from 'json-stable-stringify';
+import { toEmojiSortKey } from '../utils/toEmojiSortKey';
+import { sortKeyStringifyOptions } from '../utils/sortKeyStringifyOptions';
 
 const groupRegex = /^# (sub)?(group)\: (.+)$/;
 const lineRegex = /^([^;]+) ; ([^#]+) # (\S+) E([\d.]+) (.+)$/;
@@ -53,11 +55,13 @@ const lineRegex = /^([^;]+) ; ([^#]+) # (\S+) E([\d.]+) (.+)$/;
       .split(/\s+/)
       .map(f => parseInt(f, 16));
     const emojiKey = toEmojiKey(codepoints);
+    const sortKey = toEmojiSortKey(codepoints);
 
     console.log('wow: %s -- %s -- %s', emojiKey, emoji, desc);
 
     emojiTestData[emojiKey] = {
       emoji,
+      sortKey,
       desc,
       group: currentGroup,
       subgroup: currentSubgroup,
@@ -65,5 +69,5 @@ const lineRegex = /^([^;]+) ; ([^#]+) # (\S+) E([\d.]+) (.+)$/;
     };
   });
 
-  fs.writeFileSync(path.join(DATA_DIR, 'emoji-test.json'), stringify(emojiTestData, { space: 2 }));
+  fs.writeFileSync(path.join(DATA_DIR, 'emoji-test.json'), stringify(emojiTestData, sortKeyStringifyOptions));
 })();

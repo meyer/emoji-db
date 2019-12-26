@@ -97,6 +97,1469 @@
     "since": 2,
     "subgroup": "other-symbol"
   },
+  "203C": {
+    "desc": "double exclamation mark",
+    "emoji": "‼",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-symbol"
+  },
+  "2049": {
+    "desc": "exclamation question mark",
+    "emoji": "⁉",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-symbol"
+  },
+  "2122": {
+    "desc": "trade mark",
+    "emoji": "™",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-symbol"
+  },
+  "2139": {
+    "desc": "information",
+    "emoji": "ℹ",
+    "group": "group",
+    "since": 2,
+    "subgroup": "alphanum"
+  },
+  "2194": {
+    "desc": "left-right arrow",
+    "emoji": "↔",
+    "group": "group",
+    "since": 2,
+    "subgroup": "arrow"
+  },
+  "2195": {
+    "desc": "up-down arrow",
+    "emoji": "↕",
+    "group": "group",
+    "since": 2,
+    "subgroup": "arrow"
+  },
+  "2196": {
+    "desc": "up-left arrow",
+    "emoji": "↖",
+    "group": "group",
+    "since": 2,
+    "subgroup": "arrow"
+  },
+  "2197": {
+    "desc": "up-right arrow",
+    "emoji": "↗",
+    "group": "group",
+    "since": 2,
+    "subgroup": "arrow"
+  },
+  "2198": {
+    "desc": "down-right arrow",
+    "emoji": "↘",
+    "group": "group",
+    "since": 2,
+    "subgroup": "arrow"
+  },
+  "2199": {
+    "desc": "down-left arrow",
+    "emoji": "↙",
+    "group": "group",
+    "since": 2,
+    "subgroup": "arrow"
+  },
+  "21A9": {
+    "desc": "right arrow curving left",
+    "emoji": "↩",
+    "group": "group",
+    "since": 2,
+    "subgroup": "arrow"
+  },
+  "21AA": {
+    "desc": "left arrow curving right",
+    "emoji": "↪",
+    "group": "group",
+    "since": 2,
+    "subgroup": "arrow"
+  },
+  "231A": {
+    "desc": "watch",
+    "emoji": "⌚",
+    "group": "group",
+    "since": 2,
+    "subgroup": "time"
+  },
+  "231B": {
+    "desc": "hourglass done",
+    "emoji": "⌛",
+    "group": "group",
+    "since": 2,
+    "subgroup": "time"
+  },
+  "2328": {
+    "desc": "keyboard",
+    "emoji": "⌨",
+    "group": "group",
+    "since": 2,
+    "subgroup": "computer"
+  },
+  "23CF": {
+    "desc": "eject button",
+    "emoji": "⏏",
+    "group": "group",
+    "since": 2,
+    "subgroup": "av-symbol"
+  },
+  "23E9": {
+    "desc": "fast-forward button",
+    "emoji": "⏩",
+    "group": "group",
+    "since": 2,
+    "subgroup": "av-symbol"
+  },
+  "23EA": {
+    "desc": "fast reverse button",
+    "emoji": "⏪",
+    "group": "group",
+    "since": 2,
+    "subgroup": "av-symbol"
+  },
+  "23EB": {
+    "desc": "fast up button",
+    "emoji": "⏫",
+    "group": "group",
+    "since": 2,
+    "subgroup": "av-symbol"
+  },
+  "23EC": {
+    "desc": "fast down button",
+    "emoji": "⏬",
+    "group": "group",
+    "since": 2,
+    "subgroup": "av-symbol"
+  },
+  "23ED": {
+    "desc": "next track button",
+    "emoji": "⏭",
+    "group": "group",
+    "since": 2,
+    "subgroup": "av-symbol"
+  },
+  "23EE": {
+    "desc": "last track button",
+    "emoji": "⏮",
+    "group": "group",
+    "since": 2,
+    "subgroup": "av-symbol"
+  },
+  "23EF": {
+    "desc": "play or pause button",
+    "emoji": "⏯",
+    "group": "group",
+    "since": 2,
+    "subgroup": "av-symbol"
+  },
+  "23F0": {
+    "desc": "alarm clock",
+    "emoji": "⏰",
+    "group": "group",
+    "since": 2,
+    "subgroup": "time"
+  },
+  "23F1": {
+    "desc": "stopwatch",
+    "emoji": "⏱",
+    "group": "group",
+    "since": 2,
+    "subgroup": "time"
+  },
+  "23F2": {
+    "desc": "timer clock",
+    "emoji": "⏲",
+    "group": "group",
+    "since": 2,
+    "subgroup": "time"
+  },
+  "23F3": {
+    "desc": "hourglass not done",
+    "emoji": "⏳",
+    "group": "group",
+    "since": 2,
+    "subgroup": "time"
+  },
+  "23F8": {
+    "desc": "pause button",
+    "emoji": "⏸",
+    "group": "group",
+    "since": 2,
+    "subgroup": "av-symbol"
+  },
+  "23F9": {
+    "desc": "stop button",
+    "emoji": "⏹",
+    "group": "group",
+    "since": 2,
+    "subgroup": "av-symbol"
+  },
+  "23FA": {
+    "desc": "record button",
+    "emoji": "⏺",
+    "group": "group",
+    "since": 2,
+    "subgroup": "av-symbol"
+  },
+  "24C2": {
+    "desc": "circled M",
+    "emoji": "Ⓜ",
+    "group": "group",
+    "since": 2,
+    "subgroup": "alphanum"
+  },
+  "25AA": {
+    "desc": "black small square",
+    "emoji": "▪",
+    "group": "group",
+    "since": 2,
+    "subgroup": "geometric"
+  },
+  "25AB": {
+    "desc": "white small square",
+    "emoji": "▫",
+    "group": "group",
+    "since": 2,
+    "subgroup": "geometric"
+  },
+  "25B6": {
+    "desc": "play button",
+    "emoji": "▶",
+    "group": "group",
+    "since": 2,
+    "subgroup": "av-symbol"
+  },
+  "25C0": {
+    "desc": "reverse button",
+    "emoji": "◀",
+    "group": "group",
+    "since": 2,
+    "subgroup": "av-symbol"
+  },
+  "25FB": {
+    "desc": "white medium square",
+    "emoji": "◻",
+    "group": "group",
+    "since": 2,
+    "subgroup": "geometric"
+  },
+  "25FC": {
+    "desc": "black medium square",
+    "emoji": "◼",
+    "group": "group",
+    "since": 2,
+    "subgroup": "geometric"
+  },
+  "25FD": {
+    "desc": "white medium-small square",
+    "emoji": "◽",
+    "group": "group",
+    "since": 2,
+    "subgroup": "geometric"
+  },
+  "25FE": {
+    "desc": "black medium-small square",
+    "emoji": "◾",
+    "group": "group",
+    "since": 2,
+    "subgroup": "geometric"
+  },
+  "2600": {
+    "desc": "sun",
+    "emoji": "☀",
+    "group": "group",
+    "since": 2,
+    "subgroup": "sky & weather"
+  },
+  "2601": {
+    "desc": "cloud",
+    "emoji": "☁",
+    "group": "group",
+    "since": 2,
+    "subgroup": "sky & weather"
+  },
+  "2602": {
+    "desc": "umbrella",
+    "emoji": "☂",
+    "group": "group",
+    "since": 2,
+    "subgroup": "sky & weather"
+  },
+  "2603": {
+    "desc": "snowman",
+    "emoji": "☃",
+    "group": "group",
+    "since": 2,
+    "subgroup": "sky & weather"
+  },
+  "2604": {
+    "desc": "comet",
+    "emoji": "☄",
+    "group": "group",
+    "since": 2,
+    "subgroup": "sky & weather"
+  },
+  "260E": {
+    "desc": "telephone",
+    "emoji": "☎",
+    "group": "group",
+    "since": 2,
+    "subgroup": "phone"
+  },
+  "2611": {
+    "desc": "check box with check",
+    "emoji": "☑",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-symbol"
+  },
+  "2614": {
+    "desc": "umbrella with rain drops",
+    "emoji": "☔",
+    "group": "group",
+    "since": 2,
+    "subgroup": "sky & weather"
+  },
+  "2615": {
+    "desc": "hot beverage",
+    "emoji": "☕",
+    "group": "group",
+    "since": 2,
+    "subgroup": "drink"
+  },
+  "2618": {
+    "desc": "shamrock",
+    "emoji": "☘",
+    "group": "group",
+    "since": 2,
+    "subgroup": "plant-other"
+  },
+  "261D": {
+    "desc": "index pointing up",
+    "emoji": "☝",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-single-finger"
+  },
+  "261D_1F3FB": {
+    "desc": "index pointing up: light skin tone",
+    "emoji": "☝🏻",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-single-finger"
+  },
+  "261D_1F3FC": {
+    "desc": "index pointing up: medium-light skin tone",
+    "emoji": "☝🏼",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-single-finger"
+  },
+  "261D_1F3FD": {
+    "desc": "index pointing up: medium skin tone",
+    "emoji": "☝🏽",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-single-finger"
+  },
+  "261D_1F3FE": {
+    "desc": "index pointing up: medium-dark skin tone",
+    "emoji": "☝🏾",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-single-finger"
+  },
+  "261D_1F3FF": {
+    "desc": "index pointing up: dark skin tone",
+    "emoji": "☝🏿",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-single-finger"
+  },
+  "2620": {
+    "desc": "skull and crossbones",
+    "emoji": "☠",
+    "group": "group",
+    "since": 2,
+    "subgroup": "face-negative"
+  },
+  "2622": {
+    "desc": "radioactive",
+    "emoji": "☢",
+    "group": "group",
+    "since": 2,
+    "subgroup": "warning"
+  },
+  "2623": {
+    "desc": "biohazard",
+    "emoji": "☣",
+    "group": "group",
+    "since": 2,
+    "subgroup": "warning"
+  },
+  "2626": {
+    "desc": "orthodox cross",
+    "emoji": "☦",
+    "group": "group",
+    "since": 2,
+    "subgroup": "religion"
+  },
+  "262A": {
+    "desc": "star and crescent",
+    "emoji": "☪",
+    "group": "group",
+    "since": 2,
+    "subgroup": "religion"
+  },
+  "262E": {
+    "desc": "peace symbol",
+    "emoji": "☮",
+    "group": "group",
+    "since": 2,
+    "subgroup": "religion"
+  },
+  "262F": {
+    "desc": "yin yang",
+    "emoji": "☯",
+    "group": "group",
+    "since": 2,
+    "subgroup": "religion"
+  },
+  "2638": {
+    "desc": "wheel of dharma",
+    "emoji": "☸",
+    "group": "group",
+    "since": 2,
+    "subgroup": "religion"
+  },
+  "2639": {
+    "desc": "frowning face",
+    "emoji": "☹",
+    "group": "group",
+    "since": 2,
+    "subgroup": "face-concerned"
+  },
+  "263A": {
+    "desc": "smiling face",
+    "emoji": "☺",
+    "group": "group",
+    "since": 2,
+    "subgroup": "face-affection"
+  },
+  "2640": {
+    "desc": "female sign",
+    "emoji": "♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "gender"
+  },
+  "2642": {
+    "desc": "male sign",
+    "emoji": "♂",
+    "group": "group",
+    "since": 4,
+    "subgroup": "gender"
+  },
+  "2648": {
+    "desc": "Aries",
+    "emoji": "♈",
+    "group": "group",
+    "since": 2,
+    "subgroup": "zodiac"
+  },
+  "2649": {
+    "desc": "Taurus",
+    "emoji": "♉",
+    "group": "group",
+    "since": 2,
+    "subgroup": "zodiac"
+  },
+  "264A": {
+    "desc": "Gemini",
+    "emoji": "♊",
+    "group": "group",
+    "since": 2,
+    "subgroup": "zodiac"
+  },
+  "264B": {
+    "desc": "Cancer",
+    "emoji": "♋",
+    "group": "group",
+    "since": 2,
+    "subgroup": "zodiac"
+  },
+  "264C": {
+    "desc": "Leo",
+    "emoji": "♌",
+    "group": "group",
+    "since": 2,
+    "subgroup": "zodiac"
+  },
+  "264D": {
+    "desc": "Virgo",
+    "emoji": "♍",
+    "group": "group",
+    "since": 2,
+    "subgroup": "zodiac"
+  },
+  "264E": {
+    "desc": "Libra",
+    "emoji": "♎",
+    "group": "group",
+    "since": 2,
+    "subgroup": "zodiac"
+  },
+  "264F": {
+    "desc": "Scorpio",
+    "emoji": "♏",
+    "group": "group",
+    "since": 2,
+    "subgroup": "zodiac"
+  },
+  "2650": {
+    "desc": "Sagittarius",
+    "emoji": "♐",
+    "group": "group",
+    "since": 2,
+    "subgroup": "zodiac"
+  },
+  "2651": {
+    "desc": "Capricorn",
+    "emoji": "♑",
+    "group": "group",
+    "since": 2,
+    "subgroup": "zodiac"
+  },
+  "2652": {
+    "desc": "Aquarius",
+    "emoji": "♒",
+    "group": "group",
+    "since": 2,
+    "subgroup": "zodiac"
+  },
+  "2653": {
+    "desc": "Pisces",
+    "emoji": "♓",
+    "group": "group",
+    "since": 2,
+    "subgroup": "zodiac"
+  },
+  "265F": {
+    "desc": "chess pawn",
+    "emoji": "♟",
+    "group": "group",
+    "since": 11,
+    "subgroup": "game"
+  },
+  "2660": {
+    "desc": "spade suit",
+    "emoji": "♠",
+    "group": "group",
+    "since": 2,
+    "subgroup": "game"
+  },
+  "2663": {
+    "desc": "club suit",
+    "emoji": "♣",
+    "group": "group",
+    "since": 2,
+    "subgroup": "game"
+  },
+  "2665": {
+    "desc": "heart suit",
+    "emoji": "♥",
+    "group": "group",
+    "since": 2,
+    "subgroup": "game"
+  },
+  "2666": {
+    "desc": "diamond suit",
+    "emoji": "♦",
+    "group": "group",
+    "since": 2,
+    "subgroup": "game"
+  },
+  "2668": {
+    "desc": "hot springs",
+    "emoji": "♨",
+    "group": "group",
+    "since": 2,
+    "subgroup": "place-other"
+  },
+  "267B": {
+    "desc": "recycling symbol",
+    "emoji": "♻",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-symbol"
+  },
+  "267E": {
+    "desc": "infinity",
+    "emoji": "♾",
+    "group": "group",
+    "since": 11,
+    "subgroup": "other-symbol"
+  },
+  "267F": {
+    "desc": "wheelchair symbol",
+    "emoji": "♿",
+    "group": "group",
+    "since": 2,
+    "subgroup": "transport-sign"
+  },
+  "2692": {
+    "desc": "hammer and pick",
+    "emoji": "⚒",
+    "group": "group",
+    "since": 2,
+    "subgroup": "tool"
+  },
+  "2693": {
+    "desc": "anchor",
+    "emoji": "⚓",
+    "group": "group",
+    "since": 2,
+    "subgroup": "transport-water"
+  },
+  "2694": {
+    "desc": "crossed swords",
+    "emoji": "⚔",
+    "group": "group",
+    "since": 2,
+    "subgroup": "tool"
+  },
+  "2695": {
+    "desc": "medical symbol",
+    "emoji": "⚕",
+    "group": "group",
+    "since": 4,
+    "subgroup": "other-symbol"
+  },
+  "2696": {
+    "desc": "balance scale",
+    "emoji": "⚖",
+    "group": "group",
+    "since": 2,
+    "subgroup": "tool"
+  },
+  "2697": {
+    "desc": "alembic",
+    "emoji": "⚗",
+    "group": "group",
+    "since": 2,
+    "subgroup": "science"
+  },
+  "2699": {
+    "desc": "gear",
+    "emoji": "⚙",
+    "group": "group",
+    "since": 2,
+    "subgroup": "tool"
+  },
+  "269B": {
+    "desc": "atom symbol",
+    "emoji": "⚛",
+    "group": "group",
+    "since": 2,
+    "subgroup": "religion"
+  },
+  "269C": {
+    "desc": "fleur-de-lis",
+    "emoji": "⚜",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-symbol"
+  },
+  "26A0": {
+    "desc": "warning",
+    "emoji": "⚠",
+    "group": "group",
+    "since": 2,
+    "subgroup": "warning"
+  },
+  "26A1": {
+    "desc": "high voltage",
+    "emoji": "⚡",
+    "group": "group",
+    "since": 2,
+    "subgroup": "sky & weather"
+  },
+  "26AA": {
+    "desc": "white circle",
+    "emoji": "⚪",
+    "group": "group",
+    "since": 2,
+    "subgroup": "geometric"
+  },
+  "26AB": {
+    "desc": "black circle",
+    "emoji": "⚫",
+    "group": "group",
+    "since": 2,
+    "subgroup": "geometric"
+  },
+  "26B0": {
+    "desc": "coffin",
+    "emoji": "⚰",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-object"
+  },
+  "26B1": {
+    "desc": "funeral urn",
+    "emoji": "⚱",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-object"
+  },
+  "26BD": {
+    "desc": "soccer ball",
+    "emoji": "⚽",
+    "group": "group",
+    "since": 2,
+    "subgroup": "sport"
+  },
+  "26BE": {
+    "desc": "baseball",
+    "emoji": "⚾",
+    "group": "group",
+    "since": 2,
+    "subgroup": "sport"
+  },
+  "26C4": {
+    "desc": "snowman without snow",
+    "emoji": "⛄",
+    "group": "group",
+    "since": 2,
+    "subgroup": "sky & weather"
+  },
+  "26C5": {
+    "desc": "sun behind cloud",
+    "emoji": "⛅",
+    "group": "group",
+    "since": 2,
+    "subgroup": "sky & weather"
+  },
+  "26C8": {
+    "desc": "cloud with lightning and rain",
+    "emoji": "⛈",
+    "group": "group",
+    "since": 2,
+    "subgroup": "sky & weather"
+  },
+  "26CE": {
+    "desc": "Ophiuchus",
+    "emoji": "⛎",
+    "group": "group",
+    "since": 2,
+    "subgroup": "zodiac"
+  },
+  "26CF": {
+    "desc": "pick",
+    "emoji": "⛏",
+    "group": "group",
+    "since": 2,
+    "subgroup": "tool"
+  },
+  "26D1": {
+    "desc": "rescue worker’s helmet",
+    "emoji": "⛑",
+    "group": "group",
+    "since": 2,
+    "subgroup": "clothing"
+  },
+  "26D3": {
+    "desc": "chains",
+    "emoji": "⛓",
+    "group": "group",
+    "since": 2,
+    "subgroup": "tool"
+  },
+  "26D4": {
+    "desc": "no entry",
+    "emoji": "⛔",
+    "group": "group",
+    "since": 2,
+    "subgroup": "warning"
+  },
+  "26E9": {
+    "desc": "shinto shrine",
+    "emoji": "⛩",
+    "group": "group",
+    "since": 2,
+    "subgroup": "place-religious"
+  },
+  "26EA": {
+    "desc": "church",
+    "emoji": "⛪",
+    "group": "group",
+    "since": 2,
+    "subgroup": "place-religious"
+  },
+  "26F0": {
+    "desc": "mountain",
+    "emoji": "⛰",
+    "group": "group",
+    "since": 2,
+    "subgroup": "place-geographic"
+  },
+  "26F1": {
+    "desc": "umbrella on ground",
+    "emoji": "⛱",
+    "group": "group",
+    "since": 2,
+    "subgroup": "sky & weather"
+  },
+  "26F2": {
+    "desc": "fountain",
+    "emoji": "⛲",
+    "group": "group",
+    "since": 2,
+    "subgroup": "place-other"
+  },
+  "26F3": {
+    "desc": "flag in hole",
+    "emoji": "⛳",
+    "group": "group",
+    "since": 2,
+    "subgroup": "sport"
+  },
+  "26F4": {
+    "desc": "ferry",
+    "emoji": "⛴",
+    "group": "group",
+    "since": 2,
+    "subgroup": "transport-water"
+  },
+  "26F5": {
+    "desc": "sailboat",
+    "emoji": "⛵",
+    "group": "group",
+    "since": 2,
+    "subgroup": "transport-water"
+  },
+  "26F7": {
+    "desc": "skier",
+    "emoji": "⛷",
+    "group": "group",
+    "since": 2,
+    "subgroup": "person-sport"
+  },
+  "26F8": {
+    "desc": "ice skate",
+    "emoji": "⛸",
+    "group": "group",
+    "since": 2,
+    "subgroup": "sport"
+  },
+  "26F9": {
+    "desc": "person bouncing ball",
+    "emoji": "⛹",
+    "group": "group",
+    "since": 2,
+    "subgroup": "person-sport"
+  },
+  "26F9_2640": {
+    "desc": "woman bouncing ball",
+    "emoji": "⛹‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
+  "26F9_2642": {
+    "desc": "man bouncing ball",
+    "emoji": "⛹‍♂",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
+  "26F9_1F3FB": {
+    "desc": "person bouncing ball: light skin tone",
+    "emoji": "⛹🏻",
+    "group": "group",
+    "since": 2,
+    "subgroup": "person-sport"
+  },
+  "26F9_1F3FB_2640": {
+    "desc": "woman bouncing ball: light skin tone",
+    "emoji": "⛹🏻‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
+  "26F9_1F3FB_2642": {
+    "desc": "man bouncing ball: light skin tone",
+    "emoji": "⛹🏻‍♂",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
+  "26F9_1F3FC": {
+    "desc": "person bouncing ball: medium-light skin tone",
+    "emoji": "⛹🏼",
+    "group": "group",
+    "since": 2,
+    "subgroup": "person-sport"
+  },
+  "26F9_1F3FC_2640": {
+    "desc": "woman bouncing ball: medium-light skin tone",
+    "emoji": "⛹🏼‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
+  "26F9_1F3FC_2642": {
+    "desc": "man bouncing ball: medium-light skin tone",
+    "emoji": "⛹🏼‍♂",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
+  "26F9_1F3FD": {
+    "desc": "person bouncing ball: medium skin tone",
+    "emoji": "⛹🏽",
+    "group": "group",
+    "since": 2,
+    "subgroup": "person-sport"
+  },
+  "26F9_1F3FD_2640": {
+    "desc": "woman bouncing ball: medium skin tone",
+    "emoji": "⛹🏽‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
+  "26F9_1F3FD_2642": {
+    "desc": "man bouncing ball: medium skin tone",
+    "emoji": "⛹🏽‍♂",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
+  "26F9_1F3FE": {
+    "desc": "person bouncing ball: medium-dark skin tone",
+    "emoji": "⛹🏾",
+    "group": "group",
+    "since": 2,
+    "subgroup": "person-sport"
+  },
+  "26F9_1F3FE_2640": {
+    "desc": "woman bouncing ball: medium-dark skin tone",
+    "emoji": "⛹🏾‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
+  "26F9_1F3FE_2642": {
+    "desc": "man bouncing ball: medium-dark skin tone",
+    "emoji": "⛹🏾‍♂",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
+  "26F9_1F3FF": {
+    "desc": "person bouncing ball: dark skin tone",
+    "emoji": "⛹🏿",
+    "group": "group",
+    "since": 2,
+    "subgroup": "person-sport"
+  },
+  "26F9_1F3FF_2640": {
+    "desc": "woman bouncing ball: dark skin tone",
+    "emoji": "⛹🏿‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
+  "26F9_1F3FF_2642": {
+    "desc": "man bouncing ball: dark skin tone",
+    "emoji": "⛹🏿‍♂",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
+  "26FA": {
+    "desc": "tent",
+    "emoji": "⛺",
+    "group": "group",
+    "since": 2,
+    "subgroup": "place-other"
+  },
+  "26FD": {
+    "desc": "fuel pump",
+    "emoji": "⛽",
+    "group": "group",
+    "since": 2,
+    "subgroup": "transport-ground"
+  },
+  "2702": {
+    "desc": "scissors",
+    "emoji": "✂",
+    "group": "group",
+    "since": 2,
+    "subgroup": "office"
+  },
+  "2705": {
+    "desc": "check mark button",
+    "emoji": "✅",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-symbol"
+  },
+  "2708": {
+    "desc": "airplane",
+    "emoji": "✈",
+    "group": "group",
+    "since": 2,
+    "subgroup": "transport-air"
+  },
+  "2709": {
+    "desc": "envelope",
+    "emoji": "✉",
+    "group": "group",
+    "since": 2,
+    "subgroup": "mail"
+  },
+  "270A": {
+    "desc": "raised fist",
+    "emoji": "✊",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-fingers-closed"
+  },
+  "270A_1F3FB": {
+    "desc": "raised fist: light skin tone",
+    "emoji": "✊🏻",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-fingers-closed"
+  },
+  "270A_1F3FC": {
+    "desc": "raised fist: medium-light skin tone",
+    "emoji": "✊🏼",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-fingers-closed"
+  },
+  "270A_1F3FD": {
+    "desc": "raised fist: medium skin tone",
+    "emoji": "✊🏽",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-fingers-closed"
+  },
+  "270A_1F3FE": {
+    "desc": "raised fist: medium-dark skin tone",
+    "emoji": "✊🏾",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-fingers-closed"
+  },
+  "270A_1F3FF": {
+    "desc": "raised fist: dark skin tone",
+    "emoji": "✊🏿",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-fingers-closed"
+  },
+  "270B": {
+    "desc": "raised hand",
+    "emoji": "✋",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-fingers-open"
+  },
+  "270B_1F3FB": {
+    "desc": "raised hand: light skin tone",
+    "emoji": "✋🏻",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-fingers-open"
+  },
+  "270B_1F3FC": {
+    "desc": "raised hand: medium-light skin tone",
+    "emoji": "✋🏼",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-fingers-open"
+  },
+  "270B_1F3FD": {
+    "desc": "raised hand: medium skin tone",
+    "emoji": "✋🏽",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-fingers-open"
+  },
+  "270B_1F3FE": {
+    "desc": "raised hand: medium-dark skin tone",
+    "emoji": "✋🏾",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-fingers-open"
+  },
+  "270B_1F3FF": {
+    "desc": "raised hand: dark skin tone",
+    "emoji": "✋🏿",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-fingers-open"
+  },
+  "270C": {
+    "desc": "victory hand",
+    "emoji": "✌",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-fingers-partial"
+  },
+  "270C_1F3FB": {
+    "desc": "victory hand: light skin tone",
+    "emoji": "✌🏻",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-fingers-partial"
+  },
+  "270C_1F3FC": {
+    "desc": "victory hand: medium-light skin tone",
+    "emoji": "✌🏼",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-fingers-partial"
+  },
+  "270C_1F3FD": {
+    "desc": "victory hand: medium skin tone",
+    "emoji": "✌🏽",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-fingers-partial"
+  },
+  "270C_1F3FE": {
+    "desc": "victory hand: medium-dark skin tone",
+    "emoji": "✌🏾",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-fingers-partial"
+  },
+  "270C_1F3FF": {
+    "desc": "victory hand: dark skin tone",
+    "emoji": "✌🏿",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-fingers-partial"
+  },
+  "270D": {
+    "desc": "writing hand",
+    "emoji": "✍",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-prop"
+  },
+  "270D_1F3FB": {
+    "desc": "writing hand: light skin tone",
+    "emoji": "✍🏻",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-prop"
+  },
+  "270D_1F3FC": {
+    "desc": "writing hand: medium-light skin tone",
+    "emoji": "✍🏼",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-prop"
+  },
+  "270D_1F3FD": {
+    "desc": "writing hand: medium skin tone",
+    "emoji": "✍🏽",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-prop"
+  },
+  "270D_1F3FE": {
+    "desc": "writing hand: medium-dark skin tone",
+    "emoji": "✍🏾",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-prop"
+  },
+  "270D_1F3FF": {
+    "desc": "writing hand: dark skin tone",
+    "emoji": "✍🏿",
+    "group": "group",
+    "since": 2,
+    "subgroup": "hand-prop"
+  },
+  "270F": {
+    "desc": "pencil",
+    "emoji": "✏",
+    "group": "group",
+    "since": 2,
+    "subgroup": "writing"
+  },
+  "2712": {
+    "desc": "black nib",
+    "emoji": "✒",
+    "group": "group",
+    "since": 2,
+    "subgroup": "writing"
+  },
+  "2714": {
+    "desc": "check mark",
+    "emoji": "✔",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-symbol"
+  },
+  "2716": {
+    "desc": "multiplication sign",
+    "emoji": "✖",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-symbol"
+  },
+  "271D": {
+    "desc": "latin cross",
+    "emoji": "✝",
+    "group": "group",
+    "since": 2,
+    "subgroup": "religion"
+  },
+  "2721": {
+    "desc": "star of David",
+    "emoji": "✡",
+    "group": "group",
+    "since": 2,
+    "subgroup": "religion"
+  },
+  "2728": {
+    "desc": "sparkles",
+    "emoji": "✨",
+    "group": "group",
+    "since": 2,
+    "subgroup": "event"
+  },
+  "2733": {
+    "desc": "eight-spoked asterisk",
+    "emoji": "✳",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-symbol"
+  },
+  "2734": {
+    "desc": "eight-pointed star",
+    "emoji": "✴",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-symbol"
+  },
+  "2744": {
+    "desc": "snowflake",
+    "emoji": "❄",
+    "group": "group",
+    "since": 2,
+    "subgroup": "sky & weather"
+  },
+  "2747": {
+    "desc": "sparkle",
+    "emoji": "❇",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-symbol"
+  },
+  "274C": {
+    "desc": "cross mark",
+    "emoji": "❌",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-symbol"
+  },
+  "274E": {
+    "desc": "cross mark button",
+    "emoji": "❎",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-symbol"
+  },
+  "2753": {
+    "desc": "question mark",
+    "emoji": "❓",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-symbol"
+  },
+  "2754": {
+    "desc": "white question mark",
+    "emoji": "❔",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-symbol"
+  },
+  "2755": {
+    "desc": "white exclamation mark",
+    "emoji": "❕",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-symbol"
+  },
+  "2757": {
+    "desc": "exclamation mark",
+    "emoji": "❗",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-symbol"
+  },
+  "2763": {
+    "desc": "heart exclamation",
+    "emoji": "❣",
+    "group": "group",
+    "since": 2,
+    "subgroup": "emotion"
+  },
+  "2764": {
+    "desc": "red heart",
+    "emoji": "❤",
+    "group": "group",
+    "since": 2,
+    "subgroup": "emotion"
+  },
+  "2795": {
+    "desc": "plus sign",
+    "emoji": "➕",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-symbol"
+  },
+  "2796": {
+    "desc": "minus sign",
+    "emoji": "➖",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-symbol"
+  },
+  "2797": {
+    "desc": "division sign",
+    "emoji": "➗",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-symbol"
+  },
+  "27A1": {
+    "desc": "right arrow",
+    "emoji": "➡",
+    "group": "group",
+    "since": 2,
+    "subgroup": "arrow"
+  },
+  "27B0": {
+    "desc": "curly loop",
+    "emoji": "➰",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-symbol"
+  },
+  "27BF": {
+    "desc": "double curly loop",
+    "emoji": "➿",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-symbol"
+  },
+  "2934": {
+    "desc": "right arrow curving up",
+    "emoji": "⤴",
+    "group": "group",
+    "since": 2,
+    "subgroup": "arrow"
+  },
+  "2935": {
+    "desc": "right arrow curving down",
+    "emoji": "⤵",
+    "group": "group",
+    "since": 2,
+    "subgroup": "arrow"
+  },
+  "2B05": {
+    "desc": "left arrow",
+    "emoji": "⬅",
+    "group": "group",
+    "since": 2,
+    "subgroup": "arrow"
+  },
+  "2B06": {
+    "desc": "up arrow",
+    "emoji": "⬆",
+    "group": "group",
+    "since": 2,
+    "subgroup": "arrow"
+  },
+  "2B07": {
+    "desc": "down arrow",
+    "emoji": "⬇",
+    "group": "group",
+    "since": 2,
+    "subgroup": "arrow"
+  },
+  "2B1B": {
+    "desc": "black large square",
+    "emoji": "⬛",
+    "group": "group",
+    "since": 2,
+    "subgroup": "geometric"
+  },
+  "2B1C": {
+    "desc": "white large square",
+    "emoji": "⬜",
+    "group": "group",
+    "since": 2,
+    "subgroup": "geometric"
+  },
+  "2B50": {
+    "desc": "star",
+    "emoji": "⭐",
+    "group": "group",
+    "since": 2,
+    "subgroup": "sky & weather"
+  },
+  "2B55": {
+    "desc": "hollow red circle",
+    "emoji": "⭕",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-symbol"
+  },
+  "3030": {
+    "desc": "wavy dash",
+    "emoji": "〰",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-symbol"
+  },
+  "303D": {
+    "desc": "part alternation mark",
+    "emoji": "〽",
+    "group": "group",
+    "since": 2,
+    "subgroup": "other-symbol"
+  },
+  "3297": {
+    "desc": "Japanese “congratulations” button",
+    "emoji": "㊗",
+    "group": "group",
+    "since": 2,
+    "subgroup": "alphanum"
+  },
+  "3299": {
+    "desc": "Japanese “secret” button",
+    "emoji": "㊙",
+    "group": "group",
+    "since": 2,
+    "subgroup": "alphanum"
+  },
   "1F004": {
     "desc": "mahjong red dragon",
     "emoji": "🀄",
@@ -3520,6 +4983,20 @@
     "since": 2,
     "subgroup": "person-activity"
   },
+  "1F3C3_2640": {
+    "desc": "woman running",
+    "emoji": "🏃‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-activity"
+  },
+  "1F3C3_2642": {
+    "desc": "man running",
+    "emoji": "🏃‍♂",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-activity"
+  },
   "1F3C3_1F3FB": {
     "desc": "person running: light skin tone",
     "emoji": "🏃🏻",
@@ -3625,25 +5102,25 @@
     "since": 4,
     "subgroup": "person-activity"
   },
-  "1F3C3_2640": {
-    "desc": "woman running",
-    "emoji": "🏃‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-activity"
-  },
-  "1F3C3_2642": {
-    "desc": "man running",
-    "emoji": "🏃‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-activity"
-  },
   "1F3C4": {
     "desc": "person surfing",
     "emoji": "🏄",
     "group": "group",
     "since": 2,
+    "subgroup": "person-sport"
+  },
+  "1F3C4_2640": {
+    "desc": "woman surfing",
+    "emoji": "🏄‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
+  "1F3C4_2642": {
+    "desc": "man surfing",
+    "emoji": "🏄‍♂",
+    "group": "group",
+    "since": 4,
     "subgroup": "person-sport"
   },
   "1F3C4_1F3FB": {
@@ -3751,20 +5228,6 @@
     "since": 4,
     "subgroup": "person-sport"
   },
-  "1F3C4_2640": {
-    "desc": "woman surfing",
-    "emoji": "🏄‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
-  "1F3C4_2642": {
-    "desc": "man surfing",
-    "emoji": "🏄‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
   "1F3C5": {
     "desc": "sports medal",
     "emoji": "🏅",
@@ -3840,6 +5303,20 @@
     "emoji": "🏊",
     "group": "group",
     "since": 2,
+    "subgroup": "person-sport"
+  },
+  "1F3CA_2640": {
+    "desc": "woman swimming",
+    "emoji": "🏊‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
+  "1F3CA_2642": {
+    "desc": "man swimming",
+    "emoji": "🏊‍♂",
+    "group": "group",
+    "since": 4,
     "subgroup": "person-sport"
   },
   "1F3CA_1F3FB": {
@@ -3947,25 +5424,25 @@
     "since": 4,
     "subgroup": "person-sport"
   },
-  "1F3CA_2640": {
-    "desc": "woman swimming",
-    "emoji": "🏊‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
-  "1F3CA_2642": {
-    "desc": "man swimming",
-    "emoji": "🏊‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
   "1F3CB": {
     "desc": "person lifting weights",
     "emoji": "🏋",
     "group": "group",
     "since": 2,
+    "subgroup": "person-sport"
+  },
+  "1F3CB_2640": {
+    "desc": "woman lifting weights",
+    "emoji": "🏋‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
+  "1F3CB_2642": {
+    "desc": "man lifting weights",
+    "emoji": "🏋‍♂",
+    "group": "group",
+    "since": 4,
     "subgroup": "person-sport"
   },
   "1F3CB_1F3FB": {
@@ -4073,25 +5550,25 @@
     "since": 4,
     "subgroup": "person-sport"
   },
-  "1F3CB_2640": {
-    "desc": "woman lifting weights",
-    "emoji": "🏋‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
-  "1F3CB_2642": {
-    "desc": "man lifting weights",
-    "emoji": "🏋‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
   "1F3CC": {
     "desc": "person golfing",
     "emoji": "🏌",
     "group": "group",
     "since": 2,
+    "subgroup": "person-sport"
+  },
+  "1F3CC_2640": {
+    "desc": "woman golfing",
+    "emoji": "🏌‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
+  "1F3CC_2642": {
+    "desc": "man golfing",
+    "emoji": "🏌‍♂",
+    "group": "group",
+    "since": 4,
     "subgroup": "person-sport"
   },
   "1F3CC_1F3FB": {
@@ -4195,20 +5672,6 @@
   "1F3CC_1F3FF_2642": {
     "desc": "man golfing: dark skin tone",
     "emoji": "🏌🏿‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
-  "1F3CC_2640": {
-    "desc": "woman golfing",
-    "emoji": "🏌‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
-  "1F3CC_2642": {
-    "desc": "man golfing",
-    "emoji": "🏌‍♂",
     "group": "group",
     "since": 4,
     "subgroup": "person-sport"
@@ -5858,6 +7321,41 @@
     "since": 2,
     "subgroup": "person"
   },
+  "1F468_2695": {
+    "desc": "man health worker",
+    "emoji": "👨‍⚕",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F468_2696": {
+    "desc": "man judge",
+    "emoji": "👨‍⚖",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F468_2708": {
+    "desc": "man pilot",
+    "emoji": "👨‍✈",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F491.MM": {
+    "desc": "couple with heart: man, man",
+    "emoji": "👨‍❤‍👨",
+    "group": "group",
+    "since": 2,
+    "subgroup": "family"
+  },
+  "1F48F.MM": {
+    "desc": "kiss: man, man",
+    "emoji": "👨‍❤‍💋‍👨",
+    "group": "group",
+    "since": 2,
+    "subgroup": "family"
+  },
   "1F468_1F33E": {
     "desc": "man farmer",
     "emoji": "👨‍🌾",
@@ -5907,12 +7405,229 @@
     "since": 4,
     "subgroup": "person-role"
   },
+  "1F46A.MB": {
+    "desc": "family: man, boy",
+    "emoji": "👨‍👦",
+    "group": "group",
+    "since": 4,
+    "subgroup": "family"
+  },
+  "1F46A.MBB": {
+    "desc": "family: man, boy, boy",
+    "emoji": "👨‍👦‍👦",
+    "group": "group",
+    "since": 4,
+    "subgroup": "family"
+  },
+  "1F46A.MG": {
+    "desc": "family: man, girl",
+    "emoji": "👨‍👧",
+    "group": "group",
+    "since": 4,
+    "subgroup": "family"
+  },
+  "1F46A.MGB": {
+    "desc": "family: man, girl, boy",
+    "emoji": "👨‍👧‍👦",
+    "group": "group",
+    "since": 4,
+    "subgroup": "family"
+  },
+  "1F46A.MGG": {
+    "desc": "family: man, girl, girl",
+    "emoji": "👨‍👧‍👧",
+    "group": "group",
+    "since": 4,
+    "subgroup": "family"
+  },
+  "1F46A.MMB": {
+    "desc": "family: man, man, boy",
+    "emoji": "👨‍👨‍👦",
+    "group": "group",
+    "since": 2,
+    "subgroup": "family"
+  },
+  "1F46A.MMBB": {
+    "desc": "family: man, man, boy, boy",
+    "emoji": "👨‍👨‍👦‍👦",
+    "group": "group",
+    "since": 2,
+    "subgroup": "family"
+  },
+  "1F46A.MMG": {
+    "desc": "family: man, man, girl",
+    "emoji": "👨‍👨‍👧",
+    "group": "group",
+    "since": 2,
+    "subgroup": "family"
+  },
+  "1F46A.MMGB": {
+    "desc": "family: man, man, girl, boy",
+    "emoji": "👨‍👨‍👧‍👦",
+    "group": "group",
+    "since": 2,
+    "subgroup": "family"
+  },
+  "1F46A.MMGG": {
+    "desc": "family: man, man, girl, girl",
+    "emoji": "👨‍👨‍👧‍👧",
+    "group": "group",
+    "since": 2,
+    "subgroup": "family"
+  },
+  "1F46A.MWB": {
+    "desc": "family: man, woman, boy",
+    "emoji": "👨‍👩‍👦",
+    "group": "group",
+    "since": 2,
+    "subgroup": "family"
+  },
+  "1F46A.MWBB": {
+    "desc": "family: man, woman, boy, boy",
+    "emoji": "👨‍👩‍👦‍👦",
+    "group": "group",
+    "since": 2,
+    "subgroup": "family"
+  },
+  "1F46A.MWG": {
+    "desc": "family: man, woman, girl",
+    "emoji": "👨‍👩‍👧",
+    "group": "group",
+    "since": 2,
+    "subgroup": "family"
+  },
+  "1F46A.MWGB": {
+    "desc": "family: man, woman, girl, boy",
+    "emoji": "👨‍👩‍👧‍👦",
+    "group": "group",
+    "since": 2,
+    "subgroup": "family"
+  },
+  "1F46A.MWGG": {
+    "desc": "family: man, woman, girl, girl",
+    "emoji": "👨‍👩‍👧‍👧",
+    "group": "group",
+    "since": 2,
+    "subgroup": "family"
+  },
+  "1F468_1F4BB": {
+    "desc": "man technologist",
+    "emoji": "👨‍💻",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F468_1F4BC": {
+    "desc": "man office worker",
+    "emoji": "👨‍💼",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F468_1F527": {
+    "desc": "man mechanic",
+    "emoji": "👨‍🔧",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F468_1F52C": {
+    "desc": "man scientist",
+    "emoji": "👨‍🔬",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F468_1F680": {
+    "desc": "man astronaut",
+    "emoji": "👨‍🚀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F468_1F692": {
+    "desc": "man firefighter",
+    "emoji": "👨‍🚒",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F468_1F9AF": {
+    "desc": "man with probing cane",
+    "emoji": "👨‍🦯",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-activity"
+  },
+  "1F468_1F9B0": {
+    "desc": "man: red hair",
+    "emoji": "👨‍🦰",
+    "group": "group",
+    "since": 11,
+    "subgroup": "person"
+  },
+  "1F468_1F9B1": {
+    "desc": "man: curly hair",
+    "emoji": "👨‍🦱",
+    "group": "group",
+    "since": 11,
+    "subgroup": "person"
+  },
+  "1F468_1F9B2": {
+    "desc": "man: bald",
+    "emoji": "👨‍🦲",
+    "group": "group",
+    "since": 11,
+    "subgroup": "person"
+  },
+  "1F468_1F9B3": {
+    "desc": "man: white hair",
+    "emoji": "👨‍🦳",
+    "group": "group",
+    "since": 11,
+    "subgroup": "person"
+  },
+  "1F468_1F9BC": {
+    "desc": "man in motorized wheelchair",
+    "emoji": "👨‍🦼",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-activity"
+  },
+  "1F468_1F9BD": {
+    "desc": "man in manual wheelchair",
+    "emoji": "👨‍🦽",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-activity"
+  },
   "1F468_1F3FB": {
     "desc": "man: light skin tone",
     "emoji": "👨🏻",
     "group": "group",
     "since": 2,
     "subgroup": "person"
+  },
+  "1F468_1F3FB_2695": {
+    "desc": "man health worker: light skin tone",
+    "emoji": "👨🏻‍⚕",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F468_1F3FB_2696": {
+    "desc": "man judge: light skin tone",
+    "emoji": "👨🏻‍⚖",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F468_1F3FB_2708": {
+    "desc": "man pilot: light skin tone",
+    "emoji": "👨🏻‍✈",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
   },
   "1F468_1F3FB_1F33E": {
     "desc": "man farmer: light skin tone",
@@ -6082,33 +7797,33 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
-  "1F468_1F3FB_2695": {
-    "desc": "man health worker: light skin tone",
-    "emoji": "👨🏻‍⚕",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F468_1F3FB_2696": {
-    "desc": "man judge: light skin tone",
-    "emoji": "👨🏻‍⚖",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F468_1F3FB_2708": {
-    "desc": "man pilot: light skin tone",
-    "emoji": "👨🏻‍✈",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
   "1F468_1F3FC": {
     "desc": "man: medium-light skin tone",
     "emoji": "👨🏼",
     "group": "group",
     "since": 2,
     "subgroup": "person"
+  },
+  "1F468_1F3FC_2695": {
+    "desc": "man health worker: medium-light skin tone",
+    "emoji": "👨🏼‍⚕",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F468_1F3FC_2696": {
+    "desc": "man judge: medium-light skin tone",
+    "emoji": "👨🏼‍⚖",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F468_1F3FC_2708": {
+    "desc": "man pilot: medium-light skin tone",
+    "emoji": "👨🏼‍✈",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
   },
   "1F468_1F3FC_1F33E": {
     "desc": "man farmer: medium-light skin tone",
@@ -6278,33 +7993,33 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
-  "1F468_1F3FC_2695": {
-    "desc": "man health worker: medium-light skin tone",
-    "emoji": "👨🏼‍⚕",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F468_1F3FC_2696": {
-    "desc": "man judge: medium-light skin tone",
-    "emoji": "👨🏼‍⚖",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F468_1F3FC_2708": {
-    "desc": "man pilot: medium-light skin tone",
-    "emoji": "👨🏼‍✈",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
   "1F468_1F3FD": {
     "desc": "man: medium skin tone",
     "emoji": "👨🏽",
     "group": "group",
     "since": 2,
     "subgroup": "person"
+  },
+  "1F468_1F3FD_2695": {
+    "desc": "man health worker: medium skin tone",
+    "emoji": "👨🏽‍⚕",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F468_1F3FD_2696": {
+    "desc": "man judge: medium skin tone",
+    "emoji": "👨🏽‍⚖",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F468_1F3FD_2708": {
+    "desc": "man pilot: medium skin tone",
+    "emoji": "👨🏽‍✈",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
   },
   "1F468_1F3FD_1F33E": {
     "desc": "man farmer: medium skin tone",
@@ -6474,33 +8189,33 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
-  "1F468_1F3FD_2695": {
-    "desc": "man health worker: medium skin tone",
-    "emoji": "👨🏽‍⚕",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F468_1F3FD_2696": {
-    "desc": "man judge: medium skin tone",
-    "emoji": "👨🏽‍⚖",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F468_1F3FD_2708": {
-    "desc": "man pilot: medium skin tone",
-    "emoji": "👨🏽‍✈",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
   "1F468_1F3FE": {
     "desc": "man: medium-dark skin tone",
     "emoji": "👨🏾",
     "group": "group",
     "since": 2,
     "subgroup": "person"
+  },
+  "1F468_1F3FE_2695": {
+    "desc": "man health worker: medium-dark skin tone",
+    "emoji": "👨🏾‍⚕",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F468_1F3FE_2696": {
+    "desc": "man judge: medium-dark skin tone",
+    "emoji": "👨🏾‍⚖",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F468_1F3FE_2708": {
+    "desc": "man pilot: medium-dark skin tone",
+    "emoji": "👨🏾‍✈",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
   },
   "1F468_1F3FE_1F33E": {
     "desc": "man farmer: medium-dark skin tone",
@@ -6670,33 +8385,33 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
-  "1F468_1F3FE_2695": {
-    "desc": "man health worker: medium-dark skin tone",
-    "emoji": "👨🏾‍⚕",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F468_1F3FE_2696": {
-    "desc": "man judge: medium-dark skin tone",
-    "emoji": "👨🏾‍⚖",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F468_1F3FE_2708": {
-    "desc": "man pilot: medium-dark skin tone",
-    "emoji": "👨🏾‍✈",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
   "1F468_1F3FF": {
     "desc": "man: dark skin tone",
     "emoji": "👨🏿",
     "group": "group",
     "since": 2,
     "subgroup": "person"
+  },
+  "1F468_1F3FF_2695": {
+    "desc": "man health worker: dark skin tone",
+    "emoji": "👨🏿‍⚕",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F468_1F3FF_2696": {
+    "desc": "man judge: dark skin tone",
+    "emoji": "👨🏿‍⚖",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F468_1F3FF_2708": {
+    "desc": "man pilot: dark skin tone",
+    "emoji": "👨🏿‍✈",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
   },
   "1F468_1F3FF_1F33E": {
     "desc": "man farmer: dark skin tone",
@@ -6866,145 +8581,61 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
-  "1F468_1F3FF_2695": {
-    "desc": "man health worker: dark skin tone",
-    "emoji": "👨🏿‍⚕",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F468_1F3FF_2696": {
-    "desc": "man judge: dark skin tone",
-    "emoji": "👨🏿‍⚖",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F468_1F3FF_2708": {
-    "desc": "man pilot: dark skin tone",
-    "emoji": "👨🏿‍✈",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F468_1F4BB": {
-    "desc": "man technologist",
-    "emoji": "👨‍💻",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F468_1F4BC": {
-    "desc": "man office worker",
-    "emoji": "👨‍💼",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F468_1F527": {
-    "desc": "man mechanic",
-    "emoji": "👨‍🔧",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F468_1F52C": {
-    "desc": "man scientist",
-    "emoji": "👨‍🔬",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F468_1F680": {
-    "desc": "man astronaut",
-    "emoji": "👨‍🚀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F468_1F692": {
-    "desc": "man firefighter",
-    "emoji": "👨‍🚒",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F468_1F9AF": {
-    "desc": "man with probing cane",
-    "emoji": "👨‍🦯",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-activity"
-  },
-  "1F468_1F9B0": {
-    "desc": "man: red hair",
-    "emoji": "👨‍🦰",
-    "group": "group",
-    "since": 11,
-    "subgroup": "person"
-  },
-  "1F468_1F9B1": {
-    "desc": "man: curly hair",
-    "emoji": "👨‍🦱",
-    "group": "group",
-    "since": 11,
-    "subgroup": "person"
-  },
-  "1F468_1F9B2": {
-    "desc": "man: bald",
-    "emoji": "👨‍🦲",
-    "group": "group",
-    "since": 11,
-    "subgroup": "person"
-  },
-  "1F468_1F9B3": {
-    "desc": "man: white hair",
-    "emoji": "👨‍🦳",
-    "group": "group",
-    "since": 11,
-    "subgroup": "person"
-  },
-  "1F468_1F9BC": {
-    "desc": "man in motorized wheelchair",
-    "emoji": "👨‍🦼",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-activity"
-  },
-  "1F468_1F9BD": {
-    "desc": "man in manual wheelchair",
-    "emoji": "👨‍🦽",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-activity"
-  },
-  "1F468_2695": {
-    "desc": "man health worker",
-    "emoji": "👨‍⚕",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F468_2696": {
-    "desc": "man judge",
-    "emoji": "👨‍⚖",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F468_2708": {
-    "desc": "man pilot",
-    "emoji": "👨‍✈",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
   "1F469": {
     "desc": "woman",
     "emoji": "👩",
     "group": "group",
     "since": 2,
     "subgroup": "person"
+  },
+  "1F469_2695": {
+    "desc": "woman health worker",
+    "emoji": "👩‍⚕",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F469_2696": {
+    "desc": "woman judge",
+    "emoji": "👩‍⚖",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F469_2708": {
+    "desc": "woman pilot",
+    "emoji": "👩‍✈",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F491.MW": {
+    "desc": "couple with heart: woman, man",
+    "emoji": "👩‍❤‍👨",
+    "group": "group",
+    "since": 2,
+    "subgroup": "family"
+  },
+  "1F491.WW": {
+    "desc": "couple with heart: woman, woman",
+    "emoji": "👩‍❤‍👩",
+    "group": "group",
+    "since": 2,
+    "subgroup": "family"
+  },
+  "1F48F.MW": {
+    "desc": "kiss: woman, man",
+    "emoji": "👩‍❤‍💋‍👨",
+    "group": "group",
+    "since": 2,
+    "subgroup": "family"
+  },
+  "1F48F.WW": {
+    "desc": "kiss: woman, woman",
+    "emoji": "👩‍❤‍💋‍👩",
+    "group": "group",
+    "since": 2,
+    "subgroup": "family"
   },
   "1F469_1F33E": {
     "desc": "woman farmer",
@@ -7055,12 +8686,194 @@
     "since": 4,
     "subgroup": "person-role"
   },
+  "1F46A.WB": {
+    "desc": "family: woman, boy",
+    "emoji": "👩‍👦",
+    "group": "group",
+    "since": 4,
+    "subgroup": "family"
+  },
+  "1F46A.WBB": {
+    "desc": "family: woman, boy, boy",
+    "emoji": "👩‍👦‍👦",
+    "group": "group",
+    "since": 4,
+    "subgroup": "family"
+  },
+  "1F46A.WG": {
+    "desc": "family: woman, girl",
+    "emoji": "👩‍👧",
+    "group": "group",
+    "since": 4,
+    "subgroup": "family"
+  },
+  "1F46A.WGB": {
+    "desc": "family: woman, girl, boy",
+    "emoji": "👩‍👧‍👦",
+    "group": "group",
+    "since": 4,
+    "subgroup": "family"
+  },
+  "1F46A.WGG": {
+    "desc": "family: woman, girl, girl",
+    "emoji": "👩‍👧‍👧",
+    "group": "group",
+    "since": 4,
+    "subgroup": "family"
+  },
+  "1F46A.WWB": {
+    "desc": "family: woman, woman, boy",
+    "emoji": "👩‍👩‍👦",
+    "group": "group",
+    "since": 2,
+    "subgroup": "family"
+  },
+  "1F46A.WWBB": {
+    "desc": "family: woman, woman, boy, boy",
+    "emoji": "👩‍👩‍👦‍👦",
+    "group": "group",
+    "since": 2,
+    "subgroup": "family"
+  },
+  "1F46A.WWG": {
+    "desc": "family: woman, woman, girl",
+    "emoji": "👩‍👩‍👧",
+    "group": "group",
+    "since": 2,
+    "subgroup": "family"
+  },
+  "1F46A.WWGB": {
+    "desc": "family: woman, woman, girl, boy",
+    "emoji": "👩‍👩‍👧‍👦",
+    "group": "group",
+    "since": 2,
+    "subgroup": "family"
+  },
+  "1F46A.WWGG": {
+    "desc": "family: woman, woman, girl, girl",
+    "emoji": "👩‍👩‍👧‍👧",
+    "group": "group",
+    "since": 2,
+    "subgroup": "family"
+  },
+  "1F469_1F4BB": {
+    "desc": "woman technologist",
+    "emoji": "👩‍💻",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F469_1F4BC": {
+    "desc": "woman office worker",
+    "emoji": "👩‍💼",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F469_1F527": {
+    "desc": "woman mechanic",
+    "emoji": "👩‍🔧",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F469_1F52C": {
+    "desc": "woman scientist",
+    "emoji": "👩‍🔬",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F469_1F680": {
+    "desc": "woman astronaut",
+    "emoji": "👩‍🚀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F469_1F692": {
+    "desc": "woman firefighter",
+    "emoji": "👩‍🚒",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F469_1F9AF": {
+    "desc": "woman with probing cane",
+    "emoji": "👩‍🦯",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-activity"
+  },
+  "1F469_1F9B0": {
+    "desc": "woman: red hair",
+    "emoji": "👩‍🦰",
+    "group": "group",
+    "since": 11,
+    "subgroup": "person"
+  },
+  "1F469_1F9B1": {
+    "desc": "woman: curly hair",
+    "emoji": "👩‍🦱",
+    "group": "group",
+    "since": 11,
+    "subgroup": "person"
+  },
+  "1F469_1F9B2": {
+    "desc": "woman: bald",
+    "emoji": "👩‍🦲",
+    "group": "group",
+    "since": 11,
+    "subgroup": "person"
+  },
+  "1F469_1F9B3": {
+    "desc": "woman: white hair",
+    "emoji": "👩‍🦳",
+    "group": "group",
+    "since": 11,
+    "subgroup": "person"
+  },
+  "1F469_1F9BC": {
+    "desc": "woman in motorized wheelchair",
+    "emoji": "👩‍🦼",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-activity"
+  },
+  "1F469_1F9BD": {
+    "desc": "woman in manual wheelchair",
+    "emoji": "👩‍🦽",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-activity"
+  },
   "1F469_1F3FB": {
     "desc": "woman: light skin tone",
     "emoji": "👩🏻",
     "group": "group",
     "since": 2,
     "subgroup": "person"
+  },
+  "1F469_1F3FB_2695": {
+    "desc": "woman health worker: light skin tone",
+    "emoji": "👩🏻‍⚕",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F469_1F3FB_2696": {
+    "desc": "woman judge: light skin tone",
+    "emoji": "👩🏻‍⚖",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F469_1F3FB_2708": {
+    "desc": "woman pilot: light skin tone",
+    "emoji": "👩🏻‍✈",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
   },
   "1F469_1F3FB_1F33E": {
     "desc": "woman farmer: light skin tone",
@@ -7258,33 +9071,33 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
-  "1F469_1F3FB_2695": {
-    "desc": "woman health worker: light skin tone",
-    "emoji": "👩🏻‍⚕",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F469_1F3FB_2696": {
-    "desc": "woman judge: light skin tone",
-    "emoji": "👩🏻‍⚖",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F469_1F3FB_2708": {
-    "desc": "woman pilot: light skin tone",
-    "emoji": "👩🏻‍✈",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
   "1F469_1F3FC": {
     "desc": "woman: medium-light skin tone",
     "emoji": "👩🏼",
     "group": "group",
     "since": 2,
     "subgroup": "person"
+  },
+  "1F469_1F3FC_2695": {
+    "desc": "woman health worker: medium-light skin tone",
+    "emoji": "👩🏼‍⚕",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F469_1F3FC_2696": {
+    "desc": "woman judge: medium-light skin tone",
+    "emoji": "👩🏼‍⚖",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F469_1F3FC_2708": {
+    "desc": "woman pilot: medium-light skin tone",
+    "emoji": "👩🏼‍✈",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
   },
   "1F469_1F3FC_1F33E": {
     "desc": "woman farmer: medium-light skin tone",
@@ -7482,33 +9295,33 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
-  "1F469_1F3FC_2695": {
-    "desc": "woman health worker: medium-light skin tone",
-    "emoji": "👩🏼‍⚕",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F469_1F3FC_2696": {
-    "desc": "woman judge: medium-light skin tone",
-    "emoji": "👩🏼‍⚖",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F469_1F3FC_2708": {
-    "desc": "woman pilot: medium-light skin tone",
-    "emoji": "👩🏼‍✈",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
   "1F469_1F3FD": {
     "desc": "woman: medium skin tone",
     "emoji": "👩🏽",
     "group": "group",
     "since": 2,
     "subgroup": "person"
+  },
+  "1F469_1F3FD_2695": {
+    "desc": "woman health worker: medium skin tone",
+    "emoji": "👩🏽‍⚕",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F469_1F3FD_2696": {
+    "desc": "woman judge: medium skin tone",
+    "emoji": "👩🏽‍⚖",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F469_1F3FD_2708": {
+    "desc": "woman pilot: medium skin tone",
+    "emoji": "👩🏽‍✈",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
   },
   "1F469_1F3FD_1F33E": {
     "desc": "woman farmer: medium skin tone",
@@ -7706,33 +9519,33 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
-  "1F469_1F3FD_2695": {
-    "desc": "woman health worker: medium skin tone",
-    "emoji": "👩🏽‍⚕",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F469_1F3FD_2696": {
-    "desc": "woman judge: medium skin tone",
-    "emoji": "👩🏽‍⚖",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F469_1F3FD_2708": {
-    "desc": "woman pilot: medium skin tone",
-    "emoji": "👩🏽‍✈",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
   "1F469_1F3FE": {
     "desc": "woman: medium-dark skin tone",
     "emoji": "👩🏾",
     "group": "group",
     "since": 2,
     "subgroup": "person"
+  },
+  "1F469_1F3FE_2695": {
+    "desc": "woman health worker: medium-dark skin tone",
+    "emoji": "👩🏾‍⚕",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F469_1F3FE_2696": {
+    "desc": "woman judge: medium-dark skin tone",
+    "emoji": "👩🏾‍⚖",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F469_1F3FE_2708": {
+    "desc": "woman pilot: medium-dark skin tone",
+    "emoji": "👩🏾‍✈",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
   },
   "1F469_1F3FE_1F33E": {
     "desc": "woman farmer: medium-dark skin tone",
@@ -7930,33 +9743,33 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
-  "1F469_1F3FE_2695": {
-    "desc": "woman health worker: medium-dark skin tone",
-    "emoji": "👩🏾‍⚕",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F469_1F3FE_2696": {
-    "desc": "woman judge: medium-dark skin tone",
-    "emoji": "👩🏾‍⚖",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F469_1F3FE_2708": {
-    "desc": "woman pilot: medium-dark skin tone",
-    "emoji": "👩🏾‍✈",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
   "1F469_1F3FF": {
     "desc": "woman: dark skin tone",
     "emoji": "👩🏿",
     "group": "group",
     "since": 2,
     "subgroup": "person"
+  },
+  "1F469_1F3FF_2695": {
+    "desc": "woman health worker: dark skin tone",
+    "emoji": "👩🏿‍⚕",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F469_1F3FF_2696": {
+    "desc": "woman judge: dark skin tone",
+    "emoji": "👩🏿‍⚖",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F469_1F3FF_2708": {
+    "desc": "woman pilot: dark skin tone",
+    "emoji": "👩🏿‍✈",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
   },
   "1F469_1F3FF_1F33E": {
     "desc": "woman farmer: dark skin tone",
@@ -8154,314 +9967,6 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
-  "1F469_1F3FF_2695": {
-    "desc": "woman health worker: dark skin tone",
-    "emoji": "👩🏿‍⚕",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F469_1F3FF_2696": {
-    "desc": "woman judge: dark skin tone",
-    "emoji": "👩🏿‍⚖",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F469_1F3FF_2708": {
-    "desc": "woman pilot: dark skin tone",
-    "emoji": "👩🏿‍✈",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F469_1F4BB": {
-    "desc": "woman technologist",
-    "emoji": "👩‍💻",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F469_1F4BC": {
-    "desc": "woman office worker",
-    "emoji": "👩‍💼",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F469_1F527": {
-    "desc": "woman mechanic",
-    "emoji": "👩‍🔧",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F469_1F52C": {
-    "desc": "woman scientist",
-    "emoji": "👩‍🔬",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F469_1F680": {
-    "desc": "woman astronaut",
-    "emoji": "👩‍🚀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F469_1F692": {
-    "desc": "woman firefighter",
-    "emoji": "👩‍🚒",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F469_1F9AF": {
-    "desc": "woman with probing cane",
-    "emoji": "👩‍🦯",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-activity"
-  },
-  "1F469_1F9B0": {
-    "desc": "woman: red hair",
-    "emoji": "👩‍🦰",
-    "group": "group",
-    "since": 11,
-    "subgroup": "person"
-  },
-  "1F469_1F9B1": {
-    "desc": "woman: curly hair",
-    "emoji": "👩‍🦱",
-    "group": "group",
-    "since": 11,
-    "subgroup": "person"
-  },
-  "1F469_1F9B2": {
-    "desc": "woman: bald",
-    "emoji": "👩‍🦲",
-    "group": "group",
-    "since": 11,
-    "subgroup": "person"
-  },
-  "1F469_1F9B3": {
-    "desc": "woman: white hair",
-    "emoji": "👩‍🦳",
-    "group": "group",
-    "since": 11,
-    "subgroup": "person"
-  },
-  "1F469_1F9BC": {
-    "desc": "woman in motorized wheelchair",
-    "emoji": "👩‍🦼",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-activity"
-  },
-  "1F469_1F9BD": {
-    "desc": "woman in manual wheelchair",
-    "emoji": "👩‍🦽",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-activity"
-  },
-  "1F469_2695": {
-    "desc": "woman health worker",
-    "emoji": "👩‍⚕",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F469_2696": {
-    "desc": "woman judge",
-    "emoji": "👩‍⚖",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F469_2708": {
-    "desc": "woman pilot",
-    "emoji": "👩‍✈",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F46A.MB": {
-    "desc": "family: man, boy",
-    "emoji": "👨‍👦",
-    "group": "group",
-    "since": 4,
-    "subgroup": "family"
-  },
-  "1F46A.MBB": {
-    "desc": "family: man, boy, boy",
-    "emoji": "👨‍👦‍👦",
-    "group": "group",
-    "since": 4,
-    "subgroup": "family"
-  },
-  "1F46A.MG": {
-    "desc": "family: man, girl",
-    "emoji": "👨‍👧",
-    "group": "group",
-    "since": 4,
-    "subgroup": "family"
-  },
-  "1F46A.MGB": {
-    "desc": "family: man, girl, boy",
-    "emoji": "👨‍👧‍👦",
-    "group": "group",
-    "since": 4,
-    "subgroup": "family"
-  },
-  "1F46A.MGG": {
-    "desc": "family: man, girl, girl",
-    "emoji": "👨‍👧‍👧",
-    "group": "group",
-    "since": 4,
-    "subgroup": "family"
-  },
-  "1F46A.MMB": {
-    "desc": "family: man, man, boy",
-    "emoji": "👨‍👨‍👦",
-    "group": "group",
-    "since": 2,
-    "subgroup": "family"
-  },
-  "1F46A.MMBB": {
-    "desc": "family: man, man, boy, boy",
-    "emoji": "👨‍👨‍👦‍👦",
-    "group": "group",
-    "since": 2,
-    "subgroup": "family"
-  },
-  "1F46A.MMG": {
-    "desc": "family: man, man, girl",
-    "emoji": "👨‍👨‍👧",
-    "group": "group",
-    "since": 2,
-    "subgroup": "family"
-  },
-  "1F46A.MMGB": {
-    "desc": "family: man, man, girl, boy",
-    "emoji": "👨‍👨‍👧‍👦",
-    "group": "group",
-    "since": 2,
-    "subgroup": "family"
-  },
-  "1F46A.MMGG": {
-    "desc": "family: man, man, girl, girl",
-    "emoji": "👨‍👨‍👧‍👧",
-    "group": "group",
-    "since": 2,
-    "subgroup": "family"
-  },
-  "1F46A.MWB": {
-    "desc": "family: man, woman, boy",
-    "emoji": "👨‍👩‍👦",
-    "group": "group",
-    "since": 2,
-    "subgroup": "family"
-  },
-  "1F46A.MWBB": {
-    "desc": "family: man, woman, boy, boy",
-    "emoji": "👨‍👩‍👦‍👦",
-    "group": "group",
-    "since": 2,
-    "subgroup": "family"
-  },
-  "1F46A.MWG": {
-    "desc": "family: man, woman, girl",
-    "emoji": "👨‍👩‍👧",
-    "group": "group",
-    "since": 2,
-    "subgroup": "family"
-  },
-  "1F46A.MWGB": {
-    "desc": "family: man, woman, girl, boy",
-    "emoji": "👨‍👩‍👧‍👦",
-    "group": "group",
-    "since": 2,
-    "subgroup": "family"
-  },
-  "1F46A.MWGG": {
-    "desc": "family: man, woman, girl, girl",
-    "emoji": "👨‍👩‍👧‍👧",
-    "group": "group",
-    "since": 2,
-    "subgroup": "family"
-  },
-  "1F46A.WB": {
-    "desc": "family: woman, boy",
-    "emoji": "👩‍👦",
-    "group": "group",
-    "since": 4,
-    "subgroup": "family"
-  },
-  "1F46A.WBB": {
-    "desc": "family: woman, boy, boy",
-    "emoji": "👩‍👦‍👦",
-    "group": "group",
-    "since": 4,
-    "subgroup": "family"
-  },
-  "1F46A.WG": {
-    "desc": "family: woman, girl",
-    "emoji": "👩‍👧",
-    "group": "group",
-    "since": 4,
-    "subgroup": "family"
-  },
-  "1F46A.WGB": {
-    "desc": "family: woman, girl, boy",
-    "emoji": "👩‍👧‍👦",
-    "group": "group",
-    "since": 4,
-    "subgroup": "family"
-  },
-  "1F46A.WGG": {
-    "desc": "family: woman, girl, girl",
-    "emoji": "👩‍👧‍👧",
-    "group": "group",
-    "since": 4,
-    "subgroup": "family"
-  },
-  "1F46A.WWB": {
-    "desc": "family: woman, woman, boy",
-    "emoji": "👩‍👩‍👦",
-    "group": "group",
-    "since": 2,
-    "subgroup": "family"
-  },
-  "1F46A.WWBB": {
-    "desc": "family: woman, woman, boy, boy",
-    "emoji": "👩‍👩‍👦‍👦",
-    "group": "group",
-    "since": 2,
-    "subgroup": "family"
-  },
-  "1F46A.WWG": {
-    "desc": "family: woman, woman, girl",
-    "emoji": "👩‍👩‍👧",
-    "group": "group",
-    "since": 2,
-    "subgroup": "family"
-  },
-  "1F46A.WWGB": {
-    "desc": "family: woman, woman, girl, boy",
-    "emoji": "👩‍👩‍👧‍👦",
-    "group": "group",
-    "since": 2,
-    "subgroup": "family"
-  },
-  "1F46A.WWGG": {
-    "desc": "family: woman, woman, girl, girl",
-    "emoji": "👩‍👩‍👧‍👧",
-    "group": "group",
-    "since": 2,
-    "subgroup": "family"
-  },
   "1F46B": {
     "desc": "woman and man holding hands",
     "emoji": "👫",
@@ -8595,6 +10100,20 @@
     "since": 2,
     "subgroup": "person-role"
   },
+  "1F46E_2640": {
+    "desc": "woman police officer",
+    "emoji": "👮‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F46E_2642": {
+    "desc": "man police officer",
+    "emoji": "👮‍♂",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
   "1F46E_1F3FB": {
     "desc": "police officer: light skin tone",
     "emoji": "👮🏻",
@@ -8700,20 +10219,6 @@
     "since": 4,
     "subgroup": "person-role"
   },
-  "1F46E_2640": {
-    "desc": "woman police officer",
-    "emoji": "👮‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F46E_2642": {
-    "desc": "man police officer",
-    "emoji": "👮‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
   "1F46F": {
     "desc": "people with bunny ears",
     "emoji": "👯",
@@ -8782,6 +10287,20 @@
     "emoji": "👱",
     "group": "group",
     "since": 2,
+    "subgroup": "person"
+  },
+  "1F471_2640": {
+    "desc": "woman: blond hair",
+    "emoji": "👱‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person"
+  },
+  "1F471_2642": {
+    "desc": "man: blond hair",
+    "emoji": "👱‍♂",
+    "group": "group",
+    "since": 4,
     "subgroup": "person"
   },
   "1F471_1F3FB": {
@@ -8889,20 +10408,6 @@
     "since": 4,
     "subgroup": "person"
   },
-  "1F471_2640": {
-    "desc": "woman: blond hair",
-    "emoji": "👱‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person"
-  },
-  "1F471_2642": {
-    "desc": "man: blond hair",
-    "emoji": "👱‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person"
-  },
   "1F472": {
     "desc": "man with skullcap",
     "emoji": "👲",
@@ -8950,6 +10455,20 @@
     "emoji": "👳",
     "group": "group",
     "since": 2,
+    "subgroup": "person-role"
+  },
+  "1F473_2640": {
+    "desc": "woman wearing turban",
+    "emoji": "👳‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F473_2642": {
+    "desc": "man wearing turban",
+    "emoji": "👳‍♂",
+    "group": "group",
+    "since": 4,
     "subgroup": "person-role"
   },
   "1F473_1F3FB": {
@@ -9053,20 +10572,6 @@
   "1F473_1F3FF_2642": {
     "desc": "man wearing turban: dark skin tone",
     "emoji": "👳🏿‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F473_2640": {
-    "desc": "woman wearing turban",
-    "emoji": "👳‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F473_2642": {
-    "desc": "man wearing turban",
-    "emoji": "👳‍♂",
     "group": "group",
     "since": 4,
     "subgroup": "person-role"
@@ -9204,6 +10709,20 @@
     "since": 2,
     "subgroup": "person-role"
   },
+  "1F477_2640": {
+    "desc": "woman construction worker",
+    "emoji": "👷‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F477_2642": {
+    "desc": "man construction worker",
+    "emoji": "👷‍♂",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
   "1F477_1F3FB": {
     "desc": "construction worker: light skin tone",
     "emoji": "👷🏻",
@@ -9305,20 +10824,6 @@
   "1F477_1F3FF_2642": {
     "desc": "man construction worker: dark skin tone",
     "emoji": "👷🏿‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F477_2640": {
-    "desc": "woman construction worker",
-    "emoji": "👷‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F477_2642": {
-    "desc": "man construction worker",
-    "emoji": "👷‍♂",
     "group": "group",
     "since": 4,
     "subgroup": "person-role"
@@ -9463,6 +10968,20 @@
     "since": 2,
     "subgroup": "person-gesture"
   },
+  "1F481_2640": {
+    "desc": "woman tipping hand",
+    "emoji": "💁‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-gesture"
+  },
+  "1F481_2642": {
+    "desc": "man tipping hand",
+    "emoji": "💁‍♂",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-gesture"
+  },
   "1F481_1F3FB": {
     "desc": "person tipping hand: light skin tone",
     "emoji": "💁🏻",
@@ -9568,25 +11087,25 @@
     "since": 4,
     "subgroup": "person-gesture"
   },
-  "1F481_2640": {
-    "desc": "woman tipping hand",
-    "emoji": "💁‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-gesture"
-  },
-  "1F481_2642": {
-    "desc": "man tipping hand",
-    "emoji": "💁‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-gesture"
-  },
   "1F482": {
     "desc": "guard",
     "emoji": "💂",
     "group": "group",
     "since": 2,
+    "subgroup": "person-role"
+  },
+  "1F482_2640": {
+    "desc": "woman guard",
+    "emoji": "💂‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F482_2642": {
+    "desc": "man guard",
+    "emoji": "💂‍♂",
+    "group": "group",
+    "since": 4,
     "subgroup": "person-role"
   },
   "1F482_1F3FB": {
@@ -9694,20 +11213,6 @@
     "since": 4,
     "subgroup": "person-role"
   },
-  "1F482_2640": {
-    "desc": "woman guard",
-    "emoji": "💂‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F482_2642": {
-    "desc": "man guard",
-    "emoji": "💂‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
   "1F483": {
     "desc": "woman dancing",
     "emoji": "💃",
@@ -9804,6 +11309,20 @@
     "emoji": "💆",
     "group": "group",
     "since": 2,
+    "subgroup": "person-activity"
+  },
+  "1F486_2640": {
+    "desc": "woman getting massage",
+    "emoji": "💆‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-activity"
+  },
+  "1F486_2642": {
+    "desc": "man getting massage",
+    "emoji": "💆‍♂",
+    "group": "group",
+    "since": 4,
     "subgroup": "person-activity"
   },
   "1F486_1F3FB": {
@@ -9911,25 +11430,25 @@
     "since": 4,
     "subgroup": "person-activity"
   },
-  "1F486_2640": {
-    "desc": "woman getting massage",
-    "emoji": "💆‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-activity"
-  },
-  "1F486_2642": {
-    "desc": "man getting massage",
-    "emoji": "💆‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-activity"
-  },
   "1F487": {
     "desc": "person getting haircut",
     "emoji": "💇",
     "group": "group",
     "since": 2,
+    "subgroup": "person-activity"
+  },
+  "1F487_2640": {
+    "desc": "woman getting haircut",
+    "emoji": "💇‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-activity"
+  },
+  "1F487_2642": {
+    "desc": "man getting haircut",
+    "emoji": "💇‍♂",
+    "group": "group",
+    "since": 4,
     "subgroup": "person-activity"
   },
   "1F487_1F3FB": {
@@ -10037,20 +11556,6 @@
     "since": 4,
     "subgroup": "person-activity"
   },
-  "1F487_2640": {
-    "desc": "woman getting haircut",
-    "emoji": "💇‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-activity"
-  },
-  "1F487_2642": {
-    "desc": "man getting haircut",
-    "emoji": "💇‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-activity"
-  },
   "1F488": {
     "desc": "barber pole",
     "emoji": "💈",
@@ -10100,54 +11605,12 @@
     "since": 2,
     "subgroup": "clothing"
   },
-  "1F48F.MM": {
-    "desc": "kiss: man, man",
-    "emoji": "👨‍❤‍💋‍👨",
-    "group": "group",
-    "since": 2,
-    "subgroup": "family"
-  },
-  "1F48F.MW": {
-    "desc": "kiss: woman, man",
-    "emoji": "👩‍❤‍💋‍👨",
-    "group": "group",
-    "since": 2,
-    "subgroup": "family"
-  },
-  "1F48F.WW": {
-    "desc": "kiss: woman, woman",
-    "emoji": "👩‍❤‍💋‍👩",
-    "group": "group",
-    "since": 2,
-    "subgroup": "family"
-  },
   "1F490": {
     "desc": "bouquet",
     "emoji": "💐",
     "group": "group",
     "since": 2,
     "subgroup": "plant-flower"
-  },
-  "1F491.MM": {
-    "desc": "couple with heart: man, man",
-    "emoji": "👨‍❤‍👨",
-    "group": "group",
-    "since": 2,
-    "subgroup": "family"
-  },
-  "1F491.MW": {
-    "desc": "couple with heart: woman, man",
-    "emoji": "👩‍❤‍👨",
-    "group": "group",
-    "since": 2,
-    "subgroup": "family"
-  },
-  "1F491.WW": {
-    "desc": "couple with heart: woman, woman",
-    "emoji": "👩‍❤‍👩",
-    "group": "group",
-    "since": 2,
-    "subgroup": "family"
   },
   "1F492": {
     "desc": "wedding",
@@ -11661,6 +13124,20 @@
     "since": 2,
     "subgroup": "person-role"
   },
+  "1F575_2640": {
+    "desc": "woman detective",
+    "emoji": "🕵‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
+  "1F575_2642": {
+    "desc": "man detective",
+    "emoji": "🕵‍♂",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-role"
+  },
   "1F575_1F3FB": {
     "desc": "detective: light skin tone",
     "emoji": "🕵🏻",
@@ -11762,20 +13239,6 @@
   "1F575_1F3FF_2642": {
     "desc": "man detective: dark skin tone",
     "emoji": "🕵🏿‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F575_2640": {
-    "desc": "woman detective",
-    "emoji": "🕵‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-role"
-  },
-  "1F575_2642": {
-    "desc": "man detective",
-    "emoji": "🕵‍♂",
     "group": "group",
     "since": 4,
     "subgroup": "person-role"
@@ -12683,6 +14146,20 @@
     "since": 2,
     "subgroup": "person-gesture"
   },
+  "1F645_2640": {
+    "desc": "woman gesturing NO",
+    "emoji": "🙅‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-gesture"
+  },
+  "1F645_2642": {
+    "desc": "man gesturing NO",
+    "emoji": "🙅‍♂",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-gesture"
+  },
   "1F645_1F3FB": {
     "desc": "person gesturing NO: light skin tone",
     "emoji": "🙅🏻",
@@ -12788,25 +14265,25 @@
     "since": 4,
     "subgroup": "person-gesture"
   },
-  "1F645_2640": {
-    "desc": "woman gesturing NO",
-    "emoji": "🙅‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-gesture"
-  },
-  "1F645_2642": {
-    "desc": "man gesturing NO",
-    "emoji": "🙅‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-gesture"
-  },
   "1F646": {
     "desc": "person gesturing OK",
     "emoji": "🙆",
     "group": "group",
     "since": 2,
+    "subgroup": "person-gesture"
+  },
+  "1F646_2640": {
+    "desc": "woman gesturing OK",
+    "emoji": "🙆‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-gesture"
+  },
+  "1F646_2642": {
+    "desc": "man gesturing OK",
+    "emoji": "🙆‍♂",
+    "group": "group",
+    "since": 4,
     "subgroup": "person-gesture"
   },
   "1F646_1F3FB": {
@@ -12914,25 +14391,25 @@
     "since": 4,
     "subgroup": "person-gesture"
   },
-  "1F646_2640": {
-    "desc": "woman gesturing OK",
-    "emoji": "🙆‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-gesture"
-  },
-  "1F646_2642": {
-    "desc": "man gesturing OK",
-    "emoji": "🙆‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-gesture"
-  },
   "1F647": {
     "desc": "person bowing",
     "emoji": "🙇",
     "group": "group",
     "since": 2,
+    "subgroup": "person-gesture"
+  },
+  "1F647_2640": {
+    "desc": "woman bowing",
+    "emoji": "🙇‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-gesture"
+  },
+  "1F647_2642": {
+    "desc": "man bowing",
+    "emoji": "🙇‍♂",
+    "group": "group",
+    "since": 4,
     "subgroup": "person-gesture"
   },
   "1F647_1F3FB": {
@@ -13040,20 +14517,6 @@
     "since": 4,
     "subgroup": "person-gesture"
   },
-  "1F647_2640": {
-    "desc": "woman bowing",
-    "emoji": "🙇‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-gesture"
-  },
-  "1F647_2642": {
-    "desc": "man bowing",
-    "emoji": "🙇‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-gesture"
-  },
   "1F648": {
     "desc": "see-no-evil monkey",
     "emoji": "🙈",
@@ -13080,6 +14543,20 @@
     "emoji": "🙋",
     "group": "group",
     "since": 2,
+    "subgroup": "person-gesture"
+  },
+  "1F64B_2640": {
+    "desc": "woman raising hand",
+    "emoji": "🙋‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-gesture"
+  },
+  "1F64B_2642": {
+    "desc": "man raising hand",
+    "emoji": "🙋‍♂",
+    "group": "group",
+    "since": 4,
     "subgroup": "person-gesture"
   },
   "1F64B_1F3FB": {
@@ -13187,20 +14664,6 @@
     "since": 4,
     "subgroup": "person-gesture"
   },
-  "1F64B_2640": {
-    "desc": "woman raising hand",
-    "emoji": "🙋‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-gesture"
-  },
-  "1F64B_2642": {
-    "desc": "man raising hand",
-    "emoji": "🙋‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-gesture"
-  },
   "1F64C": {
     "desc": "raising hands",
     "emoji": "🙌",
@@ -13248,6 +14711,20 @@
     "emoji": "🙍",
     "group": "group",
     "since": 2,
+    "subgroup": "person-gesture"
+  },
+  "1F64D_2640": {
+    "desc": "woman frowning",
+    "emoji": "🙍‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-gesture"
+  },
+  "1F64D_2642": {
+    "desc": "man frowning",
+    "emoji": "🙍‍♂",
+    "group": "group",
+    "since": 4,
     "subgroup": "person-gesture"
   },
   "1F64D_1F3FB": {
@@ -13355,25 +14832,25 @@
     "since": 4,
     "subgroup": "person-gesture"
   },
-  "1F64D_2640": {
-    "desc": "woman frowning",
-    "emoji": "🙍‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-gesture"
-  },
-  "1F64D_2642": {
-    "desc": "man frowning",
-    "emoji": "🙍‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-gesture"
-  },
   "1F64E": {
     "desc": "person pouting",
     "emoji": "🙎",
     "group": "group",
     "since": 2,
+    "subgroup": "person-gesture"
+  },
+  "1F64E_2640": {
+    "desc": "woman pouting",
+    "emoji": "🙎‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-gesture"
+  },
+  "1F64E_2642": {
+    "desc": "man pouting",
+    "emoji": "🙎‍♂",
+    "group": "group",
+    "since": 4,
     "subgroup": "person-gesture"
   },
   "1F64E_1F3FB": {
@@ -13477,20 +14954,6 @@
   "1F64E_1F3FF_2642": {
     "desc": "man pouting: dark skin tone",
     "emoji": "🙎🏿‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-gesture"
-  },
-  "1F64E_2640": {
-    "desc": "woman pouting",
-    "emoji": "🙎‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-gesture"
-  },
-  "1F64E_2642": {
-    "desc": "man pouting",
-    "emoji": "🙎‍♂",
     "group": "group",
     "since": 4,
     "subgroup": "person-gesture"
@@ -13789,6 +15252,20 @@
     "since": 2,
     "subgroup": "person-sport"
   },
+  "1F6A3_2640": {
+    "desc": "woman rowing boat",
+    "emoji": "🚣‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
+  "1F6A3_2642": {
+    "desc": "man rowing boat",
+    "emoji": "🚣‍♂",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
   "1F6A3_1F3FB": {
     "desc": "person rowing boat: light skin tone",
     "emoji": "🚣🏻",
@@ -13890,20 +15367,6 @@
   "1F6A3_1F3FF_2642": {
     "desc": "man rowing boat: dark skin tone",
     "emoji": "🚣🏿‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
-  "1F6A3_2640": {
-    "desc": "woman rowing boat",
-    "emoji": "🚣‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
-  "1F6A3_2642": {
-    "desc": "man rowing boat",
-    "emoji": "🚣‍♂",
     "group": "group",
     "since": 4,
     "subgroup": "person-sport"
@@ -14027,6 +15490,20 @@
     "since": 2,
     "subgroup": "person-sport"
   },
+  "1F6B4_2640": {
+    "desc": "woman biking",
+    "emoji": "🚴‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
+  "1F6B4_2642": {
+    "desc": "man biking",
+    "emoji": "🚴‍♂",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
   "1F6B4_1F3FB": {
     "desc": "person biking: light skin tone",
     "emoji": "🚴🏻",
@@ -14132,25 +15609,25 @@
     "since": 4,
     "subgroup": "person-sport"
   },
-  "1F6B4_2640": {
-    "desc": "woman biking",
-    "emoji": "🚴‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
-  "1F6B4_2642": {
-    "desc": "man biking",
-    "emoji": "🚴‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
   "1F6B5": {
     "desc": "person mountain biking",
     "emoji": "🚵",
     "group": "group",
     "since": 2,
+    "subgroup": "person-sport"
+  },
+  "1F6B5_2640": {
+    "desc": "woman mountain biking",
+    "emoji": "🚵‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
+  "1F6B5_2642": {
+    "desc": "man mountain biking",
+    "emoji": "🚵‍♂",
+    "group": "group",
+    "since": 4,
     "subgroup": "person-sport"
   },
   "1F6B5_1F3FB": {
@@ -14258,25 +15735,25 @@
     "since": 4,
     "subgroup": "person-sport"
   },
-  "1F6B5_2640": {
-    "desc": "woman mountain biking",
-    "emoji": "🚵‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
-  "1F6B5_2642": {
-    "desc": "man mountain biking",
-    "emoji": "🚵‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
   "1F6B6": {
     "desc": "person walking",
     "emoji": "🚶",
     "group": "group",
     "since": 2,
+    "subgroup": "person-activity"
+  },
+  "1F6B6_2640": {
+    "desc": "woman walking",
+    "emoji": "🚶‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-activity"
+  },
+  "1F6B6_2642": {
+    "desc": "man walking",
+    "emoji": "🚶‍♂",
+    "group": "group",
+    "since": 4,
     "subgroup": "person-activity"
   },
   "1F6B6_1F3FB": {
@@ -14380,20 +15857,6 @@
   "1F6B6_1F3FF_2642": {
     "desc": "man walking: dark skin tone",
     "emoji": "🚶🏿‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-activity"
-  },
-  "1F6B6_2640": {
-    "desc": "woman walking",
-    "emoji": "🚶‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-activity"
-  },
-  "1F6B6_2642": {
-    "desc": "man walking",
-    "emoji": "🚶‍♂",
     "group": "group",
     "since": 4,
     "subgroup": "person-activity"
@@ -15308,6 +16771,20 @@
     "since": 4,
     "subgroup": "person-gesture"
   },
+  "1F926_2640": {
+    "desc": "woman facepalming",
+    "emoji": "🤦‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-gesture"
+  },
+  "1F926_2642": {
+    "desc": "man facepalming",
+    "emoji": "🤦‍♂",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-gesture"
+  },
   "1F926_1F3FB": {
     "desc": "person facepalming: light skin tone",
     "emoji": "🤦🏻",
@@ -15409,20 +16886,6 @@
   "1F926_1F3FF_2642": {
     "desc": "man facepalming: dark skin tone",
     "emoji": "🤦🏿‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-gesture"
-  },
-  "1F926_2640": {
-    "desc": "woman facepalming",
-    "emoji": "🤦‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-gesture"
-  },
-  "1F926_2642": {
-    "desc": "man facepalming",
-    "emoji": "🤦‍♂",
     "group": "group",
     "since": 4,
     "subgroup": "person-gesture"
@@ -15791,6 +17254,20 @@
     "since": 4,
     "subgroup": "person-gesture"
   },
+  "1F937_2640": {
+    "desc": "woman shrugging",
+    "emoji": "🤷‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-gesture"
+  },
+  "1F937_2642": {
+    "desc": "man shrugging",
+    "emoji": "🤷‍♂",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-gesture"
+  },
   "1F937_1F3FB": {
     "desc": "person shrugging: light skin tone",
     "emoji": "🤷🏻",
@@ -15896,23 +17373,23 @@
     "since": 4,
     "subgroup": "person-gesture"
   },
-  "1F937_2640": {
-    "desc": "woman shrugging",
-    "emoji": "🤷‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-gesture"
-  },
-  "1F937_2642": {
-    "desc": "man shrugging",
-    "emoji": "🤷‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-gesture"
-  },
   "1F938": {
     "desc": "person cartwheeling",
     "emoji": "🤸",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
+  "1F938_2640": {
+    "desc": "woman cartwheeling",
+    "emoji": "🤸‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
+  "1F938_2642": {
+    "desc": "man cartwheeling",
+    "emoji": "🤸‍♂",
     "group": "group",
     "since": 4,
     "subgroup": "person-sport"
@@ -16022,23 +17499,23 @@
     "since": 4,
     "subgroup": "person-sport"
   },
-  "1F938_2640": {
-    "desc": "woman cartwheeling",
-    "emoji": "🤸‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
-  "1F938_2642": {
-    "desc": "man cartwheeling",
-    "emoji": "🤸‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
   "1F939": {
     "desc": "person juggling",
     "emoji": "🤹",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
+  "1F939_2640": {
+    "desc": "woman juggling",
+    "emoji": "🤹‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
+  "1F939_2642": {
+    "desc": "man juggling",
+    "emoji": "🤹‍♂",
     "group": "group",
     "since": 4,
     "subgroup": "person-sport"
@@ -16148,20 +17625,6 @@
     "since": 4,
     "subgroup": "person-sport"
   },
-  "1F939_2640": {
-    "desc": "woman juggling",
-    "emoji": "🤹‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
-  "1F939_2642": {
-    "desc": "man juggling",
-    "emoji": "🤹‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
   "1F93A": {
     "desc": "person fencing",
     "emoji": "🤺",
@@ -16193,6 +17656,20 @@
   "1F93D": {
     "desc": "person playing water polo",
     "emoji": "🤽",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
+  "1F93D_2640": {
+    "desc": "woman playing water polo",
+    "emoji": "🤽‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
+  "1F93D_2642": {
+    "desc": "man playing water polo",
+    "emoji": "🤽‍♂",
     "group": "group",
     "since": 4,
     "subgroup": "person-sport"
@@ -16302,23 +17779,23 @@
     "since": 4,
     "subgroup": "person-sport"
   },
-  "1F93D_2640": {
-    "desc": "woman playing water polo",
-    "emoji": "🤽‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
-  "1F93D_2642": {
-    "desc": "man playing water polo",
-    "emoji": "🤽‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
   "1F93E": {
     "desc": "person playing handball",
     "emoji": "🤾",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
+  "1F93E_2640": {
+    "desc": "woman playing handball",
+    "emoji": "🤾‍♀",
+    "group": "group",
+    "since": 4,
+    "subgroup": "person-sport"
+  },
+  "1F93E_2642": {
+    "desc": "man playing handball",
+    "emoji": "🤾‍♂",
     "group": "group",
     "since": 4,
     "subgroup": "person-sport"
@@ -16424,20 +17901,6 @@
   "1F93E_1F3FF_2642": {
     "desc": "man playing handball: dark skin tone",
     "emoji": "🤾🏿‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
-  "1F93E_2640": {
-    "desc": "woman playing handball",
-    "emoji": "🤾‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
-  "1F93E_2642": {
-    "desc": "man playing handball",
-    "emoji": "🤾‍♂",
     "group": "group",
     "since": 4,
     "subgroup": "person-sport"
@@ -17296,6 +18759,20 @@
     "since": 11,
     "subgroup": "person-fantasy"
   },
+  "1F9B8_2640": {
+    "desc": "woman superhero",
+    "emoji": "🦸‍♀",
+    "group": "group",
+    "since": 11,
+    "subgroup": "person-fantasy"
+  },
+  "1F9B8_2642": {
+    "desc": "man superhero",
+    "emoji": "🦸‍♂",
+    "group": "group",
+    "since": 11,
+    "subgroup": "person-fantasy"
+  },
   "1F9B8_1F3FB": {
     "desc": "superhero: light skin tone",
     "emoji": "🦸🏻",
@@ -17401,23 +18878,23 @@
     "since": 11,
     "subgroup": "person-fantasy"
   },
-  "1F9B8_2640": {
-    "desc": "woman superhero",
-    "emoji": "🦸‍♀",
-    "group": "group",
-    "since": 11,
-    "subgroup": "person-fantasy"
-  },
-  "1F9B8_2642": {
-    "desc": "man superhero",
-    "emoji": "🦸‍♂",
-    "group": "group",
-    "since": 11,
-    "subgroup": "person-fantasy"
-  },
   "1F9B9": {
     "desc": "supervillain",
     "emoji": "🦹",
+    "group": "group",
+    "since": 11,
+    "subgroup": "person-fantasy"
+  },
+  "1F9B9_2640": {
+    "desc": "woman supervillain",
+    "emoji": "🦹‍♀",
+    "group": "group",
+    "since": 11,
+    "subgroup": "person-fantasy"
+  },
+  "1F9B9_2642": {
+    "desc": "man supervillain",
+    "emoji": "🦹‍♂",
     "group": "group",
     "since": 11,
     "subgroup": "person-fantasy"
@@ -17523,20 +19000,6 @@
   "1F9B9_1F3FF_2642": {
     "desc": "man supervillain: dark skin tone",
     "emoji": "🦹🏿‍♂",
-    "group": "group",
-    "since": 11,
-    "subgroup": "person-fantasy"
-  },
-  "1F9B9_2640": {
-    "desc": "woman supervillain",
-    "emoji": "🦹‍♀",
-    "group": "group",
-    "since": 11,
-    "subgroup": "person-fantasy"
-  },
-  "1F9B9_2642": {
-    "desc": "man supervillain",
-    "emoji": "🦹‍♂",
     "group": "group",
     "since": 11,
     "subgroup": "person-fantasy"
@@ -17702,6 +19165,20 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
+  "1F9CD_2640": {
+    "desc": "woman standing",
+    "emoji": "🧍‍♀",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-activity"
+  },
+  "1F9CD_2642": {
+    "desc": "man standing",
+    "emoji": "🧍‍♂",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-activity"
+  },
   "1F9CD_1F3FB": {
     "desc": "person standing: light skin tone",
     "emoji": "🧍🏻",
@@ -17807,23 +19284,23 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
-  "1F9CD_2640": {
-    "desc": "woman standing",
-    "emoji": "🧍‍♀",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-activity"
-  },
-  "1F9CD_2642": {
-    "desc": "man standing",
-    "emoji": "🧍‍♂",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-activity"
-  },
   "1F9CE": {
     "desc": "person kneeling",
     "emoji": "🧎",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-activity"
+  },
+  "1F9CE_2640": {
+    "desc": "woman kneeling",
+    "emoji": "🧎‍♀",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-activity"
+  },
+  "1F9CE_2642": {
+    "desc": "man kneeling",
+    "emoji": "🧎‍♂",
     "group": "group",
     "since": 12.1,
     "subgroup": "person-activity"
@@ -17933,23 +19410,23 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
-  "1F9CE_2640": {
-    "desc": "woman kneeling",
-    "emoji": "🧎‍♀",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-activity"
-  },
-  "1F9CE_2642": {
-    "desc": "man kneeling",
-    "emoji": "🧎‍♂",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-activity"
-  },
   "1F9CF": {
     "desc": "deaf person",
     "emoji": "🧏",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-gesture"
+  },
+  "1F9CF_2640": {
+    "desc": "deaf woman",
+    "emoji": "🧏‍♀",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-gesture"
+  },
+  "1F9CF_2642": {
+    "desc": "deaf man",
+    "emoji": "🧏‍♂",
     "group": "group",
     "since": 12.1,
     "subgroup": "person-gesture"
@@ -18059,20 +19536,6 @@
     "since": 12.1,
     "subgroup": "person-gesture"
   },
-  "1F9CF_2640": {
-    "desc": "deaf woman",
-    "emoji": "🧏‍♀",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-gesture"
-  },
-  "1F9CF_2642": {
-    "desc": "deaf man",
-    "emoji": "🧏‍♂",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-gesture"
-  },
   "1F9D0": {
     "desc": "face with monocle",
     "emoji": "🧐",
@@ -18086,6 +19549,27 @@
     "group": "group",
     "since": 5,
     "subgroup": "person"
+  },
+  "1F9D1_2695": {
+    "desc": "health worker",
+    "emoji": "🧑‍⚕",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-role"
+  },
+  "1F9D1_2696": {
+    "desc": "judge",
+    "emoji": "🧑‍⚖",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-role"
+  },
+  "1F9D1_2708": {
+    "desc": "pilot",
+    "emoji": "🧑‍✈",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-role"
   },
   "1F9D1_1F33E": {
     "desc": "farmer",
@@ -18136,12 +19620,131 @@
     "since": 12.1,
     "subgroup": "person-role"
   },
+  "1F9D1_1F4BB": {
+    "desc": "technologist",
+    "emoji": "🧑‍💻",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-role"
+  },
+  "1F9D1_1F4BC": {
+    "desc": "office worker",
+    "emoji": "🧑‍💼",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-role"
+  },
+  "1F9D1_1F527": {
+    "desc": "mechanic",
+    "emoji": "🧑‍🔧",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-role"
+  },
+  "1F9D1_1F52C": {
+    "desc": "scientist",
+    "emoji": "🧑‍🔬",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-role"
+  },
+  "1F9D1_1F680": {
+    "desc": "astronaut",
+    "emoji": "🧑‍🚀",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-role"
+  },
+  "1F9D1_1F692": {
+    "desc": "firefighter",
+    "emoji": "🧑‍🚒",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-role"
+  },
+  "1F9D1_1F91D_1F9D1": {
+    "desc": "people holding hands",
+    "emoji": "🧑‍🤝‍🧑",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "family"
+  },
+  "1F9D1_1F9AF": {
+    "desc": "person with probing cane",
+    "emoji": "🧑‍🦯",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-activity"
+  },
+  "1F9D1_1F9B0": {
+    "desc": "person: red hair",
+    "emoji": "🧑‍🦰",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person"
+  },
+  "1F9D1_1F9B1": {
+    "desc": "person: curly hair",
+    "emoji": "🧑‍🦱",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person"
+  },
+  "1F9D1_1F9B2": {
+    "desc": "person: bald",
+    "emoji": "🧑‍🦲",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person"
+  },
+  "1F9D1_1F9B3": {
+    "desc": "person: white hair",
+    "emoji": "🧑‍🦳",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person"
+  },
+  "1F9D1_1F9BC": {
+    "desc": "person in motorized wheelchair",
+    "emoji": "🧑‍🦼",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-activity"
+  },
+  "1F9D1_1F9BD": {
+    "desc": "person in manual wheelchair",
+    "emoji": "🧑‍🦽",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-activity"
+  },
   "1F9D1_1F3FB": {
     "desc": "person: light skin tone",
     "emoji": "🧑🏻",
     "group": "group",
     "since": 5,
     "subgroup": "person"
+  },
+  "1F9D1_1F3FB_2695": {
+    "desc": "health worker: light skin tone",
+    "emoji": "🧑🏻‍⚕",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-role"
+  },
+  "1F9D1_1F3FB_2696": {
+    "desc": "judge: light skin tone",
+    "emoji": "🧑🏻‍⚖",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-role"
+  },
+  "1F9D1_1F3FB_2708": {
+    "desc": "pilot: light skin tone",
+    "emoji": "🧑🏻‍✈",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-role"
   },
   "1F9D1_1F3FB_1F33E": {
     "desc": "farmer: light skin tone",
@@ -18318,33 +19921,33 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
-  "1F9D1_1F3FB_2695": {
-    "desc": "health worker: light skin tone",
-    "emoji": "🧑🏻‍⚕",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-role"
-  },
-  "1F9D1_1F3FB_2696": {
-    "desc": "judge: light skin tone",
-    "emoji": "🧑🏻‍⚖",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-role"
-  },
-  "1F9D1_1F3FB_2708": {
-    "desc": "pilot: light skin tone",
-    "emoji": "🧑🏻‍✈",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-role"
-  },
   "1F9D1_1F3FC": {
     "desc": "person: medium-light skin tone",
     "emoji": "🧑🏼",
     "group": "group",
     "since": 5,
     "subgroup": "person"
+  },
+  "1F9D1_1F3FC_2695": {
+    "desc": "health worker: medium-light skin tone",
+    "emoji": "🧑🏼‍⚕",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-role"
+  },
+  "1F9D1_1F3FC_2696": {
+    "desc": "judge: medium-light skin tone",
+    "emoji": "🧑🏼‍⚖",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-role"
+  },
+  "1F9D1_1F3FC_2708": {
+    "desc": "pilot: medium-light skin tone",
+    "emoji": "🧑🏼‍✈",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-role"
   },
   "1F9D1_1F3FC_1F33E": {
     "desc": "farmer: medium-light skin tone",
@@ -18521,33 +20124,33 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
-  "1F9D1_1F3FC_2695": {
-    "desc": "health worker: medium-light skin tone",
-    "emoji": "🧑🏼‍⚕",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-role"
-  },
-  "1F9D1_1F3FC_2696": {
-    "desc": "judge: medium-light skin tone",
-    "emoji": "🧑🏼‍⚖",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-role"
-  },
-  "1F9D1_1F3FC_2708": {
-    "desc": "pilot: medium-light skin tone",
-    "emoji": "🧑🏼‍✈",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-role"
-  },
   "1F9D1_1F3FD": {
     "desc": "person: medium skin tone",
     "emoji": "🧑🏽",
     "group": "group",
     "since": 5,
     "subgroup": "person"
+  },
+  "1F9D1_1F3FD_2695": {
+    "desc": "health worker: medium skin tone",
+    "emoji": "🧑🏽‍⚕",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-role"
+  },
+  "1F9D1_1F3FD_2696": {
+    "desc": "judge: medium skin tone",
+    "emoji": "🧑🏽‍⚖",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-role"
+  },
+  "1F9D1_1F3FD_2708": {
+    "desc": "pilot: medium skin tone",
+    "emoji": "🧑🏽‍✈",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-role"
   },
   "1F9D1_1F3FD_1F33E": {
     "desc": "farmer: medium skin tone",
@@ -18724,33 +20327,33 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
-  "1F9D1_1F3FD_2695": {
-    "desc": "health worker: medium skin tone",
-    "emoji": "🧑🏽‍⚕",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-role"
-  },
-  "1F9D1_1F3FD_2696": {
-    "desc": "judge: medium skin tone",
-    "emoji": "🧑🏽‍⚖",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-role"
-  },
-  "1F9D1_1F3FD_2708": {
-    "desc": "pilot: medium skin tone",
-    "emoji": "🧑🏽‍✈",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-role"
-  },
   "1F9D1_1F3FE": {
     "desc": "person: medium-dark skin tone",
     "emoji": "🧑🏾",
     "group": "group",
     "since": 5,
     "subgroup": "person"
+  },
+  "1F9D1_1F3FE_2695": {
+    "desc": "health worker: medium-dark skin tone",
+    "emoji": "🧑🏾‍⚕",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-role"
+  },
+  "1F9D1_1F3FE_2696": {
+    "desc": "judge: medium-dark skin tone",
+    "emoji": "🧑🏾‍⚖",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-role"
+  },
+  "1F9D1_1F3FE_2708": {
+    "desc": "pilot: medium-dark skin tone",
+    "emoji": "🧑🏾‍✈",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-role"
   },
   "1F9D1_1F3FE_1F33E": {
     "desc": "farmer: medium-dark skin tone",
@@ -18927,33 +20530,33 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
-  "1F9D1_1F3FE_2695": {
-    "desc": "health worker: medium-dark skin tone",
-    "emoji": "🧑🏾‍⚕",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-role"
-  },
-  "1F9D1_1F3FE_2696": {
-    "desc": "judge: medium-dark skin tone",
-    "emoji": "🧑🏾‍⚖",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-role"
-  },
-  "1F9D1_1F3FE_2708": {
-    "desc": "pilot: medium-dark skin tone",
-    "emoji": "🧑🏾‍✈",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-role"
-  },
   "1F9D1_1F3FF": {
     "desc": "person: dark skin tone",
     "emoji": "🧑🏿",
     "group": "group",
     "since": 5,
     "subgroup": "person"
+  },
+  "1F9D1_1F3FF_2695": {
+    "desc": "health worker: dark skin tone",
+    "emoji": "🧑🏿‍⚕",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-role"
+  },
+  "1F9D1_1F3FF_2696": {
+    "desc": "judge: dark skin tone",
+    "emoji": "🧑🏿‍⚖",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-role"
+  },
+  "1F9D1_1F3FF_2708": {
+    "desc": "pilot: dark skin tone",
+    "emoji": "🧑🏿‍✈",
+    "group": "group",
+    "since": 12.1,
+    "subgroup": "person-role"
   },
   "1F9D1_1F3FF_1F33E": {
     "desc": "farmer: dark skin tone",
@@ -19130,146 +20733,6 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
-  "1F9D1_1F3FF_2695": {
-    "desc": "health worker: dark skin tone",
-    "emoji": "🧑🏿‍⚕",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-role"
-  },
-  "1F9D1_1F3FF_2696": {
-    "desc": "judge: dark skin tone",
-    "emoji": "🧑🏿‍⚖",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-role"
-  },
-  "1F9D1_1F3FF_2708": {
-    "desc": "pilot: dark skin tone",
-    "emoji": "🧑🏿‍✈",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-role"
-  },
-  "1F9D1_1F4BB": {
-    "desc": "technologist",
-    "emoji": "🧑‍💻",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-role"
-  },
-  "1F9D1_1F4BC": {
-    "desc": "office worker",
-    "emoji": "🧑‍💼",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-role"
-  },
-  "1F9D1_1F527": {
-    "desc": "mechanic",
-    "emoji": "🧑‍🔧",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-role"
-  },
-  "1F9D1_1F52C": {
-    "desc": "scientist",
-    "emoji": "🧑‍🔬",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-role"
-  },
-  "1F9D1_1F680": {
-    "desc": "astronaut",
-    "emoji": "🧑‍🚀",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-role"
-  },
-  "1F9D1_1F692": {
-    "desc": "firefighter",
-    "emoji": "🧑‍🚒",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-role"
-  },
-  "1F9D1_1F91D_1F9D1": {
-    "desc": "people holding hands",
-    "emoji": "🧑‍🤝‍🧑",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "family"
-  },
-  "1F9D1_1F9AF": {
-    "desc": "person with probing cane",
-    "emoji": "🧑‍🦯",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-activity"
-  },
-  "1F9D1_1F9B0": {
-    "desc": "person: red hair",
-    "emoji": "🧑‍🦰",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person"
-  },
-  "1F9D1_1F9B1": {
-    "desc": "person: curly hair",
-    "emoji": "🧑‍🦱",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person"
-  },
-  "1F9D1_1F9B2": {
-    "desc": "person: bald",
-    "emoji": "🧑‍🦲",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person"
-  },
-  "1F9D1_1F9B3": {
-    "desc": "person: white hair",
-    "emoji": "🧑‍🦳",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person"
-  },
-  "1F9D1_1F9BC": {
-    "desc": "person in motorized wheelchair",
-    "emoji": "🧑‍🦼",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-activity"
-  },
-  "1F9D1_1F9BD": {
-    "desc": "person in manual wheelchair",
-    "emoji": "🧑‍🦽",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-activity"
-  },
-  "1F9D1_2695": {
-    "desc": "health worker",
-    "emoji": "🧑‍⚕",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-role"
-  },
-  "1F9D1_2696": {
-    "desc": "judge",
-    "emoji": "🧑‍⚖",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-role"
-  },
-  "1F9D1_2708": {
-    "desc": "pilot",
-    "emoji": "🧑‍✈",
-    "group": "group",
-    "since": 12.1,
-    "subgroup": "person-role"
-  },
   "1F9D2": {
     "desc": "child",
     "emoji": "🧒",
@@ -19445,6 +20908,20 @@
     "since": 5,
     "subgroup": "person-activity"
   },
+  "1F9D6_2640": {
+    "desc": "woman in steamy room",
+    "emoji": "🧖‍♀",
+    "group": "group",
+    "since": 5,
+    "subgroup": "person-activity"
+  },
+  "1F9D6_2642": {
+    "desc": "man in steamy room",
+    "emoji": "🧖‍♂",
+    "group": "group",
+    "since": 5,
+    "subgroup": "person-activity"
+  },
   "1F9D6_1F3FB": {
     "desc": "person in steamy room: light skin tone",
     "emoji": "🧖🏻",
@@ -19550,23 +21027,23 @@
     "since": 5,
     "subgroup": "person-activity"
   },
-  "1F9D6_2640": {
-    "desc": "woman in steamy room",
-    "emoji": "🧖‍♀",
-    "group": "group",
-    "since": 5,
-    "subgroup": "person-activity"
-  },
-  "1F9D6_2642": {
-    "desc": "man in steamy room",
-    "emoji": "🧖‍♂",
-    "group": "group",
-    "since": 5,
-    "subgroup": "person-activity"
-  },
   "1F9D7": {
     "desc": "person climbing",
     "emoji": "🧗",
+    "group": "group",
+    "since": 5,
+    "subgroup": "person-activity"
+  },
+  "1F9D7_2640": {
+    "desc": "woman climbing",
+    "emoji": "🧗‍♀",
+    "group": "group",
+    "since": 5,
+    "subgroup": "person-activity"
+  },
+  "1F9D7_2642": {
+    "desc": "man climbing",
+    "emoji": "🧗‍♂",
     "group": "group",
     "since": 5,
     "subgroup": "person-activity"
@@ -19676,23 +21153,23 @@
     "since": 5,
     "subgroup": "person-activity"
   },
-  "1F9D7_2640": {
-    "desc": "woman climbing",
-    "emoji": "🧗‍♀",
-    "group": "group",
-    "since": 5,
-    "subgroup": "person-activity"
-  },
-  "1F9D7_2642": {
-    "desc": "man climbing",
-    "emoji": "🧗‍♂",
-    "group": "group",
-    "since": 5,
-    "subgroup": "person-activity"
-  },
   "1F9D8": {
     "desc": "person in lotus position",
     "emoji": "🧘",
+    "group": "group",
+    "since": 5,
+    "subgroup": "person-resting"
+  },
+  "1F9D8_2640": {
+    "desc": "woman in lotus position",
+    "emoji": "🧘‍♀",
+    "group": "group",
+    "since": 5,
+    "subgroup": "person-resting"
+  },
+  "1F9D8_2642": {
+    "desc": "man in lotus position",
+    "emoji": "🧘‍♂",
     "group": "group",
     "since": 5,
     "subgroup": "person-resting"
@@ -19802,23 +21279,23 @@
     "since": 5,
     "subgroup": "person-resting"
   },
-  "1F9D8_2640": {
-    "desc": "woman in lotus position",
-    "emoji": "🧘‍♀",
-    "group": "group",
-    "since": 5,
-    "subgroup": "person-resting"
-  },
-  "1F9D8_2642": {
-    "desc": "man in lotus position",
-    "emoji": "🧘‍♂",
-    "group": "group",
-    "since": 5,
-    "subgroup": "person-resting"
-  },
   "1F9D9": {
     "desc": "mage",
     "emoji": "🧙",
+    "group": "group",
+    "since": 5,
+    "subgroup": "person-fantasy"
+  },
+  "1F9D9_2640": {
+    "desc": "woman mage",
+    "emoji": "🧙‍♀",
+    "group": "group",
+    "since": 5,
+    "subgroup": "person-fantasy"
+  },
+  "1F9D9_2642": {
+    "desc": "man mage",
+    "emoji": "🧙‍♂",
     "group": "group",
     "since": 5,
     "subgroup": "person-fantasy"
@@ -19928,23 +21405,23 @@
     "since": 5,
     "subgroup": "person-fantasy"
   },
-  "1F9D9_2640": {
-    "desc": "woman mage",
-    "emoji": "🧙‍♀",
-    "group": "group",
-    "since": 5,
-    "subgroup": "person-fantasy"
-  },
-  "1F9D9_2642": {
-    "desc": "man mage",
-    "emoji": "🧙‍♂",
-    "group": "group",
-    "since": 5,
-    "subgroup": "person-fantasy"
-  },
   "1F9DA": {
     "desc": "fairy",
     "emoji": "🧚",
+    "group": "group",
+    "since": 5,
+    "subgroup": "person-fantasy"
+  },
+  "1F9DA_2640": {
+    "desc": "woman fairy",
+    "emoji": "🧚‍♀",
+    "group": "group",
+    "since": 5,
+    "subgroup": "person-fantasy"
+  },
+  "1F9DA_2642": {
+    "desc": "man fairy",
+    "emoji": "🧚‍♂",
     "group": "group",
     "since": 5,
     "subgroup": "person-fantasy"
@@ -20054,23 +21531,23 @@
     "since": 5,
     "subgroup": "person-fantasy"
   },
-  "1F9DA_2640": {
-    "desc": "woman fairy",
-    "emoji": "🧚‍♀",
-    "group": "group",
-    "since": 5,
-    "subgroup": "person-fantasy"
-  },
-  "1F9DA_2642": {
-    "desc": "man fairy",
-    "emoji": "🧚‍♂",
-    "group": "group",
-    "since": 5,
-    "subgroup": "person-fantasy"
-  },
   "1F9DB": {
     "desc": "vampire",
     "emoji": "🧛",
+    "group": "group",
+    "since": 5,
+    "subgroup": "person-fantasy"
+  },
+  "1F9DB_2640": {
+    "desc": "woman vampire",
+    "emoji": "🧛‍♀",
+    "group": "group",
+    "since": 5,
+    "subgroup": "person-fantasy"
+  },
+  "1F9DB_2642": {
+    "desc": "man vampire",
+    "emoji": "🧛‍♂",
     "group": "group",
     "since": 5,
     "subgroup": "person-fantasy"
@@ -20180,23 +21657,23 @@
     "since": 5,
     "subgroup": "person-fantasy"
   },
-  "1F9DB_2640": {
-    "desc": "woman vampire",
-    "emoji": "🧛‍♀",
-    "group": "group",
-    "since": 5,
-    "subgroup": "person-fantasy"
-  },
-  "1F9DB_2642": {
-    "desc": "man vampire",
-    "emoji": "🧛‍♂",
-    "group": "group",
-    "since": 5,
-    "subgroup": "person-fantasy"
-  },
   "1F9DC": {
     "desc": "merperson",
     "emoji": "🧜",
+    "group": "group",
+    "since": 5,
+    "subgroup": "person-fantasy"
+  },
+  "1F9DC_2640": {
+    "desc": "mermaid",
+    "emoji": "🧜‍♀",
+    "group": "group",
+    "since": 5,
+    "subgroup": "person-fantasy"
+  },
+  "1F9DC_2642": {
+    "desc": "merman",
+    "emoji": "🧜‍♂",
     "group": "group",
     "since": 5,
     "subgroup": "person-fantasy"
@@ -20306,23 +21783,23 @@
     "since": 5,
     "subgroup": "person-fantasy"
   },
-  "1F9DC_2640": {
-    "desc": "mermaid",
-    "emoji": "🧜‍♀",
-    "group": "group",
-    "since": 5,
-    "subgroup": "person-fantasy"
-  },
-  "1F9DC_2642": {
-    "desc": "merman",
-    "emoji": "🧜‍♂",
-    "group": "group",
-    "since": 5,
-    "subgroup": "person-fantasy"
-  },
   "1F9DD": {
     "desc": "elf",
     "emoji": "🧝",
+    "group": "group",
+    "since": 5,
+    "subgroup": "person-fantasy"
+  },
+  "1F9DD_2640": {
+    "desc": "woman elf",
+    "emoji": "🧝‍♀",
+    "group": "group",
+    "since": 5,
+    "subgroup": "person-fantasy"
+  },
+  "1F9DD_2642": {
+    "desc": "man elf",
+    "emoji": "🧝‍♂",
     "group": "group",
     "since": 5,
     "subgroup": "person-fantasy"
@@ -20428,20 +21905,6 @@
   "1F9DD_1F3FF_2642": {
     "desc": "man elf: dark skin tone",
     "emoji": "🧝🏿‍♂",
-    "group": "group",
-    "since": 5,
-    "subgroup": "person-fantasy"
-  },
-  "1F9DD_2640": {
-    "desc": "woman elf",
-    "emoji": "🧝‍♀",
-    "group": "group",
-    "since": 5,
-    "subgroup": "person-fantasy"
-  },
-  "1F9DD_2642": {
-    "desc": "man elf",
-    "emoji": "🧝‍♂",
     "group": "group",
     "since": 5,
     "subgroup": "person-fantasy"
@@ -20823,1468 +22286,5 @@
     "group": "group",
     "since": 12.1,
     "subgroup": "musical-instrument"
-  },
-  "203C": {
-    "desc": "double exclamation mark",
-    "emoji": "‼",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-symbol"
-  },
-  "2049": {
-    "desc": "exclamation question mark",
-    "emoji": "⁉",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-symbol"
-  },
-  "2122": {
-    "desc": "trade mark",
-    "emoji": "™",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-symbol"
-  },
-  "2139": {
-    "desc": "information",
-    "emoji": "ℹ",
-    "group": "group",
-    "since": 2,
-    "subgroup": "alphanum"
-  },
-  "2194": {
-    "desc": "left-right arrow",
-    "emoji": "↔",
-    "group": "group",
-    "since": 2,
-    "subgroup": "arrow"
-  },
-  "2195": {
-    "desc": "up-down arrow",
-    "emoji": "↕",
-    "group": "group",
-    "since": 2,
-    "subgroup": "arrow"
-  },
-  "2196": {
-    "desc": "up-left arrow",
-    "emoji": "↖",
-    "group": "group",
-    "since": 2,
-    "subgroup": "arrow"
-  },
-  "2197": {
-    "desc": "up-right arrow",
-    "emoji": "↗",
-    "group": "group",
-    "since": 2,
-    "subgroup": "arrow"
-  },
-  "2198": {
-    "desc": "down-right arrow",
-    "emoji": "↘",
-    "group": "group",
-    "since": 2,
-    "subgroup": "arrow"
-  },
-  "2199": {
-    "desc": "down-left arrow",
-    "emoji": "↙",
-    "group": "group",
-    "since": 2,
-    "subgroup": "arrow"
-  },
-  "21A9": {
-    "desc": "right arrow curving left",
-    "emoji": "↩",
-    "group": "group",
-    "since": 2,
-    "subgroup": "arrow"
-  },
-  "21AA": {
-    "desc": "left arrow curving right",
-    "emoji": "↪",
-    "group": "group",
-    "since": 2,
-    "subgroup": "arrow"
-  },
-  "231A": {
-    "desc": "watch",
-    "emoji": "⌚",
-    "group": "group",
-    "since": 2,
-    "subgroup": "time"
-  },
-  "231B": {
-    "desc": "hourglass done",
-    "emoji": "⌛",
-    "group": "group",
-    "since": 2,
-    "subgroup": "time"
-  },
-  "2328": {
-    "desc": "keyboard",
-    "emoji": "⌨",
-    "group": "group",
-    "since": 2,
-    "subgroup": "computer"
-  },
-  "23CF": {
-    "desc": "eject button",
-    "emoji": "⏏",
-    "group": "group",
-    "since": 2,
-    "subgroup": "av-symbol"
-  },
-  "23E9": {
-    "desc": "fast-forward button",
-    "emoji": "⏩",
-    "group": "group",
-    "since": 2,
-    "subgroup": "av-symbol"
-  },
-  "23EA": {
-    "desc": "fast reverse button",
-    "emoji": "⏪",
-    "group": "group",
-    "since": 2,
-    "subgroup": "av-symbol"
-  },
-  "23EB": {
-    "desc": "fast up button",
-    "emoji": "⏫",
-    "group": "group",
-    "since": 2,
-    "subgroup": "av-symbol"
-  },
-  "23EC": {
-    "desc": "fast down button",
-    "emoji": "⏬",
-    "group": "group",
-    "since": 2,
-    "subgroup": "av-symbol"
-  },
-  "23ED": {
-    "desc": "next track button",
-    "emoji": "⏭",
-    "group": "group",
-    "since": 2,
-    "subgroup": "av-symbol"
-  },
-  "23EE": {
-    "desc": "last track button",
-    "emoji": "⏮",
-    "group": "group",
-    "since": 2,
-    "subgroup": "av-symbol"
-  },
-  "23EF": {
-    "desc": "play or pause button",
-    "emoji": "⏯",
-    "group": "group",
-    "since": 2,
-    "subgroup": "av-symbol"
-  },
-  "23F0": {
-    "desc": "alarm clock",
-    "emoji": "⏰",
-    "group": "group",
-    "since": 2,
-    "subgroup": "time"
-  },
-  "23F1": {
-    "desc": "stopwatch",
-    "emoji": "⏱",
-    "group": "group",
-    "since": 2,
-    "subgroup": "time"
-  },
-  "23F2": {
-    "desc": "timer clock",
-    "emoji": "⏲",
-    "group": "group",
-    "since": 2,
-    "subgroup": "time"
-  },
-  "23F3": {
-    "desc": "hourglass not done",
-    "emoji": "⏳",
-    "group": "group",
-    "since": 2,
-    "subgroup": "time"
-  },
-  "23F8": {
-    "desc": "pause button",
-    "emoji": "⏸",
-    "group": "group",
-    "since": 2,
-    "subgroup": "av-symbol"
-  },
-  "23F9": {
-    "desc": "stop button",
-    "emoji": "⏹",
-    "group": "group",
-    "since": 2,
-    "subgroup": "av-symbol"
-  },
-  "23FA": {
-    "desc": "record button",
-    "emoji": "⏺",
-    "group": "group",
-    "since": 2,
-    "subgroup": "av-symbol"
-  },
-  "24C2": {
-    "desc": "circled M",
-    "emoji": "Ⓜ",
-    "group": "group",
-    "since": 2,
-    "subgroup": "alphanum"
-  },
-  "25AA": {
-    "desc": "black small square",
-    "emoji": "▪",
-    "group": "group",
-    "since": 2,
-    "subgroup": "geometric"
-  },
-  "25AB": {
-    "desc": "white small square",
-    "emoji": "▫",
-    "group": "group",
-    "since": 2,
-    "subgroup": "geometric"
-  },
-  "25B6": {
-    "desc": "play button",
-    "emoji": "▶",
-    "group": "group",
-    "since": 2,
-    "subgroup": "av-symbol"
-  },
-  "25C0": {
-    "desc": "reverse button",
-    "emoji": "◀",
-    "group": "group",
-    "since": 2,
-    "subgroup": "av-symbol"
-  },
-  "25FB": {
-    "desc": "white medium square",
-    "emoji": "◻",
-    "group": "group",
-    "since": 2,
-    "subgroup": "geometric"
-  },
-  "25FC": {
-    "desc": "black medium square",
-    "emoji": "◼",
-    "group": "group",
-    "since": 2,
-    "subgroup": "geometric"
-  },
-  "25FD": {
-    "desc": "white medium-small square",
-    "emoji": "◽",
-    "group": "group",
-    "since": 2,
-    "subgroup": "geometric"
-  },
-  "25FE": {
-    "desc": "black medium-small square",
-    "emoji": "◾",
-    "group": "group",
-    "since": 2,
-    "subgroup": "geometric"
-  },
-  "2600": {
-    "desc": "sun",
-    "emoji": "☀",
-    "group": "group",
-    "since": 2,
-    "subgroup": "sky & weather"
-  },
-  "2601": {
-    "desc": "cloud",
-    "emoji": "☁",
-    "group": "group",
-    "since": 2,
-    "subgroup": "sky & weather"
-  },
-  "2602": {
-    "desc": "umbrella",
-    "emoji": "☂",
-    "group": "group",
-    "since": 2,
-    "subgroup": "sky & weather"
-  },
-  "2603": {
-    "desc": "snowman",
-    "emoji": "☃",
-    "group": "group",
-    "since": 2,
-    "subgroup": "sky & weather"
-  },
-  "2604": {
-    "desc": "comet",
-    "emoji": "☄",
-    "group": "group",
-    "since": 2,
-    "subgroup": "sky & weather"
-  },
-  "260E": {
-    "desc": "telephone",
-    "emoji": "☎",
-    "group": "group",
-    "since": 2,
-    "subgroup": "phone"
-  },
-  "2611": {
-    "desc": "check box with check",
-    "emoji": "☑",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-symbol"
-  },
-  "2614": {
-    "desc": "umbrella with rain drops",
-    "emoji": "☔",
-    "group": "group",
-    "since": 2,
-    "subgroup": "sky & weather"
-  },
-  "2615": {
-    "desc": "hot beverage",
-    "emoji": "☕",
-    "group": "group",
-    "since": 2,
-    "subgroup": "drink"
-  },
-  "2618": {
-    "desc": "shamrock",
-    "emoji": "☘",
-    "group": "group",
-    "since": 2,
-    "subgroup": "plant-other"
-  },
-  "261D": {
-    "desc": "index pointing up",
-    "emoji": "☝",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-single-finger"
-  },
-  "261D_1F3FB": {
-    "desc": "index pointing up: light skin tone",
-    "emoji": "☝🏻",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-single-finger"
-  },
-  "261D_1F3FC": {
-    "desc": "index pointing up: medium-light skin tone",
-    "emoji": "☝🏼",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-single-finger"
-  },
-  "261D_1F3FD": {
-    "desc": "index pointing up: medium skin tone",
-    "emoji": "☝🏽",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-single-finger"
-  },
-  "261D_1F3FE": {
-    "desc": "index pointing up: medium-dark skin tone",
-    "emoji": "☝🏾",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-single-finger"
-  },
-  "261D_1F3FF": {
-    "desc": "index pointing up: dark skin tone",
-    "emoji": "☝🏿",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-single-finger"
-  },
-  "2620": {
-    "desc": "skull and crossbones",
-    "emoji": "☠",
-    "group": "group",
-    "since": 2,
-    "subgroup": "face-negative"
-  },
-  "2622": {
-    "desc": "radioactive",
-    "emoji": "☢",
-    "group": "group",
-    "since": 2,
-    "subgroup": "warning"
-  },
-  "2623": {
-    "desc": "biohazard",
-    "emoji": "☣",
-    "group": "group",
-    "since": 2,
-    "subgroup": "warning"
-  },
-  "2626": {
-    "desc": "orthodox cross",
-    "emoji": "☦",
-    "group": "group",
-    "since": 2,
-    "subgroup": "religion"
-  },
-  "262A": {
-    "desc": "star and crescent",
-    "emoji": "☪",
-    "group": "group",
-    "since": 2,
-    "subgroup": "religion"
-  },
-  "262E": {
-    "desc": "peace symbol",
-    "emoji": "☮",
-    "group": "group",
-    "since": 2,
-    "subgroup": "religion"
-  },
-  "262F": {
-    "desc": "yin yang",
-    "emoji": "☯",
-    "group": "group",
-    "since": 2,
-    "subgroup": "religion"
-  },
-  "2638": {
-    "desc": "wheel of dharma",
-    "emoji": "☸",
-    "group": "group",
-    "since": 2,
-    "subgroup": "religion"
-  },
-  "2639": {
-    "desc": "frowning face",
-    "emoji": "☹",
-    "group": "group",
-    "since": 2,
-    "subgroup": "face-concerned"
-  },
-  "263A": {
-    "desc": "smiling face",
-    "emoji": "☺",
-    "group": "group",
-    "since": 2,
-    "subgroup": "face-affection"
-  },
-  "2640": {
-    "desc": "female sign",
-    "emoji": "♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "gender"
-  },
-  "2642": {
-    "desc": "male sign",
-    "emoji": "♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "gender"
-  },
-  "2648": {
-    "desc": "Aries",
-    "emoji": "♈",
-    "group": "group",
-    "since": 2,
-    "subgroup": "zodiac"
-  },
-  "2649": {
-    "desc": "Taurus",
-    "emoji": "♉",
-    "group": "group",
-    "since": 2,
-    "subgroup": "zodiac"
-  },
-  "264A": {
-    "desc": "Gemini",
-    "emoji": "♊",
-    "group": "group",
-    "since": 2,
-    "subgroup": "zodiac"
-  },
-  "264B": {
-    "desc": "Cancer",
-    "emoji": "♋",
-    "group": "group",
-    "since": 2,
-    "subgroup": "zodiac"
-  },
-  "264C": {
-    "desc": "Leo",
-    "emoji": "♌",
-    "group": "group",
-    "since": 2,
-    "subgroup": "zodiac"
-  },
-  "264D": {
-    "desc": "Virgo",
-    "emoji": "♍",
-    "group": "group",
-    "since": 2,
-    "subgroup": "zodiac"
-  },
-  "264E": {
-    "desc": "Libra",
-    "emoji": "♎",
-    "group": "group",
-    "since": 2,
-    "subgroup": "zodiac"
-  },
-  "264F": {
-    "desc": "Scorpio",
-    "emoji": "♏",
-    "group": "group",
-    "since": 2,
-    "subgroup": "zodiac"
-  },
-  "2650": {
-    "desc": "Sagittarius",
-    "emoji": "♐",
-    "group": "group",
-    "since": 2,
-    "subgroup": "zodiac"
-  },
-  "2651": {
-    "desc": "Capricorn",
-    "emoji": "♑",
-    "group": "group",
-    "since": 2,
-    "subgroup": "zodiac"
-  },
-  "2652": {
-    "desc": "Aquarius",
-    "emoji": "♒",
-    "group": "group",
-    "since": 2,
-    "subgroup": "zodiac"
-  },
-  "2653": {
-    "desc": "Pisces",
-    "emoji": "♓",
-    "group": "group",
-    "since": 2,
-    "subgroup": "zodiac"
-  },
-  "265F": {
-    "desc": "chess pawn",
-    "emoji": "♟",
-    "group": "group",
-    "since": 11,
-    "subgroup": "game"
-  },
-  "2660": {
-    "desc": "spade suit",
-    "emoji": "♠",
-    "group": "group",
-    "since": 2,
-    "subgroup": "game"
-  },
-  "2663": {
-    "desc": "club suit",
-    "emoji": "♣",
-    "group": "group",
-    "since": 2,
-    "subgroup": "game"
-  },
-  "2665": {
-    "desc": "heart suit",
-    "emoji": "♥",
-    "group": "group",
-    "since": 2,
-    "subgroup": "game"
-  },
-  "2666": {
-    "desc": "diamond suit",
-    "emoji": "♦",
-    "group": "group",
-    "since": 2,
-    "subgroup": "game"
-  },
-  "2668": {
-    "desc": "hot springs",
-    "emoji": "♨",
-    "group": "group",
-    "since": 2,
-    "subgroup": "place-other"
-  },
-  "267B": {
-    "desc": "recycling symbol",
-    "emoji": "♻",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-symbol"
-  },
-  "267E": {
-    "desc": "infinity",
-    "emoji": "♾",
-    "group": "group",
-    "since": 11,
-    "subgroup": "other-symbol"
-  },
-  "267F": {
-    "desc": "wheelchair symbol",
-    "emoji": "♿",
-    "group": "group",
-    "since": 2,
-    "subgroup": "transport-sign"
-  },
-  "2692": {
-    "desc": "hammer and pick",
-    "emoji": "⚒",
-    "group": "group",
-    "since": 2,
-    "subgroup": "tool"
-  },
-  "2693": {
-    "desc": "anchor",
-    "emoji": "⚓",
-    "group": "group",
-    "since": 2,
-    "subgroup": "transport-water"
-  },
-  "2694": {
-    "desc": "crossed swords",
-    "emoji": "⚔",
-    "group": "group",
-    "since": 2,
-    "subgroup": "tool"
-  },
-  "2695": {
-    "desc": "medical symbol",
-    "emoji": "⚕",
-    "group": "group",
-    "since": 4,
-    "subgroup": "other-symbol"
-  },
-  "2696": {
-    "desc": "balance scale",
-    "emoji": "⚖",
-    "group": "group",
-    "since": 2,
-    "subgroup": "tool"
-  },
-  "2697": {
-    "desc": "alembic",
-    "emoji": "⚗",
-    "group": "group",
-    "since": 2,
-    "subgroup": "science"
-  },
-  "2699": {
-    "desc": "gear",
-    "emoji": "⚙",
-    "group": "group",
-    "since": 2,
-    "subgroup": "tool"
-  },
-  "269B": {
-    "desc": "atom symbol",
-    "emoji": "⚛",
-    "group": "group",
-    "since": 2,
-    "subgroup": "religion"
-  },
-  "269C": {
-    "desc": "fleur-de-lis",
-    "emoji": "⚜",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-symbol"
-  },
-  "26A0": {
-    "desc": "warning",
-    "emoji": "⚠",
-    "group": "group",
-    "since": 2,
-    "subgroup": "warning"
-  },
-  "26A1": {
-    "desc": "high voltage",
-    "emoji": "⚡",
-    "group": "group",
-    "since": 2,
-    "subgroup": "sky & weather"
-  },
-  "26AA": {
-    "desc": "white circle",
-    "emoji": "⚪",
-    "group": "group",
-    "since": 2,
-    "subgroup": "geometric"
-  },
-  "26AB": {
-    "desc": "black circle",
-    "emoji": "⚫",
-    "group": "group",
-    "since": 2,
-    "subgroup": "geometric"
-  },
-  "26B0": {
-    "desc": "coffin",
-    "emoji": "⚰",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-object"
-  },
-  "26B1": {
-    "desc": "funeral urn",
-    "emoji": "⚱",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-object"
-  },
-  "26BD": {
-    "desc": "soccer ball",
-    "emoji": "⚽",
-    "group": "group",
-    "since": 2,
-    "subgroup": "sport"
-  },
-  "26BE": {
-    "desc": "baseball",
-    "emoji": "⚾",
-    "group": "group",
-    "since": 2,
-    "subgroup": "sport"
-  },
-  "26C4": {
-    "desc": "snowman without snow",
-    "emoji": "⛄",
-    "group": "group",
-    "since": 2,
-    "subgroup": "sky & weather"
-  },
-  "26C5": {
-    "desc": "sun behind cloud",
-    "emoji": "⛅",
-    "group": "group",
-    "since": 2,
-    "subgroup": "sky & weather"
-  },
-  "26C8": {
-    "desc": "cloud with lightning and rain",
-    "emoji": "⛈",
-    "group": "group",
-    "since": 2,
-    "subgroup": "sky & weather"
-  },
-  "26CE": {
-    "desc": "Ophiuchus",
-    "emoji": "⛎",
-    "group": "group",
-    "since": 2,
-    "subgroup": "zodiac"
-  },
-  "26CF": {
-    "desc": "pick",
-    "emoji": "⛏",
-    "group": "group",
-    "since": 2,
-    "subgroup": "tool"
-  },
-  "26D1": {
-    "desc": "rescue worker’s helmet",
-    "emoji": "⛑",
-    "group": "group",
-    "since": 2,
-    "subgroup": "clothing"
-  },
-  "26D3": {
-    "desc": "chains",
-    "emoji": "⛓",
-    "group": "group",
-    "since": 2,
-    "subgroup": "tool"
-  },
-  "26D4": {
-    "desc": "no entry",
-    "emoji": "⛔",
-    "group": "group",
-    "since": 2,
-    "subgroup": "warning"
-  },
-  "26E9": {
-    "desc": "shinto shrine",
-    "emoji": "⛩",
-    "group": "group",
-    "since": 2,
-    "subgroup": "place-religious"
-  },
-  "26EA": {
-    "desc": "church",
-    "emoji": "⛪",
-    "group": "group",
-    "since": 2,
-    "subgroup": "place-religious"
-  },
-  "26F0": {
-    "desc": "mountain",
-    "emoji": "⛰",
-    "group": "group",
-    "since": 2,
-    "subgroup": "place-geographic"
-  },
-  "26F1": {
-    "desc": "umbrella on ground",
-    "emoji": "⛱",
-    "group": "group",
-    "since": 2,
-    "subgroup": "sky & weather"
-  },
-  "26F2": {
-    "desc": "fountain",
-    "emoji": "⛲",
-    "group": "group",
-    "since": 2,
-    "subgroup": "place-other"
-  },
-  "26F3": {
-    "desc": "flag in hole",
-    "emoji": "⛳",
-    "group": "group",
-    "since": 2,
-    "subgroup": "sport"
-  },
-  "26F4": {
-    "desc": "ferry",
-    "emoji": "⛴",
-    "group": "group",
-    "since": 2,
-    "subgroup": "transport-water"
-  },
-  "26F5": {
-    "desc": "sailboat",
-    "emoji": "⛵",
-    "group": "group",
-    "since": 2,
-    "subgroup": "transport-water"
-  },
-  "26F7": {
-    "desc": "skier",
-    "emoji": "⛷",
-    "group": "group",
-    "since": 2,
-    "subgroup": "person-sport"
-  },
-  "26F8": {
-    "desc": "ice skate",
-    "emoji": "⛸",
-    "group": "group",
-    "since": 2,
-    "subgroup": "sport"
-  },
-  "26F9": {
-    "desc": "person bouncing ball",
-    "emoji": "⛹",
-    "group": "group",
-    "since": 2,
-    "subgroup": "person-sport"
-  },
-  "26F9_1F3FB": {
-    "desc": "person bouncing ball: light skin tone",
-    "emoji": "⛹🏻",
-    "group": "group",
-    "since": 2,
-    "subgroup": "person-sport"
-  },
-  "26F9_1F3FB_2640": {
-    "desc": "woman bouncing ball: light skin tone",
-    "emoji": "⛹🏻‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
-  "26F9_1F3FB_2642": {
-    "desc": "man bouncing ball: light skin tone",
-    "emoji": "⛹🏻‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
-  "26F9_1F3FC": {
-    "desc": "person bouncing ball: medium-light skin tone",
-    "emoji": "⛹🏼",
-    "group": "group",
-    "since": 2,
-    "subgroup": "person-sport"
-  },
-  "26F9_1F3FC_2640": {
-    "desc": "woman bouncing ball: medium-light skin tone",
-    "emoji": "⛹🏼‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
-  "26F9_1F3FC_2642": {
-    "desc": "man bouncing ball: medium-light skin tone",
-    "emoji": "⛹🏼‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
-  "26F9_1F3FD": {
-    "desc": "person bouncing ball: medium skin tone",
-    "emoji": "⛹🏽",
-    "group": "group",
-    "since": 2,
-    "subgroup": "person-sport"
-  },
-  "26F9_1F3FD_2640": {
-    "desc": "woman bouncing ball: medium skin tone",
-    "emoji": "⛹🏽‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
-  "26F9_1F3FD_2642": {
-    "desc": "man bouncing ball: medium skin tone",
-    "emoji": "⛹🏽‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
-  "26F9_1F3FE": {
-    "desc": "person bouncing ball: medium-dark skin tone",
-    "emoji": "⛹🏾",
-    "group": "group",
-    "since": 2,
-    "subgroup": "person-sport"
-  },
-  "26F9_1F3FE_2640": {
-    "desc": "woman bouncing ball: medium-dark skin tone",
-    "emoji": "⛹🏾‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
-  "26F9_1F3FE_2642": {
-    "desc": "man bouncing ball: medium-dark skin tone",
-    "emoji": "⛹🏾‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
-  "26F9_1F3FF": {
-    "desc": "person bouncing ball: dark skin tone",
-    "emoji": "⛹🏿",
-    "group": "group",
-    "since": 2,
-    "subgroup": "person-sport"
-  },
-  "26F9_1F3FF_2640": {
-    "desc": "woman bouncing ball: dark skin tone",
-    "emoji": "⛹🏿‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
-  "26F9_1F3FF_2642": {
-    "desc": "man bouncing ball: dark skin tone",
-    "emoji": "⛹🏿‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
-  "26F9_2640": {
-    "desc": "woman bouncing ball",
-    "emoji": "⛹‍♀",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
-  "26F9_2642": {
-    "desc": "man bouncing ball",
-    "emoji": "⛹‍♂",
-    "group": "group",
-    "since": 4,
-    "subgroup": "person-sport"
-  },
-  "26FA": {
-    "desc": "tent",
-    "emoji": "⛺",
-    "group": "group",
-    "since": 2,
-    "subgroup": "place-other"
-  },
-  "26FD": {
-    "desc": "fuel pump",
-    "emoji": "⛽",
-    "group": "group",
-    "since": 2,
-    "subgroup": "transport-ground"
-  },
-  "2702": {
-    "desc": "scissors",
-    "emoji": "✂",
-    "group": "group",
-    "since": 2,
-    "subgroup": "office"
-  },
-  "2705": {
-    "desc": "check mark button",
-    "emoji": "✅",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-symbol"
-  },
-  "2708": {
-    "desc": "airplane",
-    "emoji": "✈",
-    "group": "group",
-    "since": 2,
-    "subgroup": "transport-air"
-  },
-  "2709": {
-    "desc": "envelope",
-    "emoji": "✉",
-    "group": "group",
-    "since": 2,
-    "subgroup": "mail"
-  },
-  "270A": {
-    "desc": "raised fist",
-    "emoji": "✊",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-fingers-closed"
-  },
-  "270A_1F3FB": {
-    "desc": "raised fist: light skin tone",
-    "emoji": "✊🏻",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-fingers-closed"
-  },
-  "270A_1F3FC": {
-    "desc": "raised fist: medium-light skin tone",
-    "emoji": "✊🏼",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-fingers-closed"
-  },
-  "270A_1F3FD": {
-    "desc": "raised fist: medium skin tone",
-    "emoji": "✊🏽",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-fingers-closed"
-  },
-  "270A_1F3FE": {
-    "desc": "raised fist: medium-dark skin tone",
-    "emoji": "✊🏾",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-fingers-closed"
-  },
-  "270A_1F3FF": {
-    "desc": "raised fist: dark skin tone",
-    "emoji": "✊🏿",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-fingers-closed"
-  },
-  "270B": {
-    "desc": "raised hand",
-    "emoji": "✋",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-fingers-open"
-  },
-  "270B_1F3FB": {
-    "desc": "raised hand: light skin tone",
-    "emoji": "✋🏻",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-fingers-open"
-  },
-  "270B_1F3FC": {
-    "desc": "raised hand: medium-light skin tone",
-    "emoji": "✋🏼",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-fingers-open"
-  },
-  "270B_1F3FD": {
-    "desc": "raised hand: medium skin tone",
-    "emoji": "✋🏽",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-fingers-open"
-  },
-  "270B_1F3FE": {
-    "desc": "raised hand: medium-dark skin tone",
-    "emoji": "✋🏾",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-fingers-open"
-  },
-  "270B_1F3FF": {
-    "desc": "raised hand: dark skin tone",
-    "emoji": "✋🏿",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-fingers-open"
-  },
-  "270C": {
-    "desc": "victory hand",
-    "emoji": "✌",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-fingers-partial"
-  },
-  "270C_1F3FB": {
-    "desc": "victory hand: light skin tone",
-    "emoji": "✌🏻",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-fingers-partial"
-  },
-  "270C_1F3FC": {
-    "desc": "victory hand: medium-light skin tone",
-    "emoji": "✌🏼",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-fingers-partial"
-  },
-  "270C_1F3FD": {
-    "desc": "victory hand: medium skin tone",
-    "emoji": "✌🏽",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-fingers-partial"
-  },
-  "270C_1F3FE": {
-    "desc": "victory hand: medium-dark skin tone",
-    "emoji": "✌🏾",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-fingers-partial"
-  },
-  "270C_1F3FF": {
-    "desc": "victory hand: dark skin tone",
-    "emoji": "✌🏿",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-fingers-partial"
-  },
-  "270D": {
-    "desc": "writing hand",
-    "emoji": "✍",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-prop"
-  },
-  "270D_1F3FB": {
-    "desc": "writing hand: light skin tone",
-    "emoji": "✍🏻",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-prop"
-  },
-  "270D_1F3FC": {
-    "desc": "writing hand: medium-light skin tone",
-    "emoji": "✍🏼",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-prop"
-  },
-  "270D_1F3FD": {
-    "desc": "writing hand: medium skin tone",
-    "emoji": "✍🏽",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-prop"
-  },
-  "270D_1F3FE": {
-    "desc": "writing hand: medium-dark skin tone",
-    "emoji": "✍🏾",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-prop"
-  },
-  "270D_1F3FF": {
-    "desc": "writing hand: dark skin tone",
-    "emoji": "✍🏿",
-    "group": "group",
-    "since": 2,
-    "subgroup": "hand-prop"
-  },
-  "270F": {
-    "desc": "pencil",
-    "emoji": "✏",
-    "group": "group",
-    "since": 2,
-    "subgroup": "writing"
-  },
-  "2712": {
-    "desc": "black nib",
-    "emoji": "✒",
-    "group": "group",
-    "since": 2,
-    "subgroup": "writing"
-  },
-  "2714": {
-    "desc": "check mark",
-    "emoji": "✔",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-symbol"
-  },
-  "2716": {
-    "desc": "multiplication sign",
-    "emoji": "✖",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-symbol"
-  },
-  "271D": {
-    "desc": "latin cross",
-    "emoji": "✝",
-    "group": "group",
-    "since": 2,
-    "subgroup": "religion"
-  },
-  "2721": {
-    "desc": "star of David",
-    "emoji": "✡",
-    "group": "group",
-    "since": 2,
-    "subgroup": "religion"
-  },
-  "2728": {
-    "desc": "sparkles",
-    "emoji": "✨",
-    "group": "group",
-    "since": 2,
-    "subgroup": "event"
-  },
-  "2733": {
-    "desc": "eight-spoked asterisk",
-    "emoji": "✳",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-symbol"
-  },
-  "2734": {
-    "desc": "eight-pointed star",
-    "emoji": "✴",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-symbol"
-  },
-  "2744": {
-    "desc": "snowflake",
-    "emoji": "❄",
-    "group": "group",
-    "since": 2,
-    "subgroup": "sky & weather"
-  },
-  "2747": {
-    "desc": "sparkle",
-    "emoji": "❇",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-symbol"
-  },
-  "274C": {
-    "desc": "cross mark",
-    "emoji": "❌",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-symbol"
-  },
-  "274E": {
-    "desc": "cross mark button",
-    "emoji": "❎",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-symbol"
-  },
-  "2753": {
-    "desc": "question mark",
-    "emoji": "❓",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-symbol"
-  },
-  "2754": {
-    "desc": "white question mark",
-    "emoji": "❔",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-symbol"
-  },
-  "2755": {
-    "desc": "white exclamation mark",
-    "emoji": "❕",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-symbol"
-  },
-  "2757": {
-    "desc": "exclamation mark",
-    "emoji": "❗",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-symbol"
-  },
-  "2763": {
-    "desc": "heart exclamation",
-    "emoji": "❣",
-    "group": "group",
-    "since": 2,
-    "subgroup": "emotion"
-  },
-  "2764": {
-    "desc": "red heart",
-    "emoji": "❤",
-    "group": "group",
-    "since": 2,
-    "subgroup": "emotion"
-  },
-  "2795": {
-    "desc": "plus sign",
-    "emoji": "➕",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-symbol"
-  },
-  "2796": {
-    "desc": "minus sign",
-    "emoji": "➖",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-symbol"
-  },
-  "2797": {
-    "desc": "division sign",
-    "emoji": "➗",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-symbol"
-  },
-  "27A1": {
-    "desc": "right arrow",
-    "emoji": "➡",
-    "group": "group",
-    "since": 2,
-    "subgroup": "arrow"
-  },
-  "27B0": {
-    "desc": "curly loop",
-    "emoji": "➰",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-symbol"
-  },
-  "27BF": {
-    "desc": "double curly loop",
-    "emoji": "➿",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-symbol"
-  },
-  "2934": {
-    "desc": "right arrow curving up",
-    "emoji": "⤴",
-    "group": "group",
-    "since": 2,
-    "subgroup": "arrow"
-  },
-  "2935": {
-    "desc": "right arrow curving down",
-    "emoji": "⤵",
-    "group": "group",
-    "since": 2,
-    "subgroup": "arrow"
-  },
-  "2B05": {
-    "desc": "left arrow",
-    "emoji": "⬅",
-    "group": "group",
-    "since": 2,
-    "subgroup": "arrow"
-  },
-  "2B06": {
-    "desc": "up arrow",
-    "emoji": "⬆",
-    "group": "group",
-    "since": 2,
-    "subgroup": "arrow"
-  },
-  "2B07": {
-    "desc": "down arrow",
-    "emoji": "⬇",
-    "group": "group",
-    "since": 2,
-    "subgroup": "arrow"
-  },
-  "2B1B": {
-    "desc": "black large square",
-    "emoji": "⬛",
-    "group": "group",
-    "since": 2,
-    "subgroup": "geometric"
-  },
-  "2B1C": {
-    "desc": "white large square",
-    "emoji": "⬜",
-    "group": "group",
-    "since": 2,
-    "subgroup": "geometric"
-  },
-  "2B50": {
-    "desc": "star",
-    "emoji": "⭐",
-    "group": "group",
-    "since": 2,
-    "subgroup": "sky & weather"
-  },
-  "2B55": {
-    "desc": "hollow red circle",
-    "emoji": "⭕",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-symbol"
-  },
-  "3030": {
-    "desc": "wavy dash",
-    "emoji": "〰",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-symbol"
-  },
-  "303D": {
-    "desc": "part alternation mark",
-    "emoji": "〽",
-    "group": "group",
-    "since": 2,
-    "subgroup": "other-symbol"
-  },
-  "3297": {
-    "desc": "Japanese “congratulations” button",
-    "emoji": "㊗",
-    "group": "group",
-    "since": 2,
-    "subgroup": "alphanum"
-  },
-  "3299": {
-    "desc": "Japanese “secret” button",
-    "emoji": "㊙",
-    "group": "group",
-    "since": 2,
-    "subgroup": "alphanum"
   }
 }

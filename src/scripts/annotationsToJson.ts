@@ -6,12 +6,18 @@ import { toEmojiKey } from '../utils/toEmojiKey';
 import { CACHE_DIR, DATA_DIR } from '../constants';
 import { invariant } from '../utils/invariant';
 import stringify from 'json-stable-stringify';
+import { toEmojiSortKey } from '../utils/toEmojiSortKey';
+import { sortKeyStringifyOptions } from '../utils/sortKeyStringifyOptions';
 
 interface Annotation {
   char: string;
   codepoints: number[];
   keywords: null | string[];
   name: null | string;
+}
+
+interface AnnotationWithSortKey extends Annotation {
+  sortKey: string;
 }
 
 (async () => {
@@ -24,10 +30,11 @@ interface Annotation {
 
     const annotations = $('ldml > annotations > annotation');
 
-    const ret: Record<string, Annotation> = {};
+    const ret: Record<string, AnnotationWithSortKey> = {};
     annotations.map((idx, el) => {
       const codepoints = toCodepoints(el.attribs.cp);
       const key = toEmojiKey(codepoints);
+      const sortKey = toEmojiSortKey(codepoints);
 
       if (!ret[key]) {
         ret[key] = {
@@ -35,6 +42,7 @@ interface Annotation {
           char: el.attribs.cp,
           codepoints,
           keywords: null,
+          sortKey,
         };
       } else {
         invariant(ret[key].char === el.attribs.cp, 'char !== el.attribs.cp (`%s`)', key);
@@ -54,6 +62,6 @@ interface Annotation {
     });
 
     const basename = path.basename(fileName, '.xml');
-    await fs.promises.writeFile(path.join(DATA_DIR, `${basename}.json`), stringify(ret, { space: 2 }));
+    await fs.promises.writeFile(path.join(DATA_DIR, `${basename}.json`), stringify(ret, sortKeyStringifyOptions));
   }
 })();

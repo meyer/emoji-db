@@ -190,6 +190,2511 @@
     ],
     "name": "division sign"
   },
+  "2013": {
+    "char": "–",
+    "codepoints": [
+      8211
+    ],
+    "keywords": [
+      "dash",
+      "en"
+    ],
+    "name": "en dash"
+  },
+  "2014": {
+    "char": "—",
+    "codepoints": [
+      8212
+    ],
+    "keywords": [
+      "dash",
+      "em"
+    ],
+    "name": "em dash"
+  },
+  "2020": {
+    "char": "†",
+    "codepoints": [
+      8224
+    ],
+    "keywords": [
+      "dagger",
+      "obelisk",
+      "obelus"
+    ],
+    "name": "dagger sign"
+  },
+  "2021": {
+    "char": "‡",
+    "codepoints": [
+      8225
+    ],
+    "keywords": [
+      "dagger",
+      "double",
+      "obelisk",
+      "obelus"
+    ],
+    "name": "double dagger sign"
+  },
+  "2022": {
+    "char": "•",
+    "codepoints": [
+      8226
+    ],
+    "keywords": [
+      "bullet",
+      "dot"
+    ],
+    "name": "bullet"
+  },
+  "203C": {
+    "char": "‼",
+    "codepoints": [
+      8252
+    ],
+    "keywords": [
+      "!",
+      "!!",
+      "bangbang",
+      "double exclamation mark",
+      "exclamation",
+      "mark"
+    ],
+    "name": "double exclamation mark"
+  },
+  "2049": {
+    "char": "⁉",
+    "codepoints": [
+      8265
+    ],
+    "keywords": [
+      "!",
+      "!?",
+      "?",
+      "exclamation",
+      "interrobang",
+      "mark",
+      "punctuation",
+      "question"
+    ],
+    "name": "exclamation question mark"
+  },
+  "207B": {
+    "char": "⁻",
+    "codepoints": [
+      8315
+    ],
+    "keywords": [
+      "minus",
+      "superscript"
+    ],
+    "name": "superscript minus"
+  },
+  "20AC": {
+    "char": "€",
+    "codepoints": [
+      8364
+    ],
+    "keywords": [
+      "currency",
+      "EUR",
+      "euro"
+    ],
+    "name": "euro"
+  },
+  "20B9": {
+    "char": "₹",
+    "codepoints": [
+      8377
+    ],
+    "keywords": [
+      "currency",
+      "indian rupee",
+      "rupee"
+    ],
+    "name": "indian rupee"
+  },
+  "20BD": {
+    "char": "₽",
+    "codepoints": [
+      8381
+    ],
+    "keywords": [
+      "currency",
+      "ruble"
+    ],
+    "name": "ruble"
+  },
+  "2117": {
+    "char": "℗",
+    "codepoints": [
+      8471
+    ],
+    "keywords": [
+      "copyright",
+      "recording",
+      "sound"
+    ],
+    "name": "sound recording copyright"
+  },
+  "2122": {
+    "char": "™",
+    "codepoints": [
+      8482
+    ],
+    "keywords": [
+      "mark",
+      "tm",
+      "trade mark",
+      "trademark"
+    ],
+    "name": "trade mark"
+  },
+  "2139": {
+    "char": "ℹ",
+    "codepoints": [
+      8505
+    ],
+    "keywords": [
+      "i",
+      "information"
+    ],
+    "name": "information"
+  },
+  "2190": {
+    "char": "←",
+    "codepoints": [
+      8592
+    ],
+    "keywords": [
+      "arrow",
+      "left",
+      "left-pointing arrow"
+    ],
+    "name": "left-pointing arrow"
+  },
+  "2191": {
+    "char": "↑",
+    "codepoints": [
+      8593
+    ],
+    "keywords": [
+      "arrow",
+      "up",
+      "up-pointing arrow"
+    ],
+    "name": "up-pointing arrow"
+  },
+  "2192": {
+    "char": "→",
+    "codepoints": [
+      8594
+    ],
+    "keywords": [
+      "arrow",
+      "right",
+      "right-pointing arrow"
+    ],
+    "name": "right-pointing arrow"
+  },
+  "2193": {
+    "char": "↓",
+    "codepoints": [
+      8595
+    ],
+    "keywords": [
+      "arrow",
+      "down",
+      "down-pointing arrow"
+    ],
+    "name": "down-pointing arrow"
+  },
+  "2194": {
+    "char": "↔",
+    "codepoints": [
+      8596
+    ],
+    "keywords": [
+      "arrow",
+      "left-right arrow"
+    ],
+    "name": "left-right arrow"
+  },
+  "2195": {
+    "char": "↕",
+    "codepoints": [
+      8597
+    ],
+    "keywords": [
+      "arrow",
+      "up-down arrow"
+    ],
+    "name": "up-down arrow"
+  },
+  "2196": {
+    "char": "↖",
+    "codepoints": [
+      8598
+    ],
+    "keywords": [
+      "arrow",
+      "direction",
+      "intercardinal",
+      "northwest",
+      "up-left arrow"
+    ],
+    "name": "up-left arrow"
+  },
+  "2197": {
+    "char": "↗",
+    "codepoints": [
+      8599
+    ],
+    "keywords": [
+      "arrow",
+      "direction",
+      "intercardinal",
+      "northeast",
+      "up-right arrow"
+    ],
+    "name": "up-right arrow"
+  },
+  "2198": {
+    "char": "↘",
+    "codepoints": [
+      8600
+    ],
+    "keywords": [
+      "arrow",
+      "direction",
+      "down-right arrow",
+      "intercardinal",
+      "southeast"
+    ],
+    "name": "down-right arrow"
+  },
+  "2199": {
+    "char": "↙",
+    "codepoints": [
+      8601
+    ],
+    "keywords": [
+      "arrow",
+      "direction",
+      "down-left arrow",
+      "intercardinal",
+      "southwest"
+    ],
+    "name": "down-left arrow"
+  },
+  "21A9": {
+    "char": "↩",
+    "codepoints": [
+      8617
+    ],
+    "keywords": [
+      "arrow",
+      "right arrow curving left"
+    ],
+    "name": "right arrow curving left"
+  },
+  "21AA": {
+    "char": "↪",
+    "codepoints": [
+      8618
+    ],
+    "keywords": [
+      "arrow",
+      "left arrow curving right"
+    ],
+    "name": "left arrow curving right"
+  },
+  "21C5": {
+    "char": "⇅",
+    "codepoints": [
+      8645
+    ],
+    "keywords": [
+      "arrow",
+      "down",
+      "up",
+      "up-pointing and down-pointing arrows"
+    ],
+    "name": "up-pointing and down-pointing arrows"
+  },
+  "21C6": {
+    "char": "⇆",
+    "codepoints": [
+      8646
+    ],
+    "keywords": [
+      "arrow",
+      "left",
+      "left-pointing over right-pointing arrows",
+      "right"
+    ],
+    "name": "left-pointing over right-pointing arrows"
+  },
+  "2206": {
+    "char": "∆",
+    "codepoints": [
+      8710
+    ],
+    "keywords": [
+      "increment",
+      "triangle"
+    ],
+    "name": "increment"
+  },
+  "2207": {
+    "char": "∇",
+    "codepoints": [
+      8711
+    ],
+    "keywords": [
+      "nabla",
+      "triangle"
+    ],
+    "name": "nabla"
+  },
+  "2208": {
+    "char": "∈",
+    "codepoints": [
+      8712
+    ],
+    "keywords": [
+      "contains",
+      "element",
+      "element of",
+      "membership",
+      "set"
+    ],
+    "name": "element of"
+  },
+  "221A": {
+    "char": "√",
+    "codepoints": [
+      8730
+    ],
+    "keywords": [
+      "radical",
+      "radix",
+      "root",
+      "square",
+      "surd"
+    ],
+    "name": "square root"
+  },
+  "221E": {
+    "char": "∞",
+    "codepoints": [
+      8734
+    ],
+    "keywords": [
+      "infinity"
+    ],
+    "name": "infinity sign"
+  },
+  "2229": {
+    "char": "∩",
+    "codepoints": [
+      8745
+    ],
+    "keywords": [
+      "intersection",
+      "set"
+    ],
+    "name": "intersection"
+  },
+  "222A": {
+    "char": "∪",
+    "codepoints": [
+      8746
+    ],
+    "keywords": [
+      "collection",
+      "set",
+      "union"
+    ],
+    "name": "union"
+  },
+  "2261": {
+    "char": "≡",
+    "codepoints": [
+      8801
+    ],
+    "keywords": [
+      "exact",
+      "identical",
+      "identical to",
+      "triple"
+    ],
+    "name": "identical to"
+  },
+  "2282": {
+    "char": "⊂",
+    "codepoints": [
+      8834
+    ],
+    "keywords": [
+      "set",
+      "subset",
+      "subset of"
+    ],
+    "name": "subset of"
+  },
+  "231A": {
+    "char": "⌚",
+    "codepoints": [
+      8986
+    ],
+    "keywords": [
+      "clock",
+      "watch"
+    ],
+    "name": "watch"
+  },
+  "231B": {
+    "char": "⌛",
+    "codepoints": [
+      8987
+    ],
+    "keywords": [
+      "hourglass done",
+      "sand",
+      "timer"
+    ],
+    "name": "hourglass done"
+  },
+  "2328": {
+    "char": "⌨",
+    "codepoints": [
+      9000
+    ],
+    "keywords": [
+      "computer",
+      "keyboard"
+    ],
+    "name": "keyboard"
+  },
+  "23CF": {
+    "char": "⏏",
+    "codepoints": [
+      9167
+    ],
+    "keywords": [
+      "eject",
+      "eject button"
+    ],
+    "name": "eject button"
+  },
+  "23E9": {
+    "char": "⏩",
+    "codepoints": [
+      9193
+    ],
+    "keywords": [
+      "arrow",
+      "double",
+      "fast",
+      "fast-forward button",
+      "forward"
+    ],
+    "name": "fast-forward button"
+  },
+  "23EA": {
+    "char": "⏪",
+    "codepoints": [
+      9194
+    ],
+    "keywords": [
+      "arrow",
+      "double",
+      "fast reverse button",
+      "rewind"
+    ],
+    "name": "fast reverse button"
+  },
+  "23EB": {
+    "char": "⏫",
+    "codepoints": [
+      9195
+    ],
+    "keywords": [
+      "arrow",
+      "double",
+      "fast up button"
+    ],
+    "name": "fast up button"
+  },
+  "23EC": {
+    "char": "⏬",
+    "codepoints": [
+      9196
+    ],
+    "keywords": [
+      "arrow",
+      "double",
+      "down",
+      "fast down button"
+    ],
+    "name": "fast down button"
+  },
+  "23ED": {
+    "char": "⏭",
+    "codepoints": [
+      9197
+    ],
+    "keywords": [
+      "arrow",
+      "next scene",
+      "next track",
+      "next track button",
+      "triangle"
+    ],
+    "name": "next track button"
+  },
+  "23EE": {
+    "char": "⏮",
+    "codepoints": [
+      9198
+    ],
+    "keywords": [
+      "arrow",
+      "last track button",
+      "previous scene",
+      "previous track",
+      "triangle"
+    ],
+    "name": "last track button"
+  },
+  "23EF": {
+    "char": "⏯",
+    "codepoints": [
+      9199
+    ],
+    "keywords": [
+      "arrow",
+      "pause",
+      "play",
+      "play or pause button",
+      "right",
+      "triangle"
+    ],
+    "name": "play or pause button"
+  },
+  "23F0": {
+    "char": "⏰",
+    "codepoints": [
+      9200
+    ],
+    "keywords": [
+      "alarm",
+      "clock"
+    ],
+    "name": "alarm clock"
+  },
+  "23F1": {
+    "char": "⏱",
+    "codepoints": [
+      9201
+    ],
+    "keywords": [
+      "clock",
+      "stopwatch"
+    ],
+    "name": "stopwatch"
+  },
+  "23F2": {
+    "char": "⏲",
+    "codepoints": [
+      9202
+    ],
+    "keywords": [
+      "clock",
+      "timer"
+    ],
+    "name": "timer clock"
+  },
+  "23F3": {
+    "char": "⏳",
+    "codepoints": [
+      9203
+    ],
+    "keywords": [
+      "hourglass",
+      "hourglass not done",
+      "sand",
+      "timer"
+    ],
+    "name": "hourglass not done"
+  },
+  "23F8": {
+    "char": "⏸",
+    "codepoints": [
+      9208
+    ],
+    "keywords": [
+      "bar",
+      "double",
+      "pause",
+      "pause button",
+      "vertical"
+    ],
+    "name": "pause button"
+  },
+  "23F9": {
+    "char": "⏹",
+    "codepoints": [
+      9209
+    ],
+    "keywords": [
+      "square",
+      "stop",
+      "stop button"
+    ],
+    "name": "stop button"
+  },
+  "23FA": {
+    "char": "⏺",
+    "codepoints": [
+      9210
+    ],
+    "keywords": [
+      "circle",
+      "record",
+      "record button"
+    ],
+    "name": "record button"
+  },
+  "24C2": {
+    "char": "Ⓜ",
+    "codepoints": [
+      9410
+    ],
+    "keywords": [
+      "circle",
+      "circled M",
+      "m"
+    ],
+    "name": "circled M"
+  },
+  "25AA": {
+    "char": "▪",
+    "codepoints": [
+      9642
+    ],
+    "keywords": [
+      "black small square",
+      "geometric",
+      "square"
+    ],
+    "name": "black small square"
+  },
+  "25AB": {
+    "char": "▫",
+    "codepoints": [
+      9643
+    ],
+    "keywords": [
+      "geometric",
+      "square",
+      "white small square"
+    ],
+    "name": "white small square"
+  },
+  "25B2": {
+    "char": "▲",
+    "codepoints": [
+      9650
+    ],
+    "keywords": [
+      "arrow",
+      "filled",
+      "filled up-pointing triangle",
+      "triangle",
+      "up"
+    ],
+    "name": "filled up-pointing triangle"
+  },
+  "25B6": {
+    "char": "▶",
+    "codepoints": [
+      9654
+    ],
+    "keywords": [
+      "arrow",
+      "play",
+      "play button",
+      "right",
+      "triangle"
+    ],
+    "name": "play button"
+  },
+  "25BC": {
+    "char": "▼",
+    "codepoints": [
+      9660
+    ],
+    "keywords": [
+      "arrow",
+      "down",
+      "filled",
+      "filled down-pointing triangle",
+      "triangle"
+    ],
+    "name": "filled down-pointing triangle"
+  },
+  "25C0": {
+    "char": "◀",
+    "codepoints": [
+      9664
+    ],
+    "keywords": [
+      "arrow",
+      "left",
+      "reverse",
+      "reverse button",
+      "triangle"
+    ],
+    "name": "reverse button"
+  },
+  "25CA": {
+    "char": "◊",
+    "codepoints": [
+      9674
+    ],
+    "keywords": [
+      "diamond",
+      "lozenge",
+      "rhombus"
+    ],
+    "name": "lozenge"
+  },
+  "25CB": {
+    "char": "○",
+    "codepoints": [
+      9675
+    ],
+    "keywords": [
+      "circle",
+      "hollow circle",
+      "ring"
+    ],
+    "name": "hollow circle"
+  },
+  "25CF": {
+    "char": "●",
+    "codepoints": [
+      9679
+    ],
+    "keywords": [
+      "circle",
+      "filled circle"
+    ],
+    "name": "filled circle"
+  },
+  "25EF": {
+    "char": "◯",
+    "codepoints": [
+      9711
+    ],
+    "keywords": [
+      "circle",
+      "large hollow circle",
+      "ring"
+    ],
+    "name": "large hollow circle"
+  },
+  "25FB": {
+    "char": "◻",
+    "codepoints": [
+      9723
+    ],
+    "keywords": [
+      "geometric",
+      "square",
+      "white medium square"
+    ],
+    "name": "white medium square"
+  },
+  "25FC": {
+    "char": "◼",
+    "codepoints": [
+      9724
+    ],
+    "keywords": [
+      "black medium square",
+      "geometric",
+      "square"
+    ],
+    "name": "black medium square"
+  },
+  "25FD": {
+    "char": "◽",
+    "codepoints": [
+      9725
+    ],
+    "keywords": [
+      "geometric",
+      "square",
+      "white medium-small square"
+    ],
+    "name": "white medium-small square"
+  },
+  "25FE": {
+    "char": "◾",
+    "codepoints": [
+      9726
+    ],
+    "keywords": [
+      "black medium-small square",
+      "geometric",
+      "square"
+    ],
+    "name": "black medium-small square"
+  },
+  "2600": {
+    "char": "☀",
+    "codepoints": [
+      9728
+    ],
+    "keywords": [
+      "bright",
+      "rays",
+      "sun",
+      "sunny"
+    ],
+    "name": "sun"
+  },
+  "2601": {
+    "char": "☁",
+    "codepoints": [
+      9729
+    ],
+    "keywords": [
+      "cloud",
+      "weather"
+    ],
+    "name": "cloud"
+  },
+  "2602": {
+    "char": "☂",
+    "codepoints": [
+      9730
+    ],
+    "keywords": [
+      "clothing",
+      "rain",
+      "umbrella"
+    ],
+    "name": "umbrella"
+  },
+  "2603": {
+    "char": "☃",
+    "codepoints": [
+      9731
+    ],
+    "keywords": [
+      "cold",
+      "snow",
+      "snowman"
+    ],
+    "name": "snowman"
+  },
+  "2604": {
+    "char": "☄",
+    "codepoints": [
+      9732
+    ],
+    "keywords": [
+      "comet",
+      "space"
+    ],
+    "name": "comet"
+  },
+  "260E": {
+    "char": "☎",
+    "codepoints": [
+      9742
+    ],
+    "keywords": [
+      "phone",
+      "telephone"
+    ],
+    "name": "telephone"
+  },
+  "2611": {
+    "char": "☑",
+    "codepoints": [
+      9745
+    ],
+    "keywords": [
+      "✓",
+      "box",
+      "check",
+      "check box with check"
+    ],
+    "name": "check box with check"
+  },
+  "2614": {
+    "char": "☔",
+    "codepoints": [
+      9748
+    ],
+    "keywords": [
+      "clothing",
+      "drop",
+      "rain",
+      "umbrella",
+      "umbrella with rain drops"
+    ],
+    "name": "umbrella with rain drops"
+  },
+  "2615": {
+    "char": "☕",
+    "codepoints": [
+      9749
+    ],
+    "keywords": [
+      "beverage",
+      "coffee",
+      "drink",
+      "hot",
+      "steaming",
+      "tea"
+    ],
+    "name": "hot beverage"
+  },
+  "2618": {
+    "char": "☘",
+    "codepoints": [
+      9752
+    ],
+    "keywords": [
+      "plant",
+      "shamrock"
+    ],
+    "name": "shamrock"
+  },
+  "261D": {
+    "char": "☝",
+    "codepoints": [
+      9757
+    ],
+    "keywords": [
+      "finger",
+      "hand",
+      "index",
+      "index pointing up",
+      "point",
+      "up"
+    ],
+    "name": "index pointing up"
+  },
+  "2620": {
+    "char": "☠",
+    "codepoints": [
+      9760
+    ],
+    "keywords": [
+      "crossbones",
+      "death",
+      "face",
+      "monster",
+      "skull",
+      "skull and crossbones"
+    ],
+    "name": "skull and crossbones"
+  },
+  "2622": {
+    "char": "☢",
+    "codepoints": [
+      9762
+    ],
+    "keywords": [
+      "radioactive",
+      "sign"
+    ],
+    "name": "radioactive"
+  },
+  "2623": {
+    "char": "☣",
+    "codepoints": [
+      9763
+    ],
+    "keywords": [
+      "biohazard",
+      "sign"
+    ],
+    "name": "biohazard"
+  },
+  "2626": {
+    "char": "☦",
+    "codepoints": [
+      9766
+    ],
+    "keywords": [
+      "Christian",
+      "cross",
+      "orthodox cross",
+      "religion"
+    ],
+    "name": "orthodox cross"
+  },
+  "262A": {
+    "char": "☪",
+    "codepoints": [
+      9770
+    ],
+    "keywords": [
+      "islam",
+      "Muslim",
+      "religion",
+      "star and crescent"
+    ],
+    "name": "star and crescent"
+  },
+  "262E": {
+    "char": "☮",
+    "codepoints": [
+      9774
+    ],
+    "keywords": [
+      "peace",
+      "peace symbol"
+    ],
+    "name": "peace symbol"
+  },
+  "262F": {
+    "char": "☯",
+    "codepoints": [
+      9775
+    ],
+    "keywords": [
+      "religion",
+      "tao",
+      "taoist",
+      "yang",
+      "yin"
+    ],
+    "name": "yin yang"
+  },
+  "2638": {
+    "char": "☸",
+    "codepoints": [
+      9784
+    ],
+    "keywords": [
+      "Buddhist",
+      "dharma",
+      "religion",
+      "wheel",
+      "wheel of dharma"
+    ],
+    "name": "wheel of dharma"
+  },
+  "2639": {
+    "char": "☹",
+    "codepoints": [
+      9785
+    ],
+    "keywords": [
+      "face",
+      "frown",
+      "frowning face"
+    ],
+    "name": "frowning face"
+  },
+  "263A": {
+    "char": "☺",
+    "codepoints": [
+      9786
+    ],
+    "keywords": [
+      "face",
+      "outlined",
+      "relaxed",
+      "smile",
+      "smiling face"
+    ],
+    "name": "smiling face"
+  },
+  "2640": {
+    "char": "♀",
+    "codepoints": [
+      9792
+    ],
+    "keywords": [
+      "female sign",
+      "woman"
+    ],
+    "name": "female sign"
+  },
+  "2642": {
+    "char": "♂",
+    "codepoints": [
+      9794
+    ],
+    "keywords": [
+      "male sign",
+      "man"
+    ],
+    "name": "male sign"
+  },
+  "2648": {
+    "char": "♈",
+    "codepoints": [
+      9800
+    ],
+    "keywords": [
+      "Aries",
+      "ram",
+      "zodiac"
+    ],
+    "name": "Aries"
+  },
+  "2649": {
+    "char": "♉",
+    "codepoints": [
+      9801
+    ],
+    "keywords": [
+      "bull",
+      "ox",
+      "Taurus",
+      "zodiac"
+    ],
+    "name": "Taurus"
+  },
+  "264A": {
+    "char": "♊",
+    "codepoints": [
+      9802
+    ],
+    "keywords": [
+      "Gemini",
+      "twins",
+      "zodiac"
+    ],
+    "name": "Gemini"
+  },
+  "264B": {
+    "char": "♋",
+    "codepoints": [
+      9803
+    ],
+    "keywords": [
+      "Cancer",
+      "crab",
+      "zodiac"
+    ],
+    "name": "Cancer"
+  },
+  "264C": {
+    "char": "♌",
+    "codepoints": [
+      9804
+    ],
+    "keywords": [
+      "Leo",
+      "lion",
+      "zodiac"
+    ],
+    "name": "Leo"
+  },
+  "264D": {
+    "char": "♍",
+    "codepoints": [
+      9805
+    ],
+    "keywords": [
+      "Virgo",
+      "zodiac"
+    ],
+    "name": "Virgo"
+  },
+  "264E": {
+    "char": "♎",
+    "codepoints": [
+      9806
+    ],
+    "keywords": [
+      "balance",
+      "justice",
+      "Libra",
+      "scales",
+      "zodiac"
+    ],
+    "name": "Libra"
+  },
+  "264F": {
+    "char": "♏",
+    "codepoints": [
+      9807
+    ],
+    "keywords": [
+      "Scorpio",
+      "scorpion",
+      "scorpius",
+      "zodiac"
+    ],
+    "name": "Scorpio"
+  },
+  "2650": {
+    "char": "♐",
+    "codepoints": [
+      9808
+    ],
+    "keywords": [
+      "archer",
+      "Sagittarius",
+      "zodiac"
+    ],
+    "name": "Sagittarius"
+  },
+  "2651": {
+    "char": "♑",
+    "codepoints": [
+      9809
+    ],
+    "keywords": [
+      "Capricorn",
+      "goat",
+      "zodiac"
+    ],
+    "name": "Capricorn"
+  },
+  "2652": {
+    "char": "♒",
+    "codepoints": [
+      9810
+    ],
+    "keywords": [
+      "Aquarius",
+      "bearer",
+      "water",
+      "zodiac"
+    ],
+    "name": "Aquarius"
+  },
+  "2653": {
+    "char": "♓",
+    "codepoints": [
+      9811
+    ],
+    "keywords": [
+      "fish",
+      "Pisces",
+      "zodiac"
+    ],
+    "name": "Pisces"
+  },
+  "265F": {
+    "char": "♟",
+    "codepoints": [
+      9823
+    ],
+    "keywords": [
+      "chess",
+      "chess pawn",
+      "dupe",
+      "expendable"
+    ],
+    "name": "chess pawn"
+  },
+  "2660": {
+    "char": "♠",
+    "codepoints": [
+      9824
+    ],
+    "keywords": [
+      "card",
+      "game",
+      "spade suit"
+    ],
+    "name": "spade suit"
+  },
+  "2663": {
+    "char": "♣",
+    "codepoints": [
+      9827
+    ],
+    "keywords": [
+      "card",
+      "club suit",
+      "game"
+    ],
+    "name": "club suit"
+  },
+  "2665": {
+    "char": "♥",
+    "codepoints": [
+      9829
+    ],
+    "keywords": [
+      "card",
+      "game",
+      "heart suit"
+    ],
+    "name": "heart suit"
+  },
+  "2666": {
+    "char": "♦",
+    "codepoints": [
+      9830
+    ],
+    "keywords": [
+      "card",
+      "diamond suit",
+      "game"
+    ],
+    "name": "diamond suit"
+  },
+  "2668": {
+    "char": "♨",
+    "codepoints": [
+      9832
+    ],
+    "keywords": [
+      "hot",
+      "hotsprings",
+      "springs",
+      "steaming"
+    ],
+    "name": "hot springs"
+  },
+  "267B": {
+    "char": "♻",
+    "codepoints": [
+      9851
+    ],
+    "keywords": [
+      "recycle",
+      "recycling symbol"
+    ],
+    "name": "recycling symbol"
+  },
+  "267E": {
+    "char": "♾",
+    "codepoints": [
+      9854
+    ],
+    "keywords": [
+      "forever",
+      "infinity",
+      "unbounded",
+      "universal"
+    ],
+    "name": "infinity"
+  },
+  "267F": {
+    "char": "♿",
+    "codepoints": [
+      9855
+    ],
+    "keywords": [
+      "access",
+      "wheelchair symbol"
+    ],
+    "name": "wheelchair symbol"
+  },
+  "2692": {
+    "char": "⚒",
+    "codepoints": [
+      9874
+    ],
+    "keywords": [
+      "hammer",
+      "hammer and pick",
+      "pick",
+      "tool"
+    ],
+    "name": "hammer and pick"
+  },
+  "2693": {
+    "char": "⚓",
+    "codepoints": [
+      9875
+    ],
+    "keywords": [
+      "anchor",
+      "ship",
+      "tool"
+    ],
+    "name": "anchor"
+  },
+  "2694": {
+    "char": "⚔",
+    "codepoints": [
+      9876
+    ],
+    "keywords": [
+      "crossed",
+      "swords",
+      "weapon"
+    ],
+    "name": "crossed swords"
+  },
+  "2695": {
+    "char": "⚕",
+    "codepoints": [
+      9877
+    ],
+    "keywords": [
+      "aesculapius",
+      "medical symbol",
+      "medicine",
+      "staff"
+    ],
+    "name": "medical symbol"
+  },
+  "2696": {
+    "char": "⚖",
+    "codepoints": [
+      9878
+    ],
+    "keywords": [
+      "balance",
+      "justice",
+      "Libra",
+      "scale",
+      "zodiac"
+    ],
+    "name": "balance scale"
+  },
+  "2697": {
+    "char": "⚗",
+    "codepoints": [
+      9879
+    ],
+    "keywords": [
+      "alembic",
+      "chemistry",
+      "tool"
+    ],
+    "name": "alembic"
+  },
+  "2699": {
+    "char": "⚙",
+    "codepoints": [
+      9881
+    ],
+    "keywords": [
+      "cog",
+      "cogwheel",
+      "gear",
+      "tool"
+    ],
+    "name": "gear"
+  },
+  "269B": {
+    "char": "⚛",
+    "codepoints": [
+      9883
+    ],
+    "keywords": [
+      "atheist",
+      "atom",
+      "atom symbol"
+    ],
+    "name": "atom symbol"
+  },
+  "269C": {
+    "char": "⚜",
+    "codepoints": [
+      9884
+    ],
+    "keywords": [
+      "fleur-de-lis"
+    ],
+    "name": "fleur-de-lis"
+  },
+  "26A0": {
+    "char": "⚠",
+    "codepoints": [
+      9888
+    ],
+    "keywords": [
+      "warning"
+    ],
+    "name": "warning"
+  },
+  "26A1": {
+    "char": "⚡",
+    "codepoints": [
+      9889
+    ],
+    "keywords": [
+      "danger",
+      "electric",
+      "high voltage",
+      "lightning",
+      "voltage",
+      "zap"
+    ],
+    "name": "high voltage"
+  },
+  "26A7": {
+    "char": "⚧",
+    "codepoints": [
+      9895
+    ],
+    "keywords": [
+      "transgender",
+      "transgender symbol"
+    ],
+    "name": "transgender symbol"
+  },
+  "26AA": {
+    "char": "⚪",
+    "codepoints": [
+      9898
+    ],
+    "keywords": [
+      "circle",
+      "geometric",
+      "white circle"
+    ],
+    "name": "white circle"
+  },
+  "26AB": {
+    "char": "⚫",
+    "codepoints": [
+      9899
+    ],
+    "keywords": [
+      "black circle",
+      "circle",
+      "geometric"
+    ],
+    "name": "black circle"
+  },
+  "26B0": {
+    "char": "⚰",
+    "codepoints": [
+      9904
+    ],
+    "keywords": [
+      "coffin",
+      "death"
+    ],
+    "name": "coffin"
+  },
+  "26B1": {
+    "char": "⚱",
+    "codepoints": [
+      9905
+    ],
+    "keywords": [
+      "ashes",
+      "death",
+      "funeral",
+      "urn"
+    ],
+    "name": "funeral urn"
+  },
+  "26BD": {
+    "char": "⚽",
+    "codepoints": [
+      9917
+    ],
+    "keywords": [
+      "ball",
+      "football",
+      "soccer"
+    ],
+    "name": "soccer ball"
+  },
+  "26BE": {
+    "char": "⚾",
+    "codepoints": [
+      9918
+    ],
+    "keywords": [
+      "ball",
+      "baseball"
+    ],
+    "name": "baseball"
+  },
+  "26C4": {
+    "char": "⛄",
+    "codepoints": [
+      9924
+    ],
+    "keywords": [
+      "cold",
+      "snow",
+      "snowman",
+      "snowman without snow"
+    ],
+    "name": "snowman without snow"
+  },
+  "26C5": {
+    "char": "⛅",
+    "codepoints": [
+      9925
+    ],
+    "keywords": [
+      "cloud",
+      "sun",
+      "sun behind cloud"
+    ],
+    "name": "sun behind cloud"
+  },
+  "26C8": {
+    "char": "⛈",
+    "codepoints": [
+      9928
+    ],
+    "keywords": [
+      "cloud",
+      "cloud with lightning and rain",
+      "rain",
+      "thunder"
+    ],
+    "name": "cloud with lightning and rain"
+  },
+  "26CE": {
+    "char": "⛎",
+    "codepoints": [
+      9934
+    ],
+    "keywords": [
+      "bearer",
+      "Ophiuchus",
+      "serpent",
+      "snake",
+      "zodiac"
+    ],
+    "name": "Ophiuchus"
+  },
+  "26CF": {
+    "char": "⛏",
+    "codepoints": [
+      9935
+    ],
+    "keywords": [
+      "mining",
+      "pick",
+      "tool"
+    ],
+    "name": "pick"
+  },
+  "26D1": {
+    "char": "⛑",
+    "codepoints": [
+      9937
+    ],
+    "keywords": [
+      "aid",
+      "cross",
+      "face",
+      "hat",
+      "helmet",
+      "rescue worker’s helmet"
+    ],
+    "name": "rescue worker’s helmet"
+  },
+  "26D3": {
+    "char": "⛓",
+    "codepoints": [
+      9939
+    ],
+    "keywords": [
+      "chain",
+      "chains"
+    ],
+    "name": "chains"
+  },
+  "26D4": {
+    "char": "⛔",
+    "codepoints": [
+      9940
+    ],
+    "keywords": [
+      "entry",
+      "forbidden",
+      "no",
+      "not",
+      "prohibited",
+      "traffic"
+    ],
+    "name": "no entry"
+  },
+  "26E9": {
+    "char": "⛩",
+    "codepoints": [
+      9961
+    ],
+    "keywords": [
+      "religion",
+      "shinto",
+      "shrine"
+    ],
+    "name": "shinto shrine"
+  },
+  "26EA": {
+    "char": "⛪",
+    "codepoints": [
+      9962
+    ],
+    "keywords": [
+      "Christian",
+      "church",
+      "cross",
+      "religion"
+    ],
+    "name": "church"
+  },
+  "26F0": {
+    "char": "⛰",
+    "codepoints": [
+      9968
+    ],
+    "keywords": [
+      "mountain"
+    ],
+    "name": "mountain"
+  },
+  "26F1": {
+    "char": "⛱",
+    "codepoints": [
+      9969
+    ],
+    "keywords": [
+      "rain",
+      "sun",
+      "umbrella",
+      "umbrella on ground"
+    ],
+    "name": "umbrella on ground"
+  },
+  "26F2": {
+    "char": "⛲",
+    "codepoints": [
+      9970
+    ],
+    "keywords": [
+      "fountain"
+    ],
+    "name": "fountain"
+  },
+  "26F3": {
+    "char": "⛳",
+    "codepoints": [
+      9971
+    ],
+    "keywords": [
+      "flag in hole",
+      "golf",
+      "hole"
+    ],
+    "name": "flag in hole"
+  },
+  "26F4": {
+    "char": "⛴",
+    "codepoints": [
+      9972
+    ],
+    "keywords": [
+      "boat",
+      "ferry",
+      "passenger"
+    ],
+    "name": "ferry"
+  },
+  "26F5": {
+    "char": "⛵",
+    "codepoints": [
+      9973
+    ],
+    "keywords": [
+      "boat",
+      "resort",
+      "sailboat",
+      "sea",
+      "yacht"
+    ],
+    "name": "sailboat"
+  },
+  "26F7": {
+    "char": "⛷",
+    "codepoints": [
+      9975
+    ],
+    "keywords": [
+      "ski",
+      "skier",
+      "snow"
+    ],
+    "name": "skier"
+  },
+  "26F8": {
+    "char": "⛸",
+    "codepoints": [
+      9976
+    ],
+    "keywords": [
+      "ice",
+      "skate"
+    ],
+    "name": "ice skate"
+  },
+  "26F9": {
+    "char": "⛹",
+    "codepoints": [
+      9977
+    ],
+    "keywords": [
+      "ball",
+      "person bouncing ball"
+    ],
+    "name": "person bouncing ball"
+  },
+  "26F9_2640": {
+    "char": "⛹‍♀",
+    "codepoints": [
+      9977,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "ball",
+      "woman",
+      "woman bouncing ball"
+    ],
+    "name": "woman bouncing ball"
+  },
+  "26F9_2642": {
+    "char": "⛹‍♂",
+    "codepoints": [
+      9977,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "ball",
+      "man",
+      "man bouncing ball"
+    ],
+    "name": "man bouncing ball"
+  },
+  "26FA": {
+    "char": "⛺",
+    "codepoints": [
+      9978
+    ],
+    "keywords": [
+      "camping",
+      "tent"
+    ],
+    "name": "tent"
+  },
+  "26FD": {
+    "char": "⛽",
+    "codepoints": [
+      9981
+    ],
+    "keywords": [
+      "diesel",
+      "fuel",
+      "fuelpump",
+      "gas",
+      "pump",
+      "station"
+    ],
+    "name": "fuel pump"
+  },
+  "2702": {
+    "char": "✂",
+    "codepoints": [
+      9986
+    ],
+    "keywords": [
+      "cutting",
+      "scissors",
+      "tool"
+    ],
+    "name": "scissors"
+  },
+  "2705": {
+    "char": "✅",
+    "codepoints": [
+      9989
+    ],
+    "keywords": [
+      "✓",
+      "button",
+      "check",
+      "mark"
+    ],
+    "name": "check mark button"
+  },
+  "2708": {
+    "char": "✈",
+    "codepoints": [
+      9992
+    ],
+    "keywords": [
+      "aeroplane",
+      "airplane"
+    ],
+    "name": "airplane"
+  },
+  "2709": {
+    "char": "✉",
+    "codepoints": [
+      9993
+    ],
+    "keywords": [
+      "email",
+      "envelope",
+      "letter"
+    ],
+    "name": "envelope"
+  },
+  "270A": {
+    "char": "✊",
+    "codepoints": [
+      9994
+    ],
+    "keywords": [
+      "clenched",
+      "fist",
+      "hand",
+      "punch",
+      "raised fist"
+    ],
+    "name": "raised fist"
+  },
+  "270B": {
+    "char": "✋",
+    "codepoints": [
+      9995
+    ],
+    "keywords": [
+      "hand",
+      "raised hand"
+    ],
+    "name": "raised hand"
+  },
+  "270C": {
+    "char": "✌",
+    "codepoints": [
+      9996
+    ],
+    "keywords": [
+      "hand",
+      "v",
+      "victory"
+    ],
+    "name": "victory hand"
+  },
+  "270D": {
+    "char": "✍",
+    "codepoints": [
+      9997
+    ],
+    "keywords": [
+      "hand",
+      "write",
+      "writing hand"
+    ],
+    "name": "writing hand"
+  },
+  "270F": {
+    "char": "✏",
+    "codepoints": [
+      9999
+    ],
+    "keywords": [
+      "pencil"
+    ],
+    "name": "pencil"
+  },
+  "2712": {
+    "char": "✒",
+    "codepoints": [
+      10002
+    ],
+    "keywords": [
+      "black nib",
+      "nib",
+      "pen"
+    ],
+    "name": "black nib"
+  },
+  "2714": {
+    "char": "✔",
+    "codepoints": [
+      10004
+    ],
+    "keywords": [
+      "✓",
+      "check",
+      "mark"
+    ],
+    "name": "check mark"
+  },
+  "2716": {
+    "char": "✖",
+    "codepoints": [
+      10006
+    ],
+    "keywords": [
+      "×",
+      "cancel",
+      "multiplication",
+      "multiply",
+      "sign",
+      "x"
+    ],
+    "name": "multiply"
+  },
+  "271D": {
+    "char": "✝",
+    "codepoints": [
+      10013
+    ],
+    "keywords": [
+      "Christian",
+      "cross",
+      "latin cross",
+      "religion"
+    ],
+    "name": "latin cross"
+  },
+  "2721": {
+    "char": "✡",
+    "codepoints": [
+      10017
+    ],
+    "keywords": [
+      "David",
+      "Jew",
+      "Jewish",
+      "religion",
+      "star",
+      "star of David"
+    ],
+    "name": "star of David"
+  },
+  "2728": {
+    "char": "✨",
+    "codepoints": [
+      10024
+    ],
+    "keywords": [
+      "*",
+      "sparkle",
+      "sparkles",
+      "star"
+    ],
+    "name": "sparkles"
+  },
+  "2733": {
+    "char": "✳",
+    "codepoints": [
+      10035
+    ],
+    "keywords": [
+      "*",
+      "asterisk",
+      "eight-spoked asterisk"
+    ],
+    "name": "eight-spoked asterisk"
+  },
+  "2734": {
+    "char": "✴",
+    "codepoints": [
+      10036
+    ],
+    "keywords": [
+      "*",
+      "eight-pointed star",
+      "star"
+    ],
+    "name": "eight-pointed star"
+  },
+  "2744": {
+    "char": "❄",
+    "codepoints": [
+      10052
+    ],
+    "keywords": [
+      "cold",
+      "snow",
+      "snowflake"
+    ],
+    "name": "snowflake"
+  },
+  "2747": {
+    "char": "❇",
+    "codepoints": [
+      10055
+    ],
+    "keywords": [
+      "*",
+      "sparkle"
+    ],
+    "name": "sparkle"
+  },
+  "274C": {
+    "char": "❌",
+    "codepoints": [
+      10060
+    ],
+    "keywords": [
+      "×",
+      "cancel",
+      "cross",
+      "mark",
+      "multiplication",
+      "multiply",
+      "x"
+    ],
+    "name": "cross mark"
+  },
+  "274E": {
+    "char": "❎",
+    "codepoints": [
+      10062
+    ],
+    "keywords": [
+      "×",
+      "cross mark button",
+      "mark",
+      "square",
+      "x"
+    ],
+    "name": "cross mark button"
+  },
+  "2753": {
+    "char": "❓",
+    "codepoints": [
+      10067
+    ],
+    "keywords": [
+      "?",
+      "mark",
+      "punctuation",
+      "question"
+    ],
+    "name": "question mark"
+  },
+  "2754": {
+    "char": "❔",
+    "codepoints": [
+      10068
+    ],
+    "keywords": [
+      "?",
+      "mark",
+      "outlined",
+      "punctuation",
+      "question",
+      "white question mark"
+    ],
+    "name": "white question mark"
+  },
+  "2755": {
+    "char": "❕",
+    "codepoints": [
+      10069
+    ],
+    "keywords": [
+      "!",
+      "exclamation",
+      "mark",
+      "outlined",
+      "punctuation",
+      "white exclamation mark"
+    ],
+    "name": "white exclamation mark"
+  },
+  "2757": {
+    "char": "❗",
+    "codepoints": [
+      10071
+    ],
+    "keywords": [
+      "!",
+      "exclamation",
+      "mark",
+      "punctuation"
+    ],
+    "name": "exclamation mark"
+  },
+  "2763": {
+    "char": "❣",
+    "codepoints": [
+      10083
+    ],
+    "keywords": [
+      "exclamation",
+      "heart exclamation",
+      "mark",
+      "punctuation"
+    ],
+    "name": "heart exclamation"
+  },
+  "2764": {
+    "char": "❤",
+    "codepoints": [
+      10084
+    ],
+    "keywords": [
+      "heart",
+      "red heart"
+    ],
+    "name": "red heart"
+  },
+  "2795": {
+    "char": "➕",
+    "codepoints": [
+      10133
+    ],
+    "keywords": [
+      "+",
+      "math",
+      "plus",
+      "sign"
+    ],
+    "name": "plus"
+  },
+  "2796": {
+    "char": "➖",
+    "codepoints": [
+      10134
+    ],
+    "keywords": [
+      "-",
+      "−",
+      "math",
+      "minus",
+      "sign"
+    ],
+    "name": "minus"
+  },
+  "2797": {
+    "char": "➗",
+    "codepoints": [
+      10135
+    ],
+    "keywords": [
+      "÷",
+      "division",
+      "math",
+      "sign"
+    ],
+    "name": "divide"
+  },
+  "27A1": {
+    "char": "➡",
+    "codepoints": [
+      10145
+    ],
+    "keywords": [
+      "arrow",
+      "cardinal",
+      "direction",
+      "east",
+      "right arrow"
+    ],
+    "name": "right arrow"
+  },
+  "27B0": {
+    "char": "➰",
+    "codepoints": [
+      10160
+    ],
+    "keywords": [
+      "curl",
+      "curly loop",
+      "loop"
+    ],
+    "name": "curly loop"
+  },
+  "27BF": {
+    "char": "➿",
+    "codepoints": [
+      10175
+    ],
+    "keywords": [
+      "curl",
+      "double",
+      "double curly loop",
+      "loop"
+    ],
+    "name": "double curly loop"
+  },
+  "2934": {
+    "char": "⤴",
+    "codepoints": [
+      10548
+    ],
+    "keywords": [
+      "arrow",
+      "right arrow curving up"
+    ],
+    "name": "right arrow curving up"
+  },
+  "2935": {
+    "char": "⤵",
+    "codepoints": [
+      10549
+    ],
+    "keywords": [
+      "arrow",
+      "down",
+      "right arrow curving down"
+    ],
+    "name": "right arrow curving down"
+  },
+  "2B05": {
+    "char": "⬅",
+    "codepoints": [
+      11013
+    ],
+    "keywords": [
+      "arrow",
+      "cardinal",
+      "direction",
+      "left arrow",
+      "west"
+    ],
+    "name": "left arrow"
+  },
+  "2B06": {
+    "char": "⬆",
+    "codepoints": [
+      11014
+    ],
+    "keywords": [
+      "arrow",
+      "cardinal",
+      "direction",
+      "north",
+      "up arrow"
+    ],
+    "name": "up arrow"
+  },
+  "2B07": {
+    "char": "⬇",
+    "codepoints": [
+      11015
+    ],
+    "keywords": [
+      "arrow",
+      "cardinal",
+      "direction",
+      "down",
+      "south"
+    ],
+    "name": "down arrow"
+  },
+  "2B1B": {
+    "char": "⬛",
+    "codepoints": [
+      11035
+    ],
+    "keywords": [
+      "black large square",
+      "geometric",
+      "square"
+    ],
+    "name": "black large square"
+  },
+  "2B1C": {
+    "char": "⬜",
+    "codepoints": [
+      11036
+    ],
+    "keywords": [
+      "geometric",
+      "square",
+      "white large square"
+    ],
+    "name": "white large square"
+  },
+  "2B50": {
+    "char": "⭐",
+    "codepoints": [
+      11088
+    ],
+    "keywords": [
+      "star"
+    ],
+    "name": "star"
+  },
+  "2B55": {
+    "char": "⭕",
+    "codepoints": [
+      11093
+    ],
+    "keywords": [
+      "circle",
+      "hollow red circle",
+      "large",
+      "o",
+      "red"
+    ],
+    "name": "hollow red circle"
+  },
+  "3030": {
+    "char": "〰",
+    "codepoints": [
+      12336
+    ],
+    "keywords": [
+      "dash",
+      "punctuation",
+      "wavy"
+    ],
+    "name": "wavy dash"
+  },
+  "303D": {
+    "char": "〽",
+    "codepoints": [
+      12349
+    ],
+    "keywords": [
+      "mark",
+      "part",
+      "part alternation mark"
+    ],
+    "name": "part alternation mark"
+  },
+  "3297": {
+    "char": "㊗",
+    "codepoints": [
+      12951
+    ],
+    "keywords": [
+      "“congratulations”",
+      "ideograph",
+      "Japanese",
+      "Japanese “congratulations” button",
+      "祝"
+    ],
+    "name": "Japanese “congratulations” button"
+  },
+  "3299": {
+    "char": "㊙",
+    "codepoints": [
+      12953
+    ],
+    "keywords": [
+      "“secret”",
+      "ideograph",
+      "Japanese",
+      "Japanese “secret” button",
+      "秘"
+    ],
+    "name": "Japanese “secret” button"
+  },
   "1F004": {
     "char": "🀄",
     "codepoints": [
@@ -3634,20 +6139,6 @@
     ],
     "name": "white flag"
   },
-  "1F3F3_1F308": {
-    "char": "🏳‍🌈",
-    "codepoints": [
-      127987,
-      8205,
-      127752
-    ],
-    "keywords": [
-      "pride",
-      "rainbow",
-      "rainbow flag"
-    ],
-    "name": "rainbow flag"
-  },
   "1F3F3_26A7": {
     "char": "🏳‍⚧",
     "codepoints": [
@@ -3663,6 +6154,20 @@
       "white"
     ],
     "name": "transgender flag"
+  },
+  "1F3F3_1F308": {
+    "char": "🏳‍🌈",
+    "codepoints": [
+      127987,
+      8205,
+      127752
+    ],
+    "keywords": [
+      "pride",
+      "rainbow",
+      "rainbow flag"
+    ],
+    "name": "rainbow flag"
   },
   "1F3F4": {
     "char": "🏴",
@@ -5123,6 +7628,52 @@
     ],
     "name": "man"
   },
+  "1F468_2695": {
+    "char": "👨‍⚕",
+    "codepoints": [
+      128104,
+      8205,
+      9877
+    ],
+    "keywords": [
+      "doctor",
+      "healthcare",
+      "man",
+      "man health worker",
+      "nurse",
+      "therapist"
+    ],
+    "name": "man health worker"
+  },
+  "1F468_2696": {
+    "char": "👨‍⚖",
+    "codepoints": [
+      128104,
+      8205,
+      9878
+    ],
+    "keywords": [
+      "justice",
+      "man",
+      "man judge",
+      "scales"
+    ],
+    "name": "man judge"
+  },
+  "1F468_2708": {
+    "char": "👨‍✈",
+    "codepoints": [
+      128104,
+      8205,
+      9992
+    ],
+    "keywords": [
+      "man",
+      "pilot",
+      "plane"
+    ],
+    "name": "man pilot"
+  },
   "1F468_1F33E": {
     "char": "👨‍🌾",
     "codepoints": [
@@ -5383,52 +7934,6 @@
     ],
     "name": "man in manual wheelchair"
   },
-  "1F468_2695": {
-    "char": "👨‍⚕",
-    "codepoints": [
-      128104,
-      8205,
-      9877
-    ],
-    "keywords": [
-      "doctor",
-      "healthcare",
-      "man",
-      "man health worker",
-      "nurse",
-      "therapist"
-    ],
-    "name": "man health worker"
-  },
-  "1F468_2696": {
-    "char": "👨‍⚖",
-    "codepoints": [
-      128104,
-      8205,
-      9878
-    ],
-    "keywords": [
-      "justice",
-      "man",
-      "man judge",
-      "scales"
-    ],
-    "name": "man judge"
-  },
-  "1F468_2708": {
-    "char": "👨‍✈",
-    "codepoints": [
-      128104,
-      8205,
-      9992
-    ],
-    "keywords": [
-      "man",
-      "pilot",
-      "plane"
-    ],
-    "name": "man pilot"
-  },
   "1F469": {
     "char": "👩",
     "codepoints": [
@@ -5439,6 +7944,51 @@
       "woman"
     ],
     "name": "woman"
+  },
+  "1F469_2695": {
+    "char": "👩‍⚕",
+    "codepoints": [
+      128105,
+      8205,
+      9877
+    ],
+    "keywords": [
+      "doctor",
+      "healthcare",
+      "nurse",
+      "therapist",
+      "woman",
+      "woman health worker"
+    ],
+    "name": "woman health worker"
+  },
+  "1F469_2696": {
+    "char": "👩‍⚖",
+    "codepoints": [
+      128105,
+      8205,
+      9878
+    ],
+    "keywords": [
+      "judge",
+      "scales",
+      "woman"
+    ],
+    "name": "woman judge"
+  },
+  "1F469_2708": {
+    "char": "👩‍✈",
+    "codepoints": [
+      128105,
+      8205,
+      9992
+    ],
+    "keywords": [
+      "pilot",
+      "plane",
+      "woman"
+    ],
+    "name": "woman pilot"
   },
   "1F469_1F33E": {
     "char": "👩‍🌾",
@@ -5699,51 +8249,6 @@
       "woman in manual wheelchair"
     ],
     "name": "woman in manual wheelchair"
-  },
-  "1F469_2695": {
-    "char": "👩‍⚕",
-    "codepoints": [
-      128105,
-      8205,
-      9877
-    ],
-    "keywords": [
-      "doctor",
-      "healthcare",
-      "nurse",
-      "therapist",
-      "woman",
-      "woman health worker"
-    ],
-    "name": "woman health worker"
-  },
-  "1F469_2696": {
-    "char": "👩‍⚖",
-    "codepoints": [
-      128105,
-      8205,
-      9878
-    ],
-    "keywords": [
-      "judge",
-      "scales",
-      "woman"
-    ],
-    "name": "woman judge"
-  },
-  "1F469_2708": {
-    "char": "👩‍✈",
-    "codepoints": [
-      128105,
-      8205,
-      9992
-    ],
-    "keywords": [
-      "pilot",
-      "plane",
-      "woman"
-    ],
-    "name": "woman pilot"
   },
   "1F46A.MWB": {
     "char": "👪",
@@ -15238,6 +17743,48 @@
     ],
     "name": "person"
   },
+  "1F9D1_2695": {
+    "char": "🧑‍⚕",
+    "codepoints": [
+      129489,
+      8205,
+      9877
+    ],
+    "keywords": [
+      "doctor",
+      "health worker",
+      "healthcare",
+      "nurse",
+      "therapist"
+    ],
+    "name": "health worker"
+  },
+  "1F9D1_2696": {
+    "char": "🧑‍⚖",
+    "codepoints": [
+      129489,
+      8205,
+      9878
+    ],
+    "keywords": [
+      "judge",
+      "scales"
+    ],
+    "name": "judge"
+  },
+  "1F9D1_2708": {
+    "char": "🧑‍✈",
+    "codepoints": [
+      129489,
+      8205,
+      9992
+    ],
+    "keywords": [
+      "pilot",
+      "plane"
+    ],
+    "name": "pilot"
+  },
   "1F9D1_1F33E": {
     "char": "🧑‍🌾",
     "codepoints": [
@@ -15511,48 +18058,6 @@
       "wheelchair"
     ],
     "name": "person in manual wheelchair"
-  },
-  "1F9D1_2695": {
-    "char": "🧑‍⚕",
-    "codepoints": [
-      129489,
-      8205,
-      9877
-    ],
-    "keywords": [
-      "doctor",
-      "health worker",
-      "healthcare",
-      "nurse",
-      "therapist"
-    ],
-    "name": "health worker"
-  },
-  "1F9D1_2696": {
-    "char": "🧑‍⚖",
-    "codepoints": [
-      129489,
-      8205,
-      9878
-    ],
-    "keywords": [
-      "judge",
-      "scales"
-    ],
-    "name": "judge"
-  },
-  "1F9D1_2708": {
-    "char": "🧑‍✈",
-    "codepoints": [
-      129489,
-      8205,
-      9992
-    ],
-    "keywords": [
-      "pilot",
-      "plane"
-    ],
-    "name": "pilot"
   },
   "1F9D2": {
     "char": "🧒",
@@ -17176,2510 +19681,5 @@
       "teapot"
     ],
     "name": "teapot"
-  },
-  "2013": {
-    "char": "–",
-    "codepoints": [
-      8211
-    ],
-    "keywords": [
-      "dash",
-      "en"
-    ],
-    "name": "en dash"
-  },
-  "2014": {
-    "char": "—",
-    "codepoints": [
-      8212
-    ],
-    "keywords": [
-      "dash",
-      "em"
-    ],
-    "name": "em dash"
-  },
-  "2020": {
-    "char": "†",
-    "codepoints": [
-      8224
-    ],
-    "keywords": [
-      "dagger",
-      "obelisk",
-      "obelus"
-    ],
-    "name": "dagger sign"
-  },
-  "2021": {
-    "char": "‡",
-    "codepoints": [
-      8225
-    ],
-    "keywords": [
-      "dagger",
-      "double",
-      "obelisk",
-      "obelus"
-    ],
-    "name": "double dagger sign"
-  },
-  "2022": {
-    "char": "•",
-    "codepoints": [
-      8226
-    ],
-    "keywords": [
-      "bullet",
-      "dot"
-    ],
-    "name": "bullet"
-  },
-  "203C": {
-    "char": "‼",
-    "codepoints": [
-      8252
-    ],
-    "keywords": [
-      "!",
-      "!!",
-      "bangbang",
-      "double exclamation mark",
-      "exclamation",
-      "mark"
-    ],
-    "name": "double exclamation mark"
-  },
-  "2049": {
-    "char": "⁉",
-    "codepoints": [
-      8265
-    ],
-    "keywords": [
-      "!",
-      "!?",
-      "?",
-      "exclamation",
-      "interrobang",
-      "mark",
-      "punctuation",
-      "question"
-    ],
-    "name": "exclamation question mark"
-  },
-  "207B": {
-    "char": "⁻",
-    "codepoints": [
-      8315
-    ],
-    "keywords": [
-      "minus",
-      "superscript"
-    ],
-    "name": "superscript minus"
-  },
-  "20AC": {
-    "char": "€",
-    "codepoints": [
-      8364
-    ],
-    "keywords": [
-      "currency",
-      "EUR",
-      "euro"
-    ],
-    "name": "euro"
-  },
-  "20B9": {
-    "char": "₹",
-    "codepoints": [
-      8377
-    ],
-    "keywords": [
-      "currency",
-      "indian rupee",
-      "rupee"
-    ],
-    "name": "indian rupee"
-  },
-  "20BD": {
-    "char": "₽",
-    "codepoints": [
-      8381
-    ],
-    "keywords": [
-      "currency",
-      "ruble"
-    ],
-    "name": "ruble"
-  },
-  "2117": {
-    "char": "℗",
-    "codepoints": [
-      8471
-    ],
-    "keywords": [
-      "copyright",
-      "recording",
-      "sound"
-    ],
-    "name": "sound recording copyright"
-  },
-  "2122": {
-    "char": "™",
-    "codepoints": [
-      8482
-    ],
-    "keywords": [
-      "mark",
-      "tm",
-      "trade mark",
-      "trademark"
-    ],
-    "name": "trade mark"
-  },
-  "2139": {
-    "char": "ℹ",
-    "codepoints": [
-      8505
-    ],
-    "keywords": [
-      "i",
-      "information"
-    ],
-    "name": "information"
-  },
-  "2190": {
-    "char": "←",
-    "codepoints": [
-      8592
-    ],
-    "keywords": [
-      "arrow",
-      "left",
-      "left-pointing arrow"
-    ],
-    "name": "left-pointing arrow"
-  },
-  "2191": {
-    "char": "↑",
-    "codepoints": [
-      8593
-    ],
-    "keywords": [
-      "arrow",
-      "up",
-      "up-pointing arrow"
-    ],
-    "name": "up-pointing arrow"
-  },
-  "2192": {
-    "char": "→",
-    "codepoints": [
-      8594
-    ],
-    "keywords": [
-      "arrow",
-      "right",
-      "right-pointing arrow"
-    ],
-    "name": "right-pointing arrow"
-  },
-  "2193": {
-    "char": "↓",
-    "codepoints": [
-      8595
-    ],
-    "keywords": [
-      "arrow",
-      "down",
-      "down-pointing arrow"
-    ],
-    "name": "down-pointing arrow"
-  },
-  "2194": {
-    "char": "↔",
-    "codepoints": [
-      8596
-    ],
-    "keywords": [
-      "arrow",
-      "left-right arrow"
-    ],
-    "name": "left-right arrow"
-  },
-  "2195": {
-    "char": "↕",
-    "codepoints": [
-      8597
-    ],
-    "keywords": [
-      "arrow",
-      "up-down arrow"
-    ],
-    "name": "up-down arrow"
-  },
-  "2196": {
-    "char": "↖",
-    "codepoints": [
-      8598
-    ],
-    "keywords": [
-      "arrow",
-      "direction",
-      "intercardinal",
-      "northwest",
-      "up-left arrow"
-    ],
-    "name": "up-left arrow"
-  },
-  "2197": {
-    "char": "↗",
-    "codepoints": [
-      8599
-    ],
-    "keywords": [
-      "arrow",
-      "direction",
-      "intercardinal",
-      "northeast",
-      "up-right arrow"
-    ],
-    "name": "up-right arrow"
-  },
-  "2198": {
-    "char": "↘",
-    "codepoints": [
-      8600
-    ],
-    "keywords": [
-      "arrow",
-      "direction",
-      "down-right arrow",
-      "intercardinal",
-      "southeast"
-    ],
-    "name": "down-right arrow"
-  },
-  "2199": {
-    "char": "↙",
-    "codepoints": [
-      8601
-    ],
-    "keywords": [
-      "arrow",
-      "direction",
-      "down-left arrow",
-      "intercardinal",
-      "southwest"
-    ],
-    "name": "down-left arrow"
-  },
-  "21A9": {
-    "char": "↩",
-    "codepoints": [
-      8617
-    ],
-    "keywords": [
-      "arrow",
-      "right arrow curving left"
-    ],
-    "name": "right arrow curving left"
-  },
-  "21AA": {
-    "char": "↪",
-    "codepoints": [
-      8618
-    ],
-    "keywords": [
-      "arrow",
-      "left arrow curving right"
-    ],
-    "name": "left arrow curving right"
-  },
-  "21C5": {
-    "char": "⇅",
-    "codepoints": [
-      8645
-    ],
-    "keywords": [
-      "arrow",
-      "down",
-      "up",
-      "up-pointing and down-pointing arrows"
-    ],
-    "name": "up-pointing and down-pointing arrows"
-  },
-  "21C6": {
-    "char": "⇆",
-    "codepoints": [
-      8646
-    ],
-    "keywords": [
-      "arrow",
-      "left",
-      "left-pointing over right-pointing arrows",
-      "right"
-    ],
-    "name": "left-pointing over right-pointing arrows"
-  },
-  "2206": {
-    "char": "∆",
-    "codepoints": [
-      8710
-    ],
-    "keywords": [
-      "increment",
-      "triangle"
-    ],
-    "name": "increment"
-  },
-  "2207": {
-    "char": "∇",
-    "codepoints": [
-      8711
-    ],
-    "keywords": [
-      "nabla",
-      "triangle"
-    ],
-    "name": "nabla"
-  },
-  "2208": {
-    "char": "∈",
-    "codepoints": [
-      8712
-    ],
-    "keywords": [
-      "contains",
-      "element",
-      "element of",
-      "membership",
-      "set"
-    ],
-    "name": "element of"
-  },
-  "221A": {
-    "char": "√",
-    "codepoints": [
-      8730
-    ],
-    "keywords": [
-      "radical",
-      "radix",
-      "root",
-      "square",
-      "surd"
-    ],
-    "name": "square root"
-  },
-  "221E": {
-    "char": "∞",
-    "codepoints": [
-      8734
-    ],
-    "keywords": [
-      "infinity"
-    ],
-    "name": "infinity sign"
-  },
-  "2229": {
-    "char": "∩",
-    "codepoints": [
-      8745
-    ],
-    "keywords": [
-      "intersection",
-      "set"
-    ],
-    "name": "intersection"
-  },
-  "222A": {
-    "char": "∪",
-    "codepoints": [
-      8746
-    ],
-    "keywords": [
-      "collection",
-      "set",
-      "union"
-    ],
-    "name": "union"
-  },
-  "2261": {
-    "char": "≡",
-    "codepoints": [
-      8801
-    ],
-    "keywords": [
-      "exact",
-      "identical",
-      "identical to",
-      "triple"
-    ],
-    "name": "identical to"
-  },
-  "2282": {
-    "char": "⊂",
-    "codepoints": [
-      8834
-    ],
-    "keywords": [
-      "set",
-      "subset",
-      "subset of"
-    ],
-    "name": "subset of"
-  },
-  "231A": {
-    "char": "⌚",
-    "codepoints": [
-      8986
-    ],
-    "keywords": [
-      "clock",
-      "watch"
-    ],
-    "name": "watch"
-  },
-  "231B": {
-    "char": "⌛",
-    "codepoints": [
-      8987
-    ],
-    "keywords": [
-      "hourglass done",
-      "sand",
-      "timer"
-    ],
-    "name": "hourglass done"
-  },
-  "2328": {
-    "char": "⌨",
-    "codepoints": [
-      9000
-    ],
-    "keywords": [
-      "computer",
-      "keyboard"
-    ],
-    "name": "keyboard"
-  },
-  "23CF": {
-    "char": "⏏",
-    "codepoints": [
-      9167
-    ],
-    "keywords": [
-      "eject",
-      "eject button"
-    ],
-    "name": "eject button"
-  },
-  "23E9": {
-    "char": "⏩",
-    "codepoints": [
-      9193
-    ],
-    "keywords": [
-      "arrow",
-      "double",
-      "fast",
-      "fast-forward button",
-      "forward"
-    ],
-    "name": "fast-forward button"
-  },
-  "23EA": {
-    "char": "⏪",
-    "codepoints": [
-      9194
-    ],
-    "keywords": [
-      "arrow",
-      "double",
-      "fast reverse button",
-      "rewind"
-    ],
-    "name": "fast reverse button"
-  },
-  "23EB": {
-    "char": "⏫",
-    "codepoints": [
-      9195
-    ],
-    "keywords": [
-      "arrow",
-      "double",
-      "fast up button"
-    ],
-    "name": "fast up button"
-  },
-  "23EC": {
-    "char": "⏬",
-    "codepoints": [
-      9196
-    ],
-    "keywords": [
-      "arrow",
-      "double",
-      "down",
-      "fast down button"
-    ],
-    "name": "fast down button"
-  },
-  "23ED": {
-    "char": "⏭",
-    "codepoints": [
-      9197
-    ],
-    "keywords": [
-      "arrow",
-      "next scene",
-      "next track",
-      "next track button",
-      "triangle"
-    ],
-    "name": "next track button"
-  },
-  "23EE": {
-    "char": "⏮",
-    "codepoints": [
-      9198
-    ],
-    "keywords": [
-      "arrow",
-      "last track button",
-      "previous scene",
-      "previous track",
-      "triangle"
-    ],
-    "name": "last track button"
-  },
-  "23EF": {
-    "char": "⏯",
-    "codepoints": [
-      9199
-    ],
-    "keywords": [
-      "arrow",
-      "pause",
-      "play",
-      "play or pause button",
-      "right",
-      "triangle"
-    ],
-    "name": "play or pause button"
-  },
-  "23F0": {
-    "char": "⏰",
-    "codepoints": [
-      9200
-    ],
-    "keywords": [
-      "alarm",
-      "clock"
-    ],
-    "name": "alarm clock"
-  },
-  "23F1": {
-    "char": "⏱",
-    "codepoints": [
-      9201
-    ],
-    "keywords": [
-      "clock",
-      "stopwatch"
-    ],
-    "name": "stopwatch"
-  },
-  "23F2": {
-    "char": "⏲",
-    "codepoints": [
-      9202
-    ],
-    "keywords": [
-      "clock",
-      "timer"
-    ],
-    "name": "timer clock"
-  },
-  "23F3": {
-    "char": "⏳",
-    "codepoints": [
-      9203
-    ],
-    "keywords": [
-      "hourglass",
-      "hourglass not done",
-      "sand",
-      "timer"
-    ],
-    "name": "hourglass not done"
-  },
-  "23F8": {
-    "char": "⏸",
-    "codepoints": [
-      9208
-    ],
-    "keywords": [
-      "bar",
-      "double",
-      "pause",
-      "pause button",
-      "vertical"
-    ],
-    "name": "pause button"
-  },
-  "23F9": {
-    "char": "⏹",
-    "codepoints": [
-      9209
-    ],
-    "keywords": [
-      "square",
-      "stop",
-      "stop button"
-    ],
-    "name": "stop button"
-  },
-  "23FA": {
-    "char": "⏺",
-    "codepoints": [
-      9210
-    ],
-    "keywords": [
-      "circle",
-      "record",
-      "record button"
-    ],
-    "name": "record button"
-  },
-  "24C2": {
-    "char": "Ⓜ",
-    "codepoints": [
-      9410
-    ],
-    "keywords": [
-      "circle",
-      "circled M",
-      "m"
-    ],
-    "name": "circled M"
-  },
-  "25AA": {
-    "char": "▪",
-    "codepoints": [
-      9642
-    ],
-    "keywords": [
-      "black small square",
-      "geometric",
-      "square"
-    ],
-    "name": "black small square"
-  },
-  "25AB": {
-    "char": "▫",
-    "codepoints": [
-      9643
-    ],
-    "keywords": [
-      "geometric",
-      "square",
-      "white small square"
-    ],
-    "name": "white small square"
-  },
-  "25B2": {
-    "char": "▲",
-    "codepoints": [
-      9650
-    ],
-    "keywords": [
-      "arrow",
-      "filled",
-      "filled up-pointing triangle",
-      "triangle",
-      "up"
-    ],
-    "name": "filled up-pointing triangle"
-  },
-  "25B6": {
-    "char": "▶",
-    "codepoints": [
-      9654
-    ],
-    "keywords": [
-      "arrow",
-      "play",
-      "play button",
-      "right",
-      "triangle"
-    ],
-    "name": "play button"
-  },
-  "25BC": {
-    "char": "▼",
-    "codepoints": [
-      9660
-    ],
-    "keywords": [
-      "arrow",
-      "down",
-      "filled",
-      "filled down-pointing triangle",
-      "triangle"
-    ],
-    "name": "filled down-pointing triangle"
-  },
-  "25C0": {
-    "char": "◀",
-    "codepoints": [
-      9664
-    ],
-    "keywords": [
-      "arrow",
-      "left",
-      "reverse",
-      "reverse button",
-      "triangle"
-    ],
-    "name": "reverse button"
-  },
-  "25CA": {
-    "char": "◊",
-    "codepoints": [
-      9674
-    ],
-    "keywords": [
-      "diamond",
-      "lozenge",
-      "rhombus"
-    ],
-    "name": "lozenge"
-  },
-  "25CB": {
-    "char": "○",
-    "codepoints": [
-      9675
-    ],
-    "keywords": [
-      "circle",
-      "hollow circle",
-      "ring"
-    ],
-    "name": "hollow circle"
-  },
-  "25CF": {
-    "char": "●",
-    "codepoints": [
-      9679
-    ],
-    "keywords": [
-      "circle",
-      "filled circle"
-    ],
-    "name": "filled circle"
-  },
-  "25EF": {
-    "char": "◯",
-    "codepoints": [
-      9711
-    ],
-    "keywords": [
-      "circle",
-      "large hollow circle",
-      "ring"
-    ],
-    "name": "large hollow circle"
-  },
-  "25FB": {
-    "char": "◻",
-    "codepoints": [
-      9723
-    ],
-    "keywords": [
-      "geometric",
-      "square",
-      "white medium square"
-    ],
-    "name": "white medium square"
-  },
-  "25FC": {
-    "char": "◼",
-    "codepoints": [
-      9724
-    ],
-    "keywords": [
-      "black medium square",
-      "geometric",
-      "square"
-    ],
-    "name": "black medium square"
-  },
-  "25FD": {
-    "char": "◽",
-    "codepoints": [
-      9725
-    ],
-    "keywords": [
-      "geometric",
-      "square",
-      "white medium-small square"
-    ],
-    "name": "white medium-small square"
-  },
-  "25FE": {
-    "char": "◾",
-    "codepoints": [
-      9726
-    ],
-    "keywords": [
-      "black medium-small square",
-      "geometric",
-      "square"
-    ],
-    "name": "black medium-small square"
-  },
-  "2600": {
-    "char": "☀",
-    "codepoints": [
-      9728
-    ],
-    "keywords": [
-      "bright",
-      "rays",
-      "sun",
-      "sunny"
-    ],
-    "name": "sun"
-  },
-  "2601": {
-    "char": "☁",
-    "codepoints": [
-      9729
-    ],
-    "keywords": [
-      "cloud",
-      "weather"
-    ],
-    "name": "cloud"
-  },
-  "2602": {
-    "char": "☂",
-    "codepoints": [
-      9730
-    ],
-    "keywords": [
-      "clothing",
-      "rain",
-      "umbrella"
-    ],
-    "name": "umbrella"
-  },
-  "2603": {
-    "char": "☃",
-    "codepoints": [
-      9731
-    ],
-    "keywords": [
-      "cold",
-      "snow",
-      "snowman"
-    ],
-    "name": "snowman"
-  },
-  "2604": {
-    "char": "☄",
-    "codepoints": [
-      9732
-    ],
-    "keywords": [
-      "comet",
-      "space"
-    ],
-    "name": "comet"
-  },
-  "260E": {
-    "char": "☎",
-    "codepoints": [
-      9742
-    ],
-    "keywords": [
-      "phone",
-      "telephone"
-    ],
-    "name": "telephone"
-  },
-  "2611": {
-    "char": "☑",
-    "codepoints": [
-      9745
-    ],
-    "keywords": [
-      "✓",
-      "box",
-      "check",
-      "check box with check"
-    ],
-    "name": "check box with check"
-  },
-  "2614": {
-    "char": "☔",
-    "codepoints": [
-      9748
-    ],
-    "keywords": [
-      "clothing",
-      "drop",
-      "rain",
-      "umbrella",
-      "umbrella with rain drops"
-    ],
-    "name": "umbrella with rain drops"
-  },
-  "2615": {
-    "char": "☕",
-    "codepoints": [
-      9749
-    ],
-    "keywords": [
-      "beverage",
-      "coffee",
-      "drink",
-      "hot",
-      "steaming",
-      "tea"
-    ],
-    "name": "hot beverage"
-  },
-  "2618": {
-    "char": "☘",
-    "codepoints": [
-      9752
-    ],
-    "keywords": [
-      "plant",
-      "shamrock"
-    ],
-    "name": "shamrock"
-  },
-  "261D": {
-    "char": "☝",
-    "codepoints": [
-      9757
-    ],
-    "keywords": [
-      "finger",
-      "hand",
-      "index",
-      "index pointing up",
-      "point",
-      "up"
-    ],
-    "name": "index pointing up"
-  },
-  "2620": {
-    "char": "☠",
-    "codepoints": [
-      9760
-    ],
-    "keywords": [
-      "crossbones",
-      "death",
-      "face",
-      "monster",
-      "skull",
-      "skull and crossbones"
-    ],
-    "name": "skull and crossbones"
-  },
-  "2622": {
-    "char": "☢",
-    "codepoints": [
-      9762
-    ],
-    "keywords": [
-      "radioactive",
-      "sign"
-    ],
-    "name": "radioactive"
-  },
-  "2623": {
-    "char": "☣",
-    "codepoints": [
-      9763
-    ],
-    "keywords": [
-      "biohazard",
-      "sign"
-    ],
-    "name": "biohazard"
-  },
-  "2626": {
-    "char": "☦",
-    "codepoints": [
-      9766
-    ],
-    "keywords": [
-      "Christian",
-      "cross",
-      "orthodox cross",
-      "religion"
-    ],
-    "name": "orthodox cross"
-  },
-  "262A": {
-    "char": "☪",
-    "codepoints": [
-      9770
-    ],
-    "keywords": [
-      "islam",
-      "Muslim",
-      "religion",
-      "star and crescent"
-    ],
-    "name": "star and crescent"
-  },
-  "262E": {
-    "char": "☮",
-    "codepoints": [
-      9774
-    ],
-    "keywords": [
-      "peace",
-      "peace symbol"
-    ],
-    "name": "peace symbol"
-  },
-  "262F": {
-    "char": "☯",
-    "codepoints": [
-      9775
-    ],
-    "keywords": [
-      "religion",
-      "tao",
-      "taoist",
-      "yang",
-      "yin"
-    ],
-    "name": "yin yang"
-  },
-  "2638": {
-    "char": "☸",
-    "codepoints": [
-      9784
-    ],
-    "keywords": [
-      "Buddhist",
-      "dharma",
-      "religion",
-      "wheel",
-      "wheel of dharma"
-    ],
-    "name": "wheel of dharma"
-  },
-  "2639": {
-    "char": "☹",
-    "codepoints": [
-      9785
-    ],
-    "keywords": [
-      "face",
-      "frown",
-      "frowning face"
-    ],
-    "name": "frowning face"
-  },
-  "263A": {
-    "char": "☺",
-    "codepoints": [
-      9786
-    ],
-    "keywords": [
-      "face",
-      "outlined",
-      "relaxed",
-      "smile",
-      "smiling face"
-    ],
-    "name": "smiling face"
-  },
-  "2640": {
-    "char": "♀",
-    "codepoints": [
-      9792
-    ],
-    "keywords": [
-      "female sign",
-      "woman"
-    ],
-    "name": "female sign"
-  },
-  "2642": {
-    "char": "♂",
-    "codepoints": [
-      9794
-    ],
-    "keywords": [
-      "male sign",
-      "man"
-    ],
-    "name": "male sign"
-  },
-  "2648": {
-    "char": "♈",
-    "codepoints": [
-      9800
-    ],
-    "keywords": [
-      "Aries",
-      "ram",
-      "zodiac"
-    ],
-    "name": "Aries"
-  },
-  "2649": {
-    "char": "♉",
-    "codepoints": [
-      9801
-    ],
-    "keywords": [
-      "bull",
-      "ox",
-      "Taurus",
-      "zodiac"
-    ],
-    "name": "Taurus"
-  },
-  "264A": {
-    "char": "♊",
-    "codepoints": [
-      9802
-    ],
-    "keywords": [
-      "Gemini",
-      "twins",
-      "zodiac"
-    ],
-    "name": "Gemini"
-  },
-  "264B": {
-    "char": "♋",
-    "codepoints": [
-      9803
-    ],
-    "keywords": [
-      "Cancer",
-      "crab",
-      "zodiac"
-    ],
-    "name": "Cancer"
-  },
-  "264C": {
-    "char": "♌",
-    "codepoints": [
-      9804
-    ],
-    "keywords": [
-      "Leo",
-      "lion",
-      "zodiac"
-    ],
-    "name": "Leo"
-  },
-  "264D": {
-    "char": "♍",
-    "codepoints": [
-      9805
-    ],
-    "keywords": [
-      "Virgo",
-      "zodiac"
-    ],
-    "name": "Virgo"
-  },
-  "264E": {
-    "char": "♎",
-    "codepoints": [
-      9806
-    ],
-    "keywords": [
-      "balance",
-      "justice",
-      "Libra",
-      "scales",
-      "zodiac"
-    ],
-    "name": "Libra"
-  },
-  "264F": {
-    "char": "♏",
-    "codepoints": [
-      9807
-    ],
-    "keywords": [
-      "Scorpio",
-      "scorpion",
-      "scorpius",
-      "zodiac"
-    ],
-    "name": "Scorpio"
-  },
-  "2650": {
-    "char": "♐",
-    "codepoints": [
-      9808
-    ],
-    "keywords": [
-      "archer",
-      "Sagittarius",
-      "zodiac"
-    ],
-    "name": "Sagittarius"
-  },
-  "2651": {
-    "char": "♑",
-    "codepoints": [
-      9809
-    ],
-    "keywords": [
-      "Capricorn",
-      "goat",
-      "zodiac"
-    ],
-    "name": "Capricorn"
-  },
-  "2652": {
-    "char": "♒",
-    "codepoints": [
-      9810
-    ],
-    "keywords": [
-      "Aquarius",
-      "bearer",
-      "water",
-      "zodiac"
-    ],
-    "name": "Aquarius"
-  },
-  "2653": {
-    "char": "♓",
-    "codepoints": [
-      9811
-    ],
-    "keywords": [
-      "fish",
-      "Pisces",
-      "zodiac"
-    ],
-    "name": "Pisces"
-  },
-  "265F": {
-    "char": "♟",
-    "codepoints": [
-      9823
-    ],
-    "keywords": [
-      "chess",
-      "chess pawn",
-      "dupe",
-      "expendable"
-    ],
-    "name": "chess pawn"
-  },
-  "2660": {
-    "char": "♠",
-    "codepoints": [
-      9824
-    ],
-    "keywords": [
-      "card",
-      "game",
-      "spade suit"
-    ],
-    "name": "spade suit"
-  },
-  "2663": {
-    "char": "♣",
-    "codepoints": [
-      9827
-    ],
-    "keywords": [
-      "card",
-      "club suit",
-      "game"
-    ],
-    "name": "club suit"
-  },
-  "2665": {
-    "char": "♥",
-    "codepoints": [
-      9829
-    ],
-    "keywords": [
-      "card",
-      "game",
-      "heart suit"
-    ],
-    "name": "heart suit"
-  },
-  "2666": {
-    "char": "♦",
-    "codepoints": [
-      9830
-    ],
-    "keywords": [
-      "card",
-      "diamond suit",
-      "game"
-    ],
-    "name": "diamond suit"
-  },
-  "2668": {
-    "char": "♨",
-    "codepoints": [
-      9832
-    ],
-    "keywords": [
-      "hot",
-      "hotsprings",
-      "springs",
-      "steaming"
-    ],
-    "name": "hot springs"
-  },
-  "267B": {
-    "char": "♻",
-    "codepoints": [
-      9851
-    ],
-    "keywords": [
-      "recycle",
-      "recycling symbol"
-    ],
-    "name": "recycling symbol"
-  },
-  "267E": {
-    "char": "♾",
-    "codepoints": [
-      9854
-    ],
-    "keywords": [
-      "forever",
-      "infinity",
-      "unbounded",
-      "universal"
-    ],
-    "name": "infinity"
-  },
-  "267F": {
-    "char": "♿",
-    "codepoints": [
-      9855
-    ],
-    "keywords": [
-      "access",
-      "wheelchair symbol"
-    ],
-    "name": "wheelchair symbol"
-  },
-  "2692": {
-    "char": "⚒",
-    "codepoints": [
-      9874
-    ],
-    "keywords": [
-      "hammer",
-      "hammer and pick",
-      "pick",
-      "tool"
-    ],
-    "name": "hammer and pick"
-  },
-  "2693": {
-    "char": "⚓",
-    "codepoints": [
-      9875
-    ],
-    "keywords": [
-      "anchor",
-      "ship",
-      "tool"
-    ],
-    "name": "anchor"
-  },
-  "2694": {
-    "char": "⚔",
-    "codepoints": [
-      9876
-    ],
-    "keywords": [
-      "crossed",
-      "swords",
-      "weapon"
-    ],
-    "name": "crossed swords"
-  },
-  "2695": {
-    "char": "⚕",
-    "codepoints": [
-      9877
-    ],
-    "keywords": [
-      "aesculapius",
-      "medical symbol",
-      "medicine",
-      "staff"
-    ],
-    "name": "medical symbol"
-  },
-  "2696": {
-    "char": "⚖",
-    "codepoints": [
-      9878
-    ],
-    "keywords": [
-      "balance",
-      "justice",
-      "Libra",
-      "scale",
-      "zodiac"
-    ],
-    "name": "balance scale"
-  },
-  "2697": {
-    "char": "⚗",
-    "codepoints": [
-      9879
-    ],
-    "keywords": [
-      "alembic",
-      "chemistry",
-      "tool"
-    ],
-    "name": "alembic"
-  },
-  "2699": {
-    "char": "⚙",
-    "codepoints": [
-      9881
-    ],
-    "keywords": [
-      "cog",
-      "cogwheel",
-      "gear",
-      "tool"
-    ],
-    "name": "gear"
-  },
-  "269B": {
-    "char": "⚛",
-    "codepoints": [
-      9883
-    ],
-    "keywords": [
-      "atheist",
-      "atom",
-      "atom symbol"
-    ],
-    "name": "atom symbol"
-  },
-  "269C": {
-    "char": "⚜",
-    "codepoints": [
-      9884
-    ],
-    "keywords": [
-      "fleur-de-lis"
-    ],
-    "name": "fleur-de-lis"
-  },
-  "26A0": {
-    "char": "⚠",
-    "codepoints": [
-      9888
-    ],
-    "keywords": [
-      "warning"
-    ],
-    "name": "warning"
-  },
-  "26A1": {
-    "char": "⚡",
-    "codepoints": [
-      9889
-    ],
-    "keywords": [
-      "danger",
-      "electric",
-      "high voltage",
-      "lightning",
-      "voltage",
-      "zap"
-    ],
-    "name": "high voltage"
-  },
-  "26A7": {
-    "char": "⚧",
-    "codepoints": [
-      9895
-    ],
-    "keywords": [
-      "transgender",
-      "transgender symbol"
-    ],
-    "name": "transgender symbol"
-  },
-  "26AA": {
-    "char": "⚪",
-    "codepoints": [
-      9898
-    ],
-    "keywords": [
-      "circle",
-      "geometric",
-      "white circle"
-    ],
-    "name": "white circle"
-  },
-  "26AB": {
-    "char": "⚫",
-    "codepoints": [
-      9899
-    ],
-    "keywords": [
-      "black circle",
-      "circle",
-      "geometric"
-    ],
-    "name": "black circle"
-  },
-  "26B0": {
-    "char": "⚰",
-    "codepoints": [
-      9904
-    ],
-    "keywords": [
-      "coffin",
-      "death"
-    ],
-    "name": "coffin"
-  },
-  "26B1": {
-    "char": "⚱",
-    "codepoints": [
-      9905
-    ],
-    "keywords": [
-      "ashes",
-      "death",
-      "funeral",
-      "urn"
-    ],
-    "name": "funeral urn"
-  },
-  "26BD": {
-    "char": "⚽",
-    "codepoints": [
-      9917
-    ],
-    "keywords": [
-      "ball",
-      "football",
-      "soccer"
-    ],
-    "name": "soccer ball"
-  },
-  "26BE": {
-    "char": "⚾",
-    "codepoints": [
-      9918
-    ],
-    "keywords": [
-      "ball",
-      "baseball"
-    ],
-    "name": "baseball"
-  },
-  "26C4": {
-    "char": "⛄",
-    "codepoints": [
-      9924
-    ],
-    "keywords": [
-      "cold",
-      "snow",
-      "snowman",
-      "snowman without snow"
-    ],
-    "name": "snowman without snow"
-  },
-  "26C5": {
-    "char": "⛅",
-    "codepoints": [
-      9925
-    ],
-    "keywords": [
-      "cloud",
-      "sun",
-      "sun behind cloud"
-    ],
-    "name": "sun behind cloud"
-  },
-  "26C8": {
-    "char": "⛈",
-    "codepoints": [
-      9928
-    ],
-    "keywords": [
-      "cloud",
-      "cloud with lightning and rain",
-      "rain",
-      "thunder"
-    ],
-    "name": "cloud with lightning and rain"
-  },
-  "26CE": {
-    "char": "⛎",
-    "codepoints": [
-      9934
-    ],
-    "keywords": [
-      "bearer",
-      "Ophiuchus",
-      "serpent",
-      "snake",
-      "zodiac"
-    ],
-    "name": "Ophiuchus"
-  },
-  "26CF": {
-    "char": "⛏",
-    "codepoints": [
-      9935
-    ],
-    "keywords": [
-      "mining",
-      "pick",
-      "tool"
-    ],
-    "name": "pick"
-  },
-  "26D1": {
-    "char": "⛑",
-    "codepoints": [
-      9937
-    ],
-    "keywords": [
-      "aid",
-      "cross",
-      "face",
-      "hat",
-      "helmet",
-      "rescue worker’s helmet"
-    ],
-    "name": "rescue worker’s helmet"
-  },
-  "26D3": {
-    "char": "⛓",
-    "codepoints": [
-      9939
-    ],
-    "keywords": [
-      "chain",
-      "chains"
-    ],
-    "name": "chains"
-  },
-  "26D4": {
-    "char": "⛔",
-    "codepoints": [
-      9940
-    ],
-    "keywords": [
-      "entry",
-      "forbidden",
-      "no",
-      "not",
-      "prohibited",
-      "traffic"
-    ],
-    "name": "no entry"
-  },
-  "26E9": {
-    "char": "⛩",
-    "codepoints": [
-      9961
-    ],
-    "keywords": [
-      "religion",
-      "shinto",
-      "shrine"
-    ],
-    "name": "shinto shrine"
-  },
-  "26EA": {
-    "char": "⛪",
-    "codepoints": [
-      9962
-    ],
-    "keywords": [
-      "Christian",
-      "church",
-      "cross",
-      "religion"
-    ],
-    "name": "church"
-  },
-  "26F0": {
-    "char": "⛰",
-    "codepoints": [
-      9968
-    ],
-    "keywords": [
-      "mountain"
-    ],
-    "name": "mountain"
-  },
-  "26F1": {
-    "char": "⛱",
-    "codepoints": [
-      9969
-    ],
-    "keywords": [
-      "rain",
-      "sun",
-      "umbrella",
-      "umbrella on ground"
-    ],
-    "name": "umbrella on ground"
-  },
-  "26F2": {
-    "char": "⛲",
-    "codepoints": [
-      9970
-    ],
-    "keywords": [
-      "fountain"
-    ],
-    "name": "fountain"
-  },
-  "26F3": {
-    "char": "⛳",
-    "codepoints": [
-      9971
-    ],
-    "keywords": [
-      "flag in hole",
-      "golf",
-      "hole"
-    ],
-    "name": "flag in hole"
-  },
-  "26F4": {
-    "char": "⛴",
-    "codepoints": [
-      9972
-    ],
-    "keywords": [
-      "boat",
-      "ferry",
-      "passenger"
-    ],
-    "name": "ferry"
-  },
-  "26F5": {
-    "char": "⛵",
-    "codepoints": [
-      9973
-    ],
-    "keywords": [
-      "boat",
-      "resort",
-      "sailboat",
-      "sea",
-      "yacht"
-    ],
-    "name": "sailboat"
-  },
-  "26F7": {
-    "char": "⛷",
-    "codepoints": [
-      9975
-    ],
-    "keywords": [
-      "ski",
-      "skier",
-      "snow"
-    ],
-    "name": "skier"
-  },
-  "26F8": {
-    "char": "⛸",
-    "codepoints": [
-      9976
-    ],
-    "keywords": [
-      "ice",
-      "skate"
-    ],
-    "name": "ice skate"
-  },
-  "26F9": {
-    "char": "⛹",
-    "codepoints": [
-      9977
-    ],
-    "keywords": [
-      "ball",
-      "person bouncing ball"
-    ],
-    "name": "person bouncing ball"
-  },
-  "26F9_2640": {
-    "char": "⛹‍♀",
-    "codepoints": [
-      9977,
-      8205,
-      9792
-    ],
-    "keywords": [
-      "ball",
-      "woman",
-      "woman bouncing ball"
-    ],
-    "name": "woman bouncing ball"
-  },
-  "26F9_2642": {
-    "char": "⛹‍♂",
-    "codepoints": [
-      9977,
-      8205,
-      9794
-    ],
-    "keywords": [
-      "ball",
-      "man",
-      "man bouncing ball"
-    ],
-    "name": "man bouncing ball"
-  },
-  "26FA": {
-    "char": "⛺",
-    "codepoints": [
-      9978
-    ],
-    "keywords": [
-      "camping",
-      "tent"
-    ],
-    "name": "tent"
-  },
-  "26FD": {
-    "char": "⛽",
-    "codepoints": [
-      9981
-    ],
-    "keywords": [
-      "diesel",
-      "fuel",
-      "fuelpump",
-      "gas",
-      "pump",
-      "station"
-    ],
-    "name": "fuel pump"
-  },
-  "2702": {
-    "char": "✂",
-    "codepoints": [
-      9986
-    ],
-    "keywords": [
-      "cutting",
-      "scissors",
-      "tool"
-    ],
-    "name": "scissors"
-  },
-  "2705": {
-    "char": "✅",
-    "codepoints": [
-      9989
-    ],
-    "keywords": [
-      "✓",
-      "button",
-      "check",
-      "mark"
-    ],
-    "name": "check mark button"
-  },
-  "2708": {
-    "char": "✈",
-    "codepoints": [
-      9992
-    ],
-    "keywords": [
-      "aeroplane",
-      "airplane"
-    ],
-    "name": "airplane"
-  },
-  "2709": {
-    "char": "✉",
-    "codepoints": [
-      9993
-    ],
-    "keywords": [
-      "email",
-      "envelope",
-      "letter"
-    ],
-    "name": "envelope"
-  },
-  "270A": {
-    "char": "✊",
-    "codepoints": [
-      9994
-    ],
-    "keywords": [
-      "clenched",
-      "fist",
-      "hand",
-      "punch",
-      "raised fist"
-    ],
-    "name": "raised fist"
-  },
-  "270B": {
-    "char": "✋",
-    "codepoints": [
-      9995
-    ],
-    "keywords": [
-      "hand",
-      "raised hand"
-    ],
-    "name": "raised hand"
-  },
-  "270C": {
-    "char": "✌",
-    "codepoints": [
-      9996
-    ],
-    "keywords": [
-      "hand",
-      "v",
-      "victory"
-    ],
-    "name": "victory hand"
-  },
-  "270D": {
-    "char": "✍",
-    "codepoints": [
-      9997
-    ],
-    "keywords": [
-      "hand",
-      "write",
-      "writing hand"
-    ],
-    "name": "writing hand"
-  },
-  "270F": {
-    "char": "✏",
-    "codepoints": [
-      9999
-    ],
-    "keywords": [
-      "pencil"
-    ],
-    "name": "pencil"
-  },
-  "2712": {
-    "char": "✒",
-    "codepoints": [
-      10002
-    ],
-    "keywords": [
-      "black nib",
-      "nib",
-      "pen"
-    ],
-    "name": "black nib"
-  },
-  "2714": {
-    "char": "✔",
-    "codepoints": [
-      10004
-    ],
-    "keywords": [
-      "✓",
-      "check",
-      "mark"
-    ],
-    "name": "check mark"
-  },
-  "2716": {
-    "char": "✖",
-    "codepoints": [
-      10006
-    ],
-    "keywords": [
-      "×",
-      "cancel",
-      "multiplication",
-      "multiply",
-      "sign",
-      "x"
-    ],
-    "name": "multiply"
-  },
-  "271D": {
-    "char": "✝",
-    "codepoints": [
-      10013
-    ],
-    "keywords": [
-      "Christian",
-      "cross",
-      "latin cross",
-      "religion"
-    ],
-    "name": "latin cross"
-  },
-  "2721": {
-    "char": "✡",
-    "codepoints": [
-      10017
-    ],
-    "keywords": [
-      "David",
-      "Jew",
-      "Jewish",
-      "religion",
-      "star",
-      "star of David"
-    ],
-    "name": "star of David"
-  },
-  "2728": {
-    "char": "✨",
-    "codepoints": [
-      10024
-    ],
-    "keywords": [
-      "*",
-      "sparkle",
-      "sparkles",
-      "star"
-    ],
-    "name": "sparkles"
-  },
-  "2733": {
-    "char": "✳",
-    "codepoints": [
-      10035
-    ],
-    "keywords": [
-      "*",
-      "asterisk",
-      "eight-spoked asterisk"
-    ],
-    "name": "eight-spoked asterisk"
-  },
-  "2734": {
-    "char": "✴",
-    "codepoints": [
-      10036
-    ],
-    "keywords": [
-      "*",
-      "eight-pointed star",
-      "star"
-    ],
-    "name": "eight-pointed star"
-  },
-  "2744": {
-    "char": "❄",
-    "codepoints": [
-      10052
-    ],
-    "keywords": [
-      "cold",
-      "snow",
-      "snowflake"
-    ],
-    "name": "snowflake"
-  },
-  "2747": {
-    "char": "❇",
-    "codepoints": [
-      10055
-    ],
-    "keywords": [
-      "*",
-      "sparkle"
-    ],
-    "name": "sparkle"
-  },
-  "274C": {
-    "char": "❌",
-    "codepoints": [
-      10060
-    ],
-    "keywords": [
-      "×",
-      "cancel",
-      "cross",
-      "mark",
-      "multiplication",
-      "multiply",
-      "x"
-    ],
-    "name": "cross mark"
-  },
-  "274E": {
-    "char": "❎",
-    "codepoints": [
-      10062
-    ],
-    "keywords": [
-      "×",
-      "cross mark button",
-      "mark",
-      "square",
-      "x"
-    ],
-    "name": "cross mark button"
-  },
-  "2753": {
-    "char": "❓",
-    "codepoints": [
-      10067
-    ],
-    "keywords": [
-      "?",
-      "mark",
-      "punctuation",
-      "question"
-    ],
-    "name": "question mark"
-  },
-  "2754": {
-    "char": "❔",
-    "codepoints": [
-      10068
-    ],
-    "keywords": [
-      "?",
-      "mark",
-      "outlined",
-      "punctuation",
-      "question",
-      "white question mark"
-    ],
-    "name": "white question mark"
-  },
-  "2755": {
-    "char": "❕",
-    "codepoints": [
-      10069
-    ],
-    "keywords": [
-      "!",
-      "exclamation",
-      "mark",
-      "outlined",
-      "punctuation",
-      "white exclamation mark"
-    ],
-    "name": "white exclamation mark"
-  },
-  "2757": {
-    "char": "❗",
-    "codepoints": [
-      10071
-    ],
-    "keywords": [
-      "!",
-      "exclamation",
-      "mark",
-      "punctuation"
-    ],
-    "name": "exclamation mark"
-  },
-  "2763": {
-    "char": "❣",
-    "codepoints": [
-      10083
-    ],
-    "keywords": [
-      "exclamation",
-      "heart exclamation",
-      "mark",
-      "punctuation"
-    ],
-    "name": "heart exclamation"
-  },
-  "2764": {
-    "char": "❤",
-    "codepoints": [
-      10084
-    ],
-    "keywords": [
-      "heart",
-      "red heart"
-    ],
-    "name": "red heart"
-  },
-  "2795": {
-    "char": "➕",
-    "codepoints": [
-      10133
-    ],
-    "keywords": [
-      "+",
-      "math",
-      "plus",
-      "sign"
-    ],
-    "name": "plus"
-  },
-  "2796": {
-    "char": "➖",
-    "codepoints": [
-      10134
-    ],
-    "keywords": [
-      "-",
-      "−",
-      "math",
-      "minus",
-      "sign"
-    ],
-    "name": "minus"
-  },
-  "2797": {
-    "char": "➗",
-    "codepoints": [
-      10135
-    ],
-    "keywords": [
-      "÷",
-      "division",
-      "math",
-      "sign"
-    ],
-    "name": "divide"
-  },
-  "27A1": {
-    "char": "➡",
-    "codepoints": [
-      10145
-    ],
-    "keywords": [
-      "arrow",
-      "cardinal",
-      "direction",
-      "east",
-      "right arrow"
-    ],
-    "name": "right arrow"
-  },
-  "27B0": {
-    "char": "➰",
-    "codepoints": [
-      10160
-    ],
-    "keywords": [
-      "curl",
-      "curly loop",
-      "loop"
-    ],
-    "name": "curly loop"
-  },
-  "27BF": {
-    "char": "➿",
-    "codepoints": [
-      10175
-    ],
-    "keywords": [
-      "curl",
-      "double",
-      "double curly loop",
-      "loop"
-    ],
-    "name": "double curly loop"
-  },
-  "2934": {
-    "char": "⤴",
-    "codepoints": [
-      10548
-    ],
-    "keywords": [
-      "arrow",
-      "right arrow curving up"
-    ],
-    "name": "right arrow curving up"
-  },
-  "2935": {
-    "char": "⤵",
-    "codepoints": [
-      10549
-    ],
-    "keywords": [
-      "arrow",
-      "down",
-      "right arrow curving down"
-    ],
-    "name": "right arrow curving down"
-  },
-  "2B05": {
-    "char": "⬅",
-    "codepoints": [
-      11013
-    ],
-    "keywords": [
-      "arrow",
-      "cardinal",
-      "direction",
-      "left arrow",
-      "west"
-    ],
-    "name": "left arrow"
-  },
-  "2B06": {
-    "char": "⬆",
-    "codepoints": [
-      11014
-    ],
-    "keywords": [
-      "arrow",
-      "cardinal",
-      "direction",
-      "north",
-      "up arrow"
-    ],
-    "name": "up arrow"
-  },
-  "2B07": {
-    "char": "⬇",
-    "codepoints": [
-      11015
-    ],
-    "keywords": [
-      "arrow",
-      "cardinal",
-      "direction",
-      "down",
-      "south"
-    ],
-    "name": "down arrow"
-  },
-  "2B1B": {
-    "char": "⬛",
-    "codepoints": [
-      11035
-    ],
-    "keywords": [
-      "black large square",
-      "geometric",
-      "square"
-    ],
-    "name": "black large square"
-  },
-  "2B1C": {
-    "char": "⬜",
-    "codepoints": [
-      11036
-    ],
-    "keywords": [
-      "geometric",
-      "square",
-      "white large square"
-    ],
-    "name": "white large square"
-  },
-  "2B50": {
-    "char": "⭐",
-    "codepoints": [
-      11088
-    ],
-    "keywords": [
-      "star"
-    ],
-    "name": "star"
-  },
-  "2B55": {
-    "char": "⭕",
-    "codepoints": [
-      11093
-    ],
-    "keywords": [
-      "circle",
-      "hollow red circle",
-      "large",
-      "o",
-      "red"
-    ],
-    "name": "hollow red circle"
-  },
-  "3030": {
-    "char": "〰",
-    "codepoints": [
-      12336
-    ],
-    "keywords": [
-      "dash",
-      "punctuation",
-      "wavy"
-    ],
-    "name": "wavy dash"
-  },
-  "303D": {
-    "char": "〽",
-    "codepoints": [
-      12349
-    ],
-    "keywords": [
-      "mark",
-      "part",
-      "part alternation mark"
-    ],
-    "name": "part alternation mark"
-  },
-  "3297": {
-    "char": "㊗",
-    "codepoints": [
-      12951
-    ],
-    "keywords": [
-      "“congratulations”",
-      "ideograph",
-      "Japanese",
-      "Japanese “congratulations” button",
-      "祝"
-    ],
-    "name": "Japanese “congratulations” button"
-  },
-  "3299": {
-    "char": "㊙",
-    "codepoints": [
-      12953
-    ],
-    "keywords": [
-      "“secret”",
-      "ideograph",
-      "Japanese",
-      "Japanese “secret” button",
-      "秘"
-    ],
-    "name": "Japanese “secret” button"
   }
 }

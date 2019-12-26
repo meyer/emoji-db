@@ -109,6 +109,1163 @@
     ],
     "description": "registered"
   },
+  "203C": {
+    "codepoints": [
+      8252,
+      65039
+    ],
+    "description": "double exclamation mark"
+  },
+  "2049": {
+    "codepoints": [
+      8265,
+      65039
+    ],
+    "description": "exclamation question mark"
+  },
+  "2122": {
+    "codepoints": [
+      8482,
+      65039
+    ],
+    "description": "trade mark"
+  },
+  "2139": {
+    "codepoints": [
+      8505,
+      65039
+    ],
+    "description": "information"
+  },
+  "2194": {
+    "codepoints": [
+      8596,
+      65039
+    ],
+    "description": "left-right arrow"
+  },
+  "2195": {
+    "codepoints": [
+      8597,
+      65039
+    ],
+    "description": "up-down arrow"
+  },
+  "2196": {
+    "codepoints": [
+      8598,
+      65039
+    ],
+    "description": "up-left arrow"
+  },
+  "2197": {
+    "codepoints": [
+      8599,
+      65039
+    ],
+    "description": "up-right arrow"
+  },
+  "2198": {
+    "codepoints": [
+      8600,
+      65039
+    ],
+    "description": "down-right arrow"
+  },
+  "2199": {
+    "codepoints": [
+      8601,
+      65039
+    ],
+    "description": "down-left arrow"
+  },
+  "21A9": {
+    "codepoints": [
+      8617,
+      65039
+    ],
+    "description": "right arrow curving left"
+  },
+  "21AA": {
+    "codepoints": [
+      8618,
+      65039
+    ],
+    "description": "left arrow curving right"
+  },
+  "231A": {
+    "codepoints": [
+      8986
+    ],
+    "description": "watch"
+  },
+  "2328": {
+    "codepoints": [
+      9000,
+      65039
+    ],
+    "description": "keyboard"
+  },
+  "23CF": {
+    "codepoints": [
+      9167,
+      65039
+    ],
+    "description": "eject button"
+  },
+  "23E9": {
+    "codepoints": [
+      9193
+    ],
+    "description": "fast-forward button"
+  },
+  "23ED": {
+    "codepoints": [
+      9197,
+      65039
+    ],
+    "description": "next track button"
+  },
+  "23EE": {
+    "codepoints": [
+      9198,
+      65039
+    ],
+    "description": "last track button"
+  },
+  "23EF": {
+    "codepoints": [
+      9199,
+      65039
+    ],
+    "description": "play or pause button"
+  },
+  "23F0": {
+    "codepoints": [
+      9200
+    ],
+    "description": "alarm clock"
+  },
+  "23F1": {
+    "codepoints": [
+      9201,
+      65039
+    ],
+    "description": "stopwatch"
+  },
+  "23F2": {
+    "codepoints": [
+      9202,
+      65039
+    ],
+    "description": "timer clock"
+  },
+  "23F3": {
+    "codepoints": [
+      9203
+    ],
+    "description": "hourglass not done"
+  },
+  "23F8": {
+    "codepoints": [
+      9208,
+      65039
+    ],
+    "description": "pause button"
+  },
+  "23F9": {
+    "codepoints": [
+      9209,
+      65039
+    ],
+    "description": "stop button"
+  },
+  "23FA": {
+    "codepoints": [
+      9210,
+      65039
+    ],
+    "description": "record button"
+  },
+  "24C2": {
+    "codepoints": [
+      9410,
+      65039
+    ],
+    "description": "circled M"
+  },
+  "25AA": {
+    "codepoints": [
+      9642,
+      65039
+    ],
+    "description": "black small square"
+  },
+  "25AB": {
+    "codepoints": [
+      9643,
+      65039
+    ],
+    "description": "white small square"
+  },
+  "25B6": {
+    "codepoints": [
+      9654,
+      65039
+    ],
+    "description": "play button"
+  },
+  "25C0": {
+    "codepoints": [
+      9664,
+      65039
+    ],
+    "description": "reverse button"
+  },
+  "25FB": {
+    "codepoints": [
+      9723,
+      65039
+    ],
+    "description": "white medium square"
+  },
+  "25FC": {
+    "codepoints": [
+      9724,
+      65039
+    ],
+    "description": "black medium square"
+  },
+  "25FD": {
+    "codepoints": [
+      9725
+    ],
+    "description": "white medium-small square"
+  },
+  "2600": {
+    "codepoints": [
+      9728,
+      65039
+    ],
+    "description": "sun"
+  },
+  "2601": {
+    "codepoints": [
+      9729,
+      65039
+    ],
+    "description": "cloud"
+  },
+  "2602": {
+    "codepoints": [
+      9730,
+      65039
+    ],
+    "description": "umbrella"
+  },
+  "2603": {
+    "codepoints": [
+      9731,
+      65039
+    ],
+    "description": "snowman"
+  },
+  "2604": {
+    "codepoints": [
+      9732,
+      65039
+    ],
+    "description": "comet"
+  },
+  "260E": {
+    "codepoints": [
+      9742,
+      65039
+    ],
+    "description": "telephone"
+  },
+  "2611": {
+    "codepoints": [
+      9745,
+      65039
+    ],
+    "description": "check box with check"
+  },
+  "2614": {
+    "codepoints": [
+      9748
+    ],
+    "description": "umbrella with rain drops"
+  },
+  "2618": {
+    "codepoints": [
+      9752,
+      65039
+    ],
+    "description": "shamrock"
+  },
+  "261D": {
+    "codepoints": [
+      9757,
+      65039
+    ],
+    "description": "index pointing up"
+  },
+  "261D_1F3FB": {
+    "codepoints": [
+      9757,
+      127995
+    ],
+    "description": "index pointing up: light skin tone"
+  },
+  "261D_1F3FC": {
+    "codepoints": [
+      9757,
+      127996
+    ],
+    "description": "index pointing up: medium-light skin tone"
+  },
+  "261D_1F3FD": {
+    "codepoints": [
+      9757,
+      127997
+    ],
+    "description": "index pointing up: medium skin tone"
+  },
+  "261D_1F3FE": {
+    "codepoints": [
+      9757,
+      127998
+    ],
+    "description": "index pointing up: medium-dark skin tone"
+  },
+  "261D_1F3FF": {
+    "codepoints": [
+      9757,
+      127999
+    ],
+    "description": "index pointing up: dark skin tone"
+  },
+  "2620": {
+    "codepoints": [
+      9760,
+      65039
+    ],
+    "description": "skull and crossbones"
+  },
+  "2622": {
+    "codepoints": [
+      9762,
+      65039
+    ],
+    "description": "radioactive"
+  },
+  "2623": {
+    "codepoints": [
+      9763,
+      65039
+    ],
+    "description": "biohazard"
+  },
+  "2626": {
+    "codepoints": [
+      9766,
+      65039
+    ],
+    "description": "orthodox cross"
+  },
+  "262A": {
+    "codepoints": [
+      9770,
+      65039
+    ],
+    "description": "star and crescent"
+  },
+  "262E": {
+    "codepoints": [
+      9774,
+      65039
+    ],
+    "description": "peace symbol"
+  },
+  "262F": {
+    "codepoints": [
+      9775,
+      65039
+    ],
+    "description": "yin yang"
+  },
+  "2638": {
+    "codepoints": [
+      9784,
+      65039
+    ],
+    "description": "wheel of dharma"
+  },
+  "2639": {
+    "codepoints": [
+      9785,
+      65039
+    ],
+    "description": "frowning face"
+  },
+  "263A": {
+    "codepoints": [
+      9786,
+      65039
+    ],
+    "description": "smiling face"
+  },
+  "2640": {
+    "codepoints": [
+      9792,
+      65039
+    ],
+    "description": "female sign"
+  },
+  "2642": {
+    "codepoints": [
+      9794,
+      65039
+    ],
+    "description": "male sign"
+  },
+  "2648": {
+    "codepoints": [
+      9800
+    ],
+    "description": "Aries"
+  },
+  "265F": {
+    "codepoints": [
+      9823,
+      65039
+    ],
+    "description": "chess pawn"
+  },
+  "2660": {
+    "codepoints": [
+      9824,
+      65039
+    ],
+    "description": "spade suit"
+  },
+  "2663": {
+    "codepoints": [
+      9827,
+      65039
+    ],
+    "description": "club suit"
+  },
+  "2665": {
+    "codepoints": [
+      9829,
+      65039
+    ],
+    "description": "heart suit"
+  },
+  "2666": {
+    "codepoints": [
+      9830,
+      65039
+    ],
+    "description": "diamond suit"
+  },
+  "2668": {
+    "codepoints": [
+      9832,
+      65039
+    ],
+    "description": "hot springs"
+  },
+  "267B": {
+    "codepoints": [
+      9851,
+      65039
+    ],
+    "description": "recycling symbol"
+  },
+  "267E": {
+    "codepoints": [
+      9854,
+      65039
+    ],
+    "description": "infinity"
+  },
+  "267F": {
+    "codepoints": [
+      9855
+    ],
+    "description": "wheelchair symbol"
+  },
+  "2692": {
+    "codepoints": [
+      9874,
+      65039
+    ],
+    "description": "hammer and pick"
+  },
+  "2693": {
+    "codepoints": [
+      9875
+    ],
+    "description": "anchor"
+  },
+  "2694": {
+    "codepoints": [
+      9876,
+      65039
+    ],
+    "description": "crossed swords"
+  },
+  "2695": {
+    "codepoints": [
+      9877,
+      65039
+    ],
+    "description": "medical symbol"
+  },
+  "2696": {
+    "codepoints": [
+      9878,
+      65039
+    ],
+    "description": "balance scale"
+  },
+  "2697": {
+    "codepoints": [
+      9879,
+      65039
+    ],
+    "description": "alembic"
+  },
+  "2699": {
+    "codepoints": [
+      9881,
+      65039
+    ],
+    "description": "gear"
+  },
+  "269B": {
+    "codepoints": [
+      9883,
+      65039
+    ],
+    "description": "atom symbol"
+  },
+  "269C": {
+    "codepoints": [
+      9884,
+      65039
+    ],
+    "description": "fleur-de-lis"
+  },
+  "26A0": {
+    "codepoints": [
+      9888,
+      65039
+    ],
+    "description": "warning"
+  },
+  "26A1": {
+    "codepoints": [
+      9889
+    ],
+    "description": "high voltage"
+  },
+  "26AA": {
+    "codepoints": [
+      9898
+    ],
+    "description": "white circle"
+  },
+  "26B0": {
+    "codepoints": [
+      9904,
+      65039
+    ],
+    "description": "coffin"
+  },
+  "26B1": {
+    "codepoints": [
+      9905,
+      65039
+    ],
+    "description": "funeral urn"
+  },
+  "26BD": {
+    "codepoints": [
+      9917
+    ],
+    "description": "soccer ball"
+  },
+  "26C4": {
+    "codepoints": [
+      9924
+    ],
+    "description": "snowman without snow"
+  },
+  "26C8": {
+    "codepoints": [
+      9928,
+      65039
+    ],
+    "description": "cloud with lightning and rain"
+  },
+  "26CE": {
+    "codepoints": [
+      9934
+    ],
+    "description": "Ophiuchus"
+  },
+  "26CF": {
+    "codepoints": [
+      9935,
+      65039
+    ],
+    "description": "pick"
+  },
+  "26D1": {
+    "codepoints": [
+      9937,
+      65039
+    ],
+    "description": "rescue worker’s helmet"
+  },
+  "26D3": {
+    "codepoints": [
+      9939,
+      65039
+    ],
+    "description": "chains"
+  },
+  "26D4": {
+    "codepoints": [
+      9940
+    ],
+    "description": "no entry"
+  },
+  "26E9": {
+    "codepoints": [
+      9961,
+      65039
+    ],
+    "description": "shinto shrine"
+  },
+  "26EA": {
+    "codepoints": [
+      9962
+    ],
+    "description": "church"
+  },
+  "26F0": {
+    "codepoints": [
+      9968,
+      65039
+    ],
+    "description": "mountain"
+  },
+  "26F1": {
+    "codepoints": [
+      9969,
+      65039
+    ],
+    "description": "umbrella on ground"
+  },
+  "26F2": {
+    "codepoints": [
+      9970
+    ],
+    "description": "fountain"
+  },
+  "26F4": {
+    "codepoints": [
+      9972,
+      65039
+    ],
+    "description": "ferry"
+  },
+  "26F5": {
+    "codepoints": [
+      9973
+    ],
+    "description": "sailboat"
+  },
+  "26F7": {
+    "codepoints": [
+      9975,
+      65039
+    ],
+    "description": "skier"
+  },
+  "26F8": {
+    "codepoints": [
+      9976,
+      65039
+    ],
+    "description": "ice skate"
+  },
+  "26F9": {
+    "codepoints": [
+      9977,
+      65039
+    ],
+    "description": "person bouncing ball"
+  },
+  "26F9_1F3FB": {
+    "codepoints": [
+      9977,
+      127995
+    ],
+    "description": "person bouncing ball: light skin tone"
+  },
+  "26F9_1F3FC": {
+    "codepoints": [
+      9977,
+      127996
+    ],
+    "description": "person bouncing ball: medium-light skin tone"
+  },
+  "26F9_1F3FD": {
+    "codepoints": [
+      9977,
+      127997
+    ],
+    "description": "person bouncing ball: medium skin tone"
+  },
+  "26F9_1F3FE": {
+    "codepoints": [
+      9977,
+      127998
+    ],
+    "description": "person bouncing ball: medium-dark skin tone"
+  },
+  "26F9_1F3FF": {
+    "codepoints": [
+      9977,
+      127999
+    ],
+    "description": "person bouncing ball: dark skin tone"
+  },
+  "26FA": {
+    "codepoints": [
+      9978
+    ],
+    "description": "tent"
+  },
+  "26FD": {
+    "codepoints": [
+      9981
+    ],
+    "description": "fuel pump"
+  },
+  "2702": {
+    "codepoints": [
+      9986,
+      65039
+    ],
+    "description": "scissors"
+  },
+  "2705": {
+    "codepoints": [
+      9989
+    ],
+    "description": "check mark button"
+  },
+  "2708": {
+    "codepoints": [
+      9992,
+      65039
+    ],
+    "description": "airplane"
+  },
+  "2709": {
+    "codepoints": [
+      9993,
+      65039
+    ],
+    "description": "envelope"
+  },
+  "270A": {
+    "codepoints": [
+      9994
+    ],
+    "description": "raised fist"
+  },
+  "270A_1F3FB": {
+    "codepoints": [
+      9994,
+      127995
+    ],
+    "description": "raised fist: light skin tone"
+  },
+  "270A_1F3FC": {
+    "codepoints": [
+      9994,
+      127996
+    ],
+    "description": "raised fist: medium-light skin tone"
+  },
+  "270A_1F3FD": {
+    "codepoints": [
+      9994,
+      127997
+    ],
+    "description": "raised fist: medium skin tone"
+  },
+  "270A_1F3FE": {
+    "codepoints": [
+      9994,
+      127998
+    ],
+    "description": "raised fist: medium-dark skin tone"
+  },
+  "270A_1F3FF": {
+    "codepoints": [
+      9994,
+      127999
+    ],
+    "description": "raised fist: dark skin tone"
+  },
+  "270B_1F3FB": {
+    "codepoints": [
+      9995,
+      127995
+    ],
+    "description": "raised hand: light skin tone"
+  },
+  "270B_1F3FC": {
+    "codepoints": [
+      9995,
+      127996
+    ],
+    "description": "raised hand: medium-light skin tone"
+  },
+  "270B_1F3FD": {
+    "codepoints": [
+      9995,
+      127997
+    ],
+    "description": "raised hand: medium skin tone"
+  },
+  "270B_1F3FE": {
+    "codepoints": [
+      9995,
+      127998
+    ],
+    "description": "raised hand: medium-dark skin tone"
+  },
+  "270B_1F3FF": {
+    "codepoints": [
+      9995,
+      127999
+    ],
+    "description": "raised hand: dark skin tone"
+  },
+  "270C": {
+    "codepoints": [
+      9996,
+      65039
+    ],
+    "description": "victory hand"
+  },
+  "270C_1F3FB": {
+    "codepoints": [
+      9996,
+      127995
+    ],
+    "description": "victory hand: light skin tone"
+  },
+  "270C_1F3FC": {
+    "codepoints": [
+      9996,
+      127996
+    ],
+    "description": "victory hand: medium-light skin tone"
+  },
+  "270C_1F3FD": {
+    "codepoints": [
+      9996,
+      127997
+    ],
+    "description": "victory hand: medium skin tone"
+  },
+  "270C_1F3FE": {
+    "codepoints": [
+      9996,
+      127998
+    ],
+    "description": "victory hand: medium-dark skin tone"
+  },
+  "270C_1F3FF": {
+    "codepoints": [
+      9996,
+      127999
+    ],
+    "description": "victory hand: dark skin tone"
+  },
+  "270D": {
+    "codepoints": [
+      9997,
+      65039
+    ],
+    "description": "writing hand"
+  },
+  "270D_1F3FB": {
+    "codepoints": [
+      9997,
+      127995
+    ],
+    "description": "writing hand: light skin tone"
+  },
+  "270D_1F3FC": {
+    "codepoints": [
+      9997,
+      127996
+    ],
+    "description": "writing hand: medium-light skin tone"
+  },
+  "270D_1F3FD": {
+    "codepoints": [
+      9997,
+      127997
+    ],
+    "description": "writing hand: medium skin tone"
+  },
+  "270D_1F3FE": {
+    "codepoints": [
+      9997,
+      127998
+    ],
+    "description": "writing hand: medium-dark skin tone"
+  },
+  "270D_1F3FF": {
+    "codepoints": [
+      9997,
+      127999
+    ],
+    "description": "writing hand: dark skin tone"
+  },
+  "270F": {
+    "codepoints": [
+      9999,
+      65039
+    ],
+    "description": "pencil"
+  },
+  "2712": {
+    "codepoints": [
+      10002,
+      65039
+    ],
+    "description": "black nib"
+  },
+  "2714": {
+    "codepoints": [
+      10004,
+      65039
+    ],
+    "description": "check mark"
+  },
+  "2716": {
+    "codepoints": [
+      10006,
+      65039
+    ],
+    "description": "multiplication sign"
+  },
+  "271D": {
+    "codepoints": [
+      10013,
+      65039
+    ],
+    "description": "latin cross"
+  },
+  "2721": {
+    "codepoints": [
+      10017,
+      65039
+    ],
+    "description": "star of David"
+  },
+  "2728": {
+    "codepoints": [
+      10024
+    ],
+    "description": "sparkles"
+  },
+  "2733": {
+    "codepoints": [
+      10035,
+      65039
+    ],
+    "description": "eight-spoked asterisk"
+  },
+  "2734": {
+    "codepoints": [
+      10036,
+      65039
+    ],
+    "description": "eight-pointed star"
+  },
+  "2744": {
+    "codepoints": [
+      10052,
+      65039
+    ],
+    "description": "snowflake"
+  },
+  "2747": {
+    "codepoints": [
+      10055,
+      65039
+    ],
+    "description": "sparkle"
+  },
+  "274C": {
+    "codepoints": [
+      10060
+    ],
+    "description": "cross mark"
+  },
+  "274E": {
+    "codepoints": [
+      10062
+    ],
+    "description": "cross mark button"
+  },
+  "2753": {
+    "codepoints": [
+      10067
+    ],
+    "description": "question mark"
+  },
+  "2757": {
+    "codepoints": [
+      10071
+    ],
+    "description": "exclamation mark"
+  },
+  "2763": {
+    "codepoints": [
+      10083,
+      65039
+    ],
+    "description": "heart exclamation"
+  },
+  "2764": {
+    "codepoints": [
+      10084,
+      65039
+    ],
+    "description": "red heart"
+  },
+  "2795": {
+    "codepoints": [
+      10133
+    ],
+    "description": "plus sign"
+  },
+  "27A1": {
+    "codepoints": [
+      10145,
+      65039
+    ],
+    "description": "right arrow"
+  },
+  "27B0": {
+    "codepoints": [
+      10160
+    ],
+    "description": "curly loop"
+  },
+  "27BF": {
+    "codepoints": [
+      10175
+    ],
+    "description": "double curly loop"
+  },
+  "2934": {
+    "codepoints": [
+      10548,
+      65039
+    ],
+    "description": "right arrow curving up"
+  },
+  "2935": {
+    "codepoints": [
+      10549,
+      65039
+    ],
+    "description": "right arrow curving down"
+  },
+  "2B05": {
+    "codepoints": [
+      11013,
+      65039
+    ],
+    "description": "left arrow"
+  },
+  "2B06": {
+    "codepoints": [
+      11014,
+      65039
+    ],
+    "description": "up arrow"
+  },
+  "2B07": {
+    "codepoints": [
+      11015,
+      65039
+    ],
+    "description": "down arrow"
+  },
+  "2B1B": {
+    "codepoints": [
+      11035
+    ],
+    "description": "black large square"
+  },
+  "2B50": {
+    "codepoints": [
+      11088
+    ],
+    "description": "star"
+  },
+  "2B55": {
+    "codepoints": [
+      11093
+    ],
+    "description": "hollow red circle"
+  },
+  "3030": {
+    "codepoints": [
+      12336,
+      65039
+    ],
+    "description": "wavy dash"
+  },
+  "303D": {
+    "codepoints": [
+      12349,
+      65039
+    ],
+    "description": "part alternation mark"
+  },
+  "3297": {
+    "codepoints": [
+      12951,
+      65039
+    ],
+    "description": "Japanese “congratulations” button"
+  },
+  "3299": {
+    "codepoints": [
+      12953,
+      65039
+    ],
+    "description": "Japanese “secret” button"
+  },
   "1F004": {
     "codepoints": [
       126980
@@ -6889,1162 +8046,5 @@
       129680
     ],
     "description": "ringed planet"
-  },
-  "203C": {
-    "codepoints": [
-      8252,
-      65039
-    ],
-    "description": "double exclamation mark"
-  },
-  "2049": {
-    "codepoints": [
-      8265,
-      65039
-    ],
-    "description": "exclamation question mark"
-  },
-  "2122": {
-    "codepoints": [
-      8482,
-      65039
-    ],
-    "description": "trade mark"
-  },
-  "2139": {
-    "codepoints": [
-      8505,
-      65039
-    ],
-    "description": "information"
-  },
-  "2194": {
-    "codepoints": [
-      8596,
-      65039
-    ],
-    "description": "left-right arrow"
-  },
-  "2195": {
-    "codepoints": [
-      8597,
-      65039
-    ],
-    "description": "up-down arrow"
-  },
-  "2196": {
-    "codepoints": [
-      8598,
-      65039
-    ],
-    "description": "up-left arrow"
-  },
-  "2197": {
-    "codepoints": [
-      8599,
-      65039
-    ],
-    "description": "up-right arrow"
-  },
-  "2198": {
-    "codepoints": [
-      8600,
-      65039
-    ],
-    "description": "down-right arrow"
-  },
-  "2199": {
-    "codepoints": [
-      8601,
-      65039
-    ],
-    "description": "down-left arrow"
-  },
-  "21A9": {
-    "codepoints": [
-      8617,
-      65039
-    ],
-    "description": "right arrow curving left"
-  },
-  "21AA": {
-    "codepoints": [
-      8618,
-      65039
-    ],
-    "description": "left arrow curving right"
-  },
-  "231A": {
-    "codepoints": [
-      8986
-    ],
-    "description": "watch"
-  },
-  "2328": {
-    "codepoints": [
-      9000,
-      65039
-    ],
-    "description": "keyboard"
-  },
-  "23CF": {
-    "codepoints": [
-      9167,
-      65039
-    ],
-    "description": "eject button"
-  },
-  "23E9": {
-    "codepoints": [
-      9193
-    ],
-    "description": "fast-forward button"
-  },
-  "23ED": {
-    "codepoints": [
-      9197,
-      65039
-    ],
-    "description": "next track button"
-  },
-  "23EE": {
-    "codepoints": [
-      9198,
-      65039
-    ],
-    "description": "last track button"
-  },
-  "23EF": {
-    "codepoints": [
-      9199,
-      65039
-    ],
-    "description": "play or pause button"
-  },
-  "23F0": {
-    "codepoints": [
-      9200
-    ],
-    "description": "alarm clock"
-  },
-  "23F1": {
-    "codepoints": [
-      9201,
-      65039
-    ],
-    "description": "stopwatch"
-  },
-  "23F2": {
-    "codepoints": [
-      9202,
-      65039
-    ],
-    "description": "timer clock"
-  },
-  "23F3": {
-    "codepoints": [
-      9203
-    ],
-    "description": "hourglass not done"
-  },
-  "23F8": {
-    "codepoints": [
-      9208,
-      65039
-    ],
-    "description": "pause button"
-  },
-  "23F9": {
-    "codepoints": [
-      9209,
-      65039
-    ],
-    "description": "stop button"
-  },
-  "23FA": {
-    "codepoints": [
-      9210,
-      65039
-    ],
-    "description": "record button"
-  },
-  "24C2": {
-    "codepoints": [
-      9410,
-      65039
-    ],
-    "description": "circled M"
-  },
-  "25AA": {
-    "codepoints": [
-      9642,
-      65039
-    ],
-    "description": "black small square"
-  },
-  "25AB": {
-    "codepoints": [
-      9643,
-      65039
-    ],
-    "description": "white small square"
-  },
-  "25B6": {
-    "codepoints": [
-      9654,
-      65039
-    ],
-    "description": "play button"
-  },
-  "25C0": {
-    "codepoints": [
-      9664,
-      65039
-    ],
-    "description": "reverse button"
-  },
-  "25FB": {
-    "codepoints": [
-      9723,
-      65039
-    ],
-    "description": "white medium square"
-  },
-  "25FC": {
-    "codepoints": [
-      9724,
-      65039
-    ],
-    "description": "black medium square"
-  },
-  "25FD": {
-    "codepoints": [
-      9725
-    ],
-    "description": "white medium-small square"
-  },
-  "2600": {
-    "codepoints": [
-      9728,
-      65039
-    ],
-    "description": "sun"
-  },
-  "2601": {
-    "codepoints": [
-      9729,
-      65039
-    ],
-    "description": "cloud"
-  },
-  "2602": {
-    "codepoints": [
-      9730,
-      65039
-    ],
-    "description": "umbrella"
-  },
-  "2603": {
-    "codepoints": [
-      9731,
-      65039
-    ],
-    "description": "snowman"
-  },
-  "2604": {
-    "codepoints": [
-      9732,
-      65039
-    ],
-    "description": "comet"
-  },
-  "260E": {
-    "codepoints": [
-      9742,
-      65039
-    ],
-    "description": "telephone"
-  },
-  "2611": {
-    "codepoints": [
-      9745,
-      65039
-    ],
-    "description": "check box with check"
-  },
-  "2614": {
-    "codepoints": [
-      9748
-    ],
-    "description": "umbrella with rain drops"
-  },
-  "2618": {
-    "codepoints": [
-      9752,
-      65039
-    ],
-    "description": "shamrock"
-  },
-  "261D": {
-    "codepoints": [
-      9757,
-      65039
-    ],
-    "description": "index pointing up"
-  },
-  "261D_1F3FB": {
-    "codepoints": [
-      9757,
-      127995
-    ],
-    "description": "index pointing up: light skin tone"
-  },
-  "261D_1F3FC": {
-    "codepoints": [
-      9757,
-      127996
-    ],
-    "description": "index pointing up: medium-light skin tone"
-  },
-  "261D_1F3FD": {
-    "codepoints": [
-      9757,
-      127997
-    ],
-    "description": "index pointing up: medium skin tone"
-  },
-  "261D_1F3FE": {
-    "codepoints": [
-      9757,
-      127998
-    ],
-    "description": "index pointing up: medium-dark skin tone"
-  },
-  "261D_1F3FF": {
-    "codepoints": [
-      9757,
-      127999
-    ],
-    "description": "index pointing up: dark skin tone"
-  },
-  "2620": {
-    "codepoints": [
-      9760,
-      65039
-    ],
-    "description": "skull and crossbones"
-  },
-  "2622": {
-    "codepoints": [
-      9762,
-      65039
-    ],
-    "description": "radioactive"
-  },
-  "2623": {
-    "codepoints": [
-      9763,
-      65039
-    ],
-    "description": "biohazard"
-  },
-  "2626": {
-    "codepoints": [
-      9766,
-      65039
-    ],
-    "description": "orthodox cross"
-  },
-  "262A": {
-    "codepoints": [
-      9770,
-      65039
-    ],
-    "description": "star and crescent"
-  },
-  "262E": {
-    "codepoints": [
-      9774,
-      65039
-    ],
-    "description": "peace symbol"
-  },
-  "262F": {
-    "codepoints": [
-      9775,
-      65039
-    ],
-    "description": "yin yang"
-  },
-  "2638": {
-    "codepoints": [
-      9784,
-      65039
-    ],
-    "description": "wheel of dharma"
-  },
-  "2639": {
-    "codepoints": [
-      9785,
-      65039
-    ],
-    "description": "frowning face"
-  },
-  "263A": {
-    "codepoints": [
-      9786,
-      65039
-    ],
-    "description": "smiling face"
-  },
-  "2640": {
-    "codepoints": [
-      9792,
-      65039
-    ],
-    "description": "female sign"
-  },
-  "2642": {
-    "codepoints": [
-      9794,
-      65039
-    ],
-    "description": "male sign"
-  },
-  "2648": {
-    "codepoints": [
-      9800
-    ],
-    "description": "Aries"
-  },
-  "265F": {
-    "codepoints": [
-      9823,
-      65039
-    ],
-    "description": "chess pawn"
-  },
-  "2660": {
-    "codepoints": [
-      9824,
-      65039
-    ],
-    "description": "spade suit"
-  },
-  "2663": {
-    "codepoints": [
-      9827,
-      65039
-    ],
-    "description": "club suit"
-  },
-  "2665": {
-    "codepoints": [
-      9829,
-      65039
-    ],
-    "description": "heart suit"
-  },
-  "2666": {
-    "codepoints": [
-      9830,
-      65039
-    ],
-    "description": "diamond suit"
-  },
-  "2668": {
-    "codepoints": [
-      9832,
-      65039
-    ],
-    "description": "hot springs"
-  },
-  "267B": {
-    "codepoints": [
-      9851,
-      65039
-    ],
-    "description": "recycling symbol"
-  },
-  "267E": {
-    "codepoints": [
-      9854,
-      65039
-    ],
-    "description": "infinity"
-  },
-  "267F": {
-    "codepoints": [
-      9855
-    ],
-    "description": "wheelchair symbol"
-  },
-  "2692": {
-    "codepoints": [
-      9874,
-      65039
-    ],
-    "description": "hammer and pick"
-  },
-  "2693": {
-    "codepoints": [
-      9875
-    ],
-    "description": "anchor"
-  },
-  "2694": {
-    "codepoints": [
-      9876,
-      65039
-    ],
-    "description": "crossed swords"
-  },
-  "2695": {
-    "codepoints": [
-      9877,
-      65039
-    ],
-    "description": "medical symbol"
-  },
-  "2696": {
-    "codepoints": [
-      9878,
-      65039
-    ],
-    "description": "balance scale"
-  },
-  "2697": {
-    "codepoints": [
-      9879,
-      65039
-    ],
-    "description": "alembic"
-  },
-  "2699": {
-    "codepoints": [
-      9881,
-      65039
-    ],
-    "description": "gear"
-  },
-  "269B": {
-    "codepoints": [
-      9883,
-      65039
-    ],
-    "description": "atom symbol"
-  },
-  "269C": {
-    "codepoints": [
-      9884,
-      65039
-    ],
-    "description": "fleur-de-lis"
-  },
-  "26A0": {
-    "codepoints": [
-      9888,
-      65039
-    ],
-    "description": "warning"
-  },
-  "26A1": {
-    "codepoints": [
-      9889
-    ],
-    "description": "high voltage"
-  },
-  "26AA": {
-    "codepoints": [
-      9898
-    ],
-    "description": "white circle"
-  },
-  "26B0": {
-    "codepoints": [
-      9904,
-      65039
-    ],
-    "description": "coffin"
-  },
-  "26B1": {
-    "codepoints": [
-      9905,
-      65039
-    ],
-    "description": "funeral urn"
-  },
-  "26BD": {
-    "codepoints": [
-      9917
-    ],
-    "description": "soccer ball"
-  },
-  "26C4": {
-    "codepoints": [
-      9924
-    ],
-    "description": "snowman without snow"
-  },
-  "26C8": {
-    "codepoints": [
-      9928,
-      65039
-    ],
-    "description": "cloud with lightning and rain"
-  },
-  "26CE": {
-    "codepoints": [
-      9934
-    ],
-    "description": "Ophiuchus"
-  },
-  "26CF": {
-    "codepoints": [
-      9935,
-      65039
-    ],
-    "description": "pick"
-  },
-  "26D1": {
-    "codepoints": [
-      9937,
-      65039
-    ],
-    "description": "rescue worker’s helmet"
-  },
-  "26D3": {
-    "codepoints": [
-      9939,
-      65039
-    ],
-    "description": "chains"
-  },
-  "26D4": {
-    "codepoints": [
-      9940
-    ],
-    "description": "no entry"
-  },
-  "26E9": {
-    "codepoints": [
-      9961,
-      65039
-    ],
-    "description": "shinto shrine"
-  },
-  "26EA": {
-    "codepoints": [
-      9962
-    ],
-    "description": "church"
-  },
-  "26F0": {
-    "codepoints": [
-      9968,
-      65039
-    ],
-    "description": "mountain"
-  },
-  "26F1": {
-    "codepoints": [
-      9969,
-      65039
-    ],
-    "description": "umbrella on ground"
-  },
-  "26F2": {
-    "codepoints": [
-      9970
-    ],
-    "description": "fountain"
-  },
-  "26F4": {
-    "codepoints": [
-      9972,
-      65039
-    ],
-    "description": "ferry"
-  },
-  "26F5": {
-    "codepoints": [
-      9973
-    ],
-    "description": "sailboat"
-  },
-  "26F7": {
-    "codepoints": [
-      9975,
-      65039
-    ],
-    "description": "skier"
-  },
-  "26F8": {
-    "codepoints": [
-      9976,
-      65039
-    ],
-    "description": "ice skate"
-  },
-  "26F9": {
-    "codepoints": [
-      9977,
-      65039
-    ],
-    "description": "person bouncing ball"
-  },
-  "26F9_1F3FB": {
-    "codepoints": [
-      9977,
-      127995
-    ],
-    "description": "person bouncing ball: light skin tone"
-  },
-  "26F9_1F3FC": {
-    "codepoints": [
-      9977,
-      127996
-    ],
-    "description": "person bouncing ball: medium-light skin tone"
-  },
-  "26F9_1F3FD": {
-    "codepoints": [
-      9977,
-      127997
-    ],
-    "description": "person bouncing ball: medium skin tone"
-  },
-  "26F9_1F3FE": {
-    "codepoints": [
-      9977,
-      127998
-    ],
-    "description": "person bouncing ball: medium-dark skin tone"
-  },
-  "26F9_1F3FF": {
-    "codepoints": [
-      9977,
-      127999
-    ],
-    "description": "person bouncing ball: dark skin tone"
-  },
-  "26FA": {
-    "codepoints": [
-      9978
-    ],
-    "description": "tent"
-  },
-  "26FD": {
-    "codepoints": [
-      9981
-    ],
-    "description": "fuel pump"
-  },
-  "2702": {
-    "codepoints": [
-      9986,
-      65039
-    ],
-    "description": "scissors"
-  },
-  "2705": {
-    "codepoints": [
-      9989
-    ],
-    "description": "check mark button"
-  },
-  "2708": {
-    "codepoints": [
-      9992,
-      65039
-    ],
-    "description": "airplane"
-  },
-  "2709": {
-    "codepoints": [
-      9993,
-      65039
-    ],
-    "description": "envelope"
-  },
-  "270A": {
-    "codepoints": [
-      9994
-    ],
-    "description": "raised fist"
-  },
-  "270A_1F3FB": {
-    "codepoints": [
-      9994,
-      127995
-    ],
-    "description": "raised fist: light skin tone"
-  },
-  "270A_1F3FC": {
-    "codepoints": [
-      9994,
-      127996
-    ],
-    "description": "raised fist: medium-light skin tone"
-  },
-  "270A_1F3FD": {
-    "codepoints": [
-      9994,
-      127997
-    ],
-    "description": "raised fist: medium skin tone"
-  },
-  "270A_1F3FE": {
-    "codepoints": [
-      9994,
-      127998
-    ],
-    "description": "raised fist: medium-dark skin tone"
-  },
-  "270A_1F3FF": {
-    "codepoints": [
-      9994,
-      127999
-    ],
-    "description": "raised fist: dark skin tone"
-  },
-  "270B_1F3FB": {
-    "codepoints": [
-      9995,
-      127995
-    ],
-    "description": "raised hand: light skin tone"
-  },
-  "270B_1F3FC": {
-    "codepoints": [
-      9995,
-      127996
-    ],
-    "description": "raised hand: medium-light skin tone"
-  },
-  "270B_1F3FD": {
-    "codepoints": [
-      9995,
-      127997
-    ],
-    "description": "raised hand: medium skin tone"
-  },
-  "270B_1F3FE": {
-    "codepoints": [
-      9995,
-      127998
-    ],
-    "description": "raised hand: medium-dark skin tone"
-  },
-  "270B_1F3FF": {
-    "codepoints": [
-      9995,
-      127999
-    ],
-    "description": "raised hand: dark skin tone"
-  },
-  "270C": {
-    "codepoints": [
-      9996,
-      65039
-    ],
-    "description": "victory hand"
-  },
-  "270C_1F3FB": {
-    "codepoints": [
-      9996,
-      127995
-    ],
-    "description": "victory hand: light skin tone"
-  },
-  "270C_1F3FC": {
-    "codepoints": [
-      9996,
-      127996
-    ],
-    "description": "victory hand: medium-light skin tone"
-  },
-  "270C_1F3FD": {
-    "codepoints": [
-      9996,
-      127997
-    ],
-    "description": "victory hand: medium skin tone"
-  },
-  "270C_1F3FE": {
-    "codepoints": [
-      9996,
-      127998
-    ],
-    "description": "victory hand: medium-dark skin tone"
-  },
-  "270C_1F3FF": {
-    "codepoints": [
-      9996,
-      127999
-    ],
-    "description": "victory hand: dark skin tone"
-  },
-  "270D": {
-    "codepoints": [
-      9997,
-      65039
-    ],
-    "description": "writing hand"
-  },
-  "270D_1F3FB": {
-    "codepoints": [
-      9997,
-      127995
-    ],
-    "description": "writing hand: light skin tone"
-  },
-  "270D_1F3FC": {
-    "codepoints": [
-      9997,
-      127996
-    ],
-    "description": "writing hand: medium-light skin tone"
-  },
-  "270D_1F3FD": {
-    "codepoints": [
-      9997,
-      127997
-    ],
-    "description": "writing hand: medium skin tone"
-  },
-  "270D_1F3FE": {
-    "codepoints": [
-      9997,
-      127998
-    ],
-    "description": "writing hand: medium-dark skin tone"
-  },
-  "270D_1F3FF": {
-    "codepoints": [
-      9997,
-      127999
-    ],
-    "description": "writing hand: dark skin tone"
-  },
-  "270F": {
-    "codepoints": [
-      9999,
-      65039
-    ],
-    "description": "pencil"
-  },
-  "2712": {
-    "codepoints": [
-      10002,
-      65039
-    ],
-    "description": "black nib"
-  },
-  "2714": {
-    "codepoints": [
-      10004,
-      65039
-    ],
-    "description": "check mark"
-  },
-  "2716": {
-    "codepoints": [
-      10006,
-      65039
-    ],
-    "description": "multiplication sign"
-  },
-  "271D": {
-    "codepoints": [
-      10013,
-      65039
-    ],
-    "description": "latin cross"
-  },
-  "2721": {
-    "codepoints": [
-      10017,
-      65039
-    ],
-    "description": "star of David"
-  },
-  "2728": {
-    "codepoints": [
-      10024
-    ],
-    "description": "sparkles"
-  },
-  "2733": {
-    "codepoints": [
-      10035,
-      65039
-    ],
-    "description": "eight-spoked asterisk"
-  },
-  "2734": {
-    "codepoints": [
-      10036,
-      65039
-    ],
-    "description": "eight-pointed star"
-  },
-  "2744": {
-    "codepoints": [
-      10052,
-      65039
-    ],
-    "description": "snowflake"
-  },
-  "2747": {
-    "codepoints": [
-      10055,
-      65039
-    ],
-    "description": "sparkle"
-  },
-  "274C": {
-    "codepoints": [
-      10060
-    ],
-    "description": "cross mark"
-  },
-  "274E": {
-    "codepoints": [
-      10062
-    ],
-    "description": "cross mark button"
-  },
-  "2753": {
-    "codepoints": [
-      10067
-    ],
-    "description": "question mark"
-  },
-  "2757": {
-    "codepoints": [
-      10071
-    ],
-    "description": "exclamation mark"
-  },
-  "2763": {
-    "codepoints": [
-      10083,
-      65039
-    ],
-    "description": "heart exclamation"
-  },
-  "2764": {
-    "codepoints": [
-      10084,
-      65039
-    ],
-    "description": "red heart"
-  },
-  "2795": {
-    "codepoints": [
-      10133
-    ],
-    "description": "plus sign"
-  },
-  "27A1": {
-    "codepoints": [
-      10145,
-      65039
-    ],
-    "description": "right arrow"
-  },
-  "27B0": {
-    "codepoints": [
-      10160
-    ],
-    "description": "curly loop"
-  },
-  "27BF": {
-    "codepoints": [
-      10175
-    ],
-    "description": "double curly loop"
-  },
-  "2934": {
-    "codepoints": [
-      10548,
-      65039
-    ],
-    "description": "right arrow curving up"
-  },
-  "2935": {
-    "codepoints": [
-      10549,
-      65039
-    ],
-    "description": "right arrow curving down"
-  },
-  "2B05": {
-    "codepoints": [
-      11013,
-      65039
-    ],
-    "description": "left arrow"
-  },
-  "2B06": {
-    "codepoints": [
-      11014,
-      65039
-    ],
-    "description": "up arrow"
-  },
-  "2B07": {
-    "codepoints": [
-      11015,
-      65039
-    ],
-    "description": "down arrow"
-  },
-  "2B1B": {
-    "codepoints": [
-      11035
-    ],
-    "description": "black large square"
-  },
-  "2B50": {
-    "codepoints": [
-      11088
-    ],
-    "description": "star"
-  },
-  "2B55": {
-    "codepoints": [
-      11093
-    ],
-    "description": "hollow red circle"
-  },
-  "3030": {
-    "codepoints": [
-      12336,
-      65039
-    ],
-    "description": "wavy dash"
-  },
-  "303D": {
-    "codepoints": [
-      12349,
-      65039
-    ],
-    "description": "part alternation mark"
-  },
-  "3297": {
-    "codepoints": [
-      12951,
-      65039
-    ],
-    "description": "Japanese “congratulations” button"
-  },
-  "3299": {
-    "codepoints": [
-      12953,
-      65039
-    ],
-    "description": "Japanese “secret” button"
   }
 }

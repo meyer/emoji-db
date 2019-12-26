@@ -1,4 +1,142 @@
 {
+  "26F9_2640": {
+    "codepoints": [
+      9977,
+      65039,
+      8205,
+      9792,
+      65039
+    ],
+    "description": "woman bouncing ball"
+  },
+  "26F9_2642": {
+    "codepoints": [
+      9977,
+      65039,
+      8205,
+      9794,
+      65039
+    ],
+    "description": "man bouncing ball"
+  },
+  "26F9_1F3FB_2640": {
+    "codepoints": [
+      9977,
+      127995,
+      8205,
+      9792,
+      65039
+    ],
+    "description": "woman bouncing ball: light skin tone"
+  },
+  "26F9_1F3FB_2642": {
+    "codepoints": [
+      9977,
+      127995,
+      8205,
+      9794,
+      65039
+    ],
+    "description": "man bouncing ball: light skin tone"
+  },
+  "26F9_1F3FC_2640": {
+    "codepoints": [
+      9977,
+      127996,
+      8205,
+      9792,
+      65039
+    ],
+    "description": "woman bouncing ball: medium-light skin tone"
+  },
+  "26F9_1F3FC_2642": {
+    "codepoints": [
+      9977,
+      127996,
+      8205,
+      9794,
+      65039
+    ],
+    "description": "man bouncing ball: medium-light skin tone"
+  },
+  "26F9_1F3FD_2640": {
+    "codepoints": [
+      9977,
+      127997,
+      8205,
+      9792,
+      65039
+    ],
+    "description": "woman bouncing ball: medium skin tone"
+  },
+  "26F9_1F3FD_2642": {
+    "codepoints": [
+      9977,
+      127997,
+      8205,
+      9794,
+      65039
+    ],
+    "description": "man bouncing ball: medium skin tone"
+  },
+  "26F9_1F3FE_2640": {
+    "codepoints": [
+      9977,
+      127998,
+      8205,
+      9792,
+      65039
+    ],
+    "description": "woman bouncing ball: medium-dark skin tone"
+  },
+  "26F9_1F3FE_2642": {
+    "codepoints": [
+      9977,
+      127998,
+      8205,
+      9794,
+      65039
+    ],
+    "description": "man bouncing ball: medium-dark skin tone"
+  },
+  "26F9_1F3FF_2640": {
+    "codepoints": [
+      9977,
+      127999,
+      8205,
+      9792,
+      65039
+    ],
+    "description": "woman bouncing ball: dark skin tone"
+  },
+  "26F9_1F3FF_2642": {
+    "codepoints": [
+      9977,
+      127999,
+      8205,
+      9794,
+      65039
+    ],
+    "description": "man bouncing ball: dark skin tone"
+  },
+  "1F3C3_2640": {
+    "codepoints": [
+      127939,
+      8205,
+      9792,
+      65039
+    ],
+    "description": "woman running"
+  },
+  "1F3C3_2642": {
+    "codepoints": [
+      127939,
+      8205,
+      9794,
+      65039
+    ],
+    "description": "man running"
+  },
   "1F3C3_1F3FB_2640": {
     "codepoints": [
       127939,
@@ -99,23 +237,23 @@
     ],
     "description": "man running: dark skin tone"
   },
-  "1F3C3_2640": {
+  "1F3C4_2640": {
     "codepoints": [
-      127939,
+      127940,
       8205,
       9792,
       65039
     ],
-    "description": "woman running"
+    "description": "woman surfing"
   },
-  "1F3C3_2642": {
+  "1F3C4_2642": {
     "codepoints": [
-      127939,
+      127940,
       8205,
       9794,
       65039
     ],
-    "description": "man running"
+    "description": "man surfing"
   },
   "1F3C4_1F3FB_2640": {
     "codepoints": [
@@ -217,23 +355,23 @@
     ],
     "description": "man surfing: dark skin tone"
   },
-  "1F3C4_2640": {
+  "1F3CA_2640": {
     "codepoints": [
-      127940,
+      127946,
       8205,
       9792,
       65039
     ],
-    "description": "woman surfing"
+    "description": "woman swimming"
   },
-  "1F3C4_2642": {
+  "1F3CA_2642": {
     "codepoints": [
-      127940,
+      127946,
       8205,
       9794,
       65039
     ],
-    "description": "man surfing"
+    "description": "man swimming"
   },
   "1F3CA_1F3FB_2640": {
     "codepoints": [
@@ -335,23 +473,25 @@
     ],
     "description": "man swimming: dark skin tone"
   },
-  "1F3CA_2640": {
+  "1F3CB_2640": {
     "codepoints": [
-      127946,
+      127947,
+      65039,
       8205,
       9792,
       65039
     ],
-    "description": "woman swimming"
+    "description": "woman lifting weights"
   },
-  "1F3CA_2642": {
+  "1F3CB_2642": {
     "codepoints": [
-      127946,
+      127947,
+      65039,
       8205,
       9794,
       65039
     ],
-    "description": "man swimming"
+    "description": "man lifting weights"
   },
   "1F3CB_1F3FB_2640": {
     "codepoints": [
@@ -453,25 +593,25 @@
     ],
     "description": "man lifting weights: dark skin tone"
   },
-  "1F3CB_2640": {
+  "1F3CC_2640": {
     "codepoints": [
-      127947,
+      127948,
       65039,
       8205,
       9792,
       65039
     ],
-    "description": "woman lifting weights"
+    "description": "woman golfing"
   },
-  "1F3CB_2642": {
+  "1F3CC_2642": {
     "codepoints": [
-      127947,
+      127948,
       65039,
       8205,
       9794,
       65039
     ],
-    "description": "man lifting weights"
+    "description": "man golfing"
   },
   "1F3CC_1F3FB_2640": {
     "codepoints": [
@@ -573,26 +713,6 @@
     ],
     "description": "man golfing: dark skin tone"
   },
-  "1F3CC_2640": {
-    "codepoints": [
-      127948,
-      65039,
-      8205,
-      9792,
-      65039
-    ],
-    "description": "woman golfing"
-  },
-  "1F3CC_2642": {
-    "codepoints": [
-      127948,
-      65039,
-      8205,
-      9794,
-      65039
-    ],
-    "description": "man golfing"
-  },
   "1F3F3_1F308": {
     "codepoints": [
       127987,
@@ -628,6 +748,57 @@
       65039
     ],
     "description": "eye in speech bubble"
+  },
+  "1F468_2695": {
+    "codepoints": [
+      128104,
+      8205,
+      9877,
+      65039
+    ],
+    "description": "man health worker"
+  },
+  "1F468_2696": {
+    "codepoints": [
+      128104,
+      8205,
+      9878,
+      65039
+    ],
+    "description": "man judge"
+  },
+  "1F468_2708": {
+    "codepoints": [
+      128104,
+      8205,
+      9992,
+      65039
+    ],
+    "description": "man pilot"
+  },
+  "1F491.MM": {
+    "codepoints": [
+      128104,
+      8205,
+      10084,
+      65039,
+      8205,
+      128104
+    ],
+    "description": "couple with heart: man, man"
+  },
+  "1F48F.MM": {
+    "codepoints": [
+      128104,
+      8205,
+      10084,
+      65039,
+      8205,
+      128139,
+      8205,
+      128104
+    ],
+    "description": "kiss: man, man"
   },
   "1F468_1F33E": {
     "codepoints": [
@@ -684,6 +855,298 @@
       127981
     ],
     "description": "man factory worker"
+  },
+  "1F46A.MB": {
+    "codepoints": [
+      128104,
+      8205,
+      128102
+    ],
+    "description": "family: man, boy"
+  },
+  "1F46A.MBB": {
+    "codepoints": [
+      128104,
+      8205,
+      128102,
+      8205,
+      128102
+    ],
+    "description": "family: man, boy, boy"
+  },
+  "1F46A.MG": {
+    "codepoints": [
+      128104,
+      8205,
+      128103
+    ],
+    "description": "family: man, girl"
+  },
+  "1F46A.MGB": {
+    "codepoints": [
+      128104,
+      8205,
+      128103,
+      8205,
+      128102
+    ],
+    "description": "family: man, girl, boy"
+  },
+  "1F46A.MGG": {
+    "codepoints": [
+      128104,
+      8205,
+      128103,
+      8205,
+      128103
+    ],
+    "description": "family: man, girl, girl"
+  },
+  "1F46A.MMB": {
+    "codepoints": [
+      128104,
+      8205,
+      128104,
+      8205,
+      128102
+    ],
+    "description": "family: man, man, boy"
+  },
+  "1F46A.MMBB": {
+    "codepoints": [
+      128104,
+      8205,
+      128104,
+      8205,
+      128102,
+      8205,
+      128102
+    ],
+    "description": "family: man, man, boy, boy"
+  },
+  "1F46A.MMG": {
+    "codepoints": [
+      128104,
+      8205,
+      128104,
+      8205,
+      128103
+    ],
+    "description": "family: man, man, girl"
+  },
+  "1F46A.MMGB": {
+    "codepoints": [
+      128104,
+      8205,
+      128104,
+      8205,
+      128103,
+      8205,
+      128102
+    ],
+    "description": "family: man, man, girl, boy"
+  },
+  "1F46A.MMGG": {
+    "codepoints": [
+      128104,
+      8205,
+      128104,
+      8205,
+      128103,
+      8205,
+      128103
+    ],
+    "description": "family: man, man, girl, girl"
+  },
+  "1F46A.MWB": {
+    "codepoints": [
+      128104,
+      8205,
+      128105,
+      8205,
+      128102
+    ],
+    "description": "family: man, woman, boy"
+  },
+  "1F46A.MWBB": {
+    "codepoints": [
+      128104,
+      8205,
+      128105,
+      8205,
+      128102,
+      8205,
+      128102
+    ],
+    "description": "family: man, woman, boy, boy"
+  },
+  "1F46A.MWG": {
+    "codepoints": [
+      128104,
+      8205,
+      128105,
+      8205,
+      128103
+    ],
+    "description": "family: man, woman, girl"
+  },
+  "1F46A.MWGB": {
+    "codepoints": [
+      128104,
+      8205,
+      128105,
+      8205,
+      128103,
+      8205,
+      128102
+    ],
+    "description": "family: man, woman, girl, boy"
+  },
+  "1F46A.MWGG": {
+    "codepoints": [
+      128104,
+      8205,
+      128105,
+      8205,
+      128103,
+      8205,
+      128103
+    ],
+    "description": "family: man, woman, girl, girl"
+  },
+  "1F468_1F4BB": {
+    "codepoints": [
+      128104,
+      8205,
+      128187
+    ],
+    "description": "man technologist"
+  },
+  "1F468_1F4BC": {
+    "codepoints": [
+      128104,
+      8205,
+      128188
+    ],
+    "description": "man office worker"
+  },
+  "1F468_1F527": {
+    "codepoints": [
+      128104,
+      8205,
+      128295
+    ],
+    "description": "man mechanic"
+  },
+  "1F468_1F52C": {
+    "codepoints": [
+      128104,
+      8205,
+      128300
+    ],
+    "description": "man scientist"
+  },
+  "1F468_1F680": {
+    "codepoints": [
+      128104,
+      8205,
+      128640
+    ],
+    "description": "man astronaut"
+  },
+  "1F468_1F692": {
+    "codepoints": [
+      128104,
+      8205,
+      128658
+    ],
+    "description": "man firefighter"
+  },
+  "1F468_1F9AF": {
+    "codepoints": [
+      128104,
+      8205,
+      129455
+    ],
+    "description": "man with probing cane"
+  },
+  "1F468_1F9B0": {
+    "codepoints": [
+      128104,
+      8205,
+      129456
+    ],
+    "description": "man: red hair"
+  },
+  "1F468_1F9B1": {
+    "codepoints": [
+      128104,
+      8205,
+      129457
+    ],
+    "description": "man: curly hair"
+  },
+  "1F468_1F9B2": {
+    "codepoints": [
+      128104,
+      8205,
+      129458
+    ],
+    "description": "man: bald"
+  },
+  "1F468_1F9B3": {
+    "codepoints": [
+      128104,
+      8205,
+      129459
+    ],
+    "description": "man: white hair"
+  },
+  "1F468_1F9BC": {
+    "codepoints": [
+      128104,
+      8205,
+      129468
+    ],
+    "description": "man in motorized wheelchair"
+  },
+  "1F468_1F9BD": {
+    "codepoints": [
+      128104,
+      8205,
+      129469
+    ],
+    "description": "man in manual wheelchair"
+  },
+  "1F468_1F3FB_2695": {
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      9877,
+      65039
+    ],
+    "description": "man health worker: light skin tone"
+  },
+  "1F468_1F3FB_2696": {
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      9878,
+      65039
+    ],
+    "description": "man judge: light skin tone"
+  },
+  "1F468_1F3FB_2708": {
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      9992,
+      65039
+    ],
+    "description": "man pilot: light skin tone"
   },
   "1F468_1F3FB_1F33E": {
     "codepoints": [
@@ -913,35 +1376,35 @@
     ],
     "description": "man in manual wheelchair: light skin tone"
   },
-  "1F468_1F3FB_2695": {
+  "1F468_1F3FC_2695": {
     "codepoints": [
       128104,
-      127995,
+      127996,
       8205,
       9877,
       65039
     ],
-    "description": "man health worker: light skin tone"
+    "description": "man health worker: medium-light skin tone"
   },
-  "1F468_1F3FB_2696": {
+  "1F468_1F3FC_2696": {
     "codepoints": [
       128104,
-      127995,
+      127996,
       8205,
       9878,
       65039
     ],
-    "description": "man judge: light skin tone"
+    "description": "man judge: medium-light skin tone"
   },
-  "1F468_1F3FB_2708": {
+  "1F468_1F3FC_2708": {
     "codepoints": [
       128104,
-      127995,
+      127996,
       8205,
       9992,
       65039
     ],
-    "description": "man pilot: light skin tone"
+    "description": "man pilot: medium-light skin tone"
   },
   "1F468_1F3FC_1F33E": {
     "codepoints": [
@@ -1171,35 +1634,35 @@
     ],
     "description": "man in manual wheelchair: medium-light skin tone"
   },
-  "1F468_1F3FC_2695": {
+  "1F468_1F3FD_2695": {
     "codepoints": [
       128104,
-      127996,
+      127997,
       8205,
       9877,
       65039
     ],
-    "description": "man health worker: medium-light skin tone"
+    "description": "man health worker: medium skin tone"
   },
-  "1F468_1F3FC_2696": {
+  "1F468_1F3FD_2696": {
     "codepoints": [
       128104,
-      127996,
+      127997,
       8205,
       9878,
       65039
     ],
-    "description": "man judge: medium-light skin tone"
+    "description": "man judge: medium skin tone"
   },
-  "1F468_1F3FC_2708": {
+  "1F468_1F3FD_2708": {
     "codepoints": [
       128104,
-      127996,
+      127997,
       8205,
       9992,
       65039
     ],
-    "description": "man pilot: medium-light skin tone"
+    "description": "man pilot: medium skin tone"
   },
   "1F468_1F3FD_1F33E": {
     "codepoints": [
@@ -1429,35 +1892,35 @@
     ],
     "description": "man in manual wheelchair: medium skin tone"
   },
-  "1F468_1F3FD_2695": {
+  "1F468_1F3FE_2695": {
     "codepoints": [
       128104,
-      127997,
+      127998,
       8205,
       9877,
       65039
     ],
-    "description": "man health worker: medium skin tone"
+    "description": "man health worker: medium-dark skin tone"
   },
-  "1F468_1F3FD_2696": {
+  "1F468_1F3FE_2696": {
     "codepoints": [
       128104,
-      127997,
+      127998,
       8205,
       9878,
       65039
     ],
-    "description": "man judge: medium skin tone"
+    "description": "man judge: medium-dark skin tone"
   },
-  "1F468_1F3FD_2708": {
+  "1F468_1F3FE_2708": {
     "codepoints": [
       128104,
-      127997,
+      127998,
       8205,
       9992,
       65039
     ],
-    "description": "man pilot: medium skin tone"
+    "description": "man pilot: medium-dark skin tone"
   },
   "1F468_1F3FE_1F33E": {
     "codepoints": [
@@ -1687,35 +2150,35 @@
     ],
     "description": "man in manual wheelchair: medium-dark skin tone"
   },
-  "1F468_1F3FE_2695": {
+  "1F468_1F3FF_2695": {
     "codepoints": [
       128104,
-      127998,
+      127999,
       8205,
       9877,
       65039
     ],
-    "description": "man health worker: medium-dark skin tone"
+    "description": "man health worker: dark skin tone"
   },
-  "1F468_1F3FE_2696": {
+  "1F468_1F3FF_2696": {
     "codepoints": [
       128104,
-      127998,
+      127999,
       8205,
       9878,
       65039
     ],
-    "description": "man judge: medium-dark skin tone"
+    "description": "man judge: dark skin tone"
   },
-  "1F468_1F3FE_2708": {
+  "1F468_1F3FF_2708": {
     "codepoints": [
       128104,
-      127998,
+      127999,
       8205,
       9992,
       65039
     ],
-    "description": "man pilot: medium-dark skin tone"
+    "description": "man pilot: dark skin tone"
   },
   "1F468_1F3FF_1F33E": {
     "codepoints": [
@@ -1945,166 +2408,80 @@
     ],
     "description": "man in manual wheelchair: dark skin tone"
   },
-  "1F468_1F3FF_2695": {
+  "1F469_2695": {
     "codepoints": [
-      128104,
-      127999,
+      128105,
       8205,
       9877,
       65039
     ],
-    "description": "man health worker: dark skin tone"
+    "description": "woman health worker"
   },
-  "1F468_1F3FF_2696": {
+  "1F469_2696": {
     "codepoints": [
-      128104,
-      127999,
+      128105,
       8205,
       9878,
       65039
     ],
-    "description": "man judge: dark skin tone"
+    "description": "woman judge"
   },
-  "1F468_1F3FF_2708": {
+  "1F469_2708": {
     "codepoints": [
-      128104,
-      127999,
+      128105,
       8205,
       9992,
       65039
     ],
-    "description": "man pilot: dark skin tone"
+    "description": "woman pilot"
   },
-  "1F468_1F4BB": {
+  "1F491.MW": {
     "codepoints": [
-      128104,
+      128105,
       8205,
-      128187
+      10084,
+      65039,
+      8205,
+      128104
     ],
-    "description": "man technologist"
+    "description": "couple with heart: woman, man"
   },
-  "1F468_1F4BC": {
+  "1F491.WW": {
     "codepoints": [
-      128104,
+      128105,
       8205,
-      128188
+      10084,
+      65039,
+      8205,
+      128105
     ],
-    "description": "man office worker"
+    "description": "couple with heart: woman, woman"
   },
-  "1F468_1F527": {
+  "1F48F.MW": {
     "codepoints": [
-      128104,
+      128105,
       8205,
-      128295
+      10084,
+      65039,
+      8205,
+      128139,
+      8205,
+      128104
     ],
-    "description": "man mechanic"
+    "description": "kiss: woman, man"
   },
-  "1F468_1F52C": {
+  "1F48F.WW": {
     "codepoints": [
-      128104,
+      128105,
       8205,
-      128300
-    ],
-    "description": "man scientist"
-  },
-  "1F468_1F680": {
-    "codepoints": [
-      128104,
+      10084,
+      65039,
       8205,
-      128640
-    ],
-    "description": "man astronaut"
-  },
-  "1F468_1F692": {
-    "codepoints": [
-      128104,
+      128139,
       8205,
-      128658
+      128105
     ],
-    "description": "man firefighter"
-  },
-  "1F468_1F9AF": {
-    "codepoints": [
-      128104,
-      8205,
-      129455
-    ],
-    "description": "man with probing cane"
-  },
-  "1F468_1F9B0": {
-    "codepoints": [
-      128104,
-      8205,
-      129456
-    ],
-    "description": "man: red hair"
-  },
-  "1F468_1F9B1": {
-    "codepoints": [
-      128104,
-      8205,
-      129457
-    ],
-    "description": "man: curly hair"
-  },
-  "1F468_1F9B2": {
-    "codepoints": [
-      128104,
-      8205,
-      129458
-    ],
-    "description": "man: bald"
-  },
-  "1F468_1F9B3": {
-    "codepoints": [
-      128104,
-      8205,
-      129459
-    ],
-    "description": "man: white hair"
-  },
-  "1F468_1F9BC": {
-    "codepoints": [
-      128104,
-      8205,
-      129468
-    ],
-    "description": "man in motorized wheelchair"
-  },
-  "1F468_1F9BD": {
-    "codepoints": [
-      128104,
-      8205,
-      129469
-    ],
-    "description": "man in manual wheelchair"
-  },
-  "1F468_2695": {
-    "codepoints": [
-      128104,
-      8205,
-      9877,
-      65039
-    ],
-    "description": "man health worker"
-  },
-  "1F468_2696": {
-    "codepoints": [
-      128104,
-      8205,
-      9878,
-      65039
-    ],
-    "description": "man judge"
-  },
-  "1F468_2708": {
-    "codepoints": [
-      128104,
-      8205,
-      9992,
-      65039
-    ],
-    "description": "man pilot"
+    "description": "kiss: woman, woman"
   },
   "1F469_1F33E": {
     "codepoints": [
@@ -2161,6 +2538,242 @@
       127981
     ],
     "description": "woman factory worker"
+  },
+  "1F46A.WB": {
+    "codepoints": [
+      128105,
+      8205,
+      128102
+    ],
+    "description": "family: woman, boy"
+  },
+  "1F46A.WBB": {
+    "codepoints": [
+      128105,
+      8205,
+      128102,
+      8205,
+      128102
+    ],
+    "description": "family: woman, boy, boy"
+  },
+  "1F46A.WG": {
+    "codepoints": [
+      128105,
+      8205,
+      128103
+    ],
+    "description": "family: woman, girl"
+  },
+  "1F46A.WGB": {
+    "codepoints": [
+      128105,
+      8205,
+      128103,
+      8205,
+      128102
+    ],
+    "description": "family: woman, girl, boy"
+  },
+  "1F46A.WGG": {
+    "codepoints": [
+      128105,
+      8205,
+      128103,
+      8205,
+      128103
+    ],
+    "description": "family: woman, girl, girl"
+  },
+  "1F46A.WWB": {
+    "codepoints": [
+      128105,
+      8205,
+      128105,
+      8205,
+      128102
+    ],
+    "description": "family: woman, woman, boy"
+  },
+  "1F46A.WWBB": {
+    "codepoints": [
+      128105,
+      8205,
+      128105,
+      8205,
+      128102,
+      8205,
+      128102
+    ],
+    "description": "family: woman, woman, boy, boy"
+  },
+  "1F46A.WWG": {
+    "codepoints": [
+      128105,
+      8205,
+      128105,
+      8205,
+      128103
+    ],
+    "description": "family: woman, woman, girl"
+  },
+  "1F46A.WWGB": {
+    "codepoints": [
+      128105,
+      8205,
+      128105,
+      8205,
+      128103,
+      8205,
+      128102
+    ],
+    "description": "family: woman, woman, girl, boy"
+  },
+  "1F46A.WWGG": {
+    "codepoints": [
+      128105,
+      8205,
+      128105,
+      8205,
+      128103,
+      8205,
+      128103
+    ],
+    "description": "family: woman, woman, girl, girl"
+  },
+  "1F469_1F4BB": {
+    "codepoints": [
+      128105,
+      8205,
+      128187
+    ],
+    "description": "woman technologist"
+  },
+  "1F469_1F4BC": {
+    "codepoints": [
+      128105,
+      8205,
+      128188
+    ],
+    "description": "woman office worker"
+  },
+  "1F469_1F527": {
+    "codepoints": [
+      128105,
+      8205,
+      128295
+    ],
+    "description": "woman mechanic"
+  },
+  "1F469_1F52C": {
+    "codepoints": [
+      128105,
+      8205,
+      128300
+    ],
+    "description": "woman scientist"
+  },
+  "1F469_1F680": {
+    "codepoints": [
+      128105,
+      8205,
+      128640
+    ],
+    "description": "woman astronaut"
+  },
+  "1F469_1F692": {
+    "codepoints": [
+      128105,
+      8205,
+      128658
+    ],
+    "description": "woman firefighter"
+  },
+  "1F469_1F9AF": {
+    "codepoints": [
+      128105,
+      8205,
+      129455
+    ],
+    "description": "woman with probing cane"
+  },
+  "1F469_1F9B0": {
+    "codepoints": [
+      128105,
+      8205,
+      129456
+    ],
+    "description": "woman: red hair"
+  },
+  "1F469_1F9B1": {
+    "codepoints": [
+      128105,
+      8205,
+      129457
+    ],
+    "description": "woman: curly hair"
+  },
+  "1F469_1F9B2": {
+    "codepoints": [
+      128105,
+      8205,
+      129458
+    ],
+    "description": "woman: bald"
+  },
+  "1F469_1F9B3": {
+    "codepoints": [
+      128105,
+      8205,
+      129459
+    ],
+    "description": "woman: white hair"
+  },
+  "1F469_1F9BC": {
+    "codepoints": [
+      128105,
+      8205,
+      129468
+    ],
+    "description": "woman in motorized wheelchair"
+  },
+  "1F469_1F9BD": {
+    "codepoints": [
+      128105,
+      8205,
+      129469
+    ],
+    "description": "woman in manual wheelchair"
+  },
+  "1F469_1F3FB_2695": {
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      9877,
+      65039
+    ],
+    "description": "woman health worker: light skin tone"
+  },
+  "1F469_1F3FB_2696": {
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      9878,
+      65039
+    ],
+    "description": "woman judge: light skin tone"
+  },
+  "1F469_1F3FB_2708": {
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      9992,
+      65039
+    ],
+    "description": "woman pilot: light skin tone"
   },
   "1F469_1F3FB_1F33E": {
     "codepoints": [
@@ -2438,35 +3051,35 @@
     ],
     "description": "woman in manual wheelchair: light skin tone"
   },
-  "1F469_1F3FB_2695": {
+  "1F469_1F3FC_2695": {
     "codepoints": [
       128105,
-      127995,
+      127996,
       8205,
       9877,
       65039
     ],
-    "description": "woman health worker: light skin tone"
+    "description": "woman health worker: medium-light skin tone"
   },
-  "1F469_1F3FB_2696": {
+  "1F469_1F3FC_2696": {
     "codepoints": [
       128105,
-      127995,
+      127996,
       8205,
       9878,
       65039
     ],
-    "description": "woman judge: light skin tone"
+    "description": "woman judge: medium-light skin tone"
   },
-  "1F469_1F3FB_2708": {
+  "1F469_1F3FC_2708": {
     "codepoints": [
       128105,
-      127995,
+      127996,
       8205,
       9992,
       65039
     ],
-    "description": "woman pilot: light skin tone"
+    "description": "woman pilot: medium-light skin tone"
   },
   "1F469_1F3FC_1F33E": {
     "codepoints": [
@@ -2744,35 +3357,35 @@
     ],
     "description": "woman in manual wheelchair: medium-light skin tone"
   },
-  "1F469_1F3FC_2695": {
+  "1F469_1F3FD_2695": {
     "codepoints": [
       128105,
-      127996,
+      127997,
       8205,
       9877,
       65039
     ],
-    "description": "woman health worker: medium-light skin tone"
+    "description": "woman health worker: medium skin tone"
   },
-  "1F469_1F3FC_2696": {
+  "1F469_1F3FD_2696": {
     "codepoints": [
       128105,
-      127996,
+      127997,
       8205,
       9878,
       65039
     ],
-    "description": "woman judge: medium-light skin tone"
+    "description": "woman judge: medium skin tone"
   },
-  "1F469_1F3FC_2708": {
+  "1F469_1F3FD_2708": {
     "codepoints": [
       128105,
-      127996,
+      127997,
       8205,
       9992,
       65039
     ],
-    "description": "woman pilot: medium-light skin tone"
+    "description": "woman pilot: medium skin tone"
   },
   "1F469_1F3FD_1F33E": {
     "codepoints": [
@@ -3050,35 +3663,35 @@
     ],
     "description": "woman in manual wheelchair: medium skin tone"
   },
-  "1F469_1F3FD_2695": {
+  "1F469_1F3FE_2695": {
     "codepoints": [
       128105,
-      127997,
+      127998,
       8205,
       9877,
       65039
     ],
-    "description": "woman health worker: medium skin tone"
+    "description": "woman health worker: medium-dark skin tone"
   },
-  "1F469_1F3FD_2696": {
+  "1F469_1F3FE_2696": {
     "codepoints": [
       128105,
-      127997,
+      127998,
       8205,
       9878,
       65039
     ],
-    "description": "woman judge: medium skin tone"
+    "description": "woman judge: medium-dark skin tone"
   },
-  "1F469_1F3FD_2708": {
+  "1F469_1F3FE_2708": {
     "codepoints": [
       128105,
-      127997,
+      127998,
       8205,
       9992,
       65039
     ],
-    "description": "woman pilot: medium skin tone"
+    "description": "woman pilot: medium-dark skin tone"
   },
   "1F469_1F3FE_1F33E": {
     "codepoints": [
@@ -3356,35 +3969,35 @@
     ],
     "description": "woman in manual wheelchair: medium-dark skin tone"
   },
-  "1F469_1F3FE_2695": {
+  "1F469_1F3FF_2695": {
     "codepoints": [
       128105,
-      127998,
+      127999,
       8205,
       9877,
       65039
     ],
-    "description": "woman health worker: medium-dark skin tone"
+    "description": "woman health worker: dark skin tone"
   },
-  "1F469_1F3FE_2696": {
+  "1F469_1F3FF_2696": {
     "codepoints": [
       128105,
-      127998,
+      127999,
       8205,
       9878,
       65039
     ],
-    "description": "woman judge: medium-dark skin tone"
+    "description": "woman judge: dark skin tone"
   },
-  "1F469_1F3FE_2708": {
+  "1F469_1F3FF_2708": {
     "codepoints": [
       128105,
-      127998,
+      127999,
       8205,
       9992,
       65039
     ],
-    "description": "woman pilot: medium-dark skin tone"
+    "description": "woman pilot: dark skin tone"
   },
   "1F469_1F3FF_1F33E": {
     "codepoints": [
@@ -3662,426 +4275,23 @@
     ],
     "description": "woman in manual wheelchair: dark skin tone"
   },
-  "1F469_1F3FF_2695": {
+  "1F46E_2640": {
     "codepoints": [
-      128105,
-      127999,
+      128110,
       8205,
-      9877,
+      9792,
       65039
     ],
-    "description": "woman health worker: dark skin tone"
+    "description": "woman police officer"
   },
-  "1F469_1F3FF_2696": {
+  "1F46E_2642": {
     "codepoints": [
-      128105,
-      127999,
+      128110,
       8205,
-      9878,
+      9794,
       65039
     ],
-    "description": "woman judge: dark skin tone"
-  },
-  "1F469_1F3FF_2708": {
-    "codepoints": [
-      128105,
-      127999,
-      8205,
-      9992,
-      65039
-    ],
-    "description": "woman pilot: dark skin tone"
-  },
-  "1F469_1F4BB": {
-    "codepoints": [
-      128105,
-      8205,
-      128187
-    ],
-    "description": "woman technologist"
-  },
-  "1F469_1F4BC": {
-    "codepoints": [
-      128105,
-      8205,
-      128188
-    ],
-    "description": "woman office worker"
-  },
-  "1F469_1F527": {
-    "codepoints": [
-      128105,
-      8205,
-      128295
-    ],
-    "description": "woman mechanic"
-  },
-  "1F469_1F52C": {
-    "codepoints": [
-      128105,
-      8205,
-      128300
-    ],
-    "description": "woman scientist"
-  },
-  "1F469_1F680": {
-    "codepoints": [
-      128105,
-      8205,
-      128640
-    ],
-    "description": "woman astronaut"
-  },
-  "1F469_1F692": {
-    "codepoints": [
-      128105,
-      8205,
-      128658
-    ],
-    "description": "woman firefighter"
-  },
-  "1F469_1F9AF": {
-    "codepoints": [
-      128105,
-      8205,
-      129455
-    ],
-    "description": "woman with probing cane"
-  },
-  "1F469_1F9B0": {
-    "codepoints": [
-      128105,
-      8205,
-      129456
-    ],
-    "description": "woman: red hair"
-  },
-  "1F469_1F9B1": {
-    "codepoints": [
-      128105,
-      8205,
-      129457
-    ],
-    "description": "woman: curly hair"
-  },
-  "1F469_1F9B2": {
-    "codepoints": [
-      128105,
-      8205,
-      129458
-    ],
-    "description": "woman: bald"
-  },
-  "1F469_1F9B3": {
-    "codepoints": [
-      128105,
-      8205,
-      129459
-    ],
-    "description": "woman: white hair"
-  },
-  "1F469_1F9BC": {
-    "codepoints": [
-      128105,
-      8205,
-      129468
-    ],
-    "description": "woman in motorized wheelchair"
-  },
-  "1F469_1F9BD": {
-    "codepoints": [
-      128105,
-      8205,
-      129469
-    ],
-    "description": "woman in manual wheelchair"
-  },
-  "1F469_2695": {
-    "codepoints": [
-      128105,
-      8205,
-      9877,
-      65039
-    ],
-    "description": "woman health worker"
-  },
-  "1F469_2696": {
-    "codepoints": [
-      128105,
-      8205,
-      9878,
-      65039
-    ],
-    "description": "woman judge"
-  },
-  "1F469_2708": {
-    "codepoints": [
-      128105,
-      8205,
-      9992,
-      65039
-    ],
-    "description": "woman pilot"
-  },
-  "1F46A.MB": {
-    "codepoints": [
-      128104,
-      8205,
-      128102
-    ],
-    "description": "family: man, boy"
-  },
-  "1F46A.MBB": {
-    "codepoints": [
-      128104,
-      8205,
-      128102,
-      8205,
-      128102
-    ],
-    "description": "family: man, boy, boy"
-  },
-  "1F46A.MG": {
-    "codepoints": [
-      128104,
-      8205,
-      128103
-    ],
-    "description": "family: man, girl"
-  },
-  "1F46A.MGB": {
-    "codepoints": [
-      128104,
-      8205,
-      128103,
-      8205,
-      128102
-    ],
-    "description": "family: man, girl, boy"
-  },
-  "1F46A.MGG": {
-    "codepoints": [
-      128104,
-      8205,
-      128103,
-      8205,
-      128103
-    ],
-    "description": "family: man, girl, girl"
-  },
-  "1F46A.MMB": {
-    "codepoints": [
-      128104,
-      8205,
-      128104,
-      8205,
-      128102
-    ],
-    "description": "family: man, man, boy"
-  },
-  "1F46A.MMBB": {
-    "codepoints": [
-      128104,
-      8205,
-      128104,
-      8205,
-      128102,
-      8205,
-      128102
-    ],
-    "description": "family: man, man, boy, boy"
-  },
-  "1F46A.MMG": {
-    "codepoints": [
-      128104,
-      8205,
-      128104,
-      8205,
-      128103
-    ],
-    "description": "family: man, man, girl"
-  },
-  "1F46A.MMGB": {
-    "codepoints": [
-      128104,
-      8205,
-      128104,
-      8205,
-      128103,
-      8205,
-      128102
-    ],
-    "description": "family: man, man, girl, boy"
-  },
-  "1F46A.MMGG": {
-    "codepoints": [
-      128104,
-      8205,
-      128104,
-      8205,
-      128103,
-      8205,
-      128103
-    ],
-    "description": "family: man, man, girl, girl"
-  },
-  "1F46A.MWB": {
-    "codepoints": [
-      128104,
-      8205,
-      128105,
-      8205,
-      128102
-    ],
-    "description": "family: man, woman, boy"
-  },
-  "1F46A.MWBB": {
-    "codepoints": [
-      128104,
-      8205,
-      128105,
-      8205,
-      128102,
-      8205,
-      128102
-    ],
-    "description": "family: man, woman, boy, boy"
-  },
-  "1F46A.MWG": {
-    "codepoints": [
-      128104,
-      8205,
-      128105,
-      8205,
-      128103
-    ],
-    "description": "family: man, woman, girl"
-  },
-  "1F46A.MWGB": {
-    "codepoints": [
-      128104,
-      8205,
-      128105,
-      8205,
-      128103,
-      8205,
-      128102
-    ],
-    "description": "family: man, woman, girl, boy"
-  },
-  "1F46A.MWGG": {
-    "codepoints": [
-      128104,
-      8205,
-      128105,
-      8205,
-      128103,
-      8205,
-      128103
-    ],
-    "description": "family: man, woman, girl, girl"
-  },
-  "1F46A.WB": {
-    "codepoints": [
-      128105,
-      8205,
-      128102
-    ],
-    "description": "family: woman, boy"
-  },
-  "1F46A.WBB": {
-    "codepoints": [
-      128105,
-      8205,
-      128102,
-      8205,
-      128102
-    ],
-    "description": "family: woman, boy, boy"
-  },
-  "1F46A.WG": {
-    "codepoints": [
-      128105,
-      8205,
-      128103
-    ],
-    "description": "family: woman, girl"
-  },
-  "1F46A.WGB": {
-    "codepoints": [
-      128105,
-      8205,
-      128103,
-      8205,
-      128102
-    ],
-    "description": "family: woman, girl, boy"
-  },
-  "1F46A.WGG": {
-    "codepoints": [
-      128105,
-      8205,
-      128103,
-      8205,
-      128103
-    ],
-    "description": "family: woman, girl, girl"
-  },
-  "1F46A.WWB": {
-    "codepoints": [
-      128105,
-      8205,
-      128105,
-      8205,
-      128102
-    ],
-    "description": "family: woman, woman, boy"
-  },
-  "1F46A.WWBB": {
-    "codepoints": [
-      128105,
-      8205,
-      128105,
-      8205,
-      128102,
-      8205,
-      128102
-    ],
-    "description": "family: woman, woman, boy, boy"
-  },
-  "1F46A.WWG": {
-    "codepoints": [
-      128105,
-      8205,
-      128105,
-      8205,
-      128103
-    ],
-    "description": "family: woman, woman, girl"
-  },
-  "1F46A.WWGB": {
-    "codepoints": [
-      128105,
-      8205,
-      128105,
-      8205,
-      128103,
-      8205,
-      128102
-    ],
-    "description": "family: woman, woman, girl, boy"
-  },
-  "1F46A.WWGG": {
-    "codepoints": [
-      128105,
-      8205,
-      128105,
-      8205,
-      128103,
-      8205,
-      128103
-    ],
-    "description": "family: woman, woman, girl, girl"
+    "description": "man police officer"
   },
   "1F46E_1F3FB_2640": {
     "codepoints": [
@@ -4183,24 +4393,6 @@
     ],
     "description": "man police officer: dark skin tone"
   },
-  "1F46E_2640": {
-    "codepoints": [
-      128110,
-      8205,
-      9792,
-      65039
-    ],
-    "description": "woman police officer"
-  },
-  "1F46E_2642": {
-    "codepoints": [
-      128110,
-      8205,
-      9794,
-      65039
-    ],
-    "description": "man police officer"
-  },
   "1F46F_2640": {
     "codepoints": [
       128111,
@@ -4218,6 +4410,24 @@
       65039
     ],
     "description": "men with bunny ears"
+  },
+  "1F471_2640": {
+    "codepoints": [
+      128113,
+      8205,
+      9792,
+      65039
+    ],
+    "description": "woman: blond hair"
+  },
+  "1F471_2642": {
+    "codepoints": [
+      128113,
+      8205,
+      9794,
+      65039
+    ],
+    "description": "man: blond hair"
   },
   "1F471_1F3FB_2640": {
     "codepoints": [
@@ -4319,23 +4529,23 @@
     ],
     "description": "man: dark skin tone, blond hair"
   },
-  "1F471_2640": {
+  "1F473_2640": {
     "codepoints": [
-      128113,
+      128115,
       8205,
       9792,
       65039
     ],
-    "description": "woman: blond hair"
+    "description": "woman wearing turban"
   },
-  "1F471_2642": {
+  "1F473_2642": {
     "codepoints": [
-      128113,
+      128115,
       8205,
       9794,
       65039
     ],
-    "description": "man: blond hair"
+    "description": "man wearing turban"
   },
   "1F473_1F3FB_2640": {
     "codepoints": [
@@ -4437,23 +4647,23 @@
     ],
     "description": "man wearing turban: dark skin tone"
   },
-  "1F473_2640": {
+  "1F477_2640": {
     "codepoints": [
-      128115,
+      128119,
       8205,
       9792,
       65039
     ],
-    "description": "woman wearing turban"
+    "description": "woman construction worker"
   },
-  "1F473_2642": {
+  "1F477_2642": {
     "codepoints": [
-      128115,
+      128119,
       8205,
       9794,
       65039
     ],
-    "description": "man wearing turban"
+    "description": "man construction worker"
   },
   "1F477_1F3FB_2640": {
     "codepoints": [
@@ -4555,23 +4765,23 @@
     ],
     "description": "man construction worker: dark skin tone"
   },
-  "1F477_2640": {
+  "1F481_2640": {
     "codepoints": [
-      128119,
+      128129,
       8205,
       9792,
       65039
     ],
-    "description": "woman construction worker"
+    "description": "woman tipping hand"
   },
-  "1F477_2642": {
+  "1F481_2642": {
     "codepoints": [
-      128119,
+      128129,
       8205,
       9794,
       65039
     ],
-    "description": "man construction worker"
+    "description": "man tipping hand"
   },
   "1F481_1F3FB_2640": {
     "codepoints": [
@@ -4673,23 +4883,23 @@
     ],
     "description": "man tipping hand: dark skin tone"
   },
-  "1F481_2640": {
+  "1F482_2640": {
     "codepoints": [
-      128129,
+      128130,
       8205,
       9792,
       65039
     ],
-    "description": "woman tipping hand"
+    "description": "woman guard"
   },
-  "1F481_2642": {
+  "1F482_2642": {
     "codepoints": [
-      128129,
+      128130,
       8205,
       9794,
       65039
     ],
-    "description": "man tipping hand"
+    "description": "man guard"
   },
   "1F482_1F3FB_2640": {
     "codepoints": [
@@ -4791,23 +5001,23 @@
     ],
     "description": "man guard: dark skin tone"
   },
-  "1F482_2640": {
+  "1F486_2640": {
     "codepoints": [
-      128130,
+      128134,
       8205,
       9792,
       65039
     ],
-    "description": "woman guard"
+    "description": "woman getting massage"
   },
-  "1F482_2642": {
+  "1F486_2642": {
     "codepoints": [
-      128130,
+      128134,
       8205,
       9794,
       65039
     ],
-    "description": "man guard"
+    "description": "man getting massage"
   },
   "1F486_1F3FB_2640": {
     "codepoints": [
@@ -4909,23 +5119,23 @@
     ],
     "description": "man getting massage: dark skin tone"
   },
-  "1F486_2640": {
+  "1F487_2640": {
     "codepoints": [
-      128134,
+      128135,
       8205,
       9792,
       65039
     ],
-    "description": "woman getting massage"
+    "description": "woman getting haircut"
   },
-  "1F486_2642": {
+  "1F487_2642": {
     "codepoints": [
-      128134,
+      128135,
       8205,
       9794,
       65039
     ],
-    "description": "man getting massage"
+    "description": "man getting haircut"
   },
   "1F487_1F3FB_2640": {
     "codepoints": [
@@ -5027,95 +5237,25 @@
     ],
     "description": "man getting haircut: dark skin tone"
   },
-  "1F487_2640": {
+  "1F575_2640": {
     "codepoints": [
-      128135,
+      128373,
+      65039,
       8205,
       9792,
       65039
     ],
-    "description": "woman getting haircut"
+    "description": "woman detective"
   },
-  "1F487_2642": {
+  "1F575_2642": {
     "codepoints": [
-      128135,
+      128373,
+      65039,
       8205,
       9794,
       65039
     ],
-    "description": "man getting haircut"
-  },
-  "1F48F.MM": {
-    "codepoints": [
-      128104,
-      8205,
-      10084,
-      65039,
-      8205,
-      128139,
-      8205,
-      128104
-    ],
-    "description": "kiss: man, man"
-  },
-  "1F48F.MW": {
-    "codepoints": [
-      128105,
-      8205,
-      10084,
-      65039,
-      8205,
-      128139,
-      8205,
-      128104
-    ],
-    "description": "kiss: woman, man"
-  },
-  "1F48F.WW": {
-    "codepoints": [
-      128105,
-      8205,
-      10084,
-      65039,
-      8205,
-      128139,
-      8205,
-      128105
-    ],
-    "description": "kiss: woman, woman"
-  },
-  "1F491.MM": {
-    "codepoints": [
-      128104,
-      8205,
-      10084,
-      65039,
-      8205,
-      128104
-    ],
-    "description": "couple with heart: man, man"
-  },
-  "1F491.MW": {
-    "codepoints": [
-      128105,
-      8205,
-      10084,
-      65039,
-      8205,
-      128104
-    ],
-    "description": "couple with heart: woman, man"
-  },
-  "1F491.WW": {
-    "codepoints": [
-      128105,
-      8205,
-      10084,
-      65039,
-      8205,
-      128105
-    ],
-    "description": "couple with heart: woman, woman"
+    "description": "man detective"
   },
   "1F575_1F3FB_2640": {
     "codepoints": [
@@ -5217,25 +5357,23 @@
     ],
     "description": "man detective: dark skin tone"
   },
-  "1F575_2640": {
+  "1F645_2640": {
     "codepoints": [
-      128373,
-      65039,
+      128581,
       8205,
       9792,
       65039
     ],
-    "description": "woman detective"
+    "description": "woman gesturing NO"
   },
-  "1F575_2642": {
+  "1F645_2642": {
     "codepoints": [
-      128373,
-      65039,
+      128581,
       8205,
       9794,
       65039
     ],
-    "description": "man detective"
+    "description": "man gesturing NO"
   },
   "1F645_1F3FB_2640": {
     "codepoints": [
@@ -5337,23 +5475,23 @@
     ],
     "description": "man gesturing NO: dark skin tone"
   },
-  "1F645_2640": {
+  "1F646_2640": {
     "codepoints": [
-      128581,
+      128582,
       8205,
       9792,
       65039
     ],
-    "description": "woman gesturing NO"
+    "description": "woman gesturing OK"
   },
-  "1F645_2642": {
+  "1F646_2642": {
     "codepoints": [
-      128581,
+      128582,
       8205,
       9794,
       65039
     ],
-    "description": "man gesturing NO"
+    "description": "man gesturing OK"
   },
   "1F646_1F3FB_2640": {
     "codepoints": [
@@ -5455,23 +5593,23 @@
     ],
     "description": "man gesturing OK: dark skin tone"
   },
-  "1F646_2640": {
+  "1F647_2640": {
     "codepoints": [
-      128582,
+      128583,
       8205,
       9792,
       65039
     ],
-    "description": "woman gesturing OK"
+    "description": "woman bowing"
   },
-  "1F646_2642": {
+  "1F647_2642": {
     "codepoints": [
-      128582,
+      128583,
       8205,
       9794,
       65039
     ],
-    "description": "man gesturing OK"
+    "description": "man bowing"
   },
   "1F647_1F3FB_2640": {
     "codepoints": [
@@ -5573,23 +5711,23 @@
     ],
     "description": "man bowing: dark skin tone"
   },
-  "1F647_2640": {
+  "1F64B_2640": {
     "codepoints": [
-      128583,
+      128587,
       8205,
       9792,
       65039
     ],
-    "description": "woman bowing"
+    "description": "woman raising hand"
   },
-  "1F647_2642": {
+  "1F64B_2642": {
     "codepoints": [
-      128583,
+      128587,
       8205,
       9794,
       65039
     ],
-    "description": "man bowing"
+    "description": "man raising hand"
   },
   "1F64B_1F3FB_2640": {
     "codepoints": [
@@ -5691,23 +5829,23 @@
     ],
     "description": "man raising hand: dark skin tone"
   },
-  "1F64B_2640": {
+  "1F64D_2640": {
     "codepoints": [
-      128587,
+      128589,
       8205,
       9792,
       65039
     ],
-    "description": "woman raising hand"
+    "description": "woman frowning"
   },
-  "1F64B_2642": {
+  "1F64D_2642": {
     "codepoints": [
-      128587,
+      128589,
       8205,
       9794,
       65039
     ],
-    "description": "man raising hand"
+    "description": "man frowning"
   },
   "1F64D_1F3FB_2640": {
     "codepoints": [
@@ -5809,23 +5947,23 @@
     ],
     "description": "man frowning: dark skin tone"
   },
-  "1F64D_2640": {
+  "1F64E_2640": {
     "codepoints": [
-      128589,
+      128590,
       8205,
       9792,
       65039
     ],
-    "description": "woman frowning"
+    "description": "woman pouting"
   },
-  "1F64D_2642": {
+  "1F64E_2642": {
     "codepoints": [
-      128589,
+      128590,
       8205,
       9794,
       65039
     ],
-    "description": "man frowning"
+    "description": "man pouting"
   },
   "1F64E_1F3FB_2640": {
     "codepoints": [
@@ -5927,23 +6065,23 @@
     ],
     "description": "man pouting: dark skin tone"
   },
-  "1F64E_2640": {
+  "1F6A3_2640": {
     "codepoints": [
-      128590,
+      128675,
       8205,
       9792,
       65039
     ],
-    "description": "woman pouting"
+    "description": "woman rowing boat"
   },
-  "1F64E_2642": {
+  "1F6A3_2642": {
     "codepoints": [
-      128590,
+      128675,
       8205,
       9794,
       65039
     ],
-    "description": "man pouting"
+    "description": "man rowing boat"
   },
   "1F6A3_1F3FB_2640": {
     "codepoints": [
@@ -6045,23 +6183,23 @@
     ],
     "description": "man rowing boat: dark skin tone"
   },
-  "1F6A3_2640": {
+  "1F6B4_2640": {
     "codepoints": [
-      128675,
+      128692,
       8205,
       9792,
       65039
     ],
-    "description": "woman rowing boat"
+    "description": "woman biking"
   },
-  "1F6A3_2642": {
+  "1F6B4_2642": {
     "codepoints": [
-      128675,
+      128692,
       8205,
       9794,
       65039
     ],
-    "description": "man rowing boat"
+    "description": "man biking"
   },
   "1F6B4_1F3FB_2640": {
     "codepoints": [
@@ -6163,23 +6301,23 @@
     ],
     "description": "man biking: dark skin tone"
   },
-  "1F6B4_2640": {
+  "1F6B5_2640": {
     "codepoints": [
-      128692,
+      128693,
       8205,
       9792,
       65039
     ],
-    "description": "woman biking"
+    "description": "woman mountain biking"
   },
-  "1F6B4_2642": {
+  "1F6B5_2642": {
     "codepoints": [
-      128692,
+      128693,
       8205,
       9794,
       65039
     ],
-    "description": "man biking"
+    "description": "man mountain biking"
   },
   "1F6B5_1F3FB_2640": {
     "codepoints": [
@@ -6281,23 +6419,23 @@
     ],
     "description": "man mountain biking: dark skin tone"
   },
-  "1F6B5_2640": {
+  "1F6B6_2640": {
     "codepoints": [
-      128693,
+      128694,
       8205,
       9792,
       65039
     ],
-    "description": "woman mountain biking"
+    "description": "woman walking"
   },
-  "1F6B5_2642": {
+  "1F6B6_2642": {
     "codepoints": [
-      128693,
+      128694,
       8205,
       9794,
       65039
     ],
-    "description": "man mountain biking"
+    "description": "man walking"
   },
   "1F6B6_1F3FB_2640": {
     "codepoints": [
@@ -6399,23 +6537,23 @@
     ],
     "description": "man walking: dark skin tone"
   },
-  "1F6B6_2640": {
+  "1F926_2640": {
     "codepoints": [
-      128694,
+      129318,
       8205,
       9792,
       65039
     ],
-    "description": "woman walking"
+    "description": "woman facepalming"
   },
-  "1F6B6_2642": {
+  "1F926_2642": {
     "codepoints": [
-      128694,
+      129318,
       8205,
       9794,
       65039
     ],
-    "description": "man walking"
+    "description": "man facepalming"
   },
   "1F926_1F3FB_2640": {
     "codepoints": [
@@ -6517,23 +6655,23 @@
     ],
     "description": "man facepalming: dark skin tone"
   },
-  "1F926_2640": {
+  "1F937_2640": {
     "codepoints": [
-      129318,
+      129335,
       8205,
       9792,
       65039
     ],
-    "description": "woman facepalming"
+    "description": "woman shrugging"
   },
-  "1F926_2642": {
+  "1F937_2642": {
     "codepoints": [
-      129318,
+      129335,
       8205,
       9794,
       65039
     ],
-    "description": "man facepalming"
+    "description": "man shrugging"
   },
   "1F937_1F3FB_2640": {
     "codepoints": [
@@ -6635,23 +6773,23 @@
     ],
     "description": "man shrugging: dark skin tone"
   },
-  "1F937_2640": {
+  "1F938_2640": {
     "codepoints": [
-      129335,
+      129336,
       8205,
       9792,
       65039
     ],
-    "description": "woman shrugging"
+    "description": "woman cartwheeling"
   },
-  "1F937_2642": {
+  "1F938_2642": {
     "codepoints": [
-      129335,
+      129336,
       8205,
       9794,
       65039
     ],
-    "description": "man shrugging"
+    "description": "man cartwheeling"
   },
   "1F938_1F3FB_2640": {
     "codepoints": [
@@ -6753,23 +6891,23 @@
     ],
     "description": "man cartwheeling: dark skin tone"
   },
-  "1F938_2640": {
+  "1F939_2640": {
     "codepoints": [
-      129336,
+      129337,
       8205,
       9792,
       65039
     ],
-    "description": "woman cartwheeling"
+    "description": "woman juggling"
   },
-  "1F938_2642": {
+  "1F939_2642": {
     "codepoints": [
-      129336,
+      129337,
       8205,
       9794,
       65039
     ],
-    "description": "man cartwheeling"
+    "description": "man juggling"
   },
   "1F939_1F3FB_2640": {
     "codepoints": [
@@ -6871,24 +7009,6 @@
     ],
     "description": "man juggling: dark skin tone"
   },
-  "1F939_2640": {
-    "codepoints": [
-      129337,
-      8205,
-      9792,
-      65039
-    ],
-    "description": "woman juggling"
-  },
-  "1F939_2642": {
-    "codepoints": [
-      129337,
-      8205,
-      9794,
-      65039
-    ],
-    "description": "man juggling"
-  },
   "1F93C_2640": {
     "codepoints": [
       129340,
@@ -6906,6 +7026,24 @@
       65039
     ],
     "description": "men wrestling"
+  },
+  "1F93D_2640": {
+    "codepoints": [
+      129341,
+      8205,
+      9792,
+      65039
+    ],
+    "description": "woman playing water polo"
+  },
+  "1F93D_2642": {
+    "codepoints": [
+      129341,
+      8205,
+      9794,
+      65039
+    ],
+    "description": "man playing water polo"
   },
   "1F93D_1F3FB_2640": {
     "codepoints": [
@@ -7007,23 +7145,23 @@
     ],
     "description": "man playing water polo: dark skin tone"
   },
-  "1F93D_2640": {
+  "1F93E_2640": {
     "codepoints": [
-      129341,
+      129342,
       8205,
       9792,
       65039
     ],
-    "description": "woman playing water polo"
+    "description": "woman playing handball"
   },
-  "1F93D_2642": {
+  "1F93E_2642": {
     "codepoints": [
-      129341,
+      129342,
       8205,
       9794,
       65039
     ],
-    "description": "man playing water polo"
+    "description": "man playing handball"
   },
   "1F93E_1F3FB_2640": {
     "codepoints": [
@@ -7125,23 +7263,23 @@
     ],
     "description": "man playing handball: dark skin tone"
   },
-  "1F93E_2640": {
+  "1F9B8_2640": {
     "codepoints": [
-      129342,
+      129464,
       8205,
       9792,
       65039
     ],
-    "description": "woman playing handball"
+    "description": "woman superhero"
   },
-  "1F93E_2642": {
+  "1F9B8_2642": {
     "codepoints": [
-      129342,
+      129464,
       8205,
       9794,
       65039
     ],
-    "description": "man playing handball"
+    "description": "man superhero"
   },
   "1F9B8_1F3FB_2640": {
     "codepoints": [
@@ -7243,23 +7381,23 @@
     ],
     "description": "man superhero: dark skin tone"
   },
-  "1F9B8_2640": {
+  "1F9B9_2640": {
     "codepoints": [
-      129464,
+      129465,
       8205,
       9792,
       65039
     ],
-    "description": "woman superhero"
+    "description": "woman supervillain"
   },
-  "1F9B8_2642": {
+  "1F9B9_2642": {
     "codepoints": [
-      129464,
+      129465,
       8205,
       9794,
       65039
     ],
-    "description": "man superhero"
+    "description": "man supervillain"
   },
   "1F9B9_1F3FB_2640": {
     "codepoints": [
@@ -7361,23 +7499,23 @@
     ],
     "description": "man supervillain: dark skin tone"
   },
-  "1F9B9_2640": {
+  "1F9CD_2640": {
     "codepoints": [
-      129465,
+      129485,
       8205,
       9792,
       65039
     ],
-    "description": "woman supervillain"
+    "description": "woman standing"
   },
-  "1F9B9_2642": {
+  "1F9CD_2642": {
     "codepoints": [
-      129465,
+      129485,
       8205,
       9794,
       65039
     ],
-    "description": "man supervillain"
+    "description": "man standing"
   },
   "1F9CD_1F3FB_2640": {
     "codepoints": [
@@ -7479,23 +7617,23 @@
     ],
     "description": "man standing: dark skin tone"
   },
-  "1F9CD_2640": {
+  "1F9CE_2640": {
     "codepoints": [
-      129485,
+      129486,
       8205,
       9792,
       65039
     ],
-    "description": "woman standing"
+    "description": "woman kneeling"
   },
-  "1F9CD_2642": {
+  "1F9CE_2642": {
     "codepoints": [
-      129485,
+      129486,
       8205,
       9794,
       65039
     ],
-    "description": "man standing"
+    "description": "man kneeling"
   },
   "1F9CE_1F3FB_2640": {
     "codepoints": [
@@ -7597,23 +7735,23 @@
     ],
     "description": "man kneeling: dark skin tone"
   },
-  "1F9CE_2640": {
+  "1F9CF_2640": {
     "codepoints": [
-      129486,
+      129487,
       8205,
       9792,
       65039
     ],
-    "description": "woman kneeling"
+    "description": "deaf woman"
   },
-  "1F9CE_2642": {
+  "1F9CF_2642": {
     "codepoints": [
-      129486,
+      129487,
       8205,
       9794,
       65039
     ],
-    "description": "man kneeling"
+    "description": "deaf man"
   },
   "1F9CF_1F3FB_2640": {
     "codepoints": [
@@ -7715,23 +7853,32 @@
     ],
     "description": "deaf man: dark skin tone"
   },
-  "1F9CF_2640": {
+  "1F9D1_2695": {
     "codepoints": [
-      129487,
+      129489,
       8205,
-      9792,
+      9877,
       65039
     ],
-    "description": "deaf woman"
+    "description": "health worker"
   },
-  "1F9CF_2642": {
+  "1F9D1_2696": {
     "codepoints": [
-      129487,
+      129489,
       8205,
-      9794,
+      9878,
       65039
     ],
-    "description": "deaf man"
+    "description": "judge"
+  },
+  "1F9D1_2708": {
+    "codepoints": [
+      129489,
+      8205,
+      9992,
+      65039
+    ],
+    "description": "pilot"
   },
   "1F9D1_1F33E": {
     "codepoints": [
@@ -7788,6 +7935,150 @@
       127981
     ],
     "description": "factory worker"
+  },
+  "1F9D1_1F4BB": {
+    "codepoints": [
+      129489,
+      8205,
+      128187
+    ],
+    "description": "technologist"
+  },
+  "1F9D1_1F4BC": {
+    "codepoints": [
+      129489,
+      8205,
+      128188
+    ],
+    "description": "office worker"
+  },
+  "1F9D1_1F527": {
+    "codepoints": [
+      129489,
+      8205,
+      128295
+    ],
+    "description": "mechanic"
+  },
+  "1F9D1_1F52C": {
+    "codepoints": [
+      129489,
+      8205,
+      128300
+    ],
+    "description": "scientist"
+  },
+  "1F9D1_1F680": {
+    "codepoints": [
+      129489,
+      8205,
+      128640
+    ],
+    "description": "astronaut"
+  },
+  "1F9D1_1F692": {
+    "codepoints": [
+      129489,
+      8205,
+      128658
+    ],
+    "description": "firefighter"
+  },
+  "1F9D1_1F91D_1F9D1": {
+    "codepoints": [
+      129489,
+      8205,
+      129309,
+      8205,
+      129489
+    ],
+    "description": "people holding hands"
+  },
+  "1F9D1_1F9AF": {
+    "codepoints": [
+      129489,
+      8205,
+      129455
+    ],
+    "description": "person with probing cane"
+  },
+  "1F9D1_1F9B0": {
+    "codepoints": [
+      129489,
+      8205,
+      129456
+    ],
+    "description": "person: red hair"
+  },
+  "1F9D1_1F9B1": {
+    "codepoints": [
+      129489,
+      8205,
+      129457
+    ],
+    "description": "person: curly hair"
+  },
+  "1F9D1_1F9B2": {
+    "codepoints": [
+      129489,
+      8205,
+      129458
+    ],
+    "description": "person: bald"
+  },
+  "1F9D1_1F9B3": {
+    "codepoints": [
+      129489,
+      8205,
+      129459
+    ],
+    "description": "person: white hair"
+  },
+  "1F9D1_1F9BC": {
+    "codepoints": [
+      129489,
+      8205,
+      129468
+    ],
+    "description": "person in motorized wheelchair"
+  },
+  "1F9D1_1F9BD": {
+    "codepoints": [
+      129489,
+      8205,
+      129469
+    ],
+    "description": "person in manual wheelchair"
+  },
+  "1F9D1_1F3FB_2695": {
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      9877,
+      65039
+    ],
+    "description": "health worker: light skin tone"
+  },
+  "1F9D1_1F3FB_2696": {
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      9878,
+      65039
+    ],
+    "description": "judge: light skin tone"
+  },
+  "1F9D1_1F3FB_2708": {
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      9992,
+      65039
+    ],
+    "description": "pilot: light skin tone"
   },
   "1F9D1_1F3FB_1F33E": {
     "codepoints": [
@@ -8029,35 +8320,35 @@
     ],
     "description": "person in manual wheelchair: light skin tone"
   },
-  "1F9D1_1F3FB_2695": {
+  "1F9D1_1F3FC_2695": {
     "codepoints": [
       129489,
-      127995,
+      127996,
       8205,
       9877,
       65039
     ],
-    "description": "health worker: light skin tone"
+    "description": "health worker: medium-light skin tone"
   },
-  "1F9D1_1F3FB_2696": {
+  "1F9D1_1F3FC_2696": {
     "codepoints": [
       129489,
-      127995,
+      127996,
       8205,
       9878,
       65039
     ],
-    "description": "judge: light skin tone"
+    "description": "judge: medium-light skin tone"
   },
-  "1F9D1_1F3FB_2708": {
+  "1F9D1_1F3FC_2708": {
     "codepoints": [
       129489,
-      127995,
+      127996,
       8205,
       9992,
       65039
     ],
-    "description": "pilot: light skin tone"
+    "description": "pilot: medium-light skin tone"
   },
   "1F9D1_1F3FC_1F33E": {
     "codepoints": [
@@ -8299,35 +8590,35 @@
     ],
     "description": "person in manual wheelchair: medium-light skin tone"
   },
-  "1F9D1_1F3FC_2695": {
+  "1F9D1_1F3FD_2695": {
     "codepoints": [
       129489,
-      127996,
+      127997,
       8205,
       9877,
       65039
     ],
-    "description": "health worker: medium-light skin tone"
+    "description": "health worker: medium skin tone"
   },
-  "1F9D1_1F3FC_2696": {
+  "1F9D1_1F3FD_2696": {
     "codepoints": [
       129489,
-      127996,
+      127997,
       8205,
       9878,
       65039
     ],
-    "description": "judge: medium-light skin tone"
+    "description": "judge: medium skin tone"
   },
-  "1F9D1_1F3FC_2708": {
+  "1F9D1_1F3FD_2708": {
     "codepoints": [
       129489,
-      127996,
+      127997,
       8205,
       9992,
       65039
     ],
-    "description": "pilot: medium-light skin tone"
+    "description": "pilot: medium skin tone"
   },
   "1F9D1_1F3FD_1F33E": {
     "codepoints": [
@@ -8569,35 +8860,35 @@
     ],
     "description": "person in manual wheelchair: medium skin tone"
   },
-  "1F9D1_1F3FD_2695": {
+  "1F9D1_1F3FE_2695": {
     "codepoints": [
       129489,
-      127997,
+      127998,
       8205,
       9877,
       65039
     ],
-    "description": "health worker: medium skin tone"
+    "description": "health worker: medium-dark skin tone"
   },
-  "1F9D1_1F3FD_2696": {
+  "1F9D1_1F3FE_2696": {
     "codepoints": [
       129489,
-      127997,
+      127998,
       8205,
       9878,
       65039
     ],
-    "description": "judge: medium skin tone"
+    "description": "judge: medium-dark skin tone"
   },
-  "1F9D1_1F3FD_2708": {
+  "1F9D1_1F3FE_2708": {
     "codepoints": [
       129489,
-      127997,
+      127998,
       8205,
       9992,
       65039
     ],
-    "description": "pilot: medium skin tone"
+    "description": "pilot: medium-dark skin tone"
   },
   "1F9D1_1F3FE_1F33E": {
     "codepoints": [
@@ -8839,35 +9130,35 @@
     ],
     "description": "person in manual wheelchair: medium-dark skin tone"
   },
-  "1F9D1_1F3FE_2695": {
+  "1F9D1_1F3FF_2695": {
     "codepoints": [
       129489,
-      127998,
+      127999,
       8205,
       9877,
       65039
     ],
-    "description": "health worker: medium-dark skin tone"
+    "description": "health worker: dark skin tone"
   },
-  "1F9D1_1F3FE_2696": {
+  "1F9D1_1F3FF_2696": {
     "codepoints": [
       129489,
-      127998,
+      127999,
       8205,
       9878,
       65039
     ],
-    "description": "judge: medium-dark skin tone"
+    "description": "judge: dark skin tone"
   },
-  "1F9D1_1F3FE_2708": {
+  "1F9D1_1F3FF_2708": {
     "codepoints": [
       129489,
-      127998,
+      127999,
       8205,
       9992,
       65039
     ],
-    "description": "pilot: medium-dark skin tone"
+    "description": "pilot: dark skin tone"
   },
   "1F9D1_1F3FF_1F33E": {
     "codepoints": [
@@ -9109,176 +9400,23 @@
     ],
     "description": "person in manual wheelchair: dark skin tone"
   },
-  "1F9D1_1F3FF_2695": {
+  "1F9D6_2640": {
     "codepoints": [
-      129489,
-      127999,
+      129494,
       8205,
-      9877,
+      9792,
       65039
     ],
-    "description": "health worker: dark skin tone"
+    "description": "woman in steamy room"
   },
-  "1F9D1_1F3FF_2696": {
+  "1F9D6_2642": {
     "codepoints": [
-      129489,
-      127999,
+      129494,
       8205,
-      9878,
+      9794,
       65039
     ],
-    "description": "judge: dark skin tone"
-  },
-  "1F9D1_1F3FF_2708": {
-    "codepoints": [
-      129489,
-      127999,
-      8205,
-      9992,
-      65039
-    ],
-    "description": "pilot: dark skin tone"
-  },
-  "1F9D1_1F4BB": {
-    "codepoints": [
-      129489,
-      8205,
-      128187
-    ],
-    "description": "technologist"
-  },
-  "1F9D1_1F4BC": {
-    "codepoints": [
-      129489,
-      8205,
-      128188
-    ],
-    "description": "office worker"
-  },
-  "1F9D1_1F527": {
-    "codepoints": [
-      129489,
-      8205,
-      128295
-    ],
-    "description": "mechanic"
-  },
-  "1F9D1_1F52C": {
-    "codepoints": [
-      129489,
-      8205,
-      128300
-    ],
-    "description": "scientist"
-  },
-  "1F9D1_1F680": {
-    "codepoints": [
-      129489,
-      8205,
-      128640
-    ],
-    "description": "astronaut"
-  },
-  "1F9D1_1F692": {
-    "codepoints": [
-      129489,
-      8205,
-      128658
-    ],
-    "description": "firefighter"
-  },
-  "1F9D1_1F91D_1F9D1": {
-    "codepoints": [
-      129489,
-      8205,
-      129309,
-      8205,
-      129489
-    ],
-    "description": "people holding hands"
-  },
-  "1F9D1_1F9AF": {
-    "codepoints": [
-      129489,
-      8205,
-      129455
-    ],
-    "description": "person with probing cane"
-  },
-  "1F9D1_1F9B0": {
-    "codepoints": [
-      129489,
-      8205,
-      129456
-    ],
-    "description": "person: red hair"
-  },
-  "1F9D1_1F9B1": {
-    "codepoints": [
-      129489,
-      8205,
-      129457
-    ],
-    "description": "person: curly hair"
-  },
-  "1F9D1_1F9B2": {
-    "codepoints": [
-      129489,
-      8205,
-      129458
-    ],
-    "description": "person: bald"
-  },
-  "1F9D1_1F9B3": {
-    "codepoints": [
-      129489,
-      8205,
-      129459
-    ],
-    "description": "person: white hair"
-  },
-  "1F9D1_1F9BC": {
-    "codepoints": [
-      129489,
-      8205,
-      129468
-    ],
-    "description": "person in motorized wheelchair"
-  },
-  "1F9D1_1F9BD": {
-    "codepoints": [
-      129489,
-      8205,
-      129469
-    ],
-    "description": "person in manual wheelchair"
-  },
-  "1F9D1_2695": {
-    "codepoints": [
-      129489,
-      8205,
-      9877,
-      65039
-    ],
-    "description": "health worker"
-  },
-  "1F9D1_2696": {
-    "codepoints": [
-      129489,
-      8205,
-      9878,
-      65039
-    ],
-    "description": "judge"
-  },
-  "1F9D1_2708": {
-    "codepoints": [
-      129489,
-      8205,
-      9992,
-      65039
-    ],
-    "description": "pilot"
+    "description": "man in steamy room"
   },
   "1F9D6_1F3FB_2640": {
     "codepoints": [
@@ -9380,23 +9518,23 @@
     ],
     "description": "man in steamy room: dark skin tone"
   },
-  "1F9D6_2640": {
+  "1F9D7_2640": {
     "codepoints": [
-      129494,
+      129495,
       8205,
       9792,
       65039
     ],
-    "description": "woman in steamy room"
+    "description": "woman climbing"
   },
-  "1F9D6_2642": {
+  "1F9D7_2642": {
     "codepoints": [
-      129494,
+      129495,
       8205,
       9794,
       65039
     ],
-    "description": "man in steamy room"
+    "description": "man climbing"
   },
   "1F9D7_1F3FB_2640": {
     "codepoints": [
@@ -9498,23 +9636,23 @@
     ],
     "description": "man climbing: dark skin tone"
   },
-  "1F9D7_2640": {
+  "1F9D8_2640": {
     "codepoints": [
-      129495,
+      129496,
       8205,
       9792,
       65039
     ],
-    "description": "woman climbing"
+    "description": "woman in lotus position"
   },
-  "1F9D7_2642": {
+  "1F9D8_2642": {
     "codepoints": [
-      129495,
+      129496,
       8205,
       9794,
       65039
     ],
-    "description": "man climbing"
+    "description": "man in lotus position"
   },
   "1F9D8_1F3FB_2640": {
     "codepoints": [
@@ -9616,23 +9754,23 @@
     ],
     "description": "man in lotus position: dark skin tone"
   },
-  "1F9D8_2640": {
+  "1F9D9_2640": {
     "codepoints": [
-      129496,
+      129497,
       8205,
       9792,
       65039
     ],
-    "description": "woman in lotus position"
+    "description": "woman mage"
   },
-  "1F9D8_2642": {
+  "1F9D9_2642": {
     "codepoints": [
-      129496,
+      129497,
       8205,
       9794,
       65039
     ],
-    "description": "man in lotus position"
+    "description": "man mage"
   },
   "1F9D9_1F3FB_2640": {
     "codepoints": [
@@ -9734,23 +9872,23 @@
     ],
     "description": "man mage: dark skin tone"
   },
-  "1F9D9_2640": {
+  "1F9DA_2640": {
     "codepoints": [
-      129497,
+      129498,
       8205,
       9792,
       65039
     ],
-    "description": "woman mage"
+    "description": "woman fairy"
   },
-  "1F9D9_2642": {
+  "1F9DA_2642": {
     "codepoints": [
-      129497,
+      129498,
       8205,
       9794,
       65039
     ],
-    "description": "man mage"
+    "description": "man fairy"
   },
   "1F9DA_1F3FB_2640": {
     "codepoints": [
@@ -9852,23 +9990,23 @@
     ],
     "description": "man fairy: dark skin tone"
   },
-  "1F9DA_2640": {
+  "1F9DB_2640": {
     "codepoints": [
-      129498,
+      129499,
       8205,
       9792,
       65039
     ],
-    "description": "woman fairy"
+    "description": "woman vampire"
   },
-  "1F9DA_2642": {
+  "1F9DB_2642": {
     "codepoints": [
-      129498,
+      129499,
       8205,
       9794,
       65039
     ],
-    "description": "man fairy"
+    "description": "man vampire"
   },
   "1F9DB_1F3FB_2640": {
     "codepoints": [
@@ -9970,23 +10108,23 @@
     ],
     "description": "man vampire: dark skin tone"
   },
-  "1F9DB_2640": {
+  "1F9DC_2640": {
     "codepoints": [
-      129499,
+      129500,
       8205,
       9792,
       65039
     ],
-    "description": "woman vampire"
+    "description": "mermaid"
   },
-  "1F9DB_2642": {
+  "1F9DC_2642": {
     "codepoints": [
-      129499,
+      129500,
       8205,
       9794,
       65039
     ],
-    "description": "man vampire"
+    "description": "merman"
   },
   "1F9DC_1F3FB_2640": {
     "codepoints": [
@@ -10088,23 +10226,23 @@
     ],
     "description": "merman: dark skin tone"
   },
-  "1F9DC_2640": {
+  "1F9DD_2640": {
     "codepoints": [
-      129500,
+      129501,
       8205,
       9792,
       65039
     ],
-    "description": "mermaid"
+    "description": "woman elf"
   },
-  "1F9DC_2642": {
+  "1F9DD_2642": {
     "codepoints": [
-      129500,
+      129501,
       8205,
       9794,
       65039
     ],
-    "description": "merman"
+    "description": "man elf"
   },
   "1F9DD_1F3FB_2640": {
     "codepoints": [
@@ -10206,24 +10344,6 @@
     ],
     "description": "man elf: dark skin tone"
   },
-  "1F9DD_2640": {
-    "codepoints": [
-      129501,
-      8205,
-      9792,
-      65039
-    ],
-    "description": "woman elf"
-  },
-  "1F9DD_2642": {
-    "codepoints": [
-      129501,
-      8205,
-      9794,
-      65039
-    ],
-    "description": "man elf"
-  },
   "1F9DE_2640": {
     "codepoints": [
       129502,
@@ -10259,125 +10379,5 @@
       65039
     ],
     "description": "man zombie"
-  },
-  "26F9_1F3FB_2640": {
-    "codepoints": [
-      9977,
-      127995,
-      8205,
-      9792,
-      65039
-    ],
-    "description": "woman bouncing ball: light skin tone"
-  },
-  "26F9_1F3FB_2642": {
-    "codepoints": [
-      9977,
-      127995,
-      8205,
-      9794,
-      65039
-    ],
-    "description": "man bouncing ball: light skin tone"
-  },
-  "26F9_1F3FC_2640": {
-    "codepoints": [
-      9977,
-      127996,
-      8205,
-      9792,
-      65039
-    ],
-    "description": "woman bouncing ball: medium-light skin tone"
-  },
-  "26F9_1F3FC_2642": {
-    "codepoints": [
-      9977,
-      127996,
-      8205,
-      9794,
-      65039
-    ],
-    "description": "man bouncing ball: medium-light skin tone"
-  },
-  "26F9_1F3FD_2640": {
-    "codepoints": [
-      9977,
-      127997,
-      8205,
-      9792,
-      65039
-    ],
-    "description": "woman bouncing ball: medium skin tone"
-  },
-  "26F9_1F3FD_2642": {
-    "codepoints": [
-      9977,
-      127997,
-      8205,
-      9794,
-      65039
-    ],
-    "description": "man bouncing ball: medium skin tone"
-  },
-  "26F9_1F3FE_2640": {
-    "codepoints": [
-      9977,
-      127998,
-      8205,
-      9792,
-      65039
-    ],
-    "description": "woman bouncing ball: medium-dark skin tone"
-  },
-  "26F9_1F3FE_2642": {
-    "codepoints": [
-      9977,
-      127998,
-      8205,
-      9794,
-      65039
-    ],
-    "description": "man bouncing ball: medium-dark skin tone"
-  },
-  "26F9_1F3FF_2640": {
-    "codepoints": [
-      9977,
-      127999,
-      8205,
-      9792,
-      65039
-    ],
-    "description": "woman bouncing ball: dark skin tone"
-  },
-  "26F9_1F3FF_2642": {
-    "codepoints": [
-      9977,
-      127999,
-      8205,
-      9794,
-      65039
-    ],
-    "description": "man bouncing ball: dark skin tone"
-  },
-  "26F9_2640": {
-    "codepoints": [
-      9977,
-      65039,
-      8205,
-      9792,
-      65039
-    ],
-    "description": "woman bouncing ball"
-  },
-  "26F9_2642": {
-    "codepoints": [
-      9977,
-      65039,
-      8205,
-      9794,
-      65039
-    ],
-    "description": "man bouncing ball"
   }
 }

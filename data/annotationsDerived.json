@@ -131,6 +131,601 @@
     ],
     "name": "keycap: 9"
   },
+  "261D_1F3FB": {
+    "char": "☝🏻",
+    "codepoints": [
+      9757,
+      127995
+    ],
+    "keywords": [
+      "finger",
+      "hand",
+      "index",
+      "index pointing up",
+      "light skin tone",
+      "point",
+      "up"
+    ],
+    "name": "index pointing up: light skin tone"
+  },
+  "261D_1F3FC": {
+    "char": "☝🏼",
+    "codepoints": [
+      9757,
+      127996
+    ],
+    "keywords": [
+      "finger",
+      "hand",
+      "index",
+      "index pointing up",
+      "medium-light skin tone",
+      "point",
+      "up"
+    ],
+    "name": "index pointing up: medium-light skin tone"
+  },
+  "261D_1F3FD": {
+    "char": "☝🏽",
+    "codepoints": [
+      9757,
+      127997
+    ],
+    "keywords": [
+      "finger",
+      "hand",
+      "index",
+      "index pointing up",
+      "medium skin tone",
+      "point",
+      "up"
+    ],
+    "name": "index pointing up: medium skin tone"
+  },
+  "261D_1F3FE": {
+    "char": "☝🏾",
+    "codepoints": [
+      9757,
+      127998
+    ],
+    "keywords": [
+      "finger",
+      "hand",
+      "index",
+      "index pointing up",
+      "medium-dark skin tone",
+      "point",
+      "up"
+    ],
+    "name": "index pointing up: medium-dark skin tone"
+  },
+  "261D_1F3FF": {
+    "char": "☝🏿",
+    "codepoints": [
+      9757,
+      127999
+    ],
+    "keywords": [
+      "dark skin tone",
+      "finger",
+      "hand",
+      "index",
+      "index pointing up",
+      "point",
+      "up"
+    ],
+    "name": "index pointing up: dark skin tone"
+  },
+  "26F9_1F3FB": {
+    "char": "⛹🏻",
+    "codepoints": [
+      9977,
+      127995
+    ],
+    "keywords": [
+      "ball",
+      "light skin tone",
+      "person bouncing ball"
+    ],
+    "name": "person bouncing ball: light skin tone"
+  },
+  "26F9_1F3FB_2640": {
+    "char": "⛹🏻‍♀",
+    "codepoints": [
+      9977,
+      127995,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "ball",
+      "light skin tone",
+      "woman",
+      "woman bouncing ball"
+    ],
+    "name": "woman bouncing ball: light skin tone"
+  },
+  "26F9_1F3FB_2642": {
+    "char": "⛹🏻‍♂",
+    "codepoints": [
+      9977,
+      127995,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "ball",
+      "light skin tone",
+      "man",
+      "man bouncing ball"
+    ],
+    "name": "man bouncing ball: light skin tone"
+  },
+  "26F9_1F3FC": {
+    "char": "⛹🏼",
+    "codepoints": [
+      9977,
+      127996
+    ],
+    "keywords": [
+      "ball",
+      "medium-light skin tone",
+      "person bouncing ball"
+    ],
+    "name": "person bouncing ball: medium-light skin tone"
+  },
+  "26F9_1F3FC_2640": {
+    "char": "⛹🏼‍♀",
+    "codepoints": [
+      9977,
+      127996,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "ball",
+      "medium-light skin tone",
+      "woman",
+      "woman bouncing ball"
+    ],
+    "name": "woman bouncing ball: medium-light skin tone"
+  },
+  "26F9_1F3FC_2642": {
+    "char": "⛹🏼‍♂",
+    "codepoints": [
+      9977,
+      127996,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "ball",
+      "man",
+      "man bouncing ball",
+      "medium-light skin tone"
+    ],
+    "name": "man bouncing ball: medium-light skin tone"
+  },
+  "26F9_1F3FD": {
+    "char": "⛹🏽",
+    "codepoints": [
+      9977,
+      127997
+    ],
+    "keywords": [
+      "ball",
+      "medium skin tone",
+      "person bouncing ball"
+    ],
+    "name": "person bouncing ball: medium skin tone"
+  },
+  "26F9_1F3FD_2640": {
+    "char": "⛹🏽‍♀",
+    "codepoints": [
+      9977,
+      127997,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "ball",
+      "medium skin tone",
+      "woman",
+      "woman bouncing ball"
+    ],
+    "name": "woman bouncing ball: medium skin tone"
+  },
+  "26F9_1F3FD_2642": {
+    "char": "⛹🏽‍♂",
+    "codepoints": [
+      9977,
+      127997,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "ball",
+      "man",
+      "man bouncing ball",
+      "medium skin tone"
+    ],
+    "name": "man bouncing ball: medium skin tone"
+  },
+  "26F9_1F3FE": {
+    "char": "⛹🏾",
+    "codepoints": [
+      9977,
+      127998
+    ],
+    "keywords": [
+      "ball",
+      "medium-dark skin tone",
+      "person bouncing ball"
+    ],
+    "name": "person bouncing ball: medium-dark skin tone"
+  },
+  "26F9_1F3FE_2640": {
+    "char": "⛹🏾‍♀",
+    "codepoints": [
+      9977,
+      127998,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "ball",
+      "medium-dark skin tone",
+      "woman",
+      "woman bouncing ball"
+    ],
+    "name": "woman bouncing ball: medium-dark skin tone"
+  },
+  "26F9_1F3FE_2642": {
+    "char": "⛹🏾‍♂",
+    "codepoints": [
+      9977,
+      127998,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "ball",
+      "man",
+      "man bouncing ball",
+      "medium-dark skin tone"
+    ],
+    "name": "man bouncing ball: medium-dark skin tone"
+  },
+  "26F9_1F3FF": {
+    "char": "⛹🏿",
+    "codepoints": [
+      9977,
+      127999
+    ],
+    "keywords": [
+      "ball",
+      "dark skin tone",
+      "person bouncing ball"
+    ],
+    "name": "person bouncing ball: dark skin tone"
+  },
+  "26F9_1F3FF_2640": {
+    "char": "⛹🏿‍♀",
+    "codepoints": [
+      9977,
+      127999,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "ball",
+      "dark skin tone",
+      "woman",
+      "woman bouncing ball"
+    ],
+    "name": "woman bouncing ball: dark skin tone"
+  },
+  "26F9_1F3FF_2642": {
+    "char": "⛹🏿‍♂",
+    "codepoints": [
+      9977,
+      127999,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "ball",
+      "dark skin tone",
+      "man",
+      "man bouncing ball"
+    ],
+    "name": "man bouncing ball: dark skin tone"
+  },
+  "270A_1F3FB": {
+    "char": "✊🏻",
+    "codepoints": [
+      9994,
+      127995
+    ],
+    "keywords": [
+      "clenched",
+      "fist",
+      "hand",
+      "light skin tone",
+      "punch",
+      "raised fist"
+    ],
+    "name": "raised fist: light skin tone"
+  },
+  "270A_1F3FC": {
+    "char": "✊🏼",
+    "codepoints": [
+      9994,
+      127996
+    ],
+    "keywords": [
+      "clenched",
+      "fist",
+      "hand",
+      "medium-light skin tone",
+      "punch",
+      "raised fist"
+    ],
+    "name": "raised fist: medium-light skin tone"
+  },
+  "270A_1F3FD": {
+    "char": "✊🏽",
+    "codepoints": [
+      9994,
+      127997
+    ],
+    "keywords": [
+      "clenched",
+      "fist",
+      "hand",
+      "medium skin tone",
+      "punch",
+      "raised fist"
+    ],
+    "name": "raised fist: medium skin tone"
+  },
+  "270A_1F3FE": {
+    "char": "✊🏾",
+    "codepoints": [
+      9994,
+      127998
+    ],
+    "keywords": [
+      "clenched",
+      "fist",
+      "hand",
+      "medium-dark skin tone",
+      "punch",
+      "raised fist"
+    ],
+    "name": "raised fist: medium-dark skin tone"
+  },
+  "270A_1F3FF": {
+    "char": "✊🏿",
+    "codepoints": [
+      9994,
+      127999
+    ],
+    "keywords": [
+      "clenched",
+      "dark skin tone",
+      "fist",
+      "hand",
+      "punch",
+      "raised fist"
+    ],
+    "name": "raised fist: dark skin tone"
+  },
+  "270B_1F3FB": {
+    "char": "✋🏻",
+    "codepoints": [
+      9995,
+      127995
+    ],
+    "keywords": [
+      "hand",
+      "light skin tone",
+      "raised hand"
+    ],
+    "name": "raised hand: light skin tone"
+  },
+  "270B_1F3FC": {
+    "char": "✋🏼",
+    "codepoints": [
+      9995,
+      127996
+    ],
+    "keywords": [
+      "hand",
+      "medium-light skin tone",
+      "raised hand"
+    ],
+    "name": "raised hand: medium-light skin tone"
+  },
+  "270B_1F3FD": {
+    "char": "✋🏽",
+    "codepoints": [
+      9995,
+      127997
+    ],
+    "keywords": [
+      "hand",
+      "medium skin tone",
+      "raised hand"
+    ],
+    "name": "raised hand: medium skin tone"
+  },
+  "270B_1F3FE": {
+    "char": "✋🏾",
+    "codepoints": [
+      9995,
+      127998
+    ],
+    "keywords": [
+      "hand",
+      "medium-dark skin tone",
+      "raised hand"
+    ],
+    "name": "raised hand: medium-dark skin tone"
+  },
+  "270B_1F3FF": {
+    "char": "✋🏿",
+    "codepoints": [
+      9995,
+      127999
+    ],
+    "keywords": [
+      "dark skin tone",
+      "hand",
+      "raised hand"
+    ],
+    "name": "raised hand: dark skin tone"
+  },
+  "270C_1F3FB": {
+    "char": "✌🏻",
+    "codepoints": [
+      9996,
+      127995
+    ],
+    "keywords": [
+      "hand",
+      "light skin tone",
+      "v",
+      "victory"
+    ],
+    "name": "victory hand: light skin tone"
+  },
+  "270C_1F3FC": {
+    "char": "✌🏼",
+    "codepoints": [
+      9996,
+      127996
+    ],
+    "keywords": [
+      "hand",
+      "medium-light skin tone",
+      "v",
+      "victory"
+    ],
+    "name": "victory hand: medium-light skin tone"
+  },
+  "270C_1F3FD": {
+    "char": "✌🏽",
+    "codepoints": [
+      9996,
+      127997
+    ],
+    "keywords": [
+      "hand",
+      "medium skin tone",
+      "v",
+      "victory"
+    ],
+    "name": "victory hand: medium skin tone"
+  },
+  "270C_1F3FE": {
+    "char": "✌🏾",
+    "codepoints": [
+      9996,
+      127998
+    ],
+    "keywords": [
+      "hand",
+      "medium-dark skin tone",
+      "v",
+      "victory"
+    ],
+    "name": "victory hand: medium-dark skin tone"
+  },
+  "270C_1F3FF": {
+    "char": "✌🏿",
+    "codepoints": [
+      9996,
+      127999
+    ],
+    "keywords": [
+      "dark skin tone",
+      "hand",
+      "v",
+      "victory"
+    ],
+    "name": "victory hand: dark skin tone"
+  },
+  "270D_1F3FB": {
+    "char": "✍🏻",
+    "codepoints": [
+      9997,
+      127995
+    ],
+    "keywords": [
+      "hand",
+      "light skin tone",
+      "write",
+      "writing hand"
+    ],
+    "name": "writing hand: light skin tone"
+  },
+  "270D_1F3FC": {
+    "char": "✍🏼",
+    "codepoints": [
+      9997,
+      127996
+    ],
+    "keywords": [
+      "hand",
+      "medium-light skin tone",
+      "write",
+      "writing hand"
+    ],
+    "name": "writing hand: medium-light skin tone"
+  },
+  "270D_1F3FD": {
+    "char": "✍🏽",
+    "codepoints": [
+      9997,
+      127997
+    ],
+    "keywords": [
+      "hand",
+      "medium skin tone",
+      "write",
+      "writing hand"
+    ],
+    "name": "writing hand: medium skin tone"
+  },
+  "270D_1F3FE": {
+    "char": "✍🏾",
+    "codepoints": [
+      9997,
+      127998
+    ],
+    "keywords": [
+      "hand",
+      "medium-dark skin tone",
+      "write",
+      "writing hand"
+    ],
+    "name": "writing hand: medium-dark skin tone"
+  },
+  "270D_1F3FF": {
+    "char": "✍🏿",
+    "codepoints": [
+      9997,
+      127999
+    ],
+    "keywords": [
+      "dark skin tone",
+      "hand",
+      "write",
+      "writing hand"
+    ],
+    "name": "writing hand: dark skin tone"
+  },
   "1F1E6_1F1E8": {
     "char": "🇦🇨",
     "codepoints": [
@@ -5517,6 +6112,353 @@
     ],
     "name": "girl: dark skin tone"
   },
+  "1F491.MM": {
+    "char": "👨‍❤‍👨",
+    "codepoints": [
+      128104,
+      8205,
+      10084,
+      8205,
+      128104
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "man"
+    ],
+    "name": "couple with heart: man, man"
+  },
+  "1F48F.MM": {
+    "char": "👨‍❤‍💋‍👨",
+    "codepoints": [
+      128104,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "man"
+    ],
+    "name": "kiss: man, man"
+  },
+  "1F46A.MB": {
+    "char": "👨‍👦",
+    "codepoints": [
+      128104,
+      8205,
+      128102
+    ],
+    "keywords": [
+      "boy",
+      "family",
+      "man"
+    ],
+    "name": "family: man, boy"
+  },
+  "1F46A.MBB": {
+    "char": "👨‍👦‍👦",
+    "codepoints": [
+      128104,
+      8205,
+      128102,
+      8205,
+      128102
+    ],
+    "keywords": [
+      "boy",
+      "family",
+      "man"
+    ],
+    "name": "family: man, boy, boy"
+  },
+  "1F46A.MG": {
+    "char": "👨‍👧",
+    "codepoints": [
+      128104,
+      8205,
+      128103
+    ],
+    "keywords": [
+      "family",
+      "girl",
+      "man"
+    ],
+    "name": "family: man, girl"
+  },
+  "1F46A.MGB": {
+    "char": "👨‍👧‍👦",
+    "codepoints": [
+      128104,
+      8205,
+      128103,
+      8205,
+      128102
+    ],
+    "keywords": [
+      "boy",
+      "family",
+      "girl",
+      "man"
+    ],
+    "name": "family: man, girl, boy"
+  },
+  "1F46A.MGG": {
+    "char": "👨‍👧‍👧",
+    "codepoints": [
+      128104,
+      8205,
+      128103,
+      8205,
+      128103
+    ],
+    "keywords": [
+      "family",
+      "girl",
+      "man"
+    ],
+    "name": "family: man, girl, girl"
+  },
+  "1F46A.MMB": {
+    "char": "👨‍👨‍👦",
+    "codepoints": [
+      128104,
+      8205,
+      128104,
+      8205,
+      128102
+    ],
+    "keywords": [
+      "boy",
+      "family",
+      "man"
+    ],
+    "name": "family: man, man, boy"
+  },
+  "1F46A.MMBB": {
+    "char": "👨‍👨‍👦‍👦",
+    "codepoints": [
+      128104,
+      8205,
+      128104,
+      8205,
+      128102,
+      8205,
+      128102
+    ],
+    "keywords": [
+      "boy",
+      "family",
+      "man"
+    ],
+    "name": "family: man, man, boy, boy"
+  },
+  "1F46A.MMG": {
+    "char": "👨‍👨‍👧",
+    "codepoints": [
+      128104,
+      8205,
+      128104,
+      8205,
+      128103
+    ],
+    "keywords": [
+      "family",
+      "girl",
+      "man"
+    ],
+    "name": "family: man, man, girl"
+  },
+  "1F46A.MMGB": {
+    "char": "👨‍👨‍👧‍👦",
+    "codepoints": [
+      128104,
+      8205,
+      128104,
+      8205,
+      128103,
+      8205,
+      128102
+    ],
+    "keywords": [
+      "boy",
+      "family",
+      "girl",
+      "man"
+    ],
+    "name": "family: man, man, girl, boy"
+  },
+  "1F46A.MMGG": {
+    "char": "👨‍👨‍👧‍👧",
+    "codepoints": [
+      128104,
+      8205,
+      128104,
+      8205,
+      128103,
+      8205,
+      128103
+    ],
+    "keywords": [
+      "family",
+      "girl",
+      "man"
+    ],
+    "name": "family: man, man, girl, girl"
+  },
+  "1F46A.MWB": {
+    "char": "👨‍👩‍👦",
+    "codepoints": [
+      128104,
+      8205,
+      128105,
+      8205,
+      128102
+    ],
+    "keywords": [
+      "boy",
+      "family",
+      "man",
+      "woman"
+    ],
+    "name": "family: man, woman, boy"
+  },
+  "1F46A.MWBB": {
+    "char": "👨‍👩‍👦‍👦",
+    "codepoints": [
+      128104,
+      8205,
+      128105,
+      8205,
+      128102,
+      8205,
+      128102
+    ],
+    "keywords": [
+      "boy",
+      "family",
+      "man",
+      "woman"
+    ],
+    "name": "family: man, woman, boy, boy"
+  },
+  "1F46A.MWG": {
+    "char": "👨‍👩‍👧",
+    "codepoints": [
+      128104,
+      8205,
+      128105,
+      8205,
+      128103
+    ],
+    "keywords": [
+      "family",
+      "girl",
+      "man",
+      "woman"
+    ],
+    "name": "family: man, woman, girl"
+  },
+  "1F46A.MWGB": {
+    "char": "👨‍👩‍👧‍👦",
+    "codepoints": [
+      128104,
+      8205,
+      128105,
+      8205,
+      128103,
+      8205,
+      128102
+    ],
+    "keywords": [
+      "boy",
+      "family",
+      "girl",
+      "man",
+      "woman"
+    ],
+    "name": "family: man, woman, girl, boy"
+  },
+  "1F46A.MWGG": {
+    "char": "👨‍👩‍👧‍👧",
+    "codepoints": [
+      128104,
+      8205,
+      128105,
+      8205,
+      128103,
+      8205,
+      128103
+    ],
+    "keywords": [
+      "family",
+      "girl",
+      "man",
+      "woman"
+    ],
+    "name": "family: man, woman, girl, girl"
+  },
+  "1F468_1F9B0": {
+    "char": "👨‍🦰",
+    "codepoints": [
+      128104,
+      8205,
+      129456
+    ],
+    "keywords": [
+      "adult",
+      "man",
+      "red hair"
+    ],
+    "name": "man: red hair"
+  },
+  "1F468_1F9B1": {
+    "char": "👨‍🦱",
+    "codepoints": [
+      128104,
+      8205,
+      129457
+    ],
+    "keywords": [
+      "adult",
+      "curly hair",
+      "man"
+    ],
+    "name": "man: curly hair"
+  },
+  "1F468_1F9B2": {
+    "char": "👨‍🦲",
+    "codepoints": [
+      128104,
+      8205,
+      129458
+    ],
+    "keywords": [
+      "adult",
+      "bald",
+      "man"
+    ],
+    "name": "man: bald"
+  },
+  "1F468_1F9B3": {
+    "char": "👨‍🦳",
+    "codepoints": [
+      128104,
+      8205,
+      129459
+    ],
+    "keywords": [
+      "adult",
+      "man",
+      "white hair"
+    ],
+    "name": "man: white hair"
+  },
   "1F468_1F3FB": {
     "char": "👨🏻",
     "codepoints": [
@@ -5529,6 +6471,58 @@
       "man"
     ],
     "name": "man: light skin tone"
+  },
+  "1F468_1F3FB_2695": {
+    "char": "👨🏻‍⚕",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      9877
+    ],
+    "keywords": [
+      "doctor",
+      "healthcare",
+      "light skin tone",
+      "man",
+      "man health worker",
+      "nurse",
+      "therapist"
+    ],
+    "name": "man health worker: light skin tone"
+  },
+  "1F468_1F3FB_2696": {
+    "char": "👨🏻‍⚖",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      9878
+    ],
+    "keywords": [
+      "justice",
+      "light skin tone",
+      "man",
+      "man judge",
+      "scales"
+    ],
+    "name": "man judge: light skin tone"
+  },
+  "1F468_1F3FB_2708": {
+    "char": "👨🏻‍✈",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      9992
+    ],
+    "keywords": [
+      "light skin tone",
+      "man",
+      "pilot",
+      "plane"
+    ],
+    "name": "man pilot: light skin tone"
   },
   "1F468_1F3FB_1F33E": {
     "char": "👨🏻‍🌾",
@@ -5871,58 +6865,6 @@
     ],
     "name": "man in manual wheelchair: light skin tone"
   },
-  "1F468_1F3FB_2695": {
-    "char": "👨🏻‍⚕",
-    "codepoints": [
-      128104,
-      127995,
-      8205,
-      9877
-    ],
-    "keywords": [
-      "doctor",
-      "healthcare",
-      "light skin tone",
-      "man",
-      "man health worker",
-      "nurse",
-      "therapist"
-    ],
-    "name": "man health worker: light skin tone"
-  },
-  "1F468_1F3FB_2696": {
-    "char": "👨🏻‍⚖",
-    "codepoints": [
-      128104,
-      127995,
-      8205,
-      9878
-    ],
-    "keywords": [
-      "justice",
-      "light skin tone",
-      "man",
-      "man judge",
-      "scales"
-    ],
-    "name": "man judge: light skin tone"
-  },
-  "1F468_1F3FB_2708": {
-    "char": "👨🏻‍✈",
-    "codepoints": [
-      128104,
-      127995,
-      8205,
-      9992
-    ],
-    "keywords": [
-      "light skin tone",
-      "man",
-      "pilot",
-      "plane"
-    ],
-    "name": "man pilot: light skin tone"
-  },
   "1F468_1F3FC": {
     "char": "👨🏼",
     "codepoints": [
@@ -5935,6 +6877,58 @@
       "medium-light skin tone"
     ],
     "name": "man: medium-light skin tone"
+  },
+  "1F468_1F3FC_2695": {
+    "char": "👨🏼‍⚕",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      9877
+    ],
+    "keywords": [
+      "doctor",
+      "healthcare",
+      "man",
+      "man health worker",
+      "medium-light skin tone",
+      "nurse",
+      "therapist"
+    ],
+    "name": "man health worker: medium-light skin tone"
+  },
+  "1F468_1F3FC_2696": {
+    "char": "👨🏼‍⚖",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      9878
+    ],
+    "keywords": [
+      "justice",
+      "man",
+      "man judge",
+      "medium-light skin tone",
+      "scales"
+    ],
+    "name": "man judge: medium-light skin tone"
+  },
+  "1F468_1F3FC_2708": {
+    "char": "👨🏼‍✈",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      9992
+    ],
+    "keywords": [
+      "man",
+      "medium-light skin tone",
+      "pilot",
+      "plane"
+    ],
+    "name": "man pilot: medium-light skin tone"
   },
   "1F468_1F3FC_1F33E": {
     "char": "👨🏼‍🌾",
@@ -6302,58 +7296,6 @@
     ],
     "name": "man in manual wheelchair: medium-light skin tone"
   },
-  "1F468_1F3FC_2695": {
-    "char": "👨🏼‍⚕",
-    "codepoints": [
-      128104,
-      127996,
-      8205,
-      9877
-    ],
-    "keywords": [
-      "doctor",
-      "healthcare",
-      "man",
-      "man health worker",
-      "medium-light skin tone",
-      "nurse",
-      "therapist"
-    ],
-    "name": "man health worker: medium-light skin tone"
-  },
-  "1F468_1F3FC_2696": {
-    "char": "👨🏼‍⚖",
-    "codepoints": [
-      128104,
-      127996,
-      8205,
-      9878
-    ],
-    "keywords": [
-      "justice",
-      "man",
-      "man judge",
-      "medium-light skin tone",
-      "scales"
-    ],
-    "name": "man judge: medium-light skin tone"
-  },
-  "1F468_1F3FC_2708": {
-    "char": "👨🏼‍✈",
-    "codepoints": [
-      128104,
-      127996,
-      8205,
-      9992
-    ],
-    "keywords": [
-      "man",
-      "medium-light skin tone",
-      "pilot",
-      "plane"
-    ],
-    "name": "man pilot: medium-light skin tone"
-  },
   "1F468_1F3FD": {
     "char": "👨🏽",
     "codepoints": [
@@ -6366,6 +7308,58 @@
       "medium skin tone"
     ],
     "name": "man: medium skin tone"
+  },
+  "1F468_1F3FD_2695": {
+    "char": "👨🏽‍⚕",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      9877
+    ],
+    "keywords": [
+      "doctor",
+      "healthcare",
+      "man",
+      "man health worker",
+      "medium skin tone",
+      "nurse",
+      "therapist"
+    ],
+    "name": "man health worker: medium skin tone"
+  },
+  "1F468_1F3FD_2696": {
+    "char": "👨🏽‍⚖",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      9878
+    ],
+    "keywords": [
+      "justice",
+      "man",
+      "man judge",
+      "medium skin tone",
+      "scales"
+    ],
+    "name": "man judge: medium skin tone"
+  },
+  "1F468_1F3FD_2708": {
+    "char": "👨🏽‍✈",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      9992
+    ],
+    "keywords": [
+      "man",
+      "medium skin tone",
+      "pilot",
+      "plane"
+    ],
+    "name": "man pilot: medium skin tone"
   },
   "1F468_1F3FD_1F33E": {
     "char": "👨🏽‍🌾",
@@ -6758,58 +7752,6 @@
     ],
     "name": "man in manual wheelchair: medium skin tone"
   },
-  "1F468_1F3FD_2695": {
-    "char": "👨🏽‍⚕",
-    "codepoints": [
-      128104,
-      127997,
-      8205,
-      9877
-    ],
-    "keywords": [
-      "doctor",
-      "healthcare",
-      "man",
-      "man health worker",
-      "medium skin tone",
-      "nurse",
-      "therapist"
-    ],
-    "name": "man health worker: medium skin tone"
-  },
-  "1F468_1F3FD_2696": {
-    "char": "👨🏽‍⚖",
-    "codepoints": [
-      128104,
-      127997,
-      8205,
-      9878
-    ],
-    "keywords": [
-      "justice",
-      "man",
-      "man judge",
-      "medium skin tone",
-      "scales"
-    ],
-    "name": "man judge: medium skin tone"
-  },
-  "1F468_1F3FD_2708": {
-    "char": "👨🏽‍✈",
-    "codepoints": [
-      128104,
-      127997,
-      8205,
-      9992
-    ],
-    "keywords": [
-      "man",
-      "medium skin tone",
-      "pilot",
-      "plane"
-    ],
-    "name": "man pilot: medium skin tone"
-  },
   "1F468_1F3FE": {
     "char": "👨🏾",
     "codepoints": [
@@ -6822,6 +7764,58 @@
       "medium-dark skin tone"
     ],
     "name": "man: medium-dark skin tone"
+  },
+  "1F468_1F3FE_2695": {
+    "char": "👨🏾‍⚕",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      9877
+    ],
+    "keywords": [
+      "doctor",
+      "healthcare",
+      "man",
+      "man health worker",
+      "medium-dark skin tone",
+      "nurse",
+      "therapist"
+    ],
+    "name": "man health worker: medium-dark skin tone"
+  },
+  "1F468_1F3FE_2696": {
+    "char": "👨🏾‍⚖",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      9878
+    ],
+    "keywords": [
+      "justice",
+      "man",
+      "man judge",
+      "medium-dark skin tone",
+      "scales"
+    ],
+    "name": "man judge: medium-dark skin tone"
+  },
+  "1F468_1F3FE_2708": {
+    "char": "👨🏾‍✈",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      9992
+    ],
+    "keywords": [
+      "man",
+      "medium-dark skin tone",
+      "pilot",
+      "plane"
+    ],
+    "name": "man pilot: medium-dark skin tone"
   },
   "1F468_1F3FE_1F33E": {
     "char": "👨🏾‍🌾",
@@ -7239,58 +8233,6 @@
     ],
     "name": "man in manual wheelchair: medium-dark skin tone"
   },
-  "1F468_1F3FE_2695": {
-    "char": "👨🏾‍⚕",
-    "codepoints": [
-      128104,
-      127998,
-      8205,
-      9877
-    ],
-    "keywords": [
-      "doctor",
-      "healthcare",
-      "man",
-      "man health worker",
-      "medium-dark skin tone",
-      "nurse",
-      "therapist"
-    ],
-    "name": "man health worker: medium-dark skin tone"
-  },
-  "1F468_1F3FE_2696": {
-    "char": "👨🏾‍⚖",
-    "codepoints": [
-      128104,
-      127998,
-      8205,
-      9878
-    ],
-    "keywords": [
-      "justice",
-      "man",
-      "man judge",
-      "medium-dark skin tone",
-      "scales"
-    ],
-    "name": "man judge: medium-dark skin tone"
-  },
-  "1F468_1F3FE_2708": {
-    "char": "👨🏾‍✈",
-    "codepoints": [
-      128104,
-      127998,
-      8205,
-      9992
-    ],
-    "keywords": [
-      "man",
-      "medium-dark skin tone",
-      "pilot",
-      "plane"
-    ],
-    "name": "man pilot: medium-dark skin tone"
-  },
   "1F468_1F3FF": {
     "char": "👨🏿",
     "codepoints": [
@@ -7303,6 +8245,58 @@
       "man"
     ],
     "name": "man: dark skin tone"
+  },
+  "1F468_1F3FF_2695": {
+    "char": "👨🏿‍⚕",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      9877
+    ],
+    "keywords": [
+      "dark skin tone",
+      "doctor",
+      "healthcare",
+      "man",
+      "man health worker",
+      "nurse",
+      "therapist"
+    ],
+    "name": "man health worker: dark skin tone"
+  },
+  "1F468_1F3FF_2696": {
+    "char": "👨🏿‍⚖",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      9878
+    ],
+    "keywords": [
+      "dark skin tone",
+      "justice",
+      "man",
+      "man judge",
+      "scales"
+    ],
+    "name": "man judge: dark skin tone"
+  },
+  "1F468_1F3FF_2708": {
+    "char": "👨🏿‍✈",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      9992
+    ],
+    "keywords": [
+      "dark skin tone",
+      "man",
+      "pilot",
+      "plane"
+    ],
+    "name": "man pilot: dark skin tone"
   },
   "1F468_1F3FF_1F33E": {
     "char": "👨🏿‍🌾",
@@ -7745,113 +8739,297 @@
     ],
     "name": "man in manual wheelchair: dark skin tone"
   },
-  "1F468_1F3FF_2695": {
-    "char": "👨🏿‍⚕",
+  "1F491.MW": {
+    "char": "👩‍❤‍👨",
     "codepoints": [
-      128104,
-      127999,
+      128105,
       8205,
-      9877
+      10084,
+      8205,
+      128104
     ],
     "keywords": [
-      "dark skin tone",
-      "doctor",
-      "healthcare",
+      "couple",
+      "couple with heart",
+      "love",
       "man",
-      "man health worker",
-      "nurse",
-      "therapist"
+      "woman"
     ],
-    "name": "man health worker: dark skin tone"
+    "name": "couple with heart: woman, man"
   },
-  "1F468_1F3FF_2696": {
-    "char": "👨🏿‍⚖",
+  "1F491.WW": {
+    "char": "👩‍❤‍👩",
     "codepoints": [
-      128104,
-      127999,
+      128105,
       8205,
-      9878
+      10084,
+      8205,
+      128105
     ],
     "keywords": [
-      "dark skin tone",
-      "justice",
-      "man",
-      "man judge",
-      "scales"
+      "couple",
+      "couple with heart",
+      "love",
+      "woman"
     ],
-    "name": "man judge: dark skin tone"
+    "name": "couple with heart: woman, woman"
   },
-  "1F468_1F3FF_2708": {
-    "char": "👨🏿‍✈",
+  "1F48F.MW": {
+    "char": "👩‍❤‍💋‍👨",
     "codepoints": [
-      128104,
-      127999,
+      128105,
       8205,
-      9992
+      10084,
+      8205,
+      128139,
+      8205,
+      128104
     ],
     "keywords": [
-      "dark skin tone",
+      "couple",
+      "kiss",
       "man",
-      "pilot",
-      "plane"
+      "woman"
     ],
-    "name": "man pilot: dark skin tone"
+    "name": "kiss: woman, man"
   },
-  "1F468_1F9B0": {
-    "char": "👨‍🦰",
+  "1F48F.WW": {
+    "char": "👩‍❤‍💋‍👩",
     "codepoints": [
-      128104,
+      128105,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128105
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "woman"
+    ],
+    "name": "kiss: woman, woman"
+  },
+  "1F46A.WB": {
+    "char": "👩‍👦",
+    "codepoints": [
+      128105,
+      8205,
+      128102
+    ],
+    "keywords": [
+      "boy",
+      "family",
+      "woman"
+    ],
+    "name": "family: woman, boy"
+  },
+  "1F46A.WBB": {
+    "char": "👩‍👦‍👦",
+    "codepoints": [
+      128105,
+      8205,
+      128102,
+      8205,
+      128102
+    ],
+    "keywords": [
+      "boy",
+      "family",
+      "woman"
+    ],
+    "name": "family: woman, boy, boy"
+  },
+  "1F46A.WG": {
+    "char": "👩‍👧",
+    "codepoints": [
+      128105,
+      8205,
+      128103
+    ],
+    "keywords": [
+      "family",
+      "girl",
+      "woman"
+    ],
+    "name": "family: woman, girl"
+  },
+  "1F46A.WGB": {
+    "char": "👩‍👧‍👦",
+    "codepoints": [
+      128105,
+      8205,
+      128103,
+      8205,
+      128102
+    ],
+    "keywords": [
+      "boy",
+      "family",
+      "girl",
+      "woman"
+    ],
+    "name": "family: woman, girl, boy"
+  },
+  "1F46A.WGG": {
+    "char": "👩‍👧‍👧",
+    "codepoints": [
+      128105,
+      8205,
+      128103,
+      8205,
+      128103
+    ],
+    "keywords": [
+      "family",
+      "girl",
+      "woman"
+    ],
+    "name": "family: woman, girl, girl"
+  },
+  "1F46A.WWB": {
+    "char": "👩‍👩‍👦",
+    "codepoints": [
+      128105,
+      8205,
+      128105,
+      8205,
+      128102
+    ],
+    "keywords": [
+      "boy",
+      "family",
+      "woman"
+    ],
+    "name": "family: woman, woman, boy"
+  },
+  "1F46A.WWBB": {
+    "char": "👩‍👩‍👦‍👦",
+    "codepoints": [
+      128105,
+      8205,
+      128105,
+      8205,
+      128102,
+      8205,
+      128102
+    ],
+    "keywords": [
+      "boy",
+      "family",
+      "woman"
+    ],
+    "name": "family: woman, woman, boy, boy"
+  },
+  "1F46A.WWG": {
+    "char": "👩‍👩‍👧",
+    "codepoints": [
+      128105,
+      8205,
+      128105,
+      8205,
+      128103
+    ],
+    "keywords": [
+      "family",
+      "girl",
+      "woman"
+    ],
+    "name": "family: woman, woman, girl"
+  },
+  "1F46A.WWGB": {
+    "char": "👩‍👩‍👧‍👦",
+    "codepoints": [
+      128105,
+      8205,
+      128105,
+      8205,
+      128103,
+      8205,
+      128102
+    ],
+    "keywords": [
+      "boy",
+      "family",
+      "girl",
+      "woman"
+    ],
+    "name": "family: woman, woman, girl, boy"
+  },
+  "1F46A.WWGG": {
+    "char": "👩‍👩‍👧‍👧",
+    "codepoints": [
+      128105,
+      8205,
+      128105,
+      8205,
+      128103,
+      8205,
+      128103
+    ],
+    "keywords": [
+      "family",
+      "girl",
+      "woman"
+    ],
+    "name": "family: woman, woman, girl, girl"
+  },
+  "1F469_1F9B0": {
+    "char": "👩‍🦰",
+    "codepoints": [
+      128105,
       8205,
       129456
     ],
     "keywords": [
       "adult",
-      "man",
-      "red hair"
+      "red hair",
+      "woman"
     ],
-    "name": "man: red hair"
+    "name": "woman: red hair"
   },
-  "1F468_1F9B1": {
-    "char": "👨‍🦱",
+  "1F469_1F9B1": {
+    "char": "👩‍🦱",
     "codepoints": [
-      128104,
+      128105,
       8205,
       129457
     ],
     "keywords": [
       "adult",
       "curly hair",
-      "man"
+      "woman"
     ],
-    "name": "man: curly hair"
+    "name": "woman: curly hair"
   },
-  "1F468_1F9B2": {
-    "char": "👨‍🦲",
+  "1F469_1F9B2": {
+    "char": "👩‍🦲",
     "codepoints": [
-      128104,
+      128105,
       8205,
       129458
     ],
     "keywords": [
       "adult",
       "bald",
-      "man"
+      "woman"
     ],
-    "name": "man: bald"
+    "name": "woman: bald"
   },
-  "1F468_1F9B3": {
-    "char": "👨‍🦳",
+  "1F469_1F9B3": {
+    "char": "👩‍🦳",
     "codepoints": [
-      128104,
+      128105,
       8205,
       129459
     ],
     "keywords": [
       "adult",
-      "man",
-      "white hair"
+      "white hair",
+      "woman"
     ],
-    "name": "man: white hair"
+    "name": "woman: white hair"
   },
   "1F469_1F3FB": {
     "char": "👩🏻",
@@ -7865,6 +9043,57 @@
       "woman"
     ],
     "name": "woman: light skin tone"
+  },
+  "1F469_1F3FB_2695": {
+    "char": "👩🏻‍⚕",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      9877
+    ],
+    "keywords": [
+      "doctor",
+      "healthcare",
+      "light skin tone",
+      "nurse",
+      "therapist",
+      "woman",
+      "woman health worker"
+    ],
+    "name": "woman health worker: light skin tone"
+  },
+  "1F469_1F3FB_2696": {
+    "char": "👩🏻‍⚖",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      9878
+    ],
+    "keywords": [
+      "judge",
+      "light skin tone",
+      "scales",
+      "woman"
+    ],
+    "name": "woman judge: light skin tone"
+  },
+  "1F469_1F3FB_2708": {
+    "char": "👩🏻‍✈",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      9992
+    ],
+    "keywords": [
+      "light skin tone",
+      "pilot",
+      "plane",
+      "woman"
+    ],
+    "name": "woman pilot: light skin tone"
   },
   "1F469_1F3FB_1F33E": {
     "char": "👩🏻‍🌾",
@@ -8303,57 +9532,6 @@
     ],
     "name": "woman in manual wheelchair: light skin tone"
   },
-  "1F469_1F3FB_2695": {
-    "char": "👩🏻‍⚕",
-    "codepoints": [
-      128105,
-      127995,
-      8205,
-      9877
-    ],
-    "keywords": [
-      "doctor",
-      "healthcare",
-      "light skin tone",
-      "nurse",
-      "therapist",
-      "woman",
-      "woman health worker"
-    ],
-    "name": "woman health worker: light skin tone"
-  },
-  "1F469_1F3FB_2696": {
-    "char": "👩🏻‍⚖",
-    "codepoints": [
-      128105,
-      127995,
-      8205,
-      9878
-    ],
-    "keywords": [
-      "judge",
-      "light skin tone",
-      "scales",
-      "woman"
-    ],
-    "name": "woman judge: light skin tone"
-  },
-  "1F469_1F3FB_2708": {
-    "char": "👩🏻‍✈",
-    "codepoints": [
-      128105,
-      127995,
-      8205,
-      9992
-    ],
-    "keywords": [
-      "light skin tone",
-      "pilot",
-      "plane",
-      "woman"
-    ],
-    "name": "woman pilot: light skin tone"
-  },
   "1F469_1F3FC": {
     "char": "👩🏼",
     "codepoints": [
@@ -8366,6 +9544,57 @@
       "woman"
     ],
     "name": "woman: medium-light skin tone"
+  },
+  "1F469_1F3FC_2695": {
+    "char": "👩🏼‍⚕",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      9877
+    ],
+    "keywords": [
+      "doctor",
+      "healthcare",
+      "medium-light skin tone",
+      "nurse",
+      "therapist",
+      "woman",
+      "woman health worker"
+    ],
+    "name": "woman health worker: medium-light skin tone"
+  },
+  "1F469_1F3FC_2696": {
+    "char": "👩🏼‍⚖",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      9878
+    ],
+    "keywords": [
+      "judge",
+      "medium-light skin tone",
+      "scales",
+      "woman"
+    ],
+    "name": "woman judge: medium-light skin tone"
+  },
+  "1F469_1F3FC_2708": {
+    "char": "👩🏼‍✈",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      9992
+    ],
+    "keywords": [
+      "medium-light skin tone",
+      "pilot",
+      "plane",
+      "woman"
+    ],
+    "name": "woman pilot: medium-light skin tone"
   },
   "1F469_1F3FC_1F33E": {
     "char": "👩🏼‍🌾",
@@ -8826,57 +10055,6 @@
     ],
     "name": "woman in manual wheelchair: medium-light skin tone"
   },
-  "1F469_1F3FC_2695": {
-    "char": "👩🏼‍⚕",
-    "codepoints": [
-      128105,
-      127996,
-      8205,
-      9877
-    ],
-    "keywords": [
-      "doctor",
-      "healthcare",
-      "medium-light skin tone",
-      "nurse",
-      "therapist",
-      "woman",
-      "woman health worker"
-    ],
-    "name": "woman health worker: medium-light skin tone"
-  },
-  "1F469_1F3FC_2696": {
-    "char": "👩🏼‍⚖",
-    "codepoints": [
-      128105,
-      127996,
-      8205,
-      9878
-    ],
-    "keywords": [
-      "judge",
-      "medium-light skin tone",
-      "scales",
-      "woman"
-    ],
-    "name": "woman judge: medium-light skin tone"
-  },
-  "1F469_1F3FC_2708": {
-    "char": "👩🏼‍✈",
-    "codepoints": [
-      128105,
-      127996,
-      8205,
-      9992
-    ],
-    "keywords": [
-      "medium-light skin tone",
-      "pilot",
-      "plane",
-      "woman"
-    ],
-    "name": "woman pilot: medium-light skin tone"
-  },
   "1F469_1F3FD": {
     "char": "👩🏽",
     "codepoints": [
@@ -8889,6 +10067,57 @@
       "woman"
     ],
     "name": "woman: medium skin tone"
+  },
+  "1F469_1F3FD_2695": {
+    "char": "👩🏽‍⚕",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      9877
+    ],
+    "keywords": [
+      "doctor",
+      "healthcare",
+      "medium skin tone",
+      "nurse",
+      "therapist",
+      "woman",
+      "woman health worker"
+    ],
+    "name": "woman health worker: medium skin tone"
+  },
+  "1F469_1F3FD_2696": {
+    "char": "👩🏽‍⚖",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      9878
+    ],
+    "keywords": [
+      "judge",
+      "medium skin tone",
+      "scales",
+      "woman"
+    ],
+    "name": "woman judge: medium skin tone"
+  },
+  "1F469_1F3FD_2708": {
+    "char": "👩🏽‍✈",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      9992
+    ],
+    "keywords": [
+      "medium skin tone",
+      "pilot",
+      "plane",
+      "woman"
+    ],
+    "name": "woman pilot: medium skin tone"
   },
   "1F469_1F3FD_1F33E": {
     "char": "👩🏽‍🌾",
@@ -9371,57 +10600,6 @@
     ],
     "name": "woman in manual wheelchair: medium skin tone"
   },
-  "1F469_1F3FD_2695": {
-    "char": "👩🏽‍⚕",
-    "codepoints": [
-      128105,
-      127997,
-      8205,
-      9877
-    ],
-    "keywords": [
-      "doctor",
-      "healthcare",
-      "medium skin tone",
-      "nurse",
-      "therapist",
-      "woman",
-      "woman health worker"
-    ],
-    "name": "woman health worker: medium skin tone"
-  },
-  "1F469_1F3FD_2696": {
-    "char": "👩🏽‍⚖",
-    "codepoints": [
-      128105,
-      127997,
-      8205,
-      9878
-    ],
-    "keywords": [
-      "judge",
-      "medium skin tone",
-      "scales",
-      "woman"
-    ],
-    "name": "woman judge: medium skin tone"
-  },
-  "1F469_1F3FD_2708": {
-    "char": "👩🏽‍✈",
-    "codepoints": [
-      128105,
-      127997,
-      8205,
-      9992
-    ],
-    "keywords": [
-      "medium skin tone",
-      "pilot",
-      "plane",
-      "woman"
-    ],
-    "name": "woman pilot: medium skin tone"
-  },
   "1F469_1F3FE": {
     "char": "👩🏾",
     "codepoints": [
@@ -9434,6 +10612,57 @@
       "woman"
     ],
     "name": "woman: medium-dark skin tone"
+  },
+  "1F469_1F3FE_2695": {
+    "char": "👩🏾‍⚕",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      9877
+    ],
+    "keywords": [
+      "doctor",
+      "healthcare",
+      "medium-dark skin tone",
+      "nurse",
+      "therapist",
+      "woman",
+      "woman health worker"
+    ],
+    "name": "woman health worker: medium-dark skin tone"
+  },
+  "1F469_1F3FE_2696": {
+    "char": "👩🏾‍⚖",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      9878
+    ],
+    "keywords": [
+      "judge",
+      "medium-dark skin tone",
+      "scales",
+      "woman"
+    ],
+    "name": "woman judge: medium-dark skin tone"
+  },
+  "1F469_1F3FE_2708": {
+    "char": "👩🏾‍✈",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      9992
+    ],
+    "keywords": [
+      "medium-dark skin tone",
+      "pilot",
+      "plane",
+      "woman"
+    ],
+    "name": "woman pilot: medium-dark skin tone"
   },
   "1F469_1F3FE_1F33E": {
     "char": "👩🏾‍🌾",
@@ -9938,57 +11167,6 @@
     ],
     "name": "woman in manual wheelchair: medium-dark skin tone"
   },
-  "1F469_1F3FE_2695": {
-    "char": "👩🏾‍⚕",
-    "codepoints": [
-      128105,
-      127998,
-      8205,
-      9877
-    ],
-    "keywords": [
-      "doctor",
-      "healthcare",
-      "medium-dark skin tone",
-      "nurse",
-      "therapist",
-      "woman",
-      "woman health worker"
-    ],
-    "name": "woman health worker: medium-dark skin tone"
-  },
-  "1F469_1F3FE_2696": {
-    "char": "👩🏾‍⚖",
-    "codepoints": [
-      128105,
-      127998,
-      8205,
-      9878
-    ],
-    "keywords": [
-      "judge",
-      "medium-dark skin tone",
-      "scales",
-      "woman"
-    ],
-    "name": "woman judge: medium-dark skin tone"
-  },
-  "1F469_1F3FE_2708": {
-    "char": "👩🏾‍✈",
-    "codepoints": [
-      128105,
-      127998,
-      8205,
-      9992
-    ],
-    "keywords": [
-      "medium-dark skin tone",
-      "pilot",
-      "plane",
-      "woman"
-    ],
-    "name": "woman pilot: medium-dark skin tone"
-  },
   "1F469_1F3FF": {
     "char": "👩🏿",
     "codepoints": [
@@ -10001,6 +11179,57 @@
       "woman"
     ],
     "name": "woman: dark skin tone"
+  },
+  "1F469_1F3FF_2695": {
+    "char": "👩🏿‍⚕",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      9877
+    ],
+    "keywords": [
+      "dark skin tone",
+      "doctor",
+      "healthcare",
+      "nurse",
+      "therapist",
+      "woman",
+      "woman health worker"
+    ],
+    "name": "woman health worker: dark skin tone"
+  },
+  "1F469_1F3FF_2696": {
+    "char": "👩🏿‍⚖",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      9878
+    ],
+    "keywords": [
+      "dark skin tone",
+      "judge",
+      "scales",
+      "woman"
+    ],
+    "name": "woman judge: dark skin tone"
+  },
+  "1F469_1F3FF_2708": {
+    "char": "👩🏿‍✈",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      9992
+    ],
+    "keywords": [
+      "dark skin tone",
+      "pilot",
+      "plane",
+      "woman"
+    ],
+    "name": "woman pilot: dark skin tone"
   },
   "1F469_1F3FF_1F33E": {
     "char": "👩🏿‍🌾",
@@ -10526,533 +11755,6 @@
       "woman in manual wheelchair"
     ],
     "name": "woman in manual wheelchair: dark skin tone"
-  },
-  "1F469_1F3FF_2695": {
-    "char": "👩🏿‍⚕",
-    "codepoints": [
-      128105,
-      127999,
-      8205,
-      9877
-    ],
-    "keywords": [
-      "dark skin tone",
-      "doctor",
-      "healthcare",
-      "nurse",
-      "therapist",
-      "woman",
-      "woman health worker"
-    ],
-    "name": "woman health worker: dark skin tone"
-  },
-  "1F469_1F3FF_2696": {
-    "char": "👩🏿‍⚖",
-    "codepoints": [
-      128105,
-      127999,
-      8205,
-      9878
-    ],
-    "keywords": [
-      "dark skin tone",
-      "judge",
-      "scales",
-      "woman"
-    ],
-    "name": "woman judge: dark skin tone"
-  },
-  "1F469_1F3FF_2708": {
-    "char": "👩🏿‍✈",
-    "codepoints": [
-      128105,
-      127999,
-      8205,
-      9992
-    ],
-    "keywords": [
-      "dark skin tone",
-      "pilot",
-      "plane",
-      "woman"
-    ],
-    "name": "woman pilot: dark skin tone"
-  },
-  "1F469_1F9B0": {
-    "char": "👩‍🦰",
-    "codepoints": [
-      128105,
-      8205,
-      129456
-    ],
-    "keywords": [
-      "adult",
-      "red hair",
-      "woman"
-    ],
-    "name": "woman: red hair"
-  },
-  "1F469_1F9B1": {
-    "char": "👩‍🦱",
-    "codepoints": [
-      128105,
-      8205,
-      129457
-    ],
-    "keywords": [
-      "adult",
-      "curly hair",
-      "woman"
-    ],
-    "name": "woman: curly hair"
-  },
-  "1F469_1F9B2": {
-    "char": "👩‍🦲",
-    "codepoints": [
-      128105,
-      8205,
-      129458
-    ],
-    "keywords": [
-      "adult",
-      "bald",
-      "woman"
-    ],
-    "name": "woman: bald"
-  },
-  "1F469_1F9B3": {
-    "char": "👩‍🦳",
-    "codepoints": [
-      128105,
-      8205,
-      129459
-    ],
-    "keywords": [
-      "adult",
-      "white hair",
-      "woman"
-    ],
-    "name": "woman: white hair"
-  },
-  "1F46A.MB": {
-    "char": "👨‍👦",
-    "codepoints": [
-      128104,
-      8205,
-      128102
-    ],
-    "keywords": [
-      "boy",
-      "family",
-      "man"
-    ],
-    "name": "family: man, boy"
-  },
-  "1F46A.MBB": {
-    "char": "👨‍👦‍👦",
-    "codepoints": [
-      128104,
-      8205,
-      128102,
-      8205,
-      128102
-    ],
-    "keywords": [
-      "boy",
-      "family",
-      "man"
-    ],
-    "name": "family: man, boy, boy"
-  },
-  "1F46A.MG": {
-    "char": "👨‍👧",
-    "codepoints": [
-      128104,
-      8205,
-      128103
-    ],
-    "keywords": [
-      "family",
-      "girl",
-      "man"
-    ],
-    "name": "family: man, girl"
-  },
-  "1F46A.MGB": {
-    "char": "👨‍👧‍👦",
-    "codepoints": [
-      128104,
-      8205,
-      128103,
-      8205,
-      128102
-    ],
-    "keywords": [
-      "boy",
-      "family",
-      "girl",
-      "man"
-    ],
-    "name": "family: man, girl, boy"
-  },
-  "1F46A.MGG": {
-    "char": "👨‍👧‍👧",
-    "codepoints": [
-      128104,
-      8205,
-      128103,
-      8205,
-      128103
-    ],
-    "keywords": [
-      "family",
-      "girl",
-      "man"
-    ],
-    "name": "family: man, girl, girl"
-  },
-  "1F46A.MMB": {
-    "char": "👨‍👨‍👦",
-    "codepoints": [
-      128104,
-      8205,
-      128104,
-      8205,
-      128102
-    ],
-    "keywords": [
-      "boy",
-      "family",
-      "man"
-    ],
-    "name": "family: man, man, boy"
-  },
-  "1F46A.MMBB": {
-    "char": "👨‍👨‍👦‍👦",
-    "codepoints": [
-      128104,
-      8205,
-      128104,
-      8205,
-      128102,
-      8205,
-      128102
-    ],
-    "keywords": [
-      "boy",
-      "family",
-      "man"
-    ],
-    "name": "family: man, man, boy, boy"
-  },
-  "1F46A.MMG": {
-    "char": "👨‍👨‍👧",
-    "codepoints": [
-      128104,
-      8205,
-      128104,
-      8205,
-      128103
-    ],
-    "keywords": [
-      "family",
-      "girl",
-      "man"
-    ],
-    "name": "family: man, man, girl"
-  },
-  "1F46A.MMGB": {
-    "char": "👨‍👨‍👧‍👦",
-    "codepoints": [
-      128104,
-      8205,
-      128104,
-      8205,
-      128103,
-      8205,
-      128102
-    ],
-    "keywords": [
-      "boy",
-      "family",
-      "girl",
-      "man"
-    ],
-    "name": "family: man, man, girl, boy"
-  },
-  "1F46A.MMGG": {
-    "char": "👨‍👨‍👧‍👧",
-    "codepoints": [
-      128104,
-      8205,
-      128104,
-      8205,
-      128103,
-      8205,
-      128103
-    ],
-    "keywords": [
-      "family",
-      "girl",
-      "man"
-    ],
-    "name": "family: man, man, girl, girl"
-  },
-  "1F46A.MWB": {
-    "char": "👨‍👩‍👦",
-    "codepoints": [
-      128104,
-      8205,
-      128105,
-      8205,
-      128102
-    ],
-    "keywords": [
-      "boy",
-      "family",
-      "man",
-      "woman"
-    ],
-    "name": "family: man, woman, boy"
-  },
-  "1F46A.MWBB": {
-    "char": "👨‍👩‍👦‍👦",
-    "codepoints": [
-      128104,
-      8205,
-      128105,
-      8205,
-      128102,
-      8205,
-      128102
-    ],
-    "keywords": [
-      "boy",
-      "family",
-      "man",
-      "woman"
-    ],
-    "name": "family: man, woman, boy, boy"
-  },
-  "1F46A.MWG": {
-    "char": "👨‍👩‍👧",
-    "codepoints": [
-      128104,
-      8205,
-      128105,
-      8205,
-      128103
-    ],
-    "keywords": [
-      "family",
-      "girl",
-      "man",
-      "woman"
-    ],
-    "name": "family: man, woman, girl"
-  },
-  "1F46A.MWGB": {
-    "char": "👨‍👩‍👧‍👦",
-    "codepoints": [
-      128104,
-      8205,
-      128105,
-      8205,
-      128103,
-      8205,
-      128102
-    ],
-    "keywords": [
-      "boy",
-      "family",
-      "girl",
-      "man",
-      "woman"
-    ],
-    "name": "family: man, woman, girl, boy"
-  },
-  "1F46A.MWGG": {
-    "char": "👨‍👩‍👧‍👧",
-    "codepoints": [
-      128104,
-      8205,
-      128105,
-      8205,
-      128103,
-      8205,
-      128103
-    ],
-    "keywords": [
-      "family",
-      "girl",
-      "man",
-      "woman"
-    ],
-    "name": "family: man, woman, girl, girl"
-  },
-  "1F46A.WB": {
-    "char": "👩‍👦",
-    "codepoints": [
-      128105,
-      8205,
-      128102
-    ],
-    "keywords": [
-      "boy",
-      "family",
-      "woman"
-    ],
-    "name": "family: woman, boy"
-  },
-  "1F46A.WBB": {
-    "char": "👩‍👦‍👦",
-    "codepoints": [
-      128105,
-      8205,
-      128102,
-      8205,
-      128102
-    ],
-    "keywords": [
-      "boy",
-      "family",
-      "woman"
-    ],
-    "name": "family: woman, boy, boy"
-  },
-  "1F46A.WG": {
-    "char": "👩‍👧",
-    "codepoints": [
-      128105,
-      8205,
-      128103
-    ],
-    "keywords": [
-      "family",
-      "girl",
-      "woman"
-    ],
-    "name": "family: woman, girl"
-  },
-  "1F46A.WGB": {
-    "char": "👩‍👧‍👦",
-    "codepoints": [
-      128105,
-      8205,
-      128103,
-      8205,
-      128102
-    ],
-    "keywords": [
-      "boy",
-      "family",
-      "girl",
-      "woman"
-    ],
-    "name": "family: woman, girl, boy"
-  },
-  "1F46A.WGG": {
-    "char": "👩‍👧‍👧",
-    "codepoints": [
-      128105,
-      8205,
-      128103,
-      8205,
-      128103
-    ],
-    "keywords": [
-      "family",
-      "girl",
-      "woman"
-    ],
-    "name": "family: woman, girl, girl"
-  },
-  "1F46A.WWB": {
-    "char": "👩‍👩‍👦",
-    "codepoints": [
-      128105,
-      8205,
-      128105,
-      8205,
-      128102
-    ],
-    "keywords": [
-      "boy",
-      "family",
-      "woman"
-    ],
-    "name": "family: woman, woman, boy"
-  },
-  "1F46A.WWBB": {
-    "char": "👩‍👩‍👦‍👦",
-    "codepoints": [
-      128105,
-      8205,
-      128105,
-      8205,
-      128102,
-      8205,
-      128102
-    ],
-    "keywords": [
-      "boy",
-      "family",
-      "woman"
-    ],
-    "name": "family: woman, woman, boy, boy"
-  },
-  "1F46A.WWG": {
-    "char": "👩‍👩‍👧",
-    "codepoints": [
-      128105,
-      8205,
-      128105,
-      8205,
-      128103
-    ],
-    "keywords": [
-      "family",
-      "girl",
-      "woman"
-    ],
-    "name": "family: woman, woman, girl"
-  },
-  "1F46A.WWGB": {
-    "char": "👩‍👩‍👧‍👦",
-    "codepoints": [
-      128105,
-      8205,
-      128105,
-      8205,
-      128103,
-      8205,
-      128102
-    ],
-    "keywords": [
-      "boy",
-      "family",
-      "girl",
-      "woman"
-    ],
-    "name": "family: woman, woman, girl, boy"
-  },
-  "1F46A.WWGG": {
-    "char": "👩‍👩‍👧‍👧",
-    "codepoints": [
-      128105,
-      8205,
-      128105,
-      8205,
-      128103,
-      8205,
-      128103
-    ],
-    "keywords": [
-      "family",
-      "girl",
-      "woman"
-    ],
-    "name": "family: woman, woman, girl, girl"
   },
   "1F46B_1F3FB": {
     "char": "👫🏻",
@@ -13878,113 +14580,6 @@
       "man getting haircut"
     ],
     "name": "man getting haircut: dark skin tone"
-  },
-  "1F48F.MM": {
-    "char": "👨‍❤‍💋‍👨",
-    "codepoints": [
-      128104,
-      8205,
-      10084,
-      8205,
-      128139,
-      8205,
-      128104
-    ],
-    "keywords": [
-      "couple",
-      "kiss",
-      "man"
-    ],
-    "name": "kiss: man, man"
-  },
-  "1F48F.MW": {
-    "char": "👩‍❤‍💋‍👨",
-    "codepoints": [
-      128105,
-      8205,
-      10084,
-      8205,
-      128139,
-      8205,
-      128104
-    ],
-    "keywords": [
-      "couple",
-      "kiss",
-      "man",
-      "woman"
-    ],
-    "name": "kiss: woman, man"
-  },
-  "1F48F.WW": {
-    "char": "👩‍❤‍💋‍👩",
-    "codepoints": [
-      128105,
-      8205,
-      10084,
-      8205,
-      128139,
-      8205,
-      128105
-    ],
-    "keywords": [
-      "couple",
-      "kiss",
-      "woman"
-    ],
-    "name": "kiss: woman, woman"
-  },
-  "1F491.MM": {
-    "char": "👨‍❤‍👨",
-    "codepoints": [
-      128104,
-      8205,
-      10084,
-      8205,
-      128104
-    ],
-    "keywords": [
-      "couple",
-      "couple with heart",
-      "love",
-      "man"
-    ],
-    "name": "couple with heart: man, man"
-  },
-  "1F491.MW": {
-    "char": "👩‍❤‍👨",
-    "codepoints": [
-      128105,
-      8205,
-      10084,
-      8205,
-      128104
-    ],
-    "keywords": [
-      "couple",
-      "couple with heart",
-      "love",
-      "man",
-      "woman"
-    ],
-    "name": "couple with heart: woman, man"
-  },
-  "1F491.WW": {
-    "char": "👩‍❤‍👩",
-    "codepoints": [
-      128105,
-      8205,
-      10084,
-      8205,
-      128105
-    ],
-    "keywords": [
-      "couple",
-      "couple with heart",
-      "love",
-      "woman"
-    ],
-    "name": "couple with heart: woman, woman"
   },
   "1F4AA_1F3FB": {
     "char": "💪🏻",
@@ -21461,6 +22056,70 @@
     ],
     "name": "deaf man: dark skin tone"
   },
+  "1F9D1_1F9B0": {
+    "char": "🧑‍🦰",
+    "codepoints": [
+      129489,
+      8205,
+      129456
+    ],
+    "keywords": [
+      "adult",
+      "gender-neutral",
+      "person",
+      "red hair",
+      "unspecified gender"
+    ],
+    "name": "person: red hair"
+  },
+  "1F9D1_1F9B1": {
+    "char": "🧑‍🦱",
+    "codepoints": [
+      129489,
+      8205,
+      129457
+    ],
+    "keywords": [
+      "adult",
+      "curly hair",
+      "gender-neutral",
+      "person",
+      "unspecified gender"
+    ],
+    "name": "person: curly hair"
+  },
+  "1F9D1_1F9B2": {
+    "char": "🧑‍🦲",
+    "codepoints": [
+      129489,
+      8205,
+      129458
+    ],
+    "keywords": [
+      "adult",
+      "bald",
+      "gender-neutral",
+      "person",
+      "unspecified gender"
+    ],
+    "name": "person: bald"
+  },
+  "1F9D1_1F9B3": {
+    "char": "🧑‍🦳",
+    "codepoints": [
+      129489,
+      8205,
+      129459
+    ],
+    "keywords": [
+      "adult",
+      "gender-neutral",
+      "person",
+      "unspecified gender",
+      "white hair"
+    ],
+    "name": "person: white hair"
+  },
   "1F9D1_1F3FB": {
     "char": "🧑🏻",
     "codepoints": [
@@ -21475,6 +22134,53 @@
       "unspecified gender"
     ],
     "name": "person: light skin tone"
+  },
+  "1F9D1_1F3FB_2695": {
+    "char": "🧑🏻‍⚕",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      9877
+    ],
+    "keywords": [
+      "doctor",
+      "healthcare",
+      "light skin tone",
+      "nurse",
+      "therapist"
+    ],
+    "name": "health worker: light skin tone"
+  },
+  "1F9D1_1F3FB_2696": {
+    "char": "🧑🏻‍⚖",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      9878
+    ],
+    "keywords": [
+      "judge",
+      "light skin tone",
+      "scales"
+    ],
+    "name": "judge: light skin tone"
+  },
+  "1F9D1_1F3FB_2708": {
+    "char": "🧑🏻‍✈",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      9992
+    ],
+    "keywords": [
+      "light skin tone",
+      "pilot",
+      "plane"
+    ],
+    "name": "pilot: light skin tone"
   },
   "1F9D1_1F3FB_1F33E": {
     "char": "🧑🏻‍🌾",
@@ -21827,53 +22533,6 @@
     ],
     "name": "person in manual wheelchair: light skin tone"
   },
-  "1F9D1_1F3FB_2695": {
-    "char": "🧑🏻‍⚕",
-    "codepoints": [
-      129489,
-      127995,
-      8205,
-      9877
-    ],
-    "keywords": [
-      "doctor",
-      "healthcare",
-      "light skin tone",
-      "nurse",
-      "therapist"
-    ],
-    "name": "health worker: light skin tone"
-  },
-  "1F9D1_1F3FB_2696": {
-    "char": "🧑🏻‍⚖",
-    "codepoints": [
-      129489,
-      127995,
-      8205,
-      9878
-    ],
-    "keywords": [
-      "judge",
-      "light skin tone",
-      "scales"
-    ],
-    "name": "judge: light skin tone"
-  },
-  "1F9D1_1F3FB_2708": {
-    "char": "🧑🏻‍✈",
-    "codepoints": [
-      129489,
-      127995,
-      8205,
-      9992
-    ],
-    "keywords": [
-      "light skin tone",
-      "pilot",
-      "plane"
-    ],
-    "name": "pilot: light skin tone"
-  },
   "1F9D1_1F3FC": {
     "char": "🧑🏼",
     "codepoints": [
@@ -21888,6 +22547,53 @@
       "unspecified gender"
     ],
     "name": "person: medium-light skin tone"
+  },
+  "1F9D1_1F3FC_2695": {
+    "char": "🧑🏼‍⚕",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      9877
+    ],
+    "keywords": [
+      "doctor",
+      "healthcare",
+      "medium-light skin tone",
+      "nurse",
+      "therapist"
+    ],
+    "name": "health worker: medium-light skin tone"
+  },
+  "1F9D1_1F3FC_2696": {
+    "char": "🧑🏼‍⚖",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      9878
+    ],
+    "keywords": [
+      "judge",
+      "medium-light skin tone",
+      "scales"
+    ],
+    "name": "judge: medium-light skin tone"
+  },
+  "1F9D1_1F3FC_2708": {
+    "char": "🧑🏼‍✈",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      9992
+    ],
+    "keywords": [
+      "medium-light skin tone",
+      "pilot",
+      "plane"
+    ],
+    "name": "pilot: medium-light skin tone"
   },
   "1F9D1_1F3FC_1F33E": {
     "char": "🧑🏼‍🌾",
@@ -22263,53 +22969,6 @@
     ],
     "name": "person in manual wheelchair: medium-light skin tone"
   },
-  "1F9D1_1F3FC_2695": {
-    "char": "🧑🏼‍⚕",
-    "codepoints": [
-      129489,
-      127996,
-      8205,
-      9877
-    ],
-    "keywords": [
-      "doctor",
-      "healthcare",
-      "medium-light skin tone",
-      "nurse",
-      "therapist"
-    ],
-    "name": "health worker: medium-light skin tone"
-  },
-  "1F9D1_1F3FC_2696": {
-    "char": "🧑🏼‍⚖",
-    "codepoints": [
-      129489,
-      127996,
-      8205,
-      9878
-    ],
-    "keywords": [
-      "judge",
-      "medium-light skin tone",
-      "scales"
-    ],
-    "name": "judge: medium-light skin tone"
-  },
-  "1F9D1_1F3FC_2708": {
-    "char": "🧑🏼‍✈",
-    "codepoints": [
-      129489,
-      127996,
-      8205,
-      9992
-    ],
-    "keywords": [
-      "medium-light skin tone",
-      "pilot",
-      "plane"
-    ],
-    "name": "pilot: medium-light skin tone"
-  },
   "1F9D1_1F3FD": {
     "char": "🧑🏽",
     "codepoints": [
@@ -22324,6 +22983,53 @@
       "unspecified gender"
     ],
     "name": "person: medium skin tone"
+  },
+  "1F9D1_1F3FD_2695": {
+    "char": "🧑🏽‍⚕",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      9877
+    ],
+    "keywords": [
+      "doctor",
+      "healthcare",
+      "medium skin tone",
+      "nurse",
+      "therapist"
+    ],
+    "name": "health worker: medium skin tone"
+  },
+  "1F9D1_1F3FD_2696": {
+    "char": "🧑🏽‍⚖",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      9878
+    ],
+    "keywords": [
+      "judge",
+      "medium skin tone",
+      "scales"
+    ],
+    "name": "judge: medium skin tone"
+  },
+  "1F9D1_1F3FD_2708": {
+    "char": "🧑🏽‍✈",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      9992
+    ],
+    "keywords": [
+      "medium skin tone",
+      "pilot",
+      "plane"
+    ],
+    "name": "pilot: medium skin tone"
   },
   "1F9D1_1F3FD_1F33E": {
     "char": "🧑🏽‍🌾",
@@ -22722,53 +23428,6 @@
     ],
     "name": "person in manual wheelchair: medium skin tone"
   },
-  "1F9D1_1F3FD_2695": {
-    "char": "🧑🏽‍⚕",
-    "codepoints": [
-      129489,
-      127997,
-      8205,
-      9877
-    ],
-    "keywords": [
-      "doctor",
-      "healthcare",
-      "medium skin tone",
-      "nurse",
-      "therapist"
-    ],
-    "name": "health worker: medium skin tone"
-  },
-  "1F9D1_1F3FD_2696": {
-    "char": "🧑🏽‍⚖",
-    "codepoints": [
-      129489,
-      127997,
-      8205,
-      9878
-    ],
-    "keywords": [
-      "judge",
-      "medium skin tone",
-      "scales"
-    ],
-    "name": "judge: medium skin tone"
-  },
-  "1F9D1_1F3FD_2708": {
-    "char": "🧑🏽‍✈",
-    "codepoints": [
-      129489,
-      127997,
-      8205,
-      9992
-    ],
-    "keywords": [
-      "medium skin tone",
-      "pilot",
-      "plane"
-    ],
-    "name": "pilot: medium skin tone"
-  },
   "1F9D1_1F3FE": {
     "char": "🧑🏾",
     "codepoints": [
@@ -22783,6 +23442,53 @@
       "unspecified gender"
     ],
     "name": "person: medium-dark skin tone"
+  },
+  "1F9D1_1F3FE_2695": {
+    "char": "🧑🏾‍⚕",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      9877
+    ],
+    "keywords": [
+      "doctor",
+      "healthcare",
+      "medium-dark skin tone",
+      "nurse",
+      "therapist"
+    ],
+    "name": "health worker: medium-dark skin tone"
+  },
+  "1F9D1_1F3FE_2696": {
+    "char": "🧑🏾‍⚖",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      9878
+    ],
+    "keywords": [
+      "judge",
+      "medium-dark skin tone",
+      "scales"
+    ],
+    "name": "judge: medium-dark skin tone"
+  },
+  "1F9D1_1F3FE_2708": {
+    "char": "🧑🏾‍✈",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      9992
+    ],
+    "keywords": [
+      "medium-dark skin tone",
+      "pilot",
+      "plane"
+    ],
+    "name": "pilot: medium-dark skin tone"
   },
   "1F9D1_1F3FE_1F33E": {
     "char": "🧑🏾‍🌾",
@@ -23204,53 +23910,6 @@
     ],
     "name": "person in manual wheelchair: medium-dark skin tone"
   },
-  "1F9D1_1F3FE_2695": {
-    "char": "🧑🏾‍⚕",
-    "codepoints": [
-      129489,
-      127998,
-      8205,
-      9877
-    ],
-    "keywords": [
-      "doctor",
-      "healthcare",
-      "medium-dark skin tone",
-      "nurse",
-      "therapist"
-    ],
-    "name": "health worker: medium-dark skin tone"
-  },
-  "1F9D1_1F3FE_2696": {
-    "char": "🧑🏾‍⚖",
-    "codepoints": [
-      129489,
-      127998,
-      8205,
-      9878
-    ],
-    "keywords": [
-      "judge",
-      "medium-dark skin tone",
-      "scales"
-    ],
-    "name": "judge: medium-dark skin tone"
-  },
-  "1F9D1_1F3FE_2708": {
-    "char": "🧑🏾‍✈",
-    "codepoints": [
-      129489,
-      127998,
-      8205,
-      9992
-    ],
-    "keywords": [
-      "medium-dark skin tone",
-      "pilot",
-      "plane"
-    ],
-    "name": "pilot: medium-dark skin tone"
-  },
   "1F9D1_1F3FF": {
     "char": "🧑🏿",
     "codepoints": [
@@ -23265,6 +23924,53 @@
       "unspecified gender"
     ],
     "name": "person: dark skin tone"
+  },
+  "1F9D1_1F3FF_2695": {
+    "char": "🧑🏿‍⚕",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      9877
+    ],
+    "keywords": [
+      "dark skin tone",
+      "doctor",
+      "healthcare",
+      "nurse",
+      "therapist"
+    ],
+    "name": "health worker: dark skin tone"
+  },
+  "1F9D1_1F3FF_2696": {
+    "char": "🧑🏿‍⚖",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      9878
+    ],
+    "keywords": [
+      "dark skin tone",
+      "judge",
+      "scales"
+    ],
+    "name": "judge: dark skin tone"
+  },
+  "1F9D1_1F3FF_2708": {
+    "char": "🧑🏿‍✈",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      9992
+    ],
+    "keywords": [
+      "dark skin tone",
+      "pilot",
+      "plane"
+    ],
+    "name": "pilot: dark skin tone"
   },
   "1F9D1_1F3FF_1F33E": {
     "char": "🧑🏿‍🌾",
@@ -23708,117 +24414,6 @@
       "wheelchair"
     ],
     "name": "person in manual wheelchair: dark skin tone"
-  },
-  "1F9D1_1F3FF_2695": {
-    "char": "🧑🏿‍⚕",
-    "codepoints": [
-      129489,
-      127999,
-      8205,
-      9877
-    ],
-    "keywords": [
-      "dark skin tone",
-      "doctor",
-      "healthcare",
-      "nurse",
-      "therapist"
-    ],
-    "name": "health worker: dark skin tone"
-  },
-  "1F9D1_1F3FF_2696": {
-    "char": "🧑🏿‍⚖",
-    "codepoints": [
-      129489,
-      127999,
-      8205,
-      9878
-    ],
-    "keywords": [
-      "dark skin tone",
-      "judge",
-      "scales"
-    ],
-    "name": "judge: dark skin tone"
-  },
-  "1F9D1_1F3FF_2708": {
-    "char": "🧑🏿‍✈",
-    "codepoints": [
-      129489,
-      127999,
-      8205,
-      9992
-    ],
-    "keywords": [
-      "dark skin tone",
-      "pilot",
-      "plane"
-    ],
-    "name": "pilot: dark skin tone"
-  },
-  "1F9D1_1F9B0": {
-    "char": "🧑‍🦰",
-    "codepoints": [
-      129489,
-      8205,
-      129456
-    ],
-    "keywords": [
-      "adult",
-      "gender-neutral",
-      "person",
-      "red hair",
-      "unspecified gender"
-    ],
-    "name": "person: red hair"
-  },
-  "1F9D1_1F9B1": {
-    "char": "🧑‍🦱",
-    "codepoints": [
-      129489,
-      8205,
-      129457
-    ],
-    "keywords": [
-      "adult",
-      "curly hair",
-      "gender-neutral",
-      "person",
-      "unspecified gender"
-    ],
-    "name": "person: curly hair"
-  },
-  "1F9D1_1F9B2": {
-    "char": "🧑‍🦲",
-    "codepoints": [
-      129489,
-      8205,
-      129458
-    ],
-    "keywords": [
-      "adult",
-      "bald",
-      "gender-neutral",
-      "person",
-      "unspecified gender"
-    ],
-    "name": "person: bald"
-  },
-  "1F9D1_1F9B3": {
-    "char": "🧑‍🦳",
-    "codepoints": [
-      129489,
-      8205,
-      129459
-    ],
-    "keywords": [
-      "adult",
-      "gender-neutral",
-      "person",
-      "unspecified gender",
-      "white hair"
-    ],
-    "name": "person: white hair"
   },
   "1F9D2_1F3FB": {
     "char": "🧒🏻",
@@ -25939,600 +26534,5 @@
       "man elf"
     ],
     "name": "man elf: dark skin tone"
-  },
-  "261D_1F3FB": {
-    "char": "☝🏻",
-    "codepoints": [
-      9757,
-      127995
-    ],
-    "keywords": [
-      "finger",
-      "hand",
-      "index",
-      "index pointing up",
-      "light skin tone",
-      "point",
-      "up"
-    ],
-    "name": "index pointing up: light skin tone"
-  },
-  "261D_1F3FC": {
-    "char": "☝🏼",
-    "codepoints": [
-      9757,
-      127996
-    ],
-    "keywords": [
-      "finger",
-      "hand",
-      "index",
-      "index pointing up",
-      "medium-light skin tone",
-      "point",
-      "up"
-    ],
-    "name": "index pointing up: medium-light skin tone"
-  },
-  "261D_1F3FD": {
-    "char": "☝🏽",
-    "codepoints": [
-      9757,
-      127997
-    ],
-    "keywords": [
-      "finger",
-      "hand",
-      "index",
-      "index pointing up",
-      "medium skin tone",
-      "point",
-      "up"
-    ],
-    "name": "index pointing up: medium skin tone"
-  },
-  "261D_1F3FE": {
-    "char": "☝🏾",
-    "codepoints": [
-      9757,
-      127998
-    ],
-    "keywords": [
-      "finger",
-      "hand",
-      "index",
-      "index pointing up",
-      "medium-dark skin tone",
-      "point",
-      "up"
-    ],
-    "name": "index pointing up: medium-dark skin tone"
-  },
-  "261D_1F3FF": {
-    "char": "☝🏿",
-    "codepoints": [
-      9757,
-      127999
-    ],
-    "keywords": [
-      "dark skin tone",
-      "finger",
-      "hand",
-      "index",
-      "index pointing up",
-      "point",
-      "up"
-    ],
-    "name": "index pointing up: dark skin tone"
-  },
-  "26F9_1F3FB": {
-    "char": "⛹🏻",
-    "codepoints": [
-      9977,
-      127995
-    ],
-    "keywords": [
-      "ball",
-      "light skin tone",
-      "person bouncing ball"
-    ],
-    "name": "person bouncing ball: light skin tone"
-  },
-  "26F9_1F3FB_2640": {
-    "char": "⛹🏻‍♀",
-    "codepoints": [
-      9977,
-      127995,
-      8205,
-      9792
-    ],
-    "keywords": [
-      "ball",
-      "light skin tone",
-      "woman",
-      "woman bouncing ball"
-    ],
-    "name": "woman bouncing ball: light skin tone"
-  },
-  "26F9_1F3FB_2642": {
-    "char": "⛹🏻‍♂",
-    "codepoints": [
-      9977,
-      127995,
-      8205,
-      9794
-    ],
-    "keywords": [
-      "ball",
-      "light skin tone",
-      "man",
-      "man bouncing ball"
-    ],
-    "name": "man bouncing ball: light skin tone"
-  },
-  "26F9_1F3FC": {
-    "char": "⛹🏼",
-    "codepoints": [
-      9977,
-      127996
-    ],
-    "keywords": [
-      "ball",
-      "medium-light skin tone",
-      "person bouncing ball"
-    ],
-    "name": "person bouncing ball: medium-light skin tone"
-  },
-  "26F9_1F3FC_2640": {
-    "char": "⛹🏼‍♀",
-    "codepoints": [
-      9977,
-      127996,
-      8205,
-      9792
-    ],
-    "keywords": [
-      "ball",
-      "medium-light skin tone",
-      "woman",
-      "woman bouncing ball"
-    ],
-    "name": "woman bouncing ball: medium-light skin tone"
-  },
-  "26F9_1F3FC_2642": {
-    "char": "⛹🏼‍♂",
-    "codepoints": [
-      9977,
-      127996,
-      8205,
-      9794
-    ],
-    "keywords": [
-      "ball",
-      "man",
-      "man bouncing ball",
-      "medium-light skin tone"
-    ],
-    "name": "man bouncing ball: medium-light skin tone"
-  },
-  "26F9_1F3FD": {
-    "char": "⛹🏽",
-    "codepoints": [
-      9977,
-      127997
-    ],
-    "keywords": [
-      "ball",
-      "medium skin tone",
-      "person bouncing ball"
-    ],
-    "name": "person bouncing ball: medium skin tone"
-  },
-  "26F9_1F3FD_2640": {
-    "char": "⛹🏽‍♀",
-    "codepoints": [
-      9977,
-      127997,
-      8205,
-      9792
-    ],
-    "keywords": [
-      "ball",
-      "medium skin tone",
-      "woman",
-      "woman bouncing ball"
-    ],
-    "name": "woman bouncing ball: medium skin tone"
-  },
-  "26F9_1F3FD_2642": {
-    "char": "⛹🏽‍♂",
-    "codepoints": [
-      9977,
-      127997,
-      8205,
-      9794
-    ],
-    "keywords": [
-      "ball",
-      "man",
-      "man bouncing ball",
-      "medium skin tone"
-    ],
-    "name": "man bouncing ball: medium skin tone"
-  },
-  "26F9_1F3FE": {
-    "char": "⛹🏾",
-    "codepoints": [
-      9977,
-      127998
-    ],
-    "keywords": [
-      "ball",
-      "medium-dark skin tone",
-      "person bouncing ball"
-    ],
-    "name": "person bouncing ball: medium-dark skin tone"
-  },
-  "26F9_1F3FE_2640": {
-    "char": "⛹🏾‍♀",
-    "codepoints": [
-      9977,
-      127998,
-      8205,
-      9792
-    ],
-    "keywords": [
-      "ball",
-      "medium-dark skin tone",
-      "woman",
-      "woman bouncing ball"
-    ],
-    "name": "woman bouncing ball: medium-dark skin tone"
-  },
-  "26F9_1F3FE_2642": {
-    "char": "⛹🏾‍♂",
-    "codepoints": [
-      9977,
-      127998,
-      8205,
-      9794
-    ],
-    "keywords": [
-      "ball",
-      "man",
-      "man bouncing ball",
-      "medium-dark skin tone"
-    ],
-    "name": "man bouncing ball: medium-dark skin tone"
-  },
-  "26F9_1F3FF": {
-    "char": "⛹🏿",
-    "codepoints": [
-      9977,
-      127999
-    ],
-    "keywords": [
-      "ball",
-      "dark skin tone",
-      "person bouncing ball"
-    ],
-    "name": "person bouncing ball: dark skin tone"
-  },
-  "26F9_1F3FF_2640": {
-    "char": "⛹🏿‍♀",
-    "codepoints": [
-      9977,
-      127999,
-      8205,
-      9792
-    ],
-    "keywords": [
-      "ball",
-      "dark skin tone",
-      "woman",
-      "woman bouncing ball"
-    ],
-    "name": "woman bouncing ball: dark skin tone"
-  },
-  "26F9_1F3FF_2642": {
-    "char": "⛹🏿‍♂",
-    "codepoints": [
-      9977,
-      127999,
-      8205,
-      9794
-    ],
-    "keywords": [
-      "ball",
-      "dark skin tone",
-      "man",
-      "man bouncing ball"
-    ],
-    "name": "man bouncing ball: dark skin tone"
-  },
-  "270A_1F3FB": {
-    "char": "✊🏻",
-    "codepoints": [
-      9994,
-      127995
-    ],
-    "keywords": [
-      "clenched",
-      "fist",
-      "hand",
-      "light skin tone",
-      "punch",
-      "raised fist"
-    ],
-    "name": "raised fist: light skin tone"
-  },
-  "270A_1F3FC": {
-    "char": "✊🏼",
-    "codepoints": [
-      9994,
-      127996
-    ],
-    "keywords": [
-      "clenched",
-      "fist",
-      "hand",
-      "medium-light skin tone",
-      "punch",
-      "raised fist"
-    ],
-    "name": "raised fist: medium-light skin tone"
-  },
-  "270A_1F3FD": {
-    "char": "✊🏽",
-    "codepoints": [
-      9994,
-      127997
-    ],
-    "keywords": [
-      "clenched",
-      "fist",
-      "hand",
-      "medium skin tone",
-      "punch",
-      "raised fist"
-    ],
-    "name": "raised fist: medium skin tone"
-  },
-  "270A_1F3FE": {
-    "char": "✊🏾",
-    "codepoints": [
-      9994,
-      127998
-    ],
-    "keywords": [
-      "clenched",
-      "fist",
-      "hand",
-      "medium-dark skin tone",
-      "punch",
-      "raised fist"
-    ],
-    "name": "raised fist: medium-dark skin tone"
-  },
-  "270A_1F3FF": {
-    "char": "✊🏿",
-    "codepoints": [
-      9994,
-      127999
-    ],
-    "keywords": [
-      "clenched",
-      "dark skin tone",
-      "fist",
-      "hand",
-      "punch",
-      "raised fist"
-    ],
-    "name": "raised fist: dark skin tone"
-  },
-  "270B_1F3FB": {
-    "char": "✋🏻",
-    "codepoints": [
-      9995,
-      127995
-    ],
-    "keywords": [
-      "hand",
-      "light skin tone",
-      "raised hand"
-    ],
-    "name": "raised hand: light skin tone"
-  },
-  "270B_1F3FC": {
-    "char": "✋🏼",
-    "codepoints": [
-      9995,
-      127996
-    ],
-    "keywords": [
-      "hand",
-      "medium-light skin tone",
-      "raised hand"
-    ],
-    "name": "raised hand: medium-light skin tone"
-  },
-  "270B_1F3FD": {
-    "char": "✋🏽",
-    "codepoints": [
-      9995,
-      127997
-    ],
-    "keywords": [
-      "hand",
-      "medium skin tone",
-      "raised hand"
-    ],
-    "name": "raised hand: medium skin tone"
-  },
-  "270B_1F3FE": {
-    "char": "✋🏾",
-    "codepoints": [
-      9995,
-      127998
-    ],
-    "keywords": [
-      "hand",
-      "medium-dark skin tone",
-      "raised hand"
-    ],
-    "name": "raised hand: medium-dark skin tone"
-  },
-  "270B_1F3FF": {
-    "char": "✋🏿",
-    "codepoints": [
-      9995,
-      127999
-    ],
-    "keywords": [
-      "dark skin tone",
-      "hand",
-      "raised hand"
-    ],
-    "name": "raised hand: dark skin tone"
-  },
-  "270C_1F3FB": {
-    "char": "✌🏻",
-    "codepoints": [
-      9996,
-      127995
-    ],
-    "keywords": [
-      "hand",
-      "light skin tone",
-      "v",
-      "victory"
-    ],
-    "name": "victory hand: light skin tone"
-  },
-  "270C_1F3FC": {
-    "char": "✌🏼",
-    "codepoints": [
-      9996,
-      127996
-    ],
-    "keywords": [
-      "hand",
-      "medium-light skin tone",
-      "v",
-      "victory"
-    ],
-    "name": "victory hand: medium-light skin tone"
-  },
-  "270C_1F3FD": {
-    "char": "✌🏽",
-    "codepoints": [
-      9996,
-      127997
-    ],
-    "keywords": [
-      "hand",
-      "medium skin tone",
-      "v",
-      "victory"
-    ],
-    "name": "victory hand: medium skin tone"
-  },
-  "270C_1F3FE": {
-    "char": "✌🏾",
-    "codepoints": [
-      9996,
-      127998
-    ],
-    "keywords": [
-      "hand",
-      "medium-dark skin tone",
-      "v",
-      "victory"
-    ],
-    "name": "victory hand: medium-dark skin tone"
-  },
-  "270C_1F3FF": {
-    "char": "✌🏿",
-    "codepoints": [
-      9996,
-      127999
-    ],
-    "keywords": [
-      "dark skin tone",
-      "hand",
-      "v",
-      "victory"
-    ],
-    "name": "victory hand: dark skin tone"
-  },
-  "270D_1F3FB": {
-    "char": "✍🏻",
-    "codepoints": [
-      9997,
-      127995
-    ],
-    "keywords": [
-      "hand",
-      "light skin tone",
-      "write",
-      "writing hand"
-    ],
-    "name": "writing hand: light skin tone"
-  },
-  "270D_1F3FC": {
-    "char": "✍🏼",
-    "codepoints": [
-      9997,
-      127996
-    ],
-    "keywords": [
-      "hand",
-      "medium-light skin tone",
-      "write",
-      "writing hand"
-    ],
-    "name": "writing hand: medium-light skin tone"
-  },
-  "270D_1F3FD": {
-    "char": "✍🏽",
-    "codepoints": [
-      9997,
-      127997
-    ],
-    "keywords": [
-      "hand",
-      "medium skin tone",
-      "write",
-      "writing hand"
-    ],
-    "name": "writing hand: medium skin tone"
-  },
-  "270D_1F3FE": {
-    "char": "✍🏾",
-    "codepoints": [
-      9997,
-      127998
-    ],
-    "keywords": [
-      "hand",
-      "medium-dark skin tone",
-      "write",
-      "writing hand"
-    ],
-    "name": "writing hand: medium-dark skin tone"
-  },
-  "270D_1F3FF": {
-    "char": "✍🏿",
-    "codepoints": [
-      9997,
-      127999
-    ],
-    "keywords": [
-      "dark skin tone",
-      "hand",
-      "write",
-      "writing hand"
-    ],
-    "name": "writing hand: dark skin tone"
   }
 }
