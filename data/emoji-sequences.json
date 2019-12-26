@@ -1,5 +1,6 @@
 {
   "u0023_u20E3": {
+    "char": "#️⃣",
     "codepoints": [
       35,
       65039,
@@ -8,6 +9,7 @@
     "description": "keycap: \\x{23}"
   },
   "u002A_u20E3": {
+    "char": "*️⃣",
     "codepoints": [
       42,
       65039,
@@ -16,6 +18,7 @@
     "description": "keycap: *"
   },
   "u0030_u20E3": {
+    "char": "0️⃣",
     "codepoints": [
       48,
       65039,
@@ -24,6 +27,7 @@
     "description": "keycap: 0"
   },
   "u0031_u20E3": {
+    "char": "1️⃣",
     "codepoints": [
       49,
       65039,
@@ -32,6 +36,7 @@
     "description": "keycap: 1"
   },
   "u0032_u20E3": {
+    "char": "2️⃣",
     "codepoints": [
       50,
       65039,
@@ -40,6 +45,7 @@
     "description": "keycap: 2"
   },
   "u0033_u20E3": {
+    "char": "3️⃣",
     "codepoints": [
       51,
       65039,
@@ -48,6 +54,7 @@
     "description": "keycap: 3"
   },
   "u0034_u20E3": {
+    "char": "4️⃣",
     "codepoints": [
       52,
       65039,
@@ -56,6 +63,7 @@
     "description": "keycap: 4"
   },
   "u0035_u20E3": {
+    "char": "5️⃣",
     "codepoints": [
       53,
       65039,
@@ -64,6 +72,7 @@
     "description": "keycap: 5"
   },
   "u0036_u20E3": {
+    "char": "6️⃣",
     "codepoints": [
       54,
       65039,
@@ -72,6 +81,7 @@
     "description": "keycap: 6"
   },
   "u0037_u20E3": {
+    "char": "7️⃣",
     "codepoints": [
       55,
       65039,
@@ -80,6 +90,7 @@
     "description": "keycap: 7"
   },
   "u0038_u20E3": {
+    "char": "8️⃣",
     "codepoints": [
       56,
       65039,
@@ -88,6 +99,7 @@
     "description": "keycap: 8"
   },
   "u0039_u20E3": {
+    "char": "9️⃣",
     "codepoints": [
       57,
       65039,
@@ -96,6 +108,7 @@
     "description": "keycap: 9"
   },
   "u00A9": {
+    "char": "©️",
     "codepoints": [
       169,
       65039
@@ -103,6 +116,7 @@
     "description": "copyright"
   },
   "u00AE": {
+    "char": "®️",
     "codepoints": [
       174,
       65039
@@ -110,6 +124,7 @@
     "description": "registered"
   },
   "u203C": {
+    "char": "‼️",
     "codepoints": [
       8252,
       65039
@@ -117,6 +132,7 @@
     "description": "double exclamation mark"
   },
   "u2049": {
+    "char": "⁉️",
     "codepoints": [
       8265,
       65039
@@ -124,6 +140,7 @@
     "description": "exclamation question mark"
   },
   "u2122": {
+    "char": "™️",
     "codepoints": [
       8482,
       65039
@@ -131,6 +148,7 @@
     "description": "trade mark"
   },
   "u2139": {
+    "char": "ℹ️",
     "codepoints": [
       8505,
       65039
@@ -138,6 +156,7 @@
     "description": "information"
   },
   "u2194": {
+    "char": "↔️",
     "codepoints": [
       8596,
       65039
@@ -145,6 +164,7 @@
     "description": "left-right arrow"
   },
   "u2195": {
+    "char": "↕️",
     "codepoints": [
       8597,
       65039
@@ -152,6 +172,7 @@
     "description": "up-down arrow"
   },
   "u2196": {
+    "char": "↖️",
     "codepoints": [
       8598,
       65039
@@ -159,6 +180,7 @@
     "description": "up-left arrow"
   },
   "u2197": {
+    "char": "↗️",
     "codepoints": [
       8599,
       65039
@@ -166,6 +188,7 @@
     "description": "up-right arrow"
   },
   "u2198": {
+    "char": "↘️",
     "codepoints": [
       8600,
       65039
@@ -173,6 +196,7 @@
     "description": "down-right arrow"
   },
   "u2199": {
+    "char": "↙️",
     "codepoints": [
       8601,
       65039
@@ -180,6 +204,7 @@
     "description": "down-left arrow"
   },
   "u21A9": {
+    "char": "↩️",
     "codepoints": [
       8617,
       65039
@@ -187,6 +212,7 @@
     "description": "right arrow curving left"
   },
   "u21AA": {
+    "char": "↪️",
     "codepoints": [
       8618,
       65039
@@ -194,12 +220,14 @@
     "description": "left arrow curving right"
   },
   "u231A": {
+    "char": "⌚",
     "codepoints": [
       8986
     ],
     "description": "watch"
   },
   "u2328": {
+    "char": "⌨️",
     "codepoints": [
       9000,
       65039
@@ -207,6 +235,7 @@
     "description": "keyboard"
   },
   "u23CF": {
+    "char": "⏏️",
     "codepoints": [
       9167,
       65039
@@ -214,12 +243,14 @@
     "description": "eject button"
   },
   "u23E9": {
+    "char": "⏩",
     "codepoints": [
       9193
     ],
     "description": "fast-forward button"
   },
   "u23ED": {
+    "char": "⏭️",
     "codepoints": [
       9197,
       65039
@@ -227,6 +258,7 @@
     "description": "next track button"
   },
   "u23EE": {
+    "char": "⏮️",
     "codepoints": [
       9198,
       65039
@@ -234,6 +266,7 @@
     "description": "last track button"
   },
   "u23EF": {
+    "char": "⏯️",
     "codepoints": [
       9199,
       65039
@@ -241,12 +274,14 @@
     "description": "play or pause button"
   },
   "u23F0": {
+    "char": "⏰",
     "codepoints": [
       9200
     ],
     "description": "alarm clock"
   },
   "u23F1": {
+    "char": "⏱️",
     "codepoints": [
       9201,
       65039
@@ -254,6 +289,7 @@
     "description": "stopwatch"
   },
   "u23F2": {
+    "char": "⏲️",
     "codepoints": [
       9202,
       65039
@@ -261,12 +297,14 @@
     "description": "timer clock"
   },
   "u23F3": {
+    "char": "⏳",
     "codepoints": [
       9203
     ],
     "description": "hourglass not done"
   },
   "u23F8": {
+    "char": "⏸️",
     "codepoints": [
       9208,
       65039
@@ -274,6 +312,7 @@
     "description": "pause button"
   },
   "u23F9": {
+    "char": "⏹️",
     "codepoints": [
       9209,
       65039
@@ -281,6 +320,7 @@
     "description": "stop button"
   },
   "u23FA": {
+    "char": "⏺️",
     "codepoints": [
       9210,
       65039
@@ -288,6 +328,7 @@
     "description": "record button"
   },
   "u24C2": {
+    "char": "Ⓜ️",
     "codepoints": [
       9410,
       65039
@@ -295,6 +336,7 @@
     "description": "circled M"
   },
   "u25AA": {
+    "char": "▪️",
     "codepoints": [
       9642,
       65039
@@ -302,6 +344,7 @@
     "description": "black small square"
   },
   "u25AB": {
+    "char": "▫️",
     "codepoints": [
       9643,
       65039
@@ -309,6 +352,7 @@
     "description": "white small square"
   },
   "u25B6": {
+    "char": "▶️",
     "codepoints": [
       9654,
       65039
@@ -316,6 +360,7 @@
     "description": "play button"
   },
   "u25C0": {
+    "char": "◀️",
     "codepoints": [
       9664,
       65039
@@ -323,6 +368,7 @@
     "description": "reverse button"
   },
   "u25FB": {
+    "char": "◻️",
     "codepoints": [
       9723,
       65039
@@ -330,6 +376,7 @@
     "description": "white medium square"
   },
   "u25FC": {
+    "char": "◼️",
     "codepoints": [
       9724,
       65039
@@ -337,12 +384,14 @@
     "description": "black medium square"
   },
   "u25FD": {
+    "char": "◽",
     "codepoints": [
       9725
     ],
     "description": "white medium-small square"
   },
   "u2600": {
+    "char": "☀️",
     "codepoints": [
       9728,
       65039
@@ -350,6 +399,7 @@
     "description": "sun"
   },
   "u2601": {
+    "char": "☁️",
     "codepoints": [
       9729,
       65039
@@ -357,6 +407,7 @@
     "description": "cloud"
   },
   "u2602": {
+    "char": "☂️",
     "codepoints": [
       9730,
       65039
@@ -364,6 +415,7 @@
     "description": "umbrella"
   },
   "u2603": {
+    "char": "☃️",
     "codepoints": [
       9731,
       65039
@@ -371,6 +423,7 @@
     "description": "snowman"
   },
   "u2604": {
+    "char": "☄️",
     "codepoints": [
       9732,
       65039
@@ -378,6 +431,7 @@
     "description": "comet"
   },
   "u260E": {
+    "char": "☎️",
     "codepoints": [
       9742,
       65039
@@ -385,6 +439,7 @@
     "description": "telephone"
   },
   "u2611": {
+    "char": "☑️",
     "codepoints": [
       9745,
       65039
@@ -392,12 +447,14 @@
     "description": "check box with check"
   },
   "u2614": {
+    "char": "☔",
     "codepoints": [
       9748
     ],
     "description": "umbrella with rain drops"
   },
   "u2618": {
+    "char": "☘️",
     "codepoints": [
       9752,
       65039
@@ -405,6 +462,7 @@
     "description": "shamrock"
   },
   "u261D": {
+    "char": "☝️",
     "codepoints": [
       9757,
       65039
@@ -412,6 +470,7 @@
     "description": "index pointing up"
   },
   "u261D.1": {
+    "char": "☝🏻",
     "codepoints": [
       9757,
       127995
@@ -419,6 +478,7 @@
     "description": "index pointing up: light skin tone"
   },
   "u261D.2": {
+    "char": "☝🏼",
     "codepoints": [
       9757,
       127996
@@ -426,6 +486,7 @@
     "description": "index pointing up: medium-light skin tone"
   },
   "u261D.3": {
+    "char": "☝🏽",
     "codepoints": [
       9757,
       127997
@@ -433,6 +494,7 @@
     "description": "index pointing up: medium skin tone"
   },
   "u261D.4": {
+    "char": "☝🏾",
     "codepoints": [
       9757,
       127998
@@ -440,6 +502,7 @@
     "description": "index pointing up: medium-dark skin tone"
   },
   "u261D.5": {
+    "char": "☝🏿",
     "codepoints": [
       9757,
       127999
@@ -447,6 +510,7 @@
     "description": "index pointing up: dark skin tone"
   },
   "u2620": {
+    "char": "☠️",
     "codepoints": [
       9760,
       65039
@@ -454,6 +518,7 @@
     "description": "skull and crossbones"
   },
   "u2622": {
+    "char": "☢️",
     "codepoints": [
       9762,
       65039
@@ -461,6 +526,7 @@
     "description": "radioactive"
   },
   "u2623": {
+    "char": "☣️",
     "codepoints": [
       9763,
       65039
@@ -468,6 +534,7 @@
     "description": "biohazard"
   },
   "u2626": {
+    "char": "☦️",
     "codepoints": [
       9766,
       65039
@@ -475,6 +542,7 @@
     "description": "orthodox cross"
   },
   "u262A": {
+    "char": "☪️",
     "codepoints": [
       9770,
       65039
@@ -482,6 +550,7 @@
     "description": "star and crescent"
   },
   "u262E": {
+    "char": "☮️",
     "codepoints": [
       9774,
       65039
@@ -489,6 +558,7 @@
     "description": "peace symbol"
   },
   "u262F": {
+    "char": "☯️",
     "codepoints": [
       9775,
       65039
@@ -496,6 +566,7 @@
     "description": "yin yang"
   },
   "u2638": {
+    "char": "☸️",
     "codepoints": [
       9784,
       65039
@@ -503,6 +574,7 @@
     "description": "wheel of dharma"
   },
   "u2639": {
+    "char": "☹️",
     "codepoints": [
       9785,
       65039
@@ -510,6 +582,7 @@
     "description": "frowning face"
   },
   "u263A": {
+    "char": "☺️",
     "codepoints": [
       9786,
       65039
@@ -517,6 +590,7 @@
     "description": "smiling face"
   },
   ".W": {
+    "char": "♀️",
     "codepoints": [
       9792,
       65039
@@ -524,6 +598,7 @@
     "description": "female sign"
   },
   ".M": {
+    "char": "♂️",
     "codepoints": [
       9794,
       65039
@@ -531,12 +606,14 @@
     "description": "male sign"
   },
   "u2648": {
+    "char": "♈",
     "codepoints": [
       9800
     ],
     "description": "Aries"
   },
   "u265F": {
+    "char": "♟️",
     "codepoints": [
       9823,
       65039
@@ -544,6 +621,7 @@
     "description": "chess pawn"
   },
   "u2660": {
+    "char": "♠️",
     "codepoints": [
       9824,
       65039
@@ -551,6 +629,7 @@
     "description": "spade suit"
   },
   "u2663": {
+    "char": "♣️",
     "codepoints": [
       9827,
       65039
@@ -558,6 +637,7 @@
     "description": "club suit"
   },
   "u2665": {
+    "char": "♥️",
     "codepoints": [
       9829,
       65039
@@ -565,6 +645,7 @@
     "description": "heart suit"
   },
   "u2666": {
+    "char": "♦️",
     "codepoints": [
       9830,
       65039
@@ -572,6 +653,7 @@
     "description": "diamond suit"
   },
   "u2668": {
+    "char": "♨️",
     "codepoints": [
       9832,
       65039
@@ -579,6 +661,7 @@
     "description": "hot springs"
   },
   "u267B": {
+    "char": "♻️",
     "codepoints": [
       9851,
       65039
@@ -586,6 +669,7 @@
     "description": "recycling symbol"
   },
   "u267E": {
+    "char": "♾️",
     "codepoints": [
       9854,
       65039
@@ -593,12 +677,14 @@
     "description": "infinity"
   },
   "u267F": {
+    "char": "♿",
     "codepoints": [
       9855
     ],
     "description": "wheelchair symbol"
   },
   "u2692": {
+    "char": "⚒️",
     "codepoints": [
       9874,
       65039
@@ -606,12 +692,14 @@
     "description": "hammer and pick"
   },
   "u2693": {
+    "char": "⚓",
     "codepoints": [
       9875
     ],
     "description": "anchor"
   },
   "u2694": {
+    "char": "⚔️",
     "codepoints": [
       9876,
       65039
@@ -619,6 +707,7 @@
     "description": "crossed swords"
   },
   "u2695": {
+    "char": "⚕️",
     "codepoints": [
       9877,
       65039
@@ -626,6 +715,7 @@
     "description": "medical symbol"
   },
   "u2696": {
+    "char": "⚖️",
     "codepoints": [
       9878,
       65039
@@ -633,6 +723,7 @@
     "description": "balance scale"
   },
   "u2697": {
+    "char": "⚗️",
     "codepoints": [
       9879,
       65039
@@ -640,6 +731,7 @@
     "description": "alembic"
   },
   "u2699": {
+    "char": "⚙️",
     "codepoints": [
       9881,
       65039
@@ -647,6 +739,7 @@
     "description": "gear"
   },
   "u269B": {
+    "char": "⚛️",
     "codepoints": [
       9883,
       65039
@@ -654,6 +747,7 @@
     "description": "atom symbol"
   },
   "u269C": {
+    "char": "⚜️",
     "codepoints": [
       9884,
       65039
@@ -661,6 +755,7 @@
     "description": "fleur-de-lis"
   },
   "u26A0": {
+    "char": "⚠️",
     "codepoints": [
       9888,
       65039
@@ -668,18 +763,21 @@
     "description": "warning"
   },
   "u26A1": {
+    "char": "⚡",
     "codepoints": [
       9889
     ],
     "description": "high voltage"
   },
   "u26AA": {
+    "char": "⚪",
     "codepoints": [
       9898
     ],
     "description": "white circle"
   },
   "u26B0": {
+    "char": "⚰️",
     "codepoints": [
       9904,
       65039
@@ -687,6 +785,7 @@
     "description": "coffin"
   },
   "u26B1": {
+    "char": "⚱️",
     "codepoints": [
       9905,
       65039
@@ -694,18 +793,21 @@
     "description": "funeral urn"
   },
   "u26BD": {
+    "char": "⚽",
     "codepoints": [
       9917
     ],
     "description": "soccer ball"
   },
   "u26C4": {
+    "char": "⛄",
     "codepoints": [
       9924
     ],
     "description": "snowman without snow"
   },
   "u26C8": {
+    "char": "⛈️",
     "codepoints": [
       9928,
       65039
@@ -713,12 +815,14 @@
     "description": "cloud with lightning and rain"
   },
   "u26CE": {
+    "char": "⛎",
     "codepoints": [
       9934
     ],
     "description": "Ophiuchus"
   },
   "u26CF": {
+    "char": "⛏️",
     "codepoints": [
       9935,
       65039
@@ -726,6 +830,7 @@
     "description": "pick"
   },
   "u26D1": {
+    "char": "⛑️",
     "codepoints": [
       9937,
       65039
@@ -733,6 +838,7 @@
     "description": "rescue worker’s helmet"
   },
   "u26D3": {
+    "char": "⛓️",
     "codepoints": [
       9939,
       65039
@@ -740,12 +846,14 @@
     "description": "chains"
   },
   "u26D4": {
+    "char": "⛔",
     "codepoints": [
       9940
     ],
     "description": "no entry"
   },
   "u26E9": {
+    "char": "⛩️",
     "codepoints": [
       9961,
       65039
@@ -753,12 +861,14 @@
     "description": "shinto shrine"
   },
   "u26EA": {
+    "char": "⛪",
     "codepoints": [
       9962
     ],
     "description": "church"
   },
   "u26F0": {
+    "char": "⛰️",
     "codepoints": [
       9968,
       65039
@@ -766,6 +876,7 @@
     "description": "mountain"
   },
   "u26F1": {
+    "char": "⛱️",
     "codepoints": [
       9969,
       65039
@@ -773,12 +884,14 @@
     "description": "umbrella on ground"
   },
   "u26F2": {
+    "char": "⛲",
     "codepoints": [
       9970
     ],
     "description": "fountain"
   },
   "u26F4": {
+    "char": "⛴️",
     "codepoints": [
       9972,
       65039
@@ -786,12 +899,14 @@
     "description": "ferry"
   },
   "u26F5": {
+    "char": "⛵",
     "codepoints": [
       9973
     ],
     "description": "sailboat"
   },
   "u26F7": {
+    "char": "⛷️",
     "codepoints": [
       9975,
       65039
@@ -799,6 +914,7 @@
     "description": "skier"
   },
   "u26F8": {
+    "char": "⛸️",
     "codepoints": [
       9976,
       65039
@@ -806,6 +922,7 @@
     "description": "ice skate"
   },
   "u26F9": {
+    "char": "⛹️",
     "codepoints": [
       9977,
       65039
@@ -813,6 +930,7 @@
     "description": "person bouncing ball"
   },
   "u26F9.1": {
+    "char": "⛹🏻",
     "codepoints": [
       9977,
       127995
@@ -820,6 +938,7 @@
     "description": "person bouncing ball: light skin tone"
   },
   "u26F9.2": {
+    "char": "⛹🏼",
     "codepoints": [
       9977,
       127996
@@ -827,6 +946,7 @@
     "description": "person bouncing ball: medium-light skin tone"
   },
   "u26F9.3": {
+    "char": "⛹🏽",
     "codepoints": [
       9977,
       127997
@@ -834,6 +954,7 @@
     "description": "person bouncing ball: medium skin tone"
   },
   "u26F9.4": {
+    "char": "⛹🏾",
     "codepoints": [
       9977,
       127998
@@ -841,6 +962,7 @@
     "description": "person bouncing ball: medium-dark skin tone"
   },
   "u26F9.5": {
+    "char": "⛹🏿",
     "codepoints": [
       9977,
       127999
@@ -848,18 +970,21 @@
     "description": "person bouncing ball: dark skin tone"
   },
   "u26FA": {
+    "char": "⛺",
     "codepoints": [
       9978
     ],
     "description": "tent"
   },
   "u26FD": {
+    "char": "⛽",
     "codepoints": [
       9981
     ],
     "description": "fuel pump"
   },
   "u2702": {
+    "char": "✂️",
     "codepoints": [
       9986,
       65039
@@ -867,12 +992,14 @@
     "description": "scissors"
   },
   "u2705": {
+    "char": "✅",
     "codepoints": [
       9989
     ],
     "description": "check mark button"
   },
   "u2708": {
+    "char": "✈️",
     "codepoints": [
       9992,
       65039
@@ -880,6 +1007,7 @@
     "description": "airplane"
   },
   "u2709": {
+    "char": "✉️",
     "codepoints": [
       9993,
       65039
@@ -887,12 +1015,14 @@
     "description": "envelope"
   },
   "u270A": {
+    "char": "✊",
     "codepoints": [
       9994
     ],
     "description": "raised fist"
   },
   "u270A.1": {
+    "char": "✊🏻",
     "codepoints": [
       9994,
       127995
@@ -900,6 +1030,7 @@
     "description": "raised fist: light skin tone"
   },
   "u270A.2": {
+    "char": "✊🏼",
     "codepoints": [
       9994,
       127996
@@ -907,6 +1038,7 @@
     "description": "raised fist: medium-light skin tone"
   },
   "u270A.3": {
+    "char": "✊🏽",
     "codepoints": [
       9994,
       127997
@@ -914,6 +1046,7 @@
     "description": "raised fist: medium skin tone"
   },
   "u270A.4": {
+    "char": "✊🏾",
     "codepoints": [
       9994,
       127998
@@ -921,6 +1054,7 @@
     "description": "raised fist: medium-dark skin tone"
   },
   "u270A.5": {
+    "char": "✊🏿",
     "codepoints": [
       9994,
       127999
@@ -928,6 +1062,7 @@
     "description": "raised fist: dark skin tone"
   },
   "u270B.1": {
+    "char": "✋🏻",
     "codepoints": [
       9995,
       127995
@@ -935,6 +1070,7 @@
     "description": "raised hand: light skin tone"
   },
   "u270B.2": {
+    "char": "✋🏼",
     "codepoints": [
       9995,
       127996
@@ -942,6 +1078,7 @@
     "description": "raised hand: medium-light skin tone"
   },
   "u270B.3": {
+    "char": "✋🏽",
     "codepoints": [
       9995,
       127997
@@ -949,6 +1086,7 @@
     "description": "raised hand: medium skin tone"
   },
   "u270B.4": {
+    "char": "✋🏾",
     "codepoints": [
       9995,
       127998
@@ -956,6 +1094,7 @@
     "description": "raised hand: medium-dark skin tone"
   },
   "u270B.5": {
+    "char": "✋🏿",
     "codepoints": [
       9995,
       127999
@@ -963,6 +1102,7 @@
     "description": "raised hand: dark skin tone"
   },
   "u270C": {
+    "char": "✌️",
     "codepoints": [
       9996,
       65039
@@ -970,6 +1110,7 @@
     "description": "victory hand"
   },
   "u270C.1": {
+    "char": "✌🏻",
     "codepoints": [
       9996,
       127995
@@ -977,6 +1118,7 @@
     "description": "victory hand: light skin tone"
   },
   "u270C.2": {
+    "char": "✌🏼",
     "codepoints": [
       9996,
       127996
@@ -984,6 +1126,7 @@
     "description": "victory hand: medium-light skin tone"
   },
   "u270C.3": {
+    "char": "✌🏽",
     "codepoints": [
       9996,
       127997
@@ -991,6 +1134,7 @@
     "description": "victory hand: medium skin tone"
   },
   "u270C.4": {
+    "char": "✌🏾",
     "codepoints": [
       9996,
       127998
@@ -998,6 +1142,7 @@
     "description": "victory hand: medium-dark skin tone"
   },
   "u270C.5": {
+    "char": "✌🏿",
     "codepoints": [
       9996,
       127999
@@ -1005,6 +1150,7 @@
     "description": "victory hand: dark skin tone"
   },
   "u270D": {
+    "char": "✍️",
     "codepoints": [
       9997,
       65039
@@ -1012,6 +1158,7 @@
     "description": "writing hand"
   },
   "u270D.1": {
+    "char": "✍🏻",
     "codepoints": [
       9997,
       127995
@@ -1019,6 +1166,7 @@
     "description": "writing hand: light skin tone"
   },
   "u270D.2": {
+    "char": "✍🏼",
     "codepoints": [
       9997,
       127996
@@ -1026,6 +1174,7 @@
     "description": "writing hand: medium-light skin tone"
   },
   "u270D.3": {
+    "char": "✍🏽",
     "codepoints": [
       9997,
       127997
@@ -1033,6 +1182,7 @@
     "description": "writing hand: medium skin tone"
   },
   "u270D.4": {
+    "char": "✍🏾",
     "codepoints": [
       9997,
       127998
@@ -1040,6 +1190,7 @@
     "description": "writing hand: medium-dark skin tone"
   },
   "u270D.5": {
+    "char": "✍🏿",
     "codepoints": [
       9997,
       127999
@@ -1047,6 +1198,7 @@
     "description": "writing hand: dark skin tone"
   },
   "u270F": {
+    "char": "✏️",
     "codepoints": [
       9999,
       65039
@@ -1054,6 +1206,7 @@
     "description": "pencil"
   },
   "u2712": {
+    "char": "✒️",
     "codepoints": [
       10002,
       65039
@@ -1061,6 +1214,7 @@
     "description": "black nib"
   },
   "u2714": {
+    "char": "✔️",
     "codepoints": [
       10004,
       65039
@@ -1068,6 +1222,7 @@
     "description": "check mark"
   },
   "u2716": {
+    "char": "✖️",
     "codepoints": [
       10006,
       65039
@@ -1075,6 +1230,7 @@
     "description": "multiplication sign"
   },
   "u271D": {
+    "char": "✝️",
     "codepoints": [
       10013,
       65039
@@ -1082,6 +1238,7 @@
     "description": "latin cross"
   },
   "u2721": {
+    "char": "✡️",
     "codepoints": [
       10017,
       65039
@@ -1089,12 +1246,14 @@
     "description": "star of David"
   },
   "u2728": {
+    "char": "✨",
     "codepoints": [
       10024
     ],
     "description": "sparkles"
   },
   "u2733": {
+    "char": "✳️",
     "codepoints": [
       10035,
       65039
@@ -1102,6 +1261,7 @@
     "description": "eight-spoked asterisk"
   },
   "u2734": {
+    "char": "✴️",
     "codepoints": [
       10036,
       65039
@@ -1109,6 +1269,7 @@
     "description": "eight-pointed star"
   },
   "u2744": {
+    "char": "❄️",
     "codepoints": [
       10052,
       65039
@@ -1116,6 +1277,7 @@
     "description": "snowflake"
   },
   "u2747": {
+    "char": "❇️",
     "codepoints": [
       10055,
       65039
@@ -1123,30 +1285,35 @@
     "description": "sparkle"
   },
   "u274C": {
+    "char": "❌",
     "codepoints": [
       10060
     ],
     "description": "cross mark"
   },
   "u274E": {
+    "char": "❎",
     "codepoints": [
       10062
     ],
     "description": "cross mark button"
   },
   "u2753": {
+    "char": "❓",
     "codepoints": [
       10067
     ],
     "description": "question mark"
   },
   "u2757": {
+    "char": "❗",
     "codepoints": [
       10071
     ],
     "description": "exclamation mark"
   },
   "u2763": {
+    "char": "❣️",
     "codepoints": [
       10083,
       65039
@@ -1154,6 +1321,7 @@
     "description": "heart exclamation"
   },
   "u2764": {
+    "char": "❤️",
     "codepoints": [
       10084,
       65039
@@ -1161,12 +1329,14 @@
     "description": "red heart"
   },
   "u2795": {
+    "char": "➕",
     "codepoints": [
       10133
     ],
     "description": "plus sign"
   },
   "u27A1": {
+    "char": "➡️",
     "codepoints": [
       10145,
       65039
@@ -1174,18 +1344,21 @@
     "description": "right arrow"
   },
   "u27B0": {
+    "char": "➰",
     "codepoints": [
       10160
     ],
     "description": "curly loop"
   },
   "u27BF": {
+    "char": "➿",
     "codepoints": [
       10175
     ],
     "description": "double curly loop"
   },
   "u2934": {
+    "char": "⤴️",
     "codepoints": [
       10548,
       65039
@@ -1193,6 +1366,7 @@
     "description": "right arrow curving up"
   },
   "u2935": {
+    "char": "⤵️",
     "codepoints": [
       10549,
       65039
@@ -1200,6 +1374,7 @@
     "description": "right arrow curving down"
   },
   "u2B05": {
+    "char": "⬅️",
     "codepoints": [
       11013,
       65039
@@ -1207,6 +1382,7 @@
     "description": "left arrow"
   },
   "u2B06": {
+    "char": "⬆️",
     "codepoints": [
       11014,
       65039
@@ -1214,6 +1390,7 @@
     "description": "up arrow"
   },
   "u2B07": {
+    "char": "⬇️",
     "codepoints": [
       11015,
       65039
@@ -1221,24 +1398,28 @@
     "description": "down arrow"
   },
   "u2B1B": {
+    "char": "⬛",
     "codepoints": [
       11035
     ],
     "description": "black large square"
   },
   "u2B50": {
+    "char": "⭐",
     "codepoints": [
       11088
     ],
     "description": "star"
   },
   "u2B55": {
+    "char": "⭕",
     "codepoints": [
       11093
     ],
     "description": "hollow red circle"
   },
   "u3030": {
+    "char": "〰️",
     "codepoints": [
       12336,
       65039
@@ -1246,6 +1427,7 @@
     "description": "wavy dash"
   },
   "u303D": {
+    "char": "〽️",
     "codepoints": [
       12349,
       65039
@@ -1253,6 +1435,7 @@
     "description": "part alternation mark"
   },
   "u3297": {
+    "char": "㊗️",
     "codepoints": [
       12951,
       65039
@@ -1260,6 +1443,7 @@
     "description": "Japanese “congratulations” button"
   },
   "u3299": {
+    "char": "㊙️",
     "codepoints": [
       12953,
       65039
@@ -1267,18 +1451,21 @@
     "description": "Japanese “secret” button"
   },
   "u1F004": {
+    "char": "🀄",
     "codepoints": [
       126980
     ],
     "description": "mahjong red dragon"
   },
   "u1F0CF": {
+    "char": "🃏",
     "codepoints": [
       127183
     ],
     "description": "joker"
   },
   "u1F170": {
+    "char": "🅰️",
     "codepoints": [
       127344,
       65039
@@ -1286,6 +1473,7 @@
     "description": "A button (blood type)"
   },
   "u1F171": {
+    "char": "🅱️",
     "codepoints": [
       127345,
       65039
@@ -1293,6 +1481,7 @@
     "description": "B button (blood type)"
   },
   "u1F17E": {
+    "char": "🅾️",
     "codepoints": [
       127358,
       65039
@@ -1300,6 +1489,7 @@
     "description": "O button (blood type)"
   },
   "u1F17F": {
+    "char": "🅿️",
     "codepoints": [
       127359,
       65039
@@ -1307,18 +1497,21 @@
     "description": "P button"
   },
   "u1F18E": {
+    "char": "🆎",
     "codepoints": [
       127374
     ],
     "description": "AB button (blood type)"
   },
   "u1F191": {
+    "char": "🆑",
     "codepoints": [
       127377
     ],
     "description": "CL button"
   },
   "u1F1E6_u1F1E8": {
+    "char": "🇦🇨",
     "codepoints": [
       127462,
       127464
@@ -1326,6 +1519,7 @@
     "description": "flag: Ascension Island"
   },
   "u1F1E6_u1F1E9": {
+    "char": "🇦🇩",
     "codepoints": [
       127462,
       127465
@@ -1333,6 +1527,7 @@
     "description": "flag: Andorra"
   },
   "u1F1E6_u1F1EA": {
+    "char": "🇦🇪",
     "codepoints": [
       127462,
       127466
@@ -1340,6 +1535,7 @@
     "description": "flag: United Arab Emirates"
   },
   "u1F1E6_u1F1EB": {
+    "char": "🇦🇫",
     "codepoints": [
       127462,
       127467
@@ -1347,6 +1543,7 @@
     "description": "flag: Afghanistan"
   },
   "u1F1E6_u1F1EC": {
+    "char": "🇦🇬",
     "codepoints": [
       127462,
       127468
@@ -1354,6 +1551,7 @@
     "description": "flag: Antigua & Barbuda"
   },
   "u1F1E6_u1F1EE": {
+    "char": "🇦🇮",
     "codepoints": [
       127462,
       127470
@@ -1361,6 +1559,7 @@
     "description": "flag: Anguilla"
   },
   "u1F1E6_u1F1F1": {
+    "char": "🇦🇱",
     "codepoints": [
       127462,
       127473
@@ -1368,6 +1567,7 @@
     "description": "flag: Albania"
   },
   "u1F1E6_u1F1F2": {
+    "char": "🇦🇲",
     "codepoints": [
       127462,
       127474
@@ -1375,6 +1575,7 @@
     "description": "flag: Armenia"
   },
   "u1F1E6_u1F1F4": {
+    "char": "🇦🇴",
     "codepoints": [
       127462,
       127476
@@ -1382,6 +1583,7 @@
     "description": "flag: Angola"
   },
   "u1F1E6_u1F1F6": {
+    "char": "🇦🇶",
     "codepoints": [
       127462,
       127478
@@ -1389,6 +1591,7 @@
     "description": "flag: Antarctica"
   },
   "u1F1E6_u1F1F7": {
+    "char": "🇦🇷",
     "codepoints": [
       127462,
       127479
@@ -1396,6 +1599,7 @@
     "description": "flag: Argentina"
   },
   "u1F1E6_u1F1F8": {
+    "char": "🇦🇸",
     "codepoints": [
       127462,
       127480
@@ -1403,6 +1607,7 @@
     "description": "flag: American Samoa"
   },
   "u1F1E6_u1F1F9": {
+    "char": "🇦🇹",
     "codepoints": [
       127462,
       127481
@@ -1410,6 +1615,7 @@
     "description": "flag: Austria"
   },
   "u1F1E6_u1F1FA": {
+    "char": "🇦🇺",
     "codepoints": [
       127462,
       127482
@@ -1417,6 +1623,7 @@
     "description": "flag: Australia"
   },
   "u1F1E6_u1F1FC": {
+    "char": "🇦🇼",
     "codepoints": [
       127462,
       127484
@@ -1424,6 +1631,7 @@
     "description": "flag: Aruba"
   },
   "u1F1E6_u1F1FD": {
+    "char": "🇦🇽",
     "codepoints": [
       127462,
       127485
@@ -1431,6 +1639,7 @@
     "description": "flag: Åland Islands"
   },
   "u1F1E6_u1F1FF": {
+    "char": "🇦🇿",
     "codepoints": [
       127462,
       127487
@@ -1438,6 +1647,7 @@
     "description": "flag: Azerbaijan"
   },
   "u1F1E7_u1F1E6": {
+    "char": "🇧🇦",
     "codepoints": [
       127463,
       127462
@@ -1445,6 +1655,7 @@
     "description": "flag: Bosnia & Herzegovina"
   },
   "u1F1E7_u1F1E7": {
+    "char": "🇧🇧",
     "codepoints": [
       127463,
       127463
@@ -1452,6 +1663,7 @@
     "description": "flag: Barbados"
   },
   "u1F1E7_u1F1E9": {
+    "char": "🇧🇩",
     "codepoints": [
       127463,
       127465
@@ -1459,6 +1671,7 @@
     "description": "flag: Bangladesh"
   },
   "u1F1E7_u1F1EA": {
+    "char": "🇧🇪",
     "codepoints": [
       127463,
       127466
@@ -1466,6 +1679,7 @@
     "description": "flag: Belgium"
   },
   "u1F1E7_u1F1EB": {
+    "char": "🇧🇫",
     "codepoints": [
       127463,
       127467
@@ -1473,6 +1687,7 @@
     "description": "flag: Burkina Faso"
   },
   "u1F1E7_u1F1EC": {
+    "char": "🇧🇬",
     "codepoints": [
       127463,
       127468
@@ -1480,6 +1695,7 @@
     "description": "flag: Bulgaria"
   },
   "u1F1E7_u1F1ED": {
+    "char": "🇧🇭",
     "codepoints": [
       127463,
       127469
@@ -1487,6 +1703,7 @@
     "description": "flag: Bahrain"
   },
   "u1F1E7_u1F1EE": {
+    "char": "🇧🇮",
     "codepoints": [
       127463,
       127470
@@ -1494,6 +1711,7 @@
     "description": "flag: Burundi"
   },
   "u1F1E7_u1F1EF": {
+    "char": "🇧🇯",
     "codepoints": [
       127463,
       127471
@@ -1501,6 +1719,7 @@
     "description": "flag: Benin"
   },
   "u1F1E7_u1F1F1": {
+    "char": "🇧🇱",
     "codepoints": [
       127463,
       127473
@@ -1508,6 +1727,7 @@
     "description": "flag: St. Barthélemy"
   },
   "u1F1E7_u1F1F2": {
+    "char": "🇧🇲",
     "codepoints": [
       127463,
       127474
@@ -1515,6 +1735,7 @@
     "description": "flag: Bermuda"
   },
   "u1F1E7_u1F1F3": {
+    "char": "🇧🇳",
     "codepoints": [
       127463,
       127475
@@ -1522,6 +1743,7 @@
     "description": "flag: Brunei"
   },
   "u1F1E7_u1F1F4": {
+    "char": "🇧🇴",
     "codepoints": [
       127463,
       127476
@@ -1529,6 +1751,7 @@
     "description": "flag: Bolivia"
   },
   "u1F1E7_u1F1F6": {
+    "char": "🇧🇶",
     "codepoints": [
       127463,
       127478
@@ -1536,6 +1759,7 @@
     "description": "flag: Caribbean Netherlands"
   },
   "u1F1E7_u1F1F7": {
+    "char": "🇧🇷",
     "codepoints": [
       127463,
       127479
@@ -1543,6 +1767,7 @@
     "description": "flag: Brazil"
   },
   "u1F1E7_u1F1F8": {
+    "char": "🇧🇸",
     "codepoints": [
       127463,
       127480
@@ -1550,6 +1775,7 @@
     "description": "flag: Bahamas"
   },
   "u1F1E7_u1F1F9": {
+    "char": "🇧🇹",
     "codepoints": [
       127463,
       127481
@@ -1557,6 +1783,7 @@
     "description": "flag: Bhutan"
   },
   "u1F1E7_u1F1FB": {
+    "char": "🇧🇻",
     "codepoints": [
       127463,
       127483
@@ -1564,6 +1791,7 @@
     "description": "flag: Bouvet Island"
   },
   "u1F1E7_u1F1FC": {
+    "char": "🇧🇼",
     "codepoints": [
       127463,
       127484
@@ -1571,6 +1799,7 @@
     "description": "flag: Botswana"
   },
   "u1F1E7_u1F1FE": {
+    "char": "🇧🇾",
     "codepoints": [
       127463,
       127486
@@ -1578,6 +1807,7 @@
     "description": "flag: Belarus"
   },
   "u1F1E7_u1F1FF": {
+    "char": "🇧🇿",
     "codepoints": [
       127463,
       127487
@@ -1585,6 +1815,7 @@
     "description": "flag: Belize"
   },
   "u1F1E8_u1F1E6": {
+    "char": "🇨🇦",
     "codepoints": [
       127464,
       127462
@@ -1592,6 +1823,7 @@
     "description": "flag: Canada"
   },
   "u1F1E8_u1F1E8": {
+    "char": "🇨🇨",
     "codepoints": [
       127464,
       127464
@@ -1599,6 +1831,7 @@
     "description": "flag: Cocos (Keeling) Islands"
   },
   "u1F1E8_u1F1E9": {
+    "char": "🇨🇩",
     "codepoints": [
       127464,
       127465
@@ -1606,6 +1839,7 @@
     "description": "flag: Congo - Kinshasa"
   },
   "u1F1E8_u1F1EB": {
+    "char": "🇨🇫",
     "codepoints": [
       127464,
       127467
@@ -1613,6 +1847,7 @@
     "description": "flag: Central African Republic"
   },
   "u1F1E8_u1F1EC": {
+    "char": "🇨🇬",
     "codepoints": [
       127464,
       127468
@@ -1620,6 +1855,7 @@
     "description": "flag: Congo - Brazzaville"
   },
   "u1F1E8_u1F1ED": {
+    "char": "🇨🇭",
     "codepoints": [
       127464,
       127469
@@ -1627,6 +1863,7 @@
     "description": "flag: Switzerland"
   },
   "u1F1E8_u1F1EE": {
+    "char": "🇨🇮",
     "codepoints": [
       127464,
       127470
@@ -1634,6 +1871,7 @@
     "description": "flag: Côte d’Ivoire"
   },
   "u1F1E8_u1F1F0": {
+    "char": "🇨🇰",
     "codepoints": [
       127464,
       127472
@@ -1641,6 +1879,7 @@
     "description": "flag: Cook Islands"
   },
   "u1F1E8_u1F1F1": {
+    "char": "🇨🇱",
     "codepoints": [
       127464,
       127473
@@ -1648,6 +1887,7 @@
     "description": "flag: Chile"
   },
   "u1F1E8_u1F1F2": {
+    "char": "🇨🇲",
     "codepoints": [
       127464,
       127474
@@ -1655,6 +1895,7 @@
     "description": "flag: Cameroon"
   },
   "u1F1E8_u1F1F3": {
+    "char": "🇨🇳",
     "codepoints": [
       127464,
       127475
@@ -1662,6 +1903,7 @@
     "description": "flag: China"
   },
   "u1F1E8_u1F1F4": {
+    "char": "🇨🇴",
     "codepoints": [
       127464,
       127476
@@ -1669,6 +1911,7 @@
     "description": "flag: Colombia"
   },
   "u1F1E8_u1F1F5": {
+    "char": "🇨🇵",
     "codepoints": [
       127464,
       127477
@@ -1676,6 +1919,7 @@
     "description": "flag: Clipperton Island"
   },
   "u1F1E8_u1F1F7": {
+    "char": "🇨🇷",
     "codepoints": [
       127464,
       127479
@@ -1683,6 +1927,7 @@
     "description": "flag: Costa Rica"
   },
   "u1F1E8_u1F1FA": {
+    "char": "🇨🇺",
     "codepoints": [
       127464,
       127482
@@ -1690,6 +1935,7 @@
     "description": "flag: Cuba"
   },
   "u1F1E8_u1F1FB": {
+    "char": "🇨🇻",
     "codepoints": [
       127464,
       127483
@@ -1697,6 +1943,7 @@
     "description": "flag: Cape Verde"
   },
   "u1F1E8_u1F1FC": {
+    "char": "🇨🇼",
     "codepoints": [
       127464,
       127484
@@ -1704,6 +1951,7 @@
     "description": "flag: Curaçao"
   },
   "u1F1E8_u1F1FD": {
+    "char": "🇨🇽",
     "codepoints": [
       127464,
       127485
@@ -1711,6 +1959,7 @@
     "description": "flag: Christmas Island"
   },
   "u1F1E8_u1F1FE": {
+    "char": "🇨🇾",
     "codepoints": [
       127464,
       127486
@@ -1718,6 +1967,7 @@
     "description": "flag: Cyprus"
   },
   "u1F1E8_u1F1FF": {
+    "char": "🇨🇿",
     "codepoints": [
       127464,
       127487
@@ -1725,6 +1975,7 @@
     "description": "flag: Czechia"
   },
   "u1F1E9_u1F1EA": {
+    "char": "🇩🇪",
     "codepoints": [
       127465,
       127466
@@ -1732,6 +1983,7 @@
     "description": "flag: Germany"
   },
   "u1F1E9_u1F1EC": {
+    "char": "🇩🇬",
     "codepoints": [
       127465,
       127468
@@ -1739,6 +1991,7 @@
     "description": "flag: Diego Garcia"
   },
   "u1F1E9_u1F1EF": {
+    "char": "🇩🇯",
     "codepoints": [
       127465,
       127471
@@ -1746,6 +1999,7 @@
     "description": "flag: Djibouti"
   },
   "u1F1E9_u1F1F0": {
+    "char": "🇩🇰",
     "codepoints": [
       127465,
       127472
@@ -1753,6 +2007,7 @@
     "description": "flag: Denmark"
   },
   "u1F1E9_u1F1F2": {
+    "char": "🇩🇲",
     "codepoints": [
       127465,
       127474
@@ -1760,6 +2015,7 @@
     "description": "flag: Dominica"
   },
   "u1F1E9_u1F1F4": {
+    "char": "🇩🇴",
     "codepoints": [
       127465,
       127476
@@ -1767,6 +2023,7 @@
     "description": "flag: Dominican Republic"
   },
   "u1F1E9_u1F1FF": {
+    "char": "🇩🇿",
     "codepoints": [
       127465,
       127487
@@ -1774,6 +2031,7 @@
     "description": "flag: Algeria"
   },
   "u1F1EA_u1F1E6": {
+    "char": "🇪🇦",
     "codepoints": [
       127466,
       127462
@@ -1781,6 +2039,7 @@
     "description": "flag: Ceuta & Melilla"
   },
   "u1F1EA_u1F1E8": {
+    "char": "🇪🇨",
     "codepoints": [
       127466,
       127464
@@ -1788,6 +2047,7 @@
     "description": "flag: Ecuador"
   },
   "u1F1EA_u1F1EA": {
+    "char": "🇪🇪",
     "codepoints": [
       127466,
       127466
@@ -1795,6 +2055,7 @@
     "description": "flag: Estonia"
   },
   "u1F1EA_u1F1EC": {
+    "char": "🇪🇬",
     "codepoints": [
       127466,
       127468
@@ -1802,6 +2063,7 @@
     "description": "flag: Egypt"
   },
   "u1F1EA_u1F1ED": {
+    "char": "🇪🇭",
     "codepoints": [
       127466,
       127469
@@ -1809,6 +2071,7 @@
     "description": "flag: Western Sahara"
   },
   "u1F1EA_u1F1F7": {
+    "char": "🇪🇷",
     "codepoints": [
       127466,
       127479
@@ -1816,6 +2079,7 @@
     "description": "flag: Eritrea"
   },
   "u1F1EA_u1F1F8": {
+    "char": "🇪🇸",
     "codepoints": [
       127466,
       127480
@@ -1823,6 +2087,7 @@
     "description": "flag: Spain"
   },
   "u1F1EA_u1F1F9": {
+    "char": "🇪🇹",
     "codepoints": [
       127466,
       127481
@@ -1830,6 +2095,7 @@
     "description": "flag: Ethiopia"
   },
   "u1F1EA_u1F1FA": {
+    "char": "🇪🇺",
     "codepoints": [
       127466,
       127482
@@ -1837,6 +2103,7 @@
     "description": "flag: European Union"
   },
   "u1F1EB_u1F1EE": {
+    "char": "🇫🇮",
     "codepoints": [
       127467,
       127470
@@ -1844,6 +2111,7 @@
     "description": "flag: Finland"
   },
   "u1F1EB_u1F1EF": {
+    "char": "🇫🇯",
     "codepoints": [
       127467,
       127471
@@ -1851,6 +2119,7 @@
     "description": "flag: Fiji"
   },
   "u1F1EB_u1F1F0": {
+    "char": "🇫🇰",
     "codepoints": [
       127467,
       127472
@@ -1858,6 +2127,7 @@
     "description": "flag: Falkland Islands"
   },
   "u1F1EB_u1F1F2": {
+    "char": "🇫🇲",
     "codepoints": [
       127467,
       127474
@@ -1865,6 +2135,7 @@
     "description": "flag: Micronesia"
   },
   "u1F1EB_u1F1F4": {
+    "char": "🇫🇴",
     "codepoints": [
       127467,
       127476
@@ -1872,6 +2143,7 @@
     "description": "flag: Faroe Islands"
   },
   "u1F1EB_u1F1F7": {
+    "char": "🇫🇷",
     "codepoints": [
       127467,
       127479
@@ -1879,6 +2151,7 @@
     "description": "flag: France"
   },
   "u1F1EC_u1F1E6": {
+    "char": "🇬🇦",
     "codepoints": [
       127468,
       127462
@@ -1886,6 +2159,7 @@
     "description": "flag: Gabon"
   },
   "u1F1EC_u1F1E7": {
+    "char": "🇬🇧",
     "codepoints": [
       127468,
       127463
@@ -1893,6 +2167,7 @@
     "description": "flag: United Kingdom"
   },
   "u1F1EC_u1F1E9": {
+    "char": "🇬🇩",
     "codepoints": [
       127468,
       127465
@@ -1900,6 +2175,7 @@
     "description": "flag: Grenada"
   },
   "u1F1EC_u1F1EA": {
+    "char": "🇬🇪",
     "codepoints": [
       127468,
       127466
@@ -1907,6 +2183,7 @@
     "description": "flag: Georgia"
   },
   "u1F1EC_u1F1EB": {
+    "char": "🇬🇫",
     "codepoints": [
       127468,
       127467
@@ -1914,6 +2191,7 @@
     "description": "flag: French Guiana"
   },
   "u1F1EC_u1F1EC": {
+    "char": "🇬🇬",
     "codepoints": [
       127468,
       127468
@@ -1921,6 +2199,7 @@
     "description": "flag: Guernsey"
   },
   "u1F1EC_u1F1ED": {
+    "char": "🇬🇭",
     "codepoints": [
       127468,
       127469
@@ -1928,6 +2207,7 @@
     "description": "flag: Ghana"
   },
   "u1F1EC_u1F1EE": {
+    "char": "🇬🇮",
     "codepoints": [
       127468,
       127470
@@ -1935,6 +2215,7 @@
     "description": "flag: Gibraltar"
   },
   "u1F1EC_u1F1F1": {
+    "char": "🇬🇱",
     "codepoints": [
       127468,
       127473
@@ -1942,6 +2223,7 @@
     "description": "flag: Greenland"
   },
   "u1F1EC_u1F1F2": {
+    "char": "🇬🇲",
     "codepoints": [
       127468,
       127474
@@ -1949,6 +2231,7 @@
     "description": "flag: Gambia"
   },
   "u1F1EC_u1F1F3": {
+    "char": "🇬🇳",
     "codepoints": [
       127468,
       127475
@@ -1956,6 +2239,7 @@
     "description": "flag: Guinea"
   },
   "u1F1EC_u1F1F5": {
+    "char": "🇬🇵",
     "codepoints": [
       127468,
       127477
@@ -1963,6 +2247,7 @@
     "description": "flag: Guadeloupe"
   },
   "u1F1EC_u1F1F6": {
+    "char": "🇬🇶",
     "codepoints": [
       127468,
       127478
@@ -1970,6 +2255,7 @@
     "description": "flag: Equatorial Guinea"
   },
   "u1F1EC_u1F1F7": {
+    "char": "🇬🇷",
     "codepoints": [
       127468,
       127479
@@ -1977,6 +2263,7 @@
     "description": "flag: Greece"
   },
   "u1F1EC_u1F1F8": {
+    "char": "🇬🇸",
     "codepoints": [
       127468,
       127480
@@ -1984,6 +2271,7 @@
     "description": "flag: South Georgia & South Sandwich Islands"
   },
   "u1F1EC_u1F1F9": {
+    "char": "🇬🇹",
     "codepoints": [
       127468,
       127481
@@ -1991,6 +2279,7 @@
     "description": "flag: Guatemala"
   },
   "u1F1EC_u1F1FA": {
+    "char": "🇬🇺",
     "codepoints": [
       127468,
       127482
@@ -1998,6 +2287,7 @@
     "description": "flag: Guam"
   },
   "u1F1EC_u1F1FC": {
+    "char": "🇬🇼",
     "codepoints": [
       127468,
       127484
@@ -2005,6 +2295,7 @@
     "description": "flag: Guinea-Bissau"
   },
   "u1F1EC_u1F1FE": {
+    "char": "🇬🇾",
     "codepoints": [
       127468,
       127486
@@ -2012,6 +2303,7 @@
     "description": "flag: Guyana"
   },
   "u1F1ED_u1F1F0": {
+    "char": "🇭🇰",
     "codepoints": [
       127469,
       127472
@@ -2019,6 +2311,7 @@
     "description": "flag: Hong Kong SAR China"
   },
   "u1F1ED_u1F1F2": {
+    "char": "🇭🇲",
     "codepoints": [
       127469,
       127474
@@ -2026,6 +2319,7 @@
     "description": "flag: Heard & McDonald Islands"
   },
   "u1F1ED_u1F1F3": {
+    "char": "🇭🇳",
     "codepoints": [
       127469,
       127475
@@ -2033,6 +2327,7 @@
     "description": "flag: Honduras"
   },
   "u1F1ED_u1F1F7": {
+    "char": "🇭🇷",
     "codepoints": [
       127469,
       127479
@@ -2040,6 +2335,7 @@
     "description": "flag: Croatia"
   },
   "u1F1ED_u1F1F9": {
+    "char": "🇭🇹",
     "codepoints": [
       127469,
       127481
@@ -2047,6 +2343,7 @@
     "description": "flag: Haiti"
   },
   "u1F1ED_u1F1FA": {
+    "char": "🇭🇺",
     "codepoints": [
       127469,
       127482
@@ -2054,6 +2351,7 @@
     "description": "flag: Hungary"
   },
   "u1F1EE_u1F1E8": {
+    "char": "🇮🇨",
     "codepoints": [
       127470,
       127464
@@ -2061,6 +2359,7 @@
     "description": "flag: Canary Islands"
   },
   "u1F1EE_u1F1E9": {
+    "char": "🇮🇩",
     "codepoints": [
       127470,
       127465
@@ -2068,6 +2367,7 @@
     "description": "flag: Indonesia"
   },
   "u1F1EE_u1F1EA": {
+    "char": "🇮🇪",
     "codepoints": [
       127470,
       127466
@@ -2075,6 +2375,7 @@
     "description": "flag: Ireland"
   },
   "u1F1EE_u1F1F1": {
+    "char": "🇮🇱",
     "codepoints": [
       127470,
       127473
@@ -2082,6 +2383,7 @@
     "description": "flag: Israel"
   },
   "u1F1EE_u1F1F2": {
+    "char": "🇮🇲",
     "codepoints": [
       127470,
       127474
@@ -2089,6 +2391,7 @@
     "description": "flag: Isle of Man"
   },
   "u1F1EE_u1F1F3": {
+    "char": "🇮🇳",
     "codepoints": [
       127470,
       127475
@@ -2096,6 +2399,7 @@
     "description": "flag: India"
   },
   "u1F1EE_u1F1F4": {
+    "char": "🇮🇴",
     "codepoints": [
       127470,
       127476
@@ -2103,6 +2407,7 @@
     "description": "flag: British Indian Ocean Territory"
   },
   "u1F1EE_u1F1F6": {
+    "char": "🇮🇶",
     "codepoints": [
       127470,
       127478
@@ -2110,6 +2415,7 @@
     "description": "flag: Iraq"
   },
   "u1F1EE_u1F1F7": {
+    "char": "🇮🇷",
     "codepoints": [
       127470,
       127479
@@ -2117,6 +2423,7 @@
     "description": "flag: Iran"
   },
   "u1F1EE_u1F1F8": {
+    "char": "🇮🇸",
     "codepoints": [
       127470,
       127480
@@ -2124,6 +2431,7 @@
     "description": "flag: Iceland"
   },
   "u1F1EE_u1F1F9": {
+    "char": "🇮🇹",
     "codepoints": [
       127470,
       127481
@@ -2131,6 +2439,7 @@
     "description": "flag: Italy"
   },
   "u1F1EF_u1F1EA": {
+    "char": "🇯🇪",
     "codepoints": [
       127471,
       127466
@@ -2138,6 +2447,7 @@
     "description": "flag: Jersey"
   },
   "u1F1EF_u1F1F2": {
+    "char": "🇯🇲",
     "codepoints": [
       127471,
       127474
@@ -2145,6 +2455,7 @@
     "description": "flag: Jamaica"
   },
   "u1F1EF_u1F1F4": {
+    "char": "🇯🇴",
     "codepoints": [
       127471,
       127476
@@ -2152,6 +2463,7 @@
     "description": "flag: Jordan"
   },
   "u1F1EF_u1F1F5": {
+    "char": "🇯🇵",
     "codepoints": [
       127471,
       127477
@@ -2159,6 +2471,7 @@
     "description": "flag: Japan"
   },
   "u1F1F0_u1F1EA": {
+    "char": "🇰🇪",
     "codepoints": [
       127472,
       127466
@@ -2166,6 +2479,7 @@
     "description": "flag: Kenya"
   },
   "u1F1F0_u1F1EC": {
+    "char": "🇰🇬",
     "codepoints": [
       127472,
       127468
@@ -2173,6 +2487,7 @@
     "description": "flag: Kyrgyzstan"
   },
   "u1F1F0_u1F1ED": {
+    "char": "🇰🇭",
     "codepoints": [
       127472,
       127469
@@ -2180,6 +2495,7 @@
     "description": "flag: Cambodia"
   },
   "u1F1F0_u1F1EE": {
+    "char": "🇰🇮",
     "codepoints": [
       127472,
       127470
@@ -2187,6 +2503,7 @@
     "description": "flag: Kiribati"
   },
   "u1F1F0_u1F1F2": {
+    "char": "🇰🇲",
     "codepoints": [
       127472,
       127474
@@ -2194,6 +2511,7 @@
     "description": "flag: Comoros"
   },
   "u1F1F0_u1F1F3": {
+    "char": "🇰🇳",
     "codepoints": [
       127472,
       127475
@@ -2201,6 +2519,7 @@
     "description": "flag: St. Kitts & Nevis"
   },
   "u1F1F0_u1F1F5": {
+    "char": "🇰🇵",
     "codepoints": [
       127472,
       127477
@@ -2208,6 +2527,7 @@
     "description": "flag: North Korea"
   },
   "u1F1F0_u1F1F7": {
+    "char": "🇰🇷",
     "codepoints": [
       127472,
       127479
@@ -2215,6 +2535,7 @@
     "description": "flag: South Korea"
   },
   "u1F1F0_u1F1FC": {
+    "char": "🇰🇼",
     "codepoints": [
       127472,
       127484
@@ -2222,6 +2543,7 @@
     "description": "flag: Kuwait"
   },
   "u1F1F0_u1F1FE": {
+    "char": "🇰🇾",
     "codepoints": [
       127472,
       127486
@@ -2229,6 +2551,7 @@
     "description": "flag: Cayman Islands"
   },
   "u1F1F0_u1F1FF": {
+    "char": "🇰🇿",
     "codepoints": [
       127472,
       127487
@@ -2236,6 +2559,7 @@
     "description": "flag: Kazakhstan"
   },
   "u1F1F1_u1F1E6": {
+    "char": "🇱🇦",
     "codepoints": [
       127473,
       127462
@@ -2243,6 +2567,7 @@
     "description": "flag: Laos"
   },
   "u1F1F1_u1F1E7": {
+    "char": "🇱🇧",
     "codepoints": [
       127473,
       127463
@@ -2250,6 +2575,7 @@
     "description": "flag: Lebanon"
   },
   "u1F1F1_u1F1E8": {
+    "char": "🇱🇨",
     "codepoints": [
       127473,
       127464
@@ -2257,6 +2583,7 @@
     "description": "flag: St. Lucia"
   },
   "u1F1F1_u1F1EE": {
+    "char": "🇱🇮",
     "codepoints": [
       127473,
       127470
@@ -2264,6 +2591,7 @@
     "description": "flag: Liechtenstein"
   },
   "u1F1F1_u1F1F0": {
+    "char": "🇱🇰",
     "codepoints": [
       127473,
       127472
@@ -2271,6 +2599,7 @@
     "description": "flag: Sri Lanka"
   },
   "u1F1F1_u1F1F7": {
+    "char": "🇱🇷",
     "codepoints": [
       127473,
       127479
@@ -2278,6 +2607,7 @@
     "description": "flag: Liberia"
   },
   "u1F1F1_u1F1F8": {
+    "char": "🇱🇸",
     "codepoints": [
       127473,
       127480
@@ -2285,6 +2615,7 @@
     "description": "flag: Lesotho"
   },
   "u1F1F1_u1F1F9": {
+    "char": "🇱🇹",
     "codepoints": [
       127473,
       127481
@@ -2292,6 +2623,7 @@
     "description": "flag: Lithuania"
   },
   "u1F1F1_u1F1FA": {
+    "char": "🇱🇺",
     "codepoints": [
       127473,
       127482
@@ -2299,6 +2631,7 @@
     "description": "flag: Luxembourg"
   },
   "u1F1F1_u1F1FB": {
+    "char": "🇱🇻",
     "codepoints": [
       127473,
       127483
@@ -2306,6 +2639,7 @@
     "description": "flag: Latvia"
   },
   "u1F1F1_u1F1FE": {
+    "char": "🇱🇾",
     "codepoints": [
       127473,
       127486
@@ -2313,6 +2647,7 @@
     "description": "flag: Libya"
   },
   "u1F1F2_u1F1E6": {
+    "char": "🇲🇦",
     "codepoints": [
       127474,
       127462
@@ -2320,6 +2655,7 @@
     "description": "flag: Morocco"
   },
   "u1F1F2_u1F1E8": {
+    "char": "🇲🇨",
     "codepoints": [
       127474,
       127464
@@ -2327,6 +2663,7 @@
     "description": "flag: Monaco"
   },
   "u1F1F2_u1F1E9": {
+    "char": "🇲🇩",
     "codepoints": [
       127474,
       127465
@@ -2334,6 +2671,7 @@
     "description": "flag: Moldova"
   },
   "u1F1F2_u1F1EA": {
+    "char": "🇲🇪",
     "codepoints": [
       127474,
       127466
@@ -2341,6 +2679,7 @@
     "description": "flag: Montenegro"
   },
   "u1F1F2_u1F1EB": {
+    "char": "🇲🇫",
     "codepoints": [
       127474,
       127467
@@ -2348,6 +2687,7 @@
     "description": "flag: St. Martin"
   },
   "u1F1F2_u1F1EC": {
+    "char": "🇲🇬",
     "codepoints": [
       127474,
       127468
@@ -2355,6 +2695,7 @@
     "description": "flag: Madagascar"
   },
   "u1F1F2_u1F1ED": {
+    "char": "🇲🇭",
     "codepoints": [
       127474,
       127469
@@ -2362,6 +2703,7 @@
     "description": "flag: Marshall Islands"
   },
   "u1F1F2_u1F1F0": {
+    "char": "🇲🇰",
     "codepoints": [
       127474,
       127472
@@ -2369,6 +2711,7 @@
     "description": "flag: North Macedonia"
   },
   "u1F1F2_u1F1F1": {
+    "char": "🇲🇱",
     "codepoints": [
       127474,
       127473
@@ -2376,6 +2719,7 @@
     "description": "flag: Mali"
   },
   "u1F1F2_u1F1F2": {
+    "char": "🇲🇲",
     "codepoints": [
       127474,
       127474
@@ -2383,6 +2727,7 @@
     "description": "flag: Myanmar (Burma)"
   },
   "u1F1F2_u1F1F3": {
+    "char": "🇲🇳",
     "codepoints": [
       127474,
       127475
@@ -2390,6 +2735,7 @@
     "description": "flag: Mongolia"
   },
   "u1F1F2_u1F1F4": {
+    "char": "🇲🇴",
     "codepoints": [
       127474,
       127476
@@ -2397,6 +2743,7 @@
     "description": "flag: Macao SAR China"
   },
   "u1F1F2_u1F1F5": {
+    "char": "🇲🇵",
     "codepoints": [
       127474,
       127477
@@ -2404,6 +2751,7 @@
     "description": "flag: Northern Mariana Islands"
   },
   "u1F1F2_u1F1F6": {
+    "char": "🇲🇶",
     "codepoints": [
       127474,
       127478
@@ -2411,6 +2759,7 @@
     "description": "flag: Martinique"
   },
   "u1F1F2_u1F1F7": {
+    "char": "🇲🇷",
     "codepoints": [
       127474,
       127479
@@ -2418,6 +2767,7 @@
     "description": "flag: Mauritania"
   },
   "u1F1F2_u1F1F8": {
+    "char": "🇲🇸",
     "codepoints": [
       127474,
       127480
@@ -2425,6 +2775,7 @@
     "description": "flag: Montserrat"
   },
   "u1F1F2_u1F1F9": {
+    "char": "🇲🇹",
     "codepoints": [
       127474,
       127481
@@ -2432,6 +2783,7 @@
     "description": "flag: Malta"
   },
   "u1F1F2_u1F1FA": {
+    "char": "🇲🇺",
     "codepoints": [
       127474,
       127482
@@ -2439,6 +2791,7 @@
     "description": "flag: Mauritius"
   },
   "u1F1F2_u1F1FB": {
+    "char": "🇲🇻",
     "codepoints": [
       127474,
       127483
@@ -2446,6 +2799,7 @@
     "description": "flag: Maldives"
   },
   "u1F1F2_u1F1FC": {
+    "char": "🇲🇼",
     "codepoints": [
       127474,
       127484
@@ -2453,6 +2807,7 @@
     "description": "flag: Malawi"
   },
   "u1F1F2_u1F1FD": {
+    "char": "🇲🇽",
     "codepoints": [
       127474,
       127485
@@ -2460,6 +2815,7 @@
     "description": "flag: Mexico"
   },
   "u1F1F2_u1F1FE": {
+    "char": "🇲🇾",
     "codepoints": [
       127474,
       127486
@@ -2467,6 +2823,7 @@
     "description": "flag: Malaysia"
   },
   "u1F1F2_u1F1FF": {
+    "char": "🇲🇿",
     "codepoints": [
       127474,
       127487
@@ -2474,6 +2831,7 @@
     "description": "flag: Mozambique"
   },
   "u1F1F3_u1F1E6": {
+    "char": "🇳🇦",
     "codepoints": [
       127475,
       127462
@@ -2481,6 +2839,7 @@
     "description": "flag: Namibia"
   },
   "u1F1F3_u1F1E8": {
+    "char": "🇳🇨",
     "codepoints": [
       127475,
       127464
@@ -2488,6 +2847,7 @@
     "description": "flag: New Caledonia"
   },
   "u1F1F3_u1F1EA": {
+    "char": "🇳🇪",
     "codepoints": [
       127475,
       127466
@@ -2495,6 +2855,7 @@
     "description": "flag: Niger"
   },
   "u1F1F3_u1F1EB": {
+    "char": "🇳🇫",
     "codepoints": [
       127475,
       127467
@@ -2502,6 +2863,7 @@
     "description": "flag: Norfolk Island"
   },
   "u1F1F3_u1F1EC": {
+    "char": "🇳🇬",
     "codepoints": [
       127475,
       127468
@@ -2509,6 +2871,7 @@
     "description": "flag: Nigeria"
   },
   "u1F1F3_u1F1EE": {
+    "char": "🇳🇮",
     "codepoints": [
       127475,
       127470
@@ -2516,6 +2879,7 @@
     "description": "flag: Nicaragua"
   },
   "u1F1F3_u1F1F1": {
+    "char": "🇳🇱",
     "codepoints": [
       127475,
       127473
@@ -2523,6 +2887,7 @@
     "description": "flag: Netherlands"
   },
   "u1F1F3_u1F1F4": {
+    "char": "🇳🇴",
     "codepoints": [
       127475,
       127476
@@ -2530,6 +2895,7 @@
     "description": "flag: Norway"
   },
   "u1F1F3_u1F1F5": {
+    "char": "🇳🇵",
     "codepoints": [
       127475,
       127477
@@ -2537,6 +2903,7 @@
     "description": "flag: Nepal"
   },
   "u1F1F3_u1F1F7": {
+    "char": "🇳🇷",
     "codepoints": [
       127475,
       127479
@@ -2544,6 +2911,7 @@
     "description": "flag: Nauru"
   },
   "u1F1F3_u1F1FA": {
+    "char": "🇳🇺",
     "codepoints": [
       127475,
       127482
@@ -2551,6 +2919,7 @@
     "description": "flag: Niue"
   },
   "u1F1F3_u1F1FF": {
+    "char": "🇳🇿",
     "codepoints": [
       127475,
       127487
@@ -2558,6 +2927,7 @@
     "description": "flag: New Zealand"
   },
   "u1F1F4_u1F1F2": {
+    "char": "🇴🇲",
     "codepoints": [
       127476,
       127474
@@ -2565,6 +2935,7 @@
     "description": "flag: Oman"
   },
   "u1F1F5_u1F1E6": {
+    "char": "🇵🇦",
     "codepoints": [
       127477,
       127462
@@ -2572,6 +2943,7 @@
     "description": "flag: Panama"
   },
   "u1F1F5_u1F1EA": {
+    "char": "🇵🇪",
     "codepoints": [
       127477,
       127466
@@ -2579,6 +2951,7 @@
     "description": "flag: Peru"
   },
   "u1F1F5_u1F1EB": {
+    "char": "🇵🇫",
     "codepoints": [
       127477,
       127467
@@ -2586,6 +2959,7 @@
     "description": "flag: French Polynesia"
   },
   "u1F1F5_u1F1EC": {
+    "char": "🇵🇬",
     "codepoints": [
       127477,
       127468
@@ -2593,6 +2967,7 @@
     "description": "flag: Papua New Guinea"
   },
   "u1F1F5_u1F1ED": {
+    "char": "🇵🇭",
     "codepoints": [
       127477,
       127469
@@ -2600,6 +2975,7 @@
     "description": "flag: Philippines"
   },
   "u1F1F5_u1F1F0": {
+    "char": "🇵🇰",
     "codepoints": [
       127477,
       127472
@@ -2607,6 +2983,7 @@
     "description": "flag: Pakistan"
   },
   "u1F1F5_u1F1F1": {
+    "char": "🇵🇱",
     "codepoints": [
       127477,
       127473
@@ -2614,6 +2991,7 @@
     "description": "flag: Poland"
   },
   "u1F1F5_u1F1F2": {
+    "char": "🇵🇲",
     "codepoints": [
       127477,
       127474
@@ -2621,6 +2999,7 @@
     "description": "flag: St. Pierre & Miquelon"
   },
   "u1F1F5_u1F1F3": {
+    "char": "🇵🇳",
     "codepoints": [
       127477,
       127475
@@ -2628,6 +3007,7 @@
     "description": "flag: Pitcairn Islands"
   },
   "u1F1F5_u1F1F7": {
+    "char": "🇵🇷",
     "codepoints": [
       127477,
       127479
@@ -2635,6 +3015,7 @@
     "description": "flag: Puerto Rico"
   },
   "u1F1F5_u1F1F8": {
+    "char": "🇵🇸",
     "codepoints": [
       127477,
       127480
@@ -2642,6 +3023,7 @@
     "description": "flag: Palestinian Territories"
   },
   "u1F1F5_u1F1F9": {
+    "char": "🇵🇹",
     "codepoints": [
       127477,
       127481
@@ -2649,6 +3031,7 @@
     "description": "flag: Portugal"
   },
   "u1F1F5_u1F1FC": {
+    "char": "🇵🇼",
     "codepoints": [
       127477,
       127484
@@ -2656,6 +3039,7 @@
     "description": "flag: Palau"
   },
   "u1F1F5_u1F1FE": {
+    "char": "🇵🇾",
     "codepoints": [
       127477,
       127486
@@ -2663,6 +3047,7 @@
     "description": "flag: Paraguay"
   },
   "u1F1F6_u1F1E6": {
+    "char": "🇶🇦",
     "codepoints": [
       127478,
       127462
@@ -2670,6 +3055,7 @@
     "description": "flag: Qatar"
   },
   "u1F1F7_u1F1EA": {
+    "char": "🇷🇪",
     "codepoints": [
       127479,
       127466
@@ -2677,6 +3063,7 @@
     "description": "flag: Réunion"
   },
   "u1F1F7_u1F1F4": {
+    "char": "🇷🇴",
     "codepoints": [
       127479,
       127476
@@ -2684,6 +3071,7 @@
     "description": "flag: Romania"
   },
   "u1F1F7_u1F1F8": {
+    "char": "🇷🇸",
     "codepoints": [
       127479,
       127480
@@ -2691,6 +3079,7 @@
     "description": "flag: Serbia"
   },
   "u1F1F7_u1F1FA": {
+    "char": "🇷🇺",
     "codepoints": [
       127479,
       127482
@@ -2698,6 +3087,7 @@
     "description": "flag: Russia"
   },
   "u1F1F7_u1F1FC": {
+    "char": "🇷🇼",
     "codepoints": [
       127479,
       127484
@@ -2705,6 +3095,7 @@
     "description": "flag: Rwanda"
   },
   "u1F1F8_u1F1E6": {
+    "char": "🇸🇦",
     "codepoints": [
       127480,
       127462
@@ -2712,6 +3103,7 @@
     "description": "flag: Saudi Arabia"
   },
   "u1F1F8_u1F1E7": {
+    "char": "🇸🇧",
     "codepoints": [
       127480,
       127463
@@ -2719,6 +3111,7 @@
     "description": "flag: Solomon Islands"
   },
   "u1F1F8_u1F1E8": {
+    "char": "🇸🇨",
     "codepoints": [
       127480,
       127464
@@ -2726,6 +3119,7 @@
     "description": "flag: Seychelles"
   },
   "u1F1F8_u1F1E9": {
+    "char": "🇸🇩",
     "codepoints": [
       127480,
       127465
@@ -2733,6 +3127,7 @@
     "description": "flag: Sudan"
   },
   "u1F1F8_u1F1EA": {
+    "char": "🇸🇪",
     "codepoints": [
       127480,
       127466
@@ -2740,6 +3135,7 @@
     "description": "flag: Sweden"
   },
   "u1F1F8_u1F1EC": {
+    "char": "🇸🇬",
     "codepoints": [
       127480,
       127468
@@ -2747,6 +3143,7 @@
     "description": "flag: Singapore"
   },
   "u1F1F8_u1F1ED": {
+    "char": "🇸🇭",
     "codepoints": [
       127480,
       127469
@@ -2754,6 +3151,7 @@
     "description": "flag: St. Helena"
   },
   "u1F1F8_u1F1EE": {
+    "char": "🇸🇮",
     "codepoints": [
       127480,
       127470
@@ -2761,6 +3159,7 @@
     "description": "flag: Slovenia"
   },
   "u1F1F8_u1F1EF": {
+    "char": "🇸🇯",
     "codepoints": [
       127480,
       127471
@@ -2768,6 +3167,7 @@
     "description": "flag: Svalbard & Jan Mayen"
   },
   "u1F1F8_u1F1F0": {
+    "char": "🇸🇰",
     "codepoints": [
       127480,
       127472
@@ -2775,6 +3175,7 @@
     "description": "flag: Slovakia"
   },
   "u1F1F8_u1F1F1": {
+    "char": "🇸🇱",
     "codepoints": [
       127480,
       127473
@@ -2782,6 +3183,7 @@
     "description": "flag: Sierra Leone"
   },
   "u1F1F8_u1F1F2": {
+    "char": "🇸🇲",
     "codepoints": [
       127480,
       127474
@@ -2789,6 +3191,7 @@
     "description": "flag: San Marino"
   },
   "u1F1F8_u1F1F3": {
+    "char": "🇸🇳",
     "codepoints": [
       127480,
       127475
@@ -2796,6 +3199,7 @@
     "description": "flag: Senegal"
   },
   "u1F1F8_u1F1F4": {
+    "char": "🇸🇴",
     "codepoints": [
       127480,
       127476
@@ -2803,6 +3207,7 @@
     "description": "flag: Somalia"
   },
   "u1F1F8_u1F1F7": {
+    "char": "🇸🇷",
     "codepoints": [
       127480,
       127479
@@ -2810,6 +3215,7 @@
     "description": "flag: Suriname"
   },
   "u1F1F8_u1F1F8": {
+    "char": "🇸🇸",
     "codepoints": [
       127480,
       127480
@@ -2817,6 +3223,7 @@
     "description": "flag: South Sudan"
   },
   "u1F1F8_u1F1F9": {
+    "char": "🇸🇹",
     "codepoints": [
       127480,
       127481
@@ -2824,6 +3231,7 @@
     "description": "flag: São Tomé & Príncipe"
   },
   "u1F1F8_u1F1FB": {
+    "char": "🇸🇻",
     "codepoints": [
       127480,
       127483
@@ -2831,6 +3239,7 @@
     "description": "flag: El Salvador"
   },
   "u1F1F8_u1F1FD": {
+    "char": "🇸🇽",
     "codepoints": [
       127480,
       127485
@@ -2838,6 +3247,7 @@
     "description": "flag: Sint Maarten"
   },
   "u1F1F8_u1F1FE": {
+    "char": "🇸🇾",
     "codepoints": [
       127480,
       127486
@@ -2845,6 +3255,7 @@
     "description": "flag: Syria"
   },
   "u1F1F8_u1F1FF": {
+    "char": "🇸🇿",
     "codepoints": [
       127480,
       127487
@@ -2852,6 +3263,7 @@
     "description": "flag: Eswatini"
   },
   "u1F1F9_u1F1E6": {
+    "char": "🇹🇦",
     "codepoints": [
       127481,
       127462
@@ -2859,6 +3271,7 @@
     "description": "flag: Tristan da Cunha"
   },
   "u1F1F9_u1F1E8": {
+    "char": "🇹🇨",
     "codepoints": [
       127481,
       127464
@@ -2866,6 +3279,7 @@
     "description": "flag: Turks & Caicos Islands"
   },
   "u1F1F9_u1F1E9": {
+    "char": "🇹🇩",
     "codepoints": [
       127481,
       127465
@@ -2873,6 +3287,7 @@
     "description": "flag: Chad"
   },
   "u1F1F9_u1F1EB": {
+    "char": "🇹🇫",
     "codepoints": [
       127481,
       127467
@@ -2880,6 +3295,7 @@
     "description": "flag: French Southern Territories"
   },
   "u1F1F9_u1F1EC": {
+    "char": "🇹🇬",
     "codepoints": [
       127481,
       127468
@@ -2887,6 +3303,7 @@
     "description": "flag: Togo"
   },
   "u1F1F9_u1F1ED": {
+    "char": "🇹🇭",
     "codepoints": [
       127481,
       127469
@@ -2894,6 +3311,7 @@
     "description": "flag: Thailand"
   },
   "u1F1F9_u1F1EF": {
+    "char": "🇹🇯",
     "codepoints": [
       127481,
       127471
@@ -2901,6 +3319,7 @@
     "description": "flag: Tajikistan"
   },
   "u1F1F9_u1F1F0": {
+    "char": "🇹🇰",
     "codepoints": [
       127481,
       127472
@@ -2908,6 +3327,7 @@
     "description": "flag: Tokelau"
   },
   "u1F1F9_u1F1F1": {
+    "char": "🇹🇱",
     "codepoints": [
       127481,
       127473
@@ -2915,6 +3335,7 @@
     "description": "flag: Timor-Leste"
   },
   "u1F1F9_u1F1F2": {
+    "char": "🇹🇲",
     "codepoints": [
       127481,
       127474
@@ -2922,6 +3343,7 @@
     "description": "flag: Turkmenistan"
   },
   "u1F1F9_u1F1F3": {
+    "char": "🇹🇳",
     "codepoints": [
       127481,
       127475
@@ -2929,6 +3351,7 @@
     "description": "flag: Tunisia"
   },
   "u1F1F9_u1F1F4": {
+    "char": "🇹🇴",
     "codepoints": [
       127481,
       127476
@@ -2936,6 +3359,7 @@
     "description": "flag: Tonga"
   },
   "u1F1F9_u1F1F7": {
+    "char": "🇹🇷",
     "codepoints": [
       127481,
       127479
@@ -2943,6 +3367,7 @@
     "description": "flag: Turkey"
   },
   "u1F1F9_u1F1F9": {
+    "char": "🇹🇹",
     "codepoints": [
       127481,
       127481
@@ -2950,6 +3375,7 @@
     "description": "flag: Trinidad & Tobago"
   },
   "u1F1F9_u1F1FB": {
+    "char": "🇹🇻",
     "codepoints": [
       127481,
       127483
@@ -2957,6 +3383,7 @@
     "description": "flag: Tuvalu"
   },
   "u1F1F9_u1F1FC": {
+    "char": "🇹🇼",
     "codepoints": [
       127481,
       127484
@@ -2964,6 +3391,7 @@
     "description": "flag: Taiwan"
   },
   "u1F1F9_u1F1FF": {
+    "char": "🇹🇿",
     "codepoints": [
       127481,
       127487
@@ -2971,6 +3399,7 @@
     "description": "flag: Tanzania"
   },
   "u1F1FA_u1F1E6": {
+    "char": "🇺🇦",
     "codepoints": [
       127482,
       127462
@@ -2978,6 +3407,7 @@
     "description": "flag: Ukraine"
   },
   "u1F1FA_u1F1EC": {
+    "char": "🇺🇬",
     "codepoints": [
       127482,
       127468
@@ -2985,6 +3415,7 @@
     "description": "flag: Uganda"
   },
   "u1F1FA_u1F1F2": {
+    "char": "🇺🇲",
     "codepoints": [
       127482,
       127474
@@ -2992,6 +3423,7 @@
     "description": "flag: U.S. Outlying Islands"
   },
   "u1F1FA_u1F1F3": {
+    "char": "🇺🇳",
     "codepoints": [
       127482,
       127475
@@ -2999,6 +3431,7 @@
     "description": "flag: United Nations"
   },
   "u1F1FA_u1F1F8": {
+    "char": "🇺🇸",
     "codepoints": [
       127482,
       127480
@@ -3006,6 +3439,7 @@
     "description": "flag: United States"
   },
   "u1F1FA_u1F1FE": {
+    "char": "🇺🇾",
     "codepoints": [
       127482,
       127486
@@ -3013,6 +3447,7 @@
     "description": "flag: Uruguay"
   },
   "u1F1FA_u1F1FF": {
+    "char": "🇺🇿",
     "codepoints": [
       127482,
       127487
@@ -3020,6 +3455,7 @@
     "description": "flag: Uzbekistan"
   },
   "u1F1FB_u1F1E6": {
+    "char": "🇻🇦",
     "codepoints": [
       127483,
       127462
@@ -3027,6 +3463,7 @@
     "description": "flag: Vatican City"
   },
   "u1F1FB_u1F1E8": {
+    "char": "🇻🇨",
     "codepoints": [
       127483,
       127464
@@ -3034,6 +3471,7 @@
     "description": "flag: St. Vincent & Grenadines"
   },
   "u1F1FB_u1F1EA": {
+    "char": "🇻🇪",
     "codepoints": [
       127483,
       127466
@@ -3041,6 +3479,7 @@
     "description": "flag: Venezuela"
   },
   "u1F1FB_u1F1EC": {
+    "char": "🇻🇬",
     "codepoints": [
       127483,
       127468
@@ -3048,6 +3487,7 @@
     "description": "flag: British Virgin Islands"
   },
   "u1F1FB_u1F1EE": {
+    "char": "🇻🇮",
     "codepoints": [
       127483,
       127470
@@ -3055,6 +3495,7 @@
     "description": "flag: U.S. Virgin Islands"
   },
   "u1F1FB_u1F1F3": {
+    "char": "🇻🇳",
     "codepoints": [
       127483,
       127475
@@ -3062,6 +3503,7 @@
     "description": "flag: Vietnam"
   },
   "u1F1FB_u1F1FA": {
+    "char": "🇻🇺",
     "codepoints": [
       127483,
       127482
@@ -3069,6 +3511,7 @@
     "description": "flag: Vanuatu"
   },
   "u1F1FC_u1F1EB": {
+    "char": "🇼🇫",
     "codepoints": [
       127484,
       127467
@@ -3076,6 +3519,7 @@
     "description": "flag: Wallis & Futuna"
   },
   "u1F1FC_u1F1F8": {
+    "char": "🇼🇸",
     "codepoints": [
       127484,
       127480
@@ -3083,6 +3527,7 @@
     "description": "flag: Samoa"
   },
   "u1F1FD_u1F1F0": {
+    "char": "🇽🇰",
     "codepoints": [
       127485,
       127472
@@ -3090,6 +3535,7 @@
     "description": "flag: Kosovo"
   },
   "u1F1FE_u1F1EA": {
+    "char": "🇾🇪",
     "codepoints": [
       127486,
       127466
@@ -3097,6 +3543,7 @@
     "description": "flag: Yemen"
   },
   "u1F1FE_u1F1F9": {
+    "char": "🇾🇹",
     "codepoints": [
       127486,
       127481
@@ -3104,6 +3551,7 @@
     "description": "flag: Mayotte"
   },
   "u1F1FF_u1F1E6": {
+    "char": "🇿🇦",
     "codepoints": [
       127487,
       127462
@@ -3111,6 +3559,7 @@
     "description": "flag: South Africa"
   },
   "u1F1FF_u1F1F2": {
+    "char": "🇿🇲",
     "codepoints": [
       127487,
       127474
@@ -3118,6 +3567,7 @@
     "description": "flag: Zambia"
   },
   "u1F1FF_u1F1FC": {
+    "char": "🇿🇼",
     "codepoints": [
       127487,
       127484
@@ -3125,12 +3575,14 @@
     "description": "flag: Zimbabwe"
   },
   "u1F201": {
+    "char": "🈁",
     "codepoints": [
       127489
     ],
     "description": "Japanese “here” button"
   },
   "u1F202": {
+    "char": "🈂️",
     "codepoints": [
       127490,
       65039
@@ -3138,24 +3590,28 @@
     "description": "Japanese “service charge” button"
   },
   "u1F21A": {
+    "char": "🈚",
     "codepoints": [
       127514
     ],
     "description": "Japanese “free of charge” button"
   },
   "u1F22F": {
+    "char": "🈯",
     "codepoints": [
       127535
     ],
     "description": "Japanese “reserved” button"
   },
   "u1F232": {
+    "char": "🈲",
     "codepoints": [
       127538
     ],
     "description": "Japanese “prohibited” button"
   },
   "u1F237": {
+    "char": "🈷️",
     "codepoints": [
       127543,
       65039
@@ -3163,24 +3619,28 @@
     "description": "Japanese “monthly amount” button"
   },
   "u1F238": {
+    "char": "🈸",
     "codepoints": [
       127544
     ],
     "description": "Japanese “application” button"
   },
   "u1F250": {
+    "char": "🉐",
     "codepoints": [
       127568
     ],
     "description": "Japanese “bargain” button"
   },
   "u1F300": {
+    "char": "🌀",
     "codepoints": [
       127744
     ],
     "description": "cyclone"
   },
   "u1F321": {
+    "char": "🌡️",
     "codepoints": [
       127777,
       65039
@@ -3188,6 +3648,7 @@
     "description": "thermometer"
   },
   "u1F324": {
+    "char": "🌤️",
     "codepoints": [
       127780,
       65039
@@ -3195,6 +3656,7 @@
     "description": "sun behind small cloud"
   },
   "u1F325": {
+    "char": "🌥️",
     "codepoints": [
       127781,
       65039
@@ -3202,6 +3664,7 @@
     "description": "sun behind large cloud"
   },
   "u1F326": {
+    "char": "🌦️",
     "codepoints": [
       127782,
       65039
@@ -3209,6 +3672,7 @@
     "description": "sun behind rain cloud"
   },
   "u1F327": {
+    "char": "🌧️",
     "codepoints": [
       127783,
       65039
@@ -3216,6 +3680,7 @@
     "description": "cloud with rain"
   },
   "u1F328": {
+    "char": "🌨️",
     "codepoints": [
       127784,
       65039
@@ -3223,6 +3688,7 @@
     "description": "cloud with snow"
   },
   "u1F329": {
+    "char": "🌩️",
     "codepoints": [
       127785,
       65039
@@ -3230,6 +3696,7 @@
     "description": "cloud with lightning"
   },
   "u1F32A": {
+    "char": "🌪️",
     "codepoints": [
       127786,
       65039
@@ -3237,6 +3704,7 @@
     "description": "tornado"
   },
   "u1F32B": {
+    "char": "🌫️",
     "codepoints": [
       127787,
       65039
@@ -3244,6 +3712,7 @@
     "description": "fog"
   },
   "u1F32C": {
+    "char": "🌬️",
     "codepoints": [
       127788,
       65039
@@ -3251,12 +3720,14 @@
     "description": "wind face"
   },
   "u1F32D": {
+    "char": "🌭",
     "codepoints": [
       127789
     ],
     "description": "hot dog"
   },
   "u1F336": {
+    "char": "🌶️",
     "codepoints": [
       127798,
       65039
@@ -3264,12 +3735,14 @@
     "description": "hot pepper"
   },
   "u1F337": {
+    "char": "🌷",
     "codepoints": [
       127799
     ],
     "description": "tulip"
   },
   "u1F37D": {
+    "char": "🍽️",
     "codepoints": [
       127869,
       65039
@@ -3277,12 +3750,14 @@
     "description": "fork and knife with plate"
   },
   "u1F37E": {
+    "char": "🍾",
     "codepoints": [
       127870
     ],
     "description": "bottle with popping cork"
   },
   "u1F385.1": {
+    "char": "🎅🏻",
     "codepoints": [
       127877,
       127995
@@ -3290,6 +3765,7 @@
     "description": "Santa Claus: light skin tone"
   },
   "u1F385.2": {
+    "char": "🎅🏼",
     "codepoints": [
       127877,
       127996
@@ -3297,6 +3773,7 @@
     "description": "Santa Claus: medium-light skin tone"
   },
   "u1F385.3": {
+    "char": "🎅🏽",
     "codepoints": [
       127877,
       127997
@@ -3304,6 +3781,7 @@
     "description": "Santa Claus: medium skin tone"
   },
   "u1F385.4": {
+    "char": "🎅🏾",
     "codepoints": [
       127877,
       127998
@@ -3311,6 +3789,7 @@
     "description": "Santa Claus: medium-dark skin tone"
   },
   "u1F385.5": {
+    "char": "🎅🏿",
     "codepoints": [
       127877,
       127999
@@ -3318,6 +3797,7 @@
     "description": "Santa Claus: dark skin tone"
   },
   "u1F396": {
+    "char": "🎖️",
     "codepoints": [
       127894,
       65039
@@ -3325,6 +3805,7 @@
     "description": "military medal"
   },
   "u1F397": {
+    "char": "🎗️",
     "codepoints": [
       127895,
       65039
@@ -3332,6 +3813,7 @@
     "description": "reminder ribbon"
   },
   "u1F399": {
+    "char": "🎙️",
     "codepoints": [
       127897,
       65039
@@ -3339,6 +3821,7 @@
     "description": "studio microphone"
   },
   "u1F39A": {
+    "char": "🎚️",
     "codepoints": [
       127898,
       65039
@@ -3346,6 +3829,7 @@
     "description": "level slider"
   },
   "u1F39B": {
+    "char": "🎛️",
     "codepoints": [
       127899,
       65039
@@ -3353,6 +3837,7 @@
     "description": "control knobs"
   },
   "u1F39E": {
+    "char": "🎞️",
     "codepoints": [
       127902,
       65039
@@ -3360,6 +3845,7 @@
     "description": "film frames"
   },
   "u1F39F": {
+    "char": "🎟️",
     "codepoints": [
       127903,
       65039
@@ -3367,12 +3853,14 @@
     "description": "admission tickets"
   },
   "u1F3A0": {
+    "char": "🎠",
     "codepoints": [
       127904
     ],
     "description": "carousel horse"
   },
   "u1F3C2.1": {
+    "char": "🏂🏻",
     "codepoints": [
       127938,
       127995
@@ -3380,6 +3868,7 @@
     "description": "snowboarder: light skin tone"
   },
   "u1F3C2.2": {
+    "char": "🏂🏼",
     "codepoints": [
       127938,
       127996
@@ -3387,6 +3876,7 @@
     "description": "snowboarder: medium-light skin tone"
   },
   "u1F3C2.3": {
+    "char": "🏂🏽",
     "codepoints": [
       127938,
       127997
@@ -3394,6 +3884,7 @@
     "description": "snowboarder: medium skin tone"
   },
   "u1F3C2.4": {
+    "char": "🏂🏾",
     "codepoints": [
       127938,
       127998
@@ -3401,6 +3892,7 @@
     "description": "snowboarder: medium-dark skin tone"
   },
   "u1F3C2.5": {
+    "char": "🏂🏿",
     "codepoints": [
       127938,
       127999
@@ -3408,6 +3900,7 @@
     "description": "snowboarder: dark skin tone"
   },
   "u1F3C3.1": {
+    "char": "🏃🏻",
     "codepoints": [
       127939,
       127995
@@ -3415,6 +3908,7 @@
     "description": "person running: light skin tone"
   },
   "u1F3C3.2": {
+    "char": "🏃🏼",
     "codepoints": [
       127939,
       127996
@@ -3422,6 +3916,7 @@
     "description": "person running: medium-light skin tone"
   },
   "u1F3C3.3": {
+    "char": "🏃🏽",
     "codepoints": [
       127939,
       127997
@@ -3429,6 +3924,7 @@
     "description": "person running: medium skin tone"
   },
   "u1F3C3.4": {
+    "char": "🏃🏾",
     "codepoints": [
       127939,
       127998
@@ -3436,6 +3932,7 @@
     "description": "person running: medium-dark skin tone"
   },
   "u1F3C3.5": {
+    "char": "🏃🏿",
     "codepoints": [
       127939,
       127999
@@ -3443,6 +3940,7 @@
     "description": "person running: dark skin tone"
   },
   "u1F3C4.1": {
+    "char": "🏄🏻",
     "codepoints": [
       127940,
       127995
@@ -3450,6 +3948,7 @@
     "description": "person surfing: light skin tone"
   },
   "u1F3C4.2": {
+    "char": "🏄🏼",
     "codepoints": [
       127940,
       127996
@@ -3457,6 +3956,7 @@
     "description": "person surfing: medium-light skin tone"
   },
   "u1F3C4.3": {
+    "char": "🏄🏽",
     "codepoints": [
       127940,
       127997
@@ -3464,6 +3964,7 @@
     "description": "person surfing: medium skin tone"
   },
   "u1F3C4.4": {
+    "char": "🏄🏾",
     "codepoints": [
       127940,
       127998
@@ -3471,6 +3972,7 @@
     "description": "person surfing: medium-dark skin tone"
   },
   "u1F3C4.5": {
+    "char": "🏄🏿",
     "codepoints": [
       127940,
       127999
@@ -3478,6 +3980,7 @@
     "description": "person surfing: dark skin tone"
   },
   "u1F3C7.1": {
+    "char": "🏇🏻",
     "codepoints": [
       127943,
       127995
@@ -3485,6 +3988,7 @@
     "description": "horse racing: light skin tone"
   },
   "u1F3C7.2": {
+    "char": "🏇🏼",
     "codepoints": [
       127943,
       127996
@@ -3492,6 +3996,7 @@
     "description": "horse racing: medium-light skin tone"
   },
   "u1F3C7.3": {
+    "char": "🏇🏽",
     "codepoints": [
       127943,
       127997
@@ -3499,6 +4004,7 @@
     "description": "horse racing: medium skin tone"
   },
   "u1F3C7.4": {
+    "char": "🏇🏾",
     "codepoints": [
       127943,
       127998
@@ -3506,6 +4012,7 @@
     "description": "horse racing: medium-dark skin tone"
   },
   "u1F3C7.5": {
+    "char": "🏇🏿",
     "codepoints": [
       127943,
       127999
@@ -3513,6 +4020,7 @@
     "description": "horse racing: dark skin tone"
   },
   "u1F3CA.1": {
+    "char": "🏊🏻",
     "codepoints": [
       127946,
       127995
@@ -3520,6 +4028,7 @@
     "description": "person swimming: light skin tone"
   },
   "u1F3CA.2": {
+    "char": "🏊🏼",
     "codepoints": [
       127946,
       127996
@@ -3527,6 +4036,7 @@
     "description": "person swimming: medium-light skin tone"
   },
   "u1F3CA.3": {
+    "char": "🏊🏽",
     "codepoints": [
       127946,
       127997
@@ -3534,6 +4044,7 @@
     "description": "person swimming: medium skin tone"
   },
   "u1F3CA.4": {
+    "char": "🏊🏾",
     "codepoints": [
       127946,
       127998
@@ -3541,6 +4052,7 @@
     "description": "person swimming: medium-dark skin tone"
   },
   "u1F3CA.5": {
+    "char": "🏊🏿",
     "codepoints": [
       127946,
       127999
@@ -3548,6 +4060,7 @@
     "description": "person swimming: dark skin tone"
   },
   "u1F3CB": {
+    "char": "🏋️",
     "codepoints": [
       127947,
       65039
@@ -3555,6 +4068,7 @@
     "description": "person lifting weights"
   },
   "u1F3CB.1": {
+    "char": "🏋🏻",
     "codepoints": [
       127947,
       127995
@@ -3562,6 +4076,7 @@
     "description": "person lifting weights: light skin tone"
   },
   "u1F3CB.2": {
+    "char": "🏋🏼",
     "codepoints": [
       127947,
       127996
@@ -3569,6 +4084,7 @@
     "description": "person lifting weights: medium-light skin tone"
   },
   "u1F3CB.3": {
+    "char": "🏋🏽",
     "codepoints": [
       127947,
       127997
@@ -3576,6 +4092,7 @@
     "description": "person lifting weights: medium skin tone"
   },
   "u1F3CB.4": {
+    "char": "🏋🏾",
     "codepoints": [
       127947,
       127998
@@ -3583,6 +4100,7 @@
     "description": "person lifting weights: medium-dark skin tone"
   },
   "u1F3CB.5": {
+    "char": "🏋🏿",
     "codepoints": [
       127947,
       127999
@@ -3590,6 +4108,7 @@
     "description": "person lifting weights: dark skin tone"
   },
   "u1F3CC": {
+    "char": "🏌️",
     "codepoints": [
       127948,
       65039
@@ -3597,6 +4116,7 @@
     "description": "person golfing"
   },
   "u1F3CC.1": {
+    "char": "🏌🏻",
     "codepoints": [
       127948,
       127995
@@ -3604,6 +4124,7 @@
     "description": "person golfing: light skin tone"
   },
   "u1F3CC.2": {
+    "char": "🏌🏼",
     "codepoints": [
       127948,
       127996
@@ -3611,6 +4132,7 @@
     "description": "person golfing: medium-light skin tone"
   },
   "u1F3CC.3": {
+    "char": "🏌🏽",
     "codepoints": [
       127948,
       127997
@@ -3618,6 +4140,7 @@
     "description": "person golfing: medium skin tone"
   },
   "u1F3CC.4": {
+    "char": "🏌🏾",
     "codepoints": [
       127948,
       127998
@@ -3625,6 +4148,7 @@
     "description": "person golfing: medium-dark skin tone"
   },
   "u1F3CC.5": {
+    "char": "🏌🏿",
     "codepoints": [
       127948,
       127999
@@ -3632,6 +4156,7 @@
     "description": "person golfing: dark skin tone"
   },
   "u1F3CD": {
+    "char": "🏍️",
     "codepoints": [
       127949,
       65039
@@ -3639,6 +4164,7 @@
     "description": "motorcycle"
   },
   "u1F3CE": {
+    "char": "🏎️",
     "codepoints": [
       127950,
       65039
@@ -3646,12 +4172,14 @@
     "description": "racing car"
   },
   "u1F3CF": {
+    "char": "🏏",
     "codepoints": [
       127951
     ],
     "description": "cricket game"
   },
   "u1F3D4": {
+    "char": "🏔️",
     "codepoints": [
       127956,
       65039
@@ -3659,6 +4187,7 @@
     "description": "snow-capped mountain"
   },
   "u1F3D5": {
+    "char": "🏕️",
     "codepoints": [
       127957,
       65039
@@ -3666,6 +4195,7 @@
     "description": "camping"
   },
   "u1F3D6": {
+    "char": "🏖️",
     "codepoints": [
       127958,
       65039
@@ -3673,6 +4203,7 @@
     "description": "beach with umbrella"
   },
   "u1F3D7": {
+    "char": "🏗️",
     "codepoints": [
       127959,
       65039
@@ -3680,6 +4211,7 @@
     "description": "building construction"
   },
   "u1F3D8": {
+    "char": "🏘️",
     "codepoints": [
       127960,
       65039
@@ -3687,6 +4219,7 @@
     "description": "houses"
   },
   "u1F3D9": {
+    "char": "🏙️",
     "codepoints": [
       127961,
       65039
@@ -3694,6 +4227,7 @@
     "description": "cityscape"
   },
   "u1F3DA": {
+    "char": "🏚️",
     "codepoints": [
       127962,
       65039
@@ -3701,6 +4235,7 @@
     "description": "derelict house"
   },
   "u1F3DB": {
+    "char": "🏛️",
     "codepoints": [
       127963,
       65039
@@ -3708,6 +4243,7 @@
     "description": "classical building"
   },
   "u1F3DC": {
+    "char": "🏜️",
     "codepoints": [
       127964,
       65039
@@ -3715,6 +4251,7 @@
     "description": "desert"
   },
   "u1F3DD": {
+    "char": "🏝️",
     "codepoints": [
       127965,
       65039
@@ -3722,6 +4259,7 @@
     "description": "desert island"
   },
   "u1F3DE": {
+    "char": "🏞️",
     "codepoints": [
       127966,
       65039
@@ -3729,6 +4267,7 @@
     "description": "national park"
   },
   "u1F3DF": {
+    "char": "🏟️",
     "codepoints": [
       127967,
       65039
@@ -3736,12 +4275,14 @@
     "description": "stadium"
   },
   "u1F3E0": {
+    "char": "🏠",
     "codepoints": [
       127968
     ],
     "description": "house"
   },
   "u1F3F3": {
+    "char": "🏳️",
     "codepoints": [
       127987,
       65039
@@ -3749,12 +4290,14 @@
     "description": "white flag"
   },
   "u1F3F4": {
+    "char": "🏴",
     "codepoints": [
       127988
     ],
     "description": "black flag"
   },
   "u1F3F4_uE0067_uE0062_uE0065_uE006E_uE0067_uE007F": {
+    "char": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "codepoints": [
       127988,
       917607,
@@ -3767,6 +4310,7 @@
     "description": "flag: England"
   },
   "u1F3F4_uE0067_uE0062_uE0073_uE0063_uE0074_uE007F": {
+    "char": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
     "codepoints": [
       127988,
       917607,
@@ -3779,6 +4323,7 @@
     "description": "flag: Scotland"
   },
   "u1F3F4_uE0067_uE0062_uE0077_uE006C_uE0073_uE007F": {
+    "char": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
     "codepoints": [
       127988,
       917607,
@@ -3791,6 +4336,7 @@
     "description": "flag: Wales"
   },
   "u1F3F5": {
+    "char": "🏵️",
     "codepoints": [
       127989,
       65039
@@ -3798,6 +4344,7 @@
     "description": "rosette"
   },
   "u1F3F7": {
+    "char": "🏷️",
     "codepoints": [
       127991,
       65039
@@ -3805,12 +4352,14 @@
     "description": "label"
   },
   "u1F3F8": {
+    "char": "🏸",
     "codepoints": [
       127992
     ],
     "description": "badminton"
   },
   "u1F43F": {
+    "char": "🐿️",
     "codepoints": [
       128063,
       65039
@@ -3818,12 +4367,14 @@
     "description": "chipmunk"
   },
   "u1F440": {
+    "char": "👀",
     "codepoints": [
       128064
     ],
     "description": "eyes"
   },
   "u1F441": {
+    "char": "👁️",
     "codepoints": [
       128065,
       65039
@@ -3831,12 +4382,14 @@
     "description": "eye"
   },
   "u1F442": {
+    "char": "👂",
     "codepoints": [
       128066
     ],
     "description": "ear"
   },
   "u1F442.1": {
+    "char": "👂🏻",
     "codepoints": [
       128066,
       127995
@@ -3844,6 +4397,7 @@
     "description": "ear: light skin tone"
   },
   "u1F442.2": {
+    "char": "👂🏼",
     "codepoints": [
       128066,
       127996
@@ -3851,6 +4405,7 @@
     "description": "ear: medium-light skin tone"
   },
   "u1F442.3": {
+    "char": "👂🏽",
     "codepoints": [
       128066,
       127997
@@ -3858,6 +4413,7 @@
     "description": "ear: medium skin tone"
   },
   "u1F442.4": {
+    "char": "👂🏾",
     "codepoints": [
       128066,
       127998
@@ -3865,6 +4421,7 @@
     "description": "ear: medium-dark skin tone"
   },
   "u1F442.5": {
+    "char": "👂🏿",
     "codepoints": [
       128066,
       127999
@@ -3872,6 +4429,7 @@
     "description": "ear: dark skin tone"
   },
   "u1F443.1": {
+    "char": "👃🏻",
     "codepoints": [
       128067,
       127995
@@ -3879,6 +4437,7 @@
     "description": "nose: light skin tone"
   },
   "u1F443.2": {
+    "char": "👃🏼",
     "codepoints": [
       128067,
       127996
@@ -3886,6 +4445,7 @@
     "description": "nose: medium-light skin tone"
   },
   "u1F443.3": {
+    "char": "👃🏽",
     "codepoints": [
       128067,
       127997
@@ -3893,6 +4453,7 @@
     "description": "nose: medium skin tone"
   },
   "u1F443.4": {
+    "char": "👃🏾",
     "codepoints": [
       128067,
       127998
@@ -3900,6 +4461,7 @@
     "description": "nose: medium-dark skin tone"
   },
   "u1F443.5": {
+    "char": "👃🏿",
     "codepoints": [
       128067,
       127999
@@ -3907,6 +4469,7 @@
     "description": "nose: dark skin tone"
   },
   "u1F446.1": {
+    "char": "👆🏻",
     "codepoints": [
       128070,
       127995
@@ -3914,6 +4477,7 @@
     "description": "backhand index pointing up: light skin tone"
   },
   "u1F446.2": {
+    "char": "👆🏼",
     "codepoints": [
       128070,
       127996
@@ -3921,6 +4485,7 @@
     "description": "backhand index pointing up: medium-light skin tone"
   },
   "u1F446.3": {
+    "char": "👆🏽",
     "codepoints": [
       128070,
       127997
@@ -3928,6 +4493,7 @@
     "description": "backhand index pointing up: medium skin tone"
   },
   "u1F446.4": {
+    "char": "👆🏾",
     "codepoints": [
       128070,
       127998
@@ -3935,6 +4501,7 @@
     "description": "backhand index pointing up: medium-dark skin tone"
   },
   "u1F446.5": {
+    "char": "👆🏿",
     "codepoints": [
       128070,
       127999
@@ -3942,6 +4509,7 @@
     "description": "backhand index pointing up: dark skin tone"
   },
   "u1F447.1": {
+    "char": "👇🏻",
     "codepoints": [
       128071,
       127995
@@ -3949,6 +4517,7 @@
     "description": "backhand index pointing down: light skin tone"
   },
   "u1F447.2": {
+    "char": "👇🏼",
     "codepoints": [
       128071,
       127996
@@ -3956,6 +4525,7 @@
     "description": "backhand index pointing down: medium-light skin tone"
   },
   "u1F447.3": {
+    "char": "👇🏽",
     "codepoints": [
       128071,
       127997
@@ -3963,6 +4533,7 @@
     "description": "backhand index pointing down: medium skin tone"
   },
   "u1F447.4": {
+    "char": "👇🏾",
     "codepoints": [
       128071,
       127998
@@ -3970,6 +4541,7 @@
     "description": "backhand index pointing down: medium-dark skin tone"
   },
   "u1F447.5": {
+    "char": "👇🏿",
     "codepoints": [
       128071,
       127999
@@ -3977,6 +4549,7 @@
     "description": "backhand index pointing down: dark skin tone"
   },
   "u1F448.1": {
+    "char": "👈🏻",
     "codepoints": [
       128072,
       127995
@@ -3984,6 +4557,7 @@
     "description": "backhand index pointing left: light skin tone"
   },
   "u1F448.2": {
+    "char": "👈🏼",
     "codepoints": [
       128072,
       127996
@@ -3991,6 +4565,7 @@
     "description": "backhand index pointing left: medium-light skin tone"
   },
   "u1F448.3": {
+    "char": "👈🏽",
     "codepoints": [
       128072,
       127997
@@ -3998,6 +4573,7 @@
     "description": "backhand index pointing left: medium skin tone"
   },
   "u1F448.4": {
+    "char": "👈🏾",
     "codepoints": [
       128072,
       127998
@@ -4005,6 +4581,7 @@
     "description": "backhand index pointing left: medium-dark skin tone"
   },
   "u1F448.5": {
+    "char": "👈🏿",
     "codepoints": [
       128072,
       127999
@@ -4012,6 +4589,7 @@
     "description": "backhand index pointing left: dark skin tone"
   },
   "u1F449.1": {
+    "char": "👉🏻",
     "codepoints": [
       128073,
       127995
@@ -4019,6 +4597,7 @@
     "description": "backhand index pointing right: light skin tone"
   },
   "u1F449.2": {
+    "char": "👉🏼",
     "codepoints": [
       128073,
       127996
@@ -4026,6 +4605,7 @@
     "description": "backhand index pointing right: medium-light skin tone"
   },
   "u1F449.3": {
+    "char": "👉🏽",
     "codepoints": [
       128073,
       127997
@@ -4033,6 +4613,7 @@
     "description": "backhand index pointing right: medium skin tone"
   },
   "u1F449.4": {
+    "char": "👉🏾",
     "codepoints": [
       128073,
       127998
@@ -4040,6 +4621,7 @@
     "description": "backhand index pointing right: medium-dark skin tone"
   },
   "u1F449.5": {
+    "char": "👉🏿",
     "codepoints": [
       128073,
       127999
@@ -4047,6 +4629,7 @@
     "description": "backhand index pointing right: dark skin tone"
   },
   "u1F44A.1": {
+    "char": "👊🏻",
     "codepoints": [
       128074,
       127995
@@ -4054,6 +4637,7 @@
     "description": "oncoming fist: light skin tone"
   },
   "u1F44A.2": {
+    "char": "👊🏼",
     "codepoints": [
       128074,
       127996
@@ -4061,6 +4645,7 @@
     "description": "oncoming fist: medium-light skin tone"
   },
   "u1F44A.3": {
+    "char": "👊🏽",
     "codepoints": [
       128074,
       127997
@@ -4068,6 +4653,7 @@
     "description": "oncoming fist: medium skin tone"
   },
   "u1F44A.4": {
+    "char": "👊🏾",
     "codepoints": [
       128074,
       127998
@@ -4075,6 +4661,7 @@
     "description": "oncoming fist: medium-dark skin tone"
   },
   "u1F44A.5": {
+    "char": "👊🏿",
     "codepoints": [
       128074,
       127999
@@ -4082,6 +4669,7 @@
     "description": "oncoming fist: dark skin tone"
   },
   "u1F44B.1": {
+    "char": "👋🏻",
     "codepoints": [
       128075,
       127995
@@ -4089,6 +4677,7 @@
     "description": "waving hand: light skin tone"
   },
   "u1F44B.2": {
+    "char": "👋🏼",
     "codepoints": [
       128075,
       127996
@@ -4096,6 +4685,7 @@
     "description": "waving hand: medium-light skin tone"
   },
   "u1F44B.3": {
+    "char": "👋🏽",
     "codepoints": [
       128075,
       127997
@@ -4103,6 +4693,7 @@
     "description": "waving hand: medium skin tone"
   },
   "u1F44B.4": {
+    "char": "👋🏾",
     "codepoints": [
       128075,
       127998
@@ -4110,6 +4701,7 @@
     "description": "waving hand: medium-dark skin tone"
   },
   "u1F44B.5": {
+    "char": "👋🏿",
     "codepoints": [
       128075,
       127999
@@ -4117,6 +4709,7 @@
     "description": "waving hand: dark skin tone"
   },
   "u1F44C.1": {
+    "char": "👌🏻",
     "codepoints": [
       128076,
       127995
@@ -4124,6 +4717,7 @@
     "description": "OK hand: light skin tone"
   },
   "u1F44C.2": {
+    "char": "👌🏼",
     "codepoints": [
       128076,
       127996
@@ -4131,6 +4725,7 @@
     "description": "OK hand: medium-light skin tone"
   },
   "u1F44C.3": {
+    "char": "👌🏽",
     "codepoints": [
       128076,
       127997
@@ -4138,6 +4733,7 @@
     "description": "OK hand: medium skin tone"
   },
   "u1F44C.4": {
+    "char": "👌🏾",
     "codepoints": [
       128076,
       127998
@@ -4145,6 +4741,7 @@
     "description": "OK hand: medium-dark skin tone"
   },
   "u1F44C.5": {
+    "char": "👌🏿",
     "codepoints": [
       128076,
       127999
@@ -4152,6 +4749,7 @@
     "description": "OK hand: dark skin tone"
   },
   "u1F44D.1": {
+    "char": "👍🏻",
     "codepoints": [
       128077,
       127995
@@ -4159,6 +4757,7 @@
     "description": "thumbs up: light skin tone"
   },
   "u1F44D.2": {
+    "char": "👍🏼",
     "codepoints": [
       128077,
       127996
@@ -4166,6 +4765,7 @@
     "description": "thumbs up: medium-light skin tone"
   },
   "u1F44D.3": {
+    "char": "👍🏽",
     "codepoints": [
       128077,
       127997
@@ -4173,6 +4773,7 @@
     "description": "thumbs up: medium skin tone"
   },
   "u1F44D.4": {
+    "char": "👍🏾",
     "codepoints": [
       128077,
       127998
@@ -4180,6 +4781,7 @@
     "description": "thumbs up: medium-dark skin tone"
   },
   "u1F44D.5": {
+    "char": "👍🏿",
     "codepoints": [
       128077,
       127999
@@ -4187,6 +4789,7 @@
     "description": "thumbs up: dark skin tone"
   },
   "u1F44E.1": {
+    "char": "👎🏻",
     "codepoints": [
       128078,
       127995
@@ -4194,6 +4797,7 @@
     "description": "thumbs down: light skin tone"
   },
   "u1F44E.2": {
+    "char": "👎🏼",
     "codepoints": [
       128078,
       127996
@@ -4201,6 +4805,7 @@
     "description": "thumbs down: medium-light skin tone"
   },
   "u1F44E.3": {
+    "char": "👎🏽",
     "codepoints": [
       128078,
       127997
@@ -4208,6 +4813,7 @@
     "description": "thumbs down: medium skin tone"
   },
   "u1F44E.4": {
+    "char": "👎🏾",
     "codepoints": [
       128078,
       127998
@@ -4215,6 +4821,7 @@
     "description": "thumbs down: medium-dark skin tone"
   },
   "u1F44E.5": {
+    "char": "👎🏿",
     "codepoints": [
       128078,
       127999
@@ -4222,6 +4829,7 @@
     "description": "thumbs down: dark skin tone"
   },
   "u1F44F.1": {
+    "char": "👏🏻",
     "codepoints": [
       128079,
       127995
@@ -4229,6 +4837,7 @@
     "description": "clapping hands: light skin tone"
   },
   "u1F44F.2": {
+    "char": "👏🏼",
     "codepoints": [
       128079,
       127996
@@ -4236,6 +4845,7 @@
     "description": "clapping hands: medium-light skin tone"
   },
   "u1F44F.3": {
+    "char": "👏🏽",
     "codepoints": [
       128079,
       127997
@@ -4243,6 +4853,7 @@
     "description": "clapping hands: medium skin tone"
   },
   "u1F44F.4": {
+    "char": "👏🏾",
     "codepoints": [
       128079,
       127998
@@ -4250,6 +4861,7 @@
     "description": "clapping hands: medium-dark skin tone"
   },
   "u1F44F.5": {
+    "char": "👏🏿",
     "codepoints": [
       128079,
       127999
@@ -4257,6 +4869,7 @@
     "description": "clapping hands: dark skin tone"
   },
   "u1F450.1": {
+    "char": "👐🏻",
     "codepoints": [
       128080,
       127995
@@ -4264,6 +4877,7 @@
     "description": "open hands: light skin tone"
   },
   "u1F450.2": {
+    "char": "👐🏼",
     "codepoints": [
       128080,
       127996
@@ -4271,6 +4885,7 @@
     "description": "open hands: medium-light skin tone"
   },
   "u1F450.3": {
+    "char": "👐🏽",
     "codepoints": [
       128080,
       127997
@@ -4278,6 +4893,7 @@
     "description": "open hands: medium skin tone"
   },
   "u1F450.4": {
+    "char": "👐🏾",
     "codepoints": [
       128080,
       127998
@@ -4285,6 +4901,7 @@
     "description": "open hands: medium-dark skin tone"
   },
   "u1F450.5": {
+    "char": "👐🏿",
     "codepoints": [
       128080,
       127999
@@ -4292,6 +4909,7 @@
     "description": "open hands: dark skin tone"
   },
   "u1F466.1": {
+    "char": "👦🏻",
     "codepoints": [
       128102,
       127995
@@ -4299,6 +4917,7 @@
     "description": "boy: light skin tone"
   },
   "u1F466.2": {
+    "char": "👦🏼",
     "codepoints": [
       128102,
       127996
@@ -4306,6 +4925,7 @@
     "description": "boy: medium-light skin tone"
   },
   "u1F466.3": {
+    "char": "👦🏽",
     "codepoints": [
       128102,
       127997
@@ -4313,6 +4933,7 @@
     "description": "boy: medium skin tone"
   },
   "u1F466.4": {
+    "char": "👦🏾",
     "codepoints": [
       128102,
       127998
@@ -4320,6 +4941,7 @@
     "description": "boy: medium-dark skin tone"
   },
   "u1F466.5": {
+    "char": "👦🏿",
     "codepoints": [
       128102,
       127999
@@ -4327,6 +4949,7 @@
     "description": "boy: dark skin tone"
   },
   "u1F467.1": {
+    "char": "👧🏻",
     "codepoints": [
       128103,
       127995
@@ -4334,6 +4957,7 @@
     "description": "girl: light skin tone"
   },
   "u1F467.2": {
+    "char": "👧🏼",
     "codepoints": [
       128103,
       127996
@@ -4341,6 +4965,7 @@
     "description": "girl: medium-light skin tone"
   },
   "u1F467.3": {
+    "char": "👧🏽",
     "codepoints": [
       128103,
       127997
@@ -4348,6 +4973,7 @@
     "description": "girl: medium skin tone"
   },
   "u1F467.4": {
+    "char": "👧🏾",
     "codepoints": [
       128103,
       127998
@@ -4355,6 +4981,7 @@
     "description": "girl: medium-dark skin tone"
   },
   "u1F467.5": {
+    "char": "👧🏿",
     "codepoints": [
       128103,
       127999
@@ -4362,6 +4989,7 @@
     "description": "girl: dark skin tone"
   },
   "u1F468.1": {
+    "char": "👨🏻",
     "codepoints": [
       128104,
       127995
@@ -4369,6 +4997,7 @@
     "description": "man: light skin tone"
   },
   "u1F468.2": {
+    "char": "👨🏼",
     "codepoints": [
       128104,
       127996
@@ -4376,6 +5005,7 @@
     "description": "man: medium-light skin tone"
   },
   "u1F468.3": {
+    "char": "👨🏽",
     "codepoints": [
       128104,
       127997
@@ -4383,6 +5013,7 @@
     "description": "man: medium skin tone"
   },
   "u1F468.4": {
+    "char": "👨🏾",
     "codepoints": [
       128104,
       127998
@@ -4390,6 +5021,7 @@
     "description": "man: medium-dark skin tone"
   },
   "u1F468.5": {
+    "char": "👨🏿",
     "codepoints": [
       128104,
       127999
@@ -4397,6 +5029,7 @@
     "description": "man: dark skin tone"
   },
   "u1F469.1": {
+    "char": "👩🏻",
     "codepoints": [
       128105,
       127995
@@ -4404,6 +5037,7 @@
     "description": "woman: light skin tone"
   },
   "u1F469.2": {
+    "char": "👩🏼",
     "codepoints": [
       128105,
       127996
@@ -4411,6 +5045,7 @@
     "description": "woman: medium-light skin tone"
   },
   "u1F469.3": {
+    "char": "👩🏽",
     "codepoints": [
       128105,
       127997
@@ -4418,6 +5053,7 @@
     "description": "woman: medium skin tone"
   },
   "u1F469.4": {
+    "char": "👩🏾",
     "codepoints": [
       128105,
       127998
@@ -4425,6 +5061,7 @@
     "description": "woman: medium-dark skin tone"
   },
   "u1F469.5": {
+    "char": "👩🏿",
     "codepoints": [
       128105,
       127999
@@ -4432,6 +5069,7 @@
     "description": "woman: dark skin tone"
   },
   "u1F46B.1": {
+    "char": "👫🏻",
     "codepoints": [
       128107,
       127995
@@ -4439,6 +5077,7 @@
     "description": "woman and man holding hands: light skin tone"
   },
   "u1F46B.2": {
+    "char": "👫🏼",
     "codepoints": [
       128107,
       127996
@@ -4446,6 +5085,7 @@
     "description": "woman and man holding hands: medium-light skin tone"
   },
   "u1F46B.3": {
+    "char": "👫🏽",
     "codepoints": [
       128107,
       127997
@@ -4453,6 +5093,7 @@
     "description": "woman and man holding hands: medium skin tone"
   },
   "u1F46B.4": {
+    "char": "👫🏾",
     "codepoints": [
       128107,
       127998
@@ -4460,6 +5101,7 @@
     "description": "woman and man holding hands: medium-dark skin tone"
   },
   "u1F46B.5": {
+    "char": "👫🏿",
     "codepoints": [
       128107,
       127999
@@ -4467,6 +5109,7 @@
     "description": "woman and man holding hands: dark skin tone"
   },
   "u1F46C.1": {
+    "char": "👬🏻",
     "codepoints": [
       128108,
       127995
@@ -4474,6 +5117,7 @@
     "description": "men holding hands: light skin tone"
   },
   "u1F46C.2": {
+    "char": "👬🏼",
     "codepoints": [
       128108,
       127996
@@ -4481,6 +5125,7 @@
     "description": "men holding hands: medium-light skin tone"
   },
   "u1F46C.3": {
+    "char": "👬🏽",
     "codepoints": [
       128108,
       127997
@@ -4488,6 +5133,7 @@
     "description": "men holding hands: medium skin tone"
   },
   "u1F46C.4": {
+    "char": "👬🏾",
     "codepoints": [
       128108,
       127998
@@ -4495,6 +5141,7 @@
     "description": "men holding hands: medium-dark skin tone"
   },
   "u1F46C.5": {
+    "char": "👬🏿",
     "codepoints": [
       128108,
       127999
@@ -4502,6 +5149,7 @@
     "description": "men holding hands: dark skin tone"
   },
   "u1F46D.1": {
+    "char": "👭🏻",
     "codepoints": [
       128109,
       127995
@@ -4509,6 +5157,7 @@
     "description": "women holding hands: light skin tone"
   },
   "u1F46D.2": {
+    "char": "👭🏼",
     "codepoints": [
       128109,
       127996
@@ -4516,6 +5165,7 @@
     "description": "women holding hands: medium-light skin tone"
   },
   "u1F46D.3": {
+    "char": "👭🏽",
     "codepoints": [
       128109,
       127997
@@ -4523,6 +5173,7 @@
     "description": "women holding hands: medium skin tone"
   },
   "u1F46D.4": {
+    "char": "👭🏾",
     "codepoints": [
       128109,
       127998
@@ -4530,6 +5181,7 @@
     "description": "women holding hands: medium-dark skin tone"
   },
   "u1F46D.5": {
+    "char": "👭🏿",
     "codepoints": [
       128109,
       127999
@@ -4537,6 +5189,7 @@
     "description": "women holding hands: dark skin tone"
   },
   "u1F46E.1": {
+    "char": "👮🏻",
     "codepoints": [
       128110,
       127995
@@ -4544,6 +5197,7 @@
     "description": "police officer: light skin tone"
   },
   "u1F46E.2": {
+    "char": "👮🏼",
     "codepoints": [
       128110,
       127996
@@ -4551,6 +5205,7 @@
     "description": "police officer: medium-light skin tone"
   },
   "u1F46E.3": {
+    "char": "👮🏽",
     "codepoints": [
       128110,
       127997
@@ -4558,6 +5213,7 @@
     "description": "police officer: medium skin tone"
   },
   "u1F46E.4": {
+    "char": "👮🏾",
     "codepoints": [
       128110,
       127998
@@ -4565,6 +5221,7 @@
     "description": "police officer: medium-dark skin tone"
   },
   "u1F46E.5": {
+    "char": "👮🏿",
     "codepoints": [
       128110,
       127999
@@ -4572,6 +5229,7 @@
     "description": "police officer: dark skin tone"
   },
   "u1F470.1": {
+    "char": "👰🏻",
     "codepoints": [
       128112,
       127995
@@ -4579,6 +5237,7 @@
     "description": "bride with veil: light skin tone"
   },
   "u1F470.2": {
+    "char": "👰🏼",
     "codepoints": [
       128112,
       127996
@@ -4586,6 +5245,7 @@
     "description": "bride with veil: medium-light skin tone"
   },
   "u1F470.3": {
+    "char": "👰🏽",
     "codepoints": [
       128112,
       127997
@@ -4593,6 +5253,7 @@
     "description": "bride with veil: medium skin tone"
   },
   "u1F470.4": {
+    "char": "👰🏾",
     "codepoints": [
       128112,
       127998
@@ -4600,6 +5261,7 @@
     "description": "bride with veil: medium-dark skin tone"
   },
   "u1F470.5": {
+    "char": "👰🏿",
     "codepoints": [
       128112,
       127999
@@ -4607,6 +5269,7 @@
     "description": "bride with veil: dark skin tone"
   },
   "u1F471.1": {
+    "char": "👱🏻",
     "codepoints": [
       128113,
       127995
@@ -4614,6 +5277,7 @@
     "description": "person: light skin tone, blond hair"
   },
   "u1F471.2": {
+    "char": "👱🏼",
     "codepoints": [
       128113,
       127996
@@ -4621,6 +5285,7 @@
     "description": "person: medium-light skin tone, blond hair"
   },
   "u1F471.3": {
+    "char": "👱🏽",
     "codepoints": [
       128113,
       127997
@@ -4628,6 +5293,7 @@
     "description": "person: medium skin tone, blond hair"
   },
   "u1F471.4": {
+    "char": "👱🏾",
     "codepoints": [
       128113,
       127998
@@ -4635,6 +5301,7 @@
     "description": "person: medium-dark skin tone, blond hair"
   },
   "u1F471.5": {
+    "char": "👱🏿",
     "codepoints": [
       128113,
       127999
@@ -4642,6 +5309,7 @@
     "description": "person: dark skin tone, blond hair"
   },
   "u1F472.1": {
+    "char": "👲🏻",
     "codepoints": [
       128114,
       127995
@@ -4649,6 +5317,7 @@
     "description": "man with skullcap: light skin tone"
   },
   "u1F472.2": {
+    "char": "👲🏼",
     "codepoints": [
       128114,
       127996
@@ -4656,6 +5325,7 @@
     "description": "man with skullcap: medium-light skin tone"
   },
   "u1F472.3": {
+    "char": "👲🏽",
     "codepoints": [
       128114,
       127997
@@ -4663,6 +5333,7 @@
     "description": "man with skullcap: medium skin tone"
   },
   "u1F472.4": {
+    "char": "👲🏾",
     "codepoints": [
       128114,
       127998
@@ -4670,6 +5341,7 @@
     "description": "man with skullcap: medium-dark skin tone"
   },
   "u1F472.5": {
+    "char": "👲🏿",
     "codepoints": [
       128114,
       127999
@@ -4677,6 +5349,7 @@
     "description": "man with skullcap: dark skin tone"
   },
   "u1F473.1": {
+    "char": "👳🏻",
     "codepoints": [
       128115,
       127995
@@ -4684,6 +5357,7 @@
     "description": "person wearing turban: light skin tone"
   },
   "u1F473.2": {
+    "char": "👳🏼",
     "codepoints": [
       128115,
       127996
@@ -4691,6 +5365,7 @@
     "description": "person wearing turban: medium-light skin tone"
   },
   "u1F473.3": {
+    "char": "👳🏽",
     "codepoints": [
       128115,
       127997
@@ -4698,6 +5373,7 @@
     "description": "person wearing turban: medium skin tone"
   },
   "u1F473.4": {
+    "char": "👳🏾",
     "codepoints": [
       128115,
       127998
@@ -4705,6 +5381,7 @@
     "description": "person wearing turban: medium-dark skin tone"
   },
   "u1F473.5": {
+    "char": "👳🏿",
     "codepoints": [
       128115,
       127999
@@ -4712,6 +5389,7 @@
     "description": "person wearing turban: dark skin tone"
   },
   "u1F474.1": {
+    "char": "👴🏻",
     "codepoints": [
       128116,
       127995
@@ -4719,6 +5397,7 @@
     "description": "old man: light skin tone"
   },
   "u1F474.2": {
+    "char": "👴🏼",
     "codepoints": [
       128116,
       127996
@@ -4726,6 +5405,7 @@
     "description": "old man: medium-light skin tone"
   },
   "u1F474.3": {
+    "char": "👴🏽",
     "codepoints": [
       128116,
       127997
@@ -4733,6 +5413,7 @@
     "description": "old man: medium skin tone"
   },
   "u1F474.4": {
+    "char": "👴🏾",
     "codepoints": [
       128116,
       127998
@@ -4740,6 +5421,7 @@
     "description": "old man: medium-dark skin tone"
   },
   "u1F474.5": {
+    "char": "👴🏿",
     "codepoints": [
       128116,
       127999
@@ -4747,6 +5429,7 @@
     "description": "old man: dark skin tone"
   },
   "u1F475.1": {
+    "char": "👵🏻",
     "codepoints": [
       128117,
       127995
@@ -4754,6 +5437,7 @@
     "description": "old woman: light skin tone"
   },
   "u1F475.2": {
+    "char": "👵🏼",
     "codepoints": [
       128117,
       127996
@@ -4761,6 +5445,7 @@
     "description": "old woman: medium-light skin tone"
   },
   "u1F475.3": {
+    "char": "👵🏽",
     "codepoints": [
       128117,
       127997
@@ -4768,6 +5453,7 @@
     "description": "old woman: medium skin tone"
   },
   "u1F475.4": {
+    "char": "👵🏾",
     "codepoints": [
       128117,
       127998
@@ -4775,6 +5461,7 @@
     "description": "old woman: medium-dark skin tone"
   },
   "u1F475.5": {
+    "char": "👵🏿",
     "codepoints": [
       128117,
       127999
@@ -4782,6 +5469,7 @@
     "description": "old woman: dark skin tone"
   },
   "u1F476.1": {
+    "char": "👶🏻",
     "codepoints": [
       128118,
       127995
@@ -4789,6 +5477,7 @@
     "description": "baby: light skin tone"
   },
   "u1F476.2": {
+    "char": "👶🏼",
     "codepoints": [
       128118,
       127996
@@ -4796,6 +5485,7 @@
     "description": "baby: medium-light skin tone"
   },
   "u1F476.3": {
+    "char": "👶🏽",
     "codepoints": [
       128118,
       127997
@@ -4803,6 +5493,7 @@
     "description": "baby: medium skin tone"
   },
   "u1F476.4": {
+    "char": "👶🏾",
     "codepoints": [
       128118,
       127998
@@ -4810,6 +5501,7 @@
     "description": "baby: medium-dark skin tone"
   },
   "u1F476.5": {
+    "char": "👶🏿",
     "codepoints": [
       128118,
       127999
@@ -4817,6 +5509,7 @@
     "description": "baby: dark skin tone"
   },
   "u1F477.1": {
+    "char": "👷🏻",
     "codepoints": [
       128119,
       127995
@@ -4824,6 +5517,7 @@
     "description": "construction worker: light skin tone"
   },
   "u1F477.2": {
+    "char": "👷🏼",
     "codepoints": [
       128119,
       127996
@@ -4831,6 +5525,7 @@
     "description": "construction worker: medium-light skin tone"
   },
   "u1F477.3": {
+    "char": "👷🏽",
     "codepoints": [
       128119,
       127997
@@ -4838,6 +5533,7 @@
     "description": "construction worker: medium skin tone"
   },
   "u1F477.4": {
+    "char": "👷🏾",
     "codepoints": [
       128119,
       127998
@@ -4845,6 +5541,7 @@
     "description": "construction worker: medium-dark skin tone"
   },
   "u1F477.5": {
+    "char": "👷🏿",
     "codepoints": [
       128119,
       127999
@@ -4852,6 +5549,7 @@
     "description": "construction worker: dark skin tone"
   },
   "u1F478.1": {
+    "char": "👸🏻",
     "codepoints": [
       128120,
       127995
@@ -4859,6 +5557,7 @@
     "description": "princess: light skin tone"
   },
   "u1F478.2": {
+    "char": "👸🏼",
     "codepoints": [
       128120,
       127996
@@ -4866,6 +5565,7 @@
     "description": "princess: medium-light skin tone"
   },
   "u1F478.3": {
+    "char": "👸🏽",
     "codepoints": [
       128120,
       127997
@@ -4873,6 +5573,7 @@
     "description": "princess: medium skin tone"
   },
   "u1F478.4": {
+    "char": "👸🏾",
     "codepoints": [
       128120,
       127998
@@ -4880,6 +5581,7 @@
     "description": "princess: medium-dark skin tone"
   },
   "u1F478.5": {
+    "char": "👸🏿",
     "codepoints": [
       128120,
       127999
@@ -4887,6 +5589,7 @@
     "description": "princess: dark skin tone"
   },
   "u1F47C.1": {
+    "char": "👼🏻",
     "codepoints": [
       128124,
       127995
@@ -4894,6 +5597,7 @@
     "description": "baby angel: light skin tone"
   },
   "u1F47C.2": {
+    "char": "👼🏼",
     "codepoints": [
       128124,
       127996
@@ -4901,6 +5605,7 @@
     "description": "baby angel: medium-light skin tone"
   },
   "u1F47C.3": {
+    "char": "👼🏽",
     "codepoints": [
       128124,
       127997
@@ -4908,6 +5613,7 @@
     "description": "baby angel: medium skin tone"
   },
   "u1F47C.4": {
+    "char": "👼🏾",
     "codepoints": [
       128124,
       127998
@@ -4915,6 +5621,7 @@
     "description": "baby angel: medium-dark skin tone"
   },
   "u1F47C.5": {
+    "char": "👼🏿",
     "codepoints": [
       128124,
       127999
@@ -4922,6 +5629,7 @@
     "description": "baby angel: dark skin tone"
   },
   "u1F481.1": {
+    "char": "💁🏻",
     "codepoints": [
       128129,
       127995
@@ -4929,6 +5637,7 @@
     "description": "person tipping hand: light skin tone"
   },
   "u1F481.2": {
+    "char": "💁🏼",
     "codepoints": [
       128129,
       127996
@@ -4936,6 +5645,7 @@
     "description": "person tipping hand: medium-light skin tone"
   },
   "u1F481.3": {
+    "char": "💁🏽",
     "codepoints": [
       128129,
       127997
@@ -4943,6 +5653,7 @@
     "description": "person tipping hand: medium skin tone"
   },
   "u1F481.4": {
+    "char": "💁🏾",
     "codepoints": [
       128129,
       127998
@@ -4950,6 +5661,7 @@
     "description": "person tipping hand: medium-dark skin tone"
   },
   "u1F481.5": {
+    "char": "💁🏿",
     "codepoints": [
       128129,
       127999
@@ -4957,6 +5669,7 @@
     "description": "person tipping hand: dark skin tone"
   },
   "u1F482.1": {
+    "char": "💂🏻",
     "codepoints": [
       128130,
       127995
@@ -4964,6 +5677,7 @@
     "description": "guard: light skin tone"
   },
   "u1F482.2": {
+    "char": "💂🏼",
     "codepoints": [
       128130,
       127996
@@ -4971,6 +5685,7 @@
     "description": "guard: medium-light skin tone"
   },
   "u1F482.3": {
+    "char": "💂🏽",
     "codepoints": [
       128130,
       127997
@@ -4978,6 +5693,7 @@
     "description": "guard: medium skin tone"
   },
   "u1F482.4": {
+    "char": "💂🏾",
     "codepoints": [
       128130,
       127998
@@ -4985,6 +5701,7 @@
     "description": "guard: medium-dark skin tone"
   },
   "u1F482.5": {
+    "char": "💂🏿",
     "codepoints": [
       128130,
       127999
@@ -4992,6 +5709,7 @@
     "description": "guard: dark skin tone"
   },
   "u1F483.1": {
+    "char": "💃🏻",
     "codepoints": [
       128131,
       127995
@@ -4999,6 +5717,7 @@
     "description": "woman dancing: light skin tone"
   },
   "u1F483.2": {
+    "char": "💃🏼",
     "codepoints": [
       128131,
       127996
@@ -5006,6 +5725,7 @@
     "description": "woman dancing: medium-light skin tone"
   },
   "u1F483.3": {
+    "char": "💃🏽",
     "codepoints": [
       128131,
       127997
@@ -5013,6 +5733,7 @@
     "description": "woman dancing: medium skin tone"
   },
   "u1F483.4": {
+    "char": "💃🏾",
     "codepoints": [
       128131,
       127998
@@ -5020,6 +5741,7 @@
     "description": "woman dancing: medium-dark skin tone"
   },
   "u1F483.5": {
+    "char": "💃🏿",
     "codepoints": [
       128131,
       127999
@@ -5027,6 +5749,7 @@
     "description": "woman dancing: dark skin tone"
   },
   "u1F485.1": {
+    "char": "💅🏻",
     "codepoints": [
       128133,
       127995
@@ -5034,6 +5757,7 @@
     "description": "nail polish: light skin tone"
   },
   "u1F485.2": {
+    "char": "💅🏼",
     "codepoints": [
       128133,
       127996
@@ -5041,6 +5765,7 @@
     "description": "nail polish: medium-light skin tone"
   },
   "u1F485.3": {
+    "char": "💅🏽",
     "codepoints": [
       128133,
       127997
@@ -5048,6 +5773,7 @@
     "description": "nail polish: medium skin tone"
   },
   "u1F485.4": {
+    "char": "💅🏾",
     "codepoints": [
       128133,
       127998
@@ -5055,6 +5781,7 @@
     "description": "nail polish: medium-dark skin tone"
   },
   "u1F485.5": {
+    "char": "💅🏿",
     "codepoints": [
       128133,
       127999
@@ -5062,6 +5789,7 @@
     "description": "nail polish: dark skin tone"
   },
   "u1F486.1": {
+    "char": "💆🏻",
     "codepoints": [
       128134,
       127995
@@ -5069,6 +5797,7 @@
     "description": "person getting massage: light skin tone"
   },
   "u1F486.2": {
+    "char": "💆🏼",
     "codepoints": [
       128134,
       127996
@@ -5076,6 +5805,7 @@
     "description": "person getting massage: medium-light skin tone"
   },
   "u1F486.3": {
+    "char": "💆🏽",
     "codepoints": [
       128134,
       127997
@@ -5083,6 +5813,7 @@
     "description": "person getting massage: medium skin tone"
   },
   "u1F486.4": {
+    "char": "💆🏾",
     "codepoints": [
       128134,
       127998
@@ -5090,6 +5821,7 @@
     "description": "person getting massage: medium-dark skin tone"
   },
   "u1F486.5": {
+    "char": "💆🏿",
     "codepoints": [
       128134,
       127999
@@ -5097,6 +5829,7 @@
     "description": "person getting massage: dark skin tone"
   },
   "u1F487.1": {
+    "char": "💇🏻",
     "codepoints": [
       128135,
       127995
@@ -5104,6 +5837,7 @@
     "description": "person getting haircut: light skin tone"
   },
   "u1F487.2": {
+    "char": "💇🏼",
     "codepoints": [
       128135,
       127996
@@ -5111,6 +5845,7 @@
     "description": "person getting haircut: medium-light skin tone"
   },
   "u1F487.3": {
+    "char": "💇🏽",
     "codepoints": [
       128135,
       127997
@@ -5118,6 +5853,7 @@
     "description": "person getting haircut: medium skin tone"
   },
   "u1F487.4": {
+    "char": "💇🏾",
     "codepoints": [
       128135,
       127998
@@ -5125,6 +5861,7 @@
     "description": "person getting haircut: medium-dark skin tone"
   },
   "u1F487.5": {
+    "char": "💇🏿",
     "codepoints": [
       128135,
       127999
@@ -5132,6 +5869,7 @@
     "description": "person getting haircut: dark skin tone"
   },
   "u1F4AA.1": {
+    "char": "💪🏻",
     "codepoints": [
       128170,
       127995
@@ -5139,6 +5877,7 @@
     "description": "flexed biceps: light skin tone"
   },
   "u1F4AA.2": {
+    "char": "💪🏼",
     "codepoints": [
       128170,
       127996
@@ -5146,6 +5885,7 @@
     "description": "flexed biceps: medium-light skin tone"
   },
   "u1F4AA.3": {
+    "char": "💪🏽",
     "codepoints": [
       128170,
       127997
@@ -5153,6 +5893,7 @@
     "description": "flexed biceps: medium skin tone"
   },
   "u1F4AA.4": {
+    "char": "💪🏾",
     "codepoints": [
       128170,
       127998
@@ -5160,6 +5901,7 @@
     "description": "flexed biceps: medium-dark skin tone"
   },
   "u1F4AA.5": {
+    "char": "💪🏿",
     "codepoints": [
       128170,
       127999
@@ -5167,6 +5909,7 @@
     "description": "flexed biceps: dark skin tone"
   },
   "u1F4FD": {
+    "char": "📽️",
     "codepoints": [
       128253,
       65039
@@ -5174,12 +5917,14 @@
     "description": "film projector"
   },
   "u1F4FF": {
+    "char": "📿",
     "codepoints": [
       128255
     ],
     "description": "prayer beads"
   },
   "u1F549": {
+    "char": "🕉️",
     "codepoints": [
       128329,
       65039
@@ -5187,6 +5932,7 @@
     "description": "om"
   },
   "u1F54A": {
+    "char": "🕊️",
     "codepoints": [
       128330,
       65039
@@ -5194,18 +5940,21 @@
     "description": "dove"
   },
   "u1F54B": {
+    "char": "🕋",
     "codepoints": [
       128331
     ],
     "description": "kaaba"
   },
   "u1F550": {
+    "char": "🕐",
     "codepoints": [
       128336
     ],
     "description": "one o’clock"
   },
   "u1F56F": {
+    "char": "🕯️",
     "codepoints": [
       128367,
       65039
@@ -5213,6 +5962,7 @@
     "description": "candle"
   },
   "u1F570": {
+    "char": "🕰️",
     "codepoints": [
       128368,
       65039
@@ -5220,6 +5970,7 @@
     "description": "mantelpiece clock"
   },
   "u1F573": {
+    "char": "🕳️",
     "codepoints": [
       128371,
       65039
@@ -5227,6 +5978,7 @@
     "description": "hole"
   },
   "u1F574": {
+    "char": "🕴️",
     "codepoints": [
       128372,
       65039
@@ -5234,6 +5986,7 @@
     "description": "man in suit levitating"
   },
   "u1F574.1": {
+    "char": "🕴🏻",
     "codepoints": [
       128372,
       127995
@@ -5241,6 +5994,7 @@
     "description": "man in suit levitating: light skin tone"
   },
   "u1F574.2": {
+    "char": "🕴🏼",
     "codepoints": [
       128372,
       127996
@@ -5248,6 +6002,7 @@
     "description": "man in suit levitating: medium-light skin tone"
   },
   "u1F574.3": {
+    "char": "🕴🏽",
     "codepoints": [
       128372,
       127997
@@ -5255,6 +6010,7 @@
     "description": "man in suit levitating: medium skin tone"
   },
   "u1F574.4": {
+    "char": "🕴🏾",
     "codepoints": [
       128372,
       127998
@@ -5262,6 +6018,7 @@
     "description": "man in suit levitating: medium-dark skin tone"
   },
   "u1F574.5": {
+    "char": "🕴🏿",
     "codepoints": [
       128372,
       127999
@@ -5269,6 +6026,7 @@
     "description": "man in suit levitating: dark skin tone"
   },
   "u1F575": {
+    "char": "🕵️",
     "codepoints": [
       128373,
       65039
@@ -5276,6 +6034,7 @@
     "description": "detective"
   },
   "u1F575.1": {
+    "char": "🕵🏻",
     "codepoints": [
       128373,
       127995
@@ -5283,6 +6042,7 @@
     "description": "detective: light skin tone"
   },
   "u1F575.2": {
+    "char": "🕵🏼",
     "codepoints": [
       128373,
       127996
@@ -5290,6 +6050,7 @@
     "description": "detective: medium-light skin tone"
   },
   "u1F575.3": {
+    "char": "🕵🏽",
     "codepoints": [
       128373,
       127997
@@ -5297,6 +6058,7 @@
     "description": "detective: medium skin tone"
   },
   "u1F575.4": {
+    "char": "🕵🏾",
     "codepoints": [
       128373,
       127998
@@ -5304,6 +6066,7 @@
     "description": "detective: medium-dark skin tone"
   },
   "u1F575.5": {
+    "char": "🕵🏿",
     "codepoints": [
       128373,
       127999
@@ -5311,6 +6074,7 @@
     "description": "detective: dark skin tone"
   },
   "u1F576": {
+    "char": "🕶️",
     "codepoints": [
       128374,
       65039
@@ -5318,6 +6082,7 @@
     "description": "sunglasses"
   },
   "u1F577": {
+    "char": "🕷️",
     "codepoints": [
       128375,
       65039
@@ -5325,6 +6090,7 @@
     "description": "spider"
   },
   "u1F578": {
+    "char": "🕸️",
     "codepoints": [
       128376,
       65039
@@ -5332,6 +6098,7 @@
     "description": "spider web"
   },
   "u1F579": {
+    "char": "🕹️",
     "codepoints": [
       128377,
       65039
@@ -5339,12 +6106,14 @@
     "description": "joystick"
   },
   "u1F57A": {
+    "char": "🕺",
     "codepoints": [
       128378
     ],
     "description": "man dancing"
   },
   "u1F57A.1": {
+    "char": "🕺🏻",
     "codepoints": [
       128378,
       127995
@@ -5352,6 +6121,7 @@
     "description": "man dancing: light skin tone"
   },
   "u1F57A.2": {
+    "char": "🕺🏼",
     "codepoints": [
       128378,
       127996
@@ -5359,6 +6129,7 @@
     "description": "man dancing: medium-light skin tone"
   },
   "u1F57A.3": {
+    "char": "🕺🏽",
     "codepoints": [
       128378,
       127997
@@ -5366,6 +6137,7 @@
     "description": "man dancing: medium skin tone"
   },
   "u1F57A.4": {
+    "char": "🕺🏾",
     "codepoints": [
       128378,
       127998
@@ -5373,6 +6145,7 @@
     "description": "man dancing: medium-dark skin tone"
   },
   "u1F57A.5": {
+    "char": "🕺🏿",
     "codepoints": [
       128378,
       127999
@@ -5380,6 +6153,7 @@
     "description": "man dancing: dark skin tone"
   },
   "u1F587": {
+    "char": "🖇️",
     "codepoints": [
       128391,
       65039
@@ -5387,6 +6161,7 @@
     "description": "linked paperclips"
   },
   "u1F58A": {
+    "char": "🖊️",
     "codepoints": [
       128394,
       65039
@@ -5394,6 +6169,7 @@
     "description": "pen"
   },
   "u1F58B": {
+    "char": "🖋️",
     "codepoints": [
       128395,
       65039
@@ -5401,6 +6177,7 @@
     "description": "fountain pen"
   },
   "u1F58C": {
+    "char": "🖌️",
     "codepoints": [
       128396,
       65039
@@ -5408,6 +6185,7 @@
     "description": "paintbrush"
   },
   "u1F58D": {
+    "char": "🖍️",
     "codepoints": [
       128397,
       65039
@@ -5415,6 +6193,7 @@
     "description": "crayon"
   },
   "u1F590": {
+    "char": "🖐️",
     "codepoints": [
       128400,
       65039
@@ -5422,6 +6201,7 @@
     "description": "hand with fingers splayed"
   },
   "u1F590.1": {
+    "char": "🖐🏻",
     "codepoints": [
       128400,
       127995
@@ -5429,6 +6209,7 @@
     "description": "hand with fingers splayed: light skin tone"
   },
   "u1F590.2": {
+    "char": "🖐🏼",
     "codepoints": [
       128400,
       127996
@@ -5436,6 +6217,7 @@
     "description": "hand with fingers splayed: medium-light skin tone"
   },
   "u1F590.3": {
+    "char": "🖐🏽",
     "codepoints": [
       128400,
       127997
@@ -5443,6 +6225,7 @@
     "description": "hand with fingers splayed: medium skin tone"
   },
   "u1F590.4": {
+    "char": "🖐🏾",
     "codepoints": [
       128400,
       127998
@@ -5450,6 +6233,7 @@
     "description": "hand with fingers splayed: medium-dark skin tone"
   },
   "u1F590.5": {
+    "char": "🖐🏿",
     "codepoints": [
       128400,
       127999
@@ -5457,12 +6241,14 @@
     "description": "hand with fingers splayed: dark skin tone"
   },
   "u1F595": {
+    "char": "🖕",
     "codepoints": [
       128405
     ],
     "description": "middle finger"
   },
   "u1F595.1": {
+    "char": "🖕🏻",
     "codepoints": [
       128405,
       127995
@@ -5470,6 +6256,7 @@
     "description": "middle finger: light skin tone"
   },
   "u1F595.2": {
+    "char": "🖕🏼",
     "codepoints": [
       128405,
       127996
@@ -5477,6 +6264,7 @@
     "description": "middle finger: medium-light skin tone"
   },
   "u1F595.3": {
+    "char": "🖕🏽",
     "codepoints": [
       128405,
       127997
@@ -5484,6 +6272,7 @@
     "description": "middle finger: medium skin tone"
   },
   "u1F595.4": {
+    "char": "🖕🏾",
     "codepoints": [
       128405,
       127998
@@ -5491,6 +6280,7 @@
     "description": "middle finger: medium-dark skin tone"
   },
   "u1F595.5": {
+    "char": "🖕🏿",
     "codepoints": [
       128405,
       127999
@@ -5498,6 +6288,7 @@
     "description": "middle finger: dark skin tone"
   },
   "u1F596.1": {
+    "char": "🖖🏻",
     "codepoints": [
       128406,
       127995
@@ -5505,6 +6296,7 @@
     "description": "vulcan salute: light skin tone"
   },
   "u1F596.2": {
+    "char": "🖖🏼",
     "codepoints": [
       128406,
       127996
@@ -5512,6 +6304,7 @@
     "description": "vulcan salute: medium-light skin tone"
   },
   "u1F596.3": {
+    "char": "🖖🏽",
     "codepoints": [
       128406,
       127997
@@ -5519,6 +6312,7 @@
     "description": "vulcan salute: medium skin tone"
   },
   "u1F596.4": {
+    "char": "🖖🏾",
     "codepoints": [
       128406,
       127998
@@ -5526,6 +6320,7 @@
     "description": "vulcan salute: medium-dark skin tone"
   },
   "u1F596.5": {
+    "char": "🖖🏿",
     "codepoints": [
       128406,
       127999
@@ -5533,12 +6328,14 @@
     "description": "vulcan salute: dark skin tone"
   },
   "u1F5A4": {
+    "char": "🖤",
     "codepoints": [
       128420
     ],
     "description": "black heart"
   },
   "u1F5A5": {
+    "char": "🖥️",
     "codepoints": [
       128421,
       65039
@@ -5546,6 +6343,7 @@
     "description": "desktop computer"
   },
   "u1F5A8": {
+    "char": "🖨️",
     "codepoints": [
       128424,
       65039
@@ -5553,6 +6351,7 @@
     "description": "printer"
   },
   "u1F5B1": {
+    "char": "🖱️",
     "codepoints": [
       128433,
       65039
@@ -5560,6 +6359,7 @@
     "description": "computer mouse"
   },
   "u1F5B2": {
+    "char": "🖲️",
     "codepoints": [
       128434,
       65039
@@ -5567,6 +6367,7 @@
     "description": "trackball"
   },
   "u1F5BC": {
+    "char": "🖼️",
     "codepoints": [
       128444,
       65039
@@ -5574,6 +6375,7 @@
     "description": "framed picture"
   },
   "u1F5C2": {
+    "char": "🗂️",
     "codepoints": [
       128450,
       65039
@@ -5581,6 +6383,7 @@
     "description": "card index dividers"
   },
   "u1F5C3": {
+    "char": "🗃️",
     "codepoints": [
       128451,
       65039
@@ -5588,6 +6391,7 @@
     "description": "card file box"
   },
   "u1F5C4": {
+    "char": "🗄️",
     "codepoints": [
       128452,
       65039
@@ -5595,6 +6399,7 @@
     "description": "file cabinet"
   },
   "u1F5D1": {
+    "char": "🗑️",
     "codepoints": [
       128465,
       65039
@@ -5602,6 +6407,7 @@
     "description": "wastebasket"
   },
   "u1F5D2": {
+    "char": "🗒️",
     "codepoints": [
       128466,
       65039
@@ -5609,6 +6415,7 @@
     "description": "spiral notepad"
   },
   "u1F5D3": {
+    "char": "🗓️",
     "codepoints": [
       128467,
       65039
@@ -5616,6 +6423,7 @@
     "description": "spiral calendar"
   },
   "u1F5DC": {
+    "char": "🗜️",
     "codepoints": [
       128476,
       65039
@@ -5623,6 +6431,7 @@
     "description": "clamp"
   },
   "u1F5DD": {
+    "char": "🗝️",
     "codepoints": [
       128477,
       65039
@@ -5630,6 +6439,7 @@
     "description": "old key"
   },
   "u1F5DE": {
+    "char": "🗞️",
     "codepoints": [
       128478,
       65039
@@ -5637,6 +6447,7 @@
     "description": "rolled-up newspaper"
   },
   "u1F5E1": {
+    "char": "🗡️",
     "codepoints": [
       128481,
       65039
@@ -5644,6 +6455,7 @@
     "description": "dagger"
   },
   "u1F5E3": {
+    "char": "🗣️",
     "codepoints": [
       128483,
       65039
@@ -5651,6 +6463,7 @@
     "description": "speaking head"
   },
   "u1F5E8": {
+    "char": "🗨️",
     "codepoints": [
       128488,
       65039
@@ -5658,6 +6471,7 @@
     "description": "left speech bubble"
   },
   "u1F5EF": {
+    "char": "🗯️",
     "codepoints": [
       128495,
       65039
@@ -5665,6 +6479,7 @@
     "description": "right anger bubble"
   },
   "u1F5F3": {
+    "char": "🗳️",
     "codepoints": [
       128499,
       65039
@@ -5672,6 +6487,7 @@
     "description": "ballot box with ballot"
   },
   "u1F5FA": {
+    "char": "🗺️",
     "codepoints": [
       128506,
       65039
@@ -5679,12 +6495,14 @@
     "description": "world map"
   },
   "u1F5FB": {
+    "char": "🗻",
     "codepoints": [
       128507
     ],
     "description": "mount fuji"
   },
   "u1F645.1": {
+    "char": "🙅🏻",
     "codepoints": [
       128581,
       127995
@@ -5692,6 +6510,7 @@
     "description": "person gesturing NO: light skin tone"
   },
   "u1F645.2": {
+    "char": "🙅🏼",
     "codepoints": [
       128581,
       127996
@@ -5699,6 +6518,7 @@
     "description": "person gesturing NO: medium-light skin tone"
   },
   "u1F645.3": {
+    "char": "🙅🏽",
     "codepoints": [
       128581,
       127997
@@ -5706,6 +6526,7 @@
     "description": "person gesturing NO: medium skin tone"
   },
   "u1F645.4": {
+    "char": "🙅🏾",
     "codepoints": [
       128581,
       127998
@@ -5713,6 +6534,7 @@
     "description": "person gesturing NO: medium-dark skin tone"
   },
   "u1F645.5": {
+    "char": "🙅🏿",
     "codepoints": [
       128581,
       127999
@@ -5720,6 +6542,7 @@
     "description": "person gesturing NO: dark skin tone"
   },
   "u1F646.1": {
+    "char": "🙆🏻",
     "codepoints": [
       128582,
       127995
@@ -5727,6 +6550,7 @@
     "description": "person gesturing OK: light skin tone"
   },
   "u1F646.2": {
+    "char": "🙆🏼",
     "codepoints": [
       128582,
       127996
@@ -5734,6 +6558,7 @@
     "description": "person gesturing OK: medium-light skin tone"
   },
   "u1F646.3": {
+    "char": "🙆🏽",
     "codepoints": [
       128582,
       127997
@@ -5741,6 +6566,7 @@
     "description": "person gesturing OK: medium skin tone"
   },
   "u1F646.4": {
+    "char": "🙆🏾",
     "codepoints": [
       128582,
       127998
@@ -5748,6 +6574,7 @@
     "description": "person gesturing OK: medium-dark skin tone"
   },
   "u1F646.5": {
+    "char": "🙆🏿",
     "codepoints": [
       128582,
       127999
@@ -5755,6 +6582,7 @@
     "description": "person gesturing OK: dark skin tone"
   },
   "u1F647.1": {
+    "char": "🙇🏻",
     "codepoints": [
       128583,
       127995
@@ -5762,6 +6590,7 @@
     "description": "person bowing: light skin tone"
   },
   "u1F647.2": {
+    "char": "🙇🏼",
     "codepoints": [
       128583,
       127996
@@ -5769,6 +6598,7 @@
     "description": "person bowing: medium-light skin tone"
   },
   "u1F647.3": {
+    "char": "🙇🏽",
     "codepoints": [
       128583,
       127997
@@ -5776,6 +6606,7 @@
     "description": "person bowing: medium skin tone"
   },
   "u1F647.4": {
+    "char": "🙇🏾",
     "codepoints": [
       128583,
       127998
@@ -5783,6 +6614,7 @@
     "description": "person bowing: medium-dark skin tone"
   },
   "u1F647.5": {
+    "char": "🙇🏿",
     "codepoints": [
       128583,
       127999
@@ -5790,6 +6622,7 @@
     "description": "person bowing: dark skin tone"
   },
   "u1F64B.1": {
+    "char": "🙋🏻",
     "codepoints": [
       128587,
       127995
@@ -5797,6 +6630,7 @@
     "description": "person raising hand: light skin tone"
   },
   "u1F64B.2": {
+    "char": "🙋🏼",
     "codepoints": [
       128587,
       127996
@@ -5804,6 +6638,7 @@
     "description": "person raising hand: medium-light skin tone"
   },
   "u1F64B.3": {
+    "char": "🙋🏽",
     "codepoints": [
       128587,
       127997
@@ -5811,6 +6646,7 @@
     "description": "person raising hand: medium skin tone"
   },
   "u1F64B.4": {
+    "char": "🙋🏾",
     "codepoints": [
       128587,
       127998
@@ -5818,6 +6654,7 @@
     "description": "person raising hand: medium-dark skin tone"
   },
   "u1F64B.5": {
+    "char": "🙋🏿",
     "codepoints": [
       128587,
       127999
@@ -5825,6 +6662,7 @@
     "description": "person raising hand: dark skin tone"
   },
   "u1F64C.1": {
+    "char": "🙌🏻",
     "codepoints": [
       128588,
       127995
@@ -5832,6 +6670,7 @@
     "description": "raising hands: light skin tone"
   },
   "u1F64C.2": {
+    "char": "🙌🏼",
     "codepoints": [
       128588,
       127996
@@ -5839,6 +6678,7 @@
     "description": "raising hands: medium-light skin tone"
   },
   "u1F64C.3": {
+    "char": "🙌🏽",
     "codepoints": [
       128588,
       127997
@@ -5846,6 +6686,7 @@
     "description": "raising hands: medium skin tone"
   },
   "u1F64C.4": {
+    "char": "🙌🏾",
     "codepoints": [
       128588,
       127998
@@ -5853,6 +6694,7 @@
     "description": "raising hands: medium-dark skin tone"
   },
   "u1F64C.5": {
+    "char": "🙌🏿",
     "codepoints": [
       128588,
       127999
@@ -5860,6 +6702,7 @@
     "description": "raising hands: dark skin tone"
   },
   "u1F64D.1": {
+    "char": "🙍🏻",
     "codepoints": [
       128589,
       127995
@@ -5867,6 +6710,7 @@
     "description": "person frowning: light skin tone"
   },
   "u1F64D.2": {
+    "char": "🙍🏼",
     "codepoints": [
       128589,
       127996
@@ -5874,6 +6718,7 @@
     "description": "person frowning: medium-light skin tone"
   },
   "u1F64D.3": {
+    "char": "🙍🏽",
     "codepoints": [
       128589,
       127997
@@ -5881,6 +6726,7 @@
     "description": "person frowning: medium skin tone"
   },
   "u1F64D.4": {
+    "char": "🙍🏾",
     "codepoints": [
       128589,
       127998
@@ -5888,6 +6734,7 @@
     "description": "person frowning: medium-dark skin tone"
   },
   "u1F64D.5": {
+    "char": "🙍🏿",
     "codepoints": [
       128589,
       127999
@@ -5895,6 +6742,7 @@
     "description": "person frowning: dark skin tone"
   },
   "u1F64E.1": {
+    "char": "🙎🏻",
     "codepoints": [
       128590,
       127995
@@ -5902,6 +6750,7 @@
     "description": "person pouting: light skin tone"
   },
   "u1F64E.2": {
+    "char": "🙎🏼",
     "codepoints": [
       128590,
       127996
@@ -5909,6 +6758,7 @@
     "description": "person pouting: medium-light skin tone"
   },
   "u1F64E.3": {
+    "char": "🙎🏽",
     "codepoints": [
       128590,
       127997
@@ -5916,6 +6766,7 @@
     "description": "person pouting: medium skin tone"
   },
   "u1F64E.4": {
+    "char": "🙎🏾",
     "codepoints": [
       128590,
       127998
@@ -5923,6 +6774,7 @@
     "description": "person pouting: medium-dark skin tone"
   },
   "u1F64E.5": {
+    "char": "🙎🏿",
     "codepoints": [
       128590,
       127999
@@ -5930,6 +6782,7 @@
     "description": "person pouting: dark skin tone"
   },
   "u1F64F.1": {
+    "char": "🙏🏻",
     "codepoints": [
       128591,
       127995
@@ -5937,6 +6790,7 @@
     "description": "folded hands: light skin tone"
   },
   "u1F64F.2": {
+    "char": "🙏🏼",
     "codepoints": [
       128591,
       127996
@@ -5944,6 +6798,7 @@
     "description": "folded hands: medium-light skin tone"
   },
   "u1F64F.3": {
+    "char": "🙏🏽",
     "codepoints": [
       128591,
       127997
@@ -5951,6 +6806,7 @@
     "description": "folded hands: medium skin tone"
   },
   "u1F64F.4": {
+    "char": "🙏🏾",
     "codepoints": [
       128591,
       127998
@@ -5958,6 +6814,7 @@
     "description": "folded hands: medium-dark skin tone"
   },
   "u1F64F.5": {
+    "char": "🙏🏿",
     "codepoints": [
       128591,
       127999
@@ -5965,12 +6822,14 @@
     "description": "folded hands: dark skin tone"
   },
   "u1F680": {
+    "char": "🚀",
     "codepoints": [
       128640
     ],
     "description": "rocket"
   },
   "u1F6A3.1": {
+    "char": "🚣🏻",
     "codepoints": [
       128675,
       127995
@@ -5978,6 +6837,7 @@
     "description": "person rowing boat: light skin tone"
   },
   "u1F6A3.2": {
+    "char": "🚣🏼",
     "codepoints": [
       128675,
       127996
@@ -5985,6 +6845,7 @@
     "description": "person rowing boat: medium-light skin tone"
   },
   "u1F6A3.3": {
+    "char": "🚣🏽",
     "codepoints": [
       128675,
       127997
@@ -5992,6 +6853,7 @@
     "description": "person rowing boat: medium skin tone"
   },
   "u1F6A3.4": {
+    "char": "🚣🏾",
     "codepoints": [
       128675,
       127998
@@ -5999,6 +6861,7 @@
     "description": "person rowing boat: medium-dark skin tone"
   },
   "u1F6A3.5": {
+    "char": "🚣🏿",
     "codepoints": [
       128675,
       127999
@@ -6006,6 +6869,7 @@
     "description": "person rowing boat: dark skin tone"
   },
   "u1F6B4.1": {
+    "char": "🚴🏻",
     "codepoints": [
       128692,
       127995
@@ -6013,6 +6877,7 @@
     "description": "person biking: light skin tone"
   },
   "u1F6B4.2": {
+    "char": "🚴🏼",
     "codepoints": [
       128692,
       127996
@@ -6020,6 +6885,7 @@
     "description": "person biking: medium-light skin tone"
   },
   "u1F6B4.3": {
+    "char": "🚴🏽",
     "codepoints": [
       128692,
       127997
@@ -6027,6 +6893,7 @@
     "description": "person biking: medium skin tone"
   },
   "u1F6B4.4": {
+    "char": "🚴🏾",
     "codepoints": [
       128692,
       127998
@@ -6034,6 +6901,7 @@
     "description": "person biking: medium-dark skin tone"
   },
   "u1F6B4.5": {
+    "char": "🚴🏿",
     "codepoints": [
       128692,
       127999
@@ -6041,6 +6909,7 @@
     "description": "person biking: dark skin tone"
   },
   "u1F6B5.1": {
+    "char": "🚵🏻",
     "codepoints": [
       128693,
       127995
@@ -6048,6 +6917,7 @@
     "description": "person mountain biking: light skin tone"
   },
   "u1F6B5.2": {
+    "char": "🚵🏼",
     "codepoints": [
       128693,
       127996
@@ -6055,6 +6925,7 @@
     "description": "person mountain biking: medium-light skin tone"
   },
   "u1F6B5.3": {
+    "char": "🚵🏽",
     "codepoints": [
       128693,
       127997
@@ -6062,6 +6933,7 @@
     "description": "person mountain biking: medium skin tone"
   },
   "u1F6B5.4": {
+    "char": "🚵🏾",
     "codepoints": [
       128693,
       127998
@@ -6069,6 +6941,7 @@
     "description": "person mountain biking: medium-dark skin tone"
   },
   "u1F6B5.5": {
+    "char": "🚵🏿",
     "codepoints": [
       128693,
       127999
@@ -6076,6 +6949,7 @@
     "description": "person mountain biking: dark skin tone"
   },
   "u1F6B6.1": {
+    "char": "🚶🏻",
     "codepoints": [
       128694,
       127995
@@ -6083,6 +6957,7 @@
     "description": "person walking: light skin tone"
   },
   "u1F6B6.2": {
+    "char": "🚶🏼",
     "codepoints": [
       128694,
       127996
@@ -6090,6 +6965,7 @@
     "description": "person walking: medium-light skin tone"
   },
   "u1F6B6.3": {
+    "char": "🚶🏽",
     "codepoints": [
       128694,
       127997
@@ -6097,6 +6973,7 @@
     "description": "person walking: medium skin tone"
   },
   "u1F6B6.4": {
+    "char": "🚶🏾",
     "codepoints": [
       128694,
       127998
@@ -6104,6 +6981,7 @@
     "description": "person walking: medium-dark skin tone"
   },
   "u1F6B6.5": {
+    "char": "🚶🏿",
     "codepoints": [
       128694,
       127999
@@ -6111,6 +6989,7 @@
     "description": "person walking: dark skin tone"
   },
   "u1F6C0.1": {
+    "char": "🛀🏻",
     "codepoints": [
       128704,
       127995
@@ -6118,6 +6997,7 @@
     "description": "person taking bath: light skin tone"
   },
   "u1F6C0.2": {
+    "char": "🛀🏼",
     "codepoints": [
       128704,
       127996
@@ -6125,6 +7005,7 @@
     "description": "person taking bath: medium-light skin tone"
   },
   "u1F6C0.3": {
+    "char": "🛀🏽",
     "codepoints": [
       128704,
       127997
@@ -6132,6 +7013,7 @@
     "description": "person taking bath: medium skin tone"
   },
   "u1F6C0.4": {
+    "char": "🛀🏾",
     "codepoints": [
       128704,
       127998
@@ -6139,6 +7021,7 @@
     "description": "person taking bath: medium-dark skin tone"
   },
   "u1F6C0.5": {
+    "char": "🛀🏿",
     "codepoints": [
       128704,
       127999
@@ -6146,6 +7029,7 @@
     "description": "person taking bath: dark skin tone"
   },
   "u1F6CB": {
+    "char": "🛋️",
     "codepoints": [
       128715,
       65039
@@ -6153,12 +7037,14 @@
     "description": "couch and lamp"
   },
   "u1F6CC": {
+    "char": "🛌",
     "codepoints": [
       128716
     ],
     "description": "person in bed"
   },
   "u1F6CC.1": {
+    "char": "🛌🏻",
     "codepoints": [
       128716,
       127995
@@ -6166,6 +7052,7 @@
     "description": "person in bed: light skin tone"
   },
   "u1F6CC.2": {
+    "char": "🛌🏼",
     "codepoints": [
       128716,
       127996
@@ -6173,6 +7060,7 @@
     "description": "person in bed: medium-light skin tone"
   },
   "u1F6CC.3": {
+    "char": "🛌🏽",
     "codepoints": [
       128716,
       127997
@@ -6180,6 +7068,7 @@
     "description": "person in bed: medium skin tone"
   },
   "u1F6CC.4": {
+    "char": "🛌🏾",
     "codepoints": [
       128716,
       127998
@@ -6187,6 +7076,7 @@
     "description": "person in bed: medium-dark skin tone"
   },
   "u1F6CC.5": {
+    "char": "🛌🏿",
     "codepoints": [
       128716,
       127999
@@ -6194,6 +7084,7 @@
     "description": "person in bed: dark skin tone"
   },
   "u1F6CD": {
+    "char": "🛍️",
     "codepoints": [
       128717,
       65039
@@ -6201,6 +7092,7 @@
     "description": "shopping bags"
   },
   "u1F6CE": {
+    "char": "🛎️",
     "codepoints": [
       128718,
       65039
@@ -6208,6 +7100,7 @@
     "description": "bellhop bell"
   },
   "u1F6CF": {
+    "char": "🛏️",
     "codepoints": [
       128719,
       65039
@@ -6215,24 +7108,28 @@
     "description": "bed"
   },
   "u1F6D0": {
+    "char": "🛐",
     "codepoints": [
       128720
     ],
     "description": "place of worship"
   },
   "u1F6D1": {
+    "char": "🛑",
     "codepoints": [
       128721
     ],
     "description": "stop sign"
   },
   "u1F6D5": {
+    "char": "🛕",
     "codepoints": [
       128725
     ],
     "description": "hindu temple"
   },
   "u1F6E0": {
+    "char": "🛠️",
     "codepoints": [
       128736,
       65039
@@ -6240,6 +7137,7 @@
     "description": "hammer and wrench"
   },
   "u1F6E1": {
+    "char": "🛡️",
     "codepoints": [
       128737,
       65039
@@ -6247,6 +7145,7 @@
     "description": "shield"
   },
   "u1F6E2": {
+    "char": "🛢️",
     "codepoints": [
       128738,
       65039
@@ -6254,6 +7153,7 @@
     "description": "oil drum"
   },
   "u1F6E3": {
+    "char": "🛣️",
     "codepoints": [
       128739,
       65039
@@ -6261,6 +7161,7 @@
     "description": "motorway"
   },
   "u1F6E4": {
+    "char": "🛤️",
     "codepoints": [
       128740,
       65039
@@ -6268,6 +7169,7 @@
     "description": "railway track"
   },
   "u1F6E5": {
+    "char": "🛥️",
     "codepoints": [
       128741,
       65039
@@ -6275,6 +7177,7 @@
     "description": "motor boat"
   },
   "u1F6E9": {
+    "char": "🛩️",
     "codepoints": [
       128745,
       65039
@@ -6282,12 +7185,14 @@
     "description": "small airplane"
   },
   "u1F6EB": {
+    "char": "🛫",
     "codepoints": [
       128747
     ],
     "description": "airplane departure"
   },
   "u1F6F0": {
+    "char": "🛰️",
     "codepoints": [
       128752,
       65039
@@ -6295,6 +7200,7 @@
     "description": "satellite"
   },
   "u1F6F3": {
+    "char": "🛳️",
     "codepoints": [
       128755,
       65039
@@ -6302,42 +7208,49 @@
     "description": "passenger ship"
   },
   "u1F6F4": {
+    "char": "🛴",
     "codepoints": [
       128756
     ],
     "description": "kick scooter"
   },
   "u1F6F7": {
+    "char": "🛷",
     "codepoints": [
       128759
     ],
     "description": "sled"
   },
   "u1F6F9": {
+    "char": "🛹",
     "codepoints": [
       128761
     ],
     "description": "skateboard"
   },
   "u1F6FA": {
+    "char": "🛺",
     "codepoints": [
       128762
     ],
     "description": "auto rickshaw"
   },
   "u1F7E0": {
+    "char": "🟠",
     "codepoints": [
       128992
     ],
     "description": "orange circle"
   },
   "u1F90D": {
+    "char": "🤍",
     "codepoints": [
       129293
     ],
     "description": "white heart"
   },
   "u1F90F.1": {
+    "char": "🤏🏻",
     "codepoints": [
       129295,
       127995
@@ -6345,6 +7258,7 @@
     "description": "pinching hand: light skin tone"
   },
   "u1F90F.2": {
+    "char": "🤏🏼",
     "codepoints": [
       129295,
       127996
@@ -6352,6 +7266,7 @@
     "description": "pinching hand: medium-light skin tone"
   },
   "u1F90F.3": {
+    "char": "🤏🏽",
     "codepoints": [
       129295,
       127997
@@ -6359,6 +7274,7 @@
     "description": "pinching hand: medium skin tone"
   },
   "u1F90F.4": {
+    "char": "🤏🏾",
     "codepoints": [
       129295,
       127998
@@ -6366,6 +7282,7 @@
     "description": "pinching hand: medium-dark skin tone"
   },
   "u1F90F.5": {
+    "char": "🤏🏿",
     "codepoints": [
       129295,
       127999
@@ -6373,12 +7290,14 @@
     "description": "pinching hand: dark skin tone"
   },
   "u1F910": {
+    "char": "🤐",
     "codepoints": [
       129296
     ],
     "description": "zipper-mouth face"
   },
   "u1F918.1": {
+    "char": "🤘🏻",
     "codepoints": [
       129304,
       127995
@@ -6386,6 +7305,7 @@
     "description": "sign of the horns: light skin tone"
   },
   "u1F918.2": {
+    "char": "🤘🏼",
     "codepoints": [
       129304,
       127996
@@ -6393,6 +7313,7 @@
     "description": "sign of the horns: medium-light skin tone"
   },
   "u1F918.3": {
+    "char": "🤘🏽",
     "codepoints": [
       129304,
       127997
@@ -6400,6 +7321,7 @@
     "description": "sign of the horns: medium skin tone"
   },
   "u1F918.4": {
+    "char": "🤘🏾",
     "codepoints": [
       129304,
       127998
@@ -6407,6 +7329,7 @@
     "description": "sign of the horns: medium-dark skin tone"
   },
   "u1F918.5": {
+    "char": "🤘🏿",
     "codepoints": [
       129304,
       127999
@@ -6414,12 +7337,14 @@
     "description": "sign of the horns: dark skin tone"
   },
   "u1F919": {
+    "char": "🤙",
     "codepoints": [
       129305
     ],
     "description": "call me hand"
   },
   "u1F919.1": {
+    "char": "🤙🏻",
     "codepoints": [
       129305,
       127995
@@ -6427,6 +7352,7 @@
     "description": "call me hand: light skin tone"
   },
   "u1F919.2": {
+    "char": "🤙🏼",
     "codepoints": [
       129305,
       127996
@@ -6434,6 +7360,7 @@
     "description": "call me hand: medium-light skin tone"
   },
   "u1F919.3": {
+    "char": "🤙🏽",
     "codepoints": [
       129305,
       127997
@@ -6441,6 +7368,7 @@
     "description": "call me hand: medium skin tone"
   },
   "u1F919.4": {
+    "char": "🤙🏾",
     "codepoints": [
       129305,
       127998
@@ -6448,6 +7376,7 @@
     "description": "call me hand: medium-dark skin tone"
   },
   "u1F919.5": {
+    "char": "🤙🏿",
     "codepoints": [
       129305,
       127999
@@ -6455,6 +7384,7 @@
     "description": "call me hand: dark skin tone"
   },
   "u1F91A.1": {
+    "char": "🤚🏻",
     "codepoints": [
       129306,
       127995
@@ -6462,6 +7392,7 @@
     "description": "raised back of hand: light skin tone"
   },
   "u1F91A.2": {
+    "char": "🤚🏼",
     "codepoints": [
       129306,
       127996
@@ -6469,6 +7400,7 @@
     "description": "raised back of hand: medium-light skin tone"
   },
   "u1F91A.3": {
+    "char": "🤚🏽",
     "codepoints": [
       129306,
       127997
@@ -6476,6 +7408,7 @@
     "description": "raised back of hand: medium skin tone"
   },
   "u1F91A.4": {
+    "char": "🤚🏾",
     "codepoints": [
       129306,
       127998
@@ -6483,6 +7416,7 @@
     "description": "raised back of hand: medium-dark skin tone"
   },
   "u1F91A.5": {
+    "char": "🤚🏿",
     "codepoints": [
       129306,
       127999
@@ -6490,6 +7424,7 @@
     "description": "raised back of hand: dark skin tone"
   },
   "u1F91B.1": {
+    "char": "🤛🏻",
     "codepoints": [
       129307,
       127995
@@ -6497,6 +7432,7 @@
     "description": "left-facing fist: light skin tone"
   },
   "u1F91B.2": {
+    "char": "🤛🏼",
     "codepoints": [
       129307,
       127996
@@ -6504,6 +7440,7 @@
     "description": "left-facing fist: medium-light skin tone"
   },
   "u1F91B.3": {
+    "char": "🤛🏽",
     "codepoints": [
       129307,
       127997
@@ -6511,6 +7448,7 @@
     "description": "left-facing fist: medium skin tone"
   },
   "u1F91B.4": {
+    "char": "🤛🏾",
     "codepoints": [
       129307,
       127998
@@ -6518,6 +7456,7 @@
     "description": "left-facing fist: medium-dark skin tone"
   },
   "u1F91B.5": {
+    "char": "🤛🏿",
     "codepoints": [
       129307,
       127999
@@ -6525,6 +7464,7 @@
     "description": "left-facing fist: dark skin tone"
   },
   "u1F91C.1": {
+    "char": "🤜🏻",
     "codepoints": [
       129308,
       127995
@@ -6532,6 +7472,7 @@
     "description": "right-facing fist: light skin tone"
   },
   "u1F91C.2": {
+    "char": "🤜🏼",
     "codepoints": [
       129308,
       127996
@@ -6539,6 +7480,7 @@
     "description": "right-facing fist: medium-light skin tone"
   },
   "u1F91C.3": {
+    "char": "🤜🏽",
     "codepoints": [
       129308,
       127997
@@ -6546,6 +7488,7 @@
     "description": "right-facing fist: medium skin tone"
   },
   "u1F91C.4": {
+    "char": "🤜🏾",
     "codepoints": [
       129308,
       127998
@@ -6553,6 +7496,7 @@
     "description": "right-facing fist: medium-dark skin tone"
   },
   "u1F91C.5": {
+    "char": "🤜🏿",
     "codepoints": [
       129308,
       127999
@@ -6560,6 +7504,7 @@
     "description": "right-facing fist: dark skin tone"
   },
   "u1F91E.1": {
+    "char": "🤞🏻",
     "codepoints": [
       129310,
       127995
@@ -6567,6 +7512,7 @@
     "description": "crossed fingers: light skin tone"
   },
   "u1F91E.2": {
+    "char": "🤞🏼",
     "codepoints": [
       129310,
       127996
@@ -6574,6 +7520,7 @@
     "description": "crossed fingers: medium-light skin tone"
   },
   "u1F91E.3": {
+    "char": "🤞🏽",
     "codepoints": [
       129310,
       127997
@@ -6581,6 +7528,7 @@
     "description": "crossed fingers: medium skin tone"
   },
   "u1F91E.4": {
+    "char": "🤞🏾",
     "codepoints": [
       129310,
       127998
@@ -6588,6 +7536,7 @@
     "description": "crossed fingers: medium-dark skin tone"
   },
   "u1F91E.5": {
+    "char": "🤞🏿",
     "codepoints": [
       129310,
       127999
@@ -6595,12 +7544,14 @@
     "description": "crossed fingers: dark skin tone"
   },
   "u1F91F": {
+    "char": "🤟",
     "codepoints": [
       129311
     ],
     "description": "love-you gesture"
   },
   "u1F91F.1": {
+    "char": "🤟🏻",
     "codepoints": [
       129311,
       127995
@@ -6608,6 +7559,7 @@
     "description": "love-you gesture: light skin tone"
   },
   "u1F91F.2": {
+    "char": "🤟🏼",
     "codepoints": [
       129311,
       127996
@@ -6615,6 +7567,7 @@
     "description": "love-you gesture: medium-light skin tone"
   },
   "u1F91F.3": {
+    "char": "🤟🏽",
     "codepoints": [
       129311,
       127997
@@ -6622,6 +7575,7 @@
     "description": "love-you gesture: medium skin tone"
   },
   "u1F91F.4": {
+    "char": "🤟🏾",
     "codepoints": [
       129311,
       127998
@@ -6629,6 +7583,7 @@
     "description": "love-you gesture: medium-dark skin tone"
   },
   "u1F91F.5": {
+    "char": "🤟🏿",
     "codepoints": [
       129311,
       127999
@@ -6636,12 +7591,14 @@
     "description": "love-you gesture: dark skin tone"
   },
   "u1F920": {
+    "char": "🤠",
     "codepoints": [
       129312
     ],
     "description": "cowboy hat face"
   },
   "u1F926.1": {
+    "char": "🤦🏻",
     "codepoints": [
       129318,
       127995
@@ -6649,6 +7606,7 @@
     "description": "person facepalming: light skin tone"
   },
   "u1F926.2": {
+    "char": "🤦🏼",
     "codepoints": [
       129318,
       127996
@@ -6656,6 +7614,7 @@
     "description": "person facepalming: medium-light skin tone"
   },
   "u1F926.3": {
+    "char": "🤦🏽",
     "codepoints": [
       129318,
       127997
@@ -6663,6 +7622,7 @@
     "description": "person facepalming: medium skin tone"
   },
   "u1F926.4": {
+    "char": "🤦🏾",
     "codepoints": [
       129318,
       127998
@@ -6670,6 +7630,7 @@
     "description": "person facepalming: medium-dark skin tone"
   },
   "u1F926.5": {
+    "char": "🤦🏿",
     "codepoints": [
       129318,
       127999
@@ -6677,18 +7638,21 @@
     "description": "person facepalming: dark skin tone"
   },
   "u1F928": {
+    "char": "🤨",
     "codepoints": [
       129320
     ],
     "description": "face with raised eyebrow"
   },
   "u1F930": {
+    "char": "🤰",
     "codepoints": [
       129328
     ],
     "description": "pregnant woman"
   },
   "u1F930.1": {
+    "char": "🤰🏻",
     "codepoints": [
       129328,
       127995
@@ -6696,6 +7660,7 @@
     "description": "pregnant woman: light skin tone"
   },
   "u1F930.2": {
+    "char": "🤰🏼",
     "codepoints": [
       129328,
       127996
@@ -6703,6 +7668,7 @@
     "description": "pregnant woman: medium-light skin tone"
   },
   "u1F930.3": {
+    "char": "🤰🏽",
     "codepoints": [
       129328,
       127997
@@ -6710,6 +7676,7 @@
     "description": "pregnant woman: medium skin tone"
   },
   "u1F930.4": {
+    "char": "🤰🏾",
     "codepoints": [
       129328,
       127998
@@ -6717,6 +7684,7 @@
     "description": "pregnant woman: medium-dark skin tone"
   },
   "u1F930.5": {
+    "char": "🤰🏿",
     "codepoints": [
       129328,
       127999
@@ -6724,12 +7692,14 @@
     "description": "pregnant woman: dark skin tone"
   },
   "u1F931": {
+    "char": "🤱",
     "codepoints": [
       129329
     ],
     "description": "breast-feeding"
   },
   "u1F931.1": {
+    "char": "🤱🏻",
     "codepoints": [
       129329,
       127995
@@ -6737,6 +7707,7 @@
     "description": "breast-feeding: light skin tone"
   },
   "u1F931.2": {
+    "char": "🤱🏼",
     "codepoints": [
       129329,
       127996
@@ -6744,6 +7715,7 @@
     "description": "breast-feeding: medium-light skin tone"
   },
   "u1F931.3": {
+    "char": "🤱🏽",
     "codepoints": [
       129329,
       127997
@@ -6751,6 +7723,7 @@
     "description": "breast-feeding: medium skin tone"
   },
   "u1F931.4": {
+    "char": "🤱🏾",
     "codepoints": [
       129329,
       127998
@@ -6758,6 +7731,7 @@
     "description": "breast-feeding: medium-dark skin tone"
   },
   "u1F931.5": {
+    "char": "🤱🏿",
     "codepoints": [
       129329,
       127999
@@ -6765,6 +7739,7 @@
     "description": "breast-feeding: dark skin tone"
   },
   "u1F932.1": {
+    "char": "🤲🏻",
     "codepoints": [
       129330,
       127995
@@ -6772,6 +7747,7 @@
     "description": "palms up together: light skin tone"
   },
   "u1F932.2": {
+    "char": "🤲🏼",
     "codepoints": [
       129330,
       127996
@@ -6779,6 +7755,7 @@
     "description": "palms up together: medium-light skin tone"
   },
   "u1F932.3": {
+    "char": "🤲🏽",
     "codepoints": [
       129330,
       127997
@@ -6786,6 +7763,7 @@
     "description": "palms up together: medium skin tone"
   },
   "u1F932.4": {
+    "char": "🤲🏾",
     "codepoints": [
       129330,
       127998
@@ -6793,6 +7771,7 @@
     "description": "palms up together: medium-dark skin tone"
   },
   "u1F932.5": {
+    "char": "🤲🏿",
     "codepoints": [
       129330,
       127999
@@ -6800,12 +7779,14 @@
     "description": "palms up together: dark skin tone"
   },
   "u1F933": {
+    "char": "🤳",
     "codepoints": [
       129331
     ],
     "description": "selfie"
   },
   "u1F933.1": {
+    "char": "🤳🏻",
     "codepoints": [
       129331,
       127995
@@ -6813,6 +7794,7 @@
     "description": "selfie: light skin tone"
   },
   "u1F933.2": {
+    "char": "🤳🏼",
     "codepoints": [
       129331,
       127996
@@ -6820,6 +7802,7 @@
     "description": "selfie: medium-light skin tone"
   },
   "u1F933.3": {
+    "char": "🤳🏽",
     "codepoints": [
       129331,
       127997
@@ -6827,6 +7810,7 @@
     "description": "selfie: medium skin tone"
   },
   "u1F933.4": {
+    "char": "🤳🏾",
     "codepoints": [
       129331,
       127998
@@ -6834,6 +7818,7 @@
     "description": "selfie: medium-dark skin tone"
   },
   "u1F933.5": {
+    "char": "🤳🏿",
     "codepoints": [
       129331,
       127999
@@ -6841,6 +7826,7 @@
     "description": "selfie: dark skin tone"
   },
   "u1F934.1": {
+    "char": "🤴🏻",
     "codepoints": [
       129332,
       127995
@@ -6848,6 +7834,7 @@
     "description": "prince: light skin tone"
   },
   "u1F934.2": {
+    "char": "🤴🏼",
     "codepoints": [
       129332,
       127996
@@ -6855,6 +7842,7 @@
     "description": "prince: medium-light skin tone"
   },
   "u1F934.3": {
+    "char": "🤴🏽",
     "codepoints": [
       129332,
       127997
@@ -6862,6 +7850,7 @@
     "description": "prince: medium skin tone"
   },
   "u1F934.4": {
+    "char": "🤴🏾",
     "codepoints": [
       129332,
       127998
@@ -6869,6 +7858,7 @@
     "description": "prince: medium-dark skin tone"
   },
   "u1F934.5": {
+    "char": "🤴🏿",
     "codepoints": [
       129332,
       127999
@@ -6876,6 +7866,7 @@
     "description": "prince: dark skin tone"
   },
   "u1F935.1": {
+    "char": "🤵🏻",
     "codepoints": [
       129333,
       127995
@@ -6883,6 +7874,7 @@
     "description": "man in tuxedo: light skin tone"
   },
   "u1F935.2": {
+    "char": "🤵🏼",
     "codepoints": [
       129333,
       127996
@@ -6890,6 +7882,7 @@
     "description": "man in tuxedo: medium-light skin tone"
   },
   "u1F935.3": {
+    "char": "🤵🏽",
     "codepoints": [
       129333,
       127997
@@ -6897,6 +7890,7 @@
     "description": "man in tuxedo: medium skin tone"
   },
   "u1F935.4": {
+    "char": "🤵🏾",
     "codepoints": [
       129333,
       127998
@@ -6904,6 +7898,7 @@
     "description": "man in tuxedo: medium-dark skin tone"
   },
   "u1F935.5": {
+    "char": "🤵🏿",
     "codepoints": [
       129333,
       127999
@@ -6911,6 +7906,7 @@
     "description": "man in tuxedo: dark skin tone"
   },
   "u1F936.1": {
+    "char": "🤶🏻",
     "codepoints": [
       129334,
       127995
@@ -6918,6 +7914,7 @@
     "description": "Mrs. Claus: light skin tone"
   },
   "u1F936.2": {
+    "char": "🤶🏼",
     "codepoints": [
       129334,
       127996
@@ -6925,6 +7922,7 @@
     "description": "Mrs. Claus: medium-light skin tone"
   },
   "u1F936.3": {
+    "char": "🤶🏽",
     "codepoints": [
       129334,
       127997
@@ -6932,6 +7930,7 @@
     "description": "Mrs. Claus: medium skin tone"
   },
   "u1F936.4": {
+    "char": "🤶🏾",
     "codepoints": [
       129334,
       127998
@@ -6939,6 +7938,7 @@
     "description": "Mrs. Claus: medium-dark skin tone"
   },
   "u1F936.5": {
+    "char": "🤶🏿",
     "codepoints": [
       129334,
       127999
@@ -6946,6 +7946,7 @@
     "description": "Mrs. Claus: dark skin tone"
   },
   "u1F937.1": {
+    "char": "🤷🏻",
     "codepoints": [
       129335,
       127995
@@ -6953,6 +7954,7 @@
     "description": "person shrugging: light skin tone"
   },
   "u1F937.2": {
+    "char": "🤷🏼",
     "codepoints": [
       129335,
       127996
@@ -6960,6 +7962,7 @@
     "description": "person shrugging: medium-light skin tone"
   },
   "u1F937.3": {
+    "char": "🤷🏽",
     "codepoints": [
       129335,
       127997
@@ -6967,6 +7970,7 @@
     "description": "person shrugging: medium skin tone"
   },
   "u1F937.4": {
+    "char": "🤷🏾",
     "codepoints": [
       129335,
       127998
@@ -6974,6 +7978,7 @@
     "description": "person shrugging: medium-dark skin tone"
   },
   "u1F937.5": {
+    "char": "🤷🏿",
     "codepoints": [
       129335,
       127999
@@ -6981,6 +7986,7 @@
     "description": "person shrugging: dark skin tone"
   },
   "u1F938.1": {
+    "char": "🤸🏻",
     "codepoints": [
       129336,
       127995
@@ -6988,6 +7994,7 @@
     "description": "person cartwheeling: light skin tone"
   },
   "u1F938.2": {
+    "char": "🤸🏼",
     "codepoints": [
       129336,
       127996
@@ -6995,6 +8002,7 @@
     "description": "person cartwheeling: medium-light skin tone"
   },
   "u1F938.3": {
+    "char": "🤸🏽",
     "codepoints": [
       129336,
       127997
@@ -7002,6 +8010,7 @@
     "description": "person cartwheeling: medium skin tone"
   },
   "u1F938.4": {
+    "char": "🤸🏾",
     "codepoints": [
       129336,
       127998
@@ -7009,6 +8018,7 @@
     "description": "person cartwheeling: medium-dark skin tone"
   },
   "u1F938.5": {
+    "char": "🤸🏿",
     "codepoints": [
       129336,
       127999
@@ -7016,6 +8026,7 @@
     "description": "person cartwheeling: dark skin tone"
   },
   "u1F939.1": {
+    "char": "🤹🏻",
     "codepoints": [
       129337,
       127995
@@ -7023,6 +8034,7 @@
     "description": "person juggling: light skin tone"
   },
   "u1F939.2": {
+    "char": "🤹🏼",
     "codepoints": [
       129337,
       127996
@@ -7030,6 +8042,7 @@
     "description": "person juggling: medium-light skin tone"
   },
   "u1F939.3": {
+    "char": "🤹🏽",
     "codepoints": [
       129337,
       127997
@@ -7037,6 +8050,7 @@
     "description": "person juggling: medium skin tone"
   },
   "u1F939.4": {
+    "char": "🤹🏾",
     "codepoints": [
       129337,
       127998
@@ -7044,6 +8058,7 @@
     "description": "person juggling: medium-dark skin tone"
   },
   "u1F939.5": {
+    "char": "🤹🏿",
     "codepoints": [
       129337,
       127999
@@ -7051,12 +8066,14 @@
     "description": "person juggling: dark skin tone"
   },
   "u1F93C": {
+    "char": "🤼",
     "codepoints": [
       129340
     ],
     "description": "people wrestling"
   },
   "u1F93D.1": {
+    "char": "🤽🏻",
     "codepoints": [
       129341,
       127995
@@ -7064,6 +8081,7 @@
     "description": "person playing water polo: light skin tone"
   },
   "u1F93D.2": {
+    "char": "🤽🏼",
     "codepoints": [
       129341,
       127996
@@ -7071,6 +8089,7 @@
     "description": "person playing water polo: medium-light skin tone"
   },
   "u1F93D.3": {
+    "char": "🤽🏽",
     "codepoints": [
       129341,
       127997
@@ -7078,6 +8097,7 @@
     "description": "person playing water polo: medium skin tone"
   },
   "u1F93D.4": {
+    "char": "🤽🏾",
     "codepoints": [
       129341,
       127998
@@ -7085,6 +8105,7 @@
     "description": "person playing water polo: medium-dark skin tone"
   },
   "u1F93D.5": {
+    "char": "🤽🏿",
     "codepoints": [
       129341,
       127999
@@ -7092,6 +8113,7 @@
     "description": "person playing water polo: dark skin tone"
   },
   "u1F93E.1": {
+    "char": "🤾🏻",
     "codepoints": [
       129342,
       127995
@@ -7099,6 +8121,7 @@
     "description": "person playing handball: light skin tone"
   },
   "u1F93E.2": {
+    "char": "🤾🏼",
     "codepoints": [
       129342,
       127996
@@ -7106,6 +8129,7 @@
     "description": "person playing handball: medium-light skin tone"
   },
   "u1F93E.3": {
+    "char": "🤾🏽",
     "codepoints": [
       129342,
       127997
@@ -7113,6 +8137,7 @@
     "description": "person playing handball: medium skin tone"
   },
   "u1F93E.4": {
+    "char": "🤾🏾",
     "codepoints": [
       129342,
       127998
@@ -7120,6 +8145,7 @@
     "description": "person playing handball: medium-dark skin tone"
   },
   "u1F93E.5": {
+    "char": "🤾🏿",
     "codepoints": [
       129342,
       127999
@@ -7127,126 +8153,147 @@
     "description": "person playing handball: dark skin tone"
   },
   "u1F93F": {
+    "char": "🤿",
     "codepoints": [
       129343
     ],
     "description": "diving mask"
   },
   "u1F940": {
+    "char": "🥀",
     "codepoints": [
       129344
     ],
     "description": "wilted flower"
   },
   "u1F947": {
+    "char": "🥇",
     "codepoints": [
       129351
     ],
     "description": "1st place medal"
   },
   "u1F94C": {
+    "char": "🥌",
     "codepoints": [
       129356
     ],
     "description": "curling stone"
   },
   "u1F94D": {
+    "char": "🥍",
     "codepoints": [
       129357
     ],
     "description": "lacrosse"
   },
   "u1F950": {
+    "char": "🥐",
     "codepoints": [
       129360
     ],
     "description": "croissant"
   },
   "u1F95F": {
+    "char": "🥟",
     "codepoints": [
       129375
     ],
     "description": "dumpling"
   },
   "u1F96C": {
+    "char": "🥬",
     "codepoints": [
       129388
     ],
     "description": "leafy green"
   },
   "u1F971": {
+    "char": "🥱",
     "codepoints": [
       129393
     ],
     "description": "yawning face"
   },
   "u1F973": {
+    "char": "🥳",
     "codepoints": [
       129395
     ],
     "description": "partying face"
   },
   "u1F97A": {
+    "char": "🥺",
     "codepoints": [
       129402
     ],
     "description": "pleading face"
   },
   "u1F97B": {
+    "char": "🥻",
     "codepoints": [
       129403
     ],
     "description": "sari"
   },
   "u1F97C": {
+    "char": "🥼",
     "codepoints": [
       129404
     ],
     "description": "lab coat"
   },
   "u1F980": {
+    "char": "🦀",
     "codepoints": [
       129408
     ],
     "description": "crab"
   },
   "u1F985": {
+    "char": "🦅",
     "codepoints": [
       129413
     ],
     "description": "eagle"
   },
   "u1F992": {
+    "char": "🦒",
     "codepoints": [
       129426
     ],
     "description": "giraffe"
   },
   "u1F998": {
+    "char": "🦘",
     "codepoints": [
       129432
     ],
     "description": "kangaroo"
   },
   "u1F9A5": {
+    "char": "🦥",
     "codepoints": [
       129445
     ],
     "description": "sloth"
   },
   "u1F9AE": {
+    "char": "🦮",
     "codepoints": [
       129454
     ],
     "description": "guide dog"
   },
   "u1F9B0": {
+    "char": "🦰",
     "codepoints": [
       129456
     ],
     "description": "red hair"
   },
   "u1F9B5.1": {
+    "char": "🦵🏻",
     "codepoints": [
       129461,
       127995
@@ -7254,6 +8301,7 @@
     "description": "leg: light skin tone"
   },
   "u1F9B5.2": {
+    "char": "🦵🏼",
     "codepoints": [
       129461,
       127996
@@ -7261,6 +8309,7 @@
     "description": "leg: medium-light skin tone"
   },
   "u1F9B5.3": {
+    "char": "🦵🏽",
     "codepoints": [
       129461,
       127997
@@ -7268,6 +8317,7 @@
     "description": "leg: medium skin tone"
   },
   "u1F9B5.4": {
+    "char": "🦵🏾",
     "codepoints": [
       129461,
       127998
@@ -7275,6 +8325,7 @@
     "description": "leg: medium-dark skin tone"
   },
   "u1F9B5.5": {
+    "char": "🦵🏿",
     "codepoints": [
       129461,
       127999
@@ -7282,6 +8333,7 @@
     "description": "leg: dark skin tone"
   },
   "u1F9B6.1": {
+    "char": "🦶🏻",
     "codepoints": [
       129462,
       127995
@@ -7289,6 +8341,7 @@
     "description": "foot: light skin tone"
   },
   "u1F9B6.2": {
+    "char": "🦶🏼",
     "codepoints": [
       129462,
       127996
@@ -7296,6 +8349,7 @@
     "description": "foot: medium-light skin tone"
   },
   "u1F9B6.3": {
+    "char": "🦶🏽",
     "codepoints": [
       129462,
       127997
@@ -7303,6 +8357,7 @@
     "description": "foot: medium skin tone"
   },
   "u1F9B6.4": {
+    "char": "🦶🏾",
     "codepoints": [
       129462,
       127998
@@ -7310,6 +8365,7 @@
     "description": "foot: medium-dark skin tone"
   },
   "u1F9B6.5": {
+    "char": "🦶🏿",
     "codepoints": [
       129462,
       127999
@@ -7317,6 +8373,7 @@
     "description": "foot: dark skin tone"
   },
   "u1F9B8.1": {
+    "char": "🦸🏻",
     "codepoints": [
       129464,
       127995
@@ -7324,6 +8381,7 @@
     "description": "superhero: light skin tone"
   },
   "u1F9B8.2": {
+    "char": "🦸🏼",
     "codepoints": [
       129464,
       127996
@@ -7331,6 +8389,7 @@
     "description": "superhero: medium-light skin tone"
   },
   "u1F9B8.3": {
+    "char": "🦸🏽",
     "codepoints": [
       129464,
       127997
@@ -7338,6 +8397,7 @@
     "description": "superhero: medium skin tone"
   },
   "u1F9B8.4": {
+    "char": "🦸🏾",
     "codepoints": [
       129464,
       127998
@@ -7345,6 +8405,7 @@
     "description": "superhero: medium-dark skin tone"
   },
   "u1F9B8.5": {
+    "char": "🦸🏿",
     "codepoints": [
       129464,
       127999
@@ -7352,6 +8413,7 @@
     "description": "superhero: dark skin tone"
   },
   "u1F9B9.1": {
+    "char": "🦹🏻",
     "codepoints": [
       129465,
       127995
@@ -7359,6 +8421,7 @@
     "description": "supervillain: light skin tone"
   },
   "u1F9B9.2": {
+    "char": "🦹🏼",
     "codepoints": [
       129465,
       127996
@@ -7366,6 +8429,7 @@
     "description": "supervillain: medium-light skin tone"
   },
   "u1F9B9.3": {
+    "char": "🦹🏽",
     "codepoints": [
       129465,
       127997
@@ -7373,6 +8437,7 @@
     "description": "supervillain: medium skin tone"
   },
   "u1F9B9.4": {
+    "char": "🦹🏾",
     "codepoints": [
       129465,
       127998
@@ -7380,6 +8445,7 @@
     "description": "supervillain: medium-dark skin tone"
   },
   "u1F9B9.5": {
+    "char": "🦹🏿",
     "codepoints": [
       129465,
       127999
@@ -7387,12 +8453,14 @@
     "description": "supervillain: dark skin tone"
   },
   "u1F9BA": {
+    "char": "🦺",
     "codepoints": [
       129466
     ],
     "description": "safety vest"
   },
   "u1F9BB.1": {
+    "char": "🦻🏻",
     "codepoints": [
       129467,
       127995
@@ -7400,6 +8468,7 @@
     "description": "ear with hearing aid: light skin tone"
   },
   "u1F9BB.2": {
+    "char": "🦻🏼",
     "codepoints": [
       129467,
       127996
@@ -7407,6 +8476,7 @@
     "description": "ear with hearing aid: medium-light skin tone"
   },
   "u1F9BB.3": {
+    "char": "🦻🏽",
     "codepoints": [
       129467,
       127997
@@ -7414,6 +8484,7 @@
     "description": "ear with hearing aid: medium skin tone"
   },
   "u1F9BB.4": {
+    "char": "🦻🏾",
     "codepoints": [
       129467,
       127998
@@ -7421,6 +8492,7 @@
     "description": "ear with hearing aid: medium-dark skin tone"
   },
   "u1F9BB.5": {
+    "char": "🦻🏿",
     "codepoints": [
       129467,
       127999
@@ -7428,30 +8500,35 @@
     "description": "ear with hearing aid: dark skin tone"
   },
   "u1F9C0": {
+    "char": "🧀",
     "codepoints": [
       129472
     ],
     "description": "cheese wedge"
   },
   "u1F9C1": {
+    "char": "🧁",
     "codepoints": [
       129473
     ],
     "description": "cupcake"
   },
   "u1F9C3": {
+    "char": "🧃",
     "codepoints": [
       129475
     ],
     "description": "beverage box"
   },
   "u1F9CD": {
+    "char": "🧍",
     "codepoints": [
       129485
     ],
     "description": "person standing"
   },
   "u1F9CD.1": {
+    "char": "🧍🏻",
     "codepoints": [
       129485,
       127995
@@ -7459,6 +8536,7 @@
     "description": "person standing: light skin tone"
   },
   "u1F9CD.2": {
+    "char": "🧍🏼",
     "codepoints": [
       129485,
       127996
@@ -7466,6 +8544,7 @@
     "description": "person standing: medium-light skin tone"
   },
   "u1F9CD.3": {
+    "char": "🧍🏽",
     "codepoints": [
       129485,
       127997
@@ -7473,6 +8552,7 @@
     "description": "person standing: medium skin tone"
   },
   "u1F9CD.4": {
+    "char": "🧍🏾",
     "codepoints": [
       129485,
       127998
@@ -7480,6 +8560,7 @@
     "description": "person standing: medium-dark skin tone"
   },
   "u1F9CD.5": {
+    "char": "🧍🏿",
     "codepoints": [
       129485,
       127999
@@ -7487,6 +8568,7 @@
     "description": "person standing: dark skin tone"
   },
   "u1F9CE.1": {
+    "char": "🧎🏻",
     "codepoints": [
       129486,
       127995
@@ -7494,6 +8576,7 @@
     "description": "person kneeling: light skin tone"
   },
   "u1F9CE.2": {
+    "char": "🧎🏼",
     "codepoints": [
       129486,
       127996
@@ -7501,6 +8584,7 @@
     "description": "person kneeling: medium-light skin tone"
   },
   "u1F9CE.3": {
+    "char": "🧎🏽",
     "codepoints": [
       129486,
       127997
@@ -7508,6 +8592,7 @@
     "description": "person kneeling: medium skin tone"
   },
   "u1F9CE.4": {
+    "char": "🧎🏾",
     "codepoints": [
       129486,
       127998
@@ -7515,6 +8600,7 @@
     "description": "person kneeling: medium-dark skin tone"
   },
   "u1F9CE.5": {
+    "char": "🧎🏿",
     "codepoints": [
       129486,
       127999
@@ -7522,6 +8608,7 @@
     "description": "person kneeling: dark skin tone"
   },
   "u1F9CF.1": {
+    "char": "🧏🏻",
     "codepoints": [
       129487,
       127995
@@ -7529,6 +8616,7 @@
     "description": "deaf person: light skin tone"
   },
   "u1F9CF.2": {
+    "char": "🧏🏼",
     "codepoints": [
       129487,
       127996
@@ -7536,6 +8624,7 @@
     "description": "deaf person: medium-light skin tone"
   },
   "u1F9CF.3": {
+    "char": "🧏🏽",
     "codepoints": [
       129487,
       127997
@@ -7543,6 +8632,7 @@
     "description": "deaf person: medium skin tone"
   },
   "u1F9CF.4": {
+    "char": "🧏🏾",
     "codepoints": [
       129487,
       127998
@@ -7550,6 +8640,7 @@
     "description": "deaf person: medium-dark skin tone"
   },
   "u1F9CF.5": {
+    "char": "🧏🏿",
     "codepoints": [
       129487,
       127999
@@ -7557,12 +8648,14 @@
     "description": "deaf person: dark skin tone"
   },
   "u1F9D0": {
+    "char": "🧐",
     "codepoints": [
       129488
     ],
     "description": "face with monocle"
   },
   "u1F9D1.1": {
+    "char": "🧑🏻",
     "codepoints": [
       129489,
       127995
@@ -7570,6 +8663,7 @@
     "description": "person: light skin tone"
   },
   "u1F9D1.2": {
+    "char": "🧑🏼",
     "codepoints": [
       129489,
       127996
@@ -7577,6 +8671,7 @@
     "description": "person: medium-light skin tone"
   },
   "u1F9D1.3": {
+    "char": "🧑🏽",
     "codepoints": [
       129489,
       127997
@@ -7584,6 +8679,7 @@
     "description": "person: medium skin tone"
   },
   "u1F9D1.4": {
+    "char": "🧑🏾",
     "codepoints": [
       129489,
       127998
@@ -7591,6 +8687,7 @@
     "description": "person: medium-dark skin tone"
   },
   "u1F9D1.5": {
+    "char": "🧑🏿",
     "codepoints": [
       129489,
       127999
@@ -7598,6 +8695,7 @@
     "description": "person: dark skin tone"
   },
   "u1F9D2.1": {
+    "char": "🧒🏻",
     "codepoints": [
       129490,
       127995
@@ -7605,6 +8703,7 @@
     "description": "child: light skin tone"
   },
   "u1F9D2.2": {
+    "char": "🧒🏼",
     "codepoints": [
       129490,
       127996
@@ -7612,6 +8711,7 @@
     "description": "child: medium-light skin tone"
   },
   "u1F9D2.3": {
+    "char": "🧒🏽",
     "codepoints": [
       129490,
       127997
@@ -7619,6 +8719,7 @@
     "description": "child: medium skin tone"
   },
   "u1F9D2.4": {
+    "char": "🧒🏾",
     "codepoints": [
       129490,
       127998
@@ -7626,6 +8727,7 @@
     "description": "child: medium-dark skin tone"
   },
   "u1F9D2.5": {
+    "char": "🧒🏿",
     "codepoints": [
       129490,
       127999
@@ -7633,6 +8735,7 @@
     "description": "child: dark skin tone"
   },
   "u1F9D3.1": {
+    "char": "🧓🏻",
     "codepoints": [
       129491,
       127995
@@ -7640,6 +8743,7 @@
     "description": "older person: light skin tone"
   },
   "u1F9D3.2": {
+    "char": "🧓🏼",
     "codepoints": [
       129491,
       127996
@@ -7647,6 +8751,7 @@
     "description": "older person: medium-light skin tone"
   },
   "u1F9D3.3": {
+    "char": "🧓🏽",
     "codepoints": [
       129491,
       127997
@@ -7654,6 +8759,7 @@
     "description": "older person: medium skin tone"
   },
   "u1F9D3.4": {
+    "char": "🧓🏾",
     "codepoints": [
       129491,
       127998
@@ -7661,6 +8767,7 @@
     "description": "older person: medium-dark skin tone"
   },
   "u1F9D3.5": {
+    "char": "🧓🏿",
     "codepoints": [
       129491,
       127999
@@ -7668,6 +8775,7 @@
     "description": "older person: dark skin tone"
   },
   "u1F9D4.1": {
+    "char": "🧔🏻",
     "codepoints": [
       129492,
       127995
@@ -7675,6 +8783,7 @@
     "description": "man: light skin tone, beard"
   },
   "u1F9D4.2": {
+    "char": "🧔🏼",
     "codepoints": [
       129492,
       127996
@@ -7682,6 +8791,7 @@
     "description": "man: medium-light skin tone, beard"
   },
   "u1F9D4.3": {
+    "char": "🧔🏽",
     "codepoints": [
       129492,
       127997
@@ -7689,6 +8799,7 @@
     "description": "man: medium skin tone, beard"
   },
   "u1F9D4.4": {
+    "char": "🧔🏾",
     "codepoints": [
       129492,
       127998
@@ -7696,6 +8807,7 @@
     "description": "man: medium-dark skin tone, beard"
   },
   "u1F9D4.5": {
+    "char": "🧔🏿",
     "codepoints": [
       129492,
       127999
@@ -7703,6 +8815,7 @@
     "description": "man: dark skin tone, beard"
   },
   "u1F9D5.1": {
+    "char": "🧕🏻",
     "codepoints": [
       129493,
       127995
@@ -7710,6 +8823,7 @@
     "description": "woman with headscarf: light skin tone"
   },
   "u1F9D5.2": {
+    "char": "🧕🏼",
     "codepoints": [
       129493,
       127996
@@ -7717,6 +8831,7 @@
     "description": "woman with headscarf: medium-light skin tone"
   },
   "u1F9D5.3": {
+    "char": "🧕🏽",
     "codepoints": [
       129493,
       127997
@@ -7724,6 +8839,7 @@
     "description": "woman with headscarf: medium skin tone"
   },
   "u1F9D5.4": {
+    "char": "🧕🏾",
     "codepoints": [
       129493,
       127998
@@ -7731,6 +8847,7 @@
     "description": "woman with headscarf: medium-dark skin tone"
   },
   "u1F9D5.5": {
+    "char": "🧕🏿",
     "codepoints": [
       129493,
       127999
@@ -7738,6 +8855,7 @@
     "description": "woman with headscarf: dark skin tone"
   },
   "u1F9D6.1": {
+    "char": "🧖🏻",
     "codepoints": [
       129494,
       127995
@@ -7745,6 +8863,7 @@
     "description": "person in steamy room: light skin tone"
   },
   "u1F9D6.2": {
+    "char": "🧖🏼",
     "codepoints": [
       129494,
       127996
@@ -7752,6 +8871,7 @@
     "description": "person in steamy room: medium-light skin tone"
   },
   "u1F9D6.3": {
+    "char": "🧖🏽",
     "codepoints": [
       129494,
       127997
@@ -7759,6 +8879,7 @@
     "description": "person in steamy room: medium skin tone"
   },
   "u1F9D6.4": {
+    "char": "🧖🏾",
     "codepoints": [
       129494,
       127998
@@ -7766,6 +8887,7 @@
     "description": "person in steamy room: medium-dark skin tone"
   },
   "u1F9D6.5": {
+    "char": "🧖🏿",
     "codepoints": [
       129494,
       127999
@@ -7773,6 +8895,7 @@
     "description": "person in steamy room: dark skin tone"
   },
   "u1F9D7.1": {
+    "char": "🧗🏻",
     "codepoints": [
       129495,
       127995
@@ -7780,6 +8903,7 @@
     "description": "person climbing: light skin tone"
   },
   "u1F9D7.2": {
+    "char": "🧗🏼",
     "codepoints": [
       129495,
       127996
@@ -7787,6 +8911,7 @@
     "description": "person climbing: medium-light skin tone"
   },
   "u1F9D7.3": {
+    "char": "🧗🏽",
     "codepoints": [
       129495,
       127997
@@ -7794,6 +8919,7 @@
     "description": "person climbing: medium skin tone"
   },
   "u1F9D7.4": {
+    "char": "🧗🏾",
     "codepoints": [
       129495,
       127998
@@ -7801,6 +8927,7 @@
     "description": "person climbing: medium-dark skin tone"
   },
   "u1F9D7.5": {
+    "char": "🧗🏿",
     "codepoints": [
       129495,
       127999
@@ -7808,6 +8935,7 @@
     "description": "person climbing: dark skin tone"
   },
   "u1F9D8.1": {
+    "char": "🧘🏻",
     "codepoints": [
       129496,
       127995
@@ -7815,6 +8943,7 @@
     "description": "person in lotus position: light skin tone"
   },
   "u1F9D8.2": {
+    "char": "🧘🏼",
     "codepoints": [
       129496,
       127996
@@ -7822,6 +8951,7 @@
     "description": "person in lotus position: medium-light skin tone"
   },
   "u1F9D8.3": {
+    "char": "🧘🏽",
     "codepoints": [
       129496,
       127997
@@ -7829,6 +8959,7 @@
     "description": "person in lotus position: medium skin tone"
   },
   "u1F9D8.4": {
+    "char": "🧘🏾",
     "codepoints": [
       129496,
       127998
@@ -7836,6 +8967,7 @@
     "description": "person in lotus position: medium-dark skin tone"
   },
   "u1F9D8.5": {
+    "char": "🧘🏿",
     "codepoints": [
       129496,
       127999
@@ -7843,6 +8975,7 @@
     "description": "person in lotus position: dark skin tone"
   },
   "u1F9D9.1": {
+    "char": "🧙🏻",
     "codepoints": [
       129497,
       127995
@@ -7850,6 +8983,7 @@
     "description": "mage: light skin tone"
   },
   "u1F9D9.2": {
+    "char": "🧙🏼",
     "codepoints": [
       129497,
       127996
@@ -7857,6 +8991,7 @@
     "description": "mage: medium-light skin tone"
   },
   "u1F9D9.3": {
+    "char": "🧙🏽",
     "codepoints": [
       129497,
       127997
@@ -7864,6 +8999,7 @@
     "description": "mage: medium skin tone"
   },
   "u1F9D9.4": {
+    "char": "🧙🏾",
     "codepoints": [
       129497,
       127998
@@ -7871,6 +9007,7 @@
     "description": "mage: medium-dark skin tone"
   },
   "u1F9D9.5": {
+    "char": "🧙🏿",
     "codepoints": [
       129497,
       127999
@@ -7878,6 +9015,7 @@
     "description": "mage: dark skin tone"
   },
   "u1F9DA.1": {
+    "char": "🧚🏻",
     "codepoints": [
       129498,
       127995
@@ -7885,6 +9023,7 @@
     "description": "fairy: light skin tone"
   },
   "u1F9DA.2": {
+    "char": "🧚🏼",
     "codepoints": [
       129498,
       127996
@@ -7892,6 +9031,7 @@
     "description": "fairy: medium-light skin tone"
   },
   "u1F9DA.3": {
+    "char": "🧚🏽",
     "codepoints": [
       129498,
       127997
@@ -7899,6 +9039,7 @@
     "description": "fairy: medium skin tone"
   },
   "u1F9DA.4": {
+    "char": "🧚🏾",
     "codepoints": [
       129498,
       127998
@@ -7906,6 +9047,7 @@
     "description": "fairy: medium-dark skin tone"
   },
   "u1F9DA.5": {
+    "char": "🧚🏿",
     "codepoints": [
       129498,
       127999
@@ -7913,6 +9055,7 @@
     "description": "fairy: dark skin tone"
   },
   "u1F9DB.1": {
+    "char": "🧛🏻",
     "codepoints": [
       129499,
       127995
@@ -7920,6 +9063,7 @@
     "description": "vampire: light skin tone"
   },
   "u1F9DB.2": {
+    "char": "🧛🏼",
     "codepoints": [
       129499,
       127996
@@ -7927,6 +9071,7 @@
     "description": "vampire: medium-light skin tone"
   },
   "u1F9DB.3": {
+    "char": "🧛🏽",
     "codepoints": [
       129499,
       127997
@@ -7934,6 +9079,7 @@
     "description": "vampire: medium skin tone"
   },
   "u1F9DB.4": {
+    "char": "🧛🏾",
     "codepoints": [
       129499,
       127998
@@ -7941,6 +9087,7 @@
     "description": "vampire: medium-dark skin tone"
   },
   "u1F9DB.5": {
+    "char": "🧛🏿",
     "codepoints": [
       129499,
       127999
@@ -7948,6 +9095,7 @@
     "description": "vampire: dark skin tone"
   },
   "u1F9DC.1": {
+    "char": "🧜🏻",
     "codepoints": [
       129500,
       127995
@@ -7955,6 +9103,7 @@
     "description": "merperson: light skin tone"
   },
   "u1F9DC.2": {
+    "char": "🧜🏼",
     "codepoints": [
       129500,
       127996
@@ -7962,6 +9111,7 @@
     "description": "merperson: medium-light skin tone"
   },
   "u1F9DC.3": {
+    "char": "🧜🏽",
     "codepoints": [
       129500,
       127997
@@ -7969,6 +9119,7 @@
     "description": "merperson: medium skin tone"
   },
   "u1F9DC.4": {
+    "char": "🧜🏾",
     "codepoints": [
       129500,
       127998
@@ -7976,6 +9127,7 @@
     "description": "merperson: medium-dark skin tone"
   },
   "u1F9DC.5": {
+    "char": "🧜🏿",
     "codepoints": [
       129500,
       127999
@@ -7983,6 +9135,7 @@
     "description": "merperson: dark skin tone"
   },
   "u1F9DD.1": {
+    "char": "🧝🏻",
     "codepoints": [
       129501,
       127995
@@ -7990,6 +9143,7 @@
     "description": "elf: light skin tone"
   },
   "u1F9DD.2": {
+    "char": "🧝🏼",
     "codepoints": [
       129501,
       127996
@@ -7997,6 +9151,7 @@
     "description": "elf: medium-light skin tone"
   },
   "u1F9DD.3": {
+    "char": "🧝🏽",
     "codepoints": [
       129501,
       127997
@@ -8004,6 +9159,7 @@
     "description": "elf: medium skin tone"
   },
   "u1F9DD.4": {
+    "char": "🧝🏾",
     "codepoints": [
       129501,
       127998
@@ -8011,6 +9167,7 @@
     "description": "elf: medium-dark skin tone"
   },
   "u1F9DD.5": {
+    "char": "🧝🏿",
     "codepoints": [
       129501,
       127999
@@ -8018,30 +9175,35 @@
     "description": "elf: dark skin tone"
   },
   "u1F9E7": {
+    "char": "🧧",
     "codepoints": [
       129511
     ],
     "description": "red envelope"
   },
   "u1FA70": {
+    "char": "🩰",
     "codepoints": [
       129648
     ],
     "description": "ballet shoes"
   },
   "u1FA78": {
+    "char": "🩸",
     "codepoints": [
       129656
     ],
     "description": "drop of blood"
   },
   "u1FA80": {
+    "char": "🪀",
     "codepoints": [
       129664
     ],
     "description": "yo-yo"
   },
   "u1FA90": {
+    "char": "🪐",
     "codepoints": [
       129680
     ],

@@ -47,14 +47,16 @@ import { sortKeyStringifyOptions } from '../utils/sortKeyStringifyOptions';
 
       invariant(!sequenceData.hasOwnProperty(emojiKey), 'Already have a thing for `%s`!', emojiKey);
 
+      const char = String.fromCodePoint(...codepoints);
+
       if (txtFile === 'emoji-variation-sequences.txt') {
         if (category === 'emoji style') {
-          sequenceData[emojiKey] = { codepoints, sortKey };
+          sequenceData[emojiKey] = { codepoints, char, sortKey };
         } else {
           console.info('Skipping line `%s`', line);
         }
       } else {
-        sequenceData[emojiKey] = { codepoints, description, sortKey };
+        sequenceData[emojiKey] = { codepoints, char, description, sortKey };
       }
     });
 
