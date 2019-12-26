@@ -7,36 +7,41 @@ import { CACHE_DIR, DATA_DIR } from '../constants';
 import { invariant } from '../utils/invariant';
 
 (async () => {
-  const annotationFile = path.join(CACHE_DIR, 'annotations.xml');
-  const content = await fs.promises.readFile(annotationFile, 'utf8');
-  const $ = cheerio.load(content, { xmlMode: true });
+  await Promise.all(
+    ['annotations.xml', 'annotationsDerived.xml'].map(async fileName => {
+      const annotationFile = path.join(CACHE_DIR, fileName);
+      const content = await fs.promises.readFile(annotationFile, 'utf8');
+      const $ = cheerio.load(content, { xmlMode: true });
 
-  const annotations = $('ldml > annotations > annotation');
+      const annotations = $('ldml > annotations > annotation');
 
-  const ret: Record<string, any> = {};
-  annotations.map((idx, el) => {
-    const codepoints = toCodepoints(el.attribs.cp);
-    const key = toEmojiKey(codepoints);
+      const ret: Record<string, any> = {};
+      annotations.map((idx, el) => {
+        const codepoints = toCodepoints(el.attribs.cp);
+        const key = toEmojiKey(codepoints);
 
-    if (!ret[key]) {
-      ret[key] = {
-        char: el.attribs.cp,
-        codepoints,
-      };
-    } else {
-      invariant(ret[key].char === el.attribs.cp, 'char !== el.attribs.cp');
-    }
-    if (el.attribs.type === 'tts') {
-      ret[key].name = $(el)
-        .text()
-        .trim();
-    } else {
-      ret[key].keywords = $(el)
-        .text()
-        .split('|')
-        .map(s => s.trim());
-    }
-  });
+        if (!ret[key]) {
+          ret[key] = {
+            char: el.attribs.cp,
+            codepoints,
+          };
+        } else {
+          invariant(ret[key].char === el.attribs.cp, 'char !== el.attribs.cp');
+        }
+        if (el.attribs.type === 'tts') {
+          ret[key].name = $(el)
+            .text()
+            .trim();
+        } else {
+          ret[key].keywords = $(el)
+            .text()
+            .split('|')
+            .map(s => s.trim());
+        }
+      });
 
-  await fs.promises.writeFile(path.join(DATA_DIR, 'annotations.json'), JSON.stringify(ret, null, 2));
+      const basename = path.basename(fileName, '.xml');
+      await fs.promises.writeFile(path.join(DATA_DIR, `${basename}.json`), JSON.stringify(ret, null, 2));
+    })
+  );
 })();
