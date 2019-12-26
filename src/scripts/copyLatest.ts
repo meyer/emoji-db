@@ -4,6 +4,7 @@ import { FONTS_DIR, SYSTEM_EMOJI_TTC_PATH, DATA_DIR } from '../constants';
 import { getSystemInfo } from '../utils/getSystemInfo';
 import { invariant } from '../utils/invariant';
 import { getFontByName } from '../utils/getFontByName';
+import stringify from 'json-stable-stringify';
 
 const versionDataPath = path.join(DATA_DIR, 'versions.json');
 
@@ -38,7 +39,7 @@ const versionDataPath = path.join(DATA_DIR, 'versions.json');
     versionSet.add(systemNicename);
     versionData[fontVersion].macosVersions = Array.from(versionSet).sort();
 
-    fs.writeFileSync(versionDataPath, JSON.stringify(versionData, null, 2));
+    fs.writeFileSync(versionDataPath, stringify(versionData, { space: 2 }));
 
     if (fs.existsSync(ttcDest)) {
       console.info('`%s` has already been copied over', ttcName);

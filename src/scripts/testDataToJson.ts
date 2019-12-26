@@ -2,6 +2,7 @@ import path from 'path';
 import fs from 'fs';
 import { toEmojiKey } from '../utils/toEmojiKey';
 import { CACHE_DIR, DATA_DIR } from '../constants';
+import stringify from 'json-stable-stringify';
 
 const groupRegex = /^# (sub)?(group)\: (.+)$/;
 const lineRegex = /^([^;]+) ; ([^#]+) # (\S+) E([\d.]+) (.+)$/;
@@ -64,5 +65,5 @@ const lineRegex = /^([^;]+) ; ([^#]+) # (\S+) E([\d.]+) (.+)$/;
     };
   });
 
-  fs.writeFileSync(path.join(DATA_DIR, 'emoji-test.json'), JSON.stringify(emojiTestData, null, 2));
+  fs.writeFileSync(path.join(DATA_DIR, 'emoji-test.json'), stringify(emojiTestData, { space: 2 }));
 })();

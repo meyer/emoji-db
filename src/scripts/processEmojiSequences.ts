@@ -3,6 +3,7 @@ import fs from 'fs';
 import { toEmojiKey } from '../utils/toEmojiKey';
 import { invariant } from '../utils/invariant';
 import { CACHE_DIR, DATA_DIR } from '../constants';
+import stringify from 'json-stable-stringify';
 
 (async () => {
   [
@@ -54,6 +55,6 @@ import { CACHE_DIR, DATA_DIR } from '../constants';
       }
     });
 
-    fs.writeFileSync(path.join(DATA_DIR, `${basename}.json`), JSON.stringify(sequenceData, null, 2));
+    fs.writeFileSync(path.join(DATA_DIR, `${basename}.json`), stringify(sequenceData, { space: 2 }));
   });
 })();
