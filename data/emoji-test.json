@@ -8609,7 +8609,7 @@
     "since": 4,
     "subgroup": "person-role"
   },
-  "u1F491.MW": {
+  "u1F491.WM": {
     "desc": "couple with heart: woman, man",
     "emoji": "👩‍❤‍👨",
     "group": "group",
@@ -8623,7 +8623,7 @@
     "since": 2,
     "subgroup": "family"
   },
-  "u1F48F.MW": {
+  "u1F48F.WM": {
     "desc": "kiss: woman, man",
     "emoji": "👩‍❤‍💋‍👨",
     "group": "group",
@@ -9966,6 +9966,13 @@
     "group": "group",
     "since": 12.1,
     "subgroup": "person-activity"
+  },
+  "u1F46A": {
+    "desc": "family",
+    "emoji": "👪",
+    "group": "group",
+    "since": 2,
+    "subgroup": "family"
   },
   "u1F46B": {
     "desc": "woman and man holding hands",
@@ -11605,12 +11612,26 @@
     "since": 2,
     "subgroup": "clothing"
   },
+  "u1F48F": {
+    "desc": "kiss",
+    "emoji": "💏",
+    "group": "group",
+    "since": 2,
+    "subgroup": "family"
+  },
   "u1F490": {
     "desc": "bouquet",
     "emoji": "💐",
     "group": "group",
     "since": 2,
     "subgroup": "plant-flower"
+  },
+  "u1F491": {
+    "desc": "couple with heart",
+    "emoji": "💑",
+    "group": "group",
+    "since": 2,
+    "subgroup": "family"
   },
   "u1F492": {
     "desc": "wedding",

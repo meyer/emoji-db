@@ -15,7 +15,7 @@ const famSort = (a: string, b: string) => getFamIndex(a) - getFamIndex(b);
 const toFamString = (codepoints: number[]) =>
   codepoints
     .map(codepoint => famInitialsByCodepoint[codepoint as keyof typeof famInitialsByCodepoint] as string)
-    .sort(famSort)
+    // .sort(famSort)
     .join('');
 
 export const toEmojiKey = (codepointsOrig: number[]) => {
@@ -25,21 +25,7 @@ export const toEmojiKey = (codepointsOrig: number[]) => {
 
   const codepoints = codepointsOrig.filter(rejectJoiners);
 
-  if (codepoints.length === 1) {
-    // special case 1: people group defaults
-    if (codepoints[0] === 0x1f48f) {
-      // default kiss emoji"
-      return 'u1F48F.MW';
-    }
-    if (codepoints[0] === 0x1f491) {
-      // default heart emoji"
-      return 'u1F491.MW';
-    }
-    if (codepoints[0] === 0x1f46a) {
-      // default family emoji"
-      return 'u1F46A.MWB';
-    }
-  } else {
+  if (codepoints.length !== 1) {
     if (codepoints.filter(f => !heartCodepoints.includes(f)).length === 0) {
       return `u1F491.${toFamString(codepoints)}`;
     } else if (codepoints.filter(f => !kissCodepoints.includes(f)).length === 0) {
