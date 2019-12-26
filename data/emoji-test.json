@@ -7342,14 +7342,14 @@
     "since": 4,
     "subgroup": "person-role"
   },
-  "u1F468_u2764_u1F468": {
+  "u1F491.MM": {
     "desc": "couple with heart: man, man",
     "emoji": "👨‍❤‍👨",
     "group": "group",
     "since": 2,
     "subgroup": "family"
   },
-  "u1F468_u2764_u1F48B_u1F468": {
+  "u1F48F.MM": {
     "desc": "kiss: man, man",
     "emoji": "👨‍❤‍💋‍👨",
     "group": "group",
@@ -7405,105 +7405,105 @@
     "since": 4,
     "subgroup": "person-role"
   },
-  "u1F468_u1F466": {
+  "u1F46A.MB": {
     "desc": "family: man, boy",
     "emoji": "👨‍👦",
     "group": "group",
     "since": 4,
     "subgroup": "family"
   },
-  "u1F468_u1F466_u1F466": {
+  "u1F46A.MBB": {
     "desc": "family: man, boy, boy",
     "emoji": "👨‍👦‍👦",
     "group": "group",
     "since": 4,
     "subgroup": "family"
   },
-  "u1F468_u1F467": {
+  "u1F46A.MG": {
     "desc": "family: man, girl",
     "emoji": "👨‍👧",
     "group": "group",
     "since": 4,
     "subgroup": "family"
   },
-  "u1F468_u1F467_u1F466": {
+  "u1F46A.MGB": {
     "desc": "family: man, girl, boy",
     "emoji": "👨‍👧‍👦",
     "group": "group",
     "since": 4,
     "subgroup": "family"
   },
-  "u1F468_u1F467_u1F467": {
+  "u1F46A.MGG": {
     "desc": "family: man, girl, girl",
     "emoji": "👨‍👧‍👧",
     "group": "group",
     "since": 4,
     "subgroup": "family"
   },
-  "u1F468_u1F468_u1F466": {
+  "u1F46A.MMB": {
     "desc": "family: man, man, boy",
     "emoji": "👨‍👨‍👦",
     "group": "group",
     "since": 2,
     "subgroup": "family"
   },
-  "u1F468_u1F468_u1F466_u1F466": {
+  "u1F46A.MMBB": {
     "desc": "family: man, man, boy, boy",
     "emoji": "👨‍👨‍👦‍👦",
     "group": "group",
     "since": 2,
     "subgroup": "family"
   },
-  "u1F468_u1F468_u1F467": {
+  "u1F46A.MMG": {
     "desc": "family: man, man, girl",
     "emoji": "👨‍👨‍👧",
     "group": "group",
     "since": 2,
     "subgroup": "family"
   },
-  "u1F468_u1F468_u1F467_u1F466": {
+  "u1F46A.MMGB": {
     "desc": "family: man, man, girl, boy",
     "emoji": "👨‍👨‍👧‍👦",
     "group": "group",
     "since": 2,
     "subgroup": "family"
   },
-  "u1F468_u1F468_u1F467_u1F467": {
+  "u1F46A.MMGG": {
     "desc": "family: man, man, girl, girl",
     "emoji": "👨‍👨‍👧‍👧",
     "group": "group",
     "since": 2,
     "subgroup": "family"
   },
-  "u1F468_u1F469_u1F466": {
+  "u1F46A.MWB": {
     "desc": "family: man, woman, boy",
     "emoji": "👨‍👩‍👦",
     "group": "group",
     "since": 2,
     "subgroup": "family"
   },
-  "u1F468_u1F469_u1F466_u1F466": {
+  "u1F46A.MWBB": {
     "desc": "family: man, woman, boy, boy",
     "emoji": "👨‍👩‍👦‍👦",
     "group": "group",
     "since": 2,
     "subgroup": "family"
   },
-  "u1F468_u1F469_u1F467": {
+  "u1F46A.MWG": {
     "desc": "family: man, woman, girl",
     "emoji": "👨‍👩‍👧",
     "group": "group",
     "since": 2,
     "subgroup": "family"
   },
-  "u1F468_u1F469_u1F467_u1F466": {
+  "u1F46A.MWGB": {
     "desc": "family: man, woman, girl, boy",
     "emoji": "👨‍👩‍👧‍👦",
     "group": "group",
     "since": 2,
     "subgroup": "family"
   },
-  "u1F468_u1F469_u1F467_u1F467": {
+  "u1F46A.MWGG": {
     "desc": "family: man, woman, girl, girl",
     "emoji": "👨‍👩‍👧‍👧",
     "group": "group",
@@ -8609,28 +8609,28 @@
     "since": 4,
     "subgroup": "person-role"
   },
-  "u1F469_u2764_u1F468": {
+  "u1F491.MW": {
     "desc": "couple with heart: woman, man",
     "emoji": "👩‍❤‍👨",
     "group": "group",
     "since": 2,
     "subgroup": "family"
   },
-  "u1F469_u2764_u1F469": {
+  "u1F491.WW": {
     "desc": "couple with heart: woman, woman",
     "emoji": "👩‍❤‍👩",
     "group": "group",
     "since": 2,
     "subgroup": "family"
   },
-  "u1F469_u2764_u1F48B_u1F468": {
+  "u1F48F.MW": {
     "desc": "kiss: woman, man",
     "emoji": "👩‍❤‍💋‍👨",
     "group": "group",
     "since": 2,
     "subgroup": "family"
   },
-  "u1F469_u2764_u1F48B_u1F469": {
+  "u1F48F.WW": {
     "desc": "kiss: woman, woman",
     "emoji": "👩‍❤‍💋‍👩",
     "group": "group",
@@ -8686,70 +8686,70 @@
     "since": 4,
     "subgroup": "person-role"
   },
-  "u1F469_u1F466": {
+  "u1F46A.WB": {
     "desc": "family: woman, boy",
     "emoji": "👩‍👦",
     "group": "group",
     "since": 4,
     "subgroup": "family"
   },
-  "u1F469_u1F466_u1F466": {
+  "u1F46A.WBB": {
     "desc": "family: woman, boy, boy",
     "emoji": "👩‍👦‍👦",
     "group": "group",
     "since": 4,
     "subgroup": "family"
   },
-  "u1F469_u1F467": {
+  "u1F46A.WG": {
     "desc": "family: woman, girl",
     "emoji": "👩‍👧",
     "group": "group",
     "since": 4,
     "subgroup": "family"
   },
-  "u1F469_u1F467_u1F466": {
+  "u1F46A.WGB": {
     "desc": "family: woman, girl, boy",
     "emoji": "👩‍👧‍👦",
     "group": "group",
     "since": 4,
     "subgroup": "family"
   },
-  "u1F469_u1F467_u1F467": {
+  "u1F46A.WGG": {
     "desc": "family: woman, girl, girl",
     "emoji": "👩‍👧‍👧",
     "group": "group",
     "since": 4,
     "subgroup": "family"
   },
-  "u1F469_u1F469_u1F466": {
+  "u1F46A.WWB": {
     "desc": "family: woman, woman, boy",
     "emoji": "👩‍👩‍👦",
     "group": "group",
     "since": 2,
     "subgroup": "family"
   },
-  "u1F469_u1F469_u1F466_u1F466": {
+  "u1F46A.WWBB": {
     "desc": "family: woman, woman, boy, boy",
     "emoji": "👩‍👩‍👦‍👦",
     "group": "group",
     "since": 2,
     "subgroup": "family"
   },
-  "u1F469_u1F469_u1F467": {
+  "u1F46A.WWG": {
     "desc": "family: woman, woman, girl",
     "emoji": "👩‍👩‍👧",
     "group": "group",
     "since": 2,
     "subgroup": "family"
   },
-  "u1F469_u1F469_u1F467_u1F466": {
+  "u1F46A.WWGB": {
     "desc": "family: woman, woman, girl, boy",
     "emoji": "👩‍👩‍👧‍👦",
     "group": "group",
     "since": 2,
     "subgroup": "family"
   },
-  "u1F469_u1F469_u1F467_u1F467": {
+  "u1F46A.WWGG": {
     "desc": "family: woman, woman, girl, girl",
     "emoji": "👩‍👩‍👧‍👧",
     "group": "group",
@@ -9966,13 +9966,6 @@
     "group": "group",
     "since": 12.1,
     "subgroup": "person-activity"
-  },
-  "u1F46A.MWB": {
-    "desc": "family",
-    "emoji": "👪",
-    "group": "group",
-    "since": 2,
-    "subgroup": "family"
   },
   "u1F46B": {
     "desc": "woman and man holding hands",
@@ -11612,26 +11605,12 @@
     "since": 2,
     "subgroup": "clothing"
   },
-  "u1F48F.MW": {
-    "desc": "kiss",
-    "emoji": "💏",
-    "group": "group",
-    "since": 2,
-    "subgroup": "family"
-  },
   "u1F490": {
     "desc": "bouquet",
     "emoji": "💐",
     "group": "group",
     "since": 2,
     "subgroup": "plant-flower"
-  },
-  "u1F491.MW": {
-    "desc": "couple with heart",
-    "emoji": "💑",
-    "group": "group",
-    "since": 2,
-    "subgroup": "family"
   },
   "u1F492": {
     "desc": "wedding",

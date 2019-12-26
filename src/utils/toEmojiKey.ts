@@ -2,10 +2,10 @@ import {
   heartCodepoints,
   kissCodepoints,
   famInitialsByCodepoint,
-  unicodeJoiners,
   fitzpatrickModifiers,
   genderInitialsByCodepoint,
 } from '../constants';
+import { rejectJoiners } from './rejectJoiners';
 
 // adding 1 to the index makes non-matches falsey, which lets us fall back to the giant number
 const getFamIndex = (i: string) => 'MWGB'.indexOf(i) + 1 || 999 + (i.codePointAt(0) || 0);
@@ -18,10 +18,12 @@ const toFamString = (codepoints: number[]) =>
     .sort(famSort)
     .join('');
 
-export const toEmojiKey = (codepoints: number[]) => {
+export const toEmojiKey = (codepointsOrig: number[]) => {
   const fitz: number[] = [];
   const fam: string[] = [];
   const remainingCodepoints: number[] = [];
+
+  const codepoints = codepointsOrig.filter(rejectJoiners);
 
   if (codepoints.length === 1) {
     // special case 1: people group defaults
@@ -50,10 +52,6 @@ export const toEmojiKey = (codepoints: number[]) => {
   }
 
   for (const codepoint of codepoints) {
-    if (unicodeJoiners.includes(codepoint)) {
-      continue;
-    }
-
     // valid values are 1-5
     const fitzIndex = fitzpatrickModifiers.indexOf(codepoint);
     if (fitzIndex > 0) {

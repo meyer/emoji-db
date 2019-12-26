@@ -776,7 +776,7 @@
     ],
     "description": "man pilot"
   },
-  "u1F468_u2764_u1F468": {
+  "u1F491.MM": {
     "codepoints": [
       128104,
       8205,
@@ -787,7 +787,7 @@
     ],
     "description": "couple with heart: man, man"
   },
-  "u1F468_u2764_u1F48B_u1F468": {
+  "u1F48F.MM": {
     "codepoints": [
       128104,
       8205,
@@ -856,7 +856,7 @@
     ],
     "description": "man factory worker"
   },
-  "u1F468_u1F466": {
+  "u1F46A.MB": {
     "codepoints": [
       128104,
       8205,
@@ -864,7 +864,7 @@
     ],
     "description": "family: man, boy"
   },
-  "u1F468_u1F466_u1F466": {
+  "u1F46A.MBB": {
     "codepoints": [
       128104,
       8205,
@@ -874,7 +874,7 @@
     ],
     "description": "family: man, boy, boy"
   },
-  "u1F468_u1F467": {
+  "u1F46A.MG": {
     "codepoints": [
       128104,
       8205,
@@ -882,7 +882,7 @@
     ],
     "description": "family: man, girl"
   },
-  "u1F468_u1F467_u1F466": {
+  "u1F46A.MGB": {
     "codepoints": [
       128104,
       8205,
@@ -892,7 +892,7 @@
     ],
     "description": "family: man, girl, boy"
   },
-  "u1F468_u1F467_u1F467": {
+  "u1F46A.MGG": {
     "codepoints": [
       128104,
       8205,
@@ -902,7 +902,7 @@
     ],
     "description": "family: man, girl, girl"
   },
-  "u1F468_u1F468_u1F466": {
+  "u1F46A.MMB": {
     "codepoints": [
       128104,
       8205,
@@ -912,7 +912,7 @@
     ],
     "description": "family: man, man, boy"
   },
-  "u1F468_u1F468_u1F466_u1F466": {
+  "u1F46A.MMBB": {
     "codepoints": [
       128104,
       8205,
@@ -924,7 +924,7 @@
     ],
     "description": "family: man, man, boy, boy"
   },
-  "u1F468_u1F468_u1F467": {
+  "u1F46A.MMG": {
     "codepoints": [
       128104,
       8205,
@@ -934,7 +934,7 @@
     ],
     "description": "family: man, man, girl"
   },
-  "u1F468_u1F468_u1F467_u1F466": {
+  "u1F46A.MMGB": {
     "codepoints": [
       128104,
       8205,
@@ -946,7 +946,7 @@
     ],
     "description": "family: man, man, girl, boy"
   },
-  "u1F468_u1F468_u1F467_u1F467": {
+  "u1F46A.MMGG": {
     "codepoints": [
       128104,
       8205,
@@ -958,7 +958,7 @@
     ],
     "description": "family: man, man, girl, girl"
   },
-  "u1F468_u1F469_u1F466": {
+  "u1F46A.MWB": {
     "codepoints": [
       128104,
       8205,
@@ -968,7 +968,7 @@
     ],
     "description": "family: man, woman, boy"
   },
-  "u1F468_u1F469_u1F466_u1F466": {
+  "u1F46A.MWBB": {
     "codepoints": [
       128104,
       8205,
@@ -980,7 +980,7 @@
     ],
     "description": "family: man, woman, boy, boy"
   },
-  "u1F468_u1F469_u1F467": {
+  "u1F46A.MWG": {
     "codepoints": [
       128104,
       8205,
@@ -990,7 +990,7 @@
     ],
     "description": "family: man, woman, girl"
   },
-  "u1F468_u1F469_u1F467_u1F466": {
+  "u1F46A.MWGB": {
     "codepoints": [
       128104,
       8205,
@@ -1002,7 +1002,7 @@
     ],
     "description": "family: man, woman, girl, boy"
   },
-  "u1F468_u1F469_u1F467_u1F467": {
+  "u1F46A.MWGG": {
     "codepoints": [
       128104,
       8205,
@@ -2435,7 +2435,7 @@
     ],
     "description": "woman pilot"
   },
-  "u1F469_u2764_u1F468": {
+  "u1F491.MW": {
     "codepoints": [
       128105,
       8205,
@@ -2446,7 +2446,7 @@
     ],
     "description": "couple with heart: woman, man"
   },
-  "u1F469_u2764_u1F469": {
+  "u1F491.WW": {
     "codepoints": [
       128105,
       8205,
@@ -2457,7 +2457,7 @@
     ],
     "description": "couple with heart: woman, woman"
   },
-  "u1F469_u2764_u1F48B_u1F468": {
+  "u1F48F.MW": {
     "codepoints": [
       128105,
       8205,
@@ -2470,7 +2470,7 @@
     ],
     "description": "kiss: woman, man"
   },
-  "u1F469_u2764_u1F48B_u1F469": {
+  "u1F48F.WW": {
     "codepoints": [
       128105,
       8205,
@@ -2539,7 +2539,7 @@
     ],
     "description": "woman factory worker"
   },
-  "u1F469_u1F466": {
+  "u1F46A.WB": {
     "codepoints": [
       128105,
       8205,
@@ -2547,7 +2547,7 @@
     ],
     "description": "family: woman, boy"
   },
-  "u1F469_u1F466_u1F466": {
+  "u1F46A.WBB": {
     "codepoints": [
       128105,
       8205,
@@ -2557,7 +2557,7 @@
     ],
     "description": "family: woman, boy, boy"
   },
-  "u1F469_u1F467": {
+  "u1F46A.WG": {
     "codepoints": [
       128105,
       8205,
@@ -2565,7 +2565,7 @@
     ],
     "description": "family: woman, girl"
   },
-  "u1F469_u1F467_u1F466": {
+  "u1F46A.WGB": {
     "codepoints": [
       128105,
       8205,
@@ -2575,7 +2575,7 @@
     ],
     "description": "family: woman, girl, boy"
   },
-  "u1F469_u1F467_u1F467": {
+  "u1F46A.WGG": {
     "codepoints": [
       128105,
       8205,
@@ -2585,7 +2585,7 @@
     ],
     "description": "family: woman, girl, girl"
   },
-  "u1F469_u1F469_u1F466": {
+  "u1F46A.WWB": {
     "codepoints": [
       128105,
       8205,
@@ -2595,7 +2595,7 @@
     ],
     "description": "family: woman, woman, boy"
   },
-  "u1F469_u1F469_u1F466_u1F466": {
+  "u1F46A.WWBB": {
     "codepoints": [
       128105,
       8205,
@@ -2607,7 +2607,7 @@
     ],
     "description": "family: woman, woman, boy, boy"
   },
-  "u1F469_u1F469_u1F467": {
+  "u1F46A.WWG": {
     "codepoints": [
       128105,
       8205,
@@ -2617,7 +2617,7 @@
     ],
     "description": "family: woman, woman, girl"
   },
-  "u1F469_u1F469_u1F467_u1F466": {
+  "u1F46A.WWGB": {
     "codepoints": [
       128105,
       8205,
@@ -2629,7 +2629,7 @@
     ],
     "description": "family: woman, woman, girl, boy"
   },
-  "u1F469_u1F469_u1F467_u1F467": {
+  "u1F46A.WWGG": {
     "codepoints": [
       128105,
       8205,

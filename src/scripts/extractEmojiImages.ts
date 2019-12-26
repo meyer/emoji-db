@@ -8,10 +8,10 @@ import {
 } from '../constants';
 import { toCodepoints } from '../utils/toCodepoints';
 import { toEmojiKey } from '../utils/toEmojiKey';
-import { normaliseBasename } from '../utils/normaliseBasename';
 import { invariant } from '../utils/invariant';
 import emojiData from 'emojilib/emojis.json';
 import annotationData from '../../data/annotations.json';
+import derivedAnnotationData from '../../data/annotationsDerived.json';
 import { getFontByName } from '../utils/getFontByName';
 
 type EmojiData = typeof emojiData;
@@ -60,19 +60,26 @@ export type EmojiDb = Record<string, EmojiDbEntry>;
     const emojiByKey: Record<string, any> = {};
 
     for await (const { data, name } of ttf.getEmojiIterator()) {
-      const basename = normaliseBasename(name);
+      const basename = name.replace(/(?:\.0$|\.0(\.[MW])$)/, '$1');
       const emojilibData = emojiDataByKey.hasOwnProperty(basename) ? emojiDataByKey[basename] : null;
       const emojilibName = emojilibData?.name ?? null;
+
       if (!emojilibData) {
-        console.log('No emojilib data for %s (%s)', basename, name);
+        // console.log('No emojilib data for %s (%s)', basename, name);
       }
 
       const annotation = annotationData.hasOwnProperty(basename)
         ? annotationData[basename as keyof typeof annotationData]
         : null;
 
-      if (!annotation) {
-        console.log('No annotation data for %s (%s)', basename, name);
+      const derivedAnnotation = derivedAnnotationData.hasOwnProperty(basename)
+        ? derivedAnnotationData[basename as keyof typeof derivedAnnotationData]
+        : null;
+
+      try {
+        invariant(annotation || derivedAnnotation, 'Glyph %s has neither an annotation nor a derived annotation', name);
+      } catch (err) {
+        console.error(err.message);
       }
 
       const absPath = path.join(EMOJI_IMG_DIR, name + '.png');
@@ -87,6 +94,7 @@ export type EmojiDb = Record<string, EmojiDbEntry>;
         keywords: [],
         char: null,
         annotation,
+        derivedAnnotation,
         fitzpatrick_scale: null,
         category: null,
         name,
