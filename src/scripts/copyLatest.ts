@@ -46,6 +46,20 @@ const versionDataPath = path.join(DATA_DIR, 'versions.json');
     } else {
       fs.copyFileSync(SYSTEM_EMOJI_TTC_PATH, ttcDest);
     }
+
+    try {
+      console.log('Deleting old latest symlink...');
+      fs.unlinkSync(path.join(FONTS_DIR, 'latest'));
+    } catch (err) {
+      console.error('Error unlinking latest:', err);
+    }
+
+    try {
+      console.log('Updating latest symlink...');
+      fs.symlinkSync(ttcName, path.join(FONTS_DIR, 'latest'));
+    } catch (err) {
+      console.error('Error unlinking latest:', err);
+    }
   } finally {
     fh.close();
   }
