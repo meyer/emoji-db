@@ -1,14 +1,7 @@
 // https://docs.microsoft.com/en-us/typography/opentype/spec/otff
 import path from 'path';
 import fs from 'fs';
-import {
-  fitzpatrickModifiers,
-  FONTS_DIR,
-  MAN_CODEPOINT,
-  PERSON_CODEPOINT,
-  ROOT_DIR,
-  WOMAN_CODEPOINT,
-} from '../constants';
+import { FONTS_DIR, ROOT_DIR } from '../constants';
 import { invariant } from '../utils/invariant';
 import { getFontByName } from '../utils/getFontByName';
 import stringify from 'json-stable-stringify';
@@ -37,7 +30,7 @@ interface EmojiDbEntry {
 
 type EmojiDb = Record<string, EmojiDbEntry>;
 
-const holdingHandRegex = /^u(1F(?:46[89]|9D1))_u1F91D_u(1F(?:46[89]|9D1))\.([0-6])([0-6])$/;
+const holdingHandRegex = /^(u1F(?:46[89]|9D1)_u1F91D_u1F(?:46[89]|9D1))\.([0-6])([0-6])$/;
 
 (async argv => {
   invariant(argv.length === 1, 'one arg pls');
@@ -54,8 +47,8 @@ const holdingHandRegex = /^u(1F(?:46[89]|9D1))_u1F91D_u(1F(?:46[89]|9D1))\.([0-6
       let name: string | null = null;
       const keywords: string[] = [];
 
-      const basename = emoji.name.replace(/(?:\.0$|\.0(\.[MW])$)/, '$1');
-      let annotation =
+      const basename = emoji.name.replace(/(?:\.(?:0|66)$|\.(?:0|66)(\.[MW])$)/, '$1');
+      const annotation =
         basename in derivedAnnotationData
           ? derivedAnnotationData[basename as keyof typeof derivedAnnotationData]
           : basename in annotationData
@@ -63,74 +56,19 @@ const holdingHandRegex = /^u(1F(?:46[89]|9D1))_u1F91D_u(1F(?:46[89]|9D1))\.([0-6
           : null;
 
       if (!annotation) {
+        // The Apple Color Emoji font file contains unique images for the same skin tone pairs used left-right and right-left.
+        // For example, emoji `xyz` has images for `xyz.12` _and_ `xyz.21`, but annotation data only contains `xyz.21`.
+        // We pull keywords from the `21` case for the `12` case. ZWJ data will provide the remaining pieces.
         const match = emoji.name.match(holdingHandRegex);
-        // some fitzpatrick variants for holding hands emoji are missing
-        invariant(match, '`%s` does not match holdingHandRegex', emoji.name);
+        invariant(match, 'emoji.name does not match holdingHandRegex (`%s`)', emoji.name);
 
-        const left = parseInt(match[1], 16);
-        const right = parseInt(match[2], 16);
-        const fitz1Int = parseInt(match[3], 10);
-        const fitz2Int = parseInt(match[4], 10);
-        const fitz1 = fitzpatrickModifiers[fitz1Int];
-        const fitz2 = fitzpatrickModifiers[fitz2Int];
+        const fallbackKey = `${match[1]}.${match[3]}${match[2]}`;
+        console.log('Missing annotation for `%s`, falling back to `%s`', emoji.name, fallbackKey);
 
-        try {
-          invariant(fitz1 != null && fitz2 != null, 'Invalid fitz: (%s, %s)', fitz1Int, fitz2Int);
-        } catch (err) {
-          console.log(err.message);
-          continue;
-        }
+        const fallbackAnnotation = derivedAnnotationData[fallbackKey as keyof typeof derivedAnnotationData];
+        invariant(fallbackAnnotation, 'Missing fallbackAnnotation for key `%s`', fallbackKey);
 
-        // people holding hands: u1F9D1_u1F91D_u1F9D1
-        // woman and man holding hands: u1F46B
-        // men holding hands: u1F46C
-        // women holding hands: u1F46D
-        let baseAnnotation: typeof annotationData[keyof typeof annotationData];
-        if (left === PERSON_CODEPOINT && right === PERSON_CODEPOINT) {
-          baseAnnotation = annotationData['u1F9D1_u1F91D_u1F9D1'];
-        } else if (left === WOMAN_CODEPOINT && right === MAN_CODEPOINT) {
-          baseAnnotation = annotationData['u1F46B'];
-        } else if (left === MAN_CODEPOINT && right === MAN_CODEPOINT) {
-          baseAnnotation = annotationData['u1F46C'];
-        } else if (left === WOMAN_CODEPOINT && right === WOMAN_CODEPOINT) {
-          baseAnnotation = annotationData['u1F46D'];
-        } else {
-          invariant(false, 'unhandled emoji name: `%s`', emoji.name);
-        }
-
-        const fitz1Key = ('u' + fitz1.toString(16).toUpperCase()) as 'u1F3FB';
-        const fitz2Key = ('u' + fitz2.toString(16).toUpperCase()) as 'u1F3FB';
-
-        const fitz1Annotation = annotationData[fitz1Key];
-        const fitz2Annotation = annotationData[fitz2Key];
-
-        invariant(fitz1Annotation, 'Missing fitz1 annotation (%s)', fitz1Key);
-        invariant(fitz2Annotation, 'Missing fitz2 annotation (%s)', fitz2Key);
-
-        // example: u1F9D1_u1F91D_u1F9D1.55
-        codepoints = [
-          left, // left
-          fitz1, // fitz1
-          0x200d, //  zwj
-          0x1f91d, // handshake
-          0x200d, //  zwj
-          right, // right
-          fitz2, // fitz2
-        ];
-
-        name =
-          baseAnnotation.name +
-          ': ' +
-          fitz1Annotation.name +
-          (fitz1 === fitz2 ? '' : ', ' + fitz2Annotation.name) +
-          ' (generated)';
-        keywords.push(...baseAnnotation.keywords);
-
-        keywords.push(fitz1Annotation.name);
-        if (fitz1 !== fitz2) {
-          keywords.push(fitz2Annotation.name);
-        }
-        char = String.fromCodePoint(...codepoints);
+        keywords.push(...fallbackAnnotation.keywords);
       } else {
         codepoints = annotation.codepoints;
         name = annotation.name;
@@ -153,6 +91,8 @@ const holdingHandRegex = /^u(1F(?:46[89]|9D1))_u1F91D_u(1F(?:46[89]|9D1))\.([0-6
         char = seq.char;
         name = seq.description;
       }
+
+      invariant(codepoints, 'Emoji name `%s` was not present in any data file', emoji.name);
 
       const emojilibEmojiKey = toEmojiKey(codepoints).replace(/(?:\.\d\d?)?(?:\.[MWBG]+)?$/, '');
 

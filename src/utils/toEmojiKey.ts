@@ -6,6 +6,7 @@ import {
   genderInitialsByCodepoint,
 } from '../constants';
 import { rejectJoiners } from './rejectJoiners';
+import { invariant } from './invariant';
 
 // adding 1 to the index makes non-matches falsey, which lets us fall back to the giant number
 const getFamIndex = (i: string) => 'MWGB'.indexOf(i) + 1 || 999 + (i.codePointAt(0) || 0);
@@ -28,12 +29,33 @@ export const toEmojiKey = (codepointsOrig: number[]) => {
   if (codepoints.length !== 1) {
     if (codepoints.filter(f => !heartCodepoints.includes(f)).length === 0) {
       return `u1F491.${toFamString(codepoints)}`;
-    } else if (codepoints.filter(f => !kissCodepoints.includes(f)).length === 0) {
+    }
+    if (codepoints.filter(f => !kissCodepoints.includes(f)).length === 0) {
       return `u1F48F.${toFamString(codepoints)}`;
     }
     if (codepoints.filter(f => !famInitialsByCodepoint.hasOwnProperty(f)).length === 0) {
       // fam emoji + MWBG string
       return `u1F46A.${toFamString(codepoints)}`;
+    }
+  }
+
+  if (
+    codepoints.length === 2 &&
+    (codepoints[0] === 0x1f46b || codepoints[0] === 0x1f46c || codepoints[0] === 0x1f46d)
+  ) {
+    const fitzIndex = fitzpatrickModifiers.indexOf(codepoints[1]);
+    invariant(fitzIndex > 0, 'missing fitzpatrick index');
+
+    if (codepoints[0] === 0x1f46b) {
+      return `u1F469_u1F91D_u1F468.${fitzIndex}${fitzIndex}`;
+    }
+
+    if (codepoints[0] === 0x1f46c) {
+      return `u1F468_u1F91D_u1F468.${fitzIndex}${fitzIndex}`;
+    }
+
+    if (codepoints[0] === 0x1f46d) {
+      return `u1F469_u1F91D_u1F469.${fitzIndex}${fitzIndex}`;
     }
   }
 
