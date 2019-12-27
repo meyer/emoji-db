@@ -124,3 +124,15 @@
   build_date: '2019-08-05'
   macos_versions:
   - 10.15 (19A582a)
+15.0d4e1:
+  build_date: '2019-09-27'
+  macos_versions:
+  - 10.15.1 (19B68f)
+  - 10.15.1 (19B77a)
+  - 10.15.1 (19B86a)
+  - 10.15.1 (19B88)
+15.0d4e3:
+  build_date: '2019-10-30'
+  macos_versions:
+  - 10.15.2 (19C39d)
+  - 10.15.2 (19C57)
