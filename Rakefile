@@ -28,6 +28,7 @@ ExtraKeywordsFile = RootDir.join('extra-keywords.yaml').to_s
 EmojiCategoryFile = DataDir.join('emoji-by-category.json').to_s
 EmojiDBFile = RootDir.join('emoji-db.json').to_s
 FontVersionFile = FontDir.join('versions.yaml').to_s
+FontVersionJsonFile = FontDir.join('versions.json').to_s
 SequenceFile = DataDir.join('sequences.json').to_s
 UnicodeAnnotationFile = DataDir.join('unicode-annotations.json').to_s
 UnicodeDataFile = DataDir.join('unicode-data.json').to_s

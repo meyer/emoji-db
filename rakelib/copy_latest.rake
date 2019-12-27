@@ -29,6 +29,10 @@ task :copy_latest do
     f.puts YAML.dump(version_db)
     f.flush
     f.truncate(f.pos)
+
+    File.open(FontVersionJsonFile, 'w') do |j|
+      j.write(JSON.pretty_generate(version_db))
+    end
   end
 
   if ttc_dest.exist?
