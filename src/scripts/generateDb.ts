@@ -15,10 +15,12 @@ import stringify from 'json-stable-stringify';
 import { sortKeyStringifyOptions } from '../utils/sortKeyStringifyOptions';
 import annotationData from '../../data/annotations.json';
 import derivedAnnotationData from '../../data/annotationsDerived.json';
+import emojilibData from '../../data/emojilib.json';
 import sequenceData from '../../data/emoji-sequences.json';
 import variationSequenceData from '../../data/emoji-variation-sequences.json';
 import zwjSequenceData from '../../data/emoji-zwj-sequences.json';
 import { toEmojiSortKey } from '../utils/toEmojiSortKey';
+import { toEmojiKey } from '../utils/toEmojiKey';
 
 interface EmojiDbEntry {
   name: string;
@@ -128,7 +130,6 @@ const holdingHandRegex = /^u(1F(?:46[89]|9D1))_u1F91D_u(1F(?:46[89]|9D1))\.([0-6
         if (fitz1 !== fitz2) {
           keywords.push(fitz2Annotation.name);
         }
-        keywords.sort();
         char = String.fromCodePoint(...codepoints);
       } else {
         codepoints = annotation.codepoints;
@@ -153,6 +154,11 @@ const holdingHandRegex = /^u(1F(?:46[89]|9D1))_u1F91D_u(1F(?:46[89]|9D1))\.([0-6
         name = seq.description;
       }
 
+      const emojilibEmojiKey = toEmojiKey(codepoints).replace(/(?:\.\d\d?)?(?:\.[MWBG]+)?$/, '');
+
+      const emojilibDataItem =
+        emojilibEmojiKey in emojilibData ? emojilibData[emojilibEmojiKey as keyof typeof emojilibData] : null;
+
       try {
         invariant(name, 'No name for %s', emoji.name);
         invariant(codepoints, 'No codepoints for %s', emoji.name);
@@ -164,16 +170,22 @@ const holdingHandRegex = /^u(1F(?:46[89]|9D1))_u1F91D_u(1F(?:46[89]|9D1))\.([0-6
 
       const sortKey = toEmojiSortKey(codepoints);
 
+      if (emojilibDataItem) {
+        keywords.push(...emojilibDataItem.keywords);
+      }
+
+      keywords.sort();
+
       emojiDb[emoji.name] = {
         sortKey,
         codepoints,
         emoji: char,
         image: `images/${emoji.name}.png`,
-        keywords,
+        keywords: Array.from(new Set(keywords)),
         name,
         fitz: {},
-        emojilib_name: null,
-        unicode_category: null,
+        emojilib_name: emojilibDataItem?.emojilibKey ?? null,
+        unicode_category: emojilibDataItem?.category ?? null,
         unicode_subcategory: null,
       };
     }
