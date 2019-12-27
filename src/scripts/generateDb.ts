@@ -24,13 +24,14 @@ interface EmojiDbEntry {
   keywords: string[];
   emoji: string;
   image: string;
-  fitz: Record<number, string>;
+  fitz: null | Record<string, Pick<EmojiDbEntry, 'name' | 'image' | 'emoji' | 'codepoints'>>;
   sortKey: string;
 }
 
 type EmojiDb = Record<string, EmojiDbEntry>;
 
 const holdingHandRegex = /^(u1F(?:46[89]|9D1)_u1F91D_u1F(?:46[89]|9D1))\.([0-6])([0-6])$/;
+const fitzRegex = /\.([0-6][0-6]?)(\.[MWBG]+)?$/;
 
 (async argv => {
   invariant(argv.length === 1, 'one arg pls');
@@ -121,18 +122,38 @@ const holdingHandRegex = /^(u1F(?:46[89]|9D1)_u1F91D_u1F(?:46[89]|9D1))\.([0-6])
 
       keywords.sort();
 
-      emojiDb[emoji.name] = {
-        sortKey,
-        codepoints,
-        emoji: char,
-        image: `images/${emoji.name}.png`,
-        keywords: Array.from(new Set(keywords)),
-        name,
-        fitz: {},
-        emojilib_name: emojilibDataItem?.emojilibKey ?? null,
-        unicode_category: emojilibDataItem?.category ?? null,
-        unicode_subcategory: null,
-      };
+      const fitzMatch = emoji.name.match(fitzRegex);
+
+      if (fitzMatch && fitzMatch[1] !== '0') {
+        const zeroKey = emoji.name.replace(fitzRegex, '.0$2');
+
+        emojiDb[zeroKey] = {
+          ...emojiDb[zeroKey],
+          fitz: {
+            ...emojiDb[zeroKey]?.fitz,
+            [fitzMatch[1]]: {
+              name,
+              image: `images/${emoji.name}.png`,
+              emoji: char,
+              codepoints,
+            },
+          },
+        };
+      } else {
+        emojiDb[emoji.name] = {
+          sortKey,
+          codepoints,
+          emoji: char,
+          image: `images/${emoji.name}.png`,
+          keywords: Array.from(new Set(keywords)),
+          name,
+          fitz: null,
+          emojilib_name: emojilibDataItem?.emojilibKey ?? null,
+          unicode_category: emojilibDataItem?.category ?? null,
+          unicode_subcategory: null,
+          ...emojiDb[emoji.name],
+        };
+      }
     }
 
     await fs.promises.writeFile(absPath, stringify(emojiDb, sortKeyStringifyOptions));
