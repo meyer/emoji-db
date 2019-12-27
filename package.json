@@ -36,7 +36,6 @@
     "@types/json-stable-stringify": "^1.0.32",
     "@types/node": "^12.12.21",
     "cheerio": "^1.0.0-rc.3",
-    "cldr-data": "^36.0.0",
     "emojilib": "^2.4.0",
     "json-stable-stringify": "^1.0.1",
     "rimraf": "^3.0.0",
