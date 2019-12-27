@@ -6,7 +6,7 @@ import stringify from 'json-stable-stringify';
 import { toEmojiSortKey } from '../utils/toEmojiSortKey';
 import { sortKeyStringifyOptions } from '../utils/sortKeyStringifyOptions';
 
-const groupRegex = /^# (sub)?(group)\: (.+)$/;
+const groupRegex = /^# (sub)?group\: (.+)$/;
 const lineRegex = /^([^;]+) ; ([^#]+) # (\S+) E([\d.]+) (.+)$/;
 
 (async () => {
@@ -23,13 +23,13 @@ const lineRegex = /^([^;]+) ; ([^#]+) # (\S+) E([\d.]+) (.+)$/;
     const groupMatch = line.match(groupRegex);
 
     if (groupMatch) {
-      const [, sub, group, desc] = groupMatch;
+      const [, sub, desc] = groupMatch;
 
       if (sub) {
         currentSubgroup = desc.trim();
         console.log('\n%s --> %s', currentGroup, currentSubgroup);
       } else {
-        currentGroup = group.trim();
+        currentGroup = desc.trim();
       }
       return;
     }
