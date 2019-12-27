@@ -22,7 +22,8 @@
     "convert-annotations": "ts-node --transpile-only src/scripts/annotationsToJson.ts",
     "convert-sequences": "ts-node --transpile-only src/scripts/processEmojiSequences.ts",
     "convert-test-data": "ts-node --transpile-only src/scripts/testDataToJson.ts",
-    "copy-latest": "ts-node --transpile-only src/scripts/copyLatest.ts"
+    "copy-latest": "ts-node --transpile-only src/scripts/copyLatest.ts",
+    "generate-db": "ts-node --transpile-only src/scripts/generateDb.ts latest"
   },
   "prettier": {
     "printWidth": 120,

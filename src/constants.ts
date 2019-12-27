@@ -78,6 +78,10 @@ export const genderCodepointsByInitial = {
   M: 0x02642,
 };
 
+export const PERSON_CODEPOINT = 0x1f9d1;
+export const WOMAN_CODEPOINT = 0x1f469;
+export const MAN_CODEPOINT = 0x1f468;
+
 export const kissCodepoints = [0x1f468, 0x1f469, 0x1f48b, 0x2764];
 
 export const heartCodepoints = [0x1f468, 0x1f469, 0x2764];
