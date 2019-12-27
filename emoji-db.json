@@ -1322,11 +1322,12 @@
     "unicode_category": "animals_and_nature",
     "unicode_subcategory": null
   },
-  "u261D.0": {
+  "u261D": {
     "codepoints": [
-      9757
+      9757,
+      65039
     ],
-    "emoji": "☝",
+    "emoji": "☝️",
     "emojilib_name": "point_up",
     "fitz": {
       "1": {
@@ -2763,11 +2764,12 @@
     "unicode_category": "activity",
     "unicode_subcategory": null
   },
-  "u26F9.0": {
+  "u26F9": {
     "codepoints": [
-      9977
+      9977,
+      65039
     ],
-    "emoji": "⛹",
+    "emoji": "⛹️",
     "emojilib_name": "basketball_man",
     "fitz": {
       "1": {
@@ -2827,13 +2829,15 @@
     "unicode_category": "activity",
     "unicode_subcategory": null
   },
-  "u26F9.0.W": {
+  "u26F9.W": {
     "codepoints": [
       9977,
+      65039,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "⛹‍♀",
+    "emoji": "⛹️‍♀️",
     "emojilib_name": "basketball_man",
     "fitz": {
       "1": {
@@ -2909,13 +2913,15 @@
     "unicode_category": "activity",
     "unicode_subcategory": null
   },
-  "u26F9.0.M": {
+  "u26F9.M": {
     "codepoints": [
       9977,
+      65039,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "⛹‍♂",
+    "emoji": "⛹️‍♂️",
     "emojilib_name": "basketball_man",
     "fitz": {
       "1": {
@@ -3118,7 +3124,7 @@
     "unicode_category": "objects",
     "unicode_subcategory": null
   },
-  "u270A.0": {
+  "u270A": {
     "codepoints": [
       9994
     ],
@@ -3185,7 +3191,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u270B.0": {
+  "u270B": {
     "codepoints": [
       9995
     ],
@@ -3252,11 +3258,12 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u270C.0": {
+  "u270C": {
     "codepoints": [
-      9996
+      9996,
+      65039
     ],
-    "emoji": "✌",
+    "emoji": "✌️",
     "emojilib_name": "v",
     "fitz": {
       "1": {
@@ -3319,11 +3326,12 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u270D.0": {
+  "u270D": {
     "codepoints": [
-      9997
+      9997,
+      65039
     ],
-    "emoji": "✍",
+    "emoji": "✍️",
     "emojilib_name": "writing_hand",
     "fitz": {
       "1": {
@@ -12732,7 +12740,7 @@
     "unicode_category": "animals_and_nature",
     "unicode_subcategory": null
   },
-  "u1F385.0": {
+  "u1F385": {
     "codepoints": [
       127877
     ],
@@ -13972,7 +13980,7 @@
     "unicode_category": "activity",
     "unicode_subcategory": null
   },
-  "u1F3C3.0": {
+  "u1F3C3": {
     "codepoints": [
       127939
     ],
@@ -14039,13 +14047,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F3C3.0.W": {
+  "u1F3C3.W": {
     "codepoints": [
       127939,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🏃‍♀",
+    "emoji": "🏃‍♀️",
     "emojilib_name": "running_man",
     "fitz": {
       "1": {
@@ -14124,13 +14133,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F3C3.0.M": {
+  "u1F3C3.M": {
     "codepoints": [
       127939,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🏃‍♂",
+    "emoji": "🏃‍♂️",
     "emojilib_name": "running_man",
     "fitz": {
       "1": {
@@ -14208,80 +14218,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F3C4.0": {
-    "codepoints": [
-      127940
-    ],
-    "emoji": "🏄",
-    "emojilib_name": "surfing_man",
-    "fitz": {
-      "1": {
-        "codepoints": [
-          127940,
-          127995
-        ],
-        "emoji": "🏄🏻",
-        "image": "images/u1F3C4.1.png",
-        "name": "person surfing: light skin tone"
-      },
-      "2": {
-        "codepoints": [
-          127940,
-          127996
-        ],
-        "emoji": "🏄🏼",
-        "image": "images/u1F3C4.2.png",
-        "name": "person surfing: medium-light skin tone"
-      },
-      "3": {
-        "codepoints": [
-          127940,
-          127997
-        ],
-        "emoji": "🏄🏽",
-        "image": "images/u1F3C4.3.png",
-        "name": "person surfing: medium skin tone"
-      },
-      "4": {
-        "codepoints": [
-          127940,
-          127998
-        ],
-        "emoji": "🏄🏾",
-        "image": "images/u1F3C4.4.png",
-        "name": "person surfing: medium-dark skin tone"
-      },
-      "5": {
-        "codepoints": [
-          127940,
-          127999
-        ],
-        "emoji": "🏄🏿",
-        "image": "images/u1F3C4.5.png",
-        "name": "person surfing: dark skin tone"
-      }
-    },
-    "image": "images/u1F3C4.0.png",
-    "keywords": [
-      "beach",
-      "ocean",
-      "person surfing",
-      "sea",
-      "sports",
-      "summer",
-      "surfing"
-    ],
-    "name": "person surfing",
-    "unicode_category": "activity",
-    "unicode_subcategory": null
-  },
-  "u1F3C4.0.W": {
+  "u1F3C4.W": {
     "codepoints": [
       127940,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🏄‍♀",
+    "emoji": "🏄‍♀️",
     "emojilib_name": "surfing_man",
     "fitz": {
       "1": {
@@ -14359,13 +14303,14 @@
     "unicode_category": "activity",
     "unicode_subcategory": null
   },
-  "u1F3C4.0.M": {
+  "u1F3C4.M": {
     "codepoints": [
       127940,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🏄‍♂",
+    "emoji": "🏄‍♂️",
     "emojilib_name": "surfing_man",
     "fitz": {
       "1": {
@@ -14443,6 +14388,74 @@
     "unicode_category": "activity",
     "unicode_subcategory": null
   },
+  "u1F3C4": {
+    "codepoints": [
+      127940,
+      65039
+    ],
+    "emoji": "🏄️",
+    "emojilib_name": "surfing_man",
+    "fitz": {
+      "1": {
+        "codepoints": [
+          127940,
+          127995
+        ],
+        "emoji": "🏄🏻",
+        "image": "images/u1F3C4.1.png",
+        "name": "person surfing: light skin tone"
+      },
+      "2": {
+        "codepoints": [
+          127940,
+          127996
+        ],
+        "emoji": "🏄🏼",
+        "image": "images/u1F3C4.2.png",
+        "name": "person surfing: medium-light skin tone"
+      },
+      "3": {
+        "codepoints": [
+          127940,
+          127997
+        ],
+        "emoji": "🏄🏽",
+        "image": "images/u1F3C4.3.png",
+        "name": "person surfing: medium skin tone"
+      },
+      "4": {
+        "codepoints": [
+          127940,
+          127998
+        ],
+        "emoji": "🏄🏾",
+        "image": "images/u1F3C4.4.png",
+        "name": "person surfing: medium-dark skin tone"
+      },
+      "5": {
+        "codepoints": [
+          127940,
+          127999
+        ],
+        "emoji": "🏄🏿",
+        "image": "images/u1F3C4.5.png",
+        "name": "person surfing: dark skin tone"
+      }
+    },
+    "image": "images/u1F3C4.0.png",
+    "keywords": [
+      "beach",
+      "ocean",
+      "person surfing",
+      "sea",
+      "sports",
+      "summer",
+      "surfing"
+    ],
+    "name": "person surfing",
+    "unicode_category": "activity",
+    "unicode_subcategory": null
+  },
   "u1F3C5": {
     "codepoints": [
       127941
@@ -14484,7 +14497,7 @@
     "unicode_category": "activity",
     "unicode_subcategory": null
   },
-  "u1F3C7.0": {
+  "u1F3C7": {
     "codepoints": [
       127943
     ],
@@ -14592,81 +14605,14 @@
     "unicode_category": "activity",
     "unicode_subcategory": null
   },
-  "u1F3CA.0": {
-    "codepoints": [
-      127946
-    ],
-    "emoji": "🏊",
-    "emojilib_name": "swimming_man",
-    "fitz": {
-      "1": {
-        "codepoints": [
-          127946,
-          127995
-        ],
-        "emoji": "🏊🏻",
-        "image": "images/u1F3CA.1.png",
-        "name": "person swimming: light skin tone"
-      },
-      "2": {
-        "codepoints": [
-          127946,
-          127996
-        ],
-        "emoji": "🏊🏼",
-        "image": "images/u1F3CA.2.png",
-        "name": "person swimming: medium-light skin tone"
-      },
-      "3": {
-        "codepoints": [
-          127946,
-          127997
-        ],
-        "emoji": "🏊🏽",
-        "image": "images/u1F3CA.3.png",
-        "name": "person swimming: medium skin tone"
-      },
-      "4": {
-        "codepoints": [
-          127946,
-          127998
-        ],
-        "emoji": "🏊🏾",
-        "image": "images/u1F3CA.4.png",
-        "name": "person swimming: medium-dark skin tone"
-      },
-      "5": {
-        "codepoints": [
-          127946,
-          127999
-        ],
-        "emoji": "🏊🏿",
-        "image": "images/u1F3CA.5.png",
-        "name": "person swimming: dark skin tone"
-      }
-    },
-    "image": "images/u1F3CA.0.png",
-    "keywords": [
-      "athlete",
-      "exercise",
-      "human",
-      "person swimming",
-      "sports",
-      "summer",
-      "swim",
-      "water"
-    ],
-    "name": "person swimming",
-    "unicode_category": "activity",
-    "unicode_subcategory": null
-  },
-  "u1F3CA.0.W": {
+  "u1F3CA.W": {
     "codepoints": [
       127946,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🏊‍♀",
+    "emoji": "🏊‍♀️",
     "emojilib_name": "swimming_man",
     "fitz": {
       "1": {
@@ -14746,13 +14692,14 @@
     "unicode_category": "activity",
     "unicode_subcategory": null
   },
-  "u1F3CA.0.M": {
+  "u1F3CA.M": {
     "codepoints": [
       127946,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🏊‍♂",
+    "emoji": "🏊‍♂️",
     "emojilib_name": "swimming_man",
     "fitz": {
       "1": {
@@ -14832,11 +14779,81 @@
     "unicode_category": "activity",
     "unicode_subcategory": null
   },
-  "u1F3CB.0": {
+  "u1F3CA": {
     "codepoints": [
-      127947
+      127946,
+      65039
     ],
-    "emoji": "🏋",
+    "emoji": "🏊️",
+    "emojilib_name": "swimming_man",
+    "fitz": {
+      "1": {
+        "codepoints": [
+          127946,
+          127995
+        ],
+        "emoji": "🏊🏻",
+        "image": "images/u1F3CA.1.png",
+        "name": "person swimming: light skin tone"
+      },
+      "2": {
+        "codepoints": [
+          127946,
+          127996
+        ],
+        "emoji": "🏊🏼",
+        "image": "images/u1F3CA.2.png",
+        "name": "person swimming: medium-light skin tone"
+      },
+      "3": {
+        "codepoints": [
+          127946,
+          127997
+        ],
+        "emoji": "🏊🏽",
+        "image": "images/u1F3CA.3.png",
+        "name": "person swimming: medium skin tone"
+      },
+      "4": {
+        "codepoints": [
+          127946,
+          127998
+        ],
+        "emoji": "🏊🏾",
+        "image": "images/u1F3CA.4.png",
+        "name": "person swimming: medium-dark skin tone"
+      },
+      "5": {
+        "codepoints": [
+          127946,
+          127999
+        ],
+        "emoji": "🏊🏿",
+        "image": "images/u1F3CA.5.png",
+        "name": "person swimming: dark skin tone"
+      }
+    },
+    "image": "images/u1F3CA.0.png",
+    "keywords": [
+      "athlete",
+      "exercise",
+      "human",
+      "person swimming",
+      "sports",
+      "summer",
+      "swim",
+      "water"
+    ],
+    "name": "person swimming",
+    "unicode_category": "activity",
+    "unicode_subcategory": null
+  },
+  "u1F3CB": {
+    "codepoints": [
+      127947,
+      65039
+    ],
+    "emoji": "🏋️",
     "emojilib_name": "weight_lifting_man",
     "fitz": {
       "1": {
@@ -14898,13 +14915,15 @@
     "unicode_category": "activity",
     "unicode_subcategory": null
   },
-  "u1F3CB.0.W": {
+  "u1F3CB.W": {
     "codepoints": [
       127947,
+      65039,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🏋‍♀",
+    "emoji": "🏋️‍♀️",
     "emojilib_name": "weight_lifting_man",
     "fitz": {
       "1": {
@@ -14981,13 +15000,15 @@
     "unicode_category": "activity",
     "unicode_subcategory": null
   },
-  "u1F3CB.0.M": {
+  "u1F3CB.M": {
     "codepoints": [
       127947,
+      65039,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🏋‍♂",
+    "emoji": "🏋️‍♂️",
     "emojilib_name": "weight_lifting_man",
     "fitz": {
       "1": {
@@ -15064,11 +15085,12 @@
     "unicode_category": "activity",
     "unicode_subcategory": null
   },
-  "u1F3CC.0": {
+  "u1F3CC": {
     "codepoints": [
-      127948
+      127948,
+      65039
     ],
-    "emoji": "🏌",
+    "emoji": "🏌️",
     "emojilib_name": "golfing_man",
     "fitz": {
       "1": {
@@ -15129,13 +15151,15 @@
     "unicode_category": "activity",
     "unicode_subcategory": null
   },
-  "u1F3CC.0.W": {
+  "u1F3CC.W": {
     "codepoints": [
       127948,
+      65039,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🏌‍♀",
+    "emoji": "🏌️‍♀️",
     "emojilib_name": "golfing_man",
     "fitz": {
       "1": {
@@ -15211,13 +15235,15 @@
     "unicode_category": "activity",
     "unicode_subcategory": null
   },
-  "u1F3CC.0.M": {
+  "u1F3CC.M": {
     "codepoints": [
       127948,
+      65039,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🏌‍♂",
+    "emoji": "🏌️‍♂️",
     "emojilib_name": "golfing_man",
     "fitz": {
       "1": {
@@ -17733,7 +17759,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F442.0": {
+  "u1F442": {
     "codepoints": [
       128066
     ],
@@ -17799,7 +17825,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F443.0": {
+  "u1F443": {
     "codepoints": [
       128067
     ],
@@ -17898,11 +17924,12 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F446.0": {
+  "u1F446": {
     "codepoints": [
-      128070
+      128070,
+      65039
     ],
-    "emoji": "👆",
+    "emoji": "👆️",
     "emojilib_name": "point_up_2",
     "fitz": {
       "1": {
@@ -17966,11 +17993,12 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F447.0": {
+  "u1F447": {
     "codepoints": [
-      128071
+      128071,
+      65039
     ],
-    "emoji": "👇",
+    "emoji": "👇️",
     "emojilib_name": "point_down",
     "fitz": {
       "1": {
@@ -18034,11 +18062,12 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F448.0": {
+  "u1F448": {
     "codepoints": [
-      128072
+      128072,
+      65039
     ],
-    "emoji": "👈",
+    "emoji": "👈️",
     "emojilib_name": "point_left",
     "fitz": {
       "1": {
@@ -18103,11 +18132,12 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F449.0": {
+  "u1F449": {
     "codepoints": [
-      128073
+      128073,
+      65039
     ],
-    "emoji": "👉",
+    "emoji": "👉️",
     "emojilib_name": "point_right",
     "fitz": {
       "1": {
@@ -18172,7 +18202,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F44A.0": {
+  "u1F44A": {
     "codepoints": [
       128074
     ],
@@ -18241,7 +18271,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F44B.0": {
+  "u1F44B": {
     "codepoints": [
       128075
     ],
@@ -18312,7 +18342,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F44C.0": {
+  "u1F44C": {
     "codepoints": [
       128076
     ],
@@ -18379,11 +18409,12 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F44D.0": {
+  "u1F44D": {
     "codepoints": [
-      128077
+      128077,
+      65039
     ],
-    "emoji": "👍",
+    "emoji": "👍️",
     "emojilib_name": "+1",
     "fitz": {
       "1": {
@@ -18452,11 +18483,12 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F44E.0": {
+  "u1F44E": {
     "codepoints": [
-      128078
+      128078,
+      65039
     ],
-    "emoji": "👎",
+    "emoji": "👎️",
     "emojilib_name": "-1",
     "fitz": {
       "1": {
@@ -18520,7 +18552,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F44F.0": {
+  "u1F44F": {
     "codepoints": [
       128079
     ],
@@ -18588,7 +18620,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F450.0": {
+  "u1F450": {
     "codepoints": [
       128080
     ],
@@ -19111,7 +19143,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F466.0": {
+  "u1F466": {
     "codepoints": [
       128102
     ],
@@ -19177,7 +19209,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F467.0": {
+  "u1F467": {
     "codepoints": [
       128103
     ],
@@ -19244,7 +19276,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F468.0": {
+  "u1F468": {
     "codepoints": [
       128104
     ],
@@ -19313,13 +19345,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F468_u2695.0": {
+  "u1F468_u2695": {
     "codepoints": [
       128104,
       8205,
-      9877
+      9877,
+      65039
     ],
-    "emoji": "👨‍⚕",
+    "emoji": "👨‍⚕️",
     "emojilib_name": "man_health_worker",
     "fitz": {
       "1": {
@@ -19397,13 +19430,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F468_u2696.0": {
+  "u1F468_u2696": {
     "codepoints": [
       128104,
       8205,
-      9878
+      9878,
+      65039
     ],
-    "emoji": "👨‍⚖",
+    "emoji": "👨‍⚖️",
     "emojilib_name": "man_judge",
     "fitz": {
       "1": {
@@ -19480,13 +19514,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F468_u2708.0": {
+  "u1F468_u2708": {
     "codepoints": [
       128104,
       8205,
-      9992
+      9992,
+      65039
     ],
-    "emoji": "👨‍✈",
+    "emoji": "👨‍✈️",
     "emojilib_name": "man_pilot",
     "fitz": {
       "1": {
@@ -19622,7 +19657,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F468_u1F33E.0": {
+  "u1F468_u1F33E": {
     "codepoints": [
       128104,
       8205,
@@ -19699,7 +19734,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F468_u1F373.0": {
+  "u1F468_u1F373": {
     "codepoints": [
       128104,
       8205,
@@ -19775,7 +19810,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F468_u1F393.0": {
+  "u1F468_u1F393": {
     "codepoints": [
       128104,
       8205,
@@ -19851,7 +19886,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F468_u1F3A4.0": {
+  "u1F468_u1F3A4": {
     "codepoints": [
       128104,
       8205,
@@ -19931,7 +19966,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F468_u1F3A8.0": {
+  "u1F468_u1F3A8": {
     "codepoints": [
       128104,
       8205,
@@ -20008,7 +20043,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F468_u1F3EB.0": {
+  "u1F468_u1F3EB": {
     "codepoints": [
       128104,
       8205,
@@ -20085,7 +20120,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F468_u1F3ED.0": {
+  "u1F468_u1F3ED": {
     "codepoints": [
       128104,
       8205,
@@ -20629,7 +20664,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F468_u1F4BB.0": {
+  "u1F468_u1F4BB": {
     "codepoints": [
       128104,
       8205,
@@ -20712,7 +20747,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F468_u1F4BC.0": {
+  "u1F468_u1F4BC": {
     "codepoints": [
       128104,
       8205,
@@ -20791,7 +20826,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F468_u1F527.0": {
+  "u1F468_u1F527": {
     "codepoints": [
       128104,
       8205,
@@ -20870,7 +20905,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F468_u1F52C.0": {
+  "u1F468_u1F52C": {
     "codepoints": [
       128104,
       8205,
@@ -20949,7 +20984,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F468_u1F680.0": {
+  "u1F468_u1F680": {
     "codepoints": [
       128104,
       8205,
@@ -21026,7 +21061,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F468_u1F692.0": {
+  "u1F468_u1F692": {
     "codepoints": [
       128104,
       8205,
@@ -21103,7 +21138,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F468_u1F91D_u1F468.0": {
+  "u1F468_u1F91D_u1F468": {
     "fitz": {
       "11": {
         "codepoints": [
@@ -21432,7 +21467,7 @@
       }
     }
   },
-  "u1F468_u1F9AF.0": {
+  "u1F468_u1F9AF": {
     "codepoints": [
       128104,
       8205,
@@ -21504,11 +21539,11 @@
       "man",
       "man with white cane"
     ],
-    "name": "man with white cane",
+    "name": "man with probing cane",
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F468_u1F9B0.0": {
+  "u1F468_u1F9B0": {
     "codepoints": [
       128104,
       8205,
@@ -21583,7 +21618,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F468_u1F9B1.0": {
+  "u1F468_u1F9B1": {
     "codepoints": [
       128104,
       8205,
@@ -21658,7 +21693,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F468_u1F9B2.0": {
+  "u1F468_u1F9B2": {
     "codepoints": [
       128104,
       8205,
@@ -21733,7 +21768,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F468_u1F9B3.0": {
+  "u1F468_u1F9B3": {
     "codepoints": [
       128104,
       8205,
@@ -21808,7 +21843,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F468_u1F9BC.0": {
+  "u1F468_u1F9BC": {
     "codepoints": [
       128104,
       8205,
@@ -21884,7 +21919,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F468_u1F9BD.0": {
+  "u1F468_u1F9BD": {
     "codepoints": [
       128104,
       8205,
@@ -21960,7 +21995,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F469.0": {
+  "u1F469": {
     "codepoints": [
       128105
     ],
@@ -22025,13 +22060,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F469_u2695.0": {
+  "u1F469_u2695": {
     "codepoints": [
       128105,
       8205,
-      9877
+      9877,
+      65039
     ],
-    "emoji": "👩‍⚕",
+    "emoji": "👩‍⚕️",
     "emojilib_name": "woman_health_worker",
     "fitz": {
       "1": {
@@ -22109,13 +22145,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F469_u2696.0": {
+  "u1F469_u2696": {
     "codepoints": [
       128105,
       8205,
-      9878
+      9878,
+      65039
     ],
-    "emoji": "👩‍⚖",
+    "emoji": "👩‍⚖️",
     "emojilib_name": "woman_judge",
     "fitz": {
       "1": {
@@ -22192,13 +22229,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F469_u2708.0": {
+  "u1F469_u2708": {
     "codepoints": [
       128105,
       8205,
-      9992
+      9992,
+      65039
     ],
-    "emoji": "👩‍✈",
+    "emoji": "👩‍✈️",
     "emojilib_name": "woman_pilot",
     "fitz": {
       "1": {
@@ -22396,7 +22434,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F469_u1F33E.0": {
+  "u1F469_u1F33E": {
     "codepoints": [
       128105,
       8205,
@@ -22473,7 +22511,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F469_u1F373.0": {
+  "u1F469_u1F373": {
     "codepoints": [
       128105,
       8205,
@@ -22549,7 +22587,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F469_u1F393.0": {
+  "u1F469_u1F393": {
     "codepoints": [
       128105,
       8205,
@@ -22625,7 +22663,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F469_u1F3A4.0": {
+  "u1F469_u1F3A4": {
     "codepoints": [
       128105,
       8205,
@@ -22705,7 +22743,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F469_u1F3A8.0": {
+  "u1F469_u1F3A8": {
     "codepoints": [
       128105,
       8205,
@@ -22782,7 +22820,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F469_u1F3EB.0": {
+  "u1F469_u1F3EB": {
     "codepoints": [
       128105,
       8205,
@@ -22859,7 +22897,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F469_u1F3ED.0": {
+  "u1F469_u1F3ED": {
     "codepoints": [
       128105,
       8205,
@@ -22937,7 +22975,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F469_u1F91D_u1F468.0": {
+  "u1F469_u1F91D_u1F468": {
     "fitz": {
       "11": {
         "codepoints": [
@@ -23266,7 +23304,7 @@
       }
     }
   },
-  "u1F469_u1F91D_u1F469.0": {
+  "u1F469_u1F91D_u1F469": {
     "fitz": {
       "11": {
         "codepoints": [
@@ -23899,7 +23937,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F469_u1F4BB.0": {
+  "u1F469_u1F4BB": {
     "codepoints": [
       128105,
       8205,
@@ -23982,7 +24020,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F469_u1F4BC.0": {
+  "u1F469_u1F4BC": {
     "codepoints": [
       128105,
       8205,
@@ -24061,7 +24099,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F469_u1F527.0": {
+  "u1F469_u1F527": {
     "codepoints": [
       128105,
       8205,
@@ -24140,7 +24178,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F469_u1F52C.0": {
+  "u1F469_u1F52C": {
     "codepoints": [
       128105,
       8205,
@@ -24219,7 +24257,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F469_u1F680.0": {
+  "u1F469_u1F680": {
     "codepoints": [
       128105,
       8205,
@@ -24296,7 +24334,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F469_u1F692.0": {
+  "u1F469_u1F692": {
     "codepoints": [
       128105,
       8205,
@@ -24373,7 +24411,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F469_u1F9AF.0": {
+  "u1F469_u1F9AF": {
     "codepoints": [
       128105,
       8205,
@@ -24445,11 +24483,11 @@
       "woman",
       "woman with white cane"
     ],
-    "name": "woman with white cane",
+    "name": "woman with probing cane",
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F469_u1F9B0.0": {
+  "u1F469_u1F9B0": {
     "codepoints": [
       128105,
       8205,
@@ -24524,7 +24562,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F469_u1F9B1.0": {
+  "u1F469_u1F9B1": {
     "codepoints": [
       128105,
       8205,
@@ -24599,7 +24637,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F469_u1F9B2.0": {
+  "u1F469_u1F9B2": {
     "codepoints": [
       128105,
       8205,
@@ -24674,7 +24712,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F469_u1F9B3.0": {
+  "u1F469_u1F9B3": {
     "codepoints": [
       128105,
       8205,
@@ -24749,7 +24787,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F469_u1F9BC.0": {
+  "u1F469_u1F9BC": {
     "codepoints": [
       128105,
       8205,
@@ -24825,7 +24863,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F469_u1F9BD.0": {
+  "u1F469_u1F9BD": {
     "codepoints": [
       128105,
       8205,
@@ -25012,7 +25050,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F46E.0": {
+  "u1F46E": {
     "codepoints": [
       128110
     ],
@@ -25081,13 +25119,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F46E.0.W": {
+  "u1F46E.W": {
     "codepoints": [
       128110,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "👮‍♀",
+    "emoji": "👮‍♀️",
     "emojilib_name": "policeman",
     "fitz": {
       "1": {
@@ -25168,13 +25207,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F46E.0.M": {
+  "u1F46E.M": {
     "codepoints": [
       128110,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "👮‍♂",
+    "emoji": "👮‍♂️",
     "emojilib_name": "policeman",
     "fitz": {
       "1": {
@@ -25327,7 +25367,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F470.0": {
+  "u1F470": {
     "codepoints": [
       128112
     ],
@@ -25395,7 +25435,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F471.0": {
+  "u1F471": {
     "codepoints": [
       128113
     ],
@@ -25465,13 +25505,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F471.0.W": {
+  "u1F471.W": {
     "codepoints": [
       128113,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "👱‍♀",
+    "emoji": "👱‍♀️",
     "emojilib_name": "blonde_man",
     "fitz": {
       "1": {
@@ -25552,13 +25593,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F471.0.M": {
+  "u1F471.M": {
     "codepoints": [
       128113,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "👱‍♂",
+    "emoji": "👱‍♂️",
     "emojilib_name": "blonde_man",
     "fitz": {
       "1": {
@@ -25639,7 +25681,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F472.0": {
+  "u1F472": {
     "codepoints": [
       128114
     ],
@@ -25708,7 +25750,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F473.0": {
+  "u1F473": {
     "codepoints": [
       128115
     ],
@@ -25774,13 +25816,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F473.0.W": {
+  "u1F473.W": {
     "codepoints": [
       128115,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "👳‍♀",
+    "emoji": "👳‍♀️",
     "emojilib_name": "man_with_turban",
     "fitz": {
       "1": {
@@ -25858,13 +25901,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F473.0.M": {
+  "u1F473.M": {
     "codepoints": [
       128115,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "👳‍♂",
+    "emoji": "👳‍♂️",
     "emojilib_name": "man_with_turban",
     "fitz": {
       "1": {
@@ -25942,7 +25986,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F474.0": {
+  "u1F474": {
     "codepoints": [
       128116
     ],
@@ -26010,7 +26054,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F475.0": {
+  "u1F475": {
     "codepoints": [
       128117
     ],
@@ -26079,7 +26123,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F476.0": {
+  "u1F476": {
     "codepoints": [
       128118
     ],
@@ -26145,7 +26189,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F477.0": {
+  "u1F477": {
     "codepoints": [
       128119
     ],
@@ -26214,13 +26258,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F477.0.W": {
+  "u1F477.W": {
     "codepoints": [
       128119,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "👷‍♀",
+    "emoji": "👷‍♀️",
     "emojilib_name": "construction_worker_man",
     "fitz": {
       "1": {
@@ -26300,13 +26345,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F477.0.M": {
+  "u1F477.M": {
     "codepoints": [
       128119,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "👷‍♂",
+    "emoji": "👷‍♂️",
     "emojilib_name": "construction_worker_man",
     "fitz": {
       "1": {
@@ -26386,7 +26432,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F478.0": {
+  "u1F478": {
     "codepoints": [
       128120
     ],
@@ -26533,7 +26579,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F47C.0": {
+  "u1F47C": {
     "codepoints": [
       128124
     ],
@@ -26693,7 +26739,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F481.0": {
+  "u1F481": {
     "codepoints": [
       128129
     ],
@@ -26763,13 +26809,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F481.0.W": {
+  "u1F481.W": {
     "codepoints": [
       128129,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "💁‍♀",
+    "emoji": "💁‍♀️",
     "emojilib_name": "tipping_hand_woman",
     "fitz": {
       "1": {
@@ -26848,13 +26895,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F481.0.M": {
+  "u1F481.M": {
     "codepoints": [
       128129,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "💁‍♂",
+    "emoji": "💁‍♂️",
     "emojilib_name": "tipping_hand_woman",
     "fitz": {
       "1": {
@@ -26934,7 +26982,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F482.0": {
+  "u1F482": {
     "codepoints": [
       128130
     ],
@@ -27001,13 +27049,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F482.0.W": {
+  "u1F482.W": {
     "codepoints": [
       128130,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "💂‍♀",
+    "emoji": "💂‍♀️",
     "emojilib_name": "guardsman",
     "fitz": {
       "1": {
@@ -27086,13 +27135,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F482.0.M": {
+  "u1F482.M": {
     "codepoints": [
       128130,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "💂‍♂",
+    "emoji": "💂‍♂️",
     "emojilib_name": "guardsman",
     "fitz": {
       "1": {
@@ -27171,7 +27221,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F483.0": {
+  "u1F483": {
     "codepoints": [
       128131
     ],
@@ -27257,7 +27307,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F485.0": {
+  "u1F485": {
     "codepoints": [
       128133
     ],
@@ -27325,7 +27375,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F486.0": {
+  "u1F486": {
     "codepoints": [
       128134
     ],
@@ -27393,13 +27443,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F486.0.W": {
+  "u1F486.W": {
     "codepoints": [
       128134,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "💆‍♀",
+    "emoji": "💆‍♀️",
     "emojilib_name": "massage_woman",
     "fitz": {
       "1": {
@@ -27477,13 +27528,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F486.0.M": {
+  "u1F486.M": {
     "codepoints": [
       128134,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "💆‍♂",
+    "emoji": "💆‍♂️",
     "emojilib_name": "massage_woman",
     "fitz": {
       "1": {
@@ -27562,7 +27614,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F487.0": {
+  "u1F487": {
     "codepoints": [
       128135
     ],
@@ -27630,13 +27682,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F487.0.W": {
+  "u1F487.W": {
     "codepoints": [
       128135,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "💇‍♀",
+    "emoji": "💇‍♀️",
     "emojilib_name": "haircut_woman",
     "fitz": {
       "1": {
@@ -27712,13 +27765,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F487.0.M": {
+  "u1F487.M": {
     "codepoints": [
       128135,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "💇‍♂",
+    "emoji": "💇‍♂️",
     "emojilib_name": "haircut_woman",
     "fitz": {
       "1": {
@@ -28528,7 +28582,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F4AA.0": {
+  "u1F4AA": {
     "codepoints": [
       128170
     ],
@@ -32463,11 +32517,12 @@
     "unicode_category": "objects",
     "unicode_subcategory": null
   },
-  "u1F574.0": {
+  "u1F574": {
     "codepoints": [
-      128372
+      128372,
+      65039
     ],
-    "emoji": "🕴",
+    "emoji": "🕴️",
     "emojilib_name": "business_suit_levitating",
     "fitz": {
       "1": {
@@ -32526,15 +32581,16 @@
       "person in suit levitating",
       "suit"
     ],
-    "name": "person in suit levitating",
+    "name": "man in suit levitating",
     "unicode_category": "activity",
     "unicode_subcategory": null
   },
-  "u1F575.0": {
+  "u1F575": {
     "codepoints": [
-      128373
+      128373,
+      65039
     ],
-    "emoji": "🕵",
+    "emoji": "🕵️",
     "emojilib_name": "male_detective",
     "fitz": {
       "1": {
@@ -32594,13 +32650,15 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F575.0.W": {
+  "u1F575.W": {
     "codepoints": [
       128373,
+      65039,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🕵‍♀",
+    "emoji": "🕵️‍♀️",
     "emojilib_name": "male_detective",
     "fitz": {
       "1": {
@@ -32676,13 +32734,15 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F575.0.M": {
+  "u1F575.M": {
     "codepoints": [
       128373,
+      65039,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🕵‍♂",
+    "emoji": "🕵️‍♂️",
     "emojilib_name": "male_detective",
     "fitz": {
       "1": {
@@ -32840,7 +32900,7 @@
     "unicode_category": "objects",
     "unicode_subcategory": null
   },
-  "u1F57A.0": {
+  "u1F57A": {
     "codepoints": [
       128378
     ],
@@ -33005,11 +33065,12 @@
     "unicode_category": "objects",
     "unicode_subcategory": null
   },
-  "u1F590.0": {
+  "u1F590": {
     "codepoints": [
-      128400
+      128400,
+      65039
     ],
-    "emoji": "🖐",
+    "emoji": "🖐️",
     "emojilib_name": "raised_hand_with_fingers_splayed",
     "fitz": {
       "1": {
@@ -33071,7 +33132,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F595.0": {
+  "u1F595": {
     "codepoints": [
       128405
     ],
@@ -33138,7 +33199,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F596.0": {
+  "u1F596": {
     "codepoints": [
       128406
     ],
@@ -35249,7 +35310,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F645.0": {
+  "u1F645": {
     "codepoints": [
       128581
     ],
@@ -35318,13 +35379,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F645.0.W": {
+  "u1F645.W": {
     "codepoints": [
       128581,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🙅‍♀",
+    "emoji": "🙅‍♀️",
     "emojilib_name": "no_good_woman",
     "fitz": {
       "1": {
@@ -35404,13 +35466,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F645.0.M": {
+  "u1F645.M": {
     "codepoints": [
       128581,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🙅‍♂",
+    "emoji": "🙅‍♂️",
     "emojilib_name": "no_good_woman",
     "fitz": {
       "1": {
@@ -35491,7 +35554,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F646.0": {
+  "u1F646": {
     "codepoints": [
       128582
     ],
@@ -35561,13 +35624,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F646.0.W": {
+  "u1F646.W": {
     "codepoints": [
       128582,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🙆‍♀",
+    "emoji": "🙆‍♀️",
     "emojilib_name": "ok_woman",
     "fitz": {
       "1": {
@@ -35648,13 +35712,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F646.0.M": {
+  "u1F646.M": {
     "codepoints": [
       128582,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🙆‍♂",
+    "emoji": "🙆‍♂️",
     "emojilib_name": "ok_woman",
     "fitz": {
       "1": {
@@ -35736,7 +35801,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F647.0": {
+  "u1F647": {
     "codepoints": [
       128583
     ],
@@ -35804,13 +35869,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F647.0.W": {
+  "u1F647.W": {
     "codepoints": [
       128583,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🙇‍♀",
+    "emoji": "🙇‍♀️",
     "emojilib_name": "bowing_man",
     "fitz": {
       "1": {
@@ -35890,13 +35956,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F647.0.M": {
+  "u1F647.M": {
     "codepoints": [
       128583,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🙇‍♂",
+    "emoji": "🙇‍♂️",
     "emojilib_name": "bowing_man",
     "fitz": {
       "1": {
@@ -36043,7 +36110,7 @@
     "unicode_category": "animals_and_nature",
     "unicode_subcategory": null
   },
-  "u1F64B.0": {
+  "u1F64B": {
     "codepoints": [
       128587
     ],
@@ -36111,13 +36178,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F64B.0.W": {
+  "u1F64B.W": {
     "codepoints": [
       128587,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🙋‍♀",
+    "emoji": "🙋‍♀️",
     "emojilib_name": "raising_hand_woman",
     "fitz": {
       "1": {
@@ -36194,13 +36262,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F64B.0.M": {
+  "u1F64B.M": {
     "codepoints": [
       128587,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🙋‍♂",
+    "emoji": "🙋‍♂️",
     "emojilib_name": "raising_hand_woman",
     "fitz": {
       "1": {
@@ -36278,7 +36347,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F64C.0": {
+  "u1F64C": {
     "codepoints": [
       128588
     ],
@@ -36346,7 +36415,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F64D.0": {
+  "u1F64D": {
     "codepoints": [
       128589
     ],
@@ -36416,13 +36485,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F64D.0.W": {
+  "u1F64D.W": {
     "codepoints": [
       128589,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🙍‍♀",
+    "emoji": "🙍‍♀️",
     "emojilib_name": "frowning_woman",
     "fitz": {
       "1": {
@@ -36502,13 +36572,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F64D.0.M": {
+  "u1F64D.M": {
     "codepoints": [
       128589,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🙍‍♂",
+    "emoji": "🙍‍♂️",
     "emojilib_name": "frowning_woman",
     "fitz": {
       "1": {
@@ -36589,7 +36660,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F64E.0": {
+  "u1F64E": {
     "codepoints": [
       128590
     ],
@@ -36655,13 +36726,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F64E.0.W": {
+  "u1F64E.W": {
     "codepoints": [
       128590,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🙎‍♀",
+    "emoji": "🙎‍♀️",
     "emojilib_name": "pouting_woman",
     "fitz": {
       "1": {
@@ -36737,13 +36809,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F64E.0.M": {
+  "u1F64E.M": {
     "codepoints": [
       128590,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🙎‍♂",
+    "emoji": "🙎‍♂️",
     "emojilib_name": "pouting_woman",
     "fitz": {
       "1": {
@@ -36820,7 +36893,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F64F.0": {
+  "u1F64F": {
     "codepoints": [
       128591
     ],
@@ -37591,7 +37664,7 @@
     "unicode_category": "travel_and_places",
     "unicode_subcategory": null
   },
-  "u1F6A3.0": {
+  "u1F6A3": {
     "codepoints": [
       128675
     ],
@@ -37658,13 +37731,14 @@
     "unicode_category": "activity",
     "unicode_subcategory": null
   },
-  "u1F6A3.0.W": {
+  "u1F6A3.W": {
     "codepoints": [
       128675,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🚣‍♀",
+    "emoji": "🚣‍♀️",
     "emojilib_name": "rowing_man",
     "fitz": {
       "1": {
@@ -37743,13 +37817,14 @@
     "unicode_category": "activity",
     "unicode_subcategory": null
   },
-  "u1F6A3.0.M": {
+  "u1F6A3.M": {
     "codepoints": [
       128675,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🚣‍♂",
+    "emoji": "🚣‍♂️",
     "emojilib_name": "rowing_man",
     "fitz": {
       "1": {
@@ -38170,7 +38245,7 @@
     "unicode_category": "symbols",
     "unicode_subcategory": null
   },
-  "u1F6B4.0": {
+  "u1F6B4": {
     "codepoints": [
       128692
     ],
@@ -38238,13 +38313,14 @@
     "unicode_category": "activity",
     "unicode_subcategory": null
   },
-  "u1F6B4.0.W": {
+  "u1F6B4.W": {
     "codepoints": [
       128692,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🚴‍♀",
+    "emoji": "🚴‍♀️",
     "emojilib_name": "biking_man",
     "fitz": {
       "1": {
@@ -38323,13 +38399,14 @@
     "unicode_category": "activity",
     "unicode_subcategory": null
   },
-  "u1F6B4.0.M": {
+  "u1F6B4.M": {
     "codepoints": [
       128692,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🚴‍♂",
+    "emoji": "🚴‍♂️",
     "emojilib_name": "biking_man",
     "fitz": {
       "1": {
@@ -38408,7 +38485,7 @@
     "unicode_category": "activity",
     "unicode_subcategory": null
   },
-  "u1F6B5.0": {
+  "u1F6B5": {
     "codepoints": [
       128693
     ],
@@ -38478,13 +38555,14 @@
     "unicode_category": "activity",
     "unicode_subcategory": null
   },
-  "u1F6B5.0.W": {
+  "u1F6B5.W": {
     "codepoints": [
       128693,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🚵‍♀",
+    "emoji": "🚵‍♀️",
     "emojilib_name": "mountain_biking_man",
     "fitz": {
       "1": {
@@ -38565,13 +38643,14 @@
     "unicode_category": "activity",
     "unicode_subcategory": null
   },
-  "u1F6B5.0.M": {
+  "u1F6B5.M": {
     "codepoints": [
       128693,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🚵‍♂",
+    "emoji": "🚵‍♂️",
     "emojilib_name": "mountain_biking_man",
     "fitz": {
       "1": {
@@ -38652,7 +38731,7 @@
     "unicode_category": "activity",
     "unicode_subcategory": null
   },
-  "u1F6B6.0": {
+  "u1F6B6": {
     "codepoints": [
       128694
     ],
@@ -38719,13 +38798,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F6B6.0.W": {
+  "u1F6B6.W": {
     "codepoints": [
       128694,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🚶‍♀",
+    "emoji": "🚶‍♀️",
     "emojilib_name": "walking_man",
     "fitz": {
       "1": {
@@ -38803,13 +38883,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F6B6.0.M": {
+  "u1F6B6.M": {
     "codepoints": [
       128694,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🚶‍♂",
+    "emoji": "🚶‍♂️",
     "emojilib_name": "walking_man",
     "fitz": {
       "1": {
@@ -39086,7 +39167,7 @@
     "unicode_category": "objects",
     "unicode_subcategory": null
   },
-  "u1F6C0.0": {
+  "u1F6C0": {
     "codepoints": [
       128704
     ],
@@ -39994,7 +40075,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F90F.0": {
+  "u1F90F": {
     "codepoints": [
       129295
     ],
@@ -40215,7 +40296,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F918.0": {
+  "u1F918": {
     "codepoints": [
       129304
     ],
@@ -40284,7 +40365,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F919.0": {
+  "u1F919": {
     "codepoints": [
       129305
     ],
@@ -40349,7 +40430,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F91A.0": {
+  "u1F91A": {
     "codepoints": [
       129306
     ],
@@ -40413,7 +40494,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F91B.0": {
+  "u1F91B": {
     "codepoints": [
       129307
     ],
@@ -40478,7 +40559,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F91C.0": {
+  "u1F91C": {
     "codepoints": [
       129308
     ],
@@ -40562,7 +40643,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F91E.0": {
+  "u1F91E": {
     "codepoints": [
       129310
     ],
@@ -40629,7 +40710,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F91F.0": {
+  "u1F91F": {
     "codepoints": [
       129311
     ],
@@ -40806,7 +40887,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F926.0": {
+  "u1F926": {
     "codepoints": [
       129318
     ],
@@ -40871,13 +40952,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F926.0.W": {
+  "u1F926.W": {
     "codepoints": [
       129318,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🤦‍♀",
+    "emoji": "🤦‍♀️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -40953,13 +41035,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F926.0.M": {
+  "u1F926.M": {
     "codepoints": [
       129318,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🤦‍♂",
+    "emoji": "🤦‍♂️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -41216,7 +41299,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F930.0": {
+  "u1F930": {
     "codepoints": [
       129328
     ],
@@ -41279,7 +41362,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F931.0": {
+  "u1F931": {
     "codepoints": [
       129329
     ],
@@ -41343,7 +41426,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F932.0": {
+  "u1F932": {
     "codepoints": [
       129330
     ],
@@ -41408,7 +41491,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F933.0": {
+  "u1F933": {
     "codepoints": [
       129331
     ],
@@ -41471,7 +41554,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F934.0": {
+  "u1F934": {
     "codepoints": [
       129332
     ],
@@ -41538,7 +41621,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F935.0": {
+  "u1F935": {
     "codepoints": [
       129333
     ],
@@ -41605,7 +41688,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F936.0": {
+  "u1F936": {
     "codepoints": [
       129334
     ],
@@ -41675,7 +41758,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F937.0": {
+  "u1F937": {
     "codepoints": [
       129335
     ],
@@ -41745,13 +41828,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F937.0.W": {
+  "u1F937.W": {
     "codepoints": [
       129335,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🤷‍♀",
+    "emoji": "🤷‍♀️",
     "emojilib_name": "woman_shrugging",
     "fitz": {
       "1": {
@@ -41832,13 +41916,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F937.0.M": {
+  "u1F937.M": {
     "codepoints": [
       129335,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🤷‍♂",
+    "emoji": "🤷‍♂️",
     "emojilib_name": "woman_shrugging",
     "fitz": {
       "1": {
@@ -41920,7 +42005,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F938.0": {
+  "u1F938": {
     "codepoints": [
       129336
     ],
@@ -41983,13 +42068,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F938.0.W": {
+  "u1F938.W": {
     "codepoints": [
       129336,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🤸‍♀",
+    "emoji": "🤸‍♀️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -42064,13 +42150,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F938.0.M": {
+  "u1F938.M": {
     "codepoints": [
       129336,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🤸‍♂",
+    "emoji": "🤸‍♂️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -42145,7 +42232,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F939.0": {
+  "u1F939": {
     "codepoints": [
       129337
     ],
@@ -42210,13 +42297,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F939.0.W": {
+  "u1F939.W": {
     "codepoints": [
       129337,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🤹‍♀",
+    "emoji": "🤹‍♀️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -42290,13 +42378,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F939.0.M": {
+  "u1F939.M": {
     "codepoints": [
       129337,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🤹‍♂",
+    "emoji": "🤹‍♂️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -42446,7 +42535,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F93D.0": {
+  "u1F93D": {
     "codepoints": [
       129341
     ],
@@ -42509,13 +42598,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F93D.0.W": {
+  "u1F93D.W": {
     "codepoints": [
       129341,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🤽‍♀",
+    "emoji": "🤽‍♀️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -42589,13 +42679,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F93D.0.M": {
+  "u1F93D.M": {
     "codepoints": [
       129341,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🤽‍♂",
+    "emoji": "🤽‍♂️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -42669,7 +42760,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F93E.0": {
+  "u1F93E": {
     "codepoints": [
       129342
     ],
@@ -42732,13 +42823,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F93E.0.W": {
+  "u1F93E.W": {
     "codepoints": [
       129342,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🤾‍♀",
+    "emoji": "🤾‍♀️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -42812,13 +42904,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F93E.0.M": {
+  "u1F93E.M": {
     "codepoints": [
       129342,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🤾‍♂",
+    "emoji": "🤾‍♂️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -44977,7 +45070,7 @@
     "unicode_category": "food_and_drink",
     "unicode_subcategory": null
   },
-  "u1F9B5.0": {
+  "u1F9B5": {
     "codepoints": [
       129461
     ],
@@ -45040,7 +45133,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F9B6.0": {
+  "u1F9B6": {
     "codepoints": [
       129462
     ],
@@ -45120,7 +45213,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F9B8.0": {
+  "u1F9B8": {
     "codepoints": [
       129464
     ],
@@ -45185,13 +45278,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9B8.0.W": {
+  "u1F9B8.W": {
     "codepoints": [
       129464,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🦸‍♀",
+    "emoji": "🦸‍♀️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -45268,13 +45362,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9B8.0.M": {
+  "u1F9B8.M": {
     "codepoints": [
       129464,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🦸‍♂",
+    "emoji": "🦸‍♂️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -45350,7 +45445,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9B9.0": {
+  "u1F9B9": {
     "codepoints": [
       129465
     ],
@@ -45415,13 +45510,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9B9.0.W": {
+  "u1F9B9.W": {
     "codepoints": [
       129465,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🦹‍♀",
+    "emoji": "🦹‍♀️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -45498,13 +45594,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9B9.0.M": {
+  "u1F9B9.M": {
     "codepoints": [
       129465,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🦹‍♂",
+    "emoji": "🦹‍♂️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -45598,7 +45695,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9BB.0": {
+  "u1F9BB": {
     "codepoints": [
       129467
     ],
@@ -45917,7 +46014,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9CD.0": {
+  "u1F9CD": {
     "codepoints": [
       129485
     ],
@@ -45980,13 +46077,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9CD.0.W": {
+  "u1F9CD.W": {
     "codepoints": [
       129485,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🧍‍♀",
+    "emoji": "🧍‍♀️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -46059,13 +46157,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9CD.0.M": {
+  "u1F9CD.M": {
     "codepoints": [
       129485,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🧍‍♂",
+    "emoji": "🧍‍♂️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -46138,7 +46237,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9CE.0": {
+  "u1F9CE": {
     "codepoints": [
       129486
     ],
@@ -46201,13 +46300,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9CE.0.W": {
+  "u1F9CE.W": {
     "codepoints": [
       129486,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🧎‍♀",
+    "emoji": "🧎‍♀️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -46280,13 +46380,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9CE.0.M": {
+  "u1F9CE.M": {
     "codepoints": [
       129486,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🧎‍♂",
+    "emoji": "🧎‍♂️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -46359,7 +46460,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9CF.0": {
+  "u1F9CF": {
     "codepoints": [
       129487
     ],
@@ -46424,13 +46525,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9CF.0.W": {
+  "u1F9CF.W": {
     "codepoints": [
       129487,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🧏‍♀",
+    "emoji": "🧏‍♀️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -46503,13 +46605,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9CF.0.M": {
+  "u1F9CF.M": {
     "codepoints": [
       129487,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🧏‍♂",
+    "emoji": "🧏‍♂️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -46600,7 +46703,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F9D1.0": {
+  "u1F9D1": {
     "codepoints": [
       129489
     ],
@@ -46664,13 +46767,14 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F9D1_u2695.0": {
+  "u1F9D1_u2695": {
     "codepoints": [
       129489,
       8205,
-      9877
+      9877,
+      65039
     ],
-    "emoji": "🧑‍⚕",
+    "emoji": "🧑‍⚕️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -46746,13 +46850,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D1_u2696.0": {
+  "u1F9D1_u2696": {
     "codepoints": [
       129489,
       8205,
-      9878
+      9878,
+      65039
     ],
-    "emoji": "🧑‍⚖",
+    "emoji": "🧑‍⚖️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -46825,13 +46930,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D1_u2708.0": {
+  "u1F9D1_u2708": {
     "codepoints": [
       129489,
       8205,
-      9992
+      9992,
+      65039
     ],
-    "emoji": "🧑‍✈",
+    "emoji": "🧑‍✈️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -46904,7 +47010,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D1_u1F33E.0": {
+  "u1F9D1_u1F33E": {
     "codepoints": [
       129489,
       8205,
@@ -46979,7 +47085,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D1_u1F373.0": {
+  "u1F9D1_u1F373": {
     "codepoints": [
       129489,
       8205,
@@ -47053,7 +47159,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D1_u1F393.0": {
+  "u1F9D1_u1F393": {
     "codepoints": [
       129489,
       8205,
@@ -47127,7 +47233,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D1_u1F3A4.0": {
+  "u1F9D1_u1F3A4": {
     "codepoints": [
       129489,
       8205,
@@ -47204,7 +47310,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D1_u1F3A8.0": {
+  "u1F9D1_u1F3A8": {
     "codepoints": [
       129489,
       8205,
@@ -47278,7 +47384,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D1_u1F3EB.0": {
+  "u1F9D1_u1F3EB": {
     "codepoints": [
       129489,
       8205,
@@ -47353,7 +47459,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D1_u1F3ED.0": {
+  "u1F9D1_u1F3ED": {
     "codepoints": [
       129489,
       8205,
@@ -47429,7 +47535,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D1_u1F4BB.0": {
+  "u1F9D1_u1F4BB": {
     "codepoints": [
       129489,
       8205,
@@ -47506,7 +47612,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D1_u1F4BC.0": {
+  "u1F9D1_u1F4BC": {
     "codepoints": [
       129489,
       8205,
@@ -47583,7 +47689,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D1_u1F527.0": {
+  "u1F9D1_u1F527": {
     "codepoints": [
       129489,
       8205,
@@ -47659,7 +47765,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D1_u1F52C.0": {
+  "u1F9D1_u1F52C": {
     "codepoints": [
       129489,
       8205,
@@ -47736,7 +47842,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D1_u1F680.0": {
+  "u1F9D1_u1F680": {
     "codepoints": [
       129489,
       8205,
@@ -47810,7 +47916,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D1_u1F692.0": {
+  "u1F9D1_u1F692": {
     "codepoints": [
       129489,
       8205,
@@ -47884,7 +47990,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D1_u1F91D_u1F9D1.0": {
+  "u1F9D1_u1F91D_u1F9D1": {
     "fitz": {
       "11": {
         "codepoints": [
@@ -48250,7 +48356,7 @@
       }
     }
   },
-  "u1F9D1_u1F9AF.0": {
+  "u1F9D1_u1F9AF": {
     "codepoints": [
       129489,
       8205,
@@ -48321,11 +48427,11 @@
       "blind",
       "person with white cane"
     ],
-    "name": "person with white cane",
+    "name": "person with probing cane",
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D1_u1F9B0.0": {
+  "u1F9D1_u1F9B0": {
     "codepoints": [
       129489,
       8205,
@@ -48402,7 +48508,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D1_u1F9B1.0": {
+  "u1F9D1_u1F9B1": {
     "codepoints": [
       129489,
       8205,
@@ -48479,7 +48585,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D1_u1F9B2.0": {
+  "u1F9D1_u1F9B2": {
     "codepoints": [
       129489,
       8205,
@@ -48556,7 +48662,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D1_u1F9B3.0": {
+  "u1F9D1_u1F9B3": {
     "codepoints": [
       129489,
       8205,
@@ -48633,7 +48739,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D1_u1F9BC.0": {
+  "u1F9D1_u1F9BC": {
     "codepoints": [
       129489,
       8205,
@@ -48708,7 +48814,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D1_u1F9BD.0": {
+  "u1F9D1_u1F9BD": {
     "codepoints": [
       129489,
       8205,
@@ -48783,7 +48889,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D2.0": {
+  "u1F9D2": {
     "codepoints": [
       129490
     ],
@@ -48847,7 +48953,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F9D3.0": {
+  "u1F9D3": {
     "codepoints": [
       129491
     ],
@@ -48915,7 +49021,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F9D4.0": {
+  "u1F9D4": {
     "codepoints": [
       129492
     ],
@@ -48980,7 +49086,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F9D5.0": {
+  "u1F9D5": {
     "codepoints": [
       129493
     ],
@@ -49046,7 +49152,7 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "u1F9D6.0": {
+  "u1F9D6": {
     "codepoints": [
       129494
     ],
@@ -49109,13 +49215,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D6.0.W": {
+  "u1F9D6.W": {
     "codepoints": [
       129494,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🧖‍♀",
+    "emoji": "🧖‍♀️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -49189,13 +49296,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D6.0.M": {
+  "u1F9D6.M": {
     "codepoints": [
       129494,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🧖‍♂",
+    "emoji": "🧖‍♂️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -49269,7 +49377,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D7.0": {
+  "u1F9D7": {
     "codepoints": [
       129495
     ],
@@ -49331,13 +49439,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D7.0.W": {
+  "u1F9D7.W": {
     "codepoints": [
       129495,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🧗‍♀",
+    "emoji": "🧗‍♀️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -49410,13 +49519,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D7.0.M": {
+  "u1F9D7.M": {
     "codepoints": [
       129495,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🧗‍♂",
+    "emoji": "🧗‍♂️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -49489,7 +49599,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D8.0": {
+  "u1F9D8": {
     "codepoints": [
       129496
     ],
@@ -49552,13 +49662,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D8.0.W": {
+  "u1F9D8.W": {
     "codepoints": [
       129496,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🧘‍♀",
+    "emoji": "🧘‍♀️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -49632,13 +49743,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D8.0.M": {
+  "u1F9D8.M": {
     "codepoints": [
       129496,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🧘‍♂",
+    "emoji": "🧘‍♂️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -49712,7 +49824,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D9.0": {
+  "u1F9D9": {
     "codepoints": [
       129497
     ],
@@ -49777,13 +49889,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D9.0.W": {
+  "u1F9D9.W": {
     "codepoints": [
       129497,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🧙‍♀",
+    "emoji": "🧙‍♀️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -49857,13 +49970,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9D9.0.M": {
+  "u1F9D9.M": {
     "codepoints": [
       129497,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🧙‍♂",
+    "emoji": "🧙‍♂️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -49937,7 +50051,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9DA.0": {
+  "u1F9DA": {
     "codepoints": [
       129498
     ],
@@ -50001,13 +50115,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9DA.0.W": {
+  "u1F9DA.W": {
     "codepoints": [
       129498,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🧚‍♀",
+    "emoji": "🧚‍♀️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -50080,13 +50195,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9DA.0.M": {
+  "u1F9DA.M": {
     "codepoints": [
       129498,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🧚‍♂",
+    "emoji": "🧚‍♂️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -50160,7 +50276,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9DB.0": {
+  "u1F9DB": {
     "codepoints": [
       129499
     ],
@@ -50223,13 +50339,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9DB.0.W": {
+  "u1F9DB.W": {
     "codepoints": [
       129499,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🧛‍♀",
+    "emoji": "🧛‍♀️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -50302,13 +50419,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9DB.0.M": {
+  "u1F9DB.M": {
     "codepoints": [
       129499,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🧛‍♂",
+    "emoji": "🧛‍♂️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -50382,7 +50500,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9DC.0": {
+  "u1F9DC": {
     "codepoints": [
       129500
     ],
@@ -50446,13 +50564,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9DC.0.W": {
+  "u1F9DC.W": {
     "codepoints": [
       129500,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🧜‍♀",
+    "emoji": "🧜‍♀️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -50525,13 +50644,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9DC.0.M": {
+  "u1F9DC.M": {
     "codepoints": [
       129500,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🧜‍♂",
+    "emoji": "🧜‍♂️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -50604,7 +50724,7 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9DD.0": {
+  "u1F9DD": {
     "codepoints": [
       129501
     ],
@@ -50666,13 +50786,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9DD.0.W": {
+  "u1F9DD.W": {
     "codepoints": [
       129501,
       8205,
-      9792
+      9792,
+      65039
     ],
-    "emoji": "🧝‍♀",
+    "emoji": "🧝‍♀️",
     "emojilib_name": null,
     "fitz": {
       "1": {
@@ -50745,13 +50866,14 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
-  "u1F9DD.0.M": {
+  "u1F9DD.M": {
     "codepoints": [
       129501,
       8205,
-      9794
+      9794,
+      65039
     ],
-    "emoji": "🧝‍♂",
+    "emoji": "🧝‍♂️",
     "emojilib_name": null,
     "fitz": {
       "1": {

@@ -78,21 +78,21 @@ const fitzRegex = /\.([0-6][0-6]?)(\.[MWBG]+)?$/;
         char = annotation.char;
       }
 
-      if (emoji.name in zwjSequenceData) {
-        const seq = zwjSequenceData[emoji.name as keyof typeof zwjSequenceData];
+      if (basename in zwjSequenceData) {
+        const seq = zwjSequenceData[basename as keyof typeof zwjSequenceData];
         char = seq.char;
         codepoints = seq.codepoints;
         name = seq.description;
       }
 
-      if (emoji.name in variationSequenceData) {
-        const seq = variationSequenceData[emoji.name as keyof typeof variationSequenceData];
+      if (basename in variationSequenceData) {
+        const seq = variationSequenceData[basename as keyof typeof variationSequenceData];
         char = seq.char;
         codepoints = seq.codepoints;
       }
 
-      if (emoji.name in sequenceData) {
-        const seq = sequenceData[emoji.name as keyof typeof sequenceData];
+      if (basename in sequenceData) {
+        const seq = sequenceData[basename as keyof typeof sequenceData];
         char = seq.char;
         codepoints = seq.codepoints;
         name = seq.description;
@@ -125,7 +125,7 @@ const fitzRegex = /\.([0-6][0-6]?)(\.[MWBG]+)?$/;
       const fitzMatch = emoji.name.match(fitzRegex);
 
       if (fitzMatch && fitzMatch[1] !== '0') {
-        const zeroKey = emoji.name.replace(fitzRegex, '.0$2');
+        const zeroKey = emoji.name.replace(fitzRegex, '$2');
 
         emojiDb[zeroKey] = {
           ...emojiDb[zeroKey],
@@ -140,7 +140,7 @@ const fitzRegex = /\.([0-6][0-6]?)(\.[MWBG]+)?$/;
           },
         };
       } else {
-        emojiDb[emoji.name] = {
+        emojiDb[basename] = {
           sortKey,
           codepoints,
           emoji: char,
@@ -151,7 +151,7 @@ const fitzRegex = /\.([0-6][0-6]?)(\.[MWBG]+)?$/;
           emojilib_name: emojilibDataItem?.emojilibKey ?? null,
           unicode_category: emojilibDataItem?.category ?? null,
           unicode_subcategory: null,
-          ...emojiDb[emoji.name],
+          ...emojiDb[basename],
         };
       }
     }
