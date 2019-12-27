@@ -256,7 +256,8 @@
   },
   "u00A9": {
     "codepoints": [
-      169
+      169,
+      65039
     ],
     "emoji": "©️",
     "emojilib_name": "copyright",
@@ -278,7 +279,8 @@
   },
   "u00AE": {
     "codepoints": [
-      174
+      174,
+      65039
     ],
     "emoji": "®️",
     "emojilib_name": "registered",
@@ -297,7 +299,8 @@
   },
   "u203C": {
     "codepoints": [
-      8252
+      8252,
+      65039
     ],
     "emoji": "‼️",
     "emojilib_name": "bangbang",
@@ -319,7 +322,8 @@
   },
   "u2049": {
     "codepoints": [
-      8265
+      8265,
+      65039
     ],
     "emoji": "⁉️",
     "emojilib_name": "interrobang",
@@ -344,7 +348,8 @@
   },
   "u2122": {
     "codepoints": [
-      8482
+      8482,
+      65039
     ],
     "emoji": "™️",
     "emojilib_name": "tm",
@@ -366,7 +371,8 @@
   },
   "u2139": {
     "codepoints": [
-      8505
+      8505,
+      65039
     ],
     "emoji": "ℹ️",
     "emojilib_name": "information_source",
@@ -386,7 +392,8 @@
   },
   "u2194": {
     "codepoints": [
-      8596
+      8596,
+      65039
     ],
     "emoji": "↔️",
     "emojilib_name": "left_right_arrow",
@@ -407,7 +414,8 @@
   },
   "u2195": {
     "codepoints": [
-      8597
+      8597,
+      65039
     ],
     "emoji": "↕️",
     "emojilib_name": "arrow_up_down",
@@ -428,7 +436,8 @@
   },
   "u2196": {
     "codepoints": [
-      8598
+      8598,
+      65039
     ],
     "emoji": "↖️",
     "emojilib_name": "arrow_upper_left",
@@ -451,7 +460,8 @@
   },
   "u2197": {
     "codepoints": [
-      8599
+      8599,
+      65039
     ],
     "emoji": "↗️",
     "emojilib_name": "arrow_upper_right",
@@ -474,7 +484,8 @@
   },
   "u2198": {
     "codepoints": [
-      8600
+      8600,
+      65039
     ],
     "emoji": "↘️",
     "emojilib_name": "arrow_lower_right",
@@ -496,7 +507,8 @@
   },
   "u2199": {
     "codepoints": [
-      8601
+      8601,
+      65039
     ],
     "emoji": "↙️",
     "emojilib_name": "arrow_lower_left",
@@ -518,7 +530,8 @@
   },
   "u21A9": {
     "codepoints": [
-      8617
+      8617,
+      65039
     ],
     "emoji": "↩️",
     "emojilib_name": "leftwards_arrow_with_hook",
@@ -540,7 +553,8 @@
   },
   "u21AA": {
     "codepoints": [
-      8618
+      8618,
+      65039
     ],
     "emoji": "↪️",
     "emojilib_name": "arrow_right_hook",
@@ -563,7 +577,7 @@
     "codepoints": [
       8986
     ],
-    "emoji": "⌚️",
+    "emoji": "⌚",
     "emojilib_name": "watch",
     "fitz": {
     },
@@ -580,7 +594,8 @@
   },
   "u231B": {
     "codepoints": [
-      8987
+      8987,
+      65039
     ],
     "emoji": "⌛️",
     "emojilib_name": "hourglass",
@@ -605,7 +620,8 @@
   },
   "u2328": {
     "codepoints": [
-      9000
+      9000,
+      65039
     ],
     "emoji": "⌨️",
     "emojilib_name": "keyboard",
@@ -626,7 +642,8 @@
   },
   "u23CF": {
     "codepoints": [
-      9167
+      9167,
+      65039
     ],
     "emoji": "⏏️",
     "emojilib_name": "eject_button",
@@ -646,7 +663,7 @@
     "codepoints": [
       9193
     ],
-    "emoji": "⏩️",
+    "emoji": "⏩",
     "emojilib_name": "fast_forward",
     "fitz": {
     },
@@ -668,7 +685,8 @@
   },
   "u23EA": {
     "codepoints": [
-      9194
+      9194,
+      65039
     ],
     "emoji": "⏪️",
     "emojilib_name": "rewind",
@@ -732,7 +750,8 @@
   },
   "u23ED": {
     "codepoints": [
-      9197
+      9197,
+      65039
     ],
     "emoji": "⏭️",
     "emojilib_name": "next_track_button",
@@ -755,7 +774,8 @@
   },
   "u23EE": {
     "codepoints": [
-      9198
+      9198,
+      65039
     ],
     "emoji": "⏮️",
     "emojilib_name": "previous_track_button",
@@ -776,7 +796,8 @@
   },
   "u23EF": {
     "codepoints": [
-      9199
+      9199,
+      65039
     ],
     "emoji": "⏯️",
     "emojilib_name": "play_or_pause_button",
@@ -817,7 +838,8 @@
   },
   "u23F1": {
     "codepoints": [
-      9201
+      9201,
+      65039
     ],
     "emoji": "⏱️",
     "emojilib_name": "stopwatch",
@@ -836,7 +858,8 @@
   },
   "u23F2": {
     "codepoints": [
-      9202
+      9202,
+      65039
     ],
     "emoji": "⏲️",
     "emojilib_name": "timer_clock",
@@ -856,7 +879,7 @@
     "codepoints": [
       9203
     ],
-    "emoji": "⏳️",
+    "emoji": "⏳",
     "emojilib_name": "hourglass_flowing_sand",
     "fitz": {
     },
@@ -876,7 +899,8 @@
   },
   "u23F8": {
     "codepoints": [
-      9208
+      9208,
+      65039
     ],
     "emoji": "⏸️",
     "emojilib_name": "pause_button",
@@ -897,7 +921,8 @@
   },
   "u23F9": {
     "codepoints": [
-      9209
+      9209,
+      65039
     ],
     "emoji": "⏹️",
     "emojilib_name": "stop_button",
@@ -916,7 +941,8 @@
   },
   "u23FA": {
     "codepoints": [
-      9210
+      9210,
+      65039
     ],
     "emoji": "⏺️",
     "emojilib_name": "record_button",
@@ -935,7 +961,8 @@
   },
   "u24C2": {
     "codepoints": [
-      9410
+      9410,
+      65039
     ],
     "emoji": "Ⓜ️",
     "emojilib_name": "m",
@@ -956,7 +983,8 @@
   },
   "u25AA": {
     "codepoints": [
-      9642
+      9642,
+      65039
     ],
     "emoji": "▪️",
     "emojilib_name": "black_small_square",
@@ -976,7 +1004,8 @@
   },
   "u25AB": {
     "codepoints": [
-      9643
+      9643,
+      65039
     ],
     "emoji": "▫️",
     "emojilib_name": "white_small_square",
@@ -996,7 +1025,8 @@
   },
   "u25B6": {
     "codepoints": [
-      9654
+      9654,
+      65039
     ],
     "emoji": "▶️",
     "emojilib_name": "arrow_forward",
@@ -1018,7 +1048,8 @@
   },
   "u25C0": {
     "codepoints": [
-      9664
+      9664,
+      65039
     ],
     "emoji": "◀️",
     "emojilib_name": "arrow_backward",
@@ -1040,7 +1071,8 @@
   },
   "u25FB": {
     "codepoints": [
-      9723
+      9723,
+      65039
     ],
     "emoji": "◻️",
     "emojilib_name": "white_medium_square",
@@ -1061,7 +1093,8 @@
   },
   "u25FC": {
     "codepoints": [
-      9724
+      9724,
+      65039
     ],
     "emoji": "◼️",
     "emojilib_name": "black_medium_square",
@@ -1084,7 +1117,7 @@
     "codepoints": [
       9725
     ],
-    "emoji": "◽️",
+    "emoji": "◽",
     "emojilib_name": "white_medium_small_square",
     "fitz": {
     },
@@ -1104,7 +1137,8 @@
   },
   "u25FE": {
     "codepoints": [
-      9726
+      9726,
+      65039
     ],
     "emoji": "◾️",
     "emojilib_name": "black_medium_small_square",
@@ -1125,7 +1159,8 @@
   },
   "u2600": {
     "codepoints": [
-      9728
+      9728,
+      65039
     ],
     "emoji": "☀️",
     "emojilib_name": "sunny",
@@ -1150,7 +1185,8 @@
   },
   "u2601": {
     "codepoints": [
-      9729
+      9729,
+      65039
     ],
     "emoji": "☁️",
     "emojilib_name": "cloud",
@@ -1168,7 +1204,8 @@
   },
   "u2602": {
     "codepoints": [
-      9730
+      9730,
+      65039
     ],
     "emoji": "☂️",
     "emojilib_name": "open_umbrella",
@@ -1188,7 +1225,8 @@
   },
   "u2603": {
     "codepoints": [
-      9731
+      9731,
+      65039
     ],
     "emoji": "☃️",
     "emojilib_name": "snowman_with_snow",
@@ -1212,7 +1250,8 @@
   },
   "u2604": {
     "codepoints": [
-      9732
+      9732,
+      65039
     ],
     "emoji": "☄️",
     "emojilib_name": "comet",
@@ -1229,7 +1268,8 @@
   },
   "u260E": {
     "codepoints": [
-      9742
+      9742,
+      65039
     ],
     "emoji": "☎️",
     "emojilib_name": "phone",
@@ -1249,7 +1289,8 @@
   },
   "u2611": {
     "codepoints": [
-      9745
+      9745,
+      65039
     ],
     "emoji": "☑️",
     "emojilib_name": "ballot_box_with_check",
@@ -1278,7 +1319,7 @@
     "codepoints": [
       9748
     ],
-    "emoji": "☔️",
+    "emoji": "☔",
     "emojilib_name": "umbrella",
     "fitz": {
     },
@@ -1299,7 +1340,8 @@
   },
   "u2615": {
     "codepoints": [
-      9749
+      9749,
+      65039
     ],
     "emoji": "☕️",
     "emojilib_name": "coffee",
@@ -1323,7 +1365,8 @@
   },
   "u2618": {
     "codepoints": [
-      9752
+      9752,
+      65039
     ],
     "emoji": "☘️",
     "emojilib_name": "shamrock",
@@ -1492,7 +1535,8 @@
   },
   "u2620": {
     "codepoints": [
-      9760
+      9760,
+      65039
     ],
     "emoji": "☠️",
     "emojilib_name": "skull_and_crossbones",
@@ -1519,7 +1563,8 @@
   },
   "u2622": {
     "codepoints": [
-      9762
+      9762,
+      65039
     ],
     "emoji": "☢️",
     "emojilib_name": "radioactive",
@@ -1538,7 +1583,8 @@
   },
   "u2623": {
     "codepoints": [
-      9763
+      9763,
+      65039
     ],
     "emoji": "☣️",
     "emojilib_name": "biohazard",
@@ -1556,7 +1602,8 @@
   },
   "u2626": {
     "codepoints": [
-      9766
+      9766,
+      65039
     ],
     "emoji": "☦️",
     "emojilib_name": "orthodox_cross",
@@ -1576,7 +1623,8 @@
   },
   "u262A": {
     "codepoints": [
-      9770
+      9770,
+      65039
     ],
     "emoji": "☪️",
     "emojilib_name": "star_and_crescent",
@@ -1595,7 +1643,8 @@
   },
   "u262E": {
     "codepoints": [
-      9774
+      9774,
+      65039
     ],
     "emoji": "☮️",
     "emojilib_name": "peace_symbol",
@@ -1613,7 +1662,8 @@
   },
   "u262F": {
     "codepoints": [
-      9775
+      9775,
+      65039
     ],
     "emoji": "☯️",
     "emojilib_name": "yin_yang",
@@ -1634,7 +1684,8 @@
   },
   "u2638": {
     "codepoints": [
-      9784
+      9784,
+      65039
     ],
     "emoji": "☸️",
     "emojilib_name": "wheel_of_dharma",
@@ -1658,7 +1709,8 @@
   },
   "u2639": {
     "codepoints": [
-      9785
+      9785,
+      65039
     ],
     "emoji": "☹️",
     "emojilib_name": "frowning_face",
@@ -1678,7 +1730,8 @@
   },
   "u263A": {
     "codepoints": [
-      9786
+      9786,
+      65039
     ],
     "emoji": "☺️",
     "emojilib_name": "relaxed",
@@ -1703,7 +1756,7 @@
     "codepoints": [
       9800
     ],
-    "emoji": "♈️",
+    "emoji": "♈",
     "emojilib_name": "aries",
     "fitz": {
     },
@@ -1722,7 +1775,8 @@
   },
   "u2649": {
     "codepoints": [
-      9801
+      9801,
+      65039
     ],
     "emoji": "♉️",
     "emojilib_name": "taurus",
@@ -1744,7 +1798,8 @@
   },
   "u264A": {
     "codepoints": [
-      9802
+      9802,
+      65039
     ],
     "emoji": "♊️",
     "emojilib_name": "gemini",
@@ -1765,7 +1820,8 @@
   },
   "u264B": {
     "codepoints": [
-      9803
+      9803,
+      65039
     ],
     "emoji": "♋️",
     "emojilib_name": "cancer",
@@ -1786,7 +1842,8 @@
   },
   "u264C": {
     "codepoints": [
-      9804
+      9804,
+      65039
     ],
     "emoji": "♌️",
     "emojilib_name": "leo",
@@ -1807,7 +1864,8 @@
   },
   "u264D": {
     "codepoints": [
-      9805
+      9805,
+      65039
     ],
     "emoji": "♍️",
     "emojilib_name": "virgo",
@@ -1827,7 +1885,8 @@
   },
   "u264E": {
     "codepoints": [
-      9806
+      9806,
+      65039
     ],
     "emoji": "♎️",
     "emojilib_name": "libra",
@@ -1850,7 +1909,8 @@
   },
   "u264F": {
     "codepoints": [
-      9807
+      9807,
+      65039
     ],
     "emoji": "♏️",
     "emojilib_name": "scorpius",
@@ -1873,7 +1933,8 @@
   },
   "u2650": {
     "codepoints": [
-      9808
+      9808,
+      65039
     ],
     "emoji": "♐️",
     "emojilib_name": "sagittarius",
@@ -1894,7 +1955,8 @@
   },
   "u2651": {
     "codepoints": [
-      9809
+      9809,
+      65039
     ],
     "emoji": "♑️",
     "emojilib_name": "capricorn",
@@ -1915,7 +1977,8 @@
   },
   "u2652": {
     "codepoints": [
-      9810
+      9810,
+      65039
     ],
     "emoji": "♒️",
     "emojilib_name": "aquarius",
@@ -1937,7 +2000,8 @@
   },
   "u2653": {
     "codepoints": [
-      9811
+      9811,
+      65039
     ],
     "emoji": "♓️",
     "emojilib_name": "pisces",
@@ -1958,7 +2022,8 @@
   },
   "u265F": {
     "codepoints": [
-      9823
+      9823,
+      65039
     ],
     "emoji": "♟️",
     "emojilib_name": "chess_pawn",
@@ -1977,7 +2042,8 @@
   },
   "u2660": {
     "codepoints": [
-      9824
+      9824,
+      65039
     ],
     "emoji": "♠️",
     "emojilib_name": "spades",
@@ -1999,7 +2065,8 @@
   },
   "u2663": {
     "codepoints": [
-      9827
+      9827,
+      65039
     ],
     "emoji": "♣️",
     "emojilib_name": "clubs",
@@ -2021,7 +2088,8 @@
   },
   "u2665": {
     "codepoints": [
-      9829
+      9829,
+      65039
     ],
     "emoji": "♥️",
     "emojilib_name": "hearts",
@@ -2043,7 +2111,8 @@
   },
   "u2666": {
     "codepoints": [
-      9830
+      9830,
+      65039
     ],
     "emoji": "♦️",
     "emojilib_name": "diamonds",
@@ -2065,7 +2134,8 @@
   },
   "u2668": {
     "codepoints": [
-      9832
+      9832,
+      65039
     ],
     "emoji": "♨️",
     "emojilib_name": "hotsprings",
@@ -2087,7 +2157,8 @@
   },
   "u267B": {
     "codepoints": [
-      9851
+      9851,
+      65039
     ],
     "emoji": "♻️",
     "emojilib_name": "recycle",
@@ -2108,7 +2179,8 @@
   },
   "u267E": {
     "codepoints": [
-      9854
+      9854,
+      65039
     ],
     "emoji": "♾️",
     "emojilib_name": "infinity",
@@ -2129,7 +2201,7 @@
     "codepoints": [
       9855
     ],
-    "emoji": "♿️",
+    "emoji": "♿",
     "emojilib_name": "wheelchair",
     "fitz": {
     },
@@ -2148,7 +2220,8 @@
   },
   "u2692": {
     "codepoints": [
-      9874
+      9874,
+      65039
     ],
     "emoji": "⚒️",
     "emojilib_name": "hammer_and_pick",
@@ -2172,7 +2245,7 @@
     "codepoints": [
       9875
     ],
-    "emoji": "⚓️",
+    "emoji": "⚓",
     "emojilib_name": "anchor",
     "fitz": {
     },
@@ -2191,7 +2264,8 @@
   },
   "u2694": {
     "codepoints": [
-      9876
+      9876,
+      65039
     ],
     "emoji": "⚔️",
     "emojilib_name": "crossed_swords",
@@ -2209,7 +2283,8 @@
   },
   "u2696": {
     "codepoints": [
-      9878
+      9878,
+      65039
     ],
     "emoji": "⚖️",
     "emojilib_name": "balance_scale",
@@ -2232,7 +2307,8 @@
   },
   "u2697": {
     "codepoints": [
-      9879
+      9879,
+      65039
     ],
     "emoji": "⚗️",
     "emojilib_name": "alembic",
@@ -2253,7 +2329,8 @@
   },
   "u2699": {
     "codepoints": [
-      9881
+      9881,
+      65039
     ],
     "emoji": "⚙️",
     "emojilib_name": "gear",
@@ -2272,7 +2349,8 @@
   },
   "u269B": {
     "codepoints": [
-      9883
+      9883,
+      65039
     ],
     "emoji": "⚛️",
     "emojilib_name": "atom_symbol",
@@ -2293,7 +2371,8 @@
   },
   "u269C": {
     "codepoints": [
-      9884
+      9884,
+      65039
     ],
     "emoji": "⚜️",
     "emojilib_name": "fleur_de_lis",
@@ -2311,7 +2390,8 @@
   },
   "u26A0": {
     "codepoints": [
-      9888
+      9888,
+      65039
     ],
     "emoji": "⚠️",
     "emojilib_name": "warning",
@@ -2335,7 +2415,7 @@
     "codepoints": [
       9889
     ],
-    "emoji": "⚡️",
+    "emoji": "⚡",
     "emojilib_name": "zap",
     "fitz": {
     },
@@ -2360,7 +2440,7 @@
     "codepoints": [
       9898
     ],
-    "emoji": "⚪️",
+    "emoji": "⚪",
     "emojilib_name": "white_circle",
     "fitz": {
     },
@@ -2378,7 +2458,8 @@
   },
   "u26AB": {
     "codepoints": [
-      9899
+      9899,
+      65039
     ],
     "emoji": "⚫️",
     "emojilib_name": "black_circle",
@@ -2399,7 +2480,8 @@
   },
   "u26B0": {
     "codepoints": [
-      9904
+      9904,
+      65039
     ],
     "emoji": "⚰️",
     "emojilib_name": "coffin",
@@ -2425,7 +2507,8 @@
   },
   "u26B1": {
     "codepoints": [
-      9905
+      9905,
+      65039
     ],
     "emoji": "⚱️",
     "emojilib_name": "funeral_urn",
@@ -2449,7 +2532,7 @@
     "codepoints": [
       9917
     ],
-    "emoji": "⚽️",
+    "emoji": "⚽",
     "emojilib_name": "soccer",
     "fitz": {
     },
@@ -2466,7 +2549,8 @@
   },
   "u26BE": {
     "codepoints": [
-      9918
+      9918,
+      65039
     ],
     "emoji": "⚾️",
     "emojilib_name": "baseball",
@@ -2487,7 +2571,7 @@
     "codepoints": [
       9924
     ],
-    "emoji": "⛄️",
+    "emoji": "⛄",
     "emojilib_name": "snowman",
     "fitz": {
     },
@@ -2511,7 +2595,8 @@
   },
   "u26C5": {
     "codepoints": [
-      9925
+      9925,
+      65039
     ],
     "emoji": "⛅️",
     "emojilib_name": "partly_sunny",
@@ -2535,7 +2620,8 @@
   },
   "u26C8": {
     "codepoints": [
-      9928
+      9928,
+      65039
     ],
     "emoji": "⛈️",
     "emojilib_name": "cloud_with_lightning_and_rain",
@@ -2580,7 +2666,8 @@
   },
   "u26CF": {
     "codepoints": [
-      9935
+      9935,
+      65039
     ],
     "emoji": "⛏️",
     "emojilib_name": "pick",
@@ -2600,7 +2687,8 @@
   },
   "u26D1": {
     "codepoints": [
-      9937
+      9937,
+      65039
     ],
     "emoji": "⛑️",
     "emojilib_name": "rescue_worker_helmet",
@@ -2623,7 +2711,8 @@
   },
   "u26D3": {
     "codepoints": [
-      9939
+      9939,
+      65039
     ],
     "emoji": "⛓️",
     "emojilib_name": "chains",
@@ -2644,7 +2733,7 @@
     "codepoints": [
       9940
     ],
-    "emoji": "⛔️",
+    "emoji": "⛔",
     "emojilib_name": "no_entry",
     "fitz": {
     },
@@ -2670,7 +2759,8 @@
   },
   "u26E9": {
     "codepoints": [
-      9961
+      9961,
+      65039
     ],
     "emoji": "⛩️",
     "emojilib_name": "shinto_shrine",
@@ -2693,7 +2783,7 @@
     "codepoints": [
       9962
     ],
-    "emoji": "⛪️",
+    "emoji": "⛪",
     "emojilib_name": "church",
     "fitz": {
     },
@@ -2712,7 +2802,8 @@
   },
   "u26F0": {
     "codepoints": [
-      9968
+      9968,
+      65039
     ],
     "emoji": "⛰️",
     "emojilib_name": "mountain",
@@ -2731,7 +2822,8 @@
   },
   "u26F1": {
     "codepoints": [
-      9969
+      9969,
+      65039
     ],
     "emoji": "⛱️",
     "emojilib_name": "parasol_on_ground",
@@ -2754,7 +2846,7 @@
     "codepoints": [
       9970
     ],
-    "emoji": "⛲️",
+    "emoji": "⛲",
     "emojilib_name": "fountain",
     "fitz": {
     },
@@ -2772,7 +2864,8 @@
   },
   "u26F3": {
     "codepoints": [
-      9971
+      9971,
+      65039
     ],
     "emoji": "⛳️",
     "emojilib_name": "golf",
@@ -2794,7 +2887,8 @@
   },
   "u26F4": {
     "codepoints": [
-      9972
+      9972,
+      65039
     ],
     "emoji": "⛴️",
     "emojilib_name": "ferry",
@@ -2816,7 +2910,7 @@
     "codepoints": [
       9973
     ],
-    "emoji": "⛵️",
+    "emoji": "⛵",
     "emojilib_name": "sailboat",
     "fitz": {
     },
@@ -2839,7 +2933,8 @@
   },
   "u26F7": {
     "codepoints": [
-      9975
+      9975,
+      65039
     ],
     "emoji": "⛷️",
     "emojilib_name": "skier",
@@ -2859,7 +2954,8 @@
   },
   "u26F8": {
     "codepoints": [
-      9976
+      9976,
+      65039
     ],
     "emoji": "⛸️",
     "emojilib_name": "ice_skate",
@@ -3297,7 +3393,7 @@
     "codepoints": [
       9978
     ],
-    "emoji": "⛺️",
+    "emoji": "⛺",
     "emojilib_name": "tent",
     "fitz": {
     },
@@ -3316,7 +3412,7 @@
     "codepoints": [
       9981
     ],
-    "emoji": "⛽️",
+    "emoji": "⛽",
     "emojilib_name": "fuelpump",
     "fitz": {
     },
@@ -3337,7 +3433,8 @@
   },
   "u2702": {
     "codepoints": [
-      9986
+      9986,
+      65039
     ],
     "emoji": "✂️",
     "emojilib_name": "scissors",
@@ -3383,7 +3480,8 @@
   },
   "u2708": {
     "codepoints": [
-      9992
+      9992,
+      65039
     ],
     "emoji": "✈️",
     "emojilib_name": "airplane",
@@ -3404,7 +3502,8 @@
   },
   "u2709": {
     "codepoints": [
-      9993
+      9993,
+      65039
     ],
     "emoji": "✉️",
     "emojilib_name": "email",
@@ -3987,7 +4086,8 @@
   },
   "u270F": {
     "codepoints": [
-      9999
+      9999,
+      65039
     ],
     "emoji": "✏️",
     "emojilib_name": "pencil2",
@@ -4009,7 +4109,8 @@
   },
   "u2712": {
     "codepoints": [
-      10002
+      10002,
+      65039
     ],
     "emoji": "✒️",
     "emojilib_name": "black_nib",
@@ -4030,7 +4131,8 @@
   },
   "u2714": {
     "codepoints": [
-      10004
+      10004,
+      65039
     ],
     "emoji": "✔️",
     "emojilib_name": "heavy_check_mark",
@@ -4053,7 +4155,8 @@
   },
   "u2716": {
     "codepoints": [
-      10006
+      10006,
+      65039
     ],
     "emoji": "✖️",
     "emojilib_name": "heavy_multiplication_x",
@@ -4070,13 +4173,14 @@
       "x",
       "×"
     ],
-    "name": "multiply",
+    "name": "multiplication sign",
     "unicode_category": "symbols",
     "unicode_subcategory": null
   },
   "u271D": {
     "codepoints": [
-      10013
+      10013,
+      65039
     ],
     "emoji": "✝️",
     "emojilib_name": "latin_cross",
@@ -4096,7 +4200,8 @@
   },
   "u2721": {
     "codepoints": [
-      10017
+      10017,
+      65039
     ],
     "emoji": "✡️",
     "emojilib_name": "star_of_david",
@@ -4144,7 +4249,8 @@
   },
   "u2733": {
     "codepoints": [
-      10035
+      10035,
+      65039
     ],
     "emoji": "✳️",
     "emojilib_name": "eight_spoked_asterisk",
@@ -4165,7 +4271,8 @@
   },
   "u2734": {
     "codepoints": [
-      10036
+      10036,
+      65039
     ],
     "emoji": "✴️",
     "emojilib_name": "eight_pointed_black_star",
@@ -4186,7 +4293,8 @@
   },
   "u2744": {
     "codepoints": [
-      10052
+      10052,
+      65039
     ],
     "emoji": "❄️",
     "emojilib_name": "snowflake",
@@ -4209,7 +4317,8 @@
   },
   "u2747": {
     "codepoints": [
-      10055
+      10055,
+      65039
     ],
     "emoji": "❇️",
     "emojilib_name": "sparkle",
@@ -4282,7 +4391,7 @@
     "codepoints": [
       10067
     ],
-    "emoji": "❓️",
+    "emoji": "❓",
     "emojilib_name": "question",
     "fitz": {
     },
@@ -4353,7 +4462,7 @@
     "codepoints": [
       10071
     ],
-    "emoji": "❗️",
+    "emoji": "❗",
     "emojilib_name": "exclamation",
     "fitz": {
     },
@@ -4375,7 +4484,8 @@
   },
   "u2763": {
     "codepoints": [
-      10083
+      10083,
+      65039
     ],
     "emoji": "❣️",
     "emojilib_name": "heavy_heart_exclamation",
@@ -4396,7 +4506,8 @@
   },
   "u2764": {
     "codepoints": [
-      10084
+      10084,
+      65039
     ],
     "emoji": "❤️",
     "emojilib_name": "heart",
@@ -4483,7 +4594,8 @@
   },
   "u27A1": {
     "codepoints": [
-      10145
+      10145,
+      65039
     ],
     "emoji": "➡️",
     "emojilib_name": "arrow_right",
@@ -4548,7 +4660,8 @@
   },
   "u2934": {
     "codepoints": [
-      10548
+      10548,
+      65039
     ],
     "emoji": "⤴️",
     "emojilib_name": "arrow_heading_up",
@@ -4568,7 +4681,8 @@
   },
   "u2935": {
     "codepoints": [
-      10549
+      10549,
+      65039
     ],
     "emoji": "⤵️",
     "emojilib_name": "arrow_heading_down",
@@ -4589,7 +4703,8 @@
   },
   "u2B05": {
     "codepoints": [
-      11013
+      11013,
+      65039
     ],
     "emoji": "⬅️",
     "emojilib_name": "arrow_left",
@@ -4612,7 +4727,8 @@
   },
   "u2B06": {
     "codepoints": [
-      11014
+      11014,
+      65039
     ],
     "emoji": "⬆️",
     "emojilib_name": "arrow_up",
@@ -4635,7 +4751,8 @@
   },
   "u2B07": {
     "codepoints": [
-      11015
+      11015,
+      65039
     ],
     "emoji": "⬇️",
     "emojilib_name": "arrow_down",
@@ -4659,7 +4776,7 @@
     "codepoints": [
       11035
     ],
-    "emoji": "⬛️",
+    "emoji": "⬛",
     "emojilib_name": "black_large_square",
     "fitz": {
     },
@@ -4678,7 +4795,8 @@
   },
   "u2B1C": {
     "codepoints": [
-      11036
+      11036,
+      65039
     ],
     "emoji": "⬜️",
     "emojilib_name": "white_large_square",
@@ -4702,7 +4820,7 @@
     "codepoints": [
       11088
     ],
-    "emoji": "⭐️",
+    "emoji": "⭐",
     "emojilib_name": "star",
     "fitz": {
     },
@@ -4720,7 +4838,7 @@
     "codepoints": [
       11093
     ],
-    "emoji": "⭕️",
+    "emoji": "⭕",
     "emojilib_name": "o",
     "fitz": {
     },
@@ -4739,7 +4857,8 @@
   },
   "u3030": {
     "codepoints": [
-      12336
+      12336,
+      65039
     ],
     "emoji": "〰️",
     "emojilib_name": "wavy_dash",
@@ -4763,7 +4882,8 @@
   },
   "u303D": {
     "codepoints": [
-      12349
+      12349,
+      65039
     ],
     "emoji": "〽️",
     "emojilib_name": "part_alternation_mark",
@@ -4787,7 +4907,8 @@
   },
   "u3297": {
     "codepoints": [
-      12951
+      12951,
+      65039
     ],
     "emoji": "㊗️",
     "emojilib_name": "congratulations",
@@ -4811,7 +4932,8 @@
   },
   "u3299": {
     "codepoints": [
-      12953
+      12953,
+      65039
     ],
     "emoji": "㊙️",
     "emojilib_name": "secret",
@@ -4838,7 +4960,7 @@
     "codepoints": [
       126980
     ],
-    "emoji": "🀄️",
+    "emoji": "🀄",
     "emojilib_name": "mahjong",
     "fitz": {
     },
@@ -4881,7 +5003,8 @@
   },
   "u1F170": {
     "codepoints": [
-      127344
+      127344,
+      65039
     ],
     "emoji": "🅰️",
     "emojilib_name": "a",
@@ -4902,7 +5025,8 @@
   },
   "u1F171": {
     "codepoints": [
-      127345
+      127345,
+      65039
     ],
     "emoji": "🅱️",
     "emojilib_name": "b",
@@ -4923,7 +5047,8 @@
   },
   "u1F17E": {
     "codepoints": [
-      127358
+      127358,
+      65039
     ],
     "emoji": "🅾️",
     "emojilib_name": "o2",
@@ -4944,7 +5069,8 @@
   },
   "u1F17F": {
     "codepoints": [
-      127359
+      127359,
+      65039
     ],
     "emoji": "🅿️",
     "emojilib_name": "parking",
@@ -10528,7 +10654,8 @@
   },
   "u1F202": {
     "codepoints": [
-      127490
+      127490,
+      65039
     ],
     "emoji": "🈂️",
     "emojilib_name": "sa",
@@ -10552,7 +10679,7 @@
     "codepoints": [
       127514
     ],
-    "emoji": "🈚️",
+    "emoji": "🈚",
     "emojilib_name": "u7121",
     "fitz": {
     },
@@ -10577,7 +10704,7 @@
     "codepoints": [
       127535
     ],
-    "emoji": "🈯️",
+    "emoji": "🈯",
     "emojilib_name": "u6307",
     "fitz": {
     },
@@ -10726,7 +10853,8 @@
   },
   "u1F237": {
     "codepoints": [
-      127543
+      127543,
+      65039
     ],
     "emoji": "🈷️",
     "emojilib_name": "u6708",
@@ -11160,7 +11288,8 @@
   },
   "u1F30D": {
     "codepoints": [
-      127757
+      127757,
+      65039
     ],
     "emoji": "🌍️",
     "emojilib_name": "earth_africa",
@@ -11182,7 +11311,8 @@
   },
   "u1F30E": {
     "codepoints": [
-      127758
+      127758,
+      65039
     ],
     "emoji": "🌎️",
     "emojilib_name": "earth_americas",
@@ -11204,7 +11334,8 @@
   },
   "u1F30F": {
     "codepoints": [
-      127759
+      127759,
+      65039
     ],
     "emoji": "🌏️",
     "emojilib_name": "earth_asia",
@@ -11353,7 +11484,8 @@
   },
   "u1F315": {
     "codepoints": [
-      127765
+      127765,
+      65039
     ],
     "emoji": "🌕️",
     "emojilib_name": "full_moon",
@@ -11527,7 +11659,8 @@
   },
   "u1F31C": {
     "codepoints": [
-      127772
+      127772,
+      65039
     ],
     "emoji": "🌜️",
     "emojilib_name": "last_quarter_moon_with_face",
@@ -11646,7 +11779,8 @@
   },
   "u1F321": {
     "codepoints": [
-      127777
+      127777,
+      65039
     ],
     "emoji": "🌡️",
     "emojilib_name": "thermometer",
@@ -11666,7 +11800,8 @@
   },
   "u1F324": {
     "codepoints": [
-      127780
+      127780,
+      65039
     ],
     "emoji": "🌤️",
     "emojilib_name": "sun_behind_small_cloud",
@@ -11685,7 +11820,8 @@
   },
   "u1F325": {
     "codepoints": [
-      127781
+      127781,
+      65039
     ],
     "emoji": "🌥️",
     "emojilib_name": "sun_behind_large_cloud",
@@ -11704,7 +11840,8 @@
   },
   "u1F326": {
     "codepoints": [
-      127782
+      127782,
+      65039
     ],
     "emoji": "🌦️",
     "emojilib_name": "sun_behind_rain_cloud",
@@ -11724,7 +11861,8 @@
   },
   "u1F327": {
     "codepoints": [
-      127783
+      127783,
+      65039
     ],
     "emoji": "🌧️",
     "emojilib_name": "cloud_with_rain",
@@ -11743,7 +11881,8 @@
   },
   "u1F328": {
     "codepoints": [
-      127784
+      127784,
+      65039
     ],
     "emoji": "🌨️",
     "emojilib_name": "cloud_with_snow",
@@ -11763,7 +11902,8 @@
   },
   "u1F329": {
     "codepoints": [
-      127785
+      127785,
+      65039
     ],
     "emoji": "🌩️",
     "emojilib_name": "cloud_with_lightning",
@@ -11783,7 +11923,8 @@
   },
   "u1F32A": {
     "codepoints": [
-      127786
+      127786,
+      65039
     ],
     "emoji": "🌪️",
     "emojilib_name": "tornado",
@@ -11804,7 +11945,8 @@
   },
   "u1F32B": {
     "codepoints": [
-      127787
+      127787,
+      65039
     ],
     "emoji": "🌫️",
     "emojilib_name": "fog",
@@ -11822,7 +11964,8 @@
   },
   "u1F32C": {
     "codepoints": [
-      127788
+      127788,
+      65039
     ],
     "emoji": "🌬️",
     "emojilib_name": "wind_face",
@@ -12023,7 +12166,8 @@
   },
   "u1F336": {
     "codepoints": [
-      127798
+      127798,
+      65039
     ],
     "emoji": "🌶️",
     "emojilib_name": "hot_pepper",
@@ -13429,7 +13573,8 @@
   },
   "u1F378": {
     "codepoints": [
-      127864
+      127864,
+      65039
     ],
     "emoji": "🍸️",
     "emojilib_name": "cocktail",
@@ -13555,7 +13700,8 @@
   },
   "u1F37D": {
     "codepoints": [
-      127869
+      127869,
+      65039
     ],
     "emoji": "🍽️",
     "emojilib_name": "plate_with_cutlery",
@@ -14195,7 +14341,8 @@
   },
   "u1F393": {
     "codepoints": [
-      127891
+      127891,
+      65039
     ],
     "emoji": "🎓️",
     "emojilib_name": "mortar_board",
@@ -14222,7 +14369,8 @@
   },
   "u1F396": {
     "codepoints": [
-      127894
+      127894,
+      65039
     ],
     "emoji": "🎖️",
     "emojilib_name": "medal_military",
@@ -14243,7 +14391,8 @@
   },
   "u1F397": {
     "codepoints": [
-      127895
+      127895,
+      65039
     ],
     "emoji": "🎗️",
     "emojilib_name": "reminder_ribbon",
@@ -14265,7 +14414,8 @@
   },
   "u1F399": {
     "codepoints": [
-      127897
+      127897,
+      65039
     ],
     "emoji": "🎙️",
     "emojilib_name": "studio_microphone",
@@ -14288,7 +14438,8 @@
   },
   "u1F39A": {
     "codepoints": [
-      127898
+      127898,
+      65039
     ],
     "emoji": "🎚️",
     "emojilib_name": "level_slider",
@@ -14307,7 +14458,8 @@
   },
   "u1F39B": {
     "codepoints": [
-      127899
+      127899,
+      65039
     ],
     "emoji": "🎛️",
     "emojilib_name": "control_knobs",
@@ -14326,7 +14478,8 @@
   },
   "u1F39E": {
     "codepoints": [
-      127902
+      127902,
+      65039
     ],
     "emoji": "🎞️",
     "emojilib_name": "film_strip",
@@ -14345,7 +14498,8 @@
   },
   "u1F39F": {
     "codepoints": [
-      127903
+      127903,
+      65039
     ],
     "emoji": "🎟️",
     "emojilib_name": "tickets",
@@ -14516,7 +14670,8 @@
   },
   "u1F3A7": {
     "codepoints": [
-      127911
+      127911,
+      65039
     ],
     "emoji": "🎧️",
     "emojilib_name": "headphones",
@@ -14623,7 +14778,8 @@
   },
   "u1F3AC": {
     "codepoints": [
-      127916
+      127916,
+      65039
     ],
     "emoji": "🎬️",
     "emojilib_name": "clapper",
@@ -14643,7 +14799,8 @@
   },
   "u1F3AD": {
     "codepoints": [
-      127917
+      127917,
+      65039
     ],
     "emoji": "🎭️",
     "emojilib_name": "performing_arts",
@@ -14666,7 +14823,8 @@
   },
   "u1F3AE": {
     "codepoints": [
-      127918
+      127918,
+      65039
     ],
     "emoji": "🎮️",
     "emojilib_name": "video_game",
@@ -15093,7 +15251,8 @@
   },
   "u1F3C2": {
     "codepoints": [
-      127938
+      127938,
+      65039
     ],
     "emoji": "🏂️",
     "emojilib_name": "snowboarder",
@@ -16059,7 +16218,8 @@
   },
   "u1F3C6": {
     "codepoints": [
-      127942
+      127942,
+      65039
     ],
     "emoji": "🏆️",
     "emojilib_name": "trophy",
@@ -17633,7 +17793,8 @@
   },
   "u1F3CD": {
     "codepoints": [
-      127949
+      127949,
+      65039
     ],
     "emoji": "🏍️",
     "emojilib_name": "motorcycle",
@@ -17653,7 +17814,8 @@
   },
   "u1F3CE": {
     "codepoints": [
-      127950
+      127950,
+      65039
     ],
     "emoji": "🏎️",
     "emojilib_name": "racing_car",
@@ -17780,7 +17942,8 @@
   },
   "u1F3D4": {
     "codepoints": [
-      127956
+      127956,
+      65039
     ],
     "emoji": "🏔️",
     "emojilib_name": "mountain_snow",
@@ -17803,7 +17966,8 @@
   },
   "u1F3D5": {
     "codepoints": [
-      127957
+      127957,
+      65039
     ],
     "emoji": "🏕️",
     "emojilib_name": "camping",
@@ -17822,7 +17986,8 @@
   },
   "u1F3D6": {
     "codepoints": [
-      127958
+      127958,
+      65039
     ],
     "emoji": "🏖️",
     "emojilib_name": "beach_umbrella",
@@ -17845,7 +18010,8 @@
   },
   "u1F3D7": {
     "codepoints": [
-      127959
+      127959,
+      65039
     ],
     "emoji": "🏗️",
     "emojilib_name": "building_construction",
@@ -17865,7 +18031,8 @@
   },
   "u1F3D8": {
     "codepoints": [
-      127960
+      127960,
+      65039
     ],
     "emoji": "🏘️",
     "emojilib_name": "houses",
@@ -17883,7 +18050,8 @@
   },
   "u1F3D9": {
     "codepoints": [
-      127961
+      127961,
+      65039
     ],
     "emoji": "🏙️",
     "emojilib_name": "cityscape",
@@ -17903,7 +18071,8 @@
   },
   "u1F3DA": {
     "codepoints": [
-      127962
+      127962,
+      65039
     ],
     "emoji": "🏚️",
     "emojilib_name": "derelict_house",
@@ -17924,7 +18093,8 @@
   },
   "u1F3DB": {
     "codepoints": [
-      127963
+      127963,
+      65039
     ],
     "emoji": "🏛️",
     "emojilib_name": "classical_building",
@@ -17944,7 +18114,8 @@
   },
   "u1F3DC": {
     "codepoints": [
-      127964
+      127964,
+      65039
     ],
     "emoji": "🏜️",
     "emojilib_name": "desert",
@@ -17963,7 +18134,8 @@
   },
   "u1F3DD": {
     "codepoints": [
-      127965
+      127965,
+      65039
     ],
     "emoji": "🏝️",
     "emojilib_name": "desert_island",
@@ -17983,7 +18155,8 @@
   },
   "u1F3DE": {
     "codepoints": [
-      127966
+      127966,
+      65039
     ],
     "emoji": "🏞️",
     "emojilib_name": "national_park",
@@ -18003,7 +18176,8 @@
   },
   "u1F3DF": {
     "codepoints": [
-      127967
+      127967,
+      65039
     ],
     "emoji": "🏟️",
     "emojilib_name": "stadium",
@@ -18026,7 +18200,7 @@
     "codepoints": [
       127968
     ],
-    "emoji": "🏠️",
+    "emoji": "🏠",
     "emojilib_name": "house",
     "fitz": {
     },
@@ -18291,7 +18465,8 @@
   },
   "u1F3ED": {
     "codepoints": [
-      127981
+      127981,
+      65039
     ],
     "emoji": "🏭️",
     "emojilib_name": "factory",
@@ -18373,7 +18548,8 @@
   },
   "u1F3F3": {
     "codepoints": [
-      127987
+      127987,
+      65039
     ],
     "emoji": "🏳️",
     "emojilib_name": "white_flag",
@@ -18540,7 +18716,8 @@
   },
   "u1F3F5": {
     "codepoints": [
-      127989
+      127989,
+      65039
     ],
     "emoji": "🏵️",
     "emojilib_name": "rosette",
@@ -18560,7 +18737,8 @@
   },
   "u1F3F7": {
     "codepoints": [
-      127991
+      127991,
+      65039
     ],
     "emoji": "🏷️",
     "emojilib_name": "label",
@@ -18896,7 +19074,8 @@
   },
   "u1F408": {
     "codepoints": [
-      128008
+      128008,
+      65039
     ],
     "emoji": "🐈️",
     "emojilib_name": "cat2",
@@ -19167,28 +19346,6 @@
     "unicode_category": "animals_and_nature",
     "unicode_subcategory": null
   },
-  "u1F415": {
-    "codepoints": [
-      128021
-    ],
-    "emoji": "🐕️",
-    "emojilib_name": "dog2",
-    "fitz": {
-    },
-    "image": "images/u1F415.png",
-    "keywords": [
-      "animal",
-      "dog",
-      "doge",
-      "faithful",
-      "friend",
-      "nature",
-      "pet"
-    ],
-    "name": "dog",
-    "unicode_category": "animals_and_nature",
-    "unicode_subcategory": null
-  },
   "u1F415_u1F9BA": {
     "codepoints": [
       128021,
@@ -19208,6 +19365,29 @@
     ],
     "name": "service dog",
     "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "u1F415": {
+    "codepoints": [
+      128021,
+      65039
+    ],
+    "emoji": "🐕️",
+    "emojilib_name": "dog2",
+    "fitz": {
+    },
+    "image": "images/u1F415.png",
+    "keywords": [
+      "animal",
+      "dog",
+      "doge",
+      "faithful",
+      "friend",
+      "nature",
+      "pet"
+    ],
+    "name": "dog",
+    "unicode_category": "animals_and_nature",
     "unicode_subcategory": null
   },
   "u1F416": {
@@ -19398,7 +19578,8 @@
   },
   "u1F41F": {
     "codepoints": [
-      128031
+      128031,
+      65039
     ],
     "emoji": "🐟️",
     "emojilib_name": "fish",
@@ -19548,7 +19729,8 @@
   },
   "u1F426": {
     "codepoints": [
-      128038
+      128038,
+      65039
     ],
     "emoji": "🐦️",
     "emojilib_name": "bird",
@@ -20082,7 +20264,8 @@
   },
   "u1F43F": {
     "codepoints": [
-      128063
+      128063,
+      65039
     ],
     "emoji": "🐿️",
     "emojilib_name": "chipmunk",
@@ -20125,7 +20308,8 @@
   },
   "u1F441": {
     "codepoints": [
-      128065
+      128065,
+      65039
     ],
     "emoji": "👁️",
     "emojilib_name": "eye",
@@ -22190,7 +22374,8 @@
   },
   "u1F453": {
     "codepoints": [
-      128083
+      128083,
+      65039
     ],
     "emoji": "👓️",
     "emojilib_name": "eyeglasses",
@@ -32579,7 +32764,8 @@
   },
   "u1F46A": {
     "codepoints": [
-      128106
+      128106,
+      65039
     ],
     "emoji": "👪️",
     "emojilib_name": "family_man_woman_boy",
@@ -36213,7 +36399,8 @@
   },
   "u1F47D": {
     "codepoints": [
-      128125
+      128125,
+      65039
     ],
     "emoji": "👽️",
     "emojilib_name": "alien",
@@ -39100,7 +39287,8 @@
   },
   "u1F4A3": {
     "codepoints": [
-      128163
+      128163,
+      65039
     ],
     "emoji": "💣️",
     "emojilib_name": "bomb",
@@ -39530,7 +39718,8 @@
   },
   "u1F4B0": {
     "codepoints": [
-      128176
+      128176,
+      65039
     ],
     "emoji": "💰️",
     "emojilib_name": "moneybag",
@@ -39596,7 +39785,8 @@
   },
   "u1F4B3": {
     "codepoints": [
-      128179
+      128179,
+      65039
     ],
     "emoji": "💳️",
     "emojilib_name": "credit_card",
@@ -39787,7 +39977,8 @@
   },
   "u1F4BB": {
     "codepoints": [
-      128187
+      128187,
+      65039
     ],
     "emoji": "💻️",
     "emojilib_name": "computer",
@@ -39879,7 +40070,8 @@
   },
   "u1F4BF": {
     "codepoints": [
-      128191
+      128191,
+      65039
     ],
     "emoji": "💿️",
     "emojilib_name": "cd",
@@ -40145,7 +40337,8 @@
   },
   "u1F4CB": {
     "codepoints": [
-      128203
+      128203,
+      65039
     ],
     "emoji": "📋️",
     "emojilib_name": "clipboard",
@@ -40470,7 +40663,8 @@
   },
   "u1F4DA": {
     "codepoints": [
-      128218
+      128218,
+      65039
     ],
     "emoji": "📚️",
     "emojilib_name": "books",
@@ -40578,7 +40772,8 @@
   },
   "u1F4DF": {
     "codepoints": [
-      128223
+      128223,
+      65039
     ],
     "emoji": "📟️",
     "emojilib_name": "pager",
@@ -40678,7 +40873,8 @@
   },
   "u1F4E4": {
     "codepoints": [
-      128228
+      128228,
+      65039
     ],
     "emoji": "📤️",
     "emojilib_name": "outbox_tray",
@@ -40701,7 +40897,8 @@
   },
   "u1F4E5": {
     "codepoints": [
-      128229
+      128229,
+      65039
     ],
     "emoji": "📥️",
     "emojilib_name": "inbox_tray",
@@ -40724,7 +40921,8 @@
   },
   "u1F4E6": {
     "codepoints": [
-      128230
+      128230,
+      65039
     ],
     "emoji": "📦️",
     "emojilib_name": "package",
@@ -40811,7 +41009,8 @@
   },
   "u1F4EA": {
     "codepoints": [
-      128234
+      128234,
+      65039
     ],
     "emoji": "📪️",
     "emojilib_name": "mailbox_closed",
@@ -40835,7 +41034,8 @@
   },
   "u1F4EB": {
     "codepoints": [
-      128235
+      128235,
+      65039
     ],
     "emoji": "📫️",
     "emojilib_name": "mailbox",
@@ -40858,7 +41058,8 @@
   },
   "u1F4EC": {
     "codepoints": [
-      128236
+      128236,
+      65039
     ],
     "emoji": "📬️",
     "emojilib_name": "mailbox_with_mail",
@@ -40881,7 +41082,8 @@
   },
   "u1F4ED": {
     "codepoints": [
-      128237
+      128237,
+      65039
     ],
     "emoji": "📭️",
     "emojilib_name": "mailbox_with_no_mail",
@@ -41109,7 +41311,8 @@
   },
   "u1F4F7": {
     "codepoints": [
-      128247
+      128247,
+      65039
     ],
     "emoji": "📷️",
     "emojilib_name": "camera",
@@ -41149,7 +41352,8 @@
   },
   "u1F4F9": {
     "codepoints": [
-      128249
+      128249,
+      65039
     ],
     "emoji": "📹️",
     "emojilib_name": "video_camera",
@@ -41168,7 +41372,8 @@
   },
   "u1F4FA": {
     "codepoints": [
-      128250
+      128250,
+      65039
     ],
     "emoji": "📺️",
     "emojilib_name": "tv",
@@ -41190,7 +41395,8 @@
   },
   "u1F4FB": {
     "codepoints": [
-      128251
+      128251,
+      65039
     ],
     "emoji": "📻️",
     "emojilib_name": "radio",
@@ -41234,7 +41440,8 @@
   },
   "u1F4FD": {
     "codepoints": [
-      128253
+      128253,
+      65039
     ],
     "emoji": "📽️",
     "emojilib_name": "film_projector",
@@ -41454,7 +41661,8 @@
   },
   "u1F508": {
     "codepoints": [
-      128264
+      128264,
+      65039
     ],
     "emoji": "🔈️",
     "emojilib_name": "speaker",
@@ -41556,7 +41764,8 @@
   },
   "u1F50D": {
     "codepoints": [
-      128269
+      128269,
+      65039
     ],
     "emoji": "🔍️",
     "emojilib_name": "mag",
@@ -41666,7 +41875,8 @@
   },
   "u1F512": {
     "codepoints": [
-      128274
+      128274,
+      65039
     ],
     "emoji": "🔒️",
     "emojilib_name": "lock",
@@ -41686,7 +41896,8 @@
   },
   "u1F513": {
     "codepoints": [
-      128275
+      128275,
+      65039
     ],
     "emoji": "🔓️",
     "emojilib_name": "unlock",
@@ -42622,7 +42833,8 @@
   },
   "u1F549": {
     "codepoints": [
-      128329
+      128329,
+      65039
     ],
     "emoji": "🕉️",
     "emojilib_name": "om",
@@ -42644,7 +42856,8 @@
   },
   "u1F54A": {
     "codepoints": [
-      128330
+      128330,
+      65039
     ],
     "emoji": "🕊️",
     "emojilib_name": "dove",
@@ -42753,7 +42966,7 @@
     "codepoints": [
       128336
     ],
-    "emoji": "🕐️",
+    "emoji": "🕐",
     "emojilib_name": "clock1",
     "fitz": {
     },
@@ -42776,7 +42989,8 @@
   },
   "u1F551": {
     "codepoints": [
-      128337
+      128337,
+      65039
     ],
     "emoji": "🕑️",
     "emojilib_name": "clock2",
@@ -42801,7 +43015,8 @@
   },
   "u1F552": {
     "codepoints": [
-      128338
+      128338,
+      65039
     ],
     "emoji": "🕒️",
     "emojilib_name": "clock3",
@@ -42826,7 +43041,8 @@
   },
   "u1F553": {
     "codepoints": [
-      128339
+      128339,
+      65039
     ],
     "emoji": "🕓️",
     "emojilib_name": "clock4",
@@ -42851,7 +43067,8 @@
   },
   "u1F554": {
     "codepoints": [
-      128340
+      128340,
+      65039
     ],
     "emoji": "🕔️",
     "emojilib_name": "clock5",
@@ -42876,7 +43093,8 @@
   },
   "u1F555": {
     "codepoints": [
-      128341
+      128341,
+      65039
     ],
     "emoji": "🕕️",
     "emojilib_name": "clock6",
@@ -42903,7 +43121,8 @@
   },
   "u1F556": {
     "codepoints": [
-      128342
+      128342,
+      65039
     ],
     "emoji": "🕖️",
     "emojilib_name": "clock7",
@@ -42928,7 +43147,8 @@
   },
   "u1F557": {
     "codepoints": [
-      128343
+      128343,
+      65039
     ],
     "emoji": "🕗️",
     "emojilib_name": "clock8",
@@ -42953,7 +43173,8 @@
   },
   "u1F558": {
     "codepoints": [
-      128344
+      128344,
+      65039
     ],
     "emoji": "🕘️",
     "emojilib_name": "clock9",
@@ -42978,7 +43199,8 @@
   },
   "u1F559": {
     "codepoints": [
-      128345
+      128345,
+      65039
     ],
     "emoji": "🕙️",
     "emojilib_name": "clock10",
@@ -43003,7 +43225,8 @@
   },
   "u1F55A": {
     "codepoints": [
-      128346
+      128346,
+      65039
     ],
     "emoji": "🕚️",
     "emojilib_name": "clock11",
@@ -43028,7 +43251,8 @@
   },
   "u1F55B": {
     "codepoints": [
-      128347
+      128347,
+      65039
     ],
     "emoji": "🕛️",
     "emojilib_name": "clock12",
@@ -43056,7 +43280,8 @@
   },
   "u1F55C": {
     "codepoints": [
-      128348
+      128348,
+      65039
     ],
     "emoji": "🕜️",
     "emojilib_name": "clock130",
@@ -43081,7 +43306,8 @@
   },
   "u1F55D": {
     "codepoints": [
-      128349
+      128349,
+      65039
     ],
     "emoji": "🕝️",
     "emojilib_name": "clock230",
@@ -43106,7 +43332,8 @@
   },
   "u1F55E": {
     "codepoints": [
-      128350
+      128350,
+      65039
     ],
     "emoji": "🕞️",
     "emojilib_name": "clock330",
@@ -43131,7 +43358,8 @@
   },
   "u1F55F": {
     "codepoints": [
-      128351
+      128351,
+      65039
     ],
     "emoji": "🕟️",
     "emojilib_name": "clock430",
@@ -43156,7 +43384,8 @@
   },
   "u1F560": {
     "codepoints": [
-      128352
+      128352,
+      65039
     ],
     "emoji": "🕠️",
     "emojilib_name": "clock530",
@@ -43181,7 +43410,8 @@
   },
   "u1F561": {
     "codepoints": [
-      128353
+      128353,
+      65039
     ],
     "emoji": "🕡️",
     "emojilib_name": "clock630",
@@ -43206,7 +43436,8 @@
   },
   "u1F562": {
     "codepoints": [
-      128354
+      128354,
+      65039
     ],
     "emoji": "🕢️",
     "emojilib_name": "clock730",
@@ -43231,7 +43462,8 @@
   },
   "u1F563": {
     "codepoints": [
-      128355
+      128355,
+      65039
     ],
     "emoji": "🕣️",
     "emojilib_name": "clock830",
@@ -43256,7 +43488,8 @@
   },
   "u1F564": {
     "codepoints": [
-      128356
+      128356,
+      65039
     ],
     "emoji": "🕤️",
     "emojilib_name": "clock930",
@@ -43281,7 +43514,8 @@
   },
   "u1F565": {
     "codepoints": [
-      128357
+      128357,
+      65039
     ],
     "emoji": "🕥️",
     "emojilib_name": "clock1030",
@@ -43306,7 +43540,8 @@
   },
   "u1F566": {
     "codepoints": [
-      128358
+      128358,
+      65039
     ],
     "emoji": "🕦️",
     "emojilib_name": "clock1130",
@@ -43331,7 +43566,8 @@
   },
   "u1F567": {
     "codepoints": [
-      128359
+      128359,
+      65039
     ],
     "emoji": "🕧️",
     "emojilib_name": "clock1230",
@@ -43356,7 +43592,8 @@
   },
   "u1F56F": {
     "codepoints": [
-      128367
+      128367,
+      65039
     ],
     "emoji": "🕯️",
     "emojilib_name": "candle",
@@ -43375,7 +43612,8 @@
   },
   "u1F570": {
     "codepoints": [
-      128368
+      128368,
+      65039
     ],
     "emoji": "🕰️",
     "emojilib_name": "mantelpiece_clock",
@@ -43393,7 +43631,8 @@
   },
   "u1F573": {
     "codepoints": [
-      128371
+      128371,
+      65039
     ],
     "emoji": "🕳️",
     "emojilib_name": "hole",
@@ -43970,7 +44209,8 @@
   },
   "u1F576": {
     "codepoints": [
-      128374
+      128374,
+      65039
     ],
     "emoji": "🕶️",
     "emojilib_name": "dark_sunglasses",
@@ -43993,7 +44233,8 @@
   },
   "u1F577": {
     "codepoints": [
-      128375
+      128375,
+      65039
     ],
     "emoji": "🕷️",
     "emojilib_name": "spider",
@@ -44012,7 +44253,8 @@
   },
   "u1F578": {
     "codepoints": [
-      128376
+      128376,
+      65039
     ],
     "emoji": "🕸️",
     "emojilib_name": "spider_web",
@@ -44033,7 +44275,8 @@
   },
   "u1F579": {
     "codepoints": [
-      128377
+      128377,
+      65039
     ],
     "emoji": "🕹️",
     "emojilib_name": "joystick",
@@ -44194,7 +44437,8 @@
   },
   "u1F587": {
     "codepoints": [
-      128391
+      128391,
+      65039
     ],
     "emoji": "🖇️",
     "emojilib_name": "paperclips",
@@ -44214,7 +44458,8 @@
   },
   "u1F58A": {
     "codepoints": [
-      128394
+      128394,
+      65039
     ],
     "emoji": "🖊️",
     "emojilib_name": "pen",
@@ -44234,7 +44479,8 @@
   },
   "u1F58B": {
     "codepoints": [
-      128395
+      128395,
+      65039
     ],
     "emoji": "🖋️",
     "emojilib_name": "fountain_pen",
@@ -44254,7 +44500,8 @@
   },
   "u1F58C": {
     "codepoints": [
-      128396
+      128396,
+      65039
     ],
     "emoji": "🖌️",
     "emojilib_name": "paintbrush",
@@ -44274,7 +44521,8 @@
   },
   "u1F58D": {
     "codepoints": [
-      128397
+      128397,
+      65039
     ],
     "emoji": "🖍️",
     "emojilib_name": "crayon",
@@ -44731,7 +44979,8 @@
   },
   "u1F5A5": {
     "codepoints": [
-      128421
+      128421,
+      65039
     ],
     "emoji": "🖥️",
     "emojilib_name": "desktop_computer",
@@ -44751,7 +45000,8 @@
   },
   "u1F5A8": {
     "codepoints": [
-      128424
+      128424,
+      65039
     ],
     "emoji": "🖨️",
     "emojilib_name": "printer",
@@ -44770,7 +45020,8 @@
   },
   "u1F5B1": {
     "codepoints": [
-      128433
+      128433,
+      65039
     ],
     "emoji": "🖱️",
     "emojilib_name": "computer_mouse",
@@ -44788,7 +45039,8 @@
   },
   "u1F5B2": {
     "codepoints": [
-      128434
+      128434,
+      65039
     ],
     "emoji": "🖲️",
     "emojilib_name": "trackball",
@@ -44807,7 +45059,8 @@
   },
   "u1F5BC": {
     "codepoints": [
-      128444
+      128444,
+      65039
     ],
     "emoji": "🖼️",
     "emojilib_name": "framed_picture",
@@ -44829,7 +45082,8 @@
   },
   "u1F5C2": {
     "codepoints": [
-      128450
+      128450,
+      65039
     ],
     "emoji": "🗂️",
     "emojilib_name": "card_index_dividers",
@@ -44850,7 +45104,8 @@
   },
   "u1F5C3": {
     "codepoints": [
-      128451
+      128451,
+      65039
     ],
     "emoji": "🗃️",
     "emojilib_name": "card_file_box",
@@ -44870,7 +45125,8 @@
   },
   "u1F5C4": {
     "codepoints": [
-      128452
+      128452,
+      65039
     ],
     "emoji": "🗄️",
     "emojilib_name": "file_cabinet",
@@ -44889,7 +45145,8 @@
   },
   "u1F5D1": {
     "codepoints": [
-      128465
+      128465,
+      65039
     ],
     "emoji": "🗑️",
     "emojilib_name": "wastebasket",
@@ -44910,7 +45167,8 @@
   },
   "u1F5D2": {
     "codepoints": [
-      128466
+      128466,
+      65039
     ],
     "emoji": "🗒️",
     "emojilib_name": "spiral_notepad",
@@ -44931,7 +45189,8 @@
   },
   "u1F5D3": {
     "codepoints": [
-      128467
+      128467,
+      65039
     ],
     "emoji": "🗓️",
     "emojilib_name": "spiral_calendar",
@@ -44952,7 +45211,8 @@
   },
   "u1F5DC": {
     "codepoints": [
-      128476
+      128476,
+      65039
     ],
     "emoji": "🗜️",
     "emojilib_name": "clamp",
@@ -44971,7 +45231,8 @@
   },
   "u1F5DD": {
     "codepoints": [
-      128477
+      128477,
+      65039
     ],
     "emoji": "🗝️",
     "emojilib_name": "old_key",
@@ -44992,7 +45253,8 @@
   },
   "u1F5DE": {
     "codepoints": [
-      128478
+      128478,
+      65039
     ],
     "emoji": "🗞️",
     "emojilib_name": "newspaper_roll",
@@ -45014,7 +45276,8 @@
   },
   "u1F5E1": {
     "codepoints": [
-      128481
+      128481,
+      65039
     ],
     "emoji": "🗡️",
     "emojilib_name": "dagger",
@@ -45032,7 +45295,8 @@
   },
   "u1F5E3": {
     "codepoints": [
-      128483
+      128483,
+      65039
     ],
     "emoji": "🗣️",
     "emojilib_name": "speaking_head",
@@ -45058,7 +45322,8 @@
   },
   "u1F5E8": {
     "codepoints": [
-      128488
+      128488,
+      65039
     ],
     "emoji": "🗨️",
     "emojilib_name": "left_speech_bubble",
@@ -45080,7 +45345,8 @@
   },
   "u1F5EF": {
     "codepoints": [
-      128495
+      128495,
+      65039
     ],
     "emoji": "🗯️",
     "emojilib_name": "right_anger_bubble",
@@ -45103,7 +45369,8 @@
   },
   "u1F5F3": {
     "codepoints": [
-      128499
+      128499,
+      65039
     ],
     "emoji": "🗳️",
     "emojilib_name": "ballot_box",
@@ -45123,7 +45390,8 @@
   },
   "u1F5FA": {
     "codepoints": [
-      128506
+      128506,
+      65039
     ],
     "emoji": "🗺️",
     "emojilib_name": "world_map",
@@ -45639,7 +45907,8 @@
   },
   "u1F610": {
     "codepoints": [
-      128528
+      128528,
+      65039
     ],
     "emoji": "😐️",
     "emojilib_name": "neutral_face",
@@ -50273,7 +50542,8 @@
   },
   "u1F687": {
     "codepoints": [
-      128647
+      128647,
+      65039
     ],
     "emoji": "🚇️",
     "emojilib_name": "metro",
@@ -50396,7 +50666,8 @@
   },
   "u1F68D": {
     "codepoints": [
-      128653
+      128653,
+      65039
     ],
     "emoji": "🚍️",
     "emojilib_name": "oncoming_bus",
@@ -50477,7 +50748,8 @@
   },
   "u1F691": {
     "codepoints": [
-      128657
+      128657,
+      65039
     ],
     "emoji": "🚑️",
     "emojilib_name": "ambulance",
@@ -50542,7 +50814,8 @@
   },
   "u1F694": {
     "codepoints": [
-      128660
+      128660,
+      65039
     ],
     "emoji": "🚔️",
     "emojilib_name": "oncoming_police_car",
@@ -50625,7 +50898,8 @@
   },
   "u1F698": {
     "codepoints": [
-      128664
+      128664,
+      65039
     ],
     "emoji": "🚘️",
     "emojilib_name": "oncoming_automobile",
@@ -51519,7 +51793,8 @@
   },
   "u1F6AD": {
     "codepoints": [
-      128685
+      128685,
+      65039
     ],
     "emoji": "🚭️",
     "emojilib_name": "no_smoking",
@@ -51635,7 +51910,8 @@
   },
   "u1F6B2": {
     "codepoints": [
-      128690
+      128690,
+      65039
     ],
     "emoji": "🚲️",
     "emojilib_name": "bike",
@@ -53181,7 +53457,8 @@
   },
   "u1F6B9": {
     "codepoints": [
-      128697
+      128697,
+      65039
     ],
     "emoji": "🚹️",
     "emojilib_name": "mens",
@@ -53205,7 +53482,8 @@
   },
   "u1F6BA": {
     "codepoints": [
-      128698
+      128698,
+      65039
     ],
     "emoji": "🚺️",
     "emojilib_name": "womens",
@@ -53253,7 +53531,8 @@
   },
   "u1F6BC": {
     "codepoints": [
-      128700
+      128700,
+      65039
     ],
     "emoji": "🚼️",
     "emojilib_name": "baby_symbol",
@@ -53570,7 +53849,8 @@
   },
   "u1F6CB": {
     "codepoints": [
-      128715
+      128715,
+      65039
     ],
     "emoji": "🛋️",
     "emojilib_name": "couch_and_lamp",
@@ -53611,7 +53891,8 @@
   },
   "u1F6CD": {
     "codepoints": [
-      128717
+      128717,
+      65039
     ],
     "emoji": "🛍️",
     "emojilib_name": "shopping",
@@ -53633,7 +53914,8 @@
   },
   "u1F6CE": {
     "codepoints": [
-      128718
+      128718,
+      65039
     ],
     "emoji": "🛎️",
     "emojilib_name": "bellhop_bell",
@@ -53652,7 +53934,8 @@
   },
   "u1F6CF": {
     "codepoints": [
-      128719
+      128719,
+      65039
     ],
     "emoji": "🛏️",
     "emojilib_name": "bed",
@@ -53745,7 +54028,8 @@
   },
   "u1F6E0": {
     "codepoints": [
-      128736
+      128736,
+      65039
     ],
     "emoji": "🛠️",
     "emojilib_name": "hammer_and_wrench",
@@ -53768,7 +54052,8 @@
   },
   "u1F6E1": {
     "codepoints": [
-      128737
+      128737,
+      65039
     ],
     "emoji": "🛡️",
     "emojilib_name": "shield",
@@ -53787,7 +54072,8 @@
   },
   "u1F6E2": {
     "codepoints": [
-      128738
+      128738,
+      65039
     ],
     "emoji": "🛢️",
     "emojilib_name": "oil_drum",
@@ -53805,7 +54091,8 @@
   },
   "u1F6E3": {
     "codepoints": [
-      128739
+      128739,
+      65039
     ],
     "emoji": "🛣️",
     "emojilib_name": "motorway",
@@ -53825,7 +54112,8 @@
   },
   "u1F6E4": {
     "codepoints": [
-      128740
+      128740,
+      65039
     ],
     "emoji": "🛤️",
     "emojilib_name": "railway_track",
@@ -53844,7 +54132,8 @@
   },
   "u1F6E5": {
     "codepoints": [
-      128741
+      128741,
+      65039
     ],
     "emoji": "🛥️",
     "emojilib_name": "motor_boat",
@@ -53863,7 +54152,8 @@
   },
   "u1F6E9": {
     "codepoints": [
-      128745
+      128745,
+      65039
     ],
     "emoji": "🛩️",
     "emojilib_name": "small_airplane",
@@ -53932,7 +54222,8 @@
   },
   "u1F6F0": {
     "codepoints": [
-      128752
+      128752,
+      65039
     ],
     "emoji": "🛰️",
     "emojilib_name": "artificial_satellite",
@@ -53955,7 +54246,8 @@
   },
   "u1F6F3": {
     "codepoints": [
-      128755
+      128755,
+      65039
     ],
     "emoji": "🛳️",
     "emojilib_name": "passenger_ship",

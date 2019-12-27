@@ -56,7 +56,8 @@ const holdingHandRegex = /^(u1F(?:46[89]|9D1)_u1F91D_u1F(?:46[89]|9D1))\.([0-6])
           : null;
 
       if (!annotation) {
-        // The Apple Color Emoji font file contains unique images for the same skin tone pairs used left-right and right-left.
+        // The Apple Color Emoji font file contains unique images for the same skin tone pairs used left-right and right-left,
+        // but the unicode CLDR derived annotation data only contains entries for right-left pairs.
         // For example, emoji `xyz` has images for `xyz.12` _and_ `xyz.21`, but annotation data only contains `xyz.21`.
         // We pull keywords from the `21` case for the `12` case. ZWJ data will provide the remaining pieces.
         const match = emoji.name.match(holdingHandRegex);
@@ -78,17 +79,21 @@ const holdingHandRegex = /^(u1F(?:46[89]|9D1)_u1F91D_u1F(?:46[89]|9D1))\.([0-6])
 
       if (emoji.name in zwjSequenceData) {
         const seq = zwjSequenceData[emoji.name as keyof typeof zwjSequenceData];
-        codepoints = seq.codepoints;
         char = seq.char;
+        codepoints = seq.codepoints;
         name = seq.description;
-      } else if (emoji.name in variationSequenceData) {
+      }
+
+      if (emoji.name in variationSequenceData) {
         const seq = variationSequenceData[emoji.name as keyof typeof variationSequenceData];
         char = seq.char;
-        seq.codepoints = seq.codepoints;
-      } else if (emoji.name in sequenceData) {
-        const seq = sequenceData[emoji.name as keyof typeof sequenceData];
         codepoints = seq.codepoints;
+      }
+
+      if (emoji.name in sequenceData) {
+        const seq = sequenceData[emoji.name as keyof typeof sequenceData];
         char = seq.char;
+        codepoints = seq.codepoints;
         name = seq.description;
       }
 
