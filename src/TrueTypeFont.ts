@@ -210,7 +210,7 @@ export class TrueTypeFont {
       const graphicType = await bp.tag(offset + 4);
       invariant(graphicType === 'png ', 'Not a PNG!');
 
-      const data = await bp.readBytes(size, offset + 8);
+      const data = await bp.readBytes(size - 8, offset + 8);
 
       yield { data, name };
     }

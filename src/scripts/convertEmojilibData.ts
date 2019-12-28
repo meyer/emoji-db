@@ -8,14 +8,14 @@ import { sortKeyStringifyOptions } from '../utils/sortKeyStringifyOptions';
 import { toEmojiSortKey } from '../utils/toEmojiSortKey';
 import emojilibData from 'emojilib/emojis.json';
 import { toCodepoints } from '../utils/toCodepoints';
-import { toEmojiKey } from '../utils/toEmojiKey';
+import { codepointsToKey } from '../utils/codepointsToKey';
 
 (async () => {
   const emojilibDataByEmojiKey: Record<string, any> = {};
 
   for (const [key, value] of Object.entries(emojilibData)) {
     const codepoints = toCodepoints(value.char);
-    const emojiKey = toEmojiKey(codepoints);
+    const emojiKey = codepointsToKey(codepoints);
     const sortKey = toEmojiSortKey(codepoints);
 
     invariant(!emojilibDataByEmojiKey.hasOwnProperty(emojiKey), 'Duplicate emoji key:', emojiKey);

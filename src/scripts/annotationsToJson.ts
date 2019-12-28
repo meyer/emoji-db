@@ -2,7 +2,7 @@ import cheerio from 'cheerio';
 import path from 'path';
 import fs from 'fs';
 import { toCodepoints } from '../utils/toCodepoints';
-import { toEmojiKey } from '../utils/toEmojiKey';
+import { codepointsToKey } from '../utils/codepointsToKey';
 import { CACHE_DIR, DATA_DIR } from '../constants';
 import { invariant } from '../utils/invariant';
 import stringify from 'json-stable-stringify';
@@ -33,7 +33,7 @@ interface AnnotationWithSortKey extends Annotation {
     const ret: Record<string, AnnotationWithSortKey> = {};
     annotations.map((idx, el) => {
       const codepoints = toCodepoints(el.attribs.cp);
-      const key = toEmojiKey(codepoints);
+      const key = codepointsToKey(codepoints);
       const sortKey = toEmojiSortKey(codepoints);
 
       if (!ret[key]) {

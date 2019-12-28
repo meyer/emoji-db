@@ -4,6 +4,8 @@ import fs from 'fs';
 import { FONTS_DIR, EMOJI_IMG_DIR } from '../constants';
 import { invariant } from '../utils/invariant';
 import { getFontByName } from '../utils/getFontByName';
+import { emojiNameToKey } from '../utils/emojiNameToKey';
+import { getMetadataForEmojiKey } from '../utils/getMetadataForEmojiKey';
 
 (async argv => {
   invariant(argv.length === 1, 'one arg pls');
@@ -13,7 +15,9 @@ import { getFontByName } from '../utils/getFontByName';
   try {
     await fs.promises.mkdir(EMOJI_IMG_DIR);
     for await (const { data, name } of ttf.getEmojiIterator()) {
-      const absPath = path.join(EMOJI_IMG_DIR, name + '.png');
+      const key = emojiNameToKey(name);
+      const { fileName } = getMetadataForEmojiKey(key);
+      const absPath = path.join(EMOJI_IMG_DIR, fileName + '.png');
 
       await fs.promises.writeFile(absPath, data, {
         // write should fail if the file already exists

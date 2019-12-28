@@ -6,14 +6,9 @@ import { invariant } from '../utils/invariant';
 import { getFontByName } from '../utils/getFontByName';
 import stringify from 'json-stable-stringify';
 import { sortKeyStringifyOptions } from '../utils/sortKeyStringifyOptions';
-import annotationData from '../../data/annotations.json';
-import derivedAnnotationData from '../../data/annotationsDerived.json';
-import emojilibData from '../../data/emojilib.json';
-import sequenceData from '../../data/emoji-sequences.json';
-import variationSequenceData from '../../data/emoji-variation-sequences.json';
-import zwjSequenceData from '../../data/emoji-zwj-sequences.json';
 import { toEmojiSortKey } from '../utils/toEmojiSortKey';
-import { toEmojiKey } from '../utils/toEmojiKey';
+import { emojiNameToKey } from '../utils/emojiNameToKey';
+import { getMetadataForEmojiKey } from '../utils/getMetadataForEmojiKey';
 import yaml from 'yaml';
 
 interface EmojiDbEntry {
@@ -31,8 +26,7 @@ interface EmojiDbEntry {
 
 type EmojiDb = Record<string, EmojiDbEntry>;
 
-const holdingHandRegex = /^(u1F(?:46[89]|9D1)_u1F91D_u1F(?:46[89]|9D1))\.([0-6])([0-6])$/;
-const fitzRegex = /\.([0-6][0-6]?)(\.[MWBG]+)?$/;
+const fitzRegex = /\.([1-5][1-5]?)(\.[MWBG]+)?$/;
 
 (async argv => {
   invariant(argv.length === 1, 'one arg pls');
@@ -48,76 +42,9 @@ const fitzRegex = /\.([0-6][0-6]?)(\.[MWBG]+)?$/;
 
   try {
     for await (const emoji of ttf.getEmojiIterator()) {
-      let codepoints: number[] | null = null;
-      let char: string | null = null;
-      let name: string | null = null;
-      const keywords: string[] = [];
+      const keyFromName = emojiNameToKey(emoji.name);
 
-      const basename = emoji.name.replace(/(?:\.(?:0|66)$|\.(?:0|66)(\.[MW])$)/, '$1');
-      const annotation =
-        basename in derivedAnnotationData
-          ? derivedAnnotationData[basename as keyof typeof derivedAnnotationData]
-          : basename in annotationData
-          ? annotationData[basename as keyof typeof annotationData]
-          : null;
-
-      if (!annotation) {
-        // The Apple Color Emoji font file contains unique images for the same skin tone pairs used left-right and right-left,
-        // but the unicode CLDR derived annotation data only contains entries for right-left pairs.
-        // For example, emoji `xyz` has images for `xyz.12` _and_ `xyz.21`, but annotation data only contains `xyz.21`.
-        // We pull keywords from the `21` case for the `12` case. ZWJ data will provide the remaining pieces.
-        const match = emoji.name.match(holdingHandRegex);
-        invariant(match, 'emoji.name does not match holdingHandRegex (`%s`)', emoji.name);
-
-        const fallbackKey = `${match[1]}.${match[3]}${match[2]}`;
-        console.log('Missing annotation for `%s`, falling back to `%s`', emoji.name, fallbackKey);
-
-        const fallbackAnnotation = derivedAnnotationData[fallbackKey as keyof typeof derivedAnnotationData];
-        invariant(fallbackAnnotation, 'Missing fallbackAnnotation for key `%s`', fallbackKey);
-
-        keywords.push(...fallbackAnnotation.keywords);
-      } else {
-        codepoints = annotation.codepoints;
-        name = annotation.name;
-        keywords.push(...annotation.keywords);
-        char = annotation.char;
-      }
-
-      if (basename in zwjSequenceData) {
-        const seq = zwjSequenceData[basename as keyof typeof zwjSequenceData];
-        char = seq.char;
-        codepoints = seq.codepoints;
-        name = seq.description;
-      }
-
-      if (basename in variationSequenceData) {
-        const seq = variationSequenceData[basename as keyof typeof variationSequenceData];
-        char = seq.char;
-        codepoints = seq.codepoints;
-      }
-
-      if (basename in sequenceData) {
-        const seq = sequenceData[basename as keyof typeof sequenceData];
-        char = seq.char;
-        codepoints = seq.codepoints;
-        name = seq.description;
-      }
-
-      invariant(codepoints, 'Emoji name `%s` was not present in any data file', emoji.name);
-
-      const emojilibEmojiKey = toEmojiKey(codepoints).replace(/(?:\.\d\d?)?(?:\.[MWBG]+)?$/, '');
-
-      const emojilibDataItem =
-        emojilibEmojiKey in emojilibData ? emojilibData[emojilibEmojiKey as keyof typeof emojilibData] : null;
-
-      try {
-        invariant(name, 'No name for %s', emoji.name);
-        invariant(codepoints, 'No codepoints for %s', emoji.name);
-        invariant(char, 'No emoji for %s', emoji.name);
-      } catch (err) {
-        console.error(err.message);
-        continue;
-      }
+      const { codepoints, char, keywords, name, emojilibDataItem, fileName } = getMetadataForEmojiKey(keyFromName);
 
       const sortKey = toEmojiSortKey(codepoints);
 
@@ -125,17 +52,17 @@ const fitzRegex = /\.([0-6][0-6]?)(\.[MWBG]+)?$/;
         keywords.push(...emojilibDataItem.keywords);
       }
 
-      const extraKeywords = keywordsByEmoji[basename];
+      const extraKeywords = keywordsByEmoji[keyFromName];
       if (extraKeywords) {
         keywords.push(...extraKeywords);
       }
 
       keywords.sort();
 
-      const fitzMatch = emoji.name.match(fitzRegex);
+      const fitzMatch = keyFromName.match(fitzRegex);
 
-      if (fitzMatch && fitzMatch[1] !== '0') {
-        const zeroKey = emoji.name.replace(fitzRegex, '$2');
+      if (fitzMatch) {
+        const zeroKey = keyFromName.replace(fitzRegex, '$2');
 
         emojiDb[zeroKey] = {
           ...emojiDb[zeroKey],
@@ -143,28 +70,39 @@ const fitzRegex = /\.([0-6][0-6]?)(\.[MWBG]+)?$/;
             ...emojiDb[zeroKey]?.fitz,
             [fitzMatch[1]]: {
               name,
-              image: `images/${emoji.name}.png`,
+              image: `images/${fileName}.png`,
               emoji: char,
               codepoints,
             },
           },
         };
       } else {
-        emojiDb[basename] = {
+        emojiDb[keyFromName] = {
           sortKey,
           codepoints,
           emoji: char,
-          image: `images/${emoji.name}.png`,
+          image: `images/${fileName}.png`,
           keywords: Array.from(new Set(keywords)),
           name,
           fitz: null,
           emojilib_name: emojilibDataItem?.emojilibKey ?? null,
           unicode_category: emojilibDataItem?.category ?? null,
           unicode_subcategory: null,
-          ...emojiDb[basename],
+          ...emojiDb[keyFromName],
         };
       }
     }
+
+    const errors: string[] = [];
+
+    // make we're generating valid entries
+    Object.entries(emojiDb).forEach(([key, value]) => {
+      if (!value.codepoints) {
+        errors.push(`${key} is missing codepoints`);
+      }
+    });
+
+    invariant(errors.length === 0, 'Encountered %s errors: %o', errors.length, errors);
 
     await fs.promises.writeFile(absPath, stringify(emojiDb, sortKeyStringifyOptions));
   } catch (err) {

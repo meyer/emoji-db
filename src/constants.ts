@@ -78,6 +78,13 @@ export const genderCodepointsByInitial = {
   M: 0x02642,
 };
 
+export const codepointShortKeys = {
+  // holding hands codepoints
+  '1f469_1f91d_1f468': '1f46b',
+  '1f468_1f91d_1f468': '1f46c',
+  '1f469_1f91d_1f469': '1f46d',
+};
+
 export const PERSON_CODEPOINT = 0x1f9d1;
 export const WOMAN_CODEPOINT = 0x1f469;
 export const MAN_CODEPOINT = 0x1f468;

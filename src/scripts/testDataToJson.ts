@@ -1,6 +1,6 @@
 import path from 'path';
 import fs from 'fs';
-import { toEmojiKey } from '../utils/toEmojiKey';
+import { codepointsToKey } from '../utils/codepointsToKey';
 import { CACHE_DIR, DATA_DIR } from '../constants';
 import stringify from 'json-stable-stringify';
 import { toEmojiSortKey } from '../utils/toEmojiSortKey';
@@ -54,7 +54,7 @@ const lineRegex = /^([^;]+) ; ([^#]+) # (\S+) E([\d.]+) (.+)$/;
       .trim()
       .split(/\s+/)
       .map(f => parseInt(f, 16));
-    const emojiKey = toEmojiKey(codepoints);
+    const emojiKey = codepointsToKey(codepoints);
     const sortKey = toEmojiSortKey(codepoints);
 
     console.log('wow: %s -- %s -- %s', emojiKey, emoji, desc);

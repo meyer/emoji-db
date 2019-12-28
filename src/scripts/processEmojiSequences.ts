@@ -1,6 +1,6 @@
 import path from 'path';
 import fs from 'fs';
-import { toEmojiKey } from '../utils/toEmojiKey';
+import { codepointsToKey } from '../utils/codepointsToKey';
 import { invariant } from '../utils/invariant';
 import { CACHE_DIR, DATA_DIR } from '../constants';
 import stringify from 'json-stable-stringify';
@@ -42,7 +42,7 @@ import { sortKeyStringifyOptions } from '../utils/sortKeyStringifyOptions';
       // codepointString is a string of space-separated hex codepoint strings
       // we split the string on spaces and parse the hex strings to ints
       const codepoints = codepointString.split(/\s+/).map(f => parseInt(f, 16));
-      const emojiKey = toEmojiKey(codepoints);
+      const emojiKey = codepointsToKey(codepoints);
       const sortKey = toEmojiSortKey(codepoints);
 
       invariant(!sequenceData.hasOwnProperty(emojiKey), 'Already have a thing for `%s`!', emojiKey);
@@ -56,7 +56,15 @@ import { sortKeyStringifyOptions } from '../utils/sortKeyStringifyOptions';
           console.info('Skipping line `%s`', line);
         }
       } else {
-        sequenceData[emojiKey] = { codepoints, char, description, sortKey };
+        sequenceData[emojiKey] = {
+          codepoints,
+          char,
+          // according to emoji-sequences.txt, "characters may be escaped with \x{hex}". this undoes that escaping.
+          description: description.replace(/\\x\{([0-9A-F]+)\}/gi, (_all, group1) => {
+            return String.fromCodePoint(parseInt(group1, 16));
+          }),
+          sortKey,
+        };
       }
     });
 
