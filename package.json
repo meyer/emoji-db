@@ -35,11 +35,13 @@
     "@types/cheerio": "^0.22.15",
     "@types/json-stable-stringify": "^1.0.32",
     "@types/node": "^12.12.21",
+    "@types/yaml": "^1.2.0",
     "cheerio": "^1.0.0-rc.3",
     "emojilib": "^2.4.0",
     "json-stable-stringify": "^1.0.1",
     "rimraf": "^3.0.0",
     "ts-node": "^8.5.4",
-    "typescript": "^3.7.4"
+    "typescript": "^3.7.4",
+    "yaml": "^1.7.2"
   }
 }

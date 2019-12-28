@@ -14,6 +14,7 @@ import variationSequenceData from '../../data/emoji-variation-sequences.json';
 import zwjSequenceData from '../../data/emoji-zwj-sequences.json';
 import { toEmojiSortKey } from '../utils/toEmojiSortKey';
 import { toEmojiKey } from '../utils/toEmojiKey';
+import yaml from 'yaml';
 
 interface EmojiDbEntry {
   name: string;
@@ -40,6 +41,10 @@ const fitzRegex = /\.([0-6][0-6]?)(\.[MWBG]+)?$/;
 
   const emojiDb: EmojiDb = {};
   const absPath = path.join(ROOT_DIR, 'emoji-db.json');
+
+  const keywordsByEmoji: Record<string, string[] | undefined> = yaml.parse(
+    fs.readFileSync(path.join(ROOT_DIR, 'extra-keywords.yaml'), 'utf8')
+  );
 
   try {
     for await (const emoji of ttf.getEmojiIterator()) {
@@ -118,6 +123,11 @@ const fitzRegex = /\.([0-6][0-6]?)(\.[MWBG]+)?$/;
 
       if (emojilibDataItem) {
         keywords.push(...emojilibDataItem.keywords);
+      }
+
+      const extraKeywords = keywordsByEmoji[basename];
+      if (extraKeywords) {
+        keywords.push(...extraKeywords);
       }
 
       keywords.sort();

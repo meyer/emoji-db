@@ -11650,6 +11650,9 @@
     "fitz": null,
     "image": "images/u1F351.png",
     "keywords": [
+      "ass",
+      "butt",
+      "butts",
       "food",
       "fruit",
       "nature",
@@ -13437,6 +13440,7 @@
       "art",
       "artist palette",
       "colors",
+      "colours",
       "design",
       "draw",
       "museum",
@@ -16074,6 +16078,8 @@
     "image": "images/u1F3F3_u1F308.png",
     "keywords": [
       "bisexual",
+      "colors",
+      "colours",
       "flag",
       "gay",
       "glbt",
@@ -34292,12 +34298,15 @@
     "image": "images/u1F615.png",
     "keywords": [
       ":/",
+      ":\\",
+      "bummer",
       "confused",
       "face",
       "hmmm",
       "huh",
       "indifference",
       "meh",
+      "sad",
       "weird"
     ],
     "name": "confused face",
@@ -34319,7 +34328,10 @@
       "face",
       "oops",
       "sick",
-      "unwell"
+      "stress",
+      "unwell",
+      "worried",
+      "worry"
     ],
     "name": "confounded face",
     "unicode_category": "people",
@@ -34519,7 +34531,8 @@
       "concern",
       "face",
       "nervous",
-      "worried"
+      "worried",
+      "worry"
     ],
     "name": "worried face",
     "unicode_category": "people",
@@ -40846,6 +40859,7 @@
       "laugh",
       "laughing",
       "lol",
+      "rofl",
       "rolling",
       "rolling on the floor laughing"
     ],
@@ -44054,10 +44068,13 @@
     "image": "images/u1F97A.png",
     "keywords": [
       "begging",
+      "eye",
+      "eyes",
       "face",
       "mercy",
       "pleading face",
-      "puppy eyes"
+      "puppy eyes",
+      "sad"
     ],
     "name": "pleading face",
     "unicode_category": "people",
