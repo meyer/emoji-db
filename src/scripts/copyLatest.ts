@@ -8,6 +8,16 @@ import stringify from 'json-stable-stringify';
 
 const versionDataPath = path.join(DATA_DIR, 'versions.json');
 
+const fontNameReplacer = (a: string, b: string, c: string, d: string, e: string) =>
+  [b, c, d, e].map(f => f.padStart(4, '0')).join('_');
+
+const emojiFontNameRegex = /^(\d+)\.(\d+)d(\d+)e(\d+)$/;
+const emojiFontNameComparator: stringify.Comparator = (a, b) => {
+  const keyA = a.key.replace(emojiFontNameRegex, fontNameReplacer);
+  const keyB = b.key.replace(emojiFontNameRegex, fontNameReplacer);
+  return keyA.localeCompare(keyB);
+};
+
 (async () => {
   const fh = await fs.promises.open(SYSTEM_EMOJI_TTC_PATH, 'r');
   try {
@@ -39,7 +49,7 @@ const versionDataPath = path.join(DATA_DIR, 'versions.json');
     versionSet.add(systemNicename);
     versionData[fontVersion].macosVersions = Array.from(versionSet).sort();
 
-    fs.writeFileSync(versionDataPath, stringify(versionData, { space: 2 }));
+    fs.writeFileSync(versionDataPath, stringify(versionData, { space: 2, cmp: emojiFontNameComparator }));
 
     if (fs.existsSync(ttcDest)) {
       console.info('`%s` has already been copied over', ttcName);
