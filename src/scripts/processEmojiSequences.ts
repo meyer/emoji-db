@@ -15,7 +15,7 @@ import { sortKeyStringifyOptions } from '../utils/sortKeyStringifyOptions';
     'emoji-zwj-sequences.txt',
     // 0023 FE0E  ; text style;
     'emoji-variation-sequences.txt',
-  ].forEach(txtFile => {
+  ].forEach((txtFile) => {
     const sequenceData: Record<string, any> = {};
     const txtPath = path.join(CACHE_DIR, txtFile);
     const basename = path.basename(txtFile, '.txt');
@@ -30,7 +30,7 @@ import { sortKeyStringifyOptions } from '../utils/sortKeyStringifyOptions';
 
       // strip off trailing comments
       const lineSansComment = line.split('#')[0];
-      const lineBits = lineSansComment.split(';').map(f => f.trim());
+      const lineBits = lineSansComment.split(';').map((f) => f.trim());
 
       if (lineBits.length !== 3) {
         console.info('Skipping line %s: `%s`', idx, line);
@@ -41,7 +41,7 @@ import { sortKeyStringifyOptions } from '../utils/sortKeyStringifyOptions';
 
       // codepointString is a string of space-separated hex codepoint strings
       // we split the string on spaces and parse the hex strings to ints
-      const codepoints = codepointString.split(/\s+/).map(f => parseInt(f, 16));
+      const codepoints = codepointString.split(/\s+/).map((f) => parseInt(f, 16));
       const emojiKey = codepointsToKey(codepoints);
       const sortKey = toEmojiSortKey(codepoints);
 

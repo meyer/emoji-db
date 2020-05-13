@@ -1,0 +1,43 @@
+name: Cron
+
+on:
+  push:
+    branches:
+      - master
+
+  schedule:
+    # run every day at midnight UTC
+    - cron: '0 0 * * *'
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          # fetch everything
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 10.x
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - run: yarn ci
+
+      - run: git status
+
+      - name: Commit changed files
+        run: |
+          if [[ "$(git status --porcelain)" != "" ]]; then
+            git config user.email "65266937+emojibot[bot]@users.noreply.github.com"
+            git config user.name "emojibot[bot]"
+            git remote set-url origin https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+            git checkout -b temp
+            git add .
+            git commit -m "Update emoji data"
+            git push origin HEAD:master
+          fi

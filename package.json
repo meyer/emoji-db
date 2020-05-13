@@ -18,6 +18,7 @@
   "homepage": "https://github.com/meyer/emoji-db",
   "scripts": {
     "start": "yarn extract-images && yarn generate-db",
+    "ci": "./scripts/fetchData.sh && yarn copy-latest && yarn extract-images && yarn generate-db",
     "convert": "yarn convert-annotations && yarn convert-sequences && yarn convert-test-data && yarn convert-emojilib-data",
     "extract-images": "rimraf images && ts-node --transpile-only src/scripts/extractEmojiImages.ts latest",
     "convert-annotations": "ts-node --transpile-only src/scripts/annotationsToJson.ts",

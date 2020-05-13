@@ -7,7 +7,7 @@ import { getFontByName } from '../utils/getFontByName';
 import { emojiNameToKey } from '../utils/emojiNameToKey';
 import { getMetadataForEmojiKey } from '../utils/getMetadataForEmojiKey';
 
-(async argv => {
+(async (argv) => {
   invariant(argv.length === 1, 'one arg pls');
   const fontPath = path.join(FONTS_DIR, argv[0]);
   const ttf = await getFontByName(fontPath, 'AppleColorEmoji');
@@ -29,7 +29,7 @@ import { getMetadataForEmojiKey } from '../utils/getMetadataForEmojiKey';
   } finally {
     await ttf.fh.close();
   }
-})(process.argv.slice(2)).catch(err => {
+})(process.argv.slice(2)).catch((err) => {
   console.error(err);
   process.exit(1);
 });

@@ -9,7 +9,7 @@ import stringify from 'json-stable-stringify';
 const versionDataPath = path.join(DATA_DIR, 'versions.json');
 
 const fontNameReplacer = (a: string, b: string, c: string, d: string, e: string) =>
-  [b, c, d, e].map(f => f.padStart(4, '0')).join('_');
+  [b, c, d, e].map((f) => f.padStart(4, '0')).join('_');
 
 const emojiFontNameRegex = /^(\d+)\.(\d+)d(\d+)e(\d+)$/;
 const emojiFontNameComparator: stringify.Comparator = (a, b) => {
@@ -21,7 +21,7 @@ const emojiFontNameComparator: stringify.Comparator = (a, b) => {
 (async () => {
   const fh = await fs.promises.open(SYSTEM_EMOJI_TTC_PATH, 'r');
   try {
-    const systemNicename = await getSystemInfo().then(data => `${data.ProductVersion} (${data.ProductBuildVersion})`);
+    const systemNicename = await getSystemInfo().then((data) => `${data.ProductVersion} (${data.ProductBuildVersion})`);
 
     invariant(fs.existsSync(SYSTEM_EMOJI_TTC_PATH), 'No file at', SYSTEM_EMOJI_TTC_PATH);
 
@@ -61,14 +61,17 @@ const emojiFontNameComparator: stringify.Comparator = (a, b) => {
       console.log('Deleting old latest symlink...');
       fs.unlinkSync(path.join(FONTS_DIR, 'latest'));
     } catch (err) {
-      console.error('Error unlinking latest:', err);
+      if (err && err.code !== 'ENOENT') {
+        console.error('Error unlinking latest:', err);
+      }
     }
 
     try {
       console.log('Updating latest symlink...');
       fs.symlinkSync(ttcName, path.join(FONTS_DIR, 'latest'));
     } catch (err) {
-      console.error('Error unlinking latest:', err);
+      // should probably throw here
+      console.error('Error linking latest:', err);
     }
   } finally {
     fh.close();

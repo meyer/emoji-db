@@ -18,7 +18,7 @@ const lineRegex = /^([^;]+) ; ([^#]+) # (\S+) E([\d.]+) (.+)$/;
   let currentSubgroup: string | null = null;
   const emojiTestData: Record<string, any> = {};
 
-  testData.split('\n').forEach(lineOrig => {
+  testData.split('\n').forEach((lineOrig) => {
     const line = lineOrig.trim();
     const groupMatch = line.match(groupRegex);
 
@@ -53,7 +53,7 @@ const lineRegex = /^([^;]+) ; ([^#]+) # (\S+) E([\d.]+) (.+)$/;
     const codepoints = codepointString
       .trim()
       .split(/\s+/)
-      .map(f => parseInt(f, 16));
+      .map((f) => parseInt(f, 16));
     const emojiKey = codepointsToKey(codepoints);
     const sortKey = toEmojiSortKey(codepoints);
 

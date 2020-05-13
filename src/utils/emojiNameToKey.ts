@@ -23,11 +23,11 @@ export const emojiNameToKey = (name: string): string => {
     }
   }
 
-  const codepoints = codepointString.split('_').map(f => parseInt(f.slice(1), 16));
+  const codepoints = codepointString.split('_').map((f) => parseInt(f.slice(1), 16));
 
   const base = codepoints
-    .filter(codepoint => !unicodeJoiners.includes(codepoint))
-    .map(codepoint => codepoint.toString(16).padStart(4, '0'))
+    .filter((codepoint) => !unicodeJoiners.includes(codepoint))
+    .map((codepoint) => codepoint.toString(16).padStart(4, '0'))
     .join('_');
 
   if (base in codepointShortKeys) {
