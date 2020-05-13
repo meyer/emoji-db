@@ -219,6 +219,7 @@
     ],
     "keywords": [
       "dagger",
+      "dagger sign",
       "obelisk",
       "obelus"
     ],
@@ -232,6 +233,7 @@
     "keywords": [
       "dagger",
       "double",
+      "double dagger sign",
       "obelisk",
       "obelus"
     ],
@@ -592,7 +594,8 @@
       8734
     ],
     "keywords": [
-      "infinity"
+      "infinity",
+      "infinity sign"
     ],
     "name": "infinity sign"
   },
@@ -2485,6 +2488,7 @@
     ],
     "keywords": [
       "÷",
+      "divide",
       "division",
       "math",
       "sign"
@@ -17820,7 +17824,10 @@
       127868
     ],
     "keywords": [
-      "baby, feeding, nursing, person",
+      "baby",
+      "feeding",
+      "nursing",
+      "person",
       "person feeding baby"
     ],
     "name": "person feeding baby"

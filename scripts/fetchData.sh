@@ -9,3 +9,4 @@ wget -O cache/emoji-sequences.txt https://unicode.org/Public/emoji/latest/emoji-
 wget -O cache/emoji-test.txt https://unicode.org/Public/emoji/latest/emoji-test.txt
 wget -O cache/emoji-variation-sequences.txt https://unicode.org/Public/emoji/latest/emoji-variation-sequences.txt
 wget -O cache/emoji-zwj-sequences.txt https://unicode.org/Public/emoji/latest/emoji-zwj-sequences.txt
+wget -O cache/emoji-ordering.txt https://www.unicode.org/emoji/charts-12.1/emoji-ordering.txt
