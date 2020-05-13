@@ -49,15 +49,13 @@ interface AnnotationWithSortKey extends Annotation {
       }
       if (el.attribs.type === 'tts') {
         invariant(!ret[key].name, '`ret[%s].name` is already set', key);
-        ret[key].name = $(el)
-          .text()
-          .trim();
+        ret[key].name = $(el).text().trim();
       } else {
         invariant(!ret[key].keywords, '`ret[%s].keywords` is already set', key);
         ret[key].keywords = $(el)
           .text()
           .split('|')
-          .map(s => s.trim());
+          .map((s) => s.trim());
       }
     });
 

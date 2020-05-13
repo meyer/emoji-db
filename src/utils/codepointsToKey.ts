@@ -15,20 +15,20 @@ const famSort = (a: string, b: string) => getFamIndex(a) - getFamIndex(b);
 
 const toFamString = (codepoints: number[]) =>
   codepoints
-    .map(codepoint => famInitialsByCodepoint[codepoint as keyof typeof famInitialsByCodepoint] as string)
+    .map((codepoint) => famInitialsByCodepoint[codepoint as keyof typeof famInitialsByCodepoint] as string)
     .join('');
 
 export const codepointsToKey = (codepointsOrig: number[]) => {
   const codepoints = codepointsOrig.filter(rejectJoiners);
 
   if (codepoints.length !== 1) {
-    if (codepoints.filter(f => !heartCodepoints.includes(f)).length === 0) {
+    if (codepoints.filter((f) => !heartCodepoints.includes(f)).length === 0) {
       return `1f491.${toFamString(codepoints)}`;
     }
-    if (codepoints.filter(f => !kissCodepoints.includes(f)).length === 0) {
+    if (codepoints.filter((f) => !kissCodepoints.includes(f)).length === 0) {
       return `1f48f.${toFamString(codepoints)}`;
     }
-    if (codepoints.filter(f => !famInitialsByCodepoint.hasOwnProperty(f)).length === 0) {
+    if (codepoints.filter((f) => !famInitialsByCodepoint.hasOwnProperty(f)).length === 0) {
       return `1f46a.${toFamString(codepoints)}`;
     }
   } else {
@@ -62,7 +62,7 @@ export const codepointsToKey = (codepointsOrig: number[]) => {
   const fitzString = fitzIndeces.length > 0 ? '.' + fitzIndeces.join('') : '';
   const famString = fam.length > 0 ? '.' + fam.sort(famSort).join('') : '';
 
-  const base = remainingCodepoints.map(codepoint => codepoint.toString(16).padStart(4, '0')).join('_');
+  const base = remainingCodepoints.map((codepoint) => codepoint.toString(16).padStart(4, '0')).join('_');
 
   if (base in codepointShortKeys) {
     return codepointShortKeys[base as keyof typeof codepointShortKeys] + fitzString + famString;

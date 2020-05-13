@@ -28,7 +28,7 @@ type EmojiDb = Record<string, EmojiDbEntry>;
 
 const fitzRegex = /\.([1-5][1-5]?)(\.[MWBG]+)?$/;
 
-(async argv => {
+(async (argv) => {
   invariant(argv.length === 1, 'one arg pls');
   const fontPath = path.join(FONTS_DIR, argv[0]);
   const ttf = await getFontByName(fontPath, 'AppleColorEmoji');
@@ -110,7 +110,7 @@ const fitzRegex = /\.([1-5][1-5]?)(\.[MWBG]+)?$/;
   } finally {
     await ttf.fh.close();
   }
-})(process.argv.slice(2)).catch(err => {
+})(process.argv.slice(2)).catch((err) => {
   console.error(err);
   process.exit(1);
 });

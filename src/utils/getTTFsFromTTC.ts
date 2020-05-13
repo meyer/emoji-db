@@ -25,7 +25,7 @@ export const getTTFsFromTTC = async (fh: fs.promises.FileHandle): Promise<TrueTy
     offsets[i] = await bp.uint32();
   }
 
-  const fonts = await Promise.all(offsets.map(offset => getTtfFromOffset(fh, offset)));
+  const fonts = await Promise.all(offsets.map((offset) => getTtfFromOffset(fh, offset)));
 
   return fonts;
 };

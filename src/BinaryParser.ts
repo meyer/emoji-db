@@ -36,13 +36,13 @@ export class BinaryParser {
   };
 
   public ascii = (bytes: number, position?: number) =>
-    this.readBytes(bytes, position).then(buf => buf.toString('ascii'));
+    this.readBytes(bytes, position).then((buf) => buf.toString('ascii'));
 
-  public int8 = (position?: number) => this.readBytes(1, position).then(buf => buf.readInt8(0));
-  public uint8 = (position?: number) => this.readBytes(1, position).then(buf => buf.readUInt8(0));
+  public int8 = (position?: number) => this.readBytes(1, position).then((buf) => buf.readInt8(0));
+  public uint8 = (position?: number) => this.readBytes(1, position).then((buf) => buf.readUInt8(0));
 
-  public uint16 = (position?: number) => this.readBytes(2, position).then(buf => buf.readUInt16BE(0));
-  public int16 = (position?: number) => this.readBytes(2, position).then(buf => buf.readInt16BE(0));
+  public uint16 = (position?: number) => this.readBytes(2, position).then((buf) => buf.readUInt16BE(0));
+  public int16 = (position?: number) => this.readBytes(2, position).then((buf) => buf.readInt16BE(0));
 
   public uint24 = async (position?: number) => {
     const one = await this.uint16(position);
@@ -50,8 +50,8 @@ export class BinaryParser {
     return (one << 8) + two;
   };
 
-  public uint32 = (position?: number) => this.readBytes(4, position).then(buf => buf.readUInt32BE(0));
-  public int32 = (position?: number) => this.readBytes(4, position).then(buf => buf.readInt32BE(0));
+  public uint32 = (position?: number) => this.readBytes(4, position).then((buf) => buf.readUInt32BE(0));
+  public int32 = (position?: number) => this.readBytes(4, position).then((buf) => buf.readInt32BE(0));
 
   public fixed = async (bits: 8 | 16 | 32, pointOffset: number, position?: number) => {
     const numerator = await (bits === 8

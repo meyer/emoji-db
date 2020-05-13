@@ -28,7 +28,7 @@ import { codepointsToKey } from '../utils/codepointsToKey';
   }
 
   fs.writeFileSync(path.join(DATA_DIR, 'emojilib.json'), stringify(emojilibDataByEmojiKey, sortKeyStringifyOptions));
-})().catch(err => {
+})().catch((err) => {
   console.error(err);
   process.exit(1);
 });
