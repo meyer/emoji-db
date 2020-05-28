@@ -318,8 +318,8 @@ annotations.
 		<annotation cp="🥶" type="tts">cold face</annotation>
 		<annotation cp="🥴">dizzy | intoxicated | tipsy | uneven eyes | wavy mouth | woozy face</annotation>
 		<annotation cp="🥴" type="tts">woozy face</annotation>
-		<annotation cp="😵">dizzy | face</annotation>
-		<annotation cp="😵" type="tts">dizzy face</annotation>
+		<annotation cp="😵">dead | knocked out | face</annotation>
+		<annotation cp="😵" type="tts">knocked-out face</annotation>
 		<annotation cp="🤯">exploding head | mind blown | shocked</annotation>
 		<annotation cp="🤯" type="tts">exploding head</annotation>
 		<annotation cp="🤠">cowboy | cowgirl | face | hat</annotation>
@@ -3112,6 +3112,9 @@ annotations.
         <annotation cp="❤‍🔥" type="tts">heart on fire</annotation>
         <annotation cp="❤‍🩹">healthier | improving | mending | recovering | recuperating | well</annotation>   <!-- 2764 200D 1FA79 -->
         <annotation cp="❤‍🩹" type="tts">mending heart</annotation>
+        <annotation cp="😶‍🌫">absentminded | face in the fog | face in clouds | head in clouds</annotation>   <!-- 1F636 200D 1F32B FE0F: face in clouds -->
+        <annotation cp="😶‍🌫" type="tts">face in clouds</annotation>
+        
 		<annotation cp="‐">hyphen | dash</annotation>
 		<annotation cp="‐" type="tts">hyphen</annotation>
 		<annotation cp="―">bar | dash | line</annotation>
@@ -3252,50 +3255,14 @@ annotations.
 		<annotation cp="$" type="tts">dollar</annotation>
 		<annotation cp="¢">cent</annotation>
 		<annotation cp="¢" type="tts">cent</annotation>
-		<annotation cp="฿">baht | THB</annotation>
-		<annotation cp="฿" type="tts">thai baht</annotation>
-		<annotation cp="₪">shekel | ILS</annotation>
-		<annotation cp="₪" type="tts">sheqel</annotation>
-		<annotation cp="₺">lira | TRY</annotation>
-		<annotation cp="₺" type="tts">turkish lira</annotation>
-		<annotation cp="₫">dong | VND</annotation>
-		<annotation cp="₫" type="tts">Vietnamese dong</annotation>
 		<annotation cp="₱"></annotation>
 		<annotation cp="₱" type="tts">peso</annotation>
 		<annotation cp="₩">KRW | KPW</annotation>
 		<annotation cp="₩" type="tts">won</annotation>
-		<annotation cp="₡">CRC | SVC</annotation>
-		<annotation cp="₡" type="tts">colon currency</annotation>
-		<annotation cp="₦">naira | NGN</annotation>
-		<annotation cp="₦" type="tts">Nigerian naira</annotation>
-		<annotation cp="₮">tugrik | togrog | tögrög | MNT</annotation>
-		<annotation cp="₮" type="tts">Mongolian tugrik</annotation>
-		<annotation cp="৳">taka | BDT</annotation>
-		<annotation cp="৳" type="tts">Bangladeshi taka</annotation>
-		<annotation cp="₴">hryvnia | UAH</annotation>
-		<annotation cp="₴" type="tts">Ukrainian hryvnia</annotation>
-		<annotation cp="₸">tenge | KZT</annotation>
-		<annotation cp="₸" type="tts">Kazakhstani tenge</annotation>
-		<annotation cp="₲">guarani | guaraní | PYG</annotation>
-		<annotation cp="₲" type="tts">Paraguayan guarani</annotation>
-		<annotation cp="₵">cedi | GHS</annotation>
-		<annotation cp="₵" type="tts">Ghanaian cedi</annotation>
-		<annotation cp="៛">riel | KHR</annotation>
-		<annotation cp="៛" type="tts">Cambodian riel</annotation>
-		<annotation cp="₭">kip | LAK</annotation>
-		<annotation cp="₭" type="tts">Lao kip</annotation>
-		<annotation cp="֏">dram | AMD</annotation>
-		<annotation cp="֏" type="tts">Armenian dram</annotation>
 		<annotation cp="₥">mil</annotation>
 		<annotation cp="₥" type="tts">mill</annotation>
-		<annotation cp="₾">lari | GEL</annotation>
-		<annotation cp="₾" type="tts">Georgian lari</annotation>
-		<annotation cp="₼">manat | AZN</annotation>
-		<annotation cp="₼" type="tts">Azerbaijani manat</annotation>
 		<annotation cp="₿">BTC</annotation>
 		<annotation cp="₿" type="tts">bitcoin</annotation>
-		<annotation cp="؋">afghani | AFN</annotation>
-		<annotation cp="؋" type="tts">Afghan afghani</annotation>
 		<annotation cp="+">plus  | add</annotation>
 		<annotation cp="+" type="tts">plus sign</annotation>
 		<annotation cp="±">plus-minus</annotation>
