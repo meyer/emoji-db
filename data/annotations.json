@@ -1,4 +1,425 @@
 {
+  "0021": {
+    "char": "!",
+    "codepoints": [
+      33
+    ],
+    "keywords": [
+      "bang",
+      "exclamation",
+      "exclamation mark",
+      "exclamation point"
+    ],
+    "name": "exclamation mark"
+  },
+  "0023": {
+    "char": "#",
+    "codepoints": [
+      35
+    ],
+    "keywords": [
+      "hash",
+      "hash sign",
+      "hashtag",
+      "lb",
+      "number",
+      "pound"
+    ],
+    "name": "hash sign"
+  },
+  "0024": {
+    "char": "$",
+    "codepoints": [
+      36
+    ],
+    "keywords": [
+      "dollar",
+      "money",
+      "peso",
+      "USD"
+    ],
+    "name": "dollar"
+  },
+  "0025": {
+    "char": "%",
+    "codepoints": [
+      37
+    ],
+    "keywords": [
+      "per cent",
+      "per-cent",
+      "percent"
+    ],
+    "name": "percent"
+  },
+  "0026": {
+    "char": "&",
+    "codepoints": [
+      38
+    ],
+    "keywords": [
+      "ampersand",
+      "and",
+      "et"
+    ],
+    "name": "ampersand"
+  },
+  "0027": {
+    "char": "'",
+    "codepoints": [
+      39
+    ],
+    "keywords": [
+      "apostrophe",
+      "quote",
+      "single quote",
+      "typewriter apostrophe"
+    ],
+    "name": "typewriter apostrophe"
+  },
+  "0029": {
+    "char": ")",
+    "codepoints": [
+      41
+    ],
+    "keywords": [
+      "bracket",
+      "close parenthesis",
+      "paren",
+      "parens",
+      "parenthesis",
+      "round bracket"
+    ],
+    "name": "close parenthesis"
+  },
+  "002a": {
+    "char": "*",
+    "codepoints": [
+      42
+    ],
+    "keywords": [
+      "asterisk",
+      "star",
+      "wildcard"
+    ],
+    "name": "asterisk"
+  },
+  "002b": {
+    "char": "+",
+    "codepoints": [
+      43
+    ],
+    "keywords": [
+      "add",
+      "plus",
+      "plus sign"
+    ],
+    "name": "plus sign"
+  },
+  "002c": {
+    "char": ",",
+    "codepoints": [
+      44
+    ],
+    "keywords": [
+      "comma"
+    ],
+    "name": "comma"
+  },
+  "002d": {
+    "char": "-",
+    "codepoints": [
+      45
+    ],
+    "keywords": [
+      "dash",
+      "hyphen",
+      "hyphen-minus",
+      "minus"
+    ],
+    "name": "hyphen-minus"
+  },
+  "002e": {
+    "char": ".",
+    "codepoints": [
+      46
+    ],
+    "keywords": [
+      "dot",
+      "full stop",
+      "period"
+    ],
+    "name": "period"
+  },
+  "002f": {
+    "char": "/",
+    "codepoints": [
+      47
+    ],
+    "keywords": [
+      "oblique",
+      "slash",
+      "solidus",
+      "stroke",
+      "virgule",
+      "whack"
+    ],
+    "name": "slash"
+  },
+  "003a": {
+    "char": ":",
+    "codepoints": [
+      58
+    ],
+    "keywords": [
+      "colon"
+    ],
+    "name": "colon"
+  },
+  "003b": {
+    "char": ";",
+    "codepoints": [
+      59
+    ],
+    "keywords": [
+      "semi-colon",
+      "semicolon"
+    ],
+    "name": "semicolon"
+  },
+  "003c": {
+    "char": "<",
+    "codepoints": [
+      60
+    ],
+    "keywords": [
+      "less than",
+      "less-than",
+      "open tag",
+      "tag"
+    ],
+    "name": "less-than"
+  },
+  "003d": {
+    "char": "=",
+    "codepoints": [
+      61
+    ],
+    "keywords": [
+      "equal",
+      "equals"
+    ],
+    "name": "equal"
+  },
+  "003e": {
+    "char": ">",
+    "codepoints": [
+      62
+    ],
+    "keywords": [
+      "close tag",
+      "greater than",
+      "greater-than",
+      "tag"
+    ],
+    "name": "greater-than"
+  },
+  "003f": {
+    "char": "?",
+    "codepoints": [
+      63
+    ],
+    "keywords": [
+      "question",
+      "question mark"
+    ],
+    "name": "question mark"
+  },
+  "0040": {
+    "char": "@",
+    "codepoints": [
+      64
+    ],
+    "keywords": [
+      "ampersat",
+      "arobase",
+      "arroba",
+      "at mark",
+      "at sign",
+      "at-sign",
+      "commercial at",
+      "strudel"
+    ],
+    "name": "at-sign"
+  },
+  "005b": {
+    "char": "[",
+    "codepoints": [
+      91
+    ],
+    "keywords": [
+      "bracket",
+      "crotchet",
+      "open square bracket",
+      "square bracket"
+    ],
+    "name": "open square bracket"
+  },
+  "005c": {
+    "char": "\\",
+    "codepoints": [
+      92
+    ],
+    "keywords": [
+      "backslash",
+      "reverse solidus",
+      "whack"
+    ],
+    "name": "backslash"
+  },
+  "005d": {
+    "char": "]",
+    "codepoints": [
+      93
+    ],
+    "keywords": [
+      "bracket",
+      "close square bracket",
+      "crotchet",
+      "square bracket"
+    ],
+    "name": "close square bracket"
+  },
+  "005e": {
+    "char": "^",
+    "codepoints": [
+      94
+    ],
+    "keywords": [
+      "accent",
+      "caret",
+      "chevron",
+      "circumflex",
+      "control",
+      "hat",
+      "pointer",
+      "power",
+      "wedge",
+      "xor sign"
+    ],
+    "name": "circumflex accent"
+  },
+  "005f": {
+    "char": "_",
+    "codepoints": [
+      95
+    ],
+    "keywords": [
+      "dash",
+      "line",
+      "low dash",
+      "low line",
+      "underdash",
+      "underline"
+    ],
+    "name": "low line"
+  },
+  "0060": {
+    "char": "`",
+    "codepoints": [
+      96
+    ],
+    "keywords": [
+      "accent",
+      "grave",
+      "tone"
+    ],
+    "name": "grave accent"
+  },
+  "007b": {
+    "char": "{",
+    "codepoints": [
+      123
+    ],
+    "keywords": [
+      "brace",
+      "bracket",
+      "curly brace",
+      "curly bracket",
+      "gullwing",
+      "open curly bracket"
+    ],
+    "name": "open curly bracket"
+  },
+  "007c": {
+    "char": "|",
+    "codepoints": [
+      124
+    ],
+    "keywords": [
+      "bar",
+      "line",
+      "pike",
+      "pipe",
+      "sheffer stroke",
+      "stick",
+      "stroke",
+      "vbar",
+      "vertical bar",
+      "vertical line"
+    ],
+    "name": "vertical line"
+  },
+  "007d": {
+    "char": "}",
+    "codepoints": [
+      125
+    ],
+    "keywords": [
+      "brace",
+      "bracket",
+      "close curly bracket",
+      "curly brace",
+      "curly bracket",
+      "gullwing"
+    ],
+    "name": "close curly bracket"
+  },
+  "007e": {
+    "char": "~",
+    "codepoints": [
+      126
+    ],
+    "keywords": [
+      "tilde"
+    ],
+    "name": "tilde"
+  },
+  "00a1": {
+    "char": "¡",
+    "codepoints": [
+      161
+    ],
+    "keywords": [
+      "bang",
+      "exclamation",
+      "exclamation mark",
+      "exclamation point",
+      "inverted",
+      "inverted exclamation mark"
+    ],
+    "name": "inverted exclamation mark"
+  },
+  "00a2": {
+    "char": "¢",
+    "codepoints": [
+      162
+    ],
+    "keywords": [
+      "cent"
+    ],
+    "name": "cent"
+  },
   "00a3": {
     "char": "£",
     "codepoints": [
@@ -39,6 +460,18 @@
     ],
     "name": "section"
   },
+  "00a8": {
+    "char": "¨",
+    "codepoints": [
+      168
+    ],
+    "keywords": [
+      "diaeresis",
+      "tréma",
+      "umlaut"
+    ],
+    "name": "diaeresis"
+  },
   "00a9": {
     "char": "©",
     "codepoints": [
@@ -66,6 +499,17 @@
     ],
     "name": "left guillemet"
   },
+  "00ac": {
+    "char": "¬",
+    "codepoints": [
+      172
+    ],
+    "keywords": [
+      "negation",
+      "not"
+    ],
+    "name": "negation"
+  },
   "00ae": {
     "char": "®",
     "codepoints": [
@@ -88,6 +532,16 @@
       "proof"
     ],
     "name": "degree"
+  },
+  "00b1": {
+    "char": "±",
+    "codepoints": [
+      177
+    ],
+    "keywords": [
+      "plus-minus"
+    ],
+    "name": "plus-minus"
   },
   "00b2": {
     "char": "²",
@@ -113,6 +567,18 @@
     ],
     "name": "superscript three"
   },
+  "00b4": {
+    "char": "´",
+    "codepoints": [
+      180
+    ],
+    "keywords": [
+      "accent",
+      "acute",
+      "tone"
+    ],
+    "name": "acute accent"
+  },
   "00b5": {
     "char": "µ",
     "codepoints": [
@@ -123,6 +589,20 @@
       "micro sign"
     ],
     "name": "micro sign"
+  },
+  "00b6": {
+    "char": "¶",
+    "codepoints": [
+      182
+    ],
+    "keywords": [
+      "alinea",
+      "paragraph",
+      "paragraph mark",
+      "paraph",
+      "pilcrow"
+    ],
+    "name": "paragraph mark"
   },
   "00b7": {
     "char": "·",
@@ -164,6 +644,19 @@
     ],
     "name": "right guillemet"
   },
+  "00bf": {
+    "char": "¿",
+    "codepoints": [
+      191
+    ],
+    "keywords": [
+      "inverted",
+      "inverted question mark",
+      "question",
+      "question mark"
+    ],
+    "name": "inverted question mark"
+  },
   "00d7": {
     "char": "×",
     "codepoints": [
@@ -190,6 +683,53 @@
     ],
     "name": "division sign"
   },
+  "060c": {
+    "char": "،",
+    "codepoints": [
+      1548
+    ],
+    "keywords": [
+      "arabic",
+      "comma"
+    ],
+    "name": "arabic comma"
+  },
+  "061b": {
+    "char": "؛",
+    "codepoints": [
+      1563
+    ],
+    "keywords": [
+      "arabic",
+      "arabic semicolon",
+      "semi-colon"
+    ],
+    "name": "arabic semicolon"
+  },
+  "061f": {
+    "char": "؟",
+    "codepoints": [
+      1567
+    ],
+    "keywords": [
+      "arabic",
+      "arabic question mark",
+      "question",
+      "question mark"
+    ],
+    "name": "arabic question mark"
+  },
+  "2010": {
+    "char": "‐",
+    "codepoints": [
+      8208
+    ],
+    "keywords": [
+      "dash",
+      "hyphen"
+    ],
+    "name": "hyphen"
+  },
   "2013": {
     "char": "–",
     "codepoints": [
@@ -211,6 +751,103 @@
       "em"
     ],
     "name": "em dash"
+  },
+  "2015": {
+    "char": "―",
+    "codepoints": [
+      8213
+    ],
+    "keywords": [
+      "bar",
+      "dash",
+      "horizontal bar",
+      "line"
+    ],
+    "name": "horizontal bar"
+  },
+  "2018": {
+    "char": "‘",
+    "codepoints": [
+      8216
+    ],
+    "keywords": [
+      "apostrophe",
+      "left apostrophe",
+      "quote",
+      "single quote",
+      "smart quote"
+    ],
+    "name": "left apostrophe"
+  },
+  "2019": {
+    "char": "’",
+    "codepoints": [
+      8217
+    ],
+    "keywords": [
+      "apostrophe",
+      "quote",
+      "right apostrophe",
+      "single quote",
+      "smart quote"
+    ],
+    "name": "right apostrophe"
+  },
+  "201a": {
+    "char": "‚",
+    "codepoints": [
+      8218
+    ],
+    "keywords": [
+      "apostrophe",
+      "low quote",
+      "low right apostrophe",
+      "quote"
+    ],
+    "name": "low right apostrophe"
+  },
+  "201c": {
+    "char": "“",
+    "codepoints": [
+      8220
+    ],
+    "keywords": [
+      "double quote",
+      "left quotation mark",
+      "quotation",
+      "quote",
+      "smart quotation"
+    ],
+    "name": "left quotation mark"
+  },
+  "201d": {
+    "char": "”",
+    "codepoints": [
+      8221
+    ],
+    "keywords": [
+      "double quote",
+      "quotation",
+      "quote",
+      "right quotation mark",
+      "smart quotation"
+    ],
+    "name": "right quotation mark"
+  },
+  "201e": {
+    "char": "„",
+    "codepoints": [
+      8222
+    ],
+    "keywords": [
+      "double quote",
+      "low quotation",
+      "low right quotation mark",
+      "quotation",
+      "quote",
+      "smart quotation"
+    ],
+    "name": "low right quotation mark"
   },
   "2020": {
     "char": "†",
@@ -250,6 +887,96 @@
     ],
     "name": "bullet"
   },
+  "2026": {
+    "char": "…",
+    "codepoints": [
+      8230
+    ],
+    "keywords": [
+      "dots",
+      "ellipsis",
+      "omission"
+    ],
+    "name": "ellipsis"
+  },
+  "2027": {
+    "char": "‧",
+    "codepoints": [
+      8231
+    ],
+    "keywords": [
+      "dash",
+      "hyphen",
+      "hyphenation point",
+      "point"
+    ],
+    "name": "hyphenation point"
+  },
+  "2030": {
+    "char": "‰",
+    "codepoints": [
+      8240
+    ],
+    "keywords": [
+      "per mil",
+      "per mille",
+      "permil",
+      "permille"
+    ],
+    "name": "per mille"
+  },
+  "2032": {
+    "char": "′",
+    "codepoints": [
+      8242
+    ],
+    "keywords": [
+      "prime"
+    ],
+    "name": "prime"
+  },
+  "2033": {
+    "char": "″",
+    "codepoints": [
+      8243
+    ],
+    "keywords": [
+      "double prime",
+      "prime"
+    ],
+    "name": "double prime"
+  },
+  "2034": {
+    "char": "‴",
+    "codepoints": [
+      8244
+    ],
+    "keywords": [
+      "prime",
+      "triple prime"
+    ],
+    "name": "triple prime"
+  },
+  "2038": {
+    "char": "‸",
+    "codepoints": [
+      8248
+    ],
+    "keywords": [
+      "caret"
+    ],
+    "name": "caret"
+  },
+  "203b": {
+    "char": "※",
+    "codepoints": [
+      8251
+    ],
+    "keywords": [
+      "reference mark"
+    ],
+    "name": "reference mark"
+  },
   "203c": {
     "char": "‼",
     "codepoints": [
@@ -264,6 +991,53 @@
       "mark"
     ],
     "name": "double exclamation mark"
+  },
+  "203d": {
+    "char": "‽",
+    "codepoints": [
+      8253
+    ],
+    "keywords": [
+      "interabang",
+      "interrobang"
+    ],
+    "name": "interrobang"
+  },
+  "203e": {
+    "char": "‾",
+    "codepoints": [
+      8254
+    ],
+    "keywords": [
+      "overline",
+      "overstrike",
+      "vinculum"
+    ],
+    "name": "overline"
+  },
+  "2042": {
+    "char": "⁂",
+    "codepoints": [
+      8258
+    ],
+    "keywords": [
+      "asterism",
+      "dinkus",
+      "stars"
+    ],
+    "name": "asterism"
+  },
+  "2044": {
+    "char": "⁄",
+    "codepoints": [
+      8260
+    ],
+    "keywords": [
+      "fraction slash",
+      "stroke",
+      "virgule"
+    ],
+    "name": "fraction slash"
   },
   "2049": {
     "char": "⁉",
@@ -293,6 +1067,75 @@
     ],
     "name": "superscript minus"
   },
+  "20a2": {
+    "char": "₢",
+    "codepoints": [
+      8354
+    ],
+    "keywords": [
+      "BRB",
+      "cruzeiro",
+      "currency"
+    ],
+    "name": "cruzeiro"
+  },
+  "20a3": {
+    "char": "₣",
+    "codepoints": [
+      8355
+    ],
+    "keywords": [
+      "currency",
+      "franc",
+      "french franc"
+    ],
+    "name": "french franc"
+  },
+  "20a4": {
+    "char": "₤",
+    "codepoints": [
+      8356
+    ],
+    "keywords": [
+      "currency",
+      "lira"
+    ],
+    "name": "lira"
+  },
+  "20a5": {
+    "char": "₥",
+    "codepoints": [
+      8357
+    ],
+    "keywords": [
+      "mil",
+      "mill"
+    ],
+    "name": "mill"
+  },
+  "20a8": {
+    "char": "₨",
+    "codepoints": [
+      8360
+    ],
+    "keywords": [
+      "currency",
+      "rupee"
+    ],
+    "name": "rupee"
+  },
+  "20a9": {
+    "char": "₩",
+    "codepoints": [
+      8361
+    ],
+    "keywords": [
+      "KPW",
+      "KRW",
+      "won"
+    ],
+    "name": "won"
+  },
   "20ac": {
     "char": "€",
     "codepoints": [
@@ -304,6 +1147,62 @@
       "euro"
     ],
     "name": "euro"
+  },
+  "20b0": {
+    "char": "₰",
+    "codepoints": [
+      8368
+    ],
+    "keywords": [
+      "currency",
+      "german penny",
+      "pfennig"
+    ],
+    "name": "german penny"
+  },
+  "20b1": {
+    "char": "₱",
+    "codepoints": [
+      8369
+    ],
+    "keywords": [
+      "peso"
+    ],
+    "name": "peso"
+  },
+  "20b3": {
+    "char": "₳",
+    "codepoints": [
+      8371
+    ],
+    "keywords": [
+      "ARA",
+      "austral",
+      "currency"
+    ],
+    "name": "austral"
+  },
+  "20b6": {
+    "char": "₶",
+    "codepoints": [
+      8374
+    ],
+    "keywords": [
+      "currency",
+      "livre tournois"
+    ],
+    "name": "livre tournois"
+  },
+  "20b7": {
+    "char": "₷",
+    "codepoints": [
+      8375
+    ],
+    "keywords": [
+      "currency",
+      "spesmilo"
+    ],
+    "name": "spesmilo"
   },
   "20b9": {
     "char": "₹",
@@ -327,6 +1226,17 @@
       "ruble"
     ],
     "name": "ruble"
+  },
+  "20bf": {
+    "char": "₿",
+    "codepoints": [
+      8383
+    ],
+    "keywords": [
+      "bitcoin",
+      "BTC"
+    ],
+    "name": "bitcoin"
   },
   "2117": {
     "char": "℗",
@@ -490,6 +1400,156 @@
     ],
     "name": "down-left arrow"
   },
+  "219a": {
+    "char": "↚",
+    "codepoints": [
+      8602
+    ],
+    "keywords": [
+      "leftwards arrow stroke"
+    ],
+    "name": "leftwards arrow stroke"
+  },
+  "219b": {
+    "char": "↛",
+    "codepoints": [
+      8603
+    ],
+    "keywords": [
+      "rightwards arrow stroke"
+    ],
+    "name": "rightwards arrow stroke"
+  },
+  "219c": {
+    "char": "↜",
+    "codepoints": [
+      8604
+    ],
+    "keywords": [
+      "leftwards wave arrow"
+    ],
+    "name": "leftwards wave arrow"
+  },
+  "219d": {
+    "char": "↝",
+    "codepoints": [
+      8605
+    ],
+    "keywords": [
+      "rightwards wave arrow"
+    ],
+    "name": "rightwards wave arrow"
+  },
+  "219e": {
+    "char": "↞",
+    "codepoints": [
+      8606
+    ],
+    "keywords": [
+      "leftwards two headed arrow"
+    ],
+    "name": "leftwards two headed arrow"
+  },
+  "219f": {
+    "char": "↟",
+    "codepoints": [
+      8607
+    ],
+    "keywords": [
+      "upwards two headed arrow"
+    ],
+    "name": "upwards two headed arrow"
+  },
+  "21a0": {
+    "char": "↠",
+    "codepoints": [
+      8608
+    ],
+    "keywords": [
+      "rightwards two headed arrow"
+    ],
+    "name": "rightwards two headed arrow"
+  },
+  "21a1": {
+    "char": "↡",
+    "codepoints": [
+      8609
+    ],
+    "keywords": [
+      "downwards two headed arrow"
+    ],
+    "name": "downwards two headed arrow"
+  },
+  "21a2": {
+    "char": "↢",
+    "codepoints": [
+      8610
+    ],
+    "keywords": [
+      "leftwards arrow tail"
+    ],
+    "name": "leftwards arrow tail"
+  },
+  "21a3": {
+    "char": "↣",
+    "codepoints": [
+      8611
+    ],
+    "keywords": [
+      "rightwards arrow tail"
+    ],
+    "name": "rightwards arrow tail"
+  },
+  "21a4": {
+    "char": "↤",
+    "codepoints": [
+      8612
+    ],
+    "keywords": [
+      "leftwards arrow from bar"
+    ],
+    "name": "leftwards arrow from bar"
+  },
+  "21a5": {
+    "char": "↥",
+    "codepoints": [
+      8613
+    ],
+    "keywords": [
+      "upwards arrow from bar"
+    ],
+    "name": "upwards arrow from bar"
+  },
+  "21a6": {
+    "char": "↦",
+    "codepoints": [
+      8614
+    ],
+    "keywords": [
+      "rightwards arrow from bar"
+    ],
+    "name": "rightwards arrow from bar"
+  },
+  "21a7": {
+    "char": "↧",
+    "codepoints": [
+      8615
+    ],
+    "keywords": [
+      "downwards arrow from bar"
+    ],
+    "name": "downwards arrow from bar"
+  },
+  "21a8": {
+    "char": "↨",
+    "codepoints": [
+      8616
+    ],
+    "keywords": [
+      "up down arrow with base"
+    ],
+    "name": "up down arrow with base"
+  },
   "21a9": {
     "char": "↩",
     "codepoints": [
@@ -511,6 +1571,274 @@
       "left arrow curving right"
     ],
     "name": "left arrow curving right"
+  },
+  "21ab": {
+    "char": "↫",
+    "codepoints": [
+      8619
+    ],
+    "keywords": [
+      "leftwards arrow loop"
+    ],
+    "name": "leftwards arrow loop"
+  },
+  "21ac": {
+    "char": "↬",
+    "codepoints": [
+      8620
+    ],
+    "keywords": [
+      "rightwards arrow loop"
+    ],
+    "name": "rightwards arrow loop"
+  },
+  "21ad": {
+    "char": "↭",
+    "codepoints": [
+      8621
+    ],
+    "keywords": [
+      "left right wave arrow"
+    ],
+    "name": "left right wave arrow"
+  },
+  "21ae": {
+    "char": "↮",
+    "codepoints": [
+      8622
+    ],
+    "keywords": [
+      "left right arrow stroke"
+    ],
+    "name": "left right arrow stroke"
+  },
+  "21af": {
+    "char": "↯",
+    "codepoints": [
+      8623
+    ],
+    "keywords": [
+      "downwards zigzag arrow",
+      "zigzag"
+    ],
+    "name": "downwards zigzag arrow"
+  },
+  "21b0": {
+    "char": "↰",
+    "codepoints": [
+      8624
+    ],
+    "keywords": [
+      "upwards arrow tip leftwards"
+    ],
+    "name": "upwards arrow tip leftwards"
+  },
+  "21b1": {
+    "char": "↱",
+    "codepoints": [
+      8625
+    ],
+    "keywords": [
+      "upwards arrow tip rightwards"
+    ],
+    "name": "upwards arrow tip rightwards"
+  },
+  "21b2": {
+    "char": "↲",
+    "codepoints": [
+      8626
+    ],
+    "keywords": [
+      "downwards arrow tip leftwards"
+    ],
+    "name": "downwards arrow tip leftwards"
+  },
+  "21b3": {
+    "char": "↳",
+    "codepoints": [
+      8627
+    ],
+    "keywords": [
+      "downwards arrow tip rightwards"
+    ],
+    "name": "downwards arrow tip rightwards"
+  },
+  "21b4": {
+    "char": "↴",
+    "codepoints": [
+      8628
+    ],
+    "keywords": [
+      "rightwards arrow corner downwards"
+    ],
+    "name": "rightwards arrow corner downwards"
+  },
+  "21b5": {
+    "char": "↵",
+    "codepoints": [
+      8629
+    ],
+    "keywords": [
+      "downwards arrow corner leftwards"
+    ],
+    "name": "downwards arrow corner leftwards"
+  },
+  "21b6": {
+    "char": "↶",
+    "codepoints": [
+      8630
+    ],
+    "keywords": [
+      "anticlockwise top semicircle arrow"
+    ],
+    "name": "anticlockwise top semicircle arrow"
+  },
+  "21b7": {
+    "char": "↷",
+    "codepoints": [
+      8631
+    ],
+    "keywords": [
+      "clockwise top semicircle arrow"
+    ],
+    "name": "clockwise top semicircle arrow"
+  },
+  "21b8": {
+    "char": "↸",
+    "codepoints": [
+      8632
+    ],
+    "keywords": [
+      "north west arrow long bar"
+    ],
+    "name": "north west arrow long bar"
+  },
+  "21b9": {
+    "char": "↹",
+    "codepoints": [
+      8633
+    ],
+    "keywords": [
+      "leftwards arrow bar over rightwards arrow bar"
+    ],
+    "name": "leftwards arrow bar over rightwards arrow bar"
+  },
+  "21ba": {
+    "char": "↺",
+    "codepoints": [
+      8634
+    ],
+    "keywords": [
+      "anticlockwise open circle arrow"
+    ],
+    "name": "anticlockwise open circle arrow"
+  },
+  "21bb": {
+    "char": "↻",
+    "codepoints": [
+      8635
+    ],
+    "keywords": [
+      "clockwise open circle arrow"
+    ],
+    "name": "clockwise open circle arrow"
+  },
+  "21bc": {
+    "char": "↼",
+    "codepoints": [
+      8636
+    ],
+    "keywords": [
+      "barb",
+      "leftwards harpoon barb upwards"
+    ],
+    "name": "leftwards harpoon barb upwards"
+  },
+  "21bd": {
+    "char": "↽",
+    "codepoints": [
+      8637
+    ],
+    "keywords": [
+      "leftwards harpoon barb downwards"
+    ],
+    "name": "leftwards harpoon barb downwards"
+  },
+  "21be": {
+    "char": "↾",
+    "codepoints": [
+      8638
+    ],
+    "keywords": [
+      "barb",
+      "upwards harpoon barb rightwards"
+    ],
+    "name": "upwards harpoon barb rightwards"
+  },
+  "21bf": {
+    "char": "↿",
+    "codepoints": [
+      8639
+    ],
+    "keywords": [
+      "barb",
+      "upwards harpoon barb leftwards"
+    ],
+    "name": "upwards harpoon barb leftwards"
+  },
+  "21c0": {
+    "char": "⇀",
+    "codepoints": [
+      8640
+    ],
+    "keywords": [
+      "barb",
+      "rightwards harpoon barb upwards"
+    ],
+    "name": "rightwards harpoon barb upwards"
+  },
+  "21c1": {
+    "char": "⇁",
+    "codepoints": [
+      8641
+    ],
+    "keywords": [
+      "barb",
+      "rightwards harpoon barb downwards"
+    ],
+    "name": "rightwards harpoon barb downwards"
+  },
+  "21c2": {
+    "char": "⇂",
+    "codepoints": [
+      8642
+    ],
+    "keywords": [
+      "barb",
+      "downwards harpoon barb rightwards"
+    ],
+    "name": "downwards harpoon barb rightwards"
+  },
+  "21c3": {
+    "char": "⇃",
+    "codepoints": [
+      8643
+    ],
+    "keywords": [
+      "barb",
+      "downwards harpoon barb leftwards"
+    ],
+    "name": "downwards harpoon barb leftwards"
+  },
+  "21c4": {
+    "char": "⇄",
+    "codepoints": [
+      8644
+    ],
+    "keywords": [
+      "rightwards arrow over leftwards arrow"
+    ],
+    "name": "rightwards arrow over leftwards arrow"
   },
   "21c5": {
     "char": "⇅",
@@ -537,6 +1865,413 @@
       "right"
     ],
     "name": "left-pointing over right-pointing arrows"
+  },
+  "21c7": {
+    "char": "⇇",
+    "codepoints": [
+      8647
+    ],
+    "keywords": [
+      "leftwards paired arrows"
+    ],
+    "name": "leftwards paired arrows"
+  },
+  "21c8": {
+    "char": "⇈",
+    "codepoints": [
+      8648
+    ],
+    "keywords": [
+      "upwards paired arrows"
+    ],
+    "name": "upwards paired arrows"
+  },
+  "21c9": {
+    "char": "⇉",
+    "codepoints": [
+      8649
+    ],
+    "keywords": [
+      "rightwards paired arrows"
+    ],
+    "name": "rightwards paired arrows"
+  },
+  "21ca": {
+    "char": "⇊",
+    "codepoints": [
+      8650
+    ],
+    "keywords": [
+      "downwards paired arrows"
+    ],
+    "name": "downwards paired arrows"
+  },
+  "21cb": {
+    "char": "⇋",
+    "codepoints": [
+      8651
+    ],
+    "keywords": [
+      "leftwards harpoon over rightwards harpoon"
+    ],
+    "name": "leftwards harpoon over rightwards harpoon"
+  },
+  "21cc": {
+    "char": "⇌",
+    "codepoints": [
+      8652
+    ],
+    "keywords": [
+      "rightwards harpoon over leftwards harpoon"
+    ],
+    "name": "rightwards harpoon over leftwards harpoon"
+  },
+  "21cd": {
+    "char": "⇍",
+    "codepoints": [
+      8653
+    ],
+    "keywords": [
+      "leftwards double arrow stroke"
+    ],
+    "name": "leftwards double arrow stroke"
+  },
+  "21ce": {
+    "char": "⇎",
+    "codepoints": [
+      8654
+    ],
+    "keywords": [
+      "left right double arrow stroke"
+    ],
+    "name": "left right double arrow stroke"
+  },
+  "21cf": {
+    "char": "⇏",
+    "codepoints": [
+      8655
+    ],
+    "keywords": [
+      "rightwards double arrow stroke"
+    ],
+    "name": "rightwards double arrow stroke"
+  },
+  "21d0": {
+    "char": "⇐",
+    "codepoints": [
+      8656
+    ],
+    "keywords": [
+      "leftwards double arrow"
+    ],
+    "name": "leftwards double arrow"
+  },
+  "21d1": {
+    "char": "⇑",
+    "codepoints": [
+      8657
+    ],
+    "keywords": [
+      "upwards double arrow"
+    ],
+    "name": "upwards double arrow"
+  },
+  "21d2": {
+    "char": "⇒",
+    "codepoints": [
+      8658
+    ],
+    "keywords": [
+      "rightwards double arrow"
+    ],
+    "name": "rightwards double arrow"
+  },
+  "21d3": {
+    "char": "⇓",
+    "codepoints": [
+      8659
+    ],
+    "keywords": [
+      "downwards double arrow"
+    ],
+    "name": "downwards double arrow"
+  },
+  "21d4": {
+    "char": "⇔",
+    "codepoints": [
+      8660
+    ],
+    "keywords": [
+      "left right double arrow"
+    ],
+    "name": "left right double arrow"
+  },
+  "21d6": {
+    "char": "⇖",
+    "codepoints": [
+      8662
+    ],
+    "keywords": [
+      "north west double arrow"
+    ],
+    "name": "north west double arrow"
+  },
+  "21d7": {
+    "char": "⇗",
+    "codepoints": [
+      8663
+    ],
+    "keywords": [
+      "north east double arrow"
+    ],
+    "name": "north east double arrow"
+  },
+  "21d8": {
+    "char": "⇘",
+    "codepoints": [
+      8664
+    ],
+    "keywords": [
+      "south east double arrow"
+    ],
+    "name": "south east double arrow"
+  },
+  "21d9": {
+    "char": "⇙",
+    "codepoints": [
+      8665
+    ],
+    "keywords": [
+      "south west double arrow"
+    ],
+    "name": "south west double arrow"
+  },
+  "21da": {
+    "char": "⇚",
+    "codepoints": [
+      8666
+    ],
+    "keywords": [
+      "leftwards triple arrow"
+    ],
+    "name": "leftwards triple arrow"
+  },
+  "21db": {
+    "char": "⇛",
+    "codepoints": [
+      8667
+    ],
+    "keywords": [
+      "rightwards triple arrow"
+    ],
+    "name": "rightwards triple arrow"
+  },
+  "21dc": {
+    "char": "⇜",
+    "codepoints": [
+      8668
+    ],
+    "keywords": [
+      "leftwards squiggle arrow"
+    ],
+    "name": "leftwards squiggle arrow"
+  },
+  "21dd": {
+    "char": "⇝",
+    "codepoints": [
+      8669
+    ],
+    "keywords": [
+      "rightwards squiggle arrow"
+    ],
+    "name": "rightwards squiggle arrow"
+  },
+  "21de": {
+    "char": "⇞",
+    "codepoints": [
+      8670
+    ],
+    "keywords": [
+      "upwards arrow double stroke"
+    ],
+    "name": "upwards arrow double stroke"
+  },
+  "21df": {
+    "char": "⇟",
+    "codepoints": [
+      8671
+    ],
+    "keywords": [
+      "downwards arrow double stroke"
+    ],
+    "name": "downwards arrow double stroke"
+  },
+  "21e0": {
+    "char": "⇠",
+    "codepoints": [
+      8672
+    ],
+    "keywords": [
+      "leftwards dashed arrow"
+    ],
+    "name": "leftwards dashed arrow"
+  },
+  "21e1": {
+    "char": "⇡",
+    "codepoints": [
+      8673
+    ],
+    "keywords": [
+      "upwards dashed arrow"
+    ],
+    "name": "upwards dashed arrow"
+  },
+  "21e2": {
+    "char": "⇢",
+    "codepoints": [
+      8674
+    ],
+    "keywords": [
+      "rightwards dashed arrow"
+    ],
+    "name": "rightwards dashed arrow"
+  },
+  "21e3": {
+    "char": "⇣",
+    "codepoints": [
+      8675
+    ],
+    "keywords": [
+      "downwards dashed arrow"
+    ],
+    "name": "downwards dashed arrow"
+  },
+  "21e4": {
+    "char": "⇤",
+    "codepoints": [
+      8676
+    ],
+    "keywords": [
+      "leftwards arrow bar"
+    ],
+    "name": "leftwards arrow bar"
+  },
+  "21e5": {
+    "char": "⇥",
+    "codepoints": [
+      8677
+    ],
+    "keywords": [
+      "rightwards arrow bar"
+    ],
+    "name": "rightwards arrow bar"
+  },
+  "21e6": {
+    "char": "⇦",
+    "codepoints": [
+      8678
+    ],
+    "keywords": [
+      "leftwards hollow arrow"
+    ],
+    "name": "leftwards hollow arrow"
+  },
+  "21e7": {
+    "char": "⇧",
+    "codepoints": [
+      8679
+    ],
+    "keywords": [
+      "upwards hollow arrow"
+    ],
+    "name": "upwards hollow arrow"
+  },
+  "21e8": {
+    "char": "⇨",
+    "codepoints": [
+      8680
+    ],
+    "keywords": [
+      "rightwards hollow arrow"
+    ],
+    "name": "rightwards hollow arrow"
+  },
+  "21e9": {
+    "char": "⇩",
+    "codepoints": [
+      8681
+    ],
+    "keywords": [
+      "downwards hollow arrow"
+    ],
+    "name": "downwards hollow arrow"
+  },
+  "21ea": {
+    "char": "⇪",
+    "codepoints": [
+      8682
+    ],
+    "keywords": [
+      "upwards hollow arrow from bar"
+    ],
+    "name": "upwards hollow arrow from bar"
+  },
+  "21f5": {
+    "char": "⇵",
+    "codepoints": [
+      8693
+    ],
+    "keywords": [
+      "downwards arrow leftwards upwards arrow"
+    ],
+    "name": "downwards arrow leftwards upwards arrow"
+  },
+  "2200": {
+    "char": "∀",
+    "codepoints": [
+      8704
+    ],
+    "keywords": [
+      "all",
+      "any",
+      "for all",
+      "given",
+      "universal"
+    ],
+    "name": "for all"
+  },
+  "2202": {
+    "char": "∂",
+    "codepoints": [
+      8706
+    ],
+    "keywords": [
+      "differential",
+      "partial differential"
+    ],
+    "name": "partial differential"
+  },
+  "2203": {
+    "char": "∃",
+    "codepoints": [
+      8707
+    ],
+    "keywords": [
+      "there exists"
+    ],
+    "name": "there exists"
+  },
+  "2205": {
+    "char": "∅",
+    "codepoints": [
+      8709
+    ],
+    "keywords": [
+      "empty set",
+      "mathematics",
+      "set operator"
+    ],
+    "name": "empty set"
   },
   "2206": {
     "char": "∆",
@@ -574,6 +2309,136 @@
     ],
     "name": "element of"
   },
+  "2209": {
+    "char": "∉",
+    "codepoints": [
+      8713
+    ],
+    "keywords": [
+      "element",
+      "not an element"
+    ],
+    "name": "not an element"
+  },
+  "220b": {
+    "char": "∋",
+    "codepoints": [
+      8715
+    ],
+    "keywords": [
+      "contains as member",
+      "element"
+    ],
+    "name": "contains as member"
+  },
+  "220e": {
+    "char": "∎",
+    "codepoints": [
+      8718
+    ],
+    "keywords": [
+      "end proof",
+      "halmos",
+      "q.e.d.",
+      "qed",
+      "tombstone"
+    ],
+    "name": "end proof"
+  },
+  "220f": {
+    "char": "∏",
+    "codepoints": [
+      8719
+    ],
+    "keywords": [
+      "logic",
+      "n-ary product",
+      "product"
+    ],
+    "name": "n-ary product"
+  },
+  "2211": {
+    "char": "∑",
+    "codepoints": [
+      8721
+    ],
+    "keywords": [
+      "mathematics",
+      "n-ary summation",
+      "summation"
+    ],
+    "name": "n-ary summation"
+  },
+  "2212": {
+    "char": "−",
+    "codepoints": [
+      8722
+    ],
+    "keywords": [
+      "minus",
+      "minus sign",
+      "subtract"
+    ],
+    "name": "minus sign"
+  },
+  "2213": {
+    "char": "∓",
+    "codepoints": [
+      8723
+    ],
+    "keywords": [
+      "minus-or-plus",
+      "plus-minus"
+    ],
+    "name": "minus-or-plus"
+  },
+  "2215": {
+    "char": "∕",
+    "codepoints": [
+      8725
+    ],
+    "keywords": [
+      "division slash",
+      "slash",
+      "stroke",
+      "virgule"
+    ],
+    "name": "division slash"
+  },
+  "2217": {
+    "char": "∗",
+    "codepoints": [
+      8727
+    ],
+    "keywords": [
+      "asterisk operator",
+      "star"
+    ],
+    "name": "asterisk operator"
+  },
+  "2218": {
+    "char": "∘",
+    "codepoints": [
+      8728
+    ],
+    "keywords": [
+      "composition",
+      "operator",
+      "ring operator"
+    ],
+    "name": "ring operator"
+  },
+  "2219": {
+    "char": "∙",
+    "codepoints": [
+      8729
+    ],
+    "keywords": [
+      "bullet operator",
+      "operator"
+    ],
+    "name": "bullet operator"
+  },
   "221a": {
     "char": "√",
     "codepoints": [
@@ -588,6 +2453,17 @@
     ],
     "name": "square root"
   },
+  "221d": {
+    "char": "∝",
+    "codepoints": [
+      8733
+    ],
+    "keywords": [
+      "proportional",
+      "proportionality"
+    ],
+    "name": "proportional"
+  },
   "221e": {
     "char": "∞",
     "codepoints": [
@@ -598,6 +2474,62 @@
       "infinity sign"
     ],
     "name": "infinity sign"
+  },
+  "221f": {
+    "char": "∟",
+    "codepoints": [
+      8735
+    ],
+    "keywords": [
+      "mathematics",
+      "right angle"
+    ],
+    "name": "right angle"
+  },
+  "2220": {
+    "char": "∠",
+    "codepoints": [
+      8736
+    ],
+    "keywords": [
+      "acute",
+      "angle"
+    ],
+    "name": "angle"
+  },
+  "2223": {
+    "char": "∣",
+    "codepoints": [
+      8739
+    ],
+    "keywords": [
+      "divides",
+      "divisor"
+    ],
+    "name": "divides"
+  },
+  "2225": {
+    "char": "∥",
+    "codepoints": [
+      8741
+    ],
+    "keywords": [
+      "parallel"
+    ],
+    "name": "parallel"
+  },
+  "2227": {
+    "char": "∧",
+    "codepoints": [
+      8743
+    ],
+    "keywords": [
+      "ac",
+      "atque",
+      "logical and",
+      "wedge"
+    ],
+    "name": "logical and"
   },
   "2229": {
     "char": "∩",
@@ -622,6 +2554,197 @@
     ],
     "name": "union"
   },
+  "222b": {
+    "char": "∫",
+    "codepoints": [
+      8747
+    ],
+    "keywords": [
+      "calculus",
+      "integral"
+    ],
+    "name": "integral"
+  },
+  "222c": {
+    "char": "∬",
+    "codepoints": [
+      8748
+    ],
+    "keywords": [
+      "calculus",
+      "double integral"
+    ],
+    "name": "double integral"
+  },
+  "222e": {
+    "char": "∮",
+    "codepoints": [
+      8750
+    ],
+    "keywords": [
+      "contour integral"
+    ],
+    "name": "contour integral"
+  },
+  "2234": {
+    "char": "∴",
+    "codepoints": [
+      8756
+    ],
+    "keywords": [
+      "logic",
+      "therefore"
+    ],
+    "name": "therefore"
+  },
+  "2235": {
+    "char": "∵",
+    "codepoints": [
+      8757
+    ],
+    "keywords": [
+      "because",
+      "logic"
+    ],
+    "name": "because"
+  },
+  "2236": {
+    "char": "∶",
+    "codepoints": [
+      8758
+    ],
+    "keywords": [
+      "ratio"
+    ],
+    "name": "ratio"
+  },
+  "2237": {
+    "char": "∷",
+    "codepoints": [
+      8759
+    ],
+    "keywords": [
+      "proportion",
+      "proportionality"
+    ],
+    "name": "proportion"
+  },
+  "223c": {
+    "char": "∼",
+    "codepoints": [
+      8764
+    ],
+    "keywords": [
+      "operator",
+      "tilde operator"
+    ],
+    "name": "tilde operator"
+  },
+  "223d": {
+    "char": "∽",
+    "codepoints": [
+      8765
+    ],
+    "keywords": [
+      "reversed tilde",
+      "tilde"
+    ],
+    "name": "reversed tilde"
+  },
+  "223e": {
+    "char": "∾",
+    "codepoints": [
+      8766
+    ],
+    "keywords": [
+      "inverted lazy s"
+    ],
+    "name": "inverted lazy s"
+  },
+  "2243": {
+    "char": "≃",
+    "codepoints": [
+      8771
+    ],
+    "keywords": [
+      "asymptote",
+      "asymptotically equal",
+      "mathematics"
+    ],
+    "name": "asymptotically equal"
+  },
+  "2245": {
+    "char": "≅",
+    "codepoints": [
+      8773
+    ],
+    "keywords": [
+      "approximately equal",
+      "congruence",
+      "equality",
+      "isomorphism",
+      "mathematics"
+    ],
+    "name": "approximately equal"
+  },
+  "2248": {
+    "char": "≈",
+    "codepoints": [
+      8776
+    ],
+    "keywords": [
+      "almost equal",
+      "approximate",
+      "approximation"
+    ],
+    "name": "almost equal"
+  },
+  "224c": {
+    "char": "≌",
+    "codepoints": [
+      8780
+    ],
+    "keywords": [
+      "all equal",
+      "equality",
+      "mathematics"
+    ],
+    "name": "all equal"
+  },
+  "2252": {
+    "char": "≒",
+    "codepoints": [
+      8786
+    ],
+    "keywords": [
+      "approximately equal the image"
+    ],
+    "name": "approximately equal the image"
+  },
+  "2256": {
+    "char": "≖",
+    "codepoints": [
+      8790
+    ],
+    "keywords": [
+      "equality",
+      "mathematics",
+      "ring in equal"
+    ],
+    "name": "ring in equal"
+  },
+  "2260": {
+    "char": "≠",
+    "codepoints": [
+      8800
+    ],
+    "keywords": [
+      "inequality",
+      "inequation",
+      "not equal"
+    ],
+    "name": "not equal"
+  },
   "2261": {
     "char": "≡",
     "codepoints": [
@@ -635,6 +2758,176 @@
     ],
     "name": "identical to"
   },
+  "2263": {
+    "char": "≣",
+    "codepoints": [
+      8803
+    ],
+    "keywords": [
+      "equality",
+      "mathematics",
+      "strictly equivalent"
+    ],
+    "name": "strictly equivalent"
+  },
+  "2264": {
+    "char": "≤",
+    "codepoints": [
+      8804
+    ],
+    "keywords": [
+      "equal",
+      "equals",
+      "inequality",
+      "less-than",
+      "less-than or equal"
+    ],
+    "name": "less-than or equal"
+  },
+  "2265": {
+    "char": "≥",
+    "codepoints": [
+      8805
+    ],
+    "keywords": [
+      "equal",
+      "equals",
+      "greater-than",
+      "greater-than or equal",
+      "inequality"
+    ],
+    "name": "greater-than or equal"
+  },
+  "2266": {
+    "char": "≦",
+    "codepoints": [
+      8806
+    ],
+    "keywords": [
+      "inequality",
+      "less-than over equal",
+      "mathematics"
+    ],
+    "name": "less-than over equal"
+  },
+  "2267": {
+    "char": "≧",
+    "codepoints": [
+      8807
+    ],
+    "keywords": [
+      "greater-than over equal",
+      "inequality",
+      "mathematics"
+    ],
+    "name": "greater-than over equal"
+  },
+  "226a": {
+    "char": "≪",
+    "codepoints": [
+      8810
+    ],
+    "keywords": [
+      "inequality",
+      "mathematics",
+      "much less-than"
+    ],
+    "name": "much less-than"
+  },
+  "226b": {
+    "char": "≫",
+    "codepoints": [
+      8811
+    ],
+    "keywords": [
+      "inequality",
+      "mathematics",
+      "much greater-than"
+    ],
+    "name": "much greater-than"
+  },
+  "226c": {
+    "char": "≬",
+    "codepoints": [
+      8812
+    ],
+    "keywords": [
+      "between"
+    ],
+    "name": "between"
+  },
+  "226e": {
+    "char": "≮",
+    "codepoints": [
+      8814
+    ],
+    "keywords": [
+      "inequality",
+      "mathematics",
+      "not less-than"
+    ],
+    "name": "not less-than"
+  },
+  "226f": {
+    "char": "≯",
+    "codepoints": [
+      8815
+    ],
+    "keywords": [
+      "inequality",
+      "mathematics",
+      "not greater-than"
+    ],
+    "name": "not greater-than"
+  },
+  "2273": {
+    "char": "≳",
+    "codepoints": [
+      8819
+    ],
+    "keywords": [
+      "greater-than equivalent",
+      "inequality",
+      "mathematics"
+    ],
+    "name": "greater-than equivalent"
+  },
+  "227a": {
+    "char": "≺",
+    "codepoints": [
+      8826
+    ],
+    "keywords": [
+      "mathematics",
+      "precedes",
+      "set operator"
+    ],
+    "name": "precedes"
+  },
+  "227b": {
+    "char": "≻",
+    "codepoints": [
+      8827
+    ],
+    "keywords": [
+      "mathematics",
+      "set operator",
+      "succeeds"
+    ],
+    "name": "succeeds"
+  },
+  "2281": {
+    "char": "⊁",
+    "codepoints": [
+      8833
+    ],
+    "keywords": [
+      "does not succeed",
+      "mathematics",
+      "set operator"
+    ],
+    "name": "does not succeed"
+  },
   "2282": {
     "char": "⊂",
     "codepoints": [
@@ -646,6 +2939,395 @@
       "subset of"
     ],
     "name": "subset of"
+  },
+  "2283": {
+    "char": "⊃",
+    "codepoints": [
+      8835
+    ],
+    "keywords": [
+      "mathematics",
+      "set operator",
+      "superset"
+    ],
+    "name": "superset"
+  },
+  "2286": {
+    "char": "⊆",
+    "codepoints": [
+      8838
+    ],
+    "keywords": [
+      "subset equal"
+    ],
+    "name": "subset equal"
+  },
+  "2287": {
+    "char": "⊇",
+    "codepoints": [
+      8839
+    ],
+    "keywords": [
+      "equality",
+      "mathematics",
+      "superset equal"
+    ],
+    "name": "superset equal"
+  },
+  "2295": {
+    "char": "⊕",
+    "codepoints": [
+      8853
+    ],
+    "keywords": [
+      "circled plus",
+      "plus"
+    ],
+    "name": "circled plus"
+  },
+  "2296": {
+    "char": "⊖",
+    "codepoints": [
+      8854
+    ],
+    "keywords": [
+      "circled minus",
+      "erosion",
+      "symmetric difference"
+    ],
+    "name": "circled minus"
+  },
+  "2297": {
+    "char": "⊗",
+    "codepoints": [
+      8855
+    ],
+    "keywords": [
+      "circled times",
+      "product",
+      "tensor"
+    ],
+    "name": "circled times"
+  },
+  "2298": {
+    "char": "⊘",
+    "codepoints": [
+      8856
+    ],
+    "keywords": [
+      "circled division slash",
+      "division-like",
+      "mathematics"
+    ],
+    "name": "circled division slash"
+  },
+  "2299": {
+    "char": "⊙",
+    "codepoints": [
+      8857
+    ],
+    "keywords": [
+      "circled dot operator",
+      "operator",
+      "XNOR"
+    ],
+    "name": "circled dot operator"
+  },
+  "229a": {
+    "char": "⊚",
+    "codepoints": [
+      8858
+    ],
+    "keywords": [
+      "circled ring operator"
+    ],
+    "name": "circled ring operator"
+  },
+  "229b": {
+    "char": "⊛",
+    "codepoints": [
+      8859
+    ],
+    "keywords": [
+      "asterisk",
+      "circled asterisk operator",
+      "operator"
+    ],
+    "name": "circled asterisk operator"
+  },
+  "229e": {
+    "char": "⊞",
+    "codepoints": [
+      8862
+    ],
+    "keywords": [
+      "addition-like",
+      "mathematics",
+      "squared plus"
+    ],
+    "name": "squared plus"
+  },
+  "229f": {
+    "char": "⊟",
+    "codepoints": [
+      8863
+    ],
+    "keywords": [
+      "mathematics",
+      "squared minus",
+      "subtraction-like"
+    ],
+    "name": "squared minus"
+  },
+  "22a5": {
+    "char": "⊥",
+    "codepoints": [
+      8869
+    ],
+    "keywords": [
+      "eet",
+      "falsum",
+      "tack",
+      "up tack"
+    ],
+    "name": "up tack"
+  },
+  "22ae": {
+    "char": "⊮",
+    "codepoints": [
+      8878
+    ],
+    "keywords": [
+      "does not force"
+    ],
+    "name": "does not force"
+  },
+  "22b0": {
+    "char": "⊰",
+    "codepoints": [
+      8880
+    ],
+    "keywords": [
+      "mathematics",
+      "precedes under relation",
+      "set operator"
+    ],
+    "name": "precedes under relation"
+  },
+  "22b1": {
+    "char": "⊱",
+    "codepoints": [
+      8881
+    ],
+    "keywords": [
+      "mathematics",
+      "set operator",
+      "succeeds under relation"
+    ],
+    "name": "succeeds under relation"
+  },
+  "22b6": {
+    "char": "⊶",
+    "codepoints": [
+      8886
+    ],
+    "keywords": [
+      "original"
+    ],
+    "name": "original"
+  },
+  "22b9": {
+    "char": "⊹",
+    "codepoints": [
+      8889
+    ],
+    "keywords": [
+      "hermitian conjugate matrix",
+      "mathematics",
+      "self-adjoint matrix",
+      "square matrix"
+    ],
+    "name": "hermitian conjugate matrix"
+  },
+  "22bf": {
+    "char": "⊿",
+    "codepoints": [
+      8895
+    ],
+    "keywords": [
+      "mathematics",
+      "right triangle",
+      "right-angled triangle"
+    ],
+    "name": "right triangle"
+  },
+  "22c1": {
+    "char": "⋁",
+    "codepoints": [
+      8897
+    ],
+    "keywords": [
+      "disjunction",
+      "logic",
+      "n-ary logical or"
+    ],
+    "name": "n-ary logical or"
+  },
+  "22c2": {
+    "char": "⋂",
+    "codepoints": [
+      8898
+    ],
+    "keywords": [
+      "intersection",
+      "mathematics",
+      "n-ary intersection",
+      "set operator"
+    ],
+    "name": "n-ary intersection"
+  },
+  "22c3": {
+    "char": "⋃",
+    "codepoints": [
+      8899
+    ],
+    "keywords": [
+      "mathematics",
+      "n-ary union",
+      "set operator",
+      "union"
+    ],
+    "name": "n-ary union"
+  },
+  "22c5": {
+    "char": "⋅",
+    "codepoints": [
+      8901
+    ],
+    "keywords": [
+      "dot operator",
+      "operator"
+    ],
+    "name": "dot operator"
+  },
+  "22c6": {
+    "char": "⋆",
+    "codepoints": [
+      8902
+    ],
+    "keywords": [
+      "operator",
+      "star operator"
+    ],
+    "name": "star operator"
+  },
+  "22c8": {
+    "char": "⋈",
+    "codepoints": [
+      8904
+    ],
+    "keywords": [
+      "binary operator",
+      "bowtie",
+      "natural join"
+    ],
+    "name": "natural join"
+  },
+  "22d2": {
+    "char": "⋒",
+    "codepoints": [
+      8914
+    ],
+    "keywords": [
+      "double intersection",
+      "intersection",
+      "mathematics",
+      "set operator"
+    ],
+    "name": "double intersection"
+  },
+  "22d8": {
+    "char": "⋘",
+    "codepoints": [
+      8920
+    ],
+    "keywords": [
+      "inequality",
+      "mathematics",
+      "very much less-than"
+    ],
+    "name": "very much less-than"
+  },
+  "22d9": {
+    "char": "⋙",
+    "codepoints": [
+      8921
+    ],
+    "keywords": [
+      "inequality",
+      "mathematics",
+      "very much greater-than"
+    ],
+    "name": "very much greater-than"
+  },
+  "22ed": {
+    "char": "⋭",
+    "codepoints": [
+      8941
+    ],
+    "keywords": [
+      "does not contain as normal subgroup equal",
+      "group theory",
+      "mathematics"
+    ],
+    "name": "does not contain as normal subgroup equal"
+  },
+  "22ee": {
+    "char": "⋮",
+    "codepoints": [
+      8942
+    ],
+    "keywords": [
+      "ellipsis",
+      "mathematics",
+      "vertical ellipsis"
+    ],
+    "name": "vertical ellipsis"
+  },
+  "22ef": {
+    "char": "⋯",
+    "codepoints": [
+      8943
+    ],
+    "keywords": [
+      "ellipsis",
+      "midline horizontal ellipsis"
+    ],
+    "name": "midline horizontal ellipsis"
+  },
+  "22f0": {
+    "char": "⋰",
+    "codepoints": [
+      8944
+    ],
+    "keywords": [
+      "ellipsis",
+      "mathematics",
+      "up right diagonal ellipsis"
+    ],
+    "name": "up right diagonal ellipsis"
+  },
+  "22f1": {
+    "char": "⋱",
+    "codepoints": [
+      8945
+    ],
+    "keywords": [
+      "down right diagonal ellipsis",
+      "ellipsis",
+      "mathematics"
+    ],
+    "name": "down right diagonal ellipsis"
   },
   "231a": {
     "char": "⌚",
@@ -883,6 +3565,106 @@
     ],
     "name": "circled M"
   },
+  "25a0": {
+    "char": "■",
+    "codepoints": [
+      9632
+    ],
+    "keywords": [
+      "filled square"
+    ],
+    "name": "filled square"
+  },
+  "25a1": {
+    "char": "□",
+    "codepoints": [
+      9633
+    ],
+    "keywords": [
+      "hollow square"
+    ],
+    "name": "hollow square"
+  },
+  "25a2": {
+    "char": "▢",
+    "codepoints": [
+      9634
+    ],
+    "keywords": [
+      "hollow square with rounded corners"
+    ],
+    "name": "hollow square with rounded corners"
+  },
+  "25a3": {
+    "char": "▣",
+    "codepoints": [
+      9635
+    ],
+    "keywords": [
+      "hollow square containing filled square"
+    ],
+    "name": "hollow square containing filled square"
+  },
+  "25a4": {
+    "char": "▤",
+    "codepoints": [
+      9636
+    ],
+    "keywords": [
+      "square with horizontal fill"
+    ],
+    "name": "square with horizontal fill"
+  },
+  "25a5": {
+    "char": "▥",
+    "codepoints": [
+      9637
+    ],
+    "keywords": [
+      "square with vertical fill"
+    ],
+    "name": "square with vertical fill"
+  },
+  "25a6": {
+    "char": "▦",
+    "codepoints": [
+      9638
+    ],
+    "keywords": [
+      "square orthogonal crosshatch fill"
+    ],
+    "name": "square orthogonal crosshatch fill"
+  },
+  "25a7": {
+    "char": "▧",
+    "codepoints": [
+      9639
+    ],
+    "keywords": [
+      "square upper left lower right fill"
+    ],
+    "name": "square upper left lower right fill"
+  },
+  "25a8": {
+    "char": "▨",
+    "codepoints": [
+      9640
+    ],
+    "keywords": [
+      "square upper right lower left fill"
+    ],
+    "name": "square upper right lower left fill"
+  },
+  "25a9": {
+    "char": "▩",
+    "codepoints": [
+      9641
+    ],
+    "keywords": [
+      "square diagonal crosshatch fill"
+    ],
+    "name": "square diagonal crosshatch fill"
+  },
   "25aa": {
     "char": "▪",
     "codepoints": [
@@ -907,6 +3689,46 @@
     ],
     "name": "white small square"
   },
+  "25ac": {
+    "char": "▬",
+    "codepoints": [
+      9644
+    ],
+    "keywords": [
+      "filled rectangle"
+    ],
+    "name": "filled rectangle"
+  },
+  "25ad": {
+    "char": "▭",
+    "codepoints": [
+      9645
+    ],
+    "keywords": [
+      "hollow rectangle"
+    ],
+    "name": "hollow rectangle"
+  },
+  "25ae": {
+    "char": "▮",
+    "codepoints": [
+      9646
+    ],
+    "keywords": [
+      "filled vertical rectangle"
+    ],
+    "name": "filled vertical rectangle"
+  },
+  "25b0": {
+    "char": "▰",
+    "codepoints": [
+      9648
+    ],
+    "keywords": [
+      "filled parallelogram"
+    ],
+    "name": "filled parallelogram"
+  },
   "25b2": {
     "char": "▲",
     "codepoints": [
@@ -920,6 +3742,36 @@
       "up"
     ],
     "name": "filled up-pointing triangle"
+  },
+  "25b3": {
+    "char": "△",
+    "codepoints": [
+      9651
+    ],
+    "keywords": [
+      "hollow up-pointing triangle"
+    ],
+    "name": "hollow up-pointing triangle"
+  },
+  "25b4": {
+    "char": "▴",
+    "codepoints": [
+      9652
+    ],
+    "keywords": [
+      "filled up-pointing small triangle"
+    ],
+    "name": "filled up-pointing small triangle"
+  },
+  "25b5": {
+    "char": "▵",
+    "codepoints": [
+      9653
+    ],
+    "keywords": [
+      "hollow up-pointing small triangle"
+    ],
+    "name": "hollow up-pointing small triangle"
   },
   "25b6": {
     "char": "▶",
@@ -935,6 +3787,56 @@
     ],
     "name": "play button"
   },
+  "25b7": {
+    "char": "▷",
+    "codepoints": [
+      9655
+    ],
+    "keywords": [
+      "hollow right-pointing triangle"
+    ],
+    "name": "hollow right-pointing triangle"
+  },
+  "25b8": {
+    "char": "▸",
+    "codepoints": [
+      9656
+    ],
+    "keywords": [
+      "filled right-pointing small triangle"
+    ],
+    "name": "filled right-pointing small triangle"
+  },
+  "25b9": {
+    "char": "▹",
+    "codepoints": [
+      9657
+    ],
+    "keywords": [
+      "hollow right-pointing small triangle"
+    ],
+    "name": "hollow right-pointing small triangle"
+  },
+  "25ba": {
+    "char": "►",
+    "codepoints": [
+      9658
+    ],
+    "keywords": [
+      "filled right-pointing pointer"
+    ],
+    "name": "filled right-pointing pointer"
+  },
+  "25bb": {
+    "char": "▻",
+    "codepoints": [
+      9659
+    ],
+    "keywords": [
+      "hollow right-pointing pointer"
+    ],
+    "name": "hollow right-pointing pointer"
+  },
   "25bc": {
     "char": "▼",
     "codepoints": [
@@ -949,6 +3851,36 @@
     ],
     "name": "filled down-pointing triangle"
   },
+  "25bd": {
+    "char": "▽",
+    "codepoints": [
+      9661
+    ],
+    "keywords": [
+      "hollow down-pointing triangle"
+    ],
+    "name": "hollow down-pointing triangle"
+  },
+  "25be": {
+    "char": "▾",
+    "codepoints": [
+      9662
+    ],
+    "keywords": [
+      "filled down-pointing small triangle"
+    ],
+    "name": "filled down-pointing small triangle"
+  },
+  "25bf": {
+    "char": "▿",
+    "codepoints": [
+      9663
+    ],
+    "keywords": [
+      "hollow down-pointing small triangle"
+    ],
+    "name": "hollow down-pointing small triangle"
+  },
   "25c0": {
     "char": "◀",
     "codepoints": [
@@ -962,6 +3894,100 @@
       "triangle"
     ],
     "name": "reverse button"
+  },
+  "25c1": {
+    "char": "◁",
+    "codepoints": [
+      9665
+    ],
+    "keywords": [
+      "hollow left-pointing triangle"
+    ],
+    "name": "hollow left-pointing triangle"
+  },
+  "25c2": {
+    "char": "◂",
+    "codepoints": [
+      9666
+    ],
+    "keywords": [
+      "filled left-pointing small triangle"
+    ],
+    "name": "filled left-pointing small triangle"
+  },
+  "25c3": {
+    "char": "◃",
+    "codepoints": [
+      9667
+    ],
+    "keywords": [
+      "hollow left-pointing small triangle"
+    ],
+    "name": "hollow left-pointing small triangle"
+  },
+  "25c4": {
+    "char": "◄",
+    "codepoints": [
+      9668
+    ],
+    "keywords": [
+      "filled left-pointing pointer"
+    ],
+    "name": "filled left-pointing pointer"
+  },
+  "25c5": {
+    "char": "◅",
+    "codepoints": [
+      9669
+    ],
+    "keywords": [
+      "hollow left-pointing pointer"
+    ],
+    "name": "hollow left-pointing pointer"
+  },
+  "25c6": {
+    "char": "◆",
+    "codepoints": [
+      9670
+    ],
+    "keywords": [
+      "filled diamond"
+    ],
+    "name": "filled diamond"
+  },
+  "25c7": {
+    "char": "◇",
+    "codepoints": [
+      9671
+    ],
+    "keywords": [
+      "hollow diamond"
+    ],
+    "name": "hollow diamond"
+  },
+  "25c8": {
+    "char": "◈",
+    "codepoints": [
+      9672
+    ],
+    "keywords": [
+      "hollow diamond containing filled diamond"
+    ],
+    "name": "hollow diamond containing filled diamond"
+  },
+  "25c9": {
+    "char": "◉",
+    "codepoints": [
+      9673
+    ],
+    "keywords": [
+      "circled dot",
+      "concentric cicles filled",
+      "fisheye",
+      "hollow circle containing filled circle",
+      "ward"
+    ],
+    "name": "hollow circle containing filled circle"
   },
   "25ca": {
     "char": "◊",
@@ -987,6 +4013,38 @@
     ],
     "name": "hollow circle"
   },
+  "25cc": {
+    "char": "◌",
+    "codepoints": [
+      9676
+    ],
+    "keywords": [
+      "dotted circle"
+    ],
+    "name": "dotted circle"
+  },
+  "25cd": {
+    "char": "◍",
+    "codepoints": [
+      9677
+    ],
+    "keywords": [
+      "circle with vertical fill"
+    ],
+    "name": "circle with vertical fill"
+  },
+  "25ce": {
+    "char": "◎",
+    "codepoints": [
+      9678
+    ],
+    "keywords": [
+      "concentric circles",
+      "double circle",
+      "target"
+    ],
+    "name": "concentric circles"
+  },
   "25cf": {
     "char": "●",
     "codepoints": [
@@ -997,6 +4055,217 @@
       "filled circle"
     ],
     "name": "filled circle"
+  },
+  "25d0": {
+    "char": "◐",
+    "codepoints": [
+      9680
+    ],
+    "keywords": [
+      "circle left half filled"
+    ],
+    "name": "circle left half filled"
+  },
+  "25d1": {
+    "char": "◑",
+    "codepoints": [
+      9681
+    ],
+    "keywords": [
+      "circle right half filled"
+    ],
+    "name": "circle right half filled"
+  },
+  "25d2": {
+    "char": "◒",
+    "codepoints": [
+      9682
+    ],
+    "keywords": [
+      "circle lower half filled"
+    ],
+    "name": "circle lower half filled"
+  },
+  "25d3": {
+    "char": "◓",
+    "codepoints": [
+      9683
+    ],
+    "keywords": [
+      "circle upper half filled"
+    ],
+    "name": "circle upper half filled"
+  },
+  "25d4": {
+    "char": "◔",
+    "codepoints": [
+      9684
+    ],
+    "keywords": [
+      "circle upper right quadrant filled"
+    ],
+    "name": "circle upper right quadrant filled"
+  },
+  "25d5": {
+    "char": "◕",
+    "codepoints": [
+      9685
+    ],
+    "keywords": [
+      "circle all but upper left quadrant filled"
+    ],
+    "name": "circle all but upper left quadrant filled"
+  },
+  "25d6": {
+    "char": "◖",
+    "codepoints": [
+      9686
+    ],
+    "keywords": [
+      "left half filled circle"
+    ],
+    "name": "left half filled circle"
+  },
+  "25d7": {
+    "char": "◗",
+    "codepoints": [
+      9687
+    ],
+    "keywords": [
+      "right half filled circle"
+    ],
+    "name": "right half filled circle"
+  },
+  "25d8": {
+    "char": "◘",
+    "codepoints": [
+      9688
+    ],
+    "keywords": [
+      "inverse bullet"
+    ],
+    "name": "inverse bullet"
+  },
+  "25d9": {
+    "char": "◙",
+    "codepoints": [
+      9689
+    ],
+    "keywords": [
+      "filled square containing hollow circle",
+      "inverse hollow circle"
+    ],
+    "name": "filled square containing hollow circle"
+  },
+  "25dc": {
+    "char": "◜",
+    "codepoints": [
+      9692
+    ],
+    "keywords": [
+      "upper left quadrant circular arc"
+    ],
+    "name": "upper left quadrant circular arc"
+  },
+  "25dd": {
+    "char": "◝",
+    "codepoints": [
+      9693
+    ],
+    "keywords": [
+      "upper right quadrant circular arc"
+    ],
+    "name": "upper right quadrant circular arc"
+  },
+  "25de": {
+    "char": "◞",
+    "codepoints": [
+      9694
+    ],
+    "keywords": [
+      "lower right quadrant circular arc"
+    ],
+    "name": "lower right quadrant circular arc"
+  },
+  "25df": {
+    "char": "◟",
+    "codepoints": [
+      9695
+    ],
+    "keywords": [
+      "lower left quadrant circular arc"
+    ],
+    "name": "lower left quadrant circular arc"
+  },
+  "25e0": {
+    "char": "◠",
+    "codepoints": [
+      9696
+    ],
+    "keywords": [
+      "upper half circle"
+    ],
+    "name": "upper half circle"
+  },
+  "25e1": {
+    "char": "◡",
+    "codepoints": [
+      9697
+    ],
+    "keywords": [
+      "lower half circle"
+    ],
+    "name": "lower half circle"
+  },
+  "25e2": {
+    "char": "◢",
+    "codepoints": [
+      9698
+    ],
+    "keywords": [
+      "filled lower right triangle"
+    ],
+    "name": "filled lower right triangle"
+  },
+  "25e3": {
+    "char": "◣",
+    "codepoints": [
+      9699
+    ],
+    "keywords": [
+      "filled lower left triangle"
+    ],
+    "name": "filled lower left triangle"
+  },
+  "25e4": {
+    "char": "◤",
+    "codepoints": [
+      9700
+    ],
+    "keywords": [
+      "filled upper left triangle"
+    ],
+    "name": "filled upper left triangle"
+  },
+  "25e5": {
+    "char": "◥",
+    "codepoints": [
+      9701
+    ],
+    "keywords": [
+      "filled upper right triangle"
+    ],
+    "name": "filled upper right triangle"
+  },
+  "25e6": {
+    "char": "◦",
+    "codepoints": [
+      9702
+    ],
+    "keywords": [
+      "hollow bullet"
+    ],
+    "name": "hollow bullet"
   },
   "25ef": {
     "char": "◯",
@@ -1009,6 +4278,26 @@
       "ring"
     ],
     "name": "large hollow circle"
+  },
+  "25f3": {
+    "char": "◳",
+    "codepoints": [
+      9715
+    ],
+    "keywords": [
+      "hollow square upper right quadrant"
+    ],
+    "name": "hollow square upper right quadrant"
+  },
+  "25f7": {
+    "char": "◷",
+    "codepoints": [
+      9719
+    ],
+    "keywords": [
+      "hollow circle with upper right quadrant"
+    ],
+    "name": "hollow circle with upper right quadrant"
   },
   "25fb": {
     "char": "◻",
@@ -1057,6 +4346,16 @@
       "square"
     ],
     "name": "black medium-small square"
+  },
+  "25ff": {
+    "char": "◿",
+    "codepoints": [
+      9727
+    ],
+    "keywords": [
+      "lower right triangle"
+    ],
+    "name": "lower right triangle"
   },
   "2600": {
     "char": "☀",
@@ -1567,6 +4866,45 @@
       "steaming"
     ],
     "name": "hot springs"
+  },
+  "266a": {
+    "char": "♪",
+    "codepoints": [
+      9834
+    ],
+    "keywords": [
+      "eighth",
+      "music",
+      "note"
+    ],
+    "name": "eighth note"
+  },
+  "266d": {
+    "char": "♭",
+    "codepoints": [
+      9837
+    ],
+    "keywords": [
+      "bemolle",
+      "flat",
+      "music",
+      "note"
+    ],
+    "name": "flat"
+  },
+  "266f": {
+    "char": "♯",
+    "codepoints": [
+      9839
+    ],
+    "keywords": [
+      "dièse",
+      "diesis",
+      "music",
+      "note",
+      "sharp"
+    ],
+    "name": "sharp"
   },
   "267b": {
     "char": "♻",
@@ -2179,6 +5517,8 @@
     ],
     "keywords": [
       "hand",
+      "high 5",
+      "high five",
       "raised hand"
     ],
     "name": "raised hand"
@@ -2383,9 +5723,10 @@
       "?",
       "mark",
       "punctuation",
-      "question"
+      "question",
+      "red question mark"
     ],
-    "name": "question mark"
+    "name": "red question mark"
   },
   "2754": {
     "char": "❔",
@@ -2426,9 +5767,10 @@
       "!",
       "exclamation",
       "mark",
-      "punctuation"
+      "punctuation",
+      "red exclamation mark"
     ],
-    "name": "exclamation mark"
+    "name": "red exclamation mark"
   },
   "2763": {
     "char": "❣",
@@ -2453,6 +5795,41 @@
       "red heart"
     ],
     "name": "red heart"
+  },
+  "2764_1f525": {
+    "char": "❤‍🔥",
+    "codepoints": [
+      10084,
+      8205,
+      128293
+    ],
+    "keywords": [
+      "burn",
+      "heart",
+      "heart on fire",
+      "love",
+      "lust",
+      "sacred heart"
+    ],
+    "name": "heart on fire"
+  },
+  "2764_1fa79": {
+    "char": "❤‍🩹",
+    "codepoints": [
+      10084,
+      8205,
+      129657
+    ],
+    "keywords": [
+      "healthier",
+      "improving",
+      "mending",
+      "mending heart",
+      "recovering",
+      "recuperating",
+      "well"
+    ],
+    "name": "mending heart"
   },
   "2795": {
     "char": "➕",
@@ -2557,6 +5934,88 @@
     ],
     "name": "right arrow curving down"
   },
+  "2a27": {
+    "char": "⨧",
+    "codepoints": [
+      10791
+    ],
+    "keywords": [
+      "plus subscript two"
+    ],
+    "name": "plus subscript two"
+  },
+  "2a2f": {
+    "char": "⨯",
+    "codepoints": [
+      10799
+    ],
+    "keywords": [
+      "vector cross product"
+    ],
+    "name": "vector cross product"
+  },
+  "2a3c": {
+    "char": "⨼",
+    "codepoints": [
+      10812
+    ],
+    "keywords": [
+      "interior product"
+    ],
+    "name": "interior product"
+  },
+  "2a63": {
+    "char": "⩣",
+    "codepoints": [
+      10851
+    ],
+    "keywords": [
+      "logical or double underbar"
+    ],
+    "name": "logical or double underbar"
+  },
+  "2a7d": {
+    "char": "⩽",
+    "codepoints": [
+      10877
+    ],
+    "keywords": [
+      "less-than slanted equal"
+    ],
+    "name": "less-than slanted equal"
+  },
+  "2a8d": {
+    "char": "⪍",
+    "codepoints": [
+      10893
+    ],
+    "keywords": [
+      "less-than above similar equal"
+    ],
+    "name": "less-than above similar equal"
+  },
+  "2a9a": {
+    "char": "⪚",
+    "codepoints": [
+      10906
+    ],
+    "keywords": [
+      "double-line equal greater-than",
+      "inequality",
+      "mathematics"
+    ],
+    "name": "double-line equal greater-than"
+  },
+  "2aba": {
+    "char": "⪺",
+    "codepoints": [
+      10938
+    ],
+    "keywords": [
+      "succeeds above not almost equal"
+    ],
+    "name": "succeeds above not almost equal"
+  },
   "2b05": {
     "char": "⬅",
     "codepoints": [
@@ -2647,6 +6106,211 @@
     ],
     "name": "hollow red circle"
   },
+  "3001": {
+    "char": "、",
+    "codepoints": [
+      12289
+    ],
+    "keywords": [
+      "comma",
+      "ideographic"
+    ],
+    "name": "ideographic comma"
+  },
+  "3002": {
+    "char": "。",
+    "codepoints": [
+      12290
+    ],
+    "keywords": [
+      "full stop",
+      "ideographic",
+      "period"
+    ],
+    "name": "ideographic period"
+  },
+  "3008": {
+    "char": "〈",
+    "codepoints": [
+      12296
+    ],
+    "keywords": [
+      "angle bracket",
+      "bracket",
+      "chevron",
+      "diamond brackets",
+      "open angle bracket",
+      "pointy bracket",
+      "tuple"
+    ],
+    "name": "open angle bracket"
+  },
+  "3009": {
+    "char": "〉",
+    "codepoints": [
+      12297
+    ],
+    "keywords": [
+      "angle bracket",
+      "bracket",
+      "chevron",
+      "close angle bracket",
+      "diamond brackets",
+      "pointy bracket",
+      "tuple"
+    ],
+    "name": "close angle bracket"
+  },
+  "300a": {
+    "char": "《",
+    "codepoints": [
+      12298
+    ],
+    "keywords": [
+      "bracket",
+      "double angle bracket",
+      "open double angle bracket"
+    ],
+    "name": "open double angle bracket"
+  },
+  "300b": {
+    "char": "》",
+    "codepoints": [
+      12299
+    ],
+    "keywords": [
+      "bracket",
+      "close double angle bracket",
+      "double angle bracket"
+    ],
+    "name": "close double angle bracket"
+  },
+  "300c": {
+    "char": "「",
+    "codepoints": [
+      12300
+    ],
+    "keywords": [
+      "bracket",
+      "corner bracket",
+      "open corner bracket"
+    ],
+    "name": "open corner bracket"
+  },
+  "300d": {
+    "char": "」",
+    "codepoints": [
+      12301
+    ],
+    "keywords": [
+      "bracket",
+      "close corner bracket",
+      "corner bracket"
+    ],
+    "name": "close corner bracket"
+  },
+  "300e": {
+    "char": "『",
+    "codepoints": [
+      12302
+    ],
+    "keywords": [
+      "bracket",
+      "hollow corner bracket",
+      "open hollow corner bracket"
+    ],
+    "name": "open hollow corner bracket"
+  },
+  "300f": {
+    "char": "』",
+    "codepoints": [
+      12303
+    ],
+    "keywords": [
+      "bracket",
+      "close hollow corner bracket",
+      "hollow corner bracket"
+    ],
+    "name": "close hollow corner bracket"
+  },
+  "3010": {
+    "char": "【",
+    "codepoints": [
+      12304
+    ],
+    "keywords": [
+      "bracket",
+      "lens bracket",
+      "lenticular bracket",
+      "open black lens bracket"
+    ],
+    "name": "open black lens bracket"
+  },
+  "3011": {
+    "char": "】",
+    "codepoints": [
+      12305
+    ],
+    "keywords": [
+      "bracket",
+      "close black lens bracket",
+      "lens bracket",
+      "lenticular bracket"
+    ],
+    "name": "close black lens bracket"
+  },
+  "3014": {
+    "char": "〔",
+    "codepoints": [
+      12308
+    ],
+    "keywords": [
+      "bracket",
+      "open tortoise shell bracket",
+      "shell bracket",
+      "tortoise shell bracket"
+    ],
+    "name": "open tortoise shell bracket"
+  },
+  "3015": {
+    "char": "〕",
+    "codepoints": [
+      12309
+    ],
+    "keywords": [
+      "bracket",
+      "close tortoise shell bracket",
+      "shell bracket",
+      "tortoise shell bracket"
+    ],
+    "name": "close tortoise shell bracket"
+  },
+  "3016": {
+    "char": "〖",
+    "codepoints": [
+      12310
+    ],
+    "keywords": [
+      "bracket",
+      "hollow lens bracket",
+      "hollow lenticular bracket",
+      "open hollow lens bracket"
+    ],
+    "name": "open hollow lens bracket"
+  },
+  "3017": {
+    "char": "〗",
+    "codepoints": [
+      12311
+    ],
+    "keywords": [
+      "bracket",
+      "close hollow lens bracket",
+      "hollow lens bracket",
+      "hollow lenticular bracket"
+    ],
+    "name": "close hollow lens bracket"
+  },
   "3030": {
     "char": "〰",
     "codepoints": [
@@ -2670,6 +6334,20 @@
       "part alternation mark"
     ],
     "name": "part alternation mark"
+  },
+  "30fb": {
+    "char": "・",
+    "codepoints": [
+      12539
+    ],
+    "keywords": [
+      "dots",
+      "interpunct",
+      "katakana",
+      "katakana middle dot",
+      "middot"
+    ],
+    "name": "katakana middle dot"
   },
   "3297": {
     "char": "㊗",
@@ -2698,6 +6376,17 @@
       "秘"
     ],
     "name": "Japanese “secret” button"
+  },
+  "fdfc": {
+    "char": "﷼",
+    "codepoints": [
+      65020
+    ],
+    "keywords": [
+      "currency",
+      "rial"
+    ],
+    "name": "rial"
   },
   "1f004": {
     "char": "🀄",
@@ -5213,7 +8902,7 @@
       "hit",
       "target"
     ],
-    "name": "direct hit"
+    "name": "bullseye"
   },
   "1f3b0": {
     "char": "🎰",
@@ -7657,9 +11346,9 @@
       9878
     ],
     "keywords": [
+      "judge",
       "justice",
       "man",
-      "man judge",
       "scales"
     ],
     "name": "man judge"
@@ -7975,6 +11664,7 @@
     ],
     "keywords": [
       "judge",
+      "justice",
       "scales",
       "woman"
     ],
@@ -8831,6 +12521,7 @@
       128131
     ],
     "keywords": [
+      "dance",
       "dancing",
       "woman"
     ],
@@ -10981,9 +14672,10 @@
       "pistol",
       "revolver",
       "tool",
+      "water",
       "weapon"
     ],
-    "name": "pistol"
+    "name": "water pistol"
   },
   "1f52c": {
     "char": "🔬",
@@ -11799,8 +15491,8 @@
     ],
     "keywords": [
       "dance",
-      "man",
-      "man dancing"
+      "dancing",
+      "man"
     ],
     "name": "man dancing"
   },
@@ -12647,6 +16339,7 @@
       128544
     ],
     "keywords": [
+      "anger",
       "angry",
       "face",
       "mad"
@@ -12835,6 +16528,24 @@
     ],
     "name": "face with open mouth"
   },
+  "1f62e_1f4a8": {
+    "char": "😮‍💨",
+    "codepoints": [
+      128558,
+      8205,
+      128168
+    ],
+    "keywords": [
+      "exhale",
+      "face exhaling",
+      "gasp",
+      "groan",
+      "relief",
+      "whisper",
+      "whistle"
+    ],
+    "name": "face exhaling"
+  },
   "1f62f": {
     "char": "😯",
     "codepoints": [
@@ -12922,10 +16633,29 @@
       128565
     ],
     "keywords": [
-      "dizzy",
-      "face"
+      "dead",
+      "face",
+      "knocked out",
+      "knocked-out face"
     ],
-    "name": "dizzy face"
+    "name": "knocked-out face"
+  },
+  "1f635_1f4ab": {
+    "char": "😵‍💫",
+    "codepoints": [
+      128565,
+      8205,
+      128171
+    ],
+    "keywords": [
+      "dizzy",
+      "face with spiral eyes",
+      "hypnotized",
+      "spiral",
+      "trouble",
+      "whoa"
+    ],
+    "name": "face with spiral eyes"
   },
   "1f636": {
     "char": "😶",
@@ -12940,6 +16670,21 @@
       "silent"
     ],
     "name": "face without mouth"
+  },
+  "1f636_1f32b": {
+    "char": "😶‍🌫",
+    "codepoints": [
+      128566,
+      8205,
+      127787
+    ],
+    "keywords": [
+      "absentminded",
+      "face in clouds",
+      "face in the fog",
+      "head in clouds"
+    ],
+    "name": "face in clouds"
   },
   "1f637": {
     "char": "😷",
@@ -13469,6 +17214,8 @@
       "ask",
       "folded hands",
       "hand",
+      "high 5",
+      "high five",
       "please",
       "pray",
       "thanks"
@@ -15250,8 +18997,10 @@
       "face",
       "floor",
       "laugh",
+      "rofl",
       "rolling",
-      "rolling on the floor laughing"
+      "rolling on the floor laughing",
+      "rotfl"
     ],
     "name": "rolling on the floor laughing"
   },
@@ -15419,6 +19168,7 @@
     ],
     "keywords": [
       "face vomiting",
+      "puke",
       "sick",
       "vomit"
     ],
@@ -17170,7 +20920,7 @@
       129453
     ],
     "keywords": [
-      "sea Lion",
+      "sea lion",
       "seal"
     ],
     "name": "seal"
@@ -17772,6 +21522,7 @@
     ],
     "keywords": [
       "judge",
+      "justice",
       "scales"
     ],
     "name": "judge"
@@ -17827,8 +21578,7 @@
       "baby",
       "feeding",
       "nursing",
-      "person",
-      "person feeding baby"
+      "person"
     ],
     "name": "person feeding baby"
   },
@@ -18100,9 +21850,36 @@
     ],
     "keywords": [
       "beard",
+      "person",
+      "person: beard"
+    ],
+    "name": "person: beard"
+  },
+  "1f9d4.W": {
+    "char": "🧔‍♀",
+    "codepoints": [
+      129492,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "beard",
+      "woman",
+      "woman: beard"
+    ],
+    "name": "woman: beard"
+  },
+  "1f9d4.M": {
+    "char": "🧔‍♂",
+    "codepoints": [
+      129492,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "beard",
       "man",
-      "man: beard",
-      "person"
+      "man: beard"
     ],
     "name": "man: beard"
   },
@@ -19212,7 +22989,6 @@
       129687
     ],
     "keywords": [
-      "accordian",
       "accordion",
       "concertina",
       "squeeze box"

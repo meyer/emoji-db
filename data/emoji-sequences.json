@@ -769,6 +769,14 @@
     ],
     "description": "high voltage"
   },
+  "26a7": {
+    "char": "⚧️",
+    "codepoints": [
+      9895,
+      65039
+    ],
+    "description": "transgender symbol"
+  },
   "26aa": {
     "char": "⚪",
     "codepoints": [
@@ -1227,7 +1235,7 @@
       10006,
       65039
     ],
-    "description": "multiplication sign"
+    "description": "multiply"
   },
   "271d": {
     "char": "✝️",
@@ -1303,14 +1311,14 @@
     "codepoints": [
       10067
     ],
-    "description": "question mark"
+    "description": "red question mark"
   },
   "2757": {
     "char": "❗",
     "codepoints": [
       10071
     ],
-    "description": "exclamation mark"
+    "description": "red exclamation mark"
   },
   "2763": {
     "char": "❣️",
@@ -1333,7 +1341,7 @@
     "codepoints": [
       10133
     ],
-    "description": "plus sign"
+    "description": "plus"
   },
   "27a1": {
     "char": "➡️",
@@ -3639,6 +3647,97 @@
     ],
     "description": "cyclone"
   },
+  "1f30d": {
+    "char": "🌍",
+    "codepoints": [
+      127757
+    ],
+    "description": "globe showing Europe-Africa"
+  },
+  "1f30f": {
+    "char": "🌏",
+    "codepoints": [
+      127759
+    ],
+    "description": "globe showing Asia-Australia"
+  },
+  "1f310": {
+    "char": "🌐",
+    "codepoints": [
+      127760
+    ],
+    "description": "globe with meridians"
+  },
+  "1f311": {
+    "char": "🌑",
+    "codepoints": [
+      127761
+    ],
+    "description": "new moon"
+  },
+  "1f312": {
+    "char": "🌒",
+    "codepoints": [
+      127762
+    ],
+    "description": "waxing crescent moon"
+  },
+  "1f313": {
+    "char": "🌓",
+    "codepoints": [
+      127763
+    ],
+    "description": "first quarter moon"
+  },
+  "1f316": {
+    "char": "🌖",
+    "codepoints": [
+      127766
+    ],
+    "description": "waning gibbous moon"
+  },
+  "1f319": {
+    "char": "🌙",
+    "codepoints": [
+      127769
+    ],
+    "description": "crescent moon"
+  },
+  "1f31a": {
+    "char": "🌚",
+    "codepoints": [
+      127770
+    ],
+    "description": "new moon face"
+  },
+  "1f31b": {
+    "char": "🌛",
+    "codepoints": [
+      127771
+    ],
+    "description": "first quarter moon face"
+  },
+  "1f31c": {
+    "char": "🌜",
+    "codepoints": [
+      127772
+    ],
+    "description": "last quarter moon face"
+  },
+  "1f31d": {
+    "char": "🌝",
+    "codepoints": [
+      127773
+    ],
+    "description": "full moon face"
+  },
+  "1f31f": {
+    "char": "🌟",
+    "codepoints": [
+      127775
+    ],
+    "description": "glowing star"
+  },
   "1f321": {
     "char": "🌡️",
     "codepoints": [
@@ -3726,6 +3825,27 @@
     ],
     "description": "hot dog"
   },
+  "1f330": {
+    "char": "🌰",
+    "codepoints": [
+      127792
+    ],
+    "description": "chestnut"
+  },
+  "1f332": {
+    "char": "🌲",
+    "codepoints": [
+      127794
+    ],
+    "description": "evergreen tree"
+  },
+  "1f334": {
+    "char": "🌴",
+    "codepoints": [
+      127796
+    ],
+    "description": "palm tree"
+  },
   "1f336": {
     "char": "🌶️",
     "codepoints": [
@@ -3741,6 +3861,41 @@
     ],
     "description": "tulip"
   },
+  "1f34b": {
+    "char": "🍋",
+    "codepoints": [
+      127819
+    ],
+    "description": "lemon"
+  },
+  "1f34c": {
+    "char": "🍌",
+    "codepoints": [
+      127820
+    ],
+    "description": "banana"
+  },
+  "1f350": {
+    "char": "🍐",
+    "codepoints": [
+      127824
+    ],
+    "description": "pear"
+  },
+  "1f351": {
+    "char": "🍑",
+    "codepoints": [
+      127825
+    ],
+    "description": "peach"
+  },
+  "1f37c": {
+    "char": "🍼",
+    "codepoints": [
+      127868
+    ],
+    "description": "baby bottle"
+  },
   "1f37d": {
     "char": "🍽️",
     "codepoints": [
@@ -3755,6 +3910,13 @@
       127870
     ],
     "description": "bottle with popping cork"
+  },
+  "1f380": {
+    "char": "🎀",
+    "codepoints": [
+      127872
+    ],
+    "description": "ribbon"
   },
   "1f385.1": {
     "char": "🎅🏻",
@@ -3979,6 +4141,27 @@
     ],
     "description": "person surfing: dark skin tone"
   },
+  "1f3c5": {
+    "char": "🏅",
+    "codepoints": [
+      127941
+    ],
+    "description": "sports medal"
+  },
+  "1f3c6": {
+    "char": "🏆",
+    "codepoints": [
+      127942
+    ],
+    "description": "trophy"
+  },
+  "1f3c7": {
+    "char": "🏇",
+    "codepoints": [
+      127943
+    ],
+    "description": "horse racing"
+  },
   "1f3c7.1": {
     "char": "🏇🏻",
     "codepoints": [
@@ -4018,6 +4201,27 @@
       127999
     ],
     "description": "horse racing: dark skin tone"
+  },
+  "1f3c8": {
+    "char": "🏈",
+    "codepoints": [
+      127944
+    ],
+    "description": "american football"
+  },
+  "1f3c9": {
+    "char": "🏉",
+    "codepoints": [
+      127945
+    ],
+    "description": "rugby football"
+  },
+  "1f3ca": {
+    "char": "🏊",
+    "codepoints": [
+      127946
+    ],
+    "description": "person swimming"
   },
   "1f3ca.1": {
     "char": "🏊🏻",
@@ -4281,6 +4485,20 @@
     ],
     "description": "house"
   },
+  "1f3e4": {
+    "char": "🏤",
+    "codepoints": [
+      127972
+    ],
+    "description": "post office"
+  },
+  "1f3e5": {
+    "char": "🏥",
+    "codepoints": [
+      127973
+    ],
+    "description": "hospital"
+  },
   "1f3f3": {
     "char": "🏳️",
     "codepoints": [
@@ -4357,6 +4575,90 @@
       127992
     ],
     "description": "badminton"
+  },
+  "1f408": {
+    "char": "🐈",
+    "codepoints": [
+      128008
+    ],
+    "description": "cat"
+  },
+  "1f409": {
+    "char": "🐉",
+    "codepoints": [
+      128009
+    ],
+    "description": "dragon"
+  },
+  "1f40c": {
+    "char": "🐌",
+    "codepoints": [
+      128012
+    ],
+    "description": "snail"
+  },
+  "1f40f": {
+    "char": "🐏",
+    "codepoints": [
+      128015
+    ],
+    "description": "ram"
+  },
+  "1f411": {
+    "char": "🐑",
+    "codepoints": [
+      128017
+    ],
+    "description": "ewe"
+  },
+  "1f413": {
+    "char": "🐓",
+    "codepoints": [
+      128019
+    ],
+    "description": "rooster"
+  },
+  "1f414": {
+    "char": "🐔",
+    "codepoints": [
+      128020
+    ],
+    "description": "chicken"
+  },
+  "1f415": {
+    "char": "🐕",
+    "codepoints": [
+      128021
+    ],
+    "description": "dog"
+  },
+  "1f416": {
+    "char": "🐖",
+    "codepoints": [
+      128022
+    ],
+    "description": "pig"
+  },
+  "1f417": {
+    "char": "🐗",
+    "codepoints": [
+      128023
+    ],
+    "description": "boar"
+  },
+  "1f42a": {
+    "char": "🐪",
+    "codepoints": [
+      128042
+    ],
+    "description": "camel"
+  },
+  "1f42b": {
+    "char": "🐫",
+    "codepoints": [
+      128043
+    ],
+    "description": "two-hump camel"
   },
   "1f43f": {
     "char": "🐿️",
@@ -4908,6 +5210,20 @@
     ],
     "description": "open hands: dark skin tone"
   },
+  "1f465": {
+    "char": "👥",
+    "codepoints": [
+      128101
+    ],
+    "description": "busts in silhouette"
+  },
+  "1f466": {
+    "char": "👦",
+    "codepoints": [
+      128102
+    ],
+    "description": "boy"
+  },
   "1f466.1": {
     "char": "👦🏻",
     "codepoints": [
@@ -5108,6 +5424,13 @@
     ],
     "description": "woman and man holding hands: dark skin tone"
   },
+  "1f46c": {
+    "char": "👬",
+    "codepoints": [
+      128108
+    ],
+    "description": "men holding hands"
+  },
   "1f46c.1": {
     "char": "👬🏻",
     "codepoints": [
@@ -5188,6 +5511,13 @@
     ],
     "description": "women holding hands: dark skin tone"
   },
+  "1f46e": {
+    "char": "👮",
+    "codepoints": [
+      128110
+    ],
+    "description": "police officer"
+  },
   "1f46e.1": {
     "char": "👮🏻",
     "codepoints": [
@@ -5234,7 +5564,7 @@
       128112,
       127995
     ],
-    "description": "bride with veil: light skin tone"
+    "description": "person with veil: light skin tone"
   },
   "1f470.2": {
     "char": "👰🏼",
@@ -5242,7 +5572,7 @@
       128112,
       127996
     ],
-    "description": "bride with veil: medium-light skin tone"
+    "description": "person with veil: medium-light skin tone"
   },
   "1f470.3": {
     "char": "👰🏽",
@@ -5250,7 +5580,7 @@
       128112,
       127997
     ],
-    "description": "bride with veil: medium skin tone"
+    "description": "person with veil: medium skin tone"
   },
   "1f470.4": {
     "char": "👰🏾",
@@ -5258,7 +5588,7 @@
       128112,
       127998
     ],
-    "description": "bride with veil: medium-dark skin tone"
+    "description": "person with veil: medium-dark skin tone"
   },
   "1f470.5": {
     "char": "👰🏿",
@@ -5266,7 +5596,7 @@
       128112,
       127999
     ],
-    "description": "bride with veil: dark skin tone"
+    "description": "person with veil: dark skin tone"
   },
   "1f471.1": {
     "char": "👱🏻",
@@ -5314,7 +5644,7 @@
       128114,
       127995
     ],
-    "description": "man with skullcap: light skin tone"
+    "description": "person with skullcap: light skin tone"
   },
   "1f472.2": {
     "char": "👲🏼",
@@ -5322,7 +5652,7 @@
       128114,
       127996
     ],
-    "description": "man with skullcap: medium-light skin tone"
+    "description": "person with skullcap: medium-light skin tone"
   },
   "1f472.3": {
     "char": "👲🏽",
@@ -5330,7 +5660,7 @@
       128114,
       127997
     ],
-    "description": "man with skullcap: medium skin tone"
+    "description": "person with skullcap: medium skin tone"
   },
   "1f472.4": {
     "char": "👲🏾",
@@ -5338,7 +5668,7 @@
       128114,
       127998
     ],
-    "description": "man with skullcap: medium-dark skin tone"
+    "description": "person with skullcap: medium-dark skin tone"
   },
   "1f472.5": {
     "char": "👲🏿",
@@ -5346,7 +5676,7 @@
       128114,
       127999
     ],
-    "description": "man with skullcap: dark skin tone"
+    "description": "person with skullcap: dark skin tone"
   },
   "1f473.1": {
     "char": "👳🏻",
@@ -5868,6 +6198,86 @@
     ],
     "description": "person getting haircut: dark skin tone"
   },
+  "1f48f.1": {
+    "char": "💏🏻",
+    "codepoints": [
+      128143,
+      127995
+    ],
+    "description": "kiss: light skin tone"
+  },
+  "1f48f.2": {
+    "char": "💏🏼",
+    "codepoints": [
+      128143,
+      127996
+    ],
+    "description": "kiss: medium-light skin tone"
+  },
+  "1f48f.3": {
+    "char": "💏🏽",
+    "codepoints": [
+      128143,
+      127997
+    ],
+    "description": "kiss: medium skin tone"
+  },
+  "1f48f.4": {
+    "char": "💏🏾",
+    "codepoints": [
+      128143,
+      127998
+    ],
+    "description": "kiss: medium-dark skin tone"
+  },
+  "1f48f.5": {
+    "char": "💏🏿",
+    "codepoints": [
+      128143,
+      127999
+    ],
+    "description": "kiss: dark skin tone"
+  },
+  "1f491.1": {
+    "char": "💑🏻",
+    "codepoints": [
+      128145,
+      127995
+    ],
+    "description": "couple with heart: light skin tone"
+  },
+  "1f491.2": {
+    "char": "💑🏼",
+    "codepoints": [
+      128145,
+      127996
+    ],
+    "description": "couple with heart: medium-light skin tone"
+  },
+  "1f491.3": {
+    "char": "💑🏽",
+    "codepoints": [
+      128145,
+      127997
+    ],
+    "description": "couple with heart: medium skin tone"
+  },
+  "1f491.4": {
+    "char": "💑🏾",
+    "codepoints": [
+      128145,
+      127998
+    ],
+    "description": "couple with heart: medium-dark skin tone"
+  },
+  "1f491.5": {
+    "char": "💑🏿",
+    "codepoints": [
+      128145,
+      127999
+    ],
+    "description": "couple with heart: dark skin tone"
+  },
   "1f4aa.1": {
     "char": "💪🏻",
     "codepoints": [
@@ -5908,6 +6318,90 @@
     ],
     "description": "flexed biceps: dark skin tone"
   },
+  "1f4ad": {
+    "char": "💭",
+    "codepoints": [
+      128173
+    ],
+    "description": "thought balloon"
+  },
+  "1f4ae": {
+    "char": "💮",
+    "codepoints": [
+      128174
+    ],
+    "description": "white flower"
+  },
+  "1f4b6": {
+    "char": "💶",
+    "codepoints": [
+      128182
+    ],
+    "description": "euro banknote"
+  },
+  "1f4b8": {
+    "char": "💸",
+    "codepoints": [
+      128184
+    ],
+    "description": "money with wings"
+  },
+  "1f4ec": {
+    "char": "📬",
+    "codepoints": [
+      128236
+    ],
+    "description": "open mailbox with raised flag"
+  },
+  "1f4ee": {
+    "char": "📮",
+    "codepoints": [
+      128238
+    ],
+    "description": "postbox"
+  },
+  "1f4ef": {
+    "char": "📯",
+    "codepoints": [
+      128239
+    ],
+    "description": "postal horn"
+  },
+  "1f4f0": {
+    "char": "📰",
+    "codepoints": [
+      128240
+    ],
+    "description": "newspaper"
+  },
+  "1f4f5": {
+    "char": "📵",
+    "codepoints": [
+      128245
+    ],
+    "description": "no mobile phones"
+  },
+  "1f4f6": {
+    "char": "📶",
+    "codepoints": [
+      128246
+    ],
+    "description": "antenna bars"
+  },
+  "1f4f8": {
+    "char": "📸",
+    "codepoints": [
+      128248
+    ],
+    "description": "camera with flash"
+  },
+  "1f4f9": {
+    "char": "📹",
+    "codepoints": [
+      128249
+    ],
+    "description": "video camera"
+  },
   "1f4fd": {
     "char": "📽️",
     "codepoints": [
@@ -5922,6 +6416,69 @@
       128255
     ],
     "description": "prayer beads"
+  },
+  "1f503": {
+    "char": "🔃",
+    "codepoints": [
+      128259
+    ],
+    "description": "clockwise vertical arrows"
+  },
+  "1f504": {
+    "char": "🔄",
+    "codepoints": [
+      128260
+    ],
+    "description": "counterclockwise arrows button"
+  },
+  "1f508": {
+    "char": "🔈",
+    "codepoints": [
+      128264
+    ],
+    "description": "speaker low volume"
+  },
+  "1f509": {
+    "char": "🔉",
+    "codepoints": [
+      128265
+    ],
+    "description": "speaker medium volume"
+  },
+  "1f50a": {
+    "char": "🔊",
+    "codepoints": [
+      128266
+    ],
+    "description": "speaker high volume"
+  },
+  "1f515": {
+    "char": "🔕",
+    "codepoints": [
+      128277
+    ],
+    "description": "bell with slash"
+  },
+  "1f516": {
+    "char": "🔖",
+    "codepoints": [
+      128278
+    ],
+    "description": "bookmark"
+  },
+  "1f52c": {
+    "char": "🔬",
+    "codepoints": [
+      128300
+    ],
+    "description": "microscope"
+  },
+  "1f52e": {
+    "char": "🔮",
+    "codepoints": [
+      128302
+    ],
+    "description": "crystal ball"
   },
   "1f549": {
     "char": "🕉️",
@@ -5953,6 +6510,13 @@
     ],
     "description": "one o’clock"
   },
+  "1f55c": {
+    "char": "🕜",
+    "codepoints": [
+      128348
+    ],
+    "description": "one-thirty"
+  },
   "1f56f": {
     "char": "🕯️",
     "codepoints": [
@@ -5983,7 +6547,7 @@
       128372,
       65039
     ],
-    "description": "man in suit levitating"
+    "description": "person in suit levitating"
   },
   "1f574.1": {
     "char": "🕴🏻",
@@ -5991,7 +6555,7 @@
       128372,
       127995
     ],
-    "description": "man in suit levitating: light skin tone"
+    "description": "person in suit levitating: light skin tone"
   },
   "1f574.2": {
     "char": "🕴🏼",
@@ -5999,7 +6563,7 @@
       128372,
       127996
     ],
-    "description": "man in suit levitating: medium-light skin tone"
+    "description": "person in suit levitating: medium-light skin tone"
   },
   "1f574.3": {
     "char": "🕴🏽",
@@ -6007,7 +6571,7 @@
       128372,
       127997
     ],
-    "description": "man in suit levitating: medium skin tone"
+    "description": "person in suit levitating: medium skin tone"
   },
   "1f574.4": {
     "char": "🕴🏾",
@@ -6015,7 +6579,7 @@
       128372,
       127998
     ],
-    "description": "man in suit levitating: medium-dark skin tone"
+    "description": "person in suit levitating: medium-dark skin tone"
   },
   "1f574.5": {
     "char": "🕴🏿",
@@ -6023,7 +6587,7 @@
       128372,
       127999
     ],
-    "description": "man in suit levitating: dark skin tone"
+    "description": "person in suit levitating: dark skin tone"
   },
   "1f575": {
     "char": "🕵️",
@@ -6501,6 +7065,223 @@
     ],
     "description": "mount fuji"
   },
+  "1f600": {
+    "char": "😀",
+    "codepoints": [
+      128512
+    ],
+    "description": "grinning face"
+  },
+  "1f601": {
+    "char": "😁",
+    "codepoints": [
+      128513
+    ],
+    "description": "beaming face with smiling eyes"
+  },
+  "1f607": {
+    "char": "😇",
+    "codepoints": [
+      128519
+    ],
+    "description": "smiling face with halo"
+  },
+  "1f609": {
+    "char": "😉",
+    "codepoints": [
+      128521
+    ],
+    "description": "winking face"
+  },
+  "1f60e": {
+    "char": "😎",
+    "codepoints": [
+      128526
+    ],
+    "description": "smiling face with sunglasses"
+  },
+  "1f60f": {
+    "char": "😏",
+    "codepoints": [
+      128527
+    ],
+    "description": "smirking face"
+  },
+  "1f610": {
+    "char": "😐",
+    "codepoints": [
+      128528
+    ],
+    "description": "neutral face"
+  },
+  "1f611": {
+    "char": "😑",
+    "codepoints": [
+      128529
+    ],
+    "description": "expressionless face"
+  },
+  "1f612": {
+    "char": "😒",
+    "codepoints": [
+      128530
+    ],
+    "description": "unamused face"
+  },
+  "1f615": {
+    "char": "😕",
+    "codepoints": [
+      128533
+    ],
+    "description": "confused face"
+  },
+  "1f616": {
+    "char": "😖",
+    "codepoints": [
+      128534
+    ],
+    "description": "confounded face"
+  },
+  "1f617": {
+    "char": "😗",
+    "codepoints": [
+      128535
+    ],
+    "description": "kissing face"
+  },
+  "1f618": {
+    "char": "😘",
+    "codepoints": [
+      128536
+    ],
+    "description": "face blowing a kiss"
+  },
+  "1f619": {
+    "char": "😙",
+    "codepoints": [
+      128537
+    ],
+    "description": "kissing face with smiling eyes"
+  },
+  "1f61a": {
+    "char": "😚",
+    "codepoints": [
+      128538
+    ],
+    "description": "kissing face with closed eyes"
+  },
+  "1f61b": {
+    "char": "😛",
+    "codepoints": [
+      128539
+    ],
+    "description": "face with tongue"
+  },
+  "1f61c": {
+    "char": "😜",
+    "codepoints": [
+      128540
+    ],
+    "description": "winking face with tongue"
+  },
+  "1f61f": {
+    "char": "😟",
+    "codepoints": [
+      128543
+    ],
+    "description": "worried face"
+  },
+  "1f620": {
+    "char": "😠",
+    "codepoints": [
+      128544
+    ],
+    "description": "angry face"
+  },
+  "1f626": {
+    "char": "😦",
+    "codepoints": [
+      128550
+    ],
+    "description": "frowning face with open mouth"
+  },
+  "1f628": {
+    "char": "😨",
+    "codepoints": [
+      128552
+    ],
+    "description": "fearful face"
+  },
+  "1f62c": {
+    "char": "😬",
+    "codepoints": [
+      128556
+    ],
+    "description": "grimacing face"
+  },
+  "1f62d": {
+    "char": "😭",
+    "codepoints": [
+      128557
+    ],
+    "description": "loudly crying face"
+  },
+  "1f62e": {
+    "char": "😮",
+    "codepoints": [
+      128558
+    ],
+    "description": "face with open mouth"
+  },
+  "1f630": {
+    "char": "😰",
+    "codepoints": [
+      128560
+    ],
+    "description": "anxious face with sweat"
+  },
+  "1f634": {
+    "char": "😴",
+    "codepoints": [
+      128564
+    ],
+    "description": "sleeping face"
+  },
+  "1f635": {
+    "char": "😵",
+    "codepoints": [
+      128565
+    ],
+    "description": "knocked-out face"
+  },
+  "1f636": {
+    "char": "😶",
+    "codepoints": [
+      128566
+    ],
+    "description": "face without mouth"
+  },
+  "1f637": {
+    "char": "😷",
+    "codepoints": [
+      128567
+    ],
+    "description": "face with medical mask"
+  },
+  "1f641": {
+    "char": "🙁",
+    "codepoints": [
+      128577
+    ],
+    "description": "slightly frowning face"
+  },
+  "1f645": {
+    "char": "🙅",
+    "codepoints": [
+      128581
+    ],
+    "description": "person gesturing NO"
+  },
   "1f645.1": {
     "char": "🙅🏻",
     "codepoints": [
@@ -6828,6 +7609,160 @@
     ],
     "description": "rocket"
   },
+  "1f681": {
+    "char": "🚁",
+    "codepoints": [
+      128641
+    ],
+    "description": "helicopter"
+  },
+  "1f683": {
+    "char": "🚃",
+    "codepoints": [
+      128643
+    ],
+    "description": "railway car"
+  },
+  "1f686": {
+    "char": "🚆",
+    "codepoints": [
+      128646
+    ],
+    "description": "train"
+  },
+  "1f687": {
+    "char": "🚇",
+    "codepoints": [
+      128647
+    ],
+    "description": "metro"
+  },
+  "1f688": {
+    "char": "🚈",
+    "codepoints": [
+      128648
+    ],
+    "description": "light rail"
+  },
+  "1f689": {
+    "char": "🚉",
+    "codepoints": [
+      128649
+    ],
+    "description": "station"
+  },
+  "1f68a": {
+    "char": "🚊",
+    "codepoints": [
+      128650
+    ],
+    "description": "tram"
+  },
+  "1f68c": {
+    "char": "🚌",
+    "codepoints": [
+      128652
+    ],
+    "description": "bus"
+  },
+  "1f68d": {
+    "char": "🚍",
+    "codepoints": [
+      128653
+    ],
+    "description": "oncoming bus"
+  },
+  "1f68e": {
+    "char": "🚎",
+    "codepoints": [
+      128654
+    ],
+    "description": "trolleybus"
+  },
+  "1f68f": {
+    "char": "🚏",
+    "codepoints": [
+      128655
+    ],
+    "description": "bus stop"
+  },
+  "1f690": {
+    "char": "🚐",
+    "codepoints": [
+      128656
+    ],
+    "description": "minibus"
+  },
+  "1f691": {
+    "char": "🚑",
+    "codepoints": [
+      128657
+    ],
+    "description": "ambulance"
+  },
+  "1f694": {
+    "char": "🚔",
+    "codepoints": [
+      128660
+    ],
+    "description": "oncoming police car"
+  },
+  "1f695": {
+    "char": "🚕",
+    "codepoints": [
+      128661
+    ],
+    "description": "taxi"
+  },
+  "1f696": {
+    "char": "🚖",
+    "codepoints": [
+      128662
+    ],
+    "description": "oncoming taxi"
+  },
+  "1f697": {
+    "char": "🚗",
+    "codepoints": [
+      128663
+    ],
+    "description": "automobile"
+  },
+  "1f698": {
+    "char": "🚘",
+    "codepoints": [
+      128664
+    ],
+    "description": "oncoming automobile"
+  },
+  "1f699": {
+    "char": "🚙",
+    "codepoints": [
+      128665
+    ],
+    "description": "sport utility vehicle"
+  },
+  "1f69b": {
+    "char": "🚛",
+    "codepoints": [
+      128667
+    ],
+    "description": "articulated lorry"
+  },
+  "1f6a2": {
+    "char": "🚢",
+    "codepoints": [
+      128674
+    ],
+    "description": "ship"
+  },
+  "1f6a3": {
+    "char": "🚣",
+    "codepoints": [
+      128675
+    ],
+    "description": "person rowing boat"
+  },
   "1f6a3.1": {
     "char": "🚣🏻",
     "codepoints": [
@@ -6867,6 +7802,48 @@
       127999
     ],
     "description": "person rowing boat: dark skin tone"
+  },
+  "1f6a4": {
+    "char": "🚤",
+    "codepoints": [
+      128676
+    ],
+    "description": "speedboat"
+  },
+  "1f6a6": {
+    "char": "🚦",
+    "codepoints": [
+      128678
+    ],
+    "description": "vertical traffic light"
+  },
+  "1f6a7": {
+    "char": "🚧",
+    "codepoints": [
+      128679
+    ],
+    "description": "construction"
+  },
+  "1f6ae": {
+    "char": "🚮",
+    "codepoints": [
+      128686
+    ],
+    "description": "litter in bin sign"
+  },
+  "1f6b2": {
+    "char": "🚲",
+    "codepoints": [
+      128690
+    ],
+    "description": "bicycle"
+  },
+  "1f6b3": {
+    "char": "🚳",
+    "codepoints": [
+      128691
+    ],
+    "description": "no bicycles"
   },
   "1f6b4.1": {
     "char": "🚴🏻",
@@ -6948,6 +7925,13 @@
     ],
     "description": "person mountain biking: dark skin tone"
   },
+  "1f6b6": {
+    "char": "🚶",
+    "codepoints": [
+      128694
+    ],
+    "description": "person walking"
+  },
   "1f6b6.1": {
     "char": "🚶🏻",
     "codepoints": [
@@ -6988,6 +7972,34 @@
     ],
     "description": "person walking: dark skin tone"
   },
+  "1f6b7": {
+    "char": "🚷",
+    "codepoints": [
+      128695
+    ],
+    "description": "no pedestrians"
+  },
+  "1f6b9": {
+    "char": "🚹",
+    "codepoints": [
+      128697
+    ],
+    "description": "men’s room"
+  },
+  "1f6bf": {
+    "char": "🚿",
+    "codepoints": [
+      128703
+    ],
+    "description": "shower"
+  },
+  "1f6c0": {
+    "char": "🛀",
+    "codepoints": [
+      128704
+    ],
+    "description": "person taking bath"
+  },
   "1f6c0.1": {
     "char": "🛀🏻",
     "codepoints": [
@@ -7027,6 +8039,13 @@
       127999
     ],
     "description": "person taking bath: dark skin tone"
+  },
+  "1f6c1": {
+    "char": "🛁",
+    "codepoints": [
+      128705
+    ],
+    "description": "bathtub"
   },
   "1f6cb": {
     "char": "🛋️",
@@ -7127,6 +8146,13 @@
       128725
     ],
     "description": "hindu temple"
+  },
+  "1f6d6": {
+    "char": "🛖",
+    "codepoints": [
+      128726
+    ],
+    "description": "hut"
   },
   "1f6e0": {
     "char": "🛠️",
@@ -7235,12 +8261,66 @@
     ],
     "description": "auto rickshaw"
   },
+  "1f6fb": {
+    "char": "🛻",
+    "codepoints": [
+      128763
+    ],
+    "description": "pickup truck"
+  },
   "1f7e0": {
     "char": "🟠",
     "codepoints": [
       128992
     ],
     "description": "orange circle"
+  },
+  "1f90c": {
+    "char": "🤌",
+    "codepoints": [
+      129292
+    ],
+    "description": "pinched fingers"
+  },
+  "1f90c.1": {
+    "char": "🤌🏻",
+    "codepoints": [
+      129292,
+      127995
+    ],
+    "description": "pinched fingers: light skin tone"
+  },
+  "1f90c.2": {
+    "char": "🤌🏼",
+    "codepoints": [
+      129292,
+      127996
+    ],
+    "description": "pinched fingers: medium-light skin tone"
+  },
+  "1f90c.3": {
+    "char": "🤌🏽",
+    "codepoints": [
+      129292,
+      127997
+    ],
+    "description": "pinched fingers: medium skin tone"
+  },
+  "1f90c.4": {
+    "char": "🤌🏾",
+    "codepoints": [
+      129292,
+      127998
+    ],
+    "description": "pinched fingers: medium-dark skin tone"
+  },
+  "1f90c.5": {
+    "char": "🤌🏿",
+    "codepoints": [
+      129292,
+      127999
+    ],
+    "description": "pinched fingers: dark skin tone"
   },
   "1f90d": {
     "char": "🤍",
@@ -7871,7 +8951,7 @@
       129333,
       127995
     ],
-    "description": "man in tuxedo: light skin tone"
+    "description": "person in tuxedo: light skin tone"
   },
   "1f935.2": {
     "char": "🤵🏼",
@@ -7879,7 +8959,7 @@
       129333,
       127996
     ],
-    "description": "man in tuxedo: medium-light skin tone"
+    "description": "person in tuxedo: medium-light skin tone"
   },
   "1f935.3": {
     "char": "🤵🏽",
@@ -7887,7 +8967,7 @@
       129333,
       127997
     ],
-    "description": "man in tuxedo: medium skin tone"
+    "description": "person in tuxedo: medium skin tone"
   },
   "1f935.4": {
     "char": "🤵🏾",
@@ -7895,7 +8975,7 @@
       129333,
       127998
     ],
-    "description": "man in tuxedo: medium-dark skin tone"
+    "description": "person in tuxedo: medium-dark skin tone"
   },
   "1f935.5": {
     "char": "🤵🏿",
@@ -7903,7 +8983,7 @@
       129333,
       127999
     ],
-    "description": "man in tuxedo: dark skin tone"
+    "description": "person in tuxedo: dark skin tone"
   },
   "1f936.1": {
     "char": "🤶🏻",
@@ -8215,12 +9295,66 @@
     ],
     "description": "yawning face"
   },
+  "1f972": {
+    "char": "🥲",
+    "codepoints": [
+      129394
+    ],
+    "description": "smiling face with tear"
+  },
   "1f973": {
     "char": "🥳",
     "codepoints": [
       129395
     ],
     "description": "partying face"
+  },
+  "1f977": {
+    "char": "🥷",
+    "codepoints": [
+      129399
+    ],
+    "description": "ninja"
+  },
+  "1f977.1": {
+    "char": "🥷🏻",
+    "codepoints": [
+      129399,
+      127995
+    ],
+    "description": "ninja: light skin tone"
+  },
+  "1f977.2": {
+    "char": "🥷🏼",
+    "codepoints": [
+      129399,
+      127996
+    ],
+    "description": "ninja: medium-light skin tone"
+  },
+  "1f977.3": {
+    "char": "🥷🏽",
+    "codepoints": [
+      129399,
+      127997
+    ],
+    "description": "ninja: medium skin tone"
+  },
+  "1f977.4": {
+    "char": "🥷🏾",
+    "codepoints": [
+      129399,
+      127998
+    ],
+    "description": "ninja: medium-dark skin tone"
+  },
+  "1f977.5": {
+    "char": "🥷🏿",
+    "codepoints": [
+      129399,
+      127999
+    ],
+    "description": "ninja: dark skin tone"
   },
   "1f97a": {
     "char": "🥺",
@@ -8271,12 +9405,26 @@
     ],
     "description": "kangaroo"
   },
+  "1f9a3": {
+    "char": "🦣",
+    "codepoints": [
+      129443
+    ],
+    "description": "mammoth"
+  },
   "1f9a5": {
     "char": "🦥",
     "codepoints": [
       129445
     ],
     "description": "sloth"
+  },
+  "1f9ab": {
+    "char": "🦫",
+    "codepoints": [
+      129451
+    ],
+    "description": "beaver"
   },
   "1f9ae": {
     "char": "🦮",
@@ -8519,6 +9667,13 @@
       129475
     ],
     "description": "beverage box"
+  },
+  "1f9cb": {
+    "char": "🧋",
+    "codepoints": [
+      129483
+    ],
+    "description": "bubble tea"
   },
   "1f9cd": {
     "char": "🧍",
@@ -8780,7 +9935,7 @@
       129492,
       127995
     ],
-    "description": "man: light skin tone, beard"
+    "description": "person: light skin tone, beard"
   },
   "1f9d4.2": {
     "char": "🧔🏼",
@@ -8788,7 +9943,7 @@
       129492,
       127996
     ],
-    "description": "man: medium-light skin tone, beard"
+    "description": "person: medium-light skin tone, beard"
   },
   "1f9d4.3": {
     "char": "🧔🏽",
@@ -8796,7 +9951,7 @@
       129492,
       127997
     ],
-    "description": "man: medium skin tone, beard"
+    "description": "person: medium skin tone, beard"
   },
   "1f9d4.4": {
     "char": "🧔🏾",
@@ -8804,7 +9959,7 @@
       129492,
       127998
     ],
-    "description": "man: medium-dark skin tone, beard"
+    "description": "person: medium-dark skin tone, beard"
   },
   "1f9d4.5": {
     "char": "🧔🏿",
@@ -8812,7 +9967,7 @@
       129492,
       127999
     ],
-    "description": "man: dark skin tone, beard"
+    "description": "person: dark skin tone, beard"
   },
   "1f9d5.1": {
     "char": "🧕🏻",
@@ -9188,6 +10343,13 @@
     ],
     "description": "ballet shoes"
   },
+  "1fa74": {
+    "char": "🩴",
+    "codepoints": [
+      129652
+    ],
+    "description": "thong sandal"
+  },
   "1fa78": {
     "char": "🩸",
     "codepoints": [
@@ -9202,11 +10364,46 @@
     ],
     "description": "yo-yo"
   },
+  "1fa83": {
+    "char": "🪃",
+    "codepoints": [
+      129667
+    ],
+    "description": "boomerang"
+  },
   "1fa90": {
     "char": "🪐",
     "codepoints": [
       129680
     ],
     "description": "ringed planet"
+  },
+  "1fa96": {
+    "char": "🪖",
+    "codepoints": [
+      129686
+    ],
+    "description": "military helmet"
+  },
+  "1fab0": {
+    "char": "🪰",
+    "codepoints": [
+      129712
+    ],
+    "description": "fly"
+  },
+  "1fac0": {
+    "char": "🫀",
+    "codepoints": [
+      129728
+    ],
+    "description": "anatomical heart"
+  },
+  "1fad0": {
+    "char": "🫐",
+    "codepoints": [
+      129744
+    ],
+    "description": "blueberries"
   }
 }

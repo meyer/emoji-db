@@ -131,6 +131,166 @@
     ],
     "name": "keycap: 9"
   },
+  "00a4": {
+    "char": "¤",
+    "codepoints": [
+      164
+    ],
+    "keywords": null,
+    "name": "Unknown Currency"
+  },
+  "058f": {
+    "char": "֏",
+    "codepoints": [
+      1423
+    ],
+    "keywords": null,
+    "name": "Armenian Dram"
+  },
+  "060b": {
+    "char": "؋",
+    "codepoints": [
+      1547
+    ],
+    "keywords": null,
+    "name": "Afghan Afghani"
+  },
+  "09f3": {
+    "char": "৳",
+    "codepoints": [
+      2547
+    ],
+    "keywords": null,
+    "name": "Bangladeshi Taka"
+  },
+  "0e3f": {
+    "char": "฿",
+    "codepoints": [
+      3647
+    ],
+    "keywords": null,
+    "name": "Thai Baht"
+  },
+  "17db": {
+    "char": "៛",
+    "codepoints": [
+      6107
+    ],
+    "keywords": null,
+    "name": "Cambodian Riel"
+  },
+  "20a1": {
+    "char": "₡",
+    "codepoints": [
+      8353
+    ],
+    "keywords": null,
+    "name": "Costa Rican Colón"
+  },
+  "20a6": {
+    "char": "₦",
+    "codepoints": [
+      8358
+    ],
+    "keywords": null,
+    "name": "Nigerian Naira"
+  },
+  "20a7": {
+    "char": "₧",
+    "codepoints": [
+      8359
+    ],
+    "keywords": null,
+    "name": "Spanish Peseta"
+  },
+  "20aa": {
+    "char": "₪",
+    "codepoints": [
+      8362
+    ],
+    "keywords": null,
+    "name": "Israeli New Shekel"
+  },
+  "20ab": {
+    "char": "₫",
+    "codepoints": [
+      8363
+    ],
+    "keywords": null,
+    "name": "Vietnamese Dong"
+  },
+  "20ad": {
+    "char": "₭",
+    "codepoints": [
+      8365
+    ],
+    "keywords": null,
+    "name": "Laotian Kip"
+  },
+  "20ae": {
+    "char": "₮",
+    "codepoints": [
+      8366
+    ],
+    "keywords": null,
+    "name": "Mongolian Tugrik"
+  },
+  "20b2": {
+    "char": "₲",
+    "codepoints": [
+      8370
+    ],
+    "keywords": null,
+    "name": "Paraguayan Guarani"
+  },
+  "20b4": {
+    "char": "₴",
+    "codepoints": [
+      8372
+    ],
+    "keywords": null,
+    "name": "Ukrainian Hryvnia"
+  },
+  "20b5": {
+    "char": "₵",
+    "codepoints": [
+      8373
+    ],
+    "keywords": null,
+    "name": "Ghanaian Cedi"
+  },
+  "20b8": {
+    "char": "₸",
+    "codepoints": [
+      8376
+    ],
+    "keywords": null,
+    "name": "Kazakhstani Tenge"
+  },
+  "20ba": {
+    "char": "₺",
+    "codepoints": [
+      8378
+    ],
+    "keywords": null,
+    "name": "Turkish Lira"
+  },
+  "20bc": {
+    "char": "₼",
+    "codepoints": [
+      8380
+    ],
+    "keywords": null,
+    "name": "Azerbaijani Manat"
+  },
+  "20be": {
+    "char": "₾",
+    "codepoints": [
+      8382
+    ],
+    "keywords": null,
+    "name": "Georgian Lari"
+  },
   "261d.1": {
     "char": "☝🏻",
     "codepoints": [
@@ -529,6 +689,8 @@
     ],
     "keywords": [
       "hand",
+      "high 5",
+      "high five",
       "light skin tone",
       "raised hand"
     ],
@@ -542,6 +704,8 @@
     ],
     "keywords": [
       "hand",
+      "high 5",
+      "high five",
       "medium-light skin tone",
       "raised hand"
     ],
@@ -555,6 +719,8 @@
     ],
     "keywords": [
       "hand",
+      "high 5",
+      "high five",
       "medium skin tone",
       "raised hand"
     ],
@@ -568,6 +734,8 @@
     ],
     "keywords": [
       "hand",
+      "high 5",
+      "high five",
       "medium-dark skin tone",
       "raised hand"
     ],
@@ -582,6 +750,8 @@
     "keywords": [
       "dark skin tone",
       "hand",
+      "high 5",
+      "high five",
       "raised hand"
     ],
     "name": "raised hand: dark skin tone"
@@ -6500,10 +6670,10 @@
       9878
     ],
     "keywords": [
+      "judge",
       "justice",
       "light skin tone",
       "man",
-      "man judge",
       "scales"
     ],
     "name": "man judge: light skin tone"
@@ -6523,6 +6693,219 @@
       "plane"
     ],
     "name": "man pilot: light skin tone"
+  },
+  "1f468_2764_1f468.1": {
+    "char": "👨🏻‍❤‍👨🏻",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      10084,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love",
+      "man"
+    ],
+    "name": "couple with heart: man, man, light skin tone"
+  },
+  "1f468_2764_1f468.12": {
+    "char": "👨🏻‍❤‍👨🏼",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      10084,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love",
+      "man",
+      "medium-light skin tone"
+    ],
+    "name": "couple with heart: man, man, light skin tone, medium-light skin tone"
+  },
+  "1f468_2764_1f468.13": {
+    "char": "👨🏻‍❤‍👨🏽",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      10084,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love",
+      "man",
+      "medium skin tone"
+    ],
+    "name": "couple with heart: man, man, light skin tone, medium skin tone"
+  },
+  "1f468_2764_1f468.14": {
+    "char": "👨🏻‍❤‍👨🏾",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      10084,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love",
+      "man",
+      "medium-dark skin tone"
+    ],
+    "name": "couple with heart: man, man, light skin tone, medium-dark skin tone"
+  },
+  "1f468_2764_1f468.15": {
+    "char": "👨🏻‍❤‍👨🏿",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      10084,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "light skin tone",
+      "love",
+      "man"
+    ],
+    "name": "couple with heart: man, man, light skin tone, dark skin tone"
+  },
+  "1f468_2764_1f48b_1f468.1": {
+    "char": "👨🏻‍❤‍💋‍👨🏻",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone",
+      "man"
+    ],
+    "name": "kiss: man, man, light skin tone"
+  },
+  "1f468_2764_1f48b_1f468.12": {
+    "char": "👨🏻‍❤‍💋‍👨🏼",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone",
+      "man",
+      "medium-light skin tone"
+    ],
+    "name": "kiss: man, man, light skin tone, medium-light skin tone"
+  },
+  "1f468_2764_1f48b_1f468.13": {
+    "char": "👨🏻‍❤‍💋‍👨🏽",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone",
+      "man",
+      "medium skin tone"
+    ],
+    "name": "kiss: man, man, light skin tone, medium skin tone"
+  },
+  "1f468_2764_1f48b_1f468.14": {
+    "char": "👨🏻‍❤‍💋‍👨🏾",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone",
+      "man",
+      "medium-dark skin tone"
+    ],
+    "name": "kiss: man, man, light skin tone, medium-dark skin tone"
+  },
+  "1f468_2764_1f48b_1f468.15": {
+    "char": "👨🏻‍❤‍💋‍👨🏿",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "light skin tone",
+      "man"
+    ],
+    "name": "kiss: man, man, light skin tone, dark skin tone"
   },
   "1f468_1f33e.1": {
     "char": "👨🏻‍🌾",
@@ -6556,6 +6939,23 @@
       "man"
     ],
     "name": "man cook: light skin tone"
+  },
+  "1f468_1f37c.1": {
+    "char": "👨🏻‍🍼",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      127868
+    ],
+    "keywords": [
+      "baby",
+      "feeding",
+      "light skin tone",
+      "man",
+      "nursing"
+    ],
+    "name": "man feeding baby: light skin tone"
   },
   "1f468_1f393.1": {
     "char": "👨🏻‍🎓",
@@ -6750,6 +7150,106 @@
     ],
     "name": "man firefighter: light skin tone"
   },
+  "1f46c.12": {
+    "char": "👨🏻‍🤝‍👨🏼",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      129309,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "light skin tone",
+      "man",
+      "medium-light skin tone",
+      "men",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "name": "men holding hands: light skin tone, medium-light skin tone"
+  },
+  "1f46c.13": {
+    "char": "👨🏻‍🤝‍👨🏽",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      129309,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "light skin tone",
+      "man",
+      "medium skin tone",
+      "men",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "name": "men holding hands: light skin tone, medium skin tone"
+  },
+  "1f46c.14": {
+    "char": "👨🏻‍🤝‍👨🏾",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      129309,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "light skin tone",
+      "man",
+      "medium-dark skin tone",
+      "men",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "name": "men holding hands: light skin tone, medium-dark skin tone"
+  },
+  "1f46c.15": {
+    "char": "👨🏻‍🤝‍👨🏿",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      129309,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "Gemini",
+      "holding hands",
+      "light skin tone",
+      "man",
+      "men",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "name": "men holding hands: light skin tone, dark skin tone"
+  },
   "1f468_1f9af.1": {
     "char": "👨🏻‍🦯",
     "codepoints": [
@@ -6763,9 +7263,9 @@
       "blind",
       "light skin tone",
       "man",
-      "man with probing cane"
+      "man with white cane"
     ],
-    "name": "man with probing cane: light skin tone"
+    "name": "man with white cane: light skin tone"
   },
   "1f468_1f9b0.1": {
     "char": "👨🏻‍🦰",
@@ -6906,9 +7406,9 @@
       9878
     ],
     "keywords": [
+      "judge",
       "justice",
       "man",
-      "man judge",
       "medium-light skin tone",
       "scales"
     ],
@@ -6929,6 +7429,219 @@
       "plane"
     ],
     "name": "man pilot: medium-light skin tone"
+  },
+  "1f468_2764_1f468.21": {
+    "char": "👨🏼‍❤‍👨🏻",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      10084,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love",
+      "man",
+      "medium-light skin tone"
+    ],
+    "name": "couple with heart: man, man, medium-light skin tone, light skin tone"
+  },
+  "1f468_2764_1f468.2": {
+    "char": "👨🏼‍❤‍👨🏼",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      10084,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "man",
+      "medium-light skin tone"
+    ],
+    "name": "couple with heart: man, man, medium-light skin tone"
+  },
+  "1f468_2764_1f468.23": {
+    "char": "👨🏼‍❤‍👨🏽",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      10084,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "man",
+      "medium skin tone",
+      "medium-light skin tone"
+    ],
+    "name": "couple with heart: man, man, medium-light skin tone, medium skin tone"
+  },
+  "1f468_2764_1f468.24": {
+    "char": "👨🏼‍❤‍👨🏾",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      10084,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "man",
+      "medium-dark skin tone",
+      "medium-light skin tone"
+    ],
+    "name": "couple with heart: man, man, medium-light skin tone, medium-dark skin tone"
+  },
+  "1f468_2764_1f468.25": {
+    "char": "👨🏼‍❤‍👨🏿",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      10084,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love",
+      "man",
+      "medium-light skin tone"
+    ],
+    "name": "couple with heart: man, man, medium-light skin tone, dark skin tone"
+  },
+  "1f468_2764_1f48b_1f468.21": {
+    "char": "👨🏼‍❤‍💋‍👨🏻",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone",
+      "man",
+      "medium-light skin tone"
+    ],
+    "name": "kiss: man, man, medium-light skin tone, light skin tone"
+  },
+  "1f468_2764_1f48b_1f468.2": {
+    "char": "👨🏼‍❤‍💋‍👨🏼",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "man",
+      "medium-light skin tone"
+    ],
+    "name": "kiss: man, man, medium-light skin tone"
+  },
+  "1f468_2764_1f48b_1f468.23": {
+    "char": "👨🏼‍❤‍💋‍👨🏽",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "man",
+      "medium skin tone",
+      "medium-light skin tone"
+    ],
+    "name": "kiss: man, man, medium-light skin tone, medium skin tone"
+  },
+  "1f468_2764_1f48b_1f468.24": {
+    "char": "👨🏼‍❤‍💋‍👨🏾",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "man",
+      "medium-dark skin tone",
+      "medium-light skin tone"
+    ],
+    "name": "kiss: man, man, medium-light skin tone, medium-dark skin tone"
+  },
+  "1f468_2764_1f48b_1f468.25": {
+    "char": "👨🏼‍❤‍💋‍👨🏿",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "man",
+      "medium-light skin tone"
+    ],
+    "name": "kiss: man, man, medium-light skin tone, dark skin tone"
   },
   "1f468_1f33e.2": {
     "char": "👨🏼‍🌾",
@@ -6962,6 +7675,23 @@
       "medium-light skin tone"
     ],
     "name": "man cook: medium-light skin tone"
+  },
+  "1f468_1f37c.2": {
+    "char": "👨🏼‍🍼",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      127868
+    ],
+    "keywords": [
+      "baby",
+      "feeding",
+      "man",
+      "medium-light skin tone",
+      "nursing"
+    ],
+    "name": "man feeding baby: medium-light skin tone"
   },
   "1f468_1f393.2": {
     "char": "👨🏼‍🎓",
@@ -7181,6 +7911,81 @@
     ],
     "name": "men holding hands: medium-light skin tone, light skin tone"
   },
+  "1f46c.23": {
+    "char": "👨🏼‍🤝‍👨🏽",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      129309,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "man",
+      "medium skin tone",
+      "medium-light skin tone",
+      "men",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "name": "men holding hands: medium-light skin tone, medium skin tone"
+  },
+  "1f46c.24": {
+    "char": "👨🏼‍🤝‍👨🏾",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      129309,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "man",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "men",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "name": "men holding hands: medium-light skin tone, medium-dark skin tone"
+  },
+  "1f46c.25": {
+    "char": "👨🏼‍🤝‍👨🏿",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      129309,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "Gemini",
+      "holding hands",
+      "man",
+      "medium-light skin tone",
+      "men",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "name": "men holding hands: medium-light skin tone, dark skin tone"
+  },
   "1f468_1f9af.2": {
     "char": "👨🏼‍🦯",
     "codepoints": [
@@ -7193,10 +7998,10 @@
       "accessibility",
       "blind",
       "man",
-      "man with probing cane",
+      "man with white cane",
       "medium-light skin tone"
     ],
-    "name": "man with probing cane: medium-light skin tone"
+    "name": "man with white cane: medium-light skin tone"
   },
   "1f468_1f9b0.2": {
     "char": "👨🏼‍🦰",
@@ -7337,9 +8142,9 @@
       9878
     ],
     "keywords": [
+      "judge",
       "justice",
       "man",
-      "man judge",
       "medium skin tone",
       "scales"
     ],
@@ -7360,6 +8165,219 @@
       "plane"
     ],
     "name": "man pilot: medium skin tone"
+  },
+  "1f468_2764_1f468.31": {
+    "char": "👨🏽‍❤‍👨🏻",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      10084,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love",
+      "man",
+      "medium skin tone"
+    ],
+    "name": "couple with heart: man, man, medium skin tone, light skin tone"
+  },
+  "1f468_2764_1f468.32": {
+    "char": "👨🏽‍❤‍👨🏼",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      10084,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "man",
+      "medium skin tone",
+      "medium-light skin tone"
+    ],
+    "name": "couple with heart: man, man, medium skin tone, medium-light skin tone"
+  },
+  "1f468_2764_1f468.3": {
+    "char": "👨🏽‍❤‍👨🏽",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      10084,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "man",
+      "medium skin tone"
+    ],
+    "name": "couple with heart: man, man, medium skin tone"
+  },
+  "1f468_2764_1f468.34": {
+    "char": "👨🏽‍❤‍👨🏾",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      10084,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "man",
+      "medium skin tone",
+      "medium-dark skin tone"
+    ],
+    "name": "couple with heart: man, man, medium skin tone, medium-dark skin tone"
+  },
+  "1f468_2764_1f468.35": {
+    "char": "👨🏽‍❤‍👨🏿",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      10084,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love",
+      "man",
+      "medium skin tone"
+    ],
+    "name": "couple with heart: man, man, medium skin tone, dark skin tone"
+  },
+  "1f468_2764_1f48b_1f468.31": {
+    "char": "👨🏽‍❤‍💋‍👨🏻",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone",
+      "man",
+      "medium skin tone"
+    ],
+    "name": "kiss: man, man, medium skin tone, light skin tone"
+  },
+  "1f468_2764_1f48b_1f468.32": {
+    "char": "👨🏽‍❤‍💋‍👨🏼",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "man",
+      "medium skin tone",
+      "medium-light skin tone"
+    ],
+    "name": "kiss: man, man, medium skin tone, medium-light skin tone"
+  },
+  "1f468_2764_1f48b_1f468.3": {
+    "char": "👨🏽‍❤‍💋‍👨🏽",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "man",
+      "medium skin tone"
+    ],
+    "name": "kiss: man, man, medium skin tone"
+  },
+  "1f468_2764_1f48b_1f468.34": {
+    "char": "👨🏽‍❤‍💋‍👨🏾",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "man",
+      "medium skin tone",
+      "medium-dark skin tone"
+    ],
+    "name": "kiss: man, man, medium skin tone, medium-dark skin tone"
+  },
+  "1f468_2764_1f48b_1f468.35": {
+    "char": "👨🏽‍❤‍💋‍👨🏿",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "man",
+      "medium skin tone"
+    ],
+    "name": "kiss: man, man, medium skin tone, dark skin tone"
   },
   "1f468_1f33e.3": {
     "char": "👨🏽‍🌾",
@@ -7393,6 +8411,23 @@
       "medium skin tone"
     ],
     "name": "man cook: medium skin tone"
+  },
+  "1f468_1f37c.3": {
+    "char": "👨🏽‍🍼",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      127868
+    ],
+    "keywords": [
+      "baby",
+      "feeding",
+      "man",
+      "medium skin tone",
+      "nursing"
+    ],
+    "name": "man feeding baby: medium skin tone"
   },
   "1f468_1f393.3": {
     "char": "👨🏽‍🎓",
@@ -7637,6 +8672,56 @@
     ],
     "name": "men holding hands: medium skin tone, medium-light skin tone"
   },
+  "1f46c.34": {
+    "char": "👨🏽‍🤝‍👨🏾",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      129309,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "man",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "men",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "name": "men holding hands: medium skin tone, medium-dark skin tone"
+  },
+  "1f46c.35": {
+    "char": "👨🏽‍🤝‍👨🏿",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      129309,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "Gemini",
+      "holding hands",
+      "man",
+      "medium skin tone",
+      "men",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "name": "men holding hands: medium skin tone, dark skin tone"
+  },
   "1f468_1f9af.3": {
     "char": "👨🏽‍🦯",
     "codepoints": [
@@ -7649,10 +8734,10 @@
       "accessibility",
       "blind",
       "man",
-      "man with probing cane",
+      "man with white cane",
       "medium skin tone"
     ],
-    "name": "man with probing cane: medium skin tone"
+    "name": "man with white cane: medium skin tone"
   },
   "1f468_1f9b0.3": {
     "char": "👨🏽‍🦰",
@@ -7793,9 +8878,9 @@
       9878
     ],
     "keywords": [
+      "judge",
       "justice",
       "man",
-      "man judge",
       "medium-dark skin tone",
       "scales"
     ],
@@ -7816,6 +8901,219 @@
       "plane"
     ],
     "name": "man pilot: medium-dark skin tone"
+  },
+  "1f468_2764_1f468.41": {
+    "char": "👨🏾‍❤‍👨🏻",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      10084,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love",
+      "man",
+      "medium-dark skin tone"
+    ],
+    "name": "couple with heart: man, man, medium-dark skin tone, light skin tone"
+  },
+  "1f468_2764_1f468.42": {
+    "char": "👨🏾‍❤‍👨🏼",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      10084,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "man",
+      "medium-dark skin tone",
+      "medium-light skin tone"
+    ],
+    "name": "couple with heart: man, man, medium-dark skin tone, medium-light skin tone"
+  },
+  "1f468_2764_1f468.43": {
+    "char": "👨🏾‍❤‍👨🏽",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      10084,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "man",
+      "medium skin tone",
+      "medium-dark skin tone"
+    ],
+    "name": "couple with heart: man, man, medium-dark skin tone, medium skin tone"
+  },
+  "1f468_2764_1f468.4": {
+    "char": "👨🏾‍❤‍👨🏾",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      10084,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "man",
+      "medium-dark skin tone"
+    ],
+    "name": "couple with heart: man, man, medium-dark skin tone"
+  },
+  "1f468_2764_1f468.45": {
+    "char": "👨🏾‍❤‍👨🏿",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      10084,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love",
+      "man",
+      "medium-dark skin tone"
+    ],
+    "name": "couple with heart: man, man, medium-dark skin tone, dark skin tone"
+  },
+  "1f468_2764_1f48b_1f468.41": {
+    "char": "👨🏾‍❤‍💋‍👨🏻",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone",
+      "man",
+      "medium-dark skin tone"
+    ],
+    "name": "kiss: man, man, medium-dark skin tone, light skin tone"
+  },
+  "1f468_2764_1f48b_1f468.42": {
+    "char": "👨🏾‍❤‍💋‍👨🏼",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "man",
+      "medium-dark skin tone",
+      "medium-light skin tone"
+    ],
+    "name": "kiss: man, man, medium-dark skin tone, medium-light skin tone"
+  },
+  "1f468_2764_1f48b_1f468.43": {
+    "char": "👨🏾‍❤‍💋‍👨🏽",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "man",
+      "medium skin tone",
+      "medium-dark skin tone"
+    ],
+    "name": "kiss: man, man, medium-dark skin tone, medium skin tone"
+  },
+  "1f468_2764_1f48b_1f468.4": {
+    "char": "👨🏾‍❤‍💋‍👨🏾",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "man",
+      "medium-dark skin tone"
+    ],
+    "name": "kiss: man, man, medium-dark skin tone"
+  },
+  "1f468_2764_1f48b_1f468.45": {
+    "char": "👨🏾‍❤‍💋‍👨🏿",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "man",
+      "medium-dark skin tone"
+    ],
+    "name": "kiss: man, man, medium-dark skin tone, dark skin tone"
   },
   "1f468_1f33e.4": {
     "char": "👨🏾‍🌾",
@@ -7849,6 +9147,23 @@
       "medium-dark skin tone"
     ],
     "name": "man cook: medium-dark skin tone"
+  },
+  "1f468_1f37c.4": {
+    "char": "👨🏾‍🍼",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      127868
+    ],
+    "keywords": [
+      "baby",
+      "feeding",
+      "man",
+      "medium-dark skin tone",
+      "nursing"
+    ],
+    "name": "man feeding baby: medium-dark skin tone"
   },
   "1f468_1f393.4": {
     "char": "👨🏾‍🎓",
@@ -8118,6 +9433,31 @@
     ],
     "name": "men holding hands: medium-dark skin tone, medium skin tone"
   },
+  "1f46c.45": {
+    "char": "👨🏾‍🤝‍👨🏿",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      129309,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "Gemini",
+      "holding hands",
+      "man",
+      "medium-dark skin tone",
+      "men",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "name": "men holding hands: medium-dark skin tone, dark skin tone"
+  },
   "1f468_1f9af.4": {
     "char": "👨🏾‍🦯",
     "codepoints": [
@@ -8130,10 +9470,10 @@
       "accessibility",
       "blind",
       "man",
-      "man with probing cane",
+      "man with white cane",
       "medium-dark skin tone"
     ],
-    "name": "man with probing cane: medium-dark skin tone"
+    "name": "man with white cane: medium-dark skin tone"
   },
   "1f468_1f9b0.4": {
     "char": "👨🏾‍🦰",
@@ -8275,9 +9615,9 @@
     ],
     "keywords": [
       "dark skin tone",
+      "judge",
       "justice",
       "man",
-      "man judge",
       "scales"
     ],
     "name": "man judge: dark skin tone"
@@ -8297,6 +9637,219 @@
       "plane"
     ],
     "name": "man pilot: dark skin tone"
+  },
+  "1f468_2764_1f468.51": {
+    "char": "👨🏿‍❤‍👨🏻",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      10084,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "light skin tone",
+      "love",
+      "man"
+    ],
+    "name": "couple with heart: man, man, dark skin tone, light skin tone"
+  },
+  "1f468_2764_1f468.52": {
+    "char": "👨🏿‍❤‍👨🏼",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      10084,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love",
+      "man",
+      "medium-light skin tone"
+    ],
+    "name": "couple with heart: man, man, dark skin tone, medium-light skin tone"
+  },
+  "1f468_2764_1f468.53": {
+    "char": "👨🏿‍❤‍👨🏽",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      10084,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love",
+      "man",
+      "medium skin tone"
+    ],
+    "name": "couple with heart: man, man, dark skin tone, medium skin tone"
+  },
+  "1f468_2764_1f468.54": {
+    "char": "👨🏿‍❤‍👨🏾",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      10084,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love",
+      "man",
+      "medium-dark skin tone"
+    ],
+    "name": "couple with heart: man, man, dark skin tone, medium-dark skin tone"
+  },
+  "1f468_2764_1f468.5": {
+    "char": "👨🏿‍❤‍👨🏿",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      10084,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love",
+      "man"
+    ],
+    "name": "couple with heart: man, man, dark skin tone"
+  },
+  "1f468_2764_1f48b_1f468.51": {
+    "char": "👨🏿‍❤‍💋‍👨🏻",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "light skin tone",
+      "man"
+    ],
+    "name": "kiss: man, man, dark skin tone, light skin tone"
+  },
+  "1f468_2764_1f48b_1f468.52": {
+    "char": "👨🏿‍❤‍💋‍👨🏼",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "man",
+      "medium-light skin tone"
+    ],
+    "name": "kiss: man, man, dark skin tone, medium-light skin tone"
+  },
+  "1f468_2764_1f48b_1f468.53": {
+    "char": "👨🏿‍❤‍💋‍👨🏽",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "man",
+      "medium skin tone"
+    ],
+    "name": "kiss: man, man, dark skin tone, medium skin tone"
+  },
+  "1f468_2764_1f48b_1f468.54": {
+    "char": "👨🏿‍❤‍💋‍👨🏾",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "man",
+      "medium-dark skin tone"
+    ],
+    "name": "kiss: man, man, dark skin tone, medium-dark skin tone"
+  },
+  "1f468_2764_1f48b_1f468.5": {
+    "char": "👨🏿‍❤‍💋‍👨🏿",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "man"
+    ],
+    "name": "kiss: man, man, dark skin tone"
   },
   "1f468_1f33e.5": {
     "char": "👨🏿‍🌾",
@@ -8330,6 +9883,23 @@
       "man"
     ],
     "name": "man cook: dark skin tone"
+  },
+  "1f468_1f37c.5": {
+    "char": "👨🏿‍🍼",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      127868
+    ],
+    "keywords": [
+      "baby",
+      "dark skin tone",
+      "feeding",
+      "man",
+      "nursing"
+    ],
+    "name": "man feeding baby: dark skin tone"
   },
   "1f468_1f393.5": {
     "char": "👨🏿‍🎓",
@@ -8637,9 +10207,9 @@
       "blind",
       "dark skin tone",
       "man",
-      "man with probing cane"
+      "man with white cane"
     ],
-    "name": "man with probing cane: dark skin tone"
+    "name": "man with white cane: dark skin tone"
   },
   "1f468_1f9b0.5": {
     "char": "👨🏿‍🦰",
@@ -9073,6 +10643,7 @@
     ],
     "keywords": [
       "judge",
+      "justice",
       "light skin tone",
       "scales",
       "woman"
@@ -9094,6 +10665,442 @@
       "woman"
     ],
     "name": "woman pilot: light skin tone"
+  },
+  "1f469_2764_1f468.1": {
+    "char": "👩🏻‍❤‍👨🏻",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      10084,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love",
+      "man",
+      "woman"
+    ],
+    "name": "couple with heart: woman, man, light skin tone"
+  },
+  "1f469_2764_1f468.12": {
+    "char": "👩🏻‍❤‍👨🏼",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      10084,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love",
+      "man",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, man, light skin tone, medium-light skin tone"
+  },
+  "1f469_2764_1f468.13": {
+    "char": "👩🏻‍❤‍👨🏽",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      10084,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love",
+      "man",
+      "medium skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, man, light skin tone, medium skin tone"
+  },
+  "1f469_2764_1f468.14": {
+    "char": "👩🏻‍❤‍👨🏾",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      10084,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love",
+      "man",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, man, light skin tone, medium-dark skin tone"
+  },
+  "1f469_2764_1f468.15": {
+    "char": "👩🏻‍❤‍👨🏿",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      10084,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "light skin tone",
+      "love",
+      "man",
+      "woman"
+    ],
+    "name": "couple with heart: woman, man, light skin tone, dark skin tone"
+  },
+  "1f469_2764_1f469.1": {
+    "char": "👩🏻‍❤‍👩🏻",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      10084,
+      8205,
+      128105,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love",
+      "woman"
+    ],
+    "name": "couple with heart: woman, woman, light skin tone"
+  },
+  "1f469_2764_1f469.12": {
+    "char": "👩🏻‍❤‍👩🏼",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      10084,
+      8205,
+      128105,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, woman, light skin tone, medium-light skin tone"
+  },
+  "1f469_2764_1f469.13": {
+    "char": "👩🏻‍❤‍👩🏽",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      10084,
+      8205,
+      128105,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love",
+      "medium skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, woman, light skin tone, medium skin tone"
+  },
+  "1f469_2764_1f469.14": {
+    "char": "👩🏻‍❤‍👩🏾",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      10084,
+      8205,
+      128105,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, woman, light skin tone, medium-dark skin tone"
+  },
+  "1f469_2764_1f469.15": {
+    "char": "👩🏻‍❤‍👩🏿",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      10084,
+      8205,
+      128105,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "light skin tone",
+      "love",
+      "woman"
+    ],
+    "name": "couple with heart: woman, woman, light skin tone, dark skin tone"
+  },
+  "1f469_2764_1f48b_1f468.1": {
+    "char": "👩🏻‍❤‍💋‍👨🏻",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone",
+      "man",
+      "woman"
+    ],
+    "name": "kiss: woman, man, light skin tone"
+  },
+  "1f469_2764_1f48b_1f468.12": {
+    "char": "👩🏻‍❤‍💋‍👨🏼",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone",
+      "man",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, man, light skin tone, medium-light skin tone"
+  },
+  "1f469_2764_1f48b_1f468.13": {
+    "char": "👩🏻‍❤‍💋‍👨🏽",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone",
+      "man",
+      "medium skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, man, light skin tone, medium skin tone"
+  },
+  "1f469_2764_1f48b_1f468.14": {
+    "char": "👩🏻‍❤‍💋‍👨🏾",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone",
+      "man",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, man, light skin tone, medium-dark skin tone"
+  },
+  "1f469_2764_1f48b_1f468.15": {
+    "char": "👩🏻‍❤‍💋‍👨🏿",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "light skin tone",
+      "man",
+      "woman"
+    ],
+    "name": "kiss: woman, man, light skin tone, dark skin tone"
+  },
+  "1f469_2764_1f48b_1f469.1": {
+    "char": "👩🏻‍❤‍💋‍👩🏻",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128105,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, woman, light skin tone"
+  },
+  "1f469_2764_1f48b_1f469.12": {
+    "char": "👩🏻‍❤‍💋‍👩🏼",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128105,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, woman, light skin tone, medium-light skin tone"
+  },
+  "1f469_2764_1f48b_1f469.13": {
+    "char": "👩🏻‍❤‍💋‍👩🏽",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128105,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone",
+      "medium skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, woman, light skin tone, medium skin tone"
+  },
+  "1f469_2764_1f48b_1f469.14": {
+    "char": "👩🏻‍❤‍💋‍👩🏾",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128105,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, woman, light skin tone, medium-dark skin tone"
+  },
+  "1f469_2764_1f48b_1f469.15": {
+    "char": "👩🏻‍❤‍💋‍👩🏿",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128105,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "light skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, woman, light skin tone, dark skin tone"
   },
   "1f469_1f33e.1": {
     "char": "👩🏻‍🌾",
@@ -9127,6 +11134,23 @@
       "woman"
     ],
     "name": "woman cook: light skin tone"
+  },
+  "1f469_1f37c.1": {
+    "char": "👩🏻‍🍼",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      127868
+    ],
+    "keywords": [
+      "baby",
+      "feeding",
+      "light skin tone",
+      "nursing",
+      "woman"
+    ],
+    "name": "woman feeding baby: light skin tone"
   },
   "1f469_1f393.1": {
     "char": "👩🏻‍🎓",
@@ -9417,6 +11441,94 @@
     ],
     "name": "woman and man holding hands: light skin tone, dark skin tone"
   },
+  "1f46d.12": {
+    "char": "👩🏻‍🤝‍👩🏼",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      129309,
+      8205,
+      128105,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "hand",
+      "holding hands",
+      "light skin tone",
+      "medium-light skin tone",
+      "women",
+      "women holding hands"
+    ],
+    "name": "women holding hands: light skin tone, medium-light skin tone"
+  },
+  "1f46d.13": {
+    "char": "👩🏻‍🤝‍👩🏽",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      129309,
+      8205,
+      128105,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "hand",
+      "holding hands",
+      "light skin tone",
+      "medium skin tone",
+      "women",
+      "women holding hands"
+    ],
+    "name": "women holding hands: light skin tone, medium skin tone"
+  },
+  "1f46d.14": {
+    "char": "👩🏻‍🤝‍👩🏾",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      129309,
+      8205,
+      128105,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "hand",
+      "holding hands",
+      "light skin tone",
+      "medium-dark skin tone",
+      "women",
+      "women holding hands"
+    ],
+    "name": "women holding hands: light skin tone, medium-dark skin tone"
+  },
+  "1f46d.15": {
+    "char": "👩🏻‍🤝‍👩🏿",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      129309,
+      8205,
+      128105,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "hand",
+      "holding hands",
+      "light skin tone",
+      "women",
+      "women holding hands"
+    ],
+    "name": "women holding hands: light skin tone, dark skin tone"
+  },
   "1f469_1f9af.1": {
     "char": "👩🏻‍🦯",
     "codepoints": [
@@ -9430,9 +11542,9 @@
       "blind",
       "light skin tone",
       "woman",
-      "woman with probing cane"
+      "woman with white cane"
     ],
-    "name": "woman with probing cane: light skin tone"
+    "name": "woman with white cane: light skin tone"
   },
   "1f469_1f9b0.1": {
     "char": "👩🏻‍🦰",
@@ -9574,6 +11686,7 @@
     ],
     "keywords": [
       "judge",
+      "justice",
       "medium-light skin tone",
       "scales",
       "woman"
@@ -9595,6 +11708,442 @@
       "woman"
     ],
     "name": "woman pilot: medium-light skin tone"
+  },
+  "1f469_2764_1f468.21": {
+    "char": "👩🏼‍❤‍👨🏻",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      10084,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love",
+      "man",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, man, medium-light skin tone, light skin tone"
+  },
+  "1f469_2764_1f468.2": {
+    "char": "👩🏼‍❤‍👨🏼",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      10084,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "man",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, man, medium-light skin tone"
+  },
+  "1f469_2764_1f468.23": {
+    "char": "👩🏼‍❤‍👨🏽",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      10084,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "man",
+      "medium skin tone",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, man, medium-light skin tone, medium skin tone"
+  },
+  "1f469_2764_1f468.24": {
+    "char": "👩🏼‍❤‍👨🏾",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      10084,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "man",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, man, medium-light skin tone, medium-dark skin tone"
+  },
+  "1f469_2764_1f468.25": {
+    "char": "👩🏼‍❤‍👨🏿",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      10084,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love",
+      "man",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, man, medium-light skin tone, dark skin tone"
+  },
+  "1f469_2764_1f469.21": {
+    "char": "👩🏼‍❤‍👩🏻",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      10084,
+      8205,
+      128105,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, woman, medium-light skin tone, light skin tone"
+  },
+  "1f469_2764_1f469.2": {
+    "char": "👩🏼‍❤‍👩🏼",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      10084,
+      8205,
+      128105,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, woman, medium-light skin tone"
+  },
+  "1f469_2764_1f469.23": {
+    "char": "👩🏼‍❤‍👩🏽",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      10084,
+      8205,
+      128105,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "medium skin tone",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, woman, medium-light skin tone, medium skin tone"
+  },
+  "1f469_2764_1f469.24": {
+    "char": "👩🏼‍❤‍👩🏾",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      10084,
+      8205,
+      128105,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, woman, medium-light skin tone, medium-dark skin tone"
+  },
+  "1f469_2764_1f469.25": {
+    "char": "👩🏼‍❤‍👩🏿",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      10084,
+      8205,
+      128105,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, woman, medium-light skin tone, dark skin tone"
+  },
+  "1f469_2764_1f48b_1f468.21": {
+    "char": "👩🏼‍❤‍💋‍👨🏻",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone",
+      "man",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, man, medium-light skin tone, light skin tone"
+  },
+  "1f469_2764_1f48b_1f468.2": {
+    "char": "👩🏼‍❤‍💋‍👨🏼",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "man",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, man, medium-light skin tone"
+  },
+  "1f469_2764_1f48b_1f468.23": {
+    "char": "👩🏼‍❤‍💋‍👨🏽",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "man",
+      "medium skin tone",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, man, medium-light skin tone, medium skin tone"
+  },
+  "1f469_2764_1f48b_1f468.24": {
+    "char": "👩🏼‍❤‍💋‍👨🏾",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "man",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, man, medium-light skin tone, medium-dark skin tone"
+  },
+  "1f469_2764_1f48b_1f468.25": {
+    "char": "👩🏼‍❤‍💋‍👨🏿",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "man",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, man, medium-light skin tone, dark skin tone"
+  },
+  "1f469_2764_1f48b_1f469.21": {
+    "char": "👩🏼‍❤‍💋‍👩🏻",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128105,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, woman, medium-light skin tone, light skin tone"
+  },
+  "1f469_2764_1f48b_1f469.2": {
+    "char": "👩🏼‍❤‍💋‍👩🏼",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128105,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, woman, medium-light skin tone"
+  },
+  "1f469_2764_1f48b_1f469.23": {
+    "char": "👩🏼‍❤‍💋‍👩🏽",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128105,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "medium skin tone",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, woman, medium-light skin tone, medium skin tone"
+  },
+  "1f469_2764_1f48b_1f469.24": {
+    "char": "👩🏼‍❤‍💋‍👩🏾",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128105,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, woman, medium-light skin tone, medium-dark skin tone"
+  },
+  "1f469_2764_1f48b_1f469.25": {
+    "char": "👩🏼‍❤‍💋‍👩🏿",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128105,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, woman, medium-light skin tone, dark skin tone"
   },
   "1f469_1f33e.2": {
     "char": "👩🏼‍🌾",
@@ -9628,6 +12177,23 @@
       "woman"
     ],
     "name": "woman cook: medium-light skin tone"
+  },
+  "1f469_1f37c.2": {
+    "char": "👩🏼‍🍼",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      127868
+    ],
+    "keywords": [
+      "baby",
+      "feeding",
+      "medium-light skin tone",
+      "nursing",
+      "woman"
+    ],
+    "name": "woman feeding baby: medium-light skin tone"
   },
   "1f469_1f393.2": {
     "char": "👩🏼‍🎓",
@@ -9940,6 +12506,72 @@
     ],
     "name": "women holding hands: medium-light skin tone, light skin tone"
   },
+  "1f46d.23": {
+    "char": "👩🏼‍🤝‍👩🏽",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      129309,
+      8205,
+      128105,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "hand",
+      "holding hands",
+      "medium skin tone",
+      "medium-light skin tone",
+      "women",
+      "women holding hands"
+    ],
+    "name": "women holding hands: medium-light skin tone, medium skin tone"
+  },
+  "1f46d.24": {
+    "char": "👩🏼‍🤝‍👩🏾",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      129309,
+      8205,
+      128105,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "hand",
+      "holding hands",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "women",
+      "women holding hands"
+    ],
+    "name": "women holding hands: medium-light skin tone, medium-dark skin tone"
+  },
+  "1f46d.25": {
+    "char": "👩🏼‍🤝‍👩🏿",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      129309,
+      8205,
+      128105,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "hand",
+      "holding hands",
+      "medium-light skin tone",
+      "women",
+      "women holding hands"
+    ],
+    "name": "women holding hands: medium-light skin tone, dark skin tone"
+  },
   "1f469_1f9af.2": {
     "char": "👩🏼‍🦯",
     "codepoints": [
@@ -9953,9 +12585,9 @@
       "blind",
       "medium-light skin tone",
       "woman",
-      "woman with probing cane"
+      "woman with white cane"
     ],
-    "name": "woman with probing cane: medium-light skin tone"
+    "name": "woman with white cane: medium-light skin tone"
   },
   "1f469_1f9b0.2": {
     "char": "👩🏼‍🦰",
@@ -10097,6 +12729,7 @@
     ],
     "keywords": [
       "judge",
+      "justice",
       "medium skin tone",
       "scales",
       "woman"
@@ -10118,6 +12751,442 @@
       "woman"
     ],
     "name": "woman pilot: medium skin tone"
+  },
+  "1f469_2764_1f468.31": {
+    "char": "👩🏽‍❤‍👨🏻",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      10084,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love",
+      "man",
+      "medium skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, man, medium skin tone, light skin tone"
+  },
+  "1f469_2764_1f468.32": {
+    "char": "👩🏽‍❤‍👨🏼",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      10084,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "man",
+      "medium skin tone",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, man, medium skin tone, medium-light skin tone"
+  },
+  "1f469_2764_1f468.3": {
+    "char": "👩🏽‍❤‍👨🏽",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      10084,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "man",
+      "medium skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, man, medium skin tone"
+  },
+  "1f469_2764_1f468.34": {
+    "char": "👩🏽‍❤‍👨🏾",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      10084,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "man",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, man, medium skin tone, medium-dark skin tone"
+  },
+  "1f469_2764_1f468.35": {
+    "char": "👩🏽‍❤‍👨🏿",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      10084,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love",
+      "man",
+      "medium skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, man, medium skin tone, dark skin tone"
+  },
+  "1f469_2764_1f469.31": {
+    "char": "👩🏽‍❤‍👩🏻",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      10084,
+      8205,
+      128105,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love",
+      "medium skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, woman, medium skin tone, light skin tone"
+  },
+  "1f469_2764_1f469.32": {
+    "char": "👩🏽‍❤‍👩🏼",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      10084,
+      8205,
+      128105,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "medium skin tone",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, woman, medium skin tone, medium-light skin tone"
+  },
+  "1f469_2764_1f469.3": {
+    "char": "👩🏽‍❤‍👩🏽",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      10084,
+      8205,
+      128105,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "medium skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, woman, medium skin tone"
+  },
+  "1f469_2764_1f469.34": {
+    "char": "👩🏽‍❤‍👩🏾",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      10084,
+      8205,
+      128105,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, woman, medium skin tone, medium-dark skin tone"
+  },
+  "1f469_2764_1f469.35": {
+    "char": "👩🏽‍❤‍👩🏿",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      10084,
+      8205,
+      128105,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love",
+      "medium skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, woman, medium skin tone, dark skin tone"
+  },
+  "1f469_2764_1f48b_1f468.31": {
+    "char": "👩🏽‍❤‍💋‍👨🏻",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone",
+      "man",
+      "medium skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, man, medium skin tone, light skin tone"
+  },
+  "1f469_2764_1f48b_1f468.32": {
+    "char": "👩🏽‍❤‍💋‍👨🏼",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "man",
+      "medium skin tone",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, man, medium skin tone, medium-light skin tone"
+  },
+  "1f469_2764_1f48b_1f468.3": {
+    "char": "👩🏽‍❤‍💋‍👨🏽",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "man",
+      "medium skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, man, medium skin tone"
+  },
+  "1f469_2764_1f48b_1f468.34": {
+    "char": "👩🏽‍❤‍💋‍👨🏾",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "man",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, man, medium skin tone, medium-dark skin tone"
+  },
+  "1f469_2764_1f48b_1f468.35": {
+    "char": "👩🏽‍❤‍💋‍👨🏿",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "man",
+      "medium skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, man, medium skin tone, dark skin tone"
+  },
+  "1f469_2764_1f48b_1f469.31": {
+    "char": "👩🏽‍❤‍💋‍👩🏻",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128105,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone",
+      "medium skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, woman, medium skin tone, light skin tone"
+  },
+  "1f469_2764_1f48b_1f469.32": {
+    "char": "👩🏽‍❤‍💋‍👩🏼",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128105,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "medium skin tone",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, woman, medium skin tone, medium-light skin tone"
+  },
+  "1f469_2764_1f48b_1f469.3": {
+    "char": "👩🏽‍❤‍💋‍👩🏽",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128105,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "medium skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, woman, medium skin tone"
+  },
+  "1f469_2764_1f48b_1f469.34": {
+    "char": "👩🏽‍❤‍💋‍👩🏾",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128105,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, woman, medium skin tone, medium-dark skin tone"
+  },
+  "1f469_2764_1f48b_1f469.35": {
+    "char": "👩🏽‍❤‍💋‍👩🏿",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128105,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "medium skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, woman, medium skin tone, dark skin tone"
   },
   "1f469_1f33e.3": {
     "char": "👩🏽‍🌾",
@@ -10151,6 +13220,23 @@
       "woman"
     ],
     "name": "woman cook: medium skin tone"
+  },
+  "1f469_1f37c.3": {
+    "char": "👩🏽‍🍼",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      127868
+    ],
+    "keywords": [
+      "baby",
+      "feeding",
+      "medium skin tone",
+      "nursing",
+      "woman"
+    ],
+    "name": "woman feeding baby: medium skin tone"
   },
   "1f469_1f393.3": {
     "char": "👩🏽‍🎓",
@@ -10485,6 +13571,50 @@
     ],
     "name": "women holding hands: medium skin tone, medium-light skin tone"
   },
+  "1f46d.34": {
+    "char": "👩🏽‍🤝‍👩🏾",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      129309,
+      8205,
+      128105,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "hand",
+      "holding hands",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "women",
+      "women holding hands"
+    ],
+    "name": "women holding hands: medium skin tone, medium-dark skin tone"
+  },
+  "1f46d.35": {
+    "char": "👩🏽‍🤝‍👩🏿",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      129309,
+      8205,
+      128105,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "hand",
+      "holding hands",
+      "medium skin tone",
+      "women",
+      "women holding hands"
+    ],
+    "name": "women holding hands: medium skin tone, dark skin tone"
+  },
   "1f469_1f9af.3": {
     "char": "👩🏽‍🦯",
     "codepoints": [
@@ -10498,9 +13628,9 @@
       "blind",
       "medium skin tone",
       "woman",
-      "woman with probing cane"
+      "woman with white cane"
     ],
-    "name": "woman with probing cane: medium skin tone"
+    "name": "woman with white cane: medium skin tone"
   },
   "1f469_1f9b0.3": {
     "char": "👩🏽‍🦰",
@@ -10642,6 +13772,7 @@
     ],
     "keywords": [
       "judge",
+      "justice",
       "medium-dark skin tone",
       "scales",
       "woman"
@@ -10663,6 +13794,442 @@
       "woman"
     ],
     "name": "woman pilot: medium-dark skin tone"
+  },
+  "1f469_2764_1f468.41": {
+    "char": "👩🏾‍❤‍👨🏻",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      10084,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love",
+      "man",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, man, medium-dark skin tone, light skin tone"
+  },
+  "1f469_2764_1f468.42": {
+    "char": "👩🏾‍❤‍👨🏼",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      10084,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "man",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, man, medium-dark skin tone, medium-light skin tone"
+  },
+  "1f469_2764_1f468.43": {
+    "char": "👩🏾‍❤‍👨🏽",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      10084,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "man",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, man, medium-dark skin tone, medium skin tone"
+  },
+  "1f469_2764_1f468.4": {
+    "char": "👩🏾‍❤‍👨🏾",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      10084,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "man",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, man, medium-dark skin tone"
+  },
+  "1f469_2764_1f468.45": {
+    "char": "👩🏾‍❤‍👨🏿",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      10084,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love",
+      "man",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, man, medium-dark skin tone, dark skin tone"
+  },
+  "1f469_2764_1f469.41": {
+    "char": "👩🏾‍❤‍👩🏻",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      10084,
+      8205,
+      128105,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, woman, medium-dark skin tone, light skin tone"
+  },
+  "1f469_2764_1f469.42": {
+    "char": "👩🏾‍❤‍👩🏼",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      10084,
+      8205,
+      128105,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, woman, medium-dark skin tone, medium-light skin tone"
+  },
+  "1f469_2764_1f469.43": {
+    "char": "👩🏾‍❤‍👩🏽",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      10084,
+      8205,
+      128105,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, woman, medium-dark skin tone, medium skin tone"
+  },
+  "1f469_2764_1f469.4": {
+    "char": "👩🏾‍❤‍👩🏾",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      10084,
+      8205,
+      128105,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, woman, medium-dark skin tone"
+  },
+  "1f469_2764_1f469.45": {
+    "char": "👩🏾‍❤‍👩🏿",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      10084,
+      8205,
+      128105,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, woman, medium-dark skin tone, dark skin tone"
+  },
+  "1f469_2764_1f48b_1f468.41": {
+    "char": "👩🏾‍❤‍💋‍👨🏻",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone",
+      "man",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, man, medium-dark skin tone, light skin tone"
+  },
+  "1f469_2764_1f48b_1f468.42": {
+    "char": "👩🏾‍❤‍💋‍👨🏼",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "man",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, man, medium-dark skin tone, medium-light skin tone"
+  },
+  "1f469_2764_1f48b_1f468.43": {
+    "char": "👩🏾‍❤‍💋‍👨🏽",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "man",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, man, medium-dark skin tone, medium skin tone"
+  },
+  "1f469_2764_1f48b_1f468.4": {
+    "char": "👩🏾‍❤‍💋‍👨🏾",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "man",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, man, medium-dark skin tone"
+  },
+  "1f469_2764_1f48b_1f468.45": {
+    "char": "👩🏾‍❤‍💋‍👨🏿",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "man",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, man, medium-dark skin tone, dark skin tone"
+  },
+  "1f469_2764_1f48b_1f469.41": {
+    "char": "👩🏾‍❤‍💋‍👩🏻",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128105,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, woman, medium-dark skin tone, light skin tone"
+  },
+  "1f469_2764_1f48b_1f469.42": {
+    "char": "👩🏾‍❤‍💋‍👩🏼",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128105,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, woman, medium-dark skin tone, medium-light skin tone"
+  },
+  "1f469_2764_1f48b_1f469.43": {
+    "char": "👩🏾‍❤‍💋‍👩🏽",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128105,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, woman, medium-dark skin tone, medium skin tone"
+  },
+  "1f469_2764_1f48b_1f469.4": {
+    "char": "👩🏾‍❤‍💋‍👩🏾",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128105,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, woman, medium-dark skin tone"
+  },
+  "1f469_2764_1f48b_1f469.45": {
+    "char": "👩🏾‍❤‍💋‍👩🏿",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128105,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, woman, medium-dark skin tone, dark skin tone"
   },
   "1f469_1f33e.4": {
     "char": "👩🏾‍🌾",
@@ -10696,6 +14263,23 @@
       "woman"
     ],
     "name": "woman cook: medium-dark skin tone"
+  },
+  "1f469_1f37c.4": {
+    "char": "👩🏾‍🍼",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      127868
+    ],
+    "keywords": [
+      "baby",
+      "feeding",
+      "medium-dark skin tone",
+      "nursing",
+      "woman"
+    ],
+    "name": "woman feeding baby: medium-dark skin tone"
   },
   "1f469_1f393.4": {
     "char": "👩🏾‍🎓",
@@ -11052,6 +14636,28 @@
     ],
     "name": "women holding hands: medium-dark skin tone, medium skin tone"
   },
+  "1f46d.45": {
+    "char": "👩🏾‍🤝‍👩🏿",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      129309,
+      8205,
+      128105,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "hand",
+      "holding hands",
+      "medium-dark skin tone",
+      "women",
+      "women holding hands"
+    ],
+    "name": "women holding hands: medium-dark skin tone, dark skin tone"
+  },
   "1f469_1f9af.4": {
     "char": "👩🏾‍🦯",
     "codepoints": [
@@ -11065,9 +14671,9 @@
       "blind",
       "medium-dark skin tone",
       "woman",
-      "woman with probing cane"
+      "woman with white cane"
     ],
-    "name": "woman with probing cane: medium-dark skin tone"
+    "name": "woman with white cane: medium-dark skin tone"
   },
   "1f469_1f9b0.4": {
     "char": "👩🏾‍🦰",
@@ -11210,6 +14816,7 @@
     "keywords": [
       "dark skin tone",
       "judge",
+      "justice",
       "scales",
       "woman"
     ],
@@ -11230,6 +14837,442 @@
       "woman"
     ],
     "name": "woman pilot: dark skin tone"
+  },
+  "1f469_2764_1f468.51": {
+    "char": "👩🏿‍❤‍👨🏻",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      10084,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "light skin tone",
+      "love",
+      "man",
+      "woman"
+    ],
+    "name": "couple with heart: woman, man, dark skin tone, light skin tone"
+  },
+  "1f469_2764_1f468.52": {
+    "char": "👩🏿‍❤‍👨🏼",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      10084,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love",
+      "man",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, man, dark skin tone, medium-light skin tone"
+  },
+  "1f469_2764_1f468.53": {
+    "char": "👩🏿‍❤‍👨🏽",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      10084,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love",
+      "man",
+      "medium skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, man, dark skin tone, medium skin tone"
+  },
+  "1f469_2764_1f468.54": {
+    "char": "👩🏿‍❤‍👨🏾",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      10084,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love",
+      "man",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, man, dark skin tone, medium-dark skin tone"
+  },
+  "1f469_2764_1f468.5": {
+    "char": "👩🏿‍❤‍👨🏿",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      10084,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love",
+      "man",
+      "woman"
+    ],
+    "name": "couple with heart: woman, man, dark skin tone"
+  },
+  "1f469_2764_1f469.51": {
+    "char": "👩🏿‍❤‍👩🏻",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      10084,
+      8205,
+      128105,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "light skin tone",
+      "love",
+      "woman"
+    ],
+    "name": "couple with heart: woman, woman, dark skin tone, light skin tone"
+  },
+  "1f469_2764_1f469.52": {
+    "char": "👩🏿‍❤‍👩🏼",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      10084,
+      8205,
+      128105,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, woman, dark skin tone, medium-light skin tone"
+  },
+  "1f469_2764_1f469.53": {
+    "char": "👩🏿‍❤‍👩🏽",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      10084,
+      8205,
+      128105,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love",
+      "medium skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, woman, dark skin tone, medium skin tone"
+  },
+  "1f469_2764_1f469.54": {
+    "char": "👩🏿‍❤‍👩🏾",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      10084,
+      8205,
+      128105,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "couple with heart: woman, woman, dark skin tone, medium-dark skin tone"
+  },
+  "1f469_2764_1f469.5": {
+    "char": "👩🏿‍❤‍👩🏿",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      10084,
+      8205,
+      128105,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love",
+      "woman"
+    ],
+    "name": "couple with heart: woman, woman, dark skin tone"
+  },
+  "1f469_2764_1f48b_1f468.51": {
+    "char": "👩🏿‍❤‍💋‍👨🏻",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "light skin tone",
+      "man",
+      "woman"
+    ],
+    "name": "kiss: woman, man, dark skin tone, light skin tone"
+  },
+  "1f469_2764_1f48b_1f468.52": {
+    "char": "👩🏿‍❤‍💋‍👨🏼",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "man",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, man, dark skin tone, medium-light skin tone"
+  },
+  "1f469_2764_1f48b_1f468.53": {
+    "char": "👩🏿‍❤‍💋‍👨🏽",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "man",
+      "medium skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, man, dark skin tone, medium skin tone"
+  },
+  "1f469_2764_1f48b_1f468.54": {
+    "char": "👩🏿‍❤‍💋‍👨🏾",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "man",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, man, dark skin tone, medium-dark skin tone"
+  },
+  "1f469_2764_1f48b_1f468.5": {
+    "char": "👩🏿‍❤‍💋‍👨🏿",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "man",
+      "woman"
+    ],
+    "name": "kiss: woman, man, dark skin tone"
+  },
+  "1f469_2764_1f48b_1f469.51": {
+    "char": "👩🏿‍❤‍💋‍👩🏻",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128105,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "light skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, woman, dark skin tone, light skin tone"
+  },
+  "1f469_2764_1f48b_1f469.52": {
+    "char": "👩🏿‍❤‍💋‍👩🏼",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128105,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, woman, dark skin tone, medium-light skin tone"
+  },
+  "1f469_2764_1f48b_1f469.53": {
+    "char": "👩🏿‍❤‍💋‍👩🏽",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128105,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "medium skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, woman, dark skin tone, medium skin tone"
+  },
+  "1f469_2764_1f48b_1f469.54": {
+    "char": "👩🏿‍❤‍💋‍👩🏾",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128105,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "name": "kiss: woman, woman, dark skin tone, medium-dark skin tone"
+  },
+  "1f469_2764_1f48b_1f469.5": {
+    "char": "👩🏿‍❤‍💋‍👩🏿",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      128105,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "woman"
+    ],
+    "name": "kiss: woman, woman, dark skin tone"
   },
   "1f469_1f33e.5": {
     "char": "👩🏿‍🌾",
@@ -11263,6 +15306,23 @@
       "woman"
     ],
     "name": "woman cook: dark skin tone"
+  },
+  "1f469_1f37c.5": {
+    "char": "👩🏿‍🍼",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      127868
+    ],
+    "keywords": [
+      "baby",
+      "dark skin tone",
+      "feeding",
+      "nursing",
+      "woman"
+    ],
+    "name": "woman feeding baby: dark skin tone"
   },
   "1f469_1f393.5": {
     "char": "👩🏿‍🎓",
@@ -11654,9 +15714,9 @@
       "blind",
       "dark skin tone",
       "woman",
-      "woman with probing cane"
+      "woman with white cane"
     ],
-    "name": "woman with probing cane: dark skin tone"
+    "name": "woman with white cane: dark skin tone"
   },
   "1f469_1f9b0.5": {
     "char": "👩🏿‍🦰",
@@ -12269,12 +16329,45 @@
     ],
     "keywords": [
       "bride",
-      "bride with veil",
       "light skin tone",
+      "person",
+      "person with veil",
       "veil",
       "wedding"
     ],
-    "name": "bride with veil: light skin tone"
+    "name": "person with veil: light skin tone"
+  },
+  "1f470.1.W": {
+    "char": "👰🏻‍♀",
+    "codepoints": [
+      128112,
+      127995,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "light skin tone",
+      "veil",
+      "woman",
+      "woman with veil"
+    ],
+    "name": "woman with veil: light skin tone"
+  },
+  "1f470.1.M": {
+    "char": "👰🏻‍♂",
+    "codepoints": [
+      128112,
+      127995,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "light skin tone",
+      "man",
+      "man with veil",
+      "veil"
+    ],
+    "name": "man with veil: light skin tone"
   },
   "1f470.2": {
     "char": "👰🏼",
@@ -12284,12 +16377,45 @@
     ],
     "keywords": [
       "bride",
-      "bride with veil",
       "medium-light skin tone",
+      "person",
+      "person with veil",
       "veil",
       "wedding"
     ],
-    "name": "bride with veil: medium-light skin tone"
+    "name": "person with veil: medium-light skin tone"
+  },
+  "1f470.2.W": {
+    "char": "👰🏼‍♀",
+    "codepoints": [
+      128112,
+      127996,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "medium-light skin tone",
+      "veil",
+      "woman",
+      "woman with veil"
+    ],
+    "name": "woman with veil: medium-light skin tone"
+  },
+  "1f470.2.M": {
+    "char": "👰🏼‍♂",
+    "codepoints": [
+      128112,
+      127996,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "man",
+      "man with veil",
+      "medium-light skin tone",
+      "veil"
+    ],
+    "name": "man with veil: medium-light skin tone"
   },
   "1f470.3": {
     "char": "👰🏽",
@@ -12299,12 +16425,45 @@
     ],
     "keywords": [
       "bride",
-      "bride with veil",
       "medium skin tone",
+      "person",
+      "person with veil",
       "veil",
       "wedding"
     ],
-    "name": "bride with veil: medium skin tone"
+    "name": "person with veil: medium skin tone"
+  },
+  "1f470.3.W": {
+    "char": "👰🏽‍♀",
+    "codepoints": [
+      128112,
+      127997,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "medium skin tone",
+      "veil",
+      "woman",
+      "woman with veil"
+    ],
+    "name": "woman with veil: medium skin tone"
+  },
+  "1f470.3.M": {
+    "char": "👰🏽‍♂",
+    "codepoints": [
+      128112,
+      127997,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "man",
+      "man with veil",
+      "medium skin tone",
+      "veil"
+    ],
+    "name": "man with veil: medium skin tone"
   },
   "1f470.4": {
     "char": "👰🏾",
@@ -12314,12 +16473,45 @@
     ],
     "keywords": [
       "bride",
-      "bride with veil",
       "medium-dark skin tone",
+      "person",
+      "person with veil",
       "veil",
       "wedding"
     ],
-    "name": "bride with veil: medium-dark skin tone"
+    "name": "person with veil: medium-dark skin tone"
+  },
+  "1f470.4.W": {
+    "char": "👰🏾‍♀",
+    "codepoints": [
+      128112,
+      127998,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "medium-dark skin tone",
+      "veil",
+      "woman",
+      "woman with veil"
+    ],
+    "name": "woman with veil: medium-dark skin tone"
+  },
+  "1f470.4.M": {
+    "char": "👰🏾‍♂",
+    "codepoints": [
+      128112,
+      127998,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "man",
+      "man with veil",
+      "medium-dark skin tone",
+      "veil"
+    ],
+    "name": "man with veil: medium-dark skin tone"
   },
   "1f470.5": {
     "char": "👰🏿",
@@ -12329,12 +16521,45 @@
     ],
     "keywords": [
       "bride",
-      "bride with veil",
       "dark skin tone",
+      "person",
+      "person with veil",
       "veil",
       "wedding"
     ],
-    "name": "bride with veil: dark skin tone"
+    "name": "person with veil: dark skin tone"
+  },
+  "1f470.5.W": {
+    "char": "👰🏿‍♀",
+    "codepoints": [
+      128112,
+      127999,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "dark skin tone",
+      "veil",
+      "woman",
+      "woman with veil"
+    ],
+    "name": "woman with veil: dark skin tone"
+  },
+  "1f470.5.M": {
+    "char": "👰🏿‍♂",
+    "codepoints": [
+      128112,
+      127999,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "dark skin tone",
+      "man",
+      "man with veil",
+      "veil"
+    ],
+    "name": "man with veil: dark skin tone"
   },
   "1f471.1": {
     "char": "👱🏻",
@@ -12607,10 +16832,11 @@
       "gua pi mao",
       "hat",
       "light skin tone",
-      "man",
+      "person",
+      "person with skullcap",
       "skullcap"
     ],
-    "name": "man with skullcap: light skin tone"
+    "name": "person with skullcap: light skin tone"
   },
   "1f472.2": {
     "char": "👲🏼",
@@ -12622,11 +16848,12 @@
       "cap",
       "gua pi mao",
       "hat",
-      "man",
       "medium-light skin tone",
+      "person",
+      "person with skullcap",
       "skullcap"
     ],
-    "name": "man with skullcap: medium-light skin tone"
+    "name": "person with skullcap: medium-light skin tone"
   },
   "1f472.3": {
     "char": "👲🏽",
@@ -12638,11 +16865,12 @@
       "cap",
       "gua pi mao",
       "hat",
-      "man",
       "medium skin tone",
+      "person",
+      "person with skullcap",
       "skullcap"
     ],
-    "name": "man with skullcap: medium skin tone"
+    "name": "person with skullcap: medium skin tone"
   },
   "1f472.4": {
     "char": "👲🏾",
@@ -12654,11 +16882,12 @@
       "cap",
       "gua pi mao",
       "hat",
-      "man",
       "medium-dark skin tone",
+      "person",
+      "person with skullcap",
       "skullcap"
     ],
-    "name": "man with skullcap: medium-dark skin tone"
+    "name": "person with skullcap: medium-dark skin tone"
   },
   "1f472.5": {
     "char": "👲🏿",
@@ -12671,10 +16900,11 @@
       "dark skin tone",
       "gua pi mao",
       "hat",
-      "man",
+      "person",
+      "person with skullcap",
       "skullcap"
     ],
-    "name": "man with skullcap: dark skin tone"
+    "name": "person with skullcap: dark skin tone"
   },
   "1f473.1": {
     "char": "👳🏻",
@@ -13958,6 +18188,7 @@
       127995
     ],
     "keywords": [
+      "dance",
       "dancing",
       "light skin tone",
       "woman"
@@ -13971,6 +18202,7 @@
       127996
     ],
     "keywords": [
+      "dance",
       "dancing",
       "medium-light skin tone",
       "woman"
@@ -13984,6 +18216,7 @@
       127997
     ],
     "keywords": [
+      "dance",
       "dancing",
       "medium skin tone",
       "woman"
@@ -13997,6 +18230,7 @@
       127998
     ],
     "keywords": [
+      "dance",
       "dancing",
       "medium-dark skin tone",
       "woman"
@@ -14010,6 +18244,7 @@
       127999
     ],
     "keywords": [
+      "dance",
       "dancing",
       "dark skin tone",
       "woman"
@@ -14581,6 +18816,141 @@
     ],
     "name": "man getting haircut: dark skin tone"
   },
+  "1f48f.1": {
+    "char": "💏🏻",
+    "codepoints": [
+      128143,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone"
+    ],
+    "name": "kiss: light skin tone"
+  },
+  "1f48f.2": {
+    "char": "💏🏼",
+    "codepoints": [
+      128143,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "medium-light skin tone"
+    ],
+    "name": "kiss: medium-light skin tone"
+  },
+  "1f48f.3": {
+    "char": "💏🏽",
+    "codepoints": [
+      128143,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "medium skin tone"
+    ],
+    "name": "kiss: medium skin tone"
+  },
+  "1f48f.4": {
+    "char": "💏🏾",
+    "codepoints": [
+      128143,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "medium-dark skin tone"
+    ],
+    "name": "kiss: medium-dark skin tone"
+  },
+  "1f48f.5": {
+    "char": "💏🏿",
+    "codepoints": [
+      128143,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss"
+    ],
+    "name": "kiss: dark skin tone"
+  },
+  "1f491.1": {
+    "char": "💑🏻",
+    "codepoints": [
+      128145,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love"
+    ],
+    "name": "couple with heart: light skin tone"
+  },
+  "1f491.2": {
+    "char": "💑🏼",
+    "codepoints": [
+      128145,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "medium-light skin tone"
+    ],
+    "name": "couple with heart: medium-light skin tone"
+  },
+  "1f491.3": {
+    "char": "💑🏽",
+    "codepoints": [
+      128145,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "medium skin tone"
+    ],
+    "name": "couple with heart: medium skin tone"
+  },
+  "1f491.4": {
+    "char": "💑🏾",
+    "codepoints": [
+      128145,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "medium-dark skin tone"
+    ],
+    "name": "couple with heart: medium-dark skin tone"
+  },
+  "1f491.5": {
+    "char": "💑🏿",
+    "codepoints": [
+      128145,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love"
+    ],
+    "name": "couple with heart: dark skin tone"
+  },
   "1f4aa.1": {
     "char": "💪🏻",
     "codepoints": [
@@ -14680,11 +19050,11 @@
     "keywords": [
       "business",
       "light skin tone",
-      "man",
-      "man in suit levitating",
+      "person",
+      "person in suit levitating",
       "suit"
     ],
-    "name": "man in suit levitating: light skin tone"
+    "name": "person in suit levitating: light skin tone"
   },
   "1f574.2": {
     "char": "🕴🏼",
@@ -14694,12 +19064,12 @@
     ],
     "keywords": [
       "business",
-      "man",
-      "man in suit levitating",
       "medium-light skin tone",
+      "person",
+      "person in suit levitating",
       "suit"
     ],
-    "name": "man in suit levitating: medium-light skin tone"
+    "name": "person in suit levitating: medium-light skin tone"
   },
   "1f574.3": {
     "char": "🕴🏽",
@@ -14709,12 +19079,12 @@
     ],
     "keywords": [
       "business",
-      "man",
-      "man in suit levitating",
       "medium skin tone",
+      "person",
+      "person in suit levitating",
       "suit"
     ],
-    "name": "man in suit levitating: medium skin tone"
+    "name": "person in suit levitating: medium skin tone"
   },
   "1f574.4": {
     "char": "🕴🏾",
@@ -14724,12 +19094,12 @@
     ],
     "keywords": [
       "business",
-      "man",
-      "man in suit levitating",
       "medium-dark skin tone",
+      "person",
+      "person in suit levitating",
       "suit"
     ],
-    "name": "man in suit levitating: medium-dark skin tone"
+    "name": "person in suit levitating: medium-dark skin tone"
   },
   "1f574.5": {
     "char": "🕴🏿",
@@ -14740,11 +19110,11 @@
     "keywords": [
       "business",
       "dark skin tone",
-      "man",
-      "man in suit levitating",
+      "person",
+      "person in suit levitating",
       "suit"
     ],
-    "name": "man in suit levitating: dark skin tone"
+    "name": "person in suit levitating: dark skin tone"
   },
   "1f575.1": {
     "char": "🕵🏻",
@@ -14994,9 +19364,9 @@
     ],
     "keywords": [
       "dance",
+      "dancing",
       "light skin tone",
-      "man",
-      "man dancing"
+      "man"
     ],
     "name": "man dancing: light skin tone"
   },
@@ -15008,8 +19378,8 @@
     ],
     "keywords": [
       "dance",
+      "dancing",
       "man",
-      "man dancing",
       "medium-light skin tone"
     ],
     "name": "man dancing: medium-light skin tone"
@@ -15022,8 +19392,8 @@
     ],
     "keywords": [
       "dance",
+      "dancing",
       "man",
-      "man dancing",
       "medium skin tone"
     ],
     "name": "man dancing: medium skin tone"
@@ -15036,8 +19406,8 @@
     ],
     "keywords": [
       "dance",
+      "dancing",
       "man",
-      "man dancing",
       "medium-dark skin tone"
     ],
     "name": "man dancing: medium-dark skin tone"
@@ -15050,9 +19420,9 @@
     ],
     "keywords": [
       "dance",
+      "dancing",
       "dark skin tone",
-      "man",
-      "man dancing"
+      "man"
     ],
     "name": "man dancing: dark skin tone"
   },
@@ -16881,6 +21251,8 @@
       "ask",
       "folded hands",
       "hand",
+      "high 5",
+      "high five",
       "light skin tone",
       "please",
       "pray",
@@ -16898,6 +21270,8 @@
       "ask",
       "folded hands",
       "hand",
+      "high 5",
+      "high five",
       "medium-light skin tone",
       "please",
       "pray",
@@ -16915,6 +21289,8 @@
       "ask",
       "folded hands",
       "hand",
+      "high 5",
+      "high five",
       "medium skin tone",
       "please",
       "pray",
@@ -16932,6 +21308,8 @@
       "ask",
       "folded hands",
       "hand",
+      "high 5",
+      "high five",
       "medium-dark skin tone",
       "please",
       "pray",
@@ -16950,6 +21328,8 @@
       "dark skin tone",
       "folded hands",
       "hand",
+      "high 5",
+      "high five",
       "please",
       "pray",
       "thanks"
@@ -18100,6 +22480,86 @@
       "sleep"
     ],
     "name": "person in bed: dark skin tone"
+  },
+  "1f90c.1": {
+    "char": "🤌🏻",
+    "codepoints": [
+      129292,
+      127995
+    ],
+    "keywords": [
+      "fingers",
+      "hand gesture",
+      "interrogation",
+      "light skin tone",
+      "pinched",
+      "sarcastic"
+    ],
+    "name": "pinched fingers: light skin tone"
+  },
+  "1f90c.2": {
+    "char": "🤌🏼",
+    "codepoints": [
+      129292,
+      127996
+    ],
+    "keywords": [
+      "fingers",
+      "hand gesture",
+      "interrogation",
+      "medium-light skin tone",
+      "pinched",
+      "sarcastic"
+    ],
+    "name": "pinched fingers: medium-light skin tone"
+  },
+  "1f90c.3": {
+    "char": "🤌🏽",
+    "codepoints": [
+      129292,
+      127997
+    ],
+    "keywords": [
+      "fingers",
+      "hand gesture",
+      "interrogation",
+      "medium skin tone",
+      "pinched",
+      "sarcastic"
+    ],
+    "name": "pinched fingers: medium skin tone"
+  },
+  "1f90c.4": {
+    "char": "🤌🏾",
+    "codepoints": [
+      129292,
+      127998
+    ],
+    "keywords": [
+      "fingers",
+      "hand gesture",
+      "interrogation",
+      "medium-dark skin tone",
+      "pinched",
+      "sarcastic"
+    ],
+    "name": "pinched fingers: medium-dark skin tone"
+  },
+  "1f90c.5": {
+    "char": "🤌🏿",
+    "codepoints": [
+      129292,
+      127999
+    ],
+    "keywords": [
+      "dark skin tone",
+      "fingers",
+      "hand gesture",
+      "interrogation",
+      "pinched",
+      "sarcastic"
+    ],
+    "name": "pinched fingers: dark skin tone"
   },
   "1f90f.1": {
     "char": "🤏🏻",
@@ -19280,6 +23740,38 @@
     "keywords": [
       "groom",
       "light skin tone",
+      "person",
+      "person in tuxedo",
+      "tuxedo"
+    ],
+    "name": "person in tuxedo: light skin tone"
+  },
+  "1f935.1.W": {
+    "char": "🤵🏻‍♀",
+    "codepoints": [
+      129333,
+      127995,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "light skin tone",
+      "tuxedo",
+      "woman",
+      "woman in tuxedo"
+    ],
+    "name": "woman in tuxedo: light skin tone"
+  },
+  "1f935.1.M": {
+    "char": "🤵🏻‍♂",
+    "codepoints": [
+      129333,
+      127995,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "light skin tone",
       "man",
       "man in tuxedo",
       "tuxedo"
@@ -19294,6 +23786,38 @@
     ],
     "keywords": [
       "groom",
+      "medium-light skin tone",
+      "person",
+      "person in tuxedo",
+      "tuxedo"
+    ],
+    "name": "person in tuxedo: medium-light skin tone"
+  },
+  "1f935.2.W": {
+    "char": "🤵🏼‍♀",
+    "codepoints": [
+      129333,
+      127996,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "medium-light skin tone",
+      "tuxedo",
+      "woman",
+      "woman in tuxedo"
+    ],
+    "name": "woman in tuxedo: medium-light skin tone"
+  },
+  "1f935.2.M": {
+    "char": "🤵🏼‍♂",
+    "codepoints": [
+      129333,
+      127996,
+      8205,
+      9794
+    ],
+    "keywords": [
       "man",
       "man in tuxedo",
       "medium-light skin tone",
@@ -19309,6 +23833,38 @@
     ],
     "keywords": [
       "groom",
+      "medium skin tone",
+      "person",
+      "person in tuxedo",
+      "tuxedo"
+    ],
+    "name": "person in tuxedo: medium skin tone"
+  },
+  "1f935.3.W": {
+    "char": "🤵🏽‍♀",
+    "codepoints": [
+      129333,
+      127997,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "medium skin tone",
+      "tuxedo",
+      "woman",
+      "woman in tuxedo"
+    ],
+    "name": "woman in tuxedo: medium skin tone"
+  },
+  "1f935.3.M": {
+    "char": "🤵🏽‍♂",
+    "codepoints": [
+      129333,
+      127997,
+      8205,
+      9794
+    ],
+    "keywords": [
       "man",
       "man in tuxedo",
       "medium skin tone",
@@ -19324,6 +23880,38 @@
     ],
     "keywords": [
       "groom",
+      "medium-dark skin tone",
+      "person",
+      "person in tuxedo",
+      "tuxedo"
+    ],
+    "name": "person in tuxedo: medium-dark skin tone"
+  },
+  "1f935.4.W": {
+    "char": "🤵🏾‍♀",
+    "codepoints": [
+      129333,
+      127998,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "medium-dark skin tone",
+      "tuxedo",
+      "woman",
+      "woman in tuxedo"
+    ],
+    "name": "woman in tuxedo: medium-dark skin tone"
+  },
+  "1f935.4.M": {
+    "char": "🤵🏾‍♂",
+    "codepoints": [
+      129333,
+      127998,
+      8205,
+      9794
+    ],
+    "keywords": [
       "man",
       "man in tuxedo",
       "medium-dark skin tone",
@@ -19340,6 +23928,38 @@
     "keywords": [
       "dark skin tone",
       "groom",
+      "person",
+      "person in tuxedo",
+      "tuxedo"
+    ],
+    "name": "person in tuxedo: dark skin tone"
+  },
+  "1f935.5.W": {
+    "char": "🤵🏿‍♀",
+    "codepoints": [
+      129333,
+      127999,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "dark skin tone",
+      "tuxedo",
+      "woman",
+      "woman in tuxedo"
+    ],
+    "name": "woman in tuxedo: dark skin tone"
+  },
+  "1f935.5.M": {
+    "char": "🤵🏿‍♂",
+    "codepoints": [
+      129333,
+      127999,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "dark skin tone",
       "man",
       "man in tuxedo",
       "tuxedo"
@@ -20640,6 +25260,81 @@
       "man playing handball"
     ],
     "name": "man playing handball: dark skin tone"
+  },
+  "1f977.1": {
+    "char": "🥷🏻",
+    "codepoints": [
+      129399,
+      127995
+    ],
+    "keywords": [
+      "fighter",
+      "hidden",
+      "light skin tone",
+      "ninja",
+      "stealth"
+    ],
+    "name": "ninja: light skin tone"
+  },
+  "1f977.2": {
+    "char": "🥷🏼",
+    "codepoints": [
+      129399,
+      127996
+    ],
+    "keywords": [
+      "fighter",
+      "hidden",
+      "medium-light skin tone",
+      "ninja",
+      "stealth"
+    ],
+    "name": "ninja: medium-light skin tone"
+  },
+  "1f977.3": {
+    "char": "🥷🏽",
+    "codepoints": [
+      129399,
+      127997
+    ],
+    "keywords": [
+      "fighter",
+      "hidden",
+      "medium skin tone",
+      "ninja",
+      "stealth"
+    ],
+    "name": "ninja: medium skin tone"
+  },
+  "1f977.4": {
+    "char": "🥷🏾",
+    "codepoints": [
+      129399,
+      127998
+    ],
+    "keywords": [
+      "fighter",
+      "hidden",
+      "medium-dark skin tone",
+      "ninja",
+      "stealth"
+    ],
+    "name": "ninja: medium-dark skin tone"
+  },
+  "1f977.5": {
+    "char": "🥷🏿",
+    "codepoints": [
+      129399,
+      127999
+    ],
+    "keywords": [
+      "dark skin tone",
+      "fighter",
+      "hidden",
+      "ninja",
+      "stealth"
+    ],
+    "name": "ninja: dark skin tone"
   },
   "1f9b5.1": {
     "char": "🦵🏻",
@@ -22145,6 +26840,7 @@
     ],
     "keywords": [
       "doctor",
+      "health worker",
       "healthcare",
       "light skin tone",
       "nurse",
@@ -22162,6 +26858,7 @@
     ],
     "keywords": [
       "judge",
+      "justice",
       "light skin tone",
       "scales"
     ],
@@ -22181,6 +26878,178 @@
       "plane"
     ],
     "name": "pilot: light skin tone"
+  },
+  "1f9d1_2764_1f48b_1f9d1.12": {
+    "char": "🧑🏻‍❤‍💋‍🧑🏼",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      129489,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone",
+      "medium-light skin tone",
+      "person"
+    ],
+    "name": "kiss: person, person, light skin tone, medium-light skin tone"
+  },
+  "1f9d1_2764_1f48b_1f9d1.13": {
+    "char": "🧑🏻‍❤‍💋‍🧑🏽",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      129489,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone",
+      "medium skin tone",
+      "person"
+    ],
+    "name": "kiss: person, person, light skin tone, medium skin tone"
+  },
+  "1f9d1_2764_1f48b_1f9d1.14": {
+    "char": "🧑🏻‍❤‍💋‍🧑🏾",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      129489,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone",
+      "medium-dark skin tone",
+      "person"
+    ],
+    "name": "kiss: person, person, light skin tone, medium-dark skin tone"
+  },
+  "1f9d1_2764_1f48b_1f9d1.15": {
+    "char": "🧑🏻‍❤‍💋‍🧑🏿",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      129489,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "light skin tone",
+      "person"
+    ],
+    "name": "kiss: person, person, light skin tone, dark skin tone"
+  },
+  "1f9d1_2764_1f9d1.12": {
+    "char": "🧑🏻‍❤‍🧑🏼",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      10084,
+      8205,
+      129489,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love",
+      "medium-light skin tone",
+      "person"
+    ],
+    "name": "couple with heart: person, person, light skin tone, medium-light skin tone"
+  },
+  "1f9d1_2764_1f9d1.13": {
+    "char": "🧑🏻‍❤‍🧑🏽",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      10084,
+      8205,
+      129489,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love",
+      "medium skin tone",
+      "person"
+    ],
+    "name": "couple with heart: person, person, light skin tone, medium skin tone"
+  },
+  "1f9d1_2764_1f9d1.14": {
+    "char": "🧑🏻‍❤‍🧑🏾",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      10084,
+      8205,
+      129489,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love",
+      "medium-dark skin tone",
+      "person"
+    ],
+    "name": "couple with heart: person, person, light skin tone, medium-dark skin tone"
+  },
+  "1f9d1_2764_1f9d1.15": {
+    "char": "🧑🏻‍❤‍🧑🏿",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      10084,
+      8205,
+      129489,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "light skin tone",
+      "love",
+      "person"
+    ],
+    "name": "couple with heart: person, person, light skin tone, dark skin tone"
   },
   "1f9d1_1f33e.1": {
     "char": "🧑🏻‍🌾",
@@ -22212,6 +27081,38 @@
       "light skin tone"
     ],
     "name": "cook: light skin tone"
+  },
+  "1f9d1_1f37c.1": {
+    "char": "🧑🏻‍🍼",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      127868
+    ],
+    "keywords": [
+      "baby",
+      "feeding",
+      "light skin tone",
+      "nursing",
+      "person"
+    ],
+    "name": "person feeding baby: light skin tone"
+  },
+  "1f9d1_1f384.1": {
+    "char": "🧑🏻‍🎄",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      127876
+    ],
+    "keywords": [
+      "Claus, christmas",
+      "light skin tone",
+      "mx claus"
+    ],
+    "name": "mx claus: light skin tone"
   },
   "1f9d1_1f393.1": {
     "char": "🧑🏻‍🎓",
@@ -22325,6 +27226,7 @@
       "business",
       "light skin tone",
       "manager",
+      "office worker",
       "white-collar"
     ],
     "name": "office worker: light skin tone"
@@ -22416,6 +27318,98 @@
     ],
     "name": "people holding hands: light skin tone"
   },
+  "1f9d1_1f91d_1f9d1.12": {
+    "char": "🧑🏻‍🤝‍🧑🏼",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      129309,
+      8205,
+      129489,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "hand",
+      "hold",
+      "holding hands",
+      "light skin tone",
+      "medium-light skin tone",
+      "people holding hands",
+      "person"
+    ],
+    "name": "people holding hands: light skin tone, medium-light skin tone"
+  },
+  "1f9d1_1f91d_1f9d1.13": {
+    "char": "🧑🏻‍🤝‍🧑🏽",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      129309,
+      8205,
+      129489,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "hand",
+      "hold",
+      "holding hands",
+      "light skin tone",
+      "medium skin tone",
+      "people holding hands",
+      "person"
+    ],
+    "name": "people holding hands: light skin tone, medium skin tone"
+  },
+  "1f9d1_1f91d_1f9d1.14": {
+    "char": "🧑🏻‍🤝‍🧑🏾",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      129309,
+      8205,
+      129489,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "hand",
+      "hold",
+      "holding hands",
+      "light skin tone",
+      "medium-dark skin tone",
+      "people holding hands",
+      "person"
+    ],
+    "name": "people holding hands: light skin tone, medium-dark skin tone"
+  },
+  "1f9d1_1f91d_1f9d1.15": {
+    "char": "🧑🏻‍🤝‍🧑🏿",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      129309,
+      8205,
+      129489,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "hand",
+      "hold",
+      "holding hands",
+      "light skin tone",
+      "people holding hands",
+      "person"
+    ],
+    "name": "people holding hands: light skin tone, dark skin tone"
+  },
   "1f9d1_1f9af.1": {
     "char": "🧑🏻‍🦯",
     "codepoints": [
@@ -22427,9 +27421,10 @@
     "keywords": [
       "accessibility",
       "blind",
-      "light skin tone"
+      "light skin tone",
+      "person with white cane"
     ],
-    "name": "person with probing cane: light skin tone"
+    "name": "person with white cane: light skin tone"
   },
   "1f9d1_1f9b0.1": {
     "char": "🧑🏻‍🦰",
@@ -22514,6 +27509,7 @@
     "keywords": [
       "accessibility",
       "light skin tone",
+      "person in motorized wheelchair",
       "wheelchair"
     ],
     "name": "person in motorized wheelchair: light skin tone"
@@ -22529,6 +27525,7 @@
     "keywords": [
       "accessibility",
       "light skin tone",
+      "person in manual wheelchair",
       "wheelchair"
     ],
     "name": "person in manual wheelchair: light skin tone"
@@ -22558,6 +27555,7 @@
     ],
     "keywords": [
       "doctor",
+      "health worker",
       "healthcare",
       "medium-light skin tone",
       "nurse",
@@ -22575,6 +27573,7 @@
     ],
     "keywords": [
       "judge",
+      "justice",
       "medium-light skin tone",
       "scales"
     ],
@@ -22594,6 +27593,178 @@
       "plane"
     ],
     "name": "pilot: medium-light skin tone"
+  },
+  "1f9d1_2764_1f48b_1f9d1.21": {
+    "char": "🧑🏼‍❤‍💋‍🧑🏻",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      129489,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone",
+      "medium-light skin tone",
+      "person"
+    ],
+    "name": "kiss: person, person, medium-light skin tone, light skin tone"
+  },
+  "1f9d1_2764_1f48b_1f9d1.23": {
+    "char": "🧑🏼‍❤‍💋‍🧑🏽",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      129489,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "medium skin tone",
+      "medium-light skin tone",
+      "person"
+    ],
+    "name": "kiss: person, person, medium-light skin tone, medium skin tone"
+  },
+  "1f9d1_2764_1f48b_1f9d1.24": {
+    "char": "🧑🏼‍❤‍💋‍🧑🏾",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      129489,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "person"
+    ],
+    "name": "kiss: person, person, medium-light skin tone, medium-dark skin tone"
+  },
+  "1f9d1_2764_1f48b_1f9d1.25": {
+    "char": "🧑🏼‍❤‍💋‍🧑🏿",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      129489,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "medium-light skin tone",
+      "person"
+    ],
+    "name": "kiss: person, person, medium-light skin tone, dark skin tone"
+  },
+  "1f9d1_2764_1f9d1.21": {
+    "char": "🧑🏼‍❤‍🧑🏻",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      10084,
+      8205,
+      129489,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love",
+      "medium-light skin tone",
+      "person"
+    ],
+    "name": "couple with heart: person, person, medium-light skin tone, light skin tone"
+  },
+  "1f9d1_2764_1f9d1.23": {
+    "char": "🧑🏼‍❤‍🧑🏽",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      10084,
+      8205,
+      129489,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "medium skin tone",
+      "medium-light skin tone",
+      "person"
+    ],
+    "name": "couple with heart: person, person, medium-light skin tone, medium skin tone"
+  },
+  "1f9d1_2764_1f9d1.24": {
+    "char": "🧑🏼‍❤‍🧑🏾",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      10084,
+      8205,
+      129489,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "person"
+    ],
+    "name": "couple with heart: person, person, medium-light skin tone, medium-dark skin tone"
+  },
+  "1f9d1_2764_1f9d1.25": {
+    "char": "🧑🏼‍❤‍🧑🏿",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      10084,
+      8205,
+      129489,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love",
+      "medium-light skin tone",
+      "person"
+    ],
+    "name": "couple with heart: person, person, medium-light skin tone, dark skin tone"
   },
   "1f9d1_1f33e.2": {
     "char": "🧑🏼‍🌾",
@@ -22625,6 +27796,38 @@
       "medium-light skin tone"
     ],
     "name": "cook: medium-light skin tone"
+  },
+  "1f9d1_1f37c.2": {
+    "char": "🧑🏼‍🍼",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      127868
+    ],
+    "keywords": [
+      "baby",
+      "feeding",
+      "medium-light skin tone",
+      "nursing",
+      "person"
+    ],
+    "name": "person feeding baby: medium-light skin tone"
+  },
+  "1f9d1_1f384.2": {
+    "char": "🧑🏼‍🎄",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      127876
+    ],
+    "keywords": [
+      "Claus, christmas",
+      "medium-light skin tone",
+      "mx claus"
+    ],
+    "name": "mx claus: medium-light skin tone"
   },
   "1f9d1_1f393.2": {
     "char": "🧑🏼‍🎓",
@@ -22738,6 +27941,7 @@
       "business",
       "manager",
       "medium-light skin tone",
+      "office worker",
       "white-collar"
     ],
     "name": "office worker: medium-light skin tone"
@@ -22852,6 +28056,75 @@
     ],
     "name": "people holding hands: medium-light skin tone"
   },
+  "1f9d1_1f91d_1f9d1.23": {
+    "char": "🧑🏼‍🤝‍🧑🏽",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      129309,
+      8205,
+      129489,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "hand",
+      "hold",
+      "holding hands",
+      "medium skin tone",
+      "medium-light skin tone",
+      "people holding hands",
+      "person"
+    ],
+    "name": "people holding hands: medium-light skin tone, medium skin tone"
+  },
+  "1f9d1_1f91d_1f9d1.24": {
+    "char": "🧑🏼‍🤝‍🧑🏾",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      129309,
+      8205,
+      129489,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "hand",
+      "hold",
+      "holding hands",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "people holding hands",
+      "person"
+    ],
+    "name": "people holding hands: medium-light skin tone, medium-dark skin tone"
+  },
+  "1f9d1_1f91d_1f9d1.25": {
+    "char": "🧑🏼‍🤝‍🧑🏿",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      129309,
+      8205,
+      129489,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "hand",
+      "hold",
+      "holding hands",
+      "medium-light skin tone",
+      "people holding hands",
+      "person"
+    ],
+    "name": "people holding hands: medium-light skin tone, dark skin tone"
+  },
   "1f9d1_1f9af.2": {
     "char": "🧑🏼‍🦯",
     "codepoints": [
@@ -22863,9 +28136,10 @@
     "keywords": [
       "accessibility",
       "blind",
-      "medium-light skin tone"
+      "medium-light skin tone",
+      "person with white cane"
     ],
-    "name": "person with probing cane: medium-light skin tone"
+    "name": "person with white cane: medium-light skin tone"
   },
   "1f9d1_1f9b0.2": {
     "char": "🧑🏼‍🦰",
@@ -22950,6 +28224,7 @@
     "keywords": [
       "accessibility",
       "medium-light skin tone",
+      "person in motorized wheelchair",
       "wheelchair"
     ],
     "name": "person in motorized wheelchair: medium-light skin tone"
@@ -22965,6 +28240,7 @@
     "keywords": [
       "accessibility",
       "medium-light skin tone",
+      "person in manual wheelchair",
       "wheelchair"
     ],
     "name": "person in manual wheelchair: medium-light skin tone"
@@ -22994,6 +28270,7 @@
     ],
     "keywords": [
       "doctor",
+      "health worker",
       "healthcare",
       "medium skin tone",
       "nurse",
@@ -23011,6 +28288,7 @@
     ],
     "keywords": [
       "judge",
+      "justice",
       "medium skin tone",
       "scales"
     ],
@@ -23030,6 +28308,178 @@
       "plane"
     ],
     "name": "pilot: medium skin tone"
+  },
+  "1f9d1_2764_1f48b_1f9d1.31": {
+    "char": "🧑🏽‍❤‍💋‍🧑🏻",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      129489,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone",
+      "medium skin tone",
+      "person"
+    ],
+    "name": "kiss: person, person, medium skin tone, light skin tone"
+  },
+  "1f9d1_2764_1f48b_1f9d1.32": {
+    "char": "🧑🏽‍❤‍💋‍🧑🏼",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      129489,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "medium skin tone",
+      "medium-light skin tone",
+      "person"
+    ],
+    "name": "kiss: person, person, medium skin tone, medium-light skin tone"
+  },
+  "1f9d1_2764_1f48b_1f9d1.34": {
+    "char": "🧑🏽‍❤‍💋‍🧑🏾",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      129489,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "person"
+    ],
+    "name": "kiss: person, person, medium skin tone, medium-dark skin tone"
+  },
+  "1f9d1_2764_1f48b_1f9d1.35": {
+    "char": "🧑🏽‍❤‍💋‍🧑🏿",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      129489,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "medium skin tone",
+      "person"
+    ],
+    "name": "kiss: person, person, medium skin tone, dark skin tone"
+  },
+  "1f9d1_2764_1f9d1.31": {
+    "char": "🧑🏽‍❤‍🧑🏻",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      10084,
+      8205,
+      129489,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love",
+      "medium skin tone",
+      "person"
+    ],
+    "name": "couple with heart: person, person, medium skin tone, light skin tone"
+  },
+  "1f9d1_2764_1f9d1.32": {
+    "char": "🧑🏽‍❤‍🧑🏼",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      10084,
+      8205,
+      129489,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "medium skin tone",
+      "medium-light skin tone",
+      "person"
+    ],
+    "name": "couple with heart: person, person, medium skin tone, medium-light skin tone"
+  },
+  "1f9d1_2764_1f9d1.34": {
+    "char": "🧑🏽‍❤‍🧑🏾",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      10084,
+      8205,
+      129489,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "person"
+    ],
+    "name": "couple with heart: person, person, medium skin tone, medium-dark skin tone"
+  },
+  "1f9d1_2764_1f9d1.35": {
+    "char": "🧑🏽‍❤‍🧑🏿",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      10084,
+      8205,
+      129489,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love",
+      "medium skin tone",
+      "person"
+    ],
+    "name": "couple with heart: person, person, medium skin tone, dark skin tone"
   },
   "1f9d1_1f33e.3": {
     "char": "🧑🏽‍🌾",
@@ -23061,6 +28511,38 @@
       "medium skin tone"
     ],
     "name": "cook: medium skin tone"
+  },
+  "1f9d1_1f37c.3": {
+    "char": "🧑🏽‍🍼",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      127868
+    ],
+    "keywords": [
+      "baby",
+      "feeding",
+      "medium skin tone",
+      "nursing",
+      "person"
+    ],
+    "name": "person feeding baby: medium skin tone"
+  },
+  "1f9d1_1f384.3": {
+    "char": "🧑🏽‍🎄",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      127876
+    ],
+    "keywords": [
+      "Claus, christmas",
+      "medium skin tone",
+      "mx claus"
+    ],
+    "name": "mx claus: medium skin tone"
   },
   "1f9d1_1f393.3": {
     "char": "🧑🏽‍🎓",
@@ -23174,6 +28656,7 @@
       "business",
       "manager",
       "medium skin tone",
+      "office worker",
       "white-collar"
     ],
     "name": "office worker: medium skin tone"
@@ -23311,6 +28794,52 @@
     ],
     "name": "people holding hands: medium skin tone"
   },
+  "1f9d1_1f91d_1f9d1.34": {
+    "char": "🧑🏽‍🤝‍🧑🏾",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      129309,
+      8205,
+      129489,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "hand",
+      "hold",
+      "holding hands",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "people holding hands",
+      "person"
+    ],
+    "name": "people holding hands: medium skin tone, medium-dark skin tone"
+  },
+  "1f9d1_1f91d_1f9d1.35": {
+    "char": "🧑🏽‍🤝‍🧑🏿",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      129309,
+      8205,
+      129489,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "hand",
+      "hold",
+      "holding hands",
+      "medium skin tone",
+      "people holding hands",
+      "person"
+    ],
+    "name": "people holding hands: medium skin tone, dark skin tone"
+  },
   "1f9d1_1f9af.3": {
     "char": "🧑🏽‍🦯",
     "codepoints": [
@@ -23322,9 +28851,10 @@
     "keywords": [
       "accessibility",
       "blind",
-      "medium skin tone"
+      "medium skin tone",
+      "person with white cane"
     ],
-    "name": "person with probing cane: medium skin tone"
+    "name": "person with white cane: medium skin tone"
   },
   "1f9d1_1f9b0.3": {
     "char": "🧑🏽‍🦰",
@@ -23409,6 +28939,7 @@
     "keywords": [
       "accessibility",
       "medium skin tone",
+      "person in motorized wheelchair",
       "wheelchair"
     ],
     "name": "person in motorized wheelchair: medium skin tone"
@@ -23424,6 +28955,7 @@
     "keywords": [
       "accessibility",
       "medium skin tone",
+      "person in manual wheelchair",
       "wheelchair"
     ],
     "name": "person in manual wheelchair: medium skin tone"
@@ -23453,6 +28985,7 @@
     ],
     "keywords": [
       "doctor",
+      "health worker",
       "healthcare",
       "medium-dark skin tone",
       "nurse",
@@ -23470,6 +29003,7 @@
     ],
     "keywords": [
       "judge",
+      "justice",
       "medium-dark skin tone",
       "scales"
     ],
@@ -23489,6 +29023,178 @@
       "plane"
     ],
     "name": "pilot: medium-dark skin tone"
+  },
+  "1f9d1_2764_1f48b_1f9d1.41": {
+    "char": "🧑🏾‍❤‍💋‍🧑🏻",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      129489,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "light skin tone",
+      "medium-dark skin tone",
+      "person"
+    ],
+    "name": "kiss: person, person, medium-dark skin tone, light skin tone"
+  },
+  "1f9d1_2764_1f48b_1f9d1.42": {
+    "char": "🧑🏾‍❤‍💋‍🧑🏼",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      129489,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "person"
+    ],
+    "name": "kiss: person, person, medium-dark skin tone, medium-light skin tone"
+  },
+  "1f9d1_2764_1f48b_1f9d1.43": {
+    "char": "🧑🏾‍❤‍💋‍🧑🏽",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      129489,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "kiss",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "person"
+    ],
+    "name": "kiss: person, person, medium-dark skin tone, medium skin tone"
+  },
+  "1f9d1_2764_1f48b_1f9d1.45": {
+    "char": "🧑🏾‍❤‍💋‍🧑🏿",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      129489,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "medium-dark skin tone",
+      "person"
+    ],
+    "name": "kiss: person, person, medium-dark skin tone, dark skin tone"
+  },
+  "1f9d1_2764_1f9d1.41": {
+    "char": "🧑🏾‍❤‍🧑🏻",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      10084,
+      8205,
+      129489,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "light skin tone",
+      "love",
+      "medium-dark skin tone",
+      "person"
+    ],
+    "name": "couple with heart: person, person, medium-dark skin tone, light skin tone"
+  },
+  "1f9d1_2764_1f9d1.42": {
+    "char": "🧑🏾‍❤‍🧑🏼",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      10084,
+      8205,
+      129489,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "person"
+    ],
+    "name": "couple with heart: person, person, medium-dark skin tone, medium-light skin tone"
+  },
+  "1f9d1_2764_1f9d1.43": {
+    "char": "🧑🏾‍❤‍🧑🏽",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      10084,
+      8205,
+      129489,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "love",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "person"
+    ],
+    "name": "couple with heart: person, person, medium-dark skin tone, medium skin tone"
+  },
+  "1f9d1_2764_1f9d1.45": {
+    "char": "🧑🏾‍❤‍🧑🏿",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      10084,
+      8205,
+      129489,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love",
+      "medium-dark skin tone",
+      "person"
+    ],
+    "name": "couple with heart: person, person, medium-dark skin tone, dark skin tone"
   },
   "1f9d1_1f33e.4": {
     "char": "🧑🏾‍🌾",
@@ -23520,6 +29226,38 @@
       "medium-dark skin tone"
     ],
     "name": "cook: medium-dark skin tone"
+  },
+  "1f9d1_1f37c.4": {
+    "char": "🧑🏾‍🍼",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      127868
+    ],
+    "keywords": [
+      "baby",
+      "feeding",
+      "medium-dark skin tone",
+      "nursing",
+      "person"
+    ],
+    "name": "person feeding baby: medium-dark skin tone"
+  },
+  "1f9d1_1f384.4": {
+    "char": "🧑🏾‍🎄",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      127876
+    ],
+    "keywords": [
+      "Claus, christmas",
+      "medium-dark skin tone",
+      "mx claus"
+    ],
+    "name": "mx claus: medium-dark skin tone"
   },
   "1f9d1_1f393.4": {
     "char": "🧑🏾‍🎓",
@@ -23633,6 +29371,7 @@
       "business",
       "manager",
       "medium-dark skin tone",
+      "office worker",
       "white-collar"
     ],
     "name": "office worker: medium-dark skin tone"
@@ -23793,6 +29532,29 @@
     ],
     "name": "people holding hands: medium-dark skin tone"
   },
+  "1f9d1_1f91d_1f9d1.45": {
+    "char": "🧑🏾‍🤝‍🧑🏿",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      129309,
+      8205,
+      129489,
+      127999
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "hand",
+      "hold",
+      "holding hands",
+      "medium-dark skin tone",
+      "people holding hands",
+      "person"
+    ],
+    "name": "people holding hands: medium-dark skin tone, dark skin tone"
+  },
   "1f9d1_1f9af.4": {
     "char": "🧑🏾‍🦯",
     "codepoints": [
@@ -23804,9 +29566,10 @@
     "keywords": [
       "accessibility",
       "blind",
-      "medium-dark skin tone"
+      "medium-dark skin tone",
+      "person with white cane"
     ],
-    "name": "person with probing cane: medium-dark skin tone"
+    "name": "person with white cane: medium-dark skin tone"
   },
   "1f9d1_1f9b0.4": {
     "char": "🧑🏾‍🦰",
@@ -23891,6 +29654,7 @@
     "keywords": [
       "accessibility",
       "medium-dark skin tone",
+      "person in motorized wheelchair",
       "wheelchair"
     ],
     "name": "person in motorized wheelchair: medium-dark skin tone"
@@ -23906,6 +29670,7 @@
     "keywords": [
       "accessibility",
       "medium-dark skin tone",
+      "person in manual wheelchair",
       "wheelchair"
     ],
     "name": "person in manual wheelchair: medium-dark skin tone"
@@ -23936,6 +29701,7 @@
     "keywords": [
       "dark skin tone",
       "doctor",
+      "health worker",
       "healthcare",
       "nurse",
       "therapist"
@@ -23953,6 +29719,7 @@
     "keywords": [
       "dark skin tone",
       "judge",
+      "justice",
       "scales"
     ],
     "name": "judge: dark skin tone"
@@ -23971,6 +29738,178 @@
       "plane"
     ],
     "name": "pilot: dark skin tone"
+  },
+  "1f9d1_2764_1f48b_1f9d1.51": {
+    "char": "🧑🏿‍❤‍💋‍🧑🏻",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      129489,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "light skin tone",
+      "person"
+    ],
+    "name": "kiss: person, person, dark skin tone, light skin tone"
+  },
+  "1f9d1_2764_1f48b_1f9d1.52": {
+    "char": "🧑🏿‍❤‍💋‍🧑🏼",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      129489,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "medium-light skin tone",
+      "person"
+    ],
+    "name": "kiss: person, person, dark skin tone, medium-light skin tone"
+  },
+  "1f9d1_2764_1f48b_1f9d1.53": {
+    "char": "🧑🏿‍❤‍💋‍🧑🏽",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      129489,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "medium skin tone",
+      "person"
+    ],
+    "name": "kiss: person, person, dark skin tone, medium skin tone"
+  },
+  "1f9d1_2764_1f48b_1f9d1.54": {
+    "char": "🧑🏿‍❤‍💋‍🧑🏾",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      10084,
+      8205,
+      128139,
+      8205,
+      129489,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "dark skin tone",
+      "kiss",
+      "medium-dark skin tone",
+      "person"
+    ],
+    "name": "kiss: person, person, dark skin tone, medium-dark skin tone"
+  },
+  "1f9d1_2764_1f9d1.51": {
+    "char": "🧑🏿‍❤‍🧑🏻",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      10084,
+      8205,
+      129489,
+      127995
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "light skin tone",
+      "love",
+      "person"
+    ],
+    "name": "couple with heart: person, person, dark skin tone, light skin tone"
+  },
+  "1f9d1_2764_1f9d1.52": {
+    "char": "🧑🏿‍❤‍🧑🏼",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      10084,
+      8205,
+      129489,
+      127996
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love",
+      "medium-light skin tone",
+      "person"
+    ],
+    "name": "couple with heart: person, person, dark skin tone, medium-light skin tone"
+  },
+  "1f9d1_2764_1f9d1.53": {
+    "char": "🧑🏿‍❤‍🧑🏽",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      10084,
+      8205,
+      129489,
+      127997
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love",
+      "medium skin tone",
+      "person"
+    ],
+    "name": "couple with heart: person, person, dark skin tone, medium skin tone"
+  },
+  "1f9d1_2764_1f9d1.54": {
+    "char": "🧑🏿‍❤‍🧑🏾",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      10084,
+      8205,
+      129489,
+      127998
+    ],
+    "keywords": [
+      "couple",
+      "couple with heart",
+      "dark skin tone",
+      "love",
+      "medium-dark skin tone",
+      "person"
+    ],
+    "name": "couple with heart: person, person, dark skin tone, medium-dark skin tone"
   },
   "1f9d1_1f33e.5": {
     "char": "🧑🏿‍🌾",
@@ -24002,6 +29941,38 @@
       "dark skin tone"
     ],
     "name": "cook: dark skin tone"
+  },
+  "1f9d1_1f37c.5": {
+    "char": "🧑🏿‍🍼",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      127868
+    ],
+    "keywords": [
+      "baby",
+      "dark skin tone",
+      "feeding",
+      "nursing",
+      "person"
+    ],
+    "name": "person feeding baby: dark skin tone"
+  },
+  "1f9d1_1f384.5": {
+    "char": "🧑🏿‍🎄",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      127876
+    ],
+    "keywords": [
+      "Claus, christmas",
+      "dark skin tone",
+      "mx claus"
+    ],
+    "name": "mx claus: dark skin tone"
   },
   "1f9d1_1f393.5": {
     "char": "🧑🏿‍🎓",
@@ -24115,6 +30086,7 @@
       "business",
       "dark skin tone",
       "manager",
+      "office worker",
       "white-collar"
     ],
     "name": "office worker: dark skin tone"
@@ -24309,9 +30281,10 @@
     "keywords": [
       "accessibility",
       "blind",
-      "dark skin tone"
+      "dark skin tone",
+      "person with white cane"
     ],
-    "name": "person with probing cane: dark skin tone"
+    "name": "person with white cane: dark skin tone"
   },
   "1f9d1_1f9b0.5": {
     "char": "🧑🏿‍🦰",
@@ -24396,6 +30369,7 @@
     "keywords": [
       "accessibility",
       "dark skin tone",
+      "person in motorized wheelchair",
       "wheelchair"
     ],
     "name": "person in motorized wheelchair: dark skin tone"
@@ -24411,6 +30385,7 @@
     "keywords": [
       "accessibility",
       "dark skin tone",
+      "person in manual wheelchair",
       "wheelchair"
     ],
     "name": "person in manual wheelchair: dark skin tone"
@@ -24579,9 +30554,40 @@
     "keywords": [
       "beard",
       "light skin tone",
+      "person",
+      "person: beard"
+    ],
+    "name": "person: light skin tone, beard"
+  },
+  "1f9d4.1.W": {
+    "char": "🧔🏻‍♀",
+    "codepoints": [
+      129492,
+      127995,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "beard",
+      "light skin tone",
+      "woman",
+      "woman: beard"
+    ],
+    "name": "woman: light skin tone, beard"
+  },
+  "1f9d4.1.M": {
+    "char": "🧔🏻‍♂",
+    "codepoints": [
+      129492,
+      127995,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "beard",
+      "light skin tone",
       "man",
-      "man: beard",
-      "person"
+      "man: beard"
     ],
     "name": "man: light skin tone, beard"
   },
@@ -24593,10 +30599,41 @@
     ],
     "keywords": [
       "beard",
+      "medium-light skin tone",
+      "person",
+      "person: beard"
+    ],
+    "name": "person: medium-light skin tone, beard"
+  },
+  "1f9d4.2.W": {
+    "char": "🧔🏼‍♀",
+    "codepoints": [
+      129492,
+      127996,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "beard",
+      "medium-light skin tone",
+      "woman",
+      "woman: beard"
+    ],
+    "name": "woman: medium-light skin tone, beard"
+  },
+  "1f9d4.2.M": {
+    "char": "🧔🏼‍♂",
+    "codepoints": [
+      129492,
+      127996,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "beard",
       "man",
       "man: beard",
-      "medium-light skin tone",
-      "person"
+      "medium-light skin tone"
     ],
     "name": "man: medium-light skin tone, beard"
   },
@@ -24608,10 +30645,41 @@
     ],
     "keywords": [
       "beard",
+      "medium skin tone",
+      "person",
+      "person: beard"
+    ],
+    "name": "person: medium skin tone, beard"
+  },
+  "1f9d4.3.W": {
+    "char": "🧔🏽‍♀",
+    "codepoints": [
+      129492,
+      127997,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "beard",
+      "medium skin tone",
+      "woman",
+      "woman: beard"
+    ],
+    "name": "woman: medium skin tone, beard"
+  },
+  "1f9d4.3.M": {
+    "char": "🧔🏽‍♂",
+    "codepoints": [
+      129492,
+      127997,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "beard",
       "man",
       "man: beard",
-      "medium skin tone",
-      "person"
+      "medium skin tone"
     ],
     "name": "man: medium skin tone, beard"
   },
@@ -24623,10 +30691,41 @@
     ],
     "keywords": [
       "beard",
+      "medium-dark skin tone",
+      "person",
+      "person: beard"
+    ],
+    "name": "person: medium-dark skin tone, beard"
+  },
+  "1f9d4.4.W": {
+    "char": "🧔🏾‍♀",
+    "codepoints": [
+      129492,
+      127998,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "beard",
+      "medium-dark skin tone",
+      "woman",
+      "woman: beard"
+    ],
+    "name": "woman: medium-dark skin tone, beard"
+  },
+  "1f9d4.4.M": {
+    "char": "🧔🏾‍♂",
+    "codepoints": [
+      129492,
+      127998,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "beard",
       "man",
       "man: beard",
-      "medium-dark skin tone",
-      "person"
+      "medium-dark skin tone"
     ],
     "name": "man: medium-dark skin tone, beard"
   },
@@ -24639,9 +30738,40 @@
     "keywords": [
       "beard",
       "dark skin tone",
+      "person",
+      "person: beard"
+    ],
+    "name": "person: dark skin tone, beard"
+  },
+  "1f9d4.5.W": {
+    "char": "🧔🏿‍♀",
+    "codepoints": [
+      129492,
+      127999,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "beard",
+      "dark skin tone",
+      "woman",
+      "woman: beard"
+    ],
+    "name": "woman: dark skin tone, beard"
+  },
+  "1f9d4.5.M": {
+    "char": "🧔🏿‍♂",
+    "codepoints": [
+      129492,
+      127999,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "beard",
+      "dark skin tone",
       "man",
-      "man: beard",
-      "person"
+      "man: beard"
     ],
     "name": "man: dark skin tone, beard"
   },
