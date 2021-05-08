@@ -107,8 +107,8 @@ const fitzRegex = /\.([1-5][1-5]?)(\.[MWBG]+)?$/;
     await fs.promises.writeFile(absPath, stringify(emojiDb, sortKeyStringifyOptions));
   } catch (err) {
     console.error(err);
-  } finally {
     await ttf.fh.close();
+    throw err;
   }
 })(process.argv.slice(2)).catch((err) => {
   console.error(err);

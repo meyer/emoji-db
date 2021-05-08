@@ -64,16 +64,18 @@ const emojiFontNameComparator: stringify.Comparator = (a, b) => {
       if (err && err.code !== 'ENOENT') {
         console.error('Error unlinking latest:', err);
       }
+      throw err;
     }
 
     try {
       console.log('Updating latest symlink...');
       fs.symlinkSync(ttcName, path.join(FONTS_DIR, 'latest'));
     } catch (err) {
-      // should probably throw here
       console.error('Error linking latest:', err);
+      throw err;
     }
-  } finally {
-    fh.close();
+  } catch (err) {
+    await fh.close();
+    throw err;
   }
 })();

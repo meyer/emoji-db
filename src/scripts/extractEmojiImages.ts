@@ -16,19 +16,21 @@ import { getMetadataForEmojiKey } from '../utils/getMetadataForEmojiKey';
   try {
     await fs.promises.mkdir(EMOJI_IMG_DIR);
     for await (const { data, name } of ttf.getEmojiIterator()) {
-      const key = emojiNameToKey(name);
+      let absPath: string;
       try {
+        const key = emojiNameToKey(name);
         const { fileName } = getMetadataForEmojiKey(key);
-        const absPath = path.join(EMOJI_IMG_DIR, fileName + '.png');
-
-        await fs.promises.writeFile(absPath, data, {
-          // write should fail if the file already exists
-          flag: 'wx',
-        });
+        absPath = path.join(EMOJI_IMG_DIR, fileName + '.png');
       } catch (err) {
         errors.push(err);
-        console.error('Error with %s (%s):', key, name, err);
+        console.error('Error with %s:', name, err);
+        absPath = path.join(EMOJI_IMG_DIR, name + '.png');
       }
+
+      await fs.promises.writeFile(absPath, data, {
+        // write should fail if the file already exists
+        flag: 'wx',
+      });
     }
   } catch (err) {
     await ttf.fh.close();
