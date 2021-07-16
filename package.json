@@ -18,14 +18,15 @@
   "homepage": "https://github.com/meyer/emoji-db",
   "scripts": {
     "start": "yarn extract-images && yarn generate-db",
+    "check-emoji-keys": "ts-node --transpile-only src/scripts/checkEmojiKeys.ts",
     "ci": "yarn convert && yarn copy-latest && yarn extract-images && yarn generate-db",
     "convert": "./scripts/fetchData.sh && yarn convert-annotations && yarn convert-sequences && yarn convert-test-data && yarn convert-emojilib-data",
-    "extract-images": "rimraf images && ts-node --transpile-only src/scripts/extractEmojiImages.ts latest",
     "convert-annotations": "ts-node --transpile-only src/scripts/annotationsToJson.ts",
     "convert-sequences": "ts-node --transpile-only src/scripts/processEmojiSequences.ts",
     "convert-test-data": "ts-node --transpile-only src/scripts/testDataToJson.ts",
     "convert-emojilib-data": "ts-node --transpile-only src/scripts/convertEmojilibData.ts",
     "copy-latest": "ts-node --transpile-only src/scripts/copyLatest.ts",
+    "extract-images": "rimraf images && ts-node --transpile-only src/scripts/extractEmojiImages.ts latest",
     "generate-db": "ts-node --transpile-only src/scripts/generateDb.ts latest"
   },
   "prettier": {

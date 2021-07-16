@@ -41,3 +41,6 @@ jobs:
             git commit -m "Update emoji data"
             git push origin HEAD:master
           fi
+
+      - name: Check emoji keys for potential new formats
+        run: yarn check-emoji-keys latest

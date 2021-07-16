@@ -42,7 +42,13 @@ const fitzRegex = /\.([1-5][1-5]?)(\.[MWBG]+)?$/;
 
   try {
     for await (const emoji of ttf.getEmojiIterator()) {
-      const keyFromName = emojiNameToKey(emoji.name);
+      let keyFromName: string;
+      try {
+        keyFromName = emojiNameToKey(emoji.name);
+      } catch (err) {
+        console.warn(err);
+        continue;
+      }
 
       const { codepoints, char, keywords, name, emojilibDataItem, fileName } = getMetadataForEmojiKey(keyFromName);
 
@@ -85,8 +91,8 @@ const fitzRegex = /\.([1-5][1-5]?)(\.[MWBG]+)?$/;
           keywords: Array.from(new Set(keywords)),
           name,
           fitz: null,
-          emojilib_name: emojilibDataItem?.emojilibKey ?? null,
-          unicode_category: emojilibDataItem?.category ?? null,
+          emojilib_name: emojilibDataItem?.emojilibKey || null,
+          unicode_category: emojilibDataItem?.category || null,
           unicode_subcategory: null,
           ...emojiDb[keyFromName],
         };

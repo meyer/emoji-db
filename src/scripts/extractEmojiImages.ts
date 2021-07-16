@@ -11,23 +11,25 @@ import { getMetadataForEmojiKey } from '../utils/getMetadataForEmojiKey';
   invariant(argv.length === 1, 'one arg pls');
   const fontPath = path.join(FONTS_DIR, argv[0]);
   const ttf = await getFontByName(fontPath, 'AppleColorEmoji');
-  const errors = [];
+
+  const imagePathsByKey: Record<string, string> = {};
 
   try {
     await fs.promises.mkdir(EMOJI_IMG_DIR);
     for await (const { data, name } of ttf.getEmojiIterator()) {
-      let absPath: string;
+      let filename: string;
       try {
         const key = emojiNameToKey(name);
-        const { fileName } = getMetadataForEmojiKey(key);
-        absPath = path.join(EMOJI_IMG_DIR, fileName + '.png');
+        const { fileName: friendlyFileName } = getMetadataForEmojiKey(key);
+        filename = friendlyFileName + '.png';
       } catch (err) {
-        errors.push(err);
-        console.error('Error with %s:', name, err);
-        absPath = path.join(EMOJI_IMG_DIR, name + '.png');
+        console.warn(err.message);
+        filename = 'ERROR-' + name + '.png';
       }
 
-      await fs.promises.writeFile(absPath, data, {
+      imagePathsByKey[name] = filename;
+
+      await fs.promises.writeFile(path.join(EMOJI_IMG_DIR, filename), data, {
         // write should fail if the file already exists
         flag: 'wx',
       });
@@ -37,9 +39,17 @@ import { getMetadataForEmojiKey } from '../utils/getMetadataForEmojiKey';
     throw err;
   }
 
-  if (errors.length) {
-    throw new Error('Error extracting images');
-  }
+  const sortedImagePathsByKey = Object.entries(imagePathsByKey)
+    .sort(([a], [b]) => a.localeCompare(b))
+    .reduce<Record<string, string>>((prev, [key, value]) => {
+      prev[key] = value;
+      return prev;
+    }, {});
+
+  await fs.promises.writeFile(
+    path.join(EMOJI_IMG_DIR, 'manifest.json'),
+    JSON.stringify(sortedImagePathsByKey, null, 2)
+  );
 })(process.argv.slice(2)).catch((err) => {
   console.error(err);
   process.exit(1);

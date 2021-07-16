@@ -47,11 +47,11 @@ export const getMetadataForEmojiKey = (key: string) => {
     const fallbackAnnotation = derivedAnnotationData[fallbackKey as keyof typeof derivedAnnotationData];
     invariant(fallbackAnnotation, 'Missing fallbackAnnotation for key `%s`', fallbackKey);
 
-    keywords.push(...fallbackAnnotation.keywords);
+    if (fallbackAnnotation.keywords) keywords.push(...fallbackAnnotation.keywords);
   } else {
     codepoints = annotation.codepoints;
     name = annotation.name;
-    keywords.push(...annotation.keywords);
+    if (annotation.keywords) keywords.push(...annotation.keywords);
     char = annotation.char;
   }
 
