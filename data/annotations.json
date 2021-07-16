@@ -1719,9 +1719,12 @@
       8633
     ],
     "keywords": [
-      "leftwards arrow bar over rightwards arrow bar"
+      "leftwards",
+      "arrow",
+      "bar",
+      "rightwards"
     ],
-    "name": "leftwards arrow bar over rightwards arrow bar"
+    "name": "leftwards over rightwards arrow bars"
   },
   "21ba": {
     "char": "↺",
@@ -10501,8 +10504,9 @@
       128040
     ],
     "keywords": [
-      "bear",
-      "koala"
+      "koala",
+      "face",
+      "marsupial"
     ],
     "name": "koala"
   },
@@ -17411,7 +17415,6 @@
     ],
     "keywords": [
       "bus",
-      "busstop",
       "stop"
     ],
     "name": "bus stop"
@@ -18334,6 +18337,43 @@
     ],
     "name": "elevator"
   },
+  "1f6dd": {
+    "char": "🛝",
+    "codepoints": [
+      128733
+    ],
+    "keywords": [
+      "amusement park",
+      "play"
+    ],
+    "name": "playground slide"
+  },
+  "1f6de": {
+    "char": "🛞",
+    "codepoints": [
+      128734
+    ],
+    "keywords": [
+      "circle",
+      "tire",
+      "turn"
+    ],
+    "name": "wheel"
+  },
+  "1f6df": {
+    "char": "🛟",
+    "codepoints": [
+      128735
+    ],
+    "keywords": [
+      "float",
+      "life preserver",
+      "life saver",
+      "rescue",
+      "safety"
+    ],
+    "name": "ring buoy"
+  },
   "1f6e0": {
     "char": "🛠",
     "codepoints": [
@@ -18701,6 +18741,17 @@
       "square"
     ],
     "name": "brown square"
+  },
+  "1f7f0": {
+    "char": "🟰",
+    "codepoints": [
+      129008
+    ],
+    "keywords": [
+      "equality",
+      "math"
+    ],
+    "name": "heavy equals sign"
   },
   "1f90c": {
     "char": "🤌",
@@ -20299,6 +20350,20 @@
     ],
     "name": "disguised face"
   },
+  "1f979": {
+    "char": "🥹",
+    "codepoints": [
+      129401
+    ],
+    "keywords": [
+      "angry",
+      "cry",
+      "proud",
+      "resist",
+      "sad"
+    ],
+    "name": "face holding back tears"
+  },
   "1f97a": {
     "char": "🥺",
     "codepoints": [
@@ -21356,6 +21421,18 @@
       "tea"
     ],
     "name": "bubble tea"
+  },
+  "1f9cc": {
+    "char": "🧌",
+    "codepoints": [
+      129484
+    ],
+    "keywords": [
+      "fairy tale",
+      "fantasy",
+      "monster"
+    ],
+    "name": "troll"
   },
   "1f9cd": {
     "char": "🧍",
@@ -22807,6 +22884,33 @@
     ],
     "name": "stethoscope"
   },
+  "1fa7b": {
+    "char": "🩻",
+    "codepoints": [
+      129659
+    ],
+    "keywords": [
+      "bones",
+      "doctor",
+      "medical",
+      "skeleton"
+    ],
+    "name": "x-ray"
+  },
+  "1fa7c": {
+    "char": "🩼",
+    "codepoints": [
+      129660
+    ],
+    "keywords": [
+      "cane",
+      "disability",
+      "hurt",
+      "mobility aid",
+      "stick"
+    ],
+    "name": "crutch"
+  },
   "1fa80": {
     "char": "🪀",
     "codepoints": [
@@ -23235,6 +23339,58 @@
     ],
     "name": "rock"
   },
+  "1faa9": {
+    "char": "🪩",
+    "codepoints": [
+      129705
+    ],
+    "keywords": [
+      "dance",
+      "disco",
+      "glitter",
+      "party"
+    ],
+    "name": "mirror ball"
+  },
+  "1faaa": {
+    "char": "🪪",
+    "codepoints": [
+      129706
+    ],
+    "keywords": [
+      "ID",
+      "credentials",
+      "license",
+      "security"
+    ],
+    "name": "identification card"
+  },
+  "1faab": {
+    "char": "🪫",
+    "codepoints": [
+      129707
+    ],
+    "keywords": [
+      "electronic",
+      "low energy"
+    ],
+    "name": "low battery"
+  },
+  "1faac": {
+    "char": "🪬",
+    "codepoints": [
+      129708
+    ],
+    "keywords": [
+      "Fatima",
+      "Mary",
+      "Miriam",
+      "amulet",
+      "hand",
+      "protection"
+    ],
+    "name": "hamsa"
+  },
   "1fab0": {
     "char": "🪰",
     "codepoints": [
@@ -23330,6 +23486,52 @@
     ],
     "name": "feather"
   },
+  "1fab7": {
+    "char": "🪷",
+    "codepoints": [
+      129719
+    ],
+    "keywords": [
+      "Buddhism",
+      "Hinduism",
+      "India",
+      "Vietnam",
+      "flower",
+      "purity"
+    ],
+    "name": "lotus"
+  },
+  "1fab8": {
+    "char": "🪸",
+    "codepoints": [
+      129720
+    ],
+    "keywords": [
+      "ocean",
+      "reef"
+    ],
+    "name": "coral"
+  },
+  "1fab9": {
+    "char": "🪹",
+    "codepoints": [
+      129721
+    ],
+    "keywords": [
+      "nesting"
+    ],
+    "name": "empty nest"
+  },
+  "1faba": {
+    "char": "🪺",
+    "codepoints": [
+      129722
+    ],
+    "keywords": [
+      "nesting"
+    ],
+    "name": "nest with eggs"
+  },
   "1fac0": {
     "char": "🫀",
     "codepoints": [
@@ -23372,6 +23574,45 @@
       "thanks"
     ],
     "name": "people hugging"
+  },
+  "1fac3": {
+    "char": "🫃",
+    "codepoints": [
+      129731
+    ],
+    "keywords": [
+      "belly",
+      "bloated",
+      "full",
+      "pregnant"
+    ],
+    "name": "pregnant man"
+  },
+  "1fac4": {
+    "char": "🫄",
+    "codepoints": [
+      129732
+    ],
+    "keywords": [
+      "belly",
+      "bloated",
+      "full",
+      "pregnant"
+    ],
+    "name": "pregnant person"
+  },
+  "1fac5": {
+    "char": "🫅",
+    "codepoints": [
+      129733
+    ],
+    "keywords": [
+      "monarch",
+      "noble",
+      "regal",
+      "royalty"
+    ],
+    "name": "person with crown"
   },
   "1fad0": {
     "char": "🫐",
@@ -23464,5 +23705,237 @@
       "teapot"
     ],
     "name": "teapot"
+  },
+  "1fad7": {
+    "char": "🫗",
+    "codepoints": [
+      129751
+    ],
+    "keywords": [
+      "drink",
+      "empty",
+      "glass",
+      "spill"
+    ],
+    "name": "pouring liquid"
+  },
+  "1fad8": {
+    "char": "🫘",
+    "codepoints": [
+      129752
+    ],
+    "keywords": [
+      "food",
+      "kidney",
+      "legume"
+    ],
+    "name": "beans"
+  },
+  "1fad9": {
+    "char": "🫙",
+    "codepoints": [
+      129753
+    ],
+    "keywords": [
+      "condiment",
+      "container",
+      "empty",
+      "sauce",
+      "store"
+    ],
+    "name": "jar"
+  },
+  "1fae0": {
+    "char": "🫠",
+    "codepoints": [
+      129760
+    ],
+    "keywords": [
+      "disappear",
+      "dissolve",
+      "liquid",
+      "melt"
+    ],
+    "name": "melting face"
+  },
+  "1fae1": {
+    "char": "🫡",
+    "codepoints": [
+      129761
+    ],
+    "keywords": [
+      "ok",
+      "salute",
+      "sunny",
+      "troops",
+      "yes"
+    ],
+    "name": "saluting face"
+  },
+  "1fae2": {
+    "char": "🫢",
+    "codepoints": [
+      129762
+    ],
+    "keywords": [
+      "amazement",
+      "awe",
+      "disbelief",
+      "embarrass",
+      "scared",
+      "surprise"
+    ],
+    "name": "face with open eyes and hand over mouth"
+  },
+  "1fae3": {
+    "char": "🫣",
+    "codepoints": [
+      129763
+    ],
+    "keywords": [
+      "captivated",
+      "peep",
+      "stare"
+    ],
+    "name": "face with peeking eye"
+  },
+  "1fae4": {
+    "char": "🫤",
+    "codepoints": [
+      129764
+    ],
+    "keywords": [
+      "disappointed",
+      "meh",
+      "skeptical",
+      "unsure"
+    ],
+    "name": "face with diagonal mouth"
+  },
+  "1fae5": {
+    "char": "🫥",
+    "codepoints": [
+      129765
+    ],
+    "keywords": [
+      "depressed",
+      "disappear",
+      "hide",
+      "introvert",
+      "invisible"
+    ],
+    "name": "dotted line face"
+  },
+  "1fae6": {
+    "char": "🫦",
+    "codepoints": [
+      129766
+    ],
+    "keywords": [
+      "anxious",
+      "fear",
+      "flirting",
+      "nervous",
+      "uncomfortable",
+      "worried"
+    ],
+    "name": "biting lip"
+  },
+  "1fae7": {
+    "char": "🫧",
+    "codepoints": [
+      129767
+    ],
+    "keywords": [
+      "burp",
+      "clean",
+      "soap",
+      "underwater"
+    ],
+    "name": "bubbles"
+  },
+  "1faf0": {
+    "char": "🫰",
+    "codepoints": [
+      129776
+    ],
+    "keywords": [
+      "expensive",
+      "heart",
+      "love",
+      "money",
+      "snap"
+    ],
+    "name": "hand with index finger and thumb crossed"
+  },
+  "1faf1": {
+    "char": "🫱",
+    "codepoints": [
+      129777
+    ],
+    "keywords": [
+      "hand",
+      "right",
+      "rightward"
+    ],
+    "name": "rightwards hand"
+  },
+  "1faf2": {
+    "char": "🫲",
+    "codepoints": [
+      129778
+    ],
+    "keywords": [
+      "hand",
+      "left",
+      "leftward"
+    ],
+    "name": "leftwards hand"
+  },
+  "1faf3": {
+    "char": "🫳",
+    "codepoints": [
+      129779
+    ],
+    "keywords": [
+      "dismiss",
+      "drop",
+      "shoo"
+    ],
+    "name": "palm down hand"
+  },
+  "1faf4": {
+    "char": "🫴",
+    "codepoints": [
+      129780
+    ],
+    "keywords": [
+      "beckon",
+      "catch",
+      "come",
+      "offer"
+    ],
+    "name": "palm up hand"
+  },
+  "1faf5": {
+    "char": "🫵",
+    "codepoints": [
+      129781
+    ],
+    "keywords": [
+      "point",
+      "you"
+    ],
+    "name": "index pointing at the viewer"
+  },
+  "1faf6": {
+    "char": "🫶",
+    "codepoints": [
+      129782
+    ],
+    "keywords": [
+      "love"
+    ],
+    "name": "heart hands"
   }
 }
