@@ -64,7 +64,6 @@ const emojiFontNameComparator: stringify.Comparator = (a, b) => {
       if (err && err.code !== 'ENOENT') {
         console.error('Error unlinking latest:', err);
       }
-      throw err;
     }
 
     try {
