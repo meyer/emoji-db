@@ -39777,14 +39777,17 @@
     "emoji": "🤗",
     "emojilib_name": "hugs",
     "fitz": null,
-    "image": "images/hugging_face.png",
+    "image": "images/smiling_face_with_open_hands.png",
     "keywords": [
       "face",
       "hug",
       "hugging",
-      "smile"
+      "open hands",
+      "smile",
+      "smiling face",
+      "smiling face with open hands"
     ],
-    "name": "hugging face",
+    "name": "smiling face with open hands",
     "unicode_category": "people",
     "unicode_subcategory": null
   },
