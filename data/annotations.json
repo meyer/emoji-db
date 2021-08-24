@@ -1719,9 +1719,10 @@
       8633
     ],
     "keywords": [
-      "leftwards",
       "arrow",
       "bar",
+      "leftwards",
+      "leftwards over rightwards arrow bars",
       "rightwards"
     ],
     "name": "leftwards over rightwards arrow bars"
@@ -10504,8 +10505,8 @@
       128040
     ],
     "keywords": [
-      "koala",
       "face",
+      "koala",
       "marsupial"
     ],
     "name": "koala"
@@ -18345,7 +18346,8 @@
     ],
     "keywords": [
       "amusement park",
-      "play"
+      "play",
+      "playground slide"
     ],
     "name": "playground slide"
   },
@@ -18357,7 +18359,8 @@
     "keywords": [
       "circle",
       "tire",
-      "turn"
+      "turn",
+      "wheel"
     ],
     "name": "wheel"
   },
@@ -18371,6 +18374,7 @@
       "life preserver",
       "life saver",
       "rescue",
+      "ring buoy",
       "safety"
     ],
     "name": "ring buoy"
@@ -18750,6 +18754,7 @@
     ],
     "keywords": [
       "equality",
+      "heavy equals sign",
       "math"
     ],
     "name": "heavy equals sign"
@@ -20362,6 +20367,7 @@
     "keywords": [
       "angry",
       "cry",
+      "face holding back tears",
       "proud",
       "resist",
       "sad"
@@ -21434,7 +21440,8 @@
     "keywords": [
       "fairy tale",
       "fantasy",
-      "monster"
+      "monster",
+      "troll"
     ],
     "name": "troll"
   },
@@ -22897,7 +22904,8 @@
       "bones",
       "doctor",
       "medical",
-      "skeleton"
+      "skeleton",
+      "x-ray"
     ],
     "name": "x-ray"
   },
@@ -22908,6 +22916,7 @@
     ],
     "keywords": [
       "cane",
+      "crutch",
       "disability",
       "hurt",
       "mobility aid",
@@ -23352,6 +23361,7 @@
       "dance",
       "disco",
       "glitter",
+      "mirror ball",
       "party"
     ],
     "name": "mirror ball"
@@ -23362,8 +23372,9 @@
       129706
     ],
     "keywords": [
-      "ID",
       "credentials",
+      "ID",
+      "identification card",
       "license",
       "security"
     ],
@@ -23376,6 +23387,7 @@
     ],
     "keywords": [
       "electronic",
+      "low battery",
       "low energy"
     ],
     "name": "low battery"
@@ -23386,11 +23398,12 @@
       129708
     ],
     "keywords": [
+      "amulet",
       "Fatima",
+      "hamsa",
+      "hand",
       "Mary",
       "Miriam",
-      "amulet",
-      "hand",
       "protection"
     ],
     "name": "hamsa"
@@ -23497,11 +23510,12 @@
     ],
     "keywords": [
       "Buddhism",
+      "flower",
       "Hinduism",
       "India",
-      "Vietnam",
-      "flower",
-      "purity"
+      "lotus",
+      "purity",
+      "Vietnam"
     ],
     "name": "lotus"
   },
@@ -23511,6 +23525,7 @@
       129720
     ],
     "keywords": [
+      "coral",
       "ocean",
       "reef"
     ],
@@ -23522,6 +23537,7 @@
       129721
     ],
     "keywords": [
+      "empty nest",
       "nesting"
     ],
     "name": "empty nest"
@@ -23532,6 +23548,7 @@
       129722
     ],
     "keywords": [
+      "nest with eggs",
       "nesting"
     ],
     "name": "nest with eggs"
@@ -23588,7 +23605,8 @@
       "belly",
       "bloated",
       "full",
-      "pregnant"
+      "pregnant",
+      "pregnant man"
     ],
     "name": "pregnant man"
   },
@@ -23601,7 +23619,8 @@
       "belly",
       "bloated",
       "full",
-      "pregnant"
+      "pregnant",
+      "pregnant person"
     ],
     "name": "pregnant person"
   },
@@ -23613,6 +23632,7 @@
     "keywords": [
       "monarch",
       "noble",
+      "person with crown",
       "regal",
       "royalty"
     ],
@@ -23719,6 +23739,7 @@
       "drink",
       "empty",
       "glass",
+      "pouring liquid",
       "spill"
     ],
     "name": "pouring liquid"
@@ -23729,6 +23750,7 @@
       129752
     ],
     "keywords": [
+      "beans",
       "food",
       "kidney",
       "legume"
@@ -23744,6 +23766,7 @@
       "condiment",
       "container",
       "empty",
+      "jar",
       "sauce",
       "store"
     ],
@@ -23758,7 +23781,8 @@
       "disappear",
       "dissolve",
       "liquid",
-      "melt"
+      "melt",
+      "melting face"
     ],
     "name": "melting face"
   },
@@ -23770,6 +23794,7 @@
     "keywords": [
       "ok",
       "salute",
+      "saluting face",
       "sunny",
       "troops",
       "yes"
@@ -23786,6 +23811,7 @@
       "awe",
       "disbelief",
       "embarrass",
+      "face with open eyes and hand over mouth",
       "scared",
       "surprise"
     ],
@@ -23798,6 +23824,7 @@
     ],
     "keywords": [
       "captivated",
+      "face with peeking eye",
       "peep",
       "stare"
     ],
@@ -23810,6 +23837,7 @@
     ],
     "keywords": [
       "disappointed",
+      "face with diagonal mouth",
       "meh",
       "skeptical",
       "unsure"
@@ -23824,6 +23852,7 @@
     "keywords": [
       "depressed",
       "disappear",
+      "dotted line face",
       "hide",
       "introvert",
       "invisible"
@@ -23837,6 +23866,7 @@
     ],
     "keywords": [
       "anxious",
+      "biting lip",
       "fear",
       "flirting",
       "nervous",
@@ -23851,6 +23881,7 @@
       129767
     ],
     "keywords": [
+      "bubbles",
       "burp",
       "clean",
       "soap",
@@ -23865,6 +23896,7 @@
     ],
     "keywords": [
       "expensive",
+      "hand with index finger and thumb crossed",
       "heart",
       "love",
       "money",
@@ -23880,7 +23912,8 @@
     "keywords": [
       "hand",
       "right",
-      "rightward"
+      "rightward",
+      "rightwards hand"
     ],
     "name": "rightwards hand"
   },
@@ -23892,7 +23925,8 @@
     "keywords": [
       "hand",
       "left",
-      "leftward"
+      "leftward",
+      "leftwards hand"
     ],
     "name": "leftwards hand"
   },
@@ -23904,6 +23938,7 @@
     "keywords": [
       "dismiss",
       "drop",
+      "palm down hand",
       "shoo"
     ],
     "name": "palm down hand"
@@ -23917,7 +23952,8 @@
       "beckon",
       "catch",
       "come",
-      "offer"
+      "offer",
+      "palm up hand"
     ],
     "name": "palm up hand"
   },
@@ -23927,6 +23963,7 @@
       129781
     ],
     "keywords": [
+      "index pointing at the viewer",
       "point",
       "you"
     ],
@@ -23938,6 +23975,7 @@
       129782
     ],
     "keywords": [
+      "heart hands",
       "love"
     ],
     "name": "heart hands"
