@@ -22986,6 +22986,86 @@
     ],
     "name": "right-facing fist: dark skin tone"
   },
+  "1f91d.1": {
+    "char": "🤝🏻",
+    "codepoints": [
+      129309,
+      127995
+    ],
+    "keywords": [
+      "agreement",
+      "hand",
+      "handshake",
+      "light skin tone",
+      "meeting",
+      "shake"
+    ],
+    "name": "handshake: light skin tone"
+  },
+  "1f91d.2": {
+    "char": "🤝🏼",
+    "codepoints": [
+      129309,
+      127996
+    ],
+    "keywords": [
+      "agreement",
+      "hand",
+      "handshake",
+      "medium-light skin tone",
+      "meeting",
+      "shake"
+    ],
+    "name": "handshake: medium-light skin tone"
+  },
+  "1f91d.3": {
+    "char": "🤝🏽",
+    "codepoints": [
+      129309,
+      127997
+    ],
+    "keywords": [
+      "agreement",
+      "hand",
+      "handshake",
+      "medium skin tone",
+      "meeting",
+      "shake"
+    ],
+    "name": "handshake: medium skin tone"
+  },
+  "1f91d.4": {
+    "char": "🤝🏾",
+    "codepoints": [
+      129309,
+      127998
+    ],
+    "keywords": [
+      "agreement",
+      "hand",
+      "handshake",
+      "medium-dark skin tone",
+      "meeting",
+      "shake"
+    ],
+    "name": "handshake: medium-dark skin tone"
+  },
+  "1f91d.5": {
+    "char": "🤝🏿",
+    "codepoints": [
+      129309,
+      127999
+    ],
+    "keywords": [
+      "agreement",
+      "dark skin tone",
+      "hand",
+      "handshake",
+      "meeting",
+      "shake"
+    ],
+    "name": "handshake: dark skin tone"
+  },
   "1f91e.1": {
     "char": "🤞🏻",
     "codepoints": [
@@ -32664,5 +32744,1170 @@
       "man elf"
     ],
     "name": "man elf: dark skin tone"
+  },
+  "1fac3.1": {
+    "char": "🫃🏻",
+    "codepoints": [
+      129731,
+      127995
+    ],
+    "keywords": [
+      "belly",
+      "bloated",
+      "full",
+      "light skin tone",
+      "pregnant",
+      "pregnant man"
+    ],
+    "name": "pregnant man: light skin tone"
+  },
+  "1fac3.2": {
+    "char": "🫃🏼",
+    "codepoints": [
+      129731,
+      127996
+    ],
+    "keywords": [
+      "belly",
+      "bloated",
+      "full",
+      "medium-light skin tone",
+      "pregnant",
+      "pregnant man"
+    ],
+    "name": "pregnant man: medium-light skin tone"
+  },
+  "1fac3.3": {
+    "char": "🫃🏽",
+    "codepoints": [
+      129731,
+      127997
+    ],
+    "keywords": [
+      "belly",
+      "bloated",
+      "full",
+      "medium skin tone",
+      "pregnant",
+      "pregnant man"
+    ],
+    "name": "pregnant man: medium skin tone"
+  },
+  "1fac3.4": {
+    "char": "🫃🏾",
+    "codepoints": [
+      129731,
+      127998
+    ],
+    "keywords": [
+      "belly",
+      "bloated",
+      "full",
+      "medium-dark skin tone",
+      "pregnant",
+      "pregnant man"
+    ],
+    "name": "pregnant man: medium-dark skin tone"
+  },
+  "1fac3.5": {
+    "char": "🫃🏿",
+    "codepoints": [
+      129731,
+      127999
+    ],
+    "keywords": [
+      "belly",
+      "bloated",
+      "dark skin tone",
+      "full",
+      "pregnant",
+      "pregnant man"
+    ],
+    "name": "pregnant man: dark skin tone"
+  },
+  "1fac4.1": {
+    "char": "🫄🏻",
+    "codepoints": [
+      129732,
+      127995
+    ],
+    "keywords": [
+      "belly",
+      "bloated",
+      "full",
+      "light skin tone",
+      "pregnant",
+      "pregnant person"
+    ],
+    "name": "pregnant person: light skin tone"
+  },
+  "1fac4.2": {
+    "char": "🫄🏼",
+    "codepoints": [
+      129732,
+      127996
+    ],
+    "keywords": [
+      "belly",
+      "bloated",
+      "full",
+      "medium-light skin tone",
+      "pregnant",
+      "pregnant person"
+    ],
+    "name": "pregnant person: medium-light skin tone"
+  },
+  "1fac4.3": {
+    "char": "🫄🏽",
+    "codepoints": [
+      129732,
+      127997
+    ],
+    "keywords": [
+      "belly",
+      "bloated",
+      "full",
+      "medium skin tone",
+      "pregnant",
+      "pregnant person"
+    ],
+    "name": "pregnant person: medium skin tone"
+  },
+  "1fac4.4": {
+    "char": "🫄🏾",
+    "codepoints": [
+      129732,
+      127998
+    ],
+    "keywords": [
+      "belly",
+      "bloated",
+      "full",
+      "medium-dark skin tone",
+      "pregnant",
+      "pregnant person"
+    ],
+    "name": "pregnant person: medium-dark skin tone"
+  },
+  "1fac4.5": {
+    "char": "🫄🏿",
+    "codepoints": [
+      129732,
+      127999
+    ],
+    "keywords": [
+      "belly",
+      "bloated",
+      "dark skin tone",
+      "full",
+      "pregnant",
+      "pregnant person"
+    ],
+    "name": "pregnant person: dark skin tone"
+  },
+  "1fac5.1": {
+    "char": "🫅🏻",
+    "codepoints": [
+      129733,
+      127995
+    ],
+    "keywords": [
+      "light skin tone",
+      "monarch",
+      "noble",
+      "person with crown",
+      "regal",
+      "royalty"
+    ],
+    "name": "person with crown: light skin tone"
+  },
+  "1fac5.2": {
+    "char": "🫅🏼",
+    "codepoints": [
+      129733,
+      127996
+    ],
+    "keywords": [
+      "medium-light skin tone",
+      "monarch",
+      "noble",
+      "person with crown",
+      "regal",
+      "royalty"
+    ],
+    "name": "person with crown: medium-light skin tone"
+  },
+  "1fac5.3": {
+    "char": "🫅🏽",
+    "codepoints": [
+      129733,
+      127997
+    ],
+    "keywords": [
+      "medium skin tone",
+      "monarch",
+      "noble",
+      "person with crown",
+      "regal",
+      "royalty"
+    ],
+    "name": "person with crown: medium skin tone"
+  },
+  "1fac5.4": {
+    "char": "🫅🏾",
+    "codepoints": [
+      129733,
+      127998
+    ],
+    "keywords": [
+      "medium-dark skin tone",
+      "monarch",
+      "noble",
+      "person with crown",
+      "regal",
+      "royalty"
+    ],
+    "name": "person with crown: medium-dark skin tone"
+  },
+  "1fac5.5": {
+    "char": "🫅🏿",
+    "codepoints": [
+      129733,
+      127999
+    ],
+    "keywords": [
+      "dark skin tone",
+      "monarch",
+      "noble",
+      "person with crown",
+      "regal",
+      "royalty"
+    ],
+    "name": "person with crown: dark skin tone"
+  },
+  "1faf0.1": {
+    "char": "🫰🏻",
+    "codepoints": [
+      129776,
+      127995
+    ],
+    "keywords": [
+      "expensive",
+      "hand with index finger and thumb crossed",
+      "heart",
+      "light skin tone",
+      "love",
+      "money",
+      "snap"
+    ],
+    "name": "hand with index finger and thumb crossed: light skin tone"
+  },
+  "1faf0.2": {
+    "char": "🫰🏼",
+    "codepoints": [
+      129776,
+      127996
+    ],
+    "keywords": [
+      "expensive",
+      "hand with index finger and thumb crossed",
+      "heart",
+      "love",
+      "medium-light skin tone",
+      "money",
+      "snap"
+    ],
+    "name": "hand with index finger and thumb crossed: medium-light skin tone"
+  },
+  "1faf0.3": {
+    "char": "🫰🏽",
+    "codepoints": [
+      129776,
+      127997
+    ],
+    "keywords": [
+      "expensive",
+      "hand with index finger and thumb crossed",
+      "heart",
+      "love",
+      "medium skin tone",
+      "money",
+      "snap"
+    ],
+    "name": "hand with index finger and thumb crossed: medium skin tone"
+  },
+  "1faf0.4": {
+    "char": "🫰🏾",
+    "codepoints": [
+      129776,
+      127998
+    ],
+    "keywords": [
+      "expensive",
+      "hand with index finger and thumb crossed",
+      "heart",
+      "love",
+      "medium-dark skin tone",
+      "money",
+      "snap"
+    ],
+    "name": "hand with index finger and thumb crossed: medium-dark skin tone"
+  },
+  "1faf0.5": {
+    "char": "🫰🏿",
+    "codepoints": [
+      129776,
+      127999
+    ],
+    "keywords": [
+      "dark skin tone",
+      "expensive",
+      "hand with index finger and thumb crossed",
+      "heart",
+      "love",
+      "money",
+      "snap"
+    ],
+    "name": "hand with index finger and thumb crossed: dark skin tone"
+  },
+  "1faf1.1": {
+    "char": "🫱🏻",
+    "codepoints": [
+      129777,
+      127995
+    ],
+    "keywords": [
+      "hand",
+      "light skin tone",
+      "right",
+      "rightward",
+      "rightwards hand"
+    ],
+    "name": "rightwards hand: light skin tone"
+  },
+  "1faf1_1faf2.12": {
+    "char": "🫱🏻‍🫲🏼",
+    "codepoints": [
+      129777,
+      127995,
+      8205,
+      129778,
+      127996
+    ],
+    "keywords": [
+      "agreement",
+      "hand",
+      "handshake",
+      "light skin tone",
+      "medium-light skin tone",
+      "meeting",
+      "shake"
+    ],
+    "name": "handshake: light skin tone, medium-light skin tone"
+  },
+  "1faf1_1faf2.13": {
+    "char": "🫱🏻‍🫲🏽",
+    "codepoints": [
+      129777,
+      127995,
+      8205,
+      129778,
+      127997
+    ],
+    "keywords": [
+      "agreement",
+      "hand",
+      "handshake",
+      "light skin tone",
+      "medium skin tone",
+      "meeting",
+      "shake"
+    ],
+    "name": "handshake: light skin tone, medium skin tone"
+  },
+  "1faf1_1faf2.14": {
+    "char": "🫱🏻‍🫲🏾",
+    "codepoints": [
+      129777,
+      127995,
+      8205,
+      129778,
+      127998
+    ],
+    "keywords": [
+      "agreement",
+      "hand",
+      "handshake",
+      "light skin tone",
+      "medium-dark skin tone",
+      "meeting",
+      "shake"
+    ],
+    "name": "handshake: light skin tone, medium-dark skin tone"
+  },
+  "1faf1_1faf2.15": {
+    "char": "🫱🏻‍🫲🏿",
+    "codepoints": [
+      129777,
+      127995,
+      8205,
+      129778,
+      127999
+    ],
+    "keywords": [
+      "agreement",
+      "dark skin tone",
+      "hand",
+      "handshake",
+      "light skin tone",
+      "meeting",
+      "shake"
+    ],
+    "name": "handshake: light skin tone, dark skin tone"
+  },
+  "1faf1.2": {
+    "char": "🫱🏼",
+    "codepoints": [
+      129777,
+      127996
+    ],
+    "keywords": [
+      "hand",
+      "medium-light skin tone",
+      "right",
+      "rightward",
+      "rightwards hand"
+    ],
+    "name": "rightwards hand: medium-light skin tone"
+  },
+  "1faf1_1faf2.21": {
+    "char": "🫱🏼‍🫲🏻",
+    "codepoints": [
+      129777,
+      127996,
+      8205,
+      129778,
+      127995
+    ],
+    "keywords": [
+      "agreement",
+      "hand",
+      "handshake",
+      "light skin tone",
+      "medium-light skin tone",
+      "meeting",
+      "shake"
+    ],
+    "name": "handshake: medium-light skin tone, light skin tone"
+  },
+  "1faf1_1faf2.23": {
+    "char": "🫱🏼‍🫲🏽",
+    "codepoints": [
+      129777,
+      127996,
+      8205,
+      129778,
+      127997
+    ],
+    "keywords": [
+      "agreement",
+      "hand",
+      "handshake",
+      "medium skin tone",
+      "medium-light skin tone",
+      "meeting",
+      "shake"
+    ],
+    "name": "handshake: medium-light skin tone, medium skin tone"
+  },
+  "1faf1_1faf2.24": {
+    "char": "🫱🏼‍🫲🏾",
+    "codepoints": [
+      129777,
+      127996,
+      8205,
+      129778,
+      127998
+    ],
+    "keywords": [
+      "agreement",
+      "hand",
+      "handshake",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "meeting",
+      "shake"
+    ],
+    "name": "handshake: medium-light skin tone, medium-dark skin tone"
+  },
+  "1faf1_1faf2.25": {
+    "char": "🫱🏼‍🫲🏿",
+    "codepoints": [
+      129777,
+      127996,
+      8205,
+      129778,
+      127999
+    ],
+    "keywords": [
+      "agreement",
+      "dark skin tone",
+      "hand",
+      "handshake",
+      "medium-light skin tone",
+      "meeting",
+      "shake"
+    ],
+    "name": "handshake: medium-light skin tone, dark skin tone"
+  },
+  "1faf1.3": {
+    "char": "🫱🏽",
+    "codepoints": [
+      129777,
+      127997
+    ],
+    "keywords": [
+      "hand",
+      "medium skin tone",
+      "right",
+      "rightward",
+      "rightwards hand"
+    ],
+    "name": "rightwards hand: medium skin tone"
+  },
+  "1faf1_1faf2.31": {
+    "char": "🫱🏽‍🫲🏻",
+    "codepoints": [
+      129777,
+      127997,
+      8205,
+      129778,
+      127995
+    ],
+    "keywords": [
+      "agreement",
+      "hand",
+      "handshake",
+      "light skin tone",
+      "medium skin tone",
+      "meeting",
+      "shake"
+    ],
+    "name": "handshake: medium skin tone, light skin tone"
+  },
+  "1faf1_1faf2.32": {
+    "char": "🫱🏽‍🫲🏼",
+    "codepoints": [
+      129777,
+      127997,
+      8205,
+      129778,
+      127996
+    ],
+    "keywords": [
+      "agreement",
+      "hand",
+      "handshake",
+      "medium skin tone",
+      "medium-light skin tone",
+      "meeting",
+      "shake"
+    ],
+    "name": "handshake: medium skin tone, medium-light skin tone"
+  },
+  "1faf1_1faf2.34": {
+    "char": "🫱🏽‍🫲🏾",
+    "codepoints": [
+      129777,
+      127997,
+      8205,
+      129778,
+      127998
+    ],
+    "keywords": [
+      "agreement",
+      "hand",
+      "handshake",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "meeting",
+      "shake"
+    ],
+    "name": "handshake: medium skin tone, medium-dark skin tone"
+  },
+  "1faf1_1faf2.35": {
+    "char": "🫱🏽‍🫲🏿",
+    "codepoints": [
+      129777,
+      127997,
+      8205,
+      129778,
+      127999
+    ],
+    "keywords": [
+      "agreement",
+      "dark skin tone",
+      "hand",
+      "handshake",
+      "medium skin tone",
+      "meeting",
+      "shake"
+    ],
+    "name": "handshake: medium skin tone, dark skin tone"
+  },
+  "1faf1.4": {
+    "char": "🫱🏾",
+    "codepoints": [
+      129777,
+      127998
+    ],
+    "keywords": [
+      "hand",
+      "medium-dark skin tone",
+      "right",
+      "rightward",
+      "rightwards hand"
+    ],
+    "name": "rightwards hand: medium-dark skin tone"
+  },
+  "1faf1_1faf2.41": {
+    "char": "🫱🏾‍🫲🏻",
+    "codepoints": [
+      129777,
+      127998,
+      8205,
+      129778,
+      127995
+    ],
+    "keywords": [
+      "agreement",
+      "hand",
+      "handshake",
+      "light skin tone",
+      "medium-dark skin tone",
+      "meeting",
+      "shake"
+    ],
+    "name": "handshake: medium-dark skin tone, light skin tone"
+  },
+  "1faf1_1faf2.42": {
+    "char": "🫱🏾‍🫲🏼",
+    "codepoints": [
+      129777,
+      127998,
+      8205,
+      129778,
+      127996
+    ],
+    "keywords": [
+      "agreement",
+      "hand",
+      "handshake",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "meeting",
+      "shake"
+    ],
+    "name": "handshake: medium-dark skin tone, medium-light skin tone"
+  },
+  "1faf1_1faf2.43": {
+    "char": "🫱🏾‍🫲🏽",
+    "codepoints": [
+      129777,
+      127998,
+      8205,
+      129778,
+      127997
+    ],
+    "keywords": [
+      "agreement",
+      "hand",
+      "handshake",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "meeting",
+      "shake"
+    ],
+    "name": "handshake: medium-dark skin tone, medium skin tone"
+  },
+  "1faf1_1faf2.45": {
+    "char": "🫱🏾‍🫲🏿",
+    "codepoints": [
+      129777,
+      127998,
+      8205,
+      129778,
+      127999
+    ],
+    "keywords": [
+      "agreement",
+      "dark skin tone",
+      "hand",
+      "handshake",
+      "medium-dark skin tone",
+      "meeting",
+      "shake"
+    ],
+    "name": "handshake: medium-dark skin tone, dark skin tone"
+  },
+  "1faf1.5": {
+    "char": "🫱🏿",
+    "codepoints": [
+      129777,
+      127999
+    ],
+    "keywords": [
+      "dark skin tone",
+      "hand",
+      "right",
+      "rightward",
+      "rightwards hand"
+    ],
+    "name": "rightwards hand: dark skin tone"
+  },
+  "1faf1_1faf2.51": {
+    "char": "🫱🏿‍🫲🏻",
+    "codepoints": [
+      129777,
+      127999,
+      8205,
+      129778,
+      127995
+    ],
+    "keywords": [
+      "agreement",
+      "dark skin tone",
+      "hand",
+      "handshake",
+      "light skin tone",
+      "meeting",
+      "shake"
+    ],
+    "name": "handshake: dark skin tone, light skin tone"
+  },
+  "1faf1_1faf2.52": {
+    "char": "🫱🏿‍🫲🏼",
+    "codepoints": [
+      129777,
+      127999,
+      8205,
+      129778,
+      127996
+    ],
+    "keywords": [
+      "agreement",
+      "dark skin tone",
+      "hand",
+      "handshake",
+      "medium-light skin tone",
+      "meeting",
+      "shake"
+    ],
+    "name": "handshake: dark skin tone, medium-light skin tone"
+  },
+  "1faf1_1faf2.53": {
+    "char": "🫱🏿‍🫲🏽",
+    "codepoints": [
+      129777,
+      127999,
+      8205,
+      129778,
+      127997
+    ],
+    "keywords": [
+      "agreement",
+      "dark skin tone",
+      "hand",
+      "handshake",
+      "medium skin tone",
+      "meeting",
+      "shake"
+    ],
+    "name": "handshake: dark skin tone, medium skin tone"
+  },
+  "1faf1_1faf2.54": {
+    "char": "🫱🏿‍🫲🏾",
+    "codepoints": [
+      129777,
+      127999,
+      8205,
+      129778,
+      127998
+    ],
+    "keywords": [
+      "agreement",
+      "dark skin tone",
+      "hand",
+      "handshake",
+      "medium-dark skin tone",
+      "meeting",
+      "shake"
+    ],
+    "name": "handshake: dark skin tone, medium-dark skin tone"
+  },
+  "1faf2.1": {
+    "char": "🫲🏻",
+    "codepoints": [
+      129778,
+      127995
+    ],
+    "keywords": [
+      "hand",
+      "left",
+      "leftward",
+      "leftwards hand",
+      "light skin tone"
+    ],
+    "name": "leftwards hand: light skin tone"
+  },
+  "1faf2.2": {
+    "char": "🫲🏼",
+    "codepoints": [
+      129778,
+      127996
+    ],
+    "keywords": [
+      "hand",
+      "left",
+      "leftward",
+      "leftwards hand",
+      "medium-light skin tone"
+    ],
+    "name": "leftwards hand: medium-light skin tone"
+  },
+  "1faf2.3": {
+    "char": "🫲🏽",
+    "codepoints": [
+      129778,
+      127997
+    ],
+    "keywords": [
+      "hand",
+      "left",
+      "leftward",
+      "leftwards hand",
+      "medium skin tone"
+    ],
+    "name": "leftwards hand: medium skin tone"
+  },
+  "1faf2.4": {
+    "char": "🫲🏾",
+    "codepoints": [
+      129778,
+      127998
+    ],
+    "keywords": [
+      "hand",
+      "left",
+      "leftward",
+      "leftwards hand",
+      "medium-dark skin tone"
+    ],
+    "name": "leftwards hand: medium-dark skin tone"
+  },
+  "1faf2.5": {
+    "char": "🫲🏿",
+    "codepoints": [
+      129778,
+      127999
+    ],
+    "keywords": [
+      "dark skin tone",
+      "hand",
+      "left",
+      "leftward",
+      "leftwards hand"
+    ],
+    "name": "leftwards hand: dark skin tone"
+  },
+  "1faf3.1": {
+    "char": "🫳🏻",
+    "codepoints": [
+      129779,
+      127995
+    ],
+    "keywords": [
+      "dismiss",
+      "drop",
+      "light skin tone",
+      "palm down hand",
+      "shoo"
+    ],
+    "name": "palm down hand: light skin tone"
+  },
+  "1faf3.2": {
+    "char": "🫳🏼",
+    "codepoints": [
+      129779,
+      127996
+    ],
+    "keywords": [
+      "dismiss",
+      "drop",
+      "medium-light skin tone",
+      "palm down hand",
+      "shoo"
+    ],
+    "name": "palm down hand: medium-light skin tone"
+  },
+  "1faf3.3": {
+    "char": "🫳🏽",
+    "codepoints": [
+      129779,
+      127997
+    ],
+    "keywords": [
+      "dismiss",
+      "drop",
+      "medium skin tone",
+      "palm down hand",
+      "shoo"
+    ],
+    "name": "palm down hand: medium skin tone"
+  },
+  "1faf3.4": {
+    "char": "🫳🏾",
+    "codepoints": [
+      129779,
+      127998
+    ],
+    "keywords": [
+      "dismiss",
+      "drop",
+      "medium-dark skin tone",
+      "palm down hand",
+      "shoo"
+    ],
+    "name": "palm down hand: medium-dark skin tone"
+  },
+  "1faf3.5": {
+    "char": "🫳🏿",
+    "codepoints": [
+      129779,
+      127999
+    ],
+    "keywords": [
+      "dark skin tone",
+      "dismiss",
+      "drop",
+      "palm down hand",
+      "shoo"
+    ],
+    "name": "palm down hand: dark skin tone"
+  },
+  "1faf4.1": {
+    "char": "🫴🏻",
+    "codepoints": [
+      129780,
+      127995
+    ],
+    "keywords": [
+      "beckon",
+      "catch",
+      "come",
+      "light skin tone",
+      "offer",
+      "palm up hand"
+    ],
+    "name": "palm up hand: light skin tone"
+  },
+  "1faf4.2": {
+    "char": "🫴🏼",
+    "codepoints": [
+      129780,
+      127996
+    ],
+    "keywords": [
+      "beckon",
+      "catch",
+      "come",
+      "medium-light skin tone",
+      "offer",
+      "palm up hand"
+    ],
+    "name": "palm up hand: medium-light skin tone"
+  },
+  "1faf4.3": {
+    "char": "🫴🏽",
+    "codepoints": [
+      129780,
+      127997
+    ],
+    "keywords": [
+      "beckon",
+      "catch",
+      "come",
+      "medium skin tone",
+      "offer",
+      "palm up hand"
+    ],
+    "name": "palm up hand: medium skin tone"
+  },
+  "1faf4.4": {
+    "char": "🫴🏾",
+    "codepoints": [
+      129780,
+      127998
+    ],
+    "keywords": [
+      "beckon",
+      "catch",
+      "come",
+      "medium-dark skin tone",
+      "offer",
+      "palm up hand"
+    ],
+    "name": "palm up hand: medium-dark skin tone"
+  },
+  "1faf4.5": {
+    "char": "🫴🏿",
+    "codepoints": [
+      129780,
+      127999
+    ],
+    "keywords": [
+      "beckon",
+      "catch",
+      "come",
+      "dark skin tone",
+      "offer",
+      "palm up hand"
+    ],
+    "name": "palm up hand: dark skin tone"
+  },
+  "1faf5.1": {
+    "char": "🫵🏻",
+    "codepoints": [
+      129781,
+      127995
+    ],
+    "keywords": [
+      "index pointing at the viewer",
+      "light skin tone",
+      "point",
+      "you"
+    ],
+    "name": "index pointing at the viewer: light skin tone"
+  },
+  "1faf5.2": {
+    "char": "🫵🏼",
+    "codepoints": [
+      129781,
+      127996
+    ],
+    "keywords": [
+      "index pointing at the viewer",
+      "medium-light skin tone",
+      "point",
+      "you"
+    ],
+    "name": "index pointing at the viewer: medium-light skin tone"
+  },
+  "1faf5.3": {
+    "char": "🫵🏽",
+    "codepoints": [
+      129781,
+      127997
+    ],
+    "keywords": [
+      "index pointing at the viewer",
+      "medium skin tone",
+      "point",
+      "you"
+    ],
+    "name": "index pointing at the viewer: medium skin tone"
+  },
+  "1faf5.4": {
+    "char": "🫵🏾",
+    "codepoints": [
+      129781,
+      127998
+    ],
+    "keywords": [
+      "index pointing at the viewer",
+      "medium-dark skin tone",
+      "point",
+      "you"
+    ],
+    "name": "index pointing at the viewer: medium-dark skin tone"
+  },
+  "1faf5.5": {
+    "char": "🫵🏿",
+    "codepoints": [
+      129781,
+      127999
+    ],
+    "keywords": [
+      "dark skin tone",
+      "index pointing at the viewer",
+      "point",
+      "you"
+    ],
+    "name": "index pointing at the viewer: dark skin tone"
+  },
+  "1faf6.1": {
+    "char": "🫶🏻",
+    "codepoints": [
+      129782,
+      127995
+    ],
+    "keywords": [
+      "heart hands",
+      "light skin tone",
+      "love"
+    ],
+    "name": "heart hands: light skin tone"
+  },
+  "1faf6.2": {
+    "char": "🫶🏼",
+    "codepoints": [
+      129782,
+      127996
+    ],
+    "keywords": [
+      "heart hands",
+      "love",
+      "medium-light skin tone"
+    ],
+    "name": "heart hands: medium-light skin tone"
+  },
+  "1faf6.3": {
+    "char": "🫶🏽",
+    "codepoints": [
+      129782,
+      127997
+    ],
+    "keywords": [
+      "heart hands",
+      "love",
+      "medium skin tone"
+    ],
+    "name": "heart hands: medium skin tone"
+  },
+  "1faf6.4": {
+    "char": "🫶🏾",
+    "codepoints": [
+      129782,
+      127998
+    ],
+    "keywords": [
+      "heart hands",
+      "love",
+      "medium-dark skin tone"
+    ],
+    "name": "heart hands: medium-dark skin tone"
+  },
+  "1faf6.5": {
+    "char": "🫶🏿",
+    "codepoints": [
+      129782,
+      127999
+    ],
+    "keywords": [
+      "dark skin tone",
+      "heart hands",
+      "love"
+    ],
+    "name": "heart hands: dark skin tone"
   }
 }

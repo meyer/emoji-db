@@ -252,7 +252,7 @@
     "fitz": null,
     "image": "images/copyright.png",
     "keywords": [
-      "c",
+      "C",
       "circle",
       "copyright",
       "ip",
@@ -274,9 +274,9 @@
     "fitz": null,
     "image": "images/registered.png",
     "keywords": [
+      "R",
       "alphabet",
       "circle",
-      "r",
       "registered"
     ],
     "name": "registered",
@@ -340,11 +340,11 @@
     "fitz": null,
     "image": "images/trade_mark.png",
     "keywords": [
+      "TM",
       "brand",
       "law",
       "legal",
       "mark",
-      "tm",
       "trade mark",
       "trademark"
     ],
@@ -925,12 +925,12 @@
     "fitz": null,
     "image": "images/circled_m.png",
     "keywords": [
+      "M",
       "alphabet",
       "blue-circle",
       "circle",
       "circled M",
-      "letter",
-      "m"
+      "letter"
     ],
     "name": "circled M",
     "unicode_category": "symbols",
@@ -4347,8 +4347,8 @@
     "fitz": null,
     "image": "images/a_button_blood_type_.png",
     "keywords": [
+      "A",
       "A button (blood type)",
-      "a",
       "alphabet",
       "blood type",
       "letter",
@@ -4368,9 +4368,9 @@
     "fitz": null,
     "image": "images/b_button_blood_type_.png",
     "keywords": [
+      "B",
       "B button (blood type)",
       "alphabet",
-      "b",
       "blood type",
       "letter",
       "red-square"
@@ -4389,11 +4389,11 @@
     "fitz": null,
     "image": "images/o_button_blood_type_.png",
     "keywords": [
+      "O",
       "O button (blood type)",
       "alphabet",
       "blood type",
       "letter",
-      "o",
       "red-square"
     ],
     "name": "O button (blood type)",
@@ -4410,6 +4410,7 @@
     "fitz": null,
     "image": "images/p_button.png",
     "keywords": [
+      "P",
       "P button",
       "alphabet",
       "blue-square",
@@ -4430,8 +4431,8 @@
     "fitz": null,
     "image": "images/ab_button_blood_type_.png",
     "keywords": [
+      "AB",
       "AB button (blood type)",
-      "ab",
       "alphabet",
       "blood type",
       "red-square"
@@ -4449,9 +4450,9 @@
     "fitz": null,
     "image": "images/cl_button.png",
     "keywords": [
+      "CL",
       "CL button",
       "alphabet",
-      "cl",
       "red-square",
       "words"
     ],
@@ -4468,9 +4469,9 @@
     "fitz": null,
     "image": "images/cool_button.png",
     "keywords": [
+      "COOL",
       "COOL button",
       "blue-square",
-      "cool",
       "words"
     ],
     "name": "COOL button",
@@ -4486,9 +4487,9 @@
     "fitz": null,
     "image": "images/free_button.png",
     "keywords": [
+      "FREE",
       "FREE button",
       "blue-square",
-      "free",
       "words"
     ],
     "name": "FREE button",
@@ -4504,8 +4505,8 @@
     "fitz": null,
     "image": "images/id_button.png",
     "keywords": [
+      "ID",
       "ID button",
-      "id",
       "identity",
       "purple-square",
       "words"
@@ -4523,9 +4524,9 @@
     "fitz": null,
     "image": "images/new_button.png",
     "keywords": [
+      "NEW",
       "NEW button",
       "blue-square",
-      "new",
       "start",
       "words"
     ],
@@ -4542,10 +4543,10 @@
     "fitz": null,
     "image": "images/ng_button.png",
     "keywords": [
+      "NG",
       "NG button",
       "blue-square",
       "icon",
-      "ng",
       "shape",
       "words"
     ],
@@ -4583,11 +4584,11 @@
     "image": "images/sos_button.png",
     "keywords": [
       "911",
+      "SOS",
       "SOS button",
       "emergency",
       "help",
       "red-square",
-      "sos",
       "words"
     ],
     "name": "SOS button",
@@ -4603,12 +4604,13 @@
     "fitz": null,
     "image": "images/up_button.png",
     "keywords": [
+      "UP",
+      "UP!",
       "UP! button",
       "above",
       "blue-square",
       "high",
-      "mark",
-      "up"
+      "mark"
     ],
     "name": "UP! button",
     "unicode_category": "symbols",
@@ -4623,10 +4625,10 @@
     "fitz": null,
     "image": "images/vs_button.png",
     "keywords": [
+      "VS",
       "VS button",
       "orange-square",
       "versus",
-      "vs",
       "words"
     ],
     "name": "VS button",
@@ -15896,8 +15898,8 @@
     "fitz": null,
     "image": "images/atm_sign.png",
     "keywords": [
+      "ATM",
       "ATM sign",
-      "atm",
       "automated",
       "bank",
       "blue-square",
@@ -17859,9 +17861,11 @@
     "fitz": null,
     "image": "images/eye_in_speech_bubble.png",
     "keywords": [
+      "balloon",
+      "bubble",
       "eye",
       "eye in speech bubble",
-      "speech bubble",
+      "speech",
       "witness"
     ],
     "name": "eye in speech bubble",
@@ -27790,14 +27794,15 @@
     "fitz": null,
     "image": "images/zzz.png",
     "keywords": [
+      "ZZZ",
       "comic",
       "dream",
+      "good night",
       "sleep",
       "sleepy",
-      "tired",
-      "zzz"
+      "tired"
     ],
-    "name": "zzz",
+    "name": "ZZZ",
     "unicode_category": "people",
     "unicode_subcategory": null
   },
@@ -28442,7 +28447,7 @@
     "image": "images/optical_disk.png",
     "keywords": [
       "90s",
-      "cd",
+      "CD",
       "computer",
       "disc",
       "disk",
@@ -28463,12 +28468,12 @@
     "fitz": null,
     "image": "images/dvd.png",
     "keywords": [
-      "blu-ray",
+      "Blu-ray",
+      "DVD",
       "cd",
       "computer",
       "disc",
       "disk",
-      "dvd",
       "optical"
     ],
     "name": "dvd",
@@ -30300,9 +30305,9 @@
     "fitz": null,
     "image": "images/back_arrow.png",
     "keywords": [
+      "BACK",
       "BACK arrow",
       "arrow",
-      "back",
       "return",
       "words"
     ],
@@ -30319,9 +30324,9 @@
     "fitz": null,
     "image": "images/end_arrow.png",
     "keywords": [
+      "END",
       "END arrow",
       "arrow",
-      "end",
       "words"
     ],
     "name": "END arrow",
@@ -30337,10 +30342,11 @@
     "fitz": null,
     "image": "images/on_arrow.png",
     "keywords": [
+      "ON",
+      "ON!",
       "ON! arrow",
       "arrow",
       "mark",
-      "on",
       "words"
     ],
     "name": "ON! arrow",
@@ -30356,9 +30362,9 @@
     "fitz": null,
     "image": "images/soon_arrow.png",
     "keywords": [
+      "SOON",
       "SOON arrow",
       "arrow",
-      "soon",
       "words"
     ],
     "name": "SOON arrow",
@@ -30374,10 +30380,10 @@
     "fitz": null,
     "image": "images/top_arrow.png",
     "keywords": [
+      "TOP",
       "TOP arrow",
       "arrow",
       "blue-square",
-      "top",
       "up",
       "words"
     ],
@@ -32952,6 +32958,8 @@
     "fitz": null,
     "image": "images/left_speech_bubble.png",
     "keywords": [
+      "balloon",
+      "bubble",
       "chatting",
       "dialog",
       "left speech bubble",
@@ -33882,10 +33890,11 @@
     "emoji": "😡",
     "emojilib_name": "rage",
     "fitz": null,
-    "image": "images/pouting_face.png",
+    "image": "images/enraged_face.png",
     "keywords": [
       "angry",
       "despise",
+      "enraged",
       "face",
       "hate",
       "mad",
@@ -33893,7 +33902,7 @@
       "rage",
       "red"
     ],
-    "name": "pouting face",
+    "name": "enraged face",
     "unicode_category": "people",
     "unicode_subcategory": null
   },
@@ -34077,6 +34086,7 @@
     "image": "images/sleepy_face.png",
     "keywords": [
       "face",
+      "good night",
       "nap",
       "rest",
       "sleep",
@@ -34307,7 +34317,9 @@
     "fitz": null,
     "image": "images/sleeping_face.png",
     "keywords": [
+      "ZZZ",
       "face",
+      "good night",
       "night",
       "sleep",
       "sleeping face",
@@ -38385,6 +38397,8 @@
     "fitz": null,
     "image": "images/mens_room.png",
     "keywords": [
+      "WC",
+      "bathroom",
       "blue-square",
       "gender",
       "lavatory",
@@ -38409,6 +38423,8 @@
     "fitz": null,
     "image": "images/womens_room.png",
     "keywords": [
+      "WC",
+      "bathroom",
       "female",
       "gender",
       "lavatory",
@@ -38416,7 +38432,6 @@
       "purple-square",
       "restroom",
       "toilet",
-      "wc",
       "woman",
       "women’s room"
     ],
@@ -38434,6 +38449,7 @@
     "image": "images/restroom.png",
     "keywords": [
       "WC",
+      "bathroom",
       "blue-square",
       "gender",
       "lavatory",
@@ -38495,13 +38511,14 @@
     "fitz": null,
     "image": "images/water_closet.png",
     "keywords": [
+      "WC",
+      "bathroom",
       "blue-square",
       "closet",
       "lavatory",
       "restroom",
       "toilet",
-      "water",
-      "wc"
+      "water"
     ],
     "name": "water closet",
     "unicode_category": "symbols",
@@ -38716,6 +38733,7 @@
     "image": "images/person_in_bed.png",
     "keywords": [
       "bed",
+      "good night",
       "hotel",
       "person in bed",
       "rest",
@@ -39915,11 +39933,13 @@
     },
     "image": "images/call_me_hand.png",
     "keywords": [
+      "Shaka",
       "call",
       "call me hand",
       "gesture",
       "hand",
-      "hands"
+      "hands",
+      "hang loose"
     ],
     "name": "call me hand",
     "unicode_category": "people",
@@ -46592,7 +46612,7 @@
     "image": "images/face_with_monocle.png",
     "keywords": [
       "face",
-      "face with monocle",
+      "monocle",
       "stuffy",
       "wealthy"
     ],

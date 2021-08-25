@@ -478,7 +478,7 @@
       169
     ],
     "keywords": [
-      "c",
+      "C",
       "copyright"
     ],
     "name": "copyright"
@@ -516,7 +516,7 @@
       174
     ],
     "keywords": [
-      "r",
+      "R",
       "registered"
     ],
     "name": "registered"
@@ -1257,7 +1257,7 @@
     ],
     "keywords": [
       "mark",
-      "tm",
+      "TM",
       "trade mark",
       "trademark"
     ],
@@ -3565,7 +3565,7 @@
     "keywords": [
       "circle",
       "circled M",
-      "m"
+      "M"
     ],
     "name": "circled M"
   },
@@ -6424,7 +6424,7 @@
       127344
     ],
     "keywords": [
-      "a",
+      "A",
       "A button (blood type)",
       "blood type"
     ],
@@ -6436,7 +6436,7 @@
       127345
     ],
     "keywords": [
-      "b",
+      "B",
       "B button (blood type)",
       "blood type"
     ],
@@ -6449,7 +6449,7 @@
     ],
     "keywords": [
       "blood type",
-      "o",
+      "O",
       "O button (blood type)"
     ],
     "name": "O button (blood type)"
@@ -6460,6 +6460,7 @@
       127359
     ],
     "keywords": [
+      "P",
       "P button",
       "parking"
     ],
@@ -6471,7 +6472,7 @@
       127374
     ],
     "keywords": [
-      "ab",
+      "AB",
       "AB button (blood type)",
       "blood type"
     ],
@@ -6483,7 +6484,7 @@
       127377
     ],
     "keywords": [
-      "cl",
+      "CL",
       "CL button"
     ],
     "name": "CL button"
@@ -6494,7 +6495,7 @@
       127378
     ],
     "keywords": [
-      "cool",
+      "COOL",
       "COOL button"
     ],
     "name": "COOL button"
@@ -6505,7 +6506,7 @@
       127379
     ],
     "keywords": [
-      "free",
+      "FREE",
       "FREE button"
     ],
     "name": "FREE button"
@@ -6516,7 +6517,7 @@
       127380
     ],
     "keywords": [
-      "id",
+      "ID",
       "ID button",
       "identity"
     ],
@@ -6528,7 +6529,7 @@
       127381
     ],
     "keywords": [
-      "new",
+      "NEW",
       "NEW button"
     ],
     "name": "NEW button"
@@ -6539,7 +6540,7 @@
       127382
     ],
     "keywords": [
-      "ng",
+      "NG",
       "NG button"
     ],
     "name": "NG button"
@@ -6562,7 +6563,7 @@
     ],
     "keywords": [
       "help",
-      "sos",
+      "SOS",
       "SOS button"
     ],
     "name": "SOS button"
@@ -6574,7 +6575,8 @@
     ],
     "keywords": [
       "mark",
-      "up",
+      "UP",
+      "UP!",
       "UP! button"
     ],
     "name": "UP! button"
@@ -6586,7 +6588,7 @@
     ],
     "keywords": [
       "versus",
-      "vs",
+      "VS",
       "VS button"
     ],
     "name": "VS button"
@@ -9715,7 +9717,7 @@
       127975
     ],
     "keywords": [
-      "atm",
+      "ATM",
       "ATM sign",
       "automated",
       "bank",
@@ -10823,9 +10825,11 @@
       128488
     ],
     "keywords": [
+      "balloon",
+      "bubble",
       "eye",
       "eye in speech bubble",
-      "speech bubble",
+      "speech",
       "witness"
     ],
     "name": "eye in speech bubble"
@@ -12988,10 +12992,11 @@
     ],
     "keywords": [
       "comic",
+      "good night",
       "sleep",
-      "zzz"
+      "ZZZ"
     ],
-    "name": "zzz"
+    "name": "ZZZ"
   },
   "1f4a5": {
     "char": "💥",
@@ -13344,7 +13349,7 @@
       128191
     ],
     "keywords": [
-      "cd",
+      "CD",
       "computer",
       "disk",
       "optical"
@@ -13357,10 +13362,10 @@
       128192
     ],
     "keywords": [
-      "blu-ray",
+      "Blu-ray",
       "computer",
       "disk",
-      "dvd",
+      "DVD",
       "optical"
     ],
     "name": "dvd"
@@ -14453,7 +14458,7 @@
     ],
     "keywords": [
       "arrow",
-      "back",
+      "BACK",
       "BACK arrow"
     ],
     "name": "BACK arrow"
@@ -14465,7 +14470,7 @@
     ],
     "keywords": [
       "arrow",
-      "end",
+      "END",
       "END arrow"
     ],
     "name": "END arrow"
@@ -14478,7 +14483,8 @@
     "keywords": [
       "arrow",
       "mark",
-      "on",
+      "ON",
+      "ON!",
       "ON! arrow"
     ],
     "name": "ON! arrow"
@@ -14490,7 +14496,7 @@
     ],
     "keywords": [
       "arrow",
-      "soon",
+      "SOON",
       "SOON arrow"
     ],
     "name": "SOON arrow"
@@ -14502,7 +14508,7 @@
     ],
     "keywords": [
       "arrow",
-      "top",
+      "TOP",
       "TOP arrow",
       "up"
     ],
@@ -15810,6 +15816,8 @@
       128488
     ],
     "keywords": [
+      "balloon",
+      "bubble",
       "dialog",
       "left speech bubble",
       "speech"
@@ -16358,13 +16366,14 @@
     ],
     "keywords": [
       "angry",
+      "enraged",
       "face",
       "mad",
       "pouting",
       "rage",
       "red"
     ],
-    "name": "pouting face"
+    "name": "enraged face"
   },
   "1f622": {
     "char": "😢",
@@ -16476,6 +16485,7 @@
     ],
     "keywords": [
       "face",
+      "good night",
       "sleep",
       "sleepy face"
     ],
@@ -16626,9 +16636,10 @@
     ],
     "keywords": [
       "face",
+      "good night",
       "sleep",
       "sleeping face",
-      "zzz"
+      "ZZZ"
     ],
     "name": "sleeping face"
   },
@@ -18055,11 +18066,13 @@
       128697
     ],
     "keywords": [
+      "bathroom",
       "lavatory",
       "man",
       "men’s room",
       "restroom",
-      "wc"
+      "toilet",
+      "WC"
     ],
     "name": "men’s room"
   },
@@ -18069,9 +18082,11 @@
       128698
     ],
     "keywords": [
+      "bathroom",
       "lavatory",
       "restroom",
-      "wc",
+      "toilet",
+      "WC",
       "woman",
       "women’s room"
     ],
@@ -18083,8 +18098,10 @@
       128699
     ],
     "keywords": [
+      "bathroom",
       "lavatory",
       "restroom",
+      "toilet",
       "WC"
     ],
     "name": "restroom"
@@ -18117,11 +18134,13 @@
       128702
     ],
     "keywords": [
+      "bathroom",
       "closet",
       "lavatory",
       "restroom",
+      "toilet",
       "water",
-      "wc"
+      "WC"
     ],
     "name": "water closet"
   },
@@ -18224,6 +18243,7 @@
     ],
     "keywords": [
       "hotel",
+      "good night",
       "person in bed",
       "sleep"
     ],
@@ -18932,7 +18952,9 @@
     "keywords": [
       "call",
       "call me hand",
-      "hand"
+      "hand",
+      "hang loose",
+      "Shaka"
     ],
     "name": "call me hand"
   },
@@ -21567,7 +21589,8 @@
       129488
     ],
     "keywords": [
-      "face with monocle",
+      "face",
+      "monocle",
       "stuffy"
     ],
     "name": "face with monocle"
@@ -23792,7 +23815,7 @@
       129761
     ],
     "keywords": [
-      "ok",
+      "OK",
       "salute",
       "saluting face",
       "sunny",
