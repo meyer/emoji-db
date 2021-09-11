@@ -13365,6 +13365,7 @@
       "Blu-ray",
       "computer",
       "disk",
+      "dvd",
       "DVD",
       "optical"
     ],
@@ -14458,8 +14459,7 @@
     ],
     "keywords": [
       "arrow",
-      "BACK",
-      "BACK arrow"
+      "BACK"
     ],
     "name": "BACK arrow"
   },
@@ -14470,8 +14470,7 @@
     ],
     "keywords": [
       "arrow",
-      "END",
-      "END arrow"
+      "END"
     ],
     "name": "END arrow"
   },
@@ -14484,8 +14483,7 @@
       "arrow",
       "mark",
       "ON",
-      "ON!",
-      "ON! arrow"
+      "ON!"
     ],
     "name": "ON! arrow"
   },
@@ -14496,8 +14494,7 @@
     ],
     "keywords": [
       "arrow",
-      "SOON",
-      "SOON arrow"
+      "SOON"
     ],
     "name": "SOON arrow"
   },
@@ -14509,7 +14506,6 @@
     "keywords": [
       "arrow",
       "TOP",
-      "TOP arrow",
       "up"
     ],
     "name": "TOP arrow"
@@ -18242,8 +18238,8 @@
       128716
     ],
     "keywords": [
-      "hotel",
       "good night",
+      "hotel",
       "person in bed",
       "sleep"
     ],
@@ -21590,6 +21586,7 @@
     ],
     "keywords": [
       "face",
+      "face with monocle",
       "monocle",
       "stuffy"
     ],

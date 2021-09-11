@@ -28474,6 +28474,7 @@
       "computer",
       "disc",
       "disk",
+      "dvd",
       "optical"
     ],
     "name": "dvd",
@@ -30306,7 +30307,6 @@
     "image": "images/back_arrow.png",
     "keywords": [
       "BACK",
-      "BACK arrow",
       "arrow",
       "return",
       "words"
@@ -30325,7 +30325,6 @@
     "image": "images/end_arrow.png",
     "keywords": [
       "END",
-      "END arrow",
       "arrow",
       "words"
     ],
@@ -30344,7 +30343,6 @@
     "keywords": [
       "ON",
       "ON!",
-      "ON! arrow",
       "arrow",
       "mark",
       "words"
@@ -30363,7 +30361,6 @@
     "image": "images/soon_arrow.png",
     "keywords": [
       "SOON",
-      "SOON arrow",
       "arrow",
       "words"
     ],
@@ -30381,7 +30378,6 @@
     "image": "images/top_arrow.png",
     "keywords": [
       "TOP",
-      "TOP arrow",
       "arrow",
       "blue-square",
       "up",
@@ -46612,6 +46608,7 @@
     "image": "images/face_with_monocle.png",
     "keywords": [
       "face",
+      "face with monocle",
       "monocle",
       "stuffy",
       "wealthy"
