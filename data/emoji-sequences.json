@@ -7252,7 +7252,7 @@
     "codepoints": [
       128565
     ],
-    "description": "knocked-out face"
+    "description": "face with crossed-out eyes"
   },
   "1f636": {
     "char": "😶",
@@ -8154,6 +8154,13 @@
     ],
     "description": "hut"
   },
+  "1f6dd": {
+    "char": "🛝",
+    "codepoints": [
+      128733
+    ],
+    "description": "playground slide"
+  },
   "1f6e0": {
     "char": "🛠️",
     "codepoints": [
@@ -8274,6 +8281,13 @@
       128992
     ],
     "description": "orange circle"
+  },
+  "1f7f0": {
+    "char": "🟰",
+    "codepoints": [
+      129008
+    ],
+    "description": "heavy equals sign"
   },
   "1f90c": {
     "char": "🤌",
@@ -8582,6 +8596,46 @@
       127999
     ],
     "description": "right-facing fist: dark skin tone"
+  },
+  "1f91d.1": {
+    "char": "🤝🏻",
+    "codepoints": [
+      129309,
+      127995
+    ],
+    "description": "handshake: light skin tone"
+  },
+  "1f91d.2": {
+    "char": "🤝🏼",
+    "codepoints": [
+      129309,
+      127996
+    ],
+    "description": "handshake: medium-light skin tone"
+  },
+  "1f91d.3": {
+    "char": "🤝🏽",
+    "codepoints": [
+      129309,
+      127997
+    ],
+    "description": "handshake: medium skin tone"
+  },
+  "1f91d.4": {
+    "char": "🤝🏾",
+    "codepoints": [
+      129309,
+      127998
+    ],
+    "description": "handshake: medium-dark skin tone"
+  },
+  "1f91d.5": {
+    "char": "🤝🏿",
+    "codepoints": [
+      129309,
+      127999
+    ],
+    "description": "handshake: dark skin tone"
   },
   "1f91e.1": {
     "char": "🤞🏻",
@@ -9356,6 +9410,13 @@
     ],
     "description": "ninja: dark skin tone"
   },
+  "1f979": {
+    "char": "🥹",
+    "codepoints": [
+      129401
+    ],
+    "description": "face holding back tears"
+  },
   "1f97a": {
     "char": "🥺",
     "codepoints": [
@@ -9674,6 +9735,13 @@
       129483
     ],
     "description": "bubble tea"
+  },
+  "1f9cc": {
+    "char": "🧌",
+    "codepoints": [
+      129484
+    ],
+    "description": "troll"
   },
   "1f9cd": {
     "char": "🧍",
@@ -10357,6 +10425,13 @@
     ],
     "description": "drop of blood"
   },
+  "1fa7b": {
+    "char": "🩻",
+    "codepoints": [
+      129659
+    ],
+    "description": "x-ray"
+  },
   "1fa80": {
     "char": "🪀",
     "codepoints": [
@@ -10385,12 +10460,26 @@
     ],
     "description": "military helmet"
   },
+  "1faa9": {
+    "char": "🪩",
+    "codepoints": [
+      129705
+    ],
+    "description": "mirror ball"
+  },
   "1fab0": {
     "char": "🪰",
     "codepoints": [
       129712
     ],
     "description": "fly"
+  },
+  "1fab7": {
+    "char": "🪷",
+    "codepoints": [
+      129719
+    ],
+    "description": "lotus"
   },
   "1fac0": {
     "char": "🫀",
@@ -10399,11 +10488,439 @@
     ],
     "description": "anatomical heart"
   },
+  "1fac3": {
+    "char": "🫃",
+    "codepoints": [
+      129731
+    ],
+    "description": "pregnant man"
+  },
+  "1fac3.1": {
+    "char": "🫃🏻",
+    "codepoints": [
+      129731,
+      127995
+    ],
+    "description": "pregnant man: light skin tone"
+  },
+  "1fac3.2": {
+    "char": "🫃🏼",
+    "codepoints": [
+      129731,
+      127996
+    ],
+    "description": "pregnant man: medium-light skin tone"
+  },
+  "1fac3.3": {
+    "char": "🫃🏽",
+    "codepoints": [
+      129731,
+      127997
+    ],
+    "description": "pregnant man: medium skin tone"
+  },
+  "1fac3.4": {
+    "char": "🫃🏾",
+    "codepoints": [
+      129731,
+      127998
+    ],
+    "description": "pregnant man: medium-dark skin tone"
+  },
+  "1fac3.5": {
+    "char": "🫃🏿",
+    "codepoints": [
+      129731,
+      127999
+    ],
+    "description": "pregnant man: dark skin tone"
+  },
+  "1fac4.1": {
+    "char": "🫄🏻",
+    "codepoints": [
+      129732,
+      127995
+    ],
+    "description": "pregnant person: light skin tone"
+  },
+  "1fac4.2": {
+    "char": "🫄🏼",
+    "codepoints": [
+      129732,
+      127996
+    ],
+    "description": "pregnant person: medium-light skin tone"
+  },
+  "1fac4.3": {
+    "char": "🫄🏽",
+    "codepoints": [
+      129732,
+      127997
+    ],
+    "description": "pregnant person: medium skin tone"
+  },
+  "1fac4.4": {
+    "char": "🫄🏾",
+    "codepoints": [
+      129732,
+      127998
+    ],
+    "description": "pregnant person: medium-dark skin tone"
+  },
+  "1fac4.5": {
+    "char": "🫄🏿",
+    "codepoints": [
+      129732,
+      127999
+    ],
+    "description": "pregnant person: dark skin tone"
+  },
+  "1fac5.1": {
+    "char": "🫅🏻",
+    "codepoints": [
+      129733,
+      127995
+    ],
+    "description": "person with crown: light skin tone"
+  },
+  "1fac5.2": {
+    "char": "🫅🏼",
+    "codepoints": [
+      129733,
+      127996
+    ],
+    "description": "person with crown: medium-light skin tone"
+  },
+  "1fac5.3": {
+    "char": "🫅🏽",
+    "codepoints": [
+      129733,
+      127997
+    ],
+    "description": "person with crown: medium skin tone"
+  },
+  "1fac5.4": {
+    "char": "🫅🏾",
+    "codepoints": [
+      129733,
+      127998
+    ],
+    "description": "person with crown: medium-dark skin tone"
+  },
+  "1fac5.5": {
+    "char": "🫅🏿",
+    "codepoints": [
+      129733,
+      127999
+    ],
+    "description": "person with crown: dark skin tone"
+  },
   "1fad0": {
     "char": "🫐",
     "codepoints": [
       129744
     ],
     "description": "blueberries"
+  },
+  "1fad7": {
+    "char": "🫗",
+    "codepoints": [
+      129751
+    ],
+    "description": "pouring liquid"
+  },
+  "1fae0": {
+    "char": "🫠",
+    "codepoints": [
+      129760
+    ],
+    "description": "melting face"
+  },
+  "1faf0": {
+    "char": "🫰",
+    "codepoints": [
+      129776
+    ],
+    "description": "hand with index finger and thumb crossed"
+  },
+  "1faf0.1": {
+    "char": "🫰🏻",
+    "codepoints": [
+      129776,
+      127995
+    ],
+    "description": "hand with index finger and thumb crossed: light skin tone"
+  },
+  "1faf0.2": {
+    "char": "🫰🏼",
+    "codepoints": [
+      129776,
+      127996
+    ],
+    "description": "hand with index finger and thumb crossed: medium-light skin tone"
+  },
+  "1faf0.3": {
+    "char": "🫰🏽",
+    "codepoints": [
+      129776,
+      127997
+    ],
+    "description": "hand with index finger and thumb crossed: medium skin tone"
+  },
+  "1faf0.4": {
+    "char": "🫰🏾",
+    "codepoints": [
+      129776,
+      127998
+    ],
+    "description": "hand with index finger and thumb crossed: medium-dark skin tone"
+  },
+  "1faf0.5": {
+    "char": "🫰🏿",
+    "codepoints": [
+      129776,
+      127999
+    ],
+    "description": "hand with index finger and thumb crossed: dark skin tone"
+  },
+  "1faf1.1": {
+    "char": "🫱🏻",
+    "codepoints": [
+      129777,
+      127995
+    ],
+    "description": "rightwards hand: light skin tone"
+  },
+  "1faf1.2": {
+    "char": "🫱🏼",
+    "codepoints": [
+      129777,
+      127996
+    ],
+    "description": "rightwards hand: medium-light skin tone"
+  },
+  "1faf1.3": {
+    "char": "🫱🏽",
+    "codepoints": [
+      129777,
+      127997
+    ],
+    "description": "rightwards hand: medium skin tone"
+  },
+  "1faf1.4": {
+    "char": "🫱🏾",
+    "codepoints": [
+      129777,
+      127998
+    ],
+    "description": "rightwards hand: medium-dark skin tone"
+  },
+  "1faf1.5": {
+    "char": "🫱🏿",
+    "codepoints": [
+      129777,
+      127999
+    ],
+    "description": "rightwards hand: dark skin tone"
+  },
+  "1faf2.1": {
+    "char": "🫲🏻",
+    "codepoints": [
+      129778,
+      127995
+    ],
+    "description": "leftwards hand: light skin tone"
+  },
+  "1faf2.2": {
+    "char": "🫲🏼",
+    "codepoints": [
+      129778,
+      127996
+    ],
+    "description": "leftwards hand: medium-light skin tone"
+  },
+  "1faf2.3": {
+    "char": "🫲🏽",
+    "codepoints": [
+      129778,
+      127997
+    ],
+    "description": "leftwards hand: medium skin tone"
+  },
+  "1faf2.4": {
+    "char": "🫲🏾",
+    "codepoints": [
+      129778,
+      127998
+    ],
+    "description": "leftwards hand: medium-dark skin tone"
+  },
+  "1faf2.5": {
+    "char": "🫲🏿",
+    "codepoints": [
+      129778,
+      127999
+    ],
+    "description": "leftwards hand: dark skin tone"
+  },
+  "1faf3.1": {
+    "char": "🫳🏻",
+    "codepoints": [
+      129779,
+      127995
+    ],
+    "description": "palm down hand: light skin tone"
+  },
+  "1faf3.2": {
+    "char": "🫳🏼",
+    "codepoints": [
+      129779,
+      127996
+    ],
+    "description": "palm down hand: medium-light skin tone"
+  },
+  "1faf3.3": {
+    "char": "🫳🏽",
+    "codepoints": [
+      129779,
+      127997
+    ],
+    "description": "palm down hand: medium skin tone"
+  },
+  "1faf3.4": {
+    "char": "🫳🏾",
+    "codepoints": [
+      129779,
+      127998
+    ],
+    "description": "palm down hand: medium-dark skin tone"
+  },
+  "1faf3.5": {
+    "char": "🫳🏿",
+    "codepoints": [
+      129779,
+      127999
+    ],
+    "description": "palm down hand: dark skin tone"
+  },
+  "1faf4.1": {
+    "char": "🫴🏻",
+    "codepoints": [
+      129780,
+      127995
+    ],
+    "description": "palm up hand: light skin tone"
+  },
+  "1faf4.2": {
+    "char": "🫴🏼",
+    "codepoints": [
+      129780,
+      127996
+    ],
+    "description": "palm up hand: medium-light skin tone"
+  },
+  "1faf4.3": {
+    "char": "🫴🏽",
+    "codepoints": [
+      129780,
+      127997
+    ],
+    "description": "palm up hand: medium skin tone"
+  },
+  "1faf4.4": {
+    "char": "🫴🏾",
+    "codepoints": [
+      129780,
+      127998
+    ],
+    "description": "palm up hand: medium-dark skin tone"
+  },
+  "1faf4.5": {
+    "char": "🫴🏿",
+    "codepoints": [
+      129780,
+      127999
+    ],
+    "description": "palm up hand: dark skin tone"
+  },
+  "1faf5.1": {
+    "char": "🫵🏻",
+    "codepoints": [
+      129781,
+      127995
+    ],
+    "description": "index pointing at the viewer: light skin tone"
+  },
+  "1faf5.2": {
+    "char": "🫵🏼",
+    "codepoints": [
+      129781,
+      127996
+    ],
+    "description": "index pointing at the viewer: medium-light skin tone"
+  },
+  "1faf5.3": {
+    "char": "🫵🏽",
+    "codepoints": [
+      129781,
+      127997
+    ],
+    "description": "index pointing at the viewer: medium skin tone"
+  },
+  "1faf5.4": {
+    "char": "🫵🏾",
+    "codepoints": [
+      129781,
+      127998
+    ],
+    "description": "index pointing at the viewer: medium-dark skin tone"
+  },
+  "1faf5.5": {
+    "char": "🫵🏿",
+    "codepoints": [
+      129781,
+      127999
+    ],
+    "description": "index pointing at the viewer: dark skin tone"
+  },
+  "1faf6.1": {
+    "char": "🫶🏻",
+    "codepoints": [
+      129782,
+      127995
+    ],
+    "description": "heart hands: light skin tone"
+  },
+  "1faf6.2": {
+    "char": "🫶🏼",
+    "codepoints": [
+      129782,
+      127996
+    ],
+    "description": "heart hands: medium-light skin tone"
+  },
+  "1faf6.3": {
+    "char": "🫶🏽",
+    "codepoints": [
+      129782,
+      127997
+    ],
+    "description": "heart hands: medium skin tone"
+  },
+  "1faf6.4": {
+    "char": "🫶🏾",
+    "codepoints": [
+      129782,
+      127998
+    ],
+    "description": "heart hands: medium-dark skin tone"
+  },
+  "1faf6.5": {
+    "char": "🫶🏿",
+    "codepoints": [
+      129782,
+      127999
+    ],
+    "description": "heart hands: dark skin tone"
   }
 }

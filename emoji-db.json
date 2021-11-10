@@ -34334,7 +34334,7 @@
     "emoji": "😵",
     "emojilib_name": "dizzy_face",
     "fitz": null,
-    "image": "images/knocked-out_face.png",
+    "image": "images/face_with_crossed-out_eyes.png",
     "keywords": [
       "crossed-out eyes",
       "dead",
@@ -34346,7 +34346,7 @@
       "unconscious",
       "xox"
     ],
-    "name": "knocked-out face",
+    "name": "face with crossed-out eyes",
     "unicode_category": "people",
     "unicode_subcategory": null
   },

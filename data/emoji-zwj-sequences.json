@@ -15004,5 +15004,225 @@
       65039
     ],
     "description": "man zombie"
+  },
+  "1faf1_1faf2.12": {
+    "char": "🫱🏻‍🫲🏼",
+    "codepoints": [
+      129777,
+      127995,
+      8205,
+      129778,
+      127996
+    ],
+    "description": "handshake: light skin tone, medium-light skin tone"
+  },
+  "1faf1_1faf2.13": {
+    "char": "🫱🏻‍🫲🏽",
+    "codepoints": [
+      129777,
+      127995,
+      8205,
+      129778,
+      127997
+    ],
+    "description": "handshake: light skin tone, medium skin tone"
+  },
+  "1faf1_1faf2.14": {
+    "char": "🫱🏻‍🫲🏾",
+    "codepoints": [
+      129777,
+      127995,
+      8205,
+      129778,
+      127998
+    ],
+    "description": "handshake: light skin tone, medium-dark skin tone"
+  },
+  "1faf1_1faf2.15": {
+    "char": "🫱🏻‍🫲🏿",
+    "codepoints": [
+      129777,
+      127995,
+      8205,
+      129778,
+      127999
+    ],
+    "description": "handshake: light skin tone, dark skin tone"
+  },
+  "1faf1_1faf2.21": {
+    "char": "🫱🏼‍🫲🏻",
+    "codepoints": [
+      129777,
+      127996,
+      8205,
+      129778,
+      127995
+    ],
+    "description": "handshake: medium-light skin tone, light skin tone"
+  },
+  "1faf1_1faf2.23": {
+    "char": "🫱🏼‍🫲🏽",
+    "codepoints": [
+      129777,
+      127996,
+      8205,
+      129778,
+      127997
+    ],
+    "description": "handshake: medium-light skin tone, medium skin tone"
+  },
+  "1faf1_1faf2.24": {
+    "char": "🫱🏼‍🫲🏾",
+    "codepoints": [
+      129777,
+      127996,
+      8205,
+      129778,
+      127998
+    ],
+    "description": "handshake: medium-light skin tone, medium-dark skin tone"
+  },
+  "1faf1_1faf2.25": {
+    "char": "🫱🏼‍🫲🏿",
+    "codepoints": [
+      129777,
+      127996,
+      8205,
+      129778,
+      127999
+    ],
+    "description": "handshake: medium-light skin tone, dark skin tone"
+  },
+  "1faf1_1faf2.31": {
+    "char": "🫱🏽‍🫲🏻",
+    "codepoints": [
+      129777,
+      127997,
+      8205,
+      129778,
+      127995
+    ],
+    "description": "handshake: medium skin tone, light skin tone"
+  },
+  "1faf1_1faf2.32": {
+    "char": "🫱🏽‍🫲🏼",
+    "codepoints": [
+      129777,
+      127997,
+      8205,
+      129778,
+      127996
+    ],
+    "description": "handshake: medium skin tone, medium-light skin tone"
+  },
+  "1faf1_1faf2.34": {
+    "char": "🫱🏽‍🫲🏾",
+    "codepoints": [
+      129777,
+      127997,
+      8205,
+      129778,
+      127998
+    ],
+    "description": "handshake: medium skin tone, medium-dark skin tone"
+  },
+  "1faf1_1faf2.35": {
+    "char": "🫱🏽‍🫲🏿",
+    "codepoints": [
+      129777,
+      127997,
+      8205,
+      129778,
+      127999
+    ],
+    "description": "handshake: medium skin tone, dark skin tone"
+  },
+  "1faf1_1faf2.41": {
+    "char": "🫱🏾‍🫲🏻",
+    "codepoints": [
+      129777,
+      127998,
+      8205,
+      129778,
+      127995
+    ],
+    "description": "handshake: medium-dark skin tone, light skin tone"
+  },
+  "1faf1_1faf2.42": {
+    "char": "🫱🏾‍🫲🏼",
+    "codepoints": [
+      129777,
+      127998,
+      8205,
+      129778,
+      127996
+    ],
+    "description": "handshake: medium-dark skin tone, medium-light skin tone"
+  },
+  "1faf1_1faf2.43": {
+    "char": "🫱🏾‍🫲🏽",
+    "codepoints": [
+      129777,
+      127998,
+      8205,
+      129778,
+      127997
+    ],
+    "description": "handshake: medium-dark skin tone, medium skin tone"
+  },
+  "1faf1_1faf2.45": {
+    "char": "🫱🏾‍🫲🏿",
+    "codepoints": [
+      129777,
+      127998,
+      8205,
+      129778,
+      127999
+    ],
+    "description": "handshake: medium-dark skin tone, dark skin tone"
+  },
+  "1faf1_1faf2.51": {
+    "char": "🫱🏿‍🫲🏻",
+    "codepoints": [
+      129777,
+      127999,
+      8205,
+      129778,
+      127995
+    ],
+    "description": "handshake: dark skin tone, light skin tone"
+  },
+  "1faf1_1faf2.52": {
+    "char": "🫱🏿‍🫲🏼",
+    "codepoints": [
+      129777,
+      127999,
+      8205,
+      129778,
+      127996
+    ],
+    "description": "handshake: dark skin tone, medium-light skin tone"
+  },
+  "1faf1_1faf2.53": {
+    "char": "🫱🏿‍🫲🏽",
+    "codepoints": [
+      129777,
+      127999,
+      8205,
+      129778,
+      127997
+    ],
+    "description": "handshake: dark skin tone, medium skin tone"
+  },
+  "1faf1_1faf2.54": {
+    "char": "🫱🏿‍🫲🏾",
+    "codepoints": [
+      129777,
+      127999,
+      8205,
+      129778,
+      127998
+    ],
+    "description": "handshake: dark skin tone, medium-dark skin tone"
   }
 }
