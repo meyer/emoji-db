@@ -10490,6 +10490,22 @@
     ],
     "name": "bird"
   },
+  "1f426_2b1b": {
+    "char": "🐦‍⬛",
+    "codepoints": [
+      128038,
+      8205,
+      11035
+    ],
+    "keywords": [
+      "bird",
+      "black",
+      "crow",
+      "raven",
+      "rook"
+    ],
+    "name": "black bird"
+  },
   "1f427": {
     "char": "🐧",
     "codepoints": [
@@ -18355,6 +18371,18 @@
     ],
     "name": "elevator"
   },
+  "1f6dc": {
+    "char": "🛜",
+    "codepoints": [
+      128732
+    ],
+    "keywords": [
+      "computer",
+      "internet",
+      "network"
+    ],
+    "name": "wireless"
+  },
   "1f6dd": {
     "char": "🛝",
     "codepoints": [
@@ -22876,6 +22904,46 @@
     ],
     "name": "thong sandal"
   },
+  "1fa75": {
+    "char": "🩵",
+    "codepoints": [
+      129653
+    ],
+    "keywords": [
+      "cyan",
+      "heart",
+      "light blue",
+      "teal"
+    ],
+    "name": "light blue heart"
+  },
+  "1fa76": {
+    "char": "🩶",
+    "codepoints": [
+      129654
+    ],
+    "keywords": [
+      "gray",
+      "heart",
+      "silver",
+      "slate"
+    ],
+    "name": "grey heart"
+  },
+  "1fa77": {
+    "char": "🩷",
+    "codepoints": [
+      129655
+    ],
+    "keywords": [
+      "cute",
+      "heart",
+      "like",
+      "love",
+      "pink"
+    ],
+    "name": "pink heart"
+  },
   "1fa78": {
     "char": "🩸",
     "codepoints": [
@@ -23031,6 +23099,34 @@
       "russia"
     ],
     "name": "nesting dolls"
+  },
+  "1fa87": {
+    "char": "🪇",
+    "codepoints": [
+      129671
+    ],
+    "keywords": [
+      "instrument",
+      "music",
+      "percussion",
+      "rattle",
+      "shake"
+    ],
+    "name": "maracas"
+  },
+  "1fa88": {
+    "char": "🪈",
+    "codepoints": [
+      129672
+    ],
+    "keywords": [
+      "fife",
+      "music",
+      "pipe",
+      "recorder",
+      "woodwind"
+    ],
+    "name": "flute"
   },
   "1fa90": {
     "char": "🪐",
@@ -23428,6 +23524,45 @@
     ],
     "name": "hamsa"
   },
+  "1faad": {
+    "char": "🪭",
+    "codepoints": [
+      129709
+    ],
+    "keywords": [
+      "cooling",
+      "dance",
+      "fan",
+      "flutter",
+      "hot",
+      "shy"
+    ],
+    "name": "folding hand fan"
+  },
+  "1faae": {
+    "char": "🪮",
+    "codepoints": [
+      129710
+    ],
+    "keywords": [
+      "Afro",
+      "comb",
+      "hair",
+      "pick"
+    ],
+    "name": "hair pick"
+  },
+  "1faaf": {
+    "char": "🪯",
+    "codepoints": [
+      129711
+    ],
+    "keywords": [
+      "Sikh",
+      "religion"
+    ],
+    "name": "khanda"
+  },
   "1fab0": {
     "char": "🪰",
     "codepoints": [
@@ -23573,6 +23708,62 @@
     ],
     "name": "nest with eggs"
   },
+  "1fabb": {
+    "char": "🪻",
+    "codepoints": [
+      129723
+    ],
+    "keywords": [
+      "bluebonnet",
+      "flower",
+      "lavender",
+      "lupine",
+      "snapdragon"
+    ],
+    "name": "hyacinth"
+  },
+  "1fabc": {
+    "char": "🪼",
+    "codepoints": [
+      129724
+    ],
+    "keywords": [
+      "burn",
+      "invertebrate",
+      "jelly",
+      "marine",
+      "ouch",
+      "stinger"
+    ],
+    "name": "jellyfish"
+  },
+  "1fabd": {
+    "char": "🪽",
+    "codepoints": [
+      129725
+    ],
+    "keywords": [
+      "angelic",
+      "aviation",
+      "bird",
+      "flying",
+      "mythology"
+    ],
+    "name": "wing"
+  },
+  "1fabf": {
+    "char": "🪿",
+    "codepoints": [
+      129727
+    ],
+    "keywords": [
+      "bird",
+      "fowl",
+      "honk",
+      "silly"
+    ],
+    "name": "goose"
+  },
   "1fac0": {
     "char": "🫀",
     "codepoints": [
@@ -23657,6 +23848,34 @@
       "royalty"
     ],
     "name": "person with crown"
+  },
+  "1face": {
+    "char": "🫎",
+    "codepoints": [
+      129742
+    ],
+    "keywords": [
+      "animal",
+      "antlers",
+      "elk",
+      "mammal"
+    ],
+    "name": "moose"
+  },
+  "1facf": {
+    "char": "🫏",
+    "codepoints": [
+      129743
+    ],
+    "keywords": [
+      "animal",
+      "ass",
+      "burro",
+      "mammal",
+      "mule",
+      "stubborn"
+    ],
+    "name": "donkey"
   },
   "1fad0": {
     "char": "🫐",
@@ -23792,6 +24011,33 @@
     ],
     "name": "jar"
   },
+  "1fada": {
+    "char": "🫚",
+    "codepoints": [
+      129754
+    ],
+    "keywords": [
+      "beer",
+      "root",
+      "spice"
+    ],
+    "name": "ginger root"
+  },
+  "1fadb": {
+    "char": "🫛",
+    "codepoints": [
+      129755
+    ],
+    "keywords": [
+      "beans",
+      "edamame",
+      "legume",
+      "pea",
+      "pod",
+      "vegetable"
+    ],
+    "name": "pea pod"
+  },
   "1fae0": {
     "char": "🫠",
     "codepoints": [
@@ -23909,6 +24155,20 @@
     ],
     "name": "bubbles"
   },
+  "1fae8": {
+    "char": "🫨",
+    "codepoints": [
+      129768
+    ],
+    "keywords": [
+      "earthquake",
+      "face",
+      "shaking",
+      "shock",
+      "vibrate"
+    ],
+    "name": "shaking face"
+  },
   "1faf0": {
     "char": "🫰",
     "codepoints": [
@@ -23999,5 +24259,35 @@
       "love"
     ],
     "name": "heart hands"
+  },
+  "1faf7": {
+    "char": "🫷",
+    "codepoints": [
+      129783
+    ],
+    "keywords": [
+      "high five",
+      "leftward",
+      "push",
+      "refuse",
+      "stop",
+      "wait"
+    ],
+    "name": "leftwards pushing hand"
+  },
+  "1faf8": {
+    "char": "🫸",
+    "codepoints": [
+      129784
+    ],
+    "keywords": [
+      "high five",
+      "push",
+      "refuse",
+      "rightward",
+      "stop",
+      "wait"
+    ],
+    "name": "rightwards pushing hand"
   }
 }
