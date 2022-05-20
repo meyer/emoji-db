@@ -38905,6 +38905,61 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
+  "1f6dd": {
+    "codepoints": [
+      128733
+    ],
+    "emoji": "🛝",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/playground_slide.png",
+    "keywords": [
+      "amusement park",
+      "play",
+      "playground slide"
+    ],
+    "name": "playground slide",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1f6de": {
+    "codepoints": [
+      128734
+    ],
+    "emoji": "🛞",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/wheel.png",
+    "keywords": [
+      "circle",
+      "tire",
+      "turn",
+      "wheel"
+    ],
+    "name": "wheel",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1f6df": {
+    "codepoints": [
+      128735
+    ],
+    "emoji": "🛟",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/ring_buoy.png",
+    "keywords": [
+      "float",
+      "life preserver",
+      "life saver",
+      "rescue",
+      "ring buoy",
+      "safety"
+    ],
+    "name": "ring buoy",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
   "1f6e0": {
     "codepoints": [
       128736,
@@ -39481,6 +39536,23 @@
       "square"
     ],
     "name": "brown square",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1f7f0": {
+    "codepoints": [
+      129008
+    ],
+    "emoji": "🟰",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/heavy_equals_sign.png",
+    "keywords": [
+      "equality",
+      "heavy equals sign",
+      "math"
+    ],
+    "name": "heavy equals sign",
     "unicode_category": null,
     "unicode_subcategory": null
   },
@@ -40141,7 +40213,53 @@
     ],
     "emoji": "🤝",
     "emojilib_name": "handshake",
-    "fitz": null,
+    "fitz": {
+      "1": {
+        "codepoints": [
+          129309,
+          127995
+        ],
+        "emoji": "🤝🏻",
+        "image": "images/handshake__light_skin_tone.png",
+        "name": "handshake: light skin tone"
+      },
+      "2": {
+        "codepoints": [
+          129309,
+          127996
+        ],
+        "emoji": "🤝🏼",
+        "image": "images/handshake__medium-light_skin_tone.png",
+        "name": "handshake: medium-light skin tone"
+      },
+      "3": {
+        "codepoints": [
+          129309,
+          127997
+        ],
+        "emoji": "🤝🏽",
+        "image": "images/handshake__medium_skin_tone.png",
+        "name": "handshake: medium skin tone"
+      },
+      "4": {
+        "codepoints": [
+          129309,
+          127998
+        ],
+        "emoji": "🤝🏾",
+        "image": "images/handshake__medium-dark_skin_tone.png",
+        "name": "handshake: medium-dark skin tone"
+      },
+      "5": {
+        "codepoints": [
+          129309,
+          127999
+        ],
+        "emoji": "🤝🏿",
+        "image": "images/handshake__dark_skin_tone.png",
+        "name": "handshake: dark skin tone"
+      }
+    },
     "image": "images/handshake.png",
     "keywords": [
       "agreement",
@@ -43840,6 +43958,26 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
+  "1f979": {
+    "codepoints": [
+      129401
+    ],
+    "emoji": "🥹",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/face_holding_back_tears.png",
+    "keywords": [
+      "angry",
+      "cry",
+      "face holding back tears",
+      "proud",
+      "resist",
+      "sad"
+    ],
+    "name": "face holding back tears",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
   "1f97a": {
     "codepoints": [
       129402
@@ -45924,6 +46062,24 @@
       "tea"
     ],
     "name": "bubble tea",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1f9cc": {
+    "codepoints": [
+      129484
+    ],
+    "emoji": "🧌",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/troll.png",
+    "keywords": [
+      "fairy tale",
+      "fantasy",
+      "monster",
+      "troll"
+    ],
+    "name": "troll",
     "unicode_category": null,
     "unicode_subcategory": null
   },
@@ -52096,6 +52252,45 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
+  "1fa7b": {
+    "codepoints": [
+      129659
+    ],
+    "emoji": "🩻",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/x-ray.png",
+    "keywords": [
+      "bones",
+      "doctor",
+      "medical",
+      "skeleton",
+      "x-ray"
+    ],
+    "name": "x-ray",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fa7c": {
+    "codepoints": [
+      129660
+    ],
+    "emoji": "🩼",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/crutch.png",
+    "keywords": [
+      "cane",
+      "crutch",
+      "disability",
+      "hurt",
+      "mobility aid",
+      "stick"
+    ],
+    "name": "crutch",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
   "1fa80": {
     "codepoints": [
       129664
@@ -52684,6 +52879,82 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
+  "1faa9": {
+    "codepoints": [
+      129705
+    ],
+    "emoji": "🪩",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/mirror_ball.png",
+    "keywords": [
+      "dance",
+      "disco",
+      "glitter",
+      "mirror ball",
+      "party"
+    ],
+    "name": "mirror ball",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1faaa": {
+    "codepoints": [
+      129706
+    ],
+    "emoji": "🪪",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/identification_card.png",
+    "keywords": [
+      "ID",
+      "credentials",
+      "identification card",
+      "license",
+      "security"
+    ],
+    "name": "identification card",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1faab": {
+    "codepoints": [
+      129707
+    ],
+    "emoji": "🪫",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/low_battery.png",
+    "keywords": [
+      "electronic",
+      "low battery",
+      "low energy"
+    ],
+    "name": "low battery",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1faac": {
+    "codepoints": [
+      129708
+    ],
+    "emoji": "🪬",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/hamsa.png",
+    "keywords": [
+      "Fatima",
+      "Mary",
+      "Miriam",
+      "amulet",
+      "hamsa",
+      "hand",
+      "protection"
+    ],
+    "name": "hamsa",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
   "1fab0": {
     "codepoints": [
       129712
@@ -52814,6 +53085,76 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
+  "1fab7": {
+    "codepoints": [
+      129719
+    ],
+    "emoji": "🪷",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/lotus.png",
+    "keywords": [
+      "Buddhism",
+      "Hinduism",
+      "India",
+      "Vietnam",
+      "flower",
+      "lotus",
+      "purity"
+    ],
+    "name": "lotus",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fab8": {
+    "codepoints": [
+      129720
+    ],
+    "emoji": "🪸",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/coral.png",
+    "keywords": [
+      "coral",
+      "ocean",
+      "reef"
+    ],
+    "name": "coral",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fab9": {
+    "codepoints": [
+      129721
+    ],
+    "emoji": "🪹",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/empty_nest.png",
+    "keywords": [
+      "empty nest",
+      "nesting"
+    ],
+    "name": "empty nest",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1faba": {
+    "codepoints": [
+      129722
+    ],
+    "emoji": "🪺",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/nest_with_eggs.png",
+    "keywords": [
+      "nest with eggs",
+      "nesting"
+    ],
+    "name": "nest with eggs",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
   "1fac0": {
     "codepoints": [
       129728
@@ -52869,6 +53210,201 @@
       "thanks"
     ],
     "name": "people hugging",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fac3": {
+    "codepoints": [
+      129731
+    ],
+    "emoji": "🫃",
+    "emojilib_name": null,
+    "fitz": {
+      "1": {
+        "codepoints": [
+          129731,
+          127995
+        ],
+        "emoji": "🫃🏻",
+        "image": "images/pregnant_man__light_skin_tone.png",
+        "name": "pregnant man: light skin tone"
+      },
+      "2": {
+        "codepoints": [
+          129731,
+          127996
+        ],
+        "emoji": "🫃🏼",
+        "image": "images/pregnant_man__medium-light_skin_tone.png",
+        "name": "pregnant man: medium-light skin tone"
+      },
+      "3": {
+        "codepoints": [
+          129731,
+          127997
+        ],
+        "emoji": "🫃🏽",
+        "image": "images/pregnant_man__medium_skin_tone.png",
+        "name": "pregnant man: medium skin tone"
+      },
+      "4": {
+        "codepoints": [
+          129731,
+          127998
+        ],
+        "emoji": "🫃🏾",
+        "image": "images/pregnant_man__medium-dark_skin_tone.png",
+        "name": "pregnant man: medium-dark skin tone"
+      },
+      "5": {
+        "codepoints": [
+          129731,
+          127999
+        ],
+        "emoji": "🫃🏿",
+        "image": "images/pregnant_man__dark_skin_tone.png",
+        "name": "pregnant man: dark skin tone"
+      }
+    },
+    "image": "images/pregnant_man.png",
+    "keywords": [
+      "belly",
+      "bloated",
+      "full",
+      "pregnant",
+      "pregnant man"
+    ],
+    "name": "pregnant man",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fac4": {
+    "codepoints": [
+      129732
+    ],
+    "emoji": "🫄",
+    "emojilib_name": null,
+    "fitz": {
+      "1": {
+        "codepoints": [
+          129732,
+          127995
+        ],
+        "emoji": "🫄🏻",
+        "image": "images/pregnant_person__light_skin_tone.png",
+        "name": "pregnant person: light skin tone"
+      },
+      "2": {
+        "codepoints": [
+          129732,
+          127996
+        ],
+        "emoji": "🫄🏼",
+        "image": "images/pregnant_person__medium-light_skin_tone.png",
+        "name": "pregnant person: medium-light skin tone"
+      },
+      "3": {
+        "codepoints": [
+          129732,
+          127997
+        ],
+        "emoji": "🫄🏽",
+        "image": "images/pregnant_person__medium_skin_tone.png",
+        "name": "pregnant person: medium skin tone"
+      },
+      "4": {
+        "codepoints": [
+          129732,
+          127998
+        ],
+        "emoji": "🫄🏾",
+        "image": "images/pregnant_person__medium-dark_skin_tone.png",
+        "name": "pregnant person: medium-dark skin tone"
+      },
+      "5": {
+        "codepoints": [
+          129732,
+          127999
+        ],
+        "emoji": "🫄🏿",
+        "image": "images/pregnant_person__dark_skin_tone.png",
+        "name": "pregnant person: dark skin tone"
+      }
+    },
+    "image": "images/pregnant_person.png",
+    "keywords": [
+      "belly",
+      "bloated",
+      "full",
+      "pregnant",
+      "pregnant person"
+    ],
+    "name": "pregnant person",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fac5": {
+    "codepoints": [
+      129733
+    ],
+    "emoji": "🫅",
+    "emojilib_name": null,
+    "fitz": {
+      "1": {
+        "codepoints": [
+          129733,
+          127995
+        ],
+        "emoji": "🫅🏻",
+        "image": "images/person_with_crown__light_skin_tone.png",
+        "name": "person with crown: light skin tone"
+      },
+      "2": {
+        "codepoints": [
+          129733,
+          127996
+        ],
+        "emoji": "🫅🏼",
+        "image": "images/person_with_crown__medium-light_skin_tone.png",
+        "name": "person with crown: medium-light skin tone"
+      },
+      "3": {
+        "codepoints": [
+          129733,
+          127997
+        ],
+        "emoji": "🫅🏽",
+        "image": "images/person_with_crown__medium_skin_tone.png",
+        "name": "person with crown: medium skin tone"
+      },
+      "4": {
+        "codepoints": [
+          129733,
+          127998
+        ],
+        "emoji": "🫅🏾",
+        "image": "images/person_with_crown__medium-dark_skin_tone.png",
+        "name": "person with crown: medium-dark skin tone"
+      },
+      "5": {
+        "codepoints": [
+          129733,
+          127999
+        ],
+        "emoji": "🫅🏿",
+        "image": "images/person_with_crown__dark_skin_tone.png",
+        "name": "person with crown: dark skin tone"
+      }
+    },
+    "image": "images/person_with_crown.png",
+    "keywords": [
+      "monarch",
+      "noble",
+      "person with crown",
+      "regal",
+      "royalty"
+    ],
+    "name": "person with crown",
     "unicode_category": null,
     "unicode_subcategory": null
   },
@@ -52996,6 +53532,668 @@
       "teapot"
     ],
     "name": "teapot",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fad7": {
+    "codepoints": [
+      129751
+    ],
+    "emoji": "🫗",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/pouring_liquid.png",
+    "keywords": [
+      "drink",
+      "empty",
+      "glass",
+      "pouring liquid",
+      "spill"
+    ],
+    "name": "pouring liquid",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fad8": {
+    "codepoints": [
+      129752
+    ],
+    "emoji": "🫘",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/beans.png",
+    "keywords": [
+      "beans",
+      "food",
+      "kidney",
+      "legume"
+    ],
+    "name": "beans",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fad9": {
+    "codepoints": [
+      129753
+    ],
+    "emoji": "🫙",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/jar.png",
+    "keywords": [
+      "condiment",
+      "container",
+      "empty",
+      "jar",
+      "sauce",
+      "store"
+    ],
+    "name": "jar",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fae0": {
+    "codepoints": [
+      129760
+    ],
+    "emoji": "🫠",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/melting_face.png",
+    "keywords": [
+      "disappear",
+      "dissolve",
+      "liquid",
+      "melt",
+      "melting face"
+    ],
+    "name": "melting face",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fae1": {
+    "codepoints": [
+      129761
+    ],
+    "emoji": "🫡",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/saluting_face.png",
+    "keywords": [
+      "OK",
+      "salute",
+      "saluting face",
+      "sunny",
+      "troops",
+      "yes"
+    ],
+    "name": "saluting face",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fae2": {
+    "codepoints": [
+      129762
+    ],
+    "emoji": "🫢",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/face_with_open_eyes_and_hand_over_mouth.png",
+    "keywords": [
+      "amazement",
+      "awe",
+      "disbelief",
+      "embarrass",
+      "face with open eyes and hand over mouth",
+      "scared",
+      "surprise"
+    ],
+    "name": "face with open eyes and hand over mouth",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fae3": {
+    "codepoints": [
+      129763
+    ],
+    "emoji": "🫣",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/face_with_peeking_eye.png",
+    "keywords": [
+      "captivated",
+      "face with peeking eye",
+      "peep",
+      "stare"
+    ],
+    "name": "face with peeking eye",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fae4": {
+    "codepoints": [
+      129764
+    ],
+    "emoji": "🫤",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/face_with_diagonal_mouth.png",
+    "keywords": [
+      "disappointed",
+      "face with diagonal mouth",
+      "meh",
+      "skeptical",
+      "unsure"
+    ],
+    "name": "face with diagonal mouth",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fae5": {
+    "codepoints": [
+      129765
+    ],
+    "emoji": "🫥",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/dotted_line_face.png",
+    "keywords": [
+      "depressed",
+      "disappear",
+      "dotted line face",
+      "hide",
+      "introvert",
+      "invisible"
+    ],
+    "name": "dotted line face",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fae6": {
+    "codepoints": [
+      129766
+    ],
+    "emoji": "🫦",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/biting_lip.png",
+    "keywords": [
+      "anxious",
+      "biting lip",
+      "fear",
+      "flirting",
+      "nervous",
+      "uncomfortable",
+      "worried"
+    ],
+    "name": "biting lip",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fae7": {
+    "codepoints": [
+      129767
+    ],
+    "emoji": "🫧",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/bubbles.png",
+    "keywords": [
+      "bubbles",
+      "burp",
+      "clean",
+      "soap",
+      "underwater"
+    ],
+    "name": "bubbles",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1faf0": {
+    "codepoints": [
+      129776
+    ],
+    "emoji": "🫰",
+    "emojilib_name": null,
+    "fitz": {
+      "1": {
+        "codepoints": [
+          129776,
+          127995
+        ],
+        "emoji": "🫰🏻",
+        "image": "images/hand_with_index_finger_and_thumb_crossed__light_skin_tone.png",
+        "name": "hand with index finger and thumb crossed: light skin tone"
+      },
+      "2": {
+        "codepoints": [
+          129776,
+          127996
+        ],
+        "emoji": "🫰🏼",
+        "image": "images/hand_with_index_finger_and_thumb_crossed__medium-light_skin_tone.png",
+        "name": "hand with index finger and thumb crossed: medium-light skin tone"
+      },
+      "3": {
+        "codepoints": [
+          129776,
+          127997
+        ],
+        "emoji": "🫰🏽",
+        "image": "images/hand_with_index_finger_and_thumb_crossed__medium_skin_tone.png",
+        "name": "hand with index finger and thumb crossed: medium skin tone"
+      },
+      "4": {
+        "codepoints": [
+          129776,
+          127998
+        ],
+        "emoji": "🫰🏾",
+        "image": "images/hand_with_index_finger_and_thumb_crossed__medium-dark_skin_tone.png",
+        "name": "hand with index finger and thumb crossed: medium-dark skin tone"
+      },
+      "5": {
+        "codepoints": [
+          129776,
+          127999
+        ],
+        "emoji": "🫰🏿",
+        "image": "images/hand_with_index_finger_and_thumb_crossed__dark_skin_tone.png",
+        "name": "hand with index finger and thumb crossed: dark skin tone"
+      }
+    },
+    "image": "images/hand_with_index_finger_and_thumb_crossed.png",
+    "keywords": [
+      "expensive",
+      "hand with index finger and thumb crossed",
+      "heart",
+      "love",
+      "money",
+      "snap"
+    ],
+    "name": "hand with index finger and thumb crossed",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1faf1": {
+    "codepoints": [
+      129777
+    ],
+    "emoji": "🫱",
+    "emojilib_name": null,
+    "fitz": {
+      "1": {
+        "codepoints": [
+          129777,
+          127995
+        ],
+        "emoji": "🫱🏻",
+        "image": "images/rightwards_hand__light_skin_tone.png",
+        "name": "rightwards hand: light skin tone"
+      },
+      "2": {
+        "codepoints": [
+          129777,
+          127996
+        ],
+        "emoji": "🫱🏼",
+        "image": "images/rightwards_hand__medium-light_skin_tone.png",
+        "name": "rightwards hand: medium-light skin tone"
+      },
+      "3": {
+        "codepoints": [
+          129777,
+          127997
+        ],
+        "emoji": "🫱🏽",
+        "image": "images/rightwards_hand__medium_skin_tone.png",
+        "name": "rightwards hand: medium skin tone"
+      },
+      "4": {
+        "codepoints": [
+          129777,
+          127998
+        ],
+        "emoji": "🫱🏾",
+        "image": "images/rightwards_hand__medium-dark_skin_tone.png",
+        "name": "rightwards hand: medium-dark skin tone"
+      },
+      "5": {
+        "codepoints": [
+          129777,
+          127999
+        ],
+        "emoji": "🫱🏿",
+        "image": "images/rightwards_hand__dark_skin_tone.png",
+        "name": "rightwards hand: dark skin tone"
+      }
+    },
+    "image": "images/rightwards_hand.png",
+    "keywords": [
+      "hand",
+      "right",
+      "rightward",
+      "rightwards hand"
+    ],
+    "name": "rightwards hand",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1faf2": {
+    "codepoints": [
+      129778
+    ],
+    "emoji": "🫲",
+    "emojilib_name": null,
+    "fitz": {
+      "1": {
+        "codepoints": [
+          129778,
+          127995
+        ],
+        "emoji": "🫲🏻",
+        "image": "images/leftwards_hand__light_skin_tone.png",
+        "name": "leftwards hand: light skin tone"
+      },
+      "2": {
+        "codepoints": [
+          129778,
+          127996
+        ],
+        "emoji": "🫲🏼",
+        "image": "images/leftwards_hand__medium-light_skin_tone.png",
+        "name": "leftwards hand: medium-light skin tone"
+      },
+      "3": {
+        "codepoints": [
+          129778,
+          127997
+        ],
+        "emoji": "🫲🏽",
+        "image": "images/leftwards_hand__medium_skin_tone.png",
+        "name": "leftwards hand: medium skin tone"
+      },
+      "4": {
+        "codepoints": [
+          129778,
+          127998
+        ],
+        "emoji": "🫲🏾",
+        "image": "images/leftwards_hand__medium-dark_skin_tone.png",
+        "name": "leftwards hand: medium-dark skin tone"
+      },
+      "5": {
+        "codepoints": [
+          129778,
+          127999
+        ],
+        "emoji": "🫲🏿",
+        "image": "images/leftwards_hand__dark_skin_tone.png",
+        "name": "leftwards hand: dark skin tone"
+      }
+    },
+    "image": "images/leftwards_hand.png",
+    "keywords": [
+      "hand",
+      "left",
+      "leftward",
+      "leftwards hand"
+    ],
+    "name": "leftwards hand",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1faf3": {
+    "codepoints": [
+      129779
+    ],
+    "emoji": "🫳",
+    "emojilib_name": null,
+    "fitz": {
+      "1": {
+        "codepoints": [
+          129779,
+          127995
+        ],
+        "emoji": "🫳🏻",
+        "image": "images/palm_down_hand__light_skin_tone.png",
+        "name": "palm down hand: light skin tone"
+      },
+      "2": {
+        "codepoints": [
+          129779,
+          127996
+        ],
+        "emoji": "🫳🏼",
+        "image": "images/palm_down_hand__medium-light_skin_tone.png",
+        "name": "palm down hand: medium-light skin tone"
+      },
+      "3": {
+        "codepoints": [
+          129779,
+          127997
+        ],
+        "emoji": "🫳🏽",
+        "image": "images/palm_down_hand__medium_skin_tone.png",
+        "name": "palm down hand: medium skin tone"
+      },
+      "4": {
+        "codepoints": [
+          129779,
+          127998
+        ],
+        "emoji": "🫳🏾",
+        "image": "images/palm_down_hand__medium-dark_skin_tone.png",
+        "name": "palm down hand: medium-dark skin tone"
+      },
+      "5": {
+        "codepoints": [
+          129779,
+          127999
+        ],
+        "emoji": "🫳🏿",
+        "image": "images/palm_down_hand__dark_skin_tone.png",
+        "name": "palm down hand: dark skin tone"
+      }
+    },
+    "image": "images/palm_down_hand.png",
+    "keywords": [
+      "dismiss",
+      "drop",
+      "palm down hand",
+      "shoo"
+    ],
+    "name": "palm down hand",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1faf4": {
+    "codepoints": [
+      129780
+    ],
+    "emoji": "🫴",
+    "emojilib_name": null,
+    "fitz": {
+      "1": {
+        "codepoints": [
+          129780,
+          127995
+        ],
+        "emoji": "🫴🏻",
+        "image": "images/palm_up_hand__light_skin_tone.png",
+        "name": "palm up hand: light skin tone"
+      },
+      "2": {
+        "codepoints": [
+          129780,
+          127996
+        ],
+        "emoji": "🫴🏼",
+        "image": "images/palm_up_hand__medium-light_skin_tone.png",
+        "name": "palm up hand: medium-light skin tone"
+      },
+      "3": {
+        "codepoints": [
+          129780,
+          127997
+        ],
+        "emoji": "🫴🏽",
+        "image": "images/palm_up_hand__medium_skin_tone.png",
+        "name": "palm up hand: medium skin tone"
+      },
+      "4": {
+        "codepoints": [
+          129780,
+          127998
+        ],
+        "emoji": "🫴🏾",
+        "image": "images/palm_up_hand__medium-dark_skin_tone.png",
+        "name": "palm up hand: medium-dark skin tone"
+      },
+      "5": {
+        "codepoints": [
+          129780,
+          127999
+        ],
+        "emoji": "🫴🏿",
+        "image": "images/palm_up_hand__dark_skin_tone.png",
+        "name": "palm up hand: dark skin tone"
+      }
+    },
+    "image": "images/palm_up_hand.png",
+    "keywords": [
+      "beckon",
+      "catch",
+      "come",
+      "offer",
+      "palm up hand"
+    ],
+    "name": "palm up hand",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1faf5": {
+    "codepoints": [
+      129781
+    ],
+    "emoji": "🫵",
+    "emojilib_name": null,
+    "fitz": {
+      "1": {
+        "codepoints": [
+          129781,
+          127995
+        ],
+        "emoji": "🫵🏻",
+        "image": "images/index_pointing_at_the_viewer__light_skin_tone.png",
+        "name": "index pointing at the viewer: light skin tone"
+      },
+      "2": {
+        "codepoints": [
+          129781,
+          127996
+        ],
+        "emoji": "🫵🏼",
+        "image": "images/index_pointing_at_the_viewer__medium-light_skin_tone.png",
+        "name": "index pointing at the viewer: medium-light skin tone"
+      },
+      "3": {
+        "codepoints": [
+          129781,
+          127997
+        ],
+        "emoji": "🫵🏽",
+        "image": "images/index_pointing_at_the_viewer__medium_skin_tone.png",
+        "name": "index pointing at the viewer: medium skin tone"
+      },
+      "4": {
+        "codepoints": [
+          129781,
+          127998
+        ],
+        "emoji": "🫵🏾",
+        "image": "images/index_pointing_at_the_viewer__medium-dark_skin_tone.png",
+        "name": "index pointing at the viewer: medium-dark skin tone"
+      },
+      "5": {
+        "codepoints": [
+          129781,
+          127999
+        ],
+        "emoji": "🫵🏿",
+        "image": "images/index_pointing_at_the_viewer__dark_skin_tone.png",
+        "name": "index pointing at the viewer: dark skin tone"
+      }
+    },
+    "image": "images/index_pointing_at_the_viewer.png",
+    "keywords": [
+      "index pointing at the viewer",
+      "point",
+      "you"
+    ],
+    "name": "index pointing at the viewer",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1faf6": {
+    "codepoints": [
+      129782
+    ],
+    "emoji": "🫶",
+    "emojilib_name": null,
+    "fitz": {
+      "1": {
+        "codepoints": [
+          129782,
+          127995
+        ],
+        "emoji": "🫶🏻",
+        "image": "images/heart_hands__light_skin_tone.png",
+        "name": "heart hands: light skin tone"
+      },
+      "2": {
+        "codepoints": [
+          129782,
+          127996
+        ],
+        "emoji": "🫶🏼",
+        "image": "images/heart_hands__medium-light_skin_tone.png",
+        "name": "heart hands: medium-light skin tone"
+      },
+      "3": {
+        "codepoints": [
+          129782,
+          127997
+        ],
+        "emoji": "🫶🏽",
+        "image": "images/heart_hands__medium_skin_tone.png",
+        "name": "heart hands: medium skin tone"
+      },
+      "4": {
+        "codepoints": [
+          129782,
+          127998
+        ],
+        "emoji": "🫶🏾",
+        "image": "images/heart_hands__medium-dark_skin_tone.png",
+        "name": "heart hands: medium-dark skin tone"
+      },
+      "5": {
+        "codepoints": [
+          129782,
+          127999
+        ],
+        "emoji": "🫶🏿",
+        "image": "images/heart_hands__dark_skin_tone.png",
+        "name": "heart hands: dark skin tone"
+      }
+    },
+    "image": "images/heart_hands.png",
+    "keywords": [
+      "heart hands",
+      "love"
+    ],
+    "name": "heart hands",
     "unicode_category": null,
     "unicode_subcategory": null
   }
