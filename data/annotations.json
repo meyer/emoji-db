@@ -14915,7 +14915,6 @@
     "keywords": [
       "arrow",
       "button",
-      "red",
       "upwards button"
     ],
     "name": "upwards button"
@@ -14929,8 +14928,7 @@
       "arrow",
       "button",
       "down",
-      "downwards button",
-      "red"
+      "downwards button"
     ],
     "name": "downwards button"
   },

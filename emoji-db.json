@@ -31037,7 +31037,6 @@
       "direction",
       "forward",
       "point",
-      "red",
       "top",
       "triangle",
       "upwards button"
@@ -31061,8 +31060,7 @@
       "button",
       "direction",
       "down",
-      "downwards button",
-      "red"
+      "downwards button"
     ],
     "name": "downwards button",
     "unicode_category": "symbols",
