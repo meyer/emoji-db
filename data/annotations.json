@@ -18377,7 +18377,8 @@
     "keywords": [
       "computer",
       "internet",
-      "network"
+      "network",
+      "wireless"
     ],
     "name": "wireless"
   },
@@ -22911,6 +22912,7 @@
       "cyan",
       "heart",
       "light blue",
+      "light blue heart",
       "teal"
     ],
     "name": "light blue heart"
@@ -22922,6 +22924,7 @@
     ],
     "keywords": [
       "gray",
+      "grey heart",
       "heart",
       "silver",
       "slate"
@@ -23105,6 +23108,7 @@
     ],
     "keywords": [
       "instrument",
+      "maracas",
       "music",
       "percussion",
       "rattle",
@@ -23119,6 +23123,7 @@
     ],
     "keywords": [
       "fife",
+      "flute",
       "music",
       "pipe",
       "recorder",
@@ -23532,6 +23537,7 @@
       "dance",
       "fan",
       "flutter",
+      "folding hand fan",
       "hot",
       "shy"
     ],
@@ -23556,8 +23562,9 @@
       129711
     ],
     "keywords": [
-      "Sikh",
-      "religion"
+      "khanda",
+      "religion",
+      "Sikh"
     ],
     "name": "khanda"
   },
@@ -23714,6 +23721,7 @@
     "keywords": [
       "bluebonnet",
       "flower",
+      "hyacinth",
       "lavender",
       "lupine",
       "snapdragon"
@@ -23729,6 +23737,7 @@
       "burn",
       "invertebrate",
       "jelly",
+      "jellyfish",
       "marine",
       "ouch",
       "stinger"
@@ -23745,7 +23754,8 @@
       "aviation",
       "bird",
       "flying",
-      "mythology"
+      "mythology",
+      "wing"
     ],
     "name": "wing"
   },
@@ -23757,6 +23767,7 @@
     "keywords": [
       "bird",
       "fowl",
+      "goose",
       "honk",
       "silly"
     ],
@@ -23856,7 +23867,8 @@
       "animal",
       "antlers",
       "elk",
-      "mammal"
+      "mammal",
+      "moose"
     ],
     "name": "moose"
   },
@@ -23869,6 +23881,7 @@
       "animal",
       "ass",
       "burro",
+      "donkey",
       "mammal",
       "mule",
       "stubborn"
@@ -24016,6 +24029,7 @@
     ],
     "keywords": [
       "beer",
+      "ginger root",
       "root",
       "spice"
     ],
@@ -24266,6 +24280,7 @@
     "keywords": [
       "high five",
       "leftward",
+      "leftwards pushing hand",
       "push",
       "refuse",
       "stop",
@@ -24283,6 +24298,7 @@
       "push",
       "refuse",
       "rightward",
+      "rightwards pushing hand",
       "stop",
       "wait"
     ],
