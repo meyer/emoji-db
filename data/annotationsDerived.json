@@ -33924,5 +33924,185 @@
       "love"
     ],
     "name": "heart hands: dark skin tone"
+  },
+  "1faf7.1": {
+    "char": "🫷🏻",
+    "codepoints": [
+      129783,
+      127995
+    ],
+    "keywords": [
+      "high five",
+      "leftward",
+      "leftwards pushing hand",
+      "light skin tone",
+      "push",
+      "refuse",
+      "stop",
+      "wait"
+    ],
+    "name": "leftwards pushing hand: light skin tone"
+  },
+  "1faf7.2": {
+    "char": "🫷🏼",
+    "codepoints": [
+      129783,
+      127996
+    ],
+    "keywords": [
+      "high five",
+      "leftward",
+      "leftwards pushing hand",
+      "medium-light skin tone",
+      "push",
+      "refuse",
+      "stop",
+      "wait"
+    ],
+    "name": "leftwards pushing hand: medium-light skin tone"
+  },
+  "1faf7.3": {
+    "char": "🫷🏽",
+    "codepoints": [
+      129783,
+      127997
+    ],
+    "keywords": [
+      "high five",
+      "leftward",
+      "leftwards pushing hand",
+      "medium skin tone",
+      "push",
+      "refuse",
+      "stop",
+      "wait"
+    ],
+    "name": "leftwards pushing hand: medium skin tone"
+  },
+  "1faf7.4": {
+    "char": "🫷🏾",
+    "codepoints": [
+      129783,
+      127998
+    ],
+    "keywords": [
+      "high five",
+      "leftward",
+      "leftwards pushing hand",
+      "medium-dark skin tone",
+      "push",
+      "refuse",
+      "stop",
+      "wait"
+    ],
+    "name": "leftwards pushing hand: medium-dark skin tone"
+  },
+  "1faf7.5": {
+    "char": "🫷🏿",
+    "codepoints": [
+      129783,
+      127999
+    ],
+    "keywords": [
+      "dark skin tone",
+      "high five",
+      "leftward",
+      "leftwards pushing hand",
+      "push",
+      "refuse",
+      "stop",
+      "wait"
+    ],
+    "name": "leftwards pushing hand: dark skin tone"
+  },
+  "1faf8.1": {
+    "char": "🫸🏻",
+    "codepoints": [
+      129784,
+      127995
+    ],
+    "keywords": [
+      "high five",
+      "light skin tone",
+      "push",
+      "refuse",
+      "rightward",
+      "rightwards pushing hand",
+      "stop",
+      "wait"
+    ],
+    "name": "rightwards pushing hand: light skin tone"
+  },
+  "1faf8.2": {
+    "char": "🫸🏼",
+    "codepoints": [
+      129784,
+      127996
+    ],
+    "keywords": [
+      "high five",
+      "medium-light skin tone",
+      "push",
+      "refuse",
+      "rightward",
+      "rightwards pushing hand",
+      "stop",
+      "wait"
+    ],
+    "name": "rightwards pushing hand: medium-light skin tone"
+  },
+  "1faf8.3": {
+    "char": "🫸🏽",
+    "codepoints": [
+      129784,
+      127997
+    ],
+    "keywords": [
+      "high five",
+      "medium skin tone",
+      "push",
+      "refuse",
+      "rightward",
+      "rightwards pushing hand",
+      "stop",
+      "wait"
+    ],
+    "name": "rightwards pushing hand: medium skin tone"
+  },
+  "1faf8.4": {
+    "char": "🫸🏾",
+    "codepoints": [
+      129784,
+      127998
+    ],
+    "keywords": [
+      "high five",
+      "medium-dark skin tone",
+      "push",
+      "refuse",
+      "rightward",
+      "rightwards pushing hand",
+      "stop",
+      "wait"
+    ],
+    "name": "rightwards pushing hand: medium-dark skin tone"
+  },
+  "1faf8.5": {
+    "char": "🫸🏿",
+    "codepoints": [
+      129784,
+      127999
+    ],
+    "keywords": [
+      "dark skin tone",
+      "high five",
+      "push",
+      "refuse",
+      "rightward",
+      "rightwards pushing hand",
+      "stop",
+      "wait"
+    ],
+    "name": "rightwards pushing hand: dark skin tone"
   }
 }
