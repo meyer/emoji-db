@@ -1425,28 +1425,28 @@
     "emoji": "❣",
     "group": "Smileys & Emotion",
     "since": 1,
-    "subgroup": "emotion"
+    "subgroup": "heart"
   },
   "2764": {
     "desc": "red heart",
     "emoji": "❤",
     "group": "Smileys & Emotion",
     "since": 0.6,
-    "subgroup": "emotion"
+    "subgroup": "heart"
   },
   "2764_1f525": {
     "desc": "heart on fire",
     "emoji": "❤‍🔥",
     "group": "Smileys & Emotion",
     "since": 13.1,
-    "subgroup": "emotion"
+    "subgroup": "heart"
   },
   "2764_1fa79": {
     "desc": "mending heart",
     "emoji": "❤‍🩹",
     "group": "Smileys & Emotion",
     "since": 13.1,
-    "subgroup": "emotion"
+    "subgroup": "heart"
   },
   "2795": {
     "desc": "plus",
@@ -4076,9 +4076,9 @@
   "1f344": {
     "desc": "mushroom",
     "emoji": "🍄",
-    "group": "Food & Drink",
+    "group": "Animals & Nature",
     "since": 0.6,
-    "subgroup": "food-vegetable"
+    "subgroup": "plant-other"
   },
   "1f345": {
     "desc": "tomato",
@@ -6360,6 +6360,13 @@
     "emoji": "🐦",
     "group": "Animals & Nature",
     "since": 0.6,
+    "subgroup": "animal-bird"
+  },
+  "1f426_2b1b": {
+    "desc": "black bird",
+    "emoji": "🐦‍⬛",
+    "group": "Animals & Nature",
+    "since": 15,
     "subgroup": "animal-bird"
   },
   "1f427": {
@@ -12856,7 +12863,7 @@
     "emoji": "💌",
     "group": "Smileys & Emotion",
     "since": 0.6,
-    "subgroup": "emotion"
+    "subgroup": "heart"
   },
   "1f48d": {
     "desc": "ring",
@@ -12975,91 +12982,91 @@
     "emoji": "💓",
     "group": "Smileys & Emotion",
     "since": 0.6,
-    "subgroup": "emotion"
+    "subgroup": "heart"
   },
   "1f494": {
     "desc": "broken heart",
     "emoji": "💔",
     "group": "Smileys & Emotion",
     "since": 0.6,
-    "subgroup": "emotion"
+    "subgroup": "heart"
   },
   "1f495": {
     "desc": "two hearts",
     "emoji": "💕",
     "group": "Smileys & Emotion",
     "since": 0.6,
-    "subgroup": "emotion"
+    "subgroup": "heart"
   },
   "1f496": {
     "desc": "sparkling heart",
     "emoji": "💖",
     "group": "Smileys & Emotion",
     "since": 0.6,
-    "subgroup": "emotion"
+    "subgroup": "heart"
   },
   "1f497": {
     "desc": "growing heart",
     "emoji": "💗",
     "group": "Smileys & Emotion",
     "since": 0.6,
-    "subgroup": "emotion"
+    "subgroup": "heart"
   },
   "1f498": {
     "desc": "heart with arrow",
     "emoji": "💘",
     "group": "Smileys & Emotion",
     "since": 0.6,
-    "subgroup": "emotion"
+    "subgroup": "heart"
   },
   "1f499": {
     "desc": "blue heart",
     "emoji": "💙",
     "group": "Smileys & Emotion",
     "since": 0.6,
-    "subgroup": "emotion"
+    "subgroup": "heart"
   },
   "1f49a": {
     "desc": "green heart",
     "emoji": "💚",
     "group": "Smileys & Emotion",
     "since": 0.6,
-    "subgroup": "emotion"
+    "subgroup": "heart"
   },
   "1f49b": {
     "desc": "yellow heart",
     "emoji": "💛",
     "group": "Smileys & Emotion",
     "since": 0.6,
-    "subgroup": "emotion"
+    "subgroup": "heart"
   },
   "1f49c": {
     "desc": "purple heart",
     "emoji": "💜",
     "group": "Smileys & Emotion",
     "since": 0.6,
-    "subgroup": "emotion"
+    "subgroup": "heart"
   },
   "1f49d": {
     "desc": "heart with ribbon",
     "emoji": "💝",
     "group": "Smileys & Emotion",
     "since": 0.6,
-    "subgroup": "emotion"
+    "subgroup": "heart"
   },
   "1f49e": {
     "desc": "revolving hearts",
     "emoji": "💞",
     "group": "Smileys & Emotion",
     "since": 0.6,
-    "subgroup": "emotion"
+    "subgroup": "heart"
   },
   "1f49f": {
     "desc": "heart decoration",
     "emoji": "💟",
     "group": "Smileys & Emotion",
     "since": 0.6,
-    "subgroup": "emotion"
+    "subgroup": "heart"
   },
   "1f4a0": {
     "desc": "diamond with a dot",
@@ -13085,12 +13092,12 @@
   "1f4a3": {
     "desc": "bomb",
     "emoji": "💣",
-    "group": "Smileys & Emotion",
+    "group": "Objects",
     "since": 0.6,
-    "subgroup": "emotion"
+    "subgroup": "tool"
   },
   "1f4a4": {
-    "desc": "zzz",
+    "desc": "ZZZ",
     "emoji": "💤",
     "group": "Smileys & Emotion",
     "since": 0.6,
@@ -14065,9 +14072,9 @@
   "1f52b": {
     "desc": "water pistol",
     "emoji": "🔫",
-    "group": "Objects",
+    "group": "Activities",
     "since": 0.6,
-    "subgroup": "tool"
+    "subgroup": "game"
   },
   "1f52c": {
     "desc": "microscope",
@@ -14830,7 +14837,7 @@
     "emoji": "🖤",
     "group": "Smileys & Emotion",
     "since": 3,
-    "subgroup": "emotion"
+    "subgroup": "heart"
   },
   "1f5a5": {
     "desc": "desktop computer",
@@ -15239,7 +15246,7 @@
     "subgroup": "face-negative"
   },
   "1f621": {
-    "desc": "pouting face",
+    "desc": "enraged face",
     "emoji": "😡",
     "group": "Smileys & Emotion",
     "since": 0.6,
@@ -17485,6 +17492,13 @@
     "since": 13,
     "subgroup": "household"
   },
+  "1f6dc": {
+    "desc": "wireless",
+    "emoji": "🛜",
+    "group": "Symbols",
+    "since": 15,
+    "subgroup": "av-symbol"
+  },
   "1f6dd": {
     "desc": "playground slide",
     "emoji": "🛝",
@@ -17784,14 +17798,14 @@
     "emoji": "🤍",
     "group": "Smileys & Emotion",
     "since": 12,
-    "subgroup": "emotion"
+    "subgroup": "heart"
   },
   "1f90e": {
     "desc": "brown heart",
     "emoji": "🤎",
     "group": "Smileys & Emotion",
     "since": 12,
-    "subgroup": "emotion"
+    "subgroup": "heart"
   },
   "1f90f": {
     "desc": "pinching hand",
@@ -18112,35 +18126,35 @@
     "desc": "handshake: light skin tone",
     "emoji": "🤝🏻",
     "group": "People & Body",
-    "since": 3,
+    "since": 14,
     "subgroup": "hands"
   },
   "1f91d.2": {
     "desc": "handshake: medium-light skin tone",
     "emoji": "🤝🏼",
     "group": "People & Body",
-    "since": 3,
+    "since": 14,
     "subgroup": "hands"
   },
   "1f91d.3": {
     "desc": "handshake: medium skin tone",
     "emoji": "🤝🏽",
     "group": "People & Body",
-    "since": 3,
+    "since": 14,
     "subgroup": "hands"
   },
   "1f91d.4": {
     "desc": "handshake: medium-dark skin tone",
     "emoji": "🤝🏾",
     "group": "People & Body",
-    "since": 3,
+    "since": 14,
     "subgroup": "hands"
   },
   "1f91d.5": {
     "desc": "handshake: dark skin tone",
     "emoji": "🤝🏿",
     "group": "People & Body",
-    "since": 3,
+    "since": 14,
     "subgroup": "hands"
   },
   "1f91e": {
@@ -24112,7 +24126,7 @@
     "emoji": "🧡",
     "group": "Smileys & Emotion",
     "since": 5,
-    "subgroup": "emotion"
+    "subgroup": "heart"
   },
   "1f9e2": {
     "desc": "billed cap",
@@ -24320,9 +24334,9 @@
   "1f9ff": {
     "desc": "nazar amulet",
     "emoji": "🧿",
-    "group": "Activities",
+    "group": "Objects",
     "since": 11,
-    "subgroup": "game"
+    "subgroup": "other-object"
   },
   "1fa70": {
     "desc": "ballet shoes",
@@ -24358,6 +24372,27 @@
     "group": "Objects",
     "since": 13,
     "subgroup": "clothing"
+  },
+  "1fa75": {
+    "desc": "light blue heart",
+    "emoji": "🩵",
+    "group": "Smileys & Emotion",
+    "since": 15,
+    "subgroup": "heart"
+  },
+  "1fa76": {
+    "desc": "grey heart",
+    "emoji": "🩶",
+    "group": "Smileys & Emotion",
+    "since": 15,
+    "subgroup": "heart"
+  },
+  "1fa77": {
+    "desc": "pink heart",
+    "emoji": "🩷",
+    "group": "Smileys & Emotion",
+    "since": 15,
+    "subgroup": "heart"
   },
   "1fa78": {
     "desc": "drop of blood",
@@ -24442,6 +24477,20 @@
     "group": "Activities",
     "since": 13,
     "subgroup": "game"
+  },
+  "1fa87": {
+    "desc": "maracas",
+    "emoji": "🪇",
+    "group": "Objects",
+    "since": 15,
+    "subgroup": "musical-instrument"
+  },
+  "1fa88": {
+    "desc": "flute",
+    "emoji": "🪈",
+    "group": "Objects",
+    "since": 15,
+    "subgroup": "musical-instrument"
   },
   "1fa90": {
     "desc": "ringed planet",
@@ -24642,9 +24691,30 @@
   "1faac": {
     "desc": "hamsa",
     "emoji": "🪬",
-    "group": "Activities",
+    "group": "Objects",
     "since": 14,
-    "subgroup": "game"
+    "subgroup": "other-object"
+  },
+  "1faad": {
+    "desc": "folding hand fan",
+    "emoji": "🪭",
+    "group": "Objects",
+    "since": 15,
+    "subgroup": "clothing"
+  },
+  "1faae": {
+    "desc": "hair pick",
+    "emoji": "🪮",
+    "group": "Objects",
+    "since": 15,
+    "subgroup": "clothing"
+  },
+  "1faaf": {
+    "desc": "khanda",
+    "emoji": "🪯",
+    "group": "Symbols",
+    "since": 15,
+    "subgroup": "religion"
   },
   "1fab0": {
     "desc": "fly",
@@ -24722,6 +24792,34 @@
     "group": "Animals & Nature",
     "since": 14,
     "subgroup": "plant-other"
+  },
+  "1fabb": {
+    "desc": "hyacinth",
+    "emoji": "🪻",
+    "group": "Animals & Nature",
+    "since": 15,
+    "subgroup": "plant-flower"
+  },
+  "1fabc": {
+    "desc": "jellyfish",
+    "emoji": "🪼",
+    "group": "Animals & Nature",
+    "since": 15,
+    "subgroup": "animal-marine"
+  },
+  "1fabd": {
+    "desc": "wing",
+    "emoji": "🪽",
+    "group": "Animals & Nature",
+    "since": 15,
+    "subgroup": "animal-bird"
+  },
+  "1fabf": {
+    "desc": "goose",
+    "emoji": "🪿",
+    "group": "Animals & Nature",
+    "since": 15,
+    "subgroup": "animal-bird"
   },
   "1fac0": {
     "desc": "anatomical heart",
@@ -24870,6 +24968,20 @@
     "since": 14,
     "subgroup": "person-role"
   },
+  "1face": {
+    "desc": "moose",
+    "emoji": "🫎",
+    "group": "Animals & Nature",
+    "since": 15,
+    "subgroup": "animal-mammal"
+  },
+  "1facf": {
+    "desc": "donkey",
+    "emoji": "🫏",
+    "group": "Animals & Nature",
+    "since": 15,
+    "subgroup": "animal-mammal"
+  },
   "1fad0": {
     "desc": "blueberries",
     "emoji": "🫐",
@@ -24940,6 +25052,20 @@
     "since": 14,
     "subgroup": "dishware"
   },
+  "1fada": {
+    "desc": "ginger root",
+    "emoji": "🫚",
+    "group": "Food & Drink",
+    "since": 15,
+    "subgroup": "food-vegetable"
+  },
+  "1fadb": {
+    "desc": "pea pod",
+    "emoji": "🫛",
+    "group": "Food & Drink",
+    "since": 15,
+    "subgroup": "food-vegetable"
+  },
   "1fae0": {
     "desc": "melting face",
     "emoji": "🫠",
@@ -24995,6 +25121,13 @@
     "group": "Objects",
     "since": 14,
     "subgroup": "household"
+  },
+  "1fae8": {
+    "desc": "shaking face",
+    "emoji": "🫨",
+    "group": "Smileys & Emotion",
+    "since": 15,
+    "subgroup": "face-neutral-skeptical"
   },
   "1faf0": {
     "desc": "hand with index finger and thumb crossed",
@@ -25429,5 +25562,89 @@
     "group": "People & Body",
     "since": 14,
     "subgroup": "hands"
+  },
+  "1faf7": {
+    "desc": "leftwards pushing hand",
+    "emoji": "🫷",
+    "group": "People & Body",
+    "since": 15,
+    "subgroup": "hand-fingers-open"
+  },
+  "1faf7.1": {
+    "desc": "leftwards pushing hand: light skin tone",
+    "emoji": "🫷🏻",
+    "group": "People & Body",
+    "since": 15,
+    "subgroup": "hand-fingers-open"
+  },
+  "1faf7.2": {
+    "desc": "leftwards pushing hand: medium-light skin tone",
+    "emoji": "🫷🏼",
+    "group": "People & Body",
+    "since": 15,
+    "subgroup": "hand-fingers-open"
+  },
+  "1faf7.3": {
+    "desc": "leftwards pushing hand: medium skin tone",
+    "emoji": "🫷🏽",
+    "group": "People & Body",
+    "since": 15,
+    "subgroup": "hand-fingers-open"
+  },
+  "1faf7.4": {
+    "desc": "leftwards pushing hand: medium-dark skin tone",
+    "emoji": "🫷🏾",
+    "group": "People & Body",
+    "since": 15,
+    "subgroup": "hand-fingers-open"
+  },
+  "1faf7.5": {
+    "desc": "leftwards pushing hand: dark skin tone",
+    "emoji": "🫷🏿",
+    "group": "People & Body",
+    "since": 15,
+    "subgroup": "hand-fingers-open"
+  },
+  "1faf8": {
+    "desc": "rightwards pushing hand",
+    "emoji": "🫸",
+    "group": "People & Body",
+    "since": 15,
+    "subgroup": "hand-fingers-open"
+  },
+  "1faf8.1": {
+    "desc": "rightwards pushing hand: light skin tone",
+    "emoji": "🫸🏻",
+    "group": "People & Body",
+    "since": 15,
+    "subgroup": "hand-fingers-open"
+  },
+  "1faf8.2": {
+    "desc": "rightwards pushing hand: medium-light skin tone",
+    "emoji": "🫸🏼",
+    "group": "People & Body",
+    "since": 15,
+    "subgroup": "hand-fingers-open"
+  },
+  "1faf8.3": {
+    "desc": "rightwards pushing hand: medium skin tone",
+    "emoji": "🫸🏽",
+    "group": "People & Body",
+    "since": 15,
+    "subgroup": "hand-fingers-open"
+  },
+  "1faf8.4": {
+    "desc": "rightwards pushing hand: medium-dark skin tone",
+    "emoji": "🫸🏾",
+    "group": "People & Body",
+    "since": 15,
+    "subgroup": "hand-fingers-open"
+  },
+  "1faf8.5": {
+    "desc": "rightwards pushing hand: dark skin tone",
+    "emoji": "🫸🏿",
+    "group": "People & Body",
+    "since": 15,
+    "subgroup": "hand-fingers-open"
   }
 }

@@ -854,6 +854,15 @@
     ],
     "description": "service dog"
   },
+  "1f426_2b1b": {
+    "char": "🐦‍⬛",
+    "codepoints": [
+      128038,
+      8205,
+      11035
+    ],
+    "description": "black bird"
+  },
   "1f43b_2744": {
     "char": "🐻‍❄️",
     "codepoints": [
