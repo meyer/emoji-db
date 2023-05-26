@@ -5253,6 +5253,18 @@
     ],
     "name": "chains"
   },
+  "26d3_1f4a5": {
+    "char": "⛓‍💥",
+    "codepoints": [
+      9939,
+      8205,
+      128165
+    ],
+    "keywords": [
+      "break, breaking, chain, cuffs, freedom"
+    ],
+    "name": "broken chain"
+  },
   "26d4": {
     "char": "⛔",
     "codepoints": [
@@ -7623,6 +7635,18 @@
     ],
     "name": "mushroom"
   },
+  "1f344_1f7eb": {
+    "char": "🍄‍🟫",
+    "codepoints": [
+      127812,
+      8205,
+      129003
+    ],
+    "keywords": [
+      "food, fungus, nature, vegetable"
+    ],
+    "name": "brown mushroom"
+  },
   "1f345": {
     "char": "🍅",
     "codepoints": [
@@ -7704,6 +7728,18 @@
       "lemon"
     ],
     "name": "lemon"
+  },
+  "1f34b_1f7e9": {
+    "char": "🍋‍🟩",
+    "codepoints": [
+      127819,
+      8205,
+      129001
+    ],
+    "keywords": [
+      "citrus, fruit, tropical"
+    ],
+    "name": "lime"
   },
   "1f34c": {
     "char": "🍌",
@@ -10505,6 +10541,18 @@
       "rook"
     ],
     "name": "black bird"
+  },
+  "1f426_1f525": {
+    "char": "🐦‍🔥",
+    "codepoints": [
+      128038,
+      8205,
+      128293
+    ],
+    "keywords": [
+      "fantasy, firebird, rebirth, reincarnation"
+    ],
+    "name": "phoenix"
   },
   "1f427": {
     "char": "🐧",
@@ -16882,6 +16930,30 @@
     ],
     "name": "slightly smiling face"
   },
+  "1f642_2194": {
+    "char": "🙂‍↔",
+    "codepoints": [
+      128578,
+      8205,
+      8596
+    ],
+    "keywords": [
+      "no, shake"
+    ],
+    "name": "head shaking horizontally"
+  },
+  "1f642_2195": {
+    "char": "🙂‍↕",
+    "codepoints": [
+      128578,
+      8205,
+      8597
+    ],
+    "keywords": [
+      "nod, yes"
+    ],
+    "name": "head shaking vertically"
+  },
   "1f643": {
     "char": "🙃",
     "codepoints": [
@@ -21950,6 +22022,62 @@
       "wheelchair"
     ],
     "name": "person in manual wheelchair"
+  },
+  "1f9d1_1f9d1_1f9d2": {
+    "char": "🧑‍🧑‍🧒",
+    "codepoints": [
+      129489,
+      8205,
+      129489,
+      8205,
+      129490
+    ],
+    "keywords": [
+      "family: adult, adult, child"
+    ],
+    "name": "family: adult, adult, child"
+  },
+  "1f9d1_1f9d1_1f9d2_1f9d2": {
+    "char": "🧑‍🧑‍🧒‍🧒",
+    "codepoints": [
+      129489,
+      8205,
+      129489,
+      8205,
+      129490,
+      8205,
+      129490
+    ],
+    "keywords": [
+      "family: adult, adult, child, child"
+    ],
+    "name": "family: adult, adult, child, child"
+  },
+  "1f9d1_1f9d2": {
+    "char": "🧑‍🧒",
+    "codepoints": [
+      129489,
+      8205,
+      129490
+    ],
+    "keywords": [
+      "family: adult, child"
+    ],
+    "name": "family: adult, child"
+  },
+  "1f9d1_1f9d2_1f9d2": {
+    "char": "🧑‍🧒‍🧒",
+    "codepoints": [
+      129489,
+      8205,
+      129490,
+      8205,
+      129490
+    ],
+    "keywords": [
+      "family: adult, child, child"
+    ],
+    "name": "family: adult, child, child"
   },
   "1f9d2": {
     "char": "🧒",
