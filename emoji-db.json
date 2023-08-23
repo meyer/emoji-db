@@ -13360,6 +13360,7 @@
       "ferris",
       "londoneye",
       "photo",
+      "theme park",
       "wheel"
     ],
     "name": "ferris wheel",
@@ -13381,7 +13382,8 @@
       "fun",
       "photo",
       "playground",
-      "roller"
+      "roller",
+      "theme park"
     ],
     "name": "roller coaster",
     "unicode_category": "travel_and_places",
@@ -19620,6 +19622,7 @@
       "human",
       "judge",
       "justice",
+      "law",
       "man",
       "scales"
     ],
@@ -20241,6 +20244,7 @@
     "keywords": [
       "human",
       "instructor",
+      "lecturer",
       "man",
       "professor",
       "teacher"
@@ -21957,6 +21961,7 @@
       "human",
       "judge",
       "justice",
+      "law",
       "scales",
       "woman"
     ],
@@ -22578,6 +22583,7 @@
     "keywords": [
       "human",
       "instructor",
+      "lecturer",
       "professor",
       "teacher",
       "woman"
@@ -38914,7 +38920,8 @@
     "keywords": [
       "amusement park",
       "play",
-      "playground slide"
+      "playground slide",
+      "theme park"
     ],
     "name": "playground slide..ring buoy",
     "unicode_category": null,
@@ -39726,6 +39733,7 @@
       "mouth",
       "sealed",
       "secret",
+      "zip",
       "zipper",
       "zipper-mouth face"
     ],
@@ -46992,6 +47000,7 @@
     "keywords": [
       "judge",
       "justice",
+      "law",
       "scales"
     ],
     "name": "judge",
@@ -47671,6 +47680,7 @@
     "image": "images/teacher.png",
     "keywords": [
       "instructor",
+      "lecturer",
       "professor",
       "teacher"
     ],
@@ -48202,6 +48212,7 @@
     },
     "image": "images/firefighter.png",
     "keywords": [
+      "fire",
       "firefighter",
       "firetruck"
     ],

@@ -8779,7 +8779,8 @@
     "keywords": [
       "amusement park",
       "ferris",
-      "wheel"
+      "wheel",
+      "theme park"
     ],
     "name": "ferris wheel"
   },
@@ -8791,7 +8792,8 @@
     "keywords": [
       "amusement park",
       "coaster",
-      "roller"
+      "roller",
+      "theme park"
     ],
     "name": "roller coaster"
   },
@@ -11438,7 +11440,8 @@
       "judge",
       "justice",
       "man",
-      "scales"
+      "scales",
+      "law"
     ],
     "name": "man judge"
   },
@@ -11556,7 +11559,8 @@
       "instructor",
       "man",
       "professor",
-      "teacher"
+      "teacher",
+      "lecturer"
     ],
     "name": "man teacher"
   },
@@ -11755,7 +11759,8 @@
       "judge",
       "justice",
       "scales",
-      "woman"
+      "woman",
+      "law"
     ],
     "name": "woman judge"
   },
@@ -11873,7 +11878,8 @@
       "instructor",
       "professor",
       "teacher",
-      "woman"
+      "woman",
+      "lecturer"
     ],
     "name": "woman teacher"
   },
@@ -18470,7 +18476,9 @@
       "computer",
       "internet",
       "network",
-      "wireless"
+      "wireless",
+      "wi-fi",
+      "wifi"
     ],
     "name": "wireless"
   },
@@ -18482,7 +18490,8 @@
     "keywords": [
       "amusement park",
       "play",
-      "playground slide"
+      "playground slide",
+      "theme park"
     ],
     "name": "playground slide"
   },
@@ -18949,6 +18958,7 @@
     "keywords": [
       "face",
       "mouth",
+      "zip",
       "zipper",
       "zipper-mouth face"
     ],
@@ -21749,7 +21759,8 @@
     "keywords": [
       "judge",
       "justice",
-      "scales"
+      "scales",
+      "law"
     ],
     "name": "judge"
   },
@@ -21874,7 +21885,8 @@
     "keywords": [
       "instructor",
       "professor",
-      "teacher"
+      "teacher",
+      "lecturer"
     ],
     "name": "teacher"
   },
@@ -21978,7 +21990,8 @@
     ],
     "keywords": [
       "firefighter",
-      "firetruck"
+      "firetruck",
+      "fire"
     ],
     "name": "firefighter"
   },
