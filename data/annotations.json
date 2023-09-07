@@ -5263,10 +5263,10 @@
     "keywords": [
       "break",
       "breaking",
+      "broken chain",
       "chain",
       "cuffs",
-      "freedom",
-      "broken chain"
+      "freedom"
     ],
     "name": "broken chain"
   },
@@ -7748,8 +7748,8 @@
     "keywords": [
       "citrus",
       "fruit",
-      "tropical",
-      "lime"
+      "lime",
+      "tropical"
     ],
     "name": "lime"
   },
@@ -8487,8 +8487,7 @@
       "Christmas",
       "claus",
       "father",
-      "santa",
-      "Santa Claus"
+      "santa"
     ],
     "name": "Santa Claus"
   },
@@ -8779,8 +8778,8 @@
     "keywords": [
       "amusement park",
       "ferris",
-      "wheel",
-      "theme park"
+      "theme park",
+      "wheel"
     ],
     "name": "ferris wheel"
   },
@@ -10566,9 +10565,9 @@
     "keywords": [
       "fantasy",
       "firebird",
+      "phoenix",
       "rebirth",
-      "reincarnation",
-      "phoenix"
+      "reincarnation"
     ],
     "name": "phoenix"
   },
@@ -11439,9 +11438,9 @@
     "keywords": [
       "judge",
       "justice",
+      "law",
       "man",
-      "scales",
-      "law"
+      "scales"
     ],
     "name": "man judge"
   },
@@ -11557,10 +11556,10 @@
     ],
     "keywords": [
       "instructor",
+      "lecturer",
       "man",
       "professor",
-      "teacher",
-      "lecturer"
+      "teacher"
     ],
     "name": "man teacher"
   },
@@ -11758,9 +11757,9 @@
     "keywords": [
       "judge",
       "justice",
+      "law",
       "scales",
-      "woman",
-      "law"
+      "woman"
     ],
     "name": "woman judge"
   },
@@ -11876,10 +11875,10 @@
     ],
     "keywords": [
       "instructor",
+      "lecturer",
       "professor",
       "teacher",
-      "woman",
-      "lecturer"
+      "woman"
     ],
     "name": "woman teacher"
   },
@@ -18476,9 +18475,9 @@
       "computer",
       "internet",
       "network",
-      "wireless",
       "wi-fi",
-      "wifi"
+      "wifi",
+      "wireless"
     ],
     "name": "wireless"
   },
@@ -19501,8 +19500,7 @@
       "Christmas",
       "claus",
       "mother",
-      "Mrs.",
-      "Mrs. Claus"
+      "Mrs."
     ],
     "name": "Mrs. Claus"
   },
@@ -21759,8 +21757,8 @@
     "keywords": [
       "judge",
       "justice",
-      "scales",
-      "law"
+      "law",
+      "scales"
     ],
     "name": "judge"
   },
@@ -21884,9 +21882,9 @@
     ],
     "keywords": [
       "instructor",
+      "lecturer",
       "professor",
-      "teacher",
-      "lecturer"
+      "teacher"
     ],
     "name": "teacher"
   },
@@ -21989,9 +21987,9 @@
       128658
     ],
     "keywords": [
+      "fire",
       "firefighter",
-      "firetruck",
-      "fire"
+      "firetruck"
     ],
     "name": "firefighter"
   },
