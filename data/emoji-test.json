@@ -888,6 +888,13 @@
     "since": 0.7,
     "subgroup": "tool"
   },
+  "26d3_1f4a5": {
+    "desc": "broken chain",
+    "emoji": "⛓‍💥",
+    "group": "Objects",
+    "since": 15.1,
+    "subgroup": "tool"
+  },
   "26d4": {
     "desc": "no entry",
     "emoji": "⛔",
@@ -3318,7 +3325,7 @@
     "subgroup": "country-flag"
   },
   "1f1f9_1f1f7": {
-    "desc": "flag: Turkey",
+    "desc": "flag: Türkiye",
     "emoji": "🇹🇷",
     "group": "Flags",
     "since": 2,
@@ -4080,6 +4087,13 @@
     "since": 0.6,
     "subgroup": "plant-other"
   },
+  "1f344_1f7eb": {
+    "desc": "brown mushroom",
+    "emoji": "🍄‍🟫",
+    "group": "Food & Drink",
+    "since": 15.1,
+    "subgroup": "food-vegetable"
+  },
   "1f345": {
     "desc": "tomato",
     "emoji": "🍅",
@@ -4127,6 +4141,13 @@
     "emoji": "🍋",
     "group": "Food & Drink",
     "since": 1,
+    "subgroup": "food-fruit"
+  },
+  "1f34b_1f7e9": {
+    "desc": "lime",
+    "emoji": "🍋‍🟩",
+    "group": "Food & Drink",
+    "since": 15.1,
     "subgroup": "food-fruit"
   },
   "1f34c": {
@@ -5011,11 +5032,32 @@
     "since": 4,
     "subgroup": "person-activity"
   },
+  "1f3c3_27a1.W": {
+    "desc": "woman running facing right",
+    "emoji": "🏃‍♀‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f3c3.M": {
     "desc": "man running",
     "emoji": "🏃‍♂",
     "group": "People & Body",
     "since": 4,
+    "subgroup": "person-activity"
+  },
+  "1f3c3_27a1.M": {
+    "desc": "man running facing right",
+    "emoji": "🏃‍♂‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
+  "1f3c3_27a1": {
+    "desc": "person running facing right",
+    "emoji": "🏃‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f3c3.1": {
@@ -5032,11 +5074,32 @@
     "since": 4,
     "subgroup": "person-activity"
   },
+  "1f3c3_27a1.1.W": {
+    "desc": "woman running facing right: light skin tone",
+    "emoji": "🏃🏻‍♀‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f3c3.1.M": {
     "desc": "man running: light skin tone",
     "emoji": "🏃🏻‍♂",
     "group": "People & Body",
     "since": 4,
+    "subgroup": "person-activity"
+  },
+  "1f3c3_27a1.1.M": {
+    "desc": "man running facing right: light skin tone",
+    "emoji": "🏃🏻‍♂‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
+  "1f3c3_27a1.1": {
+    "desc": "person running facing right: light skin tone",
+    "emoji": "🏃🏻‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f3c3.2": {
@@ -5053,11 +5116,32 @@
     "since": 4,
     "subgroup": "person-activity"
   },
+  "1f3c3_27a1.2.W": {
+    "desc": "woman running facing right: medium-light skin tone",
+    "emoji": "🏃🏼‍♀‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f3c3.2.M": {
     "desc": "man running: medium-light skin tone",
     "emoji": "🏃🏼‍♂",
     "group": "People & Body",
     "since": 4,
+    "subgroup": "person-activity"
+  },
+  "1f3c3_27a1.2.M": {
+    "desc": "man running facing right: medium-light skin tone",
+    "emoji": "🏃🏼‍♂‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
+  "1f3c3_27a1.2": {
+    "desc": "person running facing right: medium-light skin tone",
+    "emoji": "🏃🏼‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f3c3.3": {
@@ -5074,11 +5158,32 @@
     "since": 4,
     "subgroup": "person-activity"
   },
+  "1f3c3_27a1.3.W": {
+    "desc": "woman running facing right: medium skin tone",
+    "emoji": "🏃🏽‍♀‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f3c3.3.M": {
     "desc": "man running: medium skin tone",
     "emoji": "🏃🏽‍♂",
     "group": "People & Body",
     "since": 4,
+    "subgroup": "person-activity"
+  },
+  "1f3c3_27a1.3.M": {
+    "desc": "man running facing right: medium skin tone",
+    "emoji": "🏃🏽‍♂‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
+  "1f3c3_27a1.3": {
+    "desc": "person running facing right: medium skin tone",
+    "emoji": "🏃🏽‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f3c3.4": {
@@ -5095,11 +5200,32 @@
     "since": 4,
     "subgroup": "person-activity"
   },
+  "1f3c3_27a1.4.W": {
+    "desc": "woman running facing right: medium-dark skin tone",
+    "emoji": "🏃🏾‍♀‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f3c3.4.M": {
     "desc": "man running: medium-dark skin tone",
     "emoji": "🏃🏾‍♂",
     "group": "People & Body",
     "since": 4,
+    "subgroup": "person-activity"
+  },
+  "1f3c3_27a1.4.M": {
+    "desc": "man running facing right: medium-dark skin tone",
+    "emoji": "🏃🏾‍♂‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
+  "1f3c3_27a1.4": {
+    "desc": "person running facing right: medium-dark skin tone",
+    "emoji": "🏃🏾‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f3c3.5": {
@@ -5116,11 +5242,32 @@
     "since": 4,
     "subgroup": "person-activity"
   },
+  "1f3c3_27a1.5.W": {
+    "desc": "woman running facing right: dark skin tone",
+    "emoji": "🏃🏿‍♀‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f3c3.5.M": {
     "desc": "man running: dark skin tone",
     "emoji": "🏃🏿‍♂",
     "group": "People & Body",
     "since": 4,
+    "subgroup": "person-activity"
+  },
+  "1f3c3_27a1.5.M": {
+    "desc": "man running facing right: dark skin tone",
+    "emoji": "🏃🏿‍♂‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
+  "1f3c3_27a1.5": {
+    "desc": "person running facing right: dark skin tone",
+    "emoji": "🏃🏿‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f3c4": {
@@ -6369,6 +6516,13 @@
     "since": 15,
     "subgroup": "animal-bird"
   },
+  "1f426_1f525": {
+    "desc": "phoenix",
+    "emoji": "🐦‍🔥",
+    "group": "Animals & Nature",
+    "since": 15.1,
+    "subgroup": "animal-bird"
+  },
   "1f427": {
     "desc": "penguin",
     "emoji": "🐧",
@@ -7615,6 +7769,13 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f468_1f9af_27a1": {
+    "desc": "man with white cane facing right",
+    "emoji": "👨‍🦯‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f468_1f9b0": {
     "desc": "man: red hair",
     "emoji": "👨‍🦰",
@@ -7650,11 +7811,25 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f468_1f9bc_27a1": {
+    "desc": "man in motorized wheelchair facing right",
+    "emoji": "👨‍🦼‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f468_1f9bd": {
     "desc": "man in manual wheelchair",
     "emoji": "👨‍🦽",
     "group": "People & Body",
     "since": 12,
+    "subgroup": "person-activity"
+  },
+  "1f468_1f9bd_27a1": {
+    "desc": "man in manual wheelchair facing right",
+    "emoji": "👨‍🦽‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f468.1": {
@@ -7888,6 +8063,13 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f468_1f9af_27a1.1": {
+    "desc": "man with white cane facing right: light skin tone",
+    "emoji": "👨🏻‍🦯‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f468_1f9b0.1": {
     "desc": "man: light skin tone, red hair",
     "emoji": "👨🏻‍🦰",
@@ -7923,11 +8105,25 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f468_1f9bc_27a1.1": {
+    "desc": "man in motorized wheelchair facing right: light skin tone",
+    "emoji": "👨🏻‍🦼‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f468_1f9bd.1": {
     "desc": "man in manual wheelchair: light skin tone",
     "emoji": "👨🏻‍🦽",
     "group": "People & Body",
     "since": 12,
+    "subgroup": "person-activity"
+  },
+  "1f468_1f9bd_27a1.1": {
+    "desc": "man in manual wheelchair facing right: light skin tone",
+    "emoji": "👨🏻‍🦽‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f468.2": {
@@ -8161,6 +8357,13 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f468_1f9af_27a1.2": {
+    "desc": "man with white cane facing right: medium-light skin tone",
+    "emoji": "👨🏼‍🦯‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f468_1f9b0.2": {
     "desc": "man: medium-light skin tone, red hair",
     "emoji": "👨🏼‍🦰",
@@ -8196,11 +8399,25 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f468_1f9bc_27a1.2": {
+    "desc": "man in motorized wheelchair facing right: medium-light skin tone",
+    "emoji": "👨🏼‍🦼‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f468_1f9bd.2": {
     "desc": "man in manual wheelchair: medium-light skin tone",
     "emoji": "👨🏼‍🦽",
     "group": "People & Body",
     "since": 12,
+    "subgroup": "person-activity"
+  },
+  "1f468_1f9bd_27a1.2": {
+    "desc": "man in manual wheelchair facing right: medium-light skin tone",
+    "emoji": "👨🏼‍🦽‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f468.3": {
@@ -8434,6 +8651,13 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f468_1f9af_27a1.3": {
+    "desc": "man with white cane facing right: medium skin tone",
+    "emoji": "👨🏽‍🦯‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f468_1f9b0.3": {
     "desc": "man: medium skin tone, red hair",
     "emoji": "👨🏽‍🦰",
@@ -8469,11 +8693,25 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f468_1f9bc_27a1.3": {
+    "desc": "man in motorized wheelchair facing right: medium skin tone",
+    "emoji": "👨🏽‍🦼‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f468_1f9bd.3": {
     "desc": "man in manual wheelchair: medium skin tone",
     "emoji": "👨🏽‍🦽",
     "group": "People & Body",
     "since": 12,
+    "subgroup": "person-activity"
+  },
+  "1f468_1f9bd_27a1.3": {
+    "desc": "man in manual wheelchair facing right: medium skin tone",
+    "emoji": "👨🏽‍🦽‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f468.4": {
@@ -8707,6 +8945,13 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f468_1f9af_27a1.4": {
+    "desc": "man with white cane facing right: medium-dark skin tone",
+    "emoji": "👨🏾‍🦯‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f468_1f9b0.4": {
     "desc": "man: medium-dark skin tone, red hair",
     "emoji": "👨🏾‍🦰",
@@ -8742,11 +8987,25 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f468_1f9bc_27a1.4": {
+    "desc": "man in motorized wheelchair facing right: medium-dark skin tone",
+    "emoji": "👨🏾‍🦼‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f468_1f9bd.4": {
     "desc": "man in manual wheelchair: medium-dark skin tone",
     "emoji": "👨🏾‍🦽",
     "group": "People & Body",
     "since": 12,
+    "subgroup": "person-activity"
+  },
+  "1f468_1f9bd_27a1.4": {
+    "desc": "man in manual wheelchair facing right: medium-dark skin tone",
+    "emoji": "👨🏾‍🦽‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f468.5": {
@@ -8980,6 +9239,13 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f468_1f9af_27a1.5": {
+    "desc": "man with white cane facing right: dark skin tone",
+    "emoji": "👨🏿‍🦯‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f468_1f9b0.5": {
     "desc": "man: dark skin tone, red hair",
     "emoji": "👨🏿‍🦰",
@@ -9015,11 +9281,25 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f468_1f9bc_27a1.5": {
+    "desc": "man in motorized wheelchair facing right: dark skin tone",
+    "emoji": "👨🏿‍🦼‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f468_1f9bd.5": {
     "desc": "man in manual wheelchair: dark skin tone",
     "emoji": "👨🏿‍🦽",
     "group": "People & Body",
     "since": 12,
+    "subgroup": "person-activity"
+  },
+  "1f468_1f9bd_27a1.5": {
+    "desc": "man in manual wheelchair facing right: dark skin tone",
+    "emoji": "👨🏿‍🦽‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f469": {
@@ -9253,6 +9533,13 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f469_1f9af_27a1": {
+    "desc": "woman with white cane facing right",
+    "emoji": "👩‍🦯‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f469_1f9b0": {
     "desc": "woman: red hair",
     "emoji": "👩‍🦰",
@@ -9288,11 +9575,25 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f469_1f9bc_27a1": {
+    "desc": "woman in motorized wheelchair facing right",
+    "emoji": "👩‍🦼‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f469_1f9bd": {
     "desc": "woman in manual wheelchair",
     "emoji": "👩‍🦽",
     "group": "People & Body",
     "since": 12,
+    "subgroup": "person-activity"
+  },
+  "1f469_1f9bd_27a1": {
+    "desc": "woman in manual wheelchair facing right",
+    "emoji": "👩‍🦽‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f469.1": {
@@ -9624,6 +9925,13 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f469_1f9af_27a1.1": {
+    "desc": "woman with white cane facing right: light skin tone",
+    "emoji": "👩🏻‍🦯‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f469_1f9b0.1": {
     "desc": "woman: light skin tone, red hair",
     "emoji": "👩🏻‍🦰",
@@ -9659,11 +9967,25 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f469_1f9bc_27a1.1": {
+    "desc": "woman in motorized wheelchair facing right: light skin tone",
+    "emoji": "👩🏻‍🦼‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f469_1f9bd.1": {
     "desc": "woman in manual wheelchair: light skin tone",
     "emoji": "👩🏻‍🦽",
     "group": "People & Body",
     "since": 12,
+    "subgroup": "person-activity"
+  },
+  "1f469_1f9bd_27a1.1": {
+    "desc": "woman in manual wheelchair facing right: light skin tone",
+    "emoji": "👩🏻‍🦽‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f469.2": {
@@ -9995,6 +10317,13 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f469_1f9af_27a1.2": {
+    "desc": "woman with white cane facing right: medium-light skin tone",
+    "emoji": "👩🏼‍🦯‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f469_1f9b0.2": {
     "desc": "woman: medium-light skin tone, red hair",
     "emoji": "👩🏼‍🦰",
@@ -10030,11 +10359,25 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f469_1f9bc_27a1.2": {
+    "desc": "woman in motorized wheelchair facing right: medium-light skin tone",
+    "emoji": "👩🏼‍🦼‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f469_1f9bd.2": {
     "desc": "woman in manual wheelchair: medium-light skin tone",
     "emoji": "👩🏼‍🦽",
     "group": "People & Body",
     "since": 12,
+    "subgroup": "person-activity"
+  },
+  "1f469_1f9bd_27a1.2": {
+    "desc": "woman in manual wheelchair facing right: medium-light skin tone",
+    "emoji": "👩🏼‍🦽‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f469.3": {
@@ -10366,6 +10709,13 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f469_1f9af_27a1.3": {
+    "desc": "woman with white cane facing right: medium skin tone",
+    "emoji": "👩🏽‍🦯‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f469_1f9b0.3": {
     "desc": "woman: medium skin tone, red hair",
     "emoji": "👩🏽‍🦰",
@@ -10401,11 +10751,25 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f469_1f9bc_27a1.3": {
+    "desc": "woman in motorized wheelchair facing right: medium skin tone",
+    "emoji": "👩🏽‍🦼‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f469_1f9bd.3": {
     "desc": "woman in manual wheelchair: medium skin tone",
     "emoji": "👩🏽‍🦽",
     "group": "People & Body",
     "since": 12,
+    "subgroup": "person-activity"
+  },
+  "1f469_1f9bd_27a1.3": {
+    "desc": "woman in manual wheelchair facing right: medium skin tone",
+    "emoji": "👩🏽‍🦽‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f469.4": {
@@ -10737,6 +11101,13 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f469_1f9af_27a1.4": {
+    "desc": "woman with white cane facing right: medium-dark skin tone",
+    "emoji": "👩🏾‍🦯‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f469_1f9b0.4": {
     "desc": "woman: medium-dark skin tone, red hair",
     "emoji": "👩🏾‍🦰",
@@ -10772,11 +11143,25 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f469_1f9bc_27a1.4": {
+    "desc": "woman in motorized wheelchair facing right: medium-dark skin tone",
+    "emoji": "👩🏾‍🦼‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f469_1f9bd.4": {
     "desc": "woman in manual wheelchair: medium-dark skin tone",
     "emoji": "👩🏾‍🦽",
     "group": "People & Body",
     "since": 12,
+    "subgroup": "person-activity"
+  },
+  "1f469_1f9bd_27a1.4": {
+    "desc": "woman in manual wheelchair facing right: medium-dark skin tone",
+    "emoji": "👩🏾‍🦽‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f469.5": {
@@ -11108,6 +11493,13 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f469_1f9af_27a1.5": {
+    "desc": "woman with white cane facing right: dark skin tone",
+    "emoji": "👩🏿‍🦯‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f469_1f9b0.5": {
     "desc": "woman: dark skin tone, red hair",
     "emoji": "👩🏿‍🦰",
@@ -11143,6 +11535,13 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f469_1f9bc_27a1.5": {
+    "desc": "woman in motorized wheelchair facing right: dark skin tone",
+    "emoji": "👩🏿‍🦼‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f469_1f9bd.5": {
     "desc": "woman in manual wheelchair: dark skin tone",
     "emoji": "👩🏿‍🦽",
@@ -11150,12 +11549,19 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f469_1f9bd_27a1.5": {
+    "desc": "woman in manual wheelchair facing right: dark skin tone",
+    "emoji": "👩🏿‍🦽‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f46a": {
     "desc": "family",
     "emoji": "👪",
     "group": "People & Body",
     "since": 0.6,
-    "subgroup": "family"
+    "subgroup": "person-symbol"
   },
   "1f46b": {
     "desc": "woman and man holding hands",
@@ -15504,6 +15910,20 @@
     "since": 1,
     "subgroup": "face-smiling"
   },
+  "1f642_2194": {
+    "desc": "head shaking horizontally",
+    "emoji": "🙂‍↔",
+    "group": "Smileys & Emotion",
+    "since": 15.1,
+    "subgroup": "face-neutral-skeptical"
+  },
+  "1f642_2195": {
+    "desc": "head shaking vertically",
+    "emoji": "🙂‍↕",
+    "group": "Smileys & Emotion",
+    "since": 15.1,
+    "subgroup": "face-neutral-skeptical"
+  },
   "1f643": {
     "desc": "upside-down face",
     "emoji": "🙃",
@@ -17128,11 +17548,32 @@
     "since": 4,
     "subgroup": "person-activity"
   },
+  "1f6b6_27a1.W": {
+    "desc": "woman walking facing right",
+    "emoji": "🚶‍♀‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f6b6.M": {
     "desc": "man walking",
     "emoji": "🚶‍♂",
     "group": "People & Body",
     "since": 4,
+    "subgroup": "person-activity"
+  },
+  "1f6b6_27a1.M": {
+    "desc": "man walking facing right",
+    "emoji": "🚶‍♂‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
+  "1f6b6_27a1": {
+    "desc": "person walking facing right",
+    "emoji": "🚶‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f6b6.1": {
@@ -17149,11 +17590,32 @@
     "since": 4,
     "subgroup": "person-activity"
   },
+  "1f6b6_27a1.1.W": {
+    "desc": "woman walking facing right: light skin tone",
+    "emoji": "🚶🏻‍♀‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f6b6.1.M": {
     "desc": "man walking: light skin tone",
     "emoji": "🚶🏻‍♂",
     "group": "People & Body",
     "since": 4,
+    "subgroup": "person-activity"
+  },
+  "1f6b6_27a1.1.M": {
+    "desc": "man walking facing right: light skin tone",
+    "emoji": "🚶🏻‍♂‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
+  "1f6b6_27a1.1": {
+    "desc": "person walking facing right: light skin tone",
+    "emoji": "🚶🏻‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f6b6.2": {
@@ -17170,11 +17632,32 @@
     "since": 4,
     "subgroup": "person-activity"
   },
+  "1f6b6_27a1.2.W": {
+    "desc": "woman walking facing right: medium-light skin tone",
+    "emoji": "🚶🏼‍♀‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f6b6.2.M": {
     "desc": "man walking: medium-light skin tone",
     "emoji": "🚶🏼‍♂",
     "group": "People & Body",
     "since": 4,
+    "subgroup": "person-activity"
+  },
+  "1f6b6_27a1.2.M": {
+    "desc": "man walking facing right: medium-light skin tone",
+    "emoji": "🚶🏼‍♂‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
+  "1f6b6_27a1.2": {
+    "desc": "person walking facing right: medium-light skin tone",
+    "emoji": "🚶🏼‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f6b6.3": {
@@ -17191,11 +17674,32 @@
     "since": 4,
     "subgroup": "person-activity"
   },
+  "1f6b6_27a1.3.W": {
+    "desc": "woman walking facing right: medium skin tone",
+    "emoji": "🚶🏽‍♀‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f6b6.3.M": {
     "desc": "man walking: medium skin tone",
     "emoji": "🚶🏽‍♂",
     "group": "People & Body",
     "since": 4,
+    "subgroup": "person-activity"
+  },
+  "1f6b6_27a1.3.M": {
+    "desc": "man walking facing right: medium skin tone",
+    "emoji": "🚶🏽‍♂‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
+  "1f6b6_27a1.3": {
+    "desc": "person walking facing right: medium skin tone",
+    "emoji": "🚶🏽‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f6b6.4": {
@@ -17212,11 +17716,32 @@
     "since": 4,
     "subgroup": "person-activity"
   },
+  "1f6b6_27a1.4.W": {
+    "desc": "woman walking facing right: medium-dark skin tone",
+    "emoji": "🚶🏾‍♀‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f6b6.4.M": {
     "desc": "man walking: medium-dark skin tone",
     "emoji": "🚶🏾‍♂",
     "group": "People & Body",
     "since": 4,
+    "subgroup": "person-activity"
+  },
+  "1f6b6_27a1.4.M": {
+    "desc": "man walking facing right: medium-dark skin tone",
+    "emoji": "🚶🏾‍♂‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
+  "1f6b6_27a1.4": {
+    "desc": "person walking facing right: medium-dark skin tone",
+    "emoji": "🚶🏾‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f6b6.5": {
@@ -17233,11 +17758,32 @@
     "since": 4,
     "subgroup": "person-activity"
   },
+  "1f6b6_27a1.5.W": {
+    "desc": "woman walking facing right: dark skin tone",
+    "emoji": "🚶🏿‍♀‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f6b6.5.M": {
     "desc": "man walking: dark skin tone",
     "emoji": "🚶🏿‍♂",
     "group": "People & Body",
     "since": 4,
+    "subgroup": "person-activity"
+  },
+  "1f6b6_27a1.5.M": {
+    "desc": "man walking facing right: dark skin tone",
+    "emoji": "🚶🏿‍♂‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
+  "1f6b6_27a1.5": {
+    "desc": "person walking facing right: dark skin tone",
+    "emoji": "🚶🏿‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f6b7": {
@@ -21013,11 +21559,32 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f9ce_27a1.W": {
+    "desc": "woman kneeling facing right",
+    "emoji": "🧎‍♀‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f9ce.M": {
     "desc": "man kneeling",
     "emoji": "🧎‍♂",
     "group": "People & Body",
     "since": 12,
+    "subgroup": "person-activity"
+  },
+  "1f9ce_27a1.M": {
+    "desc": "man kneeling facing right",
+    "emoji": "🧎‍♂‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
+  "1f9ce_27a1": {
+    "desc": "person kneeling facing right",
+    "emoji": "🧎‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f9ce.1": {
@@ -21034,11 +21601,32 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f9ce_27a1.1.W": {
+    "desc": "woman kneeling facing right: light skin tone",
+    "emoji": "🧎🏻‍♀‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f9ce.1.M": {
     "desc": "man kneeling: light skin tone",
     "emoji": "🧎🏻‍♂",
     "group": "People & Body",
     "since": 12,
+    "subgroup": "person-activity"
+  },
+  "1f9ce_27a1.1.M": {
+    "desc": "man kneeling facing right: light skin tone",
+    "emoji": "🧎🏻‍♂‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
+  "1f9ce_27a1.1": {
+    "desc": "person kneeling facing right: light skin tone",
+    "emoji": "🧎🏻‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f9ce.2": {
@@ -21055,11 +21643,32 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f9ce_27a1.2.W": {
+    "desc": "woman kneeling facing right: medium-light skin tone",
+    "emoji": "🧎🏼‍♀‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f9ce.2.M": {
     "desc": "man kneeling: medium-light skin tone",
     "emoji": "🧎🏼‍♂",
     "group": "People & Body",
     "since": 12,
+    "subgroup": "person-activity"
+  },
+  "1f9ce_27a1.2.M": {
+    "desc": "man kneeling facing right: medium-light skin tone",
+    "emoji": "🧎🏼‍♂‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
+  "1f9ce_27a1.2": {
+    "desc": "person kneeling facing right: medium-light skin tone",
+    "emoji": "🧎🏼‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f9ce.3": {
@@ -21076,11 +21685,32 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f9ce_27a1.3.W": {
+    "desc": "woman kneeling facing right: medium skin tone",
+    "emoji": "🧎🏽‍♀‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f9ce.3.M": {
     "desc": "man kneeling: medium skin tone",
     "emoji": "🧎🏽‍♂",
     "group": "People & Body",
     "since": 12,
+    "subgroup": "person-activity"
+  },
+  "1f9ce_27a1.3.M": {
+    "desc": "man kneeling facing right: medium skin tone",
+    "emoji": "🧎🏽‍♂‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
+  "1f9ce_27a1.3": {
+    "desc": "person kneeling facing right: medium skin tone",
+    "emoji": "🧎🏽‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f9ce.4": {
@@ -21097,11 +21727,32 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f9ce_27a1.4.W": {
+    "desc": "woman kneeling facing right: medium-dark skin tone",
+    "emoji": "🧎🏾‍♀‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f9ce.4.M": {
     "desc": "man kneeling: medium-dark skin tone",
     "emoji": "🧎🏾‍♂",
     "group": "People & Body",
     "since": 12,
+    "subgroup": "person-activity"
+  },
+  "1f9ce_27a1.4.M": {
+    "desc": "man kneeling facing right: medium-dark skin tone",
+    "emoji": "🧎🏾‍♂‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
+  "1f9ce_27a1.4": {
+    "desc": "person kneeling facing right: medium-dark skin tone",
+    "emoji": "🧎🏾‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f9ce.5": {
@@ -21118,11 +21769,32 @@
     "since": 12,
     "subgroup": "person-activity"
   },
+  "1f9ce_27a1.5.W": {
+    "desc": "woman kneeling facing right: dark skin tone",
+    "emoji": "🧎🏿‍♀‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f9ce.5.M": {
     "desc": "man kneeling: dark skin tone",
     "emoji": "🧎🏿‍♂",
     "group": "People & Body",
     "since": 12,
+    "subgroup": "person-activity"
+  },
+  "1f9ce_27a1.5.M": {
+    "desc": "man kneeling facing right: dark skin tone",
+    "emoji": "🧎🏿‍♂‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
+  "1f9ce_27a1.5": {
+    "desc": "person kneeling facing right: dark skin tone",
+    "emoji": "🧎🏿‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f9cf": {
@@ -21405,6 +22077,13 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
+  "1f9d1_1f9af_27a1": {
+    "desc": "person with white cane facing right",
+    "emoji": "🧑‍🦯‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f9d1_1f9b0": {
     "desc": "person: red hair",
     "emoji": "🧑‍🦰",
@@ -21440,12 +22119,54 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
+  "1f9d1_1f9bc_27a1": {
+    "desc": "person in motorized wheelchair facing right",
+    "emoji": "🧑‍🦼‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f9d1_1f9bd": {
     "desc": "person in manual wheelchair",
     "emoji": "🧑‍🦽",
     "group": "People & Body",
     "since": 12.1,
     "subgroup": "person-activity"
+  },
+  "1f9d1_1f9bd_27a1": {
+    "desc": "person in manual wheelchair facing right",
+    "emoji": "🧑‍🦽‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
+  "1f9d1_1f9d1_1f9d2": {
+    "desc": "family: adult, adult, child",
+    "emoji": "🧑‍🧑‍🧒",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-symbol"
+  },
+  "1f9d1_1f9d1_1f9d2_1f9d2": {
+    "desc": "family: adult, adult, child, child",
+    "emoji": "🧑‍🧑‍🧒‍🧒",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-symbol"
+  },
+  "1f9d1_1f9d2": {
+    "desc": "family: adult, child",
+    "emoji": "🧑‍🧒",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-symbol"
+  },
+  "1f9d1_1f9d2_1f9d2": {
+    "desc": "family: adult, child, child",
+    "emoji": "🧑‍🧒‍🧒",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-symbol"
   },
   "1f9d1.1": {
     "desc": "person: light skin tone",
@@ -21678,6 +22399,13 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
+  "1f9d1_1f9af_27a1.1": {
+    "desc": "person with white cane facing right: light skin tone",
+    "emoji": "🧑🏻‍🦯‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f9d1_1f9b0.1": {
     "desc": "person: light skin tone, red hair",
     "emoji": "🧑🏻‍🦰",
@@ -21713,11 +22441,25 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
+  "1f9d1_1f9bc_27a1.1": {
+    "desc": "person in motorized wheelchair facing right: light skin tone",
+    "emoji": "🧑🏻‍🦼‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f9d1_1f9bd.1": {
     "desc": "person in manual wheelchair: light skin tone",
     "emoji": "🧑🏻‍🦽",
     "group": "People & Body",
     "since": 12.1,
+    "subgroup": "person-activity"
+  },
+  "1f9d1_1f9bd_27a1.1": {
+    "desc": "person in manual wheelchair facing right: light skin tone",
+    "emoji": "🧑🏻‍🦽‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f9d1.2": {
@@ -21951,6 +22693,13 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
+  "1f9d1_1f9af_27a1.2": {
+    "desc": "person with white cane facing right: medium-light skin tone",
+    "emoji": "🧑🏼‍🦯‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f9d1_1f9b0.2": {
     "desc": "person: medium-light skin tone, red hair",
     "emoji": "🧑🏼‍🦰",
@@ -21986,11 +22735,25 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
+  "1f9d1_1f9bc_27a1.2": {
+    "desc": "person in motorized wheelchair facing right: medium-light skin tone",
+    "emoji": "🧑🏼‍🦼‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f9d1_1f9bd.2": {
     "desc": "person in manual wheelchair: medium-light skin tone",
     "emoji": "🧑🏼‍🦽",
     "group": "People & Body",
     "since": 12.1,
+    "subgroup": "person-activity"
+  },
+  "1f9d1_1f9bd_27a1.2": {
+    "desc": "person in manual wheelchair facing right: medium-light skin tone",
+    "emoji": "🧑🏼‍🦽‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f9d1.3": {
@@ -22224,6 +22987,13 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
+  "1f9d1_1f9af_27a1.3": {
+    "desc": "person with white cane facing right: medium skin tone",
+    "emoji": "🧑🏽‍🦯‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f9d1_1f9b0.3": {
     "desc": "person: medium skin tone, red hair",
     "emoji": "🧑🏽‍🦰",
@@ -22259,11 +23029,25 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
+  "1f9d1_1f9bc_27a1.3": {
+    "desc": "person in motorized wheelchair facing right: medium skin tone",
+    "emoji": "🧑🏽‍🦼‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f9d1_1f9bd.3": {
     "desc": "person in manual wheelchair: medium skin tone",
     "emoji": "🧑🏽‍🦽",
     "group": "People & Body",
     "since": 12.1,
+    "subgroup": "person-activity"
+  },
+  "1f9d1_1f9bd_27a1.3": {
+    "desc": "person in manual wheelchair facing right: medium skin tone",
+    "emoji": "🧑🏽‍🦽‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f9d1.4": {
@@ -22497,6 +23281,13 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
+  "1f9d1_1f9af_27a1.4": {
+    "desc": "person with white cane facing right: medium-dark skin tone",
+    "emoji": "🧑🏾‍🦯‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f9d1_1f9b0.4": {
     "desc": "person: medium-dark skin tone, red hair",
     "emoji": "🧑🏾‍🦰",
@@ -22532,11 +23323,25 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
+  "1f9d1_1f9bc_27a1.4": {
+    "desc": "person in motorized wheelchair facing right: medium-dark skin tone",
+    "emoji": "🧑🏾‍🦼‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f9d1_1f9bd.4": {
     "desc": "person in manual wheelchair: medium-dark skin tone",
     "emoji": "🧑🏾‍🦽",
     "group": "People & Body",
     "since": 12.1,
+    "subgroup": "person-activity"
+  },
+  "1f9d1_1f9bd_27a1.4": {
+    "desc": "person in manual wheelchair facing right: medium-dark skin tone",
+    "emoji": "🧑🏾‍🦽‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f9d1.5": {
@@ -22770,6 +23575,13 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
+  "1f9d1_1f9af_27a1.5": {
+    "desc": "person with white cane facing right: dark skin tone",
+    "emoji": "🧑🏿‍🦯‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f9d1_1f9b0.5": {
     "desc": "person: dark skin tone, red hair",
     "emoji": "🧑🏿‍🦰",
@@ -22805,11 +23617,25 @@
     "since": 12.1,
     "subgroup": "person-activity"
   },
+  "1f9d1_1f9bc_27a1.5": {
+    "desc": "person in motorized wheelchair facing right: dark skin tone",
+    "emoji": "🧑🏿‍🦼‍➡",
+    "group": "People & Body",
+    "since": 15.1,
+    "subgroup": "person-activity"
+  },
   "1f9d1_1f9bd.5": {
     "desc": "person in manual wheelchair: dark skin tone",
     "emoji": "🧑🏿‍🦽",
     "group": "People & Body",
     "since": 12.1,
+    "subgroup": "person-activity"
+  },
+  "1f9d1_1f9bd_27a1.5": {
+    "desc": "person in manual wheelchair facing right: dark skin tone",
+    "emoji": "🧑🏿‍🦽‍➡",
+    "group": "People & Body",
+    "since": 15.1,
     "subgroup": "person-activity"
   },
   "1f9d2": {

@@ -1,4 +1,14 @@
 {
+  "26d3_1f4a5": {
+    "char": "⛓️‍💥",
+    "codepoints": [
+      9939,
+      65039,
+      8205,
+      128165
+    ],
+    "description": "broken chain"
+  },
   "26f9.W": {
     "char": "⛹️‍♀️",
     "codepoints": [
@@ -151,6 +161,24 @@
     ],
     "description": "mending heart"
   },
+  "1f344_1f7eb": {
+    "char": "🍄‍🟫",
+    "codepoints": [
+      127812,
+      8205,
+      129003
+    ],
+    "description": "brown mushroom"
+  },
+  "1f34b_1f7e9": {
+    "char": "🍋‍🟩",
+    "codepoints": [
+      127819,
+      8205,
+      129001
+    ],
+    "description": "lime"
+  },
   "1f3c3.W": {
     "char": "🏃‍♀️",
     "codepoints": [
@@ -161,6 +189,19 @@
     ],
     "description": "woman running"
   },
+  "1f3c3_27a1.W": {
+    "char": "🏃‍♀️‍➡️",
+    "codepoints": [
+      127939,
+      8205,
+      9792,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman running facing right"
+  },
   "1f3c3.M": {
     "char": "🏃‍♂️",
     "codepoints": [
@@ -170,6 +211,29 @@
       65039
     ],
     "description": "man running"
+  },
+  "1f3c3_27a1.M": {
+    "char": "🏃‍♂️‍➡️",
+    "codepoints": [
+      127939,
+      8205,
+      9794,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man running facing right"
+  },
+  "1f3c3_27a1": {
+    "char": "🏃‍➡️",
+    "codepoints": [
+      127939,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person running facing right"
   },
   "1f3c3.1.W": {
     "char": "🏃🏻‍♀️",
@@ -182,6 +246,20 @@
     ],
     "description": "woman running: light skin tone"
   },
+  "1f3c3_27a1.1.W": {
+    "char": "🏃🏻‍♀️‍➡️",
+    "codepoints": [
+      127939,
+      127995,
+      8205,
+      9792,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman running facing right: light skin tone"
+  },
   "1f3c3.1.M": {
     "char": "🏃🏻‍♂️",
     "codepoints": [
@@ -192,6 +270,31 @@
       65039
     ],
     "description": "man running: light skin tone"
+  },
+  "1f3c3_27a1.1.M": {
+    "char": "🏃🏻‍♂️‍➡️",
+    "codepoints": [
+      127939,
+      127995,
+      8205,
+      9794,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man running facing right: light skin tone"
+  },
+  "1f3c3_27a1.1": {
+    "char": "🏃🏻‍➡️",
+    "codepoints": [
+      127939,
+      127995,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person running facing right: light skin tone"
   },
   "1f3c3.2.W": {
     "char": "🏃🏼‍♀️",
@@ -204,6 +307,20 @@
     ],
     "description": "woman running: medium-light skin tone"
   },
+  "1f3c3_27a1.2.W": {
+    "char": "🏃🏼‍♀️‍➡️",
+    "codepoints": [
+      127939,
+      127996,
+      8205,
+      9792,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman running facing right: medium-light skin tone"
+  },
   "1f3c3.2.M": {
     "char": "🏃🏼‍♂️",
     "codepoints": [
@@ -214,6 +331,31 @@
       65039
     ],
     "description": "man running: medium-light skin tone"
+  },
+  "1f3c3_27a1.2.M": {
+    "char": "🏃🏼‍♂️‍➡️",
+    "codepoints": [
+      127939,
+      127996,
+      8205,
+      9794,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man running facing right: medium-light skin tone"
+  },
+  "1f3c3_27a1.2": {
+    "char": "🏃🏼‍➡️",
+    "codepoints": [
+      127939,
+      127996,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person running facing right: medium-light skin tone"
   },
   "1f3c3.3.W": {
     "char": "🏃🏽‍♀️",
@@ -226,6 +368,20 @@
     ],
     "description": "woman running: medium skin tone"
   },
+  "1f3c3_27a1.3.W": {
+    "char": "🏃🏽‍♀️‍➡️",
+    "codepoints": [
+      127939,
+      127997,
+      8205,
+      9792,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman running facing right: medium skin tone"
+  },
   "1f3c3.3.M": {
     "char": "🏃🏽‍♂️",
     "codepoints": [
@@ -236,6 +392,31 @@
       65039
     ],
     "description": "man running: medium skin tone"
+  },
+  "1f3c3_27a1.3.M": {
+    "char": "🏃🏽‍♂️‍➡️",
+    "codepoints": [
+      127939,
+      127997,
+      8205,
+      9794,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man running facing right: medium skin tone"
+  },
+  "1f3c3_27a1.3": {
+    "char": "🏃🏽‍➡️",
+    "codepoints": [
+      127939,
+      127997,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person running facing right: medium skin tone"
   },
   "1f3c3.4.W": {
     "char": "🏃🏾‍♀️",
@@ -248,6 +429,20 @@
     ],
     "description": "woman running: medium-dark skin tone"
   },
+  "1f3c3_27a1.4.W": {
+    "char": "🏃🏾‍♀️‍➡️",
+    "codepoints": [
+      127939,
+      127998,
+      8205,
+      9792,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman running facing right: medium-dark skin tone"
+  },
   "1f3c3.4.M": {
     "char": "🏃🏾‍♂️",
     "codepoints": [
@@ -258,6 +453,31 @@
       65039
     ],
     "description": "man running: medium-dark skin tone"
+  },
+  "1f3c3_27a1.4.M": {
+    "char": "🏃🏾‍♂️‍➡️",
+    "codepoints": [
+      127939,
+      127998,
+      8205,
+      9794,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man running facing right: medium-dark skin tone"
+  },
+  "1f3c3_27a1.4": {
+    "char": "🏃🏾‍➡️",
+    "codepoints": [
+      127939,
+      127998,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person running facing right: medium-dark skin tone"
   },
   "1f3c3.5.W": {
     "char": "🏃🏿‍♀️",
@@ -270,6 +490,20 @@
     ],
     "description": "woman running: dark skin tone"
   },
+  "1f3c3_27a1.5.W": {
+    "char": "🏃🏿‍♀️‍➡️",
+    "codepoints": [
+      127939,
+      127999,
+      8205,
+      9792,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman running facing right: dark skin tone"
+  },
   "1f3c3.5.M": {
     "char": "🏃🏿‍♂️",
     "codepoints": [
@@ -280,6 +514,31 @@
       65039
     ],
     "description": "man running: dark skin tone"
+  },
+  "1f3c3_27a1.5.M": {
+    "char": "🏃🏿‍♂️‍➡️",
+    "codepoints": [
+      127939,
+      127999,
+      8205,
+      9794,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man running facing right: dark skin tone"
+  },
+  "1f3c3_27a1.5": {
+    "char": "🏃🏿‍➡️",
+    "codepoints": [
+      127939,
+      127999,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person running facing right: dark skin tone"
   },
   "1f3c4.W": {
     "char": "🏄‍♀️",
@@ -863,6 +1122,15 @@
     ],
     "description": "black bird"
   },
+  "1f426_1f525": {
+    "char": "🐦‍🔥",
+    "codepoints": [
+      128038,
+      8205,
+      128293
+    ],
+    "description": "phoenix"
+  },
   "1f43b_2744": {
     "char": "🐻‍❄️",
     "codepoints": [
@@ -1248,6 +1516,18 @@
     ],
     "description": "man with white cane"
   },
+  "1f468_1f9af_27a1": {
+    "char": "👨‍🦯‍➡️",
+    "codepoints": [
+      128104,
+      8205,
+      129455,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man with white cane facing right"
+  },
   "1f468_1f9b0": {
     "char": "👨‍🦰",
     "codepoints": [
@@ -1293,6 +1573,18 @@
     ],
     "description": "man in motorized wheelchair"
   },
+  "1f468_1f9bc_27a1": {
+    "char": "👨‍🦼‍➡️",
+    "codepoints": [
+      128104,
+      8205,
+      129468,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man in motorized wheelchair facing right"
+  },
   "1f468_1f9bd": {
     "char": "👨‍🦽",
     "codepoints": [
@@ -1301,6 +1593,18 @@
       129469
     ],
     "description": "man in manual wheelchair"
+  },
+  "1f468_1f9bd_27a1": {
+    "char": "👨‍🦽‍➡️",
+    "codepoints": [
+      128104,
+      8205,
+      129469,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man in manual wheelchair facing right"
   },
   "1f468_2695.1": {
     "char": "👨🏻‍⚕️",
@@ -1687,6 +1991,19 @@
     ],
     "description": "man with white cane: light skin tone"
   },
+  "1f468_1f9af_27a1.1": {
+    "char": "👨🏻‍🦯‍➡️",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      129455,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man with white cane facing right: light skin tone"
+  },
   "1f468_1f9b0.1": {
     "char": "👨🏻‍🦰",
     "codepoints": [
@@ -1737,6 +2054,19 @@
     ],
     "description": "man in motorized wheelchair: light skin tone"
   },
+  "1f468_1f9bc_27a1.1": {
+    "char": "👨🏻‍🦼‍➡️",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      129468,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man in motorized wheelchair facing right: light skin tone"
+  },
   "1f468_1f9bd.1": {
     "char": "👨🏻‍🦽",
     "codepoints": [
@@ -1746,6 +2076,19 @@
       129469
     ],
     "description": "man in manual wheelchair: light skin tone"
+  },
+  "1f468_1f9bd_27a1.1": {
+    "char": "👨🏻‍🦽‍➡️",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      129469,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man in manual wheelchair facing right: light skin tone"
   },
   "1f468_2695.2": {
     "char": "👨🏼‍⚕️",
@@ -2132,6 +2475,19 @@
     ],
     "description": "man with white cane: medium-light skin tone"
   },
+  "1f468_1f9af_27a1.2": {
+    "char": "👨🏼‍🦯‍➡️",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      129455,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man with white cane facing right: medium-light skin tone"
+  },
   "1f468_1f9b0.2": {
     "char": "👨🏼‍🦰",
     "codepoints": [
@@ -2182,6 +2538,19 @@
     ],
     "description": "man in motorized wheelchair: medium-light skin tone"
   },
+  "1f468_1f9bc_27a1.2": {
+    "char": "👨🏼‍🦼‍➡️",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      129468,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man in motorized wheelchair facing right: medium-light skin tone"
+  },
   "1f468_1f9bd.2": {
     "char": "👨🏼‍🦽",
     "codepoints": [
@@ -2191,6 +2560,19 @@
       129469
     ],
     "description": "man in manual wheelchair: medium-light skin tone"
+  },
+  "1f468_1f9bd_27a1.2": {
+    "char": "👨🏼‍🦽‍➡️",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      129469,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man in manual wheelchair facing right: medium-light skin tone"
   },
   "1f468_2695.3": {
     "char": "👨🏽‍⚕️",
@@ -2577,6 +2959,19 @@
     ],
     "description": "man with white cane: medium skin tone"
   },
+  "1f468_1f9af_27a1.3": {
+    "char": "👨🏽‍🦯‍➡️",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      129455,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man with white cane facing right: medium skin tone"
+  },
   "1f468_1f9b0.3": {
     "char": "👨🏽‍🦰",
     "codepoints": [
@@ -2627,6 +3022,19 @@
     ],
     "description": "man in motorized wheelchair: medium skin tone"
   },
+  "1f468_1f9bc_27a1.3": {
+    "char": "👨🏽‍🦼‍➡️",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      129468,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man in motorized wheelchair facing right: medium skin tone"
+  },
   "1f468_1f9bd.3": {
     "char": "👨🏽‍🦽",
     "codepoints": [
@@ -2636,6 +3044,19 @@
       129469
     ],
     "description": "man in manual wheelchair: medium skin tone"
+  },
+  "1f468_1f9bd_27a1.3": {
+    "char": "👨🏽‍🦽‍➡️",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      129469,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man in manual wheelchair facing right: medium skin tone"
   },
   "1f468_2695.4": {
     "char": "👨🏾‍⚕️",
@@ -3022,6 +3443,19 @@
     ],
     "description": "man with white cane: medium-dark skin tone"
   },
+  "1f468_1f9af_27a1.4": {
+    "char": "👨🏾‍🦯‍➡️",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      129455,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man with white cane facing right: medium-dark skin tone"
+  },
   "1f468_1f9b0.4": {
     "char": "👨🏾‍🦰",
     "codepoints": [
@@ -3072,6 +3506,19 @@
     ],
     "description": "man in motorized wheelchair: medium-dark skin tone"
   },
+  "1f468_1f9bc_27a1.4": {
+    "char": "👨🏾‍🦼‍➡️",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      129468,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man in motorized wheelchair facing right: medium-dark skin tone"
+  },
   "1f468_1f9bd.4": {
     "char": "👨🏾‍🦽",
     "codepoints": [
@@ -3081,6 +3528,19 @@
       129469
     ],
     "description": "man in manual wheelchair: medium-dark skin tone"
+  },
+  "1f468_1f9bd_27a1.4": {
+    "char": "👨🏾‍🦽‍➡️",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      129469,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man in manual wheelchair facing right: medium-dark skin tone"
   },
   "1f468_2695.5": {
     "char": "👨🏿‍⚕️",
@@ -3467,6 +3927,19 @@
     ],
     "description": "man with white cane: dark skin tone"
   },
+  "1f468_1f9af_27a1.5": {
+    "char": "👨🏿‍🦯‍➡️",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      129455,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man with white cane facing right: dark skin tone"
+  },
   "1f468_1f9b0.5": {
     "char": "👨🏿‍🦰",
     "codepoints": [
@@ -3517,6 +3990,19 @@
     ],
     "description": "man in motorized wheelchair: dark skin tone"
   },
+  "1f468_1f9bc_27a1.5": {
+    "char": "👨🏿‍🦼‍➡️",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      129468,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man in motorized wheelchair facing right: dark skin tone"
+  },
   "1f468_1f9bd.5": {
     "char": "👨🏿‍🦽",
     "codepoints": [
@@ -3526,6 +4012,19 @@
       129469
     ],
     "description": "man in manual wheelchair: dark skin tone"
+  },
+  "1f468_1f9bd_27a1.5": {
+    "char": "👨🏿‍🦽‍➡️",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      129469,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man in manual wheelchair facing right: dark skin tone"
   },
   "1f469_2695": {
     "char": "👩‍⚕️",
@@ -3856,6 +4355,18 @@
     ],
     "description": "woman with white cane"
   },
+  "1f469_1f9af_27a1": {
+    "char": "👩‍🦯‍➡️",
+    "codepoints": [
+      128105,
+      8205,
+      129455,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman with white cane facing right"
+  },
   "1f469_1f9b0": {
     "char": "👩‍🦰",
     "codepoints": [
@@ -3901,6 +4412,18 @@
     ],
     "description": "woman in motorized wheelchair"
   },
+  "1f469_1f9bc_27a1": {
+    "char": "👩‍🦼‍➡️",
+    "codepoints": [
+      128105,
+      8205,
+      129468,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman in motorized wheelchair facing right"
+  },
   "1f469_1f9bd": {
     "char": "👩‍🦽",
     "codepoints": [
@@ -3909,6 +4432,18 @@
       129469
     ],
     "description": "woman in manual wheelchair"
+  },
+  "1f469_1f9bd_27a1": {
+    "char": "👩‍🦽‍➡️",
+    "codepoints": [
+      128105,
+      8205,
+      129469,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman in manual wheelchair facing right"
   },
   "1f469_2695.1": {
     "char": "👩🏻‍⚕️",
@@ -4497,6 +5032,19 @@
     ],
     "description": "woman with white cane: light skin tone"
   },
+  "1f469_1f9af_27a1.1": {
+    "char": "👩🏻‍🦯‍➡️",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      129455,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman with white cane facing right: light skin tone"
+  },
   "1f469_1f9b0.1": {
     "char": "👩🏻‍🦰",
     "codepoints": [
@@ -4547,6 +5095,19 @@
     ],
     "description": "woman in motorized wheelchair: light skin tone"
   },
+  "1f469_1f9bc_27a1.1": {
+    "char": "👩🏻‍🦼‍➡️",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      129468,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman in motorized wheelchair facing right: light skin tone"
+  },
   "1f469_1f9bd.1": {
     "char": "👩🏻‍🦽",
     "codepoints": [
@@ -4556,6 +5117,19 @@
       129469
     ],
     "description": "woman in manual wheelchair: light skin tone"
+  },
+  "1f469_1f9bd_27a1.1": {
+    "char": "👩🏻‍🦽‍➡️",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      129469,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman in manual wheelchair facing right: light skin tone"
   },
   "1f469_2695.2": {
     "char": "👩🏼‍⚕️",
@@ -5144,6 +5718,19 @@
     ],
     "description": "woman with white cane: medium-light skin tone"
   },
+  "1f469_1f9af_27a1.2": {
+    "char": "👩🏼‍🦯‍➡️",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      129455,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman with white cane facing right: medium-light skin tone"
+  },
   "1f469_1f9b0.2": {
     "char": "👩🏼‍🦰",
     "codepoints": [
@@ -5194,6 +5781,19 @@
     ],
     "description": "woman in motorized wheelchair: medium-light skin tone"
   },
+  "1f469_1f9bc_27a1.2": {
+    "char": "👩🏼‍🦼‍➡️",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      129468,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman in motorized wheelchair facing right: medium-light skin tone"
+  },
   "1f469_1f9bd.2": {
     "char": "👩🏼‍🦽",
     "codepoints": [
@@ -5203,6 +5803,19 @@
       129469
     ],
     "description": "woman in manual wheelchair: medium-light skin tone"
+  },
+  "1f469_1f9bd_27a1.2": {
+    "char": "👩🏼‍🦽‍➡️",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      129469,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman in manual wheelchair facing right: medium-light skin tone"
   },
   "1f469_2695.3": {
     "char": "👩🏽‍⚕️",
@@ -5791,6 +6404,19 @@
     ],
     "description": "woman with white cane: medium skin tone"
   },
+  "1f469_1f9af_27a1.3": {
+    "char": "👩🏽‍🦯‍➡️",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      129455,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman with white cane facing right: medium skin tone"
+  },
   "1f469_1f9b0.3": {
     "char": "👩🏽‍🦰",
     "codepoints": [
@@ -5841,6 +6467,19 @@
     ],
     "description": "woman in motorized wheelchair: medium skin tone"
   },
+  "1f469_1f9bc_27a1.3": {
+    "char": "👩🏽‍🦼‍➡️",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      129468,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman in motorized wheelchair facing right: medium skin tone"
+  },
   "1f469_1f9bd.3": {
     "char": "👩🏽‍🦽",
     "codepoints": [
@@ -5850,6 +6489,19 @@
       129469
     ],
     "description": "woman in manual wheelchair: medium skin tone"
+  },
+  "1f469_1f9bd_27a1.3": {
+    "char": "👩🏽‍🦽‍➡️",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      129469,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman in manual wheelchair facing right: medium skin tone"
   },
   "1f469_2695.4": {
     "char": "👩🏾‍⚕️",
@@ -6438,6 +7090,19 @@
     ],
     "description": "woman with white cane: medium-dark skin tone"
   },
+  "1f469_1f9af_27a1.4": {
+    "char": "👩🏾‍🦯‍➡️",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      129455,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman with white cane facing right: medium-dark skin tone"
+  },
   "1f469_1f9b0.4": {
     "char": "👩🏾‍🦰",
     "codepoints": [
@@ -6488,6 +7153,19 @@
     ],
     "description": "woman in motorized wheelchair: medium-dark skin tone"
   },
+  "1f469_1f9bc_27a1.4": {
+    "char": "👩🏾‍🦼‍➡️",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      129468,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman in motorized wheelchair facing right: medium-dark skin tone"
+  },
   "1f469_1f9bd.4": {
     "char": "👩🏾‍🦽",
     "codepoints": [
@@ -6497,6 +7175,19 @@
       129469
     ],
     "description": "woman in manual wheelchair: medium-dark skin tone"
+  },
+  "1f469_1f9bd_27a1.4": {
+    "char": "👩🏾‍🦽‍➡️",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      129469,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman in manual wheelchair facing right: medium-dark skin tone"
   },
   "1f469_2695.5": {
     "char": "👩🏿‍⚕️",
@@ -7085,6 +7776,19 @@
     ],
     "description": "woman with white cane: dark skin tone"
   },
+  "1f469_1f9af_27a1.5": {
+    "char": "👩🏿‍🦯‍➡️",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      129455,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman with white cane facing right: dark skin tone"
+  },
   "1f469_1f9b0.5": {
     "char": "👩🏿‍🦰",
     "codepoints": [
@@ -7135,6 +7839,19 @@
     ],
     "description": "woman in motorized wheelchair: dark skin tone"
   },
+  "1f469_1f9bc_27a1.5": {
+    "char": "👩🏿‍🦼‍➡️",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      129468,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman in motorized wheelchair facing right: dark skin tone"
+  },
   "1f469_1f9bd.5": {
     "char": "👩🏿‍🦽",
     "codepoints": [
@@ -7144,6 +7861,19 @@
       129469
     ],
     "description": "woman in manual wheelchair: dark skin tone"
+  },
+  "1f469_1f9bd_27a1.5": {
+    "char": "👩🏿‍🦽‍➡️",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      129469,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman in manual wheelchair facing right: dark skin tone"
   },
   "1f46e.W": {
     "char": "👮‍♀️",
@@ -8495,6 +9225,26 @@
     ],
     "description": "face in clouds"
   },
+  "1f642_2194": {
+    "char": "🙂‍↔️",
+    "codepoints": [
+      128578,
+      8205,
+      8596,
+      65039
+    ],
+    "description": "head shaking horizontally"
+  },
+  "1f642_2195": {
+    "char": "🙂‍↕️",
+    "codepoints": [
+      128578,
+      8205,
+      8597,
+      65039
+    ],
+    "description": "head shaking vertically"
+  },
   "1f645.W": {
     "char": "🙅‍♀️",
     "codepoints": [
@@ -9675,6 +10425,19 @@
     ],
     "description": "woman walking"
   },
+  "1f6b6_27a1.W": {
+    "char": "🚶‍♀️‍➡️",
+    "codepoints": [
+      128694,
+      8205,
+      9792,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman walking facing right"
+  },
   "1f6b6.M": {
     "char": "🚶‍♂️",
     "codepoints": [
@@ -9684,6 +10447,29 @@
       65039
     ],
     "description": "man walking"
+  },
+  "1f6b6_27a1.M": {
+    "char": "🚶‍♂️‍➡️",
+    "codepoints": [
+      128694,
+      8205,
+      9794,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man walking facing right"
+  },
+  "1f6b6_27a1": {
+    "char": "🚶‍➡️",
+    "codepoints": [
+      128694,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person walking facing right"
   },
   "1f6b6.1.W": {
     "char": "🚶🏻‍♀️",
@@ -9696,6 +10482,20 @@
     ],
     "description": "woman walking: light skin tone"
   },
+  "1f6b6_27a1.1.W": {
+    "char": "🚶🏻‍♀️‍➡️",
+    "codepoints": [
+      128694,
+      127995,
+      8205,
+      9792,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman walking facing right: light skin tone"
+  },
   "1f6b6.1.M": {
     "char": "🚶🏻‍♂️",
     "codepoints": [
@@ -9706,6 +10506,31 @@
       65039
     ],
     "description": "man walking: light skin tone"
+  },
+  "1f6b6_27a1.1.M": {
+    "char": "🚶🏻‍♂️‍➡️",
+    "codepoints": [
+      128694,
+      127995,
+      8205,
+      9794,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man walking facing right: light skin tone"
+  },
+  "1f6b6_27a1.1": {
+    "char": "🚶🏻‍➡️",
+    "codepoints": [
+      128694,
+      127995,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person walking facing right: light skin tone"
   },
   "1f6b6.2.W": {
     "char": "🚶🏼‍♀️",
@@ -9718,6 +10543,20 @@
     ],
     "description": "woman walking: medium-light skin tone"
   },
+  "1f6b6_27a1.2.W": {
+    "char": "🚶🏼‍♀️‍➡️",
+    "codepoints": [
+      128694,
+      127996,
+      8205,
+      9792,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman walking facing right: medium-light skin tone"
+  },
   "1f6b6.2.M": {
     "char": "🚶🏼‍♂️",
     "codepoints": [
@@ -9728,6 +10567,31 @@
       65039
     ],
     "description": "man walking: medium-light skin tone"
+  },
+  "1f6b6_27a1.2.M": {
+    "char": "🚶🏼‍♂️‍➡️",
+    "codepoints": [
+      128694,
+      127996,
+      8205,
+      9794,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man walking facing right: medium-light skin tone"
+  },
+  "1f6b6_27a1.2": {
+    "char": "🚶🏼‍➡️",
+    "codepoints": [
+      128694,
+      127996,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person walking facing right: medium-light skin tone"
   },
   "1f6b6.3.W": {
     "char": "🚶🏽‍♀️",
@@ -9740,6 +10604,20 @@
     ],
     "description": "woman walking: medium skin tone"
   },
+  "1f6b6_27a1.3.W": {
+    "char": "🚶🏽‍♀️‍➡️",
+    "codepoints": [
+      128694,
+      127997,
+      8205,
+      9792,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman walking facing right: medium skin tone"
+  },
   "1f6b6.3.M": {
     "char": "🚶🏽‍♂️",
     "codepoints": [
@@ -9750,6 +10628,31 @@
       65039
     ],
     "description": "man walking: medium skin tone"
+  },
+  "1f6b6_27a1.3.M": {
+    "char": "🚶🏽‍♂️‍➡️",
+    "codepoints": [
+      128694,
+      127997,
+      8205,
+      9794,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man walking facing right: medium skin tone"
+  },
+  "1f6b6_27a1.3": {
+    "char": "🚶🏽‍➡️",
+    "codepoints": [
+      128694,
+      127997,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person walking facing right: medium skin tone"
   },
   "1f6b6.4.W": {
     "char": "🚶🏾‍♀️",
@@ -9762,6 +10665,20 @@
     ],
     "description": "woman walking: medium-dark skin tone"
   },
+  "1f6b6_27a1.4.W": {
+    "char": "🚶🏾‍♀️‍➡️",
+    "codepoints": [
+      128694,
+      127998,
+      8205,
+      9792,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman walking facing right: medium-dark skin tone"
+  },
   "1f6b6.4.M": {
     "char": "🚶🏾‍♂️",
     "codepoints": [
@@ -9772,6 +10689,31 @@
       65039
     ],
     "description": "man walking: medium-dark skin tone"
+  },
+  "1f6b6_27a1.4.M": {
+    "char": "🚶🏾‍♂️‍➡️",
+    "codepoints": [
+      128694,
+      127998,
+      8205,
+      9794,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man walking facing right: medium-dark skin tone"
+  },
+  "1f6b6_27a1.4": {
+    "char": "🚶🏾‍➡️",
+    "codepoints": [
+      128694,
+      127998,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person walking facing right: medium-dark skin tone"
   },
   "1f6b6.5.W": {
     "char": "🚶🏿‍♀️",
@@ -9784,6 +10726,20 @@
     ],
     "description": "woman walking: dark skin tone"
   },
+  "1f6b6_27a1.5.W": {
+    "char": "🚶🏿‍♀️‍➡️",
+    "codepoints": [
+      128694,
+      127999,
+      8205,
+      9792,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman walking facing right: dark skin tone"
+  },
   "1f6b6.5.M": {
     "char": "🚶🏿‍♂️",
     "codepoints": [
@@ -9794,6 +10750,31 @@
       65039
     ],
     "description": "man walking: dark skin tone"
+  },
+  "1f6b6_27a1.5.M": {
+    "char": "🚶🏿‍♂️‍➡️",
+    "codepoints": [
+      128694,
+      127999,
+      8205,
+      9794,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man walking facing right: dark skin tone"
+  },
+  "1f6b6_27a1.5": {
+    "char": "🚶🏿‍➡️",
+    "codepoints": [
+      128694,
+      127999,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person walking facing right: dark skin tone"
   },
   "1f926.W": {
     "char": "🤦‍♀️",
@@ -11125,6 +12106,19 @@
     ],
     "description": "woman kneeling"
   },
+  "1f9ce_27a1.W": {
+    "char": "🧎‍♀️‍➡️",
+    "codepoints": [
+      129486,
+      8205,
+      9792,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman kneeling facing right"
+  },
   "1f9ce.M": {
     "char": "🧎‍♂️",
     "codepoints": [
@@ -11134,6 +12128,29 @@
       65039
     ],
     "description": "man kneeling"
+  },
+  "1f9ce_27a1.M": {
+    "char": "🧎‍♂️‍➡️",
+    "codepoints": [
+      129486,
+      8205,
+      9794,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man kneeling facing right"
+  },
+  "1f9ce_27a1": {
+    "char": "🧎‍➡️",
+    "codepoints": [
+      129486,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person kneeling facing right"
   },
   "1f9ce.1.W": {
     "char": "🧎🏻‍♀️",
@@ -11146,6 +12163,20 @@
     ],
     "description": "woman kneeling: light skin tone"
   },
+  "1f9ce_27a1.1.W": {
+    "char": "🧎🏻‍♀️‍➡️",
+    "codepoints": [
+      129486,
+      127995,
+      8205,
+      9792,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman kneeling facing right: light skin tone"
+  },
   "1f9ce.1.M": {
     "char": "🧎🏻‍♂️",
     "codepoints": [
@@ -11156,6 +12187,31 @@
       65039
     ],
     "description": "man kneeling: light skin tone"
+  },
+  "1f9ce_27a1.1.M": {
+    "char": "🧎🏻‍♂️‍➡️",
+    "codepoints": [
+      129486,
+      127995,
+      8205,
+      9794,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man kneeling facing right: light skin tone"
+  },
+  "1f9ce_27a1.1": {
+    "char": "🧎🏻‍➡️",
+    "codepoints": [
+      129486,
+      127995,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person kneeling facing right: light skin tone"
   },
   "1f9ce.2.W": {
     "char": "🧎🏼‍♀️",
@@ -11168,6 +12224,20 @@
     ],
     "description": "woman kneeling: medium-light skin tone"
   },
+  "1f9ce_27a1.2.W": {
+    "char": "🧎🏼‍♀️‍➡️",
+    "codepoints": [
+      129486,
+      127996,
+      8205,
+      9792,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman kneeling facing right: medium-light skin tone"
+  },
   "1f9ce.2.M": {
     "char": "🧎🏼‍♂️",
     "codepoints": [
@@ -11178,6 +12248,31 @@
       65039
     ],
     "description": "man kneeling: medium-light skin tone"
+  },
+  "1f9ce_27a1.2.M": {
+    "char": "🧎🏼‍♂️‍➡️",
+    "codepoints": [
+      129486,
+      127996,
+      8205,
+      9794,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man kneeling facing right: medium-light skin tone"
+  },
+  "1f9ce_27a1.2": {
+    "char": "🧎🏼‍➡️",
+    "codepoints": [
+      129486,
+      127996,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person kneeling facing right: medium-light skin tone"
   },
   "1f9ce.3.W": {
     "char": "🧎🏽‍♀️",
@@ -11190,6 +12285,20 @@
     ],
     "description": "woman kneeling: medium skin tone"
   },
+  "1f9ce_27a1.3.W": {
+    "char": "🧎🏽‍♀️‍➡️",
+    "codepoints": [
+      129486,
+      127997,
+      8205,
+      9792,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman kneeling facing right: medium skin tone"
+  },
   "1f9ce.3.M": {
     "char": "🧎🏽‍♂️",
     "codepoints": [
@@ -11200,6 +12309,31 @@
       65039
     ],
     "description": "man kneeling: medium skin tone"
+  },
+  "1f9ce_27a1.3.M": {
+    "char": "🧎🏽‍♂️‍➡️",
+    "codepoints": [
+      129486,
+      127997,
+      8205,
+      9794,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man kneeling facing right: medium skin tone"
+  },
+  "1f9ce_27a1.3": {
+    "char": "🧎🏽‍➡️",
+    "codepoints": [
+      129486,
+      127997,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person kneeling facing right: medium skin tone"
   },
   "1f9ce.4.W": {
     "char": "🧎🏾‍♀️",
@@ -11212,6 +12346,20 @@
     ],
     "description": "woman kneeling: medium-dark skin tone"
   },
+  "1f9ce_27a1.4.W": {
+    "char": "🧎🏾‍♀️‍➡️",
+    "codepoints": [
+      129486,
+      127998,
+      8205,
+      9792,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman kneeling facing right: medium-dark skin tone"
+  },
   "1f9ce.4.M": {
     "char": "🧎🏾‍♂️",
     "codepoints": [
@@ -11222,6 +12370,31 @@
       65039
     ],
     "description": "man kneeling: medium-dark skin tone"
+  },
+  "1f9ce_27a1.4.M": {
+    "char": "🧎🏾‍♂️‍➡️",
+    "codepoints": [
+      129486,
+      127998,
+      8205,
+      9794,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man kneeling facing right: medium-dark skin tone"
+  },
+  "1f9ce_27a1.4": {
+    "char": "🧎🏾‍➡️",
+    "codepoints": [
+      129486,
+      127998,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person kneeling facing right: medium-dark skin tone"
   },
   "1f9ce.5.W": {
     "char": "🧎🏿‍♀️",
@@ -11234,6 +12407,20 @@
     ],
     "description": "woman kneeling: dark skin tone"
   },
+  "1f9ce_27a1.5.W": {
+    "char": "🧎🏿‍♀️‍➡️",
+    "codepoints": [
+      129486,
+      127999,
+      8205,
+      9792,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "woman kneeling facing right: dark skin tone"
+  },
   "1f9ce.5.M": {
     "char": "🧎🏿‍♂️",
     "codepoints": [
@@ -11244,6 +12431,31 @@
       65039
     ],
     "description": "man kneeling: dark skin tone"
+  },
+  "1f9ce_27a1.5.M": {
+    "char": "🧎🏿‍♂️‍➡️",
+    "codepoints": [
+      129486,
+      127999,
+      8205,
+      9794,
+      65039,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "man kneeling facing right: dark skin tone"
+  },
+  "1f9ce_27a1.5": {
+    "char": "🧎🏿‍➡️",
+    "codepoints": [
+      129486,
+      127999,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person kneeling facing right: dark skin tone"
   },
   "1f9cf.W": {
     "char": "🧏‍♀️",
@@ -11560,6 +12772,18 @@
     ],
     "description": "person with white cane"
   },
+  "1f9d1_1f9af_27a1": {
+    "char": "🧑‍🦯‍➡️",
+    "codepoints": [
+      129489,
+      8205,
+      129455,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person with white cane facing right"
+  },
   "1f9d1_1f9b0": {
     "char": "🧑‍🦰",
     "codepoints": [
@@ -11605,6 +12829,18 @@
     ],
     "description": "person in motorized wheelchair"
   },
+  "1f9d1_1f9bc_27a1": {
+    "char": "🧑‍🦼‍➡️",
+    "codepoints": [
+      129489,
+      8205,
+      129468,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person in motorized wheelchair facing right"
+  },
   "1f9d1_1f9bd": {
     "char": "🧑‍🦽",
     "codepoints": [
@@ -11613,6 +12849,62 @@
       129469
     ],
     "description": "person in manual wheelchair"
+  },
+  "1f9d1_1f9bd_27a1": {
+    "char": "🧑‍🦽‍➡️",
+    "codepoints": [
+      129489,
+      8205,
+      129469,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person in manual wheelchair facing right"
+  },
+  "1f9d1_1f9d1_1f9d2": {
+    "char": "🧑‍🧑‍🧒",
+    "codepoints": [
+      129489,
+      8205,
+      129489,
+      8205,
+      129490
+    ],
+    "description": "family: adult, adult, child"
+  },
+  "1f9d1_1f9d1_1f9d2_1f9d2": {
+    "char": "🧑‍🧑‍🧒‍🧒",
+    "codepoints": [
+      129489,
+      8205,
+      129489,
+      8205,
+      129490,
+      8205,
+      129490
+    ],
+    "description": "family: adult, adult, child, child"
+  },
+  "1f9d1_1f9d2": {
+    "char": "🧑‍🧒",
+    "codepoints": [
+      129489,
+      8205,
+      129490
+    ],
+    "description": "family: adult, child"
+  },
+  "1f9d1_1f9d2_1f9d2": {
+    "char": "🧑‍🧒‍🧒",
+    "codepoints": [
+      129489,
+      8205,
+      129490,
+      8205,
+      129490
+    ],
+    "description": "family: adult, child, child"
   },
   "1f9d1_2695.1": {
     "char": "🧑🏻‍⚕️",
@@ -11992,6 +13284,19 @@
     ],
     "description": "person with white cane: light skin tone"
   },
+  "1f9d1_1f9af_27a1.1": {
+    "char": "🧑🏻‍🦯‍➡️",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      129455,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person with white cane facing right: light skin tone"
+  },
   "1f9d1_1f9b0.1": {
     "char": "🧑🏻‍🦰",
     "codepoints": [
@@ -12042,6 +13347,19 @@
     ],
     "description": "person in motorized wheelchair: light skin tone"
   },
+  "1f9d1_1f9bc_27a1.1": {
+    "char": "🧑🏻‍🦼‍➡️",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      129468,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person in motorized wheelchair facing right: light skin tone"
+  },
   "1f9d1_1f9bd.1": {
     "char": "🧑🏻‍🦽",
     "codepoints": [
@@ -12051,6 +13369,19 @@
       129469
     ],
     "description": "person in manual wheelchair: light skin tone"
+  },
+  "1f9d1_1f9bd_27a1.1": {
+    "char": "🧑🏻‍🦽‍➡️",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      129469,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person in manual wheelchair facing right: light skin tone"
   },
   "1f9d1_2695.2": {
     "char": "🧑🏼‍⚕️",
@@ -12430,6 +13761,19 @@
     ],
     "description": "person with white cane: medium-light skin tone"
   },
+  "1f9d1_1f9af_27a1.2": {
+    "char": "🧑🏼‍🦯‍➡️",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      129455,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person with white cane facing right: medium-light skin tone"
+  },
   "1f9d1_1f9b0.2": {
     "char": "🧑🏼‍🦰",
     "codepoints": [
@@ -12480,6 +13824,19 @@
     ],
     "description": "person in motorized wheelchair: medium-light skin tone"
   },
+  "1f9d1_1f9bc_27a1.2": {
+    "char": "🧑🏼‍🦼‍➡️",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      129468,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person in motorized wheelchair facing right: medium-light skin tone"
+  },
   "1f9d1_1f9bd.2": {
     "char": "🧑🏼‍🦽",
     "codepoints": [
@@ -12489,6 +13846,19 @@
       129469
     ],
     "description": "person in manual wheelchair: medium-light skin tone"
+  },
+  "1f9d1_1f9bd_27a1.2": {
+    "char": "🧑🏼‍🦽‍➡️",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      129469,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person in manual wheelchair facing right: medium-light skin tone"
   },
   "1f9d1_2695.3": {
     "char": "🧑🏽‍⚕️",
@@ -12868,6 +14238,19 @@
     ],
     "description": "person with white cane: medium skin tone"
   },
+  "1f9d1_1f9af_27a1.3": {
+    "char": "🧑🏽‍🦯‍➡️",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      129455,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person with white cane facing right: medium skin tone"
+  },
   "1f9d1_1f9b0.3": {
     "char": "🧑🏽‍🦰",
     "codepoints": [
@@ -12918,6 +14301,19 @@
     ],
     "description": "person in motorized wheelchair: medium skin tone"
   },
+  "1f9d1_1f9bc_27a1.3": {
+    "char": "🧑🏽‍🦼‍➡️",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      129468,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person in motorized wheelchair facing right: medium skin tone"
+  },
   "1f9d1_1f9bd.3": {
     "char": "🧑🏽‍🦽",
     "codepoints": [
@@ -12927,6 +14323,19 @@
       129469
     ],
     "description": "person in manual wheelchair: medium skin tone"
+  },
+  "1f9d1_1f9bd_27a1.3": {
+    "char": "🧑🏽‍🦽‍➡️",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      129469,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person in manual wheelchair facing right: medium skin tone"
   },
   "1f9d1_2695.4": {
     "char": "🧑🏾‍⚕️",
@@ -13306,6 +14715,19 @@
     ],
     "description": "person with white cane: medium-dark skin tone"
   },
+  "1f9d1_1f9af_27a1.4": {
+    "char": "🧑🏾‍🦯‍➡️",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      129455,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person with white cane facing right: medium-dark skin tone"
+  },
   "1f9d1_1f9b0.4": {
     "char": "🧑🏾‍🦰",
     "codepoints": [
@@ -13356,6 +14778,19 @@
     ],
     "description": "person in motorized wheelchair: medium-dark skin tone"
   },
+  "1f9d1_1f9bc_27a1.4": {
+    "char": "🧑🏾‍🦼‍➡️",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      129468,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person in motorized wheelchair facing right: medium-dark skin tone"
+  },
   "1f9d1_1f9bd.4": {
     "char": "🧑🏾‍🦽",
     "codepoints": [
@@ -13365,6 +14800,19 @@
       129469
     ],
     "description": "person in manual wheelchair: medium-dark skin tone"
+  },
+  "1f9d1_1f9bd_27a1.4": {
+    "char": "🧑🏾‍🦽‍➡️",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      129469,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person in manual wheelchair facing right: medium-dark skin tone"
   },
   "1f9d1_2695.5": {
     "char": "🧑🏿‍⚕️",
@@ -13744,6 +15192,19 @@
     ],
     "description": "person with white cane: dark skin tone"
   },
+  "1f9d1_1f9af_27a1.5": {
+    "char": "🧑🏿‍🦯‍➡️",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      129455,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person with white cane facing right: dark skin tone"
+  },
   "1f9d1_1f9b0.5": {
     "char": "🧑🏿‍🦰",
     "codepoints": [
@@ -13794,6 +15255,19 @@
     ],
     "description": "person in motorized wheelchair: dark skin tone"
   },
+  "1f9d1_1f9bc_27a1.5": {
+    "char": "🧑🏿‍🦼‍➡️",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      129468,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person in motorized wheelchair facing right: dark skin tone"
+  },
   "1f9d1_1f9bd.5": {
     "char": "🧑🏿‍🦽",
     "codepoints": [
@@ -13803,6 +15277,19 @@
       129469
     ],
     "description": "person in manual wheelchair: dark skin tone"
+  },
+  "1f9d1_1f9bd_27a1.5": {
+    "char": "🧑🏿‍🦽‍➡️",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      129469,
+      8205,
+      10145,
+      65039
+    ],
+    "description": "person in manual wheelchair facing right: dark skin tone"
   },
   "1f9d4.W": {
     "char": "🧔‍♀️",
