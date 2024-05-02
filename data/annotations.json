@@ -23287,6 +23287,33 @@
     ],
     "name": "flute"
   },
+  "1fa89": {
+    "char": "🪉",
+    "codepoints": [
+      129673
+    ],
+    "keywords": [
+      "music",
+      "instrument",
+      "love",
+      "cupid",
+      "orchestra"
+    ],
+    "name": "harp"
+  },
+  "1fa8f": {
+    "char": "🪏",
+    "codepoints": [
+      129679
+    ],
+    "keywords": [
+      "dig",
+      "spade",
+      "hole",
+      "scoop"
+    ],
+    "name": "shovel"
+  },
   "1fa90": {
     "char": "🪐",
     "codepoints": [
@@ -23913,6 +23940,18 @@
     ],
     "name": "wing"
   },
+  "1fabe": {
+    "char": "🪾",
+    "codepoints": [
+      129726
+    ],
+    "keywords": [
+      "winter",
+      "barren",
+      "drought"
+    ],
+    "name": "leafless tree"
+  },
   "1fabf": {
     "char": "🪿",
     "codepoints": [
@@ -24011,6 +24050,18 @@
       "royalty"
     ],
     "name": "person with crown"
+  },
+  "1fac6": {
+    "char": "🫆",
+    "codepoints": [
+      129734
+    ],
+    "keywords": [
+      "forensics",
+      "identity",
+      "safety"
+    ],
+    "name": "fingerprint"
   },
   "1face": {
     "char": "🫎",
@@ -24204,6 +24255,33 @@
     ],
     "name": "pea pod"
   },
+  "1fadc": {
+    "char": "🫜",
+    "codepoints": [
+      129756
+    ],
+    "keywords": [
+      "root",
+      "vegetable",
+      "garden",
+      "beet",
+      "turnip"
+    ],
+    "name": "root vegetable"
+  },
+  "1fadf": {
+    "char": "🫟",
+    "codepoints": [
+      129759
+    ],
+    "keywords": [
+      "paint",
+      "holi",
+      "spill",
+      "stain"
+    ],
+    "name": "splatter"
+  },
   "1fae0": {
     "char": "🫠",
     "codepoints": [
@@ -24334,6 +24412,18 @@
       "vibrate"
     ],
     "name": "shaking face"
+  },
+  "1fae9": {
+    "char": "🫩",
+    "codepoints": [
+      129769
+    ],
+    "keywords": [
+      "tired",
+      "sleepy",
+      "exhausted"
+    ],
+    "name": "face with bags under eyes"
   },
   "1faf0": {
     "char": "🫰",
