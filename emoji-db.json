@@ -12,7 +12,6 @@
     "keywords": [
       "blue-square",
       "keycap",
-      "keycap: #",
       "symbol",
       "twitter"
     ],
@@ -32,7 +31,6 @@
     "image": "images/keycap__asterisk.png",
     "keywords": [
       "keycap",
-      "keycap: *",
       "star"
     ],
     "name": "keycap: *",
@@ -53,7 +51,6 @@
       "0",
       "blue-square",
       "keycap",
-      "keycap: 0",
       "null",
       "numbers"
     ],
@@ -75,7 +72,6 @@
       "1",
       "blue-square",
       "keycap",
-      "keycap: 1",
       "numbers"
     ],
     "name": "keycap: 1",
@@ -96,7 +92,6 @@
       "2",
       "blue-square",
       "keycap",
-      "keycap: 2",
       "numbers",
       "prime"
     ],
@@ -118,7 +113,6 @@
       "3",
       "blue-square",
       "keycap",
-      "keycap: 3",
       "numbers",
       "prime"
     ],
@@ -140,7 +134,6 @@
       "4",
       "blue-square",
       "keycap",
-      "keycap: 4",
       "numbers"
     ],
     "name": "keycap: 4",
@@ -161,7 +154,6 @@
       "5",
       "blue-square",
       "keycap",
-      "keycap: 5",
       "numbers",
       "prime"
     ],
@@ -183,7 +175,6 @@
       "6",
       "blue-square",
       "keycap",
-      "keycap: 6",
       "numbers"
     ],
     "name": "keycap: 6",
@@ -204,7 +195,6 @@
       "7",
       "blue-square",
       "keycap",
-      "keycap: 7",
       "numbers",
       "prime"
     ],
@@ -226,7 +216,6 @@
       "8",
       "blue-square",
       "keycap",
-      "keycap: 8",
       "numbers"
     ],
     "name": "keycap: 8",
@@ -247,7 +236,6 @@
       "9",
       "blue-square",
       "keycap",
-      "keycap: 9",
       "numbers"
     ],
     "name": "keycap: 9",
@@ -4806,7 +4794,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Andorra",
       "nation"
     ],
     "name": "flag: Andorra",
@@ -4828,7 +4815,6 @@
       "country",
       "emirates",
       "flag",
-      "flag: United Arab Emirates",
       "nation",
       "united"
     ],
@@ -4850,7 +4836,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Afghanistan",
       "nation"
     ],
     "name": "flag: Afghanistan",
@@ -4872,7 +4857,6 @@
       "barbuda",
       "country",
       "flag",
-      "flag: Antigua & Barbuda",
       "nation"
     ],
     "name": "flag: Antigua & Barbuda",
@@ -4893,7 +4877,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Anguilla",
       "nation"
     ],
     "name": "flag: Anguilla",
@@ -4914,7 +4897,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Albania",
       "nation"
     ],
     "name": "flag: Albania",
@@ -4935,7 +4917,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Armenia",
       "nation"
     ],
     "name": "flag: Armenia",
@@ -4956,7 +4937,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Angola",
       "nation"
     ],
     "name": "flag: Angola",
@@ -4977,7 +4957,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Antarctica",
       "nation"
     ],
     "name": "flag: Antarctica",
@@ -4998,7 +4977,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Argentina",
       "nation"
     ],
     "name": "flag: Argentina",
@@ -5019,7 +4997,6 @@
       "banner",
       "country",
       "flag",
-      "flag: American Samoa",
       "nation",
       "ws"
     ],
@@ -5041,7 +5018,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Austria",
       "nation"
     ],
     "name": "flag: Austria",
@@ -5062,7 +5038,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Australia",
       "nation"
     ],
     "name": "flag: Australia",
@@ -5083,7 +5058,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Aruba",
       "nation"
     ],
     "name": "flag: Aruba",
@@ -5103,7 +5077,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Åland Islands",
       "islands",
       "nation",
       "Åland"
@@ -5126,7 +5099,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Azerbaijan",
       "nation"
     ],
     "name": "flag: Azerbaijan",
@@ -5147,7 +5119,6 @@
       "bosnia",
       "country",
       "flag",
-      "flag: Bosnia & Herzegovina",
       "herzegovina",
       "nation"
     ],
@@ -5169,7 +5140,6 @@
       "bb",
       "country",
       "flag",
-      "flag: Barbados",
       "nation"
     ],
     "name": "flag: Barbados",
@@ -5190,7 +5160,6 @@
       "bd",
       "country",
       "flag",
-      "flag: Bangladesh",
       "nation"
     ],
     "name": "flag: Bangladesh",
@@ -5211,7 +5180,6 @@
       "be",
       "country",
       "flag",
-      "flag: Belgium",
       "nation"
     ],
     "name": "flag: Belgium",
@@ -5233,7 +5201,6 @@
       "country",
       "faso",
       "flag",
-      "flag: Burkina Faso",
       "nation"
     ],
     "name": "flag: Burkina Faso",
@@ -5254,7 +5221,6 @@
       "bg",
       "country",
       "flag",
-      "flag: Bulgaria",
       "nation"
     ],
     "name": "flag: Bulgaria",
@@ -5275,7 +5241,6 @@
       "bh",
       "country",
       "flag",
-      "flag: Bahrain",
       "nation"
     ],
     "name": "flag: Bahrain",
@@ -5296,7 +5261,6 @@
       "bi",
       "country",
       "flag",
-      "flag: Burundi",
       "nation"
     ],
     "name": "flag: Burundi",
@@ -5317,7 +5281,6 @@
       "bj",
       "country",
       "flag",
-      "flag: Benin",
       "nation"
     ],
     "name": "flag: Benin",
@@ -5338,7 +5301,6 @@
       "barthélemy",
       "country",
       "flag",
-      "flag: St. Barthélemy",
       "nation",
       "saint"
     ],
@@ -5360,7 +5322,6 @@
       "bm",
       "country",
       "flag",
-      "flag: Bermuda",
       "nation"
     ],
     "name": "flag: Bermuda",
@@ -5382,7 +5343,6 @@
       "country",
       "darussalam",
       "flag",
-      "flag: Brunei",
       "nation"
     ],
     "name": "flag: Brunei",
@@ -5403,7 +5363,6 @@
       "bo",
       "country",
       "flag",
-      "flag: Bolivia",
       "nation"
     ],
     "name": "flag: Bolivia",
@@ -5424,7 +5383,6 @@
       "bonaire",
       "country",
       "flag",
-      "flag: Caribbean Netherlands",
       "nation"
     ],
     "name": "flag: Caribbean Netherlands",
@@ -5445,7 +5403,6 @@
       "br",
       "country",
       "flag",
-      "flag: Brazil",
       "nation"
     ],
     "name": "flag: Brazil",
@@ -5466,7 +5423,6 @@
       "bs",
       "country",
       "flag",
-      "flag: Bahamas",
       "nation"
     ],
     "name": "flag: Bahamas",
@@ -5487,7 +5443,6 @@
       "bt",
       "country",
       "flag",
-      "flag: Bhutan",
       "nation"
     ],
     "name": "flag: Bhutan",
@@ -5508,7 +5463,6 @@
       "bw",
       "country",
       "flag",
-      "flag: Botswana",
       "nation"
     ],
     "name": "flag: Botswana",
@@ -5529,7 +5483,6 @@
       "by",
       "country",
       "flag",
-      "flag: Belarus",
       "nation"
     ],
     "name": "flag: Belarus",
@@ -5550,7 +5503,6 @@
       "bz",
       "country",
       "flag",
-      "flag: Belize",
       "nation"
     ],
     "name": "flag: Belize",
@@ -5571,7 +5523,6 @@
       "ca",
       "country",
       "flag",
-      "flag: Canada",
       "nation"
     ],
     "name": "flag: Canada",
@@ -5592,7 +5543,6 @@
       "cocos",
       "country",
       "flag",
-      "flag: Cocos (Keeling) Islands",
       "islands",
       "keeling",
       "nation"
@@ -5616,7 +5566,6 @@
       "country",
       "democratic",
       "flag",
-      "flag: Congo - Kinshasa",
       "nation",
       "republic"
     ],
@@ -5639,7 +5588,6 @@
       "central",
       "country",
       "flag",
-      "flag: Central African Republic",
       "nation",
       "republic"
     ],
@@ -5661,7 +5609,6 @@
       "congo",
       "country",
       "flag",
-      "flag: Congo - Brazzaville",
       "nation"
     ],
     "name": "flag: Congo - Brazzaville",
@@ -5682,7 +5629,6 @@
       "ch",
       "country",
       "flag",
-      "flag: Switzerland",
       "nation"
     ],
     "name": "flag: Switzerland",
@@ -5703,7 +5649,6 @@
       "coast",
       "country",
       "flag",
-      "flag: Côte d’Ivoire",
       "ivory",
       "nation"
     ],
@@ -5725,7 +5670,6 @@
       "cook",
       "country",
       "flag",
-      "flag: Cook Islands",
       "islands",
       "nation"
     ],
@@ -5746,7 +5690,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Chile",
       "nation"
     ],
     "name": "flag: Chile",
@@ -5767,7 +5710,6 @@
       "cm",
       "country",
       "flag",
-      "flag: Cameroon",
       "nation"
     ],
     "name": "flag: Cameroon",
@@ -5789,7 +5731,6 @@
       "chinese",
       "country",
       "flag",
-      "flag: China",
       "nation",
       "prc"
     ],
@@ -5811,7 +5752,6 @@
       "co",
       "country",
       "flag",
-      "flag: Colombia",
       "nation"
     ],
     "name": "flag: Colombia",
@@ -5832,7 +5772,6 @@
       "costa",
       "country",
       "flag",
-      "flag: Costa Rica",
       "nation",
       "rica"
     ],
@@ -5854,7 +5793,6 @@
       "country",
       "cu",
       "flag",
-      "flag: Cuba",
       "nation"
     ],
     "name": "flag: Cuba",
@@ -5875,7 +5813,6 @@
       "cabo",
       "country",
       "flag",
-      "flag: Cape Verde",
       "nation",
       "verde"
     ],
@@ -5897,7 +5834,6 @@
       "country",
       "curaçao",
       "flag",
-      "flag: Curaçao",
       "nation"
     ],
     "name": "flag: Curaçao",
@@ -5918,7 +5854,6 @@
       "christmas",
       "country",
       "flag",
-      "flag: Christmas Island",
       "island",
       "nation"
     ],
@@ -5940,7 +5875,6 @@
       "country",
       "cy",
       "flag",
-      "flag: Cyprus",
       "nation"
     ],
     "name": "flag: Cyprus",
@@ -5961,7 +5895,6 @@
       "country",
       "cz",
       "flag",
-      "flag: Czechia",
       "nation"
     ],
     "name": "flag: Czechia",
@@ -5981,7 +5914,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Germany",
       "german",
       "nation"
     ],
@@ -6003,7 +5935,6 @@
       "country",
       "dj",
       "flag",
-      "flag: Djibouti",
       "nation"
     ],
     "name": "flag: Djibouti",
@@ -6024,7 +5955,6 @@
       "country",
       "dk",
       "flag",
-      "flag: Denmark",
       "nation"
     ],
     "name": "flag: Denmark",
@@ -6045,7 +5975,6 @@
       "country",
       "dm",
       "flag",
-      "flag: Dominica",
       "nation"
     ],
     "name": "flag: Dominica",
@@ -6066,7 +5995,6 @@
       "country",
       "dominican",
       "flag",
-      "flag: Dominican Republic",
       "nation",
       "republic"
     ],
@@ -6088,7 +6016,6 @@
       "country",
       "dz",
       "flag",
-      "flag: Algeria",
       "nation"
     ],
     "name": "flag: Algeria",
@@ -6109,7 +6036,6 @@
       "country",
       "ec",
       "flag",
-      "flag: Ecuador",
       "nation"
     ],
     "name": "flag: Ecuador",
@@ -6130,7 +6056,6 @@
       "country",
       "ee",
       "flag",
-      "flag: Estonia",
       "nation"
     ],
     "name": "flag: Estonia",
@@ -6151,7 +6076,6 @@
       "country",
       "eg",
       "flag",
-      "flag: Egypt",
       "nation"
     ],
     "name": "flag: Egypt",
@@ -6171,7 +6095,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Western Sahara",
       "nation",
       "sahara",
       "western"
@@ -6194,7 +6117,6 @@
       "country",
       "er",
       "flag",
-      "flag: Eritrea",
       "nation"
     ],
     "name": "flag: Eritrea",
@@ -6214,7 +6136,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Spain",
       "nation",
       "spain"
     ],
@@ -6236,7 +6157,6 @@
       "country",
       "et",
       "flag",
-      "flag: Ethiopia",
       "nation"
     ],
     "name": "flag: Ethiopia",
@@ -6256,7 +6176,6 @@
       "banner",
       "european",
       "flag",
-      "flag: European Union",
       "union"
     ],
     "name": "flag: European Union",
@@ -6277,7 +6196,6 @@
       "country",
       "fi",
       "flag",
-      "flag: Finland",
       "nation"
     ],
     "name": "flag: Finland",
@@ -6298,7 +6216,6 @@
       "country",
       "fj",
       "flag",
-      "flag: Fiji",
       "nation"
     ],
     "name": "flag: Fiji",
@@ -6319,7 +6236,6 @@
       "country",
       "falkland",
       "flag",
-      "flag: Falkland Islands",
       "islands",
       "malvinas",
       "nation"
@@ -6342,7 +6258,6 @@
       "country",
       "federated",
       "flag",
-      "flag: Micronesia",
       "micronesia,",
       "nation",
       "states"
@@ -6365,7 +6280,6 @@
       "country",
       "faroe",
       "flag",
-      "flag: Faroe Islands",
       "islands",
       "nation"
     ],
@@ -6386,7 +6300,6 @@
       "banner",
       "country",
       "flag",
-      "flag: France",
       "france",
       "french",
       "nation"
@@ -6408,7 +6321,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Gabon",
       "ga",
       "nation"
     ],
@@ -6434,7 +6346,6 @@
       "england",
       "english",
       "flag",
-      "flag: United Kingdom",
       "great",
       "ireland",
       "kingdom",
@@ -6460,7 +6371,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Grenada",
       "gd",
       "nation"
     ],
@@ -6481,7 +6391,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Georgia",
       "ge",
       "nation"
     ],
@@ -6502,7 +6411,6 @@
       "banner",
       "country",
       "flag",
-      "flag: French Guiana",
       "french",
       "guiana",
       "nation"
@@ -6524,7 +6432,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Guernsey",
       "gg",
       "nation"
     ],
@@ -6545,7 +6452,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Ghana",
       "gh",
       "nation"
     ],
@@ -6566,7 +6472,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Gibraltar",
       "gi",
       "nation"
     ],
@@ -6587,7 +6492,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Greenland",
       "gl",
       "nation"
     ],
@@ -6608,7 +6512,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Gambia",
       "gm",
       "nation"
     ],
@@ -6629,7 +6532,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Guinea",
       "gn",
       "nation"
     ],
@@ -6650,7 +6552,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Guadeloupe",
       "gp",
       "nation"
     ],
@@ -6672,7 +6573,6 @@
       "country",
       "equatorial",
       "flag",
-      "flag: Equatorial Guinea",
       "gn",
       "nation"
     ],
@@ -6693,7 +6593,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Greece",
       "gr",
       "nation"
     ],
@@ -6714,7 +6613,6 @@
       "banner",
       "country",
       "flag",
-      "flag: South Georgia & South Sandwich Islands",
       "georgia",
       "islands",
       "nation",
@@ -6738,7 +6636,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Guatemala",
       "gt",
       "nation"
     ],
@@ -6759,7 +6656,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Guam",
       "gu",
       "nation"
     ],
@@ -6781,7 +6677,6 @@
       "bissau",
       "country",
       "flag",
-      "flag: Guinea-Bissau",
       "gw",
       "nation"
     ],
@@ -6802,7 +6697,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Guyana",
       "gy",
       "nation"
     ],
@@ -6823,7 +6717,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Hong Kong SAR China",
       "hong",
       "kong",
       "nation"
@@ -6845,7 +6738,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Honduras",
       "hn",
       "nation"
     ],
@@ -6866,7 +6758,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Croatia",
       "hr",
       "nation"
     ],
@@ -6887,7 +6778,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Haiti",
       "ht",
       "nation"
     ],
@@ -6908,7 +6798,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Hungary",
       "hu",
       "nation"
     ],
@@ -6930,7 +6819,6 @@
       "canary",
       "country",
       "flag",
-      "flag: Canary Islands",
       "islands",
       "nation"
     ],
@@ -6951,7 +6839,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Indonesia",
       "nation"
     ],
     "name": "flag: Indonesia",
@@ -6971,7 +6858,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Ireland",
       "ie",
       "nation"
     ],
@@ -6992,7 +6878,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Israel",
       "il",
       "nation"
     ],
@@ -7013,7 +6898,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Isle of Man",
       "isle",
       "man",
       "nation"
@@ -7035,7 +6919,6 @@
       "banner",
       "country",
       "flag",
-      "flag: India",
       "in",
       "nation"
     ],
@@ -7057,7 +6940,6 @@
       "british",
       "country",
       "flag",
-      "flag: British Indian Ocean Territory",
       "indian",
       "nation",
       "ocean",
@@ -7080,7 +6962,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Iraq",
       "iq",
       "nation"
     ],
@@ -7101,7 +6982,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Iran",
       "iran,",
       "islamic",
       "nation",
@@ -7124,7 +7004,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Iceland",
       "is",
       "nation"
     ],
@@ -7145,7 +7024,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Italy",
       "italy",
       "nation"
     ],
@@ -7166,7 +7044,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Jersey",
       "je",
       "nation"
     ],
@@ -7187,7 +7064,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Jamaica",
       "jm",
       "nation"
     ],
@@ -7208,7 +7084,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Jordan",
       "jo",
       "nation"
     ],
@@ -7229,7 +7104,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Japan",
       "japanese",
       "nation"
     ],
@@ -7250,7 +7124,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Kenya",
       "ke",
       "nation"
     ],
@@ -7271,7 +7144,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Kyrgyzstan",
       "kg",
       "nation"
     ],
@@ -7292,7 +7164,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Cambodia",
       "kh",
       "nation"
     ],
@@ -7313,7 +7184,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Kiribati",
       "ki",
       "nation"
     ],
@@ -7334,7 +7204,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Comoros",
       "km",
       "nation"
     ],
@@ -7355,7 +7224,6 @@
       "banner",
       "country",
       "flag",
-      "flag: St. Kitts & Nevis",
       "kitts",
       "nation",
       "nevis",
@@ -7378,7 +7246,6 @@
       "banner",
       "country",
       "flag",
-      "flag: North Korea",
       "korea",
       "nation",
       "north"
@@ -7400,7 +7267,6 @@
       "banner",
       "country",
       "flag",
-      "flag: South Korea",
       "korea",
       "nation",
       "south"
@@ -7422,7 +7288,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Kuwait",
       "kw",
       "nation"
     ],
@@ -7444,7 +7309,6 @@
       "cayman",
       "country",
       "flag",
-      "flag: Cayman Islands",
       "islands",
       "nation"
     ],
@@ -7465,7 +7329,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Kazakhstan",
       "kz",
       "nation"
     ],
@@ -7487,7 +7350,6 @@
       "country",
       "democratic",
       "flag",
-      "flag: Laos",
       "lao",
       "nation",
       "republic"
@@ -7509,7 +7371,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Lebanon",
       "lb",
       "nation"
     ],
@@ -7530,7 +7391,6 @@
       "banner",
       "country",
       "flag",
-      "flag: St. Lucia",
       "lucia",
       "nation",
       "saint"
@@ -7552,7 +7412,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Liechtenstein",
       "li",
       "nation"
     ],
@@ -7573,7 +7432,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Sri Lanka",
       "lanka",
       "nation",
       "sri"
@@ -7595,7 +7453,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Liberia",
       "lr",
       "nation"
     ],
@@ -7616,7 +7473,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Lesotho",
       "ls",
       "nation"
     ],
@@ -7637,7 +7493,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Lithuania",
       "lt",
       "nation"
     ],
@@ -7658,7 +7513,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Luxembourg",
       "lu",
       "nation"
     ],
@@ -7679,7 +7533,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Latvia",
       "lv",
       "nation"
     ],
@@ -7700,7 +7553,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Libya",
       "ly",
       "nation"
     ],
@@ -7721,7 +7573,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Morocco",
       "ma",
       "nation"
     ],
@@ -7742,7 +7593,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Monaco",
       "mc",
       "nation"
     ],
@@ -7763,7 +7613,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Moldova",
       "moldova,",
       "nation",
       "republic"
@@ -7785,7 +7634,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Montenegro",
       "me",
       "nation"
     ],
@@ -7806,7 +7654,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Madagascar",
       "mg",
       "nation"
     ],
@@ -7827,7 +7674,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Marshall Islands",
       "islands",
       "marshall",
       "nation"
@@ -7849,7 +7695,6 @@
       "banner",
       "country",
       "flag",
-      "flag: North Macedonia",
       "macedonia,",
       "nation"
     ],
@@ -7870,7 +7715,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Mali",
       "ml",
       "nation"
     ],
@@ -7891,7 +7735,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Myanmar (Burma)",
       "mm",
       "nation"
     ],
@@ -7912,7 +7755,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Mongolia",
       "mn",
       "nation"
     ],
@@ -7933,7 +7775,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Macao SAR China",
       "macao",
       "nation"
     ],
@@ -7954,7 +7795,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Northern Mariana Islands",
       "islands",
       "mariana",
       "nation",
@@ -7977,7 +7817,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Martinique",
       "mq",
       "nation"
     ],
@@ -7998,7 +7837,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Mauritania",
       "mr",
       "nation"
     ],
@@ -8019,7 +7857,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Montserrat",
       "ms",
       "nation"
     ],
@@ -8040,7 +7877,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Malta",
       "mt",
       "nation"
     ],
@@ -8061,7 +7897,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Mauritius",
       "mu",
       "nation"
     ],
@@ -8082,7 +7917,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Maldives",
       "mv",
       "nation"
     ],
@@ -8103,7 +7937,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Malawi",
       "mw",
       "nation"
     ],
@@ -8124,7 +7957,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Mexico",
       "mx",
       "nation"
     ],
@@ -8145,7 +7977,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Malaysia",
       "my",
       "nation"
     ],
@@ -8166,7 +7997,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Mozambique",
       "mz",
       "nation"
     ],
@@ -8187,7 +8017,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Namibia",
       "na",
       "nation"
     ],
@@ -8209,7 +8038,6 @@
       "caledonia",
       "country",
       "flag",
-      "flag: New Caledonia",
       "nation",
       "new"
     ],
@@ -8230,7 +8058,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Niger",
       "nation",
       "ne"
     ],
@@ -8251,7 +8078,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Norfolk Island",
       "island",
       "nation",
       "norfolk"
@@ -8273,7 +8099,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Nigeria",
       "nation"
     ],
     "name": "flag: Nigeria",
@@ -8293,7 +8118,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Nicaragua",
       "nation",
       "ni"
     ],
@@ -8314,7 +8138,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Netherlands",
       "nation",
       "nl"
     ],
@@ -8335,7 +8158,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Norway",
       "nation",
       "no"
     ],
@@ -8356,7 +8178,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Nepal",
       "nation",
       "np"
     ],
@@ -8377,7 +8198,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Nauru",
       "nation",
       "nr"
     ],
@@ -8398,7 +8218,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Niue",
       "nation",
       "nu"
     ],
@@ -8419,7 +8238,6 @@
       "banner",
       "country",
       "flag",
-      "flag: New Zealand",
       "nation",
       "new",
       "zealand"
@@ -8441,7 +8259,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Oman",
       "nation",
       "om_symbol"
     ],
@@ -8462,7 +8279,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Panama",
       "nation",
       "pa"
     ],
@@ -8483,7 +8299,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Peru",
       "nation",
       "pe"
     ],
@@ -8504,7 +8319,6 @@
       "banner",
       "country",
       "flag",
-      "flag: French Polynesia",
       "french",
       "nation",
       "polynesia"
@@ -8526,7 +8340,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Papua New Guinea",
       "guinea",
       "nation",
       "new",
@@ -8549,7 +8362,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Philippines",
       "nation",
       "ph"
     ],
@@ -8570,7 +8382,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Pakistan",
       "nation",
       "pk"
     ],
@@ -8591,7 +8402,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Poland",
       "nation",
       "pl"
     ],
@@ -8612,7 +8422,6 @@
       "banner",
       "country",
       "flag",
-      "flag: St. Pierre & Miquelon",
       "miquelon",
       "nation",
       "pierre",
@@ -8635,7 +8444,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Pitcairn Islands",
       "nation",
       "pitcairn"
     ],
@@ -8656,7 +8464,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Puerto Rico",
       "nation",
       "puerto",
       "rico"
@@ -8678,7 +8485,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Palestinian Territories",
       "nation",
       "palestine",
       "palestinian",
@@ -8701,7 +8507,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Portugal",
       "nation",
       "pt"
     ],
@@ -8722,7 +8527,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Palau",
       "nation",
       "pw"
     ],
@@ -8743,7 +8547,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Paraguay",
       "nation",
       "py"
     ],
@@ -8764,7 +8567,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Qatar",
       "nation",
       "qa"
     ],
@@ -8785,7 +8587,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Réunion",
       "nation",
       "réunion"
     ],
@@ -8806,7 +8607,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Romania",
       "nation",
       "ro"
     ],
@@ -8827,7 +8627,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Serbia",
       "nation",
       "rs"
     ],
@@ -8849,7 +8648,6 @@
       "country",
       "federation",
       "flag",
-      "flag: Russia",
       "nation",
       "russian"
     ],
@@ -8870,7 +8668,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Rwanda",
       "nation",
       "rw"
     ],
@@ -8891,7 +8688,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Saudi Arabia",
       "nation"
     ],
     "name": "flag: Saudi Arabia",
@@ -8911,7 +8707,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Solomon Islands",
       "islands",
       "nation",
       "solomon"
@@ -8933,7 +8728,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Seychelles",
       "nation",
       "sc"
     ],
@@ -8954,7 +8748,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Sudan",
       "nation",
       "sd"
     ],
@@ -8975,7 +8768,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Sweden",
       "nation",
       "se"
     ],
@@ -8996,7 +8788,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Singapore",
       "nation",
       "sg"
     ],
@@ -9019,7 +8810,6 @@
       "country",
       "cunha",
       "flag",
-      "flag: St. Helena",
       "helena",
       "nation",
       "saint",
@@ -9042,7 +8832,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Slovenia",
       "nation",
       "si"
     ],
@@ -9063,7 +8852,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Slovakia",
       "nation",
       "sk"
     ],
@@ -9084,7 +8872,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Sierra Leone",
       "leone",
       "nation",
       "sierra"
@@ -9106,7 +8893,6 @@
       "banner",
       "country",
       "flag",
-      "flag: San Marino",
       "marino",
       "nation",
       "san"
@@ -9128,7 +8914,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Senegal",
       "nation",
       "sn"
     ],
@@ -9149,7 +8934,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Somalia",
       "nation",
       "so"
     ],
@@ -9170,7 +8954,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Suriname",
       "nation",
       "sr"
     ],
@@ -9191,7 +8974,6 @@
       "banner",
       "country",
       "flag",
-      "flag: South Sudan",
       "nation",
       "sd",
       "south"
@@ -9213,7 +8995,6 @@
       "banner",
       "country",
       "flag",
-      "flag: São Tomé & Príncipe",
       "nation",
       "principe",
       "sao",
@@ -9237,7 +9018,6 @@
       "country",
       "el",
       "flag",
-      "flag: El Salvador",
       "nation",
       "salvador"
     ],
@@ -9259,7 +9039,6 @@
       "country",
       "dutch",
       "flag",
-      "flag: Sint Maarten",
       "maarten",
       "nation",
       "sint"
@@ -9282,7 +9061,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Syria",
       "nation",
       "republic",
       "syrian"
@@ -9304,7 +9082,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Eswatini",
       "nation",
       "sz"
     ],
@@ -9326,7 +9103,6 @@
       "caicos",
       "country",
       "flag",
-      "flag: Turks & Caicos Islands",
       "islands",
       "nation",
       "turks"
@@ -9348,7 +9124,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Chad",
       "nation",
       "td"
     ],
@@ -9369,7 +9144,6 @@
       "banner",
       "country",
       "flag",
-      "flag: French Southern Territories",
       "french",
       "nation",
       "southern",
@@ -9392,7 +9166,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Togo",
       "nation",
       "tg"
     ],
@@ -9413,7 +9186,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Thailand",
       "nation",
       "th"
     ],
@@ -9434,7 +9206,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Tajikistan",
       "nation",
       "tj"
     ],
@@ -9455,7 +9226,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Tokelau",
       "nation",
       "tk"
     ],
@@ -9476,7 +9246,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Timor-Leste",
       "leste",
       "nation",
       "timor"
@@ -9498,7 +9267,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Turkmenistan",
       "nation"
     ],
     "name": "flag: Turkmenistan",
@@ -9518,7 +9286,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Tunisia",
       "nation",
       "tn"
     ],
@@ -9539,7 +9306,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Tonga",
       "nation",
       "to"
     ],
@@ -9560,7 +9326,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Türkiye",
       "nation",
       "turkey"
     ],
@@ -9581,7 +9346,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Trinidad & Tobago",
       "nation",
       "tobago",
       "trinidad"
@@ -9603,7 +9367,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Tuvalu",
       "nation"
     ],
     "name": "flag: Tuvalu",
@@ -9623,7 +9386,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Taiwan",
       "nation",
       "tw"
     ],
@@ -9644,7 +9406,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Tanzania",
       "nation",
       "republic",
       "tanzania,",
@@ -9667,7 +9428,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Ukraine",
       "nation",
       "ua"
     ],
@@ -9688,7 +9448,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Uganda",
       "nation",
       "ug"
     ],
@@ -9708,7 +9467,6 @@
     "keywords": [
       "banner",
       "flag",
-      "flag: United Nations",
       "un"
     ],
     "name": "flag: United Nations",
@@ -9729,7 +9487,6 @@
       "banner",
       "country",
       "flag",
-      "flag: United States",
       "nation",
       "states",
       "united"
@@ -9751,7 +9508,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Uruguay",
       "nation",
       "uy"
     ],
@@ -9772,7 +9528,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Uzbekistan",
       "nation",
       "uz"
     ],
@@ -9794,7 +9549,6 @@
       "city",
       "country",
       "flag",
-      "flag: Vatican City",
       "nation",
       "vatican"
     ],
@@ -9815,7 +9569,6 @@
       "banner",
       "country",
       "flag",
-      "flag: St. Vincent & Grenadines",
       "grenadines",
       "nation",
       "saint",
@@ -9839,7 +9592,6 @@
       "bolivarian",
       "country",
       "flag",
-      "flag: Venezuela",
       "nation",
       "republic",
       "ve"
@@ -9863,7 +9615,6 @@
       "bvi",
       "country",
       "flag",
-      "flag: British Virgin Islands",
       "islands",
       "nation",
       "virgin"
@@ -9885,7 +9636,6 @@
       "banner",
       "country",
       "flag",
-      "flag: U.S. Virgin Islands",
       "islands",
       "nation",
       "us",
@@ -9908,7 +9658,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Vietnam",
       "nam",
       "nation",
       "viet"
@@ -9930,7 +9679,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Vanuatu",
       "nation",
       "vu"
     ],
@@ -9951,7 +9699,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Wallis & Futuna",
       "futuna",
       "nation",
       "wallis"
@@ -9973,7 +9720,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Samoa",
       "nation",
       "ws"
     ],
@@ -9994,7 +9740,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Kosovo",
       "nation",
       "xk"
     ],
@@ -10015,7 +9760,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Yemen",
       "nation",
       "ye"
     ],
@@ -10036,7 +9780,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Mayotte",
       "nation",
       "yt"
     ],
@@ -10058,7 +9801,6 @@
       "banner",
       "country",
       "flag",
-      "flag: South Africa",
       "nation",
       "south"
     ],
@@ -10079,7 +9821,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Zambia",
       "nation",
       "zm"
     ],
@@ -10100,7 +9841,6 @@
       "banner",
       "country",
       "flag",
-      "flag: Zimbabwe",
       "nation",
       "zw"
     ],
@@ -17005,8 +16745,7 @@
     "image": "images/flag__england.png",
     "keywords": [
       "english",
-      "flag",
-      "flag: England"
+      "flag"
     ],
     "name": "flag: England",
     "unicode_category": "flags",
@@ -17028,7 +16767,6 @@
     "image": "images/flag__scotland.png",
     "keywords": [
       "flag",
-      "flag: Scotland",
       "scottish"
     ],
     "name": "flag: Scotland",
@@ -17051,7 +16789,6 @@
     "image": "images/flag__wales.png",
     "keywords": [
       "flag",
-      "flag: Wales",
       "welsh"
     ],
     "name": "flag: Wales",
@@ -21404,7 +21141,6 @@
       "boy",
       "child",
       "family",
-      "family: man, boy",
       "home",
       "human",
       "man",
@@ -21429,9 +21165,9 @@
     "image": "images/family__man_boy_boy.png",
     "keywords": [
       "boy",
+      "child",
       "children",
       "family",
-      "family: man, boy, boy",
       "home",
       "human",
       "man",
@@ -21455,7 +21191,6 @@
     "keywords": [
       "child",
       "family",
-      "family: man, girl",
       "girl",
       "home",
       "human",
@@ -21481,9 +21216,9 @@
     "image": "images/family__man_girl_boy.png",
     "keywords": [
       "boy",
+      "child",
       "children",
       "family",
-      "family: man, girl, boy",
       "girl",
       "home",
       "human",
@@ -21508,9 +21243,9 @@
     "fitz": null,
     "image": "images/family__man_girl_girl.png",
     "keywords": [
+      "child",
       "children",
       "family",
-      "family: man, girl, girl",
       "girl",
       "home",
       "human",
@@ -21536,9 +21271,9 @@
     "image": "images/family__man_man_boy.png",
     "keywords": [
       "boy",
+      "child",
       "children",
       "family",
-      "family: man, man, boy",
       "home",
       "human",
       "man",
@@ -21565,9 +21300,9 @@
     "image": "images/family__man_man_boy_boy.png",
     "keywords": [
       "boy",
+      "child",
       "children",
       "family",
-      "family: man, man, boy, boy",
       "home",
       "human",
       "man",
@@ -21591,9 +21326,9 @@
     "fitz": null,
     "image": "images/family__man_man_girl.png",
     "keywords": [
+      "child",
       "children",
       "family",
-      "family: man, man, girl",
       "girl",
       "home",
       "human",
@@ -21621,9 +21356,9 @@
     "image": "images/family__man_man_girl_boy.png",
     "keywords": [
       "boy",
+      "child",
       "children",
       "family",
-      "family: man, man, girl, boy",
       "girl",
       "home",
       "human",
@@ -21650,9 +21385,9 @@
     "fitz": null,
     "image": "images/family__man_man_girl_girl.png",
     "keywords": [
+      "child",
       "children",
       "family",
-      "family: man, man, girl, girl",
       "girl",
       "home",
       "human",
@@ -21678,8 +21413,8 @@
     "image": "images/family__man_woman_boy.png",
     "keywords": [
       "boy",
+      "child",
       "family",
-      "family: man, woman, boy",
       "man",
       "woman"
     ],
@@ -21703,9 +21438,9 @@
     "image": "images/family__man_woman_boy_boy.png",
     "keywords": [
       "boy",
+      "child",
       "children",
       "family",
-      "family: man, woman, boy, boy",
       "home",
       "human",
       "man",
@@ -21732,7 +21467,6 @@
     "keywords": [
       "child",
       "family",
-      "family: man, woman, girl",
       "girl",
       "home",
       "human",
@@ -21761,9 +21495,9 @@
     "image": "images/family__man_woman_girl_boy.png",
     "keywords": [
       "boy",
+      "child",
       "children",
       "family",
-      "family: man, woman, girl, boy",
       "girl",
       "home",
       "human",
@@ -21791,9 +21525,9 @@
     "fitz": null,
     "image": "images/family__man_woman_girl_girl.png",
     "keywords": [
+      "child",
       "children",
       "family",
-      "family: man, woman, girl, girl",
       "girl",
       "home",
       "human",
@@ -22429,8 +22163,8 @@
     "image": "images/man__red_hair.png",
     "keywords": [
       "adult",
+      "bro",
       "man",
-      "man: red hair",
       "red hair"
     ],
     "name": "man: red hair",
@@ -22505,9 +22239,9 @@
     "image": "images/man__curly_hair.png",
     "keywords": [
       "adult",
+      "bro",
       "curly hair",
-      "man",
-      "man: curly hair"
+      "man"
     ],
     "name": "man: curly hair",
     "unicode_category": null,
@@ -22582,8 +22316,8 @@
     "keywords": [
       "adult",
       "bald",
-      "man",
-      "man: bald"
+      "bro",
+      "man"
     ],
     "name": "man: bald",
     "unicode_category": null,
@@ -22657,8 +22391,8 @@
     "image": "images/man__white_hair.png",
     "keywords": [
       "adult",
+      "bro",
       "man",
-      "man: white hair",
       "white hair"
     ],
     "name": "man: white hair",
@@ -23773,7 +23507,6 @@
       "boy",
       "child",
       "family",
-      "family: woman, boy",
       "home",
       "human",
       "parent",
@@ -23798,9 +23531,9 @@
     "image": "images/family__woman_boy_boy.png",
     "keywords": [
       "boy",
+      "child",
       "children",
       "family",
-      "family: woman, boy, boy",
       "home",
       "human",
       "parent",
@@ -23824,7 +23557,6 @@
     "keywords": [
       "child",
       "family",
-      "family: woman, girl",
       "girl",
       "home",
       "human",
@@ -23850,9 +23582,9 @@
     "image": "images/family__woman_girl_boy.png",
     "keywords": [
       "boy",
+      "child",
       "children",
       "family",
-      "family: woman, girl, boy",
       "girl",
       "home",
       "human",
@@ -23877,9 +23609,9 @@
     "fitz": null,
     "image": "images/family__woman_girl_girl.png",
     "keywords": [
+      "child",
       "children",
       "family",
-      "family: woman, girl, girl",
       "girl",
       "home",
       "human",
@@ -23905,9 +23637,9 @@
     "image": "images/family__woman_woman_boy.png",
     "keywords": [
       "boy",
+      "child",
       "children",
       "family",
-      "family: woman, woman, boy",
       "home",
       "human",
       "parents",
@@ -23934,9 +23666,9 @@
     "image": "images/family__woman_woman_boy_boy.png",
     "keywords": [
       "boy",
+      "child",
       "children",
       "family",
-      "family: woman, woman, boy, boy",
       "home",
       "human",
       "parents",
@@ -23960,9 +23692,9 @@
     "fitz": null,
     "image": "images/family__woman_woman_girl.png",
     "keywords": [
+      "child",
       "children",
       "family",
-      "family: woman, woman, girl",
       "girl",
       "home",
       "human",
@@ -23990,9 +23722,9 @@
     "image": "images/family__woman_woman_girl_boy.png",
     "keywords": [
       "boy",
+      "child",
       "children",
       "family",
-      "family: woman, woman, girl, boy",
       "girl",
       "home",
       "human",
@@ -24019,9 +23751,9 @@
     "fitz": null,
     "image": "images/family__woman_woman_girl_girl.png",
     "keywords": [
+      "child",
       "children",
       "family",
-      "family: woman, woman, girl, girl",
       "girl",
       "home",
       "human",
@@ -24656,9 +24388,9 @@
     "image": "images/woman__red_hair.png",
     "keywords": [
       "adult",
+      "lady",
       "red hair",
-      "woman",
-      "woman: red hair"
+      "woman"
     ],
     "name": "woman: red hair",
     "unicode_category": null,
@@ -24733,8 +24465,8 @@
     "keywords": [
       "adult",
       "curly hair",
-      "woman",
-      "woman: curly hair"
+      "lady",
+      "woman"
     ],
     "name": "woman: curly hair",
     "unicode_category": null,
@@ -24809,8 +24541,8 @@
     "keywords": [
       "adult",
       "bald",
-      "woman",
-      "woman: bald"
+      "lady",
+      "woman"
     ],
     "name": "woman: bald",
     "unicode_category": null,
@@ -24884,9 +24616,9 @@
     "image": "images/woman__white_hair.png",
     "keywords": [
       "adult",
+      "lady",
       "white hair",
-      "woman",
-      "woman: white hair"
+      "woman"
     ],
     "name": "woman: white hair",
     "unicode_category": null,
@@ -32153,7 +31885,6 @@
       "10",
       "blue-square",
       "keycap",
-      "keycap: 10",
       "numbers"
     ],
     "name": "keycap: 10",
@@ -51743,11 +51474,8 @@
     "image": "images/person__red_hair.png",
     "keywords": [
       "adult",
-      "gender-neutral",
       "person",
-      "person: red hair",
-      "red hair",
-      "unspecified gender"
+      "red hair"
     ],
     "name": "person: red hair",
     "unicode_category": null,
@@ -51822,10 +51550,7 @@
     "keywords": [
       "adult",
       "curly hair",
-      "gender-neutral",
-      "person",
-      "person: curly hair",
-      "unspecified gender"
+      "person"
     ],
     "name": "person: curly hair",
     "unicode_category": null,
@@ -51900,10 +51625,7 @@
     "keywords": [
       "adult",
       "bald",
-      "gender-neutral",
-      "person",
-      "person: bald",
-      "unspecified gender"
+      "person"
     ],
     "name": "person: bald",
     "unicode_category": null,
@@ -51977,10 +51699,7 @@
     "image": "images/person__white_hair.png",
     "keywords": [
       "adult",
-      "gender-neutral",
       "person",
-      "person: white hair",
-      "unspecified gender",
       "white hair"
     ],
     "name": "person: white hair",
