@@ -50045,7 +50045,7 @@
         ],
         "emoji": "🧑🏻‍🎄",
         "image": "images/mx_claus__light_skin_tone.png",
-        "name": "mx claus: light skin tone"
+        "name": "Mx Claus: light skin tone"
       },
       "2": {
         "codepoints": [
@@ -50056,7 +50056,7 @@
         ],
         "emoji": "🧑🏼‍🎄",
         "image": "images/mx_claus__medium-light_skin_tone.png",
-        "name": "mx claus: medium-light skin tone"
+        "name": "Mx Claus: medium-light skin tone"
       },
       "3": {
         "codepoints": [
@@ -50067,7 +50067,7 @@
         ],
         "emoji": "🧑🏽‍🎄",
         "image": "images/mx_claus__medium_skin_tone.png",
-        "name": "mx claus: medium skin tone"
+        "name": "Mx Claus: medium skin tone"
       },
       "4": {
         "codepoints": [
@@ -50078,7 +50078,7 @@
         ],
         "emoji": "🧑🏾‍🎄",
         "image": "images/mx_claus__medium-dark_skin_tone.png",
-        "name": "mx claus: medium-dark skin tone"
+        "name": "Mx Claus: medium-dark skin tone"
       },
       "5": {
         "codepoints": [
@@ -50089,7 +50089,7 @@
         ],
         "emoji": "🧑🏿‍🎄",
         "image": "images/mx_claus__dark_skin_tone.png",
-        "name": "mx claus: dark skin tone"
+        "name": "Mx Claus: dark skin tone"
       }
     },
     "image": "images/mx_claus.png",
@@ -50106,7 +50106,7 @@
       "tale",
       "xmas"
     ],
-    "name": "mx claus",
+    "name": "Mx Claus",
     "unicode_category": null,
     "unicode_subcategory": null
   },

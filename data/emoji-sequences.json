@@ -1926,6 +1926,14 @@
     ],
     "description": "flag: Clipperton Island"
   },
+  "1f1e8_1f1f6": {
+    "char": "🇨🇶",
+    "codepoints": [
+      127464,
+      127478
+    ],
+    "description": "flag: Sark"
+  },
   "1f1e8_1f1f7": {
     "char": "🇨🇷",
     "codepoints": [
@@ -10467,6 +10475,20 @@
     ],
     "description": "maracas..flute"
   },
+  "1fa89": {
+    "char": "🪉",
+    "codepoints": [
+      129673
+    ],
+    "description": "harp"
+  },
+  "1fa8f": {
+    "char": "🪏",
+    "codepoints": [
+      129679
+    ],
+    "description": "shovel"
+  },
   "1fa90": {
     "char": "🪐",
     "codepoints": [
@@ -10515,6 +10537,13 @@
       129723
     ],
     "description": "hyacinth..wing"
+  },
+  "1fabe": {
+    "char": "🪾",
+    "codepoints": [
+      129726
+    ],
+    "description": "leafless tree"
   },
   "1fabf": {
     "char": "🪿",
@@ -10657,6 +10686,13 @@
     ],
     "description": "person with crown: dark skin tone"
   },
+  "1fac6": {
+    "char": "🫆",
+    "codepoints": [
+      129734
+    ],
+    "description": "fingerprint"
+  },
   "1face": {
     "char": "🫎",
     "codepoints": [
@@ -10685,6 +10721,20 @@
     ],
     "description": "ginger root..pea pod"
   },
+  "1fadc": {
+    "char": "🫜",
+    "codepoints": [
+      129756
+    ],
+    "description": "root vegetable"
+  },
+  "1fadf": {
+    "char": "🫟",
+    "codepoints": [
+      129759
+    ],
+    "description": "splatter"
+  },
   "1fae0": {
     "char": "🫠",
     "codepoints": [
@@ -10698,6 +10748,13 @@
       129768
     ],
     "description": "shaking face"
+  },
+  "1fae9": {
+    "char": "🫩",
+    "codepoints": [
+      129769
+    ],
+    "description": "face with bags under eyes"
   },
   "1faf0": {
     "char": "🫰",

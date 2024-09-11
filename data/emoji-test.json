@@ -2064,6 +2064,13 @@
     "since": 2,
     "subgroup": "country-flag"
   },
+  "1f1e8_1f1f6": {
+    "desc": "flag: Sark",
+    "emoji": "🇨🇶",
+    "group": "Flags",
+    "since": 16,
+    "subgroup": "country-flag"
+  },
   "1f1e8_1f1f7": {
     "desc": "flag: Costa Rica",
     "emoji": "🇨🇷",
@@ -20540,9 +20547,9 @@
   "1f980": {
     "desc": "crab",
     "emoji": "🦀",
-    "group": "Food & Drink",
+    "group": "Animals & Nature",
     "since": 1,
-    "subgroup": "food-marine"
+    "subgroup": "animal-marine"
   },
   "1f981": {
     "desc": "lion",
@@ -20652,16 +20659,16 @@
   "1f990": {
     "desc": "shrimp",
     "emoji": "🦐",
-    "group": "Food & Drink",
+    "group": "Animals & Nature",
     "since": 3,
-    "subgroup": "food-marine"
+    "subgroup": "animal-marine"
   },
   "1f991": {
     "desc": "squid",
     "emoji": "🦑",
-    "group": "Food & Drink",
+    "group": "Animals & Nature",
     "since": 3,
-    "subgroup": "food-marine"
+    "subgroup": "animal-marine"
   },
   "1f992": {
     "desc": "giraffe",
@@ -20750,9 +20757,9 @@
   "1f99e": {
     "desc": "lobster",
     "emoji": "🦞",
-    "group": "Food & Drink",
+    "group": "Animals & Nature",
     "since": 11,
-    "subgroup": "food-marine"
+    "subgroup": "animal-marine"
   },
   "1f99f": {
     "desc": "mosquito",
@@ -20834,9 +20841,9 @@
   "1f9aa": {
     "desc": "oyster",
     "emoji": "🦪",
-    "group": "Food & Drink",
+    "group": "Animals & Nature",
     "since": 12,
-    "subgroup": "food-marine"
+    "subgroup": "animal-marine"
   },
   "1f9ab": {
     "desc": "beaver",
@@ -21980,7 +21987,7 @@
     "subgroup": "person-role"
   },
   "1f9d1_1f384": {
-    "desc": "mx claus",
+    "desc": "Mx Claus",
     "emoji": "🧑‍🎄",
     "group": "People & Body",
     "since": 13,
@@ -22274,7 +22281,7 @@
     "subgroup": "person-role"
   },
   "1f9d1_1f384.1": {
-    "desc": "mx claus: light skin tone",
+    "desc": "Mx Claus: light skin tone",
     "emoji": "🧑🏻‍🎄",
     "group": "People & Body",
     "since": 13,
@@ -22568,7 +22575,7 @@
     "subgroup": "person-role"
   },
   "1f9d1_1f384.2": {
-    "desc": "mx claus: medium-light skin tone",
+    "desc": "Mx Claus: medium-light skin tone",
     "emoji": "🧑🏼‍🎄",
     "group": "People & Body",
     "since": 13,
@@ -22862,7 +22869,7 @@
     "subgroup": "person-role"
   },
   "1f9d1_1f384.3": {
-    "desc": "mx claus: medium skin tone",
+    "desc": "Mx Claus: medium skin tone",
     "emoji": "🧑🏽‍🎄",
     "group": "People & Body",
     "since": 13,
@@ -23156,7 +23163,7 @@
     "subgroup": "person-role"
   },
   "1f9d1_1f384.4": {
-    "desc": "mx claus: medium-dark skin tone",
+    "desc": "Mx Claus: medium-dark skin tone",
     "emoji": "🧑🏾‍🎄",
     "group": "People & Body",
     "since": 13,
@@ -23450,7 +23457,7 @@
     "subgroup": "person-role"
   },
   "1f9d1_1f384.5": {
-    "desc": "mx claus: dark skin tone",
+    "desc": "Mx Claus: dark skin tone",
     "emoji": "🧑🏿‍🎄",
     "group": "People & Body",
     "since": 13,
@@ -25318,6 +25325,20 @@
     "since": 15,
     "subgroup": "musical-instrument"
   },
+  "1fa89": {
+    "desc": "harp",
+    "emoji": "🪉",
+    "group": "Objects",
+    "since": 16,
+    "subgroup": "musical-instrument"
+  },
+  "1fa8f": {
+    "desc": "shovel",
+    "emoji": "🪏",
+    "group": "Objects",
+    "since": 16,
+    "subgroup": "tool"
+  },
   "1fa90": {
     "desc": "ringed planet",
     "emoji": "🪐",
@@ -25640,6 +25661,13 @@
     "since": 15,
     "subgroup": "animal-bird"
   },
+  "1fabe": {
+    "desc": "leafless tree",
+    "emoji": "🪾",
+    "group": "Animals & Nature",
+    "since": 16,
+    "subgroup": "plant-other"
+  },
   "1fabf": {
     "desc": "goose",
     "emoji": "🪿",
@@ -25794,6 +25822,13 @@
     "since": 14,
     "subgroup": "person-role"
   },
+  "1fac6": {
+    "desc": "fingerprint",
+    "emoji": "🫆",
+    "group": "People & Body",
+    "since": 16,
+    "subgroup": "person-symbol"
+  },
   "1face": {
     "desc": "moose",
     "emoji": "🫎",
@@ -25892,6 +25927,20 @@
     "since": 15,
     "subgroup": "food-vegetable"
   },
+  "1fadc": {
+    "desc": "root vegetable",
+    "emoji": "🫜",
+    "group": "Food & Drink",
+    "since": 16,
+    "subgroup": "food-vegetable"
+  },
+  "1fadf": {
+    "desc": "splatter",
+    "emoji": "🫟",
+    "group": "Symbols",
+    "since": 16,
+    "subgroup": "other-symbol"
+  },
   "1fae0": {
     "desc": "melting face",
     "emoji": "🫠",
@@ -25954,6 +26003,13 @@
     "group": "Smileys & Emotion",
     "since": 15,
     "subgroup": "face-neutral-skeptical"
+  },
+  "1fae9": {
+    "desc": "face with bags under eyes",
+    "emoji": "🫩",
+    "group": "Smileys & Emotion",
+    "since": 16,
+    "subgroup": "face-sleepy"
   },
   "1faf0": {
     "desc": "hand with index finger and thumb crossed",
