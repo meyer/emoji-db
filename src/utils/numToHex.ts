@@ -4,6 +4,6 @@
  */
 export const numToHex = (num: number) => {
   const numStr = num.toString(16);
-  const padLen = numStr.length <= 4 ? 4 : Math.pow(2, Math.ceil(Math.log2(numStr.length)));
+  const padLen = numStr.length <= 4 ? 4 : 2 ** Math.ceil(Math.log2(numStr.length));
   return `0x${numStr.padStart(padLen, '0')}`;
 };

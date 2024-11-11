@@ -1,18 +1,18 @@
+import { codepointShortKeys, unicodeJoiners } from '../constants';
 import { invariant } from './invariant';
-import { unicodeJoiners, codepointShortKeys } from '../constants';
 
 const emojiNameRegex = /^([u\dA-F_]+)(\.[0-6](?:[0-6])?)?(\.[MWBG]+)?$/;
 
 export const emojiNameToKey = (name: string): string => {
   const match = name.match(emojiNameRegex);
   invariant(match, 'Invalid emoji name: `%s`', name);
-  const codepointString = match[1].toLowerCase();
+  const codepointString = match[1]!.toLowerCase();
   const famString = match[3] || '';
 
-  let fitzString: string = '';
+  let fitzString = '';
   if (match[2]) {
     // slice off the initial period
-    const fitzInt = parseInt(match[2].slice(1), 10);
+    const fitzInt = Number.parseInt(match[2].slice(1), 10);
     if (fitzInt === 0 || fitzInt === 66) {
       // default, no modifier
       // fitz 66 seems intentional... it's equivalent to fitz 0 (i.e. no modifier). only present on the holding hands emoji.
@@ -23,7 +23,7 @@ export const emojiNameToKey = (name: string): string => {
     }
   }
 
-  const codepoints = codepointString.split('_').map((f) => parseInt(f.slice(1), 16));
+  const codepoints = codepointString.split('_').map((f) => Number.parseInt(f.slice(1), 16));
 
   const base = codepoints
     .filter((codepoint) => !unicodeJoiners.includes(codepoint))

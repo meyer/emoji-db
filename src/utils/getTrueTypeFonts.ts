@@ -1,10 +1,10 @@
 import fs from 'fs';
-import { invariant } from './invariant';
-import { TrueTypeFont } from '../TrueTypeFont';
-import { getTTFsFromTTC } from './getTTFsFromTTC';
 import { BinaryParser } from '../BinaryParser';
-import { CFF_TTF_HEADER, TTF_HEADER, TTCF_HEADER } from '../constants';
+import type { TrueTypeFont } from '../TrueTypeFont';
+import { CFF_TTF_HEADER, TTCF_HEADER, TTF_HEADER } from '../constants';
+import { getTTFsFromTTC } from './getTTFsFromTTC';
 import { getTtfFromOffset } from './getTtfFromOffset';
+import { invariant } from './invariant';
 import { numToHex } from './numToHex';
 
 export const getTrueTypeFonts = async (fontPath: string): Promise<TrueTypeFont[]> => {

@@ -1,13 +1,13 @@
-import cheerio from 'cheerio';
-import path from 'path';
 import fs from 'fs';
-import { toCodepoints } from '../utils/toCodepoints';
-import { codepointsToKey } from '../utils/codepointsToKey';
-import { CACHE_DIR, DATA_DIR } from '../constants';
-import { invariant } from '../utils/invariant';
+import path from 'path';
+import cheerio from 'cheerio';
 import stringify from 'json-stable-stringify';
-import { toEmojiSortKey } from '../utils/toEmojiSortKey';
+import { CACHE_DIR, DATA_DIR } from '../constants';
+import { codepointsToKey } from '../utils/codepointsToKey';
+import { invariant } from '../utils/invariant';
 import { sortKeyStringifyOptions } from '../utils/sortKeyStringifyOptions';
+import { toCodepoints } from '../utils/toCodepoints';
+import { toEmojiSortKey } from '../utils/toEmojiSortKey';
 
 interface Annotation {
   char: string;
@@ -31,14 +31,14 @@ interface AnnotationWithSortKey extends Annotation {
 
     const ret: Record<string, AnnotationWithSortKey> = {};
     annotations.map((idx, el) => {
-      const codepoints = toCodepoints(el.attribs.cp);
+      const codepoints = toCodepoints(el.attribs.cp!);
       const key = codepointsToKey(codepoints);
       const sortKey = toEmojiSortKey(codepoints);
 
       if (!ret[key]) {
         ret[key] = {
           name: null,
-          char: el.attribs.cp,
+          char: el.attribs.cp!,
           codepoints,
           keywords: null,
           sortKey,

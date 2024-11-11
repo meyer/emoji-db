@@ -1,4 +1,4 @@
-import fs from 'fs';
+import type fs from 'fs';
 import { LONG_TIMESTAMP_OFFSET } from './constants';
 import { invariant } from './utils/invariant';
 

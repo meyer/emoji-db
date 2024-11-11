@@ -1,10 +1,10 @@
 import {
-  heartCodepoints,
-  kissCodepoints,
+  codepointShortKeys,
   famInitialsByCodepoint,
   fitzpatrickModifiers,
   genderInitialsByCodepoint,
-  codepointShortKeys,
+  heartCodepoints,
+  kissCodepoints,
 } from '../constants';
 import { rejectJoiners } from './rejectJoiners';
 
@@ -32,8 +32,8 @@ export const codepointsToKey = (codepointsOrig: number[]) => {
       return `1f46a.${toFamString(codepoints)}`;
     }
   } else {
-    if (fitzpatrickModifiers.includes(codepoints[0])) {
-      return codepoints[0].toString(16);
+    if (fitzpatrickModifiers.includes(codepoints[0]!)) {
+      return codepoints[0]!.toString(16);
     }
   }
 

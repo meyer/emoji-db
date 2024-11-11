@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "files": {
+    "ignore": ["data/*.json", "images/*.json", "./emoji-db.json"]
+  },
   "formatter": {
     "enabled": true,
     "formatWithErrors": false,
@@ -7,11 +10,24 @@
     "indentWidth": 2,
     "lineEnding": "lf",
     "lineWidth": 120,
-    "attributePosition": "auto",
-    "ignore": ["data/*.json", "images/*.json", "./emoji-db.json"]
+    "attributePosition": "auto"
   },
   "organizeImports": { "enabled": true },
-  "linter": { "enabled": true, "rules": { "recommended": true } },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "style": {
+        "useNodejsImportProtocol": "off"
+      },
+      "complexity": {
+        "useSimpleNumberKeys": {
+          "fix": "none",
+          "level": "off"
+        }
+      }
+    }
+  },
   "javascript": {
     "formatter": {
       "jsxQuoteStyle": "double",

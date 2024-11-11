@@ -1,16 +1,15 @@
-// https://docs.microsoft.com/en-us/typography/opentype/spec/otff
-import yaml from 'yaml';
 import fs from 'fs';
 import path from 'path';
-import { ROOT_DIR } from '../constants';
-import { invariant } from './invariant';
+import yaml from 'yaml';
 import annotationData from '../../data/annotations.json';
 import derivedAnnotationData from '../../data/annotationsDerived.json';
 import sequenceData from '../../data/emoji-sequences.json';
 import variationSequenceData from '../../data/emoji-variation-sequences.json';
 import zwjSequenceData from '../../data/emoji-zwj-sequences.json';
 import emojilibData from '../../data/emojilib.json';
+import { ROOT_DIR } from '../constants';
 import { codepointsToKey } from './codepointsToKey';
+import { invariant } from './invariant';
 
 const holdingHandRegex = /^(1f9d1_1f91d_1f9d1|1f46b|1f46c|1f46d)\.([1-5])([1-5])$/;
 const fitzRegex = /^([u0-9a-f_]+)(\.[1-5][1-5]?)?(\.[MWBG]+)?$/;

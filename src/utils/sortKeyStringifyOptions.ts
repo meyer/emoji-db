@@ -1,4 +1,4 @@
-import * as stringify from 'json-stable-stringify';
+import type * as stringify from 'json-stable-stringify';
 
 export const sortKeyStringifyOptions: stringify.Options = {
   space: 2,

@@ -15,6 +15,7 @@
     "strictFunctionTypes": true,
     "strictBindCallApply": true,
     "strictPropertyInitialization": true,
+    "noUncheckedIndexedAccess": true,
     "noImplicitThis": true,
     "alwaysStrict": true,
     "resolveJsonModule": true,

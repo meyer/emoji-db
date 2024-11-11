@@ -1,7 +1,7 @@
-import { NameIdKey } from './constants';
-import { invariant } from './utils/invariant';
+import type fs from 'fs';
 import { BinaryParser } from './BinaryParser';
-import fs from 'fs';
+import type { NameIdKey } from './constants';
+import { invariant } from './utils/invariant';
 
 export interface HeadTable {
   version: number;
@@ -124,7 +124,7 @@ export class TrueTypeFont {
     invariant(postNumGlyphs === numGlyphs, 'postNumGlyphs diff: %o !== %o', postNumGlyphs, numGlyphs);
 
     const glyphNameIndex: Array<number | null> = [];
-    let maxGlyph: number = 0;
+    let maxGlyph = 0;
     for (let idx = 0; idx < numGlyphs; idx++) {
       const glyph = await bp.uint16();
       if (glyph >= 0 && glyph <= 257) {

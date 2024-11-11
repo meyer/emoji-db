@@ -1,23 +1,23 @@
+import fs from 'fs';
 // https://docs.microsoft.com/en-us/typography/opentype/spec/otff
 import path from 'path';
-import fs from 'fs';
-import { DATA_DIR } from '../constants';
-import { invariant } from '../utils/invariant';
+import emojilibData from 'emojilib/dist/emoji-en-US.json';
 import stringify from 'json-stable-stringify';
-import { sortKeyStringifyOptions } from '../utils/sortKeyStringifyOptions';
-import { toEmojiSortKey } from '../utils/toEmojiSortKey';
-import emojilibData from 'emojilib/emojis.json';
-import { toCodepoints } from '../utils/toCodepoints';
+import { DATA_DIR } from '../constants';
 import { codepointsToKey } from '../utils/codepointsToKey';
+import { invariant } from '../utils/invariant';
+import { sortKeyStringifyOptions } from '../utils/sortKeyStringifyOptions';
+import { toCodepoints } from '../utils/toCodepoints';
+import { toEmojiSortKey } from '../utils/toEmojiSortKey';
 (async () => {
-  const emojilibDataByEmojiKey: Record<string, any> = {};
+  const emojilibDataByEmojiKey: Record<string, unknown> = {};
 
   for (const [key, value] of Object.entries(emojilibData)) {
-    const codepoints = toCodepoints(value.char);
+    const codepoints = toCodepoints(key);
     const emojiKey = codepointsToKey(codepoints);
     const sortKey = toEmojiSortKey(codepoints);
 
-    invariant(!emojilibDataByEmojiKey.hasOwnProperty(emojiKey), 'Duplicate emoji key:', emojiKey);
+    invariant(!(emojiKey in emojilibDataByEmojiKey), 'Duplicate emoji key:', emojiKey);
 
     emojilibDataByEmojiKey[emojiKey] = {
       emojilibKey: key,

@@ -1,10 +1,10 @@
-import path from 'path';
 import fs from 'fs';
-import { codepointsToKey } from '../utils/codepointsToKey';
-import { CACHE_DIR, DATA_DIR } from '../constants';
+import path from 'path';
 import stringify from 'json-stable-stringify';
-import { toEmojiSortKey } from '../utils/toEmojiSortKey';
+import { CACHE_DIR, DATA_DIR } from '../constants';
+import { codepointsToKey } from '../utils/codepointsToKey';
 import { sortKeyStringifyOptions } from '../utils/sortKeyStringifyOptions';
+import { toEmojiSortKey } from '../utils/toEmojiSortKey';
 
 const groupRegex = /^# (sub)?group\: (.+)$/;
 const lineRegex = /^([^;]+) ; ([^#]+) # (\S+) E([\d.]+) (.+)$/;
@@ -17,7 +17,7 @@ const lineRegex = /^([^;]+) ; ([^#]+) # (\S+) E([\d.]+) (.+)$/;
   let currentSubgroup: string | null = null;
   const emojiTestData: Record<string, any> = {};
 
-  testData.split('\n').forEach((lineOrig) => {
+  for (const lineOrig of testData.split('\n')) {
     const line = lineOrig.trim();
     const groupMatch = line.match(groupRegex);
 
@@ -25,10 +25,10 @@ const lineRegex = /^([^;]+) ; ([^#]+) # (\S+) E([\d.]+) (.+)$/;
       const [, sub, desc] = groupMatch;
 
       if (sub) {
-        currentSubgroup = desc.trim();
+        currentSubgroup = desc!.trim();
         console.log('\n%s --> %s', currentGroup, currentSubgroup);
       } else {
-        currentGroup = desc.trim();
+        currentGroup = desc!.trim();
       }
       return;
     }
@@ -49,10 +49,10 @@ const lineRegex = /^([^;]+) ; ([^#]+) # (\S+) E([\d.]+) (.+)$/;
       return;
     }
 
-    const codepoints = codepointString
+    const codepoints = codepointString!
       .trim()
       .split(/\s+/)
-      .map((f) => parseInt(f, 16));
+      .map((f) => Number.parseInt(f, 16));
     const emojiKey = codepointsToKey(codepoints);
     const sortKey = toEmojiSortKey(codepoints);
 
@@ -64,9 +64,9 @@ const lineRegex = /^([^;]+) ; ([^#]+) # (\S+) E([\d.]+) (.+)$/;
       desc,
       group: currentGroup,
       subgroup: currentSubgroup,
-      since: parseFloat(emojiVersion),
+      since: Number.parseFloat(emojiVersion!),
     };
-  });
+  }
 
   fs.writeFileSync(path.join(DATA_DIR, 'emoji-test.json'), stringify(emojiTestData, sortKeyStringifyOptions));
 })();

@@ -1,5 +1,5 @@
+import type { TrueTypeFont } from '../TrueTypeFont';
 import { getTrueTypeFonts } from './getTrueTypeFonts';
-import { TrueTypeFont } from '../TrueTypeFont';
 import { invariant } from './invariant';
 
 export const getFontByName = async (fontPath: string, fontName: string): Promise<TrueTypeFont> => {

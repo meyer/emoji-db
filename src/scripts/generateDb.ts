@@ -1,15 +1,14 @@
-// https://docs.microsoft.com/en-us/typography/opentype/spec/otff
-import path from 'path';
 import fs from 'fs';
-import { FONTS_DIR, ROOT_DIR } from '../constants';
-import { invariant } from '../utils/invariant';
-import { getFontByName } from '../utils/getFontByName';
+import path from 'path';
 import stringify from 'json-stable-stringify';
+import yaml from 'yaml';
+import { FONTS_DIR, ROOT_DIR } from '../constants';
+import { emojiNameToKey } from '../utils/emojiNameToKey';
+import { getFontByName } from '../utils/getFontByName';
+import { getMetadataForEmojiKey } from '../utils/getMetadataForEmojiKey';
+import { invariant } from '../utils/invariant';
 import { sortKeyStringifyOptions } from '../utils/sortKeyStringifyOptions';
 import { toEmojiSortKey } from '../utils/toEmojiSortKey';
-import { emojiNameToKey } from '../utils/emojiNameToKey';
-import { getMetadataForEmojiKey } from '../utils/getMetadataForEmojiKey';
-import yaml from 'yaml';
 
 interface EmojiDbEntry {
   name: string;
@@ -28,8 +27,9 @@ type EmojiDb = Record<string, EmojiDbEntry>;
 
 const fitzRegex = /\.([1-5][1-5]?)(\.[MWBG]+)?$/;
 (async (argv) => {
-  invariant(argv.length === 1, 'one arg pls');
-  const fontPath = path.join(FONTS_DIR, argv[0]);
+  const firstArg = argv[0];
+  invariant(argv.length === 1 && firstArg, 'one arg pls');
+  const fontPath = path.join(FONTS_DIR, firstArg);
   const ttf = await getFontByName(fontPath, 'AppleColorEmoji');
 
   const emojiDb: EmojiDb = {};
@@ -73,7 +73,7 @@ const fitzRegex = /\.([1-5][1-5]?)(\.[MWBG]+)?$/;
           ...emojiDb[zeroKey],
           fitz: {
             ...emojiDb[zeroKey]?.fitz,
-            [fitzMatch[1]]: {
+            [fitzMatch[1]!]: {
               name,
               image: `images/${fileName}.png`,
               emoji: char,
@@ -101,11 +101,11 @@ const fitzRegex = /\.([1-5][1-5]?)(\.[MWBG]+)?$/;
     const errors: string[] = [];
 
     // make we're generating valid entries
-    Object.entries(emojiDb).forEach(([key, value]) => {
+    for (const [key, value] of Object.entries(emojiDb)) {
       if (!value.codepoints) {
         errors.push(`${key} is missing codepoints`);
       }
-    });
+    }
 
     invariant(errors.length === 0, 'Encountered %s errors: %o', errors.length, errors);
 

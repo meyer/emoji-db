@@ -1,10 +1,10 @@
 import fs from 'fs';
 import path from 'path';
-import { FONTS_DIR, SYSTEM_EMOJI_TTC_PATH, DATA_DIR } from '../constants';
+import stringify from 'json-stable-stringify';
+import { DATA_DIR, FONTS_DIR, SYSTEM_EMOJI_TTC_PATH } from '../constants';
+import { getFontByName } from '../utils/getFontByName';
 import { getSystemInfo } from '../utils/getSystemInfo';
 import { invariant } from '../utils/invariant';
-import { getFontByName } from '../utils/getFontByName';
-import stringify from 'json-stable-stringify';
 
 const versionDataPath = path.join(DATA_DIR, 'versions.json');
 
@@ -60,7 +60,7 @@ const emojiFontNameComparator: stringify.Comparator = (a, b) => {
       console.log('Deleting old latest symlink...');
       fs.unlinkSync(path.join(FONTS_DIR, 'latest'));
     } catch (err) {
-      if (err && err.code !== 'ENOENT') {
+      if (typeof err === 'object' && err && 'code' in err && err.code !== 'ENOENT') {
         console.error('Error unlinking latest:', err);
       }
     }

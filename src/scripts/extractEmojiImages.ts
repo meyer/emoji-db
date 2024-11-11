@@ -1,14 +1,15 @@
+import fs from 'fs';
 // https://docs.microsoft.com/en-us/typography/opentype/spec/otff
 import path from 'path';
-import fs from 'fs';
-import { FONTS_DIR, EMOJI_IMG_DIR } from '../constants';
-import { invariant } from '../utils/invariant';
-import { getFontByName } from '../utils/getFontByName';
+import { EMOJI_IMG_DIR, FONTS_DIR } from '../constants';
 import { emojiNameToKey } from '../utils/emojiNameToKey';
+import { getFontByName } from '../utils/getFontByName';
 import { getMetadataForEmojiKey } from '../utils/getMetadataForEmojiKey';
+import { invariant } from '../utils/invariant';
 (async (argv) => {
-  invariant(argv.length === 1, 'one arg pls');
-  const fontPath = path.join(FONTS_DIR, argv[0]);
+  const firstArg = argv[0];
+  invariant(argv.length === 1 && firstArg, 'one arg pls');
+  const fontPath = path.join(FONTS_DIR, firstArg);
   const ttf = await getFontByName(fontPath, 'AppleColorEmoji');
 
   const imagePathsByKey: Record<string, string> = {};
@@ -22,7 +23,7 @@ import { getMetadataForEmojiKey } from '../utils/getMetadataForEmojiKey';
         const { fileName: friendlyFileName } = getMetadataForEmojiKey(key);
         filename = friendlyFileName + '.png';
       } catch (err) {
-        console.warn(err.message);
+        console.warn((err as any).message);
         filename = 'ERROR-' + name + '.png';
       }
 
