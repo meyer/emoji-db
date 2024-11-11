@@ -1,7 +1,7 @@
 import type fs from 'fs';
-import { BinaryParser } from './BinaryParser';
-import type { NameIdKey } from './constants';
-import { invariant } from './utils/invariant';
+import { BinaryParser } from './BinaryParser.js';
+import type { NameIdKey } from './constants.js';
+import { invariant } from './utils/invariant.js';
 
 export interface HeadTable {
   version: number;
@@ -173,7 +173,8 @@ export class TrueTypeFont {
     }
 
     // strike with the greatest PPEM value
-    const strikeOffset = strikes.sort((a, b) => a.ppem - b.ppem).pop()!;
+    const strikeOffset = strikes.sort((a, b) => a.ppem - b.ppem).pop();
+    invariant(strikeOffset, 'No strikeOffset');
 
     const post = await this.getPostTable();
 

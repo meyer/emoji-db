@@ -1,5 +1,5 @@
-import { codepointShortKeys, unicodeJoiners } from '../constants';
-import { invariant } from './invariant';
+import { codepointShortKeys, unicodeJoiners } from '../constants.js';
+import { invariant } from './invariant.js';
 
 const emojiNameRegex = /^([u\dA-F_]+)(\.[0-6](?:[0-6])?)?(\.[MWBG]+)?$/;
 

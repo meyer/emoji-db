@@ -1,6 +1,6 @@
 import type fs from 'fs';
-import { LONG_TIMESTAMP_OFFSET } from './constants';
-import { invariant } from './utils/invariant';
+import { LONG_TIMESTAMP_OFFSET } from './constants.js';
+import { invariant } from './utils/invariant.js';
 
 export class BinaryParser {
   constructor(fh: fs.promises.FileHandle, startPosition?: number) {

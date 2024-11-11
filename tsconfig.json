@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es2017",
-    "module": "commonjs",
+    "module": "nodenext",
     "lib": ["esnext"],
     "declaration": true,
     "declarationMap": true,
@@ -25,10 +25,10 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
 
-    "moduleResolution": "node",
+    "moduleResolution": "nodenext",
     "esModuleInterop": true,
 
     "experimentalDecorators": true
   },
-  "include": ["src", "scripts"]
+  "include": ["src", "cache", "scripts"]
 }

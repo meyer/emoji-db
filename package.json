@@ -2,6 +2,7 @@
   "name": "emoji-db",
   "version": "1.0.0",
   "main": "emoji-db.json",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/meyer/emoji-db.git"
@@ -18,17 +19,17 @@
   "homepage": "https://github.com/meyer/emoji-db",
   "scripts": {
     "start": "yarn extract-images && yarn generate-db",
-    "check-emoji-keys": "ts-node --transpile-only src/scripts/checkEmojiKeys.ts",
+    "check-emoji-keys": "node --loader ts-node/esm src/scripts/checkEmojiKeys.ts",
     "ci": "yarn fetch-data && yarn convert && yarn copy-latest && yarn extract-images && yarn generate-db",
     "fetch-data": "./scripts/fetchData.sh",
     "convert": "yarn convert-annotations && yarn convert-sequences && yarn convert-test-data",
-    "convert-annotations": "ts-node --transpile-only src/scripts/annotationsToJson.ts",
-    "convert-sequences": "ts-node --transpile-only src/scripts/processEmojiSequences.ts",
-    "convert-test-data": "ts-node --transpile-only src/scripts/testDataToJson.ts",
-    "copy-latest": "ts-node --transpile-only src/scripts/copyLatest.ts",
-    "extract-images": "rm -rf images && ts-node --transpile-only src/scripts/extractEmojiImages.ts latest",
+    "convert-annotations": "node --loader ts-node/esm src/scripts/annotationsToJson.ts",
+    "convert-sequences": "node --loader ts-node/esm src/scripts/processEmojiSequences.ts",
+    "convert-test-data": "node --loader ts-node/esm src/scripts/testDataToJson.ts",
+    "copy-latest": "node --loader ts-node/esm src/scripts/copyLatest.ts",
+    "extract-images": "rm -rf images && node --loader ts-node/esm src/scripts/extractEmojiImages.ts latest",
     "format": "biome format --write .",
-    "generate-db": "ts-node --transpile-only src/scripts/generateDb.ts latest",
+    "generate-db": "node --loader ts-node/esm src/scripts/generateDb.ts latest",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

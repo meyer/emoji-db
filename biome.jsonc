@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
   "files": {
-    "ignore": ["data/*.json", "images/*.json", "./emoji-db.json"]
+    "ignore": ["./emoji-db.json", "./package.json", "data/*.json", "images/*.json"]
   },
   "formatter": {
     "enabled": true,

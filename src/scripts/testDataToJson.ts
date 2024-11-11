@@ -1,72 +1,71 @@
 import fs from 'fs';
 import path from 'path';
 import stringify from 'json-stable-stringify';
-import { CACHE_DIR, DATA_DIR } from '../constants';
-import { codepointsToKey } from '../utils/codepointsToKey';
-import { sortKeyStringifyOptions } from '../utils/sortKeyStringifyOptions';
-import { toEmojiSortKey } from '../utils/toEmojiSortKey';
+import { CACHE_DIR, DATA_DIR } from '../constants.js';
+import { codepointsToKey } from '../utils/codepointsToKey.js';
+import { sortKeyStringifyOptions } from '../utils/sortKeyStringifyOptions.js';
+import { toEmojiSortKey } from '../utils/toEmojiSortKey.js';
 
 const groupRegex = /^# (sub)?group\: (.+)$/;
 const lineRegex = /^([^;]+) ; ([^#]+) # (\S+) E([\d.]+) (.+)$/;
-(async () => {
-  const testDataPath = path.join(CACHE_DIR, 'emoji-test.txt');
 
-  const testData = fs.readFileSync(testDataPath, 'utf-8');
+const testDataPath = path.join(CACHE_DIR, 'emoji-test.txt');
 
-  let currentGroup: string | null = null;
-  let currentSubgroup: string | null = null;
-  const emojiTestData: Record<string, any> = {};
+const testData = fs.readFileSync(testDataPath, 'utf-8');
 
-  for (const lineOrig of testData.split('\n')) {
-    const line = lineOrig.trim();
-    const groupMatch = line.match(groupRegex);
+let currentGroup: string | null = null;
+let currentSubgroup: string | null = null;
+const emojiTestData: Record<string, unknown> = {};
 
-    if (groupMatch) {
-      const [, sub, desc] = groupMatch;
+for (const lineOrig of testData.split('\n')) {
+  const line = lineOrig.trim();
+  const groupMatch = line.match(groupRegex);
 
-      if (sub) {
-        currentSubgroup = desc!.trim();
-        console.log('\n%s --> %s', currentGroup, currentSubgroup);
-      } else {
-        currentGroup = desc!.trim();
-      }
-      return;
+  if (groupMatch) {
+    const [, sub, desc] = groupMatch;
+
+    if (sub) {
+      currentSubgroup = desc!.trim();
+      console.log('\n%s --> %s', currentGroup, currentSubgroup);
+    } else {
+      currentGroup = desc!.trim();
     }
-
-    if (!line || line.startsWith('#')) {
-      return;
-    }
-
-    const lineMatch = line.match(lineRegex);
-
-    if (!lineMatch) {
-      return;
-    }
-
-    const [, codepointString, qual, emoji, emojiVersion, desc] = lineMatch;
-
-    if (qual === 'non-fully-qualified') {
-      return;
-    }
-
-    const codepoints = codepointString!
-      .trim()
-      .split(/\s+/)
-      .map((f) => Number.parseInt(f, 16));
-    const emojiKey = codepointsToKey(codepoints);
-    const sortKey = toEmojiSortKey(codepoints);
-
-    console.log('wow: %s -- %s -- %s', emojiKey, emoji, desc);
-
-    emojiTestData[emojiKey] = {
-      emoji,
-      sortKey,
-      desc,
-      group: currentGroup,
-      subgroup: currentSubgroup,
-      since: Number.parseFloat(emojiVersion!),
-    };
+    continue;
   }
 
-  fs.writeFileSync(path.join(DATA_DIR, 'emoji-test.json'), stringify(emojiTestData, sortKeyStringifyOptions));
-})();
+  if (!line || line.startsWith('#')) {
+    continue;
+  }
+
+  const lineMatch = line.match(lineRegex);
+
+  if (!lineMatch) {
+    continue;
+  }
+
+  const [, codepointString, qual, emoji, emojiVersion, desc] = lineMatch;
+
+  if (qual === 'non-fully-qualified') {
+    continue;
+  }
+
+  const codepoints = codepointString!
+    .trim()
+    .split(/\s+/)
+    .map((f) => Number.parseInt(f, 16));
+  const emojiKey = codepointsToKey(codepoints);
+  const sortKey = toEmojiSortKey(codepoints);
+
+  console.log('wow: %s -- %s -- %s', emojiKey, emoji, desc);
+
+  emojiTestData[emojiKey] = {
+    emoji,
+    sortKey,
+    desc,
+    group: currentGroup,
+    subgroup: currentSubgroup,
+    since: Number.parseFloat(emojiVersion!),
+  };
+}
+
+fs.writeFileSync(path.join(DATA_DIR, 'emoji-test.json'), stringify(emojiTestData, sortKeyStringifyOptions));

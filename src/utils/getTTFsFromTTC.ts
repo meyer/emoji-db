@@ -1,10 +1,10 @@
 import type fs from 'fs';
-import { BinaryParser } from '../BinaryParser';
-import type { TrueTypeFont } from '../TrueTypeFont';
-import { TTCF_HEADER } from '../constants';
-import { getTtfFromOffset } from './getTtfFromOffset';
-import { invariant } from './invariant';
-import { numToHex } from './numToHex';
+import { BinaryParser } from '../BinaryParser.js';
+import type { TrueTypeFont } from '../TrueTypeFont.js';
+import { TTCF_HEADER } from '../constants.js';
+import { getTtfFromOffset } from './getTtfFromOffset.js';
+import { invariant } from './invariant.js';
+import { numToHex } from './numToHex.js';
 
 export const getTTFsFromTTC = async (fh: fs.promises.FileHandle): Promise<TrueTypeFont[]> => {
   const bp = new BinaryParser(fh);

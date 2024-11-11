@@ -5,8 +5,8 @@ import {
   genderInitialsByCodepoint,
   heartCodepoints,
   kissCodepoints,
-} from '../constants';
-import { rejectJoiners } from './rejectJoiners';
+} from '../constants.js';
+import { rejectJoiners } from './rejectJoiners.js';
 
 // adding 1 to the index makes non-matches falsey, which lets us fall back to the giant number
 const getFamIndex = (i: string) => 'MWGB'.indexOf(i) + 1 || 999 + (i.codePointAt(0) || 0);

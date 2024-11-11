@@ -1,11 +1,11 @@
 import fs from 'fs';
-import { BinaryParser } from '../BinaryParser';
-import type { TrueTypeFont } from '../TrueTypeFont';
-import { CFF_TTF_HEADER, TTCF_HEADER, TTF_HEADER } from '../constants';
-import { getTTFsFromTTC } from './getTTFsFromTTC';
-import { getTtfFromOffset } from './getTtfFromOffset';
-import { invariant } from './invariant';
-import { numToHex } from './numToHex';
+import { BinaryParser } from '../BinaryParser.js';
+import type { TrueTypeFont } from '../TrueTypeFont.js';
+import { CFF_TTF_HEADER, TTCF_HEADER, TTF_HEADER } from '../constants.js';
+import { getTTFsFromTTC } from './getTTFsFromTTC.js';
+import { getTtfFromOffset } from './getTtfFromOffset.js';
+import { invariant } from './invariant.js';
+import { numToHex } from './numToHex.js';
 
 export const getTrueTypeFonts = async (fontPath: string): Promise<TrueTypeFont[]> => {
   invariant(fs.existsSync(fontPath), 'No file at the following location: `%s`', fontPath);
@@ -24,9 +24,9 @@ export const getTrueTypeFonts = async (fontPath: string): Promise<TrueTypeFont[]
   }
 
   // TrueType collection
-  else if (header === TTCF_HEADER) {
+  if (header === TTCF_HEADER) {
     return getTTFsFromTTC(fh);
   }
 
-  throw new Error('File header is not ttcf: `' + numToHex(header) + '`');
+  invariant(false, 'File header is not ttcf: `%s`', numToHex(header));
 };

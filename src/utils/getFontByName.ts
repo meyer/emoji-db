@@ -1,6 +1,6 @@
-import type { TrueTypeFont } from '../TrueTypeFont';
-import { getTrueTypeFonts } from './getTrueTypeFonts';
-import { invariant } from './invariant';
+import type { TrueTypeFont } from '../TrueTypeFont.js';
+import { getTrueTypeFonts } from './getTrueTypeFonts.js';
+import { invariant } from './invariant.js';
 
 export const getFontByName = async (fontPath: string, fontName: string): Promise<TrueTypeFont> => {
   const fonts = await getTrueTypeFonts(fontPath);

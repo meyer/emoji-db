@@ -1,10 +1,9 @@
-// https://docs.microsoft.com/en-us/typography/opentype/spec/otff
 import type fs from 'fs';
-import { BinaryParser } from '../BinaryParser';
-import { type HeadTable, type MaxpTable, TrueTypeFont } from '../TrueTypeFont';
-import { CFF_TTF_HEADER, type NameIdKey, TTF_HEADER, nameIds } from '../constants';
-import { invariant } from './invariant';
-import { numToHex } from './numToHex';
+import { BinaryParser } from '../BinaryParser.js';
+import { type HeadTable, type MaxpTable, TrueTypeFont } from '../TrueTypeFont.js';
+import { CFF_TTF_HEADER, type NameIdKey, TTF_HEADER, nameIds } from '../constants.js';
+import { invariant } from './invariant.js';
+import { numToHex } from './numToHex.js';
 
 export const getTtfFromOffset = async (fh: fs.promises.FileHandle, position: number): Promise<TrueTypeFont> => {
   const bp = new BinaryParser(fh, position);
@@ -37,7 +36,8 @@ export const getTtfFromOffset = async (fh: fs.promises.FileHandle, position: num
     }, {});
 
   // https://docs.microsoft.com/en-us/typography/opentype/spec/maxp
-  bp.position = tableOffsetsByTag.maxp!;
+  invariant(tableOffsetsByTag.maxp, 'No maxp');
+  bp.position = tableOffsetsByTag.maxp;
 
   const maxpVersion = await bp.uint32();
   const numGlyphs = await bp.uint16();
@@ -50,7 +50,8 @@ export const getTtfFromOffset = async (fh: fs.promises.FileHandle, position: num
   };
 
   // https://docs.microsoft.com/en-us/typography/opentype/spec/head
-  bp.position = tableOffsetsByTag.head!;
+  invariant(tableOffsetsByTag.head, 'No head');
+  bp.position = tableOffsetsByTag.head;
 
   const headVersion = await bp.fixed(32, 16);
   const fontRevision = await bp.fixed(32, 16);
@@ -85,12 +86,13 @@ export const getTtfFromOffset = async (fh: fs.promises.FileHandle, position: num
   };
 
   // https://docs.microsoft.com/en-us/typography/opentype/spec/name
-  bp.position = tableOffsetsByTag.name!;
+  invariant(tableOffsetsByTag.name, 'No name');
+  bp.position = tableOffsetsByTag.name;
 
   const nameFormat = await bp.uint16();
   const recordCount = await bp.uint16();
   const stringOffset = await bp.uint16();
-  const storageAreaOffset = tableOffsetsByTag.name! + stringOffset;
+  const storageAreaOffset = tableOffsetsByTag.name + stringOffset;
 
   invariant(nameFormat === 0, 'Only name table format 0 is supported');
 

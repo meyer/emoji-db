@@ -1,6 +1,6 @@
 import childProcess from 'child_process';
-import { SYSTEM_VERSION_PLIST_PATH } from '../constants';
-import { invariant } from './invariant';
+import { SYSTEM_VERSION_PLIST_PATH } from '../constants.js';
+import { invariant } from './invariant.js';
 
 export interface SystemVersionInfo {
   iOSSupportVersion: string;
@@ -20,8 +20,8 @@ export const getSystemInfo = async () =>
       } else {
         try {
           const data: SystemVersionInfo = JSON.parse(stdout);
-          invariant(data.hasOwnProperty('ProductVersion'), 'missing ProductVersion');
-          invariant(data.hasOwnProperty('ProductBuildVersion'), 'missing ProductBuildVersion');
+          invariant('ProductVersion' in data, 'missing ProductVersion');
+          invariant('ProductBuildVersion' in data, 'missing ProductBuildVersion');
           resolve(data);
         } catch (parseErr) {
           reject(parseErr);

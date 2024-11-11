@@ -1,6 +1,6 @@
-import type * as stringify from 'json-stable-stringify';
+import type { Options } from 'json-stable-stringify';
 
-export const sortKeyStringifyOptions: stringify.Options = {
+export const sortKeyStringifyOptions: Options = {
   space: 2,
   cmp: (a, b) => {
     if (
