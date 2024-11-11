@@ -6,7 +6,6 @@ import derivedAnnotationData from '../../data/annotationsDerived.json';
 import sequenceData from '../../data/emoji-sequences.json';
 import variationSequenceData from '../../data/emoji-variation-sequences.json';
 import zwjSequenceData from '../../data/emoji-zwj-sequences.json';
-import emojilibData from '../../data/emojilib.json';
 import { ROOT_DIR } from '../constants';
 import { codepointsToKey } from './codepointsToKey';
 import { invariant } from './invariant';
@@ -84,15 +83,6 @@ export const getMetadataForEmojiKey = (key: string) => {
   const fitzMatch = key.match(fitzRegex);
   invariant(fitzMatch, 'Invalid key provided');
 
-  const emojilibEmojiKey = fitzMatch[1] + (fitzMatch[3] || '');
-
-  const emojilibDataItem =
-    emojilibEmojiKey in emojilibData ? emojilibData[emojilibEmojiKey as keyof typeof emojilibData] : null;
-
-  if (emojilibDataItem) {
-    keywords.push(...emojilibDataItem.keywords);
-  }
-
   const extraKeywords = keywordsByEmoji[key];
   if (extraKeywords) {
     keywords.push(...extraKeywords);
@@ -112,5 +102,5 @@ export const getMetadataForEmojiKey = (key: string) => {
     .replace(/^-+|-+$/g, '')
     .toLowerCase();
 
-  return { char, codepoints, keywords, name, emojilibDataItem, fileName };
+  return { char, codepoints, keywords, name, fileName };
 };

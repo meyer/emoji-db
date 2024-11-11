@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import cheerio from 'cheerio';
+import * as cheerio from 'cheerio';
 import stringify from 'json-stable-stringify';
 import { CACHE_DIR, DATA_DIR } from '../constants';
 import { codepointsToKey } from '../utils/codepointsToKey';

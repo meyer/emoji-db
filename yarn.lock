@@ -240,11 +240,6 @@ domutils@^3.0.1, domutils@^3.1.0:
     domelementtype "^2.3.0"
     domhandler "^5.0.3"
 
-emojilib@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/emojilib/-/emojilib-4.0.0.tgz#dc063207933d5b4fcff524cfbf1da57f0ed8f233"
-  integrity sha512-nHdbvbIuWi/KrZESwJw5meOSK6S3uokcvBooIpNp9leDtVJWW091drLm8pwF2B7JrMq0UPgGJ7Haw+myeRaU8g==
-
 encoding-sniffer@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/encoding-sniffer/-/encoding-sniffer-0.2.0.tgz#799569d66d443babe82af18c9f403498365ef1d5"

@@ -44,6 +44,11 @@ import { toEmojiSortKey } from '../utils/toEmojiSortKey';
       const emojiKey = codepointsToKey(codepoints);
       const sortKey = toEmojiSortKey(codepoints);
 
+      if (description?.match(/\w\.\.\w/)) {
+        console.info('Skipping range line %s: `%s` (%s)', idx, codepointString, description);
+        return;
+      }
+
       invariant(!sequenceData.hasOwnProperty(emojiKey), 'Already have a thing for `%s`!', emojiKey);
 
       const char = String.fromCodePoint(...codepoints);

@@ -12,10 +12,9 @@ import { toEmojiSortKey } from '../utils/toEmojiSortKey';
 
 interface EmojiDbEntry {
   name: string;
-  emojilib_name: string | null;
   codepoints: number[];
-  unicode_category: string | null;
-  unicode_subcategory: string | null;
+  unicode_category?: string;
+  unicode_subcategory?: string;
   keywords: string[];
   emoji: string;
   image: string;
@@ -49,13 +48,9 @@ const fitzRegex = /\.([1-5][1-5]?)(\.[MWBG]+)?$/;
         continue;
       }
 
-      const { codepoints, char, keywords, name, emojilibDataItem, fileName } = getMetadataForEmojiKey(keyFromName);
+      const { codepoints, char, keywords, name, fileName } = getMetadataForEmojiKey(keyFromName);
 
       const sortKey = toEmojiSortKey(codepoints);
-
-      if (emojilibDataItem) {
-        keywords.push(...emojilibDataItem.keywords);
-      }
 
       const extraKeywords = keywordsByEmoji[keyFromName];
       if (extraKeywords) {
@@ -69,6 +64,7 @@ const fitzRegex = /\.([1-5][1-5]?)(\.[MWBG]+)?$/;
       if (fitzMatch) {
         const zeroKey = keyFromName.replace(fitzRegex, '$2');
 
+        // @ts-expect-error partial is OK
         emojiDb[zeroKey] = {
           ...emojiDb[zeroKey],
           fitz: {
@@ -90,9 +86,6 @@ const fitzRegex = /\.([1-5][1-5]?)(\.[MWBG]+)?$/;
           keywords: Array.from(new Set(keywords)),
           name,
           fitz: null,
-          emojilib_name: emojilibDataItem?.emojilibKey || null,
-          unicode_category: emojilibDataItem?.category || null,
-          unicode_subcategory: null,
           ...emojiDb[keyFromName],
         };
       }
