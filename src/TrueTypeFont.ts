@@ -208,9 +208,13 @@ export class TrueTypeFont {
       const offset = this.tableOffsetsByTag.sbix + strikeOffset.offset + currentGlyphOffset;
 
       const graphicType = await bp.tag(offset + 4);
-      invariant(graphicType === 'png ', 'Not a PNG!');
-
       const data = await bp.readBytes(size - 8, offset + 8);
+      if (graphicType === "flip") {
+        console.error('TODO: add flip support');
+        continue;
+      }
+
+      invariant(graphicType === 'png ', 'Expected `png `, received `%s`', graphicType);
 
       yield { data, name };
     }
