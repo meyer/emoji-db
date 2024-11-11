@@ -8,7 +8,6 @@ import { sortKeyStringifyOptions } from '../utils/sortKeyStringifyOptions';
 
 const groupRegex = /^# (sub)?group\: (.+)$/;
 const lineRegex = /^([^;]+) ; ([^#]+) # (\S+) E([\d.]+) (.+)$/;
-
 (async () => {
   const testDataPath = path.join(CACHE_DIR, 'emoji-test.txt');
 

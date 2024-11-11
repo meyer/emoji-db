@@ -6,10 +6,7 @@
     "type": "git",
     "url": "https://github.com/meyer/emoji-db.git"
   },
-  "keywords": [
-    "emoji",
-    "database"
-  ],
+  "keywords": ["emoji", "database"],
   "author": "meyer <github.com@meyer.fm>",
   "license": "UNLICENSED",
   "bugs": {
@@ -27,14 +24,11 @@
     "convert-emojilib-data": "ts-node --transpile-only src/scripts/convertEmojilibData.ts",
     "copy-latest": "ts-node --transpile-only src/scripts/copyLatest.ts",
     "extract-images": "rimraf images && ts-node --transpile-only src/scripts/extractEmojiImages.ts latest",
+    "format": "biome format --write .",
     "generate-db": "ts-node --transpile-only src/scripts/generateDb.ts latest"
   },
-  "prettier": {
-    "printWidth": 120,
-    "singleQuote": true,
-    "trailingComma": "es5"
-  },
   "dependencies": {
+    "@biomejs/biome": "^1.9.4",
     "@types/cheerio": "^0.22.15",
     "@types/json-stable-stringify": "^1.0.32",
     "@types/node": "^12.12.21",

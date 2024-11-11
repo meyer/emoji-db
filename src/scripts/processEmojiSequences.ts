@@ -6,7 +6,6 @@ import { CACHE_DIR, DATA_DIR } from '../constants';
 import stringify from 'json-stable-stringify';
 import { toEmojiSortKey } from '../utils/toEmojiSortKey';
 import { sortKeyStringifyOptions } from '../utils/sortKeyStringifyOptions';
-
 (async () => {
   [
     // 23F3 ; Basic_Emoji ; hourglass not done

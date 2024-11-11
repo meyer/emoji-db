@@ -50,7 +50,7 @@ export const nameIds = [
   'variationsPostScriptNamePrefix',
 ] as const;
 
-export type NameIdKey = Extract<typeof nameIds[number], string>;
+export type NameIdKey = Extract<(typeof nameIds)[number], string>;
 
 export const fitzpatrickModifiers = [
   null, // modifiers go from 1-5

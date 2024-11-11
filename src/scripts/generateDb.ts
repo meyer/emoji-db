@@ -27,7 +27,6 @@ interface EmojiDbEntry {
 type EmojiDb = Record<string, EmojiDbEntry>;
 
 const fitzRegex = /\.([1-5][1-5]?)(\.[MWBG]+)?$/;
-
 (async (argv) => {
   invariant(argv.length === 1, 'one arg pls');
   const fontPath = path.join(FONTS_DIR, argv[0]);

@@ -19,7 +19,6 @@ interface Annotation {
 interface AnnotationWithSortKey extends Annotation {
   sortKey: string;
 }
-
 (async () => {
   const files = ['annotations.xml', 'annotationsDerived.xml'];
 

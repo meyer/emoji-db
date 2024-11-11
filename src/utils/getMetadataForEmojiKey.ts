@@ -24,8 +24,8 @@ export const getMetadataForEmojiKey = (key: string) => {
     key in derivedAnnotationData
       ? derivedAnnotationData[key as keyof typeof derivedAnnotationData]
       : key in annotationData
-      ? annotationData[key as keyof typeof annotationData]
-      : null;
+        ? annotationData[key as keyof typeof annotationData]
+        : null;
 
   let codepoints: number[] | null = null;
   let char: string | null = null;

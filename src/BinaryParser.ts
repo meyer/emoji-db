@@ -57,10 +57,10 @@ export class BinaryParser {
     const numerator = await (bits === 8
       ? this.int8(position)
       : bits === 16
-      ? this.int16(position)
-      : bits === 32
-      ? this.int32(position)
-      : null);
+        ? this.int16(position)
+        : bits === 32
+          ? this.int32(position)
+          : null);
 
     invariant(numerator !== null, 'Unsupported bit length: %o', bits);
 

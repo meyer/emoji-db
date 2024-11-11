@@ -9,7 +9,6 @@ import { toEmojiSortKey } from '../utils/toEmojiSortKey';
 import emojilibData from 'emojilib/emojis.json';
 import { toCodepoints } from '../utils/toCodepoints';
 import { codepointsToKey } from '../utils/codepointsToKey';
-
 (async () => {
   const emojilibDataByEmojiKey: Record<string, any> = {};
 

@@ -5,7 +5,6 @@ import { getFontByName } from '../utils/getFontByName';
 import { emojiNameToKey } from '../utils/emojiNameToKey';
 import { invariant } from '../utils/invariant';
 import { getMetadataForEmojiKey } from '../utils/getMetadataForEmojiKey';
-
 (async (argv) => {
   invariant(argv.length === 1, 'one arg pls');
   const fontPath = path.join(FONTS_DIR, argv[0]);

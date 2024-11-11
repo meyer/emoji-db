@@ -209,7 +209,7 @@ export class TrueTypeFont {
 
       const graphicType = await bp.tag(offset + 4);
       const data = await bp.readBytes(size - 8, offset + 8);
-      if (graphicType === "flip") {
+      if (graphicType === 'flip') {
         console.error('TODO: add flip support');
         continue;
       }

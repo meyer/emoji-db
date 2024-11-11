@@ -6,7 +6,6 @@ import { invariant } from '../utils/invariant';
 import { getFontByName } from '../utils/getFontByName';
 import { emojiNameToKey } from '../utils/emojiNameToKey';
 import { getMetadataForEmojiKey } from '../utils/getMetadataForEmojiKey';
-
 (async (argv) => {
   invariant(argv.length === 1, 'one arg pls');
   const fontPath = path.join(FONTS_DIR, argv[0]);
@@ -48,7 +47,7 @@ import { getMetadataForEmojiKey } from '../utils/getMetadataForEmojiKey';
 
   await fs.promises.writeFile(
     path.join(EMOJI_IMG_DIR, 'manifest.json'),
-    JSON.stringify(sortedImagePathsByKey, null, 2)
+    JSON.stringify(sortedImagePathsByKey, null, 2) + '\n'
   );
 })(process.argv.slice(2)).catch((err) => {
   console.error(err);

@@ -17,7 +17,6 @@ const emojiFontNameComparator: stringify.Comparator = (a, b) => {
   const keyB = b.key.replace(emojiFontNameRegex, fontNameReplacer);
   return keyA.localeCompare(keyB);
 };
-
 (async () => {
   const fh = await fs.promises.open(SYSTEM_EMOJI_TTC_PATH, 'r');
   try {
