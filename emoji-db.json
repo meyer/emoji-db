@@ -3437,7 +3437,7 @@
     ],
     "emoji": "🅰️",
     "fitz": null,
-    "image": "images/a_button_blood_type_.png",
+    "image": "images/a_button__blood_type.png",
     "keywords": [
       "blood",
       "button",
@@ -3452,7 +3452,7 @@
     ],
     "emoji": "🅱️",
     "fitz": null,
-    "image": "images/b_button_blood_type_.png",
+    "image": "images/b_button__blood_type.png",
     "keywords": [
       "B",
       "blood",
@@ -3468,7 +3468,7 @@
     ],
     "emoji": "🅾️",
     "fitz": null,
-    "image": "images/o_button_blood_type_.png",
+    "image": "images/o_button__blood_type.png",
     "keywords": [
       "O",
       "blood",
@@ -3498,7 +3498,7 @@
     ],
     "emoji": "🆎",
     "fitz": null,
-    "image": "images/ab_button_blood_type_.png",
+    "image": "images/ab_button__blood_type.png",
     "keywords": [
       "AB",
       "blood",
@@ -4131,7 +4131,7 @@
     ],
     "emoji": "🇨🇨",
     "fitz": null,
-    "image": "images/flag__cocos_keeling_islands.png",
+    "image": "images/flag__cocos__keeling_islands.png",
     "keywords": [
       "flag"
     ],
@@ -5522,7 +5522,7 @@
     ],
     "emoji": "🇲🇲",
     "fitz": null,
-    "image": "images/flag__myanmar_burma_.png",
+    "image": "images/flag__myanmar__burma.png",
     "keywords": [
       "flag"
     ],

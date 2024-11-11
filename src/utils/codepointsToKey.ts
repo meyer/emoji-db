@@ -28,13 +28,11 @@ export const codepointsToKey = (codepointsOrig: number[]) => {
     if (codepoints.filter((f) => !kissCodepoints.includes(f)).length === 0) {
       return `1f48f.${toFamString(codepoints)}`;
     }
-    if (codepoints.filter((f) => !famInitialsByCodepoint.hasOwnProperty(f)).length === 0) {
+    if (codepoints.filter((f) => !(f in famInitialsByCodepoint)).length === 0) {
       return `1f46a.${toFamString(codepoints)}`;
     }
-  } else {
-    if (fitzpatrickModifiers.includes(codepoints[0]!)) {
-      return codepoints[0]!.toString(16);
-    }
+  } else if (codepoints[0] && fitzpatrickModifiers.includes(codepoints[0])) {
+    return codepoints[0].toString(16);
   }
 
   const fitzIndeces: number[] = [];

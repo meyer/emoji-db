@@ -23,6 +23,7 @@ try {
       const { fileName: friendlyFileName } = getMetadataForEmojiKey(key);
       filename = `${friendlyFileName}.png`;
     } catch (err) {
+      // biome-ignore lint/suspicious/noExplicitAny: its fine
       console.warn((err as any).message);
       filename = `ERROR-${name}.png`;
     }

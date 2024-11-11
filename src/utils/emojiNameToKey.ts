@@ -5,8 +5,8 @@ const emojiNameRegex = /^([u\dA-F_]+)(\.[0-6](?:[0-6])?)?(\.[MWBG]+)?$/;
 
 export const emojiNameToKey = (name: string): string => {
   const match = name.match(emojiNameRegex);
-  invariant(match, 'Invalid emoji name: `%s`', name);
-  const codepointString = match[1]!.toLowerCase();
+  invariant(match?.[1], 'Invalid emoji name: `%s`', name);
+  const codepointString = match[1].toLowerCase();
   const famString = match[3] || '';
 
   let fitzString = '';

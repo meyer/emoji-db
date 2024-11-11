@@ -34,7 +34,7 @@ const ttf = await getFontByName(fontPath, 'AppleColorEmoji');
 const emojiDb: EmojiDb = {};
 const absPath = path.join(ROOT_DIR, 'emoji-db.json');
 
-const keywordsByEmoji: Record<string, string[] | undefined> = yaml.parse(
+const keywordsByEmoji: Record<string, string[]> = yaml.parse(
   fs.readFileSync(path.join(ROOT_DIR, 'extra-keywords.yaml'), 'utf8')
 );
 
@@ -61,7 +61,7 @@ try {
 
     const fitzMatch = keyFromName.match(fitzRegex);
 
-    if (fitzMatch) {
+    if (fitzMatch?.[1]) {
       const zeroKey = keyFromName.replace(fitzRegex, '$2');
 
       // @ts-expect-error partial is OK
@@ -69,7 +69,7 @@ try {
         ...emojiDb[zeroKey],
         fitz: {
           ...emojiDb[zeroKey]?.fitz,
-          [fitzMatch[1]!]: {
+          [fitzMatch[1]]: {
             name,
             image: `images/${fileName}.png`,
             emoji: char,

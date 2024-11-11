@@ -18,7 +18,11 @@
     "rules": {
       "recommended": true,
       "style": {
-        "useNodejsImportProtocol": "off"
+        "useNodejsImportProtocol": "off",
+        "useTemplate": "info"
+      },
+      "suspicious": {
+        "noPrototypeBuiltins": "info"
       },
       "complexity": {
         "useSimpleNumberKeys": {

@@ -15,25 +15,35 @@ for (const txtFile of [
   // 0023 FE0E  ; text style;
   'emoji-variation-sequences.txt',
 ]) {
-  const sequenceData: Record<string, any> = {};
+  const sequenceData: Record<
+    string,
+    {
+      codepoints: number[];
+      char: string;
+      sortKey: string;
+      description?: string;
+    }
+  > = {};
   const txtPath = path.join(CACHE_DIR, txtFile);
   const basename = path.basename(txtFile, '.txt');
 
-  const txtFileContent = fs.readFileSync(txtPath, 'utf8');
+  const txtFileHandle = await fs.promises.open(txtPath);
 
-  txtFileContent.split('\n').forEach((line, idx) => {
+  let idx = 0;
+  for await (const line of txtFileHandle.readLines()) {
+    idx++;
     if (line.startsWith('#') || line === '') {
       console.info('Ignoring line:', line);
-      return;
+      continue;
     }
 
     // strip off trailing comments
-    const lineSansComment = line.split('#')[0];
-    const lineBits = lineSansComment!.split(';').map((f) => f.trim());
+    const lineSansComment = line.slice(0, line.indexOf('#'));
+    const lineBits = lineSansComment.split(';').map((f) => f.trim());
 
     if (lineBits.length !== 3) {
       console.info('Skipping line %s: `%s`', idx, line);
-      return;
+      continue;
     }
 
     const [codepointString, category, description] = lineBits;
@@ -46,10 +56,10 @@ for (const txtFile of [
 
     if (description?.match(/\w\.\.\w/)) {
       console.info('Skipping range line %s: `%s` (%s)', idx, codepointString, description);
-      return;
+      continue;
     }
 
-    invariant(!sequenceData.hasOwnProperty(emojiKey), 'Already have a thing for `%s`!', emojiKey);
+    invariant(!(emojiKey in sequenceData), 'Already have a thing for `%s`!', emojiKey);
 
     const char = String.fromCodePoint(...codepoints);
 
@@ -64,13 +74,13 @@ for (const txtFile of [
         codepoints,
         char,
         // according to emoji-sequences.txt, "characters may be escaped with \x{hex}". this undoes that escaping.
-        description: description!.replace(/\\x\{([0-9A-F]+)\}/gi, (_all, group1) => {
+        description: description?.replace(/\\x\{([0-9A-F]+)\}/gi, (_all, group1) => {
           return String.fromCodePoint(Number.parseInt(group1, 16));
         }),
         sortKey,
       };
     }
-  });
+  }
 
   fs.writeFileSync(path.join(DATA_DIR, `${basename}.json`), stringify(sequenceData, sortKeyStringifyOptions));
 }

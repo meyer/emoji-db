@@ -53,12 +53,12 @@ export class TrueTypeFont {
     public readonly head: HeadTable,
     public readonly name: Partial<Record<NameIdKey, string>>,
     public readonly numTables: number,
-    public readonly tableOffsetsByTag: Record<string, number | undefined>
+    public readonly tableOffsetsByTag: Record<string, number>
   ) {}
 
   /** https://docs.microsoft.com/en-us/typography/opentype/spec/cmap */
   public async getCmapTable(): Promise<CmapTable> {
-    invariant(this.tableOffsetsByTag.cmap != null, 'Missing cmap table offset');
+    invariant(this.tableOffsetsByTag.cmap, 'Missing cmap table offset');
     const bp = new BinaryParser(this.fh, this.tableOffsetsByTag.cmap);
 
     const cmapVersion = await bp.uint16();

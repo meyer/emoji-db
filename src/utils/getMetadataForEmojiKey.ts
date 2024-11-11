@@ -13,7 +13,7 @@ import { invariant } from './invariant.js';
 const holdingHandRegex = /^(1f9d1_1f91d_1f9d1|1f46b|1f46c|1f46d)\.([1-5])([1-5])$/;
 const fitzRegex = /^([u0-9a-f_]+)(\.[1-5][1-5]?)?(\.[MWBG]+)?$/;
 
-const keywordsByEmoji: Record<string, string[] | undefined> = yaml.parse(
+const keywordsByEmoji: Record<string, string[]> = yaml.parse(
   fs.readFileSync(path.join(ROOT_DIR, 'extra-keywords.yaml'), 'utf8')
 );
 
@@ -89,18 +89,20 @@ export const getMetadataForEmojiKey = (key: string) => {
   }
 
   const fileName = name
+    .toLowerCase()
     .replace('*', 'asterisk')
     .replace('#', 'hash')
+    .replace(/\((.+)\)/g, '_$1')
     .replace(/(\w)\:\s(\w)/, '$1__$2')
     // remove "apostrophes"
     .replace(/['\u2019]/g, '')
     // https://stackoverflow.com/a/37511463
     .normalize('NFD')
+    // biome-ignore lint/suspicious/noMisleadingCharacterClass: its ok
     .replace(/[\u0300-\u036f]/g, '')
     .replace(' & ', ' and ')
     .replace(/[^\w\-_]+/g, '_')
-    .replace(/^-+|-+$/g, '')
-    .toLowerCase();
+    .replace(/^_+|_+$/g, '');
 
   return { char, codepoints, keywords, name, fileName };
 };
