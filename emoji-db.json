@@ -2630,6 +2630,29 @@
     "unicode_category": "objects",
     "unicode_subcategory": null
   },
+  "26d3_1f4a5": {
+    "codepoints": [
+      9939,
+      65039,
+      8205,
+      128165
+    ],
+    "emoji": "⛓️‍💥",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/broken_chain.png",
+    "keywords": [
+      "break",
+      "breaking",
+      "broken",
+      "chain",
+      "cuffs",
+      "freedom"
+    ],
+    "name": "broken chain",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
   "26d4": {
     "codepoints": [
       9940
@@ -11685,6 +11708,38 @@
     "unicode_category": "animals_and_nature",
     "unicode_subcategory": null
   },
+  "1f344_1f7eb": {
+    "codepoints": [
+      127812,
+      8205,
+      129003
+    ],
+    "emoji": "🍄‍🟫",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/brown_mushroom.png",
+    "keywords": [
+      "food",
+      "fungi",
+      "fungus",
+      "mushroom",
+      "nature",
+      "pizza",
+      "portobello",
+      "shiitake",
+      "shroom",
+      "spore",
+      "sprout",
+      "toppings",
+      "truffle",
+      "vegetable",
+      "vegetarian",
+      "veggie"
+    ],
+    "name": "brown mushroom",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
   "1f345": {
     "codepoints": [
       127813
@@ -11821,6 +11876,38 @@
     ],
     "name": "lemon",
     "unicode_category": "food_and_drink",
+    "unicode_subcategory": null
+  },
+  "1f34b_1f7e9": {
+    "codepoints": [
+      127819,
+      8205,
+      129001
+    ],
+    "emoji": "🍋‍🟩",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/lime.png",
+    "keywords": [
+      "acidity",
+      "citrus",
+      "cocktail",
+      "fruit",
+      "garnish",
+      "key",
+      "lime",
+      "margarita",
+      "mojito",
+      "refreshing",
+      "salsa",
+      "sour",
+      "tangy",
+      "tequila",
+      "tropical",
+      "zest"
+    ],
+    "name": "lime",
+    "unicode_category": null,
     "unicode_subcategory": null
   },
   "1f34c": {
@@ -17849,6 +17936,64 @@
     "unicode_category": "animals_and_nature",
     "unicode_subcategory": null
   },
+  "1f426_2b1b": {
+    "codepoints": [
+      128038,
+      8205,
+      11035
+    ],
+    "emoji": "🐦‍⬛",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/black_bird.png",
+    "keywords": [
+      "animal",
+      "beak",
+      "bird",
+      "black",
+      "caw",
+      "corvid",
+      "crow",
+      "ornithology",
+      "raven",
+      "rook"
+    ],
+    "name": "black bird",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1f426_1f525": {
+    "codepoints": [
+      128038,
+      8205,
+      128293
+    ],
+    "emoji": "🐦‍🔥",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/phoenix.png",
+    "keywords": [
+      "ascend",
+      "ascension",
+      "emerge",
+      "fantasy",
+      "firebird",
+      "glory",
+      "immortal",
+      "phoenix",
+      "rebirth",
+      "reincarnation",
+      "reinvent",
+      "renewal",
+      "revival",
+      "revive",
+      "rise",
+      "transform"
+    ],
+    "name": "phoenix",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
   "1f426": {
     "codepoints": [
       128038,
@@ -21127,419 +21272,6 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
-  "1f46a.MB": {
-    "codepoints": [
-      128104,
-      8205,
-      128102
-    ],
-    "emoji": "👨‍👦",
-    "emojilib_name": "family_man_boy",
-    "fitz": null,
-    "image": "images/family__man_boy.png",
-    "keywords": [
-      "boy",
-      "child",
-      "family",
-      "home",
-      "human",
-      "man",
-      "parent",
-      "people"
-    ],
-    "name": "family: man, boy",
-    "unicode_category": "people",
-    "unicode_subcategory": null
-  },
-  "1f46a.MBB": {
-    "codepoints": [
-      128104,
-      8205,
-      128102,
-      8205,
-      128102
-    ],
-    "emoji": "👨‍👦‍👦",
-    "emojilib_name": "family_man_boy_boy",
-    "fitz": null,
-    "image": "images/family__man_boy_boy.png",
-    "keywords": [
-      "boy",
-      "child",
-      "children",
-      "family",
-      "home",
-      "human",
-      "man",
-      "parent",
-      "people"
-    ],
-    "name": "family: man, boy, boy",
-    "unicode_category": "people",
-    "unicode_subcategory": null
-  },
-  "1f46a.MG": {
-    "codepoints": [
-      128104,
-      8205,
-      128103
-    ],
-    "emoji": "👨‍👧",
-    "emojilib_name": "family_man_girl",
-    "fitz": null,
-    "image": "images/family__man_girl.png",
-    "keywords": [
-      "child",
-      "family",
-      "girl",
-      "home",
-      "human",
-      "man",
-      "parent",
-      "people"
-    ],
-    "name": "family: man, girl",
-    "unicode_category": "people",
-    "unicode_subcategory": null
-  },
-  "1f46a.MGB": {
-    "codepoints": [
-      128104,
-      8205,
-      128103,
-      8205,
-      128102
-    ],
-    "emoji": "👨‍👧‍👦",
-    "emojilib_name": "family_man_girl_boy",
-    "fitz": null,
-    "image": "images/family__man_girl_boy.png",
-    "keywords": [
-      "boy",
-      "child",
-      "children",
-      "family",
-      "girl",
-      "home",
-      "human",
-      "man",
-      "parent",
-      "people"
-    ],
-    "name": "family: man, girl, boy",
-    "unicode_category": "people",
-    "unicode_subcategory": null
-  },
-  "1f46a.MGG": {
-    "codepoints": [
-      128104,
-      8205,
-      128103,
-      8205,
-      128103
-    ],
-    "emoji": "👨‍👧‍👧",
-    "emojilib_name": "family_man_girl_girl",
-    "fitz": null,
-    "image": "images/family__man_girl_girl.png",
-    "keywords": [
-      "child",
-      "children",
-      "family",
-      "girl",
-      "home",
-      "human",
-      "man",
-      "parent",
-      "people"
-    ],
-    "name": "family: man, girl, girl",
-    "unicode_category": "people",
-    "unicode_subcategory": null
-  },
-  "1f46a.MMB": {
-    "codepoints": [
-      128104,
-      8205,
-      128104,
-      8205,
-      128102
-    ],
-    "emoji": "👨‍👨‍👦",
-    "emojilib_name": "family_man_man_boy",
-    "fitz": null,
-    "image": "images/family__man_man_boy.png",
-    "keywords": [
-      "boy",
-      "child",
-      "children",
-      "family",
-      "home",
-      "human",
-      "man",
-      "parents",
-      "people"
-    ],
-    "name": "family: man, man, boy",
-    "unicode_category": "people",
-    "unicode_subcategory": null
-  },
-  "1f46a.MMBB": {
-    "codepoints": [
-      128104,
-      8205,
-      128104,
-      8205,
-      128102,
-      8205,
-      128102
-    ],
-    "emoji": "👨‍👨‍👦‍👦",
-    "emojilib_name": "family_man_man_boy_boy",
-    "fitz": null,
-    "image": "images/family__man_man_boy_boy.png",
-    "keywords": [
-      "boy",
-      "child",
-      "children",
-      "family",
-      "home",
-      "human",
-      "man",
-      "parents",
-      "people"
-    ],
-    "name": "family: man, man, boy, boy",
-    "unicode_category": "people",
-    "unicode_subcategory": null
-  },
-  "1f46a.MMG": {
-    "codepoints": [
-      128104,
-      8205,
-      128104,
-      8205,
-      128103
-    ],
-    "emoji": "👨‍👨‍👧",
-    "emojilib_name": "family_man_man_girl",
-    "fitz": null,
-    "image": "images/family__man_man_girl.png",
-    "keywords": [
-      "child",
-      "children",
-      "family",
-      "girl",
-      "home",
-      "human",
-      "man",
-      "parents",
-      "people"
-    ],
-    "name": "family: man, man, girl",
-    "unicode_category": "people",
-    "unicode_subcategory": null
-  },
-  "1f46a.MMGB": {
-    "codepoints": [
-      128104,
-      8205,
-      128104,
-      8205,
-      128103,
-      8205,
-      128102
-    ],
-    "emoji": "👨‍👨‍👧‍👦",
-    "emojilib_name": "family_man_man_girl_boy",
-    "fitz": null,
-    "image": "images/family__man_man_girl_boy.png",
-    "keywords": [
-      "boy",
-      "child",
-      "children",
-      "family",
-      "girl",
-      "home",
-      "human",
-      "man",
-      "parents",
-      "people"
-    ],
-    "name": "family: man, man, girl, boy",
-    "unicode_category": "people",
-    "unicode_subcategory": null
-  },
-  "1f46a.MMGG": {
-    "codepoints": [
-      128104,
-      8205,
-      128104,
-      8205,
-      128103,
-      8205,
-      128103
-    ],
-    "emoji": "👨‍👨‍👧‍👧",
-    "emojilib_name": "family_man_man_girl_girl",
-    "fitz": null,
-    "image": "images/family__man_man_girl_girl.png",
-    "keywords": [
-      "child",
-      "children",
-      "family",
-      "girl",
-      "home",
-      "human",
-      "man",
-      "parents",
-      "people"
-    ],
-    "name": "family: man, man, girl, girl",
-    "unicode_category": "people",
-    "unicode_subcategory": null
-  },
-  "1f46a.MWB": {
-    "codepoints": [
-      128104,
-      8205,
-      128105,
-      8205,
-      128102
-    ],
-    "emoji": "👨‍👩‍👦",
-    "emojilib_name": null,
-    "fitz": null,
-    "image": "images/family__man_woman_boy.png",
-    "keywords": [
-      "boy",
-      "child",
-      "family",
-      "man",
-      "woman"
-    ],
-    "name": "family: man, woman, boy",
-    "unicode_category": null,
-    "unicode_subcategory": null
-  },
-  "1f46a.MWBB": {
-    "codepoints": [
-      128104,
-      8205,
-      128105,
-      8205,
-      128102,
-      8205,
-      128102
-    ],
-    "emoji": "👨‍👩‍👦‍👦",
-    "emojilib_name": "family_man_woman_boy_boy",
-    "fitz": null,
-    "image": "images/family__man_woman_boy_boy.png",
-    "keywords": [
-      "boy",
-      "child",
-      "children",
-      "family",
-      "home",
-      "human",
-      "man",
-      "parents",
-      "people",
-      "woman"
-    ],
-    "name": "family: man, woman, boy, boy",
-    "unicode_category": "people",
-    "unicode_subcategory": null
-  },
-  "1f46a.MWG": {
-    "codepoints": [
-      128104,
-      8205,
-      128105,
-      8205,
-      128103
-    ],
-    "emoji": "👨‍👩‍👧",
-    "emojilib_name": "family_man_woman_girl",
-    "fitz": null,
-    "image": "images/family__man_woman_girl.png",
-    "keywords": [
-      "child",
-      "family",
-      "girl",
-      "home",
-      "human",
-      "man",
-      "parents",
-      "people",
-      "woman"
-    ],
-    "name": "family: man, woman, girl",
-    "unicode_category": "people",
-    "unicode_subcategory": null
-  },
-  "1f46a.MWGB": {
-    "codepoints": [
-      128104,
-      8205,
-      128105,
-      8205,
-      128103,
-      8205,
-      128102
-    ],
-    "emoji": "👨‍👩‍👧‍👦",
-    "emojilib_name": "family_man_woman_girl_boy",
-    "fitz": null,
-    "image": "images/family__man_woman_girl_boy.png",
-    "keywords": [
-      "boy",
-      "child",
-      "children",
-      "family",
-      "girl",
-      "home",
-      "human",
-      "man",
-      "parents",
-      "people",
-      "woman"
-    ],
-    "name": "family: man, woman, girl, boy",
-    "unicode_category": "people",
-    "unicode_subcategory": null
-  },
-  "1f46a.MWGG": {
-    "codepoints": [
-      128104,
-      8205,
-      128105,
-      8205,
-      128103,
-      8205,
-      128103
-    ],
-    "emoji": "👨‍👩‍👧‍👧",
-    "emojilib_name": "family_man_woman_girl_girl",
-    "fitz": null,
-    "image": "images/family__man_woman_girl_girl.png",
-    "keywords": [
-      "child",
-      "children",
-      "family",
-      "girl",
-      "home",
-      "human",
-      "man",
-      "parents",
-      "people",
-      "woman"
-    ],
-    "name": "family: man, woman, girl, girl",
-    "unicode_category": "people",
-    "unicode_subcategory": null
-  },
   "1f468_1f4bb": {
     "codepoints": [
       128104,
@@ -23490,278 +23222,6 @@
       "worker"
     ],
     "name": "woman factory worker",
-    "unicode_category": "people",
-    "unicode_subcategory": null
-  },
-  "1f46a.WB": {
-    "codepoints": [
-      128105,
-      8205,
-      128102
-    ],
-    "emoji": "👩‍👦",
-    "emojilib_name": "family_woman_boy",
-    "fitz": null,
-    "image": "images/family__woman_boy.png",
-    "keywords": [
-      "boy",
-      "child",
-      "family",
-      "home",
-      "human",
-      "parent",
-      "people",
-      "woman"
-    ],
-    "name": "family: woman, boy",
-    "unicode_category": "people",
-    "unicode_subcategory": null
-  },
-  "1f46a.WBB": {
-    "codepoints": [
-      128105,
-      8205,
-      128102,
-      8205,
-      128102
-    ],
-    "emoji": "👩‍👦‍👦",
-    "emojilib_name": "family_woman_boy_boy",
-    "fitz": null,
-    "image": "images/family__woman_boy_boy.png",
-    "keywords": [
-      "boy",
-      "child",
-      "children",
-      "family",
-      "home",
-      "human",
-      "parent",
-      "people",
-      "woman"
-    ],
-    "name": "family: woman, boy, boy",
-    "unicode_category": "people",
-    "unicode_subcategory": null
-  },
-  "1f46a.WG": {
-    "codepoints": [
-      128105,
-      8205,
-      128103
-    ],
-    "emoji": "👩‍👧",
-    "emojilib_name": "family_woman_girl",
-    "fitz": null,
-    "image": "images/family__woman_girl.png",
-    "keywords": [
-      "child",
-      "family",
-      "girl",
-      "home",
-      "human",
-      "parent",
-      "people",
-      "woman"
-    ],
-    "name": "family: woman, girl",
-    "unicode_category": "people",
-    "unicode_subcategory": null
-  },
-  "1f46a.WGB": {
-    "codepoints": [
-      128105,
-      8205,
-      128103,
-      8205,
-      128102
-    ],
-    "emoji": "👩‍👧‍👦",
-    "emojilib_name": "family_woman_girl_boy",
-    "fitz": null,
-    "image": "images/family__woman_girl_boy.png",
-    "keywords": [
-      "boy",
-      "child",
-      "children",
-      "family",
-      "girl",
-      "home",
-      "human",
-      "parent",
-      "people",
-      "woman"
-    ],
-    "name": "family: woman, girl, boy",
-    "unicode_category": "people",
-    "unicode_subcategory": null
-  },
-  "1f46a.WGG": {
-    "codepoints": [
-      128105,
-      8205,
-      128103,
-      8205,
-      128103
-    ],
-    "emoji": "👩‍👧‍👧",
-    "emojilib_name": "family_woman_girl_girl",
-    "fitz": null,
-    "image": "images/family__woman_girl_girl.png",
-    "keywords": [
-      "child",
-      "children",
-      "family",
-      "girl",
-      "home",
-      "human",
-      "parent",
-      "people",
-      "woman"
-    ],
-    "name": "family: woman, girl, girl",
-    "unicode_category": "people",
-    "unicode_subcategory": null
-  },
-  "1f46a.WWB": {
-    "codepoints": [
-      128105,
-      8205,
-      128105,
-      8205,
-      128102
-    ],
-    "emoji": "👩‍👩‍👦",
-    "emojilib_name": "family_woman_woman_boy",
-    "fitz": null,
-    "image": "images/family__woman_woman_boy.png",
-    "keywords": [
-      "boy",
-      "child",
-      "children",
-      "family",
-      "home",
-      "human",
-      "parents",
-      "people",
-      "woman"
-    ],
-    "name": "family: woman, woman, boy",
-    "unicode_category": "people",
-    "unicode_subcategory": null
-  },
-  "1f46a.WWBB": {
-    "codepoints": [
-      128105,
-      8205,
-      128105,
-      8205,
-      128102,
-      8205,
-      128102
-    ],
-    "emoji": "👩‍👩‍👦‍👦",
-    "emojilib_name": "family_woman_woman_boy_boy",
-    "fitz": null,
-    "image": "images/family__woman_woman_boy_boy.png",
-    "keywords": [
-      "boy",
-      "child",
-      "children",
-      "family",
-      "home",
-      "human",
-      "parents",
-      "people",
-      "woman"
-    ],
-    "name": "family: woman, woman, boy, boy",
-    "unicode_category": "people",
-    "unicode_subcategory": null
-  },
-  "1f46a.WWG": {
-    "codepoints": [
-      128105,
-      8205,
-      128105,
-      8205,
-      128103
-    ],
-    "emoji": "👩‍👩‍👧",
-    "emojilib_name": "family_woman_woman_girl",
-    "fitz": null,
-    "image": "images/family__woman_woman_girl.png",
-    "keywords": [
-      "child",
-      "children",
-      "family",
-      "girl",
-      "home",
-      "human",
-      "parents",
-      "people",
-      "woman"
-    ],
-    "name": "family: woman, woman, girl",
-    "unicode_category": "people",
-    "unicode_subcategory": null
-  },
-  "1f46a.WWGB": {
-    "codepoints": [
-      128105,
-      8205,
-      128105,
-      8205,
-      128103,
-      8205,
-      128102
-    ],
-    "emoji": "👩‍👩‍👧‍👦",
-    "emojilib_name": "family_woman_woman_girl_boy",
-    "fitz": null,
-    "image": "images/family__woman_woman_girl_boy.png",
-    "keywords": [
-      "boy",
-      "child",
-      "children",
-      "family",
-      "girl",
-      "home",
-      "human",
-      "parents",
-      "people",
-      "woman"
-    ],
-    "name": "family: woman, woman, girl, boy",
-    "unicode_category": "people",
-    "unicode_subcategory": null
-  },
-  "1f46a.WWGG": {
-    "codepoints": [
-      128105,
-      8205,
-      128105,
-      8205,
-      128103,
-      8205,
-      128103
-    ],
-    "emoji": "👩‍👩‍👧‍👧",
-    "emojilib_name": "family_woman_woman_girl_girl",
-    "fitz": null,
-    "image": "images/family__woman_woman_girl_girl.png",
-    "keywords": [
-      "child",
-      "children",
-      "family",
-      "girl",
-      "home",
-      "human",
-      "parents",
-      "people",
-      "woman"
-    ],
-    "name": "family: woman, woman, girl, girl",
     "unicode_category": "people",
     "unicode_subcategory": null
   },
@@ -36611,6 +36071,50 @@
     "unicode_category": "people",
     "unicode_subcategory": null
   },
+  "1f642_2194": {
+    "codepoints": [
+      128578,
+      8205,
+      8596,
+      65039
+    ],
+    "emoji": "🙂‍↔️",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/head_shaking_horizontally.png",
+    "keywords": [
+      "head",
+      "horizontally",
+      "no",
+      "shake",
+      "shaking"
+    ],
+    "name": "head shaking horizontally",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1f642_2195": {
+    "codepoints": [
+      128578,
+      8205,
+      8597,
+      65039
+    ],
+    "emoji": "🙂‍↕️",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/head_shaking_vertically.png",
+    "keywords": [
+      "head",
+      "nod",
+      "shaking",
+      "vertically",
+      "yes"
+    ],
+    "name": "head shaking vertically",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
   "1f643": {
     "codepoints": [
       128579
@@ -41148,6 +40652,32 @@
       "lift"
     ],
     "name": "elevator",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1f6dc": {
+    "codepoints": [
+      128732
+    ],
+    "emoji": "🛜",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/wireless.png",
+    "keywords": [
+      "broadband",
+      "computer",
+      "connectivity",
+      "hotspot",
+      "internet",
+      "network",
+      "router",
+      "smartphone",
+      "wi-fi",
+      "wifi",
+      "wireless",
+      "wlan"
+    ],
+    "name": "wireless",
     "unicode_category": null,
     "unicode_subcategory": null
   },
@@ -51858,6 +51388,69 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
+  "1f9d1_1f9d1_1f9d2_1f9d2": {
+    "codepoints": [
+      129489,
+      8205,
+      129489,
+      8205,
+      129490,
+      8205,
+      129490
+    ],
+    "emoji": "🧑‍🧑‍🧒‍🧒",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/family__adult_adult_child_child.png",
+    "keywords": [
+      "adult",
+      "child",
+      "family"
+    ],
+    "name": "family: adult, adult, child, child",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1f9d1_1f9d2": {
+    "codepoints": [
+      129489,
+      8205,
+      129490
+    ],
+    "emoji": "🧑‍🧒",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/family__adult_child.png",
+    "keywords": [
+      "adult",
+      "child",
+      "family"
+    ],
+    "name": "family: adult, child",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1f9d1_1f9d2_1f9d2": {
+    "codepoints": [
+      129489,
+      8205,
+      129490,
+      8205,
+      129490
+    ],
+    "emoji": "🧑‍🧒‍🧒",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/family__adult_child_child.png",
+    "keywords": [
+      "adult",
+      "child",
+      "family"
+    ],
+    "name": "family: adult, child, child",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
   "1f9d2": {
     "codepoints": [
       129490
@@ -55180,6 +54773,82 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
+  "1fa75": {
+    "codepoints": [
+      129653
+    ],
+    "emoji": "🩵",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/light_blue_heart_pink_heart.png",
+    "keywords": [
+      "143",
+      "blue",
+      "cute",
+      "cyan",
+      "emotion",
+      "heart",
+      "ily",
+      "light",
+      "like",
+      "love",
+      "sky",
+      "special",
+      "teal"
+    ],
+    "name": "light blue heart..pink heart",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fa76": {
+    "codepoints": [
+      129654
+    ],
+    "emoji": "🩶",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/grey_heart.png",
+    "keywords": [
+      "143",
+      "emotion",
+      "gray",
+      "grey",
+      "heart",
+      "ily",
+      "love",
+      "silver",
+      "slate",
+      "special"
+    ],
+    "name": "grey heart",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fa77": {
+    "codepoints": [
+      129655
+    ],
+    "emoji": "🩷",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/pink_heart.png",
+    "keywords": [
+      "143",
+      "adorable",
+      "cute",
+      "emotion",
+      "heart",
+      "ily",
+      "like",
+      "love",
+      "pink",
+      "special",
+      "sweet"
+    ],
+    "name": "pink heart",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
   "1fa78": {
     "codepoints": [
       129656
@@ -55412,6 +55081,56 @@
       "russia"
     ],
     "name": "nesting dolls",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fa87": {
+    "codepoints": [
+      129671
+    ],
+    "emoji": "🪇",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/maracas_flute.png",
+    "keywords": [
+      "cha",
+      "dance",
+      "instrument",
+      "maracas",
+      "music",
+      "party",
+      "percussion",
+      "rattle",
+      "shake",
+      "shaker"
+    ],
+    "name": "maracas..flute",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fa88": {
+    "codepoints": [
+      129672
+    ],
+    "emoji": "🪈",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/flute.png",
+    "keywords": [
+      "band",
+      "fife",
+      "flautist",
+      "flute",
+      "instrument",
+      "marching",
+      "music",
+      "orchestra",
+      "piccolo",
+      "pipe",
+      "recorder",
+      "woodwind"
+    ],
+    "name": "flute",
     "unicode_category": null,
     "unicode_subcategory": null
   },
@@ -56001,6 +55720,73 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
+  "1faad": {
+    "codepoints": [
+      129709
+    ],
+    "emoji": "🪭",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/folding_hand_fan_khanda.png",
+    "keywords": [
+      "clack",
+      "clap",
+      "cool",
+      "cooling",
+      "dance",
+      "fan",
+      "flirt",
+      "flutter",
+      "folding",
+      "hand",
+      "hot",
+      "shy"
+    ],
+    "name": "folding hand fan..khanda",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1faae": {
+    "codepoints": [
+      129710
+    ],
+    "emoji": "🪮",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/hair_pick.png",
+    "keywords": [
+      "Afro",
+      "comb",
+      "groom",
+      "hair",
+      "pick"
+    ],
+    "name": "hair pick",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1faaf": {
+    "codepoints": [
+      129711
+    ],
+    "emoji": "🪯",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/khanda.png",
+    "keywords": [
+      "Deg",
+      "Fateh",
+      "Khalsa",
+      "Khanda",
+      "Sikh",
+      "Sikhism",
+      "Tegh",
+      "religion"
+    ],
+    "name": "khanda",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
   "1fab0": {
     "codepoints": [
       129712
@@ -56215,6 +56001,113 @@
       "nesting"
     ],
     "name": "nest with eggs",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fabb": {
+    "codepoints": [
+      129723
+    ],
+    "emoji": "🪻",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/hyacinth_wing.png",
+    "keywords": [
+      "bloom",
+      "bluebonnet",
+      "flower",
+      "hyacinth",
+      "indigo",
+      "lavender",
+      "lilac",
+      "lupine",
+      "plant",
+      "purple",
+      "shrub",
+      "snapdragon",
+      "spring",
+      "violet"
+    ],
+    "name": "hyacinth..wing",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fabc": {
+    "codepoints": [
+      129724
+    ],
+    "emoji": "🪼",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/jellyfish.png",
+    "keywords": [
+      "animal",
+      "aquarium",
+      "burn",
+      "invertebrate",
+      "jelly",
+      "jellyfish",
+      "life",
+      "marine",
+      "ocean",
+      "ouch",
+      "plankton",
+      "sea",
+      "sting",
+      "stinger",
+      "tentacles"
+    ],
+    "name": "jellyfish",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fabd": {
+    "codepoints": [
+      129725
+    ],
+    "emoji": "🪽",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/wing.png",
+    "keywords": [
+      "angelic",
+      "ascend",
+      "aviation",
+      "bird",
+      "fly",
+      "flying",
+      "heavenly",
+      "mythology",
+      "soar",
+      "wing"
+    ],
+    "name": "wing",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fabf": {
+    "codepoints": [
+      129727
+    ],
+    "emoji": "🪿",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/goose.png",
+    "keywords": [
+      "animal",
+      "bird",
+      "duck",
+      "flock",
+      "fowl",
+      "gaggle",
+      "gander",
+      "geese",
+      "goose",
+      "honk",
+      "ornithology",
+      "silly"
+    ],
+    "name": "goose",
     "unicode_category": null,
     "unicode_subcategory": null
   },
@@ -56488,6 +56381,48 @@
     "unicode_category": null,
     "unicode_subcategory": null
   },
+  "1face": {
+    "codepoints": [
+      129742
+    ],
+    "emoji": "🫎",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/moose_donkey.png",
+    "keywords": [
+      "alces",
+      "animal",
+      "antlers",
+      "elk",
+      "mammal",
+      "moose"
+    ],
+    "name": "moose..donkey",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1facf": {
+    "codepoints": [
+      129743
+    ],
+    "emoji": "🫏",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/donkey.png",
+    "keywords": [
+      "animal",
+      "ass",
+      "burro",
+      "donkey",
+      "hinny",
+      "mammal",
+      "mule",
+      "stubborn"
+    ],
+    "name": "donkey",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
   "1fad0": {
     "codepoints": [
       129744
@@ -56688,6 +56623,50 @@
       "store"
     ],
     "name": "jar",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fada": {
+    "codepoints": [
+      129754
+    ],
+    "emoji": "🫚",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/ginger_root_pea_pod.png",
+    "keywords": [
+      "beer",
+      "ginger",
+      "health",
+      "herb",
+      "natural",
+      "root",
+      "spice"
+    ],
+    "name": "ginger root..pea pod",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fadb": {
+    "codepoints": [
+      129755
+    ],
+    "emoji": "🫛",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/pea_pod.png",
+    "keywords": [
+      "beans",
+      "beanstalk",
+      "edamame",
+      "legume",
+      "pea",
+      "pod",
+      "soybean",
+      "vegetable",
+      "veggie"
+    ],
+    "name": "pea pod",
     "unicode_category": null,
     "unicode_subcategory": null
   },
@@ -56901,6 +56880,32 @@
       "underwater"
     ],
     "name": "bubbles",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1fae8": {
+    "codepoints": [
+      129768
+    ],
+    "emoji": "🫨",
+    "emojilib_name": null,
+    "fitz": null,
+    "image": "images/shaking_face.png",
+    "keywords": [
+      "crazy",
+      "daze",
+      "earthquake",
+      "face",
+      "omg",
+      "panic",
+      "shaking",
+      "shock",
+      "surprise",
+      "vibrate",
+      "whoa",
+      "wow"
+    ],
+    "name": "shaking face",
     "unicode_category": null,
     "unicode_subcategory": null
   },
@@ -57381,6 +57386,156 @@
       "you"
     ],
     "name": "heart hands",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1faf7": {
+    "codepoints": [
+      129783
+    ],
+    "emoji": "🫷",
+    "emojilib_name": null,
+    "fitz": {
+      "1": {
+        "codepoints": [
+          129783,
+          127995
+        ],
+        "emoji": "🫷🏻",
+        "image": "images/leftwards_pushing_hand__light_skin_tone.png",
+        "name": "leftwards pushing hand: light skin tone"
+      },
+      "2": {
+        "codepoints": [
+          129783,
+          127996
+        ],
+        "emoji": "🫷🏼",
+        "image": "images/leftwards_pushing_hand__medium-light_skin_tone.png",
+        "name": "leftwards pushing hand: medium-light skin tone"
+      },
+      "3": {
+        "codepoints": [
+          129783,
+          127997
+        ],
+        "emoji": "🫷🏽",
+        "image": "images/leftwards_pushing_hand__medium_skin_tone.png",
+        "name": "leftwards pushing hand: medium skin tone"
+      },
+      "4": {
+        "codepoints": [
+          129783,
+          127998
+        ],
+        "emoji": "🫷🏾",
+        "image": "images/leftwards_pushing_hand__medium-dark_skin_tone.png",
+        "name": "leftwards pushing hand: medium-dark skin tone"
+      },
+      "5": {
+        "codepoints": [
+          129783,
+          127999
+        ],
+        "emoji": "🫷🏿",
+        "image": "images/leftwards_pushing_hand__dark_skin_tone.png",
+        "name": "leftwards pushing hand: dark skin tone"
+      }
+    },
+    "image": "images/leftwards_pushing_hand_rightwards_pushing_hand.png",
+    "keywords": [
+      "block",
+      "five",
+      "halt",
+      "hand",
+      "high",
+      "hold",
+      "leftward",
+      "leftwards",
+      "pause",
+      "push",
+      "pushing",
+      "refuse",
+      "slap",
+      "stop",
+      "wait"
+    ],
+    "name": "leftwards pushing hand..rightwards pushing hand",
+    "unicode_category": null,
+    "unicode_subcategory": null
+  },
+  "1faf8": {
+    "codepoints": [
+      129784
+    ],
+    "emoji": "🫸",
+    "emojilib_name": null,
+    "fitz": {
+      "1": {
+        "codepoints": [
+          129784,
+          127995
+        ],
+        "emoji": "🫸🏻",
+        "image": "images/rightwards_pushing_hand__light_skin_tone.png",
+        "name": "rightwards pushing hand: light skin tone"
+      },
+      "2": {
+        "codepoints": [
+          129784,
+          127996
+        ],
+        "emoji": "🫸🏼",
+        "image": "images/rightwards_pushing_hand__medium-light_skin_tone.png",
+        "name": "rightwards pushing hand: medium-light skin tone"
+      },
+      "3": {
+        "codepoints": [
+          129784,
+          127997
+        ],
+        "emoji": "🫸🏽",
+        "image": "images/rightwards_pushing_hand__medium_skin_tone.png",
+        "name": "rightwards pushing hand: medium skin tone"
+      },
+      "4": {
+        "codepoints": [
+          129784,
+          127998
+        ],
+        "emoji": "🫸🏾",
+        "image": "images/rightwards_pushing_hand__medium-dark_skin_tone.png",
+        "name": "rightwards pushing hand: medium-dark skin tone"
+      },
+      "5": {
+        "codepoints": [
+          129784,
+          127999
+        ],
+        "emoji": "🫸🏿",
+        "image": "images/rightwards_pushing_hand__dark_skin_tone.png",
+        "name": "rightwards pushing hand: dark skin tone"
+      }
+    },
+    "image": "images/rightwards_pushing_hand.png",
+    "keywords": [
+      "block",
+      "five",
+      "halt",
+      "hand",
+      "high",
+      "hold",
+      "pause",
+      "push",
+      "pushing",
+      "refuse",
+      "rightward",
+      "rightwards",
+      "slap",
+      "stop",
+      "wait"
+    ],
+    "name": "rightwards pushing hand",
     "unicode_category": null,
     "unicode_subcategory": null
   }
