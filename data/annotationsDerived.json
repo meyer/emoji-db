@@ -4080,6 +4080,7 @@
       10145
     ],
     "keywords": [
+      "facing",
       "fast",
       "hurry",
       "marathon",
@@ -4087,12 +4088,13 @@
       "quick",
       "race",
       "racing",
+      "right",
       "run",
       "rush",
       "speed",
       "woman"
     ],
-    "name": "woman running facing right"
+    "name": "woman running: facing right"
   },
   "1f3c3_27a1.M": {
     "char": "🏃‍♂‍➡",
@@ -4104,6 +4106,7 @@
       10145
     ],
     "keywords": [
+      "facing",
       "fast",
       "hurry",
       "man",
@@ -4112,11 +4115,12 @@
       "quick",
       "race",
       "racing",
+      "right",
       "run",
       "rush",
       "speed"
     ],
-    "name": "man running facing right"
+    "name": "man running: facing right"
   },
   "1f3c3_27a1": {
     "char": "🏃‍➡",
@@ -4126,6 +4130,7 @@
       10145
     ],
     "keywords": [
+      "facing",
       "fast",
       "hurry",
       "marathon",
@@ -4134,11 +4139,12 @@
       "quick",
       "race",
       "racing",
+      "right",
       "run",
       "rush",
       "speed"
     ],
-    "name": "person running facing right"
+    "name": "person running: facing right"
   },
   "1f3c3.1": {
     "char": "🏃🏻",
@@ -4197,19 +4203,22 @@
       10145
     ],
     "keywords": [
+      "facing",
       "fast",
       "hurry",
+      "light skin tone",
       "marathon",
       "move",
       "quick",
       "race",
       "racing",
+      "right",
       "run",
       "rush",
       "speed",
       "woman"
     ],
-    "name": "woman running facing right"
+    "name": "woman running: light skin tone, facing right"
   },
   "1f3c3.1.M": {
     "char": "🏃🏻‍♂",
@@ -4246,19 +4255,22 @@
       10145
     ],
     "keywords": [
+      "facing",
       "fast",
       "hurry",
+      "light skin tone",
       "man",
       "marathon",
       "move",
       "quick",
       "race",
       "racing",
+      "right",
       "run",
       "rush",
       "speed"
     ],
-    "name": "man running facing right"
+    "name": "man running: light skin tone, facing right"
   },
   "1f3c3_27a1.1": {
     "char": "🏃🏻‍➡",
@@ -4269,19 +4281,22 @@
       10145
     ],
     "keywords": [
+      "facing",
       "fast",
       "hurry",
+      "light skin tone",
       "marathon",
       "move",
       "person",
       "quick",
       "race",
       "racing",
+      "right",
       "run",
       "rush",
       "speed"
     ],
-    "name": "person running facing right"
+    "name": "person running: light skin tone, facing right"
   },
   "1f3c3.2": {
     "char": "🏃🏼",
@@ -4340,19 +4355,22 @@
       10145
     ],
     "keywords": [
+      "facing",
       "fast",
       "hurry",
       "marathon",
+      "medium-light skin tone",
       "move",
       "quick",
       "race",
       "racing",
+      "right",
       "run",
       "rush",
       "speed",
       "woman"
     ],
-    "name": "woman running facing right"
+    "name": "woman running: medium-light skin tone, facing right"
   },
   "1f3c3.2.M": {
     "char": "🏃🏼‍♂",
@@ -4389,19 +4407,22 @@
       10145
     ],
     "keywords": [
+      "facing",
       "fast",
       "hurry",
       "man",
       "marathon",
+      "medium-light skin tone",
       "move",
       "quick",
       "race",
       "racing",
+      "right",
       "run",
       "rush",
       "speed"
     ],
-    "name": "man running facing right"
+    "name": "man running: medium-light skin tone, facing right"
   },
   "1f3c3_27a1.2": {
     "char": "🏃🏼‍➡",
@@ -4412,19 +4433,22 @@
       10145
     ],
     "keywords": [
+      "facing",
       "fast",
       "hurry",
       "marathon",
+      "medium-light skin tone",
       "move",
       "person",
       "quick",
       "race",
       "racing",
+      "right",
       "run",
       "rush",
       "speed"
     ],
-    "name": "person running facing right"
+    "name": "person running: medium-light skin tone, facing right"
   },
   "1f3c3.3": {
     "char": "🏃🏽",
@@ -4483,19 +4507,22 @@
       10145
     ],
     "keywords": [
+      "facing",
       "fast",
       "hurry",
       "marathon",
+      "medium skin tone",
       "move",
       "quick",
       "race",
       "racing",
+      "right",
       "run",
       "rush",
       "speed",
       "woman"
     ],
-    "name": "woman running facing right"
+    "name": "woman running: medium skin tone, facing right"
   },
   "1f3c3.3.M": {
     "char": "🏃🏽‍♂",
@@ -4532,19 +4559,22 @@
       10145
     ],
     "keywords": [
+      "facing",
       "fast",
       "hurry",
       "man",
       "marathon",
+      "medium skin tone",
       "move",
       "quick",
       "race",
       "racing",
+      "right",
       "run",
       "rush",
       "speed"
     ],
-    "name": "man running facing right"
+    "name": "man running: medium skin tone, facing right"
   },
   "1f3c3_27a1.3": {
     "char": "🏃🏽‍➡",
@@ -4555,19 +4585,22 @@
       10145
     ],
     "keywords": [
+      "facing",
       "fast",
       "hurry",
       "marathon",
+      "medium skin tone",
       "move",
       "person",
       "quick",
       "race",
       "racing",
+      "right",
       "run",
       "rush",
       "speed"
     ],
-    "name": "person running facing right"
+    "name": "person running: medium skin tone, facing right"
   },
   "1f3c3.4": {
     "char": "🏃🏾",
@@ -4626,19 +4659,22 @@
       10145
     ],
     "keywords": [
+      "facing",
       "fast",
       "hurry",
       "marathon",
+      "medium-dark skin tone",
       "move",
       "quick",
       "race",
       "racing",
+      "right",
       "run",
       "rush",
       "speed",
       "woman"
     ],
-    "name": "woman running facing right"
+    "name": "woman running: medium-dark skin tone, facing right"
   },
   "1f3c3.4.M": {
     "char": "🏃🏾‍♂",
@@ -4675,19 +4711,22 @@
       10145
     ],
     "keywords": [
+      "facing",
       "fast",
       "hurry",
       "man",
       "marathon",
+      "medium-dark skin tone",
       "move",
       "quick",
       "race",
       "racing",
+      "right",
       "run",
       "rush",
       "speed"
     ],
-    "name": "man running facing right"
+    "name": "man running: medium-dark skin tone, facing right"
   },
   "1f3c3_27a1.4": {
     "char": "🏃🏾‍➡",
@@ -4698,19 +4737,22 @@
       10145
     ],
     "keywords": [
+      "facing",
       "fast",
       "hurry",
       "marathon",
+      "medium-dark skin tone",
       "move",
       "person",
       "quick",
       "race",
       "racing",
+      "right",
       "run",
       "rush",
       "speed"
     ],
-    "name": "person running facing right"
+    "name": "person running: medium-dark skin tone, facing right"
   },
   "1f3c3.5": {
     "char": "🏃🏿",
@@ -4769,6 +4811,8 @@
       10145
     ],
     "keywords": [
+      "dark skin tone",
+      "facing",
       "fast",
       "hurry",
       "marathon",
@@ -4776,12 +4820,13 @@
       "quick",
       "race",
       "racing",
+      "right",
       "run",
       "rush",
       "speed",
       "woman"
     ],
-    "name": "woman running facing right"
+    "name": "woman running: dark skin tone, facing right"
   },
   "1f3c3.5.M": {
     "char": "🏃🏿‍♂",
@@ -4818,6 +4863,8 @@
       10145
     ],
     "keywords": [
+      "dark skin tone",
+      "facing",
       "fast",
       "hurry",
       "man",
@@ -4826,11 +4873,12 @@
       "quick",
       "race",
       "racing",
+      "right",
       "run",
       "rush",
       "speed"
     ],
-    "name": "man running facing right"
+    "name": "man running: dark skin tone, facing right"
   },
   "1f3c3_27a1.5": {
     "char": "🏃🏿‍➡",
@@ -4841,6 +4889,8 @@
       10145
     ],
     "keywords": [
+      "dark skin tone",
+      "facing",
       "fast",
       "hurry",
       "marathon",
@@ -4849,11 +4899,12 @@
       "quick",
       "race",
       "racing",
+      "right",
       "run",
       "rush",
       "speed"
     ],
-    "name": "person running facing right"
+    "name": "person running: dark skin tone, facing right"
   },
   "1f3c4.1": {
     "char": "🏄🏻",
@@ -8219,11 +8270,13 @@
       "accessibility",
       "blind",
       "cane",
+      "facing",
       "man",
       "probing",
+      "right",
       "white"
     ],
-    "name": "man with white cane facing right"
+    "name": "man with white cane: facing right"
   },
   "1f468_1f9b0": {
     "char": "👨‍🦰",
@@ -8296,11 +8349,13 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
       "man",
       "motorized",
+      "right",
       "wheelchair"
     ],
-    "name": "man in motorized wheelchair facing right"
+    "name": "man in motorized wheelchair: facing right"
   },
   "1f468_1f9bd_27a1": {
     "char": "👨‍🦽‍➡",
@@ -8313,11 +8368,13 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
       "man",
       "manual",
+      "right",
       "wheelchair"
     ],
-    "name": "man in manual wheelchair facing right"
+    "name": "man in manual wheelchair: facing right"
   },
   "1f468.1": {
     "char": "👨🏻",
@@ -9118,11 +9175,14 @@
       "accessibility",
       "blind",
       "cane",
+      "facing",
+      "light skin tone",
       "man",
       "probing",
+      "right",
       "white"
     ],
-    "name": "man with white cane facing right"
+    "name": "man with white cane: light skin tone, facing right"
   },
   "1f468_1f9b0.1": {
     "char": "👨🏻‍🦰",
@@ -9221,11 +9281,14 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
+      "light skin tone",
       "man",
       "motorized",
+      "right",
       "wheelchair"
     ],
-    "name": "man in motorized wheelchair facing right"
+    "name": "man in motorized wheelchair: light skin tone, facing right"
   },
   "1f468_1f9bd.1": {
     "char": "👨🏻‍🦽",
@@ -9256,11 +9319,14 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
+      "light skin tone",
       "man",
       "manual",
+      "right",
       "wheelchair"
     ],
-    "name": "man in manual wheelchair facing right"
+    "name": "man in manual wheelchair: light skin tone, facing right"
   },
   "1f468.2": {
     "char": "👨🏼",
@@ -10061,11 +10127,14 @@
       "accessibility",
       "blind",
       "cane",
+      "facing",
       "man",
+      "medium-light skin tone",
       "probing",
+      "right",
       "white"
     ],
-    "name": "man with white cane facing right"
+    "name": "man with white cane: medium-light skin tone, facing right"
   },
   "1f468_1f9b0.2": {
     "char": "👨🏼‍🦰",
@@ -10164,11 +10233,14 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
       "man",
+      "medium-light skin tone",
       "motorized",
+      "right",
       "wheelchair"
     ],
-    "name": "man in motorized wheelchair facing right"
+    "name": "man in motorized wheelchair: medium-light skin tone, facing right"
   },
   "1f468_1f9bd.2": {
     "char": "👨🏼‍🦽",
@@ -10199,11 +10271,14 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
       "man",
       "manual",
+      "medium-light skin tone",
+      "right",
       "wheelchair"
     ],
-    "name": "man in manual wheelchair facing right"
+    "name": "man in manual wheelchair: medium-light skin tone, facing right"
   },
   "1f468.3": {
     "char": "👨🏽",
@@ -11004,11 +11079,14 @@
       "accessibility",
       "blind",
       "cane",
+      "facing",
       "man",
+      "medium skin tone",
       "probing",
+      "right",
       "white"
     ],
-    "name": "man with white cane facing right"
+    "name": "man with white cane: medium skin tone, facing right"
   },
   "1f468_1f9b0.3": {
     "char": "👨🏽‍🦰",
@@ -11107,11 +11185,14 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
       "man",
+      "medium skin tone",
       "motorized",
+      "right",
       "wheelchair"
     ],
-    "name": "man in motorized wheelchair facing right"
+    "name": "man in motorized wheelchair: medium skin tone, facing right"
   },
   "1f468_1f9bd.3": {
     "char": "👨🏽‍🦽",
@@ -11142,11 +11223,14 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
       "man",
       "manual",
+      "medium skin tone",
+      "right",
       "wheelchair"
     ],
-    "name": "man in manual wheelchair facing right"
+    "name": "man in manual wheelchair: medium skin tone, facing right"
   },
   "1f468.4": {
     "char": "👨🏾",
@@ -11947,11 +12031,14 @@
       "accessibility",
       "blind",
       "cane",
+      "facing",
       "man",
+      "medium-dark skin tone",
       "probing",
+      "right",
       "white"
     ],
-    "name": "man with white cane facing right"
+    "name": "man with white cane: medium-dark skin tone, facing right"
   },
   "1f468_1f9b0.4": {
     "char": "👨🏾‍🦰",
@@ -12050,11 +12137,14 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
       "man",
+      "medium-dark skin tone",
       "motorized",
+      "right",
       "wheelchair"
     ],
-    "name": "man in motorized wheelchair facing right"
+    "name": "man in motorized wheelchair: medium-dark skin tone, facing right"
   },
   "1f468_1f9bd.4": {
     "char": "👨🏾‍🦽",
@@ -12085,11 +12175,14 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
       "man",
       "manual",
+      "medium-dark skin tone",
+      "right",
       "wheelchair"
     ],
-    "name": "man in manual wheelchair facing right"
+    "name": "man in manual wheelchair: medium-dark skin tone, facing right"
   },
   "1f468.5": {
     "char": "👨🏿",
@@ -12890,11 +12983,14 @@
       "accessibility",
       "blind",
       "cane",
+      "dark skin tone",
+      "facing",
       "man",
       "probing",
+      "right",
       "white"
     ],
-    "name": "man with white cane facing right"
+    "name": "man with white cane: dark skin tone, facing right"
   },
   "1f468_1f9b0.5": {
     "char": "👨🏿‍🦰",
@@ -12993,11 +13089,14 @@
     ],
     "keywords": [
       "accessibility",
+      "dark skin tone",
+      "facing",
       "man",
       "motorized",
+      "right",
       "wheelchair"
     ],
-    "name": "man in motorized wheelchair facing right"
+    "name": "man in motorized wheelchair: dark skin tone, facing right"
   },
   "1f468_1f9bd.5": {
     "char": "👨🏿‍🦽",
@@ -13028,11 +13127,14 @@
     ],
     "keywords": [
       "accessibility",
+      "dark skin tone",
+      "facing",
       "man",
       "manual",
+      "right",
       "wheelchair"
     ],
-    "name": "man in manual wheelchair facing right"
+    "name": "man in manual wheelchair: dark skin tone, facing right"
   },
   "1f491.WM": {
     "char": "👩‍❤‍👨",
@@ -13337,11 +13439,13 @@
       "accessibility",
       "blind",
       "cane",
+      "facing",
       "probing",
+      "right",
       "white",
       "woman"
     ],
-    "name": "woman with white cane facing right"
+    "name": "woman with white cane: facing right"
   },
   "1f469_1f9b0": {
     "char": "👩‍🦰",
@@ -13414,11 +13518,13 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
       "motorized",
+      "right",
       "wheelchair",
       "woman"
     ],
-    "name": "woman in motorized wheelchair facing right"
+    "name": "woman in motorized wheelchair: facing right"
   },
   "1f469_1f9bd_27a1": {
     "char": "👩‍🦽‍➡",
@@ -13431,11 +13537,13 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
       "manual",
+      "right",
       "wheelchair",
       "woman"
     ],
-    "name": "woman in manual wheelchair facing right"
+    "name": "woman in manual wheelchair: facing right"
   },
   "1f469.1": {
     "char": "👩🏻",
@@ -14685,11 +14793,14 @@
       "accessibility",
       "blind",
       "cane",
+      "facing",
+      "light skin tone",
       "probing",
+      "right",
       "white",
       "woman"
     ],
-    "name": "woman with white cane facing right"
+    "name": "woman with white cane: light skin tone, facing right"
   },
   "1f469_1f9b0.1": {
     "char": "👩🏻‍🦰",
@@ -14788,11 +14899,14 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
+      "light skin tone",
       "motorized",
+      "right",
       "wheelchair",
       "woman"
     ],
-    "name": "woman in motorized wheelchair facing right"
+    "name": "woman in motorized wheelchair: light skin tone, facing right"
   },
   "1f469_1f9bd.1": {
     "char": "👩🏻‍🦽",
@@ -14823,11 +14937,14 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
+      "light skin tone",
       "manual",
+      "right",
       "wheelchair",
       "woman"
     ],
-    "name": "woman in manual wheelchair facing right"
+    "name": "woman in manual wheelchair: light skin tone, facing right"
   },
   "1f469.2": {
     "char": "👩🏼",
@@ -16077,11 +16194,14 @@
       "accessibility",
       "blind",
       "cane",
+      "facing",
+      "medium-light skin tone",
       "probing",
+      "right",
       "white",
       "woman"
     ],
-    "name": "woman with white cane facing right"
+    "name": "woman with white cane: medium-light skin tone, facing right"
   },
   "1f469_1f9b0.2": {
     "char": "👩🏼‍🦰",
@@ -16180,11 +16300,14 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
+      "medium-light skin tone",
       "motorized",
+      "right",
       "wheelchair",
       "woman"
     ],
-    "name": "woman in motorized wheelchair facing right"
+    "name": "woman in motorized wheelchair: medium-light skin tone, facing right"
   },
   "1f469_1f9bd.2": {
     "char": "👩🏼‍🦽",
@@ -16215,11 +16338,14 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
       "manual",
+      "medium-light skin tone",
+      "right",
       "wheelchair",
       "woman"
     ],
-    "name": "woman in manual wheelchair facing right"
+    "name": "woman in manual wheelchair: medium-light skin tone, facing right"
   },
   "1f469.3": {
     "char": "👩🏽",
@@ -17469,11 +17595,14 @@
       "accessibility",
       "blind",
       "cane",
+      "facing",
+      "medium skin tone",
       "probing",
+      "right",
       "white",
       "woman"
     ],
-    "name": "woman with white cane facing right"
+    "name": "woman with white cane: medium skin tone, facing right"
   },
   "1f469_1f9b0.3": {
     "char": "👩🏽‍🦰",
@@ -17572,11 +17701,14 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
+      "medium skin tone",
       "motorized",
+      "right",
       "wheelchair",
       "woman"
     ],
-    "name": "woman in motorized wheelchair facing right"
+    "name": "woman in motorized wheelchair: medium skin tone, facing right"
   },
   "1f469_1f9bd.3": {
     "char": "👩🏽‍🦽",
@@ -17607,11 +17739,14 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
       "manual",
+      "medium skin tone",
+      "right",
       "wheelchair",
       "woman"
     ],
-    "name": "woman in manual wheelchair facing right"
+    "name": "woman in manual wheelchair: medium skin tone, facing right"
   },
   "1f469.4": {
     "char": "👩🏾",
@@ -18861,11 +18996,14 @@
       "accessibility",
       "blind",
       "cane",
+      "facing",
+      "medium-dark skin tone",
       "probing",
+      "right",
       "white",
       "woman"
     ],
-    "name": "woman with white cane facing right"
+    "name": "woman with white cane: medium-dark skin tone, facing right"
   },
   "1f469_1f9b0.4": {
     "char": "👩🏾‍🦰",
@@ -18964,11 +19102,14 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
+      "medium-dark skin tone",
       "motorized",
+      "right",
       "wheelchair",
       "woman"
     ],
-    "name": "woman in motorized wheelchair facing right"
+    "name": "woman in motorized wheelchair: medium-dark skin tone, facing right"
   },
   "1f469_1f9bd.4": {
     "char": "👩🏾‍🦽",
@@ -18999,11 +19140,14 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
       "manual",
+      "medium-dark skin tone",
+      "right",
       "wheelchair",
       "woman"
     ],
-    "name": "woman in manual wheelchair facing right"
+    "name": "woman in manual wheelchair: medium-dark skin tone, facing right"
   },
   "1f469.5": {
     "char": "👩🏿",
@@ -20253,11 +20397,14 @@
       "accessibility",
       "blind",
       "cane",
+      "dark skin tone",
+      "facing",
       "probing",
+      "right",
       "white",
       "woman"
     ],
-    "name": "woman with white cane facing right"
+    "name": "woman with white cane: dark skin tone, facing right"
   },
   "1f469_1f9b0.5": {
     "char": "👩🏿‍🦰",
@@ -20356,11 +20503,14 @@
     ],
     "keywords": [
       "accessibility",
+      "dark skin tone",
+      "facing",
       "motorized",
+      "right",
       "wheelchair",
       "woman"
     ],
-    "name": "woman in motorized wheelchair facing right"
+    "name": "woman in motorized wheelchair: dark skin tone, facing right"
   },
   "1f469_1f9bd.5": {
     "char": "👩🏿‍🦽",
@@ -20391,11 +20541,14 @@
     ],
     "keywords": [
       "accessibility",
+      "dark skin tone",
+      "facing",
       "manual",
+      "right",
       "wheelchair",
       "woman"
     ],
-    "name": "woman in manual wheelchair facing right"
+    "name": "woman in manual wheelchair: dark skin tone, facing right"
   },
   "1f46b.1": {
     "char": "👫🏻",
@@ -28693,18 +28846,20 @@
     ],
     "keywords": [
       "amble",
+      "facing",
       "gait",
       "hike",
       "man",
       "pace",
       "pedestrian",
+      "right",
       "stride",
       "stroll",
       "walk",
       "walking",
       "woman"
     ],
-    "name": "woman walking facing right"
+    "name": "woman walking: facing right"
   },
   "1f6b6_27a1.M": {
     "char": "🚶‍♂‍➡",
@@ -28717,17 +28872,19 @@
     ],
     "keywords": [
       "amble",
+      "facing",
       "gait",
       "hike",
       "man",
       "pace",
       "pedestrian",
+      "right",
       "stride",
       "stroll",
       "walk",
       "walking"
     ],
-    "name": "man walking facing right"
+    "name": "man walking: facing right"
   },
   "1f6b6_27a1": {
     "char": "🚶‍➡",
@@ -28738,18 +28895,20 @@
     ],
     "keywords": [
       "amble",
+      "facing",
       "gait",
       "hike",
       "man",
       "pace",
       "pedestrian",
       "person",
+      "right",
       "stride",
       "stroll",
       "walk",
       "walking"
     ],
-    "name": "person walking facing right"
+    "name": "person walking: facing right"
   },
   "1f6b6.1": {
     "char": "🚶🏻",
@@ -28809,18 +28968,21 @@
     ],
     "keywords": [
       "amble",
+      "facing",
       "gait",
       "hike",
+      "light skin tone",
       "man",
       "pace",
       "pedestrian",
+      "right",
       "stride",
       "stroll",
       "walk",
       "walking",
       "woman"
     ],
-    "name": "woman walking facing right"
+    "name": "woman walking: light skin tone, facing right"
   },
   "1f6b6.1.M": {
     "char": "🚶🏻‍♂",
@@ -28857,17 +29019,20 @@
     ],
     "keywords": [
       "amble",
+      "facing",
       "gait",
       "hike",
+      "light skin tone",
       "man",
       "pace",
       "pedestrian",
+      "right",
       "stride",
       "stroll",
       "walk",
       "walking"
     ],
-    "name": "man walking facing right"
+    "name": "man walking: light skin tone, facing right"
   },
   "1f6b6_27a1.1": {
     "char": "🚶🏻‍➡",
@@ -28879,18 +29044,21 @@
     ],
     "keywords": [
       "amble",
+      "facing",
       "gait",
       "hike",
+      "light skin tone",
       "man",
       "pace",
       "pedestrian",
       "person",
+      "right",
       "stride",
       "stroll",
       "walk",
       "walking"
     ],
-    "name": "person walking facing right"
+    "name": "person walking: light skin tone, facing right"
   },
   "1f6b6.2": {
     "char": "🚶🏼",
@@ -28950,18 +29118,21 @@
     ],
     "keywords": [
       "amble",
+      "facing",
       "gait",
       "hike",
       "man",
+      "medium-light skin tone",
       "pace",
       "pedestrian",
+      "right",
       "stride",
       "stroll",
       "walk",
       "walking",
       "woman"
     ],
-    "name": "woman walking facing right"
+    "name": "woman walking: medium-light skin tone, facing right"
   },
   "1f6b6.2.M": {
     "char": "🚶🏼‍♂",
@@ -28998,17 +29169,20 @@
     ],
     "keywords": [
       "amble",
+      "facing",
       "gait",
       "hike",
       "man",
+      "medium-light skin tone",
       "pace",
       "pedestrian",
+      "right",
       "stride",
       "stroll",
       "walk",
       "walking"
     ],
-    "name": "man walking facing right"
+    "name": "man walking: medium-light skin tone, facing right"
   },
   "1f6b6_27a1.2": {
     "char": "🚶🏼‍➡",
@@ -29020,18 +29194,21 @@
     ],
     "keywords": [
       "amble",
+      "facing",
       "gait",
       "hike",
       "man",
+      "medium-light skin tone",
       "pace",
       "pedestrian",
       "person",
+      "right",
       "stride",
       "stroll",
       "walk",
       "walking"
     ],
-    "name": "person walking facing right"
+    "name": "person walking: medium-light skin tone, facing right"
   },
   "1f6b6.3": {
     "char": "🚶🏽",
@@ -29091,18 +29268,21 @@
     ],
     "keywords": [
       "amble",
+      "facing",
       "gait",
       "hike",
       "man",
+      "medium skin tone",
       "pace",
       "pedestrian",
+      "right",
       "stride",
       "stroll",
       "walk",
       "walking",
       "woman"
     ],
-    "name": "woman walking facing right"
+    "name": "woman walking: medium skin tone, facing right"
   },
   "1f6b6.3.M": {
     "char": "🚶🏽‍♂",
@@ -29139,17 +29319,20 @@
     ],
     "keywords": [
       "amble",
+      "facing",
       "gait",
       "hike",
       "man",
+      "medium skin tone",
       "pace",
       "pedestrian",
+      "right",
       "stride",
       "stroll",
       "walk",
       "walking"
     ],
-    "name": "man walking facing right"
+    "name": "man walking: medium skin tone, facing right"
   },
   "1f6b6_27a1.3": {
     "char": "🚶🏽‍➡",
@@ -29161,18 +29344,21 @@
     ],
     "keywords": [
       "amble",
+      "facing",
       "gait",
       "hike",
       "man",
+      "medium skin tone",
       "pace",
       "pedestrian",
       "person",
+      "right",
       "stride",
       "stroll",
       "walk",
       "walking"
     ],
-    "name": "person walking facing right"
+    "name": "person walking: medium skin tone, facing right"
   },
   "1f6b6.4": {
     "char": "🚶🏾",
@@ -29232,18 +29418,21 @@
     ],
     "keywords": [
       "amble",
+      "facing",
       "gait",
       "hike",
       "man",
+      "medium-dark skin tone",
       "pace",
       "pedestrian",
+      "right",
       "stride",
       "stroll",
       "walk",
       "walking",
       "woman"
     ],
-    "name": "woman walking facing right"
+    "name": "woman walking: medium-dark skin tone, facing right"
   },
   "1f6b6.4.M": {
     "char": "🚶🏾‍♂",
@@ -29280,17 +29469,20 @@
     ],
     "keywords": [
       "amble",
+      "facing",
       "gait",
       "hike",
       "man",
+      "medium-dark skin tone",
       "pace",
       "pedestrian",
+      "right",
       "stride",
       "stroll",
       "walk",
       "walking"
     ],
-    "name": "man walking facing right"
+    "name": "man walking: medium-dark skin tone, facing right"
   },
   "1f6b6_27a1.4": {
     "char": "🚶🏾‍➡",
@@ -29302,18 +29494,21 @@
     ],
     "keywords": [
       "amble",
+      "facing",
       "gait",
       "hike",
       "man",
+      "medium-dark skin tone",
       "pace",
       "pedestrian",
       "person",
+      "right",
       "stride",
       "stroll",
       "walk",
       "walking"
     ],
-    "name": "person walking facing right"
+    "name": "person walking: medium-dark skin tone, facing right"
   },
   "1f6b6.5": {
     "char": "🚶🏿",
@@ -29373,18 +29568,21 @@
     ],
     "keywords": [
       "amble",
+      "dark skin tone",
+      "facing",
       "gait",
       "hike",
       "man",
       "pace",
       "pedestrian",
+      "right",
       "stride",
       "stroll",
       "walk",
       "walking",
       "woman"
     ],
-    "name": "woman walking facing right"
+    "name": "woman walking: dark skin tone, facing right"
   },
   "1f6b6.5.M": {
     "char": "🚶🏿‍♂",
@@ -29421,17 +29619,20 @@
     ],
     "keywords": [
       "amble",
+      "dark skin tone",
+      "facing",
       "gait",
       "hike",
       "man",
       "pace",
       "pedestrian",
+      "right",
       "stride",
       "stroll",
       "walk",
       "walking"
     ],
-    "name": "man walking facing right"
+    "name": "man walking: dark skin tone, facing right"
   },
   "1f6b6_27a1.5": {
     "char": "🚶🏿‍➡",
@@ -29443,18 +29644,21 @@
     ],
     "keywords": [
       "amble",
+      "dark skin tone",
+      "facing",
       "gait",
       "hike",
       "man",
       "pace",
       "pedestrian",
       "person",
+      "right",
       "stride",
       "stroll",
       "walk",
       "walking"
     ],
-    "name": "person walking facing right"
+    "name": "person walking: dark skin tone, facing right"
   },
   "1f6c0.1": {
     "char": "🛀🏻",
@@ -34516,12 +34720,14 @@
       10145
     ],
     "keywords": [
+      "facing",
       "kneel",
       "kneeling",
       "knees",
+      "right",
       "woman"
     ],
-    "name": "woman kneeling facing right"
+    "name": "woman kneeling: facing right"
   },
   "1f9ce_27a1.M": {
     "char": "🧎‍♂‍➡",
@@ -34533,12 +34739,14 @@
       10145
     ],
     "keywords": [
+      "facing",
       "kneel",
       "kneeling",
       "knees",
-      "man"
+      "man",
+      "right"
     ],
-    "name": "man kneeling facing right"
+    "name": "man kneeling: facing right"
   },
   "1f9ce_27a1": {
     "char": "🧎‍➡",
@@ -34548,12 +34756,14 @@
       10145
     ],
     "keywords": [
+      "facing",
       "kneel",
       "kneeling",
       "knees",
-      "person"
+      "person",
+      "right"
     ],
-    "name": "person kneeling facing right"
+    "name": "person kneeling: facing right"
   },
   "1f9ce.1": {
     "char": "🧎🏻",
@@ -34598,12 +34808,15 @@
       10145
     ],
     "keywords": [
+      "facing",
       "kneel",
       "kneeling",
       "knees",
+      "light skin tone",
+      "right",
       "woman"
     ],
-    "name": "woman kneeling facing right"
+    "name": "woman kneeling: light skin tone, facing right"
   },
   "1f9ce.1.M": {
     "char": "🧎🏻‍♂",
@@ -34633,12 +34846,15 @@
       10145
     ],
     "keywords": [
+      "facing",
       "kneel",
       "kneeling",
       "knees",
-      "man"
+      "light skin tone",
+      "man",
+      "right"
     ],
-    "name": "man kneeling facing right"
+    "name": "man kneeling: light skin tone, facing right"
   },
   "1f9ce_27a1.1": {
     "char": "🧎🏻‍➡",
@@ -34649,12 +34865,15 @@
       10145
     ],
     "keywords": [
+      "facing",
       "kneel",
       "kneeling",
       "knees",
-      "person"
+      "light skin tone",
+      "person",
+      "right"
     ],
-    "name": "person kneeling facing right"
+    "name": "person kneeling: light skin tone, facing right"
   },
   "1f9ce.2": {
     "char": "🧎🏼",
@@ -34699,12 +34918,15 @@
       10145
     ],
     "keywords": [
+      "facing",
       "kneel",
       "kneeling",
       "knees",
+      "medium-light skin tone",
+      "right",
       "woman"
     ],
-    "name": "woman kneeling facing right"
+    "name": "woman kneeling: medium-light skin tone, facing right"
   },
   "1f9ce.2.M": {
     "char": "🧎🏼‍♂",
@@ -34734,12 +34956,15 @@
       10145
     ],
     "keywords": [
+      "facing",
       "kneel",
       "kneeling",
       "knees",
-      "man"
+      "man",
+      "medium-light skin tone",
+      "right"
     ],
-    "name": "man kneeling facing right"
+    "name": "man kneeling: medium-light skin tone, facing right"
   },
   "1f9ce_27a1.2": {
     "char": "🧎🏼‍➡",
@@ -34750,12 +34975,15 @@
       10145
     ],
     "keywords": [
+      "facing",
       "kneel",
       "kneeling",
       "knees",
-      "person"
+      "medium-light skin tone",
+      "person",
+      "right"
     ],
-    "name": "person kneeling facing right"
+    "name": "person kneeling: medium-light skin tone, facing right"
   },
   "1f9ce.3": {
     "char": "🧎🏽",
@@ -34800,12 +35028,15 @@
       10145
     ],
     "keywords": [
+      "facing",
       "kneel",
       "kneeling",
       "knees",
+      "medium skin tone",
+      "right",
       "woman"
     ],
-    "name": "woman kneeling facing right"
+    "name": "woman kneeling: medium skin tone, facing right"
   },
   "1f9ce.3.M": {
     "char": "🧎🏽‍♂",
@@ -34835,12 +35066,15 @@
       10145
     ],
     "keywords": [
+      "facing",
       "kneel",
       "kneeling",
       "knees",
-      "man"
+      "man",
+      "medium skin tone",
+      "right"
     ],
-    "name": "man kneeling facing right"
+    "name": "man kneeling: medium skin tone, facing right"
   },
   "1f9ce_27a1.3": {
     "char": "🧎🏽‍➡",
@@ -34851,12 +35085,15 @@
       10145
     ],
     "keywords": [
+      "facing",
       "kneel",
       "kneeling",
       "knees",
-      "person"
+      "medium skin tone",
+      "person",
+      "right"
     ],
-    "name": "person kneeling facing right"
+    "name": "person kneeling: medium skin tone, facing right"
   },
   "1f9ce.4": {
     "char": "🧎🏾",
@@ -34901,12 +35138,15 @@
       10145
     ],
     "keywords": [
+      "facing",
       "kneel",
       "kneeling",
       "knees",
+      "medium-dark skin tone",
+      "right",
       "woman"
     ],
-    "name": "woman kneeling facing right"
+    "name": "woman kneeling: medium-dark skin tone, facing right"
   },
   "1f9ce.4.M": {
     "char": "🧎🏾‍♂",
@@ -34936,12 +35176,15 @@
       10145
     ],
     "keywords": [
+      "facing",
       "kneel",
       "kneeling",
       "knees",
-      "man"
+      "man",
+      "medium-dark skin tone",
+      "right"
     ],
-    "name": "man kneeling facing right"
+    "name": "man kneeling: medium-dark skin tone, facing right"
   },
   "1f9ce_27a1.4": {
     "char": "🧎🏾‍➡",
@@ -34952,12 +35195,15 @@
       10145
     ],
     "keywords": [
+      "facing",
       "kneel",
       "kneeling",
       "knees",
-      "person"
+      "medium-dark skin tone",
+      "person",
+      "right"
     ],
-    "name": "person kneeling facing right"
+    "name": "person kneeling: medium-dark skin tone, facing right"
   },
   "1f9ce.5": {
     "char": "🧎🏿",
@@ -35002,12 +35248,15 @@
       10145
     ],
     "keywords": [
+      "dark skin tone",
+      "facing",
       "kneel",
       "kneeling",
       "knees",
+      "right",
       "woman"
     ],
-    "name": "woman kneeling facing right"
+    "name": "woman kneeling: dark skin tone, facing right"
   },
   "1f9ce.5.M": {
     "char": "🧎🏿‍♂",
@@ -35037,12 +35286,15 @@
       10145
     ],
     "keywords": [
+      "dark skin tone",
+      "facing",
       "kneel",
       "kneeling",
       "knees",
-      "man"
+      "man",
+      "right"
     ],
-    "name": "man kneeling facing right"
+    "name": "man kneeling: dark skin tone, facing right"
   },
   "1f9ce_27a1.5": {
     "char": "🧎🏿‍➡",
@@ -35053,12 +35305,15 @@
       10145
     ],
     "keywords": [
+      "dark skin tone",
+      "facing",
       "kneel",
       "kneeling",
       "knees",
-      "person"
+      "person",
+      "right"
     ],
-    "name": "person kneeling facing right"
+    "name": "person kneeling: dark skin tone, facing right"
   },
   "1f9cf.1": {
     "char": "🧏🏻",
@@ -35348,11 +35603,13 @@
       "accessibility",
       "blind",
       "cane",
+      "facing",
       "person",
       "probing",
+      "right",
       "white"
     ],
-    "name": "person with white cane facing right"
+    "name": "person with white cane: facing right"
   },
   "1f9d1_1f9b0": {
     "char": "🧑‍🦰",
@@ -35421,11 +35678,13 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
       "motorized",
       "person",
+      "right",
       "wheelchair"
     ],
-    "name": "person in motorized wheelchair facing right"
+    "name": "person in motorized wheelchair: facing right"
   },
   "1f9d1_1f9bd_27a1": {
     "char": "🧑‍🦽‍➡",
@@ -35438,11 +35697,13 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
       "manual",
       "person",
+      "right",
       "wheelchair"
     ],
-    "name": "person in manual wheelchair facing right"
+    "name": "person in manual wheelchair: facing right"
   },
   "1f9d1.1": {
     "char": "🧑🏻",
@@ -36196,11 +36457,14 @@
       "accessibility",
       "blind",
       "cane",
+      "facing",
+      "light skin tone",
       "person",
       "probing",
+      "right",
       "white"
     ],
-    "name": "person with white cane facing right"
+    "name": "person with white cane: light skin tone, facing right"
   },
   "1f9d1_1f9b0.1": {
     "char": "🧑🏻‍🦰",
@@ -36295,11 +36559,14 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
+      "light skin tone",
       "motorized",
       "person",
+      "right",
       "wheelchair"
     ],
-    "name": "person in motorized wheelchair facing right"
+    "name": "person in motorized wheelchair: light skin tone, facing right"
   },
   "1f9d1_1f9bd.1": {
     "char": "🧑🏻‍🦽",
@@ -36330,11 +36597,14 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
+      "light skin tone",
       "manual",
       "person",
+      "right",
       "wheelchair"
     ],
-    "name": "person in manual wheelchair facing right"
+    "name": "person in manual wheelchair: light skin tone, facing right"
   },
   "1f9d1.2": {
     "char": "🧑🏼",
@@ -37088,11 +37358,14 @@
       "accessibility",
       "blind",
       "cane",
+      "facing",
+      "medium-light skin tone",
       "person",
       "probing",
+      "right",
       "white"
     ],
-    "name": "person with white cane facing right"
+    "name": "person with white cane: medium-light skin tone, facing right"
   },
   "1f9d1_1f9b0.2": {
     "char": "🧑🏼‍🦰",
@@ -37187,11 +37460,14 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
+      "medium-light skin tone",
       "motorized",
       "person",
+      "right",
       "wheelchair"
     ],
-    "name": "person in motorized wheelchair facing right"
+    "name": "person in motorized wheelchair: medium-light skin tone, facing right"
   },
   "1f9d1_1f9bd.2": {
     "char": "🧑🏼‍🦽",
@@ -37222,11 +37498,14 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
       "manual",
+      "medium-light skin tone",
       "person",
+      "right",
       "wheelchair"
     ],
-    "name": "person in manual wheelchair facing right"
+    "name": "person in manual wheelchair: medium-light skin tone, facing right"
   },
   "1f9d1.3": {
     "char": "🧑🏽",
@@ -37980,11 +38259,14 @@
       "accessibility",
       "blind",
       "cane",
+      "facing",
+      "medium skin tone",
       "person",
       "probing",
+      "right",
       "white"
     ],
-    "name": "person with white cane facing right"
+    "name": "person with white cane: medium skin tone, facing right"
   },
   "1f9d1_1f9b0.3": {
     "char": "🧑🏽‍🦰",
@@ -38079,11 +38361,14 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
+      "medium skin tone",
       "motorized",
       "person",
+      "right",
       "wheelchair"
     ],
-    "name": "person in motorized wheelchair facing right"
+    "name": "person in motorized wheelchair: medium skin tone, facing right"
   },
   "1f9d1_1f9bd.3": {
     "char": "🧑🏽‍🦽",
@@ -38114,11 +38399,14 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
       "manual",
+      "medium skin tone",
       "person",
+      "right",
       "wheelchair"
     ],
-    "name": "person in manual wheelchair facing right"
+    "name": "person in manual wheelchair: medium skin tone, facing right"
   },
   "1f9d1.4": {
     "char": "🧑🏾",
@@ -38872,11 +39160,14 @@
       "accessibility",
       "blind",
       "cane",
+      "facing",
+      "medium-dark skin tone",
       "person",
       "probing",
+      "right",
       "white"
     ],
-    "name": "person with white cane facing right"
+    "name": "person with white cane: medium-dark skin tone, facing right"
   },
   "1f9d1_1f9b0.4": {
     "char": "🧑🏾‍🦰",
@@ -38971,11 +39262,14 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
+      "medium-dark skin tone",
       "motorized",
       "person",
+      "right",
       "wheelchair"
     ],
-    "name": "person in motorized wheelchair facing right"
+    "name": "person in motorized wheelchair: medium-dark skin tone, facing right"
   },
   "1f9d1_1f9bd.4": {
     "char": "🧑🏾‍🦽",
@@ -39006,11 +39300,14 @@
     ],
     "keywords": [
       "accessibility",
+      "facing",
       "manual",
+      "medium-dark skin tone",
       "person",
+      "right",
       "wheelchair"
     ],
-    "name": "person in manual wheelchair facing right"
+    "name": "person in manual wheelchair: medium-dark skin tone, facing right"
   },
   "1f9d1.5": {
     "char": "🧑🏿",
@@ -39764,11 +40061,14 @@
       "accessibility",
       "blind",
       "cane",
+      "dark skin tone",
+      "facing",
       "person",
       "probing",
+      "right",
       "white"
     ],
-    "name": "person with white cane facing right"
+    "name": "person with white cane: dark skin tone, facing right"
   },
   "1f9d1_1f9b0.5": {
     "char": "🧑🏿‍🦰",
@@ -39863,11 +40163,14 @@
     ],
     "keywords": [
       "accessibility",
+      "dark skin tone",
+      "facing",
       "motorized",
       "person",
+      "right",
       "wheelchair"
     ],
-    "name": "person in motorized wheelchair facing right"
+    "name": "person in motorized wheelchair: dark skin tone, facing right"
   },
   "1f9d1_1f9bd.5": {
     "char": "🧑🏿‍🦽",
@@ -39898,11 +40201,14 @@
     ],
     "keywords": [
       "accessibility",
+      "dark skin tone",
+      "facing",
       "manual",
       "person",
+      "right",
       "wheelchair"
     ],
-    "name": "person in manual wheelchair facing right"
+    "name": "person in manual wheelchair: dark skin tone, facing right"
   },
   "1f9d2.1": {
     "char": "🧒🏻",
