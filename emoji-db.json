@@ -4267,6 +4267,19 @@
     ],
     "name": "flag: Colombia"
   },
+  "1f1e8_1f1f6": {
+    "codepoints": [
+      127464,
+      127478
+    ],
+    "emoji": "🇨🇶",
+    "fitz": null,
+    "image": "images/flag__sark.png",
+    "keywords": [
+      "flag"
+    ],
+    "name": "flag: Sark"
+  },
   "1f1e8_1f1f7": {
     "codepoints": [
       127464,
@@ -45378,6 +45391,43 @@
     ],
     "name": "flute"
   },
+  "1fa89": {
+    "codepoints": [
+      129673
+    ],
+    "emoji": "🪉",
+    "fitz": null,
+    "image": "images/harp.png",
+    "keywords": [
+      "cupid",
+      "harp",
+      "instrument",
+      "love",
+      "music",
+      "orchestra"
+    ],
+    "name": "harp"
+  },
+  "1fa8f": {
+    "codepoints": [
+      129679
+    ],
+    "emoji": "🪏",
+    "fitz": null,
+    "image": "images/shovel.png",
+    "keywords": [
+      "bury",
+      "dig",
+      "garden",
+      "hole",
+      "plant",
+      "scoop",
+      "shovel",
+      "snow",
+      "spade"
+    ],
+    "name": "shovel"
+  },
   "1fa90": {
     "codepoints": [
       129680
@@ -46191,6 +46241,27 @@
     ],
     "name": "wing"
   },
+  "1fabe": {
+    "codepoints": [
+      129726
+    ],
+    "emoji": "🪾",
+    "fitz": null,
+    "image": "images/leafless_tree.png",
+    "keywords": [
+      "bare",
+      "barren",
+      "branches",
+      "dead",
+      "drought",
+      "leafless",
+      "tree",
+      "trunk",
+      "winter",
+      "wood"
+    ],
+    "name": "leafless tree"
+  },
   "1fabf": {
     "codepoints": [
       129727
@@ -46466,6 +46537,27 @@
     ],
     "name": "person with crown"
   },
+  "1fac6": {
+    "codepoints": [
+      129734
+    ],
+    "emoji": "🫆",
+    "fitz": null,
+    "image": "images/fingerprint.png",
+    "keywords": [
+      "clue",
+      "crime",
+      "detective",
+      "fingerprint",
+      "forensics",
+      "identity",
+      "mystery",
+      "print",
+      "safety",
+      "trace"
+    ],
+    "name": "fingerprint"
+  },
   "1face": {
     "codepoints": [
       129742
@@ -46713,6 +46805,46 @@
     ],
     "name": "pea pod"
   },
+  "1fadc": {
+    "codepoints": [
+      129756
+    ],
+    "emoji": "🫜",
+    "fitz": null,
+    "image": "images/root_vegetable.png",
+    "keywords": [
+      "beet",
+      "food",
+      "garden",
+      "radish",
+      "root",
+      "salad",
+      "turnip",
+      "vegetable",
+      "vegetarian"
+    ],
+    "name": "root vegetable"
+  },
+  "1fadf": {
+    "codepoints": [
+      129759
+    ],
+    "emoji": "🫟",
+    "fitz": null,
+    "image": "images/splatter.png",
+    "keywords": [
+      "drip",
+      "holi",
+      "ink",
+      "liquid",
+      "mess",
+      "paint",
+      "spill",
+      "splatter",
+      "stain"
+    ],
+    "name": "splatter"
+  },
   "1fae0": {
     "codepoints": [
       129760
@@ -46924,6 +47056,27 @@
       "wow"
     ],
     "name": "shaking face"
+  },
+  "1fae9": {
+    "codepoints": [
+      129769
+    ],
+    "emoji": "🫩",
+    "fitz": null,
+    "image": "images/face_with_bags_under_eyes.png",
+    "keywords": [
+      "bags",
+      "bored",
+      "exhausted",
+      "eyes",
+      "face",
+      "fatigued",
+      "late",
+      "sleepy",
+      "tired",
+      "weary"
+    ],
+    "name": "face with bags under eyes"
   },
   "1faf0": {
     "codepoints": [
