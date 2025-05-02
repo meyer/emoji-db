@@ -21709,6 +21709,22 @@
     ],
     "name": "elevator"
   },
+  "1f6d8": {
+    "char": "🛘",
+    "codepoints": [
+      128728
+    ],
+    "keywords": [
+      "avalanche",
+      "danger",
+      "disaster",
+      "earthquake",
+      "mountain",
+      "mudslide",
+      "rocks"
+    ],
+    "name": "landslide"
+  },
   "1f6dc": {
     "char": "🛜",
     "codepoints": [
@@ -25960,6 +25976,19 @@
     ],
     "name": "family: adult, child, child"
   },
+  "1f9d1_1fa70": {
+    "char": "🧑‍🩰",
+    "codepoints": [
+      129489,
+      8205,
+      129648
+    ],
+    "keywords": [
+      "ballet",
+      "dancer"
+    ],
+    "name": "ballet dancer"
+  },
   "1f9d2": {
     "char": "🧒",
     "codepoints": [
@@ -27474,6 +27503,39 @@
     ],
     "name": "harp"
   },
+  "1fa8a": {
+    "char": "🪊",
+    "codepoints": [
+      129674
+    ],
+    "keywords": [
+      "brass",
+      "instrument",
+      "jazz",
+      "music",
+      "sad",
+      "slide"
+    ],
+    "name": "trombone"
+  },
+  "1fa8e": {
+    "char": "🪎",
+    "codepoints": [
+      129678
+    ],
+    "keywords": [
+      "gem",
+      "gold",
+      "jewels",
+      "loot",
+      "money",
+      "prize",
+      "silver",
+      "valuables",
+      "wealth"
+    ],
+    "name": "treasure chest"
+  },
   "1fa8f": {
     "char": "🪏",
     "codepoints": [
@@ -28374,6 +28436,35 @@
     ],
     "name": "fingerprint"
   },
+  "1fac8": {
+    "char": "🫈",
+    "codepoints": [
+      129736
+    ],
+    "keywords": [
+      "bigfoot",
+      "cryptid",
+      "forest",
+      "giant",
+      "hairy",
+      "sasquatch",
+      "woodwose",
+      "yeti"
+    ],
+    "name": "hairy creature"
+  },
+  "1facd": {
+    "char": "🫍",
+    "codepoints": [
+      129741
+    ],
+    "keywords": [
+      "marine",
+      "ocean",
+      "whale"
+    ],
+    "name": "orca"
+  },
   "1face": {
     "char": "🫎",
     "codepoints": [
@@ -28611,6 +28702,20 @@
     ],
     "name": "root vegetable"
   },
+  "1fadd": {
+    "char": "🫝",
+    "codepoints": [
+      129757
+    ],
+    "keywords": [
+      "compost",
+      "eaten",
+      "food",
+      "garbage",
+      "rotten"
+    ],
+    "name": "apple core"
+  },
   "1fadf": {
     "char": "🫟",
     "codepoints": [
@@ -28841,6 +28946,37 @@
       "weary"
     ],
     "name": "face with bags under eyes"
+  },
+  "1faea": {
+    "char": "🫪",
+    "codepoints": [
+      129770
+    ],
+    "keywords": [
+      "anxiety",
+      "bloated",
+      "panic",
+      "shocked",
+      "surprised",
+      "vulnerable"
+    ],
+    "name": "distorted face"
+  },
+  "1faef": {
+    "char": "🫯",
+    "codepoints": [
+      129775
+    ],
+    "keywords": [
+      "argument",
+      "brawl",
+      "debate",
+      "disagreement",
+      "fight",
+      "ruckus",
+      "wrestle"
+    ],
+    "name": "fight cloud"
   },
   "1faf0": {
     "char": "🫰",
