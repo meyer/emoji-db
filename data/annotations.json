@@ -168,6 +168,136 @@
     ],
     "name": "slash"
   },
+  "0030_20e3": {
+    "char": "0⃣",
+    "codepoints": [
+      48,
+      8419
+    ],
+    "keywords": [
+      "0",
+      "zero",
+      "keycap"
+    ],
+    "name": "keycap: 0"
+  },
+  "0031_20e3": {
+    "char": "1⃣",
+    "codepoints": [
+      49,
+      8419
+    ],
+    "keywords": [
+      "1",
+      "one",
+      "keycap"
+    ],
+    "name": "keycap: 1"
+  },
+  "0032_20e3": {
+    "char": "2⃣",
+    "codepoints": [
+      50,
+      8419
+    ],
+    "keywords": [
+      "2",
+      "two",
+      "keycap"
+    ],
+    "name": "keycap: 2"
+  },
+  "0033_20e3": {
+    "char": "3⃣",
+    "codepoints": [
+      51,
+      8419
+    ],
+    "keywords": [
+      "3",
+      "three",
+      "keycap"
+    ],
+    "name": "keycap: 3"
+  },
+  "0034_20e3": {
+    "char": "4⃣",
+    "codepoints": [
+      52,
+      8419
+    ],
+    "keywords": [
+      "4",
+      "four",
+      "keycap"
+    ],
+    "name": "keycap: 4"
+  },
+  "0035_20e3": {
+    "char": "5⃣",
+    "codepoints": [
+      53,
+      8419
+    ],
+    "keywords": [
+      "5",
+      "five",
+      "keycap"
+    ],
+    "name": "keycap: 5"
+  },
+  "0036_20e3": {
+    "char": "6⃣",
+    "codepoints": [
+      54,
+      8419
+    ],
+    "keywords": [
+      "6",
+      "six",
+      "keycap"
+    ],
+    "name": "keycap: 6"
+  },
+  "0037_20e3": {
+    "char": "7⃣",
+    "codepoints": [
+      55,
+      8419
+    ],
+    "keywords": [
+      "7",
+      "seven",
+      "keycap"
+    ],
+    "name": "keycap: 7"
+  },
+  "0038_20e3": {
+    "char": "8⃣",
+    "codepoints": [
+      56,
+      8419
+    ],
+    "keywords": [
+      "8",
+      "eight",
+      "keycap"
+    ],
+    "name": "keycap: 8"
+  },
+  "0039_20e3": {
+    "char": "9⃣",
+    "codepoints": [
+      57,
+      8419
+    ],
+    "keywords": [
+      "9",
+      "nine",
+      "keycap"
+    ],
+    "name": "keycap: 9"
+  },
   "003a": {
     "char": ":",
     "codepoints": [
