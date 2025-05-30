@@ -176,8 +176,8 @@
     ],
     "keywords": [
       "0",
-      "zero",
-      "keycap"
+      "keycap",
+      "zero"
     ],
     "name": "keycap: 0"
   },
@@ -189,8 +189,8 @@
     ],
     "keywords": [
       "1",
-      "one",
-      "keycap"
+      "keycap",
+      "one"
     ],
     "name": "keycap: 1"
   },
@@ -202,8 +202,8 @@
     ],
     "keywords": [
       "2",
-      "two",
-      "keycap"
+      "keycap",
+      "two"
     ],
     "name": "keycap: 2"
   },
@@ -215,8 +215,8 @@
     ],
     "keywords": [
       "3",
-      "three",
-      "keycap"
+      "keycap",
+      "three"
     ],
     "name": "keycap: 3"
   },
@@ -254,8 +254,8 @@
     ],
     "keywords": [
       "6",
-      "six",
-      "keycap"
+      "keycap",
+      "six"
     ],
     "name": "keycap: 6"
   },
@@ -267,8 +267,8 @@
     ],
     "keywords": [
       "7",
-      "seven",
-      "keycap"
+      "keycap",
+      "seven"
     ],
     "name": "keycap: 7"
   },
@@ -293,8 +293,8 @@
     ],
     "keywords": [
       "9",
-      "nine",
-      "keycap"
+      "keycap",
+      "nine"
     ],
     "name": "keycap: 9"
   },
