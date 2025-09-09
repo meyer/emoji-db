@@ -37,7 +37,9 @@
     "fitz": null,
     "image": "images/keycap__0.png",
     "keywords": [
-      "keycap"
+      "0",
+      "keycap",
+      "zero"
     ],
     "name": "keycap: 0"
   },
@@ -51,7 +53,9 @@
     "fitz": null,
     "image": "images/keycap__1.png",
     "keywords": [
-      "keycap"
+      "1",
+      "keycap",
+      "one"
     ],
     "name": "keycap: 1"
   },
@@ -65,7 +69,9 @@
     "fitz": null,
     "image": "images/keycap__2.png",
     "keywords": [
-      "keycap"
+      "2",
+      "keycap",
+      "two"
     ],
     "name": "keycap: 2"
   },
@@ -79,7 +85,9 @@
     "fitz": null,
     "image": "images/keycap__3.png",
     "keywords": [
-      "keycap"
+      "3",
+      "keycap",
+      "three"
     ],
     "name": "keycap: 3"
   },
@@ -93,6 +101,8 @@
     "fitz": null,
     "image": "images/keycap__4.png",
     "keywords": [
+      "4",
+      "four",
       "keycap"
     ],
     "name": "keycap: 4"
@@ -107,6 +117,8 @@
     "fitz": null,
     "image": "images/keycap__5.png",
     "keywords": [
+      "5",
+      "five",
       "keycap"
     ],
     "name": "keycap: 5"
@@ -121,7 +133,9 @@
     "fitz": null,
     "image": "images/keycap__6.png",
     "keywords": [
-      "keycap"
+      "6",
+      "keycap",
+      "six"
     ],
     "name": "keycap: 6"
   },
@@ -135,7 +149,9 @@
     "fitz": null,
     "image": "images/keycap__7.png",
     "keywords": [
-      "keycap"
+      "7",
+      "keycap",
+      "seven"
     ],
     "name": "keycap: 7"
   },
@@ -149,6 +165,8 @@
     "fitz": null,
     "image": "images/keycap__8.png",
     "keywords": [
+      "8",
+      "eight",
       "keycap"
     ],
     "name": "keycap: 8"
@@ -163,7 +181,9 @@
     "fitz": null,
     "image": "images/keycap__9.png",
     "keywords": [
-      "keycap"
+      "9",
+      "keycap",
+      "nine"
     ],
     "name": "keycap: 9"
   },

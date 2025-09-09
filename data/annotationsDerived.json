@@ -21,116 +21,6 @@
     ],
     "name": "keycap: *"
   },
-  "0030_20e3": {
-    "char": "0⃣",
-    "codepoints": [
-      48,
-      8419
-    ],
-    "keywords": [
-      "keycap"
-    ],
-    "name": "keycap: 0"
-  },
-  "0031_20e3": {
-    "char": "1⃣",
-    "codepoints": [
-      49,
-      8419
-    ],
-    "keywords": [
-      "keycap"
-    ],
-    "name": "keycap: 1"
-  },
-  "0032_20e3": {
-    "char": "2⃣",
-    "codepoints": [
-      50,
-      8419
-    ],
-    "keywords": [
-      "keycap"
-    ],
-    "name": "keycap: 2"
-  },
-  "0033_20e3": {
-    "char": "3⃣",
-    "codepoints": [
-      51,
-      8419
-    ],
-    "keywords": [
-      "keycap"
-    ],
-    "name": "keycap: 3"
-  },
-  "0034_20e3": {
-    "char": "4⃣",
-    "codepoints": [
-      52,
-      8419
-    ],
-    "keywords": [
-      "keycap"
-    ],
-    "name": "keycap: 4"
-  },
-  "0035_20e3": {
-    "char": "5⃣",
-    "codepoints": [
-      53,
-      8419
-    ],
-    "keywords": [
-      "keycap"
-    ],
-    "name": "keycap: 5"
-  },
-  "0036_20e3": {
-    "char": "6⃣",
-    "codepoints": [
-      54,
-      8419
-    ],
-    "keywords": [
-      "keycap"
-    ],
-    "name": "keycap: 6"
-  },
-  "0037_20e3": {
-    "char": "7⃣",
-    "codepoints": [
-      55,
-      8419
-    ],
-    "keywords": [
-      "keycap"
-    ],
-    "name": "keycap: 7"
-  },
-  "0038_20e3": {
-    "char": "8⃣",
-    "codepoints": [
-      56,
-      8419
-    ],
-    "keywords": [
-      "keycap"
-    ],
-    "name": "keycap: 8"
-  },
-  "0039_20e3": {
-    "char": "9⃣",
-    "codepoints": [
-      57,
-      8419
-    ],
-    "keywords": [
-      "keycap"
-    ],
-    "name": "keycap: 9"
-  },
   "00a4": {
     "char": "¤",
     "codepoints": [
@@ -8910,6 +8800,138 @@
     ],
     "name": "man factory worker: light skin tone"
   },
+  "1f468_1f430_1f468.12": {
+    "char": "👨🏻‍🐰‍👨🏼",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      128048,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "light skin tone",
+      "medium-light skin tone",
+      "men",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "men with bunny ears: light skin tone, medium-light skin tone"
+  },
+  "1f468_1f430_1f468.13": {
+    "char": "👨🏻‍🐰‍👨🏽",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      128048,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "light skin tone",
+      "medium skin tone",
+      "men",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "men with bunny ears: light skin tone, medium skin tone"
+  },
+  "1f468_1f430_1f468.14": {
+    "char": "👨🏻‍🐰‍👨🏾",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      128048,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "light skin tone",
+      "medium-dark skin tone",
+      "men",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "men with bunny ears: light skin tone, medium-dark skin tone"
+  },
+  "1f468_1f430_1f468.15": {
+    "char": "👨🏻‍🐰‍👨🏿",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      128048,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "dark skin tone",
+      "double",
+      "ear",
+      "identical",
+      "light skin tone",
+      "men",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "men with bunny ears: light skin tone, dark skin tone"
+  },
   "1f468_1f4bb.1": {
     "char": "👨🏻‍💻",
     "codepoints": [
@@ -9327,6 +9349,106 @@
       "wheelchair"
     ],
     "name": "man in manual wheelchair: light skin tone, facing right"
+  },
+  "1f468_1faef_1f468.12": {
+    "char": "👨🏻‍🫯‍👨🏼",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      129775,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "light skin tone",
+      "medium-light skin tone",
+      "men",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "men wrestling: light skin tone, medium-light skin tone"
+  },
+  "1f468_1faef_1f468.13": {
+    "char": "👨🏻‍🫯‍👨🏽",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      129775,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "light skin tone",
+      "medium skin tone",
+      "men",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "men wrestling: light skin tone, medium skin tone"
+  },
+  "1f468_1faef_1f468.14": {
+    "char": "👨🏻‍🫯‍👨🏾",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      129775,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "light skin tone",
+      "medium-dark skin tone",
+      "men",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "men wrestling: light skin tone, medium-dark skin tone"
+  },
+  "1f468_1faef_1f468.15": {
+    "char": "👨🏻‍🫯‍👨🏿",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      129775,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "combat",
+      "dark skin tone",
+      "duel",
+      "grapple",
+      "light skin tone",
+      "men",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "men wrestling: light skin tone, dark skin tone"
   },
   "1f468.2": {
     "char": "👨🏼",
@@ -9862,6 +9984,138 @@
     ],
     "name": "man factory worker: medium-light skin tone"
   },
+  "1f468_1f430_1f468.21": {
+    "char": "👨🏼‍🐰‍👨🏻",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      128048,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "light skin tone",
+      "medium-light skin tone",
+      "men",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "men with bunny ears: medium-light skin tone, light skin tone"
+  },
+  "1f468_1f430_1f468.23": {
+    "char": "👨🏼‍🐰‍👨🏽",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      128048,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "medium skin tone",
+      "medium-light skin tone",
+      "men",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "men with bunny ears: medium-light skin tone, medium skin tone"
+  },
+  "1f468_1f430_1f468.24": {
+    "char": "👨🏼‍🐰‍👨🏾",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      128048,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "men",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "men with bunny ears: medium-light skin tone, medium-dark skin tone"
+  },
+  "1f468_1f430_1f468.25": {
+    "char": "👨🏼‍🐰‍👨🏿",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      128048,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "dark skin tone",
+      "double",
+      "ear",
+      "identical",
+      "medium-light skin tone",
+      "men",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "men with bunny ears: medium-light skin tone, dark skin tone"
+  },
   "1f468_1f4bb.2": {
     "char": "👨🏼‍💻",
     "codepoints": [
@@ -10279,6 +10533,106 @@
       "wheelchair"
     ],
     "name": "man in manual wheelchair: medium-light skin tone, facing right"
+  },
+  "1f468_1faef_1f468.21": {
+    "char": "👨🏼‍🫯‍👨🏻",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      129775,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "light skin tone",
+      "medium-light skin tone",
+      "men",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "men wrestling: medium-light skin tone, light skin tone"
+  },
+  "1f468_1faef_1f468.23": {
+    "char": "👨🏼‍🫯‍👨🏽",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      129775,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "medium skin tone",
+      "medium-light skin tone",
+      "men",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "men wrestling: medium-light skin tone, medium skin tone"
+  },
+  "1f468_1faef_1f468.24": {
+    "char": "👨🏼‍🫯‍👨🏾",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      129775,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "men",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "men wrestling: medium-light skin tone, medium-dark skin tone"
+  },
+  "1f468_1faef_1f468.25": {
+    "char": "👨🏼‍🫯‍👨🏿",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      129775,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "combat",
+      "dark skin tone",
+      "duel",
+      "grapple",
+      "medium-light skin tone",
+      "men",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "men wrestling: medium-light skin tone, dark skin tone"
   },
   "1f468.3": {
     "char": "👨🏽",
@@ -10814,6 +11168,138 @@
     ],
     "name": "man factory worker: medium skin tone"
   },
+  "1f468_1f430_1f468.31": {
+    "char": "👨🏽‍🐰‍👨🏻",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      128048,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "light skin tone",
+      "medium skin tone",
+      "men",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "men with bunny ears: medium skin tone, light skin tone"
+  },
+  "1f468_1f430_1f468.32": {
+    "char": "👨🏽‍🐰‍👨🏼",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      128048,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "medium skin tone",
+      "medium-light skin tone",
+      "men",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "men with bunny ears: medium skin tone, medium-light skin tone"
+  },
+  "1f468_1f430_1f468.34": {
+    "char": "👨🏽‍🐰‍👨🏾",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      128048,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "men",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "men with bunny ears: medium skin tone, medium-dark skin tone"
+  },
+  "1f468_1f430_1f468.35": {
+    "char": "👨🏽‍🐰‍👨🏿",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      128048,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "dark skin tone",
+      "double",
+      "ear",
+      "identical",
+      "medium skin tone",
+      "men",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "men with bunny ears: medium skin tone, dark skin tone"
+  },
   "1f468_1f4bb.3": {
     "char": "👨🏽‍💻",
     "codepoints": [
@@ -11231,6 +11717,106 @@
       "wheelchair"
     ],
     "name": "man in manual wheelchair: medium skin tone, facing right"
+  },
+  "1f468_1faef_1f468.31": {
+    "char": "👨🏽‍🫯‍👨🏻",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      129775,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "light skin tone",
+      "medium skin tone",
+      "men",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "men wrestling: medium skin tone, light skin tone"
+  },
+  "1f468_1faef_1f468.32": {
+    "char": "👨🏽‍🫯‍👨🏼",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      129775,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "medium skin tone",
+      "medium-light skin tone",
+      "men",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "men wrestling: medium skin tone, medium-light skin tone"
+  },
+  "1f468_1faef_1f468.34": {
+    "char": "👨🏽‍🫯‍👨🏾",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      129775,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "men",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "men wrestling: medium skin tone, medium-dark skin tone"
+  },
+  "1f468_1faef_1f468.35": {
+    "char": "👨🏽‍🫯‍👨🏿",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      129775,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "combat",
+      "dark skin tone",
+      "duel",
+      "grapple",
+      "medium skin tone",
+      "men",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "men wrestling: medium skin tone, dark skin tone"
   },
   "1f468.4": {
     "char": "👨🏾",
@@ -11766,6 +12352,138 @@
     ],
     "name": "man factory worker: medium-dark skin tone"
   },
+  "1f468_1f430_1f468.41": {
+    "char": "👨🏾‍🐰‍👨🏻",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      128048,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "light skin tone",
+      "medium-dark skin tone",
+      "men",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "men with bunny ears: medium-dark skin tone, light skin tone"
+  },
+  "1f468_1f430_1f468.42": {
+    "char": "👨🏾‍🐰‍👨🏼",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      128048,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "men",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "men with bunny ears: medium-dark skin tone, medium-light skin tone"
+  },
+  "1f468_1f430_1f468.43": {
+    "char": "👨🏾‍🐰‍👨🏽",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      128048,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "men",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "men with bunny ears: medium-dark skin tone, medium skin tone"
+  },
+  "1f468_1f430_1f468.45": {
+    "char": "👨🏾‍🐰‍👨🏿",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      128048,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "dark skin tone",
+      "double",
+      "ear",
+      "identical",
+      "medium-dark skin tone",
+      "men",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "men with bunny ears: medium-dark skin tone, dark skin tone"
+  },
   "1f468_1f4bb.4": {
     "char": "👨🏾‍💻",
     "codepoints": [
@@ -12183,6 +12901,106 @@
       "wheelchair"
     ],
     "name": "man in manual wheelchair: medium-dark skin tone, facing right"
+  },
+  "1f468_1faef_1f468.41": {
+    "char": "👨🏾‍🫯‍👨🏻",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      129775,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "light skin tone",
+      "medium-dark skin tone",
+      "men",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "men wrestling: medium-dark skin tone, light skin tone"
+  },
+  "1f468_1faef_1f468.42": {
+    "char": "👨🏾‍🫯‍👨🏼",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      129775,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "men",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "men wrestling: medium-dark skin tone, medium-light skin tone"
+  },
+  "1f468_1faef_1f468.43": {
+    "char": "👨🏾‍🫯‍👨🏽",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      129775,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "men",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "men wrestling: medium-dark skin tone, medium skin tone"
+  },
+  "1f468_1faef_1f468.45": {
+    "char": "👨🏾‍🫯‍👨🏿",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      129775,
+      8205,
+      128104,
+      127999
+    ],
+    "keywords": [
+      "combat",
+      "dark skin tone",
+      "duel",
+      "grapple",
+      "medium-dark skin tone",
+      "men",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "men wrestling: medium-dark skin tone, dark skin tone"
   },
   "1f468.5": {
     "char": "👨🏿",
@@ -12718,6 +13536,138 @@
     ],
     "name": "man factory worker: dark skin tone"
   },
+  "1f468_1f430_1f468.51": {
+    "char": "👨🏿‍🐰‍👨🏻",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      128048,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "dark skin tone",
+      "double",
+      "ear",
+      "identical",
+      "light skin tone",
+      "men",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "men with bunny ears: dark skin tone, light skin tone"
+  },
+  "1f468_1f430_1f468.52": {
+    "char": "👨🏿‍🐰‍👨🏼",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      128048,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "dark skin tone",
+      "double",
+      "ear",
+      "identical",
+      "medium-light skin tone",
+      "men",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "men with bunny ears: dark skin tone, medium-light skin tone"
+  },
+  "1f468_1f430_1f468.53": {
+    "char": "👨🏿‍🐰‍👨🏽",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      128048,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "dark skin tone",
+      "double",
+      "ear",
+      "identical",
+      "medium skin tone",
+      "men",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "men with bunny ears: dark skin tone, medium skin tone"
+  },
+  "1f468_1f430_1f468.54": {
+    "char": "👨🏿‍🐰‍👨🏾",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      128048,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "dark skin tone",
+      "double",
+      "ear",
+      "identical",
+      "medium-dark skin tone",
+      "men",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "men with bunny ears: dark skin tone, medium-dark skin tone"
+  },
   "1f468_1f4bb.5": {
     "char": "👨🏿‍💻",
     "codepoints": [
@@ -13135,6 +14085,106 @@
       "wheelchair"
     ],
     "name": "man in manual wheelchair: dark skin tone, facing right"
+  },
+  "1f468_1faef_1f468.51": {
+    "char": "👨🏿‍🫯‍👨🏻",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      129775,
+      8205,
+      128104,
+      127995
+    ],
+    "keywords": [
+      "combat",
+      "dark skin tone",
+      "duel",
+      "grapple",
+      "light skin tone",
+      "men",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "men wrestling: dark skin tone, light skin tone"
+  },
+  "1f468_1faef_1f468.52": {
+    "char": "👨🏿‍🫯‍👨🏼",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      129775,
+      8205,
+      128104,
+      127996
+    ],
+    "keywords": [
+      "combat",
+      "dark skin tone",
+      "duel",
+      "grapple",
+      "medium-light skin tone",
+      "men",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "men wrestling: dark skin tone, medium-light skin tone"
+  },
+  "1f468_1faef_1f468.53": {
+    "char": "👨🏿‍🫯‍👨🏽",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      129775,
+      8205,
+      128104,
+      127997
+    ],
+    "keywords": [
+      "combat",
+      "dark skin tone",
+      "duel",
+      "grapple",
+      "medium skin tone",
+      "men",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "men wrestling: dark skin tone, medium skin tone"
+  },
+  "1f468_1faef_1f468.54": {
+    "char": "👨🏿‍🫯‍👨🏾",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      129775,
+      8205,
+      128104,
+      127998
+    ],
+    "keywords": [
+      "combat",
+      "dark skin tone",
+      "duel",
+      "grapple",
+      "medium-dark skin tone",
+      "men",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "men wrestling: dark skin tone, medium-dark skin tone"
   },
   "1f491.WM": {
     "char": "👩‍❤‍👨",
@@ -14412,6 +15462,138 @@
     ],
     "name": "woman factory worker: light skin tone"
   },
+  "1f469_1f430_1f469.12": {
+    "char": "👩🏻‍🐰‍👩🏼",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      128048,
+      8205,
+      128105,
+      127996
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "light skin tone",
+      "medium-light skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies",
+      "women"
+    ],
+    "name": "women with bunny ears: light skin tone, medium-light skin tone"
+  },
+  "1f469_1f430_1f469.13": {
+    "char": "👩🏻‍🐰‍👩🏽",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      128048,
+      8205,
+      128105,
+      127997
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "light skin tone",
+      "medium skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies",
+      "women"
+    ],
+    "name": "women with bunny ears: light skin tone, medium skin tone"
+  },
+  "1f469_1f430_1f469.14": {
+    "char": "👩🏻‍🐰‍👩🏾",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      128048,
+      8205,
+      128105,
+      127998
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "light skin tone",
+      "medium-dark skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies",
+      "women"
+    ],
+    "name": "women with bunny ears: light skin tone, medium-dark skin tone"
+  },
+  "1f469_1f430_1f469.15": {
+    "char": "👩🏻‍🐰‍👩🏿",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      128048,
+      8205,
+      128105,
+      127999
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "dark skin tone",
+      "double",
+      "ear",
+      "identical",
+      "light skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies",
+      "women"
+    ],
+    "name": "women with bunny ears: light skin tone, dark skin tone"
+  },
   "1f469_1f4bb.1": {
     "char": "👩🏻‍💻",
     "codepoints": [
@@ -14945,6 +16127,106 @@
       "woman"
     ],
     "name": "woman in manual wheelchair: light skin tone, facing right"
+  },
+  "1f469_1faef_1f469.12": {
+    "char": "👩🏻‍🫯‍👩🏼",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      129775,
+      8205,
+      128105,
+      127996
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "light skin tone",
+      "medium-light skin tone",
+      "ring",
+      "tournament",
+      "women",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "women wrestling: light skin tone, medium-light skin tone"
+  },
+  "1f469_1faef_1f469.13": {
+    "char": "👩🏻‍🫯‍👩🏽",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      129775,
+      8205,
+      128105,
+      127997
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "light skin tone",
+      "medium skin tone",
+      "ring",
+      "tournament",
+      "women",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "women wrestling: light skin tone, medium skin tone"
+  },
+  "1f469_1faef_1f469.14": {
+    "char": "👩🏻‍🫯‍👩🏾",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      129775,
+      8205,
+      128105,
+      127998
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "light skin tone",
+      "medium-dark skin tone",
+      "ring",
+      "tournament",
+      "women",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "women wrestling: light skin tone, medium-dark skin tone"
+  },
+  "1f469_1faef_1f469.15": {
+    "char": "👩🏻‍🫯‍👩🏿",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      129775,
+      8205,
+      128105,
+      127999
+    ],
+    "keywords": [
+      "combat",
+      "dark skin tone",
+      "duel",
+      "grapple",
+      "light skin tone",
+      "ring",
+      "tournament",
+      "women",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "women wrestling: light skin tone, dark skin tone"
   },
   "1f469.2": {
     "char": "👩🏼",
@@ -15813,6 +17095,138 @@
     ],
     "name": "woman factory worker: medium-light skin tone"
   },
+  "1f469_1f430_1f469.21": {
+    "char": "👩🏼‍🐰‍👩🏻",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      128048,
+      8205,
+      128105,
+      127995
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "light skin tone",
+      "medium-light skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies",
+      "women"
+    ],
+    "name": "women with bunny ears: medium-light skin tone, light skin tone"
+  },
+  "1f469_1f430_1f469.23": {
+    "char": "👩🏼‍🐰‍👩🏽",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      128048,
+      8205,
+      128105,
+      127997
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "medium skin tone",
+      "medium-light skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies",
+      "women"
+    ],
+    "name": "women with bunny ears: medium-light skin tone, medium skin tone"
+  },
+  "1f469_1f430_1f469.24": {
+    "char": "👩🏼‍🐰‍👩🏾",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      128048,
+      8205,
+      128105,
+      127998
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies",
+      "women"
+    ],
+    "name": "women with bunny ears: medium-light skin tone, medium-dark skin tone"
+  },
+  "1f469_1f430_1f469.25": {
+    "char": "👩🏼‍🐰‍👩🏿",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      128048,
+      8205,
+      128105,
+      127999
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "dark skin tone",
+      "double",
+      "ear",
+      "identical",
+      "medium-light skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies",
+      "women"
+    ],
+    "name": "women with bunny ears: medium-light skin tone, dark skin tone"
+  },
   "1f469_1f4bb.2": {
     "char": "👩🏼‍💻",
     "codepoints": [
@@ -16346,6 +17760,106 @@
       "woman"
     ],
     "name": "woman in manual wheelchair: medium-light skin tone, facing right"
+  },
+  "1f469_1faef_1f469.21": {
+    "char": "👩🏼‍🫯‍👩🏻",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      129775,
+      8205,
+      128105,
+      127995
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "light skin tone",
+      "medium-light skin tone",
+      "ring",
+      "tournament",
+      "women",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "women wrestling: medium-light skin tone, light skin tone"
+  },
+  "1f469_1faef_1f469.23": {
+    "char": "👩🏼‍🫯‍👩🏽",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      129775,
+      8205,
+      128105,
+      127997
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "medium skin tone",
+      "medium-light skin tone",
+      "ring",
+      "tournament",
+      "women",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "women wrestling: medium-light skin tone, medium skin tone"
+  },
+  "1f469_1faef_1f469.24": {
+    "char": "👩🏼‍🫯‍👩🏾",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      129775,
+      8205,
+      128105,
+      127998
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "ring",
+      "tournament",
+      "women",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "women wrestling: medium-light skin tone, medium-dark skin tone"
+  },
+  "1f469_1faef_1f469.25": {
+    "char": "👩🏼‍🫯‍👩🏿",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      129775,
+      8205,
+      128105,
+      127999
+    ],
+    "keywords": [
+      "combat",
+      "dark skin tone",
+      "duel",
+      "grapple",
+      "medium-light skin tone",
+      "ring",
+      "tournament",
+      "women",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "women wrestling: medium-light skin tone, dark skin tone"
   },
   "1f469.3": {
     "char": "👩🏽",
@@ -17214,6 +18728,138 @@
     ],
     "name": "woman factory worker: medium skin tone"
   },
+  "1f469_1f430_1f469.31": {
+    "char": "👩🏽‍🐰‍👩🏻",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      128048,
+      8205,
+      128105,
+      127995
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "light skin tone",
+      "medium skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies",
+      "women"
+    ],
+    "name": "women with bunny ears: medium skin tone, light skin tone"
+  },
+  "1f469_1f430_1f469.32": {
+    "char": "👩🏽‍🐰‍👩🏼",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      128048,
+      8205,
+      128105,
+      127996
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "medium skin tone",
+      "medium-light skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies",
+      "women"
+    ],
+    "name": "women with bunny ears: medium skin tone, medium-light skin tone"
+  },
+  "1f469_1f430_1f469.34": {
+    "char": "👩🏽‍🐰‍👩🏾",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      128048,
+      8205,
+      128105,
+      127998
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies",
+      "women"
+    ],
+    "name": "women with bunny ears: medium skin tone, medium-dark skin tone"
+  },
+  "1f469_1f430_1f469.35": {
+    "char": "👩🏽‍🐰‍👩🏿",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      128048,
+      8205,
+      128105,
+      127999
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "dark skin tone",
+      "double",
+      "ear",
+      "identical",
+      "medium skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies",
+      "women"
+    ],
+    "name": "women with bunny ears: medium skin tone, dark skin tone"
+  },
   "1f469_1f4bb.3": {
     "char": "👩🏽‍💻",
     "codepoints": [
@@ -17747,6 +19393,106 @@
       "woman"
     ],
     "name": "woman in manual wheelchair: medium skin tone, facing right"
+  },
+  "1f469_1faef_1f469.31": {
+    "char": "👩🏽‍🫯‍👩🏻",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      129775,
+      8205,
+      128105,
+      127995
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "light skin tone",
+      "medium skin tone",
+      "ring",
+      "tournament",
+      "women",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "women wrestling: medium skin tone, light skin tone"
+  },
+  "1f469_1faef_1f469.32": {
+    "char": "👩🏽‍🫯‍👩🏼",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      129775,
+      8205,
+      128105,
+      127996
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "medium skin tone",
+      "medium-light skin tone",
+      "ring",
+      "tournament",
+      "women",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "women wrestling: medium skin tone, medium-light skin tone"
+  },
+  "1f469_1faef_1f469.34": {
+    "char": "👩🏽‍🫯‍👩🏾",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      129775,
+      8205,
+      128105,
+      127998
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "ring",
+      "tournament",
+      "women",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "women wrestling: medium skin tone, medium-dark skin tone"
+  },
+  "1f469_1faef_1f469.35": {
+    "char": "👩🏽‍🫯‍👩🏿",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      129775,
+      8205,
+      128105,
+      127999
+    ],
+    "keywords": [
+      "combat",
+      "dark skin tone",
+      "duel",
+      "grapple",
+      "medium skin tone",
+      "ring",
+      "tournament",
+      "women",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "women wrestling: medium skin tone, dark skin tone"
   },
   "1f469.4": {
     "char": "👩🏾",
@@ -18615,6 +20361,138 @@
     ],
     "name": "woman factory worker: medium-dark skin tone"
   },
+  "1f469_1f430_1f469.41": {
+    "char": "👩🏾‍🐰‍👩🏻",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      128048,
+      8205,
+      128105,
+      127995
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "light skin tone",
+      "medium-dark skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies",
+      "women"
+    ],
+    "name": "women with bunny ears: medium-dark skin tone, light skin tone"
+  },
+  "1f469_1f430_1f469.42": {
+    "char": "👩🏾‍🐰‍👩🏼",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      128048,
+      8205,
+      128105,
+      127996
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies",
+      "women"
+    ],
+    "name": "women with bunny ears: medium-dark skin tone, medium-light skin tone"
+  },
+  "1f469_1f430_1f469.43": {
+    "char": "👩🏾‍🐰‍👩🏽",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      128048,
+      8205,
+      128105,
+      127997
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies",
+      "women"
+    ],
+    "name": "women with bunny ears: medium-dark skin tone, medium skin tone"
+  },
+  "1f469_1f430_1f469.45": {
+    "char": "👩🏾‍🐰‍👩🏿",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      128048,
+      8205,
+      128105,
+      127999
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "dark skin tone",
+      "double",
+      "ear",
+      "identical",
+      "medium-dark skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies",
+      "women"
+    ],
+    "name": "women with bunny ears: medium-dark skin tone, dark skin tone"
+  },
   "1f469_1f4bb.4": {
     "char": "👩🏾‍💻",
     "codepoints": [
@@ -19148,6 +21026,106 @@
       "woman"
     ],
     "name": "woman in manual wheelchair: medium-dark skin tone, facing right"
+  },
+  "1f469_1faef_1f469.41": {
+    "char": "👩🏾‍🫯‍👩🏻",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      129775,
+      8205,
+      128105,
+      127995
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "light skin tone",
+      "medium-dark skin tone",
+      "ring",
+      "tournament",
+      "women",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "women wrestling: medium-dark skin tone, light skin tone"
+  },
+  "1f469_1faef_1f469.42": {
+    "char": "👩🏾‍🫯‍👩🏼",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      129775,
+      8205,
+      128105,
+      127996
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "ring",
+      "tournament",
+      "women",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "women wrestling: medium-dark skin tone, medium-light skin tone"
+  },
+  "1f469_1faef_1f469.43": {
+    "char": "👩🏾‍🫯‍👩🏽",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      129775,
+      8205,
+      128105,
+      127997
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "ring",
+      "tournament",
+      "women",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "women wrestling: medium-dark skin tone, medium skin tone"
+  },
+  "1f469_1faef_1f469.45": {
+    "char": "👩🏾‍🫯‍👩🏿",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      129775,
+      8205,
+      128105,
+      127999
+    ],
+    "keywords": [
+      "combat",
+      "dark skin tone",
+      "duel",
+      "grapple",
+      "medium-dark skin tone",
+      "ring",
+      "tournament",
+      "women",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "women wrestling: medium-dark skin tone, dark skin tone"
   },
   "1f469.5": {
     "char": "👩🏿",
@@ -20016,6 +21994,138 @@
     ],
     "name": "woman factory worker: dark skin tone"
   },
+  "1f469_1f430_1f469.51": {
+    "char": "👩🏿‍🐰‍👩🏻",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      128048,
+      8205,
+      128105,
+      127995
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "dark skin tone",
+      "double",
+      "ear",
+      "identical",
+      "light skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies",
+      "women"
+    ],
+    "name": "women with bunny ears: dark skin tone, light skin tone"
+  },
+  "1f469_1f430_1f469.52": {
+    "char": "👩🏿‍🐰‍👩🏼",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      128048,
+      8205,
+      128105,
+      127996
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "dark skin tone",
+      "double",
+      "ear",
+      "identical",
+      "medium-light skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies",
+      "women"
+    ],
+    "name": "women with bunny ears: dark skin tone, medium-light skin tone"
+  },
+  "1f469_1f430_1f469.53": {
+    "char": "👩🏿‍🐰‍👩🏽",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      128048,
+      8205,
+      128105,
+      127997
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "dark skin tone",
+      "double",
+      "ear",
+      "identical",
+      "medium skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies",
+      "women"
+    ],
+    "name": "women with bunny ears: dark skin tone, medium skin tone"
+  },
+  "1f469_1f430_1f469.54": {
+    "char": "👩🏿‍🐰‍👩🏾",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      128048,
+      8205,
+      128105,
+      127998
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "dark skin tone",
+      "double",
+      "ear",
+      "identical",
+      "medium-dark skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies",
+      "women"
+    ],
+    "name": "women with bunny ears: dark skin tone, medium-dark skin tone"
+  },
   "1f469_1f4bb.5": {
     "char": "👩🏿‍💻",
     "codepoints": [
@@ -20549,6 +22659,106 @@
       "woman"
     ],
     "name": "woman in manual wheelchair: dark skin tone, facing right"
+  },
+  "1f469_1faef_1f469.51": {
+    "char": "👩🏿‍🫯‍👩🏻",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      129775,
+      8205,
+      128105,
+      127995
+    ],
+    "keywords": [
+      "combat",
+      "dark skin tone",
+      "duel",
+      "grapple",
+      "light skin tone",
+      "ring",
+      "tournament",
+      "women",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "women wrestling: dark skin tone, light skin tone"
+  },
+  "1f469_1faef_1f469.52": {
+    "char": "👩🏿‍🫯‍👩🏼",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      129775,
+      8205,
+      128105,
+      127996
+    ],
+    "keywords": [
+      "combat",
+      "dark skin tone",
+      "duel",
+      "grapple",
+      "medium-light skin tone",
+      "ring",
+      "tournament",
+      "women",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "women wrestling: dark skin tone, medium-light skin tone"
+  },
+  "1f469_1faef_1f469.53": {
+    "char": "👩🏿‍🫯‍👩🏽",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      129775,
+      8205,
+      128105,
+      127997
+    ],
+    "keywords": [
+      "combat",
+      "dark skin tone",
+      "duel",
+      "grapple",
+      "medium skin tone",
+      "ring",
+      "tournament",
+      "women",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "women wrestling: dark skin tone, medium skin tone"
+  },
+  "1f469_1faef_1f469.54": {
+    "char": "👩🏿‍🫯‍👩🏾",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      129775,
+      8205,
+      128105,
+      127998
+    ],
+    "keywords": [
+      "combat",
+      "dark skin tone",
+      "duel",
+      "grapple",
+      "medium-dark skin tone",
+      "ring",
+      "tournament",
+      "women",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "women wrestling: dark skin tone, medium-dark skin tone"
   },
   "1f46b.1": {
     "char": "👫🏻",
@@ -21249,6 +23459,426 @@
       "undercover"
     ],
     "name": "man police officer: dark skin tone"
+  },
+  "1f46f.1": {
+    "char": "👯🏻",
+    "codepoints": [
+      128111,
+      127995
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "light skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "people with bunny ears: light skin tone"
+  },
+  "1f46f.1.W": {
+    "char": "👯🏻‍♀",
+    "codepoints": [
+      128111,
+      127995,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "light skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies",
+      "women"
+    ],
+    "name": "women with bunny ears: light skin tone"
+  },
+  "1f46f.1.M": {
+    "char": "👯🏻‍♂",
+    "codepoints": [
+      128111,
+      127995,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "light skin tone",
+      "men",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "men with bunny ears: light skin tone"
+  },
+  "1f46f.2": {
+    "char": "👯🏼",
+    "codepoints": [
+      128111,
+      127996
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "medium-light skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "people with bunny ears: medium-light skin tone"
+  },
+  "1f46f.2.W": {
+    "char": "👯🏼‍♀",
+    "codepoints": [
+      128111,
+      127996,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "medium-light skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies",
+      "women"
+    ],
+    "name": "women with bunny ears: medium-light skin tone"
+  },
+  "1f46f.2.M": {
+    "char": "👯🏼‍♂",
+    "codepoints": [
+      128111,
+      127996,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "medium-light skin tone",
+      "men",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "men with bunny ears: medium-light skin tone"
+  },
+  "1f46f.3": {
+    "char": "👯🏽",
+    "codepoints": [
+      128111,
+      127997
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "medium skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "people with bunny ears: medium skin tone"
+  },
+  "1f46f.3.W": {
+    "char": "👯🏽‍♀",
+    "codepoints": [
+      128111,
+      127997,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "medium skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies",
+      "women"
+    ],
+    "name": "women with bunny ears: medium skin tone"
+  },
+  "1f46f.3.M": {
+    "char": "👯🏽‍♂",
+    "codepoints": [
+      128111,
+      127997,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "medium skin tone",
+      "men",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "men with bunny ears: medium skin tone"
+  },
+  "1f46f.4": {
+    "char": "👯🏾",
+    "codepoints": [
+      128111,
+      127998
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "medium-dark skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "people with bunny ears: medium-dark skin tone"
+  },
+  "1f46f.4.W": {
+    "char": "👯🏾‍♀",
+    "codepoints": [
+      128111,
+      127998,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "medium-dark skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies",
+      "women"
+    ],
+    "name": "women with bunny ears: medium-dark skin tone"
+  },
+  "1f46f.4.M": {
+    "char": "👯🏾‍♂",
+    "codepoints": [
+      128111,
+      127998,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "medium-dark skin tone",
+      "men",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "men with bunny ears: medium-dark skin tone"
+  },
+  "1f46f.5": {
+    "char": "👯🏿",
+    "codepoints": [
+      128111,
+      127999
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "dark skin tone",
+      "double",
+      "ear",
+      "identical",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "people with bunny ears: dark skin tone"
+  },
+  "1f46f.5.W": {
+    "char": "👯🏿‍♀",
+    "codepoints": [
+      128111,
+      127999,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "dark skin tone",
+      "double",
+      "ear",
+      "identical",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies",
+      "women"
+    ],
+    "name": "women with bunny ears: dark skin tone"
+  },
+  "1f46f.5.M": {
+    "char": "👯🏿‍♂",
+    "codepoints": [
+      128111,
+      127999,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "dark skin tone",
+      "double",
+      "ear",
+      "identical",
+      "men",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "men with bunny ears: dark skin tone"
   },
   "1f470.1": {
     "char": "👰🏻",
@@ -32905,6 +35535,311 @@
     ],
     "name": "man juggling: dark skin tone"
   },
+  "1f93c.1": {
+    "char": "🤼🏻",
+    "codepoints": [
+      129340,
+      127995
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "light skin tone",
+      "people",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "people wrestling: light skin tone"
+  },
+  "1f93c.1.W": {
+    "char": "🤼🏻‍♀",
+    "codepoints": [
+      129340,
+      127995,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "light skin tone",
+      "ring",
+      "tournament",
+      "women",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "women wrestling: light skin tone"
+  },
+  "1f93c.1.M": {
+    "char": "🤼🏻‍♂",
+    "codepoints": [
+      129340,
+      127995,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "light skin tone",
+      "men",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "men wrestling: light skin tone"
+  },
+  "1f93c.2": {
+    "char": "🤼🏼",
+    "codepoints": [
+      129340,
+      127996
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "medium-light skin tone",
+      "people",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "people wrestling: medium-light skin tone"
+  },
+  "1f93c.2.W": {
+    "char": "🤼🏼‍♀",
+    "codepoints": [
+      129340,
+      127996,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "medium-light skin tone",
+      "ring",
+      "tournament",
+      "women",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "women wrestling: medium-light skin tone"
+  },
+  "1f93c.2.M": {
+    "char": "🤼🏼‍♂",
+    "codepoints": [
+      129340,
+      127996,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "medium-light skin tone",
+      "men",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "men wrestling: medium-light skin tone"
+  },
+  "1f93c.3": {
+    "char": "🤼🏽",
+    "codepoints": [
+      129340,
+      127997
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "medium skin tone",
+      "people",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "people wrestling: medium skin tone"
+  },
+  "1f93c.3.W": {
+    "char": "🤼🏽‍♀",
+    "codepoints": [
+      129340,
+      127997,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "medium skin tone",
+      "ring",
+      "tournament",
+      "women",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "women wrestling: medium skin tone"
+  },
+  "1f93c.3.M": {
+    "char": "🤼🏽‍♂",
+    "codepoints": [
+      129340,
+      127997,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "medium skin tone",
+      "men",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "men wrestling: medium skin tone"
+  },
+  "1f93c.4": {
+    "char": "🤼🏾",
+    "codepoints": [
+      129340,
+      127998
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "medium-dark skin tone",
+      "people",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "people wrestling: medium-dark skin tone"
+  },
+  "1f93c.4.W": {
+    "char": "🤼🏾‍♀",
+    "codepoints": [
+      129340,
+      127998,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "medium-dark skin tone",
+      "ring",
+      "tournament",
+      "women",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "women wrestling: medium-dark skin tone"
+  },
+  "1f93c.4.M": {
+    "char": "🤼🏾‍♂",
+    "codepoints": [
+      129340,
+      127998,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "medium-dark skin tone",
+      "men",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "men wrestling: medium-dark skin tone"
+  },
+  "1f93c.5": {
+    "char": "🤼🏿",
+    "codepoints": [
+      129340,
+      127999
+    ],
+    "keywords": [
+      "combat",
+      "dark skin tone",
+      "duel",
+      "grapple",
+      "people",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "people wrestling: dark skin tone"
+  },
+  "1f93c.5.W": {
+    "char": "🤼🏿‍♀",
+    "codepoints": [
+      129340,
+      127999,
+      8205,
+      9792
+    ],
+    "keywords": [
+      "combat",
+      "dark skin tone",
+      "duel",
+      "grapple",
+      "ring",
+      "tournament",
+      "women",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "women wrestling: dark skin tone"
+  },
+  "1f93c.5.M": {
+    "char": "🤼🏿‍♂",
+    "codepoints": [
+      129340,
+      127999,
+      8205,
+      9794
+    ],
+    "keywords": [
+      "combat",
+      "dark skin tone",
+      "duel",
+      "grapple",
+      "men",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "men wrestling: dark skin tone"
+  },
   "1f93d.1": {
     "char": "🤽🏻",
     "codepoints": [
@@ -36179,6 +39114,134 @@
     ],
     "name": "factory worker: light skin tone"
   },
+  "1f9d1_1f430_1f9d1.12": {
+    "char": "🧑🏻‍🐰‍🧑🏼",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      128048,
+      8205,
+      129489,
+      127996
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "light skin tone",
+      "medium-light skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "people with bunny ears: light skin tone, medium-light skin tone"
+  },
+  "1f9d1_1f430_1f9d1.13": {
+    "char": "🧑🏻‍🐰‍🧑🏽",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      128048,
+      8205,
+      129489,
+      127997
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "light skin tone",
+      "medium skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "people with bunny ears: light skin tone, medium skin tone"
+  },
+  "1f9d1_1f430_1f9d1.14": {
+    "char": "🧑🏻‍🐰‍🧑🏾",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      128048,
+      8205,
+      129489,
+      127998
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "light skin tone",
+      "medium-dark skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "people with bunny ears: light skin tone, medium-dark skin tone"
+  },
+  "1f9d1_1f430_1f9d1.15": {
+    "char": "🧑🏻‍🐰‍🧑🏿",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      128048,
+      8205,
+      129489,
+      127999
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "dark skin tone",
+      "double",
+      "ear",
+      "identical",
+      "light skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "people with bunny ears: light skin tone, dark skin tone"
+  },
   "1f9d1_1f4bb.1": {
     "char": "🧑🏻‍💻",
     "codepoints": [
@@ -36605,6 +39668,121 @@
       "wheelchair"
     ],
     "name": "person in manual wheelchair: light skin tone, facing right"
+  },
+  "1f9d1_1fa70.1": {
+    "char": "🧑🏻‍🩰",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      129648
+    ],
+    "keywords": [
+      "ballet",
+      "dancer",
+      "light skin tone"
+    ],
+    "name": "ballet dancer: light skin tone"
+  },
+  "1f9d1_1faef_1f9d1.12": {
+    "char": "🧑🏻‍🫯‍🧑🏼",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      129775,
+      8205,
+      129489,
+      127996
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "light skin tone",
+      "medium-light skin tone",
+      "people",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "people wrestling: light skin tone, medium-light skin tone"
+  },
+  "1f9d1_1faef_1f9d1.13": {
+    "char": "🧑🏻‍🫯‍🧑🏽",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      129775,
+      8205,
+      129489,
+      127997
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "light skin tone",
+      "medium skin tone",
+      "people",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "people wrestling: light skin tone, medium skin tone"
+  },
+  "1f9d1_1faef_1f9d1.14": {
+    "char": "🧑🏻‍🫯‍🧑🏾",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      129775,
+      8205,
+      129489,
+      127998
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "light skin tone",
+      "medium-dark skin tone",
+      "people",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "people wrestling: light skin tone, medium-dark skin tone"
+  },
+  "1f9d1_1faef_1f9d1.15": {
+    "char": "🧑🏻‍🫯‍🧑🏿",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      129775,
+      8205,
+      129489,
+      127999
+    ],
+    "keywords": [
+      "combat",
+      "dark skin tone",
+      "duel",
+      "grapple",
+      "light skin tone",
+      "people",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "people wrestling: light skin tone, dark skin tone"
   },
   "1f9d1.2": {
     "char": "🧑🏼",
@@ -37080,6 +40258,134 @@
     ],
     "name": "factory worker: medium-light skin tone"
   },
+  "1f9d1_1f430_1f9d1.21": {
+    "char": "🧑🏼‍🐰‍🧑🏻",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      128048,
+      8205,
+      129489,
+      127995
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "light skin tone",
+      "medium-light skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "people with bunny ears: medium-light skin tone, light skin tone"
+  },
+  "1f9d1_1f430_1f9d1.23": {
+    "char": "🧑🏼‍🐰‍🧑🏽",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      128048,
+      8205,
+      129489,
+      127997
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "medium skin tone",
+      "medium-light skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "people with bunny ears: medium-light skin tone, medium skin tone"
+  },
+  "1f9d1_1f430_1f9d1.24": {
+    "char": "🧑🏼‍🐰‍🧑🏾",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      128048,
+      8205,
+      129489,
+      127998
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "people with bunny ears: medium-light skin tone, medium-dark skin tone"
+  },
+  "1f9d1_1f430_1f9d1.25": {
+    "char": "🧑🏼‍🐰‍🧑🏿",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      128048,
+      8205,
+      129489,
+      127999
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "dark skin tone",
+      "double",
+      "ear",
+      "identical",
+      "medium-light skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "people with bunny ears: medium-light skin tone, dark skin tone"
+  },
   "1f9d1_1f4bb.2": {
     "char": "🧑🏼‍💻",
     "codepoints": [
@@ -37506,6 +40812,121 @@
       "wheelchair"
     ],
     "name": "person in manual wheelchair: medium-light skin tone, facing right"
+  },
+  "1f9d1_1fa70.2": {
+    "char": "🧑🏼‍🩰",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      129648
+    ],
+    "keywords": [
+      "ballet",
+      "dancer",
+      "medium-light skin tone"
+    ],
+    "name": "ballet dancer: medium-light skin tone"
+  },
+  "1f9d1_1faef_1f9d1.21": {
+    "char": "🧑🏼‍🫯‍🧑🏻",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      129775,
+      8205,
+      129489,
+      127995
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "light skin tone",
+      "medium-light skin tone",
+      "people",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "people wrestling: medium-light skin tone, light skin tone"
+  },
+  "1f9d1_1faef_1f9d1.23": {
+    "char": "🧑🏼‍🫯‍🧑🏽",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      129775,
+      8205,
+      129489,
+      127997
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "medium skin tone",
+      "medium-light skin tone",
+      "people",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "people wrestling: medium-light skin tone, medium skin tone"
+  },
+  "1f9d1_1faef_1f9d1.24": {
+    "char": "🧑🏼‍🫯‍🧑🏾",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      129775,
+      8205,
+      129489,
+      127998
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "people",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "people wrestling: medium-light skin tone, medium-dark skin tone"
+  },
+  "1f9d1_1faef_1f9d1.25": {
+    "char": "🧑🏼‍🫯‍🧑🏿",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      129775,
+      8205,
+      129489,
+      127999
+    ],
+    "keywords": [
+      "combat",
+      "dark skin tone",
+      "duel",
+      "grapple",
+      "medium-light skin tone",
+      "people",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "people wrestling: medium-light skin tone, dark skin tone"
   },
   "1f9d1.3": {
     "char": "🧑🏽",
@@ -37981,6 +41402,134 @@
     ],
     "name": "factory worker: medium skin tone"
   },
+  "1f9d1_1f430_1f9d1.31": {
+    "char": "🧑🏽‍🐰‍🧑🏻",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      128048,
+      8205,
+      129489,
+      127995
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "light skin tone",
+      "medium skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "people with bunny ears: medium skin tone, light skin tone"
+  },
+  "1f9d1_1f430_1f9d1.32": {
+    "char": "🧑🏽‍🐰‍🧑🏼",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      128048,
+      8205,
+      129489,
+      127996
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "medium skin tone",
+      "medium-light skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "people with bunny ears: medium skin tone, medium-light skin tone"
+  },
+  "1f9d1_1f430_1f9d1.34": {
+    "char": "🧑🏽‍🐰‍🧑🏾",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      128048,
+      8205,
+      129489,
+      127998
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "people with bunny ears: medium skin tone, medium-dark skin tone"
+  },
+  "1f9d1_1f430_1f9d1.35": {
+    "char": "🧑🏽‍🐰‍🧑🏿",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      128048,
+      8205,
+      129489,
+      127999
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "dark skin tone",
+      "double",
+      "ear",
+      "identical",
+      "medium skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "people with bunny ears: medium skin tone, dark skin tone"
+  },
   "1f9d1_1f4bb.3": {
     "char": "🧑🏽‍💻",
     "codepoints": [
@@ -38407,6 +41956,121 @@
       "wheelchair"
     ],
     "name": "person in manual wheelchair: medium skin tone, facing right"
+  },
+  "1f9d1_1fa70.3": {
+    "char": "🧑🏽‍🩰",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      129648
+    ],
+    "keywords": [
+      "ballet",
+      "dancer",
+      "medium skin tone"
+    ],
+    "name": "ballet dancer: medium skin tone"
+  },
+  "1f9d1_1faef_1f9d1.31": {
+    "char": "🧑🏽‍🫯‍🧑🏻",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      129775,
+      8205,
+      129489,
+      127995
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "light skin tone",
+      "medium skin tone",
+      "people",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "people wrestling: medium skin tone, light skin tone"
+  },
+  "1f9d1_1faef_1f9d1.32": {
+    "char": "🧑🏽‍🫯‍🧑🏼",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      129775,
+      8205,
+      129489,
+      127996
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "medium skin tone",
+      "medium-light skin tone",
+      "people",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "people wrestling: medium skin tone, medium-light skin tone"
+  },
+  "1f9d1_1faef_1f9d1.34": {
+    "char": "🧑🏽‍🫯‍🧑🏾",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      129775,
+      8205,
+      129489,
+      127998
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "people",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "people wrestling: medium skin tone, medium-dark skin tone"
+  },
+  "1f9d1_1faef_1f9d1.35": {
+    "char": "🧑🏽‍🫯‍🧑🏿",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      129775,
+      8205,
+      129489,
+      127999
+    ],
+    "keywords": [
+      "combat",
+      "dark skin tone",
+      "duel",
+      "grapple",
+      "medium skin tone",
+      "people",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "people wrestling: medium skin tone, dark skin tone"
   },
   "1f9d1.4": {
     "char": "🧑🏾",
@@ -38882,6 +42546,134 @@
     ],
     "name": "factory worker: medium-dark skin tone"
   },
+  "1f9d1_1f430_1f9d1.41": {
+    "char": "🧑🏾‍🐰‍🧑🏻",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      128048,
+      8205,
+      129489,
+      127995
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "light skin tone",
+      "medium-dark skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "people with bunny ears: medium-dark skin tone, light skin tone"
+  },
+  "1f9d1_1f430_1f9d1.42": {
+    "char": "🧑🏾‍🐰‍🧑🏼",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      128048,
+      8205,
+      129489,
+      127996
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "people with bunny ears: medium-dark skin tone, medium-light skin tone"
+  },
+  "1f9d1_1f430_1f9d1.43": {
+    "char": "🧑🏾‍🐰‍🧑🏽",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      128048,
+      8205,
+      129489,
+      127997
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "double",
+      "ear",
+      "identical",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "people with bunny ears: medium-dark skin tone, medium skin tone"
+  },
+  "1f9d1_1f430_1f9d1.45": {
+    "char": "🧑🏾‍🐰‍🧑🏿",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      128048,
+      8205,
+      129489,
+      127999
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "dark skin tone",
+      "double",
+      "ear",
+      "identical",
+      "medium-dark skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "people with bunny ears: medium-dark skin tone, dark skin tone"
+  },
   "1f9d1_1f4bb.4": {
     "char": "🧑🏾‍💻",
     "codepoints": [
@@ -39308,6 +43100,121 @@
       "wheelchair"
     ],
     "name": "person in manual wheelchair: medium-dark skin tone, facing right"
+  },
+  "1f9d1_1fa70.4": {
+    "char": "🧑🏾‍🩰",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      129648
+    ],
+    "keywords": [
+      "ballet",
+      "dancer",
+      "medium-dark skin tone"
+    ],
+    "name": "ballet dancer: medium-dark skin tone"
+  },
+  "1f9d1_1faef_1f9d1.41": {
+    "char": "🧑🏾‍🫯‍🧑🏻",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      129775,
+      8205,
+      129489,
+      127995
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "light skin tone",
+      "medium-dark skin tone",
+      "people",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "people wrestling: medium-dark skin tone, light skin tone"
+  },
+  "1f9d1_1faef_1f9d1.42": {
+    "char": "🧑🏾‍🫯‍🧑🏼",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      129775,
+      8205,
+      129489,
+      127996
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "people",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "people wrestling: medium-dark skin tone, medium-light skin tone"
+  },
+  "1f9d1_1faef_1f9d1.43": {
+    "char": "🧑🏾‍🫯‍🧑🏽",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      129775,
+      8205,
+      129489,
+      127997
+    ],
+    "keywords": [
+      "combat",
+      "duel",
+      "grapple",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "people",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "people wrestling: medium-dark skin tone, medium skin tone"
+  },
+  "1f9d1_1faef_1f9d1.45": {
+    "char": "🧑🏾‍🫯‍🧑🏿",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      129775,
+      8205,
+      129489,
+      127999
+    ],
+    "keywords": [
+      "combat",
+      "dark skin tone",
+      "duel",
+      "grapple",
+      "medium-dark skin tone",
+      "people",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "people wrestling: medium-dark skin tone, dark skin tone"
   },
   "1f9d1.5": {
     "char": "🧑🏿",
@@ -39783,6 +43690,134 @@
     ],
     "name": "factory worker: dark skin tone"
   },
+  "1f9d1_1f430_1f9d1.51": {
+    "char": "🧑🏿‍🐰‍🧑🏻",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      128048,
+      8205,
+      129489,
+      127995
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "dark skin tone",
+      "double",
+      "ear",
+      "identical",
+      "light skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "people with bunny ears: dark skin tone, light skin tone"
+  },
+  "1f9d1_1f430_1f9d1.52": {
+    "char": "🧑🏿‍🐰‍🧑🏼",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      128048,
+      8205,
+      129489,
+      127996
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "dark skin tone",
+      "double",
+      "ear",
+      "identical",
+      "medium-light skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "people with bunny ears: dark skin tone, medium-light skin tone"
+  },
+  "1f9d1_1f430_1f9d1.53": {
+    "char": "🧑🏿‍🐰‍🧑🏽",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      128048,
+      8205,
+      129489,
+      127997
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "dark skin tone",
+      "double",
+      "ear",
+      "identical",
+      "medium skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "people with bunny ears: dark skin tone, medium skin tone"
+  },
+  "1f9d1_1f430_1f9d1.54": {
+    "char": "🧑🏿‍🐰‍🧑🏾",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      128048,
+      8205,
+      129489,
+      127998
+    ],
+    "keywords": [
+      "bestie",
+      "bff",
+      "bunny",
+      "counterpart",
+      "dancer",
+      "dark skin tone",
+      "double",
+      "ear",
+      "identical",
+      "medium-dark skin tone",
+      "pair",
+      "party",
+      "partying",
+      "people",
+      "soulmate",
+      "twin",
+      "twinsies"
+    ],
+    "name": "people with bunny ears: dark skin tone, medium-dark skin tone"
+  },
   "1f9d1_1f4bb.5": {
     "char": "🧑🏿‍💻",
     "codepoints": [
@@ -40209,6 +44244,121 @@
       "wheelchair"
     ],
     "name": "person in manual wheelchair: dark skin tone, facing right"
+  },
+  "1f9d1_1fa70.5": {
+    "char": "🧑🏿‍🩰",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      129648
+    ],
+    "keywords": [
+      "ballet",
+      "dancer",
+      "dark skin tone"
+    ],
+    "name": "ballet dancer: dark skin tone"
+  },
+  "1f9d1_1faef_1f9d1.51": {
+    "char": "🧑🏿‍🫯‍🧑🏻",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      129775,
+      8205,
+      129489,
+      127995
+    ],
+    "keywords": [
+      "combat",
+      "dark skin tone",
+      "duel",
+      "grapple",
+      "light skin tone",
+      "people",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "people wrestling: dark skin tone, light skin tone"
+  },
+  "1f9d1_1faef_1f9d1.52": {
+    "char": "🧑🏿‍🫯‍🧑🏼",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      129775,
+      8205,
+      129489,
+      127996
+    ],
+    "keywords": [
+      "combat",
+      "dark skin tone",
+      "duel",
+      "grapple",
+      "medium-light skin tone",
+      "people",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "people wrestling: dark skin tone, medium-light skin tone"
+  },
+  "1f9d1_1faef_1f9d1.53": {
+    "char": "🧑🏿‍🫯‍🧑🏽",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      129775,
+      8205,
+      129489,
+      127997
+    ],
+    "keywords": [
+      "combat",
+      "dark skin tone",
+      "duel",
+      "grapple",
+      "medium skin tone",
+      "people",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "people wrestling: dark skin tone, medium skin tone"
+  },
+  "1f9d1_1faef_1f9d1.54": {
+    "char": "🧑🏿‍🫯‍🧑🏾",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      129775,
+      8205,
+      129489,
+      127998
+    ],
+    "keywords": [
+      "combat",
+      "dark skin tone",
+      "duel",
+      "grapple",
+      "medium-dark skin tone",
+      "people",
+      "ring",
+      "tournament",
+      "wrestle",
+      "wrestling"
+    ],
+    "name": "people wrestling: dark skin tone, medium-dark skin tone"
   },
   "1f9d2.1": {
     "char": "🧒🏻",
