@@ -5237,6 +5237,46 @@
     ],
     "description": "police officer: dark skin tone"
   },
+  "1f46f.1": {
+    "char": "👯🏻",
+    "codepoints": [
+      128111,
+      127995
+    ],
+    "description": "people with bunny ears: light skin tone"
+  },
+  "1f46f.2": {
+    "char": "👯🏼",
+    "codepoints": [
+      128111,
+      127996
+    ],
+    "description": "people with bunny ears: medium-light skin tone"
+  },
+  "1f46f.3": {
+    "char": "👯🏽",
+    "codepoints": [
+      128111,
+      127997
+    ],
+    "description": "people with bunny ears: medium skin tone"
+  },
+  "1f46f.4": {
+    "char": "👯🏾",
+    "codepoints": [
+      128111,
+      127998
+    ],
+    "description": "people with bunny ears: medium-dark skin tone"
+  },
+  "1f46f.5": {
+    "char": "👯🏿",
+    "codepoints": [
+      128111,
+      127999
+    ],
+    "description": "people with bunny ears: dark skin tone"
+  },
   "1f470.1": {
     "char": "👰🏻",
     "codepoints": [
@@ -7511,6 +7551,13 @@
     ],
     "description": "hindu temple"
   },
+  "1f6d8": {
+    "char": "🛘",
+    "codepoints": [
+      128728
+    ],
+    "description": "landslide"
+  },
   "1f6dc": {
     "char": "🛜",
     "codepoints": [
@@ -8471,6 +8518,46 @@
       127999
     ],
     "description": "person juggling: dark skin tone"
+  },
+  "1f93c.1": {
+    "char": "🤼🏻",
+    "codepoints": [
+      129340,
+      127995
+    ],
+    "description": "people wrestling: light skin tone"
+  },
+  "1f93c.2": {
+    "char": "🤼🏼",
+    "codepoints": [
+      129340,
+      127996
+    ],
+    "description": "people wrestling: medium-light skin tone"
+  },
+  "1f93c.3": {
+    "char": "🤼🏽",
+    "codepoints": [
+      129340,
+      127997
+    ],
+    "description": "people wrestling: medium skin tone"
+  },
+  "1f93c.4": {
+    "char": "🤼🏾",
+    "codepoints": [
+      129340,
+      127998
+    ],
+    "description": "people wrestling: medium-dark skin tone"
+  },
+  "1f93c.5": {
+    "char": "🤼🏿",
+    "codepoints": [
+      129340,
+      127999
+    ],
+    "description": "people wrestling: dark skin tone"
   },
   "1f93d.1": {
     "char": "🤽🏻",
@@ -9516,6 +9603,20 @@
     ],
     "description": "harp"
   },
+  "1fa8a": {
+    "char": "🪊",
+    "codepoints": [
+      129674
+    ],
+    "description": "trombone"
+  },
+  "1fa8e": {
+    "char": "🪎",
+    "codepoints": [
+      129678
+    ],
+    "description": "treasure chest"
+  },
   "1fa8f": {
     "char": "🪏",
     "codepoints": [
@@ -9664,6 +9765,20 @@
     ],
     "description": "fingerprint"
   },
+  "1fac8": {
+    "char": "🫈",
+    "codepoints": [
+      129736
+    ],
+    "description": "hairy creature"
+  },
+  "1facd": {
+    "char": "🫍",
+    "codepoints": [
+      129741
+    ],
+    "description": "orca"
+  },
   "1fadc": {
     "char": "🫜",
     "codepoints": [
@@ -9691,6 +9806,20 @@
       129769
     ],
     "description": "face with bags under eyes"
+  },
+  "1faea": {
+    "char": "🫪",
+    "codepoints": [
+      129770
+    ],
+    "description": "distorted face"
+  },
+  "1faef": {
+    "char": "🫯",
+    "codepoints": [
+      129775
+    ],
+    "description": "fight cloud"
   },
   "1faf0.1": {
     "char": "🫰🏻",

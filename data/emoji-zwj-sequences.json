@@ -1869,6 +1869,58 @@
     ],
     "description": "man factory worker: light skin tone"
   },
+  "1f468_1f430_1f468.12": {
+    "char": "👨🏻‍🐰‍👨🏼",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      128048,
+      8205,
+      128104,
+      127996
+    ],
+    "description": "men with bunny ears: light skin tone, medium-light skin tone"
+  },
+  "1f468_1f430_1f468.13": {
+    "char": "👨🏻‍🐰‍👨🏽",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      128048,
+      8205,
+      128104,
+      127997
+    ],
+    "description": "men with bunny ears: light skin tone, medium skin tone"
+  },
+  "1f468_1f430_1f468.14": {
+    "char": "👨🏻‍🐰‍👨🏾",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      128048,
+      8205,
+      128104,
+      127998
+    ],
+    "description": "men with bunny ears: light skin tone, medium-dark skin tone"
+  },
+  "1f468_1f430_1f468.15": {
+    "char": "👨🏻‍🐰‍👨🏿",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      128048,
+      8205,
+      128104,
+      127999
+    ],
+    "description": "men with bunny ears: light skin tone, dark skin tone"
+  },
   "1f468_1f4bb.1": {
     "char": "👨🏻‍💻",
     "codepoints": [
@@ -2089,6 +2141,58 @@
       65039
     ],
     "description": "man in manual wheelchair facing right: light skin tone"
+  },
+  "1f468_1faef_1f468.12": {
+    "char": "👨🏻‍🫯‍👨🏼",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      129775,
+      8205,
+      128104,
+      127996
+    ],
+    "description": "men wrestling: light skin tone, medium-light skin tone"
+  },
+  "1f468_1faef_1f468.13": {
+    "char": "👨🏻‍🫯‍👨🏽",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      129775,
+      8205,
+      128104,
+      127997
+    ],
+    "description": "men wrestling: light skin tone, medium skin tone"
+  },
+  "1f468_1faef_1f468.14": {
+    "char": "👨🏻‍🫯‍👨🏾",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      129775,
+      8205,
+      128104,
+      127998
+    ],
+    "description": "men wrestling: light skin tone, medium-dark skin tone"
+  },
+  "1f468_1faef_1f468.15": {
+    "char": "👨🏻‍🫯‍👨🏿",
+    "codepoints": [
+      128104,
+      127995,
+      8205,
+      129775,
+      8205,
+      128104,
+      127999
+    ],
+    "description": "men wrestling: light skin tone, dark skin tone"
   },
   "1f468_2695.2": {
     "char": "👨🏼‍⚕️",
@@ -2353,6 +2457,58 @@
     ],
     "description": "man factory worker: medium-light skin tone"
   },
+  "1f468_1f430_1f468.21": {
+    "char": "👨🏼‍🐰‍👨🏻",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      128048,
+      8205,
+      128104,
+      127995
+    ],
+    "description": "men with bunny ears: medium-light skin tone, light skin tone"
+  },
+  "1f468_1f430_1f468.23": {
+    "char": "👨🏼‍🐰‍👨🏽",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      128048,
+      8205,
+      128104,
+      127997
+    ],
+    "description": "men with bunny ears: medium-light skin tone, medium skin tone"
+  },
+  "1f468_1f430_1f468.24": {
+    "char": "👨🏼‍🐰‍👨🏾",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      128048,
+      8205,
+      128104,
+      127998
+    ],
+    "description": "men with bunny ears: medium-light skin tone, medium-dark skin tone"
+  },
+  "1f468_1f430_1f468.25": {
+    "char": "👨🏼‍🐰‍👨🏿",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      128048,
+      8205,
+      128104,
+      127999
+    ],
+    "description": "men with bunny ears: medium-light skin tone, dark skin tone"
+  },
   "1f468_1f4bb.2": {
     "char": "👨🏼‍💻",
     "codepoints": [
@@ -2573,6 +2729,58 @@
       65039
     ],
     "description": "man in manual wheelchair facing right: medium-light skin tone"
+  },
+  "1f468_1faef_1f468.21": {
+    "char": "👨🏼‍🫯‍👨🏻",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      129775,
+      8205,
+      128104,
+      127995
+    ],
+    "description": "men wrestling: medium-light skin tone, light skin tone"
+  },
+  "1f468_1faef_1f468.23": {
+    "char": "👨🏼‍🫯‍👨🏽",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      129775,
+      8205,
+      128104,
+      127997
+    ],
+    "description": "men wrestling: medium-light skin tone, medium skin tone"
+  },
+  "1f468_1faef_1f468.24": {
+    "char": "👨🏼‍🫯‍👨🏾",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      129775,
+      8205,
+      128104,
+      127998
+    ],
+    "description": "men wrestling: medium-light skin tone, medium-dark skin tone"
+  },
+  "1f468_1faef_1f468.25": {
+    "char": "👨🏼‍🫯‍👨🏿",
+    "codepoints": [
+      128104,
+      127996,
+      8205,
+      129775,
+      8205,
+      128104,
+      127999
+    ],
+    "description": "men wrestling: medium-light skin tone, dark skin tone"
   },
   "1f468_2695.3": {
     "char": "👨🏽‍⚕️",
@@ -2837,6 +3045,58 @@
     ],
     "description": "man factory worker: medium skin tone"
   },
+  "1f468_1f430_1f468.31": {
+    "char": "👨🏽‍🐰‍👨🏻",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      128048,
+      8205,
+      128104,
+      127995
+    ],
+    "description": "men with bunny ears: medium skin tone, light skin tone"
+  },
+  "1f468_1f430_1f468.32": {
+    "char": "👨🏽‍🐰‍👨🏼",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      128048,
+      8205,
+      128104,
+      127996
+    ],
+    "description": "men with bunny ears: medium skin tone, medium-light skin tone"
+  },
+  "1f468_1f430_1f468.34": {
+    "char": "👨🏽‍🐰‍👨🏾",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      128048,
+      8205,
+      128104,
+      127998
+    ],
+    "description": "men with bunny ears: medium skin tone, medium-dark skin tone"
+  },
+  "1f468_1f430_1f468.35": {
+    "char": "👨🏽‍🐰‍👨🏿",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      128048,
+      8205,
+      128104,
+      127999
+    ],
+    "description": "men with bunny ears: medium skin tone, dark skin tone"
+  },
   "1f468_1f4bb.3": {
     "char": "👨🏽‍💻",
     "codepoints": [
@@ -3057,6 +3317,58 @@
       65039
     ],
     "description": "man in manual wheelchair facing right: medium skin tone"
+  },
+  "1f468_1faef_1f468.31": {
+    "char": "👨🏽‍🫯‍👨🏻",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      129775,
+      8205,
+      128104,
+      127995
+    ],
+    "description": "men wrestling: medium skin tone, light skin tone"
+  },
+  "1f468_1faef_1f468.32": {
+    "char": "👨🏽‍🫯‍👨🏼",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      129775,
+      8205,
+      128104,
+      127996
+    ],
+    "description": "men wrestling: medium skin tone, medium-light skin tone"
+  },
+  "1f468_1faef_1f468.34": {
+    "char": "👨🏽‍🫯‍👨🏾",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      129775,
+      8205,
+      128104,
+      127998
+    ],
+    "description": "men wrestling: medium skin tone, medium-dark skin tone"
+  },
+  "1f468_1faef_1f468.35": {
+    "char": "👨🏽‍🫯‍👨🏿",
+    "codepoints": [
+      128104,
+      127997,
+      8205,
+      129775,
+      8205,
+      128104,
+      127999
+    ],
+    "description": "men wrestling: medium skin tone, dark skin tone"
   },
   "1f468_2695.4": {
     "char": "👨🏾‍⚕️",
@@ -3321,6 +3633,58 @@
     ],
     "description": "man factory worker: medium-dark skin tone"
   },
+  "1f468_1f430_1f468.41": {
+    "char": "👨🏾‍🐰‍👨🏻",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      128048,
+      8205,
+      128104,
+      127995
+    ],
+    "description": "men with bunny ears: medium-dark skin tone, light skin tone"
+  },
+  "1f468_1f430_1f468.42": {
+    "char": "👨🏾‍🐰‍👨🏼",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      128048,
+      8205,
+      128104,
+      127996
+    ],
+    "description": "men with bunny ears: medium-dark skin tone, medium-light skin tone"
+  },
+  "1f468_1f430_1f468.43": {
+    "char": "👨🏾‍🐰‍👨🏽",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      128048,
+      8205,
+      128104,
+      127997
+    ],
+    "description": "men with bunny ears: medium-dark skin tone, medium skin tone"
+  },
+  "1f468_1f430_1f468.45": {
+    "char": "👨🏾‍🐰‍👨🏿",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      128048,
+      8205,
+      128104,
+      127999
+    ],
+    "description": "men with bunny ears: medium-dark skin tone, dark skin tone"
+  },
   "1f468_1f4bb.4": {
     "char": "👨🏾‍💻",
     "codepoints": [
@@ -3541,6 +3905,58 @@
       65039
     ],
     "description": "man in manual wheelchair facing right: medium-dark skin tone"
+  },
+  "1f468_1faef_1f468.41": {
+    "char": "👨🏾‍🫯‍👨🏻",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      129775,
+      8205,
+      128104,
+      127995
+    ],
+    "description": "men wrestling: medium-dark skin tone, light skin tone"
+  },
+  "1f468_1faef_1f468.42": {
+    "char": "👨🏾‍🫯‍👨🏼",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      129775,
+      8205,
+      128104,
+      127996
+    ],
+    "description": "men wrestling: medium-dark skin tone, medium-light skin tone"
+  },
+  "1f468_1faef_1f468.43": {
+    "char": "👨🏾‍🫯‍👨🏽",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      129775,
+      8205,
+      128104,
+      127997
+    ],
+    "description": "men wrestling: medium-dark skin tone, medium skin tone"
+  },
+  "1f468_1faef_1f468.45": {
+    "char": "👨🏾‍🫯‍👨🏿",
+    "codepoints": [
+      128104,
+      127998,
+      8205,
+      129775,
+      8205,
+      128104,
+      127999
+    ],
+    "description": "men wrestling: medium-dark skin tone, dark skin tone"
   },
   "1f468_2695.5": {
     "char": "👨🏿‍⚕️",
@@ -3805,6 +4221,58 @@
     ],
     "description": "man factory worker: dark skin tone"
   },
+  "1f468_1f430_1f468.51": {
+    "char": "👨🏿‍🐰‍👨🏻",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      128048,
+      8205,
+      128104,
+      127995
+    ],
+    "description": "men with bunny ears: dark skin tone, light skin tone"
+  },
+  "1f468_1f430_1f468.52": {
+    "char": "👨🏿‍🐰‍👨🏼",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      128048,
+      8205,
+      128104,
+      127996
+    ],
+    "description": "men with bunny ears: dark skin tone, medium-light skin tone"
+  },
+  "1f468_1f430_1f468.53": {
+    "char": "👨🏿‍🐰‍👨🏽",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      128048,
+      8205,
+      128104,
+      127997
+    ],
+    "description": "men with bunny ears: dark skin tone, medium skin tone"
+  },
+  "1f468_1f430_1f468.54": {
+    "char": "👨🏿‍🐰‍👨🏾",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      128048,
+      8205,
+      128104,
+      127998
+    ],
+    "description": "men with bunny ears: dark skin tone, medium-dark skin tone"
+  },
   "1f468_1f4bb.5": {
     "char": "👨🏿‍💻",
     "codepoints": [
@@ -4025,6 +4493,58 @@
       65039
     ],
     "description": "man in manual wheelchair facing right: dark skin tone"
+  },
+  "1f468_1faef_1f468.51": {
+    "char": "👨🏿‍🫯‍👨🏻",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      129775,
+      8205,
+      128104,
+      127995
+    ],
+    "description": "men wrestling: dark skin tone, light skin tone"
+  },
+  "1f468_1faef_1f468.52": {
+    "char": "👨🏿‍🫯‍👨🏼",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      129775,
+      8205,
+      128104,
+      127996
+    ],
+    "description": "men wrestling: dark skin tone, medium-light skin tone"
+  },
+  "1f468_1faef_1f468.53": {
+    "char": "👨🏿‍🫯‍👨🏽",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      129775,
+      8205,
+      128104,
+      127997
+    ],
+    "description": "men wrestling: dark skin tone, medium skin tone"
+  },
+  "1f468_1faef_1f468.54": {
+    "char": "👨🏿‍🫯‍👨🏾",
+    "codepoints": [
+      128104,
+      127999,
+      8205,
+      129775,
+      8205,
+      128104,
+      127998
+    ],
+    "description": "men wrestling: dark skin tone, medium-dark skin tone"
   },
   "1f469_2695": {
     "char": "👩‍⚕️",
@@ -4858,6 +5378,58 @@
     ],
     "description": "woman factory worker: light skin tone"
   },
+  "1f469_1f430_1f469.12": {
+    "char": "👩🏻‍🐰‍👩🏼",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      128048,
+      8205,
+      128105,
+      127996
+    ],
+    "description": "women with bunny ears: light skin tone, medium-light skin tone"
+  },
+  "1f469_1f430_1f469.13": {
+    "char": "👩🏻‍🐰‍👩🏽",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      128048,
+      8205,
+      128105,
+      127997
+    ],
+    "description": "women with bunny ears: light skin tone, medium skin tone"
+  },
+  "1f469_1f430_1f469.14": {
+    "char": "👩🏻‍🐰‍👩🏾",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      128048,
+      8205,
+      128105,
+      127998
+    ],
+    "description": "women with bunny ears: light skin tone, medium-dark skin tone"
+  },
+  "1f469_1f430_1f469.15": {
+    "char": "👩🏻‍🐰‍👩🏿",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      128048,
+      8205,
+      128105,
+      127999
+    ],
+    "description": "women with bunny ears: light skin tone, dark skin tone"
+  },
   "1f469_1f4bb.1": {
     "char": "👩🏻‍💻",
     "codepoints": [
@@ -5130,6 +5702,58 @@
       65039
     ],
     "description": "woman in manual wheelchair facing right: light skin tone"
+  },
+  "1f469_1faef_1f469.12": {
+    "char": "👩🏻‍🫯‍👩🏼",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      129775,
+      8205,
+      128105,
+      127996
+    ],
+    "description": "women wrestling: light skin tone, medium-light skin tone"
+  },
+  "1f469_1faef_1f469.13": {
+    "char": "👩🏻‍🫯‍👩🏽",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      129775,
+      8205,
+      128105,
+      127997
+    ],
+    "description": "women wrestling: light skin tone, medium skin tone"
+  },
+  "1f469_1faef_1f469.14": {
+    "char": "👩🏻‍🫯‍👩🏾",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      129775,
+      8205,
+      128105,
+      127998
+    ],
+    "description": "women wrestling: light skin tone, medium-dark skin tone"
+  },
+  "1f469_1faef_1f469.15": {
+    "char": "👩🏻‍🫯‍👩🏿",
+    "codepoints": [
+      128105,
+      127995,
+      8205,
+      129775,
+      8205,
+      128105,
+      127999
+    ],
+    "description": "women wrestling: light skin tone, dark skin tone"
   },
   "1f469_2695.2": {
     "char": "👩🏼‍⚕️",
@@ -5544,6 +6168,58 @@
     ],
     "description": "woman factory worker: medium-light skin tone"
   },
+  "1f469_1f430_1f469.21": {
+    "char": "👩🏼‍🐰‍👩🏻",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      128048,
+      8205,
+      128105,
+      127995
+    ],
+    "description": "women with bunny ears: medium-light skin tone, light skin tone"
+  },
+  "1f469_1f430_1f469.23": {
+    "char": "👩🏼‍🐰‍👩🏽",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      128048,
+      8205,
+      128105,
+      127997
+    ],
+    "description": "women with bunny ears: medium-light skin tone, medium skin tone"
+  },
+  "1f469_1f430_1f469.24": {
+    "char": "👩🏼‍🐰‍👩🏾",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      128048,
+      8205,
+      128105,
+      127998
+    ],
+    "description": "women with bunny ears: medium-light skin tone, medium-dark skin tone"
+  },
+  "1f469_1f430_1f469.25": {
+    "char": "👩🏼‍🐰‍👩🏿",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      128048,
+      8205,
+      128105,
+      127999
+    ],
+    "description": "women with bunny ears: medium-light skin tone, dark skin tone"
+  },
   "1f469_1f4bb.2": {
     "char": "👩🏼‍💻",
     "codepoints": [
@@ -5816,6 +6492,58 @@
       65039
     ],
     "description": "woman in manual wheelchair facing right: medium-light skin tone"
+  },
+  "1f469_1faef_1f469.21": {
+    "char": "👩🏼‍🫯‍👩🏻",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      129775,
+      8205,
+      128105,
+      127995
+    ],
+    "description": "women wrestling: medium-light skin tone, light skin tone"
+  },
+  "1f469_1faef_1f469.23": {
+    "char": "👩🏼‍🫯‍👩🏽",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      129775,
+      8205,
+      128105,
+      127997
+    ],
+    "description": "women wrestling: medium-light skin tone, medium skin tone"
+  },
+  "1f469_1faef_1f469.24": {
+    "char": "👩🏼‍🫯‍👩🏾",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      129775,
+      8205,
+      128105,
+      127998
+    ],
+    "description": "women wrestling: medium-light skin tone, medium-dark skin tone"
+  },
+  "1f469_1faef_1f469.25": {
+    "char": "👩🏼‍🫯‍👩🏿",
+    "codepoints": [
+      128105,
+      127996,
+      8205,
+      129775,
+      8205,
+      128105,
+      127999
+    ],
+    "description": "women wrestling: medium-light skin tone, dark skin tone"
   },
   "1f469_2695.3": {
     "char": "👩🏽‍⚕️",
@@ -6230,6 +6958,58 @@
     ],
     "description": "woman factory worker: medium skin tone"
   },
+  "1f469_1f430_1f469.31": {
+    "char": "👩🏽‍🐰‍👩🏻",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      128048,
+      8205,
+      128105,
+      127995
+    ],
+    "description": "women with bunny ears: medium skin tone, light skin tone"
+  },
+  "1f469_1f430_1f469.32": {
+    "char": "👩🏽‍🐰‍👩🏼",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      128048,
+      8205,
+      128105,
+      127996
+    ],
+    "description": "women with bunny ears: medium skin tone, medium-light skin tone"
+  },
+  "1f469_1f430_1f469.34": {
+    "char": "👩🏽‍🐰‍👩🏾",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      128048,
+      8205,
+      128105,
+      127998
+    ],
+    "description": "women with bunny ears: medium skin tone, medium-dark skin tone"
+  },
+  "1f469_1f430_1f469.35": {
+    "char": "👩🏽‍🐰‍👩🏿",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      128048,
+      8205,
+      128105,
+      127999
+    ],
+    "description": "women with bunny ears: medium skin tone, dark skin tone"
+  },
   "1f469_1f4bb.3": {
     "char": "👩🏽‍💻",
     "codepoints": [
@@ -6502,6 +7282,58 @@
       65039
     ],
     "description": "woman in manual wheelchair facing right: medium skin tone"
+  },
+  "1f469_1faef_1f469.31": {
+    "char": "👩🏽‍🫯‍👩🏻",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      129775,
+      8205,
+      128105,
+      127995
+    ],
+    "description": "women wrestling: medium skin tone, light skin tone"
+  },
+  "1f469_1faef_1f469.32": {
+    "char": "👩🏽‍🫯‍👩🏼",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      129775,
+      8205,
+      128105,
+      127996
+    ],
+    "description": "women wrestling: medium skin tone, medium-light skin tone"
+  },
+  "1f469_1faef_1f469.34": {
+    "char": "👩🏽‍🫯‍👩🏾",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      129775,
+      8205,
+      128105,
+      127998
+    ],
+    "description": "women wrestling: medium skin tone, medium-dark skin tone"
+  },
+  "1f469_1faef_1f469.35": {
+    "char": "👩🏽‍🫯‍👩🏿",
+    "codepoints": [
+      128105,
+      127997,
+      8205,
+      129775,
+      8205,
+      128105,
+      127999
+    ],
+    "description": "women wrestling: medium skin tone, dark skin tone"
   },
   "1f469_2695.4": {
     "char": "👩🏾‍⚕️",
@@ -6916,6 +7748,58 @@
     ],
     "description": "woman factory worker: medium-dark skin tone"
   },
+  "1f469_1f430_1f469.41": {
+    "char": "👩🏾‍🐰‍👩🏻",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      128048,
+      8205,
+      128105,
+      127995
+    ],
+    "description": "women with bunny ears: medium-dark skin tone, light skin tone"
+  },
+  "1f469_1f430_1f469.42": {
+    "char": "👩🏾‍🐰‍👩🏼",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      128048,
+      8205,
+      128105,
+      127996
+    ],
+    "description": "women with bunny ears: medium-dark skin tone, medium-light skin tone"
+  },
+  "1f469_1f430_1f469.43": {
+    "char": "👩🏾‍🐰‍👩🏽",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      128048,
+      8205,
+      128105,
+      127997
+    ],
+    "description": "women with bunny ears: medium-dark skin tone, medium skin tone"
+  },
+  "1f469_1f430_1f469.45": {
+    "char": "👩🏾‍🐰‍👩🏿",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      128048,
+      8205,
+      128105,
+      127999
+    ],
+    "description": "women with bunny ears: medium-dark skin tone, dark skin tone"
+  },
   "1f469_1f4bb.4": {
     "char": "👩🏾‍💻",
     "codepoints": [
@@ -7188,6 +8072,58 @@
       65039
     ],
     "description": "woman in manual wheelchair facing right: medium-dark skin tone"
+  },
+  "1f469_1faef_1f469.41": {
+    "char": "👩🏾‍🫯‍👩🏻",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      129775,
+      8205,
+      128105,
+      127995
+    ],
+    "description": "women wrestling: medium-dark skin tone, light skin tone"
+  },
+  "1f469_1faef_1f469.42": {
+    "char": "👩🏾‍🫯‍👩🏼",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      129775,
+      8205,
+      128105,
+      127996
+    ],
+    "description": "women wrestling: medium-dark skin tone, medium-light skin tone"
+  },
+  "1f469_1faef_1f469.43": {
+    "char": "👩🏾‍🫯‍👩🏽",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      129775,
+      8205,
+      128105,
+      127997
+    ],
+    "description": "women wrestling: medium-dark skin tone, medium skin tone"
+  },
+  "1f469_1faef_1f469.45": {
+    "char": "👩🏾‍🫯‍👩🏿",
+    "codepoints": [
+      128105,
+      127998,
+      8205,
+      129775,
+      8205,
+      128105,
+      127999
+    ],
+    "description": "women wrestling: medium-dark skin tone, dark skin tone"
   },
   "1f469_2695.5": {
     "char": "👩🏿‍⚕️",
@@ -7602,6 +8538,58 @@
     ],
     "description": "woman factory worker: dark skin tone"
   },
+  "1f469_1f430_1f469.51": {
+    "char": "👩🏿‍🐰‍👩🏻",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      128048,
+      8205,
+      128105,
+      127995
+    ],
+    "description": "women with bunny ears: dark skin tone, light skin tone"
+  },
+  "1f469_1f430_1f469.52": {
+    "char": "👩🏿‍🐰‍👩🏼",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      128048,
+      8205,
+      128105,
+      127996
+    ],
+    "description": "women with bunny ears: dark skin tone, medium-light skin tone"
+  },
+  "1f469_1f430_1f469.53": {
+    "char": "👩🏿‍🐰‍👩🏽",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      128048,
+      8205,
+      128105,
+      127997
+    ],
+    "description": "women with bunny ears: dark skin tone, medium skin tone"
+  },
+  "1f469_1f430_1f469.54": {
+    "char": "👩🏿‍🐰‍👩🏾",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      128048,
+      8205,
+      128105,
+      127998
+    ],
+    "description": "women with bunny ears: dark skin tone, medium-dark skin tone"
+  },
   "1f469_1f4bb.5": {
     "char": "👩🏿‍💻",
     "codepoints": [
@@ -7875,6 +8863,58 @@
     ],
     "description": "woman in manual wheelchair facing right: dark skin tone"
   },
+  "1f469_1faef_1f469.51": {
+    "char": "👩🏿‍🫯‍👩🏻",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      129775,
+      8205,
+      128105,
+      127995
+    ],
+    "description": "women wrestling: dark skin tone, light skin tone"
+  },
+  "1f469_1faef_1f469.52": {
+    "char": "👩🏿‍🫯‍👩🏼",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      129775,
+      8205,
+      128105,
+      127996
+    ],
+    "description": "women wrestling: dark skin tone, medium-light skin tone"
+  },
+  "1f469_1faef_1f469.53": {
+    "char": "👩🏿‍🫯‍👩🏽",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      129775,
+      8205,
+      128105,
+      127997
+    ],
+    "description": "women wrestling: dark skin tone, medium skin tone"
+  },
+  "1f469_1faef_1f469.54": {
+    "char": "👩🏿‍🫯‍👩🏾",
+    "codepoints": [
+      128105,
+      127999,
+      8205,
+      129775,
+      8205,
+      128105,
+      127998
+    ],
+    "description": "women wrestling: dark skin tone, medium-dark skin tone"
+  },
   "1f46e.W": {
     "char": "👮‍♀️",
     "codepoints": [
@@ -8024,6 +9064,116 @@
       65039
     ],
     "description": "men with bunny ears"
+  },
+  "1f46f.1.W": {
+    "char": "👯🏻‍♀️",
+    "codepoints": [
+      128111,
+      127995,
+      8205,
+      9792,
+      65039
+    ],
+    "description": "women with bunny ears: light skin tone"
+  },
+  "1f46f.1.M": {
+    "char": "👯🏻‍♂️",
+    "codepoints": [
+      128111,
+      127995,
+      8205,
+      9794,
+      65039
+    ],
+    "description": "men with bunny ears: light skin tone"
+  },
+  "1f46f.2.W": {
+    "char": "👯🏼‍♀️",
+    "codepoints": [
+      128111,
+      127996,
+      8205,
+      9792,
+      65039
+    ],
+    "description": "women with bunny ears: medium-light skin tone"
+  },
+  "1f46f.2.M": {
+    "char": "👯🏼‍♂️",
+    "codepoints": [
+      128111,
+      127996,
+      8205,
+      9794,
+      65039
+    ],
+    "description": "men with bunny ears: medium-light skin tone"
+  },
+  "1f46f.3.W": {
+    "char": "👯🏽‍♀️",
+    "codepoints": [
+      128111,
+      127997,
+      8205,
+      9792,
+      65039
+    ],
+    "description": "women with bunny ears: medium skin tone"
+  },
+  "1f46f.3.M": {
+    "char": "👯🏽‍♂️",
+    "codepoints": [
+      128111,
+      127997,
+      8205,
+      9794,
+      65039
+    ],
+    "description": "men with bunny ears: medium skin tone"
+  },
+  "1f46f.4.W": {
+    "char": "👯🏾‍♀️",
+    "codepoints": [
+      128111,
+      127998,
+      8205,
+      9792,
+      65039
+    ],
+    "description": "women with bunny ears: medium-dark skin tone"
+  },
+  "1f46f.4.M": {
+    "char": "👯🏾‍♂️",
+    "codepoints": [
+      128111,
+      127998,
+      8205,
+      9794,
+      65039
+    ],
+    "description": "men with bunny ears: medium-dark skin tone"
+  },
+  "1f46f.5.W": {
+    "char": "👯🏿‍♀️",
+    "codepoints": [
+      128111,
+      127999,
+      8205,
+      9792,
+      65039
+    ],
+    "description": "women with bunny ears: dark skin tone"
+  },
+  "1f46f.5.M": {
+    "char": "👯🏿‍♂️",
+    "codepoints": [
+      128111,
+      127999,
+      8205,
+      9794,
+      65039
+    ],
+    "description": "men with bunny ears: dark skin tone"
   },
   "1f470.W": {
     "char": "👰‍♀️",
@@ -11446,6 +12596,116 @@
     ],
     "description": "men wrestling"
   },
+  "1f93c.1.W": {
+    "char": "🤼🏻‍♀️",
+    "codepoints": [
+      129340,
+      127995,
+      8205,
+      9792,
+      65039
+    ],
+    "description": "women wrestling: light skin tone"
+  },
+  "1f93c.1.M": {
+    "char": "🤼🏻‍♂️",
+    "codepoints": [
+      129340,
+      127995,
+      8205,
+      9794,
+      65039
+    ],
+    "description": "men wrestling: light skin tone"
+  },
+  "1f93c.2.W": {
+    "char": "🤼🏼‍♀️",
+    "codepoints": [
+      129340,
+      127996,
+      8205,
+      9792,
+      65039
+    ],
+    "description": "women wrestling: medium-light skin tone"
+  },
+  "1f93c.2.M": {
+    "char": "🤼🏼‍♂️",
+    "codepoints": [
+      129340,
+      127996,
+      8205,
+      9794,
+      65039
+    ],
+    "description": "men wrestling: medium-light skin tone"
+  },
+  "1f93c.3.W": {
+    "char": "🤼🏽‍♀️",
+    "codepoints": [
+      129340,
+      127997,
+      8205,
+      9792,
+      65039
+    ],
+    "description": "women wrestling: medium skin tone"
+  },
+  "1f93c.3.M": {
+    "char": "🤼🏽‍♂️",
+    "codepoints": [
+      129340,
+      127997,
+      8205,
+      9794,
+      65039
+    ],
+    "description": "men wrestling: medium skin tone"
+  },
+  "1f93c.4.W": {
+    "char": "🤼🏾‍♀️",
+    "codepoints": [
+      129340,
+      127998,
+      8205,
+      9792,
+      65039
+    ],
+    "description": "women wrestling: medium-dark skin tone"
+  },
+  "1f93c.4.M": {
+    "char": "🤼🏾‍♂️",
+    "codepoints": [
+      129340,
+      127998,
+      8205,
+      9794,
+      65039
+    ],
+    "description": "men wrestling: medium-dark skin tone"
+  },
+  "1f93c.5.W": {
+    "char": "🤼🏿‍♀️",
+    "codepoints": [
+      129340,
+      127999,
+      8205,
+      9792,
+      65039
+    ],
+    "description": "women wrestling: dark skin tone"
+  },
+  "1f93c.5.M": {
+    "char": "🤼🏿‍♂️",
+    "codepoints": [
+      129340,
+      127999,
+      8205,
+      9794,
+      65039
+    ],
+    "description": "men wrestling: dark skin tone"
+  },
   "1f93d.W": {
     "char": "🤽‍♀️",
     "codepoints": [
@@ -12906,6 +14166,15 @@
     ],
     "description": "family: adult, child, child"
   },
+  "1f9d1_1fa70": {
+    "char": "🧑‍🩰",
+    "codepoints": [
+      129489,
+      8205,
+      129648
+    ],
+    "description": "ballet dancer"
+  },
   "1f9d1_2695.1": {
     "char": "🧑🏻‍⚕️",
     "codepoints": [
@@ -13149,6 +14418,58 @@
     ],
     "description": "factory worker: light skin tone"
   },
+  "1f9d1_1f430_1f9d1.12": {
+    "char": "🧑🏻‍🐰‍🧑🏼",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      128048,
+      8205,
+      129489,
+      127996
+    ],
+    "description": "people with bunny ears: light skin tone, medium-light skin tone"
+  },
+  "1f9d1_1f430_1f9d1.13": {
+    "char": "🧑🏻‍🐰‍🧑🏽",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      128048,
+      8205,
+      129489,
+      127997
+    ],
+    "description": "people with bunny ears: light skin tone, medium skin tone"
+  },
+  "1f9d1_1f430_1f9d1.14": {
+    "char": "🧑🏻‍🐰‍🧑🏾",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      128048,
+      8205,
+      129489,
+      127998
+    ],
+    "description": "people with bunny ears: light skin tone, medium-dark skin tone"
+  },
+  "1f9d1_1f430_1f9d1.15": {
+    "char": "🧑🏻‍🐰‍🧑🏿",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      128048,
+      8205,
+      129489,
+      127999
+    ],
+    "description": "people with bunny ears: light skin tone, dark skin tone"
+  },
   "1f9d1_1f4bb.1": {
     "char": "🧑🏻‍💻",
     "codepoints": [
@@ -13382,6 +14703,68 @@
       65039
     ],
     "description": "person in manual wheelchair facing right: light skin tone"
+  },
+  "1f9d1_1fa70.1": {
+    "char": "🧑🏻‍🩰",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      129648
+    ],
+    "description": "ballet dancer: light skin tone"
+  },
+  "1f9d1_1faef_1f9d1.12": {
+    "char": "🧑🏻‍🫯‍🧑🏼",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      129775,
+      8205,
+      129489,
+      127996
+    ],
+    "description": "people wrestling: light skin tone, medium-light skin tone"
+  },
+  "1f9d1_1faef_1f9d1.13": {
+    "char": "🧑🏻‍🫯‍🧑🏽",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      129775,
+      8205,
+      129489,
+      127997
+    ],
+    "description": "people wrestling: light skin tone, medium skin tone"
+  },
+  "1f9d1_1faef_1f9d1.14": {
+    "char": "🧑🏻‍🫯‍🧑🏾",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      129775,
+      8205,
+      129489,
+      127998
+    ],
+    "description": "people wrestling: light skin tone, medium-dark skin tone"
+  },
+  "1f9d1_1faef_1f9d1.15": {
+    "char": "🧑🏻‍🫯‍🧑🏿",
+    "codepoints": [
+      129489,
+      127995,
+      8205,
+      129775,
+      8205,
+      129489,
+      127999
+    ],
+    "description": "people wrestling: light skin tone, dark skin tone"
   },
   "1f9d1_2695.2": {
     "char": "🧑🏼‍⚕️",
@@ -13626,6 +15009,58 @@
     ],
     "description": "factory worker: medium-light skin tone"
   },
+  "1f9d1_1f430_1f9d1.21": {
+    "char": "🧑🏼‍🐰‍🧑🏻",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      128048,
+      8205,
+      129489,
+      127995
+    ],
+    "description": "people with bunny ears: medium-light skin tone, light skin tone"
+  },
+  "1f9d1_1f430_1f9d1.23": {
+    "char": "🧑🏼‍🐰‍🧑🏽",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      128048,
+      8205,
+      129489,
+      127997
+    ],
+    "description": "people with bunny ears: medium-light skin tone, medium skin tone"
+  },
+  "1f9d1_1f430_1f9d1.24": {
+    "char": "🧑🏼‍🐰‍🧑🏾",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      128048,
+      8205,
+      129489,
+      127998
+    ],
+    "description": "people with bunny ears: medium-light skin tone, medium-dark skin tone"
+  },
+  "1f9d1_1f430_1f9d1.25": {
+    "char": "🧑🏼‍🐰‍🧑🏿",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      128048,
+      8205,
+      129489,
+      127999
+    ],
+    "description": "people with bunny ears: medium-light skin tone, dark skin tone"
+  },
   "1f9d1_1f4bb.2": {
     "char": "🧑🏼‍💻",
     "codepoints": [
@@ -13859,6 +15294,68 @@
       65039
     ],
     "description": "person in manual wheelchair facing right: medium-light skin tone"
+  },
+  "1f9d1_1fa70.2": {
+    "char": "🧑🏼‍🩰",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      129648
+    ],
+    "description": "ballet dancer: medium-light skin tone"
+  },
+  "1f9d1_1faef_1f9d1.21": {
+    "char": "🧑🏼‍🫯‍🧑🏻",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      129775,
+      8205,
+      129489,
+      127995
+    ],
+    "description": "people wrestling: medium-light skin tone, light skin tone"
+  },
+  "1f9d1_1faef_1f9d1.23": {
+    "char": "🧑🏼‍🫯‍🧑🏽",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      129775,
+      8205,
+      129489,
+      127997
+    ],
+    "description": "people wrestling: medium-light skin tone, medium skin tone"
+  },
+  "1f9d1_1faef_1f9d1.24": {
+    "char": "🧑🏼‍🫯‍🧑🏾",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      129775,
+      8205,
+      129489,
+      127998
+    ],
+    "description": "people wrestling: medium-light skin tone, medium-dark skin tone"
+  },
+  "1f9d1_1faef_1f9d1.25": {
+    "char": "🧑🏼‍🫯‍🧑🏿",
+    "codepoints": [
+      129489,
+      127996,
+      8205,
+      129775,
+      8205,
+      129489,
+      127999
+    ],
+    "description": "people wrestling: medium-light skin tone, dark skin tone"
   },
   "1f9d1_2695.3": {
     "char": "🧑🏽‍⚕️",
@@ -14103,6 +15600,58 @@
     ],
     "description": "factory worker: medium skin tone"
   },
+  "1f9d1_1f430_1f9d1.31": {
+    "char": "🧑🏽‍🐰‍🧑🏻",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      128048,
+      8205,
+      129489,
+      127995
+    ],
+    "description": "people with bunny ears: medium skin tone, light skin tone"
+  },
+  "1f9d1_1f430_1f9d1.32": {
+    "char": "🧑🏽‍🐰‍🧑🏼",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      128048,
+      8205,
+      129489,
+      127996
+    ],
+    "description": "people with bunny ears: medium skin tone, medium-light skin tone"
+  },
+  "1f9d1_1f430_1f9d1.34": {
+    "char": "🧑🏽‍🐰‍🧑🏾",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      128048,
+      8205,
+      129489,
+      127998
+    ],
+    "description": "people with bunny ears: medium skin tone, medium-dark skin tone"
+  },
+  "1f9d1_1f430_1f9d1.35": {
+    "char": "🧑🏽‍🐰‍🧑🏿",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      128048,
+      8205,
+      129489,
+      127999
+    ],
+    "description": "people with bunny ears: medium skin tone, dark skin tone"
+  },
   "1f9d1_1f4bb.3": {
     "char": "🧑🏽‍💻",
     "codepoints": [
@@ -14336,6 +15885,68 @@
       65039
     ],
     "description": "person in manual wheelchair facing right: medium skin tone"
+  },
+  "1f9d1_1fa70.3": {
+    "char": "🧑🏽‍🩰",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      129648
+    ],
+    "description": "ballet dancer: medium skin tone"
+  },
+  "1f9d1_1faef_1f9d1.31": {
+    "char": "🧑🏽‍🫯‍🧑🏻",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      129775,
+      8205,
+      129489,
+      127995
+    ],
+    "description": "people wrestling: medium skin tone, light skin tone"
+  },
+  "1f9d1_1faef_1f9d1.32": {
+    "char": "🧑🏽‍🫯‍🧑🏼",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      129775,
+      8205,
+      129489,
+      127996
+    ],
+    "description": "people wrestling: medium skin tone, medium-light skin tone"
+  },
+  "1f9d1_1faef_1f9d1.34": {
+    "char": "🧑🏽‍🫯‍🧑🏾",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      129775,
+      8205,
+      129489,
+      127998
+    ],
+    "description": "people wrestling: medium skin tone, medium-dark skin tone"
+  },
+  "1f9d1_1faef_1f9d1.35": {
+    "char": "🧑🏽‍🫯‍🧑🏿",
+    "codepoints": [
+      129489,
+      127997,
+      8205,
+      129775,
+      8205,
+      129489,
+      127999
+    ],
+    "description": "people wrestling: medium skin tone, dark skin tone"
   },
   "1f9d1_2695.4": {
     "char": "🧑🏾‍⚕️",
@@ -14580,6 +16191,58 @@
     ],
     "description": "factory worker: medium-dark skin tone"
   },
+  "1f9d1_1f430_1f9d1.41": {
+    "char": "🧑🏾‍🐰‍🧑🏻",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      128048,
+      8205,
+      129489,
+      127995
+    ],
+    "description": "people with bunny ears: medium-dark skin tone, light skin tone"
+  },
+  "1f9d1_1f430_1f9d1.42": {
+    "char": "🧑🏾‍🐰‍🧑🏼",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      128048,
+      8205,
+      129489,
+      127996
+    ],
+    "description": "people with bunny ears: medium-dark skin tone, medium-light skin tone"
+  },
+  "1f9d1_1f430_1f9d1.43": {
+    "char": "🧑🏾‍🐰‍🧑🏽",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      128048,
+      8205,
+      129489,
+      127997
+    ],
+    "description": "people with bunny ears: medium-dark skin tone, medium skin tone"
+  },
+  "1f9d1_1f430_1f9d1.45": {
+    "char": "🧑🏾‍🐰‍🧑🏿",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      128048,
+      8205,
+      129489,
+      127999
+    ],
+    "description": "people with bunny ears: medium-dark skin tone, dark skin tone"
+  },
   "1f9d1_1f4bb.4": {
     "char": "🧑🏾‍💻",
     "codepoints": [
@@ -14813,6 +16476,68 @@
       65039
     ],
     "description": "person in manual wheelchair facing right: medium-dark skin tone"
+  },
+  "1f9d1_1fa70.4": {
+    "char": "🧑🏾‍🩰",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      129648
+    ],
+    "description": "ballet dancer: medium-dark skin tone"
+  },
+  "1f9d1_1faef_1f9d1.41": {
+    "char": "🧑🏾‍🫯‍🧑🏻",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      129775,
+      8205,
+      129489,
+      127995
+    ],
+    "description": "people wrestling: medium-dark skin tone, light skin tone"
+  },
+  "1f9d1_1faef_1f9d1.42": {
+    "char": "🧑🏾‍🫯‍🧑🏼",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      129775,
+      8205,
+      129489,
+      127996
+    ],
+    "description": "people wrestling: medium-dark skin tone, medium-light skin tone"
+  },
+  "1f9d1_1faef_1f9d1.43": {
+    "char": "🧑🏾‍🫯‍🧑🏽",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      129775,
+      8205,
+      129489,
+      127997
+    ],
+    "description": "people wrestling: medium-dark skin tone, medium skin tone"
+  },
+  "1f9d1_1faef_1f9d1.45": {
+    "char": "🧑🏾‍🫯‍🧑🏿",
+    "codepoints": [
+      129489,
+      127998,
+      8205,
+      129775,
+      8205,
+      129489,
+      127999
+    ],
+    "description": "people wrestling: medium-dark skin tone, dark skin tone"
   },
   "1f9d1_2695.5": {
     "char": "🧑🏿‍⚕️",
@@ -15057,6 +16782,58 @@
     ],
     "description": "factory worker: dark skin tone"
   },
+  "1f9d1_1f430_1f9d1.51": {
+    "char": "🧑🏿‍🐰‍🧑🏻",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      128048,
+      8205,
+      129489,
+      127995
+    ],
+    "description": "people with bunny ears: dark skin tone, light skin tone"
+  },
+  "1f9d1_1f430_1f9d1.52": {
+    "char": "🧑🏿‍🐰‍🧑🏼",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      128048,
+      8205,
+      129489,
+      127996
+    ],
+    "description": "people with bunny ears: dark skin tone, medium-light skin tone"
+  },
+  "1f9d1_1f430_1f9d1.53": {
+    "char": "🧑🏿‍🐰‍🧑🏽",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      128048,
+      8205,
+      129489,
+      127997
+    ],
+    "description": "people with bunny ears: dark skin tone, medium skin tone"
+  },
+  "1f9d1_1f430_1f9d1.54": {
+    "char": "🧑🏿‍🐰‍🧑🏾",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      128048,
+      8205,
+      129489,
+      127998
+    ],
+    "description": "people with bunny ears: dark skin tone, medium-dark skin tone"
+  },
   "1f9d1_1f4bb.5": {
     "char": "🧑🏿‍💻",
     "codepoints": [
@@ -15290,6 +17067,68 @@
       65039
     ],
     "description": "person in manual wheelchair facing right: dark skin tone"
+  },
+  "1f9d1_1fa70.5": {
+    "char": "🧑🏿‍🩰",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      129648
+    ],
+    "description": "ballet dancer: dark skin tone"
+  },
+  "1f9d1_1faef_1f9d1.51": {
+    "char": "🧑🏿‍🫯‍🧑🏻",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      129775,
+      8205,
+      129489,
+      127995
+    ],
+    "description": "people wrestling: dark skin tone, light skin tone"
+  },
+  "1f9d1_1faef_1f9d1.52": {
+    "char": "🧑🏿‍🫯‍🧑🏼",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      129775,
+      8205,
+      129489,
+      127996
+    ],
+    "description": "people wrestling: dark skin tone, medium-light skin tone"
+  },
+  "1f9d1_1faef_1f9d1.53": {
+    "char": "🧑🏿‍🫯‍🧑🏽",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      129775,
+      8205,
+      129489,
+      127997
+    ],
+    "description": "people wrestling: dark skin tone, medium skin tone"
+  },
+  "1f9d1_1faef_1f9d1.54": {
+    "char": "🧑🏿‍🫯‍🧑🏾",
+    "codepoints": [
+      129489,
+      127999,
+      8205,
+      129775,
+      8205,
+      129489,
+      127998
+    ],
+    "description": "people wrestling: dark skin tone, medium-dark skin tone"
   },
   "1f9d4.W": {
     "char": "🧔‍♀️",

@@ -7993,6 +7993,34 @@
     "since": 4,
     "subgroup": "person-role"
   },
+  "1f468_1f430_1f468.12": {
+    "desc": "men with bunny ears: light skin tone, medium-light skin tone",
+    "emoji": "👨🏻‍🐰‍👨🏼",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f468_1f430_1f468.13": {
+    "desc": "men with bunny ears: light skin tone, medium skin tone",
+    "emoji": "👨🏻‍🐰‍👨🏽",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f468_1f430_1f468.14": {
+    "desc": "men with bunny ears: light skin tone, medium-dark skin tone",
+    "emoji": "👨🏻‍🐰‍👨🏾",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f468_1f430_1f468.15": {
+    "desc": "men with bunny ears: light skin tone, dark skin tone",
+    "emoji": "👨🏻‍🐰‍👨🏿",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
   "1f468_1f4bb.1": {
     "desc": "man technologist: light skin tone",
     "emoji": "👨🏻‍💻",
@@ -8132,6 +8160,34 @@
     "group": "People & Body",
     "since": 15.1,
     "subgroup": "person-activity"
+  },
+  "1f468_1faef_1f468.12": {
+    "desc": "men wrestling: light skin tone, medium-light skin tone",
+    "emoji": "👨🏻‍🫯‍👨🏼",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f468_1faef_1f468.13": {
+    "desc": "men wrestling: light skin tone, medium skin tone",
+    "emoji": "👨🏻‍🫯‍👨🏽",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f468_1faef_1f468.14": {
+    "desc": "men wrestling: light skin tone, medium-dark skin tone",
+    "emoji": "👨🏻‍🫯‍👨🏾",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f468_1faef_1f468.15": {
+    "desc": "men wrestling: light skin tone, dark skin tone",
+    "emoji": "👨🏻‍🫯‍👨🏿",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
   },
   "1f468.2": {
     "desc": "man: medium-light skin tone",
@@ -8287,6 +8343,34 @@
     "since": 4,
     "subgroup": "person-role"
   },
+  "1f468_1f430_1f468.21": {
+    "desc": "men with bunny ears: medium-light skin tone, light skin tone",
+    "emoji": "👨🏼‍🐰‍👨🏻",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f468_1f430_1f468.23": {
+    "desc": "men with bunny ears: medium-light skin tone, medium skin tone",
+    "emoji": "👨🏼‍🐰‍👨🏽",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f468_1f430_1f468.24": {
+    "desc": "men with bunny ears: medium-light skin tone, medium-dark skin tone",
+    "emoji": "👨🏼‍🐰‍👨🏾",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f468_1f430_1f468.25": {
+    "desc": "men with bunny ears: medium-light skin tone, dark skin tone",
+    "emoji": "👨🏼‍🐰‍👨🏿",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
   "1f468_1f4bb.2": {
     "desc": "man technologist: medium-light skin tone",
     "emoji": "👨🏼‍💻",
@@ -8426,6 +8510,34 @@
     "group": "People & Body",
     "since": 15.1,
     "subgroup": "person-activity"
+  },
+  "1f468_1faef_1f468.21": {
+    "desc": "men wrestling: medium-light skin tone, light skin tone",
+    "emoji": "👨🏼‍🫯‍👨🏻",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f468_1faef_1f468.23": {
+    "desc": "men wrestling: medium-light skin tone, medium skin tone",
+    "emoji": "👨🏼‍🫯‍👨🏽",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f468_1faef_1f468.24": {
+    "desc": "men wrestling: medium-light skin tone, medium-dark skin tone",
+    "emoji": "👨🏼‍🫯‍👨🏾",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f468_1faef_1f468.25": {
+    "desc": "men wrestling: medium-light skin tone, dark skin tone",
+    "emoji": "👨🏼‍🫯‍👨🏿",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
   },
   "1f468.3": {
     "desc": "man: medium skin tone",
@@ -8581,6 +8693,34 @@
     "since": 4,
     "subgroup": "person-role"
   },
+  "1f468_1f430_1f468.31": {
+    "desc": "men with bunny ears: medium skin tone, light skin tone",
+    "emoji": "👨🏽‍🐰‍👨🏻",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f468_1f430_1f468.32": {
+    "desc": "men with bunny ears: medium skin tone, medium-light skin tone",
+    "emoji": "👨🏽‍🐰‍👨🏼",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f468_1f430_1f468.34": {
+    "desc": "men with bunny ears: medium skin tone, medium-dark skin tone",
+    "emoji": "👨🏽‍🐰‍👨🏾",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f468_1f430_1f468.35": {
+    "desc": "men with bunny ears: medium skin tone, dark skin tone",
+    "emoji": "👨🏽‍🐰‍👨🏿",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
   "1f468_1f4bb.3": {
     "desc": "man technologist: medium skin tone",
     "emoji": "👨🏽‍💻",
@@ -8720,6 +8860,34 @@
     "group": "People & Body",
     "since": 15.1,
     "subgroup": "person-activity"
+  },
+  "1f468_1faef_1f468.31": {
+    "desc": "men wrestling: medium skin tone, light skin tone",
+    "emoji": "👨🏽‍🫯‍👨🏻",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f468_1faef_1f468.32": {
+    "desc": "men wrestling: medium skin tone, medium-light skin tone",
+    "emoji": "👨🏽‍🫯‍👨🏼",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f468_1faef_1f468.34": {
+    "desc": "men wrestling: medium skin tone, medium-dark skin tone",
+    "emoji": "👨🏽‍🫯‍👨🏾",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f468_1faef_1f468.35": {
+    "desc": "men wrestling: medium skin tone, dark skin tone",
+    "emoji": "👨🏽‍🫯‍👨🏿",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
   },
   "1f468.4": {
     "desc": "man: medium-dark skin tone",
@@ -8875,6 +9043,34 @@
     "since": 4,
     "subgroup": "person-role"
   },
+  "1f468_1f430_1f468.41": {
+    "desc": "men with bunny ears: medium-dark skin tone, light skin tone",
+    "emoji": "👨🏾‍🐰‍👨🏻",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f468_1f430_1f468.42": {
+    "desc": "men with bunny ears: medium-dark skin tone, medium-light skin tone",
+    "emoji": "👨🏾‍🐰‍👨🏼",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f468_1f430_1f468.43": {
+    "desc": "men with bunny ears: medium-dark skin tone, medium skin tone",
+    "emoji": "👨🏾‍🐰‍👨🏽",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f468_1f430_1f468.45": {
+    "desc": "men with bunny ears: medium-dark skin tone, dark skin tone",
+    "emoji": "👨🏾‍🐰‍👨🏿",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
   "1f468_1f4bb.4": {
     "desc": "man technologist: medium-dark skin tone",
     "emoji": "👨🏾‍💻",
@@ -9014,6 +9210,34 @@
     "group": "People & Body",
     "since": 15.1,
     "subgroup": "person-activity"
+  },
+  "1f468_1faef_1f468.41": {
+    "desc": "men wrestling: medium-dark skin tone, light skin tone",
+    "emoji": "👨🏾‍🫯‍👨🏻",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f468_1faef_1f468.42": {
+    "desc": "men wrestling: medium-dark skin tone, medium-light skin tone",
+    "emoji": "👨🏾‍🫯‍👨🏼",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f468_1faef_1f468.43": {
+    "desc": "men wrestling: medium-dark skin tone, medium skin tone",
+    "emoji": "👨🏾‍🫯‍👨🏽",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f468_1faef_1f468.45": {
+    "desc": "men wrestling: medium-dark skin tone, dark skin tone",
+    "emoji": "👨🏾‍🫯‍👨🏿",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
   },
   "1f468.5": {
     "desc": "man: dark skin tone",
@@ -9169,6 +9393,34 @@
     "since": 4,
     "subgroup": "person-role"
   },
+  "1f468_1f430_1f468.51": {
+    "desc": "men with bunny ears: dark skin tone, light skin tone",
+    "emoji": "👨🏿‍🐰‍👨🏻",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f468_1f430_1f468.52": {
+    "desc": "men with bunny ears: dark skin tone, medium-light skin tone",
+    "emoji": "👨🏿‍🐰‍👨🏼",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f468_1f430_1f468.53": {
+    "desc": "men with bunny ears: dark skin tone, medium skin tone",
+    "emoji": "👨🏿‍🐰‍👨🏽",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f468_1f430_1f468.54": {
+    "desc": "men with bunny ears: dark skin tone, medium-dark skin tone",
+    "emoji": "👨🏿‍🐰‍👨🏾",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
   "1f468_1f4bb.5": {
     "desc": "man technologist: dark skin tone",
     "emoji": "👨🏿‍💻",
@@ -9308,6 +9560,34 @@
     "group": "People & Body",
     "since": 15.1,
     "subgroup": "person-activity"
+  },
+  "1f468_1faef_1f468.51": {
+    "desc": "men wrestling: dark skin tone, light skin tone",
+    "emoji": "👨🏿‍🫯‍👨🏻",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f468_1faef_1f468.52": {
+    "desc": "men wrestling: dark skin tone, medium-light skin tone",
+    "emoji": "👨🏿‍🫯‍👨🏼",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f468_1faef_1f468.53": {
+    "desc": "men wrestling: dark skin tone, medium skin tone",
+    "emoji": "👨🏿‍🫯‍👨🏽",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f468_1faef_1f468.54": {
+    "desc": "men wrestling: dark skin tone, medium-dark skin tone",
+    "emoji": "👨🏿‍🫯‍👨🏾",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
   },
   "1f469": {
     "desc": "woman",
@@ -9827,6 +10107,34 @@
     "since": 4,
     "subgroup": "person-role"
   },
+  "1f469_1f430_1f469.12": {
+    "desc": "women with bunny ears: light skin tone, medium-light skin tone",
+    "emoji": "👩🏻‍🐰‍👩🏼",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f469_1f430_1f469.13": {
+    "desc": "women with bunny ears: light skin tone, medium skin tone",
+    "emoji": "👩🏻‍🐰‍👩🏽",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f469_1f430_1f469.14": {
+    "desc": "women with bunny ears: light skin tone, medium-dark skin tone",
+    "emoji": "👩🏻‍🐰‍👩🏾",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f469_1f430_1f469.15": {
+    "desc": "women with bunny ears: light skin tone, dark skin tone",
+    "emoji": "👩🏻‍🐰‍👩🏿",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
   "1f469_1f4bb.1": {
     "desc": "woman technologist: light skin tone",
     "emoji": "👩🏻‍💻",
@@ -9994,6 +10302,34 @@
     "group": "People & Body",
     "since": 15.1,
     "subgroup": "person-activity"
+  },
+  "1f469_1faef_1f469.12": {
+    "desc": "women wrestling: light skin tone, medium-light skin tone",
+    "emoji": "👩🏻‍🫯‍👩🏼",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f469_1faef_1f469.13": {
+    "desc": "women wrestling: light skin tone, medium skin tone",
+    "emoji": "👩🏻‍🫯‍👩🏽",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f469_1faef_1f469.14": {
+    "desc": "women wrestling: light skin tone, medium-dark skin tone",
+    "emoji": "👩🏻‍🫯‍👩🏾",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f469_1faef_1f469.15": {
+    "desc": "women wrestling: light skin tone, dark skin tone",
+    "emoji": "👩🏻‍🫯‍👩🏿",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
   },
   "1f469.2": {
     "desc": "woman: medium-light skin tone",
@@ -10219,6 +10555,34 @@
     "since": 4,
     "subgroup": "person-role"
   },
+  "1f469_1f430_1f469.21": {
+    "desc": "women with bunny ears: medium-light skin tone, light skin tone",
+    "emoji": "👩🏼‍🐰‍👩🏻",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f469_1f430_1f469.23": {
+    "desc": "women with bunny ears: medium-light skin tone, medium skin tone",
+    "emoji": "👩🏼‍🐰‍👩🏽",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f469_1f430_1f469.24": {
+    "desc": "women with bunny ears: medium-light skin tone, medium-dark skin tone",
+    "emoji": "👩🏼‍🐰‍👩🏾",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f469_1f430_1f469.25": {
+    "desc": "women with bunny ears: medium-light skin tone, dark skin tone",
+    "emoji": "👩🏼‍🐰‍👩🏿",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
   "1f469_1f4bb.2": {
     "desc": "woman technologist: medium-light skin tone",
     "emoji": "👩🏼‍💻",
@@ -10386,6 +10750,34 @@
     "group": "People & Body",
     "since": 15.1,
     "subgroup": "person-activity"
+  },
+  "1f469_1faef_1f469.21": {
+    "desc": "women wrestling: medium-light skin tone, light skin tone",
+    "emoji": "👩🏼‍🫯‍👩🏻",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f469_1faef_1f469.23": {
+    "desc": "women wrestling: medium-light skin tone, medium skin tone",
+    "emoji": "👩🏼‍🫯‍👩🏽",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f469_1faef_1f469.24": {
+    "desc": "women wrestling: medium-light skin tone, medium-dark skin tone",
+    "emoji": "👩🏼‍🫯‍👩🏾",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f469_1faef_1f469.25": {
+    "desc": "women wrestling: medium-light skin tone, dark skin tone",
+    "emoji": "👩🏼‍🫯‍👩🏿",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
   },
   "1f469.3": {
     "desc": "woman: medium skin tone",
@@ -10611,6 +11003,34 @@
     "since": 4,
     "subgroup": "person-role"
   },
+  "1f469_1f430_1f469.31": {
+    "desc": "women with bunny ears: medium skin tone, light skin tone",
+    "emoji": "👩🏽‍🐰‍👩🏻",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f469_1f430_1f469.32": {
+    "desc": "women with bunny ears: medium skin tone, medium-light skin tone",
+    "emoji": "👩🏽‍🐰‍👩🏼",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f469_1f430_1f469.34": {
+    "desc": "women with bunny ears: medium skin tone, medium-dark skin tone",
+    "emoji": "👩🏽‍🐰‍👩🏾",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f469_1f430_1f469.35": {
+    "desc": "women with bunny ears: medium skin tone, dark skin tone",
+    "emoji": "👩🏽‍🐰‍👩🏿",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
   "1f469_1f4bb.3": {
     "desc": "woman technologist: medium skin tone",
     "emoji": "👩🏽‍💻",
@@ -10778,6 +11198,34 @@
     "group": "People & Body",
     "since": 15.1,
     "subgroup": "person-activity"
+  },
+  "1f469_1faef_1f469.31": {
+    "desc": "women wrestling: medium skin tone, light skin tone",
+    "emoji": "👩🏽‍🫯‍👩🏻",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f469_1faef_1f469.32": {
+    "desc": "women wrestling: medium skin tone, medium-light skin tone",
+    "emoji": "👩🏽‍🫯‍👩🏼",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f469_1faef_1f469.34": {
+    "desc": "women wrestling: medium skin tone, medium-dark skin tone",
+    "emoji": "👩🏽‍🫯‍👩🏾",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f469_1faef_1f469.35": {
+    "desc": "women wrestling: medium skin tone, dark skin tone",
+    "emoji": "👩🏽‍🫯‍👩🏿",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
   },
   "1f469.4": {
     "desc": "woman: medium-dark skin tone",
@@ -11003,6 +11451,34 @@
     "since": 4,
     "subgroup": "person-role"
   },
+  "1f469_1f430_1f469.41": {
+    "desc": "women with bunny ears: medium-dark skin tone, light skin tone",
+    "emoji": "👩🏾‍🐰‍👩🏻",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f469_1f430_1f469.42": {
+    "desc": "women with bunny ears: medium-dark skin tone, medium-light skin tone",
+    "emoji": "👩🏾‍🐰‍👩🏼",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f469_1f430_1f469.43": {
+    "desc": "women with bunny ears: medium-dark skin tone, medium skin tone",
+    "emoji": "👩🏾‍🐰‍👩🏽",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f469_1f430_1f469.45": {
+    "desc": "women with bunny ears: medium-dark skin tone, dark skin tone",
+    "emoji": "👩🏾‍🐰‍👩🏿",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
   "1f469_1f4bb.4": {
     "desc": "woman technologist: medium-dark skin tone",
     "emoji": "👩🏾‍💻",
@@ -11170,6 +11646,34 @@
     "group": "People & Body",
     "since": 15.1,
     "subgroup": "person-activity"
+  },
+  "1f469_1faef_1f469.41": {
+    "desc": "women wrestling: medium-dark skin tone, light skin tone",
+    "emoji": "👩🏾‍🫯‍👩🏻",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f469_1faef_1f469.42": {
+    "desc": "women wrestling: medium-dark skin tone, medium-light skin tone",
+    "emoji": "👩🏾‍🫯‍👩🏼",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f469_1faef_1f469.43": {
+    "desc": "women wrestling: medium-dark skin tone, medium skin tone",
+    "emoji": "👩🏾‍🫯‍👩🏽",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f469_1faef_1f469.45": {
+    "desc": "women wrestling: medium-dark skin tone, dark skin tone",
+    "emoji": "👩🏾‍🫯‍👩🏿",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
   },
   "1f469.5": {
     "desc": "woman: dark skin tone",
@@ -11395,6 +11899,34 @@
     "since": 4,
     "subgroup": "person-role"
   },
+  "1f469_1f430_1f469.51": {
+    "desc": "women with bunny ears: dark skin tone, light skin tone",
+    "emoji": "👩🏿‍🐰‍👩🏻",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f469_1f430_1f469.52": {
+    "desc": "women with bunny ears: dark skin tone, medium-light skin tone",
+    "emoji": "👩🏿‍🐰‍👩🏼",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f469_1f430_1f469.53": {
+    "desc": "women with bunny ears: dark skin tone, medium skin tone",
+    "emoji": "👩🏿‍🐰‍👩🏽",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f469_1f430_1f469.54": {
+    "desc": "women with bunny ears: dark skin tone, medium-dark skin tone",
+    "emoji": "👩🏿‍🐰‍👩🏾",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
   "1f469_1f4bb.5": {
     "desc": "woman technologist: dark skin tone",
     "emoji": "👩🏿‍💻",
@@ -11562,6 +12094,34 @@
     "group": "People & Body",
     "since": 15.1,
     "subgroup": "person-activity"
+  },
+  "1f469_1faef_1f469.51": {
+    "desc": "women wrestling: dark skin tone, light skin tone",
+    "emoji": "👩🏿‍🫯‍👩🏻",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f469_1faef_1f469.52": {
+    "desc": "women wrestling: dark skin tone, medium-light skin tone",
+    "emoji": "👩🏿‍🫯‍👩🏼",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f469_1faef_1f469.53": {
+    "desc": "women wrestling: dark skin tone, medium skin tone",
+    "emoji": "👩🏿‍🫯‍👩🏽",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f469_1faef_1f469.54": {
+    "desc": "women wrestling: dark skin tone, medium-dark skin tone",
+    "emoji": "👩🏿‍🫯‍👩🏾",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
   },
   "1f46a": {
     "desc": "family",
@@ -11841,6 +12401,111 @@
     "emoji": "👯‍♂",
     "group": "People & Body",
     "since": 4,
+    "subgroup": "person-activity"
+  },
+  "1f46f.1": {
+    "desc": "people with bunny ears: light skin tone",
+    "emoji": "👯🏻",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f46f.1.W": {
+    "desc": "women with bunny ears: light skin tone",
+    "emoji": "👯🏻‍♀",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f46f.1.M": {
+    "desc": "men with bunny ears: light skin tone",
+    "emoji": "👯🏻‍♂",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f46f.2": {
+    "desc": "people with bunny ears: medium-light skin tone",
+    "emoji": "👯🏼",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f46f.2.W": {
+    "desc": "women with bunny ears: medium-light skin tone",
+    "emoji": "👯🏼‍♀",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f46f.2.M": {
+    "desc": "men with bunny ears: medium-light skin tone",
+    "emoji": "👯🏼‍♂",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f46f.3": {
+    "desc": "people with bunny ears: medium skin tone",
+    "emoji": "👯🏽",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f46f.3.W": {
+    "desc": "women with bunny ears: medium skin tone",
+    "emoji": "👯🏽‍♀",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f46f.3.M": {
+    "desc": "men with bunny ears: medium skin tone",
+    "emoji": "👯🏽‍♂",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f46f.4": {
+    "desc": "people with bunny ears: medium-dark skin tone",
+    "emoji": "👯🏾",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f46f.4.W": {
+    "desc": "women with bunny ears: medium-dark skin tone",
+    "emoji": "👯🏾‍♀",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f46f.4.M": {
+    "desc": "men with bunny ears: medium-dark skin tone",
+    "emoji": "👯🏾‍♂",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f46f.5": {
+    "desc": "people with bunny ears: dark skin tone",
+    "emoji": "👯🏿",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f46f.5.W": {
+    "desc": "women with bunny ears: dark skin tone",
+    "emoji": "👯🏿‍♀",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f46f.5.M": {
+    "desc": "men with bunny ears: dark skin tone",
+    "emoji": "👯🏿‍♂",
+    "group": "People & Body",
+    "since": 17,
     "subgroup": "person-activity"
   },
   "1f470": {
@@ -18045,6 +18710,13 @@
     "since": 13,
     "subgroup": "household"
   },
+  "1f6d8": {
+    "desc": "landslide",
+    "emoji": "🛘",
+    "group": "Travel & Places",
+    "since": 17,
+    "subgroup": "place-geographic"
+  },
   "1f6dc": {
     "desc": "wireless",
     "emoji": "🛜",
@@ -19807,6 +20479,111 @@
     "emoji": "🤼‍♂",
     "group": "People & Body",
     "since": 4,
+    "subgroup": "person-sport"
+  },
+  "1f93c.1": {
+    "desc": "people wrestling: light skin tone",
+    "emoji": "🤼🏻",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f93c.1.W": {
+    "desc": "women wrestling: light skin tone",
+    "emoji": "🤼🏻‍♀",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f93c.1.M": {
+    "desc": "men wrestling: light skin tone",
+    "emoji": "🤼🏻‍♂",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f93c.2": {
+    "desc": "people wrestling: medium-light skin tone",
+    "emoji": "🤼🏼",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f93c.2.W": {
+    "desc": "women wrestling: medium-light skin tone",
+    "emoji": "🤼🏼‍♀",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f93c.2.M": {
+    "desc": "men wrestling: medium-light skin tone",
+    "emoji": "🤼🏼‍♂",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f93c.3": {
+    "desc": "people wrestling: medium skin tone",
+    "emoji": "🤼🏽",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f93c.3.W": {
+    "desc": "women wrestling: medium skin tone",
+    "emoji": "🤼🏽‍♀",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f93c.3.M": {
+    "desc": "men wrestling: medium skin tone",
+    "emoji": "🤼🏽‍♂",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f93c.4": {
+    "desc": "people wrestling: medium-dark skin tone",
+    "emoji": "🤼🏾",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f93c.4.W": {
+    "desc": "women wrestling: medium-dark skin tone",
+    "emoji": "🤼🏾‍♀",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f93c.4.M": {
+    "desc": "men wrestling: medium-dark skin tone",
+    "emoji": "🤼🏾‍♂",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f93c.5": {
+    "desc": "people wrestling: dark skin tone",
+    "emoji": "🤼🏿",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f93c.5.W": {
+    "desc": "women wrestling: dark skin tone",
+    "emoji": "🤼🏿‍♀",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f93c.5.M": {
+    "desc": "men wrestling: dark skin tone",
+    "emoji": "🤼🏿‍♂",
+    "group": "People & Body",
+    "since": 17,
     "subgroup": "person-sport"
   },
   "1f93d": {
@@ -22175,6 +22952,13 @@
     "since": 15.1,
     "subgroup": "person-symbol"
   },
+  "1f9d1_1fa70": {
+    "desc": "ballet dancer",
+    "emoji": "🧑‍🩰",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
   "1f9d1.1": {
     "desc": "person: light skin tone",
     "emoji": "🧑🏻",
@@ -22321,6 +23105,34 @@
     "group": "People & Body",
     "since": 12.1,
     "subgroup": "person-role"
+  },
+  "1f9d1_1f430_1f9d1.12": {
+    "desc": "people with bunny ears: light skin tone, medium-light skin tone",
+    "emoji": "🧑🏻‍🐰‍🧑🏼",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f9d1_1f430_1f9d1.13": {
+    "desc": "people with bunny ears: light skin tone, medium skin tone",
+    "emoji": "🧑🏻‍🐰‍🧑🏽",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f9d1_1f430_1f9d1.14": {
+    "desc": "people with bunny ears: light skin tone, medium-dark skin tone",
+    "emoji": "🧑🏻‍🐰‍🧑🏾",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f9d1_1f430_1f9d1.15": {
+    "desc": "people with bunny ears: light skin tone, dark skin tone",
+    "emoji": "🧑🏻‍🐰‍🧑🏿",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
   },
   "1f9d1_1f4bb.1": {
     "desc": "technologist: light skin tone",
@@ -22469,6 +23281,41 @@
     "since": 15.1,
     "subgroup": "person-activity"
   },
+  "1f9d1_1fa70.1": {
+    "desc": "ballet dancer: light skin tone",
+    "emoji": "🧑🏻‍🩰",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f9d1_1faef_1f9d1.12": {
+    "desc": "people wrestling: light skin tone, medium-light skin tone",
+    "emoji": "🧑🏻‍🫯‍🧑🏼",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f9d1_1faef_1f9d1.13": {
+    "desc": "people wrestling: light skin tone, medium skin tone",
+    "emoji": "🧑🏻‍🫯‍🧑🏽",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f9d1_1faef_1f9d1.14": {
+    "desc": "people wrestling: light skin tone, medium-dark skin tone",
+    "emoji": "🧑🏻‍🫯‍🧑🏾",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f9d1_1faef_1f9d1.15": {
+    "desc": "people wrestling: light skin tone, dark skin tone",
+    "emoji": "🧑🏻‍🫯‍🧑🏿",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
   "1f9d1.2": {
     "desc": "person: medium-light skin tone",
     "emoji": "🧑🏼",
@@ -22615,6 +23462,34 @@
     "group": "People & Body",
     "since": 12.1,
     "subgroup": "person-role"
+  },
+  "1f9d1_1f430_1f9d1.21": {
+    "desc": "people with bunny ears: medium-light skin tone, light skin tone",
+    "emoji": "🧑🏼‍🐰‍🧑🏻",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f9d1_1f430_1f9d1.23": {
+    "desc": "people with bunny ears: medium-light skin tone, medium skin tone",
+    "emoji": "🧑🏼‍🐰‍🧑🏽",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f9d1_1f430_1f9d1.24": {
+    "desc": "people with bunny ears: medium-light skin tone, medium-dark skin tone",
+    "emoji": "🧑🏼‍🐰‍🧑🏾",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f9d1_1f430_1f9d1.25": {
+    "desc": "people with bunny ears: medium-light skin tone, dark skin tone",
+    "emoji": "🧑🏼‍🐰‍🧑🏿",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
   },
   "1f9d1_1f4bb.2": {
     "desc": "technologist: medium-light skin tone",
@@ -22763,6 +23638,41 @@
     "since": 15.1,
     "subgroup": "person-activity"
   },
+  "1f9d1_1fa70.2": {
+    "desc": "ballet dancer: medium-light skin tone",
+    "emoji": "🧑🏼‍🩰",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f9d1_1faef_1f9d1.21": {
+    "desc": "people wrestling: medium-light skin tone, light skin tone",
+    "emoji": "🧑🏼‍🫯‍🧑🏻",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f9d1_1faef_1f9d1.23": {
+    "desc": "people wrestling: medium-light skin tone, medium skin tone",
+    "emoji": "🧑🏼‍🫯‍🧑🏽",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f9d1_1faef_1f9d1.24": {
+    "desc": "people wrestling: medium-light skin tone, medium-dark skin tone",
+    "emoji": "🧑🏼‍🫯‍🧑🏾",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f9d1_1faef_1f9d1.25": {
+    "desc": "people wrestling: medium-light skin tone, dark skin tone",
+    "emoji": "🧑🏼‍🫯‍🧑🏿",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
   "1f9d1.3": {
     "desc": "person: medium skin tone",
     "emoji": "🧑🏽",
@@ -22909,6 +23819,34 @@
     "group": "People & Body",
     "since": 12.1,
     "subgroup": "person-role"
+  },
+  "1f9d1_1f430_1f9d1.31": {
+    "desc": "people with bunny ears: medium skin tone, light skin tone",
+    "emoji": "🧑🏽‍🐰‍🧑🏻",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f9d1_1f430_1f9d1.32": {
+    "desc": "people with bunny ears: medium skin tone, medium-light skin tone",
+    "emoji": "🧑🏽‍🐰‍🧑🏼",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f9d1_1f430_1f9d1.34": {
+    "desc": "people with bunny ears: medium skin tone, medium-dark skin tone",
+    "emoji": "🧑🏽‍🐰‍🧑🏾",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f9d1_1f430_1f9d1.35": {
+    "desc": "people with bunny ears: medium skin tone, dark skin tone",
+    "emoji": "🧑🏽‍🐰‍🧑🏿",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
   },
   "1f9d1_1f4bb.3": {
     "desc": "technologist: medium skin tone",
@@ -23057,6 +23995,41 @@
     "since": 15.1,
     "subgroup": "person-activity"
   },
+  "1f9d1_1fa70.3": {
+    "desc": "ballet dancer: medium skin tone",
+    "emoji": "🧑🏽‍🩰",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f9d1_1faef_1f9d1.31": {
+    "desc": "people wrestling: medium skin tone, light skin tone",
+    "emoji": "🧑🏽‍🫯‍🧑🏻",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f9d1_1faef_1f9d1.32": {
+    "desc": "people wrestling: medium skin tone, medium-light skin tone",
+    "emoji": "🧑🏽‍🫯‍🧑🏼",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f9d1_1faef_1f9d1.34": {
+    "desc": "people wrestling: medium skin tone, medium-dark skin tone",
+    "emoji": "🧑🏽‍🫯‍🧑🏾",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f9d1_1faef_1f9d1.35": {
+    "desc": "people wrestling: medium skin tone, dark skin tone",
+    "emoji": "🧑🏽‍🫯‍🧑🏿",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
   "1f9d1.4": {
     "desc": "person: medium-dark skin tone",
     "emoji": "🧑🏾",
@@ -23203,6 +24176,34 @@
     "group": "People & Body",
     "since": 12.1,
     "subgroup": "person-role"
+  },
+  "1f9d1_1f430_1f9d1.41": {
+    "desc": "people with bunny ears: medium-dark skin tone, light skin tone",
+    "emoji": "🧑🏾‍🐰‍🧑🏻",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f9d1_1f430_1f9d1.42": {
+    "desc": "people with bunny ears: medium-dark skin tone, medium-light skin tone",
+    "emoji": "🧑🏾‍🐰‍🧑🏼",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f9d1_1f430_1f9d1.43": {
+    "desc": "people with bunny ears: medium-dark skin tone, medium skin tone",
+    "emoji": "🧑🏾‍🐰‍🧑🏽",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f9d1_1f430_1f9d1.45": {
+    "desc": "people with bunny ears: medium-dark skin tone, dark skin tone",
+    "emoji": "🧑🏾‍🐰‍🧑🏿",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
   },
   "1f9d1_1f4bb.4": {
     "desc": "technologist: medium-dark skin tone",
@@ -23351,6 +24352,41 @@
     "since": 15.1,
     "subgroup": "person-activity"
   },
+  "1f9d1_1fa70.4": {
+    "desc": "ballet dancer: medium-dark skin tone",
+    "emoji": "🧑🏾‍🩰",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f9d1_1faef_1f9d1.41": {
+    "desc": "people wrestling: medium-dark skin tone, light skin tone",
+    "emoji": "🧑🏾‍🫯‍🧑🏻",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f9d1_1faef_1f9d1.42": {
+    "desc": "people wrestling: medium-dark skin tone, medium-light skin tone",
+    "emoji": "🧑🏾‍🫯‍🧑🏼",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f9d1_1faef_1f9d1.43": {
+    "desc": "people wrestling: medium-dark skin tone, medium skin tone",
+    "emoji": "🧑🏾‍🫯‍🧑🏽",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f9d1_1faef_1f9d1.45": {
+    "desc": "people wrestling: medium-dark skin tone, dark skin tone",
+    "emoji": "🧑🏾‍🫯‍🧑🏿",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
   "1f9d1.5": {
     "desc": "person: dark skin tone",
     "emoji": "🧑🏿",
@@ -23498,6 +24534,34 @@
     "since": 12.1,
     "subgroup": "person-role"
   },
+  "1f9d1_1f430_1f9d1.51": {
+    "desc": "people with bunny ears: dark skin tone, light skin tone",
+    "emoji": "🧑🏿‍🐰‍🧑🏻",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f9d1_1f430_1f9d1.52": {
+    "desc": "people with bunny ears: dark skin tone, medium-light skin tone",
+    "emoji": "🧑🏿‍🐰‍🧑🏼",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f9d1_1f430_1f9d1.53": {
+    "desc": "people with bunny ears: dark skin tone, medium skin tone",
+    "emoji": "🧑🏿‍🐰‍🧑🏽",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f9d1_1f430_1f9d1.54": {
+    "desc": "people with bunny ears: dark skin tone, medium-dark skin tone",
+    "emoji": "🧑🏿‍🐰‍🧑🏾",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
   "1f9d1_1f4bb.5": {
     "desc": "technologist: dark skin tone",
     "emoji": "🧑🏿‍💻",
@@ -23644,6 +24708,41 @@
     "group": "People & Body",
     "since": 15.1,
     "subgroup": "person-activity"
+  },
+  "1f9d1_1fa70.5": {
+    "desc": "ballet dancer: dark skin tone",
+    "emoji": "🧑🏿‍🩰",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-activity"
+  },
+  "1f9d1_1faef_1f9d1.51": {
+    "desc": "people wrestling: dark skin tone, light skin tone",
+    "emoji": "🧑🏿‍🫯‍🧑🏻",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f9d1_1faef_1f9d1.52": {
+    "desc": "people wrestling: dark skin tone, medium-light skin tone",
+    "emoji": "🧑🏿‍🫯‍🧑🏼",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f9d1_1faef_1f9d1.53": {
+    "desc": "people wrestling: dark skin tone, medium skin tone",
+    "emoji": "🧑🏿‍🫯‍🧑🏽",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
+  },
+  "1f9d1_1faef_1f9d1.54": {
+    "desc": "people wrestling: dark skin tone, medium-dark skin tone",
+    "emoji": "🧑🏿‍🫯‍🧑🏾",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-sport"
   },
   "1f9d2": {
     "desc": "child",
@@ -25332,6 +26431,20 @@
     "since": 16,
     "subgroup": "musical-instrument"
   },
+  "1fa8a": {
+    "desc": "trombone",
+    "emoji": "🪊",
+    "group": "Objects",
+    "since": 17,
+    "subgroup": "musical-instrument"
+  },
+  "1fa8e": {
+    "desc": "treasure chest",
+    "emoji": "🪎",
+    "group": "Objects",
+    "since": 17,
+    "subgroup": "money"
+  },
   "1fa8f": {
     "desc": "shovel",
     "emoji": "🪏",
@@ -25829,6 +26942,20 @@
     "since": 16,
     "subgroup": "person-symbol"
   },
+  "1fac8": {
+    "desc": "hairy creature",
+    "emoji": "🫈",
+    "group": "People & Body",
+    "since": 17,
+    "subgroup": "person-fantasy"
+  },
+  "1facd": {
+    "desc": "orca",
+    "emoji": "🫍",
+    "group": "Animals & Nature",
+    "since": 17,
+    "subgroup": "animal-marine"
+  },
   "1face": {
     "desc": "moose",
     "emoji": "🫎",
@@ -26010,6 +27137,20 @@
     "group": "Smileys & Emotion",
     "since": 16,
     "subgroup": "face-sleepy"
+  },
+  "1faea": {
+    "desc": "distorted face",
+    "emoji": "🫪",
+    "group": "Smileys & Emotion",
+    "since": 17,
+    "subgroup": "face-concerned"
+  },
+  "1faef": {
+    "desc": "fight cloud",
+    "emoji": "🫯",
+    "group": "Smileys & Emotion",
+    "since": 17,
+    "subgroup": "emotion"
   },
   "1faf0": {
     "desc": "hand with index finger and thumb crossed",
