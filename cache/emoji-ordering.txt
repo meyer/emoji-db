@@ -1,7 +1,7 @@
 # Machine-readable version of the emoji ordering for v17.0 (corresponding to CLDR).
 # Note that the skin-tone modifiers are primary-ignorable in the CLDR collation rules.
 # For a listing with the groups and subgroups, and the non-qualified sequences,
-# see https://unicode.org/Public/emoji/17.0/emoji-test.txt
+# see https://www.unicode.org/Public/17.0.0/emoji/emoji-test.txt
 U+1F600 ; 1.0 # 😀 grinning face
 U+1F603 ; 0.6 # 😃 grinning face with big eyes
 U+1F604 ; 0.6 # 😄 grinning face with smiling eyes
