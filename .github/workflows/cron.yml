@@ -5,7 +5,7 @@ on:
 
   push:
     branches:
-      - master
+      - main
 
   schedule:
     # run every day at midnight UTC
@@ -44,7 +44,7 @@ jobs:
             git checkout -b temp
             git add .
             git commit -m "Update emoji data"
-            git push origin HEAD:master
+            git push origin HEAD:main
           fi
 
       - name: Check emoji keys for potential new formats
