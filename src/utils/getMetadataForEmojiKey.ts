@@ -1,11 +1,11 @@
 import fs from 'fs';
 import path from 'path';
 import yaml from 'yaml';
-import annotationData from '../../data/annotations.json' assert { type: 'json' };
-import derivedAnnotationData from '../../data/annotationsDerived.json' assert { type: 'json' };
-import sequenceData from '../../data/emoji-sequences.json' assert { type: 'json' };
-import variationSequenceData from '../../data/emoji-variation-sequences.json' assert { type: 'json' };
-import zwjSequenceData from '../../data/emoji-zwj-sequences.json' assert { type: 'json' };
+import annotationData from '../../data/annotations.json' with { type: 'json' };
+import derivedAnnotationData from '../../data/annotationsDerived.json' with { type: 'json' };
+import sequenceData from '../../data/emoji-sequences.json' with { type: 'json' };
+import variationSequenceData from '../../data/emoji-variation-sequences.json' with { type: 'json' };
+import zwjSequenceData from '../../data/emoji-zwj-sequences.json' with { type: 'json' };
 import { ROOT_DIR } from '../constants.js';
 import { codepointsToKey } from './codepointsToKey.js';
 import { invariant } from './invariant.js';

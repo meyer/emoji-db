@@ -25,6 +25,9 @@ interface EmojiDbEntry {
 type EmojiDb = Record<string, EmojiDbEntry>;
 
 const fitzRegex = /\.([1-5][1-5]?)(\.[MWBG]+)?$/;
+// Regex to detect component/silhouette images that should be skipped
+const componentRegex = /^silhouette\.|\.(?:L|R|RA)$/;
+
 const argv = process.argv.slice(2);
 const firstArg = argv[0];
 invariant(argv.length === 1 && firstArg, 'one arg pls');
@@ -39,16 +42,28 @@ const keywordsByEmoji: Record<string, string[]> = yaml.parse(
 );
 
 try {
-  for await (const emoji of ttf.getEmojiIterator()) {
+  for await (const result of ttf.getEmojiIterator()) {
+    // Skip dupe references - they point to the same emoji data
+    if (result.type === 'ref') {
+      continue;
+    }
+
+    const { name } = result;
+
+    // Skip component/silhouette images - they're for composition, not standalone emoji
+    if (componentRegex.test(name)) {
+      continue;
+    }
+
     let keyFromName: string;
     try {
-      keyFromName = emojiNameToKey(emoji.name);
+      keyFromName = emojiNameToKey(name);
     } catch (err) {
       console.warn(err);
       continue;
     }
 
-    const { codepoints, char, keywords, name, fileName } = getMetadataForEmojiKey(keyFromName);
+    const { codepoints, char, keywords, name: emojiName, fileName } = getMetadataForEmojiKey(keyFromName);
 
     const sortKey = toEmojiSortKey(codepoints);
 
@@ -70,7 +85,7 @@ try {
         fitz: {
           ...emojiDb[zeroKey]?.fitz,
           [fitzMatch[1]]: {
-            name,
+            name: emojiName,
             image: `images/${fileName}.png`,
             emoji: char,
             codepoints,
@@ -84,7 +99,7 @@ try {
         emoji: char,
         image: `images/${fileName}.png`,
         keywords: Array.from(new Set(keywords)),
-        name,
+        name: emojiName,
         fitz: null,
         ...emojiDb[keyFromName],
       };

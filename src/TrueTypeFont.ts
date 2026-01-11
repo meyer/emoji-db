@@ -1,7 +1,19 @@
 import type fs from 'fs';
+import sharp from 'sharp';
 import { BinaryParser } from './BinaryParser.js';
 import type { NameIdKey } from './constants.js';
 import { invariant } from './utils/invariant.js';
+
+/** Types for different glyph records in sbix table */
+type GlyphRecord =
+  | { type: 'png'; data: Buffer; name: string; idx: number }
+  | { type: 'flip'; refGlyphIdx: number; name: string; idx: number }
+  | { type: 'dupe'; refGlyphIdx: number; name: string; idx: number };
+
+/** Result yielded from emoji iterator */
+export type EmojiIteratorResult =
+  | { type: 'data'; data: Buffer; name: string }
+  | { type: 'ref'; refName: string; name: string };
 
 export interface HeadTable {
   version: number;
@@ -152,7 +164,7 @@ export class TrueTypeFont {
   }
 
   /** https://docs.microsoft.com/en-us/typography/opentype/spec/sbix */
-  public async *getEmojiIterator() {
+  public async *getEmojiIterator(): AsyncGenerator<EmojiIteratorResult> {
     invariant(this.tableOffsetsByTag.sbix != null, 'Missing sbix table offset');
     const bp = new BinaryParser(this.fh, this.tableOffsetsByTag.sbix);
 
@@ -178,46 +190,100 @@ export class TrueTypeFont {
 
     const post = await this.getPostTable();
 
-    // add 4 bytes to skip PPEM and PPI
-    bp.position = this.tableOffsetsByTag.sbix + strikeOffset.offset + 4;
+    // ===== PASS 1: Collect all glyph data =====
+    const glyphMap = new Map<number, GlyphRecord>();
+    const glyphIdxToArrayIdx = new Map<number, number>(); // Maps glyph index to array iteration index
 
+    bp.position = this.tableOffsetsByTag.sbix + strikeOffset.offset + 4;
     let offsetCache = await bp.offset32();
 
     for (let idx = 0; idx < this.maxp.numGlyphs - 1; idx++) {
-      // cache the old offset
       const currentGlyphOffset = offsetCache;
-      // fetch the next offset
       const nextGlyphOffset = await bp.offset32();
       offsetCache = nextGlyphOffset;
 
       const size = nextGlyphOffset - currentGlyphOffset;
-
       const glyphIdx = post.glyphNameIndex[idx];
 
-      if (glyphIdx == null) {
-        continue;
-      }
-
-      if (size === 0) {
-        // no bitmap data
+      if (glyphIdx == null || size === 0) {
         continue;
       }
 
       const name = post.names[glyphIdx];
       invariant(name, 'No name for glyph %o (size: %o)', idx, size);
 
-      const offset = this.tableOffsetsByTag.sbix + strikeOffset.offset + currentGlyphOffset;
-
-      const graphicType = await bp.tag(offset + 4);
-      const data = await bp.readBytes(size - 8, offset + 8);
-      if (graphicType === 'flip') {
-        console.error('TODO: add flip support');
+      // Skip internal/hidden glyphs that aren't real emoji
+      if (name === 'hiddenglyph') {
         continue;
       }
 
-      invariant(graphicType === 'png ', 'Expected `png `, received `%s`', graphicType);
+      const offset = this.tableOffsetsByTag.sbix + strikeOffset.offset + currentGlyphOffset;
+      const graphicType = await bp.tag(offset + 4);
 
-      yield { data, name };
+      glyphIdxToArrayIdx.set(idx, idx);
+
+      if (graphicType === 'png ') {
+        const data = await bp.readBytes(size - 8, offset + 8);
+        glyphMap.set(idx, { type: 'png', data, name, idx });
+      } else if (graphicType === 'flip' || graphicType === 'dupe') {
+        // flip/dupe: data is a 2-byte glyph index reference
+        const refGlyphIdx = await bp.uint16(offset + 8);
+        glyphMap.set(idx, { type: graphicType.trim() as 'flip' | 'dupe', refGlyphIdx, name, idx });
+      } else if (graphicType === 'emjc') {
+        // LZFSE compressed PNG - log warning and skip for now
+        console.warn(`Skipping EMJC compressed glyph: ${name} (idx: ${idx})`);
+      } else {
+        // Unknown graphic type
+        console.warn(`Unknown graphic type '${graphicType}' for glyph: ${name} (idx: ${idx})`);
+      }
+    }
+
+    // ===== PASS 2: Resolve references and yield =====
+    const resolveGlyph = async (
+      idx: number,
+      visited: Set<number> = new Set()
+    ): Promise<Buffer | null> => {
+      if (visited.has(idx)) {
+        console.warn(`Circular reference detected at glyph index ${idx}`);
+        return null;
+      }
+      visited.add(idx);
+
+      const glyph = glyphMap.get(idx);
+      if (!glyph) return null;
+
+      if (glyph.type === 'png') {
+        return glyph.data;
+      }
+
+      // flip or dupe: resolve the referenced glyph
+      const sourceData = await resolveGlyph(glyph.refGlyphIdx, visited);
+      if (!sourceData) return null;
+
+      if (glyph.type === 'flip') {
+        // Apply horizontal flip
+        return sharp(sourceData).flop().toBuffer();
+      }
+
+      // dupe: return source data as-is (but we'll handle this differently below)
+      return sourceData;
+    };
+
+    for (const [idx, glyph] of glyphMap) {
+      if (glyph.type === 'dupe') {
+        // For dupe, yield a reference instead of copying data
+        const refGlyph = glyphMap.get(glyph.refGlyphIdx);
+        if (refGlyph) {
+          yield { type: 'ref', refName: refGlyph.name, name: glyph.name };
+        } else {
+          console.warn(`Dupe reference not found for glyph: ${glyph.name} -> ${glyph.refGlyphIdx}`);
+        }
+      } else {
+        const data = await resolveGlyph(idx);
+        if (data) {
+          yield { type: 'data', data, name: glyph.name };
+        }
+      }
     }
   }
 }
