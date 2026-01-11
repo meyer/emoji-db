@@ -5,22 +5,22 @@ Extracts emoji PNGs and metadata from Apple's Color Emoji font and generates a s
 ## Quick Start
 
 ```bash
-yarn install
-yarn start  # Extract images + generate DB (requires font in fonts/)
+pnpm install
+pnpm start  # Extract images + generate DB (requires font in fonts/)
 ```
 
 ## Scripts
 
 | Command | Description |
 |---------|-------------|
-| `yarn start` | Extract images + generate emoji-db.json |
-| `yarn ci` | Full pipeline: fetch data, convert, extract, generate |
-| `yarn copy-latest` | Copy system emoji font to `fonts/` |
-| `yarn extract-images` | Extract PNGs from font |
-| `yarn generate-db` | Generate emoji-db.json |
-| `yarn fetch-data` | Download CLDR/Unicode data files |
-| `yarn convert` | Convert downloaded data to JSON |
-| `yarn typecheck` | Run TypeScript type checking |
+| `pnpm start` | Extract images + generate emoji-db.json |
+| `pnpm ci` | Full pipeline: fetch data, convert, extract, generate |
+| `pnpm copy-latest` | Copy system emoji font to `fonts/` |
+| `pnpm extract-images` | Extract PNGs from font |
+| `pnpm generate-db` | Generate emoji-db.json |
+| `pnpm fetch-data` | Download CLDR/Unicode data files |
+| `pnpm convert` | Convert downloaded data to JSON |
+| `pnpm typecheck` | Run TypeScript type checking |
 
 ## Architecture
 

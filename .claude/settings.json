@@ -4,13 +4,12 @@
       "Bash(node --loader ts-node/esm:*)",
       "Bash(node -e:*)",
       "Bash(wc:*)",
-      "Bash(yarn add:*)",
-      "Bash(yarn copy-latest:*)",
-      "Bash(yarn extract-images:*)",
-      "Bash(yarn extract:*)",
-      "Bash(yarn install:*)",
-      "Bash(yarn start:*)",
-      "Bash(yarn typecheck:*)",
+      "Bash(pnpm add:*)",
+      "Bash(pnpm copy-latest:*)",
+      "Bash(pnpm extract-images:*)",
+      "Bash(pnpm install:*)",
+      "Bash(pnpm start:*)",
+      "Bash(pnpm typecheck:*)",
       "WebFetch(domain:blog.emojipedia.org)"
     ]
   }

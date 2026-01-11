@@ -21,14 +21,17 @@ jobs:
           # fetch everything
           fetch-depth: 0
 
+      - uses: pnpm/action-setup@v4
+
       - uses: actions/setup-node@v4
         with:
-          node-version: 18.x
+          node-version-file: .node-version
+          cache: pnpm
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
 
-      - run: yarn ci
+      - run: pnpm ci
 
       - run: git status
 
@@ -45,4 +48,4 @@ jobs:
           fi
 
       - name: Check emoji keys for potential new formats
-        run: yarn check-emoji-keys latest
+        run: pnpm check-emoji-keys latest
