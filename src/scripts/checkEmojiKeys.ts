@@ -13,8 +13,23 @@ const ttf = await getFontByName(fontPath, 'AppleColorEmoji');
 
 let hasErrors = 0;
 
+// Skip component/silhouette images - they're composition building blocks, not standalone emoji
+const componentRegex = /^silhouette\.|\.(?:L|R|RA)$/;
+
 try {
-  for await (const { name } of ttf.getEmojiIterator()) {
+  for await (const result of ttf.getEmojiIterator()) {
+    // Skip dupe references
+    if (result.type === 'ref') {
+      continue;
+    }
+
+    const { name } = result;
+
+    // Skip component images
+    if (componentRegex.test(name)) {
+      continue;
+    }
+
     try {
       const key = emojiNameToKey(name);
       const { char } = getMetadataForEmojiKey(key);
