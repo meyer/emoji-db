@@ -11,6 +11,12 @@
 - `src/utils/emojiNameToKey.ts` - Converts glyph names to emoji keys
 - `src/utils/getMetadataForEmojiKey.ts` - Resolves emoji metadata
 
+## Git Workflow
+
+- Commit after every distinct unit of work
+- Amend if polishing or fixing the previous commit, but only if it hasn't been pushed to main
+- Always ask before committing, pushing, or other destructive git operations
+
 ## Notes
 
 - Internal glyphs like `hiddenglyph` are filtered out in TrueTypeFont.ts

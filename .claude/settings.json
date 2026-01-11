@@ -11,6 +11,23 @@
       "Bash(pnpm start:*)",
       "Bash(pnpm typecheck:*)",
       "WebFetch(domain:blog.emojipedia.org)"
+    ],
+    "deny": [
+      "Bash(git commit:*)",
+      "Bash(git reset:*)",
+      "Bash(git push:*)",
+      "Bash(git checkout:*)",
+      "Bash(git clean:*)",
+      "Bash(git rebase:*)",
+      "Bash(git stash drop:*)",
+      "Bash(git branch -d:*)",
+      "Bash(git branch -D:*)",
+      "Bash(rm:*)",
+      "Bash(rm -r:*)",
+      "Bash(rm -rf:*)",
+      "Bash(rmdir:*)",
+      "Edit(file:.claude/**)",
+      "Write(file:.claude/**)"
     ]
   }
 }
