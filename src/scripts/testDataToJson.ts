@@ -3,6 +3,7 @@ import path from 'path';
 import stringify from 'json-stable-stringify';
 import { CACHE_DIR, DATA_DIR } from '../constants.js';
 import { codepointsToKey } from '../utils/codepointsToKey.js';
+import { invariant } from '../utils/invariant.js';
 import { sortKeyStringifyOptions } from '../utils/sortKeyStringifyOptions.js';
 import { toEmojiSortKey } from '../utils/toEmojiSortKey.js';
 
@@ -68,4 +69,6 @@ for (const lineOrig of testData.split('\n')) {
   };
 }
 
-fs.writeFileSync(path.join(DATA_DIR, 'emoji-test.json'), stringify(emojiTestData, sortKeyStringifyOptions));
+const json = stringify(emojiTestData, sortKeyStringifyOptions);
+invariant(json, 'Failed to stringify emoji test data');
+fs.writeFileSync(path.join(DATA_DIR, 'emoji-test.json'), json);

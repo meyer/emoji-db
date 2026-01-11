@@ -31,7 +31,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - run: pnpm ci
+      - run: pnpm run ci
 
       - run: git status
 
@@ -48,4 +48,4 @@ jobs:
           fi
 
       - name: Check emoji keys for potential new formats
-        run: pnpm check-emoji-keys latest
+        run: pnpm run check-emoji-keys latest

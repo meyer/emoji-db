@@ -48,7 +48,9 @@ try {
   versionSet.add(systemNicename);
   versionData[fontVersion].macosVersions = Array.from(versionSet).sort();
 
-  fs.writeFileSync(versionDataPath, stringify(versionData, { space: 2, cmp: emojiFontNameComparator }));
+  const versionJson = stringify(versionData, { space: 2, cmp: emojiFontNameComparator });
+  invariant(versionJson, 'Failed to stringify version data');
+  fs.writeFileSync(versionDataPath, versionJson);
 
   if (fs.existsSync(ttcDest)) {
     console.info('`%s` has already been copied over', ttcName);

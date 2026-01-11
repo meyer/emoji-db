@@ -117,7 +117,9 @@ try {
 
   invariant(errors.length === 0, 'Encountered %s errors: %o', errors.length, errors);
 
-  await fs.promises.writeFile(absPath, stringify(emojiDb, sortKeyStringifyOptions));
+  const json = stringify(emojiDb, sortKeyStringifyOptions);
+  invariant(json, 'Failed to stringify emoji db');
+  await fs.promises.writeFile(absPath, json);
 } catch (err) {
   console.error(err);
   await ttf.fh.close();

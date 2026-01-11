@@ -3,16 +3,20 @@
     "allow": [
       "Bash(node --loader ts-node/esm:*)",
       "Bash(node -e:*)",
-      "Bash(wc:*)",
+      "Bash(npm view:*)",
       "Bash(pnpm add:*)",
+      "Bash(pnpm check-emoji-keys:*)",
       "Bash(pnpm copy-latest:*)",
       "Bash(pnpm extract-images:*)",
       "Bash(pnpm install:*)",
+      "Bash(pnpm run ci:*)",
+      "Bash(pnpm run typecheck:*)",
       "Bash(pnpm start:*)",
       "Bash(pnpm typecheck:*)",
+      "Bash(wc:*)",
       "WebFetch(domain:blog.emojipedia.org)"
     ],
-    "deny": [
+    "ask": [
       "Bash(git commit:*)",
       "Bash(git reset:*)",
       "Bash(git push:*)",

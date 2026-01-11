@@ -82,5 +82,7 @@ for (const txtFile of [
     }
   }
 
-  fs.writeFileSync(path.join(DATA_DIR, `${basename}.json`), stringify(sequenceData, sortKeyStringifyOptions));
+  const json = stringify(sequenceData, sortKeyStringifyOptions);
+  invariant(json, 'Failed to stringify %s', basename);
+  fs.writeFileSync(path.join(DATA_DIR, `${basename}.json`), json);
 }

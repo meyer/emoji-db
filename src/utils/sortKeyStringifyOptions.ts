@@ -1,17 +1,21 @@
-import type { Options } from 'json-stable-stringify';
+import type stringify from 'json-stable-stringify';
 
-export const sortKeyStringifyOptions: Options = {
+export const sortKeyStringifyOptions: stringify.StableStringifyOptions = {
   space: 2,
-  cmp: (a, b) => {
+  cmp: (a, b, _getter) => {
+    const aVal = a.value;
+    const bVal = b.value;
     if (
-      a.value != null &&
-      b.value != null &&
-      typeof a.value === 'object' &&
-      typeof b.value === 'object' &&
-      a.value.sortKey &&
-      b.value.sortKey
+      aVal != null &&
+      bVal != null &&
+      typeof aVal === 'object' &&
+      typeof bVal === 'object' &&
+      'sortKey' in aVal &&
+      'sortKey' in bVal &&
+      typeof aVal.sortKey === 'string' &&
+      typeof bVal.sortKey === 'string'
     ) {
-      return a.value.sortKey.localeCompare(b.value.sortKey);
+      return aVal.sortKey.localeCompare(bVal.sortKey);
     }
     return a.key.localeCompare(b.key);
   },

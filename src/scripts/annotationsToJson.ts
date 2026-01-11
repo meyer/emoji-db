@@ -64,5 +64,7 @@ for (const fileName of files) {
   }
 
   const basename = path.basename(fileName, '.xml');
-  await fs.promises.writeFile(path.join(DATA_DIR, `${basename}.json`), stringify(ret, sortKeyStringifyOptions));
+  const json = stringify(ret, sortKeyStringifyOptions);
+  invariant(json, 'Failed to stringify %s', basename);
+  await fs.promises.writeFile(path.join(DATA_DIR, `${basename}.json`), json);
 }
