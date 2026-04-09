@@ -3019,6 +3019,7 @@
     "image": "images/white_exclamation_mark.png",
     "keywords": [
       "!",
+      "bang",
       "exclamation",
       "mark",
       "outlined",
@@ -3036,6 +3037,7 @@
     "image": "images/red_exclamation_mark.png",
     "keywords": [
       "!",
+      "bang",
       "exclamation",
       "mark",
       "punctuation",
@@ -3052,6 +3054,7 @@
     "fitz": null,
     "image": "images/heart_exclamation.png",
     "keywords": [
+      "bang",
       "exclamation",
       "heart",
       "heavy",
