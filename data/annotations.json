@@ -21858,6 +21858,24 @@
     ],
     "name": "landslide"
   },
+  "1f6d9": {
+    "char": "🛙",
+    "codepoints": [
+      128729
+    ],
+    "keywords": [
+      "beacon",
+      "enlightenment",
+      "guidance",
+      "hope",
+      "light",
+      "maritime",
+      "navigation",
+      "sea",
+      "signal"
+    ],
+    "name": "lighthouse"
+  },
   "1f6dc": {
     "char": "🛜",
     "codepoints": [
@@ -27651,6 +27669,54 @@
     ],
     "name": "trombone"
   },
+  "1fa8b": {
+    "char": "🪋",
+    "codepoints": [
+      129675
+    ],
+    "keywords": [
+      "apocalypse",
+      "falling",
+      "fireball",
+      "gravity",
+      "rock",
+      "space",
+      "star"
+    ],
+    "name": "meteor"
+  },
+  "1fa8c": {
+    "char": "🪌",
+    "codepoints": [
+      129676
+    ],
+    "keywords": [
+      "correction",
+      "delete",
+      "drawing",
+      "erase",
+      "error",
+      "mistake",
+      "remove",
+      "rub",
+      "undo",
+      "writing"
+    ],
+    "name": "eraser"
+  },
+  "1fa8d": {
+    "char": "🪍",
+    "codepoints": [
+      129677
+    ],
+    "keywords": [
+      "catch",
+      "collect",
+      "mesh",
+      "trap"
+    ],
+    "name": "net with handle"
+  },
   "1fa8e": {
     "char": "🪎",
     "codepoints": [
@@ -28586,6 +28652,23 @@
     ],
     "name": "hairy creature"
   },
+  "1facc": {
+    "char": "🫌",
+    "codepoints": [
+      129740
+    ],
+    "keywords": [
+      "caterpillar",
+      "change",
+      "fragile",
+      "hope",
+      "insect",
+      "metamorphosis",
+      "migration",
+      "transformation"
+    ],
+    "name": "monarch butterfly"
+  },
   "1facd": {
     "char": "🫍",
     "codepoints": [
@@ -28835,6 +28918,22 @@
     ],
     "name": "root vegetable"
   },
+  "1fadd": {
+    "char": "🫝",
+    "codepoints": [
+      129757
+    ],
+    "keywords": [
+      "brine",
+      "condiment",
+      "cucumber",
+      "ferment",
+      "gherkin",
+      "relish",
+      "trouble"
+    ],
+    "name": "pickle"
+  },
   "1fadf": {
     "char": "🫟",
     "codepoints": [
@@ -29081,6 +29180,22 @@
     ],
     "name": "distorted face"
   },
+  "1faeb": {
+    "char": "🫫",
+    "codepoints": [
+      129771
+    ],
+    "keywords": [
+      "breaking",
+      "crumbling",
+      "masking",
+      "resilience",
+      "reveal",
+      "tension",
+      "transformation"
+    ],
+    "name": "cracking face"
+  },
   "1faef": {
     "char": "🫯",
     "codepoints": [
@@ -29267,5 +29382,35 @@
       "wait"
     ],
     "name": "rightwards pushing hand"
+  },
+  "1faf9": {
+    "char": "🫹",
+    "codepoints": [
+      129785
+    ],
+    "keywords": [
+      "grip",
+      "left",
+      "neutral",
+      "point",
+      "that",
+      "this"
+    ],
+    "name": "leftwards thumb sign"
+  },
+  "1fafa": {
+    "char": "🫺",
+    "codepoints": [
+      129786
+    ],
+    "keywords": [
+      "grip",
+      "neutral",
+      "point",
+      "right",
+      "that",
+      "this"
+    ],
+    "name": "rightwards thumb sign"
   }
 }

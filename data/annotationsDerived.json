@@ -2041,7 +2041,7 @@
     "keywords": [
       "flag"
     ],
-    "name": "flag: Heard & McDonald Islands"
+    "name": "flag: Heard Island & McDonald Islands"
   },
   "1f1ed_1f1f3": {
     "char": "🇭🇳",
@@ -3185,7 +3185,7 @@
     "keywords": [
       "flag"
     ],
-    "name": "flag: St. Helena"
+    "name": "flag: St. Helena, Ascension & Tristan da Cunha"
   },
   "1f1f8_1f1ee": {
     "char": "🇸🇮",
@@ -3383,7 +3383,7 @@
     "keywords": [
       "flag"
     ],
-    "name": "flag: French Southern Territories"
+    "name": "flag: French Southern and Antarctic Lands"
   },
   "1f1f9_1f1ec": {
     "char": "🇹🇬",
@@ -49184,5 +49184,175 @@
       "wait"
     ],
     "name": "rightwards pushing hand: dark skin tone"
+  },
+  "1faf9.1": {
+    "char": "🫹🏻",
+    "codepoints": [
+      129785,
+      127995
+    ],
+    "keywords": [
+      "grip",
+      "left",
+      "light skin tone",
+      "neutral",
+      "point",
+      "that",
+      "this"
+    ],
+    "name": "leftwards thumb sign: light skin tone"
+  },
+  "1faf9.2": {
+    "char": "🫹🏼",
+    "codepoints": [
+      129785,
+      127996
+    ],
+    "keywords": [
+      "grip",
+      "left",
+      "medium-light skin tone",
+      "neutral",
+      "point",
+      "that",
+      "this"
+    ],
+    "name": "leftwards thumb sign: medium-light skin tone"
+  },
+  "1faf9.3": {
+    "char": "🫹🏽",
+    "codepoints": [
+      129785,
+      127997
+    ],
+    "keywords": [
+      "grip",
+      "left",
+      "medium skin tone",
+      "neutral",
+      "point",
+      "that",
+      "this"
+    ],
+    "name": "leftwards thumb sign: medium skin tone"
+  },
+  "1faf9.4": {
+    "char": "🫹🏾",
+    "codepoints": [
+      129785,
+      127998
+    ],
+    "keywords": [
+      "grip",
+      "left",
+      "medium-dark skin tone",
+      "neutral",
+      "point",
+      "that",
+      "this"
+    ],
+    "name": "leftwards thumb sign: medium-dark skin tone"
+  },
+  "1faf9.5": {
+    "char": "🫹🏿",
+    "codepoints": [
+      129785,
+      127999
+    ],
+    "keywords": [
+      "dark skin tone",
+      "grip",
+      "left",
+      "neutral",
+      "point",
+      "that",
+      "this"
+    ],
+    "name": "leftwards thumb sign: dark skin tone"
+  },
+  "1fafa.1": {
+    "char": "🫺🏻",
+    "codepoints": [
+      129786,
+      127995
+    ],
+    "keywords": [
+      "grip",
+      "light skin tone",
+      "neutral",
+      "point",
+      "right",
+      "that",
+      "this"
+    ],
+    "name": "rightwards thumb sign: light skin tone"
+  },
+  "1fafa.2": {
+    "char": "🫺🏼",
+    "codepoints": [
+      129786,
+      127996
+    ],
+    "keywords": [
+      "grip",
+      "medium-light skin tone",
+      "neutral",
+      "point",
+      "right",
+      "that",
+      "this"
+    ],
+    "name": "rightwards thumb sign: medium-light skin tone"
+  },
+  "1fafa.3": {
+    "char": "🫺🏽",
+    "codepoints": [
+      129786,
+      127997
+    ],
+    "keywords": [
+      "grip",
+      "medium skin tone",
+      "neutral",
+      "point",
+      "right",
+      "that",
+      "this"
+    ],
+    "name": "rightwards thumb sign: medium skin tone"
+  },
+  "1fafa.4": {
+    "char": "🫺🏾",
+    "codepoints": [
+      129786,
+      127998
+    ],
+    "keywords": [
+      "grip",
+      "medium-dark skin tone",
+      "neutral",
+      "point",
+      "right",
+      "that",
+      "this"
+    ],
+    "name": "rightwards thumb sign: medium-dark skin tone"
+  },
+  "1fafa.5": {
+    "char": "🫺🏿",
+    "codepoints": [
+      129786,
+      127999
+    ],
+    "keywords": [
+      "dark skin tone",
+      "grip",
+      "neutral",
+      "point",
+      "right",
+      "that",
+      "this"
+    ],
+    "name": "rightwards thumb sign: dark skin tone"
   }
 }
